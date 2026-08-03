@@ -28,7 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DIGESTS = REPO_ROOT / "digests"
 DOCS = REPO_ROOT / "docs"
 
-SITE_TITLE = "Rychlé zprávy"
+SITE_TITLE = "Daily News"
 
 RUBRIC_ORDER = [
     "Domov",
@@ -136,42 +136,45 @@ def plural_items(n: int) -> str:
 # ────────────────────────────────────  CSS  ─────────────────────────────────
 
 CSS = """
-/* Novinová sazba. Světlé téma je barva novinového papíru, tmavé je
-   ztlumená varianta pro čtení večer. Přepínač zapisuje data-theme na
-   <html>, jinak se řídí nastavením systému. */
+/* Novinová sazba, varianta „Vydání": hlavní zpráva dne jako otvírák pod
+   hlavičkou, klidný serif pro text, sans pro metadata a navigaci. Světlé
+   téma je barva novinového papíru, tmavé je ztlumená varianta pro čtení
+   večer. Přepínač zapisuje data-theme na <html>, jinak rozhoduje systém. */
 
 :root {
-  --paper: #f4efe3;
-  --paper-raised: #faf6ec;
-  --ink: #201d17;
-  --ink-muted: #6d6555;
-  --rule: #d2c8b3;
-  --rule-strong: #201d17;
-  --accent: #8c2f1d;
-  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+  --paper: #f7f3ea;
+  --paper-raised: #fdfaf3;
+  --ink: #221f19;
+  --ink-muted: #736a58;
+  --rule: #ddd4c2;
+  --rule-strong: #221f19;
+  --accent: #93321f;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
            "Times New Roman", "Times", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #171612;
-    --paper-raised: #1f1d18;
-    --ink: #e7e1d4;
-    --ink-muted: #9b9384;
-    --rule: #35322a;
-    --rule-strong: #6d6555;
-    --accent: #d98a72;
+    --paper: #181712;
+    --paper-raised: #201e18;
+    --ink: #e8e2d4;
+    --ink-muted: #9c9484;
+    --rule: #37342b;
+    --rule-strong: #7a7260;
+    --accent: #d98d75;
   }
 }
 
 :root[data-theme="dark"] {
-  --paper: #171612;
-  --paper-raised: #1f1d18;
-  --ink: #e7e1d4;
-  --ink-muted: #9b9384;
-  --rule: #35322a;
-  --rule-strong: #6d6555;
-  --accent: #d98a72;
+  --paper: #181712;
+  --paper-raised: #201e18;
+  --ink: #e8e2d4;
+  --ink-muted: #9c9484;
+  --rule: #37342b;
+  --rule-strong: #7a7260;
+  --accent: #d98d75;
 }
 
 * { box-sizing: border-box; }
@@ -180,7 +183,7 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  padding: 0 1.25rem 4rem;
+  padding: 0 1.4rem 4.5rem;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
@@ -190,17 +193,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.wrap { max-width: 40rem; margin: 0 auto; }
+.wrap { max-width: 44rem; margin: 0 auto; }
 
 /* ── hlavička ─────────────────────────────────────────────────────────── */
 
-.masthead { padding-top: 2.5rem; text-align: center; }
+.masthead { padding-top: 2.6rem; text-align: center; }
 
 .masthead h1 {
   margin: 0;
-  font-size: clamp(2rem, 1.3rem + 3.2vw, 3.1rem);
+  font-size: clamp(2.1rem, 1.4rem + 3.2vw, 3.1rem);
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   line-height: 1.05;
 }
@@ -208,15 +211,16 @@ body {
 .masthead h1 a { color: inherit; text-decoration: none; }
 
 .masthead .dateline {
-  margin: 0.85rem 0 0;
-  font-size: 0.8rem;
-  letter-spacing: 0.14em;
+  margin: 0.8rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-muted);
 }
 
 .rule-double {
-  margin: 1.1rem 0 0;
+  margin: 1.05rem 0 0;
   border: 0;
   border-top: 3px solid var(--rule-strong);
   border-bottom: 1px solid var(--rule-strong);
@@ -225,42 +229,71 @@ body {
 
 .meta {
   margin: 0.7rem 0 0;
-  font-size: 0.78rem;
+  font-family: var(--sans);
+  font-size: 0.76rem;
   letter-spacing: 0.04em;
   color: var(--ink-muted);
   text-align: center;
 }
 
-/* ── nejdůležitější ───────────────────────────────────────────────────── */
-
-.highlights {
-  margin: 2.2rem 0 0;
-  padding: 1.15rem 1.35rem;
-  background: var(--paper-raised);
-  border: 1px solid var(--rule);
+.issues {
+  margin: 0.45rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-muted);
+  text-align: center;
 }
 
-.highlights h2 {
-  margin: 0 0 0.6rem;
+.issues a { color: var(--ink-muted); text-decoration: none;
+  border-bottom: 1px dotted currentColor; padding-bottom: 1px; }
+.issues a:hover, .issues a:focus { color: var(--accent); }
+.issues .sep { padding: 0 0.35rem; opacity: 0.6; }
+
+/* ── otvírák ──────────────────────────────────────────────────────────── */
+
+.opener {
+  margin: 2.2rem 0 0;
+  padding-bottom: 1.9rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.opener .kicker {
+  margin: 0;
+  font-family: var(--sans);
   font-size: 0.72rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--ink-muted);
+  color: var(--accent);
   font-weight: 700;
 }
 
-.highlights ul { margin: 0; padding-left: 1.1rem; }
-.highlights li { margin: 0.32rem 0; font-style: italic; }
+.opener h2 {
+  margin: 0.5rem 0 0.7rem;
+  font-size: clamp(1.5rem, 1.2rem + 1.6vw, 2rem);
+  line-height: 1.22;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+.opener p { margin: 0; font-size: 1.06rem; }
+
+.opener .sources { margin-top: 0.7rem; font-size: 0.75rem; }
+.opener .sources a { border-bottom-color: transparent; }
+.opener .sources a:hover, .opener .sources a:focus {
+  border-bottom-color: currentColor;
+}
 
 /* ── rubriky a položky ────────────────────────────────────────────────── */
 
-.rubric { margin: 2.9rem 0 0; }
+.rubric { margin: 2.8rem 0 0; }
 
 .rubric > h2 {
   margin: 0 0 0.2rem;
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.45rem;
   border-bottom: 2px solid var(--rule-strong);
-  font-size: 0.78rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 700;
@@ -275,18 +308,19 @@ article:last-child { border-bottom: 0; }
 
 .stamp {
   display: block;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.35rem;
+  font-family: var(--sans);
   font-size: 0.72rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--ink-muted);
   font-variant-numeric: tabular-nums;
 }
 
-.stamp .flag { color: var(--accent); }
+.stamp .flag { color: var(--accent); font-weight: 600; }
 
 article h3 {
   margin: 0 0 0.45rem;
-  font-size: 1.16em;
+  font-size: 1.22rem;
   line-height: 1.32;
   font-weight: 700;
 }
@@ -295,7 +329,8 @@ article p { margin: 0; }
 
 .sources {
   margin-top: 0.6rem;
-  font-size: 0.82rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
   color: var(--ink-muted);
 }
 
@@ -320,7 +355,8 @@ article p { margin: 0; }
   margin-top: 3rem;
   padding-top: 1.1rem;
   border-top: 1px solid var(--rule);
-  font-size: 0.85rem;
+  font-family: var(--sans);
+  font-size: 0.84rem;
 }
 
 .pager a { color: var(--accent); text-decoration: none; }
@@ -330,12 +366,14 @@ footer {
   margin-top: 2.5rem;
   padding-top: 1.1rem;
   border-top: 3px double var(--rule-strong);
-  font-size: 0.78rem;
+  font-family: var(--sans);
+  font-size: 0.76rem;
   color: var(--ink-muted);
 }
 
 footer p { margin: 0.35rem 0; }
 footer .warn { font-style: italic; }
+footer a { color: var(--accent); }
 
 /* ── přepínač témat ───────────────────────────────────────────────────── */
 
@@ -344,17 +382,20 @@ footer .warn { font-style: italic; }
   top: 0.85rem;
   right: 0.85rem;
   z-index: 10;
-  padding: 0.4rem 0.7rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   background: var(--paper-raised);
   color: var(--ink-muted);
   border: 1px solid var(--rule);
-  border-radius: 999px;
-  font-family: var(--serif);
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  border-radius: 50%;
   cursor: pointer;
 }
+
+.theme-toggle svg { width: 1.05rem; height: 1.05rem; display: block; }
 
 .theme-toggle:hover { color: var(--ink); border-color: var(--rule-strong); }
 
@@ -373,21 +414,26 @@ footer .warn { font-style: italic; }
 
 .archive a { color: var(--ink); text-decoration: none; font-weight: 700; }
 .archive a:hover { color: var(--accent); }
-.archive .count { font-size: 0.8rem; color: var(--ink-muted); }
+.archive .count {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
 
 /* ── mobil ────────────────────────────────────────────────────────────── */
 
-@media (max-width: 32rem) {
+@media (max-width: 34rem) {
   body { padding: 0 1rem 3rem; line-height: 1.58; }
   .masthead { padding-top: 3.25rem; }
   .masthead h1 { letter-spacing: 0.03em; }
-  .highlights { padding: 1rem 1.1rem; }
+  .opener h2 { font-size: 1.45rem; }
   .rubric { margin-top: 2.3rem; }
+  article h3 { font-size: 1.14rem; }
   .pager { flex-direction: column; }
 }
 
 @media print {
-  .theme-toggle, .pager { display: none; }
+  .theme-toggle, .pager, .issues { display: none; }
   body { background: #fff; color: #000; }
 }
 """
@@ -399,22 +445,34 @@ THEME_JS = """
   try { stored = localStorage.getItem('theme'); } catch (e) {}
   if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
 
+  var SVG_ATTRS = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ' +
+    'fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var SUN = '<svg ' + SVG_ATTRS + '><circle cx="12" cy="12" r="4"/>' +
+    '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41' +
+    'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+  var MOON = '<svg ' + SVG_ATTRS + '>' +
+    '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
   document.addEventListener('DOMContentLoaded', function () {
     var btn = document.querySelector('.theme-toggle');
     if (!btn) return;
-    function label() {
-      var dark = root.getAttribute('data-theme') === 'dark' ||
+    function isDark() {
+      return root.getAttribute('data-theme') === 'dark' ||
         (!root.getAttribute('data-theme') &&
          window.matchMedia('(prefers-color-scheme: dark)').matches);
-      btn.textContent = dark ? 'Světlý režim' : 'Tmavý režim';
+    }
+    function label() {
+      var dark = isDark();
+      btn.innerHTML = dark ? SUN : MOON;
+      var text = dark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
       btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
     }
     label();
     btn.addEventListener('click', function () {
-      var dark = root.getAttribute('data-theme') === 'dark' ||
-        (!root.getAttribute('data-theme') &&
-         window.matchMedia('(prefers-color-scheme: dark)').matches);
-      var next = dark ? 'light' : 'dark';
+      var next = isDark() ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
       try { localStorage.setItem('theme', next); } catch (e) {}
       label();
@@ -440,7 +498,7 @@ def page(title: str, body: str, *, depth_prefix: str = "") -> str:
 <script>{THEME_JS}</script>
 </head>
 <body>
-<button class="theme-toggle" type="button">Tmavý režim</button>
+<button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
 <div class="wrap">
 {body}
 </div>
@@ -457,46 +515,68 @@ def render_sources(sources: list[dict]) -> str:
     return '<span class="sep">·</span>'.join(links)
 
 
+def cross_flag(item: dict) -> str:
+    if not item.get("cross_source"):
+        return ""
+    n = len(item["sources"])
+    return f"{n} zdroje" if n < 5 else f"{n} zdrojů"
+
+
 def render_item(item: dict) -> str:
-    flag = ""
-    if item.get("cross_source"):
-        n = len(item["sources"])
-        flag = f' <span class="flag">· {n} zdroje</span>' if n < 5 \
-            else f' <span class="flag">· {n} zdrojů</span>'
+    flag = cross_flag(item)
+    flag_html = f' <span class="flag">· {esc(flag)}</span>' if flag else ""
     return f"""<article>
-<span class="stamp">{esc(item["time"])}{flag}</span>
+<span class="stamp">{esc(item["time"])}{flag_html}</span>
 <h3>{esc(item["headline"])}</h3>
 <p>{esc(item["body"])}</p>
 <p class="sources">{render_sources(item["sources"])}</p>
 </article>"""
 
 
+def render_opener(item: dict) -> str:
+    flag = cross_flag(item)
+    kicker = f'{esc(item["rubric"])} · {esc(item["time"])}'
+    if flag:
+        kicker += f" · {esc(flag)}"
+    return f"""<section class="opener">
+<p class="kicker">{kicker}</p>
+<h2>{esc(item["headline"])}</h2>
+<p>{esc(item["body"])}</p>
+<p class="sources">{render_sources(item["sources"])}</p>
+</section>"""
+
+
 def render_digest(data: dict, prev: str | None, nxt: str | None,
-                  *, is_index: bool) -> str:
+                  recent: list[str], *, is_index: bool) -> str:
     items = data["items"]
     parts: list[str] = []
+
+    # Otvírák: zpráva doložená nejvíce zdroji. Při shodě vyhrává první
+    # v pořadí digestu, které řadí důležitost redakčně.
+    opener = max(items, key=lambda i: len(i["sources"]))
+    rest = [i for i in items if i is not opener]
+
+    issues = ""
+    if recent:
+        links = '<span class="sep">·</span>'.join(
+            f'<a href="{esc(d)}.html">{esc(short_date(d))}</a>' for d in recent
+        )
+        issues = (f'\n<nav class="issues">Starší vydání: {links}'
+                  f'<span class="sep">·</span>'
+                  f'<a href="archiv.html">celý archiv</a></nav>')
 
     home = "index.html"
     parts.append(f"""<header class="masthead">
 <h1><a href="{home}">{esc(SITE_TITLE)}</a></h1>
 <p class="dateline">{esc(long_date(data["date"]))}</p>
 <hr class="rule-double">
-<p class="meta">{esc(plural_items(len(items)))} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; {esc(" · ".join(data.get("sources_used") or []))}</p>
+<p class="meta">{esc(plural_items(len(items)))} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; {esc(" · ".join(data.get("sources_used") or []))}</p>{issues}
 </header>""")
 
-    if data.get("highlights"):
-        bullets = "\n".join(
-            f"<li>{esc(h)}</li>" for h in data["highlights"]
-        )
-        parts.append(f"""<section class="highlights">
-<h2>Nejdůležitější</h2>
-<ul>
-{bullets}
-</ul>
-</section>""")
+    parts.append(render_opener(opener))
 
     for rubric in RUBRIC_ORDER:
-        group = [i for i in items if i["rubric"] == rubric]
+        group = [i for i in rest if i["rubric"] == rubric]
         if not group:
             continue
         body = "\n".join(render_item(i) for i in group)
@@ -596,10 +676,15 @@ def main() -> int:
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
 
     dates = [d["date"] for d in digests]
+
+    def recent_before(idx: int) -> list[str]:
+        """Až tři vydání předcházející tomu na pozici idx, nejnovější první."""
+        return list(reversed(dates[max(0, idx - 3):idx]))
+
     for idx, data in enumerate(digests):
         prev = dates[idx - 1] if idx > 0 else None
         nxt = dates[idx + 1] if idx + 1 < len(dates) else None
-        body = render_digest(data, prev, nxt, is_index=False)
+        body = render_digest(data, prev, nxt, recent_before(idx), is_index=False)
         (DOCS / f"{data['date']}.html").write_text(
             page(f"{SITE_TITLE} · {long_date(data['date'])}", body),
             encoding="utf-8",
@@ -610,7 +695,8 @@ def main() -> int:
     (DOCS / "index.html").write_text(
         page(
             f"{SITE_TITLE} · {long_date(latest['date'])}",
-            render_digest(latest, prev, None, is_index=True),
+            render_digest(latest, prev, None, recent_before(len(dates) - 1),
+                          is_index=True),
         ),
         encoding="utf-8",
     )

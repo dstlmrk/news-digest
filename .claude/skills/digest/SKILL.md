@@ -11,6 +11,12 @@ zdroj pravdy — HTML nikdy needituj ručně.
 
 Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 
+> **ŽELEZNÉ PRAVIDLO (viz `CLAUDE.md`): nic si nevymýšlej.** Každé tvrzení
+> v `headline`, `body` i `highlights` musí být doslova doložené ve
+> `feed.json` nebo v článku, který jsi v tomto běhu otevřel a přečetl.
+> Každé `url` je kopie pole `link`, nikdy vlastní konstrukce. Co nemáš
+> ve zdroji, do JSONu nepatří — bez výjimky.
+
 ## Schéma
 
 ```json
@@ -57,9 +63,9 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 | `rubric` | ano | Přesně jedna z: `Domov`, `Svět`, `Ekonomika`, `Společnost a kultura`, `Za pozornost`, `Sport`. Jiná hodnota build skript zastaví. |
 | `time` | ano | `HH:MM`, čas vydání z pole `published` přepočtený na Europe/Prague. U témat z více zdrojů čas nejnovějšího. |
 | `headline` | ano | Celá věta, která říká, co se stalo. Bez tečky na konci. |
-| `body` | ano | 1–3 věty, u důležitých zpráv 4–8. Prostý text, jeden odstavec, bez Markdownu a bez odrážek. |
+| `body` | ano | 1–3 věty, u důležitých zpráv 4–8. Prostý text, jeden odstavec, bez Markdownu a bez odrážek. **Jen fakta doložená ve zdroji — nic z paměti, nic domyšleného.** |
 | `cross_source` | ne | `true`, když téma přišlo z více portálů (`source_count` > 1). Web to označí. |
-| `sources` | ano | Alespoň jeden zdroj. `name` z pole `source_name`, `url` **zkopírovaný** z pole `link`. |
+| `sources` | ano | Alespoň jeden zdroj. `name` z pole `source_name`, `url` **zkopírovaný** z pole `link`. **Nikdy URL neskládej, nezkracuj ani neopravuj** — vymyšlený odkaz je horší než žádná zpráva. |
 
 ## Pořadí a rubriky
 

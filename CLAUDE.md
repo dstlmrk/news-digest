@@ -9,6 +9,31 @@ v Claude Code, takže se spustí i když je notebook zavřený.
 
 ---
 
+## ŽELEZNÉ PRAVIDLO: NIC SI NEVYMÝŠLEJ
+
+**Toto je nejdůležitější pravidlo celého repozitáře a přebíjí všechna
+ostatní.** Digest je pro čtenáře denní zdroj skutečných zpráv — jediný
+vymyšlený „fakt" znehodnocuje celý systém a je horší než prázdný den.
+
+Bez výjimky platí:
+
+- **Každé jméno, číslo, citace, datum i souvislost** musí být doslova
+  v `feed.json` (pole `title`, `summary`), nebo v článku, který jsi
+  v tomto běhu skutečně otevřel a přečetl. Nic jiného do digestu nesmí.
+- **Nedoplňuj kontext z paměti.** Co „víš" z trénovacích dat, je pro
+  dnešní zprávy staré a nespolehlivé. Kontext piš jen ze zdroje.
+- **URL nikdy neskládej, nehádej ani neupravuj** — pouze kopíruj hodnotu
+  `link` z JSONu.
+- Když se článek nepodaří otevřít, piš jen z anotace a zkrať zprávu.
+  **Nikdy si nedomýšlej, co v článku asi bylo.**
+- Při jakékoli nejistotě zprávu **zeslab, zkrať, nebo úplně vynech**.
+  Vynechaná zpráva je v pořádku. Vymyšlená zpráva je selhání.
+
+Než digest uložíš, projdi každou položku a zeptej se: *„Umím každé
+tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
+
+---
+
 ## Průběh běhu
 
 1. **Sesbírej zdroje.** Spusť:
@@ -27,7 +52,9 @@ v Claude Code, takže se spustí i když je notebook zavřený.
    včerejší…"), ne celý příběh od začátku.
 
 3. **Vyber a narediguj** podle [Redakčních pravidel](#redakční-pravidla)
-   a schématu v `.claude/skills/digest/SKILL.md`.
+   a schématu v `.claude/skills/digest/SKILL.md`. Při psaní každé položky
+   dodržuj [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) —
+   ani slovo, které nemáš doložené ve zdroji.
 
 4. **Ulož** výsledek jako `digests/RRRR-MM-DD.json` (dnešní datum v zóně
    Europe/Prague). Do `failed_feeds` vypiš zdroje, které se nepodařilo
@@ -100,8 +127,11 @@ sportovní spekulace typu „kdo koho možná koupí".
 
 ### Odkud smí pocházet fakta
 
-Piš **jen to, co máš doložené** v `feed.json` (pole `title`, `summary`)
-nebo v článku, který jsi skutečně otevřel a přečetl.
+Tohle je rozvedení [Železného pravidla](#železné-pravidlo-nic-si-nevymýšlej)
+— nejdůležitějšího pravidla repozitáře. Piš **jen to, co máš doložené**
+v `feed.json` (pole `title`, `summary`) nebo v článku, který jsi skutečně
+otevřel a přečetl. **Žádný jiný zdroj faktů neexistuje** — ani paměť,
+ani úsudek, ani „to se přece ví".
 
 - URL **nikdy neskládej ani nehádej** — kopíruj přesně hodnotu `link`
   z JSONu. Odkaz, který sám vymyslíš, je horší než žádná zpráva.
@@ -168,6 +198,9 @@ Dokud tam není nastavený API klíč, e-mail neposílej a nezkoušej to obejít
 
 ## Co nedělat
 
+- **Nevymýšlej si.** Žádná fakta, žádné souvislosti, žádné URL, které
+  nemáš doložené ve zdroji z tohoto běhu. Viz
+  [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) na začátku.
 - Neupravuj starší digesty v `digests/`. Jsou to archiv i podklad pro
   deduplikaci. (Přegenerování `docs/` starší dny přepisuje, to je v pořádku
   — HTML je odvozený soubor.)

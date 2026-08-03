@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rychlé zprávy · pondělí 3. srpna 2026</title>
+<title>Daily News · pondělí 3. srpna 2026</title>
 <meta name="color-scheme" content="light dark">
 <meta name="description" content="Denní přehled zpráv z důvěryhodných českých zdrojů.">
 <link rel="stylesheet" href="assets/style.css">
@@ -14,22 +14,34 @@
   try { stored = localStorage.getItem('theme'); } catch (e) {}
   if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
 
+  var SVG_ATTRS = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ' +
+    'fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var SUN = '<svg ' + SVG_ATTRS + '><circle cx="12" cy="12" r="4"/>' +
+    '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41' +
+    'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+  var MOON = '<svg ' + SVG_ATTRS + '>' +
+    '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
   document.addEventListener('DOMContentLoaded', function () {
     var btn = document.querySelector('.theme-toggle');
     if (!btn) return;
-    function label() {
-      var dark = root.getAttribute('data-theme') === 'dark' ||
+    function isDark() {
+      return root.getAttribute('data-theme') === 'dark' ||
         (!root.getAttribute('data-theme') &&
          window.matchMedia('(prefers-color-scheme: dark)').matches);
-      btn.textContent = dark ? 'Světlý režim' : 'Tmavý režim';
+    }
+    function label() {
+      var dark = isDark();
+      btn.innerHTML = dark ? SUN : MOON;
+      var text = dark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
       btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
     }
     label();
     btn.addEventListener('click', function () {
-      var dark = root.getAttribute('data-theme') === 'dark' ||
-        (!root.getAttribute('data-theme') &&
-         window.matchMedia('(prefers-color-scheme: dark)').matches);
-      var next = dark ? 'light' : 'dark';
+      var next = isDark() ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
       try { localStorage.setItem('theme', next); } catch (e) {}
       label();
@@ -39,32 +51,24 @@
 </script>
 </head>
 <body>
-<button class="theme-toggle" type="button">Tmavý režim</button>
+<button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
 <div class="wrap">
 <header class="masthead">
-<h1><a href="index.html">Rychlé zprávy</a></h1>
+<h1><a href="index.html">Daily News</a></h1>
 <p class="dateline">pondělí 3. srpna 2026</p>
 <hr class="rule-double">
 <p class="meta">22 zpráv &nbsp;·&nbsp; okno 24 h &nbsp;·&nbsp; iROZHLAS · ČT24 · ČT Sport · Deník N · Seznam Zprávy · E15</p>
 </header>
 
-<section class="highlights">
-<h2>Nejdůležitější</h2>
-<ul>
-<li>Bitcoinová kauza jde k soudu, žalobkyně chce pro exministra Blažka 6,5 roku a pro Jiřikovského souhrnných 20 let. Obžalovaní vinu odmítají.</li>
-<li>Deník N zjistil, že se Babiš letos dvakrát sešel s Pavlem Tykačem a řeč byla i o výkupu akcií ČEZ.</li>
-<li>Trump ohlásil obnovení jednání s Íránem, Teherán ale tvrdí, že žádné rozhovory nevede.</li>
-</ul>
+<section class="opener">
+<p class="kicker">Domov · 12:59 · 5 zdrojů</p>
+<h2>Bitcoinová kauza míří k soudu, žalobkyně chce pro Blažka 6,5 roku vězení</h2>
+<p>Vrchní státní zastupitelství v Olomouci podalo u Krajského soudu v Brně obžalobu na čtyři lidi: dárce bitcoinů Tomáše Jiřikovského, exministra spravedlnosti Pavla Blažka, jeho tehdejšího náměstka Radomíra Daňhela a advokáta Kárima Titze. Pro Blažka i Daňhela žalobkyně požaduje šest a půl roku vězení, pro Titze osm let a pro Jiřikovského souhrnný trest dvaceti let. Všichni tři obžalovaní, kteří se vyjádřili, vinu odmítají: Blažek uvedl, že se nepovažuje za vinného a že se dosud neprokázalo, odkud bitcoiny pocházejí, Daňhel tvrdí, že obžaloba nemá oporu ve vyšetřování, a Titz kritizuje postup policie a žalobců. Podle žalobce byl případ mimořádný nasazením sil i dokazováním v kyberprostoru a dohodu o vině a trestu neuzavřel nikdo ze stíhaných.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/bitcoinova-kauza-miri-k-soudu-statni-zastupkyne-obzalovala-ctyri-osoby-376207" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/zalobkyne-podala-obzalobu-na-ctyri-lidi-kvuli-bitcoinove-kauze_2608031052_mst" rel="noopener">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobkyne-zada-pro-jirikovskeho-souhrnny-trest-20-let-vezeni-312280" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144838/" rel="noopener">Deník N</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/politika/bitcoinova-kauza-miri-k-soudu-blazkovi-zalobkyne-navrhuje-6-5-roku-vezeni-1434707" rel="noopener">E15</a></p>
 </section>
 
 <section class="rubric">
 <h2>Domov</h2>
-<article>
-<span class="stamp">12:59 <span class="flag">· 5 zdrojů</span></span>
-<h3>Bitcoinová kauza míří k soudu, žalobkyně chce pro Blažka 6,5 roku vězení</h3>
-<p>Vrchní státní zastupitelství v Olomouci podalo u Krajského soudu v Brně obžalobu na čtyři lidi: dárce bitcoinů Tomáše Jiřikovského, exministra spravedlnosti Pavla Blažka, jeho tehdejšího náměstka Radomíra Daňhela a advokáta Kárima Titze. Pro Blažka i Daňhela žalobkyně požaduje šest a půl roku vězení, pro Titze osm let a pro Jiřikovského souhrnný trest dvaceti let. Všichni tři obžalovaní, kteří se vyjádřili, vinu odmítají: Blažek uvedl, že se nepovažuje za vinného a že se dosud neprokázalo, odkud bitcoiny pocházejí, Daňhel tvrdí, že obžaloba nemá oporu ve vyšetřování, a Titz kritizuje postup policie a žalobců. Podle žalobce byl případ mimořádný nasazením sil i dokazováním v kyberprostoru a dohodu o vině a trestu neuzavřel nikdo ze stíhaných.</p>
-<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/bitcoinova-kauza-miri-k-soudu-statni-zastupkyne-obzalovala-ctyri-osoby-376207" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/zalobkyne-podala-obzalobu-na-ctyri-lidi-kvuli-bitcoinove-kauze_2608031052_mst" rel="noopener">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobkyne-zada-pro-jirikovskeho-souhrnny-trest-20-let-vezeni-312280" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144838/" rel="noopener">Deník N</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/politika/bitcoinova-kauza-miri-k-soudu-blazkovi-zalobkyne-navrhuje-6-5-roku-vezeni-1434707" rel="noopener">E15</a></p>
-</article>
 <article>
 <span class="stamp">05:48</span>
 <h3>Babiš se letos dvakrát sešel s Tykačem, řeč byla i o výkupu akcií ČEZ</h3>
