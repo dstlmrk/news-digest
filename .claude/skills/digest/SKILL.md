@@ -28,7 +28,7 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
   "weather": {
     "place": "Hradec Králové",
     "icon": "cloudy",
-    "summary": "Zataženo, 18 až 34 °C, beze srážek. Kvalita ovzduší zhoršená.",
+    "summary": "Zataženo a horko, přes den až 34 °C, beze srážek. Kvalita ovzduší zhoršená.",
     "outlook": "V úterý vedro až 38 °C, ve čtvrtek přijdou přeháňky a ochlazení na 28 °C."
   },
   "highlights": [

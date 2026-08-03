@@ -53,8 +53,11 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    ```
 
    Z výstupu napiš pole `weather` (formát v SKILL.md): `summary` shrne
-   dnešek jednou až dvěma větami (charakter počasí, min/max teplota,
-   případně srážky, silný vítr nebo zhoršené ovzduší). `outlook` vyplň
+   dnešek jednou až dvěma větami — charakter počasí a **denní teplotu**
+   (`temp_max_c`, tedy „přes den až 34 °C", ne rozpětí „18 až 34 °C";
+   minimum je noční teplota a zmiň ho jen, když je samo podstatné —
+   mráz, tropická noc), případně srážky, silný vítr nebo zhoršené
+   ovzduší. `outlook` vyplň
    **jen tehdy**, když se v dalších dnech blíží něco výrazného — vedra
    nad 30 °C, silné bouřky, vydatný déšť, špatná kvalita ovzduší; jinak
    ho vynech. Piš výhradně hodnoty ze souboru —
