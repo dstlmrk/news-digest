@@ -119,7 +119,14 @@ body {
   padding: 0.95rem 1.15rem;
   background: var(--paper-raised);
   border: 1px solid var(--rule);
+  display: flex;
+  align-items: center;
+  gap: 1.05rem;
 }
+
+.weather .w-icon { flex: none; color: var(--accent); }
+.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
+.weather .w-text { min-width: 0; }
 
 .weather .kicker {
   margin: 0 0 0.4rem;

@@ -71,6 +71,25 @@ WMO_CODES = {
     99: "silné bouřky s kroupami",
 }
 
+# WMO kód -> název ikony, kterou umí vykreslit build_site.py.
+def icon_for_code(code: int) -> str:
+    if code == 0:
+        return "clear"
+    if code in (1, 2):
+        return "partly"
+    if code == 3:
+        return "cloudy"
+    if code in (45, 48):
+        return "fog"
+    if 51 <= code <= 67 or 80 <= code <= 82:
+        return "rain"
+    if 71 <= code <= 77 or code in (85, 86):
+        return "snow"
+    if code >= 95:
+        return "storm"
+    return "cloudy"
+
+
 # Evropský index kvality ovzduší (EAQI) -> slovní hodnocení.
 EAQI_LEVELS = [
     (20, "dobrá"),
@@ -106,6 +125,7 @@ def build_days(daily: dict) -> list[dict]:
                 "weekday": WEEKDAYS[d.weekday()],
                 "is_today": i == 0,
                 "description": WMO_CODES.get(code, f"kód {code}"),
+                "icon": icon_for_code(code),
                 "temp_min_c": daily["temperature_2m_min"][i],
                 "temp_max_c": daily["temperature_2m_max"][i],
                 "precipitation_mm": daily["precipitation_sum"][i],

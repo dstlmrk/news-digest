@@ -159,6 +159,13 @@ sportovní spekulace typu „kdo koho možná koupí".
 - **Root.cz** — hodně nízkoúrovňových témat (kernel, distribuce,
   vydání knihoven), která mě většinou nezajímají. Vybírej hlavně AI
   a širší softwarové či bezpečnostní dění.
+- **Claude Blog** — oficiální blog Claude/Anthropic, anglicky. Feed
+  vzniká čtením výpisu blogu, takže položky mají jen titulek a datum
+  (čas je technicky doplněný na 23:59, převezmi ho tak, jak je) a žádnou
+  anotaci: k napsání zprávy **otevři článek**; když se to nepodaří,
+  drž se titulku. Větší změny (nový model, zásadní funkce, změny cen
+  či podmínek) klidně rovnou shrň podrobněji podle pravidla „Kdy psát
+  delší text". Marketingové drobnosti a případovky vynech.
 - **Sport.cz** — široký záběr včetně bulváru a spekulací; ber výsledky
   a podstatné události.
 - **Hradecký deník, iDNES Hradec, Hradecká drbna** — zdroje rubriky

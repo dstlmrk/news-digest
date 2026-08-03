@@ -53,7 +53,8 @@ strukturu výstupu v `SKILL.md`, sazbu webu v `scripts/build_site.py`
 
 iROZHLAS · ČT24 / ČT Sport · Deník N (včetně proudu „minuta") ·
 Seznam Zprávy · E15 · Voxpot · Sport.cz · Root.cz · Hacker News ·
-Hradecký deník · iDNES Hradec · Hradecká drbna
+Claude Blog (parsuje se HTML výpis, blog nemá RSS) · Hradecký deník ·
+iDNES Hradec · Hradecká drbna
 
 Počasí pro Hradec Králové z Open-Meteo (bez API klíče).
 

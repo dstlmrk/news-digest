@@ -82,9 +82,14 @@ def validate(data: dict, path: Path) -> None:
     if weather is not None:
         if not isinstance(weather, dict) or not weather.get("summary"):
             fail("weather musí být objekt s neprázdným polem 'summary'")
-        for key in ("summary", "outlook", "place"):
+        for key in ("summary", "outlook", "place", "icon"):
             if key in weather and not isinstance(weather[key], str):
                 fail(f"weather.{key} musí být řetězec")
+        if "icon" in weather and weather["icon"] not in WEATHER_ICONS:
+            fail(
+                f"weather.icon '{weather['icon']}' neznám, povolené jsou "
+                f"{', '.join(sorted(WEATHER_ICONS))}"
+            )
 
     for idx, item in enumerate(data["items"], start=1):
         where = f"items[{idx}]"
@@ -274,7 +279,14 @@ body {
   padding: 0.95rem 1.15rem;
   background: var(--paper-raised);
   border: 1px solid var(--rule);
+  display: flex;
+  align-items: center;
+  gap: 1.05rem;
 }
+
+.weather .w-icon { flex: none; color: var(--accent); }
+.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
+.weather .w-text { min-width: 0; }
 
 .weather .kicker {
   margin: 0 0 0.4rem;
@@ -660,14 +672,58 @@ def render_opener(item: dict, rid: str) -> str:
 </section>"""
 
 
+# Čárové ikony počasí (Lucide, licence ISC), stroke dědí currentColor.
+_W_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
+          'fill="none" stroke="currentColor" stroke-width="1.7" '
+          'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">')
+
+WEATHER_ICONS = {
+    "clear": (
+        '<circle cx="12" cy="12" r="4"/>'
+        '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41'
+        'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>'
+    ),
+    "partly": (
+        '<path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/>'
+        '<path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/>'
+        '<path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/>'
+        '<path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/>'
+    ),
+    "cloudy": '<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>',
+    "fog": (
+        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
+        '<path d="M16 17H7"/><path d="M17 21H9"/>'
+    ),
+    "rain": (
+        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
+        '<path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/>'
+    ),
+    "snow": (
+        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
+        '<path d="M8 15h.01"/><path d="M8 19h.01"/><path d="M12 17h.01"/>'
+        '<path d="M12 21h.01"/><path d="M16 15h.01"/><path d="M16 19h.01"/>'
+    ),
+    "storm": (
+        '<path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/>'
+        '<path d="m13 12-3 5h4l-3 5"/>'
+    ),
+}
+
+
 def render_weather(weather: dict) -> str:
     place = weather.get("place") or "Hradec Králové"
     outlook = ""
     if weather.get("outlook"):
         outlook = f'\n<p class="outlook">{esc(weather["outlook"])}</p>'
-    return f"""<section class="weather">
+    icon = ""
+    if weather.get("icon") in WEATHER_ICONS:
+        icon = (f'\n<div class="w-icon">{_W_SVG}'
+                f'{WEATHER_ICONS[weather["icon"]]}</svg></div>')
+    return f"""<section class="weather">{icon}
+<div class="w-text">
 <p class="kicker">Počasí · {esc(place)}</p>
 <p>{esc(weather["summary"])}</p>{outlook}
+</div>
 </section>"""
 
 

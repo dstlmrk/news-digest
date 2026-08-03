@@ -10,6 +10,8 @@
 # kind    = "breaking" (běžné zpravodajství) | "longform" (analýzy, komentáře)
 # assume_tz = IANA zóna pro feedy, které posílají pubDate bez časové zóny
 #           (jinak se předpokládá UTC).
+# type    = "claude_blog" pro claude.com/blog (parsuje se HTML výpis,
+#           protože blog nemá RSS). Bez type se čte jako RSS/Atom.
 
 [settings]
 # Časové okno, ze kterého se berou zprávy (v hodinách).
@@ -120,6 +122,18 @@ url = "https://hnrss.org/frontpage?points=100"
 section = "tech"
 kind = "breaking"
 weight = 1.0
+
+# Oficiální blog Claude/Anthropic. Nemá RSS — položky se parsují z HTML
+# výpisu (type = "claude_blog"). Nesou jen titulek a datum bez času a bez
+# anotace, k napsání zprávy je potřeba otevřít článek.
+[[feeds]]
+source = "claudeblog"
+name = "Claude Blog"
+url = "https://claude.com/blog"
+section = "tech"
+kind = "breaking"
+weight = 1.1
+type = "claude_blog"
 
 
 # ────────────────────────────  HRADEC KRÁLOVÉ  ──────────────────────────────

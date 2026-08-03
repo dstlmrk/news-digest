@@ -219,6 +219,78 @@ def parse_feed(raw: bytes, feed: dict) -> list[dict]:
     return items
 
 
+# ────────────────────────────  Claude Blog (HTML)  ──────────────────────────
+
+# claude.com/blog nemá RSS. Hlavní grid výpisu ale u každého článku nese
+# skrytý metadatový blok (fs-list-field="heading" / "date") následovaný
+# odkazem, úvodní karusel má bloky role="listitem" s <h2> a datem.
+
+EN_MONTHS = {
+    "January": 1, "February": 2, "March": 3, "April": 4, "May": 5,
+    "June": 6, "July": 7, "August": 8, "September": 9, "October": 10,
+    "November": 11, "December": 12,
+}
+
+BLOG_DATE_RE = re.compile(r">([A-Z][a-z]+) (\d{1,2}), (\d{4})<")
+
+
+def parse_claude_blog(raw: bytes, feed: dict) -> list[dict]:
+    text = raw.decode("utf-8", "replace")
+    base = "https://claude.com"
+    by_link: dict[str, dict] = {}
+
+    def add(title: str, date_m: re.Match, link_path: str) -> None:
+        month = EN_MONTHS.get(date_m.group(1))
+        if not month or not title:
+            return
+        # Výpis nese jen datum bez času. Bereme konec dne, aby článek
+        # zůstal ve 24h okně v den vydání i den poté (opakování řeší
+        # deduplikace proti minulým digestům).
+        published = datetime(
+            int(date_m.group(3)), month, int(date_m.group(2)), 23, 59,
+            tzinfo=ZoneInfo("Europe/Prague"),
+        ).astimezone(timezone.utc)
+        link = base + link_path
+        by_link.setdefault(
+            link,
+            {
+                "source": feed["source"],
+                "source_name": feed["name"],
+                "section": feed.get("section", "tech"),
+                "kind": feed.get("kind", "breaking"),
+                "weight": float(feed.get("weight", 1.0)),
+                "title": title,
+                "link": link,
+                "published": published.isoformat(),
+                "summary": "",
+                "categories": [],
+            },
+        )
+
+    # Hlavní grid (skrytá metadata). Chunk se ořezává, aby se titulek
+    # nespároval s datem a odkazem následujícího článku.
+    for chunk in text.split('fs-list-field="heading"')[1:]:
+        chunk = chunk[:4000]
+        m_title = re.match(r">(.*?)</div>", chunk, re.S)
+        m_date = re.search(
+            r'fs-list-field="date">([A-Z][a-z]+) (\d{1,2}), (\d{4})<', chunk
+        )
+        m_link = re.search(r'href="(/blog/[^"#?]+)"', chunk)
+        if m_title and m_date and m_link:
+            add(strip_html(m_title.group(1)), m_date, m_link.group(1))
+
+    # Úvodní karusel.
+    for block in text.split('role="listitem"')[1:]:
+        block = block[:4000]
+        m_title = re.search(r"<h2[^>]*>(.*?)</h2>", block, re.S)
+        m_date = BLOG_DATE_RE.search(block)
+        m_link = re.search(r'href="(/blog/[^"#?]+)"', block)
+        if m_title and m_date and m_link:
+            add(strip_html(m_title.group(1)), m_date, m_link.group(1))
+
+    return list(by_link.values())
+
+
 # ─────────────────────────────────  clustering  ─────────────────────────────
 
 
@@ -333,8 +405,12 @@ def main() -> int:
     feed_status: list[dict] = []
 
     def work(feed: dict) -> tuple[dict, list[dict] | None, str | None]:
+        parser = (
+            parse_claude_blog if feed.get("type") == "claude_blog"
+            else parse_feed
+        )
         try:
-            return feed, parse_feed(fetch(feed["url"], timeout), feed), None
+            return feed, parser(fetch(feed["url"], timeout), feed), None
         except (urllib.error.URLError, ET.ParseError, OSError) as exc:
             return feed, None, f"{type(exc).__name__}: {exc}"
 
