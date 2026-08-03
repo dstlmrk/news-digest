@@ -9,6 +9,30 @@ v Claude Code, takže se spustí i když je notebook zavřený.
 
 ---
 
+## Co vydání pokrývá
+
+Routina běží **ráno kolem 9:00** (Europe/Prague) a bere 24hodinové okno.
+Vydání tedy shrnuje **minulý den** a k tomu **ranní zprávy dne, kdy běží**.
+Není to „přehled dneška" — dnešní den ještě prakticky nezačal.
+
+Z toho plyne pro celý digest:
+
+- **Pokrytý den je minulý den.** Píšeš o něm jako o dni, který skončil.
+  Web se tímhle dnem datuje (pole `covers`, viz `SKILL.md`).
+- **Nepiš „dnes"** o dění z pokrytého dne. Použij „v pondělí",
+  „včera odpoledne", nebo čas vynech. Slovo „dnes" si nech jen pro
+  zprávy skutečně vydané dnes ráno, a i tam radši napiš „dnes ráno".
+- **Zprávy z dnešního rána označ** `"day": "issue"` (viz `SKILL.md`).
+  Web u nich zobrazí datum, aby se nepletly s minulým dnem.
+- **Počasí je výjimka** — to je předpověď na dnešní den a mluví se o něm
+  v přítomnosti. Web ho popisuje jako počasí na den vydání.
+
+Když běh výjimečně neproběhne ráno (ruční spuštění odpoledne nebo večer),
+je většina okna z dnešního dne. Pak dej do `covers` dnešní datum, ať
+stránka netvrdí něco, co v ní není.
+
+---
+
 ## ŽELEZNÉ PRAVIDLO: NIC SI NEVYMÝŠLEJ
 
 **Toto je nejdůležitější pravidlo celého repozitáře a přebíjí všechna
@@ -44,7 +68,9 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
 
    Skript používá jen standardní knihovnu, takže nic neinstaluj. Přečti
    `/tmp/feed.json` — obsahuje položky z posledních 24 hodin seskupené
-   do témat (`clusters`).
+   do témat (`clusters`). Okno tedy začíná ráno minulého dne: většina
+   položek je z minulého dne, menší část z dnešního rána. Podle pole
+   `published` u každé položky poznáš, ke kterému dni patří.
 
 2. **Stáhni počasí.** Spusť:
 
@@ -52,8 +78,9 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    python3 scripts/fetch_weather.py --out /tmp/weather.json
    ```
 
-   Z výstupu napiš pole `weather` (formát v SKILL.md): `summary` shrne
-   dnešek jednou až dvěma větami — charakter počasí a **denní teplotu**
+   Z výstupu napiš pole `weather` (formát v SKILL.md). Počasí je jediná
+   část digestu, která patří ke **dnešnímu** dni, ne k pokrytému — je to
+   předpověď na den vydání. `summary` shrne dnešek jednou až dvěma větami — charakter počasí a **denní teplotu**
    (`temp_max_c`, tedy „přes den až 34 °C", ne rozpětí „18 až 34 °C";
    minimum je noční teplota a zmiň ho jen, když je samo podstatné —
    mráz, tropická noc), případně srážky, silný vítr nebo zhoršené
@@ -69,14 +96,20 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    podstatně posunulo — pak napiš explicitně, co je nového („Navazuje na
    včerejší…"), ne celý příběh od začátku.
 
+   Pozor na překryv: včerejší vydání vzniklo taky ráno, takže ranní
+   zprávy minulého dne už v něm většinou jsou. Tuhle část okna projdi
+   proti včerejšímu digestu obzvlášť pečlivě.
+
 4. **Vyber a narediguj** podle [Redakčních pravidel](#redakční-pravidla)
    a schématu v `.claude/skills/digest/SKILL.md`. Při psaní každé položky
    dodržuj [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) —
    ani slovo, které nemáš doložené ve zdroji.
 
 5. **Ulož** výsledek jako `digests/RRRR-MM-DD.json` (dnešní datum v zóně
-   Europe/Prague). Do `failed_feeds` vypiš zdroje, které se nepodařilo
-   načíst — web je zobrazí v patičce.
+   Europe/Prague — soubor se jmenuje podle **dne vydání**). Do `covers`
+   dej **den, za který přehled je**, tedy při ranním běhu včerejší datum.
+   Do `failed_feeds` vypiš zdroje, které se nepodařilo načíst — web je
+   zobrazí v patičce.
 
 6. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
 
@@ -240,6 +273,9 @@ Kontext piš jen tehdy, když ho máš ze zdroje. Nezaplňuj místo obecnostmi.
 ### Jazyk
 
 Česky, s **plnou diakritikou**. Věcně, bez nadsázky a bez clickbaitu.
+Časové údaje piš z pohledu čtenáře, který to čte ráno po pokrytém dni —
+o dění minulého dne tedy nikdy jako o „dnešním" (viz
+[Co vydání pokrývá](#co-vydání-pokrývá)).
 Titulek je celá věta, která říká, co se stalo — ne otázka a ne teaser.
 Nepřebírej titulek z portálu slovo od slova, když je bulvární nebo
 nedopovězený; přepiš ho tak, aby sám nesl informaci.

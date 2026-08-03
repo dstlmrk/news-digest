@@ -11,6 +11,10 @@ zdroj pravdy — HTML nikdy needituj ručně.
 
 Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 
+Digest vzniká ráno a pokrývá **minulý den plus dnešní ráno** — soubor se
+jmenuje podle dne vydání, ale web se datuje pokrytým dnem (`covers`).
+Podrobně v `CLAUDE.md` → *Co vydání pokrývá*.
+
 > **ŽELEZNÉ PRAVIDLO (viz `CLAUDE.md`): nic si nevymýšlej.** Každé tvrzení
 > v `headline`, `body` i `highlights` musí být doslova doložené ve
 > `feed.json` nebo v článku, který jsi v tomto běhu otevřel a přečetl.
@@ -22,6 +26,7 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 ```json
 {
   "date": "2026-08-03",
+  "covers": "2026-08-02",
   "window_hours": 24,
   "sources_used": ["iROZHLAS", "ČT24", "Deník N", "Seznam Zprávy", "E15"],
   "failed_feeds": [],
@@ -39,6 +44,7 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
     {
       "rubric": "Domov",
       "time": "11:11",
+      "day": "covered",
       "headline": "Bitcoinová kauza míří k soudu, žalobkyně chce pro Blažka 6,5 roku",
       "body": "Vrchní státní zastupitelství v Olomouci podalo obžalobu na čtyři lidi…",
       "cross_source": true,
@@ -55,7 +61,8 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 
 | Pole | Povinné | Význam |
 | --- | --- | --- |
-| `date` | ano | `RRRR-MM-DD`, dnešní datum v zóně Europe/Prague. Musí odpovídat názvu souboru. |
+| `date` | ano | Den **vydání**: `RRRR-MM-DD`, dnešní datum v zóně Europe/Prague. Musí odpovídat názvu souboru. |
+| `covers` | ne | Den, **za který** přehled je. Při ranním běhu včerejší datum. Web se datuje tímhle dnem. Když pole vynecháš, bere se den vydání minus jeden. |
 | `window_hours` | ano | Časové okno, ze kterého zprávy pocházejí. Ber z `feed.json`. |
 | `sources_used` | ano | Názvy zdrojů, které do digestu **skutečně** přispěly. Ne celý seznam z configu. |
 | `failed_feeds` | ano | Názvy feedů, které se nepodařilo načíst. Prázdné pole, když je vše v pořádku. |
@@ -69,6 +76,7 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 | --- | --- | --- |
 | `rubric` | ano | Přesně jedna z: `Domov`, `Hradec Králové`, `Svět`, `Ekonomika`, `Technologie`, `Společnost a kultura`, `Za pozornost`, `Sport`. Jiná hodnota build skript zastaví. |
 | `time` | ano | `HH:MM`, čas vydání z pole `published` přepočtený na Europe/Prague. U témat z více zdrojů čas nejnovějšího. |
+| `day` | ne | Ke kterému dni čas patří: `covered` (pokrytý den, výchozí — můžeš vynechat) nebo `issue` (den vydání, tedy zpráva z dnešního rána). U `issue` web přidá k času datum, aby si čtenář zprávu nepletl s minulým dnem. Řiď se polem `published`, ne odhadem. |
 | `headline` | ano | Celá věta, která říká, co se stalo. Bez tečky na konci. |
 | `body` | ano | 1–3 věty, u důležitých zpráv 4–8. Prostý text, jeden odstavec, bez Markdownu a bez odrážek. **Jen fakta doložená ve zdroji — nic z paměti, nic domyšleného.** |
 | `cross_source` | ne | `true`, když téma přišlo z více portálů (`source_count` > 1). Web to označí. |

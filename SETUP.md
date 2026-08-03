@@ -58,11 +58,14 @@ nebo na [claude.ai/code/routines](https://claude.ai/code/routines) →
 ### Prompt routiny
 
 ```
-Vyrob dnešní přehled zpráv podle CLAUDE.md a .claude/skills/digest/SKILL.md
-v tomhle repozitáři. Postupuj podle sekce "Průběh běhu": sesbírej feedy,
-přečti poslední tři digesty kvůli deduplikaci, narediguj, ulož jako JSON do
-digests/, přegeneruj web přes scripts/build_site.py a commitni digests/
-i docs/. Zdroje, které se nepodařilo načíst, dej do failed_feeds.
+Vyrob ranní přehled zpráv podle CLAUDE.md a .claude/skills/digest/SKILL.md
+v tomhle repozitáři. Přehled je za minulý den plus zprávy z dnešního rána,
+viz sekce "Co vydání pokrývá". Postupuj podle sekce "Průběh běhu": sesbírej
+feedy, stáhni počasí, přečti poslední tři digesty kvůli deduplikaci,
+narediguj, ulož jako JSON do digests/ (včetně pole covers), přegeneruj web
+přes scripts/build_site.py a commitni digests/ i docs/ přímo do branche
+master — nezakládej novou branch ani pull request. Zdroje, které se
+nepodařilo načíst, dej do failed_feeds.
 ```
 
 Prompt nech krátký a odkazuj se z něj do repa. Pravidla se pak mění

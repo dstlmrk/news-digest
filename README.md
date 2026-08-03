@@ -2,9 +2,35 @@
 
 Denní přehled zpráv ve stylu „rychlých zpráv", který jednou denně vyrobí
 cloud routine v Claude Code a vydá jako statický web v novinové sazbě.
+Běží ráno, takže vydání shrnuje **minulý den a ranní zprávy dne vydání** —
+web se proto datuje pokrytým dnem, ne dnem, kdy vznikl.
 
 Motivace: přečíst si jednou denně to podstatné z důvěryhodných českých
 zdrojů, včetně sportu, místo průběžného scrollování.
+
+## Kdy to běží a co vydání pokrývá
+
+Spouští to **Claude routine každý den v 9:00** (Europe/Prague) — běží
+v cloudu, takže na zapnutém notebooku nezávisí. Nastavení je v
+[SETUP.md](SETUP.md).
+
+Okno je 24 hodin, takže vydání z 9:00 obsahuje dění **od rána
+předchozího dne až do rána, kdy vzniklo**. Není to přehled dneška —
+dnešní den v době vydání ještě prakticky nezačal:
+
+- Web se datuje **pokrytým dnem** („Zprávy za neděli 2. srpna 2026"),
+  den vydání je jen v řádku s metadaty. V JSONu to drží pole `covers`,
+  soubor v `digests/` se ale pořád jmenuje podle dne vydání.
+- Zprávy vydané po půlnoci, tedy ráno dne vydání, mají v digestu
+  `"day": "issue"` a na webu se u nich vypisuje i datum, aby se nepletly
+  s pokrytým dnem.
+- Počasí je jediná část, která patří ke dni vydání — je to předpověď na
+  dnešek, ne na den, za který jsou zprávy.
+- Ranní zprávy pokrytého dne už bývají ve včerejším vydání, proto se
+  nový digest proti třem posledním deduplikuje.
+
+Když digest výjimečně vznikne v jinou dobu (ruční běh odpoledne),
+nastaví se `covers` na den, ze kterého je většina zpráv.
 
 ## Jak to funguje
 

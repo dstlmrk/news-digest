@@ -22,7 +22,7 @@ import html
 import json
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -44,6 +44,10 @@ RUBRIC_ORDER = [
 
 WEEKDAYS = [
     "pondělí", "úterý", "středa", "čtvrtek", "pátek", "sobota", "neděle",
+]
+# Akuzativ pro spojení „zprávy za …" (za středu, za sobotu, za neděli).
+WEEKDAYS_ACC = [
+    "pondělí", "úterý", "středu", "čtvrtek", "pátek", "sobotu", "neděli",
 ]
 MONTHS = [
     "ledna", "února", "března", "dubna", "května", "června", "července",
@@ -75,6 +79,18 @@ def validate(data: dict, path: Path) -> None:
     except ValueError:
         fail(f"date '{data['date']}' není platné RRRR-MM-DD")
 
+    if "covers" in data:
+        try:
+            covers = date.fromisoformat(data["covers"])
+        except (TypeError, ValueError):
+            fail(f"covers '{data['covers']}' není platné RRRR-MM-DD")
+        issued = date.fromisoformat(data["date"])
+        if not timedelta(0) <= issued - covers <= timedelta(days=7):
+            fail(
+                f"covers ({data['covers']}) musí být den vydání "
+                f"({data['date']}) nebo některý z předchozích sedmi dnů"
+            )
+
     if not isinstance(data["items"], list) or not data["items"]:
         fail("items musí být neprázdné pole")
 
@@ -103,6 +119,12 @@ def validate(data: dict, path: Path) -> None:
             )
         if not TIME_RE.match(item["time"]):
             fail(f"{where}: time '{item['time']}' není ve formátu HH:MM")
+        if item.get("day") not in (None, "covered", "issue"):
+            fail(
+                f"{where}: day '{item['day']}' neznám, povolené jsou "
+                f"'covered' (den, za který je přehled) a 'issue' "
+                f"(ráno dne vydání)"
+            )
         if not isinstance(item["sources"], list):
             fail(f"{where}: sources musí být pole")
         for src in item["sources"]:
@@ -136,9 +158,32 @@ def long_date(iso: str) -> str:
     return f"{WEEKDAYS[d.weekday()]} {d.day}. {MONTHS[d.month - 1]} {d.year}"
 
 
+def long_date_acc(iso: str) -> str:
+    d = date.fromisoformat(iso)
+    return f"{WEEKDAYS_ACC[d.weekday()]} {d.day}. {MONTHS[d.month - 1]} {d.year}"
+
+
 def short_date(iso: str) -> str:
     d = date.fromisoformat(iso)
     return f"{d.day}. {d.month}. {d.year}"
+
+
+def day_month(iso: str) -> str:
+    d = date.fromisoformat(iso)
+    return f"{d.day}. {d.month}."
+
+
+def covered_date(data: dict) -> str:
+    """Den, za který přehled je — ne den, kdy vznikl.
+
+    Routina běží ráno a bere 24hodinové okno, takže vydání z 3. 8. shrnuje
+    dění z 2. 8. plus ranní zprávy dne vydání. Web se proto datuje podle
+    pokrytého dne; `covers` v digestu to může přepsat (třeba u večerního
+    běhu, který shrnuje tentýž den).
+    """
+    if data.get("covers"):
+        return data["covers"]
+    return (date.fromisoformat(data["date"]) - timedelta(days=1)).isoformat()
 
 
 def plural_items(n: int) -> str:
@@ -648,20 +693,32 @@ def cross_flag(item: dict) -> str:
 READ_HINT = 'title="Kliknutím označíte zprávu jako přečtenou"'
 
 
-def render_item(item: dict, rid: str) -> str:
+def stamp(item: dict, issue_date: str) -> str:
+    """Čas vydání; u zpráv z rána dne vydání i s datem, aby se nepletly.
+
+    Většina položek je z pokrytého dne, kterým se datuje celé vydání —
+    tam samotný čas nic nezamlžuje. Zprávy vydané po půlnoci ale patří
+    až ke dni vydání, takže dostanou datum před čas.
+    """
+    if item.get("day") == "issue":
+        return f'{day_month(issue_date)} {item["time"]}'
+    return item["time"]
+
+
+def render_item(item: dict, rid: str, issue_date: str) -> str:
     flag = cross_flag(item)
     flag_html = f' <span class="flag">· {esc(flag)}</span>' if flag else ""
     return f"""<article data-read-id="{rid}" {READ_HINT}>
-<span class="stamp">{esc(item["time"])}{flag_html}</span>
+<span class="stamp">{esc(stamp(item, issue_date))}{flag_html}</span>
 <h3>{esc(item["headline"])}</h3>
 <p>{esc(item["body"])}</p>
 <p class="sources">{render_sources(item["sources"])}</p>
 </article>"""
 
 
-def render_opener(item: dict, rid: str) -> str:
+def render_opener(item: dict, rid: str, issue_date: str) -> str:
     flag = cross_flag(item)
-    kicker = f'{esc(item["rubric"])} · {esc(item["time"])}'
+    kicker = f'{esc(item["rubric"])} · {esc(stamp(item, issue_date))}'
     if flag:
         kicker += f" · {esc(flag)}"
     return f"""<section class="opener" data-read-id="{rid}" {READ_HINT}>
@@ -710,7 +767,7 @@ WEATHER_ICONS = {
 }
 
 
-def render_weather(weather: dict) -> str:
+def render_weather(weather: dict, issue_date: str) -> str:
     place = weather.get("place") or "Hradec Králové"
     outlook = ""
     if weather.get("outlook"):
@@ -721,15 +778,18 @@ def render_weather(weather: dict) -> str:
                 f'{WEATHER_ICONS[weather["icon"]]}</svg></div>')
     return f"""<section class="weather">{icon}
 <div class="w-text">
-<p class="kicker">Počasí · {esc(place)}</p>
+<p class="kicker">Počasí na {esc(day_month(issue_date))} · {esc(place)}</p>
 <p>{esc(weather["summary"])}</p>{outlook}
 </div>
 </section>"""
 
 
 def render_digest(data: dict, prev: str | None, nxt: str | None,
-                  recent: list[str], *, is_index: bool) -> str:
+                  recent: list[str], *, is_index: bool,
+                  labels: dict[str, str]) -> str:
     items = data["items"]
+    issue = data["date"]
+    covered = covered_date(data)
     parts: list[str] = []
 
     # Otvírák: zpráva doložená nejvíce zdroji. Při shodě vyhrává první
@@ -740,31 +800,39 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
     issues = ""
     if recent:
         links = '<span class="sep">·</span>'.join(
-            f'<a href="{esc(d)}.html">{esc(short_date(d))}</a>' for d in recent
+            f'<a href="{esc(d)}.html">{esc(labels[d])}</a>' for d in recent
         )
         issues = (f'\n<nav class="issues">Starší vydání: {links}'
                   f'<span class="sep">·</span>'
                   f'<a href="archiv.html">celý archiv</a></nav>')
 
+    # Kolik zpráv už patří ke dni vydání — čtenář tak vidí, že přehled
+    # nekončí pokrytým dnem, ale sahá až do rána, kdy vydání vzniklo.
+    fresh = sum(1 for i in items if i.get("day") == "issue")
+    fresh_note = (
+        f" &nbsp;·&nbsp; z toho {fresh} z rána {esc(day_month(issue))}"
+        if fresh else ""
+    )
+
     home = "index.html"
     parts.append(f"""<header class="masthead">
 <h1><a href="{home}">{esc(SITE_TITLE)}</a></h1>
-<p class="dateline">{esc(long_date(data["date"]))}</p>
+<p class="dateline">Zprávy za {esc(long_date_acc(covered))}</p>
 <hr class="rule-double">
-<p class="meta">{esc(plural_items(len(items)))} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; {esc(" · ".join(data.get("sources_used") or []))}</p>{issues}
+<p class="meta">{esc(plural_items(len(items)))}{fresh_note} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; vydání {esc(short_date(issue))} &nbsp;·&nbsp; {esc(" · ".join(data.get("sources_used") or []))}</p>{issues}
 </header>""")
 
     if data.get("weather"):
-        parts.append(render_weather(data["weather"]))
+        parts.append(render_weather(data["weather"], issue))
 
-    parts.append(render_opener(opener, read_id(data["date"], opener)))
+    parts.append(render_opener(opener, read_id(issue, opener), issue))
 
     for rubric in RUBRIC_ORDER:
         group = [i for i in rest if i["rubric"] == rubric]
         if not group:
             continue
         body = "\n".join(
-            render_item(i, read_id(data["date"], i)) for i in group
+            render_item(i, read_id(issue, i), issue) for i in group
         )
         parts.append(
             f'<section class="rubric">\n<h2>{esc(rubric)}</h2>\n{body}\n</section>'
@@ -772,12 +840,12 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
 
     pager = ['<nav class="pager">']
     pager.append(
-        f'<a href="{prev}.html">← {esc(short_date(prev))}</a>' if prev
+        f'<a href="{prev}.html">← {esc(labels[prev])}</a>' if prev
         else "<span></span>"
     )
     pager.append('<a href="archiv.html">Archiv</a>')
     pager.append(
-        f'<a href="{nxt}.html">{esc(short_date(nxt))} →</a>' if nxt
+        f'<a href="{nxt}.html">{esc(labels[nxt])} →</a>' if nxt
         else "<span></span>"
     )
     pager.append("</nav>")
@@ -804,10 +872,13 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
 def render_archive(digests: list[dict]) -> str:
     rows = []
     for data in reversed(digests):
+        # Vydání se v archivu jmenuje podle dne, za který je — soubor se
+        # pořád jmenuje podle dne vydání, proto je datum vydání v popisku.
         rows.append(
             f'<li><a href="{esc(data["date"])}.html">'
-            f'{esc(long_date(data["date"]))}</a>'
-            f'<span class="count">{esc(plural_items(len(data["items"])))}</span></li>'
+            f'{esc(long_date(covered_date(data)))}</a>'
+            f'<span class="count">vydání {esc(day_month(data["date"]))} · '
+            f'{esc(plural_items(len(data["items"])))}</span></li>'
         )
     return f"""<header class="masthead">
 <h1><a href="index.html">{esc(SITE_TITLE)}</a></h1>
@@ -862,6 +933,8 @@ def main() -> int:
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
 
     dates = [d["date"] for d in digests]
+    # Odkazy na jiná vydání se popisují pokrytým dnem, ne dnem vydání.
+    labels = {d["date"]: short_date(covered_date(d)) for d in digests}
 
     def recent_before(idx: int) -> list[str]:
         """Až tři vydání předcházející tomu na pozici idx, nejnovější první."""
@@ -870,9 +943,10 @@ def main() -> int:
     for idx, data in enumerate(digests):
         prev = dates[idx - 1] if idx > 0 else None
         nxt = dates[idx + 1] if idx + 1 < len(dates) else None
-        body = render_digest(data, prev, nxt, recent_before(idx), is_index=False)
+        body = render_digest(data, prev, nxt, recent_before(idx),
+                             is_index=False, labels=labels)
         (DOCS / f"{data['date']}.html").write_text(
-            page(f"{SITE_TITLE} · {long_date(data['date'])}", body),
+            page(f"{SITE_TITLE} · {long_date(covered_date(data))}", body),
             encoding="utf-8",
         )
 
@@ -880,9 +954,9 @@ def main() -> int:
     prev = dates[-2] if len(dates) > 1 else None
     (DOCS / "index.html").write_text(
         page(
-            f"{SITE_TITLE} · {long_date(latest['date'])}",
+            f"{SITE_TITLE} · {long_date(covered_date(latest))}",
             render_digest(latest, prev, None, recent_before(len(dates) - 1),
-                          is_index=True),
+                          is_index=True, labels=labels),
         ),
         encoding="utf-8",
     )
