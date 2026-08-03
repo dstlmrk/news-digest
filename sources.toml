@@ -1,0 +1,119 @@
+# Zdroje pro denní digest.
+#
+# Tenhle soubor čte scripts/fetch_feeds.py. Uprav ho, kdykoli chceš přidat,
+# odebrat nebo převážit zdroj — nic jiného se kvůli tomu měnit nemusí.
+#
+# weight  = násobič důvěryhodnosti/relevance (1.0 = normální). Používá se jako
+#           signál při řazení, ne jako tvrdé pravidlo.
+# section = "news" | "sport". Určuje, do které části digestu položka spadá.
+# kind    = "breaking" (běžné zpravodajství) | "longform" (analýzy, komentáře)
+
+[settings]
+# Časové okno, ze kterého se berou zprávy (v hodinách).
+window_hours = 24
+# Práh podobnosti titulků pro spojení téže zprávy z více portálů (0–1).
+cluster_threshold = 0.30
+# Timeout na jeden feed (sekundy).
+timeout = 20
+
+
+# ─────────────────────────────  ZPRAVODAJSTVÍ  ─────────────────────────────
+
+[[feeds]]
+source = "irozhlas"
+name = "iROZHLAS"
+url = "https://www.irozhlas.cz/rss/irozhlas"
+section = "news"
+kind = "breaking"
+weight = 1.2
+
+[[feeds]]
+source = "irozhlas"
+name = "iROZHLAS"
+url = "https://www.irozhlas.cz/rss/irozhlas/rychle-zpravy"
+section = "news"
+kind = "breaking"
+weight = 1.2
+
+[[feeds]]
+source = "ct24"
+name = "ČT24"
+url = "https://ct24.ceskatelevize.cz/rss/hlavni-zpravy"
+section = "news"
+kind = "breaking"
+weight = 1.2
+
+[[feeds]]
+source = "denikn"
+name = "Deník N"
+url = "https://denikn.cz/feed/"
+section = "news"
+kind = "breaking"
+weight = 1.3
+
+[[feeds]]
+source = "seznamzpravy"
+name = "Seznam Zprávy"
+url = "https://www.seznamzpravy.cz/rss"
+section = "news"
+kind = "breaking"
+weight = 1.0
+
+[[feeds]]
+source = "aktualne"
+name = "Aktuálně.cz"
+url = "https://www.aktualne.cz/rss/"
+section = "news"
+kind = "breaking"
+weight = 0.9
+
+[[feeds]]
+source = "voxpot"
+name = "Voxpot"
+url = "https://www.voxpot.cz/feed/"
+section = "news"
+kind = "longform"
+weight = 1.1
+
+
+# ─────────────────────────────────  SPORT  ─────────────────────────────────
+
+[[feeds]]
+source = "irozhlas"
+name = "iROZHLAS Sport"
+url = "https://www.irozhlas.cz/rss/irozhlas/sport"
+section = "sport"
+kind = "breaking"
+weight = 1.2
+
+[[feeds]]
+source = "ct24"
+name = "ČT Sport"
+url = "https://sport.ceskatelevize.cz/rss"
+section = "sport"
+kind = "breaking"
+weight = 1.2
+
+[[feeds]]
+source = "seznamzpravy"
+name = "Seznam Zprávy Sport"
+url = "https://www.seznamzpravy.cz/rss/sport"
+section = "sport"
+kind = "breaking"
+weight = 1.0
+
+[[feeds]]
+source = "denikn"
+name = "Deník N Sport"
+url = "https://denikn.cz/sport/feed/"
+section = "sport"
+kind = "breaking"
+weight = 1.1
+
+[[feeds]]
+source = "aktualne"
+name = "Aktuálně.cz Sport"
+url = "https://sport.aktualne.cz/rss/"
+section = "sport"
+kind = "breaking"
+weight = 0.9
