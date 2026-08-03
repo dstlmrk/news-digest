@@ -1,25 +1,44 @@
 {
   "date": "2026-08-03",
   "window_hours": 24,
-  "sources_used": ["ČT24", "iROZHLAS", "Seznam Zprávy", "Deník N", "E15", "ČT Sport", "Voxpot"],
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "ČT Sport",
+    "Sport.cz"
+  ],
   "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zataženo a horko, přes den až 34 °C, beze srážek. Kvalita ovzduší je zhoršená.",
+    "outlook": "V úterý vedro až 38 °C, ve čtvrtek přijdou přeháňky a ochlazení k 28 °C."
+  },
   "highlights": [
-    "Vrchní státní zastupitelství v Olomouci podalo obžalobu v bitcoinové kauze, žalobkyně navrhuje pro exministra Blažka šest a půl roku a pro Jiřikovského souhrnný trest dvacet let vězení, obžalovaní vinu odmítají.",
-    "Podle zjištění Deníku N se premiér Babiš letos dvakrát sešel s miliardářem Tykačem, řeč byla i o výkupu jeho akcií ČEZ.",
-    "Španělsko řešilo nápor desítek tisíc migrantů z Maroka do Ceuty, ačkoliv před ním tajná služba varovala už v červenci, Maroko z krize viní pašeráky."
+    "Vrchní státní zastupitelství v Olomouci podalo obžalobu v bitcoinové kauze. Žalobkyně navrhuje pro exministra spravedlnosti Pavla Blažka šest a půl roku vězení, pro dárce bitcoinů Tomáše Jiřikovského souhrnný trest dvacet let. Všichni, kdo se vyjádřili, vinu odmítají.",
+    "Počet obětí čtvrtečního masového pokusu migrantů proniknout z Maroka do španělské Ceuty stoupl podle Deníku N s odvoláním na El País na nejméně 88. Marocká vláda z krize viní pašeráky a dezinformace.",
+    "Nízká hladina Dunaje omezuje provoz jaderných elektráren v Maďarsku a Rumunsku. Požáry v EU letos vypustily do vzduchu asi 18 milionů tun CO2, tedy dvojnásobek loňské hodnoty."
   ],
   "items": [
     {
       "rubric": "Domov",
-      "time": "13:36",
-      "headline": "Žalobkyně navrhuje pro Blažka 6,5 roku vězení, pro Jiřikovského souhrnný trest 20 let",
-      "body": "Vrchní státní zastupitelství v Olomouci podalo u soudu obžalobu ve věci daru bitcoinů pochybného původu, který ministerstvo spravedlnosti přijalo od dříve odsouzeného drogového dealera Tomáše Jiřikovského. Obžalováni jsou čtyři lidé — kromě Jiřikovského také bývalý ministr spravedlnosti Pavel Blažek (dříve ODS), jeho tehdejší náměstek Radomír Daňhel a advokát Kárim Titz. Žalobkyně navrhuje pro Blažka i Daňhela šest a půl roku vězení, pro Titze osm let a pro Jiřikovského souhrnný trest dvacet let. Všichni tři obžalovaní, kteří se k obžalobě vyjádřili, vinu odmítají: Blažek tvrdí, že se dosud neprokázalo, odkud bitcoiny pocházejí, Daňhel namítá, že obžaloba nemá oporu ve vyšetřování, a Titz kritizuje postup policie i žalobců s tím, že vyšetřování není dokončené. Dohodu o vině a trestu podle žalobkyně neuzavřel nikdo z obžalovaných, případ byl podle ní mimořádný jak nasazením sil, tak dokazováním v kyberprostoru.",
+      "time": "14:40",
+      "headline": "Žalobkyně navrhuje pro Blažka šest a půl roku vězení, pro Jiřikovského souhrnný trest dvacet let",
+      "body": "Vrchní státní zastupitelství v Olomouci podalo u Krajského soudu v Brně obžalobu ve věci daru kryptoměny pochybného původu v hodnotě téměř miliardy korun, který ministerstvo spravedlnosti přijalo od dříve odsouzeného drogového dealera Tomáše Jiřikovského. Obžalováni jsou čtyři lidé: kromě Jiřikovského také bývalý ministr spravedlnosti Pavel Blažek (dříve ODS), jeho tehdejší náměstek Radomír Daňhel a advokát Kárim Titz, kterého Deník N označuje za údajného organizátora plánu. Podle žalobkyně Blažek s Daňhelem i přes opakovaná upozornění umožnili státu přijmout peníze, které pocházely z nelegální činnosti; pro oba navrhuje šest a půl roku vězení a peněžitý trest, pro Titze osm let a pro Jiřikovského souhrnný trest dvacet let. Blažek uvedl, že dosud nebylo právně prokázáno, že darované bitcoiny pocházely z trestné činnosti, a za vinného se nepovažuje. Daňhel tvrdí, že obžaloba nemá oporu v provedeném vyšetřování, Titz vinu popírá a kritizuje postup policie i žalobců s tím, že vyšetřování není dokončené a chybí posudky. Jiřikovského advokát podle Deníku N míní, že postup směřoval k tomu, aby jeho klient zůstal ve vazbě a čelil maximálnímu tlaku. Mluvčí ODS Jakub Skyva řekl, že strana věří ve spravedlivý proces a nezávislost justice, Blažek podle něj jednal v dobré víře a ODS už odpovědnost vyvodila. Žalobce uvedl, že případ byl mimořádný nasazením sil i dokazováním v kyberprostoru a že dohodu o vině a trestu neuzavřel nikdo ze stíhaných. Na darování bitcoinů upozornil poprvé před více než rokem Deník N.",
       "cross_source": true,
       "sources": [
         { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/bitcoinova-kauza-miri-k-soudu-statni-zastupkyne-obzalovala-ctyri-osoby-376207" },
         { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/zalobkyne-podala-obzalobu-na-ctyri-lidi-kvuli-bitcoinove-kauze_2608031052_mst" },
-        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobkyne-zada-pro-jirikovskeho-souhrnny-trest-20-let-vezeni-312280" },
         { "name": "Deník N", "url": "https://denikn.cz/2144690/bitcoinova-kauza-miri-pred-soud-pro-blazka-zalobkyne-navrhuje-sest-a-pul-roku-vezeni/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobkyne-zada-pro-jirikovskeho-souhrnny-trest-20-let-vezeni-312280" },
         { "name": "E15", "url": "https://www.e15.cz/domaci/politika/bitcoinova-kauza-miri-k-soudu-blazkovi-zalobkyne-navrhuje-6-5-roku-vezeni-1434707" }
       ]
     },
@@ -27,91 +46,102 @@
       "rubric": "Domov",
       "time": "05:48",
       "headline": "Babiš se letos dvakrát sešel s Tykačem, řeč byla i o výkupu akcií ČEZ",
-      "body": "Podle zjištění Deníku N se premiér Andrej Babiš letos dvakrát setkal s miliardářem Pavlem Tykačem. Oficiálním důvodem schůzek byla budoucnost Tykačových uhelných elektráren, podnikatel ale chtěl s premiérem probrat i plánovaný výkup akcií ČEZ. Tykač je po státu druhým největším akcionářem energetické skupiny a měl Babišovi nastínit, za kolik by byl ochoten své akcie státu prodat.",
+      "body": "Deník N zjistil, že se premiér Andrej Babiš letos dvakrát sešel s miliardářem Pavlem Tykačem. Oficiálním důvodem jednání byla budoucnost Tykačových uhelných elektráren. Podnikatel, který je po státu druhým největším akcionářem ČEZ, ale podle Deníku N chtěl probírat i plánovaný výkup akcií této skupiny a nastínil premiérovi, za kolik by je státu prodal.",
       "sources": [
         { "name": "Deník N", "url": "https://denikn.cz/2141860/dve-schuzky-tykace-s-babisem-miliardar-nastinil-premierovi-za-kolik-by-statu-prodal-akcie-cez/" }
       ]
     },
     {
       "rubric": "Domov",
-      "time": "12:24",
-      "headline": "Balíkovna se po odchodu šéfa divize vrací pod Českou poštu",
-      "body": "Samostatná divize České pošty Balíkovna se po odchodu jejího šéfa Martina Kmenta postupně plně začlení zpět do pošty, řekl serveru Respekt ministr vnitra Lubomír Metnar (ANO), pod jehož resort pošta spadá. Nové vedení už Česká pošta hledat nebude. Kment divizi vedl od začátku března do konce května.",
-      "cross_source": true,
+      "time": "14:46",
+      "headline": "ANO schválilo kandidátky do říjnových voleb, v Praze povede hnutí Jan Hušbauer",
+      "body": "Výbor hnutí ANO schválil všechny kandidátní listiny do říjnových voleb. Kandidátem na pražského primátora bude současný člen městského zastupitelstva Jan Hušbauer, uvedl místopředseda hnutí Karel Havlíček. Hušbauer nahradil dřívějšího pražského lídra Ondřeje Prokopa, který po článcích o nejasnostech kolem majetkových přiznání odstoupil z čela kandidátky i z pozice předsedy pražské organizace.",
       "sources": [
-        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/balikovna-se-vraci-pod-ceskou-postu-376210" },
-        { "name": "E15", "url": "https://www.e15.cz/byznys/obchod-a-sluzby/balikovna-ztrati-samostatnost-po-odchodu-sefa-splyne-s-ceskou-postou-1434708" },
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144667/" }
-      ]
-    },
-    {
-      "rubric": "Domov",
-      "time": "09:06",
-      "headline": "Z České inspekce životního prostředí po nástupu ředitele z Motoristů odchází část vedení",
-      "body": "Z České inspekce životního prostředí odcházejí dva členové vedení, ředitelé dvou z pěti odborů i další zaměstnanci. Podle Seznam Zpráv sami potvrdili, že jejich odchod souvisí s nástupem nového ředitele Pavla Straky, dřívějšího kandidáta Motoristů. „Není to můj styl práce,“ řekl jeden z odcházejících.",
-      "sources": [
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144520/" }
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144978/" }
       ]
     },
     {
       "rubric": "Domov",
       "time": "12:05",
-      "headline": "Finanční analytický úřad zmrazil podíly ruských majitelů řetězce Mere",
-      "body": "Finanční analytický úřad zmrazil podíly ruských manželů, kteří v Česku vlastní a provozují síť supermarketů Mere. Andrej Šnajdr je nově na sankčním seznamu EU za financování ruské agrese a podnikání na okupovaných územích Ukrajiny. Firma přitom v dalších evropských zemích zavírá pobočky.",
+      "headline": "Úřad zmrazil podíly ruských majitelů supermarketů Mere",
+      "body": "Finanční analytický úřad zmrazil podíly ruských manželů, kteří v Česku vlastní a provozují supermarkety Mere. Andrej Šnajdr je nově na sankčním seznamu EU za financování ruské agrese a podnikání na okupovaných územích Ukrajiny. V dalších evropských zemích firma zavírá pobočky.",
       "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2144582/co-bude-se-supermarkety-mere-cesko-zakrocilo-proti-ruskym-majitelum/" },
         { "name": "Deník N", "url": "https://denikn.cz/minuta/2144779/" }
       ]
     },
     {
-      "rubric": "Svět",
-      "time": "10:58",
-      "headline": "Rusko bombardovalo Záporoží, Ukrajina znovu udeřila na sklad firmy Wildberries",
-      "body": "Ruské síly v noci na pondělí bombardovaly okolí Záporoží, při útoku zemřel jeden člověk a další byl zraněn, uvedl velitel vojenské správy oblasti Ivan Fedorov. Ukrajina podle největšího ruského on-line prodejce Wildberries zaútočila na další jeho sklad, cílem dronového úderu byl i okupovaný Krym, kde podle okupační správy zahynuli tři lidé a ukrajinské mořské drony zasáhly dva ruské vojenské radary. Terčem útoků byla i Bělgorodská státní technologická univerzita v Rusku.",
+      "rubric": "Hradec Králové",
+      "time": "12:18",
+      "headline": "U křižovatky Mileta slouží všechny čtyři podchody, mají ale boule",
+      "body": "U rekonstruované křižovatky Mileta v Hradci Králové se otevřely poslední dva podchody, spolu s nimi dvě nové zastávky MHD a takzvaná malá Mileta. Podle iDNES Hradec začalo všechno sloužit v pondělí, Hradecký deník píše, že dva zbývající podchody se otevřely už o víkendu. Dopravní uzel po zásadní rekonstrukci částečně funguje od konce dubna a kvůli dvěma zavřeným podchodům mnozí lidé přebíhali čtyřproudový městský okruh. Na nových i dříve otevřených podchodech se ale objevily nerovnosti a boule, které má odstranit zhotovitel stavby.",
       "cross_source": true,
       "sources": [
-        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-bombardovalo-okoli-zaporozi-ukrajina-opet-utocila-na-logisticke-centrum-312263" },
-        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-rusko-v-noci-bombardovalo-zaporozi-ukrajina-zautocila-na-dalsi-sklad_2608030929_zko" },
-        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-uderila-na-dalsi-sklad-wildberries-rusko-bombardovalo-okoli-zaporozi-376206" },
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144605/" }
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/krizovatka-mileta-oprava-stavba-rsd-doprava-podchody.A260803_956871_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/dva-zbyvajici-podchody-mileta-otevrene-boule/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:56",
+      "headline": "Vstupenky na Beşiktaş prodává Hradec zatím jen na pokladně, nechce Turky v domácím sektoru",
+      "body": "Ve čtvrtek 6. srpna přivítá Hradec Králové v malšovické FINEP aréně turecký Beşiktaş Istanbul v úvodním duelu 3. předkola Evropské ligy. Hradecký deník mluví o jednom z největších fotbalových večerů posledních let a o obrovském zájmu o vstupenky. Permanentkáři měli předkupní právo od pátku 31. července, do volného prodeje šly lístky v pondělí 3. srpna, zatím ale výhradně fyzicky na pokladně a v infocentru. Klub tím podle serveru brání tomu, aby se turečtí fanoušci dostali do sektorů domácích.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/fotbal-hradec-kralove-prodej-vstupenky-evropska-liga-besiktas/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:36",
+      "headline": "Fotbalisté Hradce remizovali na Bohemians 0:0 a poprvé v sezoně nevyhráli",
+      "body": "Hradec Králové ve 2. kole první ligy remizoval v Ďolíčku s Bohemians 1905 bez branek. Ve čtvrtém utkání po letní pauze poprvé nezvítězil, soutěžní neporazitelnost ale udržel a po úvodní výhře 2:1 nad Pardubicemi má čtyři body. Podle iDNES Hradec nabídlo vyrovnané utkání velké šance na obou stranách. Václav Pilař se postavil proti Hradci poprvé od letního rozchodu a podle Sport.cz patřil k nejlepším hráčům na trávníku, fanoušci Votroků na něj přitom nevzpomínali ve zlém. Sport.cz zároveň upozorňuje, že trávník v Ďolíčku neodpovídal zápasu dvou prvoligistů, což připustil i domácí trenér Jaroslav Veselý.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/fotbaliste-hradce-pred-zapasem-s-besiktasem-remizovali-v-lize-00-s-bohemians/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/prvni-liga/bohemians-praha-1905-hradec-kralove-2-kolo-chance-liga.A260731_170432_fotbal_min#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-pilar-proti-svym-top-vykon-i-mile-gesto-fandu-hradce-5511463" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:57",
+      "headline": "Pevnost Josefov se chystá na 29. ročník festivalu Brutal Assault",
+      "body": "Metalový festival Brutal Assault vstoupí za několik hodin do svého devětadvacátého ročníku. Pevnost Josefov, kam zamíří tisíce návštěvníků, se podle Hradeckého deníku mění k nepoznání.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/brutal-assault-2026-festival-josefov-jaromer-priprava-areal-zakulisi/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
       ]
     },
     {
       "rubric": "Svět",
-      "time": "10:39",
-      "headline": "Španělská tajná služba varovala před náporem migrantů do Ceuty, Maroko z krize viní pašeráky",
-      "body": "Španělské město Ceuta minulý týden čelilo náporu desítek tisíc migrantů z Maroka, o kterém podle rozhlasu Cadena SER už v červenci varovala španělská tajná služba ministerstvo vnitra. Marocká vláda k událostem poprvé oficiálně promluvila v neděli a z krize obvinila pašeráky a šíření dezinformací. Vedení Ceuty přitom hovořilo o zásadním narušení hranic, přes které mělo do enklávy proniknout na 50 tisíc lidí.",
+      "time": "15:10",
+      "headline": "Počet obětí náporu na Ceutu stoupl na nejméně 88, Maroko z krize viní pašeráky",
+      "body": "Počet obětí čtvrtečního masového pokusu migrantů proniknout z Maroka do španělské exklávy Ceuta dosáhl nejméně 88, uvedl Deník N s odvoláním na El País; marocká vláda podle něj oznámila, že z vod u hranic vylovila jedenáct těl. Podle španělských úřadů se do Ceuty dostalo asi 50 tisíc lidí, vedení města hovořilo o 60 tisících a marocké ministerstvo vnitra tvrdí, že jich bylo méně. Rabat se ke krizi vyjádřil poprvé v neděli a obvinil z ní pašeráky a šíření dezinformací. Téměř všichni migranti podle ČT24 už v pátek město opustili, několik tisíc jich tam ale zůstává. Reportér Radiožurnálu, který s nimi mluvil přímo na místě, popsal jako nejčastější důvody odchodu z Maroka žádnou nebo špatně placenou práci a dlouhou pracovní dobu. Podle španělského rozhlasu přitom tamní tajná služba před možným náporem předem varovala.",
       "cross_source": true,
       "sources": [
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144559/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144983/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/marocka-vlada-se-poprve-vyjadrila-ke-krizi-v-ceute-obvinila-z-ni-paseraky-376199" },
         { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-spanelska-tajna-sluzba-v-cervenci-varovala-pred-migracni-vlnou-do-ceuty-312271" },
-        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/marocka-vlada-se-poprve-vyjadrila-ke-krizi-v-ceute-obvinila-z-ni-paseraky-376199" }
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/do-maroka-se-nevratim-trpel-jsem-dost-migranti-z-ceuty-chteji-do-evropy-kvuli_2608031232_mst" }
       ]
     },
     {
       "rubric": "Svět",
-      "time": "11:19",
-      "headline": "Írán popravil dva muže odsouzené za spolupráci s izraelským Mossadem",
-      "body": "Írán popravil dva muže, kteří podle íránské agentury Mízán měli za války spolupracovat s izraelskou tajnou službou Mossad. Jeden z nich měl důstojníkům Mossadu poskytovat souřadnice, fotografie a informace o íránských vojenských a bezpečnostních objektech, druhý měl posílat videa exilové televizi.",
+      "time": "14:20",
+      "headline": "Ukrajinské drony zasáhly Krym i Krasnodarský kraj, Rusko bombardovalo Záporožskou oblast",
+      "body": "Největší ruský internetový prodejce Wildberries oznámil, že Ukrajina zaútočila na další jeho sklad. Terčem dronů byl podle ČT24 také okupovaný Krym a Bělgorodská státní technologická univerzita. Okupační správa Krymu tvrdí, že tam při útocích zahynuli tři lidé, ukrajinské mořské drony podle ní zasáhly dva ruské vojenské radary a výbuchy zněly i v Černomorsku, Jevpatorii, Feodosii, Simferopolu a v Kerči, kde požár zachvátil část hlavního tržiště. Gubernátor Krasnodarského kraje Venjamin Kondraťjev podle agentury TASS uvedl, že při ukrajinském útoku v regionu zemřelo šest lidí a dalších čtyřicet bylo zraněno. Rusko naopak bombardovalo Záporožskou oblast, kde podle správy regionu zemřel jeden člověk a pětaosmdesátiletá žena je zraněná. Už v neděli bylo terčem ruského útoku samotné město Záporoží, po němž zůstala jedna mrtvá a desítky raněných.",
       "cross_source": true,
       "sources": [
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144570/" },
-        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-iranu-popravili-dva-muze-odsouzene-za-spolupraci-s-izraelskym-mossadem-312272" }
-      ]
-    },
-    {
-      "rubric": "Svět",
-      "time": "10:00",
-      "headline": "Izraelské nálety zabily v Gaze nejméně 18 Palestinců navzdory Trumpovu oznámení o průlomu v příměří",
-      "body": "Izraelské nálety v Pásmu Gazy zabily podle tamních zdravotníků nejméně 18 Palestinců, a to navzdory dřívějšímu oznámení Donalda Trumpa o průlomu v úsilí o implementaci loňské dohody o příměří. Útok na Dajr al-Balah zabil nejméně čtyři lidi, další útok poblíž Chán Júnis zranil pět lidí a zapálil několik stanů.",
-      "sources": [
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144552/" }
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-uderila-na-dalsi-sklad-wildberries-rusko-bombardovalo-okoli-zaporozi-376206" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-bombardovalo-okoli-zaporozi-ukrajina-opet-utocila-na-logisticke-centrum-312263" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144605/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144940/" }
       ]
     },
     {
       "rubric": "Svět",
       "time": "10:25",
-      "headline": "Trump oznámil obnovení jednání s Íránem, Teherán tvrdí, že žádné rozhovory nevede",
-      "body": "Prezident USA Donald Trump uvedl, že Spojené státy s Íránem v pondělí obnoví jednání, a dodal, že dříve plánoval rozsáhlý útok proti Íránu, ale na žádost Íránců a amerických spojenců ho odložil. Mluvčí íránského ministerstva zahraničí Esmail Baghaei to ale popřel s tím, že Teherán v současnosti žádné rozhovory se Spojenými státy nevede — podle něj USA jednají pouze s Ománem o plavbě v Hormuzském průlivu.",
+      "headline": "Trump ohlásil obnovení jednání s Íránem, Teherán tvrdí, že s USA nejedná",
+      "body": "Prezident Donald Trump uvedl, že Američané s Íránci v pondělí obnoví vyjednávání. Podle něj také plánoval rozsáhlý útok proti Íránu, na žádost Íránců a amerických spojenců ho ale odložil. Mluvčí íránského ministerstva zahraničí Esmail Baghaei naopak podle agentury Reuters řekl, že Teherán v současnosti žádné rozhovory se Spojenými státy nevede a jedná pouze s Ománem o plavbě v Hormuzském průlivu.",
       "cross_source": true,
       "sources": [
         { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-usa-a-iran-dnes-podle-trumpa-zacnou-znovu-jednat-312259" },
@@ -120,122 +150,193 @@
     },
     {
       "rubric": "Svět",
-      "time": "13:22",
-      "headline": "Požáry ve Španělsku spálily plochu větší než čtyři Prahy, hoří i ve Francii a americkém Washingtonu",
-      "body": "Požáry v Evropské unii od začátku roku vypustily do ovzduší téměř 18 milionů tun CO₂, tedy dvakrát více než ve stejném období loňska, nejhůř postižené jsou Francie a Španělsko — tam už podle Deníku N shořela plocha větší než čtyři Prahy. Rozsáhlý požár ve francouzském departementu Var se přes noc dál nešířil, hasiči ale očekávají zhoršení počasí. Požáry hlásí i americký stát Washington, kde kvůli třem ohniskům u města Spokane muselo opustit domovy asi 60 tisíc lidí a shořely stovky budov.",
+      "time": "14:26",
+      "headline": "Požáry ve Španělsku zasáhly 217 tisíc hektarů, u Spokane opustilo domovy 60 tisíc lidí",
+      "body": "Požáry ve Španělsku letos zasáhly 217 tisíc hektarů, ve Francii je spálené území 8,4krát větší než dlouhodobý průměr. Od začátku roku podle Deníku N vypustily požáry v EU do ovzduší téměř 18 milionů tun CO2, tedy zhruba dvojnásobek loňské hodnoty za stejné období; celková spálená plocha v Unii se blíží rozloze Královéhradeckého kraje. Vědci připomínají, že před většími a nebezpečnějšími požáry varovali a že jsou teď tady. Rozsáhlý požár ve francouzském departementu Var se v noci na pondělí dál nešířil, hasiči ale očekávali zhoršení podmínek odpoledne a plnou kontrolu nad ohněm odhadují na několik dní. V americkém státě Washington vypukly u města Spokane tři samostatné požáry, kvůli nimž muselo své domovy opustit asi 60 tisíc lidí; zprávy o mrtvých ani raněných podle Seznam Zpráv zatím nejsou.",
       "cross_source": true,
       "sources": [
         { "name": "Deník N", "url": "https://denikn.cz/2144649/ve-spanelsku-uz-shorela-plocha-vetsi-nez-ctyri-prahy-v-cele-eu-temer-jako-kralovehradecky-kraj/" },
-        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-kvuli-pozaru-u-spokane-v-usa-muselo-opustit-domovy-asi-60-000-lidi-312261" }
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144766/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-obrazem-stovky-domu-lehly-popelem-americky-stat-washington-je-v-plamenech-312291" }
       ]
     },
     {
-      "rubric": "Ekonomika",
-      "time": "06:30",
-      "headline": "Vládní plán počítá pro rok 2027 s deficitem 2,8 procenta HDP, těsně pod evropským stropem",
-      "body": "Vládní rozpočtový plán počítá v roce 2027 s deficitem 2,8 procenta HDP, od evropského limitu tří procent by ho dělilo jen osmnáct miliard korun, píše E15. Aby vláda dosáhla cíle schodek snížit, bude muset podle analýzy najít úspory za 115 miliard korun. Ministerstvo financí přitom samo nevěří, že ohlášené masivní investice výrazně zrychlí ekonomiku a pomohou splácet dluhy.",
-      "sources": [
-        { "name": "E15", "url": "https://www.e15.cz/nazory-a-analyzy/vlada-zene-deficit-pod-triprocentni-strop-nekde-bude-muset-najit-115-miliard-nastve-sve-volice-1434624" }
-      ]
-    },
-    {
-      "rubric": "Ekonomika",
-      "time": "07:20",
-      "headline": "ČEZ začíná vyplácet dividendu, akcionářům pošle 22,6 miliardy korun",
-      "body": "Energetická společnost ČEZ v pondělí začala vyplácet akcionářům dividendu z loňského zisku ve výši 42 korun na akcii, celkem jde o 22,6 miliardy korun. Stát jako většinový akcionář z toho dostane necelých 16 miliard korun.",
-      "sources": [
-        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/cez-zacina-vyplacet-dividendu-akcionarum-posle-22-6-miliardy-korun-1434700" }
-      ]
-    },
-    {
-      "rubric": "Ekonomika",
-      "time": "13:26",
-      "headline": "Tykačova Sev.en rozdělí úspory za rekultivace lomu ČSA přímo obcím, bez účasti státu",
-      "body": "Severní energetická (Sev.en) Pavla Tykače chce sama rozhodnout o využití peněz, které ušetřila na rekultivacích lomu ČSA. Původně je měla obcím v okolí těžební oblasti poslat přes Státní fond životního prostředí, nově chce jednat a dohodnout se s nimi přímo. Podle dřívějších informací jde o stamiliony korun.",
+      "rubric": "Svět",
+      "time": "14:40",
+      "headline": "Nízká hladina Dunaje omezuje jaderné elektrárny v Maďarsku i Rumunsku",
+      "body": "Sucho v Evropě se přelilo do energetiky. Podle ČT24 vedl nízký stav vody v Dunaji k zastavení provozu většiny reaktorů v maďarské jaderné elektrárně Paks; Péter Magyar podle Seznam Zpráv uvedl, že by se elektrárna do úterý mohla udržet v nynějším omezeném provozu, úřady ale počítají i s úplným odstavením. Rumunská armáda odpálila výbušninou část břehu jednoho z ramen Dunaje, aby dostala víc vody k jaderné elektrárně Cernavoda, která vyrábí zhruba pětinu elektřiny v zemi a minulý týden odstavila jeden ze svých dvou reaktorů. Problémy v energetice hlásí i Srbsko, které snížilo výkon dvou největších elektráren. Sucho zároveň na německém Rýnu omezuje provoz lodí přepravujících klíčové suroviny pro průmysl. Hydrolog Adam Vizina v rozhovoru pro Český rozhlas Plus upozornil, že minima na Dunaji bývala na přelomu září a října, teď přicházejí na konci července a začátkem srpna a situace se může dál zhoršovat, protože zdrojová povodí jsou suchá.",
       "cross_source": true,
       "sources": [
-        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/sev-en-rozdeli-uspory-za-rekultivace-obcim-bez-ucasti-statu-1434704" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/nejen-dunaj-a-ryn-satelitni-data-ukazuji-stradajici-evropske-reky-376220" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/hydrolog-nizke-stavy-dunaje-prichazeji-stale-driv-situace-se-muze-zhorsovat_2608031431_mst" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-magyar-elektrarna-paks-by-se-do-utery-mohla-udrzet-v-nynejsim-omezenem-provozu-312301" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144847/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:00",
+      "headline": "Deficit rozpočtu se snížil na 176,6 miliardy, pomohly evropské dotace",
+      "body": "Schodek státního rozpočtu na konci července činil 176,6 miliardy korun, z červnových 183,6 miliardy se tedy snížil. Meziročně je ale vyšší o 8,5 miliardy, uvedlo ministerstvo financí. Samotné červencové hospodaření skončilo přebytkem díky téměř 30 miliardám korun z EU. Po očištění o evropské peníze a mimořádné vlivy se podle E15 deficit meziročně výrazně prohloubil.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/statni-rozpocet-si-v-cervenci-polepsil-klicovou-roli-sehraly-evropske-dotace-1434716" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144923/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:07",
+      "headline": "Balíkovna ztratí samostatnost a plně se vrátí pod Českou poštu",
+      "body": "Samostatná divize České pošty Balíkovna se po odchodu svého šéfa Martina Kmenta postupně plně začlení zpět do pošty, nové vedení divize už pošta hledat nebude. Serveru Respekt.cz to řekl ministr vnitra Lubomír Metnar (ANO), pod jehož resort Česká pošta spadá. Kment vedl Balíkovnu od začátku letošního března do konce května a spolu s dalšími lidmi ve vedení divize odešel podle pošty po vzájemné dohodě. Vláda Petra Fialy podle Seznam Zpráv plánovala Balíkovnu prodat jako komerční firmu, po změně vlády se ale proces směřující k prodeji zastavil.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/balikovna-se-vraci-pod-ceskou-postu-376210" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/obchod-a-sluzby/balikovna-ztrati-samostatnost-po-odchodu-sefa-splyne-s-ceskou-postou-1434708" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-balikovna-se-po-odchodu-sefa-podle-metnara-plne-zacleni-do-ceske-posty-312300" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:20",
+      "headline": "Tykačova Sev.en chce o ušetřených penězích za rekultivace rozhodovat bez státu",
+      "body": "Severní energetická hodlá sama rozhodnout o penězích, které ušetřila na rekultivacích lomu ČSA. Původně je chtěla obcím v okolí těžební oblasti poslat přes Státní fond životního prostředí, teď chce jednat přímo s nimi. Podle prohlášení firmy jednání s fondem nepřinášela výsledek a je za tím především liknavost státního aparátu. Sev.en neuvádí, o jakou částku jde, podle předchozích informací Seznam Zpráv by to měly být stamiliony korun. Postup firmy podle E15 kritizují ekologické organizace, které požadují jasné záruky pro region.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/tykacova-firma-otocila-o-osudu-stamilionu-z-uhelneho-lomu-chce-rozhodovat-sama-bez-statu-1434715" },
         { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-tykacova-sev-en-chce-penize-za-rekultivace-rozdelit-bez-statu-jen-s-obcemi-312297" },
         { "name": "Deník N", "url": "https://denikn.cz/minuta/2144613/" }
       ]
     },
     {
-      "rubric": "Ekonomika",
-      "time": "10:35",
-      "headline": "Správa železnic a České dráhy se dohodly na převodu majetku za sedm miliard korun",
-      "body": "Státní Správa železnic a České dráhy se dohodly na převodu majetku za zhruba sedm miliard korun, hlavně jde o pozemky pod tratěmi, které koupí Správa železnic. Drahám zaplatí asi 6,79 miliardy korun bez DPH, České dráhy pak od správy odkoupí majetek za přibližně 212 milionů korun.",
-      "cross_source": true,
+      "rubric": "Technologie",
+      "time": "13:28",
+      "headline": "Do databází zranitelností se dostala šestice vymyšlených kritických chyb v SQLite",
+      "body": "Bezpečnostní tým JFrogu popsal šest CVE hlášených pro SQLite, které podle něj vůbec neexistují. Záznamy tvrdily, že v knihovně jsou chyby typu use-after-free, a dostaly skóre od 7,5 do 9,8, tedy vysokou až kritickou závažnost. JFrog uvádí, že funkce, k nimž se hlášení odvolávají, v daných verzích nejsou, čísla řádků neodpovídají skutečným souborům a přiložené ukázky útoku nic nerozbijí. Texty navíc nástroj GPTZero označil za strojově generované. Dávku těchto CVE vydal jeden účet na GitHubu, který MITRE přijal bez ověření identity, a NVD i CISA je bez hlubší analýzy označily za kritické; Red Hat původně jednomu z nich dal skóre 10,0 a později je snížil na 7,6. Podle JFrogu je hlubší problém v tom, že NIST od února 2024 fakticky přestal příchozí CVE hloubkově analyzovat, takže věrohodně znějící falešná hlášení projdou až do podnikových skenerů, kde na jejich základě mohou automatizované nástroje opravovat neexistující chyby.",
       "sources": [
-        { "name": "E15", "url": "https://www.e15.cz/byznys/doprava-a-logistika/ceske-drahy-ziskaji-miliardy-korun-od-spravy-zeleznic-koupi-od-nich-tisice-pozemku-1434703" },
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144577/" }
+        { "name": "Hacker News", "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/" }
       ]
     },
     {
-      "rubric": "Společnost a kultura",
+      "rubric": "Technologie",
+      "time": "14:56",
+      "headline": "Chrome opravil ve dvou vydáních 1072 bezpečnostních chyb nalezených pomocí AI",
+      "body": "Google na svém blogu popsal, že v posledních dvou vydáních prohlížeče Chrome, tedy 149 a 150, opravil 1072 bezpečnostních chyb. Je to podle Root.cz více než ve 23 předchozích vydáních dohromady. Příval chyb nalezených pomocí AI se tak netýká jen operačních systémů, ale i prohlížečů.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/chrome-diky-ai-opravil-pres-tisic-bezpecnostnich-chyb-ve-dvou-vydanich/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
       "time": "12:17",
-      "headline": "Google stáhl nástroj, který umožňoval falšovat satelitní snímky",
-      "body": "Google nasadil a rychle zase zrušil novou funkci umožňující upravovat satelitní snímky — šlo vytvořit třeba zdánlivě zborcenou Eiffelovku nebo jaderná sila. Firma po stížnostech expertů přiznala, že možnost zneužití byla příliš velká.",
+      "headline": "Google rychle stáhl funkci, která umožňovala falšovat satelitní snímky",
+      "body": "Google nasadil a hned zrušil novou funkci, se kterou šlo upravovat satelitní snímky, například do nich přidat zborcenou Eiffelovu věž nebo jaderná sila. Po stížnostech expertů firma přiznala, že možností zneužití bylo příliš.",
       "sources": [
         { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/google-stahl-nastroj-kterym-umoznil-falsovat-satelitni-snimky-376208" }
       ]
     },
     {
-      "rubric": "Za pozornost",
-      "time": "11:38",
-      "headline": "Analýza: Do válek na Blízkém východě se zapojuje čím dál víc států",
-      "body": "Do různých válek na Blízkém východě se podle analýzy Voxpotu zapojuje stále více států a se zdivočelou politikou Donalda Trumpa nevypadá, že by konflikty mohly v dohledné době skončit. Autoři upozorňují také na blížící se izraelské parlamentní volby, které by mohly zahýbat současným stavem v Izraeli i celém regionu.",
+      "rubric": "Technologie",
+      "time": "08:28",
+      "headline": "Nejdiskutovanější text dne na Hacker News varuje před rolí prostředníka mezi AI a kolegy",
+      "body": "Text s názvem Don't be a meat proxy, který v pondělí vedl žebříček Hacker News s 939 body a více než 400 komentáři, argumentuje, že přeposílat kolegům nezpracované výstupy z AI nástrojů nemá hodnotu. Příjemce se podle autora může zeptat sám, a to rychleji a s vlastním kontextem, zatímco čtení cizích AI odpovědí je namáhavé kvůli délce, žargonu a věrohodně znějícím nesmyslům. Hodnota podle textu vzniká teprve tím, že člověk výstup přečte, pochopí, ověří a odpoví vlastními slovy. Jako příklad autor uvádí vývojáře, který zkopíruje popis ticketu do AI nástroje bez porozumění, takže implementaci fakticky odvede až recenzent kódu.",
       "sources": [
-        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/propojuji-se-valky-na-blizkem-vychode/" }
+        { "name": "Hacker News", "url": "https://gruhn.me/blog/2026-08-03/" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "10:48",
+      "headline": "V Praze začal 16. ročník festivalu Prague Pride",
+      "body": "V Praze začal největší queer lidskoprávní festival v Česku, letos v šestnáctém ročníku. Organizátoři ho podle Deníku N pořádají ve stínu tragédie na berlínském Pride, kde při vražedném útoku z nenávisti zahynula jedna žena a další lidé utrpěli vážná zranění. „Na nenávist odpovíme tím, že budeme vidět,“ říkají pořadatelé.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144618/" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:08",
+      "headline": "Ruský útok na sklad v Charkově zničil osm milionů knih",
+      "body": "Při víkendovém útoku na sklad v ukrajinském Charkově Rusové zničili osm milionů knih, oznámilo tamní nakladatelství Ranok. Akci odsoudilo jako útok na ukrajinskou kulturu.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-ukrajina-rusko-ranok-utok-nakladatelstvi-312308" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "12:36",
+      "headline": "Analýza Deníku N rozebírá, proč koalice zatím nemá kandidáta na Hrad",
+      "body": "Andrej Babiš i Petr Macinka se podle analýzy Deníku N aktuálně tváří, že společného kandidáta proti Petru Pavlovi nehledají. Premiér přitom před několika měsíci mluvil o tom, že koalice má najít člověka, který Pavla porazí. Text rozebírá, na čem by takový plán mohl ztroskotat a co naopak hraje v jeho prospěch.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2141492/mlha-kolem-vladniho-kandidata-na-hrad-koalice-by-musela-najit-pavla-2-0/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "06:00",
+      "headline": "Voxpot popisuje, jak saúdské peníze ovládly Counter-Strike",
+      "body": "Zatímco se v červnu většina pozornosti upínala k fotbalovému mistrovství světa, svůj vrchol sezony zažíval i Counter-Strike. Světový šampionát byl podle Voxpotu dosud největším milníkem saúdských snah ovládnout e-sport, turnaj pořádaný Saúdy vlastněnou organizací navíc ovládl saúdský tým.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/jen-fotbal-uz-nestaci-saudove-zneuzivaji-ke-sportwashingu-i-counter-strike/" }
       ]
     },
     {
       "rubric": "Sport",
-      "time": "11:50",
-      "headline": "Brankář Horníček přestoupil z Bragy do Newcastlu, stal se třetím nejdražším českým fotbalistou",
-      "body": "Reprezentační brankář Lukáš Horníček přestoupil z portugalské Bragy do anglického Newcastlu, kde podepsal pětiletou smlouvu. S přestupní částkou třicet milionů eur, tedy asi 726 milionů korun, se stal třetím nejdražším českým fotbalistou v historii. Čtyřiadvacetiletý rodák z Vysokého Mýta o víkendu odletěl do tréninkového kempu nového klubu.",
+      "time": "14:56",
+      "headline": "Los určil další soupeře českých klubů v evropských pohárech, Sparta hraje s Lyonem v úterý",
+      "body": "Pondělní los v sídle UEFA ve švýcarském Nyonu rozhodl, co české kluby čeká v dalším kole. Sparta se v případě postupu přes Lyon utká v závěrečném 4. předkole Ligy mistrů s vítězem dvojzápasu Fenerbahce a Štýrského Hradce; úvodní zápas s Lyonem hraje v úterý od 20:00 na Letné a nastoupí proti klubu, kde v minulé sezoně hostoval sparťanský záložník Adam Karabec. Plzeň se ve 4. předkole Evropské ligy střetne s poraženým ze souboje Hapoelu Beer Ševa a Crvené zvezdy Bělehrad a dvojzápas začne venku. Jablonec by po případném postupu přes RFS Riga hrál v Konferenční lize s Bialystokem, nebo Glasgow Rangers. Hradec Králové si v případě vyřazení Beşiktaşe zahraje o hlavní fázi Evropské ligy s Dinamem Záhřeb, či Žalgirisem, pokud s tureckým klubem vypadne, čeká ho ve 4. předkole Konferenční ligy Panathinaikos, nebo CSKA 1948 Sofia.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/sparta-uz-zna-soupere-pro-predkolo-ligy-mistru-v-pripade-postupu-ji-ceka_2608031241_mim" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/plzen-ceka-ve-4-predkole-el-beer-seva-nebo-cz-belehrad-158218" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/zaverecne-kolo-konferencni-ligy-pro-jablonec-rangers-ci-bialystok-158219" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-skaut-karabec-chce-kouci-lyonu-ukazat-ze-je-top-5511504" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:52",
+      "headline": "Horníček přestoupil do Newcastlu a je třetím nejdražším českým fotbalistou",
+      "body": "Brankář Lukáš Horníček přestoupil z portugalské Bragy do Newcastlu, kde podepsal pětiletou smlouvu. S přestupní částkou 30 milionů eur, tedy asi 726 milionů korun, se stal třetím nejdražším českým fotbalistou v historii. Čtyřiadvacetiletý rodák z Vysokého Mýta odletěl o víkendu do tréninkového kempu Newcastlu ve Španělsku, aby transfer dokončil poté, co klub aktivoval jeho výstupní klauzuli.",
       "cross_source": true,
       "sources": [
         { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/newcastle-koupil-hornicka-a-udelal-z-nej-tretiho-nejdrazsiho-ceskeho-fotbalistu-158215" },
         { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/hornicek-uz-patri-newcastlu-reprezentacni-golman-se-tak-stal-tretim-nejdrazsim_2608031052_mim" },
-        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144732/" }
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-premier-league-hotovo-hornicek-podepsal-v-premier-league-stal-se-tretim-nejdrazsim-ceskym-fotbalistou-5511476" }
       ]
     },
     {
       "rubric": "Sport",
-      "time": "13:16",
-      "headline": "Sparta v případě postupu přes Lyon narazí na Fenerbahce, Plzeň čeká Beer Ševa nebo Bělehrad",
-      "body": "Fotbalisté Sparty se v případě postupu přes Lyon utkají v posledním předkole Ligy mistrů s vítězem dvojzápasu Fenerbahce – Štýrský Hradec. Plzeň se v posledním předkole Evropské ligy střetne s Beer Ševou nebo Crvenou zvezdou Bělehrad a začne venku. Postoupí-li Hradec Králové přes Besiktas Istanbul, ve hře o hlavní fázi Evropské ligy narazí na Dinamo Záhřeb nebo Žalgiris.",
+      "time": "14:49",
+      "headline": "UEFA pohrozila Infantinovi soudem kvůli plánu prodat podíly na mistrovství světa",
+      "body": "Evropská fotbalová unie UEFA pohrozila předsedovi FIFA Giannimu Infantinovi právními kroky kvůli jeho plánu prodat podíly na světových šampionátech soukromým investorům. Listy The Telegraph a Financial Times jako první uvedly, že ho UEFA varovala písemně a vyzvala k uchování dokumentů; stejnou výzvu údajně poslala i samotné FIFA a investorovi Joshuovi Kushnerovi, který měl v projektu hrát klíčovou roli. Národní svazy zároveň začínají Infantinovi před volbami předsedy, které se konají příští rok v Maroku, odebírat podporu. Sport.cz označuje za první svaz, který podporu veřejně stáhl, velšskou asociaci, Deník N s odvoláním na Sky uvádí jako první britskou Fotbalovou asociaci.",
       "cross_source": true,
       "sources": [
-        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/plzen-ceka-ve-4-predkole-el-beer-seva-nebo-cz-belehrad-158218" },
-        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/sparta-uz-zna-soupere-pro-predkolo-ligy-mistru-v-pripade-postupu-ji-ceka_2608031241_mim" }
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-uefa-pohrozila-infantinovi-pravnimi-kroky-kvuli-planu-na-prodej-podilu-z-ms-5511498" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/uefa-pohrozila-sefovi-fifa-kvuli-prodeji-prav-soudem-infantina-varovala-i-pred_2608031449_mim" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-wales-ztratil-duveru-v-infantina-ve-volbach-predsedy-fifa-ho-uz-nepodpori-5511478" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2144845/" }
       ]
     },
     {
       "rubric": "Sport",
-      "time": "17:44",
-      "headline": "Jablonec výhrou v Pardubicích vystoupal na čelo tabulky, Olomouc i Hradec jen remizovaly",
-      "body": "Jablonec vyhrál ve druhém kole v Pardubicích 2:0 a zůstal v nové sezoně stoprocentní stejně jako obhájce titulu Slavia a Teplice. Olomouc doma remizovala s Mladou Boleslaví 2:2.",
+      "time": "13:03",
+      "headline": "Ligu po dvou kolech vede Slavia, stoprocentní jsou i Teplice a Jablonec",
+      "body": "Tabulku Chance ligy vede po dvou kolech mistrovská Slavia, která zvítězila na hřišti Baníku Ostrava 4:0. Plný počet bodů mají také Teplice po výhře 1:0 v Liberci a Jablonec, který uspěl 2:0 v Pardubicích, kde si dal vlastní gól Marek Icha a přidal se Jan Chramosta. Olomouc doma dvakrát prohrávala s Mladou Boleslaví, srovnala ale na 2:2 zásluhou Davida Tkáče a v 87. minutě Václava Sejka. Plzeň má po dvou domácích zápasech jen bod za remízu 1:1 se Zbrojovkou Brno.",
+      "cross_source": true,
       "sources": [
-        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/olomouc-s-boleslavi-dvakrat-prohravala-alespon-bod-vystrelil-sigme-sejk-158210" }
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/rekl-si-o-velkou-pozornost-chvali-expert-horvath-polaka-nowaka-plzni-se-nedari_2608031303_mim" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/olomouc-s-boleslavi-dvakrat-prohravala-alespon-bod-vystrelil-sigme-sejk-158210" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-jablonec-slavi-dalsi-vyhru-5511454" }
       ]
     },
     {
       "rubric": "Sport",
       "time": "17:18",
-      "headline": "Kousková dvanáctým místem na British Open vylepšila české maximum na golfových major turnajích",
-      "body": "Golfistka Sára Kousková v závěrečném kole British Open zahrála čtyři rány pod par a celkově skončila dvanáctá, což je nejlepší český výsledek na turnajích major série. Turnaj vyhrála Šiho Kuwakiová z Japonska.",
+      "headline": "Kousková skončila na British Open dvanáctá a posunula české maximum na majorech",
+      "body": "Golfistka Sára Kousková se v závěrečném kole British Open blýskla výkonem čtyři rány pod par a obsadila dvanácté místo. Je to podle ČT Sport suverénně nejlepší český výsledek na turnajích prestižní série major. Turnaj vyhrála Šiho Kuwakiová z Japonska.",
       "sources": [
         { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/golf/kouskova-skvele-zakoncila-british-open-a-posunula-ceske-maximum-158209" }
-      ]
-    },
-    {
-      "rubric": "Sport",
-      "time": "22:09",
-      "headline": "Viďmanová prohrála finále turnaje v Memphisu se šestnáctiletou Ruskou Ljutovovou",
-      "body": "Tenistka Darja Viďmanová i po finále v Memphisu čeká na svůj první titul na okruhu WTA. Prohrála se šestnáctiletou Ruskou Kristinou Ljutovovou, 229. hráčkou světa, poté co zápas ztratila 6:1, 1:6, 3:6.",
-      "sources": [
-        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/vidmanovou-v-memphisu-zastavila-az-ve-finale-sestnactileta-ruska-158214" }
       ]
     }
   ]
