@@ -108,10 +108,13 @@ V tomhle pořadí důležitosti:
    velké investice a stavby, kultura a akce ve městě, místní sport
    s dopadem (FC Hradec Králové, Mountfield HK). Černá kronika jen při
    skutečném významu.
-6. **Technologie** — významné dění v IT a vývoji softwaru: open source,
-   AI, bezpečnost, internetová infrastruktura, velké changelogy. Vybírej
-   věci, které vývojáře zajímají nebo se ho dotknou, ne každodenní drobné
-   release notes a PR produktů.
+6. **Technologie** — především **AI**: nové modely a nástroje, výzkum
+   s praktickým dopadem, dění kolem velkých AI firem, regulace, dopady
+   na vývojáře a společnost. Vedle toho významné dění ve vývoji
+   softwaru, open source a bezpečnosti. **Naopak mě skoro nezajímají
+   low-level a systémové věci** — aktualizace kernelu, nová vydání
+   distribucí a knihoven, hardware; ty zařaď jen výjimečně, když jde
+   o opravdu velkou událost. Žádné drobné release notes a PR produktů.
 7. **Společnost, věda, kultura** — jen když je to skutečně významné nebo
    nečekaně zajímavé.
 8. **Sport** — patří k mým hlavním zájmům, dej mu o něco víc prostoru.
@@ -153,6 +156,9 @@ sportovní spekulace typu „kdo koho možná koupí".
 - **Hacker News** — anglicky, odkazy vedou na původní (často cizí) web.
   Zprávu piš vždy česky vlastními slovy. Feed nese jen titulek a body —
   když se ti nepodaří otevřít článek, drž se titulku a nepřikrášluj.
+- **Root.cz** — hodně nízkoúrovňových témat (kernel, distribuce,
+  vydání knihoven), která mě většinou nezajímají. Vybírej hlavně AI
+  a širší softwarové či bezpečnostní dění.
 - **Sport.cz** — široký záběr včetně bulváru a spekulací; ber výsledky
   a podstatné události.
 - **Hradecký deník, iDNES Hradec, Hradecká drbna** — zdroje rubriky
