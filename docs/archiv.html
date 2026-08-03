@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rychlé zprávy · archiv</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Denní přehled zpráv z důvěryhodných českých zdrojů.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+(function () {
+  var root = document.documentElement;
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    function label() {
+      var dark = root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+      btn.textContent = dark ? 'Světlý režim' : 'Tmavý režim';
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var next = dark ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+</script>
+</head>
+<body>
+<button class="theme-toggle" type="button">Tmavý režim</button>
+<div class="wrap">
+<header class="masthead">
+<h1><a href="index.html">Rychlé zprávy</a></h1>
+<p class="dateline">Archiv</p>
+<hr class="rule-double">
+<p class="meta">1 vydání</p>
+</header>
+
+<ul class="archive">
+<li><a href="2026-08-03.html">pondělí 3. srpna 2026</a><span class="count">22 zpráv</span></li>
+</ul>
+
+<nav class="pager">
+<a href="index.html">← Nejnovější vydání</a>
+<span></span>
+<span></span>
+</nav>
+</div>
+</body>
+</html>

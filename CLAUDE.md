@@ -27,15 +27,26 @@ v Claude Code, takže se spustí i když je notebook zavřený.
    včerejší…"), ne celý příběh od začátku.
 
 3. **Vyber a narediguj** podle [Redakčních pravidel](#redakční-pravidla)
-   a [Formátu](#formát-výstupu) v `.claude/skills/digest/SKILL.md`.
+   a schématu v `.claude/skills/digest/SKILL.md`.
 
-4. **Ulož** výsledek do `digests/RRRR-MM-DD.md` (dnešní datum v Evropě/Praha)
-   a commitni ho. Commit message: `digest: RRRR-MM-DD`.
+4. **Ulož** výsledek jako `digests/RRRR-MM-DD.json` (dnešní datum v zóně
+   Europe/Prague). Do `failed_feeds` vypiš zdroje, které se nepodařilo
+   načíst — web je zobrazí v patičce.
 
-5. **Doruč.** Viz [Doručení](#doručení).
+5. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
 
-6. **Na konec digestu** připiš poznámku o zdrojích, které se nepodařilo
-   načíst (`failed_feeds` v JSONu). Když jsou všechny v pořádku, nepiš nic.
+   ```bash
+   python3 scripts/build_site.py
+   ```
+
+   Když skončí chybou, oprav JSON a spusť ho znovu. **Nikdy necommituj
+   digest, který build neprošel**, a nikdy needituj HTML v `docs/` ručně.
+
+6. **Commitni** `digests/` i `docs/` jedním commitem s message
+   `digest: RRRR-MM-DD`. GitHub Pages publikuje `docs/` samo, žádná CI
+   pipeline se nespouští.
+
+7. **Doruč.** Viz [Doručení](#doručení).
 
 ---
 
@@ -72,6 +83,20 @@ sportovní spekulace typu „kdo koho možná koupí".
   Prázdný den je lepší než vycpávka.
 - **Sport maximálně 5 položek.**
 - **Každá zpráva musí mít alespoň jeden odkaz na článek.**
+
+### Zvláštnosti jednotlivých zdrojů
+
+- **Deník N „minuta"** — krátké průběžné zprávy. `title` je jen zkrácený
+  začátek textu končící `…`, takže titulek **nikdy nekopíruj**, napiš
+  vlastní. Zprávy často nesou v závorce agenturu, ze které pocházejí
+  (`(ČTK)`, `(Reuters)`) — tu do textu nepřepisuj.
+- **E15** — dobrý na ekonomiku a byznys, ale feed míchá i „servisní"
+  texty (daňové návody, žebříčky dovolených, tipy na nakupování). Ty do
+  digestu nepatří.
+- **Voxpot** — analýzy a reportáže, ne denní zpravodajství. Patří do
+  rubriky `Za pozornost`, pokud vůbec.
+- **Deník N** je placený. Anotace ve feedu na krátkou zprávu stačí, ale
+  odkaz vede na paywall. Neber to jako důvod ho nepoužívat.
 
 ### Odkud smí pocházet fakta
 
@@ -126,7 +151,8 @@ nedopovězený; přepiš ho tak, aby sám nesl informaci.
 
 ## Doručení
 
-Aktuálně nastavené: **commit do repozitáře** (soubor v `digests/`).
+Aktuálně nastavené: **commit do repozitáře**, odkud GitHub Pages publikuje
+web z `docs/`. To je hlavní čtecí plocha, žádný další krok není povinný.
 
 Když je v běhu k dispozici Slack connector, pošli digest navíc jako
 zprávu sobě. Odkaz na session, který lze přiložit, získáš takto:
@@ -142,8 +168,9 @@ Dokud tam není nastavený API klíč, e-mail neposílej a nezkoušej to obejít
 
 ## Co nedělat
 
-- Neupravuj starší soubory v `digests/`. Jsou to archiv i podklad pro
-  deduplikaci.
+- Neupravuj starší digesty v `digests/`. Jsou to archiv i podklad pro
+  deduplikaci. (Přegenerování `docs/` starší dny přepisuje, to je v pořádku
+  — HTML je odvozený soubor.)
 - Nepřidávej zdroje mimo `sources.toml`. Když ti nějaký chybí, zmiň to
   na konci digestu jako návrh; nerozšiřuj seznam sám.
 - Nepiš do digestu meta komentáře o své práci („nepodařilo se mi…",

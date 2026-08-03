@@ -1,7 +1,7 @@
 # news-digest
 
 Denní přehled zpráv ve stylu „rychlých zpráv", který jednou denně vyrobí
-cloud routine v Claude Code a commitne do `digests/`.
+cloud routine v Claude Code a vydá jako statický web v novinové sazbě.
 
 Motivace: přečíst si jednou denně to podstatné z důvěryhodných českých
 zdrojů, včetně sportu, místo průběžného scrollování.
@@ -9,10 +9,10 @@ zdrojů, včetně sportu, místo průběžného scrollování.
 ## Jak to funguje
 
 ```
-sources.toml ──► scripts/fetch_feeds.py ──► /tmp/feed.json ──► agent ──► digests/RRRR-MM-DD.md
-   13 RSS feedů      stažení, filtr 24 h,      témata se        výběr,        commit
-                     seskupení duplicit        signálem         redakce,      (+ Slack)
-                                               relevance        formát
+sources.toml ──► fetch_feeds.py ──► feed.json ──► agent ──► digests/*.json ──► build_site.py ──► docs/
+  12 RSS feedů    stažení, okno      témata se     výběr,      strukturovaný     validace,      GitHub
+                  24 h, dedup,       signálem      redakce,    výstup            novinová       Pages
+                  clustering         relevance     formát                        sazba
 ```
 
 Návrh stojí na dvou rozhodnutích:
@@ -26,32 +26,50 @@ z pevného seznamu feedů se nedá „vyhledat" něco, co neexistuje.
 
 **Deterministická část ve skriptu, úsudek v modelu.** Stahování, časové
 okno, deduplikaci URL a párování téže zprávy napříč portály dělá Python.
-Model dostane čistý vstup a řeší jen výběr, zkrácení a formulaci.
+Model dostane čistý vstup a řeší jen výběr, zkrácení a formulaci. Výstup
+je strukturovaný JSON, ne rovnou HTML — sazba webu je pak čistě otázka
+šablony, ne toho, co model zvládne napsat.
 
 ## Soubory
 
 | Soubor | Co v něm je |
 | --- | --- |
 | `CLAUDE.md` | Postup běhu, co mě zajímá, redakční pravidla a limity |
-| `.claude/skills/digest/SKILL.md` | Přesný formát výstupu |
+| `.claude/skills/digest/SKILL.md` | JSON schéma digestu a forma položek |
 | `sources.toml` | Seznam feedů, váhy, časové okno, práh clusteringu |
-| `scripts/fetch_feeds.py` | Sběr a normalizace feedů (jen stdlib) |
-| `SETUP.md` | Jak založit routinu a povolit síť na zpravodajské domény |
-| `digests/` | Archiv digestů; slouží i k deduplikaci vůči předchozím dnům |
+| `scripts/fetch_feeds.py` | Sběr a normalizace feedů |
+| `scripts/build_site.py` | Validace digestů a generování webu do `docs/` |
+| `SETUP.md` | Jak založit routinu, povolit síť a zapnout Pages |
+| `digests/` | Digesty jako JSON; archiv i podklad pro deduplikaci |
+| `docs/` | Generovaný web — nikdy needituj ručně |
 
 Chceš něco změnit? Zdroje v `sources.toml`, témata a pravidla v `CLAUDE.md`,
-vzhled v `SKILL.md`. Prompt routiny zůstává krátký a odkazuje sem.
+strukturu výstupu v `SKILL.md`, sazbu webu v `scripts/build_site.py`
+(konstanta `CSS`). Prompt routiny zůstává krátký a odkazuje sem.
 
 ## Zdroje
 
-iROZHLAS · ČT24 / ČT Sport · Deník N · Seznam Zprávy · Aktuálně.cz · Voxpot
+iROZHLAS · ČT24 / ČT Sport · Deník N (včetně proudu „minuta") ·
+Seznam Zprávy · E15 · Voxpot
+
+## Web
+
+Statický, bez závislostí a bez build toolchainu. Novinová sazba se serifovým
+písmem ze systému, barva novinového papíru, tmavý režim pro čtení večer
+(řídí se systémem, přepínač si volbu pamatuje) a responzivní layout pro
+mobil. Archiv s prolistováním po dnech.
 
 ## Lokální spuštění
 
 ```bash
 python3 scripts/fetch_feeds.py --out /tmp/feed.json   # vyžaduje Python 3.11+
 python3 scripts/fetch_feeds.py --hours 48             # širší okno
+
+python3 scripts/build_site.py --check                 # jen zvaliduje digesty
+python3 scripts/build_site.py                         # přegeneruje docs/
+
+python3 -m http.server 8791 --directory docs          # náhled webu
 ```
 
-Skript vypíše na stderr přehled, kolik položek každý feed dodal a které
-selhaly. Nastavení routiny je v [SETUP.md](SETUP.md).
+`fetch_feeds.py` vypíše na stderr přehled, kolik položek každý feed dodal
+a které selhaly. Nastavení routiny je v [SETUP.md](SETUP.md).

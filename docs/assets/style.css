@@ -1,0 +1,254 @@
+/* Novinová sazba. Světlé téma je barva novinového papíru, tmavé je
+   ztlumená varianta pro čtení večer. Přepínač zapisuje data-theme na
+   <html>, jinak se řídí nastavením systému. */
+
+:root {
+  --paper: #f4efe3;
+  --paper-raised: #faf6ec;
+  --ink: #201d17;
+  --ink-muted: #6d6555;
+  --rule: #d2c8b3;
+  --rule-strong: #201d17;
+  --accent: #8c2f1d;
+  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino,
+           "Times New Roman", "Times", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171612;
+    --paper-raised: #1f1d18;
+    --ink: #e7e1d4;
+    --ink-muted: #9b9384;
+    --rule: #35322a;
+    --rule-strong: #6d6555;
+    --accent: #d98a72;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #171612;
+  --paper-raised: #1f1d18;
+  --ink: #e7e1d4;
+  --ink-muted: #9b9384;
+  --rule: #35322a;
+  --rule-strong: #6d6555;
+  --accent: #d98a72;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0 1.25rem 4rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1rem, 0.97rem + 0.15vw, 1.075rem);
+  line-height: 1.62;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 40rem; margin: 0 auto; }
+
+/* ── hlavička ─────────────────────────────────────────────────────────── */
+
+.masthead { padding-top: 2.5rem; text-align: center; }
+
+.masthead h1 {
+  margin: 0;
+  font-size: clamp(2rem, 1.3rem + 3.2vw, 3.1rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+.masthead h1 a { color: inherit; text-decoration: none; }
+
+.masthead .dateline {
+  margin: 0.85rem 0 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.rule-double {
+  margin: 1.1rem 0 0;
+  border: 0;
+  border-top: 3px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+  height: 4px;
+}
+
+.meta {
+  margin: 0.7rem 0 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-muted);
+  text-align: center;
+}
+
+/* ── nejdůležitější ───────────────────────────────────────────────────── */
+
+.highlights {
+  margin: 2.2rem 0 0;
+  padding: 1.15rem 1.35rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+}
+
+.highlights h2 {
+  margin: 0 0 0.6rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  font-weight: 700;
+}
+
+.highlights ul { margin: 0; padding-left: 1.1rem; }
+.highlights li { margin: 0.32rem 0; font-style: italic; }
+
+/* ── rubriky a položky ────────────────────────────────────────────────── */
+
+.rubric { margin: 2.9rem 0 0; }
+
+.rubric > h2 {
+  margin: 0 0 0.2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--rule-strong);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+article {
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+article:last-child { border-bottom: 0; }
+
+.stamp {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.stamp .flag { color: var(--accent); }
+
+article h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.16em;
+  line-height: 1.32;
+  font-weight: 700;
+}
+
+article p { margin: 0; }
+
+.sources {
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+.sources a {
+  color: var(--ink-muted);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  padding-bottom: 1px;
+}
+
+.sources a:hover, .sources a:focus { color: var(--accent); }
+
+.sources .sep { padding: 0 0.35rem; opacity: 0.6; }
+
+/* ── navigace a patička ───────────────────────────────────────────────── */
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+}
+
+.pager a { color: var(--accent); text-decoration: none; }
+.pager a:hover { text-decoration: underline; }
+
+footer {
+  margin-top: 2.5rem;
+  padding-top: 1.1rem;
+  border-top: 3px double var(--rule-strong);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+footer p { margin: 0.35rem 0; }
+footer .warn { font-style: italic; }
+
+/* ── přepínač témat ───────────────────────────────────────────────────── */
+
+.theme-toggle {
+  position: fixed;
+  top: 0.85rem;
+  right: 0.85rem;
+  z-index: 10;
+  padding: 0.4rem 0.7rem;
+  background: var(--paper-raised);
+  color: var(--ink-muted);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-family: var(--serif);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.theme-toggle:hover { color: var(--ink); border-color: var(--rule-strong); }
+
+/* ── archiv ───────────────────────────────────────────────────────────── */
+
+.archive { margin: 2.4rem 0 0; list-style: none; padding: 0; }
+
+.archive li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.75rem;
+  align-items: baseline;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.archive a { color: var(--ink); text-decoration: none; font-weight: 700; }
+.archive a:hover { color: var(--accent); }
+.archive .count { font-size: 0.8rem; color: var(--ink-muted); }
+
+/* ── mobil ────────────────────────────────────────────────────────────── */
+
+@media (max-width: 32rem) {
+  body { padding: 0 1rem 3rem; line-height: 1.58; }
+  .masthead { padding-top: 3.25rem; }
+  .masthead h1 { letter-spacing: 0.03em; }
+  .highlights { padding: 1rem 1.1rem; }
+  .rubric { margin-top: 2.3rem; }
+  .pager { flex-direction: column; }
+}
+
+@media print {
+  .theme-toggle, .pager { display: none; }
+  body { background: #fff; color: #000; }
+}

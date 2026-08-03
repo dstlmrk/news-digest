@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rychlé zprávy · pondělí 3. srpna 2026</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Denní přehled zpráv z důvěryhodných českých zdrojů.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+(function () {
+  var root = document.documentElement;
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    function label() {
+      var dark = root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+      btn.textContent = dark ? 'Světlý režim' : 'Tmavý režim';
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var next = dark ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+</script>
+</head>
+<body>
+<button class="theme-toggle" type="button">Tmavý režim</button>
+<div class="wrap">
+<header class="masthead">
+<h1><a href="index.html">Rychlé zprávy</a></h1>
+<p class="dateline">pondělí 3. srpna 2026</p>
+<hr class="rule-double">
+<p class="meta">22 zpráv &nbsp;·&nbsp; okno 24 h &nbsp;·&nbsp; iROZHLAS · ČT24 · ČT Sport · Deník N · Seznam Zprávy · E15</p>
+</header>
+
+<section class="highlights">
+<h2>Nejdůležitější</h2>
+<ul>
+<li>Bitcoinová kauza jde k soudu, žalobkyně chce pro exministra Blažka 6,5 roku a pro Jiřikovského souhrnných 20 let. Obžalovaní vinu odmítají.</li>
+<li>Deník N zjistil, že se Babiš letos dvakrát sešel s Pavlem Tykačem a řeč byla i o výkupu akcií ČEZ.</li>
+<li>Trump ohlásil obnovení jednání s Íránem, Teherán ale tvrdí, že žádné rozhovory nevede.</li>
+</ul>
+</section>
+
+<section class="rubric">
+<h2>Domov</h2>
+<article>
+<span class="stamp">12:59 <span class="flag">· 5 zdrojů</span></span>
+<h3>Bitcoinová kauza míří k soudu, žalobkyně chce pro Blažka 6,5 roku vězení</h3>
+<p>Vrchní státní zastupitelství v Olomouci podalo u Krajského soudu v Brně obžalobu na čtyři lidi: dárce bitcoinů Tomáše Jiřikovského, exministra spravedlnosti Pavla Blažka, jeho tehdejšího náměstka Radomíra Daňhela a advokáta Kárima Titze. Pro Blažka i Daňhela žalobkyně požaduje šest a půl roku vězení, pro Titze osm let a pro Jiřikovského souhrnný trest dvaceti let. Všichni tři obžalovaní, kteří se vyjádřili, vinu odmítají: Blažek uvedl, že se nepovažuje za vinného a že se dosud neprokázalo, odkud bitcoiny pocházejí, Daňhel tvrdí, že obžaloba nemá oporu ve vyšetřování, a Titz kritizuje postup policie a žalobců. Podle žalobce byl případ mimořádný nasazením sil i dokazováním v kyberprostoru a dohodu o vině a trestu neuzavřel nikdo ze stíhaných.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/bitcoinova-kauza-miri-k-soudu-statni-zastupkyne-obzalovala-ctyri-osoby-376207" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/zalobkyne-podala-obzalobu-na-ctyri-lidi-kvuli-bitcoinove-kauze_2608031052_mst" rel="noopener">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobkyne-zada-pro-jirikovskeho-souhrnny-trest-20-let-vezeni-312280" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144838/" rel="noopener">Deník N</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/politika/bitcoinova-kauza-miri-k-soudu-blazkovi-zalobkyne-navrhuje-6-5-roku-vezeni-1434707" rel="noopener">E15</a></p>
+</article>
+<article>
+<span class="stamp">05:48</span>
+<h3>Babiš se letos dvakrát sešel s Tykačem, řeč byla i o výkupu akcií ČEZ</h3>
+<p>Podle zjištění Deníku N proběhly mezi premiérem a miliardářem Pavlem Tykačem letos dvě schůzky. Oficiálním důvodem byla budoucnost Tykačových uhelných elektráren, podnikatel ale chtěl probírat i plánovaný výkup akcií ČEZ — je po státu druhým největším akcionářem skupiny a měl premiérovi nastínit, za kolik by své akcie státu prodal.</p>
+<p class="sources"><a href="https://denikn.cz/2141860/dve-schuzky-tykace-s-babisem-miliardar-nastinil-premierovi-za-kolik-by-statu-prodal-akcie-cez/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">11:00 <span class="flag">· 2 zdroje</span></span>
+<h3>Tykačova Sev.en rozdělí úspory za rekultivace lomu ČSA přímo obcím, bez státu</h3>
+<p>Severní energetická chce sama rozhodnout o využití peněz, které ušetřila na rekultivacích lomu ČSA. Původně je měla obcím v okolí těžební oblasti poslat prostřednictvím Státního fondu životního prostředí, nově chce jednat přímo s nimi.</p>
+<p class="sources"><a href="https://www.e15.cz/byznys/prumysl-a-energetika/sev-en-rozdeli-uspory-za-rekultivace-obcim-bez-ucasti-statu-1434704" rel="noopener">E15</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144613/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">09:06 <span class="flag">· 2 zdroje</span></span>
+<h3>Po nástupu ředitele z Motoristů odchází vedení inspekce životního prostředí</h3>
+<p>Z České inspekce životního prostředí odcházejí dva členové vedení, ředitelé dvou z pěti odborů i další zaměstnanci. Potvrdili, že jejich odchod souvisí s nástupem nového ředitele Pavla Straky, dřívějšího kandidáta Motoristů. „Není to můj styl práce,“ cituje jednoho z nich Seznam Zprávy.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-nesouhlasi-se-smerovanim-uradu-spicky-inspekce-konci-po-nastupu-motoristy-312190" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144520/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">08:22</span>
+<h3>V Česku platí nová pravidla pro AI, týkají se označování chatbotů i generovaných obrázků</h3>
+<p>Lidé by měli snáz rozpoznat, kdy komunikují s chatbotem nebo se dívají na obsah vytvořený umělou inteligencí. Pravidla vycházejí z článku 50 evropského nařízení AI Act a nevztahují se na čistě soukromé a osobní použití.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/veda-technologie/technologie/mate-pravo-vedet-v-cesku-plati-nova-pravidla-pro-ai-tykaji-se-oznacovani_2608030822_mst" rel="noopener">iROZHLAS</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Svět</h2>
+<article>
+<span class="stamp">10:58 <span class="flag">· 4 zdroje</span></span>
+<h3>Ukrajina zasáhla další sklady Wildberries, na Krymu zemřeli tři lidé</h3>
+<p>Největší ruský internetový prodejce Wildberries oznámil zásah dalšího svého logistického centra, tentokrát ve Vladimirské oblasti. Terčem dronů se stala i Bělgorodská státní univerzita, kde se podle ukrajinské strany vyvíjely a testovaly drony. Na okupovaném Krymu podle okupační správy zahynuli při útocích tři lidé a mořské drony měly zasáhnout dva ruské vojenské radary. Rusko naopak bombardovalo Záporožskou oblast, kde jeden člověk zemřel a další byl zraněn.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/online-rusko-v-noci-bombardovalo-zaporozi-ukrajina-zautocila-na-dalsi-sklad_2608030929_zko" rel="noopener">iROZHLAS</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-uderila-na-dalsi-sklad-wildberries-rusko-bombardovalo-okoli-zaporozi-376206" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-rusko-bombardovalo-okoli-zaporozi-ukrajina-opet-utocila-na-logisticke-centrum-312263" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144605/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">10:25 <span class="flag">· 3 zdroje</span></span>
+<h3>Trump ohlásil obnovení jednání s Íránem, Teherán tvrdí, že žádné rozhovory nevede</h3>
+<p>Americký prezident uvedl, že vyjednávání s Íránem začne znovu dnes, a zároveň řekl, že plánovaný rozsáhlý útok proti zemi odložil na žádost Íránců a amerických spojenců. Mluvčí íránského ministerstva zahraničí Esmail Baghaei to popřel — podle něj Teherán se Spojenými státy nyní nejedná a rozhovory probíhají pouze s Ománem o plavbě v Hormuzském průlivu. Ceny ropy po zprávě o odkladu útoku výrazně klesly, Brent ztrácel kolem pěti procent na 83,50 dolaru za barel.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-usa-a-iran-dnes-podle-trumpa-zacnou-znovu-jednat-312259" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144607/" rel="noopener">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144475/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">22:39 <span class="flag">· 3 zdroje</span></span>
+<h3>Marocká vláda se poprvé vyjádřila ke Ceutě, vinu svaluje na pašeráky a dezinformace</h3>
+<p>Za migrační krizi ve španělské exklávě, kam se minulý týden pokusilo proniknout přes padesát tisíc lidí, může podle Rabatu pašerácká mafie a šíření dezinformací — ty prý u tisíců Maročanů vyvolaly přesvědčení, že se do města dostanou snadno a bez následků. Je to první reakce marocké vlády od čtvrtka. Podle zdrojů rozhlasu Cadena SER přitom španělská tajná služba varovala ministerstvo vnitra před velkým přílivem migrantů už v červenci.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/marocka-vlada-se-poprve-vyjadrila-ke-krizi-v-ceute-obvinila-z-ni-paseraky-376199" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-spanelska-tajna-sluzba-v-cervenci-varovala-pred-migracni-vlnou-do-ceuty-312271" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144559/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">10:00</span>
+<h3>Izraelské nálety v Gaze zabily nejméně 18 Palestinců i po Trumpově oznámení o průlomu</h3>
+<p>Podle palestinských zdravotníků zemřelo při náletech nejméně osmnáct lidí, z toho čtyři v Dajr al-Balah. Stalo se to navzdory tomu, že Donald Trump ohlásil průlom v úsilí o naplnění loňské dohody o příměří. Turecké ministerstvo zahraničí tvrdí, že pokračující útoky ukazují, že vláda Benjamina Netanjahua nemá v plánu se s Palestinci usmířit.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2144552/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">13:23 <span class="flag">· 3 zdroje</span></span>
+<h3>Při hašení požárů v Řecku se srazily vrtulníky, u Spokane evakuovali 60 tisíc lidí</h3>
+<p>Západně od Athén se v neděli při hašení lesních požárů srazily dva vrtulníky, oba členové posádky jednoho z nich zemřeli. Požáry v oblasti od pátku zničily přes deset tisíc hektarů a policie zadržela dva lidi podezřelé ze zakládání. V americkém státě Washington poškodily tři požáry kolem šesti set budov a úřady vyhlásily evakuaci asi šedesáti tisíc lidí. Ve francouzském departementu Var se rozsáhlý požár přes noc dál nešířil, hasiči ale čekají zhoršení podmínek během odpoledne.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/v-recku-kvuli-pozarum-zatkli-dva-lidi-plameny-stravuji-i-stat-washington-376189" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-kvuli-pozaru-u-spokane-v-usa-muselo-opustit-domovy-asi-60-000-lidi-312261" rel="noopener">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144766/" rel="noopener">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Ekonomika</h2>
+<article>
+<span class="stamp">07:20</span>
+<h3>ČEZ začal vyplácet dividendu, stát dostane téměř 16 miliard</h3>
+<p>Energetická společnost vyplácí akcionářům z loňského zisku 42 korun na akcii, celkem 22,6 miliardy korun. Stát jako většinový akcionář z toho získá téměř šestnáct miliard.</p>
+<p class="sources"><a href="https://www.e15.cz/byznys/prumysl-a-energetika/cez-zacina-vyplacet-dividendu-akcionarum-posle-22-6-miliardy-korun-1434700" rel="noopener">E15</a></p>
+</article>
+<article>
+<span class="stamp">06:30</span>
+<h3>Vláda tlačí deficit pod tříprocentní strop, bude muset najít 115 miliard</h3>
+<p>Vládní plán počítá pro rok 2027 s deficitem 2,8 procenta HDP, od evropského limitu ho bude dělit jen osmnáct miliard korun. Ministerstvo financí samo podle E15 nevěří, že avizované masivní investice zrychlí ekonomiku dost na to, aby se dluhy zaplatily samy.</p>
+<p class="sources"><a href="https://www.e15.cz/nazory-a-analyzy/vlada-zene-deficit-pod-triprocentni-strop-nekde-bude-muset-najit-115-miliard-nastve-sve-volice-1434624" rel="noopener">E15</a></p>
+</article>
+<article>
+<span class="stamp">11:50 <span class="flag">· 3 zdroje</span></span>
+<h3>Balíkovna se vrací pod Českou poštu</h3>
+<p>Samostatná divize se po odchodu svého šéfa Martina Kmenta postupně plně začlení zpět do pošty a nové vedení se hledat nebude. Serveru Respekt.cz to řekl ministr vnitra Lubomír Metnar (ANO), pod jehož resort Česká pošta spadá.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/ekonomika/balikovna-se-vraci-pod-ceskou-postu-376210" rel="noopener">ČT24</a><span class="sep">·</span><a href="https://www.e15.cz/byznys/obchod-a-sluzby/balikovna-ztrati-samostatnost-po-odchodu-sefa-splyne-s-ceskou-postou-1434708" rel="noopener">E15</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144667/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">10:35 <span class="flag">· 2 zdroje</span></span>
+<h3>Správa železnic koupí od Českých drah pozemky pod tratěmi za sedm miliard</h3>
+<p>Státní organizace Správa železnic a státem vlastněné České dráhy se dohodly na převodu majetku za přibližně sedm miliard korun. Jde hlavně o pozemky pod tratěmi; drahám má Správa železnic zaplatit asi 6,79 miliardy bez DPH.</p>
+<p class="sources"><a href="https://www.e15.cz/byznys/doprava-a-logistika/ceske-drahy-ziskaji-miliardy-korun-od-spravy-zeleznic-koupi-od-nich-tisice-pozemku-1434703" rel="noopener">E15</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144577/" rel="noopener">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Společnost a kultura</h2>
+<article>
+<span class="stamp">10:48</span>
+<h3>Začíná Prague Pride, letos ve stínu tragédie na berlínském Pride</h3>
+<p>Šestnáctý ročník největšího queer lidskoprávního festivalu v Česku startuje krátce po útoku na Pride v Berlíně, kde přišla o život účastnice. „Na nenávist odpovíme tím, že budeme vidět,“ říkají organizátoři.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2144618/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">12:44 <span class="flag">· 2 zdroje</span></span>
+<h3>Svěrákova komedie Pět švestek zamíří do britských kin</h3>
+<p>Jedenáctý celovečerní film Jana Svěráka vstoupí na podzim do kin ve Velké Británii. Podle tvůrců jde o teprve čtvrtý český film, který se za třicet let podařilo dostat do britských kin ve větším měřítku. V Česku ho za deset týdnů vidělo 120 tisíc lidí.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/kultura/film/sverakova-komedie-pet-svestek-zamiri-do-kin-v-britanii-za-deset-tydnu-ho-v-cesku_2608031244_mst" rel="noopener">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144598/" rel="noopener">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Za pozornost</h2>
+<article>
+<span class="stamp">12:36</span>
+<h3>Analýza: koalice by pro Hrad musela najít „Pavla 2.0“</h3>
+<p>Andrej Babiš i Petr Macinka se aktuálně tváří, že společného kandidáta proti Petru Pavlovi nehledají. Premiér přitom před několika měsíci mluvil o tom, že koalice má najít člověka, který Pavla porazí. Analýza Deníku N rozebírá, na čem by takový plán mohl ztroskotat a co naopak hraje v jeho prospěch.</p>
+<p class="sources"><a href="https://denikn.cz/2141492/mlha-kolem-vladniho-kandidata-na-hrad-koalice-by-musela-najit-pavla-2-0/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">05:30</span>
+<h3>Audit nákupu NET4GAS měl být nezávislý, komplikuje ho přestup expertů z EY do KPMG</h3>
+<p>Vláda prověřuje, zda stát za NET4GAS nezaplatil příliš a zda se akvizice nepromítla do vyšších poplatků za přepravu plynu. Forenzní audit ale provádí KPMG, do níž letos přešla část energetického týmu EY, jenž se podílel na původní transakci.</p>
+<p class="sources"><a href="https://www.e15.cz/byznys/patrani-kolem-net4gas-melo-byt-nezavisle-ted-ho-narusuje-prestup-expertu-z-ey-do-kpmg-1434646" rel="noopener">E15</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Sport</h2>
+<article>
+<span class="stamp">13:00</span>
+<h3>Britská fotbalová asociace jako první stáhla podporu Infantinovi</h3>
+<p>Anglická FA oznámila, že nepodpoří znovuzvolení Gianniho Infantina prezidentem FIFA v příštoroční volbě. Rozhodnutí přišlo po nevoli nad plánem prodat část mistrovství světa a po dalších kontroverzích.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2144845/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">11:50 <span class="flag">· 3 zdroje</span></span>
+<h3>Horníček přestoupil do Newcastlu za 30 milionů eur</h3>
+<p>Reprezentační brankář Lukáš Horníček odešel z portugalské Bragy do Newcastlu, kde podepsal pětiletou smlouvu. Přestupní částka 30 milionů eur, tedy přibližně 726 milionů korun, z něj dělá třetího nejdražšího českého fotbalistu historie. Klub transfer potvrdil na svém webu.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/newcastle-koupil-hornicka-a-udelal-z-nej-tretiho-nejdrazsiho-ceskeho-fotbalistu-158215" rel="noopener">ČT Sport</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/fotbal/hornicek-uz-patri-newcastlu-reprezentacni-golman-se-tak-stal-tretim-nejdrazsim_2608031052_mim" rel="noopener">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2144732/" rel="noopener">Deník N</a></p>
+</article>
+<article>
+<span class="stamp">12:20 <span class="flag">· 2 zdroje</span></span>
+<h3>Sparta v případě postupu přes Lyon narazí na Fenerbahce, nebo Štýrský Hradec</h3>
+<p>Pondělní los v sídle UEFA v Nyonu rozhodl, že soupeřem Sparty ve čtvrtém předkole Ligy mistrů bude vítěz dvojzápasu Fenerbahce – Štýrský Hradec. Pražané musí nejdřív přejít přes Lyon.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/sparta-muze-v-pripade-postupu-pres-lyon-narazit-na-fenerbahce-158217" rel="noopener">ČT Sport</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/fotbal/sparta-uz-zna-soupere-pro-predkolo-ligy-mistru-v-pripade-postupu-ji-ceka_2608031241_mim" rel="noopener">iROZHLAS</a></p>
+</article>
+<article>
+<span class="stamp">17:18</span>
+<h3>Kousková posunula české maximum na golfových majorech</h3>
+<p>Sára Kousková zahrála závěrečné kolo British Open čtyři rány pod par a skončila dvanáctá. Je to nejlepší český výsledek v historii turnajů série major. Turnaj vyhrála Japonka Šiho Kuwakiová.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/golf/kouskova-skvele-zakoncila-british-open-a-posunula-ceske-maximum-158209" rel="noopener">ČT Sport</a></p>
+</article>
+</section>
+
+<nav class="pager">
+<span></span>
+<a href="archiv.html">Archiv</a>
+<span></span>
+</nav>
+
+<footer>
+<p>Sestaveno automaticky z RSS uvedených zdrojů. Každá zpráva odkazuje na původní článek.</p>
+<p><a href="index.html">Nejnovější vydání</a></p>
+</footer>
+</div>
+</body>
+</html>

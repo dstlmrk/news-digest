@@ -24,8 +24,8 @@ polem pro zprávu → **Add cloud environment**.
   *.denikn.cz
   seznamzpravy.cz
   *.seznamzpravy.cz
-  aktualne.cz
-  *.aktualne.cz
+  e15.cz
+  *.e15.cz
   voxpot.cz
   *.voxpot.cz
   ```
@@ -60,14 +60,40 @@ nebo na [claude.ai/code/routines](https://claude.ai/code/routines) →
 ```
 Vyrob dnešní přehled zpráv podle CLAUDE.md a .claude/skills/digest/SKILL.md
 v tomhle repozitáři. Postupuj podle sekce "Průběh běhu": sesbírej feedy,
-přečti poslední tři digesty kvůli deduplikaci, narediguj, ulož do digests/
-a commitni. Když se některý zdroj nepodaří načíst, zmiň to na konci digestu.
+přečti poslední tři digesty kvůli deduplikaci, narediguj, ulož jako JSON do
+digests/, přegeneruj web přes scripts/build_site.py a commitni digests/
+i docs/. Zdroje, které se nepodařilo načíst, dej do failed_feeds.
 ```
 
 Prompt nech krátký a odkazuj se z něj do repa. Pravidla se pak mění
 commitem, ne překlikáváním v UI.
 
-## 3. Ověření prvních běhů
+## 3. GitHub Pages
+
+Web je připravený v `docs/` a je potřeba Pages jen zapnout:
+
+```bash
+gh api -X POST repos/<uživatel>/news-digest/pages \
+  -f 'source[branch]=master' -f 'source[path]=/docs'
+```
+
+Nebo v repozitáři: **Settings → Pages → Source: Deploy from a branch →
+`master` / `/docs`**. Adresa pak bude `https://<uživatel>.github.io/news-digest/`.
+
+> **Pozor na plán.** GitHub Pages pro **privátní** repozitář vyžaduje
+> GitHub Pro / Team / Enterprise. Na free plánu API vrátí
+> `422 Your current plan does not support GitHub Pages for this repository`.
+> Buď repozitář zveřejni (digest obsahuje jen shrnutí a odkazy, žádné
+> secrets — v `docs/` ani `digests/` nic tajného není), nebo si Pro pořiď.
+
+Náhled bez Pages funguje i lokálně:
+
+```bash
+python3 scripts/build_site.py
+python3 -m http.server 8791 --directory docs
+```
+
+## 4. Ověření prvních běhů
 
 Klikni na **Run now** a **přečti si transcript**. Zelený status znamená jen
 to, že session naběhla a skončila bez infrastrukturní chyby — *neznamená*,
@@ -77,24 +103,21 @@ se poznají jen z transcriptu.
 Prvních pět až sedm běhů kontroluj a doťukávej `sources.toml` (co chodí),
 `CLAUDE.md` (co tě zajímá) a `SKILL.md` (jak to má vypadat).
 
-Lokálně si můžeš vstup vyzkoušet kdykoli:
+Lokálně si vstup i web vyzkoušíš kdykoli:
 
 ```bash
 python3 scripts/fetch_feeds.py --out /tmp/feed.json
+python3 scripts/build_site.py && python3 -m http.server 8791 --directory docs
 ```
 
-## Doručení e-mailem
+## Doručení mimo web
 
-Routina neumí posílat e-maily nativně. Tři cesty, v tomhle pořadí bych
-je zkoušel:
+Web v `docs/` je hlavní čtecí plocha. Když chceš navíc notifikaci:
 
-1. **Commit do repa** (nastaveno) — nulová konfigurace, GitHub jde přes
-   vlastní proxy nezávislou na allowlistu, a `digests/` slouží zároveň
-   jako archiv a jako podklad pro deduplikaci.
-2. **Slack connector** — DM sám sobě. Connector traffic jde přes servery
-   Anthropicu, takže **nepotřebuje nic v allowlistu**. Na ranní čtení na
-   telefonu nejpraktičtější.
-3. **Transactional e-mail API** (Resend, Mailgun, SendGrid) přes `curl`:
+1. **Slack connector** — DM sám sobě s odkazem na dnešní vydání. Connector
+   traffic jde přes servery Anthropicu, takže **nepotřebuje nic
+   v allowlistu**. Na ranní čtení na telefonu nejpraktičtější.
+2. **Transactional e-mail API** (Resend, Mailgun, SendGrid) přes `curl`:
    - přidej API doménu (např. `api.resend.com`) do allowlistu environmentu,
    - přidej klíč jako environment variable, např. `RESEND_API_KEY`,
    - dopiš do `CLAUDE.md` → *Doručení*, že se má e-mail poslat, a na jakou

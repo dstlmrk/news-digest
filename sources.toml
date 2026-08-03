@@ -51,6 +51,17 @@ section = "news"
 kind = "breaking"
 weight = 1.3
 
+# Proud "minuta" — krátké průběžné zprávy, obdoba rychlých zpráv na iROZHLASu.
+# Filtr /minuta/dulezite/ jako RSS neexistuje (vrací HTML), takže bereme celý
+# proud. Titulky jsou zkrácené fragmenty končící "…", nekopíruj je.
+[[feeds]]
+source = "denikn"
+name = "Deník N"
+url = "https://denikn.cz/minuta/feed/"
+section = "news"
+kind = "breaking"
+weight = 1.2
+
 [[feeds]]
 source = "seznamzpravy"
 name = "Seznam Zprávy"
@@ -59,13 +70,15 @@ section = "news"
 kind = "breaking"
 weight = 1.0
 
+# Primárně ekonomika a byznys. Feed míchá i lifestyle a "servisní" texty
+# (finexpert, návody, žebříčky) — ty do digestu nepatří, viz CLAUDE.md.
 [[feeds]]
-source = "aktualne"
-name = "Aktuálně.cz"
-url = "https://www.aktualne.cz/rss/"
+source = "e15"
+name = "E15"
+url = "https://www.e15.cz/rss"
 section = "news"
 kind = "breaking"
-weight = 0.9
+weight = 1.0
 
 [[feeds]]
 source = "voxpot"
@@ -109,11 +122,3 @@ url = "https://denikn.cz/sport/feed/"
 section = "sport"
 kind = "breaking"
 weight = 1.1
-
-[[feeds]]
-source = "aktualne"
-name = "Aktuálně.cz Sport"
-url = "https://sport.aktualne.cz/rss/"
-section = "sport"
-kind = "breaking"
-weight = 0.9
