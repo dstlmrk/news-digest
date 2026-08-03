@@ -17,6 +17,7 @@ Použití:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -32,8 +33,10 @@ SITE_TITLE = "Daily News"
 
 RUBRIC_ORDER = [
     "Domov",
+    "Hradec Králové",
     "Svět",
     "Ekonomika",
+    "Technologie",
     "Společnost a kultura",
     "Za pozornost",
     "Sport",
@@ -74,6 +77,14 @@ def validate(data: dict, path: Path) -> None:
 
     if not isinstance(data["items"], list) or not data["items"]:
         fail("items musí být neprázdné pole")
+
+    weather = data.get("weather")
+    if weather is not None:
+        if not isinstance(weather, dict) or not weather.get("summary"):
+            fail("weather musí být objekt s neprázdným polem 'summary'")
+        for key in ("summary", "outlook", "place"):
+            if key in weather and not isinstance(weather[key], str):
+                fail(f"weather.{key} musí být řetězec")
 
     for idx, item in enumerate(data["items"], start=1):
         where = f"items[{idx}]"
@@ -131,6 +142,12 @@ def plural_items(n: int) -> str:
     if 2 <= n <= 4:
         return f"{n} zprávy"
     return f"{n} zpráv"
+
+
+def read_id(date_iso: str, item: dict) -> str:
+    """Stabilní ID položky pro sledování přečtených zpráv v localStorage."""
+    raw = f'{date_iso}|{item["headline"]}|{item["sources"][0]["url"]}'
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:12]
 
 
 # ────────────────────────────────────  CSS  ─────────────────────────────────
@@ -250,6 +267,33 @@ body {
 .issues a:hover, .issues a:focus { color: var(--accent); }
 .issues .sep { padding: 0 0.35rem; opacity: 0.6; }
 
+/* ── počasí ───────────────────────────────────────────────────────────── */
+
+.weather {
+  margin: 1.9rem 0 0;
+  padding: 0.95rem 1.15rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+}
+
+.weather .kicker {
+  margin: 0 0 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  font-weight: 700;
+}
+
+.weather p { margin: 0; font-size: 0.95rem; }
+
+.weather .outlook {
+  margin-top: 0.35rem;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
 /* ── otvírák ──────────────────────────────────────────────────────────── */
 
 .opener {
@@ -344,6 +388,22 @@ article p { margin: 0; }
 .sources a:hover, .sources a:focus { color: var(--accent); }
 
 .sources .sep { padding: 0 0.35rem; opacity: 0.6; }
+
+/* ── přečtené zprávy ──────────────────────────────────────────────────── */
+
+[data-read-id] { cursor: pointer; }
+
+[data-read-id].read h2,
+[data-read-id].read h3,
+[data-read-id].read p { opacity: 0.42; }
+
+[data-read-id].read .stamp::after,
+[data-read-id].read .kicker::after {
+  content: "· přečteno ✓";
+  margin-left: 0.5rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+}
 
 /* ── navigace a patička ───────────────────────────────────────────────── */
 
@@ -479,6 +539,57 @@ THEME_JS = """
     });
   });
 })();
+
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
+   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
+   záznamy starší 90 dnů se promazávají. */
+(function () {
+  var KEY = 'readItems';
+  var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(map) {
+    try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = load();
+    var now = Date.now();
+    var changed = false;
+    for (var k in map) {
+      if (now - map[k] > MAX_AGE_MS) { delete map[k]; changed = true; }
+    }
+    if (changed) save(map);
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('[data-read-id]'),
+      function (el) {
+        var id = el.getAttribute('data-read-id');
+        if (map[id]) el.classList.add('read');
+
+        el.addEventListener('click', function (ev) {
+          if (ev.target.closest('a')) {
+            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
+            if (!map[id]) {
+              map[id] = Date.now();
+              el.classList.add('read');
+              save(map);
+            }
+            return;
+          }
+          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
+          if (window.getSelection && String(window.getSelection())) return;
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+        });
+      }
+    );
+  });
+})();
 """
 
 
@@ -522,10 +633,13 @@ def cross_flag(item: dict) -> str:
     return f"{n} zdroje" if n < 5 else f"{n} zdrojů"
 
 
-def render_item(item: dict) -> str:
+READ_HINT = 'title="Kliknutím označíte zprávu jako přečtenou"'
+
+
+def render_item(item: dict, rid: str) -> str:
     flag = cross_flag(item)
     flag_html = f' <span class="flag">· {esc(flag)}</span>' if flag else ""
-    return f"""<article>
+    return f"""<article data-read-id="{rid}" {READ_HINT}>
 <span class="stamp">{esc(item["time"])}{flag_html}</span>
 <h3>{esc(item["headline"])}</h3>
 <p>{esc(item["body"])}</p>
@@ -533,16 +647,27 @@ def render_item(item: dict) -> str:
 </article>"""
 
 
-def render_opener(item: dict) -> str:
+def render_opener(item: dict, rid: str) -> str:
     flag = cross_flag(item)
     kicker = f'{esc(item["rubric"])} · {esc(item["time"])}'
     if flag:
         kicker += f" · {esc(flag)}"
-    return f"""<section class="opener">
+    return f"""<section class="opener" data-read-id="{rid}" {READ_HINT}>
 <p class="kicker">{kicker}</p>
 <h2>{esc(item["headline"])}</h2>
 <p>{esc(item["body"])}</p>
 <p class="sources">{render_sources(item["sources"])}</p>
+</section>"""
+
+
+def render_weather(weather: dict) -> str:
+    place = weather.get("place") or "Hradec Králové"
+    outlook = ""
+    if weather.get("outlook"):
+        outlook = f'\n<p class="outlook">{esc(weather["outlook"])}</p>'
+    return f"""<section class="weather">
+<p class="kicker">Počasí · {esc(place)}</p>
+<p>{esc(weather["summary"])}</p>{outlook}
 </section>"""
 
 
@@ -573,13 +698,18 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
 <p class="meta">{esc(plural_items(len(items)))} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; {esc(" · ".join(data.get("sources_used") or []))}</p>{issues}
 </header>""")
 
-    parts.append(render_opener(opener))
+    if data.get("weather"):
+        parts.append(render_weather(data["weather"]))
+
+    parts.append(render_opener(opener, read_id(data["date"], opener)))
 
     for rubric in RUBRIC_ORDER:
         group = [i for i in rest if i["rubric"] == rubric]
         if not group:
             continue
-        body = "\n".join(render_item(i) for i in group)
+        body = "\n".join(
+            render_item(i, read_id(data["date"], i)) for i in group
+        )
         parts.append(
             f'<section class="rubric">\n<h2>{esc(rubric)}</h2>\n{body}\n</section>'
         )

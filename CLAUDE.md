@@ -46,21 +46,36 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    `/tmp/feed.json` — obsahuje položky z posledních 24 hodin seskupené
    do témat (`clusters`).
 
-2. **Zjisti, co už bylo.** Přečti poslední tři soubory v `digests/`.
+2. **Stáhni počasí.** Spusť:
+
+   ```bash
+   python3 scripts/fetch_weather.py --out /tmp/weather.json
+   ```
+
+   Z výstupu napiš pole `weather` (formát v SKILL.md): `summary` shrne
+   dnešek jednou až dvěma větami (charakter počasí, min/max teplota,
+   případně srážky, silný vítr nebo zhoršené ovzduší). `outlook` vyplň
+   **jen tehdy**, když se v dalších dnech blíží něco výrazného — vedra
+   nad 30 °C, silné bouřky, vydatný déšť, špatná kvalita ovzduší; jinak
+   ho vynech. Piš výhradně hodnoty ze souboru —
+   [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) platí i pro
+   počasí. Když skript selže, pole `weather` úplně vynech a pokračuj.
+
+3. **Zjisti, co už bylo.** Přečti poslední tři soubory v `digests/`.
    Zprávu, kterou jsi už poslal, neposílej znovu. Výjimka: téma se
    podstatně posunulo — pak napiš explicitně, co je nového („Navazuje na
    včerejší…"), ne celý příběh od začátku.
 
-3. **Vyber a narediguj** podle [Redakčních pravidel](#redakční-pravidla)
+4. **Vyber a narediguj** podle [Redakčních pravidel](#redakční-pravidla)
    a schématu v `.claude/skills/digest/SKILL.md`. Při psaní každé položky
    dodržuj [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) —
    ani slovo, které nemáš doložené ve zdroji.
 
-4. **Ulož** výsledek jako `digests/RRRR-MM-DD.json` (dnešní datum v zóně
+5. **Ulož** výsledek jako `digests/RRRR-MM-DD.json` (dnešní datum v zóně
    Europe/Prague). Do `failed_feeds` vypiš zdroje, které se nepodařilo
    načíst — web je zobrazí v patičce.
 
-5. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
+6. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
 
    ```bash
    python3 scripts/build_site.py
@@ -69,11 +84,11 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    Když skončí chybou, oprav JSON a spusť ho znovu. **Nikdy necommituj
    digest, který build neprošel**, a nikdy needituj HTML v `docs/` ručně.
 
-6. **Commitni** `digests/` i `docs/` jedním commitem s message
+7. **Commitni** `digests/` i `docs/` jedním commitem s message
    `digest: RRRR-MM-DD`. GitHub Pages publikuje `docs/` samo, žádná CI
    pipeline se nespouští.
 
-7. **Doruč.** Viz [Doručení](#doručení).
+8. **Doruč.** Viz [Doručení](#doručení).
 
 ---
 
@@ -89,10 +104,19 @@ V tomhle pořadí důležitosti:
    firemní a regulatorní zprávy. Ne kurzovní pohyby a ne PR firem.
 4. **Justice a bezpečnost** — soudy ve významných kauzách, policie,
    korupce.
-5. **Společnost, věda, kultura** — jen když je to skutečně významné nebo
+5. **Hradec Králové a okolí** — lokální dění: radnice a kraj, doprava,
+   velké investice a stavby, kultura a akce ve městě, místní sport
+   s dopadem (FC Hradec Králové, Mountfield HK). Černá kronika jen při
+   skutečném významu.
+6. **Technologie** — významné dění v IT a vývoji softwaru: open source,
+   AI, bezpečnost, internetová infrastruktura, velké changelogy. Vybírej
+   věci, které vývojáře zajímají nebo se ho dotknou, ne každodenní drobné
+   release notes a PR produktů.
+7. **Společnost, věda, kultura** — jen když je to skutečně významné nebo
    nečekaně zajímavé.
-6. **Sport** — souhrnně a krátce. Výsledky českých reprezentací a soutěží,
-   velké mezinárodní akce, transfery a kauzy s dopadem.
+8. **Sport** — patří k mým hlavním zájmům, dej mu o něco víc prostoru.
+   Výsledky českých reprezentací a soutěží, velké mezinárodní akce,
+   transfery a kauzy s dopadem.
 
 **Nezajímá mě** a do digestu to nedávej: celebrity a bulvár, kriminalita
 bez širšího významu (dopravní nehody, lokální krádeže), počasí, horoskopy,
@@ -105,10 +129,12 @@ sportovní spekulace typu „kdo koho možná koupí".
 
 ### Tvrdé limity
 
-- **Maximálně 25 zpráv celkem**, sport se do toho počítá. Cíl je 15–22;
-  25 je strop, ne kvóta. Když se toho podstatného stalo málo, napiš méně.
-  Prázdný den je lepší než vycpávka.
-- **Sport maximálně 5 položek.**
+- **Maximálně 30 zpráv celkem**, všechny rubriky se do toho počítají.
+  Cíl je 20–28; 30 je strop, ne kvóta. Když se toho podstatného stalo
+  málo, napiš méně. Prázdný den je lepší než vycpávka.
+- **Sport maximálně 7 položek.**
+- **Technologie maximálně 5 položek.**
+- **Hradec Králové maximálně 5 položek.**
 - **Každá zpráva musí mít alespoň jeden odkaz na článek.**
 
 ### Zvláštnosti jednotlivých zdrojů
@@ -124,6 +150,14 @@ sportovní spekulace typu „kdo koho možná koupí".
   rubriky `Za pozornost`, pokud vůbec.
 - **Deník N** je placený. Anotace ve feedu na krátkou zprávu stačí, ale
   odkaz vede na paywall. Neber to jako důvod ho nepoužívat.
+- **Hacker News** — anglicky, odkazy vedou na původní (často cizí) web.
+  Zprávu piš vždy česky vlastními slovy. Feed nese jen titulek a body —
+  když se ti nepodaří otevřít článek, drž se titulku a nepřikrášluj.
+- **Sport.cz** — široký záběr včetně bulváru a spekulací; ber výsledky
+  a podstatné události.
+- **Hradecký deník, iDNES Hradec, Hradecká drbna** — zdroje rubriky
+  Hradec Králové. Míchají hodně černé kroniky, servisních textů a PR;
+  vybírej jen to podstatné pro život ve městě a kraji.
 
 ### Odkud smí pocházet fakta
 
@@ -158,6 +192,23 @@ Signály, které zvyšují váhu zprávy — **váž je, neaplikuj mechanicky**:
   téhož? Průběžné live blogy shrnuj do jedné položky za den.
 - Pole `score` a `weight` v JSONu jsou jen pomůcka pro řazení vstupu.
   Nejsou to redakční rozhodnutí, přehodnoť je.
+
+### Syntéza z více zdrojů
+
+U témat, která přišla z více portálů (`source_count` > 1), nevycházej
+jen z jedné anotace. Přečti anotace **všech** členů clusteru a poskládej
+z nich úplnější obraz, než má kterýkoli portál sám:
+
+- Když některý portál přináší podstatný detail navíc, uveď ho
+  **s atribucí**: „E15 dodává, že…", „Podle Seznam Zpráv navíc…",
+  „Deník N upozorňuje, že…".
+- Když se zdroje v něčem liší nebo si protiřečí, napiš to explicitně
+  místo tichého výběru jedné verze.
+- Atribuci piš jen u detailů, které má skutečně jen jeden zdroj —
+  společný základ zprávy atribuci nepotřebuje.
+
+Pořád platí Železné pravidlo: syntéza znamená skládat **doložené** výroky
+vedle sebe, ne domýšlet souvislosti, které žádný zdroj nenapsal.
 
 ### Kdy psát delší text
 

@@ -25,6 +25,11 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
   "window_hours": 24,
   "sources_used": ["iROZHLAS", "ČT24", "Deník N", "Seznam Zprávy", "E15"],
   "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "summary": "Zataženo, 18 až 34 °C, beze srážek. Kvalita ovzduší zhoršená.",
+    "outlook": "V úterý vedro až 38 °C, ve čtvrtek přijdou přeháňky a ochlazení na 28 °C."
+  },
   "highlights": [
     "Jedna věta o nejdůležitější zprávě dne.",
     "Jedna věta o druhé."
@@ -53,6 +58,7 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 | `window_hours` | ano | Časové okno, ze kterého zprávy pocházejí. Ber z `feed.json`. |
 | `sources_used` | ano | Názvy zdrojů, které do digestu **skutečně** přispěly. Ne celý seznam z configu. |
 | `failed_feeds` | ano | Názvy feedů, které se nepodařilo načíst. Prázdné pole, když je vše v pořádku. |
+| `weather` | ne | Počasí z `/tmp/weather.json` (viz krok 2 v CLAUDE.md). `summary` povinné (1–2 věty o dnešku), `outlook` jen při výrazné situaci v dalších dnech, `place` nech "Hradec Králové". Když počasí není k dispozici, celé pole vynech. |
 | `highlights` | ne | 2–4 věty o nejdůležitějším. Bez odkazů. Když se nestalo nic zásadního, vynech nebo dej prázdné pole. |
 | `items` | ano | Položky v pořadí, v jakém se mají zobrazit. |
 
@@ -60,7 +66,7 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 
 | Pole | Povinné | Význam |
 | --- | --- | --- |
-| `rubric` | ano | Přesně jedna z: `Domov`, `Svět`, `Ekonomika`, `Společnost a kultura`, `Za pozornost`, `Sport`. Jiná hodnota build skript zastaví. |
+| `rubric` | ano | Přesně jedna z: `Domov`, `Hradec Králové`, `Svět`, `Ekonomika`, `Technologie`, `Společnost a kultura`, `Za pozornost`, `Sport`. Jiná hodnota build skript zastaví. |
 | `time` | ano | `HH:MM`, čas vydání z pole `published` přepočtený na Europe/Prague. U témat z více zdrojů čas nejnovějšího. |
 | `headline` | ano | Celá věta, která říká, co se stalo. Bez tečky na konci. |
 | `body` | ano | 1–3 věty, u důležitých zpráv 4–8. Prostý text, jeden odstavec, bez Markdownu a bez odrážek. **Jen fakta doložená ve zdroji — nic z paměti, nic domyšleného.** |
@@ -71,11 +77,14 @@ Redakční pravidla a limity jsou v `CLAUDE.md`. Tady je struktura a forma.
 
 Položky v `items` seřaď po rubrikách v tomto pořadí:
 
-`Domov` → `Svět` → `Ekonomika` → `Společnost a kultura` → `Za pozornost` → `Sport`
+`Domov` → `Hradec Králové` → `Svět` → `Ekonomika` → `Technologie` →
+`Společnost a kultura` → `Za pozornost` → `Sport`
 
 Rubriku, pro kterou nemáš zprávy, prostě vynech — web zobrazí jen ty, které
 v datech jsou. `Za pozornost` je na analýzy a delší texty (typicky Voxpot,
-Deník N), které nejsou zprávou dne, ale stojí za přečtení.
+Deník N), které nejsou zprávou dne, ale stojí za přečtení. `Hradec Králové`
+je pro lokální dění z hradeckých zdrojů, `Technologie` pro Root.cz
+a Hacker News (piš česky, i když je zdroj anglický).
 
 V rámci rubriky řaď podle důležitosti, ne podle času. Při srovnatelné
 důležitosti od nejnovějšího.

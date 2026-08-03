@@ -10,9 +10,10 @@ zdrojů, včetně sportu, místo průběžného scrollování.
 
 ```
 sources.toml ──► fetch_feeds.py ──► feed.json ──► agent ──► digests/*.json ──► build_site.py ──► docs/
-  12 RSS feedů    stažení, okno      témata se     výběr,      strukturovaný     validace,      GitHub
+  19 RSS feedů    stažení, okno      témata se     výběr,      strukturovaný     validace,      GitHub
                   24 h, dedup,       signálem      redakce,    výstup            novinová       Pages
                   clustering         relevance     formát                        sazba
+                              fetch_weather.py ──► počasí pro Hradec Králové (Open-Meteo)
 ```
 
 Návrh stojí na dvou rozhodnutích:
@@ -38,6 +39,7 @@ je strukturovaný JSON, ne rovnou HTML — sazba webu je pak čistě otázka
 | `.claude/skills/digest/SKILL.md` | JSON schéma digestu a forma položek |
 | `sources.toml` | Seznam feedů, váhy, časové okno, práh clusteringu |
 | `scripts/fetch_feeds.py` | Sběr a normalizace feedů |
+| `scripts/fetch_weather.py` | Předpověď a kvalita ovzduší pro Hradec Králové |
 | `scripts/build_site.py` | Validace digestů a generování webu do `docs/` |
 | `SETUP.md` | Jak založit routinu, povolit síť a zapnout Pages |
 | `digests/` | Digesty jako JSON; archiv i podklad pro deduplikaci |
@@ -50,14 +52,19 @@ strukturu výstupu v `SKILL.md`, sazbu webu v `scripts/build_site.py`
 ## Zdroje
 
 iROZHLAS · ČT24 / ČT Sport · Deník N (včetně proudu „minuta") ·
-Seznam Zprávy · E15 · Voxpot
+Seznam Zprávy · E15 · Voxpot · Sport.cz · Root.cz · Hacker News ·
+Hradecký deník · iDNES Hradec · Hradecká drbna
+
+Počasí pro Hradec Králové z Open-Meteo (bez API klíče).
 
 ## Web
 
 Statický, bez závislostí a bez build toolchainu. Novinová sazba se serifovým
 písmem ze systému, barva novinového papíru, tmavý režim pro čtení večer
-(řídí se systémem, přepínač si volbu pamatuje) a responzivní layout pro
-mobil. Archiv s prolistováním po dnech.
+(řídí se systémem, ikonový přepínač si volbu pamatuje) a responzivní layout
+pro mobil. Hlavní zpráva dne jako otvírák, box s počasím, archiv
+s prolistováním po dnech a kliknutím se zpráva označí jako přečtená
+(stav drží localStorage prohlížeče, nikam se neodesílá).
 
 ## Lokální spuštění
 

@@ -48,6 +48,57 @@
     });
   });
 })();
+
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
+   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
+   záznamy starší 90 dnů se promazávají. */
+(function () {
+  var KEY = 'readItems';
+  var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(map) {
+    try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = load();
+    var now = Date.now();
+    var changed = false;
+    for (var k in map) {
+      if (now - map[k] > MAX_AGE_MS) { delete map[k]; changed = true; }
+    }
+    if (changed) save(map);
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('[data-read-id]'),
+      function (el) {
+        var id = el.getAttribute('data-read-id');
+        if (map[id]) el.classList.add('read');
+
+        el.addEventListener('click', function (ev) {
+          if (ev.target.closest('a')) {
+            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
+            if (!map[id]) {
+              map[id] = Date.now();
+              el.classList.add('read');
+              save(map);
+            }
+            return;
+          }
+          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
+          if (window.getSelection && String(window.getSelection())) return;
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+        });
+      }
+    );
+  });
+})();
 </script>
 </head>
 <body>

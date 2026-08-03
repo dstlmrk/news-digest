@@ -5,8 +5,11 @@
 #
 # weight  = násobič důvěryhodnosti/relevance (1.0 = normální). Používá se jako
 #           signál při řazení, ne jako tvrdé pravidlo.
-# section = "news" | "sport". Určuje, do které části digestu položka spadá.
+# section = "news" | "sport" | "tech" | "hradec". Určuje, do které části
+#           digestu položka spadá.
 # kind    = "breaking" (běžné zpravodajství) | "longform" (analýzy, komentáře)
+# assume_tz = IANA zóna pro feedy, které posílají pubDate bez časové zóny
+#           (jinak se předpokládá UTC).
 
 [settings]
 # Časové okno, ze kterého se berou zprávy (v hodinách).
@@ -89,6 +92,65 @@ kind = "longform"
 weight = 1.1
 
 
+# ──────────────────────────────  TECHNOLOGIE  ───────────────────────────────
+
+[[feeds]]
+source = "rootcz"
+name = "Root.cz"
+url = "https://www.root.cz/rss/clanky/"
+section = "tech"
+kind = "breaking"
+weight = 1.1
+
+[[feeds]]
+source = "rootcz"
+name = "Root.cz"
+url = "https://www.root.cz/rss/zpravicky/"
+section = "tech"
+kind = "breaking"
+weight = 1.0
+
+# Hacker News přes hnrss.org s filtrem na 100+ bodů, aby chodily jen
+# příspěvky, které si komunita opravdu všimla. Obsah je anglicky — do
+# digestu se píše česky, viz CLAUDE.md.
+[[feeds]]
+source = "hackernews"
+name = "Hacker News"
+url = "https://hnrss.org/frontpage?points=100"
+section = "tech"
+kind = "breaking"
+weight = 1.0
+
+
+# ────────────────────────────  HRADEC KRÁLOVÉ  ──────────────────────────────
+
+[[feeds]]
+source = "hradeckydenik"
+name = "Hradecký deník"
+url = "https://hradecky.denik.cz/rss/vse.xml"
+section = "hradec"
+kind = "breaking"
+weight = 1.0
+
+[[feeds]]
+source = "idnes"
+name = "iDNES Hradec"
+url = "https://servis.idnes.cz/rss.aspx?c=hradec"
+section = "hradec"
+kind = "breaking"
+weight = 1.0
+
+# Feed posílá pubDate bez časové zóny v pražském čase.
+[[feeds]]
+source = "drbna"
+name = "Hradecká drbna"
+url = "https://hradecka.drbna.cz/rss.html"
+section = "hradec"
+kind = "breaking"
+weight = 0.9
+assume_tz = "Europe/Prague"
+
+
 # ─────────────────────────────────  SPORT  ─────────────────────────────────
 
 [[feeds]]
@@ -122,3 +184,11 @@ url = "https://denikn.cz/sport/feed/"
 section = "sport"
 kind = "breaking"
 weight = 1.1
+
+[[feeds]]
+source = "sportcz"
+name = "Sport.cz"
+url = "https://www.sport.cz/rss"
+section = "sport"
+kind = "breaking"
+weight = 1.0

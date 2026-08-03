@@ -30,6 +30,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -100,7 +101,8 @@ def strip_html(raw: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def parse_date(value: str | None) -> datetime | None:
+def parse_date(value: str | None, naive_tz: timezone | ZoneInfo = timezone.utc
+               ) -> datetime | None:
     if not value:
         return None
     value = value.strip()
@@ -114,7 +116,7 @@ def parse_date(value: str | None) -> datetime | None:
     if dt is None:
         return None
     if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.replace(tzinfo=naive_tz)
     return dt.astimezone(timezone.utc)
 
 
@@ -143,9 +145,14 @@ def entry_link(node: ET.Element) -> str:
 
 
 def detect_section(feed_section: str, link: str, categories: list[str]) -> str:
-    """Sportovní zprávu pozná i v obecném feedu, podle rubriky nebo URL."""
-    if feed_section == "sport":
-        return "sport"
+    """Sportovní zprávu pozná i v obecném feedu, podle rubriky nebo URL.
+
+    Přeřazuje jen z obecného zpravodajství ("news"). Tematické sekce
+    (tech, hradec) si své položky drží — sport FC Hradec Králové patří
+    do hradecké rubriky, ne mezi celostátní sport.
+    """
+    if feed_section != "news":
+        return feed_section
     if any(fold(c) in SPORT_CATEGORIES for c in categories):
         return "sport"
     if any(marker in link.lower() for marker in SPORT_URL_MARKERS):
@@ -156,6 +163,9 @@ def detect_section(feed_section: str, link: str, categories: list[str]) -> str:
 def parse_feed(raw: bytes, feed: dict) -> list[dict]:
     root = ET.fromstring(raw)
     nodes = root.findall(".//item") or root.findall(f".//{ATOM}entry")
+    naive_tz: timezone | ZoneInfo = timezone.utc
+    if feed.get("assume_tz"):
+        naive_tz = ZoneInfo(feed["assume_tz"])
     items: list[dict] = []
 
     for node in nodes:
@@ -175,7 +185,8 @@ def parse_feed(raw: bytes, feed: dict) -> list[dict]:
         )
         published = parse_date(
             entry_text(node, "pubDate", f"{ATOM}updated", f"{ATOM}published")
-            or None
+            or None,
+            naive_tz,
         )
         categories = [
             strip_html(c.text)
@@ -370,17 +381,21 @@ def main() -> int:
         "cutoff": cutoff.isoformat(),
         "feeds": feed_status,
         "failed_feeds": [f["name"] for f in feed_status if not f["ok"]],
-        "counts": {
-            "items": len(items),
-            "clusters": len(clusters),
-            "news_clusters": sum(1 for c in clusters if c["section"] == "news"),
-            "sport_clusters": sum(1 for c in clusters if c["section"] == "sport"),
-            "multi_source_clusters": sum(
-                1 for c in clusters if c["source_count"] > 1
-            ),
-        },
-        "clusters": clusters,
     }
+
+    section_counts: dict[str, int] = {}
+    for c in clusters:
+        section_counts[c["section"]] = section_counts.get(c["section"], 0) + 1
+
+    payload["counts"] = {
+        "items": len(items),
+        "clusters": len(clusters),
+        "sections": section_counts,
+        "multi_source_clusters": sum(
+            1 for c in clusters if c["source_count"] > 1
+        ),
+    }
+    payload["clusters"] = clusters
 
     text = json.dumps(payload, ensure_ascii=False, indent=2)
     if args.out:
@@ -391,10 +406,12 @@ def main() -> int:
         print(text)
 
     c = payload["counts"]
+    per_section = ", ".join(
+        f"{name} {count}" for name, count in sorted(c["sections"].items())
+    )
     print(
         f"\nsouhrn: {c['items']} položek -> {c['clusters']} témat "
-        f"({c['news_clusters']} zpravodajství, {c['sport_clusters']} sport, "
-        f"{c['multi_source_clusters']} na více portálech)",
+        f"({per_section}; {c['multi_source_clusters']} na více portálech)",
         file=sys.stderr,
     )
     return 0
