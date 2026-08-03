@@ -21,15 +21,19 @@ import hashlib
 import html
 import json
 import re
+import subprocess
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DIGESTS = REPO_ROOT / "digests"
 DOCS = REPO_ROOT / "docs"
 
-SITE_TITLE = "Daily News"
+SITE_TITLE = "Denní přehled"
+
+PRAGUE = ZoneInfo("Europe/Prague")
 
 RUBRIC_ORDER = [
     "Domov",
@@ -98,14 +102,10 @@ def validate(data: dict, path: Path) -> None:
     if weather is not None:
         if not isinstance(weather, dict) or not weather.get("summary"):
             fail("weather musí být objekt s neprázdným polem 'summary'")
-        for key in ("summary", "outlook", "place", "icon"):
+        # `icon` starší digesty ještě nesou, web ho už nezobrazuje.
+        for key in ("summary", "outlook", "place"):
             if key in weather and not isinstance(weather[key], str):
                 fail(f"weather.{key} musí být řetězec")
-        if "icon" in weather and weather["icon"] not in WEATHER_ICONS:
-            fail(
-                f"weather.icon '{weather['icon']}' neznám, povolené jsou "
-                f"{', '.join(sorted(WEATHER_ICONS))}"
-            )
 
     for idx, item in enumerate(data["items"], start=1):
         where = f"items[{idx}]"
@@ -136,14 +136,89 @@ def validate(data: dict, path: Path) -> None:
 
 def load_digests() -> list[dict]:
     digests = []
+    build_time = datetime.now(PRAGUE)
+    committed = commit_times()
+    changed = changed_files()
     for path in sorted(DIGESTS.glob("*.json")):
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
             raise DigestError(f"{path.name}: nevalidní JSON — {exc}") from exc
         validate(data, path)
+        data["_updated"] = updated_at(path, build_time, committed, changed)
         digests.append(data)
     return digests
+
+
+# ─────────────────────────────  čas aktualizace  ────────────────────────────
+
+
+def _git(*args: str) -> str | None:
+    """Výstup gitu, nebo None když git chybí nebo příkaz selže."""
+    try:
+        proc = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), *args],
+            capture_output=True, text=True, timeout=10, check=False,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None
+    return proc.stdout if proc.returncode == 0 else None
+
+
+def _iso(stamp: str) -> datetime | None:
+    try:
+        return datetime.fromisoformat(stamp).astimezone(PRAGUE)
+    except ValueError:
+        return None
+
+
+def commit_times() -> dict[str, datetime] | None:
+    """Čas posledního commitu ke každému digestu, jedním během gitu.
+
+    `git log` vypisuje od nejnovějšího commitu, takže první výskyt cesty
+    je ten, který nás zajímá. None znamená, že git není k dispozici.
+    """
+    out = _git("log", "--format=%x00%cI", "--name-only", "--", str(DIGESTS))
+    if out is None:
+        return None
+    times: dict[str, datetime] = {}
+    stamp: datetime | None = None
+    for line in out.splitlines():
+        if line.startswith("\0"):
+            stamp = _iso(line[1:])
+        elif line.strip() and stamp and line.strip() not in times:
+            times[line.strip()] = stamp
+    return times
+
+
+def changed_files() -> set[str]:
+    """Cesty digestů, které se od posledního commitu změnily nebo přibyly."""
+    out = _git("status", "--porcelain", "--", str(DIGESTS)) or ""
+    paths = set()
+    for line in out.splitlines():
+        # „XY cesta", u přejmenování „XY stará -> nová".
+        path = line[3:].strip().split(" -> ")[-1].strip('"')
+        if path:
+            paths.add(path)
+    return paths
+
+
+def updated_at(path: Path, build_time: datetime,
+               committed: dict[str, datetime] | None,
+               changed: set[str]) -> datetime | None:
+    """Kdy vydání naposledy vzniklo.
+
+    Rozepsaný nebo ještě necommitnutý digest je ten, který se právě staví
+    — u něj platí čas buildu. U ostatních bereme čas posledního commitu
+    souboru, takže přegenerování webu starým vydáním datum neposune.
+    Bez gitu se čas nedá zjistit a stránka ho neuvádí.
+    """
+    if committed is None:
+        return None
+    rel = path.relative_to(REPO_ROOT).as_posix()
+    if rel in changed:
+        return build_time
+    return committed.get(rel)
 
 
 # ──────────────────────────────────  pomůcky  ───────────────────────────────
@@ -171,6 +246,17 @@ def short_date(iso: str) -> str:
 def day_month(iso: str) -> str:
     d = date.fromisoformat(iso)
     return f"{d.day}. {d.month}."
+
+
+def render_updated(when: datetime | None) -> str:
+    """Řádek patičky s časem poslední aktualizace stránky."""
+    if when is None:
+        return ""
+    text = (f"{when.day}. {when.month}. {when.year} "
+            f"v {when.hour}:{when.minute:02d}")
+    return (f'<p class="updated">Aktualizováno '
+            f'<time datetime="{esc(when.isoformat(timespec="minutes"))}">'
+            f"{esc(text)}</time></p>")
 
 
 def covered_date(data: dict) -> str:
@@ -324,14 +410,7 @@ body {
   padding: 0.95rem 1.15rem;
   background: var(--paper-raised);
   border: 1px solid var(--rule);
-  display: flex;
-  align-items: center;
-  gap: 1.05rem;
 }
-
-.weather .w-icon { flex: none; color: var(--accent); }
-.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
-.weather .w-text { min-width: 0; }
 
 .weather .kicker {
   margin: 0 0 0.4rem;
@@ -489,6 +568,8 @@ footer {
 }
 
 footer p { margin: 0.35rem 0; }
+footer .updated { color: var(--ink); font-weight: 700; }
+footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
 
@@ -676,8 +757,11 @@ def page(title: str, body: str, *, depth_prefix: str = "") -> str:
 
 
 def render_sources(sources: list[dict]) -> str:
+    # Odkazy vedou na cizí weby, takže otvírají nový panel — čtenář tím
+    # neztratí rozečtené vydání.
     links = [
-        f'<a href="{esc(s["url"])}" rel="noopener">{esc(s["name"])}</a>'
+        f'<a href="{esc(s["url"])}" target="_blank" '
+        f'rel="noopener noreferrer">{esc(s["name"])}</a>'
         for s in sources
     ]
     return '<span class="sep">·</span>'.join(links)
@@ -729,58 +813,14 @@ def render_opener(item: dict, rid: str, issue_date: str) -> str:
 </section>"""
 
 
-# Čárové ikony počasí (Lucide, licence ISC), stroke dědí currentColor.
-_W_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
-          'fill="none" stroke="currentColor" stroke-width="1.7" '
-          'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">')
-
-WEATHER_ICONS = {
-    "clear": (
-        '<circle cx="12" cy="12" r="4"/>'
-        '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41'
-        'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>'
-    ),
-    "partly": (
-        '<path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/>'
-        '<path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/>'
-        '<path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/>'
-        '<path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/>'
-    ),
-    "cloudy": '<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>',
-    "fog": (
-        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
-        '<path d="M16 17H7"/><path d="M17 21H9"/>'
-    ),
-    "rain": (
-        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
-        '<path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/>'
-    ),
-    "snow": (
-        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
-        '<path d="M8 15h.01"/><path d="M8 19h.01"/><path d="M12 17h.01"/>'
-        '<path d="M12 21h.01"/><path d="M16 15h.01"/><path d="M16 19h.01"/>'
-    ),
-    "storm": (
-        '<path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/>'
-        '<path d="m13 12-3 5h4l-3 5"/>'
-    ),
-}
-
-
 def render_weather(weather: dict, issue_date: str) -> str:
     place = weather.get("place") or "Hradec Králové"
     outlook = ""
     if weather.get("outlook"):
         outlook = f'\n<p class="outlook">{esc(weather["outlook"])}</p>'
-    icon = ""
-    if weather.get("icon") in WEATHER_ICONS:
-        icon = (f'\n<div class="w-icon">{_W_SVG}'
-                f'{WEATHER_ICONS[weather["icon"]]}</svg></div>')
-    return f"""<section class="weather">{icon}
-<div class="w-text">
+    return f"""<section class="weather">
 <p class="kicker">Počasí na {esc(day_month(issue_date))} · {esc(place)}</p>
 <p>{esc(weather["summary"])}</p>{outlook}
-</div>
 </section>"""
 
 
@@ -819,7 +859,7 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
 <h1><a href="{home}">{esc(SITE_TITLE)}</a></h1>
 <p class="dateline">Zprávy za {esc(long_date_acc(covered))}</p>
 <hr class="rule-double">
-<p class="meta">{esc(plural_items(len(items)))}{fresh_note} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; vydání {esc(short_date(issue))} &nbsp;·&nbsp; {esc(" · ".join(data.get("sources_used") or []))}</p>{issues}
+<p class="meta">{esc(plural_items(len(items)))}{fresh_note} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; vydání {esc(short_date(issue))}</p>{issues}
 </header>""")
 
     if data.get("weather"):
@@ -852,6 +892,14 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
     parts.append("\n".join(pager))
 
     foot = ['<footer>']
+    updated = render_updated(data.get("_updated"))
+    if updated:
+        foot.append(updated)
+    if data.get("sources_used"):
+        foot.append(
+            f'<p class="used">Zdroje vydání: '
+            f'{esc(" · ".join(data["sources_used"]))}</p>'
+        )
     if data.get("failed_feeds"):
         foot.append(
             f'<p class="warn">Nepodařilo se načíst: '
@@ -895,7 +943,11 @@ def render_archive(digests: list[dict]) -> str:
 <a href="index.html">← Nejnovější vydání</a>
 <span></span>
 <span></span>
-</nav>"""
+</nav>
+
+<footer>
+{render_updated(digests[-1].get("_updated"))}
+</footer>"""
 
 
 # ────────────────────────────────────  main  ────────────────────────────────

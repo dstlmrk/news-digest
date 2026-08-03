@@ -91,7 +91,13 @@ písmem ze systému, barva novinového papíru, tmavý režim pro čtení večer
 (řídí se systémem, ikonový přepínač si volbu pamatuje) a responzivní layout
 pro mobil. Hlavní zpráva dne jako otvírák, box s počasím, archiv
 s prolistováním po dnech a kliknutím se zpráva označí jako přečtená
-(stav drží localStorage prohlížeče, nikam se neodesílá).
+(stav drží localStorage prohlížeče, nikam se neodesílá). Odkazy na
+původní články se otevírají v novém panelu.
+
+V patičce je čas poslední aktualizace vydání a seznam zdrojů, ze kterých
+digest vznikl. Čas bere build skript z gitu — z posledního commitu daného
+digestu, a u ještě necommitnutého (tedy právě vznikajícího) z času buildu.
+Přegenerování webu proto starším vydáním datum neposune.
 
 ## Lokální spuštění
 

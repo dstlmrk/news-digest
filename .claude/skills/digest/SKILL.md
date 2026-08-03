@@ -32,7 +32,6 @@ Podrobně v `CLAUDE.md` → *Co vydání pokrývá*.
   "failed_feeds": [],
   "weather": {
     "place": "Hradec Králové",
-    "icon": "cloudy",
     "summary": "Zataženo a horko, přes den až 34 °C, beze srážek. Kvalita ovzduší zhoršená.",
     "outlook": "V úterý vedro až 38 °C, ve čtvrtek přijdou přeháňky a ochlazení na 28 °C."
   },
@@ -66,7 +65,7 @@ Podrobně v `CLAUDE.md` → *Co vydání pokrývá*.
 | `window_hours` | ano | Časové okno, ze kterého zprávy pocházejí. Ber z `feed.json`. |
 | `sources_used` | ano | Názvy zdrojů, které do digestu **skutečně** přispěly. Ne celý seznam z configu. |
 | `failed_feeds` | ano | Názvy feedů, které se nepodařilo načíst. Prázdné pole, když je vše v pořádku. |
-| `weather` | ne | Počasí z `/tmp/weather.json` (viz krok 2 v CLAUDE.md). `summary` povinné (1–2 věty o dnešku), `outlook` jen při výrazné situaci v dalších dnech, `place` nech "Hradec Králové". `icon` zkopíruj z `days[0].icon` — povolené hodnoty: `clear`, `partly`, `cloudy`, `fog`, `rain`, `snow`, `storm`. Když počasí není k dispozici, celé pole vynech. |
+| `weather` | ne | Počasí z `/tmp/weather.json` (viz krok 2 v CLAUDE.md). `summary` povinné (1–2 věty o dnešku), `outlook` jen při výrazné situaci v dalších dnech, `place` nech "Hradec Králové". Když počasí není k dispozici, celé pole vynech. |
 | `highlights` | ne | 2–4 věty o nejdůležitějším. Bez odkazů. Když se nestalo nic zásadního, vynech nebo dej prázdné pole. |
 | `items` | ano | Položky v pořadí, v jakém se mají zobrazit. |
 

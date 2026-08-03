@@ -119,14 +119,7 @@ body {
   padding: 0.95rem 1.15rem;
   background: var(--paper-raised);
   border: 1px solid var(--rule);
-  display: flex;
-  align-items: center;
-  gap: 1.05rem;
 }
-
-.weather .w-icon { flex: none; color: var(--accent); }
-.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
-.weather .w-text { min-width: 0; }
 
 .weather .kicker {
   margin: 0 0 0.4rem;
@@ -284,6 +277,8 @@ footer {
 }
 
 footer p { margin: 0.35rem 0; }
+footer .updated { color: var(--ink); font-weight: 700; }
+footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
 
