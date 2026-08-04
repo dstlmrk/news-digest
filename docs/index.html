@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denní přehled · úterý 4. srpna 2026</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+(function () {
+  var root = document.documentElement;
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+
+  var SVG_ATTRS = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ' +
+    'fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var SUN = '<svg ' + SVG_ATTRS + '><circle cx="12" cy="12" r="4"/>' +
+    '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41' +
+    'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+  var MOON = '<svg ' + SVG_ATTRS + '>' +
+    '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    function isDark() {
+      return root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+    function label() {
+      var dark = isDark();
+      btn.innerHTML = dark ? SUN : MOON;
+      var text = dark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
+   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
+   záznamy starší 90 dnů se promazávají. */
+(function () {
+  var KEY = 'readItems';
+  var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(map) {
+    try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = load();
+    var now = Date.now();
+    var changed = false;
+    for (var k in map) {
+      if (now - map[k] > MAX_AGE_MS) { delete map[k]; changed = true; }
+    }
+    if (changed) save(map);
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('[data-read-id]'),
+      function (el) {
+        var id = el.getAttribute('data-read-id');
+        if (map[id]) el.classList.add('read');
+
+        el.addEventListener('click', function (ev) {
+          if (ev.target.closest('a')) {
+            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
+            if (!map[id]) {
+              map[id] = Date.now();
+              el.classList.add('read');
+              save(map);
+            }
+            return;
+          }
+          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
+          if (window.getSelection && String(window.getSelection())) return;
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+        });
+      }
+    );
+  });
+})();
+</script>
+</head>
+<body>
+<button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
+<div class="wrap">
+<header class="masthead">
+<h1><a href="index.html">Denní přehled</a></h1>
+<p class="tagline">Zprávy z českých zdrojů · nové vydání každý den v 17:00</p>
+<p class="dateline">Zprávy za úterý 4. srpna 2026</p>
+<hr class="rule-double">
+<p class="meta">29 zpráv &nbsp;·&nbsp; z toho 6 z večera 3. 8. &nbsp;·&nbsp; okno 24 h do 17:00 &nbsp;·&nbsp; vydáno 4. 8. 2026</p>
+</header>
+
+<section class="opener" data-read-id="e716ca8113f5" title="Kliknutím označíte zprávu jako přečtenou">
+<p class="kicker">Domov · 16:42 · 4 zdroje</p>
+<h2>Teplota na Moravě poprvé od začátku měření přesáhla 40 stupňů, rekordy padly na všech stanicích</h2>
+<p>Všechny měřicí stanice v Česku dnes překonaly teplotní rekordy pro 4. srpen, uvedl Miloš Dvořák z Českého hydrometeorologického ústavu. Přes čtyřicet stupňů se teplota dostala na deseti místech, nejvíc naměřili v jihomoravské Strážnici, a to 40,9 stupně Celsia. Jde o první zaznamenaný den na Moravě s teplotou nad 40 stupňů, hodnoty podle meteorologů ještě nemusí být konečné. Kvůli vysokým koncentracím přízemního ozonu vyhlásil ČHMÚ smogovou situaci v Praze, Středočeském kraji a v Ústeckém kraji, kde jde o třetí letošní vyhlášení; lidem doporučuje omezit zvýšenou fyzickou aktivitu. Podle Seznam Zpráv se ve středu očekává 32 až 37 stupňů, na Moravě a ve Slezsku 35 až 39.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2146285/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-teplota-na-morave-poprve-od-zacatku-mereni-presahla-40-stupnu-312400" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/pocasi/prvni-rekord-padl-uz-pred-devatou-sledujte-jak-rostou-teploty-376243" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146339/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</section>
+
+<section class="rubric">
+<h2>Domov</h2>
+<article data-read-id="ff1a168e1b34" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">3. 8. 17:52</span>
+<h3>Blažek čelí v bitcoinové kauze obžalobě, žalobkyně mu navrhuje šest a půl roku vězení</h3>
+<p>V bitcoinové kauze nastal zásadní posun: bývalý ministr spravedlnosti Pavel Blažek (ODS) čelí obžalobě a státní zástupkyně mu navrhuje trest šest a půl roku vězení. Obžalováni jsou vedle něj další tři lidé — Blažkův někdejší náměstek Radomír Daňhel, Tomáš Jiřikovský a advokát Kárim Titz. Kauza, na kterou upozornil Deník N, stála Blažka politickou kariéru a podle Deníku N otřásla českou politikou. Server k obžalobě vydal jak vysvětlení toho, čeho se obvinění podle obžaloby dopustili, tak podrobnou časovou osu celé aféry.</p>
+<p class="sources"><a href="https://denikn.cz/2144894/za-co-blazek-miri-pred-soud-a-kde-se-zvrtnul-plan-vyprat-bitcoiny-otazky-a-odpovedi-ke-kauze/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/2145063/kauza-bitcoin-prehledne-jak-sel-cas-s-aferou-ktera-otrasla-politikou-a-dostala-exministra-blazka-pred-soud/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="8304a89d7a88" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">14:20 <span class="flag">· 3 zdroje</span></span>
+<h3>Zdůvodnění, proč nevpustit reportérku Deníku N na tiskovku, napsal podle serveru sám ministr Macinka</h3>
+<p>Ministerstvo zahraničí v pátek nevpustilo novinářku Deníku N Zdislavu Pokornou na tiskovou konferenci k budoucnosti Českých center. Podle Deníku N pochází anonymní odůvodnění, kterým rezort svůj krok hájil, přímo od ministra Petra Macinky (Motoristé); ten to nepopírá a na Deník N dále útočí. Dnes se proti postupu ministerstva ve společném prohlášení vymezilo několik mediálních asociací, které Macinku vyzvaly, aby účast některých novinářů na tiskových konferencích neomezoval. Opakované selektování médií podle nich podkopává důvěru. Macinka uvedl, že výzvu zatím neobdržel a odpoví organizacím, až si ji přečte.</p>
+<p class="sources"><a href="https://denikn.cz/2145869/takhle-presne-to-napsal-ministr-zduvodneni-proc-nevpustit-reporterku-pokornou-na-tiskovku-vymyslel-macinka/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-asociace-vyzyvaji-macinku-aby-neomezoval-ucast-novinaru-na-tiskovych-konferencich-312388" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146030/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="4cd9c851b559" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:24</span>
+<h3>Ministerstvo životního prostředí zastavilo řízení o heřmanické haldě a zbavilo firmu hrozby pokuty</h3>
+<p>Ministerstvo životního prostředí vedené Motoristy rozhodlo v kauze kolem heřmanické haldy ve prospěch firmy Ridera Bohemia. Případ, v němž společnosti hrozila pokuta v řádu desítek milionů korun, rezort na žádost firmy nejprve odebral České inspekci životního prostředí a nyní řízení zastavil. Podle dokumentů, které má Deník N, vznikl jeden z podkladů ministerstva podle metadat u samotné firmy. Nový šéf inspekce podle serveru rovněž zastavil posudky týkající se obsahu a bezpečnosti haldy.</p>
+<p class="sources"><a href="https://denikn.cz/2145831/rezort-motoristu-zpochybnil-kroky-inspekce-firmu-v-pripadu-hermanicke-haldy-zbavil-hrozby-pokuty-25-milionu/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="7e5b4c8f42ee" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">17:03 <span class="flag">· 4 zdroje</span></span>
+<h3>Hasiči zasahují u lesních požárů na Šumavě i na Benešovsku, hoří také skládka na Sokolovsku</h3>
+<p>U šumavských Nezdic na Klatovsku likviduje požár lesa přes šedesát hasičů, na místo letěl vrtulník s bambivakem. Oheň se v těžko přístupném terénu rychle šíří a byl vyhlášen třetí ze čtyř stupňů požárního poplachu, uvedl mluvčí hasičů Petr Poncar. Hasiči zároveň zasahují u požáru lesa a pole v Křečovicích na Benešovsku, kde vyhlásili zvláštní, tedy nejvyšší stupeň poplachu; oheň se rozšířil na okolní chatky. Od odpoledne bojuje devět jednotek také s požárem skládky u Tisové na Sokolovsku, kde hasiči vyzvali obyvatele v okolí, aby omezili větrání.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/regiony/plzensky-kraj/desitky-hasicu-likviduji-pozar-lesa-na-sumave-376264" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-desitky-hasicu-likviduji-pozar-lesa-na-sumave-plati-treti-ze-ctyr-stupnu-poplachu-312412" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146350/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146282/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="1a1dcb4c3d0c" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">14:00 <span class="flag">· 2 zdroje</span></span>
+<h3>Třem obcím na Brněnsku dnes ráno došla pitná voda, sucho se podle expertů bude dál prohlubovat</h3>
+<p>Ve třech obcích na Brněnsku, mezi nimi v Domašově a Říčkách, došla dnes ráno pitná voda. Původně tam měly být přistaveny kontejnery s vodou, nakonec Vodárenská akciová společnost naplnila zcela prázdný vodojem; dobrovolný svazek obcí Domašovsko vyzývá obyvatele k omezení spotřeby. Na jaře přitom v Česku spadlo jen necelých 40 procent srážek proti dlouhodobému průměru, což je nejméně od roku 1961. V kombinaci s další vlnou tropických veder to podle odborníků výrazně prohlubuje sucho a nedostatek vody v půdě. „Při takto vysokých teplotách může zhoršení přicházet vysloveně i den po dni,“ řekla iROZHLASu Monika Hlavsová z Ústavu výzkumu globální změny AV ČR, členka týmu Intersucho.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/zpravy-domov/expertka-chybi-nam-podzemni-voda-situace-je-spatna-nevyresi-ji-ani-prehanky-puda_2608041400_mst" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/regiony/jihomoravsky-kraj/tri-obce-na-brnensku-jsou-bez-pitne-vody-376247" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+</article>
+<article data-read-id="8d5c3981576d" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:46 <span class="flag">· 2 zdroje</span></span>
+<h3>Lék na rakovinu prsu znovu chybí, pacienti si za náhradu možná připlatí</h3>
+<p>Minulý týden do Česka dorazilo tisíc balení léku proti rakovině prsu, po pár dnech je ho ale znovu nedostatek. Lékárníci podle Seznam Zpráv věří, že náhradu zajistí, možné ale je, že si pacienti léky budou muset hradit sami. Kvůli nedostatku tamoxifenu stát podle E15 povolil dosud neobvyklý postup: lékárny budou sestavovat menší balení z neporušených blistrů, aby se dostupné zásoby dostaly k co největšímu počtu pacientek. Ministerstvo podle E15 zároveň jedná o dovozu dalších tisíců balení a slibuje jejich příchod během několika dnů.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-chybi-leky-na-rakovinu-prsu-za-nahradu-si-pacienti-mozna-priplati-312319" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/lek-na-rakovinu-prsu-stale-chybi-stat-povolil-dosud-neobvykly-postup-1434726" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="9caf911a5983" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">3. 8. 20:04</span>
+<h3>Neoprávněná činnost pro cizí moc zůstane trestným činem, vláda paragraf jen zpřesní</h3>
+<p>Neoprávněná činnost pro cizí moc nakonec zůstane v Česku trestným činem. Ministr spravedlnosti Jeroným Tejc (za ANO) se se soudci a státními zástupci dohodl, že se místo zrušení zpřesní nynější znění paragrafu. Změny plánuje předložit v září.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/vlada-chce-misto-zruseni-paragraf-o-neopravnene-cinnosti-pro-cizi-moc-zpresnit-376233" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Svět</h2>
+<article data-read-id="e828f480ba08" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:54 <span class="flag">· 3 zdroje</span></span>
+<h3>Ministři vnitra EU pochválili Španělsko za reakci na nápor migrantů v Ceutě</h3>
+<p>Ministři vnitra států Evropské unie dnes na videokonferenci pochválili Španělsko za rychlou reakci na situaci ve Ceutě, kam minulý týden vstoupily z Maroka desítky tisíc lidí za jediný den. Uvedl to irský ministr spravedlnosti a pro migraci Jim O’Callaghan, který jednání předsedal; podle španělského ministra vnitra Fernanda Grande-Marlasky ministři uznali, že odezva Madridu byla odpovídající. Český ministr vnitra Lubomír Metnar (ANO) podle svého rezortu podpořil rychlá a efektivní řešení, která umožní podobné krize v Unii zvládat. V ulicích exklávy podle místních úřadů stále přespává mezi třemi a pěti tisíci migrantů, v úterý ale Ceuta zaznamenala jen sporadické pokusy přeplavat na její území.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/ministri-eu-chvalili-spanelsko-za-rychlou-odezvu-na-migracni-krizi-v-ceute-376257" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-obrazem-v-ceute-zustavaji-tisice-migrantu-spi-na-plazich-i-na-ulici-312375" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146242/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="1b33c20146cc" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:56 <span class="flag">· 2 zdroje</span></span>
+<h3>Dočasná ochrana Ukrajinců bude v EU vázaná na splnění branné povinnosti</h3>
+<p>Evropská unie zavádí nová pravidla pro Ukrajince prchající před válkou: nově budou muset předložit důkaz o splnění vojenské povinnosti vůči vlasti. Povinnost se netýká těch, kteří ochranu dostali v minulosti. Podle ministra vnitra Lubomíra Metnara (ANO) rozhodnutí sníží počty uprchlíků o desítky procent.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-docasna-ochrana-ukrajincu-bude-v-eu-vazana-na-splneni-vojenskych-ukolu-312399" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146279/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="c13f165e7f9f" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:36 <span class="flag">· 2 zdroje</span></span>
+<h3>Dohoda USA s Íránem o znovuotevření Hormuzského průlivu může být podle Bessenta hotová do středy</h3>
+<p>Dohoda mezi Spojenými státy a Íránem o znovuotevření Hormuzského průlivu by mohla být uzavřena ještě dnes nebo ve středu, řekl americký ministr financí Scott Bessent stanici CNBC. „Vedeme jednání s Íránci. Existuje šance, že dnes nebo zítra dosáhneme dohody o otevření průlivu a posuneme se směrem k normalizaci situace v tomto konfliktu,“ uvedl.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-dohoda-o-otevreni-hormuzskeho-prulivu-muze-byt-hotova-do-stredy-312410" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146177/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="4b15d5bb13ea" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:02</span>
+<h3>Americká armáda vyčerpala během války s Íránem značnou část zásob přesných raket</h3>
+<p>Americká armáda během pětiměsíční války s Íránem vyčerpala značnou část svých zásob vysoce přesných raket dlouhého doletu, uvedla agentura Reuters s odkazem na tři osoby obeznámené s příslušnými údaji. Podle Reuters to vyvolává obavy o bojovou připravenost armády na budoucí konflikty. Jde především o pozemní zbraně země–země, tedy systémy ATACMS a Precision Strike Missile.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2146288/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="dbf00035e76e" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:06 <span class="flag">· 2 zdroje</span></span>
+<h3>Ukrajina se k NATO nikdy nepřipojí a Aliance je zastaralá, řekl generál Zalužnyj</h3>
+<p>Ukrajina se podle bývalého hlavního velitele svých ozbrojených sil a nynějšího velvyslance v Británii Valerije Zalužného k NATO nikdy nepřipojí. Prohlásil to podle agentury AFP v Kyjevě a zdůvodnil to tím, že Aliance lpí na postupech z druhé světové války a není připravená na konflikty 21. století. To je podle něj v kontrastu s ukrajinskou armádou, která získává zkušenosti ze současné války. Ukrajina o členství v Alianci usiluje řadu let.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-se-k-nato-nikdy-nepripoji-aliance-je-zastarala-uvedl-general-zaluznyj-376261" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-ukrajina-se-k-nato-nikdy-nepripoji-aliance-je-zastarala-uvedl-general-zaluznyj-312391" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+</article>
+<article data-read-id="249d5ab01d18" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:48 <span class="flag">· 3 zdroje</span></span>
+<h3>Ruské údery zasáhly sedm lodí v ukrajinských přístavech, bomby v Kramatorsku zranily 22 lidí</h3>
+<p>Moskva ohlásila další rozsáhlý dronový útok na ukrajinskou námořní logistiku; podle ruského ministerstva obrany zasáhl sedm plavidel v přístavu a v Černém moři, která údajně převážela vojenské zásoby. Deník N v pondělním přehledu bojů upozornil, že Rusové fakticky zastavili ukrajinský vývoz obilí po moři a pomáhá jim k tomu nová střela Banderol. Nejméně 22 civilistů dnes zranily dvě ruské letecké bomby, které zasáhly výškovou obytnou budovu v Kramatorsku na východě země, oznámil náčelník Doněcké oblasti Vadym Filaškin. Další tři lidi zranily ruské rakety ve městě Bohoduchiv na severovýchodě Ukrajiny.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-ruske-udery-zasahly-sedm-lodi-v-ukrajinskem-pristavu-a-cernem-mori-312376" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146261/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/2145035/vyvoj-boju-1621-den-rusove-zastavili-export-z-ukrajinskych-pristavu-muze-za-to-hlavne-jejich-nova-zbran/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="834b7fa2a6f8" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:52</span>
+<h3>Protesty na Ukrajině pokračují i po odvolání generála Syrského, lidé žádají návrat Fedorova</h3>
+<p>Demonstrace na Ukrajině pokračují i po odvolání vrchního velitele ozbrojených sil generála Olexandra Syrského. Protestující v jeho výměně vidí jen částečný ústupek a trvají na návratu bývalého ministra obrany Mychajla Fedorova, jehož popularita prudce vzrostla — důvěřuje mu kolem 65 procent Ukrajinců. Podle politologů se Fedorov může stát čtvrtým silným hráčem ukrajinské politiky i v soutěži o prezidentský úřad.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2146268/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/2145836/v-noci-v-krytu-pres-den-s-heslem-na-namesti-proc-ukrajinci-dal-protestuji-i-kdyz-zelenskyj-vymenil-hlavu-armady/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="fe770dc9e20e" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:38</span>
+<h3>Hamás kývl na odzbrojení, dohoda ale podle Deníku N naráží na řadu překážek</h3>
+<p>Navzdory optimismu Donalda Trumpa naráží čerstvá dohoda o odzbrojení Hamásu na mnoho překážek — na odpor krajně pravicových ministrů v Izraeli i na realitu v Gaze, píše Deník N. Nový diplomatický posun tak podle serveru musí řešit staré problémy, zatímco bomby v Gaze dál padají.</p>
+<p class="sources"><a href="https://denikn.cz/2145972/mir-ktery-neni-videt-hamas-kyvl-na-odzbrojeni-bomby-dal-padaji-co-vime-o-nove-dohode/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Ekonomika</h2>
+<article data-read-id="f700a89b3215" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">11:20</span>
+<h3>České banky by podle zátěžových testů ČNB ustály i výraznou recesi</h3>
+<p>Zátěžové testy České národní banky potvrdily vysokou odolnost českého bankovního sektoru. V nepříznivém scénáři by kapitálový poměr bank klesl z 20,7 na 18,4 procenta, ani poté by se sektor nepřiblížil regulatornímu minimu.</p>
+<p class="sources"><a href="https://www.e15.cz/ekonomika/ceske-banky-by-ustaly-i-vyraznou-recesi-ukazaly-zatezove-testy-cnb-1434747" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="14d8e836ba60" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">13:15 <span class="flag">· 2 zdroje</span></span>
+<h3>Strnadova CSG investuje více než 100 milionů eur do výroby munice a nitroglycerinu v Německu</h3>
+<p>Skupina CSG získala akvizicí průmyslového areálu Gnaschwitz nedaleko saského Budyšína 57hektarový pozemek a investuje do něj více než 100 milionů eur. Chystá tam výrobu nitroglycerinu, který je důležitý pro střelný prach, dále munice a komponentů. Projekt má podle firmy rozšířit kapacity, po nichž v Evropě roste poptávka.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/ekonomika-firmy-csg-investuje-100-milionu-eur-do-vyroby-munice-a-strelneho-prachu-v-nemecku-312371" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/strnadova-csg-rozsiruje-vyrobu-v-nemecku-chysta-produkci-nitroglycerinu-i-munice-1434739" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="d8cadce7e3ef" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:25</span>
+<h3>Sucho a teplá voda omezují výkon jaderných elektráren v regionu, české zatím chrání nádrže</h3>
+<p>Nízká hladina Dunaje od minulého týdne omezuje jaderné elektrárny v Maďarsku a Rumunsku. Také v Česku vykazuje přibližně polovina sledovaných profilů hydrologické sucho, Dukovany ani Temelín ale výkon zatím snižovat nemusejí. Podle E15 je chrání chladicí věže a zásoby vody v nádržích Hněvkovice, Dalešice a Mohelno.</p>
+<p class="sources"><a href="https://www.e15.cz/byznys/prumysl-a-energetika/sucho-a-tepla-voda-omezuji-vykon-jaderek-ceske-zatim-chrani-nadrze-1434748" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Technologie</h2>
+<article data-read-id="7b713b4aa4e7" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">14:30</span>
+<h3>Z hardwarových peněženek Coldcard nenávratně zmizely bitcoiny za miliardy</h3>
+<p>Držitelé bitcoinu přišli o své mince, přestože používali hardwarové kryptopeněženky Coldcard, tedy zdánlivě nejbezpečnější způsob úschovy. E15 kauzu shrnuje formou otázek a odpovědí a hodnotu zmizelých bitcoinů vyčísluje na miliardy.</p>
+<p class="sources"><a href="https://www.e15.cz/kryptomeny/z-penezenek-nenavratne-zmizely-bitcoiny-za-miliardy-kauza-coldcard-v-otazkach-a-odpovedich-1434752" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="f09eac3c76f9" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">3. 8. 19:19</span>
+<h3>Apple potichu koupil brněnskou firmu PlasmaSolve, jejíž software pomáhá při výrobě iPhonů</h3>
+<p>Apple na jaře bez oznámení převzal brněnskou technologickou firmu PlasmaSolve, která vyvíjí software pomáhající při výrobě iPhonů. Finanční podmínky ani důvod akvizice americká společnost nezveřejnila.</p>
+<p class="sources"><a href="https://www.e15.cz/byznys/technologie-a-media/apple-potichu-koupil-ceskou-firmu-jeji-technologie-pomaha-vyrabet-iphony-1434730" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Společnost a kultura</h2>
+<article data-read-id="219041daaf53" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">3. 8. 19:15</span>
+<h3>Knihovna Václava Havla se přejmenuje, přišla o právo užívat Havlovo jméno</h3>
+<p>Knihovna Václava Havla se přejmenuje, protože ztratila právo používat Havlovo jméno. Kvůli tomu jí končí i podíl na organizaci prestižní ceny za lidská práva. Instituce chce podle svého oznámení pokračovat v činnosti a v rozvíjení Havlova odkazu, chystá se hledat nového ředitele a budovat nový tým.</p>
+<p class="sources"><a href="https://www.e15.cz/domaci/jmeno-vaclava-havla-mizi-z-knihovny-instituce-oznamila-zasadni-zmeny-1434729" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="1b7c3d5ae074" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">17:00 <span class="flag">· 3 zdroje</span></span>
+<h3>Dublin se rozloučil s Glenem Hansardem, na pohřbu zpívala Markéta Irglová</h3>
+<p>V dublinské katedrále svatého Patrika se dnes uskutečnil pohřeb irského hudebníka Glena Hansarda, který minulou středu zemřel při dopravní nehodě ve věku 56 let. Online přenos sledovalo přes 40 tisíc lidí. Podle Seznam Zpráv na obřadu mluvil Bono a zpívali Markéta Irglová s Eddiem Vedderem.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/dublin-se-louci-se-zpevakem-hansardem-pohrbu-se-ucastni-take-zname-osobnosti_2608041700_ape" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/kultura-foto-glen-hansard-pohreb-312413" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2146166/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Za pozornost</h2>
+<article data-read-id="cd661f421738" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:24</span>
+<h3>Voxpot rozebírá, co se v Ceutě skutečně stalo a jakou roli sehrála marocká stráž</h3>
+<p>Do španělské exklávy Ceuta se minulý týden dostalo z Maroka kolem šedesáti tisíc lidí a situace v Evropě vyvolala ostré reakce i krizi Schengenu. Videa podle Voxpotu ukazují, že velkou roli sehrála marocká pohraniční stráž, která migraci nebránila; nový díl podcastu Afrika hledá odpověď na to, proč by to Maroko dělalo. V samostatném textu Voxpot popisuje, že se Španělsku místo podané ruky dostalo hlavně kritiky a některé země zašly ještě dál.</p>
+<p class="sources"><a href="https://www.voxpot.cz/clanky/co-se-realne-stalo-v-ceute-migrace-uz-zase-rozdelila-evropu/" target="_blank" rel="noopener noreferrer">Voxpot</a><span class="sep">·</span><a href="https://www.voxpot.cz/clanky/misto-pomoci-vyhruzky-ceuta-ukazala-hranice-evropske-solidarity/" target="_blank" rel="noopener noreferrer">Voxpot</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Sport</h2>
+<article data-read-id="023e1b7d2354" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">06:00</span>
+<h3>Sparta vstupuje do 3. předkola Ligy mistrů proti Lyonu, s nímž nikdy nevyhrála</h3>
+<p>Sparta dnes na Letné vstoupí jako třetí český zástupce do kvalifikace evropských pohárů, v úvodním utkání 3. předkola Ligy mistrů narazí na Lyon. Francouzský klub ve vzájemných duelech dosud nepoznal porážku. Trenér Brian Priske měl na přípravu po ruce Adama Karabce, který v Olympique minulou sezonu hostoval a podle Priskeho posloužil jako skaut. Lyonský záložník Pavel Šulc na Letné chybí kvůli zánětu kolene a jeho trenér Paulo Fonseca nevyloučil, že by český reprezentant mohl klub opustit — zájem o něj je po vydařené sezoně v Evropě velký.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/sparta-jde-v-predkole-ligy-mistru-na-lyon-ktery-nikdy-neporazila-158216" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/fotbal/priske-pred-lyonem-karabec-je-nas-skaut-fonsecovi-muze-dokazat-jak-je-spickovy-158222" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/fotbal/sulc-by-mohl-z-lyonu-odejit-moznosti-jsou-pripustil-trener-fonseca-158228" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+<article data-read-id="23baceace464" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">12:48 <span class="flag">· 2 zdroje</span></span>
+<h3>Křetínský prodal část podílu ve West Hamu podnikateli Havrlantovi a klesl pod 25 procent</h3>
+<p>Miliardář Daniel Křetínský odprodal více než dvě procenta svého podílu ve fotbalovém klubu West Ham United podnikateli Jakubu Havrlantovi a ponechal si necelých 25 procent, informují podle ČT Sport britská i tuzemská média. Podle E15 se Křetínský snaží zablokovat prodej čtvrtinového podílu konkurenčnímu konsorciu vedenému Amandou Staveleyovou a snížením svého podílu pod 25 procent by mohl získat kontrolu nad klubem, aniž by musel aktivovat nákladnou akcionářskou dohodu.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/kretinsky-nasel-kupce-pro-cast-sveho-podilu-ve-west-hamu-je-to-jiny-cesky-podnikatel-158233" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.e15.cz/byznys/kretinsky-nechce-prijit-o-west-ham-pomoci-mu-ma-dalsi-cesky-miliardar-1434746" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="7db6e66786e5" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">08:57</span>
+<h3>Kopřiva postoupil v Montrealu do českého derby s Lehečkou, Valentová v Torontu vypadla</h3>
+<p>Vít Kopřiva prošel na Masters v Montrealu do druhého kola, když v zápase několikrát přerušeném a odloženém kvůli dešti porazil domácího držitele divoké karty Alexise Galarneaua 6:4 a 6:4. Nyní ho čeká české derby s osmým nasazeným Jiřím Lehečkou. Na turnaji v Torontu naopak Tereza Valentová prohrála v prvním kole s Američankou Taylor Townsendovou 4:6 a 5:7; Townsendovou čeká ve druhém kole jednadvacátá nasazená Marie Bouzková. V pondělí večer Karolína Plíšková zvládla vstup do Toronta výhrou nad Oleksandrou Olijnykovovou 6:4 a 6:4 a Nikola Bartůňková při debutu na turnaji WTA 1000 porazila domácí Biancu Andreescuovou 7:5 a 6:4.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/tenis/kopriva-si-v-montrealu-poradil-s-galarneauem-a-ceka-ho-duel-s-leheckou-158229" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/tenis/valentova-v-torontu-konci-uz-v-prvnim-kole-nestacila-na-townsendovou-158230" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/tenis/pliskova-zacala-turnaj-v-torontu-vyhrou-nad-olijnykovovou-158225" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+<article data-read-id="bf6d76108374" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">3. 8. 19:02</span>
+<h3>Pětibojaři Grycz s Tůmou vybojovali na úvod ME v Istanbulu bronz ve štafetě</h3>
+<p>Moderní pětibojaři Marek Grycz a Matouš Tůma získali na úvod mistrovství Evropy v Istanbulu bronzovou medaili ve štafetě a navázali tak na loňský titul z Madridu. Karolína Křenková s Kateřinou Váňovou obsadily čtvrté místo.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/moderni-petiboj/petibojari-grycz-s-tumou-berou-na-me-bronz-158224" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+<article data-read-id="d39f0b2baff7" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">3. 8. 21:00</span>
+<h3>Česká hokejová osmnáctka prohrála na úvod Hlinka Gretzky Cupu s USA 4:6</h3>
+<p>Česká hokejová reprezentace do osmnácti let vstoupila do Hlinka Gretzky Cupu porážkou s USA 4:6. Rozhodla druhá třetina, ve které svěřenci trenéra Jaroslava Nedvěda čtyřikrát inkasovali, závěrečná snaha vedla jen ke zkorigování výsledku. Ve skupině B čeká Čechy ještě Německo a Finsko, přímé přenosy nabízí ČT sport.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/hokej/hlinka-gretzky-cup-cesko-usa-158227" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+</section>
+
+<nav class="pager">
+<span></span>
+<a href="archiv.html">Archiv</a>
+<span></span>
+</nav>
+
+<footer>
+<p class="updated">Aktualizováno <time datetime="2026-08-04T17:27+02:00">4. 8. 2026 v 17:27</time></p>
+<p class="used">Zdroje vydání: iROZHLAS · ČT24 · Deník N · Seznam Zprávy · E15 · Voxpot · ČT Sport</p>
+<p class="warn">Nepodařilo se načíst: Root.cz, Hacker News, Claude Blog, Hradecký deník, iDNES Hradec, Hradecká drbna, Sport.cz.</p>
+<p>Vydání vzniká automaticky každý den v 17:00 a shrnuje uplynulých 24 hodin z RSS uvedených zdrojů. Každá zpráva odkazuje na původní článek. Počasí je předpověď na následující dny.</p>
+</footer>
+</div>
+</body>
+</html>

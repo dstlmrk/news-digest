@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denní přehled · archiv</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+(function () {
+  var root = document.documentElement;
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+
+  var SVG_ATTRS = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ' +
+    'fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var SUN = '<svg ' + SVG_ATTRS + '><circle cx="12" cy="12" r="4"/>' +
+    '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41' +
+    'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+  var MOON = '<svg ' + SVG_ATTRS + '>' +
+    '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    function isDark() {
+      return root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+    function label() {
+      var dark = isDark();
+      btn.innerHTML = dark ? SUN : MOON;
+      var text = dark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
+   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
+   záznamy starší 90 dnů se promazávají. */
+(function () {
+  var KEY = 'readItems';
+  var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(map) {
+    try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = load();
+    var now = Date.now();
+    var changed = false;
+    for (var k in map) {
+      if (now - map[k] > MAX_AGE_MS) { delete map[k]; changed = true; }
+    }
+    if (changed) save(map);
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('[data-read-id]'),
+      function (el) {
+        var id = el.getAttribute('data-read-id');
+        if (map[id]) el.classList.add('read');
+
+        el.addEventListener('click', function (ev) {
+          if (ev.target.closest('a')) {
+            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
+            if (!map[id]) {
+              map[id] = Date.now();
+              el.classList.add('read');
+              save(map);
+            }
+            return;
+          }
+          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
+          if (window.getSelection && String(window.getSelection())) return;
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+        });
+      }
+    );
+  });
+})();
+</script>
+</head>
+<body>
+<button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
+<div class="wrap">
+<header class="masthead">
+<h1><a href="index.html">Denní přehled</a></h1>
+<p class="tagline">Zprávy z českých zdrojů · nové vydání každý den v 17:00</p>
+<p class="dateline">Archiv</p>
+<hr class="rule-double">
+<p class="meta">1 vydání</p>
+</header>
+
+<ul class="archive">
+<li><a href="2026-08-04.html">úterý 4. srpna 2026</a><span class="count">29 zpráv</span></li>
+</ul>
+
+<nav class="pager">
+<a href="index.html">← Nejnovější vydání</a>
+<span></span>
+<span></span>
+</nav>
+
+<footer>
+<p class="updated">Aktualizováno <time datetime="2026-08-04T17:27+02:00">4. 8. 2026 v 17:27</time></p>
+</footer>
+</div>
+</body>
+</html>
