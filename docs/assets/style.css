@@ -348,6 +348,8 @@ footer {
 }
 
 footer p { margin: 0.35rem 0; }
+footer .updated { color: var(--ink); font-weight: 700; }
+footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
 
