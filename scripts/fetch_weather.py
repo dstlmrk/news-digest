@@ -2,8 +2,12 @@
 """Stáhne předpověď počasí a kvalitu ovzduší pro Hradec Králové.
 
 Zdrojem je Open-Meteo (https://open-meteo.com) — bez API klíče, zdarma pro
-nekomerční použití. Výstupem je JSON s denní předpovědí na 5 dní a dnešní
-kvalitou ovzduší, ze kterého agent píše pole `weather` v digestu.
+nekomerční použití. Výstupem je JSON s denní předpovědí na 5 dní a kvalitou
+ovzduší na dnešek a zítřek, ze kterého agent píše pole `weather` v digestu.
+
+Digest vychází v 17:00, takže dnešní počasí už je za čtenářem. Podstatná
+je předpověď na **zítřek a další dny** — proto má každý den pole `relative`
+(`dnes`, `zítra`, `pozítří`, dál název dne) a příznak `is_tomorrow`.
 
 Agent z výstupu NIC nedopočítává ani nedomýšlí — bere jen hodnoty, které
 tu jsou (Železné pravidlo platí i pro počasí).
@@ -114,16 +118,24 @@ def eaqi_label(value: float) -> str:
     return "extrémně špatná"
 
 
+def relative_label(offset: int, weekday: str) -> str:
+    """Jak se o dni mluví: dnes / zítra / pozítří, dál názvem dne."""
+    return {0: "dnes", 1: "zítra", 2: "pozítří"}.get(offset, weekday)
+
+
 def build_days(daily: dict) -> list[dict]:
     days = []
     for i, iso in enumerate(daily["time"]):
         d = date.fromisoformat(iso)
         code = int(daily["weather_code"][i])
+        weekday = WEEKDAYS[d.weekday()]
         days.append(
             {
                 "date": iso,
-                "weekday": WEEKDAYS[d.weekday()],
+                "weekday": weekday,
+                "relative": relative_label(i, weekday),
                 "is_today": i == 0,
+                "is_tomorrow": i == 1,
                 "description": WMO_CODES.get(code, f"kód {code}"),
                 "icon": icon_for_code(code),
                 "temp_min_c": daily["temperature_2m_min"][i],
@@ -137,15 +149,31 @@ def build_days(daily: dict) -> list[dict]:
     return days
 
 
-def build_air_quality(hourly: dict) -> dict | None:
-    values = [v for v in hourly.get("european_aqi") or [] if v is not None]
-    if not values:
-        return None
-    worst = max(values)
-    return {
-        "european_aqi_today_max": worst,
-        "label": eaqi_label(worst),
-    }
+def build_air_quality(hourly: dict) -> list[dict]:
+    """Nejhorší denní EAQI po dnech — hodinové hodnoty seskupí podle data.
+
+    Vrací dnešek i zítřek; pro digest je podstatný zítřek, protože vydání
+    vzniká odpoledne, kdy je dnešní ovzduší už z velké části za čtenářem.
+    """
+    times = hourly.get("time") or []
+    values = hourly.get("european_aqi") or []
+    by_day: dict[str, list[float]] = {}
+    for stamp, value in zip(times, values):
+        if value is None:
+            continue
+        by_day.setdefault(stamp[:10], []).append(value)
+
+    out = []
+    for iso, day_values in sorted(by_day.items()):
+        worst = max(day_values)
+        out.append(
+            {
+                "date": iso,
+                "european_aqi_max": worst,
+                "label": eaqi_label(worst),
+            }
+        )
+    return out
 
 
 def main() -> int:
@@ -179,7 +207,7 @@ def main() -> int:
         return 1
 
     # Kvalita ovzduší je bonus — když selže, počasí se pošle bez ní.
-    air = None
+    air: list[dict] = []
     try:
         air_raw = fetch_json(
             AIR_URL,
@@ -188,7 +216,7 @@ def main() -> int:
                 "longitude": LONGITUDE,
                 "hourly": "european_aqi",
                 "timezone": TIMEZONE,
-                "forecast_days": 1,
+                "forecast_days": 2,
             },
         )
         air = build_air_quality(air_raw.get("hourly") or {})

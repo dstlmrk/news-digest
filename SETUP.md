@@ -40,7 +40,7 @@ Kdykoli přidáš zdroj do `sources.toml`, přidej jeho doménu i sem.
 Buď v CLI:
 
 ```
-/schedule daily news digest at 7:00
+/schedule daily news digest at 17:00
 ```
 
 nebo na [claude.ai/code/routines](https://claude.ai/code/routines) →
@@ -48,8 +48,10 @@ nebo na [claude.ai/code/routines](https://claude.ai/code/routines) →
 
 - **Repositories:** tenhle repozitář
 - **Environment:** `news` z kroku 1
-- **Trigger:** Schedule → `daily`, čas ve své lokální zóně
-  (běh přijde o několik minut později kvůli staggeru)
+- **Trigger:** Schedule → `daily`, **17:00** ve své lokální zóně
+  (běh přijde o několik minut později kvůli staggeru). Na čase záleží:
+  digest je přehled dne a texty i počasí počítají s tím, že vzniká
+  odpoledne — viz `CLAUDE.md` → *Co vydání pokrývá*.
 - **Model:** na sumarizaci stačí Sonnet
 - **Connectors:** **odeber všechny**, které nepotřebuješ. Routina je smí
   během běhu použít včetně zápisů, bez ptaní. Nech si jen Slack, pokud
@@ -58,18 +60,27 @@ nebo na [claude.ai/code/routines](https://claude.ai/code/routines) →
 ### Prompt routiny
 
 ```
-Vyrob ranní přehled zpráv podle CLAUDE.md a .claude/skills/digest/SKILL.md
-v tomhle repozitáři. Přehled je za minulý den plus zprávy z dnešního rána,
-viz sekce "Co vydání pokrývá". Postupuj podle sekce "Průběh běhu": sesbírej
-feedy, stáhni počasí, přečti poslední tři digesty kvůli deduplikaci,
-narediguj, ulož jako JSON do digests/ (včetně pole covers), přegeneruj web
-přes scripts/build_site.py a commitni digests/ i docs/ přímo do branche
-master — nezakládej novou branch ani pull request. Zdroje, které se
-nepodařilo načíst, dej do failed_feeds.
+Vyrob nové vydání přehledu zpráv podle CLAUDE.md v tomhle repozitáři.
+Postupuj podle sekce "Průběh běhu" a dodrž ji celou, včetně uložení
+digestu, přegenerování webu a commitu s pushem.
 ```
 
-Prompt nech krátký a odkazuj se z něj do repa. Pravidla se pak mění
-commitem, ne překlikáváním v UI.
+Prompt je schválně takhle krátký a **není potřeba ho měnit**. Všechno,
+co se může časem posunout, žije v repozitáři a mění se commitem:
+
+| Co se změní | Kde to upravíš |
+| --- | --- |
+| Postup běhu, včetně commitu a pushe | `CLAUDE.md` → *Průběh běhu* |
+| Co vydání pokrývá a jak se datuje | `CLAUDE.md` → *Co vydání pokrývá* |
+| Témata, limity, redakční pravidla | `CLAUDE.md` |
+| Struktura JSONu a forma položek | `.claude/skills/digest/SKILL.md` |
+| Zdroje, váhy, časové okno | `sources.toml` |
+| Sazba webu | `scripts/build_site.py` |
+
+`CLAUDE.md` si Claude Code v repozitáři načítá sám, takže prompt na něj
+jen ukazuje. Jediné, co se mění tady v UI, je **čas triggeru** — ten
+v repozitáři není. Když ho posuneš, projdi `CLAUDE.md` → *Co vydání
+pokrývá*, protože na době běhu závisí datování vydání i počasí.
 
 ## 3. GitHub Pages
 
@@ -119,7 +130,7 @@ Web v `docs/` je hlavní čtecí plocha. Když chceš navíc notifikaci:
 
 1. **Slack connector** — DM sám sobě s odkazem na dnešní vydání. Connector
    traffic jde přes servery Anthropicu, takže **nepotřebuje nic
-   v allowlistu**. Na ranní čtení na telefonu nejpraktičtější.
+   v allowlistu**. Na podvečerní čtení na telefonu nejpraktičtější.
 2. **Transactional e-mail API** (Resend, Mailgun, SendGrid) přes `curl`:
    - přidej API doménu (např. `api.resend.com`) do allowlistu environmentu,
    - přidej klíč jako environment variable, např. `RESEND_API_KEY`,

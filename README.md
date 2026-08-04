@@ -1,35 +1,35 @@
 # news-digest
 
-Denní přehled zpráv ve stylu „rychlých zpráv", který jednou denně vyrobí
-cloud routine v Claude Code a vydá jako statický web v novinové sazbě.
-Běží ráno, takže vydání shrnuje **minulý den a ranní zprávy dne vydání** —
-web se proto datuje pokrytým dnem, ne dnem, kdy vznikl.
+**Odpolední přehled dne** ve stylu „rychlých zpráv", který každý den
+v 17:00 vyrobí cloud routine v Claude Code a vydá jako statický web
+v novinové sazbě. K tomu **předpověď počasí na další dny**.
 
 Motivace: přečíst si jednou denně to podstatné z důvěryhodných českých
-zdrojů, včetně sportu, místo průběžného scrollování.
+zdrojů, včetně sportu, místo průběžného scrollování — a to v době, kdy
+už je den odbytý a je co shrnovat.
 
 ## Kdy to běží a co vydání pokrývá
 
-Spouští to **Claude routine každý den v 9:00** (Europe/Prague) — běží
+Spouští to **Claude routine každý den v 17:00** (Europe/Prague) — běží
 v cloudu, takže na zapnutém notebooku nezávisí. Nastavení je v
 [SETUP.md](SETUP.md).
 
-Okno je 24 hodin, takže vydání z 9:00 obsahuje dění **od rána
-předchozího dne až do rána, kdy vzniklo**. Není to přehled dneška —
-dnešní den v době vydání ještě prakticky nezačal:
+Okno je 24 hodin, takže vydání ze 17:00 obsahuje **celý dnešek až do
+odpoledne** a k tomu dobírá **večer předchozího dne**, který se do
+včerejšího vydání už nevešel:
 
-- Web se datuje **pokrytým dnem** („Zprávy za neděli 2. srpna 2026"),
-  den vydání je jen v řádku s metadaty. V JSONu to drží pole `covers`,
-  soubor v `digests/` se ale pořád jmenuje podle dne vydání.
-- Zprávy vydané po půlnoci, tedy ráno dne vydání, mají v digestu
-  `"day": "issue"` a na webu se u nich vypisuje i datum, aby se nepletly
-  s pokrytým dnem.
-- Počasí je jediná část, která patří ke dni vydání — je to předpověď na
-  dnešek, ne na den, za který jsou zprávy.
-- Ranní zprávy pokrytého dne už bývají ve včerejším vydání, proto se
-  nový digest proti třem posledním deduplikuje.
+- Web se datuje **pokrytým dnem**, což je den vydání („Zprávy za úterý
+  4. srpna 2026"). V JSONu to drží pole `covers`; liší se od `date`
+  jen u ručního běhu v jinou dobu.
+- Zprávy z včerejšího večera mají v digestu `"day": "prev"` a na webu se
+  u nich vypisuje i datum, aby se nepletly s dneškem.
+- Počasí je jediná část, která nepatří k pokrytému dni, ale dopředu —
+  dnešek má čtenář v 17:00 za sebou, takže se ukazuje **zítřek a další
+  dny**.
+- Konec okna už bývá ve včerejším vydání, proto se nový digest proti
+  třem posledním deduplikuje.
 
-Když digest výjimečně vznikne v jinou dobu (ruční běh odpoledne),
+Když digest výjimečně vznikne v jinou dobu (ruční běh dopoledne),
 nastaví se `covers` na den, ze kterého je většina zpráv.
 
 ## Jak to funguje
@@ -39,7 +39,7 @@ sources.toml ──► fetch_feeds.py ──► feed.json ──► agent ──
   19 RSS feedů    stažení, okno      témata se     výběr,      strukturovaný     validace,      GitHub
                   24 h, dedup,       signálem      redakce,    výstup            novinová       Pages
                   clustering         relevance     formát                        sazba
-                              fetch_weather.py ──► počasí pro Hradec Králové (Open-Meteo)
+                              fetch_weather.py ──► předpověď na další dny (Open-Meteo)
 ```
 
 Návrh stojí na dvou rozhodnutích:
@@ -65,7 +65,7 @@ je strukturovaný JSON, ne rovnou HTML — sazba webu je pak čistě otázka
 | `.claude/skills/digest/SKILL.md` | JSON schéma digestu a forma položek |
 | `sources.toml` | Seznam feedů, váhy, časové okno, práh clusteringu |
 | `scripts/fetch_feeds.py` | Sběr a normalizace feedů |
-| `scripts/fetch_weather.py` | Předpověď a kvalita ovzduší pro Hradec Králové |
+| `scripts/fetch_weather.py` | Předpověď na 5 dní a kvalita ovzduší pro Hradec Králové |
 | `scripts/build_site.py` | Validace digestů a generování webu do `docs/` |
 | `SETUP.md` | Jak založit routinu, povolit síť a zapnout Pages |
 | `digests/` | Digesty jako JSON; archiv i podklad pro deduplikaci |
@@ -82,17 +82,22 @@ Seznam Zprávy · E15 · Voxpot · Sport.cz · Root.cz · Hacker News ·
 Claude Blog (parsuje se HTML výpis, blog nemá RSS) · Hradecký deník ·
 iDNES Hradec · Hradecká drbna
 
-Počasí pro Hradec Králové z Open-Meteo (bez API klíče).
+Předpověď pro Hradec Králové z Open-Meteo (bez API klíče).
 
 ## Web
 
 Statický, bez závislostí a bez build toolchainu. Novinová sazba se serifovým
 písmem ze systému, barva novinového papíru, tmavý režim pro čtení večer
 (řídí se systémem, ikonový přepínač si volbu pamatuje) a responzivní layout
-pro mobil. Hlavní zpráva dne jako otvírák, box s počasím, archiv
-s prolistováním po dnech a kliknutím se zpráva označí jako přečtená
-(stav drží localStorage prohlížeče, nikam se neodesílá). Odkazy na
-původní články se otevírají v novém panelu.
+pro mobil.
+
+Hlavička nese podtitulek „Zprávy z českých zdrojů · nové vydání každý den
+v 17:00", aby bylo z první obrazovky jasné, co web je. Pod ní box
+s počasím: **zítřek slovně s ikonou a proužek dalších tří dnů** (den,
+ikona, denní a noční teplota). Následuje hlavní zpráva dne jako otvírák,
+rubriky a archiv s prolistováním po dnech. Kliknutím se zpráva označí
+jako přečtená (stav drží localStorage prohlížeče, nikam se neodesílá),
+odkazy na původní články se otevírají v novém panelu.
 
 V patičce je čas poslední aktualizace vydání a seznam zdrojů, ze kterých
 digest vznikl. Čas bere build skript z gitu — z posledního commitu daného
@@ -104,6 +109,8 @@ Přegenerování webu proto starším vydáním datum neposune.
 ```bash
 python3 scripts/fetch_feeds.py --out /tmp/feed.json   # vyžaduje Python 3.11+
 python3 scripts/fetch_feeds.py --hours 48             # širší okno
+
+python3 scripts/fetch_weather.py --out /tmp/weather.json   # předpověď na 5 dní
 
 python3 scripts/build_site.py --check                 # jen zvaliduje digesty
 python3 scripts/build_site.py                         # přegeneruje docs/

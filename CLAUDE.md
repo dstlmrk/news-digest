@@ -1,4 +1,4 @@
-# Denní digest zpráv
+# Odpolední digest zpráv
 
 Tenhle repozitář je konfigurace agenta, který jednou denně vyrobí přehled
 zpráv ve stylu „rychlých zpráv" a doručí ho. Běží jako **cloud routine**
@@ -11,24 +11,27 @@ v Claude Code, takže se spustí i když je notebook zavřený.
 
 ## Co vydání pokrývá
 
-Routina běží **ráno kolem 9:00** (Europe/Prague) a bere 24hodinové okno.
-Vydání tedy shrnuje **minulý den** a k tomu **ranní zprávy dne, kdy běží**.
-Není to „přehled dneška" — dnešní den ještě prakticky nezačal.
+Routina běží **každý den v 17:00** (Europe/Prague) a bere 24hodinové okno.
+Vydání je tedy **přehled dneška** — od rána až do odpoledne, kdy vzniká —
+a k tomu dobírá **večer předchozího dne**, který se do včerejšího vydání
+už nevešel.
 
 Z toho plyne pro celý digest:
 
-- **Pokrytý den je minulý den.** Píšeš o něm jako o dni, který skončil.
-  Web se tímhle dnem datuje (pole `covers`, viz `SKILL.md`).
-- **Nepiš „dnes"** o dění z pokrytého dne. Použij „v pondělí",
-  „včera odpoledne", nebo čas vynech. Slovo „dnes" si nech jen pro
-  zprávy skutečně vydané dnes ráno, a i tam radši napiš „dnes ráno".
-- **Zprávy z dnešního rána označ** `"day": "issue"` (viz `SKILL.md`).
-  Web u nich zobrazí datum, aby se nepletly s minulým dnem.
-- **Počasí je výjimka** — to je předpověď na dnešní den a mluví se o něm
-  v přítomnosti. Web ho popisuje jako počasí na den vydání.
+- **Pokrytý den je dnešek**, tedy den vydání. Web se tímhle dnem datuje
+  (pole `covers`, viz `SKILL.md`).
+- **„Dnes" je v pořádku** — čtenář to čte týž den podvečer. U dopoledních
+  zpráv klidně „dnes ráno", „dopoledne", „odpoledne".
+- **Večer nedokončený den se nedopisuje.** Co se stane po 17:00, patří
+  do zítřejšího vydání. Nepiš, jak něco „dopadne večer".
+- **Zprávy z včerejšího večera označ** `"day": "prev"` (viz `SKILL.md`)
+  a mluv o nich jako o včerejšku („včera večer", „v pondělí večer").
+  Web u nich zobrazí datum, aby se nepletly s dneškem.
+- **Počasí je výjimka** — dnešek už má čtenář za sebou, takže se píše
+  předpověď na **zítřek a další dny**. Podrobně v kroku 2.
 
-Když běh výjimečně neproběhne ráno (ruční spuštění odpoledne nebo večer),
-je většina okna z dnešního dne. Pak dej do `covers` dnešní datum, ať
+Když běh výjimečně proběhne v jinou dobu (ruční spuštění dopoledne), je
+většina okna ještě ze včerejška. Pak dej do `covers` včerejší datum, ať
 stránka netvrdí něco, co v ní není.
 
 ---
@@ -68,8 +71,8 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
 
    Skript používá jen standardní knihovnu, takže nic neinstaluj. Přečti
    `/tmp/feed.json` — obsahuje položky z posledních 24 hodin seskupené
-   do témat (`clusters`). Okno tedy začíná ráno minulého dne: většina
-   položek je z minulého dne, menší část z dnešního rána. Podle pole
+   do témat (`clusters`). Okno začíná v 17:00 předchozího dne: většina
+   položek je z dneška, menší část z včerejšího večera. Podle pole
    `published` u každé položky poznáš, ke kterému dni patří.
 
 2. **Stáhni počasí.** Spusť:
@@ -79,26 +82,38 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    ```
 
    Z výstupu napiš pole `weather` (formát v SKILL.md). Počasí je jediná
-   část digestu, která patří ke **dnešnímu** dni, ne k pokrytému — je to
-   předpověď na den vydání. `summary` shrne dnešek jednou až dvěma větami — charakter počasí a **denní teplotu**
-   (`temp_max_c`, tedy „přes den až 34 °C", ne rozpětí „18 až 34 °C";
-   minimum je noční teplota a zmiň ho jen, když je samo podstatné —
-   mráz, tropická noc), případně srážky, silný vítr nebo zhoršené
-   ovzduší. `outlook` vyplň
-   **jen tehdy**, když se v dalších dnech blíží něco výrazného — vedra
-   nad 30 °C, silné bouřky, vydatný déšť, špatná kvalita ovzduší; jinak
-   ho vynech. Piš výhradně hodnoty ze souboru —
+   část digestu, která nepatří k pokrytému dni, ale **dopředu**: vydání
+   vychází v 17:00, kdy má čtenář dnešek za sebou, takže **dnešní den
+   úplně přeskoč**. Ve `/tmp/weather.json` je dnešek první položkou
+   `days` (`"relative": "dnes"`) — začni až u dne s `"is_tomorrow": true`.
+
+   - `summary` shrne **zítřek** jednou až dvěma větami — charakter počasí
+     a **denní teplotu** (`temp_max_c`, tedy „zítra až 34 °C", ne rozpětí
+     „18 až 34 °C"; minimum je noční teplota a zmiň ho jen, když je samo
+     podstatné — mráz, tropická noc), případně srážky, silný vítr nebo
+     zhoršené ovzduší. Kvalitu ovzduší ber z položky `air_quality`
+     **pro zítřejší datum**, ne pro dnešek.
+   - `days` je proužek předpovědi na webu: zkopíruj **3 až 4 dny počínaje
+     zítřkem** (`date`, `icon`, `temp_max_c`, `temp_min_c`). Dnešek do něj
+     nepatří — build skript ho odmítne.
+   - `outlook` vyplň **jen tehdy**, když se v dalších dnech blíží něco
+     výrazného — vedra nad 30 °C, silné bouřky, vydatný déšť, špatná
+     kvalita ovzduší; jinak ho vynech. Proužek `days` teploty a ikony
+     ukazuje sám, takže je v `outlook` neopakuj.
+
+   Piš výhradně hodnoty ze souboru —
    [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) platí i pro
-   počasí. Když skript selže, pole `weather` úplně vynech a pokračuj.
+   počasí. Nedopočítávej trendy ani průměry. Když skript selže, pole
+   `weather` úplně vynech a pokračuj.
 
 3. **Zjisti, co už bylo.** Přečti poslední tři soubory v `digests/`.
    Zprávu, kterou jsi už poslal, neposílej znovu. Výjimka: téma se
    podstatně posunulo — pak napiš explicitně, co je nového („Navazuje na
    včerejší…"), ne celý příběh od začátku.
 
-   Pozor na překryv: včerejší vydání vzniklo taky ráno, takže ranní
-   zprávy minulého dne už v něm většinou jsou. Tuhle část okna projdi
-   proti včerejšímu digestu obzvlášť pečlivě.
+   Pozor na překryv: včerejší vydání vzniklo taky v 17:00, takže část
+   včerejšího odpoledne v něm už je. Konec okna (zprávy z včerejška)
+   projdi proti včerejšímu digestu obzvlášť pečlivě.
 
 4. **Vyber a narediguj** podle [Redakčních pravidel](#redakční-pravidla)
    a schématu v `.claude/skills/digest/SKILL.md`. Při psaní každé položky
@@ -107,9 +122,9 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
 
 5. **Ulož** výsledek jako `digests/RRRR-MM-DD.json` (dnešní datum v zóně
    Europe/Prague — soubor se jmenuje podle **dne vydání**). Do `covers`
-   dej **den, za který přehled je**, tedy při ranním běhu včerejší datum.
-   Do `failed_feeds` vypiš zdroje, které se nepodařilo načíst — web je
-   zobrazí v patičce.
+   dej **den, za který přehled je**, což je při běhu v 17:00 totéž
+   dnešní datum. Do `failed_feeds` vypiš zdroje, které se nepodařilo
+   načíst — web je zobrazí v patičce.
 
 6. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
 
@@ -120,8 +135,10 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    Když skončí chybou, oprav JSON a spusť ho znovu. **Nikdy necommituj
    digest, který build neprošel**, a nikdy needituj HTML v `docs/` ručně.
 
-7. **Commitni** `digests/` i `docs/` jedním commitem s message
-   `digest: RRRR-MM-DD`. GitHub Pages publikuje `docs/` samo, žádná CI
+7. **Commitni a pushni.** `digests/` i `docs/` jedním commitem s message
+   `digest: RRRR-MM-DD`, push rovnou do branche `master`. **Nezakládej
+   novou branch ani pull request** — tenhle repozitář je jednouživatelský
+   a digest nemá co review. GitHub Pages publikuje `docs/` samo, žádná CI
    pipeline se nespouští.
 
 8. **Doruč.** Viz [Doručení](#doručení).
@@ -273,9 +290,11 @@ Kontext piš jen tehdy, když ho máš ze zdroje. Nezaplňuj místo obecnostmi.
 ### Jazyk
 
 Česky, s **plnou diakritikou**. Věcně, bez nadsázky a bez clickbaitu.
-Časové údaje piš z pohledu čtenáře, který to čte ráno po pokrytém dni —
-o dění minulého dne tedy nikdy jako o „dnešním" (viz
-[Co vydání pokrývá](#co-vydání-pokrývá)).
+Časové údaje piš z pohledu čtenáře, který to čte **týž den podvečer**:
+dění pokrytého dne je „dnes" (klidně „dnes ráno", „odpoledne"), dobírané
+zprávy z konce okna jsou „včera večer" (viz
+[Co vydání pokrývá](#co-vydání-pokrývá)). O věcech, které se mají teprve
+stát dnes večer, nepiš, jak dopadly.
 Titulek je celá věta, která říká, co se stalo — ne otázka a ne teaser.
 Nepřebírej titulek z portálu slovo od slova, když je bulvární nebo
 nedopovězený; přepiš ho tak, aby sám nesl informaci.

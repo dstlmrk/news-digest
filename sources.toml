@@ -1,4 +1,4 @@
-# Zdroje pro denní digest.
+# Zdroje pro odpolední digest.
 #
 # Tenhle soubor čte scripts/fetch_feeds.py. Uprav ho, kdykoli chceš přidat,
 # odebrat nebo převážit zdroj — nic jiného se kvůli tomu měnit nemusí.
@@ -14,7 +14,8 @@
 #           protože blog nemá RSS). Bez type se čte jako RSS/Atom.
 
 [settings]
-# Časové okno, ze kterého se berou zprávy (v hodinách).
+# Časové okno, ze kterého se berou zprávy (v hodinách). Routina běží
+# v 17:00, takže okno sahá do 17:00 předchozího dne.
 window_hours = 24
 # Práh podobnosti titulků pro spojení téže zprávy z více portálů (0–1).
 cluster_threshold = 0.30

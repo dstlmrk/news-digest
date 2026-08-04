@@ -72,6 +72,16 @@ body {
 
 .masthead h1 a { color: inherit; text-decoration: none; }
 
+/* Podtitulek říká, co web je a kdy vychází — bez něj není z hlavičky
+   poznat, že jde o jedno odpolední vydání za posledních 24 hodin. */
+.masthead .tagline {
+  margin: 0.55rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.79rem;
+  line-height: 1.45;
+  color: var(--ink-muted);
+}
+
 .masthead .dateline {
   margin: 0.8rem 0 0;
   font-family: var(--sans);
@@ -121,6 +131,16 @@ body {
   border: 1px solid var(--rule);
 }
 
+.weather .w-lead {
+  display: flex;
+  align-items: center;
+  gap: 1.05rem;
+}
+
+.weather .w-icon { flex: none; color: var(--accent); }
+.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
+.weather .w-text { min-width: 0; }
+
 .weather .kicker {
   margin: 0 0 0.4rem;
   font-family: var(--sans);
@@ -136,6 +156,57 @@ body {
 .weather .outlook {
   margin-top: 0.35rem;
   font-style: italic;
+  color: var(--ink-muted);
+}
+
+/* Proužek dalších dnů: ikona, den a denní/noční teplota vedle sebe.
+   Na úzkém displeji se vodorovně odroluje místo zalomení. */
+.weather .w-days {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0.95rem 0 0;
+  padding: 0.85rem 0 0;
+  border-top: 1px solid var(--rule);
+  list-style: none;
+  overflow-x: auto;
+}
+
+.weather .w-days li {
+  flex: 1 1 0;
+  min-width: 4.1rem;
+  text-align: center;
+  font-family: var(--sans);
+}
+
+.weather .w-days .w-when {
+  display: block;
+  font-size: 0.71rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.weather .w-days .w-mark {
+  display: block;
+  margin: 0.3rem 0 0.25rem;
+  color: var(--accent);
+}
+
+.weather .w-days .w-mark svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+
+.weather .w-days .w-temp {
+  display: block;
+  font-size: 0.83rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.weather .w-days .w-temp .low {
+  font-weight: 400;
   color: var(--ink-muted);
 }
 
@@ -277,8 +348,6 @@ footer {
 }
 
 footer p { margin: 0.35rem 0; }
-footer .updated { color: var(--ink); font-weight: 700; }
-footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
 

@@ -32,6 +32,11 @@ DIGESTS = REPO_ROOT / "digests"
 DOCS = REPO_ROOT / "docs"
 
 SITE_TITLE = "Denní přehled"
+SITE_TAGLINE = "Zprávy z českých zdrojů · nové vydání každý den v 17:00"
+SITE_DESCRIPTION = (
+    "Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, "
+    "shrnuje uplynulých 24 hodin."
+)
 
 PRAGUE = ZoneInfo("Europe/Prague")
 
@@ -102,10 +107,15 @@ def validate(data: dict, path: Path) -> None:
     if weather is not None:
         if not isinstance(weather, dict) or not weather.get("summary"):
             fail("weather musí být objekt s neprázdným polem 'summary'")
-        # `icon` starší digesty ještě nesou, web ho už nezobrazuje.
-        for key in ("summary", "outlook", "place"):
+        for key in ("summary", "outlook", "place", "icon"):
             if key in weather and not isinstance(weather[key], str):
                 fail(f"weather.{key} musí být řetězec")
+        if "icon" in weather and weather["icon"] not in WEATHER_ICONS:
+            fail(
+                f"weather.icon '{weather['icon']}' neznám, povolené jsou "
+                f"{', '.join(sorted(WEATHER_ICONS))}"
+            )
+        validate_weather_days(weather.get("days"), data["date"], fail)
 
     for idx, item in enumerate(data["items"], start=1):
         where = f"items[{idx}]"
@@ -119,11 +129,11 @@ def validate(data: dict, path: Path) -> None:
             )
         if not TIME_RE.match(item["time"]):
             fail(f"{where}: time '{item['time']}' není ve formátu HH:MM")
-        if item.get("day") not in (None, "covered", "issue"):
+        if item.get("day") not in (None, "covered", "prev"):
             fail(
                 f"{where}: day '{item['day']}' neznám, povolené jsou "
-                f"'covered' (den, za který je přehled) a 'issue' "
-                f"(ráno dne vydání)"
+                f"'covered' (pokrytý den, výchozí) a 'prev' "
+                f"(večer předchozího dne)"
             )
         if not isinstance(item["sources"], list):
             fail(f"{where}: sources musí být pole")
@@ -132,6 +142,48 @@ def validate(data: dict, path: Path) -> None:
                 fail(f"{where}: zdroj musí mít name i url")
             if not src["url"].startswith("http"):
                 fail(f"{where}: url '{src['url'][:60]}' nezačíná na http")
+
+
+def validate_weather_days(days, issue_iso: str, fail) -> None:
+    """Předpověď na další dny — pole `weather.days`.
+
+    Vydání vzniká v 17:00, takže čtenáře zajímá zítřek a dál. Proto musí
+    každý den ležet **za** dnem vydání a být seřazený od nejbližšího.
+    """
+    if days is None:
+        return
+    if not isinstance(days, list) or not days:
+        fail("weather.days musí být neprázdné pole, nebo úplně chybět")
+
+    issued = date.fromisoformat(issue_iso)
+    previous = issued
+    for idx, day in enumerate(days, start=1):
+        where = f"weather.days[{idx}]"
+        if not isinstance(day, dict):
+            fail(f"{where}: musí být objekt")
+        try:
+            when = date.fromisoformat(day.get("date", ""))
+        except (TypeError, ValueError):
+            fail(f"{where}: date '{day.get('date')}' není platné RRRR-MM-DD")
+        if when <= issued:
+            fail(
+                f"{where}: date {day['date']} není po dni vydání "
+                f"({issue_iso}) — do předpovědi patří jen zítřek a dál"
+            )
+        if when <= previous and idx > 1:
+            fail(f"{where}: dny musí jít vzestupně od nejbližšího")
+        previous = when
+        if day.get("icon") not in WEATHER_ICONS:
+            fail(
+                f"{where}: icon '{day.get('icon')}' neznám, povolené jsou "
+                f"{', '.join(sorted(WEATHER_ICONS))}"
+            )
+        if not isinstance(day.get("temp_max_c"), (int, float)):
+            fail(f"{where}: temp_max_c musí být číslo")
+        if "temp_min_c" in day and not isinstance(
+            day["temp_min_c"], (int, float)
+        ):
+            fail(f"{where}: temp_min_c musí být číslo")
 
 
 def load_digests() -> list[dict]:
@@ -260,16 +312,18 @@ def render_updated(when: datetime | None) -> str:
 
 
 def covered_date(data: dict) -> str:
-    """Den, za který přehled je — ne den, kdy vznikl.
+    """Den, za který přehled je.
 
-    Routina běží ráno a bere 24hodinové okno, takže vydání z 3. 8. shrnuje
-    dění z 2. 8. plus ranní zprávy dne vydání. Web se proto datuje podle
-    pokrytého dne; `covers` v digestu to může přepsat (třeba u večerního
-    běhu, který shrnuje tentýž den).
+    Routina běží v 17:00 a bere 24hodinové okno, takže drtivá většina
+    zpráv je z téhož dne — pokrytý den je proto standardně den vydání.
+    Pole `covers` to může přepsat u ručního běhu v jinou dobu (třeba
+    dopoledne, kdy je většina okna ještě ze včerejška).
     """
-    if data.get("covers"):
-        return data["covers"]
-    return (date.fromisoformat(data["date"]) - timedelta(days=1)).isoformat()
+    return data.get("covers") or data["date"]
+
+
+def previous_date(iso: str) -> str:
+    return (date.fromisoformat(iso) - timedelta(days=1)).isoformat()
 
 
 def plural_items(n: int) -> str:
@@ -363,6 +417,16 @@ body {
 
 .masthead h1 a { color: inherit; text-decoration: none; }
 
+/* Podtitulek říká, co web je a kdy vychází — bez něj není z hlavičky
+   poznat, že jde o jedno odpolední vydání za posledních 24 hodin. */
+.masthead .tagline {
+  margin: 0.55rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.79rem;
+  line-height: 1.45;
+  color: var(--ink-muted);
+}
+
 .masthead .dateline {
   margin: 0.8rem 0 0;
   font-family: var(--sans);
@@ -412,6 +476,16 @@ body {
   border: 1px solid var(--rule);
 }
 
+.weather .w-lead {
+  display: flex;
+  align-items: center;
+  gap: 1.05rem;
+}
+
+.weather .w-icon { flex: none; color: var(--accent); }
+.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
+.weather .w-text { min-width: 0; }
+
 .weather .kicker {
   margin: 0 0 0.4rem;
   font-family: var(--sans);
@@ -427,6 +501,57 @@ body {
 .weather .outlook {
   margin-top: 0.35rem;
   font-style: italic;
+  color: var(--ink-muted);
+}
+
+/* Proužek dalších dnů: ikona, den a denní/noční teplota vedle sebe.
+   Na úzkém displeji se vodorovně odroluje místo zalomení. */
+.weather .w-days {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0.95rem 0 0;
+  padding: 0.85rem 0 0;
+  border-top: 1px solid var(--rule);
+  list-style: none;
+  overflow-x: auto;
+}
+
+.weather .w-days li {
+  flex: 1 1 0;
+  min-width: 4.1rem;
+  text-align: center;
+  font-family: var(--sans);
+}
+
+.weather .w-days .w-when {
+  display: block;
+  font-size: 0.71rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.weather .w-days .w-mark {
+  display: block;
+  margin: 0.3rem 0 0.25rem;
+  color: var(--accent);
+}
+
+.weather .w-days .w-mark svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+}
+
+.weather .w-days .w-temp {
+  display: block;
+  font-size: 0.83rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.weather .w-days .w-temp .low {
+  font-weight: 400;
   color: var(--ink-muted);
 }
 
@@ -742,7 +867,7 @@ def page(title: str, body: str, *, depth_prefix: str = "") -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="Denní přehled zpráv z důvěryhodných českých zdrojů.">
+<meta name="description" content="{esc(SITE_DESCRIPTION)}">
 <link rel="stylesheet" href="{depth_prefix}assets/style.css">
 <script>{THEME_JS}</script>
 </head>
@@ -777,32 +902,33 @@ def cross_flag(item: dict) -> str:
 READ_HINT = 'title="Kliknutím označíte zprávu jako přečtenou"'
 
 
-def stamp(item: dict, issue_date: str) -> str:
-    """Čas vydání; u zpráv z rána dne vydání i s datem, aby se nepletly.
+def stamp(item: dict, prev_date: str) -> str:
+    """Čas vydání; u zpráv z večera předchozího dne i s datem.
 
-    Většina položek je z pokrytého dne, kterým se datuje celé vydání —
-    tam samotný čas nic nezamlžuje. Zprávy vydané po půlnoci ale patří
-    až ke dni vydání, takže dostanou datum před čas.
+    Vydání vzniká v 17:00 a bere 24 hodin zpět, takže většina položek je
+    z pokrytého dne, kterým se datuje celý web — tam samotný čas nic
+    nezamlžuje. Zbytek okna je večer předchozího dne; ty dostanou datum
+    před čas, aby se nepletly s dneškem.
     """
-    if item.get("day") == "issue":
-        return f'{day_month(issue_date)} {item["time"]}'
+    if item.get("day") == "prev":
+        return f'{day_month(prev_date)} {item["time"]}'
     return item["time"]
 
 
-def render_item(item: dict, rid: str, issue_date: str) -> str:
+def render_item(item: dict, rid: str, prev_date: str) -> str:
     flag = cross_flag(item)
     flag_html = f' <span class="flag">· {esc(flag)}</span>' if flag else ""
     return f"""<article data-read-id="{rid}" {READ_HINT}>
-<span class="stamp">{esc(stamp(item, issue_date))}{flag_html}</span>
+<span class="stamp">{esc(stamp(item, prev_date))}{flag_html}</span>
 <h3>{esc(item["headline"])}</h3>
 <p>{esc(item["body"])}</p>
 <p class="sources">{render_sources(item["sources"])}</p>
 </article>"""
 
 
-def render_opener(item: dict, rid: str, issue_date: str) -> str:
+def render_opener(item: dict, rid: str, prev_date: str) -> str:
     flag = cross_flag(item)
-    kicker = f'{esc(item["rubric"])} · {esc(stamp(item, issue_date))}'
+    kicker = f'{esc(item["rubric"])} · {esc(stamp(item, prev_date))}'
     if flag:
         kicker += f" · {esc(flag)}"
     return f"""<section class="opener" data-read-id="{rid}" {READ_HINT}>
@@ -813,14 +939,123 @@ def render_opener(item: dict, rid: str, issue_date: str) -> str:
 </section>"""
 
 
+# Čárové ikony počasí (Lucide, licence ISC), stroke dědí currentColor.
+_W_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
+          'fill="none" stroke="currentColor" stroke-width="1.7" '
+          'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">')
+
+WEATHER_ICONS = {
+    "clear": (
+        '<circle cx="12" cy="12" r="4"/>'
+        '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41'
+        'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>'
+    ),
+    "partly": (
+        '<path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/>'
+        '<path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/>'
+        '<path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/>'
+        '<path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/>'
+    ),
+    "cloudy": '<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>',
+    "fog": (
+        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
+        '<path d="M16 17H7"/><path d="M17 21H9"/>'
+    ),
+    "rain": (
+        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
+        '<path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/>'
+    ),
+    "snow": (
+        '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>'
+        '<path d="M8 15h.01"/><path d="M8 19h.01"/><path d="M12 17h.01"/>'
+        '<path d="M12 21h.01"/><path d="M16 15h.01"/><path d="M16 19h.01"/>'
+    ),
+    "storm": (
+        '<path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/>'
+        '<path d="m13 12-3 5h4l-3 5"/>'
+    ),
+}
+
+
+def weather_icon_svg(name: str) -> str:
+    return f'{_W_SVG}{WEATHER_ICONS[name]}</svg>'
+
+
+def relative_day(target_iso: str, issue_iso: str) -> str:
+    """Jak se o dni mluví vzhledem ke dni vydání."""
+    offset = (date.fromisoformat(target_iso)
+              - date.fromisoformat(issue_iso)).days
+    if offset in (0, 1, 2):
+        return ("dnes", "zítra", "pozítří")[offset]
+    return WEEKDAYS[date.fromisoformat(target_iso).weekday()]
+
+
+def temp(value) -> str:
+    return f"{round(value)}°"
+
+
+def render_weather_days(days: list[dict], issue_date: str) -> str:
+    """Proužek s předpovědí na další dny za hlavním blokem.
+
+    První den v `days` je zítřek — ten nese hlavní ikona a `summary`,
+    takže do proužku jdou až dny po něm. Když další dny nejsou, proužek
+    se vůbec nevykreslí.
+    """
+    rest = days[1:]
+    if not rest:
+        return ""
+    cells = []
+    for day in rest:
+        low = ""
+        if day.get("temp_min_c") is not None:
+            low = f' <span class="low">{esc(temp(day["temp_min_c"]))}</span>'
+        cells.append(
+            f'<li><span class="w-when">'
+            f'{esc(relative_day(day["date"], issue_date))}</span>'
+            f'<span class="w-mark">{weather_icon_svg(day["icon"])}</span>'
+            f'<span class="w-temp">{esc(temp(day["temp_max_c"]))}{low}'
+            f'</span></li>'
+        )
+    return f'\n<ul class="w-days">\n{chr(10).join(cells)}\n</ul>'
+
+
 def render_weather(weather: dict, issue_date: str) -> str:
+    """Počasí v digestu je předpověď na zítřek a další dny.
+
+    Vydání vychází v 17:00, kdy je dnešní počasí čtenáři dávno známé —
+    užitečná je až předpověď dopředu. Hlavní blok popisuje zítřek,
+    proužek pod ním zbývající dny.
+    """
     place = weather.get("place") or "Hradec Králové"
+    days = weather.get("days") or []
+
     outlook = ""
     if weather.get("outlook"):
         outlook = f'\n<p class="outlook">{esc(weather["outlook"])}</p>'
+
+    icon_name = weather.get("icon")
+    if icon_name not in WEATHER_ICONS and days:
+        icon_name = days[0]["icon"]
+    icon = ""
+    if icon_name in WEATHER_ICONS:
+        icon = f'\n<div class="w-icon">{weather_icon_svg(icon_name)}</div>'
+
+    if days:
+        lead_iso = days[0]["date"]
+        kicker = (f'Počasí {esc(relative_day(lead_iso, issue_date))} · '
+                  f'{esc(day_month(lead_iso))} · {esc(place)}')
+    else:
+        # Digesty z doby, kdy vydání vycházelo ráno, nesou předpověď na
+        # den vydání. Popisujeme je tak, jak byly napsané — přeznačit je
+        # na „zítra" by tvrdilo něco, co v datech není.
+        kicker = f'Počasí na {esc(day_month(issue_date))} · {esc(place)}'
     return f"""<section class="weather">
-<p class="kicker">Počasí na {esc(day_month(issue_date))} · {esc(place)}</p>
+<div class="w-lead">{icon}
+<div class="w-text">
+<p class="kicker">{kicker}</p>
 <p>{esc(weather["summary"])}</p>{outlook}
+</div>
+</div>{render_weather_days(days, issue_date)}
 </section>"""
 
 
@@ -830,6 +1065,8 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
     items = data["items"]
     issue = data["date"]
     covered = covered_date(data)
+    # Zbytek 24hodinového okna sahá do večera dne před pokrytým dnem.
+    before = previous_date(covered)
     parts: list[str] = []
 
     # Otvírák: zpráva doložená nejvíce zdroji. Při shodě vyhrává první
@@ -846,33 +1083,34 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
                   f'<span class="sep">·</span>'
                   f'<a href="archiv.html">celý archiv</a></nav>')
 
-    # Kolik zpráv už patří ke dni vydání — čtenář tak vidí, že přehled
-    # nekončí pokrytým dnem, ale sahá až do rána, kdy vydání vzniklo.
-    fresh = sum(1 for i in items if i.get("day") == "issue")
-    fresh_note = (
-        f" &nbsp;·&nbsp; z toho {fresh} z rána {esc(day_month(issue))}"
-        if fresh else ""
+    # Kolik zpráv spadá ještě do večera předchozího dne — čtenář tak vidí,
+    # že okno nezačíná o půlnoci, ale 24 hodin před vydáním.
+    earlier = sum(1 for i in items if i.get("day") == "prev")
+    earlier_note = (
+        f" &nbsp;·&nbsp; z toho {earlier} z večera {esc(day_month(before))}"
+        if earlier else ""
     )
 
     home = "index.html"
     parts.append(f"""<header class="masthead">
 <h1><a href="{home}">{esc(SITE_TITLE)}</a></h1>
+<p class="tagline">{esc(SITE_TAGLINE)}</p>
 <p class="dateline">Zprávy za {esc(long_date_acc(covered))}</p>
 <hr class="rule-double">
-<p class="meta">{esc(plural_items(len(items)))}{fresh_note} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h &nbsp;·&nbsp; vydání {esc(short_date(issue))}</p>{issues}
+<p class="meta">{esc(plural_items(len(items)))}{earlier_note} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h do 17:00 &nbsp;·&nbsp; vydáno {esc(short_date(issue))}</p>{issues}
 </header>""")
 
     if data.get("weather"):
         parts.append(render_weather(data["weather"], issue))
 
-    parts.append(render_opener(opener, read_id(issue, opener), issue))
+    parts.append(render_opener(opener, read_id(issue, opener), before))
 
     for rubric in RUBRIC_ORDER:
         group = [i for i in rest if i["rubric"] == rubric]
         if not group:
             continue
         body = "\n".join(
-            render_item(i, read_id(issue, i), issue) for i in group
+            render_item(i, read_id(issue, i), before) for i in group
         )
         parts.append(
             f'<section class="rubric">\n<h2>{esc(rubric)}</h2>\n{body}\n</section>'
@@ -906,8 +1144,10 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
             f'{esc(", ".join(data["failed_feeds"]))}.</p>'
         )
     foot.append(
-        "<p>Sestaveno automaticky z RSS uvedených zdrojů. "
-        "Každá zpráva odkazuje na původní článek.</p>"
+        "<p>Vydání vzniká automaticky každý den v 17:00 a shrnuje "
+        f"uplynulých {esc(data.get('window_hours', 24))} hodin z RSS "
+        "uvedených zdrojů. Každá zpráva odkazuje na původní článek. "
+        "Počasí je předpověď na následující dny.</p>"
     )
     if not is_index:
         foot.append('<p><a href="index.html">Nejnovější vydání</a></p>')
@@ -920,16 +1160,21 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
 def render_archive(digests: list[dict]) -> str:
     rows = []
     for data in reversed(digests):
-        # Vydání se v archivu jmenuje podle dne, za který je — soubor se
-        # pořád jmenuje podle dne vydání, proto je datum vydání v popisku.
+        # Vydání se v archivu jmenuje podle dne, za který je. Datum vydání
+        # se připisuje jen tehdy, když se od pokrytého dne liší — u běhu
+        # v 17:00 jsou obvykle totožné.
+        issued = ""
+        if data["date"] != covered_date(data):
+            issued = f'vydáno {esc(day_month(data["date"]))} · '
         rows.append(
             f'<li><a href="{esc(data["date"])}.html">'
             f'{esc(long_date(covered_date(data)))}</a>'
-            f'<span class="count">vydání {esc(day_month(data["date"]))} · '
+            f'<span class="count">{issued}'
             f'{esc(plural_items(len(data["items"])))}</span></li>'
         )
     return f"""<header class="masthead">
 <h1><a href="index.html">{esc(SITE_TITLE)}</a></h1>
+<p class="tagline">{esc(SITE_TAGLINE)}</p>
 <p class="dateline">Archiv</p>
 <hr class="rule-double">
 <p class="meta">{len(digests)} vydání</p>
