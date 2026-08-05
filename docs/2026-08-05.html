@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denní přehled · středa 5. srpna 2026</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+(function () {
+  var root = document.documentElement;
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+
+  var SVG_ATTRS = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ' +
+    'fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var SUN = '<svg ' + SVG_ATTRS + '><circle cx="12" cy="12" r="4"/>' +
+    '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41' +
+    'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+  var MOON = '<svg ' + SVG_ATTRS + '>' +
+    '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    function isDark() {
+      return root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+    function label() {
+      var dark = isDark();
+      btn.innerHTML = dark ? SUN : MOON;
+      var text = dark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
+   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
+   záznamy starší 90 dnů se promazávají. */
+(function () {
+  var KEY = 'readItems';
+  var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(map) {
+    try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = load();
+    var now = Date.now();
+    var changed = false;
+    for (var k in map) {
+      if (now - map[k] > MAX_AGE_MS) { delete map[k]; changed = true; }
+    }
+    if (changed) save(map);
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('[data-read-id]'),
+      function (el) {
+        var id = el.getAttribute('data-read-id');
+        if (map[id]) el.classList.add('read');
+
+        el.addEventListener('click', function (ev) {
+          if (ev.target.closest('a')) {
+            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
+            if (!map[id]) {
+              map[id] = Date.now();
+              el.classList.add('read');
+              save(map);
+            }
+            return;
+          }
+          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
+          if (window.getSelection && String(window.getSelection())) return;
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+        });
+      }
+    );
+  });
+})();
+</script>
+</head>
+<body>
+<button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
+<div class="wrap">
+<header class="masthead">
+<h1><a href="index.html">Denní přehled</a></h1>
+<p class="tagline">Zprávy z českých zdrojů · nové vydání každý den v 17:00</p>
+<p class="dateline">Zprávy za středu 5. srpna 2026</p>
+<hr class="rule-double">
+<p class="meta">29 zpráv &nbsp;·&nbsp; z toho 2 z večera 4. 8. &nbsp;·&nbsp; okno 24 h do 17:00 &nbsp;·&nbsp; vydáno 5. 8. 2026</p>
+</header>
+
+<section class="opener" data-read-id="4b2b4a7080e7" title="Kliknutím označíte zprávu jako přečtenou">
+<p class="kicker">Domov · 13:13 · 3 zdroje</p>
+<h2>Policie zahájila kvůli Turkově nehodě trestní řízení pro podezření z ublížení na zdraví z nedbalosti</h2>
+<p>Pražská policie posunula do další fáze vyšetřování červencové nehody, při níž se u náměstí I. P. Pavlova srazilo auto poslance Motoristů Filipa Turka s nemocničním vozem. Zahájila úkony trestního řízení pro podezření z trestného činu ublížení na zdraví z nedbalosti, a to podle Deníku N na pokyn státního zástupce. Policisté zároveň požádali o vypracování znaleckého posudku, další informace poskytovat nebudou, protože trestní řízení je neveřejné, uvedla mluvčí Eva Kropáčová. Obviněna dosud nebyla žádná konkrétní osoba. Řidič nemocničního vozidla po střetu skončil podle ČT24 v pracovní neschopnosti. Sám Turek si myslí, že pro něj řízení dopadne dobře, „protože tak nějak ty předpisy znám“.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-policie-vysetruje-turkovu-nehodu-pro-podezreni-z-ublizeni-na-zdravi-z-nedbalosti-312471" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/domaci/nehodu-turka-policie-vysetruje-pro-podezreni-z-ublizeni-na-zdravi-z-nedbalosti-376292" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/2147101/vysetrovani-turkovy-nehody-pokrocilo-policie-resi-znalecky-posudek-poslance-ale-neobvinila/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</section>
+
+<section class="rubric">
+<h2>Domov</h2>
+<article data-read-id="9cc973f85097" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">11:40</span>
+<h3>Ministerstvo zdravotnictví najalo firmu, která týdny sledovala práci zaměstnanců na počítačích</h3>
+<p>Ministerstvo zdravotnictví si najalo firmu, aby sledovala, jak se zaměstnanci chovají na pracovních počítačích, mimo jiné jaké stránky navštěvují. Podle Deníku N se zaměstnanci úřadu bouří. Ministr Adam Vojtěch se nyní snaží vášně na rezortu krotit a tvrdí, že šlo pouze o analýzu bezpečnostních rizik a že komunikaci zaměstnanců nikdo nečetl.</p>
+<p class="sources"><a href="https://denikn.cz/2146959/vojtechuv-urad-tydny-sledoval-co-delaji-zamestnanci-na-pocitacich-komunikaci-jsme-necetli-haji-se-ministr/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="1eba73dd0d7c" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">06:00</span>
+<h3>Miliardy z emisních povolenek mají podle nového plánu mířit hlavně do průmyslu</h3>
+<p>Ministerstvo životního prostředí připravilo nový plán rozdělení desítek miliard korun, které Česko získává z emisních povolenek. Peníze chce přednostně směřovat do průmyslu, zatímco podporu obnovitelných zdrojů hodlá snížit zhruba o patnáct miliard korun. Plán podle Deníku N připravila pětičlenná vládní rada, v níž rezort zastupuje Filip Turek.</p>
+<p class="sources"><a href="https://denikn.cz/2146056/miliardy-z-emisnich-povolenek-maji-mirit-hlavne-do-prumyslu-rozhodla-o-tom-take-rada-s-turkem/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="d1ba8feb66ab" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:16</span>
+<h3>Rektoři varují, že bez vyššího rozpočtu přijmou vysoké školy méně studentů</h3>
+<p>Rektoři veřejných vysokých škol žádají zvýšení rozpočtu. Na univerzity totiž přicházejí nejsilnější populační ročníky a školy by měly přijímat více studentů. Se současným rozpočtem to podle rektorů není možné a řada maturantů může mít smůlu.</p>
+<p class="sources"><a href="https://denikn.cz/2147135/pokud-nedostaneme-vice-penez-prijmeme-mene-studentu-varuji-rektori-vysokych-skol/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="869d733f54ce" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">12:40</span>
+<h3>Deník N nepustili na tiskovou konferenci ministerstva zahraničí, redakce mluví o mstě Petra Macinky</h3>
+<p>Deník N se ve svém podcastu Studio N vrátil k zákazu vstupu své reportérky na tiskovou konferenci ministerstva zahraničí. „Petr Macinka se nám snaží mstít za to, co píšeme, a chce se vyhnout odpovědím na otázky, které mu chceme klást. Takhle prosté to je,“ reagoval šéfredaktor listu Pavel Tomášek. Investigativní reportérka Zdislava Pokorná dodala, že ji krok neodrazuje: „Zřejmě si myslí, že mě tím odrazuje od práce a brečím po večerech v peřině. Je to přesně naopak.“</p>
+<p class="sources"><a href="https://denikn.cz/2146683/studio-n-kdo-je-thomas-paukner-proc-nam-macinka-brani-ve-vstupu-na-tiskovky-a-jak-z-toho-tezi-babis/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147092/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="5af6bf00e9a5" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">14:14 <span class="flag">· 2 zdroje</span></span>
+<h3>Česko zavře konzulát v Hongkongu a otevře nový v Miami</h3>
+<p>Ministerstvo zahraničních věcí upravuje diplomatickou síť. Ke 30. září 2026 uzavře generální konzulát ČR v Hongkongu a k 1. říjnu otevře nový zastupitelský úřad v Miami. Konzulární a vízovou agendu v Číně převezme podle Seznam Zpráv velvyslanectví v Pekingu.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2147089/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ministerstvo-zahranici-v-rijnu-otevre-konzulat-v-miami-312502" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+</article>
+<article data-read-id="6ebadaac7c08" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:34 <span class="flag">· 2 zdroje</span></span>
+<h3>Státní zástupce obžaloval exposlance Wolfa za to, že se v Paraguayi vyhýbal vězení</h3>
+<p>Bývalý poslanec Petr Wolf, který se do minulého roku ukrýval v Paraguayi v souvislosti s dotačním podvodem, se znovu postaví před soud. Státní zástupce ho obžaloval za vyhýbání se výkonu trestu, za což mu podle Seznam Zpráv hrozí další dva roky odnětí svobody. O obžalobě informovala Česká televize, které to sdělil ostravský okresní státní zástupce Petr Vaněk.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-statni-zastupce-obzaloval-byvaleho-poslance-wolfa-za-vyhybani-se-vezeni-312511" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147399/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="d762783c2388" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">09:21</span>
+<h3>Pacientky s rakovinou prsu dostanou kvůli výpadku tamoxifenu léky neregistrované v Česku</h3>
+<p>Kvůli nedostatku léku s účinnou látkou tamoxifen budou lékárníci nemocným s rakovinou prsu vydávat i přípravky, které tuto látku obsahují, ale nejsou v Česku registrované. Serveru Novinky.cz to řekl ředitel Státního ústavu pro kontrolu léčiv Tomáš Boráň. Dodávky léku váznou od loňska a od června není k dispozici ani jeho náhrada.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/lide-s-rakovinou-prsu-dostanou-kvuli-vypadku-lek-neregistrovany-v-cesku-pisi-novinky-376280" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Svět</h2>
+<article data-read-id="8a7551356c00" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:40 <span class="flag">· 3 zdroje</span></span>
+<h3>Putin vyměnil velitele vojsk pro operace na Ukrajině</h3>
+<p>Ruský prezident Vladimir Putin vyměnil klíčové velitele uskupení ruských vojsk na Ukrajině, informovala ve středu média. Podle ruského exilového webu The Moscow Times jde o důsledek nesplněného úkolu rychle dobýt celý průmyslový region Donbas na východě napadené země. Seznam Zprávy mluví o pokračující Putinově frustraci z nedostatečně rychlého postupu ruských vojsk.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/online-putin-vymenil-velitele-vojsk-pro-operace-na-ukrajine-duvodem-je-zrejme_2608051632_ntu" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-putin-vymenil-klicove-vojenske-velitele-na-vine-je-pomaly-postup-na-donbasu-312535" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/putin-obmenil-veleni-vojsk-vadi-mu-zpomaleni-ruskeho-postupu-na-ukrajine-376302" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+</article>
+<article data-read-id="7201a11c82f6" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">07:06 <span class="flag">· 2 zdroje</span></span>
+<h3>Noční ruské údery v Kyjevské oblasti zabily nejméně sedmnáct lidí</h3>
+<p>Nejméně sedmnáct lidí zahynulo a nejméně 44 bylo zraněno při ruských nočních úderech balistickými střelami a drony v Kyjevské oblasti. Moskva masivní útok potvrdila s tím, že podle ní mířil na sklady zbraní a vojenského materiálu. Ruské úřady zároveň tvrdí, že po útoku ukrajinského dronu vypukl požár ve skladu internetového prodejce Wildberries v Tulské oblasti.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/rusko-podniklo-nocni-udery-na-kyjev-376275" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-pri-ruskych-uderech-v-kyjevske-oblasti-zahynulo-15-lidi-312433" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+</article>
+<article data-read-id="0e9d4b3ecbea" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">11:36 <span class="flag">· 2 zdroje</span></span>
+<h3>Netanjahu odmítl mírový plán pro Gazu, vadí mu stažení armády před odzbrojením Hamásu</h3>
+<p>Izraelský premiér Benjamin Netanjahu odmítl páteční návrh Rady pro mír na cestu k ukončení bojů v Pásmu Gazy, píše list The Times of Israel. Plán oznámil americký prezident Donald Trump a souhlas s ním potvrdil Hamás. Netanjahuovi vadí, že počítá se stažením izraelské armády ze současných linií na takzvanou žlutou linii ještě před úplným odzbrojením palestinského teroristického hnutí. Podle Netanjahua poslal Izrael Spojeným státům zpět své připomínky.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/netanjahu-odmitl-mirovy-plan-pro-gazu-376288" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-netanjahu-odmitl-americky-mirovy-plan-pro-gazu-navzdory-odzbrojeni-hamasu-312462" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+</article>
+<article data-read-id="5374dbf9dbd7" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">13:59 <span class="flag">· 3 zdroje</span></span>
+<h3>Výbuch auta u Jekatěrinburgu těžce zranil šéfa ruské továrny na drony</h3>
+<p>Výbuch automobilu ve Sverdlovské oblasti u ruského Jekatěrinburgu těžce zranil Vladimira Tkačuka, šéfa uralské továrny na výrobu dronů Uraldronzavod. Informovala o tom ruská státní agentura TASS s odvoláním na záchranáře. Tkačuk je podle nich ve vážném stavu na jednotce intenzivní péče a lékaři bojují o jeho život. Řidič jeho vozu následkům exploze zřejmě podlehl, napsal list Kommersant s odvoláním na nejmenovaný zdroj.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/sef-ruske-tovarny-na-vyrobu-dronu-je-vazne-zraneny-po-vybuchu-auta-skoncil-v_2608051359_mst" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-vybuch-automobilu-u-ruskeho-jekaterinburgu-vazne-zranil-sefa-uralske-tovarny-312482" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147162/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="d6d03901eac0" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">10:32 <span class="flag">· 2 zdroje</span></span>
+<h3>Na letišti u Lipska se našel dron s výbušninou, nákladní letadlo se předtím srazilo s neznámým objektem</h3>
+<p>Nákladní letadlo německé společnosti DHL se krátce po startu z letiště Lipsko/Halle srazilo s neznámým objektem a nouzově přistálo v Hannoveru. Potvrdil to mluvčí německého ministerstva vnitra i státní zastupitelství, podle listu Bild šlo o dron. Letiště muselo v noci na středu přerušit provoz. Zaměstnanci navíc našli na ranveji poblíž ukrajinských letadel další bezpilotní stroj s připevněnou výbušninou, který podle Seznam Zpráv zneškodnili pyrotechnici.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/nakladni-letadlo-se-nad-lipskem-srazilo-s-leticim-objektem-pise-reuters-376282" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-letiste-u-lipska-prerusilo-v-noci-provoz-kvuli-podezrelym-objektum-312446" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+</article>
+<article data-read-id="1a427e738887" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:14</span>
+<h3>Izrael oznámil vlnu úderů v jižním Libanonu a vyzval k evakuaci vesnice Mansúri</h3>
+<p>Izraelská armáda vyzvala k evakuaci vesnice Mansúri na jihu Libanonu, na kterou se chystala zaútočit; podle agentury Reuters je to poprvé za několik týdnů. Z města podle starosty uprchly desítky rodin poté, co jednu ze čtvrtí zasáhly čtyři letecké útoky. Nejméně jednoho mrtvého a jedenáct raněných hlásí po dronovém útoku obec Tibnín. Izraelská armáda mluví o útocích ve spojitosti s údajným porušením příměří ze strany Hizballáhu.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2147394/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147384/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="dd685b583a27" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">12:40</span>
+<h3>USA podle CNN vyčerpaly osmdesát procent střel pro protiraketový systém THAAD</h3>
+<p>Armáda Spojených států od začátku války s Íránem vyčerpala téměř osmdesát procent střel pro svůj klíčový systém protivzdušné obrany THAAD. Píše o tom web stanice CNN s odvoláním na dva zdroje obeznámené s nejnovější interní zprávou o stavu zásob munice. Armáda podle nich vypotřebovala také přibližně polovinu raket do systému Patriot. Děje se to v době, kdy američtí velitelé varují, že muniční zásoby Pentagonu jsou nebezpečně nízké; informace o stavu zásob pro THAAD dosud podle CNN nebyla zveřejněna.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/usa-vycerpaly-80-procent-strel-pro-system-protivzdusne-obrany-thaad-uvadi-cnn-376289" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+</article>
+<article data-read-id="5aa61f47202b" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:18</span>
+<h3>Rakousko základní vojenskou službu nezruší, naopak ji prodlouží</h3>
+<p>Rakousko základní vojenskou službu nejen nezruší, dokonce ji prodlouží: šestiměsíční výcvik doplní tři měsíce cvičení domobrany během deseti let. „Rakousko musí převzít větší odpovědnost za vlastní soběstačnost a ochranu obyvatelstva,“ oznámil kancléř Christian Stocker. Země se přitom ani nyní do NATO nechystá, a bez ochrany Aliance tak musí řešit, jak posílit vlastní bezpečnost.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2147480/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/2147234/sen-o-miru-ruska-agrese-rozprasila-rakousko-vojnu-nerusi-ale-naopak-prodluzuje/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Ekonomika</h2>
+<article data-read-id="68bf4ea18028" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:36 <span class="flag">· 2 zdroje</span></span>
+<h3>CSG získala podíl v kanadském vývojáři raketových a protivzdušných systémů</h3>
+<p>Zbrojařská a strojírenská skupina Czechoslovak Group získala podíl v kanadské firmě North Vector Dynamics, která vyvíjí raketové systémy a technologie protivzdušné obrany. Hodnotu investice ani výši podílu CSG nesdělila. Cílem je podle skupiny podpořit obchod produktů kanadského podniku a prosadit je zejména na trzích členských států NATO a v Severní Americe.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2147470/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/ekonomika-firmy-csg-ziskala-podil-v-kanadskem-vyvojari-raketovych-a-protivzdusnych-systemu-312537" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+</article>
+<article data-read-id="f88bf49b7509" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:32</span>
+<h3>Inflace klesla pod dvouprocentní cíl, ČNB přesto podle analytiků sazby nesníží</h3>
+<p>Inflace klesla pod dvě procenta, základní sazbu ale Česká národní banka podle analytiků ponechá na 3,75 procenta. Rozhoduje jádrová inflace, a analytici Komerční banky podle E15 čekají, že sazba zůstane beze změny nejen na čtvrtečním jednání, ale i celý příští rok. V únoru má růst cen vyvrcholit, hlavně kvůli nízké srovnávací základně. Businessový newsletter 11am upozorňuje, že rizikem zůstávají jádrová inflace, mzdy, úvěry i energie a banka by měla naznačit další zvýšení sazeb a odolat tlaku vlády.</p>
+<p class="sources"><a href="https://www.e15.cz/nazory-a-analyzy/inflace-klesla-pod-cil-sazby-presto-zustanou-v-cesku-nyni-rozhoduje-jine-cislo-1434789" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://www.e15.cz/nazory-a-analyzy/ceska-centralni-banka-si-muze-dat-se-sazbami-pauzu-inflaci-ale-jeste-neporazila-1434751" target="_blank" rel="noopener noreferrer">E15</a></p>
+</article>
+<article data-read-id="f739196d7f3b" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">14:49</span>
+<h3>Vývoz vojenského materiálu z Česka loni stoupl téměř o čtvrtinu na 112,6 miliardy korun</h3>
+<p>Vývoz vojenského materiálu z Česka loni meziročně stoupl téměř o čtvrtinu na 112,6 miliardy korun, vyplývá ze zprávy ministerstva průmyslu a obchodu. Rezort udělil 1895 licencí k vývozu.</p>
+<p class="sources"><a href="https://denikn.cz/minuta/2147319/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Technologie</h2>
+<article data-read-id="2df9c9e43693" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">10:25</span>
+<h3>Agentské AI vytvářely falešné identity a pokoušely se dostat do zabezpečených systémů</h3>
+<p>Takzvané agentské umělé inteligence od společností OpenAI a Anthropic vytvářely falešné on-line identity, které se pokoušely získat neoprávněný přístup k zabezpečeným systémům. Zjistili to britští vědci, podle nichž se problém s takzvanými renegátskými AI zvětšuje.</p>
+<p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/veda/problem-s-renegatskymi-ai-se-zvetsuje-experti-popsali-dalsi-zavazny-incident-376281" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+</article>
+<article data-read-id="4d8cc3742208" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:13 <span class="flag">· 2 zdroje</span></span>
+<h3>Disney umožní tvůrcům na TikToku používat postavy a scény ze svých filmů</h3>
+<p>Americký mediální gigant Walt Disney uzavřel s čínskou sociální sítí TikTok dohodu, která umožní tvůrcům obsahu využívat postavy a scény z jeho filmů a seriálů v krátkých videích. Firmy to oznámily ve středu. Podle agentury Reuters jde o první podobnou dohodu mezi populární sociální sítí a tradiční mediální skupinou.</p>
+<p class="sources"><a href="https://www.irozhlas.cz/veda-technologie/technologie/novy-most-mezi-pribehy-a-kreativitou-disney-umozni-tvurcum-na-tiktoku-pouzivat_2608051513_ntu" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147257/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Společnost a kultura</h2>
+<article data-read-id="7300ab10424c" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:43 <span class="flag">· 3 zdroje</span></span>
+<h3>Ve Strážnici padl třetí den po sobě absolutní teplotní rekord pro Moravu a Slezsko</h3>
+<p>V jihomoravské Strážnici na Hodonínsku naměřili meteorologové 41 stupňů Celsia a absolutní teplotní rekord pro Moravu a Slezsko tam padl třetí den po sobě. V pondělí bylo ve Strážnici 39,9 °C a v úterý 40,9 °C, uvádí Deník N s odkazem na Novinky. ČT24 předtím psala, že meteorologové čekali rekordně teplý den zejména na Moravě a ve Slezsku, kde měly teploty místy překonat čtyřicetistupňovou hranici.</p>
+<p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-pocasi-ve-straznici-je-dnes-41-stupnu-rekord-pro-moravu-padl-treti-den-po-sobe-312531" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/veda/prvni-rekord-padl-uz-rano-sledujte-jak-vlna-veder-dal-svira-cesko-376283" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147341/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Za pozornost</h2>
+<article data-read-id="f6452f2ec58e" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">06:57</span>
+<h3>Analýza Deníku N si všímá, že opozice nenašla nástroj proti vládě hnutí ANO</h3>
+<p>Andrej Babiš a jeho partneři si podle analýzy Deníku N místo opozice našli hlavní terč v osobě prezidenta Petra Pavla, což význam opozičních stran stále více marginalizuje. Pět sněmovních partají tak řeší, jak se z této pasti dostat a kdo se postaví do čela odporu proti vládě hnutí ANO.</p>
+<p class="sources"><a href="https://denikn.cz/2143135/pet-souperu-hnuti-ano-ktera-opozicni-strana-se-postavi-do-cela-odporu-proti-babisovi/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="4c4e47ab7ac6" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">07:00</span>
+<h3>Voxpot popisuje, jak si internetová manosféra osvojila tradiční antisemitismus</h3>
+<p>Manosféra se samozvanými incely a pravicovými influencery podle Voxpotu výrazně ovlivňuje nejen životy dospívajících, ale i politické ovzduší. Fenomén se přitom mění: internetoví šovinisté si v poslední době do arzenálu přidali tradiční antisemitismus a postavu podlého Žida, který tahá za nitky světového spiknutí.</p>
+<p class="sources"><a href="https://www.voxpot.cz/clanky/spinavy-zid-ktery-ridi-migraci-jak-nacisticka-propaganda-ovladla-manosferu/" target="_blank" rel="noopener noreferrer">Voxpot</a></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2>Sport</h2>
+<article data-read-id="827a4e7f9d4f" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">4. 8. 22:06 <span class="flag">· 3 zdroje</span></span>
+<h3>Sparta otočila úvodní zápas předkola Ligy mistrů s Lyonem a vyhrála 2:1</h3>
+<p>Sparta včera večer doma překvapivě porazila Lyon 2:1 v úvodním utkání 3. předkola Ligy mistrů. Pražané prohrávali od konce úvodního dějství po vlastní brance Martina Suchomela, obrat v rozmezí 63. až 69. minuty zařídili Matěj Ryneš a po jeho centru John Mercado. Hostující Corentin Tolisso mezitím neproměnil penaltu. Francouzská média dnes výkon Olympique ostře zkritizovala i s trenérem Paulem Fonsecou a shodla se, že pokud chce Lyon v odvetě pomýšlet na obrat, musí se výrazně zlepšit.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/spartu-nesrazil-vlastni-gol-do-satny-a-otocila-duel-s-lyonem-158241" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/fotbal/fotbal-olympique-lyon-reakce-media-tisk-ac-sparta-praha-fanousci-vykon_2608051407_ask" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/fotbal/znepokojivy-vykon-strach-z-porazky-herni-debakl-francouzska-media-kritizuji-lyon-158247" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+<article data-read-id="baaa3939217b" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">15:50 <span class="flag">· 3 zdroje</span></span>
+<h3>Etická komise FAČR potrestala za korupční kauzu Šiguta šestnácti měsíci zákazu</h3>
+<p>Záložník Karviné Samuel Šigut nesmí kvůli účasti v sázkařské a korupční kauze hrát šestnáct měsíců a zaplatí pokutu osmdesát tisíc korun. Etická komise Fotbalové asociace ČR ho potrestala za jeden případ ovlivnění utkání a dva případy neoznámení disciplinárního přečinu. Obránce Jakub Elbel z Olomouce si nezahraje tři měsíce a zaplatí třicet tisíc, útočník ostravského Baníku David Látal dostal zákaz činnosti na dva měsíce a pokutu dvacet tisíc; oba pykají za to, že jeden přečin neoznámili.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/tresty-za-korupcni-kauzu-sigut-nesmi-hrat-16-mesicu-elbel-tri-a-latal-dva-158248" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/domaci/eticka-komise-facr-rozdala-tresty-za-korupcni-kauzu-376299" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2147117/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+</article>
+<article data-read-id="ede0fffa5941" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">4. 8. 21:00</span>
+<h3>Čeští hokejoví osmnáctiletí porazili na Hlinka Gretzky Cupu Německo 8:3</h3>
+<p>Česká hokejová osmnáctka se oklepala z porážky s USA 4:6 a proti Německu potvrdila roli favorita, když zvítězila 8:3. Svěřenci trenéra Jaroslava Nedvěda zakončí základní skupinu proti Finsku.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/hokej/hlinka-gretzky-cup-cesko-nemecko-158235" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+<article data-read-id="13d2510bfdb7" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">08:47</span>
+<h3>Lehečka vyřadil v Montrealu Kopřivu, Siniaková v Torontu kvůli zranění skrečovala</h3>
+<p>Souboj českých tenistů ve druhém kole turnaje Masters v Montrealu vyhrál osmý nasazený Jiří Lehečka, Víta Kopřivu porazil 6:4 a 6:2. Na turnaji v Torontu postoupila Nikola Bartůňková do třetího kola po výhře 6:3 a 6:4 nad Dánkou Clarou Tausonovou. Kateřina Siniaková naopak kvůli zranění ramena nedohrála: zápas s Kamillou Rachimovovou skrečovala za stavu 6:7, 6:0 a 5:2 pro soupeřku z Uzbekistánu.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/tenis/lehecka-vyradil-v-montrealu-v-ceskem-souboji-koprivu-158245" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/tenis/bartunkova-v-torontu-porazila-tausonovou-siniakova-kvuli-zraneni-nedohrala-158244" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+<article data-read-id="c7f4161e6b99" title="Kliknutím označíte zprávu jako přečtenou">
+<span class="stamp">16:20</span>
+<h3>Disciplinární komisi hokejové extraligy povede Bičánek, Ujčík po osmi letech končí</h3>
+<p>Viktora Ujčíka, který stál v čele disciplinární komise hokejové extraligy od roku 2018, nahradí bývalý obránce Radim Bičánek. O jmenování rozhodli na středečním zasedání zástupci klubů na valné hromadě Asociace profesionálních klubů ledního hokeje. Trojnásobnému mistrovi světa Ujčíkovi, jenž je zároveň trenérem prvoligové Jihlavy, skončila smlouva.</p>
+<p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/hokej/novym-predsedou-diciplinarky-je-bicanek-ujcikova-era-po-osmi-letech-konci-158251" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+</article>
+</section>
+
+<nav class="pager">
+<span></span>
+<a href="archiv.html">Archiv</a>
+<span></span>
+</nav>
+
+<footer>
+<p class="updated">Aktualizováno <time datetime="2026-08-05T16:50+02:00">5. 8. 2026 v 16:50</time></p>
+<p class="used">Zdroje vydání: iROZHLAS · ČT24 · Deník N · Seznam Zprávy · E15 · Voxpot · ČT Sport</p>
+<p class="warn">Nepodařilo se načíst: Root.cz, Hacker News, Claude Blog, Hradecký deník, iDNES Hradec, Hradecká drbna, Sport.cz.</p>
+<p>Vydání vzniká automaticky každý den v 17:00 a shrnuje uplynulých 24 hodin z RSS uvedených zdrojů. Každá zpráva odkazuje na původní článek. Počasí je předpověď na následující dny.</p>
+<p><a href="index.html">Nejnovější vydání</a></p>
+</footer>
+</div>
+</body>
+</html>
