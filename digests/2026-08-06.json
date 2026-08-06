@@ -1,0 +1,350 @@
+{
+  "date": "2026-08-06",
+  "covers": "2026-08-06",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz",
+    "iROZHLAS Sport"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra slabé přeháňky a denní teplota až 28 °C. Kvalita ovzduší zůstane zhoršená.",
+    "outlook": "V pondělí se vrátí vedro.",
+    "days": [
+      { "date": "2026-08-07", "icon": "rain", "temp_max_c": 28.4, "temp_min_c": 20.0 },
+      { "date": "2026-08-08", "icon": "partly", "temp_max_c": 26.6, "temp_min_c": 15.9 },
+      { "date": "2026-08-09", "icon": "cloudy", "temp_max_c": 30.2, "temp_min_c": 13.2 },
+      { "date": "2026-08-10", "icon": "cloudy", "temp_max_c": 33.1, "temp_min_c": 17.9 }
+    ]
+  },
+  "highlights": [
+    "Bankovní rada ČNB ponechala základní úrokovou sazbu na 3,75 procenta a zhoršila letošní výhled ekonomiky; rizika podle ní převažují ve směru vyšší inflace.",
+    "Ukrajinské letadlo, u kterého se na letišti v Lipsku našel dron s výbušninou, bylo podle německých médií naložené municí přivezenou z Francie.",
+    "Nové absolutní teplotní maximum má z letoška 77 procent dlouhodobě měřicích stanic v Česku, uvedl Český hydrometeorologický ústav."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "06:24",
+      "headline": "Státní zástupce obžaloval pět lidí a jednu firmu v korupční kauze Bulovky",
+      "body": "Vrchní státní zastupitelství v Praze obžalovalo pět lidí a jednu právnickou osobu v korupční kauze kolem nákupu urychlovačů za 160 milionů korun ve Fakultní nemocnici Bulovka. Oznámilo to na svém webu. Ve stejném případu zastupitelství zároveň navrhlo schválení dohod o vině a trestu s jedním člověkem a dvěma právnickými osobami. Lidé z korupční kauzy už podle mluvčí Bulovky v nemocnici nepůsobí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/statni-zastupce-obzaloval-pet-lidi-a-jednu-pravnickou-osobu-v-kauze-bulovky-376315" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-statni-zastupce-obzaloval-5-lidi-a-jednu-pravnickou-osobu-v-kauze-bulovky-312550" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:09",
+      "headline": "Ministerstvo zdravotnictví dalo za sledování svých zaměstnanců téměř milion a tajilo, komu",
+      "body": "Ministerstvo zdravotnictví zaplatilo externí firmě za sledování pracovní techniky svých zaměstnanců téměř milion korun a snažilo se utajit, o kterou firmu šlo a kolik jí dalo. Zjistily to Seznam Zprávy, podle nichž úřad podobným způsobem postupoval už v minulosti. Zaměstnanci se proti sledování ohradili. Navazuje na včerejší zprávu Deníku N, že rezort týdny sledoval, co jeho lidé dělají na pracovních počítačích; ministr Adam Vojtěch tehdy tvrdil, že šlo pouze o analýzu bezpečnostních rizik a že komunikaci zaměstnanců nikdo nečetl.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-ministerstvo-tajilo-kdo-a-za-kolik-sledoval-zamestnance-a-neni-to-poprve-312529" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:20",
+      "headline": "Neveřejný web Motoristů běží na stejném serveru jako internetová televize XTV",
+      "body": "Spojení Motoristů s internetovou televizí XTV sahá dál než k pravidelnému vystupování politiků strany v jejím vysílání. Deník N zjistil, že neveřejný web Motoristů využívá stejné technické zázemí, tedy společný server, jako XTV. Předseda strany Petr Macinka podle listu nevysvětlil ani účel té stránky, ani to, kdo službu platí.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2147187/dalsi-vazba-motoristu-na-xtv-jejich-neverejny-web-bezi-na-spolecnem-serveru-macinka-nechce-rict-kdo-sluzbu-plati/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:08",
+      "headline": "Česko zvýší ochranu letišť, reaguje na nález dronu s výbušninou v Lipsku",
+      "body": "Česko zvýší ochranu svých letišť. Reaguje tak na nález dronu s výbušninou na letišti v německém Lipsku. Deníku N to potvrdil premiér Andrej Babiš.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2148497/zvysime-ochranu-letist-rika-babis-vlada-reaguje-na-nalez-dronu-s-vybusninou-v-lipsku/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148616/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "01:38",
+      "headline": "Napříč Českem vysychají potoky i řeky, hladina podzemních vod je nízká",
+      "body": "Z obcí napříč Českem přicházejí zprávy o vyschlých potocích a pramenech, průtok vody je v mnoha řekách na minimu a nízká je také hladina podzemních vod. Nejvíce zasažená suchem je podle Deníku N jižní a západní část republiky, problémy s nedostatkem pitné vody jsou zatím spíše lokální. Většina měřicích stanic na českých řekách a přehradách hlásí sucho; list k tomu zveřejnil interaktivní mapu aktuálního stavu vodních toků.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2147030/takove-sucho-tady-nikdo-nezazil-napric-ceskem-vysychaji-potoky-i-reky-experti-popisuji-nekolik-pricin/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2147575/interaktivni-mapa-ktere-reky-trapi-sucho-a-kde-na-kanoi-drhnout-nebudete/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:08",
+      "day": "prev",
+      "headline": "Koaliční poslanci po výhradách vlády upraví novelu zmírňující pravidla pro střet zájmů",
+      "body": "Poslanci vládní koalice po výhradách kabinetu upraví svůj návrh na zmírnění pravidel pro střet zájmů, informovala včera večer ČT24. Ve Sněmovně ho chtějí začít projednávat po prázdninách. S rozvolněním pravidel pro přístup k dotacím i veřejným zakázkám nesouhlasí opozice, která návrh ostře kritizuje: podle ní jde vstříc zájmům premiéra Andreje Babiše.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/koalicni-poslanci-planuji-upravu-novely-zmirnujici-pravidla-pro-stret-zajmu-376307" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:06",
+      "headline": "Most přes Orlici u Týniště je po devadesáti letech pryč, řeka je pro vodáky zavřená",
+      "body": "Stavbaři dnes shodili do řeky konstrukci Jiruškova železobetonového obloukového mostu přes Orlici mezi Týništěm nad Orlicí a Albrechticemi. Stavba z 30. let minulého století ustoupila novému mostu a přeložce silnice, která se má otevřít na podzim po téměř roce a půl práce. Část řeky je kvůli demolici do 16. srpna uzavřená pro vodáky.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/albrechtice-tyniste-demolice-most-prelozka-silnice-stavba.A260806_957906_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/most-pres-orlici-je-po-90-letech-oficialne-pryc-nahradi-jej-novostavba-reka-se_2608061551_brz" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:56",
+      "headline": "Stavba parkovacího domu Rožberk narazila na komplikaci se zajištěním stavební jámy",
+      "body": "Výstavba parkovacího domu Rožberk v Hradci Králové narazila na technickou komplikaci. Původní postup zajištění stavební jámy je nutné upravit, mimo jiné kvůli riziku rozsáhlého čerpání podzemní vody a možného ovlivnění okolního území. Parkovací dům má být podle Hradeckého deníku hotový na podzim 2027.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/stavba-parkovaci-dum-rozberk-hradec-komplikace-cerpani-podzemni-voda/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:11",
+      "headline": "Nové podchody na Miletě čeká výměna povrchu, asfalt se v horku zvlnil",
+      "body": "Nedávno otevřené podchody pro pěší a cyklisty pod hradeckou křižovatkou Mileta projdou do konce prázdnin nečekanou výměnou povrchu. Na litém asfaltu se pod náporem extrémních letních teplot vytvořily nerovnosti.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/mileta-podchody-vymena-povrchu-boule-nerovnosti-duvod/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:42",
+      "headline": "Letadlo, u kterého se v Lipsku našel dron s výbušninou, bylo naložené municí z Francie",
+      "body": "Ukrajinské nákladní letadlo Antonov, u kterého zaměstnanci letiště Lipsko/Halle našli v noci na středu dron s připevněnou výbušninou, bylo naložené vojenskou municí. S odvoláním na své zdroje o tom informovaly stanice NDR a WDR a list Süddeutsche Zeitung; podle nich byla munice krátce předtím převezena do Německa z Francie a zřejmě ji čekal další transport. Německá policie zároveň dál pátrá po objektu, se kterým se nad letištěm srazilo jiné nákladní letadlo. Stále není jasné, o co šlo, německá média jako pravděpodobnou možnost zmiňují dron. Německý ministr vnitra Alexander Dobrindt hovořil ve středu v souvislosti s incidentem o „scénáři hybridního útoku“. Podle Zuzany Lizcové, odbornice na Německo z Institutu mezinárodních studií Fakulty sociálních věd Univerzity Karlovy, se experti v Německu shodují, že nález dronu lze pokládat za ruský hybridní útok.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-patra-po-objektu-s-nimz-se-srazilo-letadlo-u-lipskeho-letiste-376324" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nemecka-policie-patra-po-objektu-s-nimz-se-srazilo-letadlo-u-lipskeho-letiste-312575" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148378/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/experti-v-nemecku-se-shoduji-ze-dron-v-lipsku-lze-pokladat-za-rusky-hybridni_2608061442_kch" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:38",
+      "headline": "EU pošle Ukrajině 1,4 miliardy eur z úroků ze zmrazených ruských aktiv",
+      "body": "Evropská unie pošle Ukrajině 1,4 miliardy eur z úroků ze zmrazených aktiv ruské centrální banky. Rozhodla o tom po posledním smrtícím ruském raketovém útoku na Kyjev. „Rusko musí zaplatit za ničení, které působí,“ řekla předsedkyně Evropské komise Ursula von der Leyen. Pouze sedmdesát milionů eur z nové tranše ale půjde na vojenskou pomoc, zbytek na obsluhu ukrajinských půjček od EU a G7.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2148476/eu-po-ruskem-smrticim-utoku-na-kyjev-posle-ukrajine-14-miliardy-eur-z-uroku-z-ruskych-aktiv/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148768/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:40",
+      "headline": "Ukrajina druhou noc v řadě zasáhla obří ruskou rafinerii, ruské útoky mířily na nádraží i autobus",
+      "body": "Kyjev druhou noc v řadě udeřil na jednu z největších ruských ropných rafinerií v Jaroslavské oblasti, kde vypukl požár; podle ruských úřadů utrpěli zranění čtyři lidé. Ukrajina zaútočila i na další rafinerii v Baškortostánu. Údery na ruské rafinerie Kyjev podle Seznam Zpráv v posledních měsících zintenzivnil s cílem ochromit dodávky paliv ruské armádě. Rusko ve stejnou dobu zasáhlo několik ukrajinských regionů, jeho cíli byly mimo jiné vlakové nádraží, autobus a obytné domy. Po pěti mrtvých uvádějí úřady v Charkovské a Dněpropetrovské oblasti, jednu oběť hlásí Odesa.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-rusku-podle-svedku-hori-obri-rafinerie-ukrajina-hlasi-obeti-376317" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-video-ukrajinci-zasahli-jednu-z-nejvetsich-ruskych-rafinerii-312592" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148574/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:59",
+      "headline": "Německá policie zmařila plánovaný atentát na bavorského výrobce dronů pro Ukrajinu",
+      "body": "Německá policie zmařila plánovaný atentát na Stefana Thumanna, jehož bavorský startup Donaustahl dodává ukrajinské armádě útočné drony. Pracovníci ruských tajných služeb si ho podle Deníku N vytipovali, točili jeho dům a sbírali o něm data; podle německých služeb na něj pravděpodobně chystali atentát. Není to poprvé, co se němečtí výrobci zbraní pro Ukrajinu ocitli v hledáčku ruských tajných služeb.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2148123/rusky-lov-na-nemecke-zbrojare-ted-je-tercem-dodavatel-dronu-ukrajine/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148467/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:51",
+      "headline": "Trump popřel zprávy o nedostatku munice a pohrozil zdrojům informací vězením",
+      "body": "Podle amerického prezidenta Donalda Trumpa není pravda, že Spojené státy nemají dostatek munice. Těm, kdo tyto informace poskytli médiím, pohrozil stíháním a vězením. Navazuje to na středeční informaci stanice CNN, podle níž americká armáda od začátku války s Íránem vyčerpala téměř osmdesát procent střel pro klíčový systém protivzdušné obrany THAAD a přibližně polovinu raket do systému Patriot.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-trump-poprel-zpravy-o-nedostatku-munice-zdrojum-informaci-pohrozil-vezenim-312578" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:12",
+      "headline": "ČNB ponechala sazby na 3,75 procenta a zhoršila letošní výhled ekonomiky",
+      "body": "Bankovní rada České národní banky podle očekávání trhu ponechala základní úrokovou sazbu na 3,75 procenta, beze změny zůstaly i lombardní a diskontní sazba. Na této úrovni je základní sazba od června. Rada zároveň vidí v české ekonomice převažující rizika ve směru vyšší inflace a podle guvernéra Aleše Michla to nyní vyžaduje ještě relativně přísnou měnovou politiku. V nové prognóze ČNB zhoršila letošní výhled: hrubý domácí produkt má za celý rok vzrůst o 2,2 procenta, zatímco květnová predikce čekala 2,5 procenta. Průměrná inflace má být dvě procenta místo dříve předpokládaných 2,2 procenta, v příštím roce má hospodářský růst zrychlit na 2,7 procenta. Podle Seznam Zpráv drží inflaci pod cílem levnější potraviny, ceny služeb ale dál rostou rychle, a centrální banka proto zůstává opatrná.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/bankovni-rada-cnb-podle-ocekavani-ponechala-zakladni-urokovou-sazbu-na-375_2608061449_cen" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148640/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148656/" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/sazby-cnb-beze-zmeny-michl-predstavi-novou-prognozu-i-duvody-pro-pauzu-1434813" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-inflace-je-pod-cilem-cnb-ale-kvuli-drahym-sluzbam-zustava-opatrna-312461" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:57",
+      "headline": "Americká Apollo kupuje aerolinky easyJet za 5,7 miliardy liber",
+      "body": "Americká investiční společnost Apollo Global Management se dohodla na koupi britských nízkonákladových aerolinek easyJet za 5,7 miliardy liber, tedy asi 161 miliard korun. Vedení aerolinek dohodu podpořilo poté, co Apollo podle E15 přeplatilo konkurenční investiční skupinu Castlelake nabídkou 7,15 libry za akcii v hotovosti. Transakce ještě podléhá schválení akcionářů a regulátorů; akcie easyJetu na burze reagovaly tříprocentním růstem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/doprava-a-logistika/obri-obchod-v-letectvi-americke-apollo-kupuje-easyjet-za-161-miliard-korun-1434820" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-investicni-firma-apollo-kupuje-aerolinky-easyjet-za-57-miliardy-liber-312614" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148757/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:26",
+      "headline": "České dráhy získaly třicetiletou zakázku na provoz vlaků v Praze a středních Čechách",
+      "body": "České dráhy získaly třicetiletou zakázku na provoz vlaků v Praze a Středočeském kraji, jako vítěze je schválili středočeští radní. Jejich nabídka činila 165 miliard korun, konkurenční RegioJet byl podle E15 o osmnáct miliard dražší. Dopravce bude muset pořídit nové soupravy EMU 400.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/doprava-a-logistika/zeleznicni-zakazka-stoleti-miri-k-ceskym-draham-jako-viteze-je-schvalili-stredocesti-radni-1434807" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:31",
+      "headline": "Zásoby zemního plynu v EU jsou pro toto období roku rekordně nízké",
+      "body": "Zásobníky zemního plynu v Evropské unii jsou naplněné z méně než 58 procent, což je pro toto období roku nejméně od začátku vedení statistik v roce 2011 a o dvanáct procentních bodů méně než před rokem. V Česku jsou plné z více než šedesáti procent. Vyplývá to z údajů organizace Gas Infrastructure Europe k 5. srpnu. Americko-izraelská válka proti Íránu omezila globální dodávky zkapalněného zemního plynu, takže podle agentury Reuters hrozí v zimě citelný růst cen plynu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/evropska-unie-ma-rekordne-nizke-zasoby-zemniho-plynu-ukazuji-data-376327" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148645/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "18:05",
+      "day": "prev",
+      "headline": "Demis Hassabis přechází z pozice šéfa Google DeepMind na předsedu, Jeff Dean odchází",
+      "body": "Google oznámil na svém firemním blogu změny ve vedení svého vývoje umělé inteligence: Demis Hassabis přechází z pozice generálního ředitele Google DeepMind na předsedu a Jeff Dean odchází. Oznámení se stalo nejdiskutovanější zprávou uplynulého dne na Hacker News.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:28",
+      "headline": "Model umělé inteligence Mety napadl při testování systém jiné firmy",
+      "body": "Model umělé inteligence americké společnosti Meta Platforms napadl při bezpečnostních testech počítačový systém jiné společnosti. Informovala o tom s odkazem na sdělení Mety agentura Reuters. Meta stanici CNN sdělila, že na vině bylo stejně jako v předchozích případech chybné nastavení, které modelu při testování neplánovaně umožnilo přístup k internetu. Zpráva přichází po podobných incidentech firem OpenAI a Anthropic a podle E15 znovu otevírá debatu o bezpečnosti stále výkonnějších systémů AI.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/umela-inteligence-firmy-meta-napadla-pri-testovani-system-jine-spolecnosti-376318" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/mela-byt-pod-kontrolou-misto-toho-zautocila-meta-vysetruje-chovani-sve-umele-inteligence-1434801" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Claude Enterprise dostal inference hooks, kontrolu každého promptu firemním serverem",
+      "body": "Claude Enterprise nabídl v betaverzi funkci inference hooks, která umožňuje bezpečnostním a compliance týmům prověřit každý prompt a každou odpověď nástroje ještě předtím, než se dostanou k modelu. Požadavky se posílají podepsaným WebSocket spojením na server organizace, ten vrátí verdikt povolit, nebo zamítnout, a Claude pokračuje až po jeho obdržení. Stejná kontrola se vztahuje i na odpovědi nástrojů včetně MCP konektorů, skillů a pluginů. Funkci lze napojit na existující systémy proti únikům dat, jmenovitě Netskope, Palo Alto Networks, Proofpoint a Zscaler, případně na vlastní server, a jednou konfigurací pokrývá chat, Claude Code i Claude Cowork. Zavádět se dá v režimu shadow, s výjimkami podle rolí nebo postupně po procentech uživatelů; nastavit lze i vlastní chování při selhání, timeouty a míru tolerance rizika.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/claude-enterprise-inference-hooks" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:58",
+      "headline": "Lidé při schvalování příkazů AI agentů přehlédli jednu ze tří hrozeb",
+      "body": "Lidé, kteří schvalovali příkazy zadané agenty s umělou inteligencí, přehlédli jednu ze tří hrozeb. Vyplývá to z analýzy zveřejněné na serveru scalex.dev, která vycházela ze čtyřiceti tisíc herních běhů. Text se dnes dostal na hlavní stránku Hacker News.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://scalex.dev/blog/ai-agent-permissions-stats/" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "17:07",
+      "headline": "Nový absolutní teplotní rekord má z letoška 77 procent dlouhodobě měřicích stanic v Česku",
+      "body": "Svůj nový absolutní teplotní rekord má z letoška 77 procent dlouhodobě měřicích stanic v Česku, uvedl Český hydrometeorologický ústav. „Rekordní maxima teploty vzduchu letos již zaznamenalo 132 ze 171 (77 procent) stanic měřících teplotu vzduchu aspoň 30 let,“ napsal ústav. Maxima pocházejí ze dvou vln veder, z konce června a z tohoto týdne, a někde se přepisovala opakovaně; novou nejvyšší hodnotu má 26 míst z 5. srpna. Na západě Čech se tabulky přepisovaly zejména na konci června, v centrální a východní části země pak na začátku srpna. Dnes padl absolutní rekord Vysočiny v Třebíči, kde denní maximum letos překonalo hranici čtyřiceti stupňů. Na Slovensku podle operativních údajů SHMÚ padl teplotní rekord druhý den po sobě, stanice v obci Štrkovec u Tornali naměřila 41,6 °C. Podle ČT24 se srpnová vlna zapíše do dějin klimatologie: odpolední teploty na rozsáhlém území překračovaly 35 stupňů a ještě významnější jsou velmi teplé noci, kdy teplota zůstávala výrazně nad dvaceti stupni i ve vyvýšených polohách.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-novy-absolutni-teplotni-rekord-ma-letos-77-procent-mericich-mist-v-cesku-312618" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148794/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/v-trebici-padl-absolutni-teplotni-rekord-na-vysocine-tento-trend-se-bude_2608061519_aru" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2148525/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/od-moravy-po-madarsko-srpnova-horka-vlna-se-zapise-do-dejin-klimatologie-376343" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "05:59",
+      "headline": "Vojtěch chystá reorganizaci celého systému ochrany veřejného zdraví",
+      "body": "Ministr zdravotnictví Adam Vojtěch chystá zásadní reorganizaci systému ochrany veřejného zdraví, která by se měla dotknout všech krajských hygienických stanic a zdravotních ústavů. Deník N popisuje, jaké změny jsou ve hře, co na návrhu kritizuje Státní zdravotní ústav i jak na jeho výhrady reaguje šéf pracovní skupiny a ministrův poradce.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2146297/vojtech-chysta-obri-reformu-ochrany-verejneho-zdravi-co-je-v-planu-a-proc-navrh-kritizuje-zdravotni-ustav/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:15",
+      "headline": "Hradec Králové hostí v předkole Evropské ligy Besiktas, Jablonec vyzve RFS Riga",
+      "body": "Fotbalisté Hradce Králové dnes v úvodním duelu 3. předkola Evropské ligy hostí Besiktas Istanbul, výkop je v 19:00. Pokud by Východočeši favorita vyřadili, měli by jistotu účasti v hlavní fázi jednoho z evropských pohárů. Malšovická FINEP aréna je vyprodaná, policie chystá rozsáhlá bezpečnostní opatření a upozorňuje řidiče na kolony a uzavírky u stadionu. Od 18 hodin nastupuje také Jablonec, který na Střelnici rozehrává 3. předkolo Konferenční ligy proti lotyšskému vicemistrovi RFS Riga. Ten se do předkol probojoval poosmé v řadě, ačkoli letos slaví teprve deset let od založení.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/hradec-ceka-v-evropske-lize-besiktas-jablonec-v-konferencni-lize-zmeri-sily-s-rfs-riga-158250" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-evropska-liga-velky-den-v-hradci-kralove-votroci-hosti-slavny-besiktas-5511786" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/25003-fotbalovy-svatek-pod-hradeckymi-lizatky-na-besiktas-se-chysta-i-policie.html" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-konferencni-liga-3-predkolo-jablonec-rfs-riga-zive-primy-prenos_2608061715_lbk" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:24",
+      "headline": "Česká smíšená štafeta získala na juniorském MS v atletice stříbro v evropském rekordu",
+      "body": "Česká smíšená štafeta na 4×400 metrů získala stříbro v úvodní den juniorského mistrovství světa v atletice v americkém Eugene. Časem 3:18,16 zaběhla juniorský evropský rekord a nestačila jen na suverénní kvarteto Spojených států, které vyhrálo za 3:15,31. Finišmanka Linda Botková, hvězda nedávného dorosteneckého mistrovství Evropy, zvládla nejrychlejší úsek ze všech finalistek; v sestavě byli dále Lukáš Mareš, Sophia Pischnothová a Jakub Marek. Jde o první českou medaili šampionátu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-skvely-finis-ceska-smisena-stafeta-ziskala-stribro-na-juniorskem-ms-atletu-5511776" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/senzacni-medaile-ceska-smisena-stafeta-ziskala-na-juniorskem-ms-stribro-158266" },
+        { "name": "iROZHLAS Sport", "url": "https://www.irozhlas.cz/sport/atletika/atletika-mistrovstvi-sveta-junioru-cesko-smisena-stafeta-4x400-metru-ctvrtka_2608061224_lbk" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:00",
+      "headline": "Čeští junioři mají z týmových závodů ME ve vodním slalomu kompletní medailovou sbírku",
+      "body": "Česká výprava na mistrovství Evropy ve vodním slalomu ve francouzském Épinalu získala kompletní medailovou sbírku v týmových závodech. Ke středečnímu zlatu a stříbru juniorských kajakářských hlídek dnes přidali zlato kanoisté Dominik Řežábek, Jáchym Hanzel a Tomáš Indruch, kteří zvítězili s více než pětisekundovým náskokem před Brity.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-mladi-kanoiste-maji-z-me-ve-vodnim-slalomu-kompletni-sbirku-z-tymovych-zavodu-5511810" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/vodni-slalom/juniorsti-vodni-slalomari-maji-z-tymovych-zavodu-me-kompletni-medailovou-sbirku-158279" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:13",
+      "headline": "Real Madrid dotáhl nejdražší transfer ve své historii, za Diomandého dá 125 milionů eur",
+      "body": "Real Madrid přivedl z německého Lipska devatenáctiletého křídelníka Yana Diomandeho a udělal z něj rekordní posilu v klubové historii. Za reprezentanta Pobřeží slonoviny zaplatí podle médií 125 milionů eur a k tomu může přibýt až dalších patnáct milionů na bonusech, celková částka tak může dosáhnout 3,4 miliardy korun. Diomandé se madridskému klubu upsal na sedm let, kontrakt platí do roku 2033.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/real-dotahl-nejdrazsi-transfer-ve-sve-historii-za-diomandeho-zaplatil-125-milionu-eur-158281" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-nejdrazsi-posila-v-historii-realu-madrid-dorazil-kridelnik-z-lipska-5511811" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:02",
+      "headline": "UEFA trvá na bojkotu soutěží FIFA, omluva vedení federace jí nestačí",
+      "body": "Vedení mezinárodní fotbalové federace FIFA na středeční mimořádné schůzce v Maroku vyjádřilo podporu kritizovanému prezidentovi Giannimu Infantinovi a omluvilo se za chyby týkající se plánů na prodej části práv z mistrovství světa soukromým investorům. Informovaly o tom agentury AFP a Reuters. Evropské fotbalové unii UEFA to ale nestačí a dál trvá na bojkotu soutěží FIFA, protože podmínky pro jeho odvolání podle ní nebyly splněny. Infantino zároveň čelí další kauze: podle deníku The Times, který se odvolává na nejmenovaný zdroj, měl slíbit finále příštího mistrovství světa Maroku, jednomu z pořadatelů šampionátu 2030, výměnou za jeho podporu. FIFA to popřela.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ms-vedeni-fifa-se-omluvilo-za-chyby-a-podporilo-infantina-5511779" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/fifa-chysta-kroky-k-ochrane-sveho-dobreho-jmena-omlouva-se-za-chyby-a-stoji-za-infantinem-158267" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ms-traskavy-slib-maroku-infantino-je-znovu-pod-palbou-5511792" }
+      ]
+    }
+  ]
+}
