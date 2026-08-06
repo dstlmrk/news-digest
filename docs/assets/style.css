@@ -72,18 +72,9 @@ body {
 
 .masthead h1 a { color: inherit; text-decoration: none; }
 
-/* Podtitulek říká, co web je a kdy vychází — bez něj není z hlavičky
-   poznat, že jde o jedno odpolední vydání za posledních 24 hodin. */
-.masthead .tagline {
-  margin: 0.55rem 0 0;
-  font-family: var(--sans);
-  font-size: 0.79rem;
-  line-height: 1.45;
-  color: var(--ink-muted);
-}
-
+/* Pokrytý den — jediný podtitulek hlavičky. */
 .masthead .dateline {
-  margin: 0.8rem 0 0;
+  margin: 0.7rem 0 0;
   font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.16em;
@@ -348,7 +339,6 @@ footer {
 }
 
 footer p { margin: 0.35rem 0; }
-footer .updated { color: var(--ink); font-weight: 700; }
 footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }

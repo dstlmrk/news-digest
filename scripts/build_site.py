@@ -32,7 +32,6 @@ DIGESTS = REPO_ROOT / "digests"
 DOCS = REPO_ROOT / "docs"
 
 SITE_TITLE = "Denní přehled"
-SITE_TAGLINE = "Zprávy z českých zdrojů · nové vydání každý den v 17:00"
 SITE_DESCRIPTION = (
     "Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, "
     "shrnuje uplynulých 24 hodin."
@@ -53,10 +52,6 @@ RUBRIC_ORDER = [
 
 WEEKDAYS = [
     "pondělí", "úterý", "středa", "čtvrtek", "pátek", "sobota", "neděle",
-]
-# Akuzativ pro spojení „zprávy za …" (za středu, za sobotu, za neděli).
-WEEKDAYS_ACC = [
-    "pondělí", "úterý", "středu", "čtvrtek", "pátek", "sobotu", "neděli",
 ]
 MONTHS = [
     "ledna", "února", "března", "dubna", "května", "června", "července",
@@ -285,11 +280,6 @@ def long_date(iso: str) -> str:
     return f"{WEEKDAYS[d.weekday()]} {d.day}. {MONTHS[d.month - 1]} {d.year}"
 
 
-def long_date_acc(iso: str) -> str:
-    d = date.fromisoformat(iso)
-    return f"{WEEKDAYS_ACC[d.weekday()]} {d.day}. {MONTHS[d.month - 1]} {d.year}"
-
-
 def short_date(iso: str) -> str:
     d = date.fromisoformat(iso)
     return f"{d.day}. {d.month}. {d.year}"
@@ -300,15 +290,15 @@ def day_month(iso: str) -> str:
     return f"{d.day}. {d.month}."
 
 
-def render_updated(when: datetime | None) -> str:
-    """Řádek patičky s časem poslední aktualizace stránky."""
+def updated_note(when: datetime | None) -> str:
+    """Doplněk hlavičkového řádku s časem poslední aktualizace stránky."""
     if when is None:
         return ""
     text = (f"{when.day}. {when.month}. {when.year} "
             f"v {when.hour}:{when.minute:02d}")
-    return (f'<p class="updated">Aktualizováno '
+    return (f" &nbsp;·&nbsp; aktualizováno "
             f'<time datetime="{esc(when.isoformat(timespec="minutes"))}">'
-            f"{esc(text)}</time></p>")
+            f"{esc(text)}</time>")
 
 
 def covered_date(data: dict) -> str:
@@ -417,18 +407,9 @@ body {
 
 .masthead h1 a { color: inherit; text-decoration: none; }
 
-/* Podtitulek říká, co web je a kdy vychází — bez něj není z hlavičky
-   poznat, že jde o jedno odpolední vydání za posledních 24 hodin. */
-.masthead .tagline {
-  margin: 0.55rem 0 0;
-  font-family: var(--sans);
-  font-size: 0.79rem;
-  line-height: 1.45;
-  color: var(--ink-muted);
-}
-
+/* Pokrytý den — jediný podtitulek hlavičky. */
 .masthead .dateline {
-  margin: 0.8rem 0 0;
+  margin: 0.7rem 0 0;
   font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.16em;
@@ -693,7 +674,6 @@ footer {
 }
 
 footer p { margin: 0.35rem 0; }
-footer .updated { color: var(--ink); font-weight: 700; }
 footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
@@ -1083,21 +1063,12 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
                   f'<span class="sep">·</span>'
                   f'<a href="archiv.html">celý archiv</a></nav>')
 
-    # Kolik zpráv spadá ještě do večera předchozího dne — čtenář tak vidí,
-    # že okno nezačíná o půlnoci, ale 24 hodin před vydáním.
-    earlier = sum(1 for i in items if i.get("day") == "prev")
-    earlier_note = (
-        f" &nbsp;·&nbsp; z toho {earlier} z večera {esc(day_month(before))}"
-        if earlier else ""
-    )
-
     home = "index.html"
     parts.append(f"""<header class="masthead">
 <h1><a href="{home}">{esc(SITE_TITLE)}</a></h1>
-<p class="tagline">{esc(SITE_TAGLINE)}</p>
-<p class="dateline">Zprávy za {esc(long_date_acc(covered))}</p>
+<p class="dateline">{esc(long_date(covered))}</p>
 <hr class="rule-double">
-<p class="meta">{esc(plural_items(len(items)))}{earlier_note} &nbsp;·&nbsp; okno {esc(data.get("window_hours", 24))} h do 17:00 &nbsp;·&nbsp; vydáno {esc(short_date(issue))}</p>{issues}
+<p class="meta">{esc(plural_items(len(items)))}{updated_note(data.get("_updated"))}</p>{issues}
 </header>""")
 
     if data.get("weather"):
@@ -1130,9 +1101,6 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
     parts.append("\n".join(pager))
 
     foot = ['<footer>']
-    updated = render_updated(data.get("_updated"))
-    if updated:
-        foot.append(updated)
     if data.get("sources_used"):
         foot.append(
             f'<p class="used">Zdroje vydání: '
@@ -1174,10 +1142,10 @@ def render_archive(digests: list[dict]) -> str:
         )
     return f"""<header class="masthead">
 <h1><a href="index.html">{esc(SITE_TITLE)}</a></h1>
-<p class="tagline">{esc(SITE_TAGLINE)}</p>
 <p class="dateline">Archiv</p>
 <hr class="rule-double">
-<p class="meta">{len(digests)} vydání</p>
+<p class="meta">{len(digests)} vydání\
+{updated_note(digests[-1].get("_updated"))}</p>
 </header>
 
 <ul class="archive">
@@ -1188,11 +1156,7 @@ def render_archive(digests: list[dict]) -> str:
 <a href="index.html">← Nejnovější vydání</a>
 <span></span>
 <span></span>
-</nav>
-
-<footer>
-{render_updated(digests[-1].get("_updated"))}
-</footer>"""
+</nav>"""
 
 
 # ────────────────────────────────────  main  ────────────────────────────────

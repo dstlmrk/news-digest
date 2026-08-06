@@ -28,12 +28,36 @@ polem pro zprávu → **Add cloud environment**.
   *.e15.cz
   voxpot.cz
   *.voxpot.cz
+  root.cz
+  *.root.cz
+  hnrss.org
+  news.ycombinator.com
+  claude.com
+  *.claude.com
+  denik.cz
+  *.denik.cz
+  idnes.cz
+  *.idnes.cz
+  drbna.cz
+  *.drbna.cz
+  sport.cz
+  *.sport.cz
+  open-meteo.com
+  *.open-meteo.com
   ```
 
 - **Setup script:** nechej prázdný. `scripts/fetch_feeds.py` používá jen
   standardní knihovnu, takže se nic neinstaluje.
 
-Kdykoli přidáš zdroj do `sources.toml`, přidej jeho doménu i sem.
+Kdykoli přidáš zdroj do `sources.toml`, přidej jeho doménu i sem. Kromě
+feedů seznam pokrývá i dvě věci, které nejsou zdroj zpráv:
+
+- `open-meteo.com` — počasí (`scripts/fetch_weather.py`). Bez něj skript
+  spadne a vydání vyjde bez proužku předpovědi.
+- `news.ycombinator.com` — diskuse u položek z Hacker News. Samotné
+  články na HN ale vedou na libovolný cizí web, který v allowlistu být
+  nemůže; ty se tedy často nepodaří otevřít a zpráva se píše z titulku
+  (viz `CLAUDE.md`).
 
 ## 2. Routina
 
