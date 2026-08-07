@@ -122,16 +122,6 @@ body {
   border: 1px solid var(--rule);
 }
 
-.weather .w-lead {
-  display: flex;
-  align-items: center;
-  gap: 1.05rem;
-}
-
-.weather .w-icon { flex: none; color: var(--accent); }
-.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
-.weather .w-text { min-width: 0; }
-
 .weather .kicker {
   margin: 0 0 0.4rem;
   font-family: var(--sans);
@@ -142,13 +132,17 @@ body {
   font-weight: 700;
 }
 
-.weather p { margin: 0; font-size: 0.95rem; }
-
-.weather .outlook {
-  margin-top: 0.35rem;
-  font-style: italic;
-  color: var(--ink-muted);
+/* Servisní box, ne článek — celý stojí na bezpatkovém písmu jako kicker
+   a proužek pod ním. */
+.weather p {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
+
+/* Výhled odděluje jen zalomení řádku, sazbu má shodnou se shrnutím. */
+.weather .outlook { margin-top: 0.3rem; }
 
 /* Proužek dalších dnů: ikona, den a denní/noční teplota vedle sebe.
    Na úzkém displeji se vodorovně odroluje místo zalomení. */
@@ -184,8 +178,8 @@ body {
 }
 
 .weather .w-days .w-mark svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
   display: inline-block;
 }
 

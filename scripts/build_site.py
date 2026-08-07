@@ -457,16 +457,6 @@ body {
   border: 1px solid var(--rule);
 }
 
-.weather .w-lead {
-  display: flex;
-  align-items: center;
-  gap: 1.05rem;
-}
-
-.weather .w-icon { flex: none; color: var(--accent); }
-.weather .w-icon svg { width: 2.5rem; height: 2.5rem; display: block; }
-.weather .w-text { min-width: 0; }
-
 .weather .kicker {
   margin: 0 0 0.4rem;
   font-family: var(--sans);
@@ -477,13 +467,17 @@ body {
   font-weight: 700;
 }
 
-.weather p { margin: 0; font-size: 0.95rem; }
-
-.weather .outlook {
-  margin-top: 0.35rem;
-  font-style: italic;
-  color: var(--ink-muted);
+/* Servisní box, ne článek — celý stojí na bezpatkovém písmu jako kicker
+   a proužek pod ním. */
+.weather p {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
+
+/* Výhled odděluje jen zalomení řádku, sazbu má shodnou se shrnutím. */
+.weather .outlook { margin-top: 0.3rem; }
 
 /* Proužek dalších dnů: ikona, den a denní/noční teplota vedle sebe.
    Na úzkém displeji se vodorovně odroluje místo zalomení. */
@@ -519,8 +513,8 @@ body {
 }
 
 .weather .w-days .w-mark svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
   display: inline-block;
 }
 
@@ -975,17 +969,16 @@ def temp(value) -> str:
 
 
 def render_weather_days(days: list[dict], issue_date: str) -> str:
-    """Proužek s předpovědí na další dny za hlavním blokem.
+    """Proužek předpovědi pod textem počasí.
 
-    První den v `days` je zítřek — ten nese hlavní ikona a `summary`,
-    takže do proužku jdou až dny po něm. Když další dny nejsou, proužek
-    se vůbec nevykreslí.
+    Nese celé pole `days`, tedy zítřek i dny po něm — je to jediné místo,
+    kde se ikony počasí ukazují. Starší digesty žádné `days` nemají, u nich
+    se proužek vůbec nevykreslí.
     """
-    rest = days[1:]
-    if not rest:
+    if not days:
         return ""
     cells = []
-    for day in rest:
+    for day in days:
         low = ""
         if day.get("temp_min_c") is not None:
             low = f' <span class="low">{esc(temp(day["temp_min_c"]))}</span>'
@@ -1003,39 +996,31 @@ def render_weather(weather: dict, issue_date: str) -> str:
     """Počasí v digestu je předpověď na zítřek a další dny.
 
     Vydání vychází v 17:00, kdy je dnešní počasí čtenáři dávno známé —
-    užitečná je až předpověď dopředu. Hlavní blok popisuje zítřek,
-    proužek pod ním zbývající dny.
+    užitečná je až předpověď dopředu. Text shrne zítřek, proužek pod ním
+    ukáže zítřek i zbývající dny v ikonách.
     """
     place = weather.get("place") or "Hradec Králové"
     days = weather.get("days") or []
 
+    # Výhled stojí na vlastním řádku, ale sází se stejně jako shrnutí nad
+    # ním — odlišuje ho jen zalomení, ne písmo.
     outlook = ""
     if weather.get("outlook"):
         outlook = f'\n<p class="outlook">{esc(weather["outlook"])}</p>'
 
-    icon_name = weather.get("icon")
-    if icon_name not in WEATHER_ICONS and days:
-        icon_name = days[0]["icon"]
-    icon = ""
-    if icon_name in WEATHER_ICONS:
-        icon = f'\n<div class="w-icon">{weather_icon_svg(icon_name)}</div>'
-
     if days:
-        lead_iso = days[0]["date"]
-        kicker = (f'Počasí {esc(relative_day(lead_iso, issue_date))} · '
-                  f'{esc(day_month(lead_iso))} · {esc(place)}')
+        # Konkrétní den nese proužek, kicker tedy jen uvozuje rubriku.
+        kicker = f'Počasí · {esc(place)}'
     else:
         # Digesty z doby, kdy vydání vycházelo ráno, nesou předpověď na
-        # den vydání. Popisujeme je tak, jak byly napsané — přeznačit je
-        # na „zítra" by tvrdilo něco, co v datech není.
+        # den vydání a proužek nemají. Popisujeme je tak, jak byly
+        # napsané — přeznačit je na „zítra" by tvrdilo něco, co v datech
+        # není.
         kicker = f'Počasí na {esc(day_month(issue_date))} · {esc(place)}'
     return f"""<section class="weather">
-<div class="w-lead">{icon}
-<div class="w-text">
 <p class="kicker">{kicker}</p>
-<p>{esc(weather["summary"])}</p>{outlook}
-</div>
-</div>{render_weather_days(days, issue_date)}
+<p>{esc(weather["summary"])}</p>{outlook}\
+{render_weather_days(days, issue_date)}
 </section>"""
 
 

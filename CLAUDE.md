@@ -93,13 +93,17 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
      podstatné — mráz, tropická noc), případně srážky, silný vítr nebo
      zhoršené ovzduší. Kvalitu ovzduší ber z položky `air_quality`
      **pro zítřejší datum**, ne pro dnešek.
-   - `days` je proužek předpovědi na webu: zkopíruj **3 až 4 dny počínaje
-     zítřkem** (`date`, `icon`, `temp_max_c`, `temp_min_c`). Dnešek do něj
-     nepatří — build skript ho odmítne.
+   - `days` je proužek předpovědi na webu: zkopíruj **4 dny počínaje
+     zítřkem** (`date`, `icon`, `temp_max_c`, `temp_min_c`). Proužek je
+     jediné místo, kde web ikony počasí ukazuje, a se čtyřmi dlaždicemi
+     počítá jeho sazba — méně dnů dávej jen tehdy, když je předpověď
+     nemá. Dnešek do proužku nepatří — build skript ho odmítne.
    - `outlook` vyplň **jen tehdy**, když se v dalších dnech blíží něco
      výrazného — vedra nad 30 °C, silné bouřky, vydatný déšť, špatná
      kvalita ovzduší; jinak ho vynech. Proužek `days` teploty a ikony
-     ukazuje sám, takže je v `outlook` neopakuj.
+     ukazuje sám, takže je v `outlook` neopakuj. Web ho tiskne na vlastní
+     řádek pod `summary` stejným písmem, takže napiš celou větu, která
+     obstojí sama o sobě.
 
    Piš výhradně hodnoty ze souboru —
    [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) platí i pro
