@@ -1,0 +1,551 @@
+{
+  "date": "2026-08-07",
+  "covers": "2026-08-07",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra zataženo a beze srážek, přes den až 26,6 °C. Kvalita ovzduší bude přijatelná.",
+    "outlook": "Na začátku příštího týdne se vrátí vedro.",
+    "days": [
+      {
+        "date": "2026-08-08",
+        "icon": "cloudy",
+        "temp_max_c": 26.6,
+        "temp_min_c": 16.1
+      },
+      {
+        "date": "2026-08-09",
+        "icon": "cloudy",
+        "temp_max_c": 28.8,
+        "temp_min_c": 15.0
+      },
+      {
+        "date": "2026-08-10",
+        "icon": "cloudy",
+        "temp_max_c": 30.6,
+        "temp_min_c": 18.2
+      },
+      {
+        "date": "2026-08-11",
+        "icon": "cloudy",
+        "temp_max_c": 25.7,
+        "temp_min_c": 17.5
+      }
+    ]
+  },
+  "highlights": [
+    "Národní centrála proti organizovanému zločinu obvinila pět lidí ze zjednání výhody při veřejné zakázce Správy železnic, mezi obviněnými je i bývalý šéf organizace Jiří Svoboda.",
+    "Podle policie zveřejnil Filip Turek osm nenávistných příspěvků, které byly trestné, stíhán ale nebude — všechny skutky jsou promlčené.",
+    "V bratislavské rafinerii Slovnaft po výbuchu hořela nádrž s ropnými produkty, hustý dým zahalil část města. Nikdo nebyl zraněn.",
+    "Americké tajné služby podle Wall Street Journalu počítají s tím, že Rusko může už letos na podzim omezeně zaútočit na některou zemi NATO."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "13:23",
+      "headline": "Policie obvinila pět lidí kvůli zakázce Správy železnic, mezi nimi bývalého šéfa Svobodu",
+      "body": "Policisté z Národní centrály proti organizovanému zločinu obvinili pět lidí ze zjednání výhody při zadání veřejné zakázky v souvislosti s veřejnou soutěží vypsanou Správou železnic. V tiskové zprávě to uvedl žalobce Tomáš Kučera z Vrchního státního zastupitelství v Praze. Podle Seznam Zpráv je mezi obviněnými bývalý ředitel Správy železnic Jiří Svoboda; server dodává, že jeho obvinění souvisí s finanční pohledávkou a že u něj detektivové našli v trezoru 80 milionů korun. Deník N upozorňuje, že na zahájení trestního stíhání vedle Seznam Zpráv poukázal i web Odkryto. Policie loni v listopadu zasahovala ve Správě železnic a na Ředitelství silnic a dálnic kvůli vyšetřování miliardových zakázek, podle E15 se ale nynější obvinění ŘSD netýká.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/nemam-slov-policie-obvinila-pet-lidi-v-souvislosti-s-verejnou-soutezi-spravy_2608071322_adn"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/policie-obvinila-pet-lidi-v-souvislosti-s-verejnou-soutezi-spravy-zeleznic-376375"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-policie-obvinila-exsefa-zeleznic-u-ktereho-nasla-v-trezoru-80-milionu-312663"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/doprava-a-logistika/byvaly-sef-spravy-zeleznic-svoboda-celi-obvineni-podle-policie-manipuloval-se-zakazkami-1434837"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149495/"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "19:54",
+      "day": "prev",
+      "headline": "Turek podle policie spáchal několik trestných činů, stíhán ale nebude kvůli promlčení",
+      "body": "Policie dospěla k závěru, že Filip Turek zveřejnil osm nenávistných příspěvků, které byly trestné — včetně toho o popálené Natálce. Obdobně vyhodnotila i jeho gesto na videu z roku 2015, podle kriminalistů šlo o hajlování. Plyne to z policejního usnesení, které má k dispozici Deník N. Obžalobě se Turek vyhne, protože všechny skutky jsou už promlčené a soud o nich rozhodovat nebude.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2148903/osm-nenavistnych-prispevku-a-sympatie-k-nacismu-podle-policie-turek-spachal-nekolik-trestnych-cinu-stihan-nebude/"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:03",
+      "headline": "Kraje letos nedostanou od státu ani korunu na opravy silnic druhých a třetích tříd",
+      "body": "Ze Státního fondu dopravní infrastruktury nedostanou kraje letos na silnice druhých a třetích tříd žádné peníze, což je podle libereckého hejtmana a předsedy dopravní komise Rady Asociace krajů Martina Půty poprvé od roku 2015. Ministr dopravy Ivan Bednárik (za SPD) podle Asociace krajů napsal, že fond nemá žádnou rezervu. Předseda asociace a zlínský hejtman Radim Holiš (ANO) odhaduje, že kvůli chybějícím penězům kraje opraví o desítky kilometrů silnic méně, a chce o tom jednat s vládou. Ministerstvo dopravy v reakci uvedlo, že kraje letos dostanou více než čtyři miliardy korun na konkrétní dopravní projekty, peníze na opravy jsou ale nenárokové.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/holis-kvuli-chybejicim-miliardam-opravi-kraje-o-desitky-kilometru-silnic-mene_2608071703_mst"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ze-statniho-fondu-dopravy-nedostanou-letos-kraje-na-silnice-ani-korunu-rekl-puta-376367"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149557/"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:45",
+      "headline": "Vláda odkládá slíbené zvýšení slev na jízdném, ministr dopravy dává přednost dálnicím a železnicím",
+      "body": "Stát vydal za slevy na jízdném v prvním pololetí zhruba dvě a půl miliardy korun; žákům, studentům a seniorům proplácí polovinu ceny. Koalice má v programovém prohlášení, že chce slevu zvýšit na 75 procent, a vláda původně slibovala, že se tak stane ještě letos nebo od příštího roku. Podle ministra dopravy to teď priorita není, tou jsou podle něj investice do dálnic a železnic. Poukazuje také na vetovaný zákon o rozpočtové odpovědnosti. Opozice míní, že vláda působí nedůvěryhodně.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zvyseni-slev-na-jizdnem-ted-neni-priorita-zni-z-vlady-376354"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:00",
+      "headline": "Tykačova skupina vycouvala z dohody se státem o penězích pro obce postižené těžbou",
+      "body": "Skupina Sev.en Pavla Tykače odstoupila od chystané dohody se státem o penězích pro obce postižené těžbou. Stát přitom zakrátko počítal s nezávislým auditem a hodnotu pozemků, o niž se vedl spor, měly určit znalecké ústavy; kontrola měla být hotová v září. Firma teď chce peníze ušetřené na obnově krajiny po těžbě rozdělovat sama. Vláda je podle Deníku N proti tomuto plánu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2147525/nez-prisel-auditor-tykac-vycouval-penize-chce-postizenym-obcim-rozdelit-sam-vlada-je-proti/"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:59",
+      "headline": "Foldyna podal stížnost proti rozhodnutí soudu o vykázání z domu",
+      "body": "Poslanec SPD Jaroslav Foldyna se chce bránit proti rozhodnutí děčínského soudu, který ho na měsíc vykázal z domu, a podal stížnost. Nejprve musel z domu na dva týdny, 24. července soud lhůtu prodloužil o měsíc. Foldyna je podezřelý z domácího násilí, podle Seznam Zpráv čelí podezření ze spáchání zločinů týrání svěřené osoby a týrání osoby žijící ve společném obydlí. Podání stížnosti sám potvrdil, k věci se ale vyjadřovat nechtěl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/je-podano-a-nechci-se-vyjadrovat-foldyna-chce-zvratit-rozhodnuti-soudu-o_2608071423_adn"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-foldyna-podal-stiznost-proti-rozhodnuti-soudu-o-vykazani-z-domu-312694"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:35",
+      "headline": "Do českých lékáren míří šest tisíc balení tamoxifenu, léku proti rakovině prsu",
+      "body": "Navazuje na výpadek tamoxifenu: ministerstvo zdravotnictví uvedlo, že české lékárny dostanou k dispozici šest tisíc balení tohoto léku proti rakovině prsu. Už minulý týden úřad oznámil, že rozeslal zhruba tisíc balení, na většině míst je ale lékárny podle Seznam Zpráv už rozdaly.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-do-cr-miri-6000-baleni-tamoxifenu-leku-proti-rakovine-prsu-uvedlo-ministerstvo-312657"
+        }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:13",
+      "headline": "Hradec si kvůli Evropské lize odložil ligový zápas v Brně až na 2. září",
+      "body": "Fotbalisté Hradce Králové odehrají zápas 4. kola nejvyšší domácí soutěže na hřišti Zbrojovky Brno místo 16. srpna až ve středu 2. září od 18 hodin. Ligová fotbalová asociace tím vyhověla žádosti klubu, který ve stejném termínu čeká odveta 3. předkola Evropské ligy v Istanbulu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/hradec-kralove-kvuli-poharum-odehraje-ligovy-zapas-se-zbrojovkou-az-na-zacatku-zari-158293"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/fotbal-prvni-liga/hradec-si-odlozil-duel-se-zbrojovkou-votroci-se-mohou-soustredit-na-evropu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-hradec-kralove-kvuli-odvete-v-istanbulu-odehraje-zapas-prvni-ligy-v-brne-az-v-zari-5512056"
+        }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:02",
+      "headline": "Zemřel Alfréd Pucher, nejdéle sloužící strážce Krkonošského národního parku",
+      "body": "Ve čtvrtek zemřel v sedmdesáti letech emeritní strážce Krkonošského národního parku Alfréd „Fredy“ Pucher. Na horách působil přes čtyřicet let, byl nejdéle sloužícím strážcem KRNAP a i po odchodu do penze před sedmi lety se přes léto věnoval návštěvníkům v informačním srubu v Černém Dole. Podle Hradecké drbny začínal v roce 1978 jako cestář, poté převzal úsek na Luční hoře a v Černém Dole. Kolegové ho vzpomínají jako přátelského, ale v terénu i přísného člověka.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/krkonose-krnap-strazce-alfred-pucher-zemrel-umrti-cena.A260807_084333_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/spolecnost/25026-zemrel-fredy-pucher-vice-nez-40-let-chranil-krkonosskou-prirodu.html"
+        }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:05",
+      "headline": "Hradec nabídne o víkendu hudbu u Labe, letní kina i jízdu historickým vlakem",
+      "body": "Hradecká drbna vybrala nejzajímavější akce, které se ve městě konají v sobotu a v neděli. Kromě fotbalu je na programu hudba u Labe, tanec, letní kina, koncerty i výlet historickým vlakem.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/25007-hradec-nabidne-o-vikendu-fotbal-historicke-vlaky-i-spidermana.html"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:26",
+      "headline": "V bratislavské rafinerii Slovnaft po výbuchu hořela nádrž s ropnými produkty",
+      "body": "Bratislavskou rafinerií Slovnaft po poledni otřásl výbuch a začalo hořet, metropolí se šířil hustý černý dým. Podle svědků citovaných E15 otřásla budovami v okolí tlaková vlna. Hasiči na místě žádali lidi v okolí, aby nevycházeli ven a zavřeli okna. Mluvčí rafinerie Anton Molnár později oznámil, že hořela izolovaná nádrž s ropnými produkty, požár je pod kontrolou, nikdo nebyl zraněn a výroba ani okolí podniku nebyly ohroženy. Příčina bude předmětem vyšetřování.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-bratislavske-rafinerii-slovnaft-hori-376377"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149863/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/hori-v-bratislavske-rafinerii-slovnaft-pricina-pozaru-je-zatim-neznama_2608071424_adn"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rafinerii-slovnaft-otrasl-vybuch-bratislavou-se-siri-dym-z-pozaru-pisi-media-312682"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/v-bratislavske-rafinerii-slovnaft-horela-nadrz-vybuch-otrasl-okolim-1434842"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:05",
+      "headline": "Americké tajné služby varují, že omezený ruský útok na zemi NATO hrozí už na podzim",
+      "body": "Americké tajné služby se podle deníku The Wall Street Journal domnívají, že ruský vládce Vladimir Putin může už letos na podzim vyprovokovat některou ze zemí NATO omezeným útokem. Ve Washingtonu se dříve předpokládalo, že k útoku na Alianci nedojde, dokud je Moskva plně vytížena vedením války proti Ukrajině. Mezi možné scénáře nyní podle listu patří kybernetický útok, ale i omezená pozemní invaze.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ruska-provokace-v-nato-hrozi-uz-na-podzim-varuji-tajne-sluzby-usa-376364"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:55",
+      "headline": "Severní Korea podle ukrajinské GRU posílá Rusku až 120 balistických střel",
+      "body": "Ukrajinská tajná služba GRU uvádí, že Severní Korea posílá na západ Ruska další vojenské vybavení a nejnovější zásilka má obsahovat až 120 balistických střel. Podle GRU by šlo o největší zapojení KLDR do válečných konfliktů od poloviny minulého století. Rakety podle iROZHLAS zabíjely na Ukrajině už minulý týden.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-kldr-posila-do-ruska-balisticke-strely-uvadi-gru-rakety-uz-minuly-tyden_2608071555_jva"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:01",
+      "headline": "V Hormuzském průlivu se rýsuje dohoda, kterou Deník N popisuje jako další íránský úspěch",
+      "body": "Dohoda, která se rýsuje v Hormuzském průlivu, vypadá podle Deníku N jako další íránský úspěch ve válce se Spojenými státy. Teheránský režim jej podle analýzy dosáhl kombinací tvrdohlavosti, trpělivosti a pečlivého plánu, jak získat na Washington co největší páku. Deník N rozebírá, co má domluva s Ománem obsahovat a co znamená pro zbytek světa. Konflikt na Blízkém východě má přitom podle srpnového globálního výhledu Svazu německého průmyslu výrazně negativní dopad na světovou ekonomiku — růst by měl letos zpomalit na tři procenta a válka v Íránu podle svazu vyvolává stagflační šok.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2149757/dohoda-o-hormuzu-je-na-obzoru-iran-miri-k-dalsimu-vitezstvi-ve-valce-s-usa/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149654/"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:49",
+      "headline": "Po masové střelbě ve thajské škole slíbil premiér zákon o kontrole zbraní",
+      "body": "Student, který ve škole v Thajsku zabil pět lidí a několik dalších zranil, se po útoku zastřelil; před útokem zastřelil i své prarodiče. Střelba si podle Deníku N vyžádala nejméně osm mrtvých. Během několika hodin po ní thajský premiér Anutin Čarnvirakul slíbil zavedení zákona o kontrole zbraní v zemi s nejvyšším počtem držitelů zbraní v jihovýchodní Asii. Anutin, který zákony o zbraních zpřísnil už dříve jako ministr vnitra, chce nyní navrhnout zákon omezující nošení střelných zbraní na veřejnosti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-student-zastrelil-ve-skole-v-thajsku-nekolik-lidi-312632"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149629/"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:23",
+      "headline": "Saúdská Arábie, Turecko a Pákistán podepsaly obrannou dohodu",
+      "body": "Saúdská Arábie, Turecko a Pákistán podepsaly podle úřadů obrannou dohodu, podle níž bude jakýkoli ozbrojený útok proti kterémukoli z těchto tří států považován za útok proti všem. Dohoda má také prohloubit spolupráci mezi zúčastněnými zeměmi.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-saudska-arabie-turecko-a-pakistan-podepsaly-obrannou-dohodu-uvedly-urady-312673"
+        }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:27",
+      "headline": "V americké ekonomice v červenci nečekaně zaniklo 23 tisíc pracovních míst",
+      "body": "Přestože se čekal nárůst, američtí zaměstnavatelé v červenci zrušili přibližně 23 tisíc pracovních míst. Revize ministerstva práce navíc odebraly z květnových a červnových výkazů celkem 103 tisíc míst. Míra nezaměstnanosti přesto klesla o desetinu procentního bodu na 4,1 procenta, podle agentury AP proto, že Američané opouštěli trh práce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-v-americke-ekonomice-v-cervenci-necekane-zaniklo-23-000-pracovnich-mist-312687"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149672/"
+        }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:06",
+      "headline": "USA podpořily kurz jenu prodejem eur, aniž o tom předem řekly Evropské centrální bance",
+      "body": "Americká a japonská centrální banka minulý týden společně posilovaly kurz japonského jenu. Američané k tomu ale místo dolarů použili eura a Evropskou centrální banku o tom předem neinformovali — Washington jí to podle Deníku N oznámil až po provedení intervence. ECB způsob intervence překvapil a Evropané se teď podle Seznam Zpráv ptají, co to vlastně znamená.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-evropa-sedela-v-koute-jak-usa-podporily-japonce-evropskymi-penezi-312674"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149542/"
+        }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:17",
+      "headline": "Live Nation a PPF založí společný podnik na provoz O2 areny, O2 universa a Fora Karlín",
+      "body": "Skupina PPF se spojí s americkou Live Nation, největší světovou agenturou na živou zábavu zalistovanou na newyorské burze, a v Česku vznikne nový společný podnik na provoz multifunkčních arén. Live Nation získá v novém provozovateli O2 areny, O2 universa a Fora Karlín většinový podíl. Partneři chtějí do hal výrazně investovat a modernizovat jejich zázemí. Pro Live Nation jde podle E15 o největší investici ve střední a východní Evropě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/ppf-spojila-sily-s-globalnim-lidrem-americky-obr-povede-provoz-o2-areny-i-fora-karlin-1434821"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-live-nation-a-ppf-zalozi-podnik-k-provozovani-o2-areny-universa-a-fora-karlin-312655"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:36",
+      "headline": "Soud v Novém Mexiku nařídil Metě zaplatit 567 milionů dolarů za újmu způsobenou dětem",
+      "body": "Soud v americkém státě Nové Mexiko nařídil společnosti Meta Platforms zaplatit 567 milionů dolarů, tedy téměř 12 miliard korun, za újmy, které její platformy působí mladým lidem. Dále firmě nařídil, aby změnila způsob, jakým její platformy fungují pro mladé uživatele ve státě. Většina peněz podle Seznam Zpráv půjde na léčbu a prevenci. Meta uvedla, že se proti rozhodnutí odvolá, a dodala, že pracuje na identifikaci a ochraně nezletilých uživatelů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/soud-v-novem-mexiku-naridil-mete-zaplatit-567-milionu-dolaru-kvuli-ujme-zpusobene-detem-376360"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pokuta-pres-500-milionu-dolaru-pro-metu-soud-v-usa-se-zastal-mladych-uzivatelu-312634"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:40",
+      "headline": "Umělá inteligence poprvé navrhla funkční viry, vědci varují i uklidňují",
+      "body": "Americkým bioinženýrům se podařilo poprvé naučit pokročilý model umělé inteligence navrhovat viry, které by se daly využít v medicíně. Úspěch ale vyvolává i kritiku, protože podobným způsobem by se daly vytvářet také viry schopné ohrozit rostliny, zvířata i lidi.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/veda/ai-poprve-vytvorila-funkcni-viry-vedci-varuji-i-uklidnuji-376372"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Anthropic spustil veřejnou betu, která umožní provozovat Claude Code na vlastní infrastruktuře",
+      "body": "Anthropic uvolnil ve veřejné betě takzvaná self-hosted environments pro Claude Code: organizace mohou nechat sessions běžet na svém vlastním hardwaru místo na serverech Anthropicu. Nasadí k tomu dlouhodobě běžící „runnery“, které sessions přebírají a spouštějí pro ně procesy Claude Code, a to buď v pevném počtu instancí, nebo na vyžádání s automatickým škálováním. Každá session běží v izolovaném checkoutu. Podle Anthropicu je funkce určená pro plány Team a Enterprise a míří na týmy s přísnými požadavky na síťový přístup, compliance nebo úpravy prostředí — sessions se dostanou k vnitřním službám bez jejich vystavení do internetu a zdrojový kód i buildy zůstanou v rukou organizace. Organizace používající ZDR ji k dispozici nemají a Anthropic upozorňuje, že provoz vyžaduje tým na údržbu; většině firem proto dál doporučuje hostovanou variantu.",
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute"
+        }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "06:30",
+      "headline": "Odborníci kritizují novou koncepci kulturní politiky ministra Klempíře",
+      "body": "Ministerstvo kultury pod vedením Oty Klempíře představilo nový koncept státní kulturní politiky, o jehož vzniku dopředu neinformovalo. „Šlo to neoficiální cestou, byl to šok,“ shrnuje jeden z ohlasů Deník N. Klempíř ve vyjádření pro Deník N argumentuje, že řada cílů původní strategie neodpovídá současným finančním možnostem ministerstva.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2148373/slo-to-neoficialni-cestou-byl-to-sok-odbornici-kritizuji-klempirovu-koncepci-smerovani-kultury/"
+        }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "12:40",
+      "headline": "Na Slovensku naměřili 42,2 °C, podle meteorologů nejvíc v historii měření ve střední Evropě",
+      "body": "V obci Dolné Plachtince v okrese Veľký Krtíš padl na Slovensku historický teplotní rekord, meteorologové tam naměřili 42,2 °C. Podle nich jde o nejvyšší teplotu zaznamenanou ve střední Evropě v historii měření. Vedro a sucho dostaly i maďarskou energetiku do potíží: teploty přes 40 stupňů a rekordně nízká hladina Dunaje vedly podle Seznam Zpráv k tomu, že Maďarsko omezuje spotřebu, zhasíná památky a vyzývá obyvatele k úsporám.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-pocasi-slovensky-rekord-422-stupne-je-nejvyssi-v-historii-mereni-ve-stredni-evrope-312666"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-vedro-a-sucho-zhasly-budapest-312651"
+        }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "09:00",
+      "headline": "Voxpot se ptá gruzínského experta na byznys nového šéfa inspekce životního prostředí",
+      "body": "Nový šéf České inspekce životního prostředí Pavel Straka podniká v gruzínském Batumi, kde jeho firma prodává luxusní byty. Voxpot se gruzínského experta na korupci Malkhaze Chkaduy zeptal, jak developerské projekty ze Strakova portfolia ovlivňují život místních.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/gruzie-rusky-kapital-a-krajni-pravice-strakuv-byznys-je-vic-nez-jen-investice-do-apartmanu-vysvetluje-gruzinsky-expert/"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:00",
+      "day": "prev",
+      "headline": "Hradec Králové prohrál s Besiktasem 0:1, i když soupeř dohrával v deseti",
+      "body": "Fotbalisté Hradce Králové v úvodním utkání 3. předkola Evropské ligy doma prohráli s tureckým Besiktasem 0:1. Vytvořili si několik šancí a od 71. minuty hráli proti deseti po vyloučení Kassouma Ouattary, v 80. minutě ale rozhodl Semih Kilicsoy. Za hosty nastoupil v základní sestavě český křídelník Václav Černý. Podle Hradeckého deníku padl jediný gól po nešťastné teči Čiháka a stadion byl vyprodaný, iDNES Hradec i Hradecký deník uvádějí, že trenér David Horejš po zápase kritizoval chybu obránce Daniela Horáka a byl přesvědčený, že Votroci prohrát neměli. Odveta je na programu za týden v Istanbulu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/hradec-nevyuzil-sance-ani-presilovku-po-cervene-karte-a-doma-padl-s-besiktasem-158285"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/fotbal-prvni-liga/pekelna-kulisa-statecni-votroci-hradec-smolne-padl-s-besiktasem/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/sport/fotbal/25024-hradec-v-evropske-lize-podlehl-besiktasi-0-1-v-oslabeni-rozhodl-kilicsoy.html"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/fotbal/pohary/trener-david-horejs-hradec-kralove-besiktas-istanbul-evropska-liga.A260807_082613_fot_pohary_min#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:52",
+      "day": "prev",
+      "headline": "Jablonec zvládl úvodní zápas s RFS Riga a vyhrál 2:0",
+      "body": "Fotbalisté Jablonce porazili v úvodním duelu 3. předkola Konferenční ligy lotyšský RFS Riga 2:0 díky brankám Vachtanga Čanturišviliho a Matěje Polidara. Doma tak zvítězili stejným výsledkem a s nulou vzadu jako o kolo dříve proti Varaždínu. Polidar podle ČT Sport zapsal první soutěžní gól od loňského května a možná vůbec poprvé v kariéře skóroval hlavou.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-doma-splnil-roli-favorita-a-uspesne-zahajil-dvojutkani-s-rigou-158284"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:04",
+      "headline": "Norský fotbalový svaz žádá rezignaci prezidenta FIFA Infantina",
+      "body": "Norský fotbalový svaz na svém zasedání rozhodl, že požaduje rezignaci prezidenta FIFA Gianniho Infantina, protože podle něj už nemá důvěru potřebnou k tomu, aby federaci stabilně vedl. Předsedkyně svazu Lise Klavenessová to oznámila na tiskové konferenci a vyzvala další země, aby se k požadavku přidaly. UEFA už dříve zopakovala, že Infantino „ztratil důvěru“, Anglie a Wales stáhly podporu jeho příští kandidatuře. Podle Deníku N se naopak nově za Infantina postavily mexický a argentinský svaz.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-neexistuje-cesta-zpet-sefka-norskeho-fotbalu-zada-infantinovu-rezignaci-5512065"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/norove-vyzyvaji-infantina-k-rezignaci-ztratil-podle-nich-duveru-158297"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2149508/"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:08",
+      "headline": "Kapitán Sparty Haraslín dostal svolení k odchodu do Saúdské Arábie",
+      "body": "Sparta by mohla přijít o kapitána Lukáše Haraslína. Třicetiletý slovenský křídelník má podle médií nabídku ze saúdskoarabského klubu al-Fátí a od pražského klubu dostal svolení k přestupu. Podle Sport.cz kluby jednají a sám hráč je odchodu nakloněn; v pohárovém duelu s Lyonem (2:1) přitom Haraslín začínal na lavičce a dostal jen šest závěrečných minut plus nastavení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbalovou-spartu-opousti-kapitan-haraslina-lakaji-v-saudske-arabii-od-klubu_2608071408_mim"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-kapitan-sparty-je-na-odchodu-do-saudske-arabie-5512059"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:17",
+      "headline": "Střelkyně Šindlerová vybojovala titul mistryně Evropy do 23 let ve sportovní pistoli",
+      "body": "Jednadvacetiletá Viktorie Šindlerová se ve Vratislavi stala mistryní Evropy do 23 let v olympijské disciplíně sportovní pistole. Na premiérovém šampionátu této věkové kategorie byla nejlepší už v kvalifikaci a suverénně ovládla i finále, ve kterém měla česká výprava trojnásobné zastoupení. Anna Miřejovská a Klára Ticháčková podle Sport.cz přispěly k týmovému triumfu, osmičlenné finále ale nakonec uzavřely.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/sindlerova-vybojovala-titul-mistryne-evropy-do-23-let-ve-strelbe-ze-sportovni-pistole-158299"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-ceska-strelkyne-sindlerova-ovladla-evropsky-sampionat-do-23-let-5512069"
+        }
+      ]
+    }
+  ]
+}
