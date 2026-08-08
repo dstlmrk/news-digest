@@ -1,0 +1,348 @@
+{
+  "date": "2026-08-08",
+  "covers": "2026-08-08",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz",
+    "Hacker News",
+    "Claude Blog"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "partly",
+    "summary": "Zítra polojasno a horko, přes den až 30 °C, beze srážek. Kvalita ovzduší má být zhoršená.",
+    "outlook": "V pondělí se k vedru přidá silný vítr s nárazy přes padesát kilometrů v hodině, od úterý přijde ochlazení.",
+    "days": [
+      { "date": "2026-08-09", "icon": "partly", "temp_max_c": 30.5, "temp_min_c": 13.7 },
+      { "date": "2026-08-10", "icon": "cloudy", "temp_max_c": 33.1, "temp_min_c": 19.9 },
+      { "date": "2026-08-11", "icon": "cloudy", "temp_max_c": 25.4, "temp_min_c": 16.6 },
+      { "date": "2026-08-12", "icon": "clear", "temp_max_c": 24.5, "temp_min_c": 13.4 }
+    ]
+  },
+  "highlights": [
+    "Policejní spis ukazuje, kdo a v jakém rozsahu mazal příspěvky z facebookového účtu Filipa Turka před eurovolbami 2024.",
+    "Prahou prošly v duhovém průvodu desítky tisíc lidí, akci hlídaly stovky policistů kvůli nedávnému útoku v Berlíně.",
+    "Maďarská vládní strana Tisza nominovala na prezidenta bývalého předsedu nejvyššího soudu Andráse Baku, zvolen má být v úterý.",
+    "Tenistka Markéta Vondroušová dostala čtyřletý zákaz činnosti za to, že odmítla odevzdat dopingový vzorek."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "19:52",
+      "day": "prev",
+      "headline": "Policejní spis ukazuje, kdo promazával Turkův facebookový účet před eurovolbami",
+      "body": "Poslankyně za Motoristy Gabriela Sedláčková podle své výpovědi smazala z facebookového účtu Filipa Turka před eurovolbami v roce 2024 pět až deset příspěvků; podle ní šlo o „nekorektní vtipy“. Další Turkův dlouholetý přítel kriminalistům řekl, že jich odstranil deset až sto. Vyplývá to z policejního usnesení, které má k dispozici Deník N. Kriminalisté zjišťovali, jaké příspěvky z účtu zmizely a zda mezi nimi byly ty, na které Deník N v minulosti upozornil. Jména jsou ve spisu anonymizovaná. Navazuje to na páteční zprávu o tom, že se Turek podle policie několika trestných činů dopustil, stíhán ale nebude kvůli promlčení.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2149940/pristup-melo-dost-lidi-policejni-spis-ukazuje-jak-a-kdo-promazaval-turkuv-facebooku/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:53",
+      "headline": "Prahou prošly v duhovém průvodu desítky tisíc lidí, dohlížely na ně stovky policistů",
+      "body": "Průvod festivalu Prague Pride vyrazil v poledne z Václavského náměstí přes centrum na Štvanici, kde program pokračuje do večerních hodin. Účastníci nejprve drželi minutu ticha za oběti útoku v Berlíně, kde koncem července útočník najel při akci na podporu práv LGBTQ osob do davu lidí; podle Seznam Zpráv po něm zemřel jeden člověk. Kvůli tomu na pochod dohlížely stovky policistů a antikonfliktní tým, policie do odpoledne žádné komplikace nehlásila. Na trase byly ohlášené dvě akce na kázání evangelia, podle zpravodajek Deníku N byli u průvodu i lidé s transparenty „ANTI-LGBT“ nebo „Prague against left wing“. Policie kvůli bezpečnosti uzavřela pražskou magistrálu u Hlávkova mostu ve směru na Prahu 7.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/obrazem-na-prague-pride-byly-desitky-tisic-lidi-podle-organizatoru-byl-zvlast_2608081653_kma" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-je-to-protest-neni-moc-co-slavit-tisice-lidi-se-vydaly-na-duhovy-pruvod-312715" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/prazsky-duhovy-pochod-zacal-uctenim-pamatky-obeti-berlinskeho-utoku-376399" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150381/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:35",
+      "headline": "Rozvolnění rozpočtových pravidel podporuje jen 28 procent Čechů, ukázal průzkum",
+      "body": "Navrhované změny rozpočtových pravidel podporuje 28 procent lidí, proti je o deset procentních bodů víc. Vyplývá to z bleskového průzkumu společnosti Median pro Radiožurnál, kterého se na začátku týdne zúčastnilo více než tisíc respondentů. Podle iROZHLASu nemají volnější pravidla nadpoloviční podporu v žádné sledované skupině, ať už podle pohlaví, bydliště, vzdělání nebo věku. Jde o první zákon, který vládě Andreje Babiše vetoval prezident Petr Pavel.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/navrhovane-zmeny-rozpoctovych-pravidel-cesi-nepodporuji-pro-je-28-procent_2608081235_vdv" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:15",
+      "headline": "Sucho drtí vodácký byznys i ovocnáře, průtok řek je o více než polovinu nižší než obvykle",
+      "body": "Průtok českých řek je na většině území o více než polovinu nižší, než bývá na začátku srpna obvyklé. Menší toky a tradiční řeky jako Lužnice zcela vysychají, na větších se vodáci podle E15 pohybují na hraně sjízdnosti a bojují s kameny; dopadá to i na kempy a půjčovny. Ovocnáři ve Zlínském kraji odhadují, že letos sklidí čtvrtinu, možná jen pětinu obvyklé úrody — co nezničily jarní mrazy, poškodila letní vedra. Navazuje to na čtvrteční zprávu o vysychajících potocích a nízké hladině podzemních vod.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/sucho-drti-vodacky-byznys-voda-zmizela-i-z-mist-kde-to-cesko-dosud-nepoznalo-1434832" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/co-neznicil-mraz-nici-sucho-ovocnari-ze-zlinska-odhaduji-ze-uroda-muze-byt_2608081415_kch" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:45",
+      "headline": "Hladiny řek v Královéhradeckém kraji dál klesají, na Rychnovsku úřady omezily odběry",
+      "body": "Sucho se v kraji stále výrazněji projevuje na řekách, potocích i zdrojích pitné vody a déšť je podle iROZHLASu v nedohlednu. Na Rychnovsku už vodoprávní úřady omezily odběry z náhonu Alba a lidé v Liberku a v místních částech Hláska a Bělá musí až do konce září výrazně šetřit pitnou vodou. Přehrady podle stanice pomohou jen krátkodobě.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/hladiny-rek-v-kralovehradeckem-kraji-stale-klesaji-dest-je-v-nedohlednu-prehrady_2608081545_mkm" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:33",
+      "headline": "Ironman přinese příští týden do centra Hradce zákazy vjezdu a parkování",
+      "body": "Do Hradce Králové se příští týden sjedou tisíce triatlonistů z celého světa na závod Ironman 70.3. Spolu s ním dorazí rozsáhlá dopravní omezení a několikadenní zákaz parkování v centru města.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/25019-ironman-zabere-centrum-hradce-pristi-tyden-pozor-na-dopravni-zakazy.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:05",
+      "headline": "Opravy zavřely v Hradci Gočárův okruh, nadjezdy u Flošny i Malšovický most",
+      "body": "Řidiči v Hradci Králové musí během léta počítat s řadou omezení najednou: opravuje se Gočárův okruh, pracuje se na nadjezdech u Flošny a probíhá rekonstrukce Malšovického mostu, k tomu se přidávají menší uzavírky v dalších částech města. Část staveb má skončit ještě během prázdnin, některá omezení ale podle Hradecké drbny potrvají až do podzimu.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/doprava/25017-ridice-trapi-rozkopany-hradec-kdy-bude-hotovo.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:00",
+      "headline": "Na trati mezi Týništěm a Náchodem týden nejezdí vlaky, nahradily je autobusy",
+      "body": "Na trati mezi Týništěm nad Orlicí a Náchodem platí od 8. do 14. srpna výluka. Všechny spoje po tuto dobu nahradí náhradní autobusová doprava.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/doprava/25020-tyden-bez-vlaku-na-trat-mezi-nachodem-a-tynistem-vyrazi-nahradni-autobusy.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:35",
+      "headline": "Maďarská vládní Tisza nominovala na prezidenta bývalého šéfa nejvyššího soudu Baku",
+      "body": "Vládní strana Tisza vybrala za svého kandidáta na prezidenta bývalého předsedu nejvyššího soudu Andráse Baku; parlamentní frakce to napsala na Facebooku. Zvolen by měl být v úterý parlamentem, funkce hlavy státu je v Maďarsku převážně reprezentativní. Deník N s odvoláním na agenturu Reuters dodává, že jde spíše o symbolický krok v rámci snah premiéra Pétera Magyara.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/tisza-nominovala-na-madarskeho-prezidenta-byvaleho-sefa-nejvyssiho-soudu-376402" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-kandidatem-na-madarskeho-prezidenta-je-byvaly-sef-nejvyssiho-soudu-baka-312718" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/na-prezidenta-madarska-nominovala-tisza-byvaleho-sefa-nejvyssiho-soudu-zvolen_2608081334_adn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150365/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:00",
+      "headline": "Zelenskyj v Bělehradě oznámil dohodu s USA o střelách pro Patrioty",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj se při své první návštěvě v Bělehradě setkal se srbským prezidentem Aleksandarem Vučićem, hlavy států podepsaly memorandum o porozumění. Vučić podle Seznam Zpráv vyloučil vojenskou podporu; Srbsko má přátelské vztahy s Ruskem. Zelenskyj řekl, že kvůli ruským útokům nezůstala na Ukrajině žádná tepelná elektrárna celá, a poděkoval Vučićovi za nový balíček pomoci. Podle iROZHLASu zároveň oznámil dohodu s USA o dodávkách protiraketových střel pro systémy Patriot.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-si-v-belehrade-postezoval-na-ruske-utoky-na-energetiku-a-na-lidi-312721" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-zelenskyj-oznamil-dohodu-s-usa-o-patriotech-turecko-mezitim-omezilo_2608081543_kma" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150410/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:25",
+      "headline": "Ruský útok na Kyjev a okolí si vyžádal čtyři mrtvé, ukrajinské drony zasáhly dvě rafinerie",
+      "body": "Ruský noční útok na východním předměstí Kyjeva zabil tři lidi včetně dítěte, oznámil velitel vojenské správy Kyjevské oblasti Tymur Tkačenko; úřad později informoval o nálezu čtvrté oběti. Další tři lidé jsou zranění, podle starosty Vitalije Klyčka vypukl v metropoli na dvou místech požár. Ukrajinské drony ve stejnou noc podle serveru RBC-Ukrajina zaútočily na rafinerie v Ilsku a Syzrani, kde vypukly rozsáhlé požáry; v ilském podniku je pět raněných. Ruské úřady informovaly o zničení stovek ukrajinských dronů. Turecko mezitím podle agentury Bloomberg omezilo plavbu lodí úžinou Dardanely kvůli obavám z rostoucího počtu útoků na plavidla v Černém moři.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusky-utok-na-predmesti-kyjeva-zabil-tri-lidi-vcetne-ditete-376394" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajinske-drony-zautocily-na-ruske-rafinerie-312710" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150240/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150378/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:30",
+      "headline": "Nad Bulharsko vletěl z Rumunska dron a explodoval kilometr od plynovodu Trans-Balkan",
+      "body": "Dron pronikl do bulharského vzdušného prostoru z Rumunska a vybuchl asi kilometr od plynovodu Trans-Balkan, který spojuje Turecko s Ukrajinou. Oznámil to bulharský premiér Rumen Radev, podle nějž výbuch nemá žádné oběti. Podle agentury DPA nesl dron velké množství výbušnin.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/dron-pronikl-do-bulharskeho-vzdusneho-prostoru-explodoval-kilometr-od-plynovodu-376401" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-dron-pronikl-do-bulharskeho-vzdusneho-prostoru-a-explodoval-312717" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150348/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:53",
+      "headline": "Americký Senát potvrdil Trumpova bývalého právníka Blanche ministrem spravedlnosti",
+      "body": "Senát v sobotu těsnou většinou potvrdil Todda Blanche v čele amerického ministerstva spravedlnosti. Podle agentury AP, na kterou se odvolává ČT24, ho podpořilo 50 zákonodárců proti 49; Seznam Zprávy uvádějí, že získal 50 z 99 hlasujících. Bývalý osobní právník Donalda Trumpa vedl rezort prozatímně od dubna, kdy byla odvolána jeho předchůdkyně Pam Bondi, a podle Deníku N řídil zveřejnění Epsteinových spisů. Pro Trumpa pracuje od roku 2023 a je kritizován za prosazování jeho agendy. Jeho nominace čelila kritice.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/americky-senat-potvrdil-blanche-jako-ministra-spravedlnosti-376400" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-americky-senat-potvrdil-blanche-ministrem-spravedlnosti-312716" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150303/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:17",
+      "headline": "V Hormuzském průlivu zasáhla raketa tanker Emirátů, Teherán mluví o dohodě s Ománem",
+      "body": "Tanker společnosti ADNOC ze Spojených arabských emirátů zasáhla při plavbě Hormuzským průlivem raketa, nikdo nebyl zraněn, napsala emirátská státní agentura WAM. Země označila střelu za íránskou a útok odsoudila jako zjevné porušení rezoluce OSN, později se přidaly také Katar a Saúdská Arábie. Írán zároveň uvedl, že dohoda s Ománem o kontrole nad průlivem je na dosah, sama o sobě ale k uvolnění námořní cesty stačit nebude.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150428/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150419/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "20:23",
+      "day": "prev",
+      "headline": "Dron nalezený na letišti u Lipska nesl skoro kilo trhaviny, indicie ukazují na Rusko",
+      "body": "Německý kancléř Friedrich Merz kvůli zachycenému dronu s výbušninou na letišti v Lipsku telefonicky z dovolené řídil zasedání bezpečnostní rady. Podle německých médií vyšetřovatelé zjistili, že stroj nesl Semtex a výbušninu PETN natlačené do prázdné konzervy, v jejímž dnu byl otvor pro rozbušku. „Osm set gramů trhaviny Semtex — to je spousta. A nebyl to náš obranný systém, kdo explozi zabránil. V podstatě to byla technická závada,“ řekl vedoucí pracovník Mnichovské bezpečnostní konference Nico Lange. Zatím se neví, kdo dron přivezl, kdo ho řídil ani jak a kdy měl být odpálen. Podle stanic WDR, NDR a listu Süddeutsche Zeitung navíc v noci na pátek proletělo šest dronů nad základnou německé armády v Mechernichu v Severním Porýní-Vestfálsku, což u bezpečnostních orgánů vyvolalo mimořádné znepokojení.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/dron-na-letisti-u-lipska-nesl-skoro-kilo-trhaviny-indicie-ukazuji-na-rusko-376381" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150276/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "05:00",
+      "headline": "Vláda proškrtala mapu větrných zón, ze 110 oblastí zbylo 61",
+      "body": "Z původních 110 oblastí vhodných pro stavbu větrných elektráren zbylo 61 a jejich rozloha klesla ze 474 na 297 kilometrů čtverečních. Vláda podle E15 tvrdí, že zóny zkrouhla na 11 procent, srovnává je ale s číslem, které nikdy neschválila. Česko dnes vyrábí z větru kolem jednoho procenta elektřiny a do roku 2030 se má stát jejím dovozcem.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/domaci/vlada-proskrtala-mapu-vetrnych-zon-podivejte-se-jestli-ta-u-vasi-chalupy-zustala-1434783" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "05:30",
+      "headline": "Šéf státního ČD Cargo si ponechal soukromé firmy ze stejného oboru",
+      "body": "Radim Ječný slibuje vrátit státního nákladního dopravce ČD Cargo do zisku, vedle jeho řízení si ale ponechal vlastní soukromé firmy podnikající ve stejném oboru. Serveru Seznam Zprávy řekl, že přijal opatření, která střet zájmů vylučují, a že by prodej nic nevyřešil a trval by dlouho.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-na-dvou-zidlich-sef-statni-firmy-si-ponechal-sve-soukrome-spolecnosti-312384" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Claude Code přepne od 14. srpna nové relace na auto mode jako výchozí režim",
+      "body": "Anthropic oznámil, že od 14. srpna se v plánech Pro, Max a Team budou nové relace Claude Code spouštět rovnou v auto mode, kde nebezpečné příkazy místo dotazu na uživatele blokuje klasifikátor. Kdo si režim už sám nastavil, zůstane mu; u plánů Enterprise a API zůstává auto mode zatím volitelný a změna se plánuje v řádu měsíce. Firma to zdůvodňuje vlastními měřeními: uživatelé podle nich schválí 97 procent vyskakujících dotazů a v testu s 1053 účastníky zachytil klasifikátor 89 procent nebezpečných příkazů, zatímco lidé 13,6 procenta; po padesáti a více příkazech v jedné relaci lidé zastavili jen 5 procent. Týmy pracující v auto mode podle Anthropicu odesílají zhruba o čtvrtinu více pull requestů a Claude běží devětkrát déle mezi přerušeními. V doprovodném textu k nasazení v produkci firma doporučuje blokovat příkazy, které odesílají e-maily či zprávy na Slack, a zakázat rekurzivní mazání; zkušenosti popisují týmy z firem Nuro, Gusto a Garner Health.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/auto-mode-default-in-claude-code" },
+        { "name": "Claude Blog", "url": "https://claude.com/blog/auto-mode-in-production" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "19:56",
+      "day": "prev",
+      "headline": "Nejdiskutovanějším příspěvkem na Hacker News byly výsledky modelu DeepSeek V4 Flash",
+      "body": "Stránka s výsledky modelu DeepSeek V4 Flash 0731 v testech ARC Prize nasbírala na Hacker News 704 bodů a přes 420 komentářů, což z ní udělalo zdaleka nejsilnější příspěvek uplynulého dne.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://arcprize.org/results/deepseek-v4-flash-0731" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:07",
+      "headline": "Marek Ztracený zaplnil Letnou, podle pořadatelů přišlo 70 tisíc lidí",
+      "body": "Zpěvák Marek Ztracený odehrál v pátek večer koncert na Letenské pláni, kde se podle pořadatelů sešlo zhruba 70 tisíc lidí. Jako první český interpret tam měl vlastní koncert — dosud jeho největší akce hostil Eden. Podle Seznam Zpráv bylo překvapením večera létající klavír, hosty byli Adam Ďurica nebo Petr Čtvrtníček na bicích. Letenská pláň hostila velké hudební akce jen zřídka: před 30 lety tam vystoupil Michael Jackson, v roce 2003 Rolling Stones a slovenský Elán.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/kultura/zpiva-jak-mu-usta-narostla-a-chape-lidskou-dusi-koncert-marka-ztraceneho-byl_2608081507_elev" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-marek-ztraceny-letna-2026-koncert-reportaz-312302" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "08:00",
+      "headline": "Nově objevená Havlova hra Varování bude mít 26. září premiéru v New Yorku",
+      "body": "K nedožitým devadesátým narozeninám Václava Havla se v New Yorku 26. září uskuteční světová premiéra jeho nově objevené hry Varování. Jednoaktovka má dvě postavy — Ferdinanda Vaňka a příslušníka tajné policie jménem Šeřík — a nedávno se našla v pozůstalosti spisovatele a signatáře Charty 77 Zdeňka Urbánka. S částí hry se už v červenci mohli seznámit návštěvníci divadelního festivalu ve francouzském Avignonu.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150245/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "20:20",
+      "day": "prev",
+      "headline": "Palestinci na Západním břehu se bouří proti rostoucímu násilí izraelských osadníků",
+      "body": "Reportáž ČT24 popisuje, jak se obyvatelé Západního břehu brání útokům židovských osadníků, které podle ní mnohdy chrání vojáci nebo jim dokonce asistují. Velení armády to ostře odmítá, extremisté z řad osadníků se ale těší podpoře části izraelských ministrů. Za poslední tři roky v oblasti zahynulo přes 1100 Palestinců.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/zidovsti-osadnici-na-zapadnim-brehu-napadaji-palestince-a-kritizuji-i-vlastni-armadu-376389" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:52",
+      "headline": "Vondroušová dostala čtyřletý zákaz činnosti za odmítnutí dopingového vzorku",
+      "body": "Tenistka Markéta Vondroušová dostala čtyřletý zákaz činnosti poté, co odmítla odevzdat vzorek antidopingové komisařce. Její vysvětlení podle rozsudku naráží na několik rozporů. Tenisový novinář Jan Jaroch v rozhovoru pro Deník N říká, že hráčka „nemá v ruce nic“ a nemá jak se bránit, čtyřletý trest ale považuje za nepřiměřený. Rozebírá také, co se onoho večera stalo, zda trest znamená konec kariéry a jestli existuje šance rozsudek zvrátit.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2150394/vondrousova-nema-v-ruce-nic-nema-jak-se-branit-ctyrlety-trest-je-ale-neprimereny-rika-tenisovy-novinar/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150462/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:00",
+      "headline": "Menšík i Lehečka postoupili na turnaji v Montrealu do osmifinále",
+      "body": "Jakub Menšík zdolal ve třetím kole Masters v Montrealu Francouze Térence Atmana 7:5 a 6:4 a napodobil Jiřího Lehečku, který je v osmifinále také. Třináctého nasazeného Menšíka čeká Nizozemec Botic van de Zandschulp, Lehečka narazí podle Sport.cz na devatenáctiletého Španěla Rafaela Jódara, jeden z objevů sezony. Na turnaji v Torontu se po zranění vrátila Siniaková.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-mensik-napodobil-lehecku-na-turnaji-v-montrealu-je-rovnez-v-osmifinale-5512206" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-je-v-montrealu-v-osmifinale-158308" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-pred-leheckou-stoji-zazracny-mladik-utoci-na-unikat-ktery-nezvladli-ani-djokovic-s-nadalem-5512216" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:06",
+      "headline": "Čeští hokejisté do 18 let skončili na Hlinka Gretzky Cupu šestí, kapitán mluví o ostudě",
+      "body": "Česká osmnáctka prohrála v Edmontonu zápas o 5. místo se Švýcarskem 1:5 a turnaj zakončila na šestém místě z osmi účastníků. Svěřenci trenéra Jaroslava Nedvěda mají bilanci jedné výhry a tří porážek, inkasovali 19 branek a přehráli jen Německo. Jediný český gól dal v přesilové hře šestnáctiletý obránce Lukáš Kachlíř, švýcarskou výhru řídil dvěma góly a asistencí Léo Ulrich. „Je to pro nás strašná ostuda,“ řekl podle Sport.cz kapitán týmu. Před turnajem přitom Češi ve třech přípravných zápasech nedostali gól a porazili Kanadu 6:0.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/hokej-reprezentace-strasna-ostuda-rikal-kapitan-osmnactky-popravila-nas-defenziva-pridal-nedved-5512213" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/hokej/strelecka-prevaha-nestacila-osmnactka-prohrala-i-se-svycarskem-158309" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:42",
+      "headline": "Puškařka Katz vybojovala na ME do 23 let titul v třípolohové střelbě",
+      "body": "Dvacetiletá Klaudie Katz se na šampionátu střelců do 23 let ve Vratislavi stala mistryní Evropy v olympijské třípolohové střelbě z malorážky. Navázala tak na páteční triumf oddílové kolegyně z Dukly Plzeň Veroniky Šindlerové ve sportovní pistoli. Kvalifikaci puškařek vyhrála olympionička Veronika Blažíčková, ve finále obsadila páté místo.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/puskarka-katz-je-mistryni-evropy-do-23-let-v-tripolohove-strelbe-158318" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/ostatni-puskarka-katz-ziskala-na-me-do-23-let-titul-v-olympijske-tripolohove-strelbe-5512231" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:47",
+      "headline": "Česká párová čtyřka juniorek získala na mistrovství světa ve veslování stříbro",
+      "body": "Posádka ve složení Terezie Cikánková, Diana Lankočí, Tea Vetešníková a Anita Syrůčková vybojovala na juniorském mistrovství světa v Plovdivu stříbrnou medaili. Ve finále nestačila jen na polskou čtyřku, která byla o 1,59 sekundy rychlejší.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/veslovani/parova-ctyrka-juniorek-si-vyjela-v-plovdivu-svetove-stribro-158315" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-parova-ctyrka-juniorek-vybojovala-na-veslarskem-mistrovstvi-sveta-stribro-5512224" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:45",
+      "headline": "Infantino měl v UEFA zařídit údajné milence vysoké odstupné, píše Telegraph",
+      "body": "Britský deník The Telegraph obvinil prezidenta FIFA Gianniho Infantina, že v době svého působení v UEFA zajistil pro spolupracovnici a údajnou milenku vysoké odstupné. Evropská fotbalová unie platbu ženě potvrdila, světová federace popřela, že by se její šéf dopustil nevhodného chování. Infantino si mezitím při návštěvě Kolumbie zajistil podporu několika jihoamerických svazů, smířlivě se po schůzce v Cali vyjádřil i prezident konfederace CONMEBOL Alejandro Domínguez. V pátek přitom norský fotbalový svaz žádal Infantinovu rezignaci.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150417/" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-telegraph-infantino-v-dobe-pusobeni-v-uefa-zajistil-milence-vysoke-odstupne-5512223" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jeho-skvela-prace-se-neda-ignorovat-zni-z-jizni-ameriky-na-infantinovu-adresu-158312" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:12",
+      "day": "prev",
+      "headline": "Liberec vyhrál v Brně 1:0 a připravil Zbrojovku o neporazitelnost",
+      "body": "Slovan Liberec zvítězil ve 3. kole první ligy na hřišti Zbrojovky Brno 1:0 gólem slovenského záložníka Patrika Dulaye po hodině hry. Nováček soutěže tak prohrál poprvé, dosud zdolal Spartu a remizoval v Plzni; Liberec naopak po výhře v Plzni vyhrál i podruhé za sebou. Sport.cz upozorňuje na sporný moment z deváté minuty, kdy sudí Lukáš Nehasil po konzultaci s videem odvolal červenou kartu pro brněnského stopera Filipa Vedrala, který už mířil do kabin.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/liberec-diky-golu-dulaye-pripravil-zbrojovku-o-neporazitelnost-158306" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-podivny-zakrok-v-brne-stoper-zbrojovky-uz-miril-do-kabin-nakonec-dohral-5512204" }
+      ]
+    }
+  ]
+}
