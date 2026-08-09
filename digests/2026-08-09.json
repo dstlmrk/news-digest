@@ -1,0 +1,328 @@
+{
+  "date": "2026-08-09",
+  "covers": "2026-08-09",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra zataženo a horko, přes den až 33 °C, beze srážek. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      { "date": "2026-08-10", "icon": "cloudy", "temp_max_c": 32.6, "temp_min_c": 18.9 },
+      { "date": "2026-08-11", "icon": "cloudy", "temp_max_c": 25.6, "temp_min_c": 16.9 },
+      { "date": "2026-08-12", "icon": "partly", "temp_max_c": 24.6, "temp_min_c": 12.4 },
+      { "date": "2026-08-13", "icon": "cloudy", "temp_max_c": 26.5, "temp_min_c": 12.7 }
+    ]
+  },
+  "highlights": [
+    "Filip Salač vyhrál Velkou cenu Británie v Moto2 a je prvním českým vítězem závodu motocyklového mistrovství světa po šestnácti letech.",
+    "Izrael znovu odmítl patnáctibodový mírový plán pro Gazu, který navrhla Rada míru ustavená Donaldem Trumpem.",
+    "Místopředseda ANO Radek Vondráček řekl, že hnutí by mělo mít v prezidentských volbách svého kandidáta; Miloš Zeman za optimálního označil právě jeho.",
+    "Hladina Orlické přehrady klesla o jedenáct metrů, některá místa odhalují základy domů zatopených obcí."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:56",
+      "headline": "Vondráček mluví o kandidatuře ANO na Hrad, Zeman navrhuje přímo jeho",
+      "body": "Hnutí ANO si nemůže dovolit přejít prezidentské volby a mělo by mít svého kandidáta, případně aspoň někoho podpořit. V diskusním pořadu Poledne s Moravcem to řekl místopředseda hnutí a šéf sněmovního zahraničního výboru Radek Vondráček. Zda by kandidoval sám, si podle svých slov ještě rozmyslí, je to prý velká „debata se sebou samým“. Bývalý prezident Miloš Zeman řekl Mladé frontě DNES, že Vondráček by byl optimálním kandidátem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/kandidat-ano-na-hrad-zeman-navrhuje-vondracka-ten-si-pry-musi-vyrikat-sam-se_2608091408_med" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150911/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:52",
+      "headline": "Hladina Orlické přehrady klesla o jedenáct metrů, sucho dál sílí",
+      "body": "Hladina Orlické přehrady klesla o jedenáct metrů a některá místa odhalují základy domů zatopených obcí. Podle iROZHLASu sucho zasáhlo všechny přítoky Vltavy, některé z nich mají průtoky na historických minimech, a klesají i hladiny přehrad Vltavské kaskády. Deník N upozorňuje, že o víkendu přibyly na meteorologické mapě sucha desítky dalších míst. Zásobování Brna pitnou vodou přitom podle Deníku N v nejbližších měsících ohrožené není, město ale musí víc čerpat z vírské přehrady: loni ve stejném období z ní pocházelo šestnáct procent vody, letos 37 procent.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/priroda/hladina-orlicke-prehrady-klesla-o-11-metru-nektera-mista-odhaluji-zaklady-domu_2608091152_bva" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150825/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150772/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:47",
+      "headline": "Iniciativa Dárek pro Putina chce podat trestní oznámení kvůli zpochybnění nákupu vrtulníku",
+      "body": "Zástupce iniciativy Dárek pro Putina Martin Ondráček chce podat trestní oznámení pro pomluvu. Reaguje na sobotní příspěvek anonymního profilu Thomas Paukner, který zpochybnil nákup vrtulníku „Čestmír“ pořízeného z veřejné sbírky pro ukrajinskou armádu. Podle serveru Novinky, na který se Deník N odvolává, autor příspěvku tvrdil, že stroj na Ukrajinu nikdy neodletěl.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150931/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:01",
+      "headline": "Strážci s policií rozdávali na Sněžce pokuty, řešili i rozdělané ohně",
+      "body": "Strážci českého a polského Krkonošského národního parku se v neděli ráno zaměřili na turisty, kteří přišli na nejvyšší českou horu sledovat východ slunce; pomáhali jim policisté. Přestože byli na místě s předstihem, aby působili preventivně, museli řešit 23 přestupků a pokuty ukládali příkazem na místě. Mezi prohřešky bylo i rozdělávání ohňů. Podle iDNES.cz dorazilo v pět ráno na vrchol pět set lidí, návštěvnost Sněžky je v létě extrémní.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/neukazneni-navstevnici-na-snezce-rozdelavali-i-ohne-pri-nedelni-ranni-kontrole_2608091201_elev" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/strazci-parku-na-snezce-kontrolovali-turisty-pred-vychodem-slunce-padly-pokuty.A260809_111052_hradec-zpravy_lpo#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:26",
+      "headline": "Kruhový objezd v Solnici se od pondělí na tři měsíce uzavře",
+      "body": "Řidiče na Rychnovsku čeká výrazné dopravní omezení. Od pondělí 10. srpna se na tři měsíce uzavře kruhový objezd v Domašínské ulici v Solnici. Důvodem jsou práce na napojení budovaného obchvatu města.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/doprava/25009-kruhovy-objezd-v-solnici-na-rychnovsku-se-zitra-na-tri-mesice-uzavre.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:02",
+      "headline": "Brutal Assault přilákal do Pevnosti Josefov na dvacet tisíc fanoušků",
+      "body": "Festival Brutal Assault v Pevnosti Josefov u Jaroměře skončil. Přilákal na dvacet tisíc fanoušků tvrdé hudby ze všech koutů světa a nabídl hodně přes stovku kapel.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/brutal-assault-2026-metal-festival-video-foto-galerie/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:01",
+      "headline": "Fotbalisté Hradce hostí Baník, ve čtvrtek je čeká odveta s Besiktasem",
+      "body": "Královéhradečtí fotbalisté nastupují v nedělním programu 3. ligového kola od 17 hodin proti Baníku Ostrava. Podle Radiožurnálu si chtějí spravit chuť po evropské prohře s Besiktasem, se kterým je ve čtvrtek čeká odveta.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-hradec-kralove-banik-ostrava-online-vysledek.A260807_124756_fotbal_duff#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-slavia-praha-fc-slovacko-sk-sigma-olomouc_2608091010_ssi" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:35",
+      "headline": "Izrael znovu odmítl patnáctibodový mírový plán pro Gazu",
+      "body": "Izraelský premiér Benjamin Netanjahu znovu odmítl patnáctibodový mírový plán pro Pásmo Gazy, který navrhla Rada míru ustavená americkým prezidentem Donaldem Trumpem. Zopakoval, že se izraelská armáda nestáhne, dokud se hnutí Hamás zcela neodzbrojí. Dokument předpokládá postupné, ale úplné odzbrojení Hamásu a všech palestinských skupin v Pásmu Gazy a zároveň stažení izraelské armády z oblasti. Rada míru minulý měsíc oznámila, že dohody o „úplném odzbrojení“ Hamásu a dalších ozbrojených skupin dosáhla; Hamás ale podle Deníku N uvedl, že odevzdání těžkých zbraní je podmíněno ukončením „všech forem agrese“. ČT24 dodává, že Hamás plán už dříve přijal.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-izrael-znovu-odmitl-mirovy-plan-pro-gazu-navrzeny-trumpovou-radou-miru-312742" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/izrael-znovu-odmitl-mirovy-plan-pro-gazu-376420" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150884/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:46",
+      "headline": "Rusko v noci zasáhlo Charkov i Oděsu, ukrajinské drony útočily na Bělgorod",
+      "body": "Ruský útok na obytné budovy v Charkově si podle tamního starosty Ihora Terechova vyžádal tři mrtvé a 37 zraněných. Poškozené domy hlásí i Oděsa, kde bylo zraněno nejméně dvanáct lidí; podle iROZHLASu šlo asi o dvacet raket různých typů a desítky dronů typu šáhid a lidé ve městě mluví o nejhorší noci letošního roku. Dalších jedenáct lidí utrpělo zranění po úderech v Dněpropetrovské oblasti, v Záporožské oblasti zemřel záchranář. Útoky hlásí i ruská strana: podle regionálního krizového centra v Bělgorodské oblasti zemřelo při útoku ukrajinských dronů pět lidí, úřadující gubernátor Alexandr Šuvajev ale podle agentury Reuters mluvil o třech mrtvých a 25 zraněných. Údaje se tak liší. Šuvajev uvedl, že útok způsobil požáry ve dvou bytových domech a poškodil velké množství budov.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-v-takove-blizkosti-jsme-jeste-nezazili-lide-v-odese-se-vyporadavaji-s_2608091646_kma" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-utocili-na-charkov-a-odesu-udery-hlasi-i-urady-v-belgorodu-376411" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150821/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:12",
+      "headline": "Húthíové se přihlásili k útoku na rafinerii Aramco na saúdském pobřeží Rudého moře",
+      "body": "Jemenští Húthíové tvrdí, že zasáhli rafinerii společnosti Aramco v Džizánu na saúdskoarabském pobřeží Rudého moře; podle Deníku N tam ráno vypukl požár. Povstalci uvedli, že útočili drony v reakci na saúdské údery na jemenské provincie Sa'ada a Hadždža. Podle ČT24 zároveň oznámili raketové a dronové údery na přístavní město Muchá, které je pod kontrolou mezinárodně uznávané vlády v Adenu. Húthíové pokračují v útocích posledních týdnů na Saúdskou Arábii, zejména na ropnou infrastrukturu a tankery v Rudém moři; koncem července vyhlásili blokádu země.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-huthiove-tvrdi-ze-zasahli-saudskoarabskou-rafinerii-na-pobrezi-rudeho-more-312732" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/jemensti-hutiove-tvrdi-ze-zasahli-saudskoarabskou-rafinerii-376413" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150801/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:38",
+      "headline": "Zelenskyj mluví o až 50 tisících severokorejských vojáků v Rusku",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj uvedl, že v Rusku bude nasazeno až 50 tisíc severokorejských vojáků, a vyzval Jižní Koreu, aby Ukrajině pomohla v oblasti protivzdušné obrany. V sobotu na síti X napsal, že „bylo přijato rozhodnutí o nasazení 30 000 až 50 000 Severokorejců na území Ruska“. Je to vyšší číslo než jeho červencový odhad 30 tisíc. Zelenskyj nespecifikoval, jak tyto informace získal.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150957/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:01",
+      "headline": "Sýrie a Rusko se dohodly na budoucnosti ruských základen Tartús a Hmímím",
+      "body": "Sýrie a Rusko po roce a půl dosáhly dohody o reorganizaci ruské vojenské přítomnosti na základnách Tartús a Hmímím, oznámilo syrské ministerstvo zahraničních věcí. Moskva obě zařízení na syrském pobřeží využívala k podpoře bývalého prezidenta Bašára Asada.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-syrie-se-dohodla-s-ruskem-o-budoucnosti-ruskych-zakladen-312745" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150913/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:28",
+      "headline": "Tchaj-wan chce příští rok zvýšit obranné výdaje o šestnáct procent",
+      "body": "Tchajwanská vláda navrhne pro rok 2027 meziroční nárůst výdajů na obranu o šestnáct procent. Poprvé by tak překročily hranici jednoho bilionu tchajwanských dolarů, tedy 31 miliard amerických dolarů; informovala o tom oficiální agentura Central News Agency. Krok přichází v době, kdy Čína už několikátým rokem zesiluje vojenský a politický tlak na Tchaj-wan, který považuje za své vlastní území.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150816/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:24",
+      "headline": "Tajfun Dolphin zasáhl východ Číny, evakuováno bylo přes milion lidí",
+      "body": "Tajfun Dolphin dorazil na hustě obydlené východní pobřeží Číny, kde úřady evakuovaly z nejohroženějších míst přes milion lidí. Podle Seznam Zpráv země ruší lety i vlakové spoje a uzavírá přístavy, bouře už urazila přes pět tisíc kilometrů a třikrát zesílila na supertajfun. Dvě hlavní letiště v Šanghaji zrušila téměř 1400 letů, dříve tajfun zranil na japonské Okinawě sedm lidí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-cina-se-pripravuje-na-bileho-delfina-blizi-se-vytrvaly-tajfun-312736" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150900/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:00",
+      "headline": "Dovoz ojetých aut do Česka vzrostl o 9,3 procenta na 94 tisíc vozů",
+      "body": "Za sedm měsíců letošního roku dovezli Češi ze zahraničí 94 048 ojetých osobních aut, meziročně o 9,3 procenta víc. Průměrné stáří dovezených vozů kleslo o desetinu roku na 10,4 roku a podíl aut starších deseti let činil 48 procent. E15 dodává, že mezi dovezenými vozy je vedle škodovek a volkswagenů i přes sto Ferrari a desítky Lamborghini či Rolls-Royce.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/cesi-ve-velkem-vozi-ojetiny-ze-zahranici-mezi-nimi-i-pres-sto-ferrari-a-desitky-lamborghini-1434847" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150785/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:44",
+      "headline": "Kypr míří k těžbě zemního plynu a chce se stát novým zdrojem pro Evropu",
+      "body": "Kypr se chystá těžit zemní plyn z ložiska Cronos a mohl by se tak stát novým zdrojem energie pro Evropu. Ta kvůli válce na Ukrajině a nestabilitě na Blízkém východě hledá alternativy k ruskému plynu.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-situace-ve-svete-zene-evropu-k-novym-zdrojum-plynu-nadeji-nabizi-i-kypr-312731" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:04",
+      "headline": "Umělá inteligence podle odbornice ohrozí až třetinu juniorních pozic v Česku",
+      "body": "Nástup umělé inteligence na trh práce dopadne především na začínající profesionály, ohrozit může až třetinu juniorních pozic v Česku. Podle expertů, které cituje Seznam Zprávy, na to Česko není připravené.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-umela-inteligence-ohrozi-az-tretinu-juniornich-pozic-v-cesku-rika-odbornice-312738" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:53",
+      "headline": "Školy se kvůli umělé inteligenci vracejí k papíru a tužce",
+      "body": "Umělá inteligence urychluje obrat, který v části evropských škol začal už dřív: návrat k ústnímu přezkušování, kontrolovanému psaní, tištěným učebnicím a staré metodě „tužka a papír“. Důvodem je podle Seznam Zpráv to, že AI svádí žáky k podvodům.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-skoly-se-vraci-k-metode-papir-tuzka-umela-inteligence-svadi-zaky-k-podvodum-312740" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "06:00",
+      "headline": "Obchodníci se připravují na AI asistenty, kteří nakupují za lidi",
+      "body": "Online nakupování vstupuje podle E15 do fáze, kdy lidem s výběrem i objednávkou pomáhají agenti s umělou inteligencí. České i zahraniční firmy už testují samostatné systémy, které dokážou vyhledat zboží i připravit celý nákup. Vedle e-shopů a mobilních aplikací tak vzniká nový distribuční kanál.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/ai-asistenti-zacinaji-nakupovat-za-lidi-obchodnici-se-pripravuji-na-novy-prodejni-kanal-1434774" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "08:17",
+      "headline": "Ve středu bude možné pozorovat částečné zatmění Slunce, po setmění pak Perseidy",
+      "body": "Částečné zatmění Slunce doprovázené odborným výkladem bude možné pozorovat ve středu 12. srpna večer na řadě míst po celé zemi — nejen na hvězdárnách a v planetáriích, ale třeba i na letišti, dělostřelecké tvrzi nebo na terase ještědského vysílače. Po setmění bude podle Deníku N možné sledovat také meteorický roj Perseidy.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150770/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "14:44",
+      "headline": "Ukrajinští veteráni cvičí na okraji Prahy české operátory dronů",
+      "body": "Na okraji Prahy běží výcvik operátorů bezpilotních letounů, který vedou ukrajinští váleční veteráni. „Je to jako dělat řidičák rovnou ve formuli 1,“ říká jedna ze studentek kurzu v reportáži Seznam Zpráv.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-jako-ridicak-ve-formuli-1-veterani-z-ukrajiny-cvici-cechy-na-dronovou-valku-312615" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "06:30",
+      "headline": "Indie a Čína obnovily dialog, jejich hranice v Himálaji je ale militarizovanější než dřív",
+      "body": "Indie a Čína po krvavém střetu obnovují dialog, jejich sporná hranice je ale militarizovanější než dřív a čínská fronta se přibližuje té pákistánské. Analýza Seznam Zpráv se ptá, nakolik závažný je střet tří jaderných mocností na „střeše světa“.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-indie-mezi-dvema-frontami-himalaj-se-meni-v-ozbrojenou-pevnost-312572" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:54",
+      "headline": "Salač vyhrál v Silverstonu Moto2 a je prvním českým vítězem závodu MS po šestnácti letech",
+      "body": "Čtyřiadvacetiletý Filip Salač vyhrál ve Velké ceně Velké Británie závod kategorie Moto2 a připsal si první vítězství v motocyklovém mistrovství světa v kariéře. Je to první český triumf v seriálu po šestnácti letech, naposledy uspěl Karel Abraham v roce 2010 ve Valencii. Salač v Silverstonu vylepšil svá dvě letošní pódiová umístění v Maďarsku a doma v Brně. Podle Sport.cz je celkově čtvrtým Čechem, který závod mistrovství světa vyhrál — před ním to dokázali jen František Šťastný a Lukáš Pešek.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/filip-salac-moto2-silnicni-motocross_2608091354_ssi" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/motorsport/senzacni-salac-ve-velke-cene-britanie-slavi-premierove-vitezstvi-v-moto2-158335" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/moto-motocykly-senzacni-triumf-salac-poprve-v-kariere-vyhral-zavod-ms-5512579" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:56",
+      "headline": "Slavia zůstává v lize stoprocentní, Sparta prohrála v Boleslavi a Teplice s Plzní remizovaly 5:5",
+      "body": "Slavia v Edenu porazila poslední Pardubice 2:1, oba góly mistra vstřelil reprezentační útočník Mojmír Chytil; hosté dlouho odolávali a po trefě Tomáše Solila i vyrovnali. V sobotu prohrála Sparta v Mladé Boleslavi 0:2 po rozhodující brance bývalého slávisty Martina Šuberta, Boleslav je v čele tabulky. Trenér Sparty Brian Priske připustil, že druhá porážka za tři kola je v boji o titul problém. Teplice s Plzní remizovaly 5:5, ačkoli po deseti minutách prohrávaly o tři branky — podle ČT Sport šlo o duel s druhým nejvyšším počtem gólů v ligové historii. Zlín prohrál s Bohemians 1905 0:2 a stále čeká na první body.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-chytil-zaridil-slavii-dalsi-vyhru-slavia-udolala-pardubice-5512672" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/v-teplicich-padlo-deset-golu-zlin-zustava-nulovy-158324" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/druha-porazka-na-startu-sezony-je-v-boji-o-titul-problem-pripustil-priske-158332" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:16",
+      "headline": "Tyčkařka Krutilová vyhrála juniorské mistrovství světa, Juliš přidal bronz",
+      "body": "Nicole Krutilová je juniorskou mistryní světa v skoku o tyči, v americkém Eugene zvítězila výkonem 445 centimetrů. Navázala tak na osm let staré zlato Amálie Švábíkové z šampionátu v Tampere. Desetibojař Adam Juliš si ziskem 7877 bodů vylepšil osobní rekord a bral bronz. Česká výprava tak má podle Deníku N z Oregonu kompletní sbírku cenných kovů, stříbro už ve středu vybojovala smíšená štafeta na 4×400 metrů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/tyckarka-krutilova-je-juniorskou-mistryni-sveta-158329" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150792/" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-neuveritelny-pocit-malem-nezavodila-ted-dojata-ceska-slavi-juniorske-svetove-zlato-5512564" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:46",
+      "headline": "Čeští vodní slalomáři získali na mládežnickém ME pět medailí v časovce kayakcrossu",
+      "body": "Na mládežnickém mistrovství Evropy ve francouzském Épinalu získali čeští vodní slalomáři pět medailí v časovce kayakcrossu. Juniorky obsadily kompletní stupně vítězů v čele s vítěznou Lucií Vaculovou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/vodni-slalom/vodni-slalomari-jsou-na-mej-k-nezastaveni-v-casovce-kayakcrossu-ziskali-pet-medaili-158337" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-vodni-slalomari-ziskali-na-mej-v-casovce-pet-medaili-zlato-ma-vaculova-5512635" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:23",
+      "headline": "FIFA obvinila své kritiky ze šíření dezinformací a postavila se za Infantina",
+      "body": "Mezinárodní fotbalová federace FIFA, která se po krachu kontroverzního plánu na prodej práv na mistrovství světa investorům ocitla pod tlakem, přešla do protiútoku. Na síti X obvinila kritiky z úmyslného šíření dezinformací a zdůraznila, že prezident Gianni Infantino má plnou podporu federace. „Je stále jasnější, že někteří aktéři se úmyslně a neustále snaží oslabit FIFA a jejího prezidenta,“ napsala.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fifa-presla-do-protiutoku-kritici-se-nas-umyslne-snazi-oslabit-siri-dezinformace_2608091223_elev" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/kritici-siri-dezinformace-infantina-nedame-hlasi-fifa-158333" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2150865/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:09",
+      "day": "prev",
+      "headline": "Basketbalistou roku je podeváté Satoranský, mezi ženami poprvé vyhrála Čechová",
+      "body": "Nejlepším českým basketbalistou uplynulé sezony byl vyhlášen Tomáš Satoranský, a to už podeváté. Mezi ženami získala ocenění poprvé dvaadvacetiletá pivotka Emma Čechová, která v květnu odešla ze ZVVZ USK Praha do Minnesoty do zámořské ligy WNBA.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/basketbal/basketbalistou-roku-je-podevate-satoransky-cechova-slavi-poprve-158325" }
+      ]
+    }
+  ]
+}
