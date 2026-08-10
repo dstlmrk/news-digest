@@ -1,0 +1,345 @@
+{
+  "date": "2026-08-10",
+  "covers": "2026-08-10",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "iDNES Hradec",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a výrazně chladněji než dnes, denní teplota vystoupá jen k 26 °C a srážky nečekejte. Foukat bude vítr s nárazy až 34 kilometrů v hodině, kvalita ovzduší má být přijatelná.",
+    "days": [
+      { "date": "2026-08-11", "icon": "cloudy", "temp_max_c": 25.6, "temp_min_c": 17.3 },
+      { "date": "2026-08-12", "icon": "partly", "temp_max_c": 24.4, "temp_min_c": 12.5 },
+      { "date": "2026-08-13", "icon": "partly", "temp_max_c": 26.6, "temp_min_c": 11.9 },
+      { "date": "2026-08-14", "icon": "partly", "temp_max_c": 29.9, "temp_min_c": 12.8 }
+    ]
+  },
+  "highlights": [
+    "Ministerstvo zdravotnictví chystá přesun složitých operací do největších nemocničních center, podle Deníku N by menší nemocnice mohly přijít i o běžnější výkony.",
+    "Zemětřesení o síle 7,4 stupně na západě Kolumbie si vyžádalo nejméně 22 mrtvých.",
+    "Nezaměstnanost v Česku v červenci stoupla na pět procent, bez práce je přes 367 tisíc lidí."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "06:04",
+      "headline": "Ministerstvo zdravotnictví chce složité operace soustředit do velkých center",
+      "body": "Ministerstvo zdravotnictví podle Deníku N chystá největší přesun specializované péče za poslední roky: složité operace chce soustředit jen do největších nemocničních center. Začít má u vzácných onkologických zákroků, už od příštího roku se ale má do velkých nemocnic přesouvat řada dalších výkonů. Deník N zjistil, že většina regionálních nemocnic by mohla přijít i o běžnější operace, které každý rok podstupují tisíce pacientů. Server k tomu zveřejnil mapy, ze kterých je vidět, jaké zákroky mají ve kterých nemocnicích zůstat a odkud zmizí.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2146035/bude-to-obrovska-zmena-ministerstvo-zdravotnictvi-chysta-tichou-revoluci-v-nemocnicich/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2148068/mapy-kam-se-presunou-slozite-operace-podivejte-se-jak-se-zmeni-sit-nemocnic/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "08:53",
+      "headline": "NKÚ našel v účetnictví Úřadu práce nedostatky za 5,6 miliardy korun",
+      "body": "Nejvyšší kontrolní úřad zjistil při kontrole účetnictví Úřadu práce ČR významné nedostatky v objemu 5,6 miliardy korun. Protože kontrola začala už loni, mohl úřad chyby průběžně opravovat: nesprávnosti za 3,5 miliardy korun opravil, zbývající nedostatky za zhruba dvě miliardy podle NKÚ nebyly z hlediska účetní závěrky významné. Kontrolní úřad o tom informoval v pondělí.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/kontrola-na-uradu-prace-zjistila-nedostatky-v-ucetnictvi-za-56-miliardy-376430" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:13",
+      "headline": "Policie obvinila v motolské korupční kauze další dvě firmy",
+      "body": "V souvislosti s motolskou korupční kauzou policie obvinila další dvě společnosti. Celkem tak stíhá devatenáct lidí a osm firem, řekla České televizi mluvčí Úřadu evropského veřejného žalobce Lidija Globokar. Mezi stíhanými je i bývalý ředitel motolské nemocnice Miloslav Ludvík a jeho někdejší náměstek Pavel Budinský. Oba byli v lednu propuštěni z vazby a jsou stíháni na svobodě.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/motolska-korupcni-kauza-se-dal-rozrusta-policie-obvinila-dalsi-dve-firmy-376449" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:00",
+      "headline": "Hradec chystá po kyberútoku za 46 milionů školení a testy nevídaného rozsahu",
+      "body": "Útok, při kterém městská Správa nemovitostí Hradec Králové přišla o 46 milionů korun, je podle iDNES.cz i po třech týdnech na magistrátu a v jeho organizacích tématem číslo jedna. Radnice mluví o bezprecedentních opatřeních, platí vyšetřovací embargo a chystají se školení a testy nevídaného rozsahu. Útočníci loni napadli i krajské hasiče, dosavadní školení na úřadech přitom bývají podle textu často jen formalita.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/napadeni-hackeru-hasici-hradec-kralove-sprava-nemovitosti-miliony-utoky-kybersmejdi.A260810_958446_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "20:36",
+      "day": "prev",
+      "headline": "Fotbalisté Hradce zdolali Baník 2:1, oba góly dal Slončík",
+      "body": "Hradec Králové v nedělním zápase 3. kola první ligy porazil doma Ostravu 2:1 a připsal si druhé vítězství v sezoně. Dvakrát skóroval Tom Slončík, ve 27. a 63. minutě, za hosty snížil na začátku druhého poločasu Matěj Chaluš. Baník hrál od konce první půle v oslabení po vyloučení Jevhenije Skyby. Trenér David Horejš zápasem překonal klubový rekord legendárního Ladislava Škorpila, na lavičce Votroků odkoučoval už 85. utkání v české nejvyšší soutěži. Ve čtvrtek Hradec čeká odveta 3. předkola Evropské ligy na hřišti Besiktase Istanbul.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/z-kraje/hradecko/25030-sloncik-dvakrat-skoroval-a-hradec-porazil-banik-2-1-dalsi-na-rade-je-besiktas.html" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-hradec-kralove-banik-ostrava-online-vysledek.A260807_124756_fotbal_duff#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/horejs-prekonal-skorpila-a-pokoril-banik-koukal-jsem-jak-zjara/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:45",
+      "headline": "Nezaměstnanost v Královéhradeckém kraji stoupla na 4,1 procenta",
+      "body": "Nezaměstnanost v Královéhradeckém kraji v červenci vzrostla o 0,2 procentního bodu na 4,1 procenta. Práci si v regionu hledalo 15 216 lidí, o 650 více než v červnu. Nabízených pracovních pozic v kraji naopak přibylo o 196 na 3996.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/nezamestnanost-kralovehradecky-kraj-cervenec-vzrostla/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:05",
+      "headline": "Zemětřesení na západě Kolumbie si vyžádalo nejméně 22 mrtvých",
+      "body": "Západ Kolumbie zasáhlo zemětřesení o síle 7,4 stupně s epicentrem v departementu Chocó. Nejméně 22 lidí zemřelo, uvedl odpoledne Deník N s odvoláním na El País; iROZHLAS a ČT24 dříve hlásily dvacet obětí, z toho osmnáct ve městě Pereira a dvě v Manizales. Otřesy svalily několik desítek budov v regionu Chocó, který patří k nejvíce postiženým oblastem, a k vážným škodám došlo i ve městě Cali. Tam se podle úřadů zřítilo nejméně dvacet budov a v sutinách je uvězněn neznámý počet lidí. Zemětřesení bylo cítit také v Ekvádoru a v Panamě, podle agentury Reuters ale nebylo vydáno varování před tsunami.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/zapad-kolumbie-zasahlo-zemetreseni-urady-mluvi-o-zranenych-376445" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/kolumbii-zasahlo-zemetreseni-o-sile-74-stupne-bylo-citit-i-ekvadoru-a-paname_2608101554_mst" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zapad-kolumbie-postihlo-zemetreseni-o-sile-74-stupne-jsou-zpravy-o-zranenych-312814" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151711/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:14",
+      "headline": "Ukrajinské drony zasáhly rafinerii v Tatarstánu, ruské úřady hlásí třináct mrtvých",
+      "body": "Ukrajina v noci na pondělí podnikla rozsáhlý dronový nálet v Tatarstánu. Ruské úřady po útoku na Nižněkamsk hlásí třináct mrtvých a 75 zraněných, ukrajinský generální štáb potvrdil, že zasažen byl velký ropný komplex Taneco, kde vypukl požár. Drony podle Deníku N zasáhly také petrochemický komplex ZapSibNěftěchim v sibiřském Tobolsku, tedy 2200 kilometrů od Ukrajiny; jeden z objektů hoří a míra poškození není známa. Rusko zároveň masivně ostřelovalo ukrajinská města: v obci Buhajivka v Charkovské oblasti zabilo pět lidí, při bombardování Záporoží bylo zraněno přes dvacet lidí a v Sumách i v Oděse nejméně čtrnáct. Podle ČT24 Moskva zničila i sklad Světové zdravotnické organizace v Dnipru a všechny čerpací stanice v městečku Opišňa v Poltavské oblasti.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-zautocila-na-rafinerii-v-tatarstanu-rusko-bombardovalo-sumy-376429" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajina-zautocila-na-rafinerii-v-tatarstanu-rusko-bombardovalo-sumy-312757" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151332/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151552/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:17",
+      "headline": "Výrobci patriotů se brání dát licenci Ukrajině, obávají se levnější výroby",
+      "body": "Americké zbrojovky Raytheon a Lockheed Martin nechtějí předat Ukrajině licenci na výrobu protiletadlových střel Patriot. Podle magazínu The Atlantic, ze kterého citovaly ČT24 i Deník N, se obávají, že by Ukrajina střely vylepšila a vyráběla je rychleji a za výrazně nižší náklady než Spojené státy. Oficiálním argumentem firem je riziko krádeže amerického intelektuálního vlastnictví, tedy především to, že by se výjimečné technologie mohli zmocnit Rusové. O licenci a dodávkách patriotů jednali ukrajinský prezident Volodymyr Zelenskyj a americký prezident Donald Trump na svém posledním setkání; Zelenskyj později uvedl, že současný počet dodávaných střel není dostatečný.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/vyrobci-raket-patriot-se-obavaji-ze-by-je-ukrajina-mohla-vyrabet-levneji-376439" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151226/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:21",
+      "headline": "Írán otevře Hormuzský průliv jen při splnění šesti požadavků, vzkázal Washingtonu",
+      "body": "V Íránu už podle Deníku N neberou Trumpovy výhrůžky vážně a vůči americkému prezidentovi ještě přitvrdili. Washingtonu vzkázali, že Hormuzský průliv otevřou pouze v případě, že Američané přistoupí na šest požadavků. „Írán chce zjistit, kolik by z toho mohl získat. Opravdu nespěchá,“ říká pro Deník N expert Gregory Brew. Způsob, jak z konfliktu vycouvat, podle serveru hledá i předseda amerického sboru náčelníků a Trump podle poradců připustil, že by válku mohl ukončit, aniž by s Íránem uzavřel jadernou dohodu.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151446/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2151154/trumpuv-svet-565-567-den-iran-pritvrdil-na-konec-valky-tlaci-uz-i-sef-americke-armady/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "headline": "Útok na tankery v Damiettě vyvolal obavy o bezpečnost Suezského průplavu",
+      "body": "Útok na tankery ve středomořském přístavu Damietta podle ČT24 vyvolal obavy o bezpečnost Suezského průplavu a Egypta jako alternativní obchodní trasy. Po blokádě Hormuzského průlivu hrozí jemenští hútíové, spojenci Íránu, uzavřením další strategické úžiny Báb al-Mandab a útočí na saúdská plavidla. Regionální konflikt se tak rozšířil do oblasti Rudého moře, které je klíčové pro globální lodní dopravu; podle expertů se tím Teherán snaží vyvinout ekonomický tlak na Spojené státy. Egypt už zpřísnil ochranu přístavů a vyslal do rizikové oblasti válečné lodě.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/valka-zasahla-rude-more-egypt-se-boji-o-suez-a-premistuje-sily-376438" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:27",
+      "headline": "Na dronu z letiště u Lipska našla policie DNA se shodou v Litvě",
+      "body": "Německá policie našla na dronu s výbušninou z letiště Lipsko/Halle stopy lidské DNA. Podle listu Die Zeit se genetická informace shoduje s DNA registrovanou v Litvě v souvislosti s dřívějším žhářským útokem na logistické centrum v Lipsku, konkrétní osobě ji ale úřady zatím nepřipsaly. Nové kamerové záběry podle Seznam Zpráv navíc mění pohled na celý incident: dron zasáhl ukrajinské nákladní letadlo už večer a explozi zabránila náhoda.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-dronu-s-vybusninou-z-letiste-u-lipska-nasli-policiste-stopy-dna-376450" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-dron-narazil-do-letadla-lipsko-bylo-vybuchu-bliz-nez-se-tusilo-312782" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:20",
+      "headline": "Nezaměstnanost v Česku stoupla v červenci na pět procent",
+      "body": "Nezaměstnanost v Česku v červenci stoupla na pět procent z červnových 4,8 procenta. Úřady práce evidovaly 367 346 uchazečů o zaměstnání, o 11 212 více než měsíc předtím a proti loňskému červenci téměř o 38 tisíc více. Podle ministra práce a sociálních věcí Aleše Juchelky (ANO) jde o tradiční prázdninový mírný nárůst. Zvýšil se i počet volných pracovních míst, a to o 1078 na 100 932 pozic. Nejhorší situace zůstává podle E15 na Karvinsku a Mostecku, kde nezaměstnanost přesahuje deset procent.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151221/" },
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/bez-prace-je-uz-pres-367-tisic-cechu-nezamestnanost-vzrostla-na-pet-procent-1434858" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:53",
+      "headline": "Hypoteční sazby vzrostly popáté v řadě a jsou nejvýše za dva roky",
+      "body": "Hypoteční sazby v srpnu vzrostly popáté v řadě a dostaly se nejvýše za poslední dva roky. Průměrná nabídková sazba podle Deníku vystoupala na 5,42 procenta. Modelová hypotéka na 3,5 milionu korun podle E15 zdražila od března na splátce zhruba o 1100 korun měsíčně. Výraznější další růst sazeb se podle expertů neočekává, jejich pokles ale bude velmi pomalý.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/cechum-dal-zdrazuji-hypoteky-sazby-vystoupaly-na-dvoulete-maximum-1434851" },
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/ekonomika/cesko-ekonomika-hypoteky-dal-zdrazuji/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:26",
+      "headline": "Revolut získal francouzskou bankovní licenci a v Paříži otevře evropskou centrálu",
+      "body": "Fintechová společnost Revolut získala bankovní licenci ve Francii, žádost posuzovaly Evropská centrální banka i francouzský regulátor ACPR. Londýnská firma podle E15 otevře příští rok v Paříži centrálu pro celou západní Evropu, chce v regionu proinvestovat přes miliardu eur a vytvořit více než 600 pracovních míst. Bankovní licenci Revolut už dříve získal ve Velké Británii a v Litvě, odkud dosud obsluhuje část svých klientů v Evropské unii.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151243/" },
+        { "name": "E15", "url": "https://www.e15.cz/finexpert/banky-a-ucty/revolut-ziskal-francouzskou-licenci-v-parizi-vybuduje-evropske-ustredi-1434871" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:00",
+      "headline": "Čínské automobilky obcházejí evropská cla výrobou v továrnách svých rivalů",
+      "body": "Čínské automobilky podle E15 stále rychleji obsazují evropský trh a jejich vozy se už vyrábějí přímo v evropských továrnách. Stellantis, Nissan či Ford otevírají nevyužité kapacity čínským partnerům, kteří se tím zároveň vyhýbají evropským clům. Prodej čínských aut v Evropě v prvním čtvrtletí vzrostl o 88 procent a jejich tržní podíl dosáhl osmi procent.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/cinane-nasli-klicku-jak-obejit-evropska-cla-auta-ted-vyrabeji-primo-u-svych-rivalu-1434852" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:15",
+      "headline": "Meta uvolnila model Muse Glimmer, který má běžet přímo na počítači uživatele",
+      "body": "Meta v pondělí oznámila nový model umělé inteligence Muse Glimmer. Je menší než přední modely konkurence a má běžet přímo na počítačích uživatelů, firma ho zpřístupní jako open source. Podle titulku příspěvku na Hacker News, který posbíral přes 500 bodů, jde o model s otevřenými vahami o velikosti 30 miliard parametrů určený pro práci s kódem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/meta-vyrazi-proti-drahe-ai-novy-model-pobezi-primo-na-zarizeni-uzivatele-1434877" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-spolecnost-meta-spustila-novy-model-umele-inteligence-muse-glimmer-312806" },
+        { "name": "Hacker News", "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:26",
+      "headline": "Aplikace pro zapisování schůzek nechala volně přístupných přes 181 tisíc nahrávek",
+      "body": "Mezi nejdiskutovanějšími odkazy dne na Hacker News byl text, podle kterého zůstalo v jedné aplikaci pro zapisování schůzek volně přístupných více než 181 tisíc nahrávek porad zpracovávaných umělou inteligencí. Příspěvek posbíral přes 200 bodů a 69 komentářů.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://bobdahacker.com/blog/tldv-hack" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:00",
+      "headline": "Polovinu slovenské firmy Sudolabs koupila americká investiční skupina",
+      "body": "Slovenská AI firma Sudolabs získala nového spolumajitele, polovinu firmy koupila investiční skupina, která podle E15 stojí například za fotbalovou Chelsea a baseballovými Dodgers. Cenu obchodu společnosti neuvedly, podle odhadu E15 jde o vyšší desítky milionů dolarů. Firma chce se svými AI agenty expandovat do Spojených států a v příštích dvou letech by mělo vzniknout mnoho nových pozic pro inženýry i obchodníky, a to nejen v Česku a na Slovensku, ale i v USA.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/slovensky-sudolabs-prilakal-americkeho-dravce-za-desitky-milionu-dolaru-chce-s-ai-agenty-dobyt-usa-1434849" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "11:51",
+      "headline": "Zemřel spisovatel Vladimír Páral, a to v den svých 94. narozenin",
+      "body": "V noci na pondělí zemřel v chebské nemocnici spisovatel Vladimír Páral, právě v den svých 94. narozenin. Informaci potvrdil jeho přítel Jaroslav Beneš. Autor románů Milenci a vrazi a Mladý muž a bílá velryba psal později také sci-fi. Na koupi jeho próz stáli lidé za komunistického režimu fronty a řadu z nich zpracovali filmaři. V roce 2010 dostal Páral Cenu Ladislava Fukse za celoživotní přínos české literatuře.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-zemrel-vladimir-paral-uspesnemu-spisovateli-bylo-94-let-312775" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151342/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/kultura/zemrel-spisovatel-vladimir-paral-376433" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:15",
+      "headline": "Kulturní organizace žádají stažení nové státní kulturní politiky, ministr odmítá",
+      "body": "Kulturní a kreativní federace a dalších šedesát organizací, institucí, spolků, platforem i odborů z kultury poslaly vládě otevřený dopis, ve kterém požadují okamžité stažení dokumentu Státní kulturní politika ČR 2026–2030. Vznikl podle nich netransparentně a bez dostatečné participace, a proto odmítají legitimizovat materiál, který má určovat směřování české kultury minimálně na následující čtyři roky. Dopis místo něj žádá uplatňovat kulturní politiku, kterou na podzim přijala předchozí vláda Petra Fialy. Ministr kultury Oto Klempíř (za Motoristy) odpoledne prohlásil, že navzdory kritice není na snaze nový dokument prosadit důvod nic měnit. Navazuje to na kritiku odborníků z konce minulého týdne.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ke-stazeni-vladni-kulturni-politiky-vyzvaly-profesni-organizace-spolky-i-odbory-376431" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151186/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2151495/" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "12:18",
+      "headline": "Západní Evropa měla rekordně teplý začátek léta, oceány byly nejžhavější v historii měření",
+      "body": "Západní Evropa zažila letos v červnu a červenci rekordně teplý začátek léta a maximální teploty zaznamenaly v červenci podruhé za sebou také světové oceány. Vyplývá to ze zprávy, kterou zveřejnila evropská služba Copernicus pro sledování změn klimatu. Vysoké teploty a sucho v Evropě podle ní způsobily rozsáhlé požáry a nízké průtoky řek.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/zacatek-leta-byl-vyjimecne-horky-a-suchy-oceany-nejzhavejsi-v-dejinach-mereni-376435" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "10:06",
+      "headline": "Voxpot rozebírá, proč je vítězství levicového kandidáta v Michiganu porážkou vedení demokratů",
+      "body": "V Michiganu vyhrál demokratické senátní primárky kandidát levicového křídla Abdul El Sayed. Newsletter Redneck od Voxpotu rozebírá, proč je to velká porážka pro vedení Demokratické strany.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/redneck-ovladne-americka-levice-stredozapad/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:09",
+      "headline": "Tři čeští atleti prošli na úvod ME v Birminghamu do finále",
+      "body": "Mistrovství Evropy v atletice začalo v Birminghamu, poprvé v dlouhé historii šampionátu ve Velké Británii, a je u toho 52 českých reprezentantů. Z dopoledního bloku prvního dne postoupili do finále dálkař Petr Meindlschmid, kladivář Volodymyr Myslyvčuk a koulař Tomáš Staněk. Dvacetiletý Meindlschmid se posunul dál až posledním pokusem z posledního postupového místa výkonem 791 centimetrů, Myslyvčuk naopak hodil hned prvním pokusem 79,61 metru a nikdo z jeho devětadvaceti soupeřů se dál nedostal. V kvalifikaci naopak skončil půlkař Jakub Dudycha, obě koulařky a kladivář Patrik Hájek. Šampionát skončil po jediném skoku i pro italského mistra světa v dálce Mattiu Furlaniho, jednoho z hlavních favoritů na titul, který se po pokusu dlouhém 773 centimetrů chytil za pravý stehenní sval a odvezli ho na vozíku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-ostry-start-mistrovstvi-evropy-o-finale-zabojuje-mazak-stanek-i-nastupujici-ceska-generace-5513078" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/dopoledni-program-na-me-v-atletice-158346" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-cesky-kladivar-myslyvcuk-zazaril-v-kvalifikaci-tesil-se-na-sladky-obed-i-zpravy-od-rodiny-5513108" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-favorit-na-titul-dobojoval-po-jedinem-skoku-italskou-hvezdu-odvezli-na-voziku-5513103" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:23",
+      "headline": "Menšík je na turnaji Masters v Montrealu ve čtvrtfinále",
+      "body": "Tenista Jakub Menšík porazil v osmifinále turnaje Masters v Montrealu Nizozemce Botica van de Zandschulpa 6:4 a 7:5 a postoupil mezi osm nejlepších. O semifinále si dvacetiletý Čech, nasazený jako třináctý, zahraje se světovou desítkou a obhájcem titulu Benem Sheltonem, který přehrál Brazilce Joaa Fonsecu 6:3 a 7:6. Letošní čtvrtfinále v Montrealu je podle Sport.cz v moderní éře tenisu bez obdoby, nikdo z osmi hráčů se totiž nenarodil v minulém tisíciletí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-skvely-mensik-na-tisicovce-v-montrealu-uz-je-ve-ctvrtfinale-5513079" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensikova-jizda-v-montrealu-pokracuje-ve-ctvrtfinale-ho-ceka-shelton-158344" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-tenisova-bomba-v-kanade-cesky-supertalent-stvrdil-udalost-ktera-nema-obdoby-5513091" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:00",
+      "headline": "UEFA se spojila s asijskou a severoamerickou konfederací proti Infantinovi",
+      "body": "Evropská fotbalová unie UEFA pokračuje v tlaku na předsedu světové organizace FIFA Gianniho Infantina po jeho neúspěchu s kontroverzním plánem na prodej podílů z mistrovství světa soukromým investorům. Spojila se s asijskou AFC a severoamerickou CONCACAF a ve společném prohlášení, z něhož citovaly agentury AFP a Reuters, uvedly, že Infantino ztratil svým podvodným chováním důvěru a postavil se nad kolektiv. FIFA se za svého šéfa postavila a podle Seznam Zpráv ho dál podporují i finalisté mistrovství světa.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-uefa-stupnuje-tlak-na-infantina-5513088" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/uefa-se-spojila-s-asijskou-afc-a-severoamerickou-concacaf-spolecne-kritizuji-infantina-158347" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/sport-fotbal-vycitaji-mu-milenku-i-papezske-manyry-finaliste-ms-ale-za-infantinem-stoji-312784" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:54",
+      "day": "prev",
+      "headline": "Slavia i Jablonec zůstávají v lize po třech kolech stoprocentní",
+      "body": "Slavia v nedělním zápase třetího kola první ligy udolala doma Pardubice 2:1 a udržela stoprocentní bilanci v sezoně. Všechny tři branky padly až po změně stran, dvakrát se prosadil Mojmír Chytil, který zápas rozhodl v 80. minutě a se čtyřmi zásahy vede tabulku kanonýrů. Sedmadvacetiletý reprezentant využívá absenci potrestaného Tomáše Chorého, jako útočná jednička Pražanů se ale podle svých slov necítí. Stoprocentní zůstává také Jablonec po výhře 1:0 nad Slováckem. Sigma Olomouc vyhrála na Artisu poprvé v sezoně, nováček z Brna na první body dál čeká.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-se-na-vitezstvi-proti-pardubicim-nadrela-rozhodl-chytil-158339" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/chytil-se-trefuje-a-nevi-cim-to-je-vzdy-jsem-zacal-davat-goly-az-v-sedmem-kole-rika-158342" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:04",
+      "day": "prev",
+      "headline": "Překážkář Rada vyhrál juniorské mistrovství světa v evropském rekordu",
+      "body": "Michal Rada je juniorským mistrem světa na 400 metrů překážek. Devatenáctiletý Čech zvítězil v americkém Eugene v evropském juniorském rekordu 48,59 sekundy a vylepšil tak druhé místo z předloňského šampionátu v Limě. Druhý český finalista Marek Váňa obsadil časem 51,42 šesté místo.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/dalsi-skvely-uspech-ceske-atletiky-prekazkar-rada-slavi-na-juniorskem-ms-zlato-158343" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:18",
+      "day": "prev",
+      "headline": "Tour de France Femmes vyhrála podruhé v kariéře Demi Volleringová",
+      "body": "Tour de France Femmes vyhrála Nizozemka Demi Volleringová, pro kterou je to druhý triumf v kariéře. V závěru poslední etapy setřásla konkurentky a zvítězila i v dojezdu do Nice. Česká cyklistka Nikola Nosková závod po sobotním pádu nedokončila.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/volleringova-uhajila-naskok-a-podruhe-v-kariere-triumfovala-na-tour-de-france-158341" }
+      ]
+    }
+  ]
+}
