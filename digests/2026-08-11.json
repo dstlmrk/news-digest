@@ -1,0 +1,350 @@
+{
+  "date": "2026-08-11",
+  "covers": "2026-08-11",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "partly",
+    "summary": "Zítra bude skoro jasno a beze srážek, přes den až 25 °C. Kvalita ovzduší má být přijatelná.",
+    "outlook": "Ke konci týdne bude přibývat horka, nejtepleji má být v sobotu.",
+    "days": [
+      { "date": "2026-08-12", "icon": "partly", "temp_max_c": 24.9, "temp_min_c": 12.6 },
+      { "date": "2026-08-13", "icon": "partly", "temp_max_c": 26.3, "temp_min_c": 12.5 },
+      { "date": "2026-08-14", "icon": "clear", "temp_max_c": 29.7, "temp_min_c": 12.2 },
+      { "date": "2026-08-15", "icon": "clear", "temp_max_c": 33.6, "temp_min_c": 15.5 }
+    ]
+  },
+  "highlights": [
+    "Maďarský parlament zvolil prezidentem bývalého předsedu nejvyššího soudu Andráse Baku, opozice volbu bojkotovala.",
+    "Červencová inflace zrychlila na 1,7 procenta, ropa Brent kvůli krizi mezi USA a Íránem přesáhla 90 dolarů za barel.",
+    "Počet obětí zemětřesení v Kolumbii dál roste, agentura Reuters mluví o 224 mrtvých.",
+    "Letošní rok patří v Česku k nejsušším od roku 1961, uvedl hydrometeorologický ústav."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "07:30",
+      "headline": "ANO by v červencovém průzkumu Medianu vyhrálo volby s 34 procenty",
+      "body": "Kdyby se sněmovní volby konaly v červenci, zvítězilo by podle průzkumu společnosti Median hnutí ANO se ziskem 34 procent hlasů. S odstupem by následoval STAN s patnácti procenty a třetí ODS s podporou dvanácti procent. Průzkum má k dispozici agentura ČTK; ČT24 v titulku dodává, že Motoristé propadli.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/volby-do-snemovny-by-v-cervenci-vyhralo-ano-motoriste-propadli-376464" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:18",
+      "headline": "Letošní rok je zatím jedním z nejsušších od roku 1961, sucho hlásí rekordní počet míst",
+      "body": "Z hlediska spadlých srážek se letošní rok v Česku vyvíjí ještě hůře než loňský a patří k nejsušším od roku 1961. Na svém facebookovém profilu to uvedl Český hydrometeorologický ústav: zatímco loni se velký srážkový deficit alespoň trochu zmírnil v červenci, letos se meteorologické sucho dál prohlubuje. Podle Deníku N přibývá na českých řekách a přehradách míst, která hlásí sucho, a je jich rekordní množství. Povodí Moravy eviduje hydrologické sucho na 47 z 94 sledovaných profilů, tedy na polovině měřicích míst; minulý týden jich bylo 44. Některé toky jsou úplně na nule, nulový průtok má například Svitava ve Svitavách, a naprostá většina řek v povodí má průtoky hluboko pod polovinou obvyklých hodnot.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152605/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152361/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152251/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:50",
+      "headline": "Soud po 76 letech rehabilitoval Václava Trtíka, svědka číhošťského zázraku",
+      "body": "Krajský soud v Hradci Králové dnes rehabilitoval číhošťského farníka Václava Trtíka, očitého svědka takzvaného číhošťského zázraku z prosince 1949. Trtík byl v roce 1950 několik týdnů ve vazbě v souvislosti s perzekucí faráře Josefa Toufara, kterého komunistická Státní bezpečnost umučila; podle dnešního rozhodnutí soudu byl vězněn nezákonně. Státní bezpečnost ho tehdy zadržela, protože hledala důkazy proti Toufarovi, iDNES.cz uvádí, že Trtík odmítl proti faráři svědčit. Návrh na soudní rehabilitaci podala Trtíkova dcera Marie Vavřičková.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/historie/po-76-letech-soud-rehabilitoval-vaclava-trtika-v-roce-1950-ho-veznili-kvuli_2608111550_aru" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-krajsky-soud-v-rehabilitoval-svedka-tzv-cihostskeho-zazraku-vaclava-trtika-312889" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/soud-hradec-kralove-rehabilitace-svedek-cihostsky-zazrak-trtik.A260811_155313_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:41",
+      "headline": "Na vysoké školy míří silné ročníky, rektoři varují před omezením kapacit",
+      "body": "Přetlak, který byl v posledních letech na středních školách, se přesouvá na univerzity. Vysoké školy se proto snaží přijímat co nejvíc uchazečů, zároveň se ale obávají, že na další růst nebudou mít dost peněz — podle iROZHLAS.cz dostanou letos méně než loni. Pokud stát financování příští rok nezvýší, budou muset počty přijatých omezit. Podle rektorů by se tak za rok nemuselo na veřejné vysoké školy dostat až deset tisíc maturantů.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/silne-rocniky-miri-na-vysoke-skoly-rektori-ale-dostanou-mene-penez-nez-loni_2608111341_mst" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:13",
+      "headline": "Firma Ferrit obviněná z obcházení protiruských sankcí potichu změnila majitele",
+      "body": "Slezská strojírenská firma Ferrit podle vyšetřovatelů obcházela protiruské sankce a dodávala do Ruska embargované stroje. Policie stíhá šest lidí z jejího vedení. Manažeři podezřelí z vývozu strojů do Ruska nyní firmu prodali českému rodinnému holdingu, píše Deník N; společnost ovládla rodina z Mostu.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2152516/firma-obvinena-z-dodavani-stroju-do-ruska-meni-majitele-ovladla-ji-rodina-z-mostu/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "09:55",
+      "headline": "Zemřel bývalý generální ředitel České pošty Roman Knap, bylo mu 51 let",
+      "body": "Ve věku 51 let zemřel manažer Roman Knap, který v letech 2018 až 2023 vedl Českou poštu. Podle E15 se v čele státního podniku potýkal s dopady pandemie a položil základy transformace pošty včetně vyčlenění Balíkovny. Z funkce odešel po dohodě s ministrem vnitra po schůzkách s podnikatelem Michalem Redlem spojeným s kauzou Dozimetr.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/domaci/zemrel-byvaly-sef-ceske-posty-roman-knap-statniho-dorucovatele-provadel-pandemii-i-transformaci-1434885" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zemrel-byvaly-reditel-ceske-posty-roman-knap-312851" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:14",
+      "headline": "V Hradci Králové má v nejbližších letech vzniknout téměř 250 družstevních bytů",
+      "body": "Družstevního bydlení v Hradci Králové přibývá a v nejbližších letech by mělo vzniknout téměř 250 bytů v této formě. Pilotním projektem města je brownfield bývalé kuklenské koželužny, kde má vyrůst nová čtvrť s přibližně devadesáti byty. Stavět se bude také v Pouchově.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/bydleni-byty-nemovitosti-druzstevni-bydleni-hradec-kralove/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:40",
+      "headline": "Pod volební peticí sdružení Náš Dvůr jsou podle iDNES.cz zfalšované podpisy",
+      "body": "Volební petici pro nové nezávislé sdružení Náš Dvůr, které podalo kandidátku do komunálních voleb ve Dvoře Králové nad Labem na Trutnovsku, provází podle zjištění iDNES.cz zneužití osobních údajů a zfalšované podpisy. Dokument obsahuje jména lidí, kteří sdružení nikdy nepodpořili a petici nepodepsali. Městský úřad nechá záležitost prošetřit a obrátí se na státní zastupitelství.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/volebni-kandidatka-komunali-volby-dvur-kralove-nad-labem-nas-dvur-podpisy.A260811_142619_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:42",
+      "headline": "Lyžařské propojení Medvědína a Svatého Petra ve Špindlerově Mlýně je za polovinou",
+      "body": "Stavba propojení sjezdovek Svatého Petra a Medvědína ve Špindlerově Mlýně, kterou iDNES.cz označuje za miliardovou, významně pokročila. Pod střechou už je dolní stanice šestisedačkové lanovky na parkovišti P1 u Labské přehrady. Příští týden má jeřáb položit mostní konstrukci, po které sjezdovka překlene příjezdovou cestu do střediska.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/propojeni-spindleruv-mlyn-medvedin-svaty-petr-lanovka-stavba.A260811_110242_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:00",
+      "headline": "Zatmění Slunce půjde ve středu pozorovat i z hradecké hvězdárny, brýle prodají na místě",
+      "body": "Hvězdárna v Hradci Králové zve na středeční pozorování, které začne v 17 hodin a protáhne se až do noci: nejprve částečné zatmění Slunce, po setmění Perseidy. Ochranné brýle se dají koupit přímo na místě. Meteorologové podle Hradeckého deníku hlásí na středu jasno po celém Česku, Měsíc zakryje většinu slunečního kotouče těsně nad obzorem. Hradecký deník zároveň přinesl přehled nejlepších míst k pozorování v Královéhradeckém a Pardubickém kraji.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/zatmeni-slunce-pozorovat-hradec-hvezdarna-bryle/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/kde-pozorovat-vesmirnou-show-nejlepsi-mista-ve-vychodnich-cechach/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/spolecnost/25044-cesko-ceka-mimoradna-podivana-zatmeni-slunce-vystridaji-perseidy.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:38",
+      "headline": "Maďarským prezidentem je bývalý předseda nejvyššího soudu András Baka",
+      "body": "Maďarský parlament dnes zvolil novým prezidentem Andráse Baku, někdejšího předsedu nejvyššího soudu. Byl jediným kandidátem a v tajném hlasování ho podle agentury MTI podpořilo 140 poslanců. V 199členném parlamentu má vládní strana Tisza od dubnových voleb více než dvoutřetinovou většinu. Opozice volbu bojkotovala, poslanci Fideszu a křesťanských demokratů oznámili, že nepřijdou ani na inauguraci, a Fidesz označil volbu za „úplné dno“. Parlament volil novou hlavu státu poté, co minulý měsíc ústavní dodatek ukončil funkční období Tamáse Sulyoka. Podle Deníku N to média popisují jako symbolický krok v rámci snahy premiéra Pétera Magyara demontovat mocenské bašty Viktora Orbána. Seznam Zprávy připomínají, že Baka před patnácti lety o vysokou funkci v justici přišel: po kritice orbánovských změn mu Fidesz předčasně ukončil mandát, soud ve Štrasburku mu ale dal za pravdu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/madarsko-ma-noveho-prezidenta-byvaleho-predsedu-nejvyssiho-soudu-andrase-baku_2608111538_jar" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/madarsky-parlament-zvoli-noveho-prezidenta-376475" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-kdo-je-andras-baka-orban-se-ho-zbavil-ted-se-stane-prezidentem-madarska-312808" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152538/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:43",
+      "headline": "Syrský soud poslal svrženého diktátora Asada v nepřítomnosti na smrt",
+      "body": "Syrský soud odsoudil v nepřítomnosti svrženého diktátora Bašára Asada k trestu smrti za válečné zločiny a zločiny proti lidskosti spáchané za občanské války, která vypukla v roce 2011. Podle Deníku N soud Asada usvědčil z úmyslné vraždy několika lidí včetně dětí, dále z mučení, svévolného zadržování a zločinů proti lidskosti. Ke smrti odsoudil i jeho bratra Mahera a bývalého bezpečnostního důstojníka Atifa Nadžíba, který byl jako jediný u soudu fyzicky přítomen. Asad s rodinou uprchl v prosinci 2024 do Moskvy poté, co Damašek dobyla koalice vedená islamisty.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/syrsky-soud-odsoudil-k-smrti-svrzeneho-diktatora-basara-asada-376471" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152267/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:59",
+      "headline": "Počet obětí zemětřesení v Kolumbii dál roste, zdroje se v číslech rozcházejí",
+      "body": "Bilance pondělního zemětřesení v Kolumbii, o kterém jsme psali včera, se během dneška několikrát zvýšila. ČT24 dnes odpoledne s odvoláním na agenturu Reuters a tamní úřady uvedla, že zahynulo nejméně 224 lidí a zraněných je více než 900. Deník N s odvoláním na BBC hlásil odpoledne 169 a později nejméně 181 mrtvých a více než 1310 zraněných. Podle kolumbijské asociace hlavních měst regionů Asocapitales otřesy zničily 61 budov a poškodily dalších 1575 domů. Jde o nejsilnější zemětřesení v zemi v tomto století. Ministerstvo zahraničí vyzvalo Čechy v Kolumbii, aby do zasažených oblastí necestovali.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/kolumbijsti-zachranari-pokracuji-v-patrani-po-prezivsich-zemetreseni-376463" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152659/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152469/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:03",
+      "headline": "Rusko udeřilo v noci na Záporoží a Dněpropetrovskou oblast, Zelenskyj mluví o severokorejských střelách",
+      "body": "Rusko v noci na dnešek podniklo další sérii útoků na Ukrajinu. Při úderech na Záporoží a Dněpropetrovskou oblast zemřelo podle regionálních úřadů nejméně devět lidí a desítky dalších byly zraněny, prokuratura mluví o jedenácti mrtvých a 26 raněných. Podle ČT24 vyslalo Rusko rakety Cirkon a Iskander-M/KN-23 a 120 dronů, z nichž obránci 98 zneškodnili; hlavním terčem bylo podle ukrajinského letectva Záporoží a Kyjev s okolím, kterým podle ČT24 zněly výbuchy. Prezident Volodymyr Zelenskyj uvedl na síti X, že při úderech na Záporoží byly použity severokorejské balistické střely, a označil to za „zlovolný útok, jehož cílem bylo způsobit maximální škody konkrétně na civilní infrastruktuře“.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/zaporozi-hlasi-po-ruskych-utocich-pet-mrtvych-kyjevem-znely-exploze-376462" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152263/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:55",
+      "headline": "Největší francouzská jaderná elektrárna odstavila kvůli medúzám tři bloky",
+      "body": "Provozovatel EDF dnes oznámil, že největší francouzská jaderná elektrárna Gravelines musela kvůli přemnoženým medúzám v moři odstavit polovinu ze svých šesti bloků a produkci dalších snížit na polovinu. Kvůli vysokým teplotám a suchu musela Francie odstavit či snížit výkon bloků i v dalších jaderných elektrárnách. Nízké hladiny řek trápí energetiku i jinde: podle Seznam Zpráv zvažuje Rumunsko kvůli rekordnímu poklesu Dunaje odstavení elektrárny Cernavoda, která dodává asi pětinu elektřiny v zemi.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/jaderna-elektrarna-ve-francii-odstavila-tri-bloky-kvuli-meduzam-376489" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/premnozene-meduzy-v-mori-donutily-jadernou-elektrarnu-ve-francii-odstavit_2608111633_epo" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rumunsko-chysta-kvuli-rekordnimu-poklesu-dunaje-uzavreni-elektrarny-cernavoda-312865" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:27",
+      "headline": "Inflace v červenci zrychlila na 1,7 procenta, táhly ji pohonné hmoty",
+      "body": "Spotřebitelské ceny v Česku v červenci zrychlily meziroční růst na 1,7 procenta z červnových 1,5 procenta, meziměsíčně stouply o 0,6 procenta. Český statistický úřad tím potvrdil svůj předběžný odhad z minulého týdne. Hlavním tahounem byly pohonné hmoty, které po dvou měsících poklesu meziměsíčně podražily o 3,5 procenta a meziročně o téměř 17 procent. Naopak tlumivě působily potraviny — máslo bylo podle ČT24 nejlevnější za šestnáct let a mléko od počátku sledování jeho ceny.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/mezirocni-inflace-v-cervenci-zrychlila-na-17-procenta-376466" },
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/pohonne-hmoty-mezirocne-zdrazily-o-17-procent-cervencova-inflace-stoupla-na-1-7-procenta-1434884" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:38",
+      "headline": "Ropa Brent přesáhla 90 dolarů za barel, slábnou naděje na dohodu s Íránem",
+      "body": "Cena severomořské ropy Brent dnes dál rostla a překročila hranici devadesáti dolarů za barel, čímž se vrátila na hodnoty z konce července. Trhy tak reagují na probíhající krizi mezi Spojenými státy a Íránem. Podle analytiků, které cituje ČTK, slábnou naděje na brzké vyřešení konfliktu a na znovuotevření Hormuzského průlivu, klíčového pro přepravu ropy ze zemí Perského zálivu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-komodity-dluhopisy-cena-ropy-brent-prekrocila-90-usd-za-barel-slabnou-nadeje-na-mir-s-iranem-312863" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152303/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:15",
+      "headline": "ČEZ zvýšil pololetní zisk o desetinu a začal oceňovat majetek pro vyčlenění ČEZ Energy",
+      "body": "Čistý zisk ČEZ v prvním pololetí vzrostl o deset procent na 18,1 miliardy korun, k čemuž podle E15 přispělo hlavně ukončení výběru windfall tax. Provozní zisk i výnosy přitom klesly, vedení firmy nicméně zvedlo celoroční výhled očištěného čistého zisku na 31 až 35 miliard korun. Představenstvo zároveň udělalo první krok k plánovanému zestátnění podniku, když založilo dceřinou firmu ČEZ Energy pro nevýrobní aktiva. Společně s poradenskou firmou KPMG už začalo oceňování majetku, který se má do nové dcery vyčlenit; proces má být hotový do konce prvního čtvrtletí 2027 a vedení preferuje prodej menšinového podílu přes burzu, v úvahu ale připadá i přímý prodej fondům. Finanční ředitel ČEZ řekl Seznam Zprávám, že skupina k tomu politická zadání nedostává.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/konec-windfall-tax-nakopl-zisk-cez-provozni-vysledky-ale-klesaji-firma-presto-zveda-vyhled-1434882" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/plan-na-ovladnuti-cez-drzi-tempo-vycleneni-nevyrobni-casti-cez-energy-skonci-do-jara-2027-1434891" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-rozhovory-financni-reditel-cez-ocenovani-firem-ktere-by-mohly-na-burzu-uz-zacalo-312894" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:23",
+      "headline": "CSG dodá polskému Dezametu komponenty pro dělostřeleckou munici za 2,4 miliardy korun",
+      "body": "Zbrojařský holding Czechoslovak Group Michala Strnada podepsal s polskou státní firmou Dezamet kontrakt v hodnotě přes 100 milionů eur, tedy více než 2,4 miliardy korun. Bude do Polska dodávat komponenty pro výrobu dělostřelecké munice ráže 155 milimetrů. Podle E15 smlouva navazuje na širší strategické partnerství s koncernem Polska Grupa Zbrojeniowa a zahrnuje i transfer technologií pro sériovou výrobu munice určené polské armádě a houfnicím Krab. S PGZ podle E15 CSG vyjednává o dalších společných projektech a výstavbě nových výrobních kapacit pro země NATO.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/csg-prohlubuje-spojenectvi-s-polskem-ziskala-kontrakt-pro-delostrelectvo-za-100-milionu-eur-1434895" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-csg-doda-polskemu-dezametu-komponenty-pro-munici-za-vic-nez-24-miliardy-kc-312876" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:00",
+      "headline": "eDoklady čeká po volebním selhání veřejná zátěžová zkouška",
+      "body": "Digitální a informační agentura vyzvala veřejnost k účasti na zátěžovém testu aplikace eDoklady. Test proběhne ve čtvrtek 13. srpna ve 13:00 a jeho cílem je ověřit připravenost aplikace i navazující infrastruktury před podzimními komunálními a senátními volbami. Zapojit se může každý uživatel aplikace, stačí se v daný čas přihlásit.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/po-problemech-u-voleb-ceka-edoklady-verejna-zatezova-zkouska/?utm_source=rss&utm_medium=text&utm_campaign=rss" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-stat-proveri-aplikaci-ktera-pri-volbach-selhala-zada-o-pomoc-verejnost-312879" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:42",
+      "headline": "Policie řeší téměř třicet případů zneužití cizí podoby k výrobě pornografie",
+      "body": "Především kvůli stále dokonalejší umělé inteligenci byl na začátku roku do trestního zákoníku zapsán nový trestný čin — zneužití identity k výrobě pornografie a jejímu šíření. Paragraf 191a počítá za výrobu kompromitujících fotografií nebo videí až s dvouletým vězením. Podle iROZHLAS.cz policie řeší už téměř třicet takových případů a falešný intimní obsah tvoří i děti.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/technologie/policie-resi-temer-30-pripadu-zneuziti-cizi-podoby-k-vyrobe-pornografie-falesny_2608111542_bva" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:36",
+      "day": "prev",
+      "headline": "Anthropic popsal, jak označuje obsah vytvořený Claudem",
+      "body": "Jedním z nejdiskutovanějších odkazů na Hacker News byla včera večer stránka nápovědy Anthropicu o označování obsahu vytvořeného umělou inteligencí; sešlo se pod ní přes 260 komentářů. Podle ní se používají dvě techniky: do textu se vplétá nepostřehnutelný vodoznak, který přežije zkopírování a vložení, a u podporovaných formátů souborů (SVG, PNG a JPG) se přidávají podepsaná metadata o původu podle standardu C2PA. Označování se týká modelů spuštěných 2. srpna 2026 a později a platí napříč rozhraními — od API a webu po Claude Code — i při přístupu přes AWS, Google Cloud nebo Microsoft Foundry. Anthropic to popisuje jako svůj závazek z kodexu transparentnosti k evropskému aktu o umělé inteligenci. Zároveň upozorňuje, že nalezená značka není důkaz: znamená jen, že obsah mohl projít Claudem, protože původní myšlenka mohla vzniknout dřív nebo mohl být text později přepsán.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:06",
+      "headline": "Česká televize představila nový formát nedělní debaty, poprvé se vysílá 30. srpna",
+      "body": "Tradiční nedělní diskuzi na České televizi čeká po konci Václava Moravce velká změna. Politiky budou zpovídat Jana Peroutková a Lukáš Dolanský, jejich tvrzení pak v nové analytické části zhodnotí Jiří Václavek a Daniel Takáč. Poprvé se Nedělní debata v novém formátu vysílá 30. srpna. Generální ředitel ČT Hynek Chudárek dnes novinářům představil celé podzimní schéma: kromě proměny politické publicistiky se vrátí StarDance, do pražské O2 areny se vrátí Davis Cup a stanice odvysílá i mistrovství světa českých basketbalistek.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/kultura/televize/podzim-na-ct-bude-patrit-stardance-a-prinese-novou-debatu-nova-sazi-na-komedie-i_2608111406_mst" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ct-predstavila-novy-format-nedelni-debaty-tvrzeni-politiku-zhodnoti-experti-312873" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152395/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "10:36",
+      "headline": "Voxpot se ptá, zda Putin chystá masivní mobilizaci",
+      "body": "Vladimir Putin vede válku, která je extrémně náročná na lidskou sílu: vojáci umírají a schopnost Ruska přivést do boje nové brance se snižuje. Voxpot v analýze rozebírá, jestli ruský prezident válku ukončí, nebo ji naopak rozšíří na celou zemi.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/pripravuje-putin-masivni-mobilizaci/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:52",
+      "headline": "Výškař Štefela vypadl na ME v kvalifikaci, do semifinále prošli oba čeští překážkáři",
+      "body": "Dopolední program druhého dne atletického mistrovství Evropy v Birminghamu se českým reprezentantům nepovedl. Jan Štefela, bronzový medailista z loňského světového šampionátu v Tokiu a jedna z českých nadějí na medaili, zvládl napodruhé 219 centimetrů, ale laťku ve výšce 223 centimetrů už nepřekonal. Kvůli horšímu zápisu skončil na dělené čtrnácté pozici a poprvé v kariéře se na velké seniorské akci nedostal do finálové dvanáctky. Do finále neprošel ani jeden z trojice českých výškařů, neuspěl ani diskař Marek Bárta. Postup si zajistili jen běžci na 110 metrů překážek Jonáš Kolomazník a Štěpán Štefko, oba shodným časem 13,86 sekundy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/dopoledni-program-na-me-v-atletice-158365" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-prodlouzi-stefela-vyjimecnou-serii-ve-finale-chce-celou-skupinu-5513138" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2152559/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:01",
+      "headline": "Sparta hraje dnes v Lyonu odvetu 3. předkola Ligy mistrů, vede 2:1",
+      "body": "Fotbalisté Sparty dnes ve 21:00 nastoupí na půdě Olympique Lyon k odvetě 3. předkola Ligy mistrů a budou hájit těsné vítězství 2:1 z Letné. Do Francie jedou po nezvládnutém ligovém zápase v Mladé Boleslavi. Postupující narazí podle ČT Sport na lepšího z dvojice Fenerbahce Istanbul – Sturm Štýrský Hradec, vyřazenému zbyde základní fáze Evropské ligy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/spartu-ceka-odveta-v-lyonu-napravi-kolaps-z-boleslavi-priske-verim-ze-jim-muzeme-ublizit-158348" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-2026-2027-treti-predkolo-lyon-sparta-online-5513156" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-ac-sparta-praha-olympique-lyon-ledaslav-krejci-starsi_2608111501_kri" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:43",
+      "headline": "Plzeň má po třech kolech dva body, Šádek odmítl veřejně hodnotit pozici trenéra Hyského",
+      "body": "Fotbalová Plzeň vstoupila do sezony katastrofálně: ve třech kolech získala jen dva body a naposledy remizovala 5:5 s Teplicemi. Fanoušci volají po konci trenéra Martina Hyského a média spekulují o jeho nástupci. Předseda představenstva a generální ředitel Viktorie Adolf Šádek v rozhovoru pro klubový web vyvrátil zprávy, že kouče ve funkci podržel majitel klubu Michal Strnad, a zdůraznil, že sportovní vedení klubu je v jeho gesci. Pozici Hyského veřejně hodnotit nechtěl, podle ČT Sport ale naznačil, že změnu na lavičce Západočeši zatím neplánují.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sportovni-vedeni-klubu-je-v-me-gesci-zduraznil-sadek-hodnotit-verejne-pozici-hyskeho-nechtel-158367" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-nespokojeny-sadek-se-vyjadril-ke-katastrofalnimu-uvodu-sezony-plzne-i-k-pozici-kouce-hyskeho-5513159" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:12",
+      "headline": "Čeští střelci získali na ME do 23 let zlato a bronz v trapu smíšených dvojic",
+      "body": "Česká výprava zakončila premiérové mistrovství Evropy sportovních střelců do 23 let dvěma medailemi v trapu smíšených dvojic. Zlato ve Vratislavi vybojovali Jakub Chmelík a Zina Hrdličková, bronz brali Ondřej Šťastný a Martina Matějková.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/ostatni-cesti-strelci-ziskali-na-me-do-23-let-zlato-a-bronz-v-trapu-smisenych-dvojic-5513185" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:51",
+      "headline": "UEFA chce omezit roli videorozhodčích a vrátit pravomoci sudím na hřišti",
+      "body": "Evropská fotbalová unie není spokojena s tím, kam se posunulo využívání videorozhodčích. Šéf rozhodčích UEFA Roberto Rosetti na setkání s vybranými novináři uvedl, že by se systém VAR měl vrátit ke kořenům a dát více pravomocí zpět sudím na hřišti. „Je to fotbal, ne PlayStation,“ píše v titulku ČT Sport.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/je-to-fotbal-ne-playstation-rika-sef-rozhodcich-uefa-a-chce-mene-varu-158370" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-uefa-chce-aby-se-system-videorozhodcich-vratil-ke-korenum-5513180" }
+      ]
+    }
+  ]
+}
