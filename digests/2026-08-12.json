@@ -1,0 +1,365 @@
+{
+  "date": "2026-08-12",
+  "covers": "2026-08-12",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "clear",
+    "summary": "Zítra bude jasno a bez srážek, denní teplota vystoupí až k 27 °C. Kvalita ovzduší má být přijatelná.",
+    "outlook": "Od pátku bude přituhovat a na víkend se vrátí vedra nad třicet stupňů, v neděli k tomu přijde silnější vítr v nárazech.",
+    "days": [
+      { "date": "2026-08-13", "icon": "clear", "temp_max_c": 26.7, "temp_min_c": 11.9 },
+      { "date": "2026-08-14", "icon": "clear", "temp_max_c": 29.2, "temp_min_c": 11.4 },
+      { "date": "2026-08-15", "icon": "clear", "temp_max_c": 33.4, "temp_min_c": 13.8 },
+      { "date": "2026-08-16", "icon": "cloudy", "temp_max_c": 33.3, "temp_min_c": 16.9 }
+    ]
+  },
+  "highlights": [
+    "Státní zástupce poslal k soudu trojici obviněnou z podvodu s virtuální měnou, který měl stovky investorů připravit o 1,1 miliardy korun.",
+    "Sucho vysušilo pastviny, chovatelé stahují zvířata do stájí a obcím na severním Plzeňsku se musí pitná voda dovážet.",
+    "Dnes večer bude v Česku vidět mimořádně výrazné částečné zatmění Slunce, v noci pak vrcholí Perseidy."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "13:50",
+      "day": "covered",
+      "headline": "Státní zástupce obžaloval trojici z podvodu s virtuální měnou za 1,1 miliardy korun",
+      "body": "Vrchní státní zastupitelství v Praze podalo obžalobu na tři lidi spojené se společností Cryfin. Podle vyšetřovatelů způsobili 584 investorům škodu asi 1,1 miliardy korun, obžaloba zní na podvod, porušení pravidel hospodářské soutěže a neoprávněné podnikání. Obžalovaným hrozí pět až deset let vězení. Zastupitelství o tom informovalo na svém webu, tiskovou zprávu podle ČT24 poskytl žalobce Tomáš Černý.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/miliardovy-investicni-podvod-miri-pred-soud-statni-zastupce-obzaloval-tri-lidi-376511" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/tri-lide-celi-obzalobe-za-podvod-s-virtualni-menou-stovky-lidi-meli-pripravit_2608121350_kvr" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-statni-zastupce-obzaloval-tri-lidi-za-investicni-podvod-se-skodou-11-miliardy-312977" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153298/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:39",
+      "day": "covered",
+      "headline": "Ústavní soud zrušil vazební rozhodnutí o Jiřikovském, z vazby ale nevychází",
+      "body": "Krajský soud v Brně podle Ústavního soudu porušil práva Tomáše Jiřikovského z bitcoinové kauzy, když obhajobě při prodlužování vazby neumožnil reagovat na vyjádření žalobců. Ústavní soudci proto jeho usnesení zrušili. Předchozí vazební rozhodnutí Městského soudu v Brně ale zůstává v platnosti, takže na svobodu se Jiřikovský zatím nedostane.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/justice-porusila-prava-jirikovskeho-z-bitcoinove-kauzy-rozhodl-ustavni-soud-376509" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:42",
+      "day": "covered",
+      "headline": "Nejvyšší soud definitivně potvrdil pětileté tresty v kauze IZIP",
+      "body": "Nejvyšší soud odmítl dovolání bývalého ředitele IZIP Jiřího Paška a společníka firmy FINIM Ilji Čurdy. Za podvod spojený se zakázkami od Všeobecné zdravotní pojišťovny si tak odpykají pět let ve vězení a zaplatí dvoumilionové pokuty.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nejvyssi-soud-odmitl-dovolani-v-kauze-izip-potvrdil-tak-petilete-tresty-312989" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:20",
+      "day": "covered",
+      "headline": "Úřad vlády reviduje statuty vládních rad, členy z řad odborníků má jmenovat celý kabinet",
+      "body": "Úřad vlády chystá změny ve fungování vládních poradních sborů a reviduje statuty všech rad, zjistila ČTK. Odborníky a odbornice by do nich nově měla jmenovat celá vláda, nikoli předsedové jednotlivých rad. Vláda si od změny podle Seznam Zpráv slibuje efektivnější fungování těchto institucí, odpůrci naopak mluví o jejich oslabování.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-urad-vlady-reviduje-statuty-vladnich-rad-zmeny-se-maji-tykat-i-jmenovani-clenu-312999" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153476/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:26",
+      "day": "covered",
+      "headline": "Do Česka dorazí přes deset tisíc balení chybějícího tamoxifenu",
+      "body": "Ministerstvo zdravotnictví uvedlo, že do Česka přijde v příštích dnech více než deset tisíc balení tamoxifenu, léku na rakovinu prsu. Některá balení už jsou v lékárnách dostupná a další dodávky jsou podle ministerstva zajištěné i na podzim. Jeden z výrobců přerušil dodávky do Česka loni na podzim, další pak letos v červnu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-do-ceska-dorazi-v-pristich-dnech-10-tisic-baleni-chybejiciho-leku-na-rakovinu-313003" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153554/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:20",
+      "day": "covered",
+      "headline": "Sucho vysušilo pastviny, obcím na Plzeňsku se musí dovážet pitná voda",
+      "body": "Na pastvinách zbyla na řadě míst v Česku jen suchá tráva, zemědělci proto stahují dobytek, koně a ovce do stájí a dokrmují je. Někteří mají ještě zásoby sena z loňska, jiným nevystačí do další sklizně a krmení shánějí i v zahraničí. Ubývá také podzemní voda: do obcí Krsy a Vidžín na severním Plzeňsku už vodohospodáři pitnou vodu dovážejí a spolehlivým řešením zůstává napojení na dálkový vodovod z Plzně nebo nové obecní vrty. Navazuje na včerejší zprávu o tom, že letošní rok je zatím jedním z nejsušších od roku 1961.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/v-obcich-na-plzensku-vysychaji-vrty-nekdo-zaleva-i-v-noci-aby-ho-nebylo-videt_2608121520_vsn" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/priroda/porost-je-spaleny-na-troud-jihocesti-farmari-zvirata-stahuji-z-pastvin-krmeni_2608121307_bva" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:14",
+      "day": "covered",
+      "headline": "Výrobce pian Petrof kvůli útlumu trhu propouštěl a mění strategii",
+      "body": "Hradecká společnost Petrof, jeden z předních evropských výrobců pian a klavírů, reaguje na útlum trhu změnou strategie. V posledních dvou letech jí propadly tržby a zisky se proměnily v narůstající ztráty, firma přistoupila k propouštění a šetření. Podle iDNES.cz to vyplývá z informací serveru E15 a ze zveřejněné výroční zprávy za loňský rok.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/petrof-vyrobce-klaviry-ekonomika-utlum-propousteni-ceralova.A260812_110442_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/petrof-klaviry-hradec-kralove-utlum-trhu-zmena-strategie/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:05",
+      "day": "covered",
+      "headline": "Škola v Malšově Lhotě se po skončení sporů se sousedem otevře v září",
+      "body": "Budova základní a mateřské školy v Malšově Lhotě v Hradci Králové je zkolaudovaná a od 1. září se po rozsáhlé modernizaci znovu otevře žákům. Stavební práce skončily už loni v létě, škola ale zůstala zavřená kvůli vleklým právním sporům s majitelem sousedního pozemku. V těchto dnech se do nových tříd i s vybavením stěhují učitelé.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/do-novych-trid-skoly-v-malsove-lhote-se-stehuji-ucitele-po-mesicich-sporu-zacne_2608121605_bva" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/po-roce-sporu-se-konecne-otevira-skola-v-malsove-lhote-nahlednete-dovnitr/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:00",
+      "day": "covered",
+      "headline": "Rozšíření teplovodu omezí dopravu v historickém centru Hradce až do začátku roku",
+      "body": "V historickém centru Hradce Králové začínají na Malém náměstí práce na rozšíření teplovodní sítě. Řidiče čekají v dalších měsících dočasná dopravní omezení, která podle Hradecké drbny potrvají až do začátku příštího roku.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/25042-rozsireni-teplovodu-zasahne-jeste-ted-v-srpnu-dopravu-v-centru-hradce.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "19:37",
+      "day": "prev",
+      "headline": "Majitel Hradce Tomek odmítá prodej nigerijského útočníka Umara",
+      "body": "Devatenáctiletý nigerijský útočník Abdullahi Umar se podle Hradeckého deníku během posledních týdnů zařadil mezi nejzajímavější mladé hráče FC Hradec Králové a upozorňuje na sebe v lize i na evropské scéně. Majitel klubu Ondřej Tomek na síti X vzkázal, že se klub svého talentu zbavovat nehodlá: „My prostě teď nepotřebujeme a nechceme prodávat.“",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/tomek-o-nigerijskem-objevu-umara-prodavat-nechceme-muze-byt-pokladem-hradce/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:33",
+      "day": "covered",
+      "headline": "Ukrajinské drony zasáhly Krasnodarský kraj, ruské úřady hlásí dva mrtvé",
+      "body": "Noční ukrajinské útoky na ruský Krasnodarský kraj si podle tamních úřadů vyžádaly dva mrtvé včetně dítěte a několik zraněných, trosky dronů podle nich zasáhly čtyři průmyslové podniky. Ruská armáda tvrdí, že v noci na středu zničila 502 ukrajinských bezpilotních letounů. Moskva podle Seznam Zpráv uvádí, že protivzdušná obrana zlikvidovala přes 500 dronů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajinske-drony-utocily-na-rusky-krasnodarsky-kraj-tvrdi-tamni-urady-376506" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nocni-ukrajinske-utoky-na-rusky-krasnodarsky-kraj-zabily-dva-lidi-vcetne-ditete-312944" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:31",
+      "day": "covered",
+      "headline": "Ukrajina podle Financial Times zastavila útoky na část ropných tankerů kvůli žádosti JD Vance",
+      "body": "Kyjev přerušil útoky na část ropných tankerů, které využívají ruský černomořský přístav Novorossijsk. Podle Financial Times, na které se odvolává ČT24, k tomu Ukrajina přikročila na žádost amerického viceprezidenta JD Vance; Washington se obával, že by ukrajinské kroky ještě více destabilizovaly ropné trhy.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-zastavila-utoky-na-neruske-ropne-tankery-na-zadost-jd-vance-pisi-ft-376512" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:32",
+      "day": "covered",
+      "headline": "Putin mluví o pronikání NATO do Tichomoří a hrozí zadržováním evropských lodí",
+      "body": "Ruský prezident Vladimir Putin na Sachalinu, kde se zúčastnil závěrečné fáze cvičení ruské Tichomořské flotily, prohlásil, že Severoatlantická aliance se snaží proniknout do asijsko-tichomořského regionu a vytváří napětí i v Arktidě. „Vidíme, že zde bohužel roste potenciál pro konflikty,“ řekl podle ruských agentur. Zároveň uvedl, že Rusko bude reagovat na snahy Západu zabavovat ruské obchodní lodě. Podle Deníku N, který cituje Euronews, Putin pohrozil zadržováním evropských plavidel v reakci na zásahy evropských zemí proti lodím pravděpodobně patřícím k ruské stínové flotile.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/nato-putin-konflikt-vychod-zapad-arktida-severoatlanticka-aliance-tichomori-lode_2608121332_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153292/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153220/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:42",
+      "day": "covered",
+      "headline": "Slovensko našlo v testovaných dopravních kamerách ruské součástky a ukončilo spolupráci s dodavatelem",
+      "body": "Analýza slovenského Národního bezpečnostního úřadu odhalila ve dvou testovaných zařízeních na zjišťování přestupků v silničním provozu součástky z Ruska a úřady je označily za bezpečnostní riziko. Ministr vnitra Matúš Šutaj Eštok (Hlas) oznámil, že jeho resort končí se spoluprací s dodavatelem části systému, slovenskou společností Soitron. Podle ministerstva vnitra radary ještě nebyly nasazeny v ostrém provozu; kdyby byly, riziko by podle něj představovaly. Opozice, která na problematické kamery upozorňovala už dříve, vyzvala k odvolání ministra vnitra.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovensko-oznacilo-testovane-silnicni-kamery-za-bezpecnostni-riziko-312998" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensko-odhalilo-ruske-soucastky-v-dopravnich-kamerach-376524" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153471/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "day": "covered",
+      "headline": "Obranná dohoda z Mekky signalizuje přestavbu bezpečnostní architektury Blízkého východu",
+      "body": "Novou obrannou dohodu, kterou v Mekce podepsaly Saúdská Arábie, Turecko a Pákistán, popisuje Deník N jako signál zásadní přestavby bezpečnostní architektury regionu. Jde podle něj o odstrašení, vojenskou spolupráci i hledání partnerů mimo Spojené státy ve světě, v němž už nelze na pomoc z Washingtonu zcela spoléhat a íránská ani izraelská agrese nikam nezmizely. Ve zkoušce z geopolitické reality ale dohoda musí ještě obstát.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2153140/vznika-muslimske-nato-popisujeme-co-obranna-dohoda-z-mekky-skutecne-znamena/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153650/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:16",
+      "day": "covered",
+      "headline": "Nezaměstnanost mladých loni vzrostla na 12,4 procenta, roli hraje i nástup umělé inteligence",
+      "body": "Celosvětová míra nezaměstnanosti lidí ve věku 15 až 24 let loni vzrostla o desetinu procentního bodu na 12,4 procenta, bez práce tak bylo 67 milionů mladých. Vyplývá to ze zprávy Mezinárodní organizace práce, podle níž byl nejvýraznější růst v zemích s vysokými příjmy, kde začíná trh práce měnit umělá inteligence. V letech 2026 a 2027 by se míra podle předpokladů mohla ustálit na 12,3 procenta.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/nezamestnanost-mladych-loni-vzrostla-na-124-procenta-vliv-ma-i-nastup-ai-376519" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:36",
+      "day": "covered",
+      "headline": "Extrémní vedra by letos mohla ekonomiky Evropské unie stát 180 miliard eur",
+      "body": "Podle studie zveřejněné bankou Triodos Bank by dlouhodobá vedra, která letos v létě sužují Evropu, mohla ekonomiky Evropské unie stát přibližně 180 miliard eur, tedy asi procento unijního HDP. Částka podle Deníku N téměř přesně odpovídá růstu, který EU pro rok 2026 očekávala, a z velkých členských zemí má extrémní počasí nejtvrději zasáhnout Francii. Více než devadesát milionů lidí v Evropě dnes podle agentur ČTK a AFP pocítí teploty nad 35 stupňů, hlavně ve Španělsku, Itálii a Francii.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153405/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153240/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:05",
+      "day": "covered",
+      "headline": "Českému chmelu hrozí jedna z nejhorších sklizní za poslední roky",
+      "body": "Chmelaři podle E15 odhadují, že letošní rok bude z pohledu výnosů i kvality patřit k nejhorším za poslední léta. Proti dlouhodobému průměru 6000 tun čekají pokles úrody až o pětinu a plodině navíc chybí dostatek alfa hořkých látek, které určují její kvalitu. Pivovary tak podle serveru budou muset změnit receptury.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/domaci/cesky-chmel-ceka-jedna-z-nejhorsich-sklizni-za-roky-pivovary-budou-muset-zmenit-recepturu-1434918" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:30",
+      "day": "covered",
+      "headline": "Stovky firem se dosud nepřihlásily národnímu kybernetickému úřadu, hrozí jim pokuty",
+      "body": "Stovky společností a institucí, které nově spadají pod dohled národního kybernetického úřadu, se u něj podle Seznam Zpráv stále nenahlásily. Jde například o malé firmy nebo živnostníky. Opozdilcům hrozí v krajním případě pokuty.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-kybernetickemu-uradu-se-neprihlasily-stovky-hrisniku-hrozi-pokuty-312787" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:27",
+      "day": "covered",
+      "headline": "Mozilla revokovala podpisové klíče pro linuxový Firefox a Thunderbird",
+      "body": "Mozilla přistoupila k rychlé revokaci klíče, kterým se ověřují linuxové instalace prohlížeče Firefox a poštovního klienta Thunderbird. Důvodem je, že jeho nešifrovaná kopie byla omylem nahrána do jednoho z privátních kódových repozitářů na GitHubu. Audit podle Root.cz neukázal neoprávněný přístup ani únik klíče, revokace je preventivní.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/mozilla-revokovala-podpisove-klice-pro-firefox-a-thunderbird-na-linuxu-omylem-se-dostaly-na-privatni-github-repozitar/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Anthropic rozšířil Compliance API na Claude Code a Claude Cowork",
+      "body": "Compliance API, které dosud pokrývalo běžné konverzace s Claudem, sahá nově i na Claude Cowork a Claude Code. Bezpečnostní a compliance týmy tak mohou stejným rozhraním a se stávajícími přístupovými klíči vytáhnout obsah i metadata sezení — prompty, odpovědi, volání nástrojů, skilly a artefakty spolu s identifikátory uživatele a organizace a časovými údaji. Novinka je v betě pro zákazníky Claude Enterprise a nezahrnuje Claude Code na webu ani sezení běžící přes Bedrock, Vertex AI nebo Microsoft Foundry.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:27",
+      "day": "covered",
+      "headline": "Česko dnes večer uvidí výrazné částečné zatmění Slunce, v noci vrcholí Perseidy",
+      "body": "Úplné zatmění Slunce bude dnes večer vidět z části Španělska, Portugalska, Islandu, Grónska a Ruska, částečné pak na velké části severní polokoule včetně Evropy, severu USA, Kanady a severozápadní Afriky. V Česku, kde mají být pro pozorování skvělé podmínky, zakryje Měsíc Slunce zhruba z devadesáti procent, podle E15 kolem 19. hodiny; naposledy podobně výrazné zatmění tu bylo v roce 1999 a další taková příležitost se ve střední Evropě naskytne až v roce 2075. Pozorování vyžaduje ochranu zraku, běžné sluneční brýle nestačí, a NASA podle E15 varuje, že fotografování Slunce bez solárního filtru může trvale zničit i snímač v mobilu. Brněnský vědecký tým pod vedením matematika Miloslava Druckmüllera vyrazil za úplným zatměním na Island a do Španělska. V noci z 12. na 13. srpna navíc podle Seznam Zpráv nejvíc rozzáří oblohu meteorický roj Perseid a hvězdárny k tomu chystají speciální programy. Seznam Zprávy zároveň upozorňují, že kombinace veder, zatmění a náporu medúz srazila výkon francouzských jaderných i solárních zdrojů a ceny elektřiny ve Francii a Německu pro středeční večer vyšplhaly přes 300 eur za megawatthodinu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/vesmir/clovek-se-porad-uci-pokazit-se-muze-vsechno-rikaji-o-pozorovani-zatmeni-slunce_2608121627_elev" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/severni-polokouli-ceka-zatmeni-slunce-uplne-bude-zejmena-v-castech-spanelska-376510" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/pozor-pri-dnesnim-zatmeni-slunce-jediny-snimek-bez-filtru-vam-muze-znicit-mobil-1434920" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/magazin-zivotni-styl-perseidy-2026-kdy-nejlepe-pozorovat-co-jsou-312087" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-zatmeni-a-vedro-k-tomu-evropskou-energetiku-ceka-zatezovy-test-312986" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:40",
+      "day": "covered",
+      "headline": "Klempířova kulturní koncepce dostala v připomínkovém řízení desítky kritických námitek",
+      "body": "Návrh státní kulturní politiky z ministerstva kultury vedeného Otou Klempířem (za Motoristy sobě) neobstál před ostatními resorty ani dalšími institucemi. Podle dokumentů, které získal iROZHLAS.cz, se na něj snesly vyšší desítky kritických připomínek a některé zpochybňují jeho podstatu. Unie zaměstnavatelských svazů ČR a Kreativní a kulturní federace žádají stažení dokumentu z mezirezortního připomínkového řízení, ministr ale trvá na svém: „Rozhodně není důvod nic měnit.“ Úkolem jeho resortu je nyní námitky vypořádat tak, aby koncepci schválila vláda. Navazuje na výzvy kulturních organizací ke stažení dokumentu z minulých dnů.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/zasadne-nesouhlasime-nekonkretni-chybi-ji-cile-resorty-rozcupovaly-klempirovu_2608121445_hrk" },
+        { "name": "Deník N", "url": "https://denikn.cz/2153252/je-to-kultura-pro-lidi-klempirova-nova-kulturni-strategie-v-pripominkovem-rizeni-narazi-na-odpor/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "12:59",
+      "day": "covered",
+      "headline": "Osadnické násilí na Západním břehu je podle organizace B'tselem součástí státního násilí",
+      "body": "Voxpot popisuje, že Západní břeh Jordánu je podle OSN na bodu zlomu: osadnické násilí letos dosahuje rekordní míry a sílí i razie izraelské armády. „Jedná se o kolektivní trest, což se Izrael už ani nesnaží skrývat,“ říká v textu Yair Dvir z organizace B'tselem. Podle údajů UNICEF, o nichž informovala stanice Al-Džazíra, bylo na okupovaném Západním břehu od ledna 2024 zabito nejméně 174 palestinských dětí a více než 1500 dalších zraněno, více než polovina z nich ostrou municí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/zadne-oddelene-incidenty-osadnicke-utoky-na-zapadnim-brehu-jsou-soucast-statniho-nasili/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2153340/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:51",
+      "day": "prev",
+      "headline": "Sparta prohrála v Lyonu 0:3 a do Ligy mistrů nepostoupila",
+      "body": "Fotbalisté Sparty šli do odvety 3. předkola Ligy mistrů s domácí výhrou 2:1, ve Francii ale prohráli 0:3 a v součtu 2:4 vypadli. Po zaváhání brankáře Surovčíka inkasovali a ještě v prvním poločase přišli o vyloučeného Ševínského, v deseti pak podle ČT Sport byli rádi, že neprohráli výrazněji. Podle Sport.cz ovlivnila odvetu především červená karta pro stopera Adama Ševínského přibližně po půlhodině hry. Tým kouče Briana Priskeho se místo Ligy mistrů chystá na skupinu Evropské ligy.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-v-deseti-pres-lyon-nepresla-a-ligu-mistru-hrat-nebude-158379" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-moment-ktery-polozil-spartu-hvezda-lyonu-se-svalila-na-zem-a-bylo-jasno-5513363" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:34",
+      "day": "prev",
+      "headline": "Plzeň si o Evropskou ligu zahraje s Crvenou zvezdou, Hradec by při postupu čekal Žalgiris",
+      "body": "Fotbalisté Viktorie Plzeň se ve 4. předkole Evropské ligy střetnou s Crvenou zvezdou Bělehrad. Srbský tým vypadl ve 3. předkole Ligy mistrů, když prohrál oba zápasy s izraelským Hapoelem Beer Ševa, v úterní domácí odvetě 0:2. Hradec Králové by v případě čtvrtečního postupu přes Besiktas Istanbul hrál ve 4. předkole Evropské ligy se Žalgirisem Kaunas, při vyřazení ho v Konferenční lize čeká Panathinaikos Atény.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/plzen-ceka-v-boji-o-evropskou-ligu-cz-belehrad-158378" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:32",
+      "day": "covered",
+      "headline": "Seemanová byla na dvoustovce na mistrovství Evropy nejrychlejší v rozplavbách",
+      "body": "Barbora Seemanová v roli obhájkyně zlata zvládla rozplavby na 200 metrů volným způsobem na mistrovství Evropy v Paříži časem 1:57,10 minuty a byla nejrychlejší ze 45 závodnic. Semifinále má na programu ve středu vpodvečer, o medaile se na dvoustovce plave ve čtvrtek večer. Motýlkáři Ondřej Slavík a Jan Jurčík se na stovce do semifinále nedostali.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/seemanova-ovladla-rozplavby-na-200-metru-volny-zpusob-kde-obhajuje-zlato-158386" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-suverenni-vykon-seemanova-na-mistrovstvi-evropy-ovladla-rozplavby-5513427" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:55",
+      "day": "covered",
+      "headline": "Desetibojař Järvinen odstoupil na ME kvůli zranění, Stráský se drží v první desítce",
+      "body": "Do mistrovství Evropy v Birminghamu naskočili ve středu desetibojaři a česká výprava hned přišla o jednoho ze tří závodníků: bývalý juniorský mistr světa Tomas Järvinen odstoupil kvůli svalovému zranění, v dálce absolvoval jen jeden plnohodnotný pokus a do vrhu koulí už nenastoupil. Vilém Stráský skočil v dálce osobní rekord 754 centimetrů a po třech disciplínách byl sedmý s 2567 body, Ondřej Kopecký uzavíral se 2325 body první dvacítku. Do semifinále čtvrtky se nekvalifikovala Barbora Malíková.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/atletika/atletika-jarvinen-mistrovstvi-evropy-v-atletice_2608121210_ssi" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/me-v-atletice-do-akce-jdou-desetibojari-ctvrtku-rozbehne-malikova-158385" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-na-mistrovstvi-evropy-startuje-slavna-ceska-disciplina-5513298" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:30",
+      "day": "covered",
+      "headline": "Menšík v Montrealu nepostoupil do semifinále, podlehl Sheltonovi",
+      "body": "Jakub Menšík se na turnaji Masters v Montrealu neprobojoval do semifinále, obhájci titulu Benu Sheltonovi podlehl 3:6 a 1:6. Američan udělal jen tři nevynucené chyby a na turnaji zatím neztratil ani set, jeho dalším soupeřem bude krajan Learner Tien.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-si-v-montrealu-o-titul-nezahraje-padl-se-sheltonem-158382" }
+      ]
+    }
+  ]
+}
