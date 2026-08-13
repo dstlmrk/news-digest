@@ -1,0 +1,368 @@
+{
+  "date": "2026-08-13",
+  "covers": "2026-08-13",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "partly",
+    "summary": "Zítra bude skoro jasno a přes den až 30 °C, srážky se nečekají.",
+    "outlook": "O víkendu se vrátí vedra, v pondělí je v předpovědi bouřka a vydatný déšť.",
+    "days": [
+      { "date": "2026-08-14", "icon": "partly", "temp_max_c": 29.9, "temp_min_c": 11.8 },
+      { "date": "2026-08-15", "icon": "cloudy", "temp_max_c": 33.5, "temp_min_c": 13.7 },
+      { "date": "2026-08-16", "icon": "cloudy", "temp_max_c": 34.3, "temp_min_c": 17.1 },
+      { "date": "2026-08-17", "icon": "storm", "temp_max_c": 22.3, "temp_min_c": 17.4 }
+    ]
+  },
+  "highlights": [
+    "Vláda v pondělí obnoví Národní koalici proti suchu a na boj se suchem včetně nových přehrad chce vyčlenit čtyři miliardy korun.",
+    "Výbuch v rotterdamském přístavu zabil nejméně jednoho člověka, příčina zůstává neznámá.",
+    "Polsko zadrželo Rusa, který podle premiéra Tuska plánoval ve Varšavě vraždu muže s americkým a ukrajinským občanstvím."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:42",
+      "day": "covered",
+      "headline": "Vláda obnoví koalici proti suchu a na nové přehrady chce čtyři miliardy",
+      "body": "Národní koalice proti suchu vznikne znovu v pondělí a začne fungovat okamžitě, oznámil premiér Andrej Babiš (ANO) na tiskové konferenci u nádrže Slapy. Na boj proti suchu včetně nových přehrad chce vláda vyčlenit čtyři miliardy korun a na podzim by měla projednat speciální zákon, který má specifikovat dvacet chystaných vodních nádrží. Vedle premiéra vystoupili ministr zemědělství Martin Šebestyán (za SPD) a generální ředitel státního podniku Povodí Vltavy Petr Kubala; podle iROZHLAS Babiš prohlásil, že voda se musí stát veřejným zájmem. Seznam Zprávy upozorňují, že si premiér na pomoc povolal bývalého ministra životního prostředí Richarda Brabce, zatímco Motoristé, kteří resort životního prostředí vedou, téma klimatických změn zlehčují. Sucho zatím sílí: podle Deníku N se nedostatek srážek stále výrazněji podepisuje na krajině i na největších městech.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/voda-se-musi-stat-verejnym-zajmem-v-pondeli-vznikne-koalice-proti-suchu-oznamil_2608131642_vsn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154718/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-babis-zacal-resit-sucho-misto-motoristickeho-ministra-povolal-sveho-hejtmana-313050" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:11",
+      "day": "covered",
+      "headline": "Stát u soudu vymáhá po ruském velvyslanectví 135 milionů za užívání budov",
+      "body": "Městský soud v Praze začal ve čtvrtek projednávat spor o dlužné nájemné za budovy a pozemky, které v Praze i na dalších místech v Česku využívá ruská diplomatická mise. Diplomatický servis, příspěvková organizace ministerstva zahraničí zastupující stát, požaduje zhruba 135 milionů korun; jde o pozemky, u nichž vláda zrušila bezplatné užívání. Podle Seznam Zpráv Rusko žalobu odmítá. Soud přečetl listinné důkazy a jednání bude pokračovat v říjnu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/stat-u-soudu-zada-po-ruskem-velvyslanectvi-135-milionu-za-uzivani-budov-v-cesku-376562" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-stat-po-ruskem-velvyslanectvi-zada-u-soudu-135-milionu-za-uzivani-budov-v-cesku-313079" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:30",
+      "day": "covered",
+      "headline": "Novela stavebního zákona zřejmě v Senátu neprojde",
+      "body": "Rozsáhlé změny v povolování staveb podle zjištění České televize nejspíš neprojdou Senátem. Ke schválení se čtyři desítky senátorů kloní k zamítnutí novely a řada dalších k jejím úpravám, zamítnutí doporučuje i trojice výborů, která se předlohou zabývala ve středu. Návrh zavádí jeden centrální úřad a má stavební řízení zrychlit a zefektivnit. Opozičním senátorům vadí řada nedostatků i to, že jde o poslanecký návrh; jeden z nich novelu označil za neopravitelnou.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/je-to-neopravitelne-novela-stavebniho-zakona-v-senatu-zrejme-narazi-376535" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:07",
+      "day": "covered",
+      "headline": "Babišovi poradci stáli za půl roku víc než Fialovi za celý loňský rok",
+      "body": "Úřad vlády vyplatil poradcům premiéra Andreje Babiše (ANO) za půl roku 2 111 056 korun, tedy více, než dostali poradci jeho předchůdce Petra Fialy (ODS) za celý rok 2025. Babiš má jedenáct poradců, tři z nich pracují bez nároku na odměnu. Nejlépe placenou je poradkyně pro svobodu projevu Natálie Vachatová, jejíž hrubý příjem přesáhl 555 tisíc korun. Informaci přinesly Novinky.cz, podle Deníku slibuje šéf kabinetu šetření.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154411/" },
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/cesko/vlada-poradci-andrej-babis-petr-fiala-odmeny/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=cesko" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:52",
+      "day": "covered",
+      "headline": "Zátěžového testu eDokladů se zúčastnilo 30 tisíc uživatelů",
+      "body": "Veřejný zátěžový test aplikace eDoklady začal ve čtvrtek ve 13 hodin a podle Seznam Zpráv se do něj zapojilo 30 tisíc unikátních uživatelů; test se hodnotí jako úspěšný. Stát si jím ověřoval, jestli aplikace zvládne nápor při říjnových komunálních a senátních volbách — při loňských sněmovních volbách se eDoklady potýkaly s výpadky. Podle iROZHLAS byla největším problémem neaktualizovaná aplikace na straně uživatelů.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zatezoveho-testu-edokladu-se-ucastnilo-30-000-unikatnich-uzivatelu-313091" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/nejvetsi-problem-byla-neaktualizovana-aplikace-stat-otestoval-vydrz-aplikace_2608131502_adn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154149/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:08",
+      "day": "covered",
+      "headline": "Hradec hraje dnes večer v Istanbulu odvetu s Besiktasem, doma prohrál 0:1",
+      "body": "Fotbalisty Hradce Králové čeká na hřišti istanbulského Besiktase odveta 3. předkola Evropské ligy; z domácího utkání si nesou porážku 0:1. Trenér David Horejš je přesvědčen, že tým má reálnou šanci ještě zabojovat, protože před týdnem odehrál s favoritem vyrovnanou partii — od úvodu ale nechce bezhlavě útočit a chce, aby si mužstvo počkalo na své šance. Besiktas mezitím získal srbského útočníka Dušana Vlahoviče, do té chvíle hvězdu turínského Juventusu; podle Horejše je to pro Hradec spíš vyznamenání.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/fotbal/897365-horejs-ukazali-jsme-si-ze-jsme-konkurenceschopni-mame-na-to-rvat-se-o-postup.html" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-chce-v-rize-stvrdit-postup-do-4-predkola-konferencni-ligy-hradec-zabojuje-v-el-o-obrat-158394" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/pohary/horejs-hradec-besiktas-istanbul-evropska-liga-odveta-rozhovor.A260812_185605_fot_pohary_hava#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:10",
+      "day": "covered",
+      "headline": "Stav sucha hlásí na Královéhradecku více než polovina řek a potoků",
+      "body": "Dědina, Tichá Orlice, Úpa, Bělá nebo Cidlina patří mezi toky v Královéhradeckém kraji, kterým ubývá voda; situace se za minulý týden ještě zhoršila. Vodohospodáři upozorňují na velmi nízké zásoby vody, a to nejen v řekách a potocích, ale i v podzemních zdrojích.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/vysycha-dedina-upa-i-cidlina-na-kralovehradecku-hlasi-stav-sucha-vice-nez_2608131410_neb" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:05",
+      "day": "covered",
+      "headline": "Slavnosti královny Elišky v Hradci nahradí devítidenní Královské slavnosti",
+      "body": "Tradiční historický koncept Slavností královny Elišky v Hradci Králové končí a nahrazuje ho devítidenní festival Královské slavnosti. Eliška Rejčka, která dosud zdobila plakáty, ale podle Hradeckého deníku do města přece jen přijede.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/slavnosti-kralovny-elisky-krlovske-slavnosti-nova-podoba-hradec-kralove/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:03",
+      "day": "covered",
+      "headline": "V Trutnově začíná TrutnOFF, festival připomene nedožité devadesátiny Václava Havla",
+      "body": "TrutnOFF Open Air Festival startuje dnes na trutnovském Bojišti a potrvá do neděle. Program nabídne premiéru kapely Lucie, návrat legendárních The Wailers i koncert americké gypsy punkové kapely Gogol Bordello. Východočeský Woodstock letos připomíná nedožité devadesátiny Václava Havla.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/festival-trutnoff-trutnov-bojiste-lucie-the-wailers-havel.A260813_959857_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:00",
+      "day": "covered",
+      "headline": "Výbuch v rotterdamském přístavu zabil nejméně jednoho člověka",
+      "body": "V přístavu v nizozemském Rotterdamu došlo ve čtvrtek kolem poledne k explozi, která zabila jednoho člověka a několik dalších zranila. Informovaly o tom agentury Reuters a AP s odkazem na tamní policii. Příčina výbuchu zatím není známá; podle policie nic nenasvědčuje sabotáži, i tuto možnost ale vyšetřovatelé zvažují. Mluvčí přístavu uvedl, že exploze neměla dopad na provoz terminálů na zkapalněný zemní plyn.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/vybuch-v-rotterdamskem-pristavu-zabil-nejmene-jednoho-cloveka-a-dalsi-zranil_2608131353_kvr" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-pristavu-v-rotterdamu-doslo-k-vybuchu-jeden-mrtvy-a-nekolik-zranenych-376559" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-rotterdamskem-pristavu-doslo-k-vybuchu-nejmene-jeden-clovek-zemrel-313080" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:58",
+      "day": "covered",
+      "headline": "Polsko zadrželo Rusa, který měl ve Varšavě plánovat vraždu",
+      "body": "Polské bezpečnostní složky zadržely před několika dny ruského občana naverbovaného ruskými zpravodajskými službami. Podle polského premiéra Donalda Tuska plánoval ve Varšavě zabít člověka s dvojím občanstvím, americkým a ukrajinským. Zamýšlená oběť byla podle Tuska nepohodlná z pohledu režimu ruského prezidenta Vladimira Putina. Moskva se zatím nevyjádřila.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/polsko-zadrzelo-rusa-naverbovaneho-zpravodajci-ktery-chtel-zabit-cloveka-s_2608131558_elev" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/polsko-zadrzelo-rusa-ktery-mel-planovat-vrazdu-obcana-usa-a-ukrajiny-376564" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-polsku-byl-zadrzen-rus-chtel-zabit-cloveka-s-obcanstvim-usa-i-ukrajiny-313094" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:32",
+      "day": "covered",
+      "headline": "Rusko zaútočilo na dunajský přístav Izmajil, hrozí další zdražení potravin",
+      "body": "Ruské síly v noci na čtvrtek zaútočily na říční přístav Izmajil v Oděské oblasti, největší ukrajinský přístav na Dunaji, který slouží jako terminál pro vývoz obilí. Ve stejné oblasti zasáhl ruský dron osobní vlak, dva lidé zemřeli. Ukrajinská obrana podle letectva zneškodnila 111 ze 133 vypuštěných dronů. Ukrajinský ministr zemědělství Taras Vysockyj podle Deníku N varuje, že ceny potravin na světových trzích mohou kvůli zásadnímu omezení vývozu ukrajinského obilí stoupnout až o třicet procent — přes přístavy míří na světové trhy devadesát procent ukrajinského obilí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-zautocilo-na-zeleznici-nebo-pristav-izmajil-urady-hlasi-mrtve-376549" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-zautocilo-na-ukrajinsky-pristav-izmajil-na-dunaji-obeti-nejsou-hlaseny-313038" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154171/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:26",
+      "day": "covered",
+      "headline": "Při explozi po náletu dronů v Sevastopolu zemřelo pět lidí",
+      "body": "Ukrajinské drony útočily na ruské průmyslové podniky v oblastech nedaleko hranic s Kazachstánem i na okupovaném Krymu. V Sevastopolu zemřelo po náletu pět lidí při explozi — čtyři z nich byli pyrotechnici záchranné služby, kteří se pokoušeli zneškodnit výbušné zařízení, pátý byl členem ostrahy. Na Krymu podle agentury Reuters zemřel ve čtvrtek při bombovém útoku také ruský vojenský důstojník; ze spáchání atentátu je podezřelá mladá žena, kterou úřady zatkly. Ruská tajná služba FSB podle ruských agentur tvrdí, že jde o ruskou občanku jednající na pokyn ukrajinských tajných služeb.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ruske-urady-hlasi-pozar-v-baskirsku-a-ukrajinske-utoky-na-orenburskou-oblast-313045" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154324/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154595/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "03:47",
+      "day": "covered",
+      "headline": "Počet obětí zemětřesení v Kolumbii stoupl na 265",
+      "body": "Pondělní zemětřesení v Kolumbii si dosud vyžádalo nejméně 265 mrtvých, dalších 496 lidí se pohřešuje a téměř 3500 utrpělo zranění. Uvedl to kolumbijský prezident Abelardo de la Espriella, který zároveň oznámil záměr vyhlásit v zemi stav ekonomické nouze.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/zemetreseni-v-kolumbii-ma-dosud-265-obeti-dalsi-stovky-lidi-se-pohresuji-376540" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:35",
+      "day": "covered",
+      "headline": "Putin navštívil sporné Kurily, Tokio si předvolalo ruského velvyslance",
+      "body": "Ruský prezident Vladimir Putin poprvé navštívil Iturup, největší z Kurilských ostrovů, o které Moskva od druhé světové války vede spor s Tokiem. Přijel den po rozsáhlém cvičení ruské Tichomořské flotily a poté, co KLDR odpálila další balistickou střelu do Japonského moře. Japonský ministr zahraničí Tošimicu Motegi se proti cestě ohradil a ostrovy označil za japonské území historicky i podle mezinárodního práva, Tokio si předvolalo ruského velvyslance. Podle Jana Železného z Centra asijsko-pacifických studií univerzity CEVRO návštěva zapadá do širšího obrazu, kterým Rusko dává najevo, že není mocností jen v Evropě.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/putin-rozhneval-tokio-navstevou-spornych-kuril-376544" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/navstevou-kurilskych-ostrovu-dava-rusko-najevo-ze-neni-mocnosti-jen-v-evrope_2608131335_adn" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:29",
+      "day": "covered",
+      "headline": "CSG dodá polské zbrojovce podvozky Tatra za 3,6 miliardy korun",
+      "body": "Holding Czechoslovak Group podnikatele Michala Strnada dodá polské firmě Huta Stalowa Wola stovky podvozků Tatra pro víceúčelová taktická vozidla Waran 4x4 a Heron 6x6. Smlouva má hodnotu 150 milionů eur, tedy zhruba 3,6 miliardy korun, dodávky mají být hotové do roku 2029 a vozidla si objednala polská Agentura pro vyzbrojování. Podle E15 jde už o druhý velký kontrakt CSG v Polsku během jediného týdne; navazuje na dohodu s podnikem Dezamet o komponentech pro dělostřeleckou munici.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/strnad-doda-polske-armade-podvozky-za-150-milionu-eur-spoluprace-zbrojaru-obou-zemi-se-prohlubuje-1434927" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-csg-doda-polske-hsw-stovky-podvozku-pro-viceucelove-takticke-vozy-313074" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154290/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:22",
+      "day": "covered",
+      "headline": "Penta, Strnad a J&T postaví v pražských Bubnech čtvrť za 90 miliard",
+      "body": "Penta Real Estate získala poloviční podíl ve společnosti, která vlastní klíčové pozemky v pražských Bubnech-Zátorech. Další část koupila nově vzniklá investiční skupina Akipia, kterou podle Deníku N zakládají miliardáři v čele s Michalem Strnadem; E15 mluví o 35 procentech, Deník N o třetině. Zbytek si ponechává J&T. Celková investice do nové čtvrti má dosáhnout devadesáti miliard korun.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/strnad-vstoupil-do-megaprojektu-za-90-miliard-pod-vedenim-penty-postavi-novy-kus-prahy-1434931" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-reality-novou-ctvrt-za-devadesat-miliard-postavi-j-t-penta-i-zbrojar-strnad-313078" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154568/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:10",
+      "day": "covered",
+      "headline": "Sucho odstavilo většinu malých vodních elektráren",
+      "body": "Letošní sucho výrazně omezilo provoz vodních elektráren v Česku. Z více než 1400 malých vodních elektráren má podle odhadů oborových zástupců zastavenou výrobu až devadesát procent, vyplývá z informací Komory OZE a společnosti ČEZ. Vodní elektrárny se v předchozích letech podílely na tuzemské produkci elektřiny třemi až pěti procenty, podle expertů proto současné omezení zásobování elektřinou neohrozí.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/sucho-odstavilo-male-vodni-elektrarny-stoji-az-devet-z-deseti-1434929" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:30",
+      "day": "covered",
+      "headline": "Anthropic jedná o koupi startupu Decart AI za šest miliard dolarů",
+      "body": "Americká společnost Anthropic, která stojí za modelem Claude, podle informací agentury Bloomberg jedná o akvizici startupu Decart AI. Nabízet za něj má šest miliard dolarů.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-anthropic-vyjednava-o-obri-akvizici-za-startup-nabizi-6-miliard-dolaru-313047" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Postranní panel Claude v Chromu se mění na Claude Cowork",
+      "body": "Anthropic přejmenoval postranní panel Claude v prohlížeči Chrome na Claude Cowork. Konverzace se nově ukládají do historie a je možné v nich pokračovat na jiném zařízení, panel také zpřístupňuje dovednosti a konektory přímo v prohlížeči. Před důležitými kroky, jako je odeslání formuláře nebo stažení souboru, nově probíhá kontrola, zda akce odpovídá původnímu zadání — firma to zdůvodňuje rizikem takzvané prompt injection, tedy skrytých instrukcí ve webovém obsahu. Funkce je od 12. srpna dostupná v tarifech Max a Team, do tarifu Pro se má dostávat postupně a u firemních Enterprise účtů je ve výchozím stavu vypnutá.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/cowork-chrome-side-panel" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:35",
+      "day": "covered",
+      "headline": "Spotify začne od podzimu označovat profily umělců vytvořené umělou inteligencí",
+      "body": "Švédská společnost Spotify, provozovatel přední světové platformy pro streamování hudby, začne od podzimu označovat profily umělců vytvořených pomocí umělé inteligence. Označení AI Persona se přitom vztahuje na profil, ne na samotnou hudbu.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/kultura/platforma-spotify-oznaci-ai-profily-376566" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:12",
+      "day": "covered",
+      "headline": "Přírodovědecká fakulta UK se vyjádřila k okolnostem odchodu Stanislava Komárka",
+      "body": "Přírodovědecká fakulta Univerzity Karlovy zveřejnila oficiální stanovisko k okolnostem, za nichž z ní na počátku roku 2025 odešel biolog a filozof Stanislav Komárek. Vedení fakulty zdůraznilo, že jakékoli formy sexualizovaného násilí, zneužívání moci či neetického chování považuje za zcela nepřípustné. Deník N téhož dne popsal, že Komárek školu opustil po svědectví mladšího kolegy, podle nějž ho profesor přesvědčil, aby si vzal drogu, a poté ho přiměl k sexuálnímu styku; chování pedagoga listu popsali i další bývalí studenti. Komárek obvinění ze sexuálního i mocenského zneužívání odmítá.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154711/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2082333/znicilo-to-mou-duveru-v-nej-co-stalo-za-odchodem-znameho-filozofa-komarka-z-univerzity/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:17",
+      "day": "covered",
+      "headline": "Satelitní snímky Deníku N ukazují, jak sucho proměnilo českou krajinu",
+      "body": "Deník N porovnal satelitní snímky Česka z letoška a ze stejného období loňského roku. Ukazuje na nich, jak se extrémní sucho a nedostatek srážek podepisují nejen na krajině a přehradách, ale i na největších městech.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2154446/vyprahle-cesko-sucho-trapi-prehrady-i-velka-mesta-nabizime-unikatni-srovnani-satelitnich-snimku/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "16:51",
+      "day": "covered",
+      "headline": "Voxpot popisuje, jak v americké Demokratické straně slábne bezpodmínečná podpora Izraele",
+      "body": "Demokratické voličstvo už podle Voxpotu nechce posílat zbraně Izraeli a politici strany se tomu začínají opatrně přizpůsobovat. Proizraelská lobby přitom hledá nové cesty, jak Kongres obejít.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/konec-bezpodminecne-podpory-izraele/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:29",
+      "day": "covered",
+      "headline": "Manuel i Vadlejch prošli na mistrovství Evropy do finále",
+      "body": "Česká čtvrtkařka Lurdes Gloria Manuel postoupila na atletickém mistrovství Evropy v Birminghamu do finále, když v semifinále doběhla druhá v čase 49,81 sekundy; rychlejší byla jen Polka Natalia Bukowiecka o 24 setin. O medaile poběží jednadvacetiletá halová mistryně světa v sobotu ve 21.10 SELČ, kvůli druhému místu v semifinále ale nedostane ideální dráhu — venku to podle ní není takový handicap jako v hale. Do finále postoupil jediným kvalifikačním hodem i obhájce zlata, oštěpař Jakub Vadlejch; jeho parťáci Martin Konečný a Jan Výška mezi dvanáctku nejlepších neprošli. Výškařka Michaela Hrubá skončila v kvalifikaci výkonem 184 centimetrů, sprinter Ondřej Macík nepostoupil do semifinále dvoustovky. Desetibojaři Vilému Stráskému se druhý den nevydařil disk ani tyč a po sedmi disciplínách je osmý.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/manuel-nebude-mit-ve-finale-nejlepsi-drahu-venku-to-pry-nevadi-158407" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-nerozhodil-ji-vitr-ani-vedro-pobezi-o-medaili-petatricet-stupnu-jsem-tu-uplne-necekala-priznala-manuel-5513516" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2154575/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:16",
+      "day": "covered",
+      "headline": "Seemanová vylepšila český rekord na motýlku, večer ji čeká finále dvoustovky",
+      "body": "Plavkyně Barbora Seemanová zaplavala na mistrovství Evropy v Paříži v rozplavbách stovky motýlek nový český rekord 57,43 a postoupila třetím časem do semifinále. To ale vynechá, protože se chce soustředit na finále své hlavní trati, dvoustovky volným způsobem, které je na programu dnes po půl osmé večer. Sama dopředu říkala, že si nejede vyloženě pro medaili, ale chce se s českým rekordem dostat na minutu a 54 sekund. Národní rekord vylepšil i znakař Miroslav Knedla, který na padesátimetrové trati zaplaval 24,19 a prošel do semifinále třetím časem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/barbora-seemanova-plavani-me-v-plavani_2608131416_ssi" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/seemanova-v-rozplavbach-prekonala-vlastni-rekord-na-100-metru-motylek-158404" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-seemanova-prekvapila-postupem-na-doplnkove-trati-knedla-potvrdil-medailove-ambice-5513495" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:15",
+      "day": "covered",
+      "headline": "Úvodní etapu Czech Tour vyhrál Američan Sheehan",
+      "body": "Osmnáctý ročník cyklistické Czech Tour odstartoval v poledne z pražského Vítězného náměstí a první etapu do Karlových Varů vyhrál ve spurtu Američan Riley Sheehan z týmu NSN před Britem Benem Turnerem. Nejlepším z Čechů byl šestý Dominik Neuman. Závod má čtyři etapy a další tři dny nabídnou horské dojezdy na Ještěd, Dlouhé stráně a v nedělním finále na Pustevny. Startuje 21 Čechů, mezi nimi Jan Hirt, který bere Czech Tour jako přípravu na Vueltu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-prvni-etapu-czech-tour-vyhral-american-sheehan-cesky-jezdec-nejvetsim-bojovnikem-5513521" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/1-etapa-cyklisticke-czech-tour-158405" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:00",
+      "day": "covered",
+      "headline": "Siniaková postoupila v Torontu do finále čtyřhry",
+      "body": "Kateřina Siniaková s Číňankou Čang Šuaj, s níž tvoří v Torontu první nasazený pár, porazily v semifinále čtyřhry slovensko-britskou dvojici Tereza Mihalíková a Olivia Nichollsová 6:1 a 7:5. Ve finále je čekají Italka Sara Erraniová s Američankou Nicole Melichar-Martinezovou; pro Siniakovou by šlo o 38. deblový titul kariéry a šestý v této sezoně.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-ma-v-torontu-na-dosah-38-deblovy-titul-kariery-158406" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:21",
+      "day": "prev",
+      "headline": "Haraslín po pěti letech opustil Spartu a míří do Saúdské Arábie",
+      "body": "Třicetiletý slovenský kapitán Sparty Lukáš Haraslín přestoupil do saúdskoarabského klubu al-Fátí. Na Letné strávil pět let, získal dva ligové tituly a jednou domácí pohár, v české nejvyšší soutěži nastoupil ke 131 zápasům a dal 47 gólů.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-potvrdila-odchod-haraslina-nove-bude-hrat-za-al-fati-158399" }
+      ]
+    }
+  ]
+}
