@@ -1,0 +1,343 @@
+{
+  "date": "2026-08-14",
+  "covers": "2026-08-14",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "partly",
+    "summary": "Zítra polojasno a horko, až 33,5 °C, beze srážek. Kvalita ovzduší bude zhoršená.",
+    "outlook": "V pondělí přijde výrazné ochlazení s bouřkami a vydatným deštěm, spadnout má přes 25 milimetrů.",
+    "days": [
+      { "date": "2026-08-15", "icon": "partly", "temp_max_c": 33.5, "temp_min_c": 13.5 },
+      { "date": "2026-08-16", "icon": "cloudy", "temp_max_c": 29.7, "temp_min_c": 15.8 },
+      { "date": "2026-08-17", "icon": "storm", "temp_max_c": 21.8, "temp_min_c": 17.1 },
+      { "date": "2026-08-18", "icon": "rain", "temp_max_c": 21.6, "temp_min_c": 16.1 }
+    ]
+  },
+  "highlights": [
+    "Požár u chorvatského letoviska Omiš patří podle šéfa tamních hasičů k nejhorším v dějinách země, evakuovat se muselo přes dva tisíce lidí včetně zhruba tří set Čechů.",
+    "Spojené státy obvinily Česko a další státy EU, že umožňují Číně obcházet americká cla.",
+    "Některý ze tří nejvyšších stupňů sucha panuje už na více než 88 procentech území Česka a obcím závislým na studních dochází voda."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "12:35",
+      "headline": "USA obvinily Česko, že pomáhá Číně obcházet americká cla",
+      "body": "Americká administrativa obvinila Česko a další státy Evropské unie z toho, že maří celní politiku Spojených států a umožňují Číně obcházet cla, která proti Pekingu zavedl prezident Donald Trump. Podle Deníku N Washington označil Česko nebo Polsko za místa, přes která se čínské součástky dostávají na americký trh bez zaplacení vysokých cel. Bílý dům podle listu mluví o „Velkém překládkovém podvodu“ za desítky miliard dolarů.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2155275/trump-obvinil-cesko-a-dalsi-evropske-staty-ze-pomahaji-cine-obchazet-cla/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155399/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:28",
+      "headline": "Sucho zasáhlo už 88 procent území, obcím dochází voda ve studních",
+      "body": "Některý ze tří nejvyšších stupňů sucha, tedy výrazné, výjimečné nebo extrémní, panuje v Česku na více než 88 procentech území do hloubky jednoho metru. Extrémní sucho je aktuálně na šedesáti procentech území. Vyplývá to z dat portálu InterSucho, za nímž stojí pracovníci Ústavu výzkumu globální změny AV ČR – CzechGlobe. Problémy má stále více obcí, hlavně tam, kde jsou lidé závislí na vodě ze studní. Podle ČT24 se samosprávy obracejí na Správu státních hmotných rezerv se žádostí o zapůjčení cisteren nebo si nechávají vodu dovážet od soukromých firem.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155449/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/regiony/casti-obci-dochazi-voda-ve-studnich-roste-tak-zajem-o-cisterny-statnich-rezerv-376553" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:06",
+      "headline": "Armáda letos nabere skoro tři tisíce vojáků, víc, než plánovala",
+      "body": "Armáda České republiky letos nabírá 2997 vojáků, původně přitom plánovala přijetí 2250 lidí, uvedl ministr obrany Jaromír Zůna (za SPD). Celkem má armáda kolem třiceti tisíc lidí. Premiér Andrej Babiš (ANO) na slavnostní přísaze vojáků ve Vyškově řekl, že armáda má zajištěno financování na úrovni dvou procent HDP a že vláda schválí rozpočet na příští rok do 30. září.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-armada-uz-letos-nabrala-2997-vojaku-vice-nez-puvodne-planovala-313159" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155347/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:52",
+      "headline": "Policie prověřuje rekultivace hnědouhelných lomů i smlouvu státu s Tykačovou skupinou",
+      "body": "Policie se zabývá okolnostmi spojenými s rekultivacemi hnědouhelných lomů. Podle informací Deníku N vyšetřovatelé prověřují také vznik problematické smlouvy mezi státem a Tykačovou skupinou, která dnes komplikuje převod ušetřených peněz obcím z okolí lomu ČSA. Premiér Andrej Babiš viní své předchůdce, podle listu ale proces začal už za jeho předchozí vlády. Seznam Zprávy odpoledne uvedly, že společnost Sev.en už se starosty obcí v okolí zavřeného lomu ČSA u Mostu o finanční podpoře debatuje; podle manažera firmy se mezi obce má rozdělit 213 milionů korun.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2154596/policie-proveruje-deni-kolem-lomu-kde-tezila-uhli-tykacova-firma/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-tezar-zacal-jednat-s-obcemi-na-mostecku-o-penezich-usetrenych-na-rekultivaci-csa-313179" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:04",
+      "headline": "Státní zdravotní ústav podle Deníku N nemusí mít od listopadu na výplaty",
+      "body": "Státní zdravotní ústav je už třetím rokem ve ztrátě a nyní hrozí, že zaměstnanci od listopadu nebudou mít výplaty, píše Deník N. Ústav šetří na zaměstnancích, jeho ředitelka a dva náměstci přitom loni dostali mimořádné odměny za téměř 1,5 milionu korun. Finanční krizi podle listu nyní řeší Zdeněk Hřích, partner zástupkyně ředitelky a jednatel firmy, která v minulosti se SZÚ obchodovala.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2153122/nebude-na-vyplaty-strasi-sefka-statniho-zdravotniho-ustavu-zamestnance-sama-dostala-statisicove-odmeny/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:00",
+      "headline": "Operace ženských nádorů se přesunou jen do velkých nemocnic, o zákroky přijde i pražské Podolí",
+      "body": "Ve velkých nemocnicích se nově budou soustředit také operace rakoviny vaječníků, dělohy a dalších ženských nádorů, podobně jako už u nádorů slinivky, jater nebo ledvin. Deník N zjistil, že ministerstvo v rámci této změny vyškrtlo ze seznamu center i porodnici v pražském Podolí, která patří k největším v Česku a onkogynekologické operace rovněž prováděla.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2154457/operace-gynekologickych-nadoru-se-presunou-jen-do-velkych-nemocnic-o-zakroky-prijde-i-prazske-podoli/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:12",
+      "headline": "Policie se bude zabývat případem profesora Komárka",
+      "body": "Policie potvrdila, že se bude zabývat případem biologa a filozofa Stanislava Komárka, který dříve působil na Přírodovědecké fakultě Univerzity Karlovy. Navazuje na včerejší vyjádření fakulty k okolnostem jeho odchodu: reaguje na svědectví o Komárkově chování, která zazněla v textu Deníku N. Sám profesor obvinění na svou adresu odmítá.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2155429/policie-se-bude-zabyvat-pripadem-znameho-profesora-komarka/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155600/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "22:04",
+      "day": "prev",
+      "headline": "Hradec podlehl Besiktasi i v Istanbulu a přesouvá se do Konferenční ligy",
+      "body": "Fotbalisté Hradce Králové prohráli v odvetě 3. předkola Evropské ligy na hřišti Besiktase 0:1, stejným poměrem ztratili i domácí utkání. Duel v Istanbulu rozhodl ve 40. minutě Václav Černý. Votroci v Evropské lize skončili, o podzimní účast v pohárech ale mohou dál bojovat: za týden na stadionu Panathinaikosu Athény rozehrají závěrečné 4. předkolo Konferenční ligy. „Dvojzápas jsme prohráli doma,“ řekl po utkání trenér David Horejš, který zároveň vyzdvihl výkon svého týmu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/hradec-podlehl-v-predkole-evropske-ligy-besiktasi-i-na-jeho-hristi-rozhodl-cerny-158415" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/horejs-po-besiktasi-dvojzapas-jsme-prohrali-doma-tohle-v-cesku-nezazijete/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/pohary/trener-david-horejs-hradec-kralove-besiktas-3-predkolo-evropske-ligy.A260813_225027_fot_pohary_min#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:00",
+      "headline": "Centrum Hradce se o víkendu promění ve sportovní městečko kvůli Ironmanu",
+      "body": "V Hradci Králové dnes odstartoval třetí ročník závodu Ironman 70.3, kterého se má zúčastnit 1750 sportovců ze 43 zemí. Na Eliščině nábřeží u Labe vzniklo startovní molo, na Masarykově náměstí tribuny pro dobíhající závodníky. V sobotu je na programu Den na Labi, hlavní závod začíná v neděli ráno. Pořadatelé prosí fanoušky, aby povzbuzovali naplno, ale nesprejovali vzkazy na silnice.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-sporty/co-neminout-na-ironmanu-v-hradci-nocni-beh-show-na-labi-i-bitvu-profiku/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-sporty" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/ironman-hradec-beh-plavani-triatlon-kolo-zavody-havaj-sinkovsky-den-na-labi.A260814_083754_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/sport/897499-kricte-fandete-jen-nesprejujte-silnice-prosi-pred-ironmanem-poradatele.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:18",
+      "headline": "Nesnědené školní obědy budou v Hradci od září v prodeji za 70 korun",
+      "body": "Školy v Hradci Králové se zapojí do programu Remeal, který má snížit plýtvání jídlem a zároveň může lidem pomoct k levnějším obědům. Ve školních kuchyních zůstávají každý den nevydaná jídla, která není možné jen tak vyhodit a jejichž likvidace stojí desetitisíce korun.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/nesnedene-skolni-obedy-se-nevyhodi-v-hradci-kralove-je-od-zari-budou-prodavat-za_2608141518_dci" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:27",
+      "headline": "Sdružení se zfalšovanými podpisy na petici do voleb ve Dvoře Králové nepůjde",
+      "body": "Nové sdružení podnikatelky Lenky Křížové po skandálu se zfalšovanými podpisy do komunálních voleb ve Dvoře Králové nad Labem na Trutnovsku nezasáhne. Členové sdružení podle iDNES.cz postupně stahují kandidaturu.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/komunalni-volby-kandidatka-nas-dvur-kralove-petice-podpisy.A260814_091313_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:18",
+      "headline": "Požár u chorvatského Omiše patří k nejhorším v dějinách země, evakuovalo se 300 Čechů",
+      "body": "Rozsáhlý požár, který se začal šířit v noci na dnešek u přímořského letoviska Omiš jižně od Splitu, zasáhl osady na ploše přes tisíc hektarů. Evakuovat se muselo přes dva tisíce lidí, podle ministerstva zahraničí je mezi nimi zhruba tři sta Čechů. Policie při ohledávání okolí turistické oblasti našla jedno mrtvé tělo, po jednom člověku se podle Seznam Zpráv pátrá. Zraněno bylo podle iROZHLASU 36 lidí, sedm z nich bojuje v nemocnici o život; Deník N s odvoláním na AFP uvedl, že v nemocnici skončilo čtrnáct lidí, z toho deset na jednotce intenzivní péče. Oheň se v Dalmácii rozšířil kvůli silnému větru. Podle velitele hasičů Slavka Tucakoviće jde o jeden z nejhorších požárů v historii Chorvatska. ČT24 uvedla, že se před 15. hodinou objevily zprávy o dostání ohně pod kontrolu, odpoledne však vypukl nový požár.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/u-chorvatskeho-letoviska-omis-mohutne-hori-evakuovano-bylo-i-tri-sta-cechu-376594" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/pozar-u-omise-je-jednim-z-nejhorsich-v-historii-chorvatska-uvedl-sef-hasicu-sedm_2608141345_ape" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-chorvatsko-scita-skody-po-pozaru-u-omise-spalil-tisic-hektaru-313180" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155777/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:53",
+      "headline": "Francouzská Ústavní rada zrušila zákaz sociálních sítí pro děti do 15 let",
+      "body": "Francouzská Ústavní rada zamítla zákaz používání sociálních sítí dětem mladším patnácti let, informovala agentura AFP. Opatření podle ní představuje nepřiměřený zásah do svobody projevu a do komunikace. Francouzský parlament zákaz schválil na konci července a platit měl od září, šlo o první takový zákaz v Evropě.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/francouzska-ustavni-rada-zamitla-zakaz-socialnich-siti-detem-mladsim-15-let-376603" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/francie-zakaz-socialnich-siti-neprosel_2608141642_elev" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-francouzska-ustavni-rada-zamitla-zakaz-socialnich-siti-detem-mladsim-15-let-313181" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155613/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "07:21",
+      "headline": "Farage vyhrál doplňovací volby v Clactonu a vrací se do britského parlamentu",
+      "body": "Lídr britské populistické strany Reform UK Nigel Farage vyhrál doplňovací volby v obvodu Clacton a vrátí se do Dolní sněmovny, uvedla BBC. Získal více než 22 tisíc hlasů. Mandátu se vzdal v červenci po skandálu s nepřiznanými dary v hodnotě milionů liber a znovu se o něj ucházel. Volební účast dosáhla 44,37 procenta, tedy méně než při parlamentních volbách v roce 2024.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/farage-se-po-vyhre-v-doplnovacich-volbach-vrati-do-britskeho-parlamentu-376586" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nigel-farage-se-vrati-do-britskeho-parlamentu-vyhral-doplnovaci-volby-313124" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:56",
+      "headline": "Rusko odmítlo návrh na příměří v Černém moři",
+      "body": "Ukrajina ve čtvrtek zaslala Rusku návrh na zastavení útoků na civilní objekty v Černém moři, Moskva ho den nato odmítla. Podle agentury Reuters nevidí důvod pro „polovičatá opatření“, která by druhé straně nabídla oddech. Rusko i Ukrajina v posledních týdnech zintenzivnily útoky proti obchodním lodím v Černém moři, což vedlo k růstu světových cen obilí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-odmitlo-navrhy-na-primeri-v-cernem-mori-313172" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155551/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "04:58",
+      "headline": "Stíhačky NATO sestřelily nad Lotyšskem dron",
+      "body": "Stíhačky mise NATO nad ránem sestřelily dron, který pronikl do lotyšského vzdušného prostoru, oznámily lotyšské ozbrojené síly a Aliance zásah později potvrdila. Riga kvůli incidentu vyhlásila vzdušný poplach pro několik oblastí na východě země. Finsko ve stejnou dobu omezilo leteckou a námořní dopravu ve východní části Finského zálivu.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/stihacky-nato-sestrelily-dron-nad-lotysskem-uvedla-riga-376583" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "07:49",
+      "headline": "Přívalové deště východně od Tokia zabily nejméně osm lidí",
+      "body": "Nejméně osm lidí zemřelo při záplavách po prudkých bouřích východně od japonské metropole, píše server BBC News. Přívalové deště, záplavy a sesuvy půdy ochromily dopravu zejména v prefektuře Čiba na ostrově Honšú. Desítky tisíc domácností se ocitly bez elektřiny, sedm tisíc lidí přes noc uvázlo na letišti Narita. Podle Seznam Zpráv jde o další z katastrof po tropické bouři a tajfunu, se kterými se Japonsko v posledních dnech potýká, a meteorologové očekávají zesílení dešťů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/oblast-u-tokia-zasahly-rekordni-deste-nekolik-lidi-zemrelo-376585" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nevidane-privalove-deste-pobliz-tokia-zabily-nejmene-ctyri-lidi-313123" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:01",
+      "headline": "ČNB uložila ČSOB pokutu 30 milionů za nedostatky v prevenci praní špinavých peněz",
+      "body": "Česká národní banka potrestala ČSOB pokutou 30 milionů korun za nedostatky v kontrolních procesech. Pochybení se týkala prevence praní špinavých peněz a ověřování klientů. Banka tvrdí, že praní peněz ani újma klientům prokázány nebyly; podle mluvčího ČSOB nešlo o úmyslné jednání.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-cnb-dala-csob-sankci-30-milionu-za-nedostatky-v-prevenci-prani-spinavych-penez-313141" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/cnb-potrestala-jednu-z-nejvetsich-ceskych-bank-csob-dostala-pokutu-30-milionu-1434940" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:40",
+      "headline": "Zbrojovka Excalibur Army zvýšila tržby na rekordních 83,2 miliardy korun",
+      "body": "Excalibur Army loni zvýšila tržby meziročně o 17,4 miliardy korun na rekordních 83,2 miliardy. Zisk vzrostl o 1,32 miliardy na 12,5 miliardy korun, což je rovněž nejvyšší hodnota v historii firmy. Vyplývá to z výroční zprávy společnosti, která ve Šternberku na Olomoucku a v Přelouči na Pardubicku vyrábí, modernizuje a opravuje vojenskou techniku. Firma patří do strojírensko-zbrojařského holdingu Czechoslovak Group podnikatele Michala Strnada.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/zbrojovka-excalibur-army-dal-prudce-roste-trzby-vystrelily-nad-83-miliard-zisk-na-rekord-1434963" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155546/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "07:05",
+      "headline": "Hypoteční trh ochladl, průměrná sazba vyšplhala na 4,9 procenta",
+      "body": "Banky a spořitelny poskytly v červenci hypotéky za 40,4 miliardy korun a trh podle E15 zpomalil. Průměrná sazba nových hypoték vzrostla na 4,9 procenta a proti loňsku zvedá měsíční splátku zhruba o tisíc korun. Oproti průměru roku 2025 platí lidé kvůli vyšším sazbám a vyšším úvěrům měsíčně téměř o tři tisíce korun více.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/hypotecni-trh-ochladl-vyssi-sazby-zvedaji-domacnostem-splatky-o-tisice-1434935" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:19",
+      "headline": "Během jednoho dne přišly nové modely Gemini 3.7 Flash a GLM-5.3",
+      "body": "Google včera večer představil model Gemini 3.7 Flash. Dnes ráno pak na webu z.ai vyšlo oznámení modelu GLM-5.3, který je v něm popsaný jako model pro programování na špičkové úrovni s objevujícími se schopnostmi v kybernetické oblasti. Obě oznámení se dostala na vrchol Hacker News: příspěvek o Gemini nasbíral 927 bodů a 467 komentářů, ten o GLM-5.3 823 bodů a 428 komentářů.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/" },
+        { "name": "Hacker News", "url": "https://z.ai/blog/glm-5.3" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Claude Tag ve Slacku lépe pozná, kdy má do konverzace vstoupit",
+      "body": "Anthropic vylepšil slackovou integraci Claude Tag: nově posuzuje více zpráv v kanálu najednou místo jedné po druhé a podle firmy je díky tomu zhruba o třicet procent lepší v rozhodování, kdy do konverzace vstoupit a kdy mlčet. Na výběr má čtyři reakce — odpovědět přímo, otevřít vlákno a pustit se do delší práce, přesměrovat téma do existujícího workstreamu, nebo nereagovat. První potvrzení přichází podle firmy během několika sekund. Chování lze nastavit běžnou větou, například pokynem, aby se Claude zapojoval do všeho kolem nasazovací pipeline, případně automatické reakce úplně vypnout. Funkce je od včerejška dostupná zákazníkům Claude Teams a Enterprise a zpracování dodatečného kontextu se podle Anthropicu nezapočítává do limitů využití.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:07",
+      "headline": "Tržby OpenAI v ročním přepočtu přesáhly 40 miliard dolarů",
+      "body": "Tržby OpenAI rostou takovým tempem, že v přepočtu na celý rok přesahují 40 miliard dolarů, tedy zhruba 838 miliard korun. Znamenalo by to přibližně dvojnásobek oproti konci roku 2025. Uvedla to agentura Bloomberg s odvoláním na zdroje obeznámené se situací. Pro firmu, která plánuje vstup na burzu, jde o dobrou zprávu.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2155362/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:15",
+      "headline": "Statistika o nákladech na ukrajinské uprchlíky, se kterou zavádějícím způsobem pracovali i čeští politici, zanikla",
+      "body": "Projekt Ukraine Support Tracker, který vyčísluje mezinárodní pomoc Ukrajině, ve svých posledních edicích už nezveřejňuje náklady jednotlivých zemí na péči o uprchlíky. Číslo v mnoha případech neodpovídalo realitě, šlo o maximalistický odhad. Deník N popisuje, proč statistika zanikla a jak s ní zavádějícím způsobem pracovali i někteří čeští politici.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2155276/statistika-o-uprchlicich-z-ukrajiny-kterou-prekrucovali-i-cesti-politici-zanikla-popisujeme-proc/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:21",
+      "day": "prev",
+      "headline": "Siniaková získala v Torontu 38. deblový titul",
+      "body": "Kateřina Siniaková vyhrála s Číňankou Čang Šuaj čtyřhru na Canadian Open v Torontu, a to bez ztráty setu. Ve finále deblová světová jednička porazila italsko-americký pár Sara Erraniová a Nicole Melicharová Martinezová 6:3, 6:4. Pro rodačku z Hradce Králové jde o 38. titul ve čtyřhře a třetí společný s čínskou parťačkou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-ziskala-v-torontu-38-deblovy-titul-158419" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-siniakova-slavi-zisk-dalsi-trofeje-5513760" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:25",
+      "day": "prev",
+      "headline": "Seemanová je potřetí mistryní Evropy na dvoustovce volným způsobem",
+      "body": "Barbora Seemanová získala ve finále na 200 metrů volný způsob na mistrovství Evropy v Paříži třetí kontinentální zlato na této trati. Svůj český rekord vylepšila o 74 setin sekundy na 1:54,38 minuty a je také novou rekordmankou evropských šampionátů. Do finále na 50 metrů znak postoupil i Miroslav Knedla. Česká smíšená kraulařská štafeta ve složení Jakub Jan Krischke, Miroslav Knedla, Barbora Janíčková a Barbora Seemanová dnes dopoledne vyhrála rozplavbu nejrychlejším časem 3:23,41 a rovněž vylepšila český rekord.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/me-v-plavani-seemanova-poplave-finale-na-200-metru-volny-zpusob-158410" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/smisena-kraularka-stafeta-postoupila-na-me-do-finale-mela-nejrychlejsi-cas-158423" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:46",
+      "headline": "Českým atletům se na mistrovství Evropy nevydařil ani jeden dopolední postup",
+      "body": "V Birminghamu se dopoledne představilo čtrnáct českých atletů a kromě sedmibojařky Adély Tkáčové nikdo nepostoupil do bojů o medaile. Kvalifikace nevyšla oštěpařkám Nikole Ogrodníkové, Nikol Tabačkové a Petře Sičakové, jejíž hod 56,09 metru byl z české trojice nejlepší. Vypadli i oba tyčkaři David Holý a Dan Bárta, kteří ztroskotali na výšce 545 centimetrů, a do finále neprošla mužská ani ženská štafeta na 4×400 metrů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/atletika/osteparkam-se-kvalifikace-na-mistrovstvi-evropy-nevydarila-neuspely-ani_2608141346_mim" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/dopoledni-program-na-me-v-atletice-zacina-sedmiboj-v-kvalifikaci-se-predstavi-osteparky-158421" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-nabite-ceske-dopoledne-v-birminghamu-do-akce-jde-ctrnact-atletu-5513754" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:36",
+      "headline": "Druhou etapu Czech Tour vyhrál na Ještědu Američan August a ujal se vedení",
+      "body": "Druhou etapu cyklistického závodu Czech Tour z Mladé Boleslavi na Ještěd vyhrál Američan Andrew August, který se stal také novým lídrem celkového pořadí. Druhý dojel se ztrátou dvou sekund Ital Fancellu. Nejlepším Čechem byl v etapě třináctý Václav Ježek, celkově je desátý. První etapu vyhrál rovněž Američan.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/czech-tour-2-etapa-158425" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-i-druhou-etapu-czech-tour-vyhral-american-cech-vede-vrcharskou-soutez-5513803" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:33",
+      "day": "prev",
+      "headline": "Jablonec postoupil do play-off Konferenční ligy, čekají ho Rangers",
+      "body": "Fotbalisté Jablonce si v odvetě 3. předkola znovu poradili s Rigou, tentokrát na jejím hřišti 2:1, a s celkovým skóre 4:1 prošli do play-off Konferenční ligy. O účast v základní části soutěže se utkají s Glasgow Rangers, kteří vyřadili Bialystok. Dvojzápas rozehrají za týden venku.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-si-opet-poradil-s-rigou-a-zajistil-si-play-off-konferencni-ligy-158413" }
+      ]
+    }
+  ]
+}
