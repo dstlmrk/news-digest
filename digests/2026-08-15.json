@@ -1,0 +1,343 @@
+{
+  "date": "2026-08-15",
+  "covers": "2026-08-15",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra slabé přeháňky a přes den až 28 °C, foukat bude v nárazech kolem 32 km/h. Kvalita ovzduší zůstane zhoršená.",
+    "outlook": "V pondělí se přeženou bouřky s vydatnějším deštěm.",
+    "days": [
+      { "date": "2026-08-16", "icon": "rain", "temp_max_c": 28.2, "temp_min_c": 15.5 },
+      { "date": "2026-08-17", "icon": "storm", "temp_max_c": 22.3, "temp_min_c": 16.6 },
+      { "date": "2026-08-18", "icon": "rain", "temp_max_c": 18.7, "temp_min_c": 13.9 },
+      { "date": "2026-08-19", "icon": "cloudy", "temp_max_c": 25.2, "temp_min_c": 15.6 }
+    ]
+  },
+  "highlights": [
+    "Ukrajina podle Zelenského zasáhla střelami Flamingo podnik Progress spadající pod ruský Roskosmos, ruský útok na Dněpropetrovskou oblast zabil kojence.",
+    "Izraelské nálety na jih Libanonu si vyžádaly nejméně jedenáct mrtvých a Hizballáh vyzval Bejrút, aby ukončil jednání s Izraelem.",
+    "Plavec Miroslav Knedla se včera večer stal v Paříži mistrem Evropy na znakařské padesátce v českém rekordu."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "09:34",
+      "headline": "Schillerová si nechává zpracovat analýzu k DPH na kompenzace dopravcům, městům hrozí miliardové výdaje",
+      "body": "Ministryně financí Alena Schillerová (ANO) si nechává zpracovat analýzu dopadů uvalení daně z přidané hodnoty na kompenzace dopravcům ve veřejné dopravě. Podle výsledku analýzy a vyhodnocení rozpočtových dopadů se pak rozhodne, jak dál. Uvedla to v odpovědi na písemnou interpelaci předsedy Pirátů Zdeňka Hřiba. Daň má být podle Seznam Zpráv zavedena od roku 2028 a některé kraje se obávají miliardových výdajů i zdražení jízdného. E15 upřesňuje, že pro samosprávy může jít o dodatečný výdaj až jedenáct miliard korun; Schillerová zároveň Hřibovi vzkázala, že změnu schválila minulá vláda, jejíž byli Piráti součástí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-schillerova-se-ohledne-dph-na-kompenzace-dopravcum-rozhodne-podle-analyzy-313203" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156085/" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/politika/zdrazi-jizdne-v-mhd-schillerova-se-ohledne-dph-na-kompenzace-dopravcum-rozhodne-podle-analyzy-1434968" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "22:13",
+      "day": "prev",
+      "headline": "Babiš vyčetl Okamurovi, že Sněmovna neprojednala zmrazení platů politiků",
+      "body": "Premiér Andrej Babiš si včera večer rýpl do koaličního partnera, předsedy SPD a Sněmovny Tomia Okamury. Nelíbí se mu, že poslanci stále neprojednali zákon o zmrazení platů politiků, a hrozí proto, že se platy od ledna opět zvýší. Okamura se ohradil: „To se asi pan premiér přeřekl,“ napsal Deníku N.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2155964/nejak-se-k-tomu-nema-zkritizoval-babis-sefa-spd-kvuli-zmrazeni-platu-politiku-okamura-asi-se-prerekl/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:00",
+      "headline": "Senátní kampaň začíná, ANO chce v horní komoře posílit",
+      "body": "Kandidáti do Senátu postupně začínají s kampaní, o sedmadvacet křesel usiluje přes 150 uchazečů. Hnutí ANO chce v horní komoře výrazně posílit a usnadnit tak přijímání koaličních zákonů. Pro sněmovní opozici je naopak klíčové udržet v Senátu většinu, horní komoru označuje za potřebnou protiváhu Sněmovny.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ano-chce-v-senatu-posilit-pro-snemovni-opozici-je-klicove-tam-udrzet-vetsinu-376617" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:03",
+      "headline": "Úřady loni odebraly z rodin 3616 dětí, o tři sta víc než předloni",
+      "body": "Počet dětí, které úřady odeberou z jejich rodin, v Česku roste. Loni jich bylo 3616, tedy o tři sta víc než rok předtím. Důvodem bývá zanedbávání, týrání, zneužívání nebo překážky v péči. Podle ředitelky Centra Locika Petry Vinšové v Česku chybí specializované služby, které by rodinám v obtížné situaci pomohly, a k řadě odebrání by tak nemuselo dojít.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/v-cesku-pribylo-deti-odebranych-urady-z-jejich-rodin-chybi-jasna-kriteria-i_2608151503_pik" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:05",
+      "headline": "Potok Bílá voda v Moravském krasu vyschl, ve velkém hynou raci a ryby",
+      "body": "Potok Bílá voda, který protéká stejnojmennou přírodní rezervací v Moravském krasu, prakticky vyschl. Ve velkém v něm hynou raci a ryby, informovala dnes správa chráněné krajinné oblasti Moravský kras. Letošní rok je podle ochránců přírody z pohledu počasí naprosto extrémní.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/priroda/potok-bila-voda-v-moravskem-krasu-prakticky-vyschnul-ve-velkem-hynou-raci-a-ryby_2608151705_jkd" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156281/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:15",
+      "headline": "Pořadatel Slavností královny Elišky s festivalem definitivně končí",
+      "body": "Slavnosti královny Elišky by příští rok oslavily čtvrtstoletí, žádná oslava ale nebude. Pořadatel Tomáš Krtička a jeho agentura Armentum s městským festivalem definitivně končí. Navazuje to na dřívější rozhodnutí města, podle kterého slavnosti nahradí devítidenní Královské slavnosti. „Byli jsme dinosauři, poděkování nepřišlo,“ říká Krtička Hradeckému deníku.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/byvaly-sef-slavnosti-kralovny-elisky-tomas-krticka-hradec-kralove/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:27",
+      "day": "prev",
+      "headline": "Podchody pod Miletou se budou zhruba dva týdny opravovat",
+      "body": "Zhotovitel stavby odstraní v následujících zhruba dvou týdnech nerovnosti a boule v podchodech pod křižovatkou Mileta v Hradci Králové. Povrch se opraví ve dvou podchodech pod Hradeckou a Sokolskou ulicí ještě před dokončením celé stavby. Práce si vyžádají krátkodobá omezení pro chodce a cyklisty.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/temer-dva-tydny-omezeni-pod-miletou-povrch-dvou-podchodu-se-opravi/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:55",
+      "headline": "Škola v Malšově Lhotě zahájí školní rok v opravených prostorách, otevření zdržela správní a soudní řízení",
+      "body": "Žáci Základní a mateřské školy v Malšově Lhotě zahájí nový školní rok ve zrekonstruovaných prostorách. Stavební práce byly podle Hradecké drbny dokončeny už loni v létě, otevření školy ale téměř o rok oddálil složitý sled správních a soudních řízení. Úprav se dočkalo i okolí budovy.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/vzdelani/897542-foto-zaci-v-malsove-lhote-zahaji-skolni-rok-v-novem-uprav-se-dockalo-i-okoli.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "19:00",
+      "day": "prev",
+      "headline": "Hygienici hlásí horší vodu na třech přírodních koupalištích v kraji",
+      "body": "Horší kvalitu vody mají podle posledních rozborů přírodní koupaliště Dolce u Trutnova, Kemp Písák v Kostelci nad Orlicí na Rychnovsku a Tyršovo koupaliště ve Dvoře Králové nad Labem. Lidé by se po koupání v těchto nádržích měli na místě osprchovat čistou vodou, vyplynulo z informací na webu Krajské hygienické stanice.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/897487-hradecti-hygienici-varuji-pred-horsi-vodou-na-trech-koupalistich-v-kraji.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:55",
+      "headline": "Ukrajina zasáhla podnik Roskosmosu, ruský útok na Dněpropetrovsko zabil kojence",
+      "body": "Ukrajina zasáhla podnik Progress spadající pod ruskou vládní agenturu Roskosmos, napsal na síti X prezident Volodymyr Zelenskyj. Použity byly podle něj střely Flamingo a cíl v Samarské oblasti leží asi 900 kilometrů od hranice s Ukrajinou. E15 dodává, že se v podniku vyrábějí nosné rakety a kosmická zařízení a že ruská strana útok potvrdila; zasažena byla podle Zelenského také letecká základna a ropný terminál. Podle Seznam Zpráv Ukrajina při útocích vypálila skoro šest set dronů. Opačným směrem ruský útok v noci na dnešek zabil v Dněpropetrovské oblasti kojence a jedenáct lidí zranil, úřady v Chersonu hlásí bezmála třicet zraněných.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-zasahla-prumyslovy-podnik-v-ruske-samarske-oblasti-376624" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156163/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajinsky-raketovy-utok-zasahl-prumyslovy-podnik-v-ruske-samarske-oblasti-313205" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/ukrajinska-strela-zasahla-podnik-roskosmosu-uvedl-zelenskyj-1434969" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:55",
+      "headline": "Izraelské nálety na jih Libanonu zabily jedenáct lidí, Hizballáh hrozí odvetou",
+      "body": "Izraelské vzdušné útoky na jižní Libanon si dnes vyžádaly nejméně jedenáct obětí a devatenáct zraněných, uvedlo libanonské ministerstvo zdravotnictví. Mezi mrtvými jsou podle něj tři děti a dvě ženy. Zasaženy byly obce Ansar a Dejr Zahrání. Izrael tvrdí, že mířil na infrastrukturu Hizballáhu, který měl nedaleko zaútočit na jeho vojáky. Libanonský prezident Joseph Aún míní, že tím Izrael vyslal jasný vzkaz, pokud jde o budoucí mírová jednání. Hizballáh podle Seznam Zpráv vyzval Bejrút, aby jednání s Izraelem ukončil, a pohrozil odvetným útokem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-izraelskem-utoku-v-libanonu-zemrelo-sedm-lidi-uvadeji-libanonska-media-376627" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-izraelskych-utocich-v-libanonu-zemrelo-11-lidi-uvadeji-tamni-urady-313214" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156190/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:53",
+      "headline": "Zemětřesení u indonéského ostrova Flores má nejméně 38 obětí",
+      "body": "Zemětřesení o síle 7,7 stupně, které v noci na dnešek zasáhlo pobřeží indonéského ostrova Flores, si vyžádalo nejméně osmatřicet mrtvých. Původní bilance mluvila o dvaceti obětech. Úřady nejprve vydaly varování před tsunami, později ho odvolaly; tisíce obyvatel pobřežních oblastí byly evakuovány. Podle Seznam Zpráv se zřítilo několik budov a pátrací práce komplikují výpadky elektřiny. České ministerstvo zahraničí nemá informace o tom, že by zemětřesení postihlo české občany.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/indonesii-zasahlo-zemetreseni-o-sile-77-stupne-urady-varuji-pred-tsunami-376621" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zemetreseni-v-indonesii-o-sile-77-stupne-si-vyzadalo-nejmene-20-obeti-313200" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156152/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:49",
+      "headline": "Írán podle Emirátů zaútočil na tanker v Hormuzském průlivu, průliv podle Teheránu zůstane íránský",
+      "body": "Spojené arabské emiráty dnes oznámily, že Írán včera zaútočil na plavidlo státní společnosti ADNOC, které tehdy proplouvalo Hormuzským průlivem. Podle ADNOC nebyl nikdo zraněn a situace je pod kontrolou, informovala emirátská agentura WAM. Teherán zároveň prohlásil, že Hormuzský průliv „zůstane íránský“. Reagoval tak na výroky amerického prezidenta Donalda Trumpa, že tuto strategickou vodní cestu brzy prohlásí za „území Spojených států“.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156221/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156131/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:18",
+      "headline": "Požáry v Evropě pokračují, hoří chorvatský ostrov Dugi otok i francouzské Landes",
+      "body": "Na chorvatském ostrově Dugi otok vypukl v pátek večer rozsáhlý požár a hasiči museli přisouvat posily trajektem; dnes se jim plameny podařilo dostat pod kontrolu. Navazuje to na páteční požár u letoviska Omiš, kvůli kterému úřady dočasně evakuovaly přes dva tisíce lidí včetně asi tří set českých turistů. Ve francouzském departementu Landes se požár, který hoří od čtvrtka, dál rozšířil a spálil už 1580 hektarů; evakuováno bylo zhruba 650 lidí a proti ohni bojuje asi 550 hasičů. V západním Německu se naopak podařilo dostat pod kontrolu požár, kvůli němuž se v pátek evakuovalo přes dva tisíce lidí z vesnice Gey nedaleko belgických hranic. Obyvatelé se tam zatím vrátit nesmějí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-chorvatsku-vypukl-dalsi-pozar-plameny-se-siri-na-ostrove-dugi-otok-376623" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pozar-na-jihozapade-francie-se-rozsiril-dosud-spalil-1580-hektaru-313207" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156191/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:22",
+      "headline": "Lichtenštejnsko zavádí rovnost pohlaví v nástupnictví na trůn",
+      "body": "Lichtenštejnský vládnoucí rod dnes oznámil zavedení rovnosti pohlaví v nástupnictví na trůn. Dědicem a následně knížetem či kněžnou malé alpské země se tak nově stane nejstarší potomek bez ohledu na to, zda půjde o muže, či ženu. O změně rozhodla podle agentury AFP samotná dynastie.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/rozhodovat-uz-bude-pouze-vek-lichtenstejnsko-zavadi-rovnost-pohlavi-v_2608151622_jos" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-vladnouci-rod-v-lichtenstejnsku-zavadi-rovnost-pohlavi-v-nastupnictvi-na-trun-313212" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156269/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:45",
+      "headline": "Washington tlačí na Apple, aby kvůli nedostatku čipů nenakupoval v Číně",
+      "body": "Prudký rozvoj umělé inteligence způsobil nedostatek paměťových čipů a žene jejich ceny vzhůru. Apple proto podle Seznam Zpráv hledá nové dodavatele, což se nelíbí americké vládě, která nechce, aby firma nakupovala v Číně.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-washington-tlaci-na-apple-aby-kvuli-nedostatku-cipu-nenakupoval-v-cine-313211" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:00",
+      "headline": "Zákaz Huawei v Evropě může operátory stát až čtyřicet miliard eur, píše E15",
+      "body": "Návrh Evropské komise na povinný zákaz čínských technologií v telekomunikacích do tří let podle E15 zásadně podceňuje reálné náklady, které operátoři odhadují až na čtyřicet miliard eur. Plošný zákaz Huawei a ZTE by v Evropě vytvořil duopol společností Ericsson a Nokia s pětadevadesátiprocentním podílem na mobilním trhu, což by vedlo ke zdražení síťových zařízení. Dopady podle textu zákazníci nepocítí ani tak na účtech jako spíš v podobě horšího signálu a pomalejšího 5G.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/konec-huawei-v-evrope-ma-temnou-stranu-hrozi-pomalejsi-internet-i-castejsi-vypadky-siti-1434949" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:00",
+      "headline": "ChatGPT dává neplatícím uživatelům neomezené konverzace a nový model",
+      "body": "OpenAI ruší dosavadní limity a bezplatným uživatelům ChatGPT zpřístupňuje neomezené textové konverzace. Součástí aktualizace je nový výchozí model GPT-5.6 Luna a pokročilý režim Think pro složitější logické úlohy. Placené verze Plus a Pro si podle E15, který se odvolává na server Živě.cz, drží náskok díky nejvýkonnějšímu modelu GPT-5.6 Sol a vyšším kapacitám pro práci s daty a obrázky.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/platit-uz-nemusite-chatgpt-dostava-neomezeny-chat-a-novy-superrychly-model-zdarma-1434956" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:20",
+      "day": "prev",
+      "headline": "OpenAI otevře pobočku v Berlíně a chce v Německu vlastní datová centra",
+      "body": "OpenAI posiluje svou přítomnost v Německu. Šéf firmy Sam Altman v rozhovoru pro list Handelsblatt oznámil, že společnost plánuje otevřít novou pobočku v Berlíně. Vyslovil se rovněž pro výstavbu vlastních datových center v Německu, píše agentura DPA.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/openai-posiluje-v-nemecku-altman-chce-berlin-i-vlastni-datova-centra-1434966" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:49",
+      "headline": "Britští knihkupci hlásí hromadné nákupy náhodných knih, podezírají firmy kolem umělé inteligence",
+      "body": "Britští a irští prodejci knih z druhé ruky hlásí neobvyklé hromadné objednávky náhodných titulů od anonymních kupujících. Spekulují, že knihy skupují firmy zabývající se umělou inteligencí jako zdroj dat pro trénování velkých jazykových modelů. Podezření podle iROZHLASU zesílilo po zjištění, že společnost Anthropic za podobným účelem utratila desítky milionů dolarů.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/kultura/literatura/ai-llm_2608151249_elev" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:03",
+      "day": "prev",
+      "headline": "Firefox zůstal posledním velkým prohlížečem s podporou uBlock Origin",
+      "body": "Firefox je podle serveru PCWorld posledním z velkých prohlížečů, který stále podporuje blokovač reklam uBlock Origin. Text patřil k nejdiskutovanějším příspěvkům na Hacker News.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "19:57",
+      "day": "prev",
+      "headline": "Olomoucké arcibiskupství zrušilo pouť pro LGBT lidi kvůli nenávistným reakcím",
+      "body": "Olomoucké arcibiskupství zrušilo plánovanou pouť pro LGBTQ+ lidi. Podle organizátorů nebylo kvůli nenávistným reakcím možné zajistit účastníkům bezpečný prostor.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2155844/arcibiskupstvi-kvuli-nenavistnym-reakcim-zrusilo-pout-pro-lgbt-lidi-nemohli-jsme-zarucit-bezpecnost-vysvetluje/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "09:57",
+      "headline": "Část Česka začíná ohrožovat dezertifikace, ukazuje studie výzkumného centra Evropské komise",
+      "body": "Nová studie výzkumného centra Evropské komise podle Deníku N ukazuje, že část Česka začíná ohrožovat dezertifikace, tedy rozšiřování pouští. Momentálně se jev projevuje na okraji jižní Moravy, sílit ale bude jak v tomto regionu, tak v Polabí. Analytik Vojtěch Kotecký z Centra pro otázky životního prostředí Univerzity Karlovy v rozhovoru popisuje, co lze v příštích letech čekat a jakými opatřeními jde situaci zmírnit.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2153778/drive-se-rikavalo-neni-to-jen-v-africe-ale-dokonce-i-ve-spanelsku-a-ted-uz-i-u-nas-jih-moravy-zacina-ohrozovat-dezertifikace/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:24",
+      "day": "prev",
+      "headline": "Knedla je mistrem Evropy na znakařské padesátce v českém rekordu",
+      "body": "Česko má mistra Evropy v plavání v dlouhém bazénu. Jednadvacetiletý Miroslav Knedla vyhrál včera večer v Paříži finále znakařské padesátky a časem 24,11 vylepšil český rekord. Rodák z Ostravy podle Sport.cz předčil favority, mezi nimiž byl i jeho vzor. Smíšená štafeta ve složení Jakub Jan Krischke, Miroslav Knedla, Barbora Janíčková a Barbora Seemanová postoupila do finále na 4×100 metrů volný způsob s nejrychlejším časem, nakonec skončila pátá v českém rekordu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/me-v-plavani-finale-ceka-smisenou-stafetu-i-knedlu-na-znakarske-padesatce-158429" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-sokoval-favority-i-sebe-porazil-svuj-idol-splneny-sen-rikal-knedla-se-zlatem-na-krku-5513830" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:56",
+      "headline": "Čejka prolomil na polohové dvoustovce hranici dvou minut, Knedla den po zlatu nepostoupil",
+      "body": "Plavec Jan Čejka si na mistrovství Evropy v Paříži vylepšil vlastní český rekord na polohové dvoustovce na 1:59,73 a do večerního semifinále prošel jako dvanáctý z redukovaného pořadí. Miroslav Knedla naopak pouhý půlden po zisku titulu na padesátce znak nepostoupil z rozplaveb stovky: časem 55,36 sekundy výrazně zaostal za svým osobním maximem 53,15 a obsadil čtyřicáté místo.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/plavani-jan-cejka-mistrovstvi-evropy-rekord-semifinale-miroslav-knedla_2608151356_ask" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/knedla-neprosel-v-rozplavbach-na-100-metru-znak-do-semifinale-158441" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-cejka-prekonal-historicky-milnik-a-postoupil-do-semifinale-5513842" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:07",
+      "headline": "Sasínek Mäki postoupila do finále patnáctistovky, čeští atleti jsou na mistrovství Evropy stále bez medaile",
+      "body": "Kristiina Sasínek Mäki postoupila díky drtivému finiši v rozběhu do finále běhu na 1500 metrů; o postupu rozhodla až cílová fotografie a závod ji čeká v neděli večer. Při premiéře půlmaratonu na vrcholné akci byl z českého kvarteta chodců nejlepší dvanáctý Albert Kukla, Klimentová obsadila patnácté, Eliška Martínková osmnácté a Alžběta Franklová 28. místo. Česká výprava zatím v Birminghamu žádnou medaili nezískala, dnes večer o ni usilují oštěpař Jakub Vadlejch a čtvrtkařka Lurdes Gloria Manuel.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/loni-dno-a-jeste-sklep-s-garazovym-stanim-nyni-finale-neni-to-konec-tesi-sasinek-maki-158444" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-mistrovstvi-evropy-poprve-opusti-stadion-pri-premiere-novych-disciplin-5513836" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156148/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:38",
+      "headline": "Valentová je v Cincinnati sedmou Češkou ve druhém kole, Bejlek vyřadila Plíškovou",
+      "body": "Devatenáctiletá tenistka Tereza Valentová porazila v Cincinnati 6:2 a 7:6 Američanku Mary Stoianaovou a stala se sedmou Češkou ve druhém kole. Při premiéře na tomto turnaji WTA 1000 ji čeká světová devítka Elina Svitolinová z Ukrajiny. Do druhého kola postoupila už včera i Sára Bejlek, která smetla krajanku a bývalou světovou jedničku Karolínu Plíškovou 6:0 a 6:2; v dalším kole narazí na Barboru Krejčíkovou. Uspěla také Nikola Bartůňková, jež zdolala 4:6, 6:4 a 6:3 Arménku Alinu Čarajevovou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-valentova-postoupila-v-cincinnati-5513839" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/valentova-zdolala-stoianaovou-a-postoupila-v-cincinnati-do-druheho-kola-158440" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/bejlek-v-cincinnati-ustedrila-kanara-pliskove-158433" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:38",
+      "headline": "August vyhrál i královskou etapu Czech Tour, Ježek dojel čtvrtý",
+      "body": "Americký cyklista Andrew August triumfoval i ve třetí etapě Czech Tour, která vrcholila stoupáním na Dlouhé stráně. Zopakoval tak páteční vítězství na Ještědu a mírně si upevnil průběžné vedení. Nejlepší z českých jezdců Václav Ježek dokončil 171 kilometrů dlouhou etapu jako čtvrtý a celkově mu patří sedmé místo.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/czech-tour-3-etapa-158443" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-august-vyhral-i-predposledni-etapu-czech-tour-5513867" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:32",
+      "day": "prev",
+      "headline": "Sparta přivedla na hostování bývalého slávistu Juráska",
+      "body": "Dvaadvacetiletý křídelník Matěj Jurásek, odchovanec Slavie, míří do Sparty na roční hostování s opcí. Přichází z druholigového anglického Norwiche a na Letné by měl nahradit dosavadního kapitána a hlavní hvězdu Lukáše Haraslína, který před několika dny přestoupil do Saúdské Arábie.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/byvaly-slavisticky-talent-miri-na-letnou-na-hostovani-prichazi-jurasek-158434" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-privedla-byvaleho-slavistu-5513809" }
+      ]
+    }
+  ]
+}
