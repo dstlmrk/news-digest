@@ -1,0 +1,344 @@
+{
+  "date": "2026-08-16",
+  "covers": "2026-08-16",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "ČT Sport",
+    "Sport.cz",
+    "Hacker News",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "Hradecký deník"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "storm",
+    "summary": "Zítra přijdou bouřky a denní teplota vystoupí jen k 24 °C. Pravděpodobnost srážek je devadesát procent, spadnout má kolem sedmi milimetrů. Kvalita ovzduší má být přijatelná.",
+    "outlook": "Ve čtvrtek předpověď znovu počítá s bouřkami a srážkami kolem dvanácti milimetrů.",
+    "days": [
+      { "date": "2026-08-17", "icon": "storm", "temp_max_c": 24.2, "temp_min_c": 16.1 },
+      { "date": "2026-08-18", "icon": "rain", "temp_max_c": 20.4, "temp_min_c": 14.1 },
+      { "date": "2026-08-19", "icon": "rain", "temp_max_c": 22.5, "temp_min_c": 16.1 },
+      { "date": "2026-08-20", "icon": "storm", "temp_max_c": 23.3, "temp_min_c": 18.0 }
+    ]
+  },
+  "highlights": [
+    "Premiér Babiš potvrdil, že kraje příští rok nedostanou od státu příspěvek na opravy silnic druhé a třetí třídy; hejtmani rozhodnutí kritizují.",
+    "Ukrajina podnikla v noci jeden z dosud největších vzdušných útoků na Rusko, ruské rakety a drony zasáhly Kyjev, Kryvyj Rih i okraj Oděsy.",
+    "Vedra v Česku končí. Na pondělí platí výstraha před silnými bouřkami a podle meteorologů se začne zmírňovat i sucho a riziko požárů."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:37",
+      "headline": "Kraje příští rok nedostanou od státu peníze na opravy silnic nižších tříd",
+      "body": "Premiér Andrej Babiš (ANO) dnes potvrdil, že kraje v příštím roce nedostanou ze Státního fondu dopravní infrastruktury příspěvek na opravy silnic druhé a třetí třídy. V příspěvku na sociálních sítích tvrdí, že regiony mají na účtech z rozpočtového určení daní peněz dost a že pravidelná podpora, kterou dostávaly od roku 2015, byla jen něco navíc. Hejtmani rozhodnutí kritizují, o postoji vlády v uplynulém týdnu informoval liberecký hejtman a předseda dopravní komise Asociace krajů Martin Půta (Starostové pro Liberecký kraj). Předseda asociace Radim Holiš (ANO) napsal Deníku N, že se těší na plánované setkání s premiérem, na kterém ho chce o potřebě státní pomoci přesvědčit.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/na-opravy-silnic-kraje-prispevek-od-statu-nedostanou-potvrdil-babis-376643" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-babis-potvrdil-ze-na-opravy-silnic-kraje-prispevek-od-statu-nedostanou-313237" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156763/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:00",
+      "headline": "Vláda chce zrušit koncepci informování o EU a s ní i eurocentra",
+      "body": "Vláda bude v pondělí projednávat zrušení takzvané Koncepce informování o evropských záležitostech, která s jednou zásadnější změnou platí přes dvacet let od vstupu Česka do Evropské unie a určuje, jak stát s občany o Unii komunikuje. Podle informací iROZHLASu bude součástí i zrušení eurocenter, která jsou v každém krajském městě a dohromady pořádají kolem 1300 akcí ročně ve školách, knihovnách či na univerzitách. Nová pravidla chce vláda schválit s účinností od 1. ledna 2027 a zaměřit se místo toho na online komunikaci, jasný plán ale zatím nemá. Úřad vlády redakci neodpověděl na dotaz, čím eurocentra nevyhovovala nebo fungovala špatně.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/mam-na-vas-15-minut-ale-rusime-vas-vlada-chce-uzavrit-eurocentra-a-zmenit_2608161200_vdv" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:26",
+      "headline": "Čtyři miliardy na boj se suchem jsou plánovaným rozpočtem ministerstva zemědělství",
+      "body": "Čtyři miliardy korun, které premiér Andrej Babiš avizoval na boj proti suchu, nejsou podle Seznam Zpráv novými penězi navíc. Jde o rozpočet sekce vodního hospodářství ministerstva zemědělství na následující rok.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-babis-ctyri-miliardy-na-sucho-jsou-planovanym-rozpoctem-vodniho-hospodarstvi-mze-313242" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:28",
+      "headline": "Na pondělí platí výstraha před silnými bouřkami, sucho se má začít zmírňovat",
+      "body": "Český hydrometeorologický ústav vydal na pondělí výstrahu před silnými bouřkami s nárazy větru a kroupami pro většinu Česka. Výstrahu před vedry, která původně platila na celý víkend pro téměř celou zemi, meteorologové dnes omezili už jen na většinu Moravy a Slezska. Tam na řadě míst opět padly teplotní rekordy pro daný den, třeba ve Strážnici naměřili přes 37 stupňů. Sucho i riziko vzniku a šíření závažných požárů se podle ústavu začnou tento týden díky častějším srážkám zmírňovat, stav řek a vodních ploch je ale nadále kritický a většina měřicích bodů hlásí sucho.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/pocasi/v-pondeli-maji-dorazit-silne-bourky-376645" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156705/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:10",
+      "headline": "Bradáčová se kloní k tomu, aby vražda byla nepromlčitelná",
+      "body": "Nejvyšší státní zástupkyně Lenka Bradáčová mluvila v pořadu Poledne s Moravcem o chystaných změnách trestního práva. Podle Seznam Zpráv se vyjádřila mimo jiné k promlčecím lhůtám u vražd, kde se kloní k nepromlčitelnosti, a k návrhu na snížení věkové hranice trestní odpovědnosti.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-klonim-se-k-nepromlcitelnosti-vrazdy-rekla-bradacova-u-moravce-313239" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:41",
+      "headline": "Obce chystají žaloby kvůli zónám pro zrychlenou výstavbu větrných a solárních elektráren",
+      "body": "Některé samosprávy napříč Českem připravují žaloby k Nejvyššímu správnímu soudu proti vymezení akceleračních oblastí, ve kterých se má zrychleně povolovat stavba fotovoltaických a větrných elektráren. Zóny schválila vláda na konci července, podle starostů ale stát nevyslyšel jejich námitky. Proti výstavbě větrníků se chce bránit třeba Lubenec na Lounsku, žalobu chystají i některé obce v Olomouckém a Ústeckém kraji.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/zaloby-na-stat-chystaji-obce-v-usteckem-i-olomouckem-kraji-nesouhlasi-s_2608161541_vaa" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:50",
+      "headline": "Zloději ukradli v Hradci Králové za tři dny devět vozů Toyota RAV4",
+      "body": "Hradecká policie prověřuje sérii devíti krádeží vozů Toyota RAV4, ke kterým došlo během posledních tří dnů. Osm z nich pachatelé podle mluvčí královéhradecké policie Magdalény Vlčkové převezli do Polska, škoda je zhruba osm milionů korun. Vyšetřovatelé pracují s verzí, že za krádežemi stojí organizovaná skupina; podle Hradecké drbny hrozí zlodějům až osm let vězení.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/policie-varuje-kradeze-toyot-hradec-kralove-auta-mizi-do-polska.A260816_113954_hradec-zpravy_jira#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/krimi/897628-devet-toyot-za-tri-dny-v-hradci-kralove-radi-zlodeji-zrejme-jde-o-cizince.html" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156644/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:01",
+      "headline": "Centrem Hradce prošel třetí ročník triatlonového závodu Ironman 70.3",
+      "body": "Královéhradecké centrum o víkendu ovládl třetí ročník závodu série Ironman 70.3. Podle iDNES sledovaly světové triatlonové hvězdy tisícové davy a jde o největší triatlonový svátek v historii Česka, který se daří každý rok posouvat.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/ironman-hradec-beh-plavani-triatlon-kolo-zavody-havaj-sinkovsky-den-na-labi.A260816_134552_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:10",
+      "headline": "V Hradci Králové přibude v pondělí dalších šestnáct kamenů zmizelých",
+      "body": "Ve městě bude v pondělí 17. srpna položeno dalších šestnáct takzvaných Stolpersteine. Připomenou obyvatele Hradce Králové, jejichž osudy ovlivnil holokaust, a postupně se objeví na sedmi adresách.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/hradecko/897625-v-h-kralove-pribude-dalsich-16-kamenu-zmizelych-pripomenou-zidovske.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:33",
+      "headline": "Hokejisté Hradce Králové zvládli i třetí přípravný zápas, Salcburk porazili po nájezdech",
+      "body": "Hradečtí hokejisté zůstávají v letní přípravě stoprocentní, tentokrát si ale na výhru museli počkat až do samostatných nájezdů. Proti rakouskému Salcburku dlouho tahali za kratší konec a podržel je gólman Stanislav Škorvánek, po remíze 1:1 rozhodli nájezdy Robert Kousal a T. J. Melancon.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/hokej/skorvi-nas-hodne-podrzel-jinak-by-nebylo-o-cem-priznal-koukal-po-salcburku/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:05",
+      "headline": "Ukrajina podnikla jeden z největších vzdušných útoků na Rusko, ruské rakety zasáhly Kyjev",
+      "body": "Ukrajina v noci na dnešek podnikla jeden z dosud největších vzdušných útoků na Rusko a uvedla, že zasáhla podnik na výrobu paliva pro rakety. Ruské ministerstvo obrany tvrdí, že protivzdušná obrana zneškodnila 822 dronů, z nichž šest set mířilo k Moskvě. Podle Deníku N zemřelo v Rusku šest lidí, pět z nich v Rostovské oblasti a jeden v Moskevské. Nedaleko ruské metropole hořel po dopadu dronu sklad internetového obchodu Wildberries; ukrajinské ministerstvo obrany tvrdí, že Kyjev vyřadil z provozu sedm z deseti největších skladů tohoto prodejce a zasažený objekt o rozloze zhruba 250 tisíc metrů čtverečních byl plošně největší. Ruské síly ráno zaútočily balistickými raketami na Kyjev, kde v několika částech města vypukly požáry a nejméně tři lidé byli zraněni, další údery mířily na Kremenčuk a Kryvyj Rih. Při útoku na Kryvyj Rih zemřeli dva lidé a třináct jich bylo zraněno, čtyři mrtvé hlásí úřady v Doněcké, Chersonské a Záporožské oblasti. Odpoledne přišly zprávy o útoku na okraj Oděsy, kde byl podle ukrajinské strany zasažen hobbymarket a dva obytné domy a pět lidí se zranilo, zatímco Rusko tvrdí, že cílilo na přístav východně od Oděsy a zničilo dva tankery a tři nákladní lodě.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-utocilo-na-kyjev-v-nekolika-castech-mesta-vypukly-pozary-376639" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ruske-sily-brzy-rano-zautocily-na-kyjev-a-na-dalsi-mesta-jedna-osoba-zemrela-313226" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156563/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156700/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156772/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:13",
+      "headline": "Nad Rumunskem sestřelila stíhačka dron, podle NATO byl zřejmě ruský",
+      "body": "Rumunské ministerstvo obrany oznámilo, že nad územím země byl sestřelen dron, který neoprávněně narušil vzdušný prostor. Podle radarů se tam dostal přes Moldavsko, sestřelila ho španělská stíhačka a trosky dopadly do neobydlené oblasti, nikdo nebyl zraněn. Velitelství NATO uvedlo, že šlo patrně o ruský bezpilotní prostředek. V Rumunsku jde letos už o čtvrtý sestřelený dron.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rumunsko-sestrelilo-dron-ktery-narusil-jeho-vzdusny-prostor-376640" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rumunsko-sestrelilo-dron-ktery-narusil-jeho-vzdusny-prostor-313227" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156603/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:28",
+      "headline": "Při nehodě polského autobusu na dálnici v Maďarsku zemřelo dvanáct lidí",
+      "body": "Autobus s 57 cestujícími v noci sjel ze silnice a převrátil se do příkopu, dvanáct lidí zemřelo a nejméně deset bylo zraněno. Informoval o tom maďarský premiér Péter Magyar, podle kterého je stav zraněných vážný. Policie předpokládá, že řidič usnul za volantem. Všichni cestující byli polští občané a vraceli se z pouti v Bosně. Polský premiér Donald Tusk oznámil, že do Maďarska zamíří speciální letadlo se zástupci ministerstva zahraničí a zdravotnických služeb.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-nehode-polskeho-autobusu-na-madarske-dalnici-zahynulo-dvanact-lidi-uvedl-premier-376642" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-nehode-polskeho-autobusu-na-madarske-dalnici-zahynulo-12-lidi-uvedl-premier-313233" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156682/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:24",
+      "headline": "Belgie bojuje třetí den s jedním z nejhorších lesních požárů své historie, na Salamině zemřeli dva lidé",
+      "body": "Požár v těžko přístupné přírodní rezervaci na východě Belgie spálil za tři dny téměř tři tisíce hektarů a kvůli kouři se musely evakuovat stovky lidí. Belgie spoléhá na letecké posily z několika zemí, které jí v sobotu přislíbila Evropská unie; pomoc poskytne i Česko. Na řeckém ostrově Salamina nedaleko Athén dnes vypukly dva požáry, při kterých zahynuli dva lidé, jejichž těla se zatím nepodařilo identifikovat. Úřady tam nařídily evakuaci stovek místních obyvatel i turistů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/v-belgii-uz-treti-den-zuri-jeden-z-nejhorsich-lesnich-pozaru-v-historii-zeme_2608161415_elev" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-belgii-stale-zuri-jeden-z-nejhorsich-lesnich-pozaru-spalil-temer-3000-hektaru-313245" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-reckem-ostrove-salamina-kvuli-pozarum-zemreli-dva-lide-urady-naridily-evakuaci-376651" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:10",
+      "headline": "Delegace Hamásu jedná v Egyptě o americkém mírovém plánu pro Pásmo Gazy",
+      "body": "Zástupci palestinského hnutí Hamás zahájili v Egyptě jednání s šéfem egyptské rozvědky Hasanem Rašádem o tom, jak posunout vpřed americký mírový plán pro Pásmo Gazy. Hamás s návrhem, který mimo jiné předpokládá jeho odzbrojení, souhlasil, Izrael ho ale v současné podobě odmítá.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-delegace-hamasu-jedna-v-egypte-o-americkem-mirovem-planu-pro-pasmo-gazy-313249" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156692/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:25",
+      "headline": "Exministři financí Stanjura a Pilný se shodli, že zestátnění ČEZ nedává smysl",
+      "body": "V pořadu Poledne s Moravcem se bývalý ministr financí Zbyněk Stanjura (ODS) a bývalý ministr financí za hnutí ANO Ivan Pilný shodli, že zestátnění energetické společnosti ČEZ a následné vytěsnění minoritních akcionářů není dobrá myšlenka. Stát drží v ČEZ zhruba sedmdesát procent akcií, což mu podle nich dovoluje činit všechny důležité kroky. Oba také zpochybnili vládní vysvětlení vyšších schodků investicemi; Stanjura podle Seznam Zpráv odhaduje, že schodek státního rozpočtu by příští rok mohl být kolem 370 miliard korun.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/zestatneni-cez-nedava-smysl-shodli-se-byvali-ministri-financi-stanjura-a-pilny-1434973" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-kdepak-investice-vsechno-projime-exministri-kritizuji-statni-vydaje-313247" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156689/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:02",
+      "headline": "Česko zůstalo v žebříčku inovativnosti Evropské unie na devatenáctém místě",
+      "body": "Nejinovativnější zemí Evropské unie je podle Evropské komise Švédsko, následují Dánsko, Nizozemsko a Finsko. Česku patří stejně jako loni devatenácté místo, meziročně si ale pohoršilo. Odstup Česka od Unie se podle odborníků citovaných Seznam Zprávami v posledních letech prohlubuje, příčinou je mimo jiné nízká produktivita práce. Posledními z 27 členských států jsou Bulharsko a Rumunsko.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-evropska-komise-nejinovativnejsi-zemi-eu-je-svedsko-cr-zustala-na-19-miste-313236" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156550/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:50",
+      "headline": "Nvidia jedná o investici tří miliard dolarů do datacenter pro OpenAI",
+      "body": "Peníze mají podle serveru The Information zamířit do SB Energy, dceřiné společnosti SoftBank, která pro OpenAI připravuje rozsáhlý projekt datového centra v Ohiu. E15 částku přepočítává na 62,8 miliardy korun. Server o jednání informoval s odvoláním na osoby, které jsou s ním obeznámeny.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/nvidia-zvazuje-investici-za-63-miliard-penize-maji-podporit-datacentra-openai-1434972" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:00",
+      "headline": "Polovina německých firem čeká kvůli umělé inteligenci pokles mezd",
+      "body": "Podle E15 očekává polovina německých firem, že využívání umělé inteligence povede v příštích pěti letech k poklesu mezd. Snížení platů hrozí zejména méně zkušeným pracovníkům s praxí do pěti let, nejčastěji v sektoru služeb. U vysokoškolsky vzdělaných zaměstnanců s delší praxí naopak podniky připouštějí, že by AI mohla mít na výši jejich výdělků pozitivní vliv.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/umela-inteligence-srazi-platy-polovina-firem-v-nemecku-pocita-kvuli-ai-s-poklesem-mezd-1434964" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "04:12",
+      "headline": "Anthropic zveřejnil text o vzorech a problémech vznikajících multiagentních systémů",
+      "body": "Materiál nazvaný Patterns and problems in emerging multi-agent systems vyšel na výzkumných stránkách Anthropicu. Na Hacker News k němu během dneška přibylo přes sto komentářů.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://www.anthropic.com/research/multiagent-systems" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "17:00",
+      "headline": "Z muzea v sicilské Messině zmizela čtyři díla připisovaná Antonellovi da Messina",
+      "body": "Zloději v sobotu během italského svátku Ferragosto obešli bezpečnostní systémy regionálního muzea v Messině a odnesli čtyři díla připisovaná sicilskému renesančnímu malíři Antonellovi da Messina, který žil a tvořil v patnáctém století. V neděli o tom informovala italská agentura LaPress.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/obrovska-ztrata-pro-muzeum-mesto-komunitu-i-svet-umeni-na-sicilii-ukradli-dila_2608161607_jho" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zlodeji-ukradli-na-sicilii-dila-slavneho-renesancniho-malire-313253" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2156723/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "16:47",
+      "headline": "Trump chce prohlásit Hormuzský průliv za území Spojených států",
+      "body": "Válka mezi USA a Íránem, která se nyní soustředí hlavně na Hormuzský průliv, pokračuje a obě strany prohlašují, že vyhrávají, shrnuje iROZHLAS. Prezident Donald Trump podle serveru řekl, že chce průliv prohlásit za území USA. „Myslím, že je to fantasmagorické a bylo by to úplné zvrácení dosavadní americké politiky. Vždyť Američané doposud stavěli na tom, že Hormuzský průliv nesmí patřit nikomu,“ hodnotí mezinárodně politický analytik Milan Slezák.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/valka-usa-s-iranem-pokracuje-prohlaseni-hormuzu-za-americky-je-fantasmagoricke_2608161647_pik" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:30",
+      "headline": "Kreml vyřadil z ruských voleb stranu Jabloko poté, co jí sociologové naměřili nečekanou podporu",
+      "body": "Podle Deníku N se Kreml zalekl sociologických dat, podle nichž by stranu, o které většina mladých Rusů nikdy neslyšela, bylo ochotno poslat do dumy dvacet procent voličů. Protiválečná strana se tak k nevídané popularitě dostala i přičiněním Kremlu a mír byl z předvolební kampaně vyškrtnut spolu s Jablokem. Komentář Seznam Zpráv popisuje zákaz kandidatury liberální strany jako konec hry na demokracii v Rusku.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2155767/trpaslik-ktery-to-kremlu-zavaril-a-donutil-ho-bojovat-za-prava-americke-armady/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-jeden-nazor-jeden-vudce-jedna-valka-hra-na-demokracii-v-rusku-skoncila-313143" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:43",
+      "headline": "Czech Tour vyhrál Američan August, nejlepší z Čechů byl sedmý Ježek",
+      "body": "Cyklistický závod Czech Tour ovládl Američan Andrew August, který si do závěrečné čtvrté etapy vezl náskok jedenácti sekund, a mohl si tak dovolit těsně prohrát vzájemný souboj s Italem Alessandrem Fancelluem. Ten byl na Pustevnách nejsilnější a etapu vyhrál. Jednadvacetiletý Václav Ježek z domácího týmu Kasper crypto4me projel cílem po 160 kilometrech čtvrtý a v celkovém pořadí obsadil sedmé místo se ztrátou 63 sekund, Jan Hirt byl o dalších 21 sekund devátý.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/zaverecna-etapa-czech-tour-158456" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/cyklistika-vaclav-jezek-jan-hirt-czech-tour_2608161441_kri" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-dalsi-skvely-vykon-ceskeho-mladika-triumf-na-czech-tour-potvrdil-august-na-zaver-slavi-ital-5514305" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:30",
+      "headline": "Baník zdolal ve čtvrtém kole nováčka Artis, Sparta v sobotu přehrála Teplice 4:1",
+      "body": "Ostravský Baník porazil doma nováčka Artis Brno 1:0 gólem Michala Kohúta z osmé minuty a slaví druhou výhru v sezoně, Artis na první plný bodový zisk stále čeká. V sobotu Sparta, která měla po třech kolech druhý nejhorší start do soutěže od rozdělení federace, zvítězila nad Teplicemi 4:1, Plzeň získala napočtvrté první výhru, když přetlačila Zlín 3:2, Pardubice braly první bod za remízu 1:1 s Mladou Boleslaví a Olomouc vyhrála 2:1 na Slovácku. Večer čeká Slavii zápas v Liberci.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-banik-ostrava-artis-brno_2608161430_kri" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-proti-teplicim-napravila-dojem-pardubice-slavi-prvni-bod-158448" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-slavii-hrozi-liberecke-peklo-do-sestavy-se-muze-vratit-chory-predstavi-se-take-banik-5514183" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:52",
+      "headline": "Hrochová doběhla v maratonu na mistrovství Evropy devátá",
+      "body": "Tereza Hrochová obsadila v maratonu na atletickém mistrovství Evropy v Birminghamu deváté místo, na náročné členité trati zaběhla čas 2:28:14 a od medaile ji dělilo 41 sekund. Zvítězila Finka Alisa Vainiová v rekordu šampionátu 2:22:26, mezi muži triumfoval Němec Amanal Petros výkonem 2:09:11, rovněž pod dosavadním rekordem ME. Umístění hodnotila Hrochová pozitivně, elitní desítka podle ní patřila k vyšším cílům, které si dávala.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/maraton-na-me-v-birminghamu-s-terezou-hrochovou-158452" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/atletika/atletika-mistrovstvi-evropy-tereza-hrochova-maraton_2608161152_kri" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-kopce-zatacky-a-mocny-finis-jeden-z-nejtezsich-maratonu-priznala-hrochova-5514300" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:34",
+      "day": "prev",
+      "headline": "Manuel skončila na mistrovství Evropy čtvrtá, Vadlejchovi chybělo k medaili devět centimetrů",
+      "body": "Ve finále běhu na 400 metrů na atletickém mistrovství Evropy skončila včera večer Lurdes Gloria Manuel čtvrtá časem 50,86 sekundy, vyhrála favorizovaná Norka Henriette Jaegerová v nejlepším letošním evropském výkonu 49,04. Obhájce titulu Jakub Vadlejch byl v hodu oštěpem pátý, s výkonem 82,88 metru mu k medaili scházelo devět centimetrů. „Už jsem si to zažil víckrát a už, prosím, bych si to nerad zažíval znovu. Doufám, že jsem si tu smůličku teďka vybral,“ řekl oštěpař, kterého na olympiádě v Paříži dělily od medaile čtyři centimetry.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/me-v-atletice-lurdes-s-vadlejchem-zabojuji-o-medaile-158446" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-centimetry-od-medaile-uz-bych-to-nerad-zazil-znovu-priznal-vadlejch-5514280" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:25",
+      "headline": "Seemanová postoupila v Paříži do finále i na čtyřstovce, o medaili bude bojovat také Čejka",
+      "body": "Barbora Seemanová, evropská šampionka na 200 metrů volný způsob, prošla na plaveckém mistrovství Evropy v Paříži do finále i na dvojnásobné trati. V dopoledních rozplavbách zaplavala 4:12,05 minuty a v redukovaném pořadí jí to stačilo na poslední osmé postupové místo, finále se plave večer v 19:12. O necelou hodinu dřív bude na polohové dvoustovce bojovat o medaile Jan Čejka. Do finále stovky volným způsobem postoupila i paraplavkyně Agáta Koupilová.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/plavani/seemanova-postoupila-na-me-do-finale-take-na-400-metru-volny-zpusob-158454" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-seemanova-tesne-proklouzla-do-finale-5514293" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:27",
+      "day": "prev",
+      "headline": "Lehečka, Menšík i Nosková postoupili v Cincinnati do třetího kola, Djokovič vypadl hned na úvod",
+      "body": "Trojice českých tenistů zvládla včera večer své úvodní zápasy na turnaji Masters v Cincinnati. Linda Nosková porazila Britku Katie Boulterovou dvakrát 6:3, Jakub Menšík po tříhodinové bitvě udolal Itala Mattiu Bellucciho 7:5, 2:6 a 7:6 a Jiří Lehečka zdolal dalšího Itala Mattea Berrettiniho 6:4, 6:7 a 6:3. Nečekaně hned v prvním utkání skončil trojnásobný šampion turnaje Novak Djokovič, který prohrál 6:2, 4:6 a 4:6 s padesátým hráčem světa Thiagem Tirantem z Argentiny.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/djokovic-konci-v-cincinnati-noskova-i-mensik-sve-duely-zvladli-158450" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-noskova-i-mensik-na-uvod-v-cincinnati-zvitezili-djokovic-rychle-dohral-5514282" }
+      ]
+    }
+  ]
+}
