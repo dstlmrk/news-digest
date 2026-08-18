@@ -1,0 +1,345 @@
+{
+  "date": "2026-08-18",
+  "covers": "2026-08-18",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra slabé přeháňky a denní teplota až 26 °C, spadnout by mohlo kolem osmi milimetrů srážek. Kvalita ovzduší má být přijatelná.",
+    "outlook": "Ve čtvrtek se mají přihnat bouřky s kroupami a vydatné srážky pak vydrží až do soboty.",
+    "days": [
+      { "date": "2026-08-19", "icon": "rain", "temp_max_c": 26.3, "temp_min_c": 15.7 },
+      { "date": "2026-08-20", "icon": "storm", "temp_max_c": 25.2, "temp_min_c": 17.6 },
+      { "date": "2026-08-21", "icon": "rain", "temp_max_c": 22.1, "temp_min_c": 17.3 },
+      { "date": "2026-08-22", "icon": "rain", "temp_max_c": 23.9, "temp_min_c": 15.0 }
+    ]
+  },
+  "highlights": [
+    "Ministryně financí Alena Schillerová zahájila jednání s ministry o rozpočtu na rok 2027, premiér Babiš chce schodek významně pod 400 miliard korun.",
+    "Hladina Orlické přehrady klesla o třináct metrů a blíží se historickému minimu, poprvé může být nutné odpouštět Slapy.",
+    "Donald Trump zveřejnil grafiku, na níž označil Hormuzský průliv za nové území Spojených států; ceny ropy rostou k maximům od konce července."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:51",
+      "headline": "Schillerová zahájila jednání o rozpočtu na rok 2027, Babiš chce schodek pod 400 miliard",
+      "body": "Ministryně financí Alena Schillerová (ANO) během úterý jednala s jednotlivými ministry o podobě jejich rozpočtových kapitol pro rok 2027. Sérii schůzek zahájil ministr práce a sociálních věcí Aleš Juchelka (ANO), tématem byly důchody a platy ve veřejné sféře; podle ČT24 pak dorazili ministr průmyslu a obchodu Karel Havlíček (ANO) a ministr zahraničí Petr Macinka (Motoristé). Premiér Andrej Babiš (ANO) řekl, že schodek by měl být příští rok významně pod 400 miliard korun; letos je plánován ve výši 310 miliard. Juchelka po jednání uvedl, že mají variantu navýšení platů ve veřejné sféře a zajištěnou řádnou valorizaci penzí o minimálně tři sta korun, pro svůj resort počítá se sumou 740 miliard. Jednání ministerstva práce se Schillerovou má pokračovat ve čtvrtek a o možném vyšším růstu penzí rozhodne koalice. Havlíček po své schůzce oznámil, že stát i příští rok převezme veškeré poplatky za obnovitelné zdroje, letos na nich zaplatí 41 miliard korun. Juchelka zároveň řekl, že kvůli růstu minimální mzdy se příští týden mimořádně sejde tripartita a příští rok by podle něj mohlo jít o navýšení až o 2500 korun.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/mame-dohodu-o-zvyseni-platu-ve-verejne-sfere-rekl-juchelka-po-jednani-se-schillerovou-376702" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158310/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158496/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158120/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-ptam-se-ja-vyjednavani-o-rozpoctu-kolik-vlada-rozda-313361" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:40",
+      "headline": "Vláda chystá převod pozemků vinohradské nemocnice pod obranu, Babiš chce stavbu vykázat jako vojenský výdaj",
+      "body": "Vláda rozjíždí přípravu převodu části pozemků Fakultní nemocnice Královské Vinohrady pod ministerstvo obrany, zjistil Deník N. V areálu má vyrůst státní supernemocnice, do níž by se měly přesunout tisíce lůžek ze tří pražských fakultních nemocnic — Bulovky, Královských Vinohrad a Všeobecné fakultní nemocnice. Náklady na stavbu chce premiér Andrej Babiš vykázat jako obranné výdaje. Původně se vybíralo mezi pozemky u metra v Letňanech a částí vinohradského areálu, na jaře se Babiš přiklonil k Vinohradům. Deník N připomíná, že vinohradská nemocnice už dnes spolupracuje se soukromou klinikou Iscare premiéra Babiše.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2158041/ministerstvo-obrany-muze-ziskat-cast-arealu-vinohradske-nemocnice-vlada-tam-chysta-supernemocnici/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158224/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:38",
+      "headline": "Přes 170 architektů vyzvalo Senát, aby odmítl novelu stavebního zákona",
+      "body": "Více než 170 architektek a architektů v otevřeném dopise varuje, že novela stavebního zákona nevyřeší pomalé povolování staveb, zároveň ale může oslabit ochranu životního prostředí, územní plánování i veřejnou kontrolu nad výstavbou. Signatáři se podle Deníku N shodují na tom, že stavební řízení je potřeba zrychlit a zjednodušit, jen předloženou novelu za správné řešení nepovažují. Mezi podepsanými je architektka a spisovatelka Anna Beata Háblová nebo děkan Fakulty architektury ČVUT Dalibor Hlaváček. Senát se má předlohou zabývat ve středu a je k ní už nyní výrazně kritický; výzva odborníků může přesvědčit i poslední váhající senátory.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2158158/stavebni-zakon-odmitnete-zadaji-architekti-senat-kritizovana-novela-muze-v-horni-komore-narazit/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158433/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:30",
+      "headline": "Armáda vrátí vrtulníky Venom a Viper do vzduchu, čekají je mimořádné kontroly",
+      "body": "Vrtulníky platformy H-1 Venom a Viper se postupně připraví k obnovení provozu a do vzduchu se vrátí po úspěšném dokončení mimořádných technických kontrol, organizačních opatřeních a proškolení posádek. Na síti X to v úterý uvedla armáda. Vojáci pozastavili provoz všech těchto strojů po červencovém pádu vrtulníku Venom na základně v Náměšti nad Oslavou na Třebíčsku, při němž zemřela jedna vojákyně a další čtyři vojáci byli zraněni. Podle Seznam Zpráv vyšetřování nehody dál pokračuje.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/po-nehode-se-armada-chysta-pustit-do-vzduchu-vrtulniky-venom-a-viper-vyhlizi_2608181424_vdv" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-armadni-vrtulniky-venom-a-viper-se-po-tragicke-nehode-vrati-do-provozu-313389" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/armada-vrati-venomy-a-vipery-do-vzduchu-po-tragicke-nehode-je-cekaji-mimoradne-kontroly-1435020" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:50",
+      "headline": "Hladina Orlíku klesla o třináct metrů a blíží se historickému minimu",
+      "body": "Nízký přítok vody nadále výrazně snižuje hladinu Orlické přehrady, která klesla už o třináct metrů a odhalila původní stavby na dně. Podle Seznam Zpráv může nastat situace, kdy bude poprvé nutné odpouštět Slapy. Ředitel Povodí Vltavy Petr Kubala v rozhovoru pro Deník N popsal, že z vltavské kaskády se už několik měsíců uvolňuje voda, aby pomohla zvýšit průtoky na dolním toku řeky, kvůli čemuž hladina nádrží výrazně klesá. Některé drobné toky podle něj úplně vyschly: „Jdete korytem řeky, ale je to skoro stejné, jako když jdete někde nějakou lesní úvozovou cestou. Voda nikde.“",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/obrazem-hladina-orliku-se-blizi-k-historickemu-minimu-podivejte-se-co-odhalila-313407" },
+        { "name": "Deník N", "url": "https://denikn.cz/2157257/co-zazivame-letos-se-podle-scenaru-cekalo-az-v-roce-2050-rika-sef-povodi-vltavy-nektere-toky-jsou-uplne-bez-vody/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:29",
+      "headline": "Kriminalisté obvinili na Hradecku sedm lidí z výroby a distribuce pervitinu",
+      "body": "Kriminalisté z odboru obecné kriminality krajského ředitelství policie zahájili trestní stíhání sedmi osob. Skupina podle policie vyrobila a prodala více než 1,5 kilogramu pervitinu v hodnotě několika milionů korun a obchodovala také se stovkami gramů marihuany. Dva z obviněných skončili ve vazbě, hlavním podezřelým hrozí až dvanáctiletý trest. Podle Hradeckého deníku síť dlouhodobě zásobovala drogami Hradecko i okolní regiony, Hradecká drbna dodává, že varny skupina provozovala na několika místech v Hradci Králové a okolí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/krimi/hradecko-policie-rozkryla-organizovany-gang-varicu-pervitinu-drogy/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=krimi" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/897773-drogovy-gang-na-hradecku-varil-pervitin-i-v-technologickych-centrech.html" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158315/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:03",
+      "headline": "Pondělní bouřka poničila kemp v Bělči nad Orlicí i městské lesy v Hradci",
+      "body": "Navazuje na včerejší bouřku, která přerušila vlaky mezi Hradcem a Týništěm nad Orlicí: v táboře J. A. Komenského v Bělči nad Orlicí spadl při ní strom na chatku, nikomu se ale nic nestalo, protože hosté byli právě na výletě. Odborníci teď musejí pokácet několik dalších stromů, které pád poškodil. Bez elektřiny byla podle Hradeckého deníku řada domácností. Vítr vyvrátil a polámal stromy i v městských lesích, hlavně ve východní části směrem na Běleč; pracovníci škody odstraňují a žádají návštěvníky, aby nevstupovali do míst s poškozenými stromy, protože zavěšené či nestabilní kmeny mohou spadnout.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/tabor-kemp-belec-bourka-deti-stromy-dest-pocasi.A260818_092016_metro-hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/897767-boure-ponicila-mestske-lesy-v-hradci-nektera-mista-jsou-nebezpecna.html" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/skody-po-bource-na-hradecku-stromy-v-kempu-v-belci-poskodily-chatky-a-auta/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:07",
+      "headline": "Zastávka Střelecká je až do odvolání zrušená, od 20. srpna se přesune Na Kotli",
+      "body": "Dopravní podnik dočasně zrušil zastávku Střelecká v centru Hradce Králové, a to ve směru na nádraží. Důvodem jsou stavební komplikace, kvůli kterým nelze zajistit bezpečnost cestujících. Kromě této mimořádné události čeká městskou hromadnou dopravu i plánovaná změna: od 20. srpna se přesune zastávka Na Kotli.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/zastavka-strelecka-je-az-do-odvolani-zrusena-kvuli-bezpecnosti-cestujicich/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:07",
+      "headline": "Fotbalisté Hradce se po 66 letech vracejí do Atén, ve čtvrtek hrají s Panathinaikosem",
+      "body": "Šestašedesát let čekali fotbalisté Hradce Králové na další evropské setkání s Panathinaikosem, ve čtvrtek se Votroci v Aténách představí znovu. Proti slavnému řeckému klubu napsali v roce 1960 jednu z největších kapitol své historie, když bezbrankovou remízou završili postup, jaký tehdy neměl v československém fotbale obdoby.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/hradec-se-vraci-do-aten-pred-66-lety-tam-sokoval-slavny-panathinaikos/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:00",
+      "headline": "Ruský raketový útok u Charkova zabil deset lidí, na moskevský region letělo přes 600 dronů",
+      "body": "Při ruském raketovém útoku v obci Pečenihy v ukrajinské Charkovské oblasti zemřelo nejméně deset lidí, oznámili prezident Volodymyr Zelenskyj a místní úřady. Dalších sedmnáct osob bylo zraněno a poškozeno bylo deset rodinných domů. Podle Seznam Zpráv rakety dopadly na rušnou křižovatku; Zelenskyj slíbil, že na útok Ukrajina odpoví, a vyzval spojence, aby zvýšili tlak na Rusko i podporu bránící se země. Starosta Moskvy Sergej Sobjanin podle agentury AFP tvrdí, že na moskevský region útočilo v noci na úterý 620 dronů, z nichž ruská protivzdušná obrana přes 180 zničila; zraněni byli tři lidé.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-okoli-moskvy-letelo-pres-600-dronu-tvrdi-jeji-starosta-376694" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-rusove-zautocili-na-rusnou-krizovatku-zemrelo-deset-lidi-313364" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:12",
+      "headline": "Zelenskyj navrhl do čela obrany bývalého šéfa tajné služby Chmaru, parlament rozhodne ve středu",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj předložil parlamentu návrh jmenovat Jevhena Chmaru ministrem obrany. Hlasování se má uskutečnit ve středu 19. srpna, uvedl server RBK-Ukrajina s odvoláním na poslance Jaroslava Železňaka; podle něj se má hlasovat i o ministrovi zahraničí Andriji Sybihovi. Chmara vede rezort v současnosti jako prozatímní ministr. Seznam Zprávy uvádějí, že bývalý šéf tajných služeb má nahradit Mychajla Fedorova, a to měsíc poté, co odvolání populárního Fedorova vyvolalo v zemi vlnu protestů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-zelenskyj-navrhl-do-cela-obrany-jevhena-chmaru-parlament-rozhodne-ve_2608181541_vdv" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/zelenskyj-chce-do-cela-obrany-byvaleho-sefa-tajne-sluzby-parlament-ma-rozhodnout-ve-stredu-1435022" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-navrhl-jmenovat-jevhena-chmaru-ministrem-obrany-313406" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:23",
+      "headline": "Trump označil Hormuzský průliv za nové území USA, ceny ropy míří k maximům",
+      "body": "Americký prezident Donald Trump zveřejnil na své síti Truth Social grafiku, na níž Hormuzský průliv označil za nové území Spojených států. Už před několika dny v projevu řekl, že úžinu brzy prohlásí za území USA; Írán tehdy reagoval, že námořní cesta „zůstane íránská“. Nákladní loď v průlivu zasáhl v úterý neznámý projektil a přední íránský vyjednavač prohlásil, že průliv zůstane uzavřený, dokud Írán neuzavře s Washingtonem mírovou dohodu — Trump ale řekl, že na ni nespěchá. Podle analytika Josefa Krause z Fakulty sociálních studií Masarykovy univerzity je evidentní frustrace amerického prezidenta, který pohrozil bombardováním Ománu. Ceny ropy v úterý rostly a pohybovaly se poblíž nejvyšších hodnot od konce července: podle agentury Reuters se vzdaluje naděje na dohodu o ukončení války, Teherán oznámil konfrontačnější postoj a Washington vyloučil prodloužení dohody o porozumění, na níž stálo dosavadní příměří.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158156/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/spor-ohledne-hormuzu-americane-ted-tahaji-za-kratsi-konec-provazu-iranci-naopak_2608181431_vdv" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158413/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:06",
+      "headline": "Hamás potvrdil, že bude dodržovat dohodu o Gaze, Netanjahu ji odmítá",
+      "body": "Hnutí Hamás podle agentury AFP potvrdilo, že bude dodržovat mírovou dohodu v Pásmu Gazy. Izraelský premiér Benjamin Netanjahu ale pakt, který má zahájit druhou fázi plánu amerického prezidenta Donalda Trumpa na ukončení války, odmítá. V pondělí Netanjahu uvedl, že hodlá pokračovat v útocích na boji zpustošenou oblast.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158099/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "headline": "Výbuch dronu u Záporožské jaderné elektrárny zabil člověka a patnáct dalších zranil",
+      "body": "Výbuch dronu na autobusové zastávce, z níž zaměstnanci Rusy okupované Záporožské jaderné elektrárny jezdí do práce, zabil jednoho člověka a dalších patnáct zranil. Oznámila to Mezinárodní agentura pro atomovou energii s odkazem na vedení podniku. MAAE informovala také o útocích v průmyslové zóně elektráren; jaderná bezpečnost ani zabezpečení objektu podle ní ohroženy nebyly.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158364/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:21",
+      "headline": "Slovenské dopravní kamery obsahovaly ruské součástky, Fico kauzu odbyl",
+      "body": "Na Slovensku přibývají otázky kolem nových kamer, kterými chtělo ministerstvo vnitra hlídat provoz na silnicích. Nejdřív se ukázalo, že obsahovaly ruské součástky, teď opozice přišla s dalšími zjištěními o jejich zabezpečení, podává trestní oznámení a žádá odvolání ministra vnitra Matúše Šutaje Eštoka. Premiér Robert Fico ale bezpečnostní obavy zlehčuje a svého ministra hájí: „To jako je Slovensko v bezpečnostním ohrožení kvůli nějakým pitomým kamerám určeným pro silniční dopravu?“ ptal se podle Seznam Zpráv. Ty dodávají, že ruské komponenty potvrdila kromě opozice i zjištění bezpečnostního úřadu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/v-dopravnich-kamerach-na-slovensku-byly-ruske-soucastky-je-uplne-jedno_2608181521_kvr" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-satelity-jsou-nebezpecnejsi-odbyl-fico-kauzu-ruskych-kamer-313386" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:10",
+      "headline": "ČEZ dá do modernizace Dukovan a Temelína až dvanáct miliard ročně",
+      "body": "ČEZ chce provozovat Dukovany a Temelín až osmdesát let od jejich spuštění, a proto do stávajících jaderných elektráren investuje až dvanáct miliard korun ročně. Modernizace podle E15 počítá s digitalizací, umělou inteligencí, 3D tiskem i robotickými systémy.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/dukovany-a-temelin-ceka-obri-modernizace-cez-do-nich-da-az-12-miliard-rocne-1435003" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:21",
+      "headline": "ČEZ se ohradil proti spekulacím o svém podílu ve slovenské JESS a zvažuje právní kroky",
+      "body": "Energetická společnost ČEZ zváží právní kroky kvůli spekulacím ohledně svého podílu ve slovenské firmě Jadrová energetická spoločnosť Slovenska, která v zemi připravuje výstavbu nové jaderné elektrárny. Podle české firmy jsou spekulace médií, že hodnota podílu ČEZ v JESS nebyla stanovena transparentně, nesmyslné a firmu poškozují. ČEZ to uvedl v úterním prohlášení.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/cez-se-brani-spekulacim-o-miliardovem-obchodu-se-slovenskem-zvazuje-pravni-kroky-1435015" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-cez-se-ohradil-proti-spekulacim-o-podilu-ve-slovenske-jess-313403" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:30",
+      "headline": "Evropské sucho podle E15 zdraží potraviny, ceny přitom v červenci meziročně klesly",
+      "body": "Evropská jednička v pěstování rýže se potýká s nedostatkem vody a chovatelé hospodářských zvířat museli kvůli vyschlým pastvinám sáhnout do zimních zásob krmiva; podle E15 hrozí zdražení rýži, hranolkům, sýrům i oleji. Zatím jdou ceny opačným směrem: ceny potravin a nealkoholických nápojů klesly v červenci meziročně o více než tři procenta a proti červnu o necelé půlprocento, největší slevu spotřebitelé zaznamenali u másla, mléka, kuřat či mouky. Ředitel sekce měnové České národní banky Petr Sklenář k tomu podle iROZHLASu dodal, že pokles je mimořádný a u některých mléčných výrobků se ceny propadají i na patnáctiletá minima.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/potraviny/evropske-sucho-dopadne-na-kazdy-talir-zdrazeni-hrozi-ryzi-hranolkum-syrum-i-oleji-1435012" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/komentare/levne-potraviny-jak-se-vezme_2608181630_ako" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:00",
+      "headline": "Výnosy evropských dluhopisů vyskočily na několikaletá maxima kvůli obavám z inflace",
+      "body": "Výnosy evropských dluhopisů vzrostly kvůli obavám z inflace vyvolané válkou v Íránu na několikaletá maxima. Výnos desetiletých francouzských dluhopisů dosáhl podle Euronews sedmnáctiletého maxima, u desetiletých německých dluhopisů jde o nejvyšší úroveň od roku 2011. Seznam Zprávy upozorňují, že výprodej amerických státních dluhopisů a s tím související vyšší úroky už nelze vysvětlovat jen očekáváním zvýšení sazeb ze strany centrální banky — peníze zdražují a je to výstraha nejen pro USA, ale i pro světové trhy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158140/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-komodity-dluhopisy-americky-dluh-zdrazuje-muze-byt-problem-pro-usa-i-zbytek-sveta-313382" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "22:46",
+      "day": "prev",
+      "headline": "Izrael podle Responsible Statecraft založil fiktivní think tank, aby ovlivnil odpovědi AI chatbotů",
+      "body": "Web Responsible Statecraft napsal, že Izrael vytvořil falešný think tank, a to pravděpodobně ve snaze ovlivnit odpovědi chatbotů s umělou inteligencí. Text se stal jedním z nejdiskutovanějších příspěvků na Hacker News, kde nasbíral 866 bodů a přes pět set komentářů.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:03",
+      "day": "prev",
+      "headline": "Cena modelu GPT-5.6 Sol klesla o polovinu",
+      "body": "Podle výpisu na platformě OpenRouter zlevnil model GPT-5.6 Sol od OpenAI o padesát procent. Zpráva patřila včera večer k nejsledovanějším na Hacker News s 569 body a 371 komentáři.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://openrouter.ai/openai/gpt-5.6-sol" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "04:49",
+      "headline": "Síť více než sta tisíc kamer snímajících značky budí ve Spojených státech odpor",
+      "body": "Americký technologický start-up Flock během několika let rozmístil po Spojených státech více než sto tisíc kamer snímajících poznávací značky aut. Rozsáhlá síť vyvolává odpor části veřejnosti, která se obává narušování soukromí, a někteří odpůrci kamery dokonce systematicky poškozují, píše agentura AFP.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/afp-v-usa-sili-hnev-kvuli-rozsahle-siti-kamer-pro-snimani-poznavacich-znacek-376692" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:56",
+      "headline": "Íránský bezpečnostní aparát podle Deníku N přebírají radikálové z revolučních gard",
+      "body": "Konflikt, který proti Íránu začaly Spojené státy a Izrael, převrátil vedení islámské republiky naruby a bezpečnostní aparát přebírají radikální jestřábi z revolučních gard. Nové vedení podle Deníku N odmítá ustoupit Washingtonu a hrozí rozšířením války i vpádem do Kuvajtu; arabské zpravodajské služby varují, že se země připravuje na širší válku včetně možných útoků na Kuvajt, Saúdskou Arábii a Bahrajn. Původní lhůta pro dosažení dohody o konci války mezitím vypršela.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2158029/iranske-gardy-vedou-ti-nejtvrdohlavejsi-odmitaji-jednat-o-hormuzu-a-tvrdi-ze-hlavni-valka-jeste-ani-nezacala/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2158323/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "09:31",
+      "headline": "Voxpot mapuje byznys s hudbou generovanou umělou inteligencí",
+      "body": "Umělá inteligence už umí generovat písničky, které znějí jako něco, co posluchač slyšel tisíckrát — někdy až příliš doslova. Pořad Prompt z Besedy u Bigbítu mapuje byznys s hudbou vyráběnou pro algoritmy, která podle Voxpotu možná hraje i v oblíbených playlistech posluchačů.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/prompt-live-hudebni-ai-slop-zaplavil-internet-a-lide-ho-poslouchaji/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:32",
+      "headline": "Menšík a Nosková postoupili v Cincinnati do osmifinále, Lehečka vypadl",
+      "body": "Linda Nosková si na turnaji v Cincinnati poradila 7:6 a 6:2 s Clarou Tausonovou z Dánska a je v osmifinále bez ztráty setu. Ve třetím kole uspěl také Jakub Menšík, který díky tradičně skvělému podání zdolal 6:3, 6:4 Australana Rinkyho Hijikatu. Jiří Lehečka naopak prohrál 1:6, 7:6, 3:6 s Francouzem Arthurem Filsem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-a-noskova-jsou-v-cincinnati-v-osmifinale-lehecka-vypadl-158475" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-mensik-i-noskova-v-cincinnati-pokracuji-lehecka-konci-5514642" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:57",
+      "headline": "Artis podal protest proti verdiktům rozhodčích v utkání s Baníkem",
+      "body": "Fotbalový klub Artis Brno podal protest proti několika verdiktům rozhodčích v nedělním utkání čtvrtého ligového kola v Ostravě, které domácí Baník vyhráli 1:0. Nováček nejvyšší soutěže rozporuje hned čtyři situace — neuznaný gól, nenařízenou i odvolanou penaltu a nastavený čas ve druhém poločase — a mluví o „zjevném porušení pravidel rozhodčím, které mělo rozhodující vliv na konečný výsledek“. Klub o tom informoval na svém webu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-artis-brno-rozhodci-videorozhodci-banik-ostrava-var_2608181557_kri" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-artis-protestuje-vadi-mu-nekolik-verdiktu-rozhodcich-5514679" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:46",
+      "headline": "Odložený zápas Hradec Králové – Plzeň se odehraje 9. září",
+      "body": "Odložená utkání pátého kola první fotbalové ligy Jablonec – Ostrava a Hradec Králové – Plzeň se odehrají ve středu 9. září. Zápas na severu Čech bude mít výkop od 17:00, v Hradci se bude hrát o dvě hodiny později. Informovala o tom v tiskové zprávě Ligová fotbalová asociace.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-odlozena-utkani-jablonec-a-hradec-kralove-maji-nove-terminy-5514664" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:05",
+      "headline": "Roglič stihl na Vueltu návrat po zranění, Quintanu Movistar nevybral",
+      "body": "Poslední Grand Tour sezony odstartuje v sobotu a týmy postupně oznamují sestavy. Slovinský cyklista Primož Roglič se stihl zotavit ze zranění a na Vueltě zaútočí na rekordní pátý triumf. Naopak šampion z roku 2016 Kolumbijec Nairo Quintana byl při své poslední sezoně z výběru Movistaru vynechán. Jedenaosmdesátý ročník závodu se jede od 22. srpna do 13. září a nechybí na něm ani česká účast.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-smutne-louceni-sampiona-tym-ho-na-vueltu-nevybral-naopak-roglic-navrat-po-zraneni-stihne-5514657" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-vuelta-2026-program-etapy-trasa-vysledky-5514681" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:55",
+      "headline": "Fuksa jede na mistrovství světa do Poznaně s pěti vítězstvími z pěti závodů",
+      "body": "Kanoista Martin Fuksa je i v letošní sezoně ve skvělé formě — z pěti závodů má stejný počet vítězství — a chce to potvrdit na mistrovství světa v polské Poznani, které začíná příští týden. Startovat bude kromě pětistovky a kilometru také na deblkanoi s bratrem Petrem. „Každý ode mě čeká jen vítězství, když jsem druhý nebo třetí, není to ono, což je někdy smutné. Přál bych si, aby i to bral okolní svět jako úspěch,“ přiznal olympijský vítěz.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/rychlostni-kanoistika/v-poznani-kdysi-potopil-lod-ted-uz-ve-vlnach-umi-fuksa-ma-pred-ms-nejvyssi-cile-158476" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-doufam-ze-ze-me-maji-strach-hlasi-cesky-fenomen-s-aurou-neporazitelnosti-5514649" }
+      ]
+    }
+  ]
+}
