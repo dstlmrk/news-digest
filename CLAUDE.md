@@ -139,11 +139,39 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    Když skončí chybou, oprav JSON a spusť ho znovu. **Nikdy necommituj
    digest, který build neprošel**, a nikdy needituj HTML v `docs/` ručně.
 
-7. **Commitni a pushni.** `digests/` i `docs/` jedním commitem s message
-   `digest: RRRR-MM-DD`, push rovnou do branche `master`. **Nezakládej
-   novou branch ani pull request** — tenhle repozitář je jednouživatelský
-   a digest nemá co review. GitHub Pages publikuje `docs/` samo, žádná CI
-   pipeline se nespouští.
+7. **Commitni a publikuj.** `digests/` i `docs/` jedním commitem s message
+   `digest: RRRR-MM-DD`. Publikované je jen to, co je na branchi `master`
+   na originu — GitHub Pages odtud staví `docs/` samo a jinou cestou web
+   nevznikne. Proto vždycky, bez ohledu na to, na jaké branchi tě běh
+   vysadil:
+
+   ```bash
+   git fetch origin master
+   git push origin HEAD:master
+   git ls-remote origin master   # musí ukazovat na tvůj nový commit
+   ```
+
+   `HEAD:master` pushne aktuální commit do masteru i když jsi checknutý
+   jinde, takže **nemusíš přepínat branch ani nic zakládat**. Pull request
+   nezakládej — repozitář je jednouživatelský a digest nemá co review.
+
+   Tři věci, na kterých tenhle krok už jednou selhal a web kvůli tomu
+   nedostal vydání:
+
+   - **Nikdy nesuď stav masteru z lokálního refu.** Sandbox běhu má
+     `origin/master` běžně zastaralý o několik dní. Než z něj cokoli
+     vyvodíš — a hlavně než usoudíš, že v masteru chybí starší vydání —
+     udělej `git fetch origin master`. Bez fetche je ten ref jen šum.
+   - **Push do masteru je součást zadání, ne krok, na který se ptáš.**
+     Je to doručení digestu; bez něj dnešní vydání nikdo neuvidí. Když tě
+     harness vysadil na vlastní branch, pushni na ni klidně taky, ale
+     rozhoduje master.
+   - **Když push do masteru neprojde**, rebasuj na `origin/master`,
+     přegeneruj web (`build_site.py`) a zkus to znovu. Když to neprojde
+     ani pak, napiš to **jako první větu** shrnutí i notifikace — včetně
+     commitu, branche, kde vydání leží, a příkazu, kterým se to slije.
+     Tichý neúspěch je tady nejhorší varianta: routina reportuje úspěch
+     a web přitom stojí.
 
 8. **Doruč.** Viz [Doručení](#doručení).
 
@@ -307,8 +335,10 @@ nedopovězený; přepiš ho tak, aby sám nesl informaci.
 
 ## Doručení
 
-Aktuálně nastavené: **commit do repozitáře**, odkud GitHub Pages publikuje
-web z `docs/`. To je hlavní čtecí plocha, žádný další krok není povinný.
+Aktuálně nastavené: **commit do branche `master`**, odkud GitHub Pages
+publikuje web z `docs/`. To je hlavní čtecí plocha, žádný další krok není
+povinný. Vydání, které skončí na jiné branchi, je ale **nedoručené** —
+ověření podle kroku 7 proto neodbývej.
 
 Když je v běhu k dispozici Slack connector, pošli digest navíc jako
 zprávu sobě. Odkaz na session, který lze přiložit, získáš takto:
