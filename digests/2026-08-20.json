@@ -1,0 +1,361 @@
+{
+  "date": "2026-08-20",
+  "covers": "2026-08-20",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Root.cz",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "storm",
+    "summary": "Zítra dorazí bouřky s kroupami, přes den až 27 °C a přes 22 milimetrů srážek.",
+    "outlook": "V sobotu pokračují silné bouřky s nárazy větru okolo 60 km/h, od neděle se počasí uklidní.",
+    "days": [
+      { "date": "2026-08-21", "icon": "storm", "temp_max_c": 26.9, "temp_min_c": 19.5 },
+      { "date": "2026-08-22", "icon": "storm", "temp_max_c": 19.1, "temp_min_c": 13.5 },
+      { "date": "2026-08-23", "icon": "partly", "temp_max_c": 19.6, "temp_min_c": 11.2 },
+      { "date": "2026-08-24", "icon": "partly", "temp_max_c": 21.4, "temp_min_c": 10.2 }
+    ]
+  },
+  "highlights": [
+    "Senát zamítl vládní novelu stavebního zákona, koalice ANO, SPD a Motoristů chce veto na zářijové schůzi Sněmovny přehlasovat.",
+    "Ministryně financí Alena Schillerová po třídenním jednání oznámila, že schodek rozpočtu na příští rok nepřekročí 400 miliard korun.",
+    "V nočním ruském útoku na Kyjev zahynulo nejméně patnáct lidí, přes čtyřicet dalších bylo zraněno."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:27",
+      "headline": "Senát zamítl spornou novelu stavebního zákona, Sněmovna chce veto přehlasovat",
+      "body": "Senát ve čtvrtek po více než pětihodinové debatě výraznou většinou zamítl vládní novelu stavebního zákona. Ministryně pro místní rozvoj Zuzana Mrázová (ANO) předlohu hájila argumentem, že Česko nepotřebuje další debaty o pomalém povolování staveb. Kritici z řad senátorů novelu označili za paskvil, který nahrává developerům a jde proti veřejným zájmům i obcím. Zamítnutí přivítali zástupci samospráv a ekologové, developeři a stavebníci to podle ČT24 označují za špatnou zprávu. Zástupci sněmovní koalice ANO, SPD a Motoristů jsou podle E15 připraveni senátní veto na zářijové schůzi Sněmovny přehlasovat.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/senat-projedna-novelu-stavebniho-zakona-376776" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/senat-zamitl-spornou-novelu-stavebniho-zakona-podle-mnohych-jde-o-paskvil_2608201555_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160446/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-senat-zamitl-spornou-stavebni-novelu-kritici-ji-oznacovali-za-paskvil-313567" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/senat-smetl-novelu-stavebniho-zakona-snemovna-se-chysta-veto-prehlasovat-1435071" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:50",
+      "headline": "Schodek rozpočtu na příští rok podle Schillerové vzroste, hranici 400 miliard ale nepřekročí",
+      "body": "Ministryně financí Alena Schillerová (ANO) po třídenním jednání s vládními kolegy oznámila, že schodek státního rozpočtu na rok 2027 vzroste z letošních 310 miliard korun, ale nepřesáhne 400 miliard. Přesné číslo upřesnit odmítla, ministerstvo ho podle ní ještě dopočítává. Návrh rozpočtu musí předložit vládě do konce srpna. Podle E15 ministerstvo počítá s vyššími výdaji většiny resortů, s pokrytím plateb za obnovitelné zdroje energie, s vyššími investicemi do zdravotnictví i s dodržením dvou procent HDP na obranu. Ministr vnitra Lubomír Metnar (ANO) po jednání se Schillerovou uvedl, že se dohodli na navýšení platů policistů a hasičů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/schillerova-pokracuje-tretim-dnem-v-jednanich-o-rozpoctu-sejde-se-s-juchelkou-metnarem-a-stastnym-376774" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160514/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/schodek-statniho-rozpoctu-bude-pod-400-miliardami-korun-tvrdi-schillerova-presne_2608201628_ape" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/rozpocet-miri-do-finale-schodek-bude-vyssi-nez-letos-hranici-400-miliard-ale-neprekroci-1435073" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:57",
+      "headline": "Ministerstvo financí snížilo odhad letošního růstu ekonomiky na 1,9 procenta",
+      "body": "Ministerstvo financí v nové ekonomické prognóze snížilo odhad letošního růstu HDP Česka na 1,9 procenta z dubnových 2,1 procenta. Zhoršení odůvodňuje dopady pokračujícího konfliktu na Blízkém východě. Pro příští rok ministerstvo ponechává očekávaný růst na 2,4 procenta. Průměrná inflace by letos měla podle prognózy klesnout na 2,2 procenta díky levnějším potravinám a silnější koruně. Rozpočtový schodek vládních institucí letos podle E15 stoupne na 2,7 procenta HDP.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160282/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/ministerstvo-financi-zhorsilo-vyhled-ekonomiky-kvuli-valce-s-iranem-376791" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-ministerstvo-financi-zhorsilo-vyhled-ekonomiky-hospodarsky-rust-bude-jen-19-procenta-313556" },
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/blizky-vychod-brzdi-ceskou-ekonomiku-ministerstvo-financi-vydava-novou-prognozu-1435070" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:10",
+      "headline": "Sklizeň bude letos nejhorší za patnáct let, zemědělci přijdou o 20 miliard korun",
+      "body": "České zemědělství letos přijde na tržbách zhruba o 20 miliard korun, řekl na zahájení agrosalonu Země živitelka prezident Agrární komory ČR Jan Doležal. V rostlinné výrobě způsobí pokles nižší sklizeň, kterou Doležal označil za nejhorší za posledních patnáct let. Podle odhadu statistiků zemědělci sklidí o 17 procent méně obilovin a o pětinu méně řepky, produkce zeleniny klesne kvůli suchu zhruba o třetinu. Podle E15 je nepříznivá i situace v živočišné výrobě, kde v sektoru mléka dosahují ztráty desítek milionů korun kvůli nízkým výkupním cenám.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/sklizen-bude-letos-nejhorsi-za-patnact-let-rekl-sef-agrarni-komory-376785" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/nejhorsi-sklizen-za-15-let-a-levne-mleko-zemedelci-letos-prijdou-o-desitky-miliard-1435064" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-ceske-zemedelstvi-letos-prijde-na-trzbach-o-20-miliard-korun-tvrdi-komora-313533" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:21",
+      "headline": "U Potštátu na Přerovsku spadla třicetimetrová větrná elektrárna, jde o první podobnou havárii v Česku",
+      "body": "U Potštátu na Přerovsku ve čtvrtek spadla na pole zhruba třicet metrů vysoká větrná elektrárna s instalovaným výkonem 0,15 MW. Podle údajů České společnosti pro větrnou energii jde o vůbec první pád větrníku v Česku. Nikdo nebyl zraněn, majitel podle policie vyčíslil škodu na 200 tisíc korun. Elektrárna byla jednou z nejstarších v zemi, stará dvacet pět až třicet let, a od začátku července byla mimo provoz kvůli poškozenému táhlu v lopatkách. Ty kvůli závadě zůstaly otevřené a nešlo je sklopit, což v kombinaci se silnými poryvy větru pravděpodobně vedlo k pádu celého stroje.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160290/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/na-prerovsku-spadl-30-metru-vysoky-vetrnik-je-prvni-podobna-havarie-v-cesku_2608201420_lar" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-na-prerovsku-spadla-vetrna-elektrarna-313550" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:07",
+      "headline": "Pavel vyzývá, aby výdaje na obranu byly příští rok přes dvě procenta HDP",
+      "body": "Prezident Petr Pavel při návštěvě firem v Novém Městě na Moravě uvedl, že Česko by mělo dát na obranu příští rok o něco více než dvě procenta hrubého domácího produktu. Jinak podle něj vzhledem k závazkům přijatým na summitu v Haagu do roku 2035 vznikne deficit v obranných výdajích na další roky. Ministr obrany Jaromír Zůna (za SPD) ve středu oznámil, že resort plánuje pro příští rok výdaje na obranu ve výši právě dvou procent HDP.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/vydaje-na-obranu-pristi-rok-mely-byt-pres-dve-procenta-hdp-vyzval-pavel-chce_2608201407_ako" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160212/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:53",
+      "headline": "Noční bouřka v Královéhradeckém kraji lámala stromy, ráno bylo bez proudu 1700 domácností",
+      "body": "Bouře se silným větrem v noci na čtvrtek v Královéhradeckém kraji lámala stromy a způsobila výpadky elektřiny. Hasiči měli od dvou hodin v noci do rána přes 40 výjezdů ke stromům a větvím popadaným na silnice. Ráno zůstávalo v kraji bez elektřiny asi 1700 domácností.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/897932-nocni-boure-v-hradeckem-kraji-lamala-stromy-1700-domacnosti-bez-proudu.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:01",
+      "headline": "Hradec před večerním duelem s Panathinaikosem hlásí dvě zahraniční posily",
+      "body": "Fotbalový Hradec Králové před čtvrtečním duelem v Aténách rozšířil kádr o dvě zahraniční posily. Do útoku dorazil běloruský reprezentant Herman Barkouski, na levý kraj obrany Španěl Rodrigo Abajas. Oba už jsou hráči týmu trenéra Davida Horejše.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/hradec-pred-duelem-v-atenach-hlasi-dve-posily-prichazeji-barkouski-a-abajas/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:18",
+      "headline": "Pajkrova i Pivovarská flošna v Hradci dál chátrají, město velké opravy neplánuje",
+      "body": "Před čtyřmi lety se rýsovala rekonstrukce zchátralé Pajkrovy flošny na nový studentský klub, píše Hradecký deník. Historické památky z 18. století ale dál chátrají a radnice žádné velké investiční akce v Pajkrově ani Pivovarské floše neplánuje. Objekty se dočkaly zatím jen dočasného oživení.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/pajkrova-flosna-pivovarska-flosna-minulost-budoucnost-opravy-chatrani/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:26",
+      "headline": "Hradec chystá na konec prázdnin devět dní slavností s balóny, koncerty i rytíři",
+      "body": "Na konci prázdnin čeká Hradec Králové devět dní koncertů, historických programů, pouličních akcí a zábavy pro malé i velké, píše Hradecká drbna. Nad městem má přeletět desítky balónů, plánovaný je hromadný start jednapadesáti posádek.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/z-kraje/897914-balony-koncerty-rytiri-i-mejdany-hradec-chysta-devet-dni-slavnosti.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "headline": "Po nočním ruském útoku na Kyjev zahynulo nejméně patnáct lidí, přes čtyřicet je zraněných",
+      "body": "Ruský vzdušný útok na Kyjev v noci na čtvrtek zabil nejméně patnáct lidí a přes čtyřicet dalších zranil, uvedl starosta Vitalij Kličko. Poškozeny byly obytné i nebytové budovy ve třech kyjevských čtvrtích i dětská nemocnice. Ukrajinský prezident Volodymyr Zelenskyj podle BBC označil vysoký počet obětí za výsledek nedostatku protivzdušné obrany. Ruské ministerstvo obrany tvrdí, že útoky mířily na podniky vojenského průmyslu a dopravní a logistické centrum. Podle Kličky ruské útoky od začátku plné invaze poškodily téměř každý třetí velkokapacitní obytný dům v hlavním městě. ČT24 hovoří o jednom z nejhorších útoků na Kyjev za poslední měsíce.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-pri-utoku-na-kyjev-zemrelo-15-lidi-valka-uz-poskodila-4000-rezidencnich_2608201605_ape" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160251/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-zautocili-na-kyjev-rakety-poskodily-i-detskou-nemocnici-376772" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "02:34",
+      "headline": "Trump vyhlásil Íránu ekonomickou válku a pohrozil zemím, které by Teheránu pomáhaly",
+      "body": "Americký prezident Donald Trump vyhlásil Íránu „ekonomickou válku“ a pohrozil tvrdými dopady na hospodářství všech zemí, které by Teheránu jakkoli pomáhaly. Podle agentury AFP tak šéf Bílého domu stupňuje tlak na Írán bezmála šest měsíců od zahájení konfliktu. Íránský ministr zahraničí Abbás Arakčí označil postup Washingtonu za americký ekonomický terorismus.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-vyhlasil-ekonomickou-valku-iranu-pohrozil-vsem-kdo-by-teheranu-pomahali-376773" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:41",
+      "headline": "Rumunský F-16 zničil námořní dron u ložiska plynu v Černém moři, prezident z incidentu viní Rusko",
+      "body": "Rumunský stíhací letoun F-16 ve čtvrtek zničil námořní bezposádkové plavidlo, které se pohybovalo několik set metrů od rumunského projektu na těžbu zemního plynu Neptun Deep v Černém moři. Podle rumunského ministra obrany Radua Miruțy Ukrajina uvedla, že dron nebyl její. Rumunský prezident Nicušor Dan z incidentu obvinil Rusko, Moskva se zatím nevyjádřila. Podle rumunského ministerstva obrany se ráno v oblasti pohybovala jedna z obchodních lodí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160259/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rumunska-stihacka-znicila-namorni-dron-byl-kousek-od-tezby-plynu-313548" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rumunsko-znicilo-namorni-dron-nedaleko-sveho-loziska-plynu-oznamila-bukurest-376793" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:06",
+      "headline": "Maďarská státní televize odvysílala první zpravodajství od července, kanál M1 začal na svátek svatého Štěpána",
+      "body": "Maďarská státní televize podle Deníku N ve čtvrtek odvysílala první zpravodajství od července. Vysílací pauza souvisela s reformou vlády premiéra Pétera Magyara, která má zajistit nezávislost a nestrannost veřejnoprávních médií. První zprávy po výluce odvysílal kanál M1 na svátek založení státu a svatého Štěpána a začal reportáží o středečním nástupu nového maďarského prezidenta. Podle veřejnoprávní mediální skupiny, pod kterou M1 spadá, se na editaci nového zpravodajství nepodílel nikdo, kdo v redakci pracoval před reformou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160338/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-madarska-statni-televize-odvysilala-prvni-zpravy-od-cervence-313557" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:19",
+      "headline": "Izraelská armáda poprvé přiznala, že palbu na auto s pětiletou Hind zahájili její vojáci",
+      "body": "Izraelská armáda podle Deníku N poprvé přiznala, že to byli její vojáci, kdo v roce 2024 v Gaze zahájil palbu na auto s pětiletou Hind Radžab a její rodinou a následně zaútočil na záchranáře, kteří jí jeli na pomoc. Kvůli případu teď zahájila trestní vyšetřování. Deník N v analýze upozorňuje, že podle zkušeností lidskoprávních organizací i dalších případů je v podobných věcech skutečná spravedlnost dosažena málokdy.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2160127/od-popirani-po-trestni-vysetrovani-izrael-priznal-ze-na-auto-s-petiletou-hind-strileli-jeho-vojaci/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:17",
+      "headline": "Dron sestřelený minulý pátek nad Lotyšskem byl ukrajinský, uvedla lotyšská armáda",
+      "body": "Bezpilotní letoun, který byl minulý pátek sestřelen nad lotyšským územím, byl podle lotyšských ozbrojených sil ukrajinského původu. Do země se podle armády dostal přes Bělorusko, a to s největší pravděpodobností v důsledku ruského rušení.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160326/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-dron-sestreleny-nad-lotysskem-byl-ukrajinsky-uvedla-armada-313559" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:38",
+      "headline": "Severní Korea má podle Jižní Koreje 80 až 120 jaderných hlavic, na východ vypálila deset raket",
+      "body": "Severní Korea podle odhadu Jihokorejského ministerstva obrany disponuje 80 až 120 jadernými hlavicemi. Podle agentury Reuters to uvedl ministr obrany An Kju-pek s tím, že Pchjongjang zároveň projevuje zájem o nabídky amerického prezidenta Donalda Trumpa na obnovení dialogu. Podle Deníku N Severní Korea týž den vypálila deset balistických raket krátkého doletu směrem na východ od Korejského poloostrova; podle japonské pobřežní stráže spadly do moře.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/severni-korea-jaderne-hlavice_2608201238_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160036/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:45",
+      "headline": "Americký veřejný dluh překročil 40 bilionů dolarů, za dekádu se zdvojnásobil",
+      "body": "Celkový veřejný dluh federální vlády USA poprvé překonal hranici 40 bilionů dolarů (828 bilionů korun), oznámilo ve středu večer americké ministerstvo financí. Náklady na obranu, sociální programy i splátky úroků daleko převyšují příjmy federálního rozpočtu, které navíc brzdí daňové úlevy, upozornila podle ČT24 agentura Reuters. Podle E15 ministerstvo financí zdvojnásobí zpětné odkupy dlouhodobých dluhopisů, což snížilo výnosy, ale podle JPMorgan řeší jen symptomy vysokého zadlužení.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/dluh-usa-prekonal-40-bilionu-dolaru-zdvojnasobil-se-za-dekadu-376779" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/burzy-a-trhy/americky-dluh-presahl-40-bilionu-vlada-intervenuje-vuci-rekordnim-urokum-ale-priciny-krize-ignoruje-1435063" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:03",
+      "headline": "Walmart ve druhém čtvrtletí zaostal za očekáváním, čistý zisk klesl o devět procent",
+      "body": "Americká maloobchodní společnost Walmart vykázala ve druhém čtvrtletí čistý zisk 6,37 miliardy dolarů, meziročně o devět procent nižší. Růst tržeb v USA činil 2,6 procenta, což je méně, než trh očekával. Podle Seznam Zpráv výsledky pravděpodobně posílí obavy, že příjmy firmy zpomalují ruku v ruce s pomalu rostoucí americkou ekonomikou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-americane-prestali-utracet-ukazaly-vysledky-walmartu-313544" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2160275/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:01",
+      "headline": "Čínská LandSpace poprvé úspěšně vrátila první stupeň znovupoužitelné rakety",
+      "body": "Čínská startupová společnost LandSpace úspěšně přistála s prvním stupněm své znovupoužitelné rakety Ču-čchüe-3 poblíž odpalovací rampy. Zbytek nosiče podle iROZHLAS pokračoval do vesmíru a vypustil satelit na oběžnou dráhu. „Znovupoužitelný raketový nosič by Číně z ekonomického hlediska významně pomohl,“ uvedla pro iROZHLAS analytička Kathleen Curleeová.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/vesmir/raketa-raketovy-nosis-vesmir-landspace-spacex-cina_2608201401_elev" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:23",
+      "headline": "Škodlivý Rust balíček napodoboval populární crate arrayref a spouštěl kód při buildu",
+      "body": "Bezpečnostní firma safedep.io upozornila na škodlivý balíček v ekosystému jazyka Rust, který se vydával za oblíbený crate arrayref a spouštěl payload už při buildu. Zpráva se dostala mezi nejčtenější příspěvky na Hacker News.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:08",
+      "headline": "AliExpress podle blogera provozuje tichý WebAudio fingerprinting, který ruší Bluetooth multipoint",
+      "body": "Bloger na laserphile.com popsal, že stránky AliExpressu tiše používají WebAudio k fingerprintingu prohlížeče, což narušuje funkci Bluetooth multipoint u připojených sluchátek. Text se probojoval na první stránku Hacker News.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:17",
+      "headline": "Vývojáři Debianu hlasují o přístupu ke kódu generovanému AI, na výběr mají osm variant",
+      "body": "Distribuce Debian delší dobu diskutuje o tom, jaký přístup zvolí ke kódu generovanému velkými jazykovými modely. Původní návrh pěti variant se podle Root.cz rozrostl na osm a hlasování vývojářů poběží do pátku 28. srpna.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/vyvojari-debianu-hlasuji-o-pristupu-k-ai-nakonec-voli-mezi-osmi-variantami/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "17:15",
+      "day": "prev",
+      "headline": "Deník N vysvětluje, proč Izrael bombarduje leteckou základnu v Sýrii",
+      "body": "Deník N v analýze rozebírá izraelské údery na leteckou základnu v Sýrii, které odsoudily Damašek i Ankara. Americký vyslanec je označil za „zbytečnou eskalaci“, zatímco Tel Aviv se hájí tím, že turecké jednotky v sousední zemi představují bezpečnostní hrozbu.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2159258/staronovy-stret-na-blizkem-vychode-bubla-proc-izrael-bombarduje-zakladnu-v-syrii/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "13:14",
+      "headline": "Voxpot popisuje žalostný stav amerického námořnictva u Perského zálivu",
+      "body": "Rubrika Redneck Voxpotu rozebírá stav amerického námořnictva u Perského zálivu. Podle textu tam námořníci jedí porce, které autor srovnává s vězeňskou stravou, a na záchod čekají hodinu.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/redneck-americka-letadlova-lod-bez-jidla-vody-a-duvery/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:30",
+      "headline": "Bejlek v Cincinnati porazila světovou jedničku Sabalenkovou a je ve čtvrtfinále",
+      "body": "Dvacetiletá tenistka Sára Bejlek podle ČT Sport porazila v Cincinnati světovou jedničku Arynu Sabalenkovou 7:6 a 6:4 a postoupila do čtvrtfinále, kde ji čeká domácí Madison Keysová. Nervozitu podle svých slov nechala stranou a šlo o největší kariérní vítězství. Přes osmifinále naopak neprošla Marie Bouzková, která podlehla Američance Coco Gauffové 3:6 a 2:6.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/velke-vitezstvi-bejlek-v-cincinnati-vyradila-jednicku-sabalenkovou-a-je-ve-ctvrtfinale-158495" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:50",
+      "headline": "Tři čeští zástupci hrají večer o postup, Plzeň v Bělehradě, Hradec v Aténách, Jablonec ve Skotsku",
+      "body": "Ve čtvrtek nastupují do pohárových předkol hned tři čeští fotbaloví zástupci. Plzeň v Bělehradě proti Crvene zvezdě rozehrává 4. předkolo Evropské ligy, Hradec Králové nastoupí v Aténách proti Panathinaikosu a Jablonec v Glasgow proti Rangers, obojí ve stejné fázi Konferenční ligy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/tezke-vahy-pro-ceske-tymy-plzen-vstupuje-do-poharu-v-belehradu-hradec-ma-panathinaikos-jablonec-158492" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-evropska-liga-2026-2027-predkolo-crvena-zvezda-belehrad-viktoria-plzen-online-5515664" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:59",
+      "headline": "Verstappen prodloužil smlouvu s Red Bullem do konce roku 2030",
+      "body": "Čtyřnásobný mistr světa formule 1 Max Verstappen prodloužil s týmem Red Bull smlouvu do konce roku 2030. Dosavadní kontrakt měl nizozemskému jezdci vypršet za dva roky. Rakouská stáj oznámila pokračování spolupráce před víkendovou Velkou cenou Nizozemska v Zandvoortu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/moto-formule-1-verstappen-prodlouzil-smlouvu-s-red-bullem-5515657" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/motorsport/verstappen-zustane-verny-red-bullu-prodlouzil-smlouvu-do-konce-roku-2030-158496" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:52",
+      "headline": "Do nominace na domácí ME volejbalistek se nedostaly Grabovská a Pavlová",
+      "body": "Trenér české volejbalové reprezentace Jannis Athanasopulos oznámil, že do nominace na mistrovství Evropy v Brně se nedostaly nahrávačka Květa Grabovská a blokařka Silvie Pavlová. V týmu si nechal pět smečařek včetně osmnáctileté Báry Rejmanové.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/volejbal/volejbalistky-finalizovaly-nominaci-z-tymu-pro-me-vypadly-grabovska-s-pavlovou-158501" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/volejbal-mistrovstvi-evropy-zen-cesko-nominace_2608201452_lbk" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:05",
+      "headline": "Špotáková se po roce vrátila do sektoru a překonala veteránský světový rekord v oštěpu",
+      "body": "Barbora Špotáková podle Sport.cz ve středu v Kolíně po více než roce vrátila do závodního oštěpařského sektoru a překonala světový veteránský rekord v kategorii nad 45 let. Vedle absolutního maxima 72,42 metru je autorkou i veteránského rekordu v kategorii nad 40 let.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-spotakova-se-vratila-do-sektoru-a-prekonala-veteransky-svetovy-rekord-5515665" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:05",
+      "headline": "Sparta má přijít o dalšího lídra, obránce Sörensen míří do FC Kodaně",
+      "body": "Podle dánských zdrojů Tipsbladet a Bold došlo k dohodě mezi Spartou a FC Kodaň o přestupu obránce Asgera Sörensena. Třicetiletý stoper má v Dánsku brzy podstoupit zdravotní prohlídku a dokončit transfer. Letenští by za něj podle ČT Sport měli obdržet přestupní částku něco málo přes milion eur (přes 24 milionů korun) plus případné bonusy.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sorensen-dostal-podle-danskych-medii-souhlas-k-odchodu-do-fc-kodan-158500" }
+      ]
+    }
+  ]
+}
