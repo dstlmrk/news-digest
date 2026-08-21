@@ -1,0 +1,352 @@
+{
+  "date": "2026-08-21",
+  "covers": "2026-08-21",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "storm",
+    "summary": "Zítra bouřky a výrazně chladněji, denní maximum jen kolem 20 °C. Spadnout může přes deset milimetrů srážek a vítr má v nárazech dosahovat až 44 kilometrů v hodině.",
+    "days": [
+      { "date": "2026-08-22", "icon": "storm", "temp_max_c": 20.3, "temp_min_c": 14.9 },
+      { "date": "2026-08-23", "icon": "partly", "temp_max_c": 19.9, "temp_min_c": 11.5 },
+      { "date": "2026-08-24", "icon": "cloudy", "temp_max_c": 21.4, "temp_min_c": 9.4 },
+      { "date": "2026-08-25", "icon": "cloudy", "temp_max_c": 25.2, "temp_min_c": 10.3 }
+    ]
+  },
+  "highlights": [
+    "Důchody se mají od ledna zvýšit o 300 korun, což je podle Seznam Zpráv nejmenší růst za deset let.",
+    "Do senátních voleb jde 154 kandidátů, druhý nejnižší počet v historii pravidelných obměn.",
+    "Fotbalisté Hradce Králové smazali v Aténách dvougólové manko a s Panathinaikosem remizovali 2:2.",
+    "Plzeň den po porážce 0:3 v Bělehradě odvolala trenéra Martina Hyského."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:32",
+      "headline": "Důchody mají od ledna vzrůst o 300 korun, zvedne se jen pevná část penze",
+      "body": "Starobní, invalidní a pozůstalostní důchody by se měly od ledna zvýšit o 300 korun. Zvednout se má pouze solidární pevná část penze, a to z letošních 4900 na 5200 korun. Zásluhový díl, v němž se odrážejí odpracované roky, výše výdělků či počet dětí, se zvyšovat nebude. Vyplývá to z připravovaného nařízení, které na svém webu zveřejnila vláda; ministerstvo práce podle iROZHLASU navrhlo valorizaci přesně podle zákonných pravidel. Seznam Zprávy upozorňují, že jde o nejmenší růst penzí za posledních deset let.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/duchody-maji-od-ledna-narust-o-300-korun-minimalni-castka-se-zvysi-na-10-400_2608211632_vsn" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-duchody-maji-rust-nejmene-za-poslednich-10-let-od-ledna-se-zvysi-o-300-korun-313655" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161703/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:28",
+      "headline": "Do senátních voleb jde 154 kandidátů, méně jich bylo jen v roce 1998",
+      "body": "Lhůta pro registraci kandidátů do senátních voleb v pátek skončila a podle informací z registračních úřadů se o křesla uchází 154 lidí. Je to o osm desítek méně než při volbách před šesti lety a druhý nejnižší počet v historii pravidelných obměn třetiny Senátu; méně kandidátů bojovalo jen v roce 1998, kdy jich bylo 137. Seznam Zprávy nízký počet vysvětlují především dohodami současné opozice o společných adeptech. První kolo se koná 9. a 10. října společně s komunálními volbami.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/do-senatnich-voleb-pujde-154-kandidatu-nejmene-od-roku-1998-376832" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/volby-do-senatu-druhy-nejmensi-pocet-kandidatu-v-historii-o-senat-se-uchazi-jen-154-lidi-313646" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161473/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:45",
+      "headline": "Pavel na pietě u Českého rozhlasu vyzval k obraně nezávislých médií",
+      "body": "Česko si připomnělo 58. výročí zahájení okupace Československa vojsky Varšavské smlouvy. Při pietním aktu u budovy Českého rozhlasu na Vinohradské třídě v Praze prezident Petr Pavel řekl, že nezávislá média patří k pilířům demokracie, a vyzval k jejich obraně, až bude potřeba. Invaze začala v noci z 20. na 21. srpna 1968 a už první den při střetech s vojáky nebo při dopravních nehodách zaviněných okupanty zemřely desítky obyvatel Československa; u rozhlasu se tehdy neozbrojení lidé snažili zastavit vojáky a bránit vysílání. Předseda Senátu Miloš Vystrčil na zahájení pražského festivalu NeverMore 68 dodal, že emigrace významných osobností po srpnu 1968 se na stavu společnosti podepsala na dlouhá desetiletí.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/piety-pripomenou-58-vyroci-okupace-ceskoslovenska-vojsky-varsavske-smlouvy-376816" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161638/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:00",
+      "headline": "Turek tvrdí, že práci vládního zmocněnce přerušil, na ministerstvu má dál kancelář",
+      "body": "Ministerstvo životního prostředí podle Deníku N nedostalo žádný dokument, kterým by Filip Turek formálně přerušil práci vládního zmocněnce. Jediným podkladem je jeho veřejné vyjádření. Poslanec má na úřadě nadále kancelář, aktivní vstupní kartu i služební e-mail a účastní se koordinačních jednání. Rezort to podle listu vysvětluje jeho dalšími funkcemi.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2160554/turek-tvrdi-ze-prerusil-praci-zmocnence-na-ministerstvu-ma-dal-kancelar-a-chodi-na-koordinacni-jednani/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:06",
+      "headline": "Žalobkyně Lastovecká dostala kvůli bitcoinové kauze druhou výtku",
+      "body": "Olomoucký vrchní státní zástupce Radim Dragoun udělil žalobkyni Petře Lastovecké další výtku za její mediální vyjádření o bitcoinové kauze. První výtku mu kárný senát vrátil kvůli formálním chybám. Novou Dragoun vysvětluje tím, že u Lastovecké nevidí sebereflexi ani přiznání, že nepostupovala správně, když se rozhodla o kauze a svém odvolání z vyšetřovacího týmu promluvit do médií. Lastovecká s tím podle Deníku N nesouhlasí. Dragoun podle ČTK uvedl, že nová výtka věcně souvisí s tou původní.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161672/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "22:59",
+      "day": "prev",
+      "headline": "Hradec smazal v Aténách dvougólové manko a s Panathinaikosem remizoval 2:2",
+      "body": "Fotbalisté Hradce Králové vybojovali v úvodním utkání závěrečného předkola Konferenční ligy na hřišti Panathinaikosu remízu 2:2. Všechny branky na Olympijském stadionu padly po změně stran, domácí poslal do vedení dvěma góly útočník Andrews Tetteh. V 89. minutě snížil devatenáctiletý Nigerijec Abdullahi Umar a v šesté minutě nastavení vyrovnal, podle Hradeckého deníku ranou o tyč. Trenér David Horejš si pochvaloval výběr střídajících hráčů. Odveta je na programu doma ve čtvrtek.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/umar-v-zaveru-vystrilel-hradci-nadejnou-remizu-jablonec-veze-z-glasgow-tesnou-porazku-158507" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-fotbal/panathinaikos-ateny-hradec-kralove-abdullahi-umar-andrews-tetteh-konferencni-liga-play-off-predkolo/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-fotbal" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/fotbal/898019-umar-v-zaveru-dvema-goly-zaridil-hradci-remizu-2-2-na-hristi-panathinaikosu.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:04",
+      "headline": "Z Hradce dojedou řidiči po dálnici D35 nově až za Vysoké Mýto",
+      "body": "Ředitelství silnic a dálnic od pátečního poledne otevřelo dalších 6,2 kilometru dálnice D35 mezi Ostrovem a Vysokým Mýtem. Nový úsek podle Hradeckého deníku odvádí tranzitní kamionovou dopravu z Vysokého Mýta, Stradouně a Ostrova. Řidiči zatím musejí objíždět nedokončený tunel Homole po provizorním půlkilometrovém sjezdu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://orlicky.denik.cz/zpravy-region/otevreno-hradce-kralove-po-dalnici-d35-nove-ridici-dojedou-az-za-vysoke-myto/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161371/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:15",
+      "headline": "Fakultní nemocnice bude v noci na sobotu šest hodin bez proudu",
+      "body": "Fakultní nemocnici v Hradci Králové čeká v noci na sobotu plánovaná šestihodinová odstávka elektrického proudu. Od deseti hodin večer do čtyř hodin ráno bude areál kvůli opravám rozvodny vysokého napětí fungovat výhradně na záložní generátory. Nemocnice kvůli tomu dočasně omezí neakutní péči a upraví provoz lékárenské pohotovosti, kritickou péči podle iROZHLASU zajistí Pardubice.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/kralovehradecka-fakultni-nemocnice-bude-v-noci-na-sobotu-bez-proudu-kritickou_2608211535_pta" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:15",
+      "headline": "Spor o pravěké rondely v Kuklenách se stal tématem komunální kampaně",
+      "body": "Pravěké rondely v hradeckých Kuklenách se před komunálními volbami staly velkým tématem. Na čtvrtečním happeningu Rozsviťte rondely se sešly asi dvě stovky lidí, kteří baterkami a svíčkami rozsvítili obrysy zhruba sedm tisíc let staré památky a upozornili na hrozbu v podobě plánované silnice. Petici za její záchranu, kterou podporuje opozice, podepsaly podle iDNES.cz už tisíce lidí. Současné vedení města to označuje za předvolební bublinu a slibuje, že projekt ještě prověří s archeology.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/volby/hradec-kralove/rondely-pravek-hradec-kukleny-archeologove-rondel-silnice-nova-zelena-hanousek.A260821_095929_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898013-dve-ste-lidi-se-svickami-v-kuklenach-branili-rondely-pred-silnici.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:24",
+      "headline": "V Hradci úřad zaregistroval všech deset kandidátek pro komunální volby",
+      "body": "Voliči ve stotisícovém Hradci Králové budou v říjnových komunálních volbách vybírat z deseti kandidátek. Magistrát v pátek všechny podané kandidátky zaregistroval a žádnou neodmítl. Týž den úřad zaregistroval i všech sedm přihlášených kandidátů do senátních voleb v obvodu Hradec Králové.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/komunalni-volby/pro-komunalni-volby-v-hradci-urad-zaregistroval-vsech-deset-podanych-kandidatek/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=komunalni-volby" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/do-senatnich-voleb-v-obvodu-hradec-kralove-je-registrovano-vsech-sedm-kandidatu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:33",
+      "headline": "Útočník s mečem zranil na střední škole ve Švédsku několik lidí",
+      "body": "Útočník ozbrojený mečem v pátek zranil několik lidí při útoku na střední škole ve švédském městě Fagersta severozápadně od Stockholmu, uvedly podle agentury Reuters tamní úřady. Radnice dále uvedla, že policie pachatele postřelila a zadržela. Počet zraněných úřady zatím nezveřejnily, podle místního deníku Aftonbladet utrpěli zranění alespoň dva lidé.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/utocnik-s-mecem-zautocil-na-svedskou-stredni-skolu-a-zranil-nekolik-lidi-376842" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/utocnik-s-mecem-zautocil-na-svedskou-stredni-skolu-policie-pachatele-postrelila_2608211535_vsn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161640/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:03",
+      "headline": "Ruské drony zabily v nákupním centru v Kryvyj Rihu dva lidi, Ukrajina zasáhla rafinerii u Permu",
+      "body": "Při náletu ruských dronů na nákupní centrum ve městě Kryvyj Rih v Dněpropetrovské oblasti zemřeli dva lidé a nejméně patnáct dalších utrpělo zranění. Na Telegramu o tom podle agentury Interfax informoval šéf tamní vojenské správy Oleksandr Hanža. V noci na pátek podle ČT24 zemřely dvě ženy při ruském útoku na vesnici v Charkovské oblasti a cílem dronů byly také severoukrajinské Sumy. Ukrajinské drony naopak zasáhly ropnou rafinerii Lukoilu poblíž ruského města Perm; ruské drony podle ukrajinské pohraniční stráže zasáhly jeden z hraničních přechodů s Moldavskem a provoz na něm byl zastaven.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161751/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-zasahla-rafinerii-v-hloubi-ruska-moskva-hranici-s-moldavskem-376815" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:54",
+      "headline": "Koalice ochotných se v pondělí sejde v Kyjevě, aby projednala další podporu Ukrajiny",
+      "body": "Členové koalice ochotných se v pondělí sejdou v Kyjevě, aby projednali další podporu Ukrajiny. Hybridnímu zasedání asi třicetičlenné koalice budou podle prohlášení Elysejského palácu předsedat francouzský prezident Emmanuel Macron, britský premiér a německý kancléř Friedrich Merz. Zúčastní se také ukrajinský prezident Volodymyr Zelenskyj.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161735/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:30",
+      "headline": "Turecko vydalo mezinárodní zatykač na izraelského premiéra Netanjahua",
+      "body": "Turecko vydalo mezinárodní zatykač na izraelského premiéra Benjamina Netanjahua, oznámil turecký ministr spravedlnosti Akin Gurlek. Učinilo tak v rámci vyšetřování zadržení flotily, která mířila s humanitární pomocí do Gazy a kterou Izrael zastavil v mezinárodních vodách. Společně s Netanjahuem vydala Ankara zatykač i na Izraelce Afeka Moskovitche. Oba jsou stíháni za zločiny proti lidskosti, genocidu a závažné zbavení svobody.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-turecko-vydalo-mezinarodni-zatykac-na-netanjahua-313658" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161665/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:51",
+      "headline": "Německé složky našly u Berlína skrýš zbraní, zřejmě ji tam ukryl někdo na pokyn Ruska",
+      "body": "Německé bezpečnostní složky loni objevily v lese nedaleko Berlína skrýš se dvěma pistolemi a municí. Domnívají se, že je tam někdo ukryl na pokyn ruských tajných služeb a že zbraně měly být použity při útocích v Německu. Informovaly o tom stanice WDR, NDR a list Süddeutsche Zeitung. Podezřelého podle ČT24 zadrželi v Rumunsku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/u-berlina-nekdo-ukryl-zbrane-zrejme-na-pokyn-ruska-376830" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nemecke-bezpecnostni-slozky-nasly-loni-u-berlina-skrys-se-zbranemi-313634" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161403/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:56",
+      "headline": "Izrael hledá dodavatele pro osadu, která by odstřihla východní Jeruzalém",
+      "body": "Izraelské úřady hledají dodavatele pro výstavbu osady na Západním břehu Jordánu, která vyvolala silnou mezinárodní kritiku. Rozsáhlý osadnický projekt v takzvané oblasti E1 by odstřihl východní Jeruzalém od zbytku palestinského území. Ke zrušení tendru vyzvaly Francie, Británie, Itálie a Německo. Politolog Marek Čejka pro Radiožurnál řekl, že je to tlak nedostatečný nebo neschopný zabránit další podobné politice.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/vystavba-osad-na-zapadnim-brehu-celi-mezinarodni-kritice-je-nedostatecny-tlak_2608211356_bva" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:24",
+      "headline": "Apple loni odvedl v Irsku na daních 17 miliard dolarů, tedy 40 procent svých celosvětových odvodů",
+      "body": "Apple loni v Irsku zaplatil na dani z příjmů 17 miliard dolarů, tedy zhruba 350 miliard korun. Představovalo to 40 procent celkové částky, kterou firma na dani z příjmů odvedla po celém světě. Vyplývá to z účetních výkazů společnosti, na které v pátek upozornil britský list Financial Times. Platbu výrazně zvýšilo rozhodnutí Soudního dvora Evropské unie z roku 2024, podle něhož měl Apple doplatit Irsku na daních 13 miliard eur, tedy 313 miliard korun. Seznam Zprávy připomínají, že Apple původně umístil svou evropskou centrálu do Irska právě kvůli možnosti ušetřit na daních.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-apple-po-soudnim-rozhodnuti-loni-v-irsku-zaplatil-na-danich-17-miliard-dolaru-313656" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/technologie/apple-loni-v-irsku-zaplatil-na-danich-17-miliard-dolaru-prikazal-mu-soudni-dvur_2608211558_vsn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161581/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:59",
+      "headline": "Uber dostal v Nizozemsku pokutu 825 milionů eur za automatické rušení účtů řidičů",
+      "body": "Nizozemský úřad pro ochranu osobních údajů se rozhodl pokutovat společnost Uber částkou 825 milionů eur za to, že automatizované systémy deaktivovaly účty řidičů, aniž by je o tom dostatečně informovaly. Podle Deníku N by šlo o druhou nejvyšší sankci, jaká kdy byla v Evropě udělena podle obecného nařízení o ochraně osobních údajů; nejvyšší zůstává pokuta 1,2 miliardy eur, kterou Irsko uložilo v roce 2023. Uber se podle Seznam Zpráv proti rozhodnutí odvolá.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-uber-dostal-v-nizozemsku-pokutu-825-milionu-eur-za-poruseni-gdpr-313659" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161534/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:42",
+      "headline": "Produkce obilovin klesne o 17,5 procenta, farmáři rozprodávají dobytek",
+      "body": "Produkce základních obilovin letos podle Agrární komory klesne o 17,5 procenta na 6,3 milionu tun, u řepky o čtvrtinu na 773 tisíc tun. Kvalita sklizně je ale podle komory dobrá. Sucho a minimum srážek přitom vážně poškodily i krmné plodiny: kvůli kritickému nedostatku pícnin a kukuřice nemají zemědělci čím krmit dobytek a přistupují k jeho prodeji. Agropodnik Košetice na pomezí středních Čech a Vysočiny musí podle iROZHLASU snížit stavy o 600 kusů a rozprodává býky i malá telata.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2161458/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/horka-a-sucho-spalily-pastviny-nedostatek-krmiva-donutil-ceske-farmare-k-prodeji_2608211253_neb" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Anthropic zpřístupnil Skills API, Files API a přepracované ovládání počítače",
+      "body": "Anthropic oznámil, že jeho nástroje pro stavbu produkčních agentů jsou obecně dostupné na platformě Claude. Aktualizovaný nástroj pro ovládání počítače umožňuje agentovi provést více akcí v jednom tahu místo jedné na volání, což podle firmy zkracuje čas i náklady, a přidává nástroj pro práci s prohlížečem, který čte strukturu stránky a přesněji míří na prvky. Skills API umožňuje nahrávat a verzovat vlastní skilly, tedy složky s instrukcemi, skripty a šablonami, které se připojí k požadavku a spustí se v sandboxu Claudu. Files API nabízí úložiště dokumentů s automatickou expirací, pětinásobně vyšší limity a jeden terabajt na organizaci. Skills API a Files API jsou dostupné i přes Microsoft Foundry, na Vertex AI od Googlu mají nástroje dorazit později. Firma uvádí případovou studii společnosti Asteroid, u níž se zpracování jednoho nároku zkrátilo z 32 na 13 minut při zhruba o 30 procent nižších nákladech.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/computer-use-skills-api-files-api" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:22",
+      "headline": "Technologické firmy kvůli tréninku modelů skupují a ničí vzácné knihy",
+      "body": "Podle textu z blogu Anny's Archive, který se dostal na první stránku Hacker News, technologické firmy při vývoji umělé inteligence hromadně skupují vzácné, starožitné a vyprodané knihy a při masové digitalizaci pro trénování jazykových modelů je fyzicky ničí. Autoři vyzývají ke skenování vzácných knih, dokud je čas. Root.cz o tom informoval v přehledu zpráviček.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/nicenie-vzacnych-knih-v-mene-ai-dan-za-trening-jazykovych-modelov/?utm_source=rss&utm_medium=text&utm_campaign=rss" },
+        { "name": "Hacker News", "url": "https://annas-archive.pk/blog/physical-destruction.html" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "headline": "Anthropic popsal, jak přestavět vývojový cyklus softwaru kolem agentů",
+      "body": "Anthropic zveřejnil rozsáhlý návod, jak podle něj má vypadat vývojový cyklus softwaru, když kód generují agenti. Vychází z teze, že kód už není úzké hrdlo, a tak se úzkým hrdlem stávají procesy okolo, tedy plánování, bezpečnostní revize, schvalování a předávky. Popsaný postup nahrazuje lineární workflow smyčkami, v nichž se zadání zaznamenává do strojově čitelných souborů, specifikace a plány generuje Claude a člověk je kontroluje, testování nahrazují průběžné evaly a řízení se opírá o verzované artefakty a hooky. Rozhodování podle textu zůstává na lidech, kteří schvalují jednotlivé kroky.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/the-ai-native-sdlc-playbook" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:49",
+      "headline": "Pořadatelé zrušili festival Hip Hop Kemp den před začátkem, návštěvníci se bojí o vstupné",
+      "body": "Festival Hip Hop Kemp se měl po šestileté pauze konat v pátek a v sobotu na bývalé vojenské raketové základně u Hadačky na severním Plzeňsku. Pořadatelé ho ve čtvrtek večer zrušili, ještě den předtím přitom na sociálních sítích propagovali vstupenky. Do areálu už dorazily stovky lidí z různých zemí, někteří jeli stovky kilometrů a brali si volno. Pořadatel podle Seznam Zpráv slibuje, že vstupné vrátí; návštěvníci Deníku N řekli, že mají strach, aby peníze dostali zpátky.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-hip-hop-kemp-zruseni-areal-navstevnici-313660" },
+        { "name": "Deník N", "url": "https://denikn.cz/2161394/hnev-kvuli-zrusenemu-hip-hop-kempu-stovky-lidi-uz-byly-na-miste-ted-maji-obavy-o-vraceni-vstupneho/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "17:39",
+      "day": "prev",
+      "headline": "Deník N rozebírá, jak se na sítích rozjel příběh o kriticky poškozených ruských fregatách",
+      "body": "Nedávný ukrajinský útok na ruský přístav Novorossijsk poškodil i dvě velké válečné lodě, fregaty Admirál Makarov a Admirál Essen. Deník N rozebírá, že způsob, jakým se příběh uchytil ve veřejném prostoru, ukazuje spíš na rizika sociálních sítí než na to, jak vážný zásah Rusko utrpělo.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2160397/pribeh-o-kriticky-poskozenych-ruskych-fregatach-na-sitich-zdivocel-jak-moc-to-lode-schytaly-ve-skutecnosti/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:53",
+      "headline": "Plzeň odvolala trenéra Hyského necelý den po prohře 0:3 v Bělehradě",
+      "body": "Martin Hyský už není trenérem fotbalové Viktorie Plzeň. Vedení klubu padesátiletého kouče odvolalo necelých 24 hodin po prohře 0:3 v úvodním utkání závěrečného předkola Evropské ligy na půdě Crvene zvezdy Bělehrad, kde dal dva góly kapitán domácích Mirko Ivanič a v 89. minutě proměnil penaltu střídající Aleksandar Katai. Podle ČT Sport končí s Hyským také asistent Radim Grussmann, trenér brankářů Václav Winter a kondiční trenéři Petr Hejný a Tomáš Pupkay, v realizačním týmu naopak zůstávají Marek Bakoš, Matúš Kozáčik a Zdeněk Bečka. Sport.cz uvádí, že o nástupci není jasno a padají jména Radoslav Kováč nebo Tomáš Janotka, ve hře je i varianta, že tým přechodně povede Bakoš. Odveta je na programu za týden v Plzni.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/po-belehradske-prohre-hysky-v-plzni-skoncil-158516" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-hysky-v-plzni-skoncil-5516132" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbaliste-plzne-jsou-bez-trenera-hysky-u-zapadocechu-konci-po-debaklu-v-srbsku_2608211441_rej" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:59",
+      "day": "prev",
+      "headline": "Jablonec prohrál v Glasgow s Rangers 0:1 a nechal si otevřenou naději",
+      "body": "Fotbalisté Jablonce prohráli v úvodním utkání závěrečného předkola Konferenční ligy na hřišti Glasgow Rangers 0:1. Jediný gól dal Ryan Naderi. Trenér Luboš Kozel měl po zápase smíšené pocity, ocenil ale, že dvojzápas zůstal před domácí odvetou otevřený.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/umar-v-zaveru-vystrilel-hradci-nadejnou-remizu-jablonec-veze-z-glasgow-tesnou-porazku-158507" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-evropska-konferencni-liga-tesna-prohra-nadeje-ale-zije-potvrdilo-se-ze-jsme-toho-schopni-rikal-kozel-5516085" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:09",
+      "headline": "Sinner vynechá US Open kvůli koleni, Alcaraz se na turnaj po zranění vrací",
+      "body": "Světová jednička Jannik Sinner se odhlásila z blížícího se US Open. Italský tenista v pátek na sociálních sítích uvedl, že stále nedoléčil zranění pravého kolena. Naposledy hrál ve Wimbledonu, kde získal pátý grandslamový titul. Jeho rival Carlos Alcaraz naopak bude v New Yorku po zranění zápěstí obhajovat titul; na kurtech chybí od poloviny dubna, kdy odstoupil z turnaje v Barceloně.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/us-open-sice-s-alcarazem-ale-bez-sinnera-ital-se-odhlasil-kvuli-zraneni-kolena-158517" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-rana-pro-tenisove-fanousky-muzska-jednicka-vynecha-us-open-5516187" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/tenis/us-open-bez-svetove-tenisove-jednicky-sinner-nedolecil-koleno-a-prestizni_2608211638_rej" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:44",
+      "headline": "Nosková s Bouzkovou jsou v Cincinnati v semifinále čtyřhry, Bejlek hraje o postup mezi čtyři",
+      "body": "Český pár Marie Bouzková a Linda Nosková vyřadil ve čtvrtfinále čtyřhry v Cincinnati sedmou nasazenou dvojici Routliffeová, Sutjiadiová po setech 7:5 a 7:5 a postoupil do semifinále. Sára Bejlek se v souboji o semifinále dvouhry střetne s Američankou Madison Keysovou, duel začíná lehce po 19. hodině. Iga Šwiateková postoupila do semifinále po skreči Jeleny Rybakinové, která čtvrtfinále za stavu 1:4 vzdala kvůli zranění kotníku. Sport.cz píše o obavách kolem zdraví světové dvojky, sama Šwiateková podle serveru přiznala, že nikdy nic takového na kurtu neviděla.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-strach-o-zdrcenou-svetovou-dvojku-nikdy-jsem-nic-takoveho-na-kurtu-nevidela-priznala-i-vydesena-swiatekova-5516108" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/swiatekova-po-skreci-rybakinove-postoupila-do-semifinale-v-cincinnati-158512" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-senzacni-bejlek-hraje-v-cincinnati-o-semifinale-v-ceste-stoji-grandslamova-sampionka-5516098" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:50",
+      "headline": "Volejbalistky vstupují do domácího mistrovství Evropy zápasem s Řeckem",
+      "body": "České volejbalistky dnes večer v Brně rozehrají evropský šampionát, který Česko spolupořádá. Prvním soupeřem je Řecko, zápas na Brněnském výstavišti začíná ve 20:00. Šampionát se do Brna vrátil po 29 letech. Kapitánka Michaela Mlejnková před turnajem řekla, že cílem je postup ze skupiny a že v takovém případě budou Češky turnaj hodnotit jako úspěšný. Zvláštní náboj má úvodní zápas pro řeckého kouče české reprezentace Jannise Athanasopulose, řecké kořeny má i blokařka Ela Koulisiani.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/volejbal/me-volejbalistek-rakousko-srbsko-158515" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/volejbal-me-mistrovstvi-evropy-zeny-cesko-recko-online-5516100" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/volejbal/nemuzeme-se-dockat-zacatku-cilem-je-postup-ze-skupiny-rika-kapitanka-volejbalistek-mlejnkova-158503" }
+      ]
+    }
+  ]
+}
