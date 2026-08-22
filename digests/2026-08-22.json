@@ -1,0 +1,330 @@
+{
+  "date": "2026-08-22",
+  "covers": "2026-08-22",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Claude Blog",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, denní teplota vystoupí na 21 °C. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      { "date": "2026-08-23", "icon": "cloudy", "temp_max_c": 20.9, "temp_min_c": 11.5 },
+      { "date": "2026-08-24", "icon": "partly", "temp_max_c": 21.5, "temp_min_c": 8.4 },
+      { "date": "2026-08-25", "icon": "cloudy", "temp_max_c": 23.3, "temp_min_c": 10.1 },
+      { "date": "2026-08-26", "icon": "cloudy", "temp_max_c": 23.3, "temp_min_c": 16.1 }
+    ]
+  },
+  "highlights": [
+    "Spojené státy zavedly padesátiprocentní clo na část kanadského dovozu, Ottawa pozastavila obchodní jednání a chystá odvetu.",
+    "Premiér Babiš řekl, že konsolidace veřejných financí přijde až po investicích do nemocnic, dopravy a platů policistů a vojáků.",
+    "Noční bouřky si vyžádaly 715 zásahů hasičů, na koridoru u Benešova podemletá trať omezí provoz na několik dní."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "13:10",
+      "headline": "Babiš odložil konsolidaci veřejných financí až za investice do nemocnic a dopravy",
+      "body": "Konsolidace veřejných financí je podle premiéra Andreje Babiše (ANO) možná až tehdy, kdy bude mít Česká republika perfektní nemocnice, hotovou dopravní síť a vysoké platy policistů a vojáků. Řekl to v sobotním vysílání TV Nova. Podle Seznam Zpráv nepovažuje rostoucí zadlužení Česka za problém a s konsolidací chce počkat, přednost mají mít právě investice do zdravotnictví a dopravní infrastruktury a platy vojáků a policistů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-finance-konsolidujeme-az-budeme-mit-perfektni-nemocnice-rekl-babis-313687" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162161/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:52",
+      "headline": "Babiš tvrdí, že o kandidátovi na prezidenta zatím nepřemýšlí, chce se věnovat suchu",
+      "body": "Premiér Andrej Babiš (ANO) v pořadu televize Nova Za pět minut dvanáct řekl, že o možném kandidátovi na prezidenta nyní nepřemýšlí — „my o tom vůbec nepřemýšlíme“. Změnil tím podle svých slov názor na dřívější úvahu o společném koaličním uchazeči na pozici hlavy státu pro volby, které se uskuteční začátkem přespříštího roku. Přednostně se chce podle iROZHLASU věnovat suchu. Babiš také znovu zalitoval, že se sněmovní volby v Česku nekonají většinovým systémem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/babis-se-chce-nyni-venovat-suchu-ne-kandidatovi-na-prezidenta-my-o-tom-vubec_2608221352_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162170/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:58",
+      "headline": "Bouřky si vyžádaly 715 zásahů hasičů, podemletá trať u Benešova omezí vlaky na několik dní",
+      "body": "Hasiči měli kvůli bouřkám od pátečního odpoledne 715 zásahů, nejvíce ve Středočeském kraji (241 výjezdů), dále v Jihočeském kraji (64) a na Vysočině (61). Čerpali hlavně vodu ze zatopených sklepů a odklízeli popadané stromy, v Kutné Hoře museli podle Seznam Zpráv evakuovat dva dětské tábory. Podle Českého hydrometeorologického ústavu ojediněle napršelo za posledních 24 hodin až kolem 100 milimetrů a některé toky dosáhly povodňových stupňů; v sobotu už to podle ústavu nastat nemělo. Voda také podemlela železniční koridor mezi Olbramovicemi a Benešovem, kde vlaky jezdí po jedné koleji sníženou rychlostí. Omezení potrvá nejméně několik dní, rozsah poškození zjišťuje Správa železnic a škoda zatím není vyčíslená.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/pocasi/hasici-meli-kvuli-bourkam-715-zasahu-vyjizdeli-hlavne-ke-spadlym-stromum-376854" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nekde-naprselo-i-deset-centimetru-hasici-kvuli-bourkam-meli-715-zasahu-313680" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/dest-podemlel-zeleznicni-trat-mezi-benesovem-a-olbramovicemi-omezeni-potrva_2608221458_tkp" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:00",
+      "headline": "Ministerstvo zemědělství chystá předkupní právo k půdě, kritici varují před agrokoncerny",
+      "body": "Ministerstvo zemědělství předloží podle svého šéfa Martina Šebestyána (za SPD) návrh zákona o předkupním právu pro zemědělské pozemky. Ve hře jsou dvě podoby, jedna z nich by zavedla předkupní právo pro ty, kdo na pronajatých pozemcích hospodaří. Podle kritiků jde o prolomení vlastnického práva a pomohlo by to hlavně velkým holdingům.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/chystany-zakon-o-predkupnim-pravu-podle-kritiku-prihrava-agrokoncernum-376848" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:05",
+      "day": "prev",
+      "headline": "Deník N píše, že úřední dokumenty usvědčují ministra Červeného ze zkreslování v případu heřmanické haldy",
+      "body": "Zásah ministerstva životního prostředí odvrátil hrozící pokutu pro firmu, která byla podezřelá z použití nepovoleného materiálu při sanaci heřmanické haldy. Když se do věci vložil premiér Andrej Babiš, ministr Igor Červený musel ustoupit, kroky svého resortu ale dál obhajuje. Deník N získal úřední dokumenty, podle nichž ministr zkresluje skutečnosti.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2159327/klamave-vyhybky-ministra-cerveneho-dokumenty-ho-usvedcuji-jak-zastira-fakta-v-pripadu-hermanicke-haldy/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:38",
+      "headline": "Noční bouřka v kraji si vyžádala padesát zásahů hasičů",
+      "body": "Bouřka s vydatným deštěm, která přešla přes Královéhradecký kraj v noci z pátku na sobotu, způsobila desítky mimořádných událostí — hasiči zasahovali celkem u padesáti z nich, nejvíce práce měli podle Hradecké drbny na Jičínsku. Čerpali vodu a odklízeli popadané stromy a větve: ve Dvoře Králové nad Labem museli odstranit strom z kolejí, ve Velké Dřevíči na Náchodsku hrozilo zaplavení kempu a v Pěkově spadl strom na rodinný dům.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/z-kraje/898137-nocni-bourky-v-kraji-50-vyjezdu-strom-na-kolejich-i-ohrozeny-kemp.html" },
+        { "name": "Hradecký deník", "url": "https://nachodsky.denik.cz/zpravy-region/krajem-se-prehnala-bourka-padaly-stromy-a-na-nachodsku-hrozilo-zaplaveni-kempu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:06",
+      "headline": "Při nehodě na dálnici D11 u Chýště se zranilo třináct lidí",
+      "body": "Na dálnici D11 u obce Chýšť na Pardubicku vyjelo v sobotu ráno vozidlo mimo dálnici. Nehoda si vyžádala třináct zraněných, dva lidé utrpěli vážná zranění hrudníku, u jedenácti šlo o lehčí poranění. Na místo vyrazilo sedm záchranářských posádek včetně vrtulníku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/hradecko/898145-vazna-nehoda-na-d11-zranilo-se-13-lidi-zasahoval-vrtulnik.html" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/nehody/nehoda-na-dalnici-d11-auto-vyjelo-mimo-silnici-na-miste-vetsi-pocet-zranenych/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=nehody" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:52",
+      "headline": "Majitel pardubického Dynama Dědek se omluvil hradeckému Mountfieldu za výrok o provizích",
+      "body": "Majitel a předseda dozorčí rady hokejového Dynama Pardubice Dědek se omluvil rivalovi z Hradce Králové za svůj výrok z roku 2024. V příspěvku na síti X tehdy prohlásil, že si členové představenstva klubu Mountfield HK vypláceli provize za reklamní smlouvy.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/hokej/hokej-extraliga-pardubice-hradec-kralove-dedek-kmonicek-omluva_2608221452_lbk" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:25",
+      "headline": "USA zavedly padesátiprocentní clo na kanadský dovoz, Ottawa pozastavila jednání a chystá odvetu",
+      "body": "Spojené státy v sobotu ráno, krátce po půlnoci tamního času, zavedly padesátiprocentní clo na kanadský dovoz v hodnotě dvaceti miliard dolarů (413 miliard korun). Podle E15 se má dotknout asi pěti procent kanadského zboží. Kanada plánuje reagovat stejně vysokými cly a premiér Mark Carney oznámil, že se rozhodl obchodní jednání s USA pozastavit, píše agentura AP. Ani na poslední chvíli se nepodařilo dohodnout jiné řešení obchodního sporu a obě strany se podle Deníku N vzájemně obviňují ze zmaření několikadenních jednání. Kanada je po Mexiku největším obchodním partnerem Spojených států.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/usa-zavedou-50procentni-clo-na-kanadsky-dovoz-kanada-prijde-se-stejnymi-cly-376852" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/geopolitika/usa-zavedly-50procentni-clo-na-kanadske-zbozi-dohoda-se-nepodarila-kanada-chysta-odpoved-1435127" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-usa-zavedly-50procentni-clo-na-kanadsky-dovoz-chysta-se-odveta-313675" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162048/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:52",
+      "headline": "Ruský útok na nákupní centrum v Kryvém Rihu si vyžádal šestnáct mrtvých a 130 zraněných",
+      "body": "Páteční ruský útok na nákupní centrum na jihovýchodě Ukrajiny si vyžádal šestnáct mrtvých a 130 zraněných. Podle ukrajinského prezidenta Volodymyra Zelenského se devět lidí stále pohřešuje a pátrání po nich ve vybombardovaném objektu pokračuje.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-cast-nakupniho-domu-zmizela-rusove-zabili-16-lidi-po-dalsich-se-patra-313686" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162134/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:49",
+      "headline": "Macron slíbil Zelenskému dodávky střel do protivzdušné obrany",
+      "body": "Francouzský prezident Emmanuel Macron oznámil na síti X, že slíbil ukrajinskému prezidentovi Volodymyru Zelenskému dodávky střel do systémů protivzdušné obrany. Podle Zelenského Macron rovněž přislíbil, že Francie pomůže Ukrajině v jednáních s dalšími zeměmi, které mají nedostatkové střely do kompletů Patriot. Oba prezidenti podle Deníku N telefonovali téměř dvě hodiny. Ukrajina se v poslední době obtížně brání útokům balistickými raketami, důvodem je podle dostupných informací právě nedostatek munice do Patriotů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/macron-slibil-zelenskemu-dodavky-strel-do-protivzdusnych-systemu-376862" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-macron-slibil-zelenskemu-strely-do-protivzdusnych-systemu-313696" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162209/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:27",
+      "headline": "Ukrajinské drony zasáhly v Samarské oblasti rafinerii i logistické centrum obchodu Ozon",
+      "body": "Ukrajinská armáda v noci zahájila dronový útok na ruskou Samarskou oblast a zasáhla klíčovou ropnou rafinerii a logistické centrum internetového obchodu Ozon, druhého největšího ruského internetového prodejce. Podle ČT24 jde o první ukrajinský úder na centrum Ozonu. Moskva uvádí, že zemřelo několik civilistů, Seznam Zprávy s odvoláním na ruské úřady mluví o nejméně sedmi mrtvých. Ruské úřady dále oznámily, že při útoku ukrajinských dronů na Jejsk v Krasnodarském kraji zahynuly dvě děti; podle gubernátora Venjamina Kondratěva dopadl jeden dron na vilovou čtvrť a druhý do přístavu, kde vypukl požár.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajina-zautocila-na-druheho-nejvetsiho-internetoveho-prodejce-v-rusku-313683" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/kyjev-poprve-uderil-na-centrum-ruskeho-gigantu-ozon-376853" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162150/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:26",
+      "headline": "Osmnáctiletý útočník s mečem ze švédské školy je ve vazbě, policie prověřuje jeho kontakty na internetu",
+      "body": "Švédská policie vyšetřuje, zda byl osmnáctiletý muž, který v pátek zaútočil mečem na studující střední školy ve středošvédské Fagerstě, zapojen do internetových komunit propagujících násilí na školách. Informovala o tom agentura Reuters s odvoláním na zdroj z policejních kruhů. Útočník zabil sedmnáctiletou dívku a dva dospívající chlapce těžce zranil, následně ho zadržela policie a nyní je ve vazbě. Podle iROZHLASU policie zkoumá pachatelův profil na TikToku kvůli možné inspiraci Breivikem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/svedsky-utocnik-s-mecem-je-ve-vazbe-policie-zkouma-pachateluv-tiktok-kvuli-mozne_2608221426_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162173/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:52",
+      "headline": "Americký soudce zrušil pozastavení imigračních víz pro žadatele ze 75 zemí",
+      "body": "Federální okresní soudkyně Jeannette Vargas na Manhattanu v pátek zrušila politiku Trumpovy administrativy, která pozastavovala vydávání imigračních víz žadatelům ze 75 zemí. Podle soudu politika, kterou ministerstvo zahraničí oznámilo v lednu, překročila zákonné pravomoci ministra zahraničí Marca Rubia, je „zjevně nezákonná“ a v rozporu s federálním imigračním zákonem.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162060/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:28",
+      "headline": "Apple zaplatil v Česku na dani z příjmů 8,4 milionu dolarů",
+      "body": "Apple v minulém finančním roce odvedl v České republice na dani z příjmů zhruba 8,4 milionu dolarů, tedy podle E15 přes 170 milionů korun a podle Seznam Zpráv 173 milionů. V Česku firma podle Seznam Zpráv vydělala před zdaněním asi 785 milionů korun a zaměstnávala tu 119 lidí. Údaje vyplývají z nejnovější daňové zprávy podniku, kterou Apple zveřejnil na základě nových pravidel Evropské unie ukládajících velkým firmám zveřejňovat výnosy, zisky a daně z příjmů v jednotlivých členských zemích a ve vybraných daňových rájích. Nejvíc v Evropě odvádí Apple v Irsku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/apple-zaplatil-v-cesku-na-dani-z-prijmu-pres-170-milionu-1435129" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-apple-v-minulem-financnim-roce-zaplatil-v-cesku-na-dani-z-prijmu-173-milionu-313679" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162110/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "20:22",
+      "day": "prev",
+      "headline": "Zásobníky plynu jsou plné ze dvou třetin, stát zasahovat nebude",
+      "body": "České zásobníky plynu jsou naplněné ze dvou třetin, což je o čtrnáct procent méně než loni touto dobou. Hlavní příčinou je vyšší cena plynu, roli hrají i menší zbylé zásoby po loňské zimě. Ministr průmyslu a obchodu Karel Havlíček (ANO) ujišťuje, že Česko bude mít plynu dostatek: v Evropě je ho podle něj dost, zásobníky se plní o měsíc rychleji, než ukládá vyhláška, a „není důvod, aby do toho stát netržně vstupoval“. Kvůli vývoji cen na velkoobchodním trhu už řada dodavatelů zdražila elektřinu i plyn u nových fixovaných produktů, o které roste mezi spotřebiteli zájem.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/zasobniky-plynu-jsou-plne-ze-dvou-tretin-stat-zasahovat-nebude-376844" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:15",
+      "headline": "Máslo za dvacet korun je podle Potravinářské komory trik supermarketů",
+      "body": "Máslo za dvacet korun je nesmysl a trik supermarketů, protože mlékaři musí prodávat se ztrátou, řekla prezidentka Potravinářské komory Dana Večeřová. Nedostatek krmiv způsobený suchem podle ní může dočasně zlevnit hovězí maso: chovatelé nebudou mít dost krmiva na uživení stád a budou muset zvířata víc porážet. „Na jednu stranu to může snížit cenu, ale bohužel sinusoidou se zase dostaneme tomu, že na jaře bude nedostatek, a samozřejmě potom cena půjde nahoru,“ dodala.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/vecerova-maslo-za-20-korun-je-nesmysl-a-trik-supermarketu-mlekari-musi-prodavat_2608221415_mst" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Anthropic otevírá kyberbezpečnostní schopnosti modelu Mythos 5 širšímu okruhu obránců",
+      "body": "Anthropic oznámil, že svůj nejvýkonnější model Mythos 5 zpřístupňuje pro obranné kyberbezpečnostní použití několika cestami. Firemní zákazníci mohou od oznámení v otevřené beta verzi spouštět skenování zranitelností přes Claude Security, a to za standardní ceny za tokeny bez zvláštního příplatku. Model se zároveň integruje do nástrojů partnerských bezpečnostních firem, které uživateli nedávají přímý přístup k modelu, ale jen konkrétní výstupy typu záplaty — podle Anthropiku tak uživatel nemá možnost model přemluvit k vývoji exploitu. Vedle toho firma zakládá Defender Advantage Fund s 35 miliony dolarů v kreditech pro organizace, které opravují zranitelnosti v open source, automatizují skenování a záplatování nebo zkoušejí nové bezpečnostní postupy, a rozšiřuje svůj program ověřování obránců, jenž byl dosud omezen na modely Opus a Sonnet.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:46",
+      "headline": "TikTok zaplatí 400 milionů dolarů za urovnání sporu o ochranu dětí na internetu",
+      "body": "Sociální síť TikTok zaplatí 400 milionů dolarů v rámci urovnání sporu o porušení amerického zákona na ochranu dětí v online prostoru. Oznámilo to americké ministerstvo spravedlnosti, podle kterého síť výrazně posílila ochranu dětí, jež jsou jejími uživateli.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162077/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "06:00",
+      "headline": "Na knihy míří certifikace „napsáno člověkem“, která má garantovat, že text nepsala AI",
+      "body": "Světový knižní trh podle businessového newsletteru 11am zaplavují díla vytvořená generativní umělou inteligencí, což vedlo ke ztrojnásobení počtu novinek a ke stažení prvních sporných románů velkými nakladatelstvími. Odhalování AI textů je přitom stále náročnější: čtenáři v testech často nedokážou AI od člověka rozlišit a technologie se tréninkem na reálných knihách rychle zdokonaluje. Vydavatelé i autorské svazy proto zavádějí přísnější kontroly a certifikace jako „Human Authored“, které mají čtenářům garantovat lidský původ díla.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/zakaznici-chteji-jistotu-na-knihy-miri-nalepky-napsano-clovekem-garantuji-ze-je-nepsala-ai-1435112" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:32",
+      "headline": "Humanoidní robot čínského Honoru uběhl stovku za 9,32 sekundy",
+      "body": "Humanoidní robot vyvinutý čínským výrobcem chytrých telefonů Honor uběhl podle agentury Reuters sto metrů za 9,32 sekundy. Překonal tím světový rekord Usaina Bolta, který na atletickém mistrovství světa v Berlíně v roce 2009 zaběhl stovku za 9,58 sekundy.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162212/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "16:30",
+      "headline": "Rok 1968 se podle komentátorů mění v nástroj dnešních politických sporů",
+      "body": "Z piety připomínající srpen 1968 podle glosy Deníku N dlouhodobě vymizela snaha připomínat si rok 1968 jako takový, hledat v něm inspiraci či varování a pochopit, co se tehdy dělo; spíš se z toho roku vybírají obrazy, které jsou potřeba pro aktuální politické spory. Komentář iROZHLASU se na stejné výročí dívá přes „transgenerační trauma“ — tedy to, že se tragické události ještě po desetiletích propisují do historické paměti dalších generací.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2162085/okupace-invaze-valka-rozhlas-svoboda-a-pravda-jak-se-rok-1968-meni-v-nastroj-dnesnich-sporu/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/komentare/rok-1968-mame-v-genech_2608221630_bva" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "13:00",
+      "headline": "Český vědec ze Stanfordu Boháček mluví o rizicích i užitku umělé inteligence",
+      "body": "Rozhovor s mladým vědcem ze Stanfordu Matyášem Boháčkem, jehož modely používají lidé po celém světě k detekci deepfaků nebo k překladu znakového jazyka. „AI nám může pomoci dosáhnout pokroku v různých vědeckých disciplínách. Má ale i svá rizika. Dnes se snažíme zjistit, co je fake. V budoucnu se budeme snažit rozlišit, co je realita,“ říká pro Bedny Radia Wave.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zivotni-styl/spolecnost/jeho-ai-modely-pouzivaji-miliony-lidi-umela-inteligence-je-i-prospesna-rika-maty_2608221300_vsn" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:44",
+      "headline": "Bejlek vyřadila v Cincinnati i Keysovou a je v semifinále",
+      "body": "Tenistka Sára Bejlek pokračuje ve snovém turnaji v Cincinnati. Po vyřazení světové jedničky Aryny Sabalenkové zdolala i další grandslamovou vítězku, domácí Madison Keysovou, a to 3:6, 6:4, 7:6. Dvacetiletá Češka tak postoupila do semifinále, kde v noci na neděli od 1:30 SELČ narazí na světovou čtyřku a dvojnásobnou grandslamovou šampionku Coco Gauffovou, která si ve čtvrtfinále poradila s Ukrajinkou Martou Kosťukovou 6:2 a 6:2.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/bejlek-zdolala-v-trisetovem-dramatu-keysovou-a-v-cincinnati-prosla-do-semifinale-158523" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-bejlek-se-pokusi-vylepsit-snove-snazeni-v-cincinnati-v-semifinale-na-ni-ceka-grandslamova-sampionka-5516844" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:04",
+      "headline": "V Zandvoortu vyhrál sprint Russell, kvalifikaci na Velkou cenu pak ovládl Norris",
+      "body": "Sprint formule 1 před Velkou cenou Nizozemska vyhrál z pole position George Russell z Mercedesu, druhý dojel se ztrátou 1,360 sekundy Charles Leclerc z Ferrari a třetí skončil úřadující mistr světa Lando Norris z McLarenu. Podle Sport.cz šlo o historicky první a zároveň poslední sprint formule 1 v Nizozemsku. Kvalifikaci, kterou zdramatizovala hrozba blížícího se deště, pak ovládl Norris. Druhý nejrychlejší byl Russell, třetí jeho týmový kolega Andrea Kimi Antonelli.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/moto-formule-1-dramatickou-kvalifikaci-na-velkou-cenu-nizozemska-ovladl-norris-5516988" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/motorsport/sprint-v-zandvoortu-ovladl-russell-158528" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162230/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:45",
+      "headline": "Volejbalistky po výhře nad Řeckem hrají na domácím ME s Rakouskem",
+      "body": "České volejbalistky se den po výhře nad Řeckem představí na evropském šampionátu v Brně znovu, jejich soupeřem je od 19:00 Rakousko, které by mělo patřit mezi největší outsidery skupiny. Pro trenéra českého týmu Janise Athanasopulose byl úvodní duel proti Řecku komplikovanější než pro hráčky — čelil totiž své zemi. „Hymny pro mě byly těžký moment,“ přiznal.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/volejbal-me-mistrovstvi-evropy-zeny-cesko-rakousko-online-5516791" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/volejbal-hymny-pro-me-byly-tezky-moment-priznal-recky-trener-ceskych-volejbalistek-5516769" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:02",
+      "headline": "Kumstát vyhrál challenger v Praze a má třetí titul za sebou, na Štvanici uspěla i Kovačková",
+      "body": "Devatenáctiletý český tenista Jan Kumstát ovládl challenger v Praze a připsal si během necelého měsíce třetí turnajové vítězství v řadě. Souběžně hraný turnaj ITF na štvanické antuce vyhrála domácí šestnáctiletá Jana Kovačková, pro kterou jde podle Sport.cz o dosud nejcennější titul.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/tenis/kumstat-v-praze-zkompletoval-turnajovy-hattrick-na-stvanici-se-zadarilo-i_2608221702_mim" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-sestnactileta-tenistka-jana-kovackova-ziskala-v-praze-dosud-nejcennejsi-titul-5516847" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:18",
+      "headline": "Fotbalovou Plzeň má po odvolání Hyského převzít Radoslav Kováč",
+      "body": "Bídný vstup do sezony zlomil vaz Martinu Hyskému, který byl odvolán z pozice trenéra fotbalové Plzně. Novým koučem Viktorie by se měl podle informací Sport.cz stát šestačtyřicetiletý Radoslav Kováč, s nímž se klub dohodl v pátek večer. Smlouva ale zatím není podepsaná.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-plzen-by-mel-prevzit-kovac-5516800" }
+      ]
+    }
+  ]
+}
