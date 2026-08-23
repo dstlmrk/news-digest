@@ -1,0 +1,315 @@
+{
+  "date": "2026-08-23",
+  "covers": "2026-08-23",
+  "window_hours": 24,
+  "sources_used": ["iROZHLAS", "ČT24", "Deník N", "Seznam Zprávy", "E15", "Hradecký deník", "iDNES Hradec", "Hradecká drbna", "ČT Sport", "Sport.cz"],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra ráno se objeví mlhy a bude chladno kolem 9 °C, přes den vystoupí teplota na necelých 22 °C a zůstane beze srážek.",
+    "days": [
+      { "date": "2026-08-24", "icon": "fog", "temp_max_c": 21.8, "temp_min_c": 8.7 },
+      { "date": "2026-08-25", "icon": "cloudy", "temp_max_c": 22.9, "temp_min_c": 9.7 },
+      { "date": "2026-08-26", "icon": "rain", "temp_max_c": 20.0, "temp_min_c": 14.5 },
+      { "date": "2026-08-27", "icon": "cloudy", "temp_max_c": 27.7, "temp_min_c": 15.8 }
+    ]
+  },
+  "highlights": [
+    "Kanada podle premiéra Marka Carneyho vstoupila do obchodní války s USA, od 8. září zavede odvetná cla v režimu dolar za dolar.",
+    "Šéf NÚKIB Lukáš Kintr varuje, že pokusy o čínskou kyberšpionáž v Česku pokračují a stát by měl mít připravený plán B pro čínské technologie.",
+    "Zelenskyj odmítl volby za války a řekl, že Rusko podle Kyjeva chystá po zářijových volbách odvod dalších 300 tisíc vojáků.",
+    "Lurdes Gloria Manuel vyhrála na Diamantové lize v Chorzówě třístovku v českém rekordu a jako první Češka zaběhla tuto distanci pod 36 sekund."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:11",
+      "headline": "Pokusy o čínskou kyberšpionáž v Česku pokračují, varuje šéf NÚKIB",
+      "body": "Šéf Národního úřadu pro kybernetickou a informační bezpečnost Lukáš Kintr v pořadu Poledne s Moravcem řekl, že pokusy o čínskou kyberšpionáž v Česku neustávají a jejich cílem jsou citlivá data. Stát by podle něj měl být opatrný, pokud jde o posilování závislosti na čínských technologiích, a měl by mít připravený centrální „plán B“ pro případ, že by tyto technologie přestaly fungovat. Seznam Zprávy dodávají, že úřad loni evidoval méně incidentů, sofistikovanost kyberútoků ale roste.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/v-cesku-nadale-pokracuji-pokusy-o-cinskou-kyberspionaz-uvedl-sef-nukib-cilem_2608231406_ntu" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-cinska-kyberspionaz-v-cesku-pokracuje-musime-mit-plan-b-rekl-sef-nukib-313710" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162508/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:52",
+      "day": "prev",
+      "headline": "Minimální mzda má od ledna vzrůst o 2500 korun na 24 900",
+      "body": "Vyplývá to z výpočtu České televize podle nové makroekonomické prognózy ministerstva financí. Nejnižší možný výdělek při osmihodinové pracovní době by odpovídal 44,5 procenta průměrné mzdy, což je dosud nejvyšší podíl v Česku. Výši minimální mzdy pro rok 2027 má v pondělí oznámit ministr práce a sociálních věcí Aleš Juchelka (ANO) zástupcům odborů.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/podle-vypoctu-ct-vzroste-minimalni-mzda-od-ledna-o-2500-korun-na-24-900-376859" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:41",
+      "headline": "Poslanci se v úterý znovu pustí do novely rozpočtových zákonů, kterou vetoval Pavel",
+      "body": "Sněmovní schůze začne v úterý dopoledne a jednání může pokračovat i v dalších dnech, možná do pátku. Návrh programu zahrnuje také čtveřici předloh v závěrečném schvalování, mimo jiné návrh zákona s digitalizací povolování pobytu cizinců a novelu snižující státní náhradu České poště.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162395/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "09:45",
+      "headline": "Most Šmejkalka na D1 má za sebou zátěžovou zkoušku a je znovu průjezdný",
+      "body": "Nejstarší český dálniční most byl od sobotního večera zavřený a v neděli ráno se otevřel, dopravní komplikace na místě nejsou. Podle Seznam Zpráv je první část oprav hotová a pracovníci Ředitelství silnic a dálnic most v noci na neděli zatížili 250 tunami; výsledky teď vyhodnocují. ČT24 uvedla, že rekonstruovanou část prověřilo celkem 256 tun a že už uzavírka z předchozí noci přinesla problémy: někteří řidiči nákladních aut nerespektovali značení, jednu z objízdných tras na několik hodin zablokovala nehoda a na druhé uvázlo auto.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-fotky-testovali-nejstarsi-dalnicni-most-v-cesku-zatizili-ho-250-tunami-313701" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/uzavirka-behem-zatezove-zkousky-smejkalky-prinesla-problemy-376861" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162393/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:02",
+      "headline": "České vrtulníky Black Hawk začaly hasit v srbské oblasti Deliblatska Peščara",
+      "body": "Podle Hasičského záchranného sboru ČR zahájily hašení vrtulníky soukromého provozovatele vybavené velkokapacitními bambi vaky, na palubě jsou čeští záchranáři. V Srbsku zůstanou pět až sedm dní.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162496/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:13",
+      "headline": "V Teplických skalách začne zítra po deseti letech příprav stavba nového infocentra",
+      "body": "U vstupu do Teplických skal má vyrůst návštěvnické centrum za více než 31 milionů korun. Podle Hradecké drbny nabídne turistům pohodlnější servis, informace, občerstvení i lepší podmínky pro návštěvu jedné z nejvyhledávanějších přírodních lokalit v regionu.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/898045-po-deseti-letech-cekani-zacne-zitra-v-teplickych-skalach-stavba-noveho-infocentra.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:25",
+      "headline": "Vysoké Mýto po otevření nového úseku D35 slyší v centru ticho",
+      "body": "Navazuje na páteční otevření úseku dálnice, po kterém řidiči z Hradce dojedou až za Vysoké Mýto. Podle Hradeckého deníku se město zbavilo hustého průtahu: lidé mohou v klidu přejít silnici, v noci je ticho a kamiony už nejezdí centrem. Celý obchvat města teď využívají všichni řidiči, kteří míří na dálnici.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://orlicky.denik.cz/zpravy-region/vysoke-myto-po-otevreni-dalnice-d35-konecne-slysi-ticho/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:37",
+      "headline": "Klicperovo divadlo chystá na novou sezonu Ubu, Steinbecka i Dona Quijota",
+      "body": "Hradecké divadlo uzavřelo 141. sezonu a na tu příští slibuje šest velkých příběhů včetně klasických. První premiérou bude 17. října westernově laděná adaptace Steinbeckova románu O myších a lidech v režii uměleckého šéfa Pavla Kheka.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/klicperovo-divadlo-142-sezona-premiery-predprodej-vstupenky.A260813_937811_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:05",
+      "headline": "Cestující dávají Českým drahám lepší známky, dobře hodnotí i linku přes Hradec",
+      "body": "Prostřednictvím aplikace Můj vlak poslali lidé Českým drahám už více než milion hodnocení. Zatímco v roce 2022 dávali své cestě v průměru 3,85 bodu z pěti, letos je to 4,25. Podle Hradecké drbny si dobře vede také linka přes Hradec Králové a Trutnov.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/hradecko/898062-cesi-jsou-s-ceskymi-drahami-spokojenejsi-dobre-hodnoti-i-spoje-pres-hradec.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:07",
+      "headline": "Kanada je podle premiéra Carneyho v obchodní válce s USA a chystá odvetná cla",
+      "body": "Kanadský premiér Mark Carney v sobotu prohlásil, že se jeho země dostala do obchodní války se Spojenými státy, protože byla napadena. Reagoval tak na krach obchodních jednání a na americké padesátiprocentní clo na dovoz kanadského zboží. Kanada podle něj zavede odvetná cla na některé americké zboží v režimu „dolar za dolar“ — na dovoz americké oceli, elektroniky a dalších produktů — a platit mají od 8. září. Americký prezident Donald Trump napsal na síti Truth Social, že Kanada požaduje stejné výhody, jaké mají členské státy USA, aniž by mezi ně patřila. ČT24 s odkazem na agenturu Bloomberg dodává, že Kanaďané za pevným postojem svého premiéra stojí. Zahraničně-politický analytik Milan Slezák pro Radiožurnál upozornil, že cla v první fázi zasáhnou víc Kanadu, ale následky obchodní války brzy pocítí i Američané: podle něj nemusí platit představa, že vysoká cla zajistí v USA nová pracovní místa a renesanci výrobních odvětví. Seznam Zprávy píší, že spor může mít dopady daleko za hranicemi obchodu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/kanada-je-v-obchodni-valce-nebot-byla-napadena-prohlasil-premier-carney-376867" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/analytik-v-prvni-fazi-zasahnou-cla-vice-kanadu-nasledky-obchodni-valky-vsak-brzy_2608231501_ntu" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-jsme-ve-valce-prohlasil-kanadsky-premier-dlouholeti-spojenci-se-prou-313711" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162381/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:05",
+      "headline": "Zelenskyj odmítl volby za války, Ukrajina čeká další ruskou mobilizaci",
+      "body": "Konání voleb během války by podle ukrajinského prezidenta Volodymyra Zelenského mohlo „rozložit zemi“ a způsobit rozkol ve společnosti. Podle veřejnoprávní stanice Suspilne řekl, že volby v této chvíli představují velké riziko, byly by pro stát jako vlna tsunami a Ukrajinu by rozdělily. Vyjádřil se tak před novináři poté, co k uspořádání voleb ještě během války vyzval bývalý ministr obrany Mychajlo Fedorov, který nedávno skončil ve vládě; pořádání voleb za válečného stavu ukrajinské zákony neumožňují. Ve stejných komentářích Zelenskyj uvedl, že Ukrajina se domnívá, že Rusko plánuje po zářijových parlamentních volbách odvést pro své válečné úsilí dalších 300 tisíc vojáků. Ruské síly podle Kyjeva pokračují v tlaku na obsazení zbytku průmyslového Donbasu, kde postupují za cenu obrovských ztrát.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/volby-v-dobe-valky-by-rozdelily-ukrajinu-prohlasil-zelenskyj-376871" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-volby-by-byly-tsunami-ktere-by-rozstepily-ukrajinu-rekl-zelenskyj-313707" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162486/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:30",
+      "headline": "Ukrajinské drony zasáhly další sklad Ozonu, Putin mluví o Pandorině skříňce",
+      "body": "Ukrajinská armáda podle serveru Kyiv Independent v noci poslala drony na ruský Orenburg a zasáhla další logistické centrum internetového obchodu Ozon; podle úřadů hoří sklad také v Petrohradu. Rusko útočilo drony s proudovým pohonem, v Charkově jeden z nich zranil sedm lidí. Vladimir Putin v komentářích zveřejněných v sobotu uvedl, že Kyjev svými útoky na ruské ekonomické cíle otevřel „Pandorinu skříňku“, a prohlásil, že Rusko opětuje údery na nejcitlivější ekonomická odvětví Ukrajiny.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-opet-zasahla-ozon-rusko-utocilo-proudovymi-drony-376869" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162454/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:16",
+      "headline": "Zemětřesení ve východním Japonsku zranilo nejméně 37 lidí",
+      "body": "Otřesy o síle 5,9 stupně zasáhly dnes ráno východní Japonsko včetně oblasti Tokia, podle agentury Kjódó se zranilo nejméně 37 lidí. Japonská meteorologická agentura uvedla, že zemětřesení se odehrálo v jižní části prefektury Ibaraki v hloubce 70 kilometrů, tedy v oblasti, kde k otřesům dochází často. Cunami podle úřadů nehrozí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-vychodni-japonsko-postihlo-stredne-silne-zemetreseni-zranilo-se-37-lidi-313702" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-zemetreseni-ve-vychodnim-japonsku-bylo-zraneno-nejmene-37-lidi-376868" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162391/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:34",
+      "headline": "Přes sto britských a francouzských diplomatů obviňuje Izrael z etnických čistek",
+      "body": "Bývalí diplomaté, kteří působili na Blízkém východě a v okolních zemích, zaslali podle iROZHLASu dopis britskému premiérovi Andymu Burnhamovi a francouzskému prezidentovi Emmanuelu Macronovi. Vyzývají v něm k akci kvůli izraelskému „vymazávání“ Palestiny, židovský stát obviňují z etnických čistek a požadují opatření včetně zákazu obchodu. Izraelské velvyslanectví v Londýně bylo požádáno o reakci.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/dopis-macronovi-a-burnhamovi-diplomate-obvinuji-izrael-z-etnickych-cistek-v_2608231534_elev" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:52",
+      "headline": "Požár u Rena v Nevadě donutil k evakuaci obyvatele 14 tisíc domů",
+      "body": "V podhůří Sierry Nevady nedaleko města Reno se dnes rychle rozšířil lesní požár pojmenovaný Hawk, tedy Jestřáb. Podle stanice CBS News nemají hasiči plameny zatím pod kontrolou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/nevadu-spaluje-jestrab-evakuovano-bylo-14-tisic-domu-376879" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162583/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:23",
+      "headline": "Kazachstán volil nový jednokomorový parlament, opoziční skupiny byly zakázány",
+      "body": "Země letos přijala novou ústavu, která horní komoru zákonodárného sboru zrušila. Změna podle úřadů demokratizuje největší ekonomiku Střední Asie, podle kritiků ale upevní moc prezidenta, píše agentura AFP. Nedělních voleb se účastnilo sedm schválených stran, opoziční skupiny byly zakázány. Volební místnosti se zavíraly ve 20:00 místního času, tedy v 17:00 SELČ.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-kazachstanu-zacaly-volby-do-parlamentu-opozice-byla-vyloucena-376870" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2162449/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:05",
+      "headline": "Šéf Volkswagenu Blume chystá historicky největší restrukturalizaci koncernu",
+      "body": "Oliver Blume podle Seznam Zpráv uvedl, že Volkswagen stojí v centru obří krize globálního automobilového průmyslu, a připravuje historicky největší restrukturalizaci včetně rušení pracovních míst. Dceřiné Škodě Auto se ale navzdory krizi daří dobře.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-volkswagen-je-v-centru-obri-krize-globalniho-autoprumyslu-uvedl-sef-koncernu-313713" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:00",
+      "headline": "Ministerstvo financí spouští druhou emisi Dluhopisů Republiky, nabídka je užší",
+      "body": "Ministerstvo začne přijímat objednávky na druhou letošní emisi. Nabídne tříměsíční obligace s úrokem 3,75 procenta a limitem tři miliony korun. V první letošní emisi lidé podle E15 nakoupili dluhopisy za 74 miliard korun.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/prichazi-dalsi-dluhopisy-republiky-nabidka-tentokrat-vyrazne-proridla-1435119" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:00",
+      "headline": "CSG bude sedm let dodávat munici policii pěti severských zemí",
+      "body": "Podle E15 dodá do skandinávských policejních sborů závod v USA — značka Federal má poslat 35 milionů nábojů .223 Remington a také výcvikovou munici. Americké značky skupiny Czechoslovak Group letos uspěly i v kontraktu FBI za 77,4 milionu dolarů.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/skandinavsti-policiste-budou-strilet-strnadovou-munici-zazasobi-je-zavod-z-ameriky-1435125" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "05:00",
+      "headline": "AI expert Romportl čeká do tří let velké otřesy na trhu práce",
+      "body": "Vývoj umělé inteligence podle něj zrychluje a tradiční testovací benchmarky přestávají stačit. Zvýšení produktivity díky AI využije především nejinteligentnější třetina populace a jako první otřesy pocítí freelanceři, kteří jsou podle Romportla „kanárkem v dole“. Investoři podle rozhovoru pro E15 stahují kapitál ze softwaru k robotice.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/do-tri-let-ocekavam-velke-otresy-na-trhu-prace-freelanceri-jsou-kanarkem-v-dole-rika-ai-expert-romportl-1435060" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:00",
+      "headline": "V Pekingu probíhá druhý ročník olympiády humanoidních robotů",
+      "body": "Sportovní závody robotů mají podle Seznam Zpráv trvat pět dní. Olympiáda je především velkou přehlídkou technologického pokroku v oblasti robotiky a umělé inteligence.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-v-pekingu-probiha-druhy-rocnik-olympiady-humanoidnich-robotu-313712" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "14:45",
+      "headline": "Deník N vysvětluje, co udělala OpenAI a proč je to takový problém",
+      "body": "Vedoucí vědecké rubriky Deníku N Petr Koubský mluví o testování modelů umělé inteligence, ze kterého se stalo „skoro poslední varování před průšvihem, při kterém už začnou umírat lidé“. Vysvětluje také, proč závod o umělou inteligenci nakonec možná všichni prohrajeme a proč v některých profesích zůstane člověk levnější variantou než stroje. Deník N přinesl přepis epizody podcastu Studio N z 19. srpna.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2160217/jedno-z-poslednich-varovani-pred-prusvihem-pri-nemz-zacnou-umirat-lide-co-udelala-openai-a-proc-je-to-takovy-problem/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:01",
+      "headline": "Manuel vyhrála v Chorzówě třístovku v českém rekordu 35,76",
+      "body": "Lurdes Gloria Manuel na mítinku Diamantové ligy v Chorzówě vyhrála v předprogramu závod na 300 metrů v nejrychlejším českém čase historie 35,76 sekundy. Dosud nejlepší český výkon Heleny Fuchsové z roku 1999 vylepšila o 68 setin a jako první Češka zaběhla tuto nemistrovskou distanci pod 36 sekund. Podle Sport.cz je to letos druhý nejrychlejší čas na světě. Jednadvacetiletá halová mistryně světa v běhu na 400 metrů byla na nedávném mistrovství Evropy čtvrtá.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/diamantova-liga-v-chorove-manuel-vyhrala-tristovku-v-ceskem-rekordu-158548" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/atletika/manuel-si-spravila-chut-po-mistrovstvi-evropy-na-diamantove-lize-vyhrala_2608231547_rej" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/atletika-letos-druha-nejrychlejsi-na-svete-manuel-pri-diamantove-lize-zarila-na-tristovce-5517776" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:36",
+      "headline": "Fotbalovou Plzeň povede Radoslav Kováč",
+      "body": "Šestačtyřicetiletý bývalý český reprezentant nahradil na lavičce Viktorie Martina Hyského, kterého klub odvolal v pátek po nepovedeném vstupu do sezony a porážce 0:3 v Evropské lize v Bělehradě. Kováč podepsal podle iROZHLASu a ČT Sport smlouvu do konce sezony s následnou opcí na dva roky, Seznam Zprávy mluví o roční smlouvě s dvouletou opcí. Do ligového kolotoče se vrací po dvou měsících, naposledy vedl Liberec; podle Sport.cz povede na západě Čech už nedělní tréninkovou jednotku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-viktoria-plzen-trener-kovac_2608231323_lbk" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/plzen-ma-noveho-trenera-vedeni-viktorie-ukazalo-na-kovace-158547" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-hotovo-plzen-ma-noveho-trenera-5517730" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/sport-fotbal-fotbalisty-plzne-povede-trener-kovac-podepsal-rocni-smlouvu-s-dvouletou-opci-313709" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:06",
+      "headline": "Nosková s Bouzkovou získaly v Cincinnati titul ve čtyřhře, Bejlek nestačila na Gauffovou",
+      "body": "Linda Nosková a Marie Bouzková včera večer ve finále čtyřhry porazily belgicko-ruskou dvojici Magali Kempenová a Alexandra Panovová 6:1 a 6:2. Sára Bejlek si o titul ve dvouhře nezahraje, americké světové čtyřce Coco Gauffové podlehla v semifinále 4:6 a 1:6. Duel s dvojnásobnou grandslamovou šampionkou prohrála na tvrdém povrchu za hodinu a 16 minut.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/bejlek-na-gauffovou-nestacila-a-finale-si-v-cincinnati-nezahraje-158544" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/noskova-s-bouzkovou-ovladly-v-cincinnati-ctyrhru-158534" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:25",
+      "day": "prev",
+      "headline": "Slavia v derby s Bohemians ztratila body, Sparta deklasovala Artis",
+      "body": "Fotbalisté Slavie v ligovém derby remizovali s Bohemians 1905 2:2 a podruhé po sobě ztratili body, obhájce titulu vede tabulku už jen o skóre. Sport.cz upozorňuje, že Klokani poprvé od listopadu 2016 neodjeli ze stánku Slavie s prázdnou. Sparta zvítězila 4:0 nad Artisem a poprvé v sezoně uspěla venku, Mladá Boleslav porazila Slovácko 2:1 a v nové sezoně ještě neprohrála. Zlín po domácí prohře s Libercem zůstává bez bodu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/boleslav-zdolala-slovacko-artisu-a-zlinu-se-doma-proti-sparte-a-liberci-nedarilo-158535" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-strasidelna-serie-u-konce-bohemians-zlomili-kletbu-edenu-5517594" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "06:56",
+      "headline": "Velkou cenu Nizozemska vyhrál Norris, Verstappen po nehodě nedojel",
+      "body": "Lando Norris z McLarenu startoval z pole position a dojel si pro druhé vítězství v řadě. Druhý projel cílem lídr šampionátu Andrea Kimi Antonelli z Mercedesu, třetí byl jeho týmový kolega George Russell. Poslední Velká cena Nizozemska přinesla podle Sport.cz část závodu na mokré trati, kolizi domácího favorita Maxe Verstappena, který nedojel, a strategický chaos.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/moto-formule-1-norris-v-zandvoortu-pojede-o-druhe-vitezstvi-v-rade-5517592" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:14",
+      "headline": "Kejelcha zaběhl jako první v historii půlmaraton pod 57 minut",
+      "body": "Etiopan Yomif Kejelcha v Buenos Aires zvítězil časem 56:51 a je znovu světovým rekordmanem v půlmaratonu. O 29 sekund překonal březnový výkon Uganďana Jacoba Kiplima z Lisabonu, s nímž se v posledních letech o první místo v historických tabulkách na této trati přetahuje.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/atletika/kejelcha-si-bere-zpet-svetovy-rekord-jako-prvni-v-historii-ubehl-pulmaraton-pod_2608231614_rej" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/pretahovane-o-svetovy-rekord-v-pulmaratonu-vladne-znovu-kejelcha-158550" }
+      ]
+    }
+  ]
+}
