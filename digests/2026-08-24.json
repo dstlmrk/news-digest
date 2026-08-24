@@ -1,0 +1,353 @@
+{
+  "date": "2026-08-24",
+  "covers": "2026-08-24",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "Sport.cz",
+    "ČT Sport"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra se čeká slabý déšť a denní teplota do 23 °C, vítr v nárazech až 34 kilometrů v hodině. Kvalita ovzduší má být přijatelná.",
+    "outlook": "V pátek zesílí vítr, v nárazech má dosahovat až 67 kilometrů v hodině.",
+    "days": [
+      { "date": "2026-08-25", "icon": "rain", "temp_max_c": 23.4, "temp_min_c": 12.4 },
+      { "date": "2026-08-26", "icon": "rain", "temp_max_c": 22.7, "temp_min_c": 15.4 },
+      { "date": "2026-08-27", "icon": "cloudy", "temp_max_c": 27.7, "temp_min_c": 13.6 },
+      { "date": "2026-08-28", "icon": "cloudy", "temp_max_c": 30.0, "temp_min_c": 19.3 }
+    ]
+  },
+  "highlights": [
+    "Tripartita se shodla na růstu minimální mzdy na 24 900 korun od ledna, návrh nařízení teď dostane ke konečnému schválení vláda.",
+    "Trump oznámil, že Spojené státy od ledna zvýší cla na dovoz automobilů z Kanady na 50 procent.",
+    "Vláda schválila změny penzijního spoření, penzijní společnosti si stěžují, že jim snížené poplatky nepokryjí ani základní náklady.",
+    "Ukrajina slavila 35 let nezávislosti, Britové jí pomohou s výrobou raket dlouhého doletu a Evropská komise uvolnila dalších 147 miliard korun na zbraně."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:34",
+      "headline": "Tripartita souhlasila s růstem minimální mzdy na 24 900 korun od ledna",
+      "body": "Mimořádné zasedání tripartity se shodlo s navrhovaným růstem minimální mzdy pro příští dva roky. Nejnižší výdělek by měl podle návrhu vládního nařízení od ledna odpovídat 44,6 procenta průměrné mzdy a zvednout se z 22 400 na 24 900 korun, v roce 2028 pak na 45,8 procenta průměrného výdělku. O výsledku informoval prezident Konfederace zaměstnavatelských a podnikatelských svazů, návrh nařízení nyní dostane ke konečnému schválení vláda. Podle odborů by minimální mzda měla růst rychleji, upozorňují Seznam Zprávy. Navazuje na včerejší zprávu o plánovaném zvýšení o 2500 korun. S minimální mzdou by se od ledna mohly změnit i platové tabulky: ministr práce Aleš Juchelka a ministryně financí Alena Schillerová (oba ANO) navrhli odborům a zaměstnavatelům, aby nejnižší tarif začínal právě na minimální mzdě a žádná z tarifních částek neklesla pod zaručený plat.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/tripartita-souhlasila-s-rustem-minimalni-mzdy-376896" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-tripartita-souhlasila-s-rustem-minimalni-mzdy-zvysit-by-se-mohla-na-24-900-korun-313772" },
+        { "name": "E15", "url": "https://www.e15.cz/finexpert/prace-a-mzda/minimalni-mzda-by-se-mohla-zvysit-na-24-900-korun-tripartita-se-shodla-na-rustu-pro-dalsi-dva-roky-1435155" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163412/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:24",
+      "headline": "Vláda schválila změny penzijního spoření, penzijní společnosti varují před nižšími poplatky",
+      "body": "Vláda v pondělí schválila návrh zákona o doplňkovém penzijním spoření. Podpora spoření pro mladé klienty do 29 let by měla od příštího roku vzrůst, zároveň se sníží poplatky odváděné penzijním společnostem a za deset let ukončí činnost transformované fondy. Podle ministryně financí Aleny Schillerové (ANO) má změna zvýšit motivaci penzijní spoření uzavřít. Prezident Asociace penzijních společností Radek Moc naopak řekl, že snížené příjmy nebudou společnostem stačit ani na pokrytí základních nákladů, natož na rozvoj produktu; u většiny typů fondů se ruší poplatek za výkonnost a pro poplatek za správu se stanovuje nová hranice. Deník N dodává, že podle jeho dřívějších modelových výpočtů má takzvané Lepší penzijko dobrovolné spoření na stáří podstatně zlevnit a zvýhodnit.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-schvalila-zmeny-v-penzijnim-sporeni-376890" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/vyhodne-pro-mlade-do-29-let-vlada-schvalila-zmenu-pravidel-penzijniho-sporeni_2608241231_med" },
+        { "name": "E15", "url": "https://www.e15.cz/finexpert/duchody/vlada-schvalila-nova-pravidla-penzijniho-sporeni-maji-prilakat-mlade-a-srazit-poplatky-1435154" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163282/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:41",
+      "headline": "Přesun péče mezi pražskými fakultními nemocnicemi řídí podle Deníku N osobně Babiš",
+      "body": "Ačkoli nová pražská supernemocnice má vyrůst až za několik let, už teď se podle Deníku N připravují změny, které zásadně ovlivní chod pražského zdravotnictví — velká proměna čeká tři klíčové pražské nemocnice a chystá se velký přesun péče. Celý projekt osobně řídí premiér Andrej Babiš, který přes svůj holding zároveň vlastní kliniku Iscare, konkurenta fakultních nemocnic.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2161165/babis-prekope-prazske-nemocnice-chysta-velky-presun-pece-zmenu-ridi-on-osobne/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:03",
+      "headline": "Stát přestane přispívat na opravy krajských silnic, pět hejtmanů žádá jednání s vládou",
+      "body": "Ministr dopravy Ivan Bednárik (za SPD) ani ministryně financí Alena Schillerová (ANO) v tomto volebním období se státním příspěvkem na opravy krajských silnic nepočítají. Podle hejtmana Zlínského kraje Radima Holiše (ANO) dosud představoval zhruba desetinu těchto výdajů. Vláda ukončení podpory zdůvodňuje vysokými zůstatky na účtech krajů a obcí a napjatým stavem státního rozpočtu. Pět hejtmanů teď dopisem apeluje na Holiše jako předsedu Asociace krajů, aby na zářijové jednání pozval zástupce vlády. „Pozvu je. Kolegové to vyhrotili,“ řekl Holiš Seznam Zprávám.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-vyhrotili-to-hejtmany-rozdelily-penize-na-silnice-chteji-jednat-s-ministry-313747" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/regiony/statni-prispevky-na-krajske-silnice-konci-hejtmani-a-opozice-to-kritizuji-376873" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:50",
+      "headline": "Rozvědku povede od října diplomat Miroslav Toman, Posolda rezignoval",
+      "body": "V čele Úřadu pro zahraniční styky a informace vystřídá od 1. října Vladimíra Posoldu diplomat a bývalý zpravodajec Miroslav Toman. Po jednání vlády to řekl ministr vnitra Lubomír Metnar (ANO): Posolda mu minulý týden předložil rezignační dopis, domluvili se na ukončení pozice ke 30. září a vláda souhlasila s Metnarovým návrhem nového obsazení funkce. Posolda podle Seznam Zpráv vedl úřad od roku 2022.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-posoldu-vystrida-v-cele-uradu-pro-zahranicni-styky-a-informace-diplomat-toman-313769" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/rozvedka-bude-mit-noveho-sefa-376895" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163063/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:48",
+      "headline": "Šéf Řízení letového provozu Klas končí kvůli kandidatuře do Senátu",
+      "body": "Generální ředitel Řízení letového provozu Jan Klas skončí k 1. září po téměř dvaceti letech ve funkci, důvodem je jeho kandidatura do Senátu v podzimních volbách. Oznámil to v e-mailu zaměstnancům; jméno nástupce neuvedl, jen napsal, že splňuje podmínky na odbornou erudici i manažerský a lidský potenciál. Podle E15 a iROZHLASU ho má nahradit ředitel odboru civilního letectví ministerstva dopravy a předseda dozorčí rady podniku Zdeněk Jelínek, jehož kandidaturu musí ještě schválit vládní výbor pro personální nominace.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/novym-reditelem-rizeni-letoveho-provozu-bude-zrejme-jelinek-nahradi-klase-ktery_2608241448_jos" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/po-dvaceti-letech-konci-sef-rizeni-letoveho-provozu-klas-nahradit-ho-ma-zdenek-jelinek-1435153" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-dlouholety-generalni-reditel-rizeni-letoveho-provozu-jan-klas-1-zari-skonci-313766" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163151/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:29",
+      "headline": "Foldynova manželka žádá o prodloužení jeho vykázání z domova",
+      "body": "Manželka poslance SPD Jaroslava Foldyny požádala v pondělí děčínský soud, aby o další měsíc prodloužil předběžné opatření, kterým je poslanec vykázán z domova, zjistil Radiožurnál. Policie Foldynu vykázala v červenci údajně poté, co měl napadnout svou ženu; tehdy mu zakázala manželku kontaktovat a zabavila mu tři legálně držené střelné zbraně, mezi nimi pušku AK-47.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/jaroslav-foldyna-poslanec-spd-vykazani-soud-decin_2608241430_jkd" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-soud-obdrzel-zadost-o-prodlouzeni-opatreni-kvuli-udajnemu-foldynovu-nasili-313781" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163269/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:55",
+      "headline": "Policie zajistila v kraji při akci Korund osm tisíc kusů kratomu a psychoaktivních výrobků",
+      "body": "Akce Korund v Královéhradeckém kraji se zaměřila na prodej kratomu, konopných a dalších psychoaktivních produktů. Policisté podle Hradecké drbny provedli téměř sedm desítek kontrol prodejen, zajistili osm tisíc výrobků a u více než poloviny odebraných vzorků byly testy pozitivní. Vláda přitom jedná o novém zákoně, který by upevnil limity prodeje kratomu a mimo jiné zakázal obohacování technického konopí nebo výrobu dalších látek z CBD, řekl Seznam Zprávám ministr vnitra Lubomír Metnar.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/krimi/898290-razie-na-kratom-a-psychoaktivni-latky-policiste-v-kraji-zajistili-8-tisic-kusu.html" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-zakazeme-prodej-obohaceneho-technickeho-konopi-nebo-vyrobu-z-cbd-rekl-metnar-313778" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:47",
+      "headline": "Hradecký deník získal svědectví o rušení laboratoře v nemocnici v Novém Bydžově",
+      "body": "V Novém Bydžově se v poslední době znovu mluví o dalším rušení provozů v nemocnici, krajský holding to odmítá. Hradecký deník ale získal svědectví zevnitř zařízení; podle jeho zdroje je v sázce obnova klíčových přístrojů i osud zbývajících ambulancí.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/novy-bydzov-nemocnice-laborator-uzavreni-omezeni-pohled-zevnitr/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:10",
+      "headline": "Fakultní nemocnice v Hradci zvládla šest hodin na mobilních elektrocentrálách",
+      "body": "Fakultní nemocnice Hradec Králové se na šest hodin obešla bez hlavního přívodu elektrické energie. Nešlo o nečekaný výpadek, ale o plánovanou opravu a výměnu trafostanice — část napájení převzaly dvě výkonné mobilní elektrocentrály, které na místě zajišťovali hasiči.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/hradecko/898249-generatory-misto-site-hradecka-nemocnice-zvladla-sest-hodin-bez-proudu.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:11",
+      "headline": "Trump oznámil padesátiprocentní cla na dovoz aut z Kanady od ledna",
+      "body": "Spojené státy od ledna zvýší cla na dovoz automobilů a automobilových součástek z Kanady na 50 procent. Oznámil to v pondělí americký prezident Donald Trump na své sociální síti Truth Social a pokračuje tak v eskalaci obchodního konfliktu s Kanadou. Dřív zavedená cla podle Seznam Zpráv zahrnovala například mléčné výrobky, nábytek nebo keramiku. E15 dodává, že Kanada odpoví vlastními cly a připravuje se na dlouhý obchodní konflikt, který může zdražit zboží a poškodit firmy na obou stranách hranice. Navazuje na včerejší vyjádření kanadského premiéra Marka Carneyho, že jeho země je s USA v obchodní válce.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/obchodni-konflikt-eskaluje-trump-oznamil-ze-usa-zvysi-cla-na-dovoz-aut-z-kanady_2608241707_adn" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-trump-oznamil-ze-usa-od-ledna-zvysi-cla-na-dovoz-aut-z-kanady-na-50-procent-313786" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/geopolitika/celni-valka-usa-a-kanady-ktereho-zbozi-se-cla-tykaji-a-kdo-na-nich-prodela-1435152" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163380/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:21",
+      "headline": "Britové pomohou Ukrajině s výrobou raket dlouhého doletu, Brusel uvolnil dalších 147 miliard",
+      "body": "Ukrajina v pondělí slavila 35. výročí vyhlášení nezávislosti. Do Kyjeva přijel na svou první zahraniční cestu od červencového nástupu do funkce nový britský premiér Andy Burnham, dorazil i předseda Evropské rady António Costa a jednali tam zástupci více než třiceti zemí koalice ochotných. „Rusko by nemělo pochybovat o našem odhodlání,“ řekl Burnham podle iROZHLASU. Podle Seznam Zpráv bude Londýn s Ukrajinou sdílet tajné informace o britských součástkách řízené střely dlouhého doletu Scalp, díky čemuž může Kyjev začít vyrábět na svém území zbraně schopné útočit daleko za ruskou hranicí; Deník N píše, že Kreml varoval, že rakety zničí dřív, než je Ukrajinci odpálí. Evropská komise ve stejný den schválila nové dodávky obranného materiálu za 6,1 miliardy eur, tedy asi 147 miliard korun, které podle E15 pocházejí z celkové devadesátimiliardové unijní půjčky. Prezident Volodymyr Zelenskyj v projevu zdůraznil, že klíčovým pilířem ukrajinského odporu zůstává jednota a nezlomnost občanů, a řekl, že Vladimir Putin udělal největší chybu tím, že podcenil ukrajinský národ.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-slavi-den-nezavislosti-dorazil-burnham-i-costa-376889" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/rusko-nemelo-pochybovat-o-nasem-odhodlani-rekl-burnham-v-kyjeve-uctil-35-vyroci_2608241347_med" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-burnham-rozlitil-kreml-po-dronech-britove-pomohou-kyjevu-i-s-raketami-313738" },
+        { "name": "E15", "url": "https://www.e15.cz/valka-na-ukrajine/brusel-uvolnil-147-miliard-korun-na-zbrane-pro-ukrajinu-jde-o-cast-z-obri-unijni-pujcky-1435145" },
+        { "name": "Deník N", "url": "https://denikn.cz/2163061/britove-nauci-ukrajince-vyrabet-rakety-dlouheho-doletu-kreml-varuje-znicime-je-driv-nez-je-odpali/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "03:15",
+      "headline": "Ruský útok na předměstí Charkova zabil nejméně tři lidi",
+      "body": "Ruský útok na předměstí Charkova si vyžádal nejméně tři životy a několik dalších lidí zranil, uvedl šéf oblastní správy Oleh Syněhubov. Další dva lidé podle úřadů zemřeli po ruském úderu na vlak v Charkovské oblasti. Útoky na svém území hlásí i Rusko: bezpilotní letouny, které tamní úřady připisují Ukrajině, zasáhly město Krasnodar, kde podle místní správy přišly o život tři děti a několik dalších lidí bylo zraněno.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/charkov-hlasi-po-ruskem-utoku-mrtve-ukrajina-znovu-zasahla-ozon-376885" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:40",
+      "headline": "Maďarsko přišlo o bojový letoun Gripen, pilot se katapultoval",
+      "body": "Maďarská stíhačka JAS-39 Gripen havarovala u města Szolnok, pilot se katapultoval a je v péči lékařů. Příčiny havárie se vyšetřují, podle předběžné zprávy nedošlo k žádným dalším zraněním ani ke škodám na civilní infrastruktuře. Maďarsko nedávno pořízením čtyř gripenů rozšířilo svou flotilu na 18 kusů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-madarsky-gripen-mel-nehodu-pilot-se-katapultoval-uvedl-prezident-magyar-313744" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163028/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:42",
+      "headline": "Světová moře jsou podle služby Copernicus nejteplejší v měřené historii",
+      "body": "Evropská služba pro sledování klimatu Copernicus v sobotu naměřila průměrnou denní teplotu na povrchu oceánů a moří 21,1 stupně Celsia, čímž padl rekord 21,09 stupně z března 2024. Takové měření začalo v roce 1979. Vedoucí pro klima ve službě Copernicus Samantha Burgess podle Deníku N uvedla, že počet dnů s mořskými vlnami veder se celosvětově od počátku 90. let více než ztrojnásobil. Podle klimatologů mohou vyšší teploty zvýšit riziko extrémního počasí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/svetova-more-jsou-nejteplejsi-v-merene-historii-376897" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-svetova-more-jsou-nejteplejsi-v-merene-historii-uvedl-copernicus-313774" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163245/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:37",
+      "headline": "Trumpova administrativa navrhuje poplatek 100 tisíc dolarů za vízum pro kvalifikované pracovníky",
+      "body": "Administrativa amerického prezidenta Donalda Trumpa zveřejnila návrh, podle kterého by se na víza H-1B pro vysoce kvalifikované pracovníky vztahoval poplatek ve výši 100 tisíc dolarů. Podle Deníku N se tento typ víza nejvíc týká technologického odvětví, výzkumu a vzdělávání. Soudy ho vloni zablokovaly a administrativa se proti jejich rozhodnutí plánuje odvolat.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163314/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:30",
+      "headline": "Volkswagen se blíží rozhodnutí o úsporách, skončit mohou i tři modely Škody",
+      "body": "Koncern Volkswagen podle E15 spěje do finální fáze, kdy má rozhodnout o mimořádně tvrdých úsporných opatřeních. Následující dva týdny mohou dát odpovědi na to, které závody a modely historický řez nepřežijí. V napětí je i dceřiná Škoda Auto — automobilka už nyní ruší část pracovních míst a skončit mohou tři modely z kategorie malých aut. Navazuje na včerejší zprávu o tom, že šéf koncernu Oliver Blume chystá historicky největší restrukturalizaci.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/volkswagen-chysta-rez-stoleti-skoncit-muze-i-trio-skodovackych-modelu-1435157" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:50",
+      "headline": "Šest zemí EU chce zdanit mimořádné zisky ropných firem po krizi v Hormuzu",
+      "body": "Šest členských zemí Evropské unie v čele s Německem a Itálií požaduje celoevropské zdanění mimořádných zisků ropných společností kvůli růstu cen paliv po zablokování Hormuzského průlivu. Ministři financí podle E15 tlačí na irské předsednictví, aby novou formu windfall tax zařadilo na zářijové jednání v Dublinu a zároveň prověřilo marže evropských rafinerií.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/draha-nafta-tlaci-evropu-k-akci-ministri-financi-chteji-zdanit-ropne-giganty-po-krizi-v-hormuzu-1435149" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:22",
+      "headline": "Čína spustila první pravidelnou kontejnerovou linku do Evropy přes Arktidu",
+      "body": "Čína zavedla první pravidelnou kontejnerovou linku do Evropy přes Severní mořskou cestu, která zkracuje plavbu z více než čtyřiceti dnů na 18 až 20. Trasa přes Arktidu má obejít Suez a konflikty v Rudém moři, zároveň ale posiluje závislost Číny na ruské infrastruktuře a ledoborcích — Moskva si chce udržet kontrolu provozu, což zase není v zájmu Pekingu. Deník N dodává, že cesta vede 11 tisíc kilometrů podél ruského pobřeží a Rusko na ní vydělává i za války, kdy po ní posílá stínovou flotilu.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2163298/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2162928/cina-otevrela-arktickou-zkratku-do-evropy-rusko-na-trase-vydelava-i-za-valky-a-posila-po-ni-stinovou-flotilu/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "03:30",
+      "headline": "Doprava z českých e-shopů zdražila během jediného měsíce o čtvrtinu",
+      "body": "Průměrná cena doručení objednávky z českých e-shopů vyskočila během jediného měsíce téměř o čtvrtinu a přiblížila se hranici sta korun. Podle Skip Pay Indexu, který cituje Deník, to ovlivnily dražší pohonné hmoty a palivové příplatky po skončení vládní regulace. Situace na trhu nahrává doručování do výdejních boxů, které lidé podle Deníku berou útokem.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/ekonomika/cesko-ekonomika-eshopy-doprava-zdrazeni/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:00",
+      "headline": "OpenAI spustí reklamy v ChatGPT i v kontinentální Evropě",
+      "body": "Americká společnost OpenAI začne tento týden zobrazovat reklamu ve svém chatovacím systému ChatGPT také v kontinentální Evropě, tedy i v Česku. Firma o tom informovala na svých internetových stránkách. Reklamy v ChatGPT začala testovat v únoru ve Spojených státech.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/reklamy-miri-do-chatgpt-i-v-cesku-openai-je-spusti-uz-tento-tyden-1435029" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:56",
+      "headline": "Podle výzkumu Pew Research je víc než třetina webových stránek psaná s pomocí AI",
+      "body": "Americký think tank Pew Research Center zveřejnil výsledky výzkumu o webových stránkách napsaných s pomocí umělé inteligence. Podle něj je takových v současnosti více než třetina. Výzkumníci k analýze využili vlastní nástroj Open Pangram.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/vice-jak-tretina-webovych-stranek-je-v-soucasnosti-psana-s-pomoci-ai/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:22",
+      "headline": "Kritická chyba v Elementor Pro mění kontaktní formulář na cestu ke spuštění cizího kódu",
+      "body": "Bezpečnostní výzkumníci ze společnosti Patchstack zveřejnili kritickou zranitelnost v pluginu Elementor Pro, jednom z nejrozšířenějších editorů stránek pro WordPress. Chyba označená CVE-2026-32475 s hodnocením CVSS 9.0 umožňuje zcela neautentizovanému útočníkovi nahrát prostřednictvím běžného webového formuláře PHP soubor a následně jej na serveru spustit.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/kriticka-zranitelnost-v-elementor-pro-meni-kontaktni-formular-v-rce/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:34",
+      "headline": "Zemřel hudebník Václav Neckář mladší, bylo mu 52 let",
+      "body": "Ve věku dvaapadesáti let v pondělí zemřel Václav Neckář mladší; podle Deníku podlehl infekci. Svému slavnému otci pomáhal překonávat následky mrtvice a sám se rovněž věnoval hudbě, vynikl na elektronické scéně.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/kultura/zemrel-vaclav-neckar-mladsi/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=kultura" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "04:04",
+      "headline": "Audity podle Deníku N ukazují, že pražské arcibiskupství přišlo o stamiliony",
+      "body": "Pražské arcibiskupství si nechalo zpracovat audit, podle jehož závěrů jeden z biskupů ve spolupráci s ekonomickým ředitelem opakovaně uzavíral nevýhodné smlouvy; církev tak podle dokumentu přišla až o stovky milionů korun a hodnostářům hrozí stíhání. V samostatném textu Deník N popisuje případ Jindřišské věže — arcibiskupství se nevýhodnými dodatky smluv zavázalo k investicím do oprav, které měl přitom původně zajistit podnikatel, který si věž pronajímá. Podle interních materiálů tak přišlo o desítky milionů a biskupa s ekonomem před podáním trestního oznámení uchránila „reputační rizika“ pro církev.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2159658/traskave-audity-cirkev-prisla-o-stamiliony-hrozi-stihani-hodnostaru/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2153341/cirkev-resi-proc-se-sama-pripravila-o-desitky-milionu-kolem-jindrisske-veze/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:19",
+      "day": "prev",
+      "headline": "Volejbalistky prohrály na domácím mistrovství Evropy se Srbskem 1:3",
+      "body": "Česká reprezentace v Brně podlehla Srbsku 1:3 a připsala si na evropském šampionátu první porážku. Ve třetím setu jeden z nejlepších týmů Evropy přejela, Srbky ale nakonec před vynikající kulisou ukázaly herní vyspělost; podle Sport.cz si hráčky uvědomují, že narazily na extratřídu, kam ještě nepatří. Univerzálku Moniku Brancuskou mrzelo, že obhájkyně stříbra z minulého šampionátu Češky nepotrápily víc, do dalších zápasů ale vstupuje s optimismem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/volejbal-narazily-jsme-na-extratridu-kam-jeste-nepatrime-uvedomuji-si-volejbalistky-5518312" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/volejbal/az-nam-to-jednou-sedne-uplne-vsem-srbky-porazime-mysli-pozitivne-brancuska-158560" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:57",
+      "headline": "Nosková je ve světovém žebříčku šestá, Bejlek se po Cincinnati dostala do třicítky",
+      "body": "Linda Nosková se posunula na šestou příčku světového žebříčku, což je její kariérní maximum, a je o jednu pozici před Karolínou Muchovou. Životní maximum si vylepšila i Sára Bejlek — po tažení v Cincinnati, kde kosila grandslamové šampionky a zastavila ji až v semifinále Coco Gauffová, jí patří 29. místo. Turnaj nakonec ovládla právě Gauffová, která v čistě americkém finále porazila Jessicu Pegulaovou 6:2 a 6:4. Mezi muži získal premiérový titul z turnaje Masters Francouz Arthur Fils po výhře 6:3, 1:6 a 6:0 nad Američanem Francesem Tiafoem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/noskova-je-v-zebricku-uz-sesta-bejlek-si-vylepsila-karierni-maximum-158565" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-bejlek-poskocila-po-senzacnim-tazeni-v-cincinnati-do-prvni-tricitky-noskova-je-na-nejlepsim-umisteni-v-kariere-5518331" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/gauffova-a-fils-ziskali-pred-us-open-tituly-v-cincinnati-158561" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:23",
+      "headline": "Horníček při premiéře za Newcastle uhrál bod proti Liverpoolu",
+      "body": "Brankář Lukáš Horníček odchytal první zápas za anglický Newcastle a v Premier League s ním vychytal remízu 2:2 s Liverpoolem. Zaujal několika momenty a připsal si klíčové zákroky, fanoušci ho podle Sport.cz velebili. O vítězství Newcastle přišel kvůli penaltě v samotném závěru zápasu.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-premier-league-nejlepsi-golman-fanousci-velebi-hornicka-po-premiere-za-newcastle-5518318" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:07",
+      "headline": "Čeferin nebude kandidovat na šéfa FIFA, podpoří ale Infantinova protikandidáta",
+      "body": "Prezident Evropské fotbalové unie Aleksander Čeferin nebude příští rok ve volbách usilovat o pozici šéfa Mezinárodní fotbalové federace. Zároveň věří, že současný předseda FIFA Gianni Infantino bude mít jiného silného protikandidáta, kterého by podpořil. Slovinský funkcionář to řekl v podcastu The Rest Is Politics.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceferin-nebude-kandidovat-proti-infantinovi-ve-volbe-prezidenta-fifa-5518336" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/ceferin-nechce-byt-sefem-fifa-podpori-ale-pripadneho-infantinova-protikandidata-158563" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:39",
+      "headline": "Mladá Boleslav tři týdny před startem sezony vyhodila Lakatoše",
+      "body": "Útočník Dominik Lakatoš, za poslední dva roky jasně nejproduktivnější hokejista Mladé Boleslavi, v Bruslařském klubu překvapivě končí. Vedení mu dalo výpověď tři týdny před startem nové sezony „ze sportovních důvodů po společném vyhodnocení dosavadního fungování hráče v týmu“. Musí si tak hledat nové angažmá.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/hokej-extraliga-boleslav-vyhodila-lakatose-5518355" }
+      ]
+    }
+  ]
+}
