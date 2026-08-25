@@ -1,0 +1,353 @@
+{
+  "date": "2026-08-25",
+  "covers": "2026-08-25",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude chladno a přijde slabý déšť, denní teplota vystoupí jen k 18 °C.",
+    "outlook": "V pátek přijde vydatnější déšť a zesílí vítr s nárazy až kolem 56 kilometrů za hodinu.",
+    "days": [
+      { "date": "2026-08-26", "icon": "rain", "temp_max_c": 18.4, "temp_min_c": 15.2 },
+      { "date": "2026-08-27", "icon": "cloudy", "temp_max_c": 27.7, "temp_min_c": 11.9 },
+      { "date": "2026-08-28", "icon": "rain", "temp_max_c": 30.2, "temp_min_c": 19.4 },
+      { "date": "2026-08-29", "icon": "cloudy", "temp_max_c": 25.3, "temp_min_c": 15.6 }
+    ]
+  },
+  "highlights": [
+    "Sněmovna se kvůli opoziční kritice vlády ani po šesti hodinách nedostala ke schvalování programu schůze, na níž má přehlasovat prezidentské veto novely rozpočtových zákonů.",
+    "Slovenská policie oznámila, že překazila žhářský útok na továrnu na bezpilotní systémy na východě země, a stíhá tři cizince.",
+    "Ukrajinský protikorupční soud poslal do vazby bývalou zástupkyni šéfa kanceláře prezidenta Zelenského Irynu Mudrou."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:56",
+      "day": "covered",
+      "headline": "Sněmovna se kvůli opoziční kritice ani po šesti hodinách nedostala k hlasování o rozpočtové novele",
+      "body": "Poslanci se dnes znovu sešli nad vládní novelou rozpočtových zákonů, kterou vetoval prezident Petr Pavel s odůvodněním, že ohrožuje dlouhodobou udržitelnost veřejných financí. Vládní tábor je odhodlaný veto přehlasovat a koalice si už hlasováním prosadila, že jednání sněmovny se může protáhnout do noci. Podle Deníku N ale sněmovna kvůli opoziční kritice vlády ani po šesti hodinách nedospěla ke schvalování programu schůze. Ministryně financí Alena Schillerová podle E15 prezidenta za veto zkritizovala a věří, že ho Sněmovna přehlasuje. Opozice se obává, že předloha rozvolněním pravidel rozpočtové odpovědnosti umožní vládě utrácet a zvyšovat státní dluh, a potvrdila, že v případě opětovného schválení se obrátí na Ústavní soud. „Je to zadlužovací zákon, který lidem krade lepší budoucnost,“ řekl Radiožurnálu předseda opoziční ODS Martin Kupka; ministr pro sport, prevenci a zdraví Boris Šťastný (Motoristé) mu oponoval, že „tato změna přináší potřebné věci“.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/novela-rozpoctovych-pravidel-krade-budoucnost-lidem-mini-kupka-stastny-prinasi_2608251656_elev" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-znovu-posoudi-novelu-k-verejnym-rozpoctum-kterou-vetoval-pavel-376920" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/politika/pavel-vetoval-rozpocet-a-schillerova-pali-ostrymi-prezident-blokuje-bezpecnost-i-stavbu-dalnic-1435171" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-koalice-chce-prolomit-veto-z-hradu-opozice-varuje-pred-bezbrehym-zadluzovanim-313818" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164409/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:55",
+      "day": "covered",
+      "headline": "V obžalobě v bitcoinové kauze je podle Seznam Zpráv odposlech Jiřikovského o zničení ODS",
+      "body": "Seznam Zprávy prostudovaly obžalobu v kauze bitcoinů, které programátor Tomáš Jiřikovský daroval ministerstvu spravedlnosti. Policie ho podle serveru odposlechla, jak říká: „Kdybych promluvil, zničím celou ODS.“ Žalobkyně chce poslat do vězení čtyři lidi včetně bývalého ministra spravedlnosti Pavla Blažka.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-policie-odposlechla-jirikovskeho-ministr-a-namestek-vsechno-zaridili-313815" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:18",
+      "day": "covered",
+      "headline": "Ministerstvo zdravotnictví chce do roku 2030 přesunout všechny nejnáročnější operace do specializovaných center",
+      "body": "Nejnáročnější zákroky, většinou odstraňování nádorů, by podle plánu ministerstva zdravotnictví měla do roku 2030 provádět už jen specializovaná centra. Dnes jsou v nich podle Seznam Zpráv tři čtvrtiny složitých operací. Data podle serveru ukazují, že centralizace souvisí s nižší mortalitou při těžkých zákrocích díky větším zkušenostem tamních lékařů. Ministerstvo o záměru informovalo v tiskové zprávě.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-tri-ctvrtiny-slozitych-operaci-jsou-v-centrech-do-roku-2030-chce-mzd-vsechny-313838" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164142/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:09",
+      "day": "covered",
+      "headline": "ANO chce odložit eLegislativu na rok 2029, s ní se odsune i zprůhlednění lobbování",
+      "body": "Vládní ANO chce až na leden 2029 odsunout spuštění systému eLegislativa, který má zjednodušit a zrychlit vytváření zákonů. S odkladem kritizovaného projektu se má ale nepřiznaně posunout také spuštění takzvané lobbistické stopy u novel zákonů, tedy nástroje pro zprůhlednění lobbování. Experti to podle iROZHLASu kritizují a nevidí pro to žádný důvod.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/e-legislativa-lobbisticka-stopa-odklad-lobbovani_2608251209_tec" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:19",
+      "day": "covered",
+      "headline": "Ředitel Všeobecné fakultní nemocnice Dudra půjde do senátních voleb za ANO",
+      "body": "Ján Dudra, který od ledna vede Všeobecnou fakultní nemocnici v Praze, se chce stát senátorem a do voleb půjde za ANO. Předseda hnutí Andrej Babiš zároveň jako premiér osobně řídí plánovanou proměnu pražských fakultních nemocnic, VFN nevyjímaje. Právě premiér si podle Deníku N Dudru do čela nemocnice zřejmě osobně vybral.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2164243/ta-myslenka-asi-vznikla-u-babise-ano-dalo-manazera-do-cela-prazske-nemocnice-ted-ho-vysila-do-voleb/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:59",
+      "day": "prev",
+      "headline": "Ministerstvo zahraničí označilo nevpuštění redaktorky Deníku N na tiskovou konferenci za politické rozhodnutí",
+      "body": "Ministerstvo zahraničí poprvé oficiálně potvrdilo, kdo zamítl účast redaktorky Deníku N Zdislavy Pokorné na červencové tiskové konferenci. Podle úřadu, který vede Petr Macinka, šlo o „politické rozhodnutí“.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2163405/politicke-rozhodnuti-macinkovo-ministerstvo-reklo-kdo-nepustil-redaktorku-deniku-n-na-tiskovou-konferenci/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:31",
+      "day": "prev",
+      "headline": "Z návrhu na využití evropských peněz zmizela po připomínkách Úřadu vlády podpora občanské společnosti",
+      "body": "Ministerstvo pro místní rozvoj navrhlo, kam by v Česku měly směřovat evropské peníze. Po připomínkách Úřadu vlády však z materiálu podle Deníku N zcela zmizela podpora společenské odolnosti a výrazně byl omezen také boj proti dezinformacím.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2163411/vlada-vybira-kam-pujdou-evropske-miliardy-osekala-podporu-obcanske-spolecnosti-i-boj-proti-dezinformacim/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:29",
+      "day": "covered",
+      "headline": "Hradec po podvodu za 46 milionů testuje vlastní zaměstnance falešnými hrozbami",
+      "body": "Zaměstnankyně hradeckého magistrátu poslala v červenci falešným bankéřům či policistům 46 milionů korun. Město poté odstartovalo podrobné prověrky, testy a falešné hrozby, které mají riziko tohoto typu útoku, takzvaného vishingu, minimalizovat. Podle iDNES posloužil případ jako varovný precedent pro desítky měst v Česku.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/podvod-sprava-nemovitosti-hradec-policie-urednice-pachatele.A260825_962915_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:31",
+      "day": "covered",
+      "headline": "V dětských čajích hradecké firmy Allnature našla inspekce až šestinásobek povoleného množství alkaloidů",
+      "body": "Státní zemědělská a potravinářská inspekce našla ve dvou šaržích bylinných dětských čajů výrobce Allnature nadlimitní množství pyrrolizidinových alkaloidů, které maximální povolené množství překračovaly až šestkrát. Inspekce důrazně doporučuje tyto čaje nepít; podle E15 zároveň nařídila jejich okamžité stažení z trhu. Deník N s odkazem na mluvčího inspekce Pavla Kopřivu dodává, že pyrrolizidinové alkaloidy mohou působit jako genotoxické karcinogeny, tedy látky zvyšující riziko vzniku nádorů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/detske-caje-nadlimitni-mnozstvi-alkaloidu-inspekce-allnature-hradec/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164469/" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/pozor-na-oblibeny-detsky-caj-inspekce-v-nem-nasla-az-sestkrat-vice-nebezpecne-latky-1435187" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:00",
+      "day": "covered",
+      "headline": "Fotbalisty Hradce čeká ve čtvrtek odveta s Panathinaikosem o postup do Konferenční ligy",
+      "body": "Hradec Králové vyzve ve čtvrtek 27. srpna od 19 hodin v zaplněné FINEP Areně athénský Panathinaikos. Vítěz si zajistí účast v ligové fázi Konferenční ligy a s ní i garantovaných skoro 80 milionů korun od UEFA. Na zápas je podle Hradeckého deníku vyprodáno.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-fotbal/hradec-panathinaikos-vstupenky-tv-postup-konferencni-liga/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-fotbal" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:39",
+      "day": "covered",
+      "headline": "Filharmonie zahraje zítra na Eliščině nábřeží k sedmdesátinám Štefana Margity",
+      "body": "Open air koncert Filharmonie Hradec Králové s názvem Štefan Margita 70: Opera Gala začne ve středu 26. srpna ve 20:30 na Eliščině nábřeží a poslech je zdarma. Operní pěvec vystoupí s filharmoniky u řeky Labe v centru města; Seznam Zprávy připomínají, že Margita vstoupil do Síně slávy Národního divadla. Podle iDNES je Open Air pro Hradec zavedenou tradicí, na kterou se lidé scházejí na březích Labe i na pramicích a paddleboardech.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/stefan-margita-koncert-70-filharmonie-kacirkova-open-air.A260807_954500_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/kultura/898343-stefan-margita-zazpiva-na-hradeckem-nabrezi-koncert-zdarma.html" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-stefan-margita-sin-slavy-hradec-koncert-313836" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:37",
+      "day": "covered",
+      "headline": "Slovenská policie oznámila, že překazila žhářský útok na továrnu na bezpilotní systémy",
+      "body": "Příslušníci slovenského úřadu pro boj proti organizovanému zločinu podle policie překazili žhářský útok na továrnu na výrobu bezpilotních systémů na východě země. Policie stíhá tři cizince, které obvinila z obecného ohrožení na objednávku; dva byli zadrženi na Slovensku, další v Německu. Podle Deníku N hrozil v případě útoku rozsáhlý požár a v objektu se v čase útoku mohlo nacházet asi 70 zaměstnanců. ČT24 uvádí, že policisté informovali také o zajištění většího množství zápalné směsi, nářadí či telefonů. Bližší informace o zadržených slovenské policejní prezidium v úterní tiskové zprávě neuvedlo.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/policie-na-slovensku-prekazila-zharsky-utok-na-tovarnu-na-bezpilotni-systemy_2608251537_elev" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovenska-policie-oznamila-ze-prekazila-utok-na-tovarnu-na-drony-376941" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164342/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovenska-policie-prekazila-utok-na-tovarnu-na-bezpilotni-systemy-313878" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:01",
+      "day": "covered",
+      "headline": "Ukrajinský protikorupční soud poslal do vazby bývalou zástupkyni šéfa Zelenského kanceláře",
+      "body": "Nejvyšší protikorupční soud vzal do vazby Irynu Mudrou, bývalou zástupkyni ředitele kanceláře prezidenta Volodymyra Zelenského. Z vazby může být propuštěna po složení kauce ve výši dvaceti milionů hřiven, tedy asi 9,25 milionu korun; podle ČT24 přitom prokurátor navrhoval kauci 150 milionů hřiven, uvedl server RBK-Ukrajina. Mudra podle médií řekla, že se částku pokusí získat s pomocí přátel. Soud vazbu zdůvodnil obavami z útěku do zahraničí, kde žije dcera podezřelé, a Deník N dodává, že důkazní materiály obsahují odposlechy. Podle Seznam Zpráv Mudra jakoukoli vinu odmítá. Zasedání soudu bylo přenášeno online.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/soud-vzal-do-vazby-byvalou-zastupkyni-sefa-zelenskeho-kancelare-stanovil-kauci-376931" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164015/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-soud-vzal-do-vazby-byvalou-zastupkyni-sefa-zelenskeho-kancelare-stanovil-kauci-313842" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "06:51",
+      "day": "covered",
+      "headline": "Po ukrajinském dronovém úderu hořela rafinerie na jihu Ruska, na nádraží zahynuli čtyři lidé",
+      "body": "Ukrajinské drony znovu cílily na ruskou ropnou infrastrukturu a po úderu vypukl požár v rafinerii na jihu Ruska. Trosky podle Seznam Zpráv zasáhly i okolní civilní objekty a na nedalekém nádraží usmrtily čtyři osoby a další čtyři zranily.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-po-ukrajinskem-dronovem-uderu-vypukl-pozar-v-rafinerii-na-jihu-ruska-313807" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:26",
+      "day": "covered",
+      "headline": "Na moskevském letišti Vnukovo přistál americký vojenský transportní letoun",
+      "body": "Transportní letoun amerických vzdušných sil Boeing C-17A Globemaster III přistál dnes ráno na mezinárodním letišti Vnukovo u Moskvy. Ukázala to data ze sledování letů, která zveřejnila služba Flightradar24; do ruské metropole letoun přiletěl z lotyšské Rigy okolo sedmé hodiny západoevropského času. Deník N dodává, že stroj původně odstartoval z Camp Springs v americkém státě Maryland, kde se nachází letecká základna Andrews, domovské letiště prezidentského Air Force One. Mluvčí Kremlu Dmitrij Peskov podle agentury Reuters prohlásil, že o letounu nemá žádné informace.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/v-moskve-pristal-americky-vojensky-letoun-priletel-z-rigy-nemame-o-nem-zadne_2608251426_jho" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164190/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:14",
+      "day": "covered",
+      "headline": "Trump kvůli sporu s Kanadou zvažuje přejmenovat Ontarijské jezero na Americké",
+      "body": "Spojené státy podle prezidenta Donalda Trumpa vážně zvažují, že Ontarijské jezero na hranici USA a Kanady přejmenují na Americké. Trump to napsal na sociální síť Truth Social a podle Deníku N v příspěvku mimo jiné prozradil, že už neplánuje dlouho obchodovat s provincií Ontario. Výroky přicházejí v době rozšiřující se obchodní války a napjatých americko-kanadských vztahů kvůli clům.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/trump-po-ztroskotani-obchodnich-jednani-s-kanadou-zvazuje-prejmenovani_2608251514_kch" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164290/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "03:11",
+      "day": "covered",
+      "headline": "Nejvyšší soud USA odblokoval Trumpovo zpřísnění pravidel pro hlasování poštou",
+      "body": "Nejvyšší soud USA zrušil předchozí rozsudek, který vládě Donalda Trumpa bránil zavést zpřísnění pravidel pro korespondenční hlasování před listopadovými volbami do Kongresu. O verdiktu v noci na úterý informovala agentura AP s tím, že není jasné, do jaké míry lze nařízení v odblokovaném dekretu před blížícími se volbami uskutečnit. Trump korespondenční hlasování dlouhodobě kritizuje a bez důkazů ho označuje za zdroj volebních podvodů.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/nejvyssi-soud-usa-podporil-trumpuv-dekret-na-zprisneni-hlasovani-postou-376921" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:32",
+      "day": "prev",
+      "headline": "Soud schválil prodej stáčírny Bílinské kyselky konsorciu Kofoly za 440 milionů",
+      "body": "Krajský soud v Plzni udělil konečný souhlas s prodejem závodu Bohemia Healing Marienbad Waters společnosti European Healing Waters za 440,5 milionu korun. Za kupujícím stojí koncern Kofola a investiční společnost Invest Gate. Firma stáčí v Ústeckém kraji Bílinskou kyselku a Zaječickou hořkou a v Mariánských Lázních Rudolfův pramen či Excelsior; loni skončila v konkurzu. Rozhodnutí soudu bylo v pondělí zveřejněno v insolvenčním rejstříku.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/kofola-ziska-ceskeho-vyrobce-ikonickych-mineralek-soud-schvalil-prodej-za-440-milionu-1435161" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:15",
+      "day": "covered",
+      "headline": "Bitcoin se poprvé od května dostal nad 80 tisíc dolarů, zlato vystoupalo nad 4650 dolarů za unci",
+      "body": "Bitcoin dnes poprvé od poloviny května překonal hranici 80 tisíc dolarů. Podle ranního textu E15 růst podpořila i nedávná výzva prezidenta Donalda Trumpa, aby Kongres schválil jasnější pravidla pro krypto sektor, a kryptoměna se tak zotavuje z propadů z června i únorového minima kolem 60 tisíc dolarů. Odpolední investiční newsletter téhož webu spojuje pohyb s obavami ze znehodnocení dolaru poté, co americký ministr financí Scott Bessent oznámil výrazné navýšení zpětných odkupů státních dluhopisů; zlato se vyšplhalo nad 4650 dolarů za unci. V míře posílení bitcoinu se oba texty rozcházejí: ranní uvádí šestnáct procent, odpolední přibližně 23 procent. Trhy podle E15 vyhlížejí vystoupení šéfa Fedu Kevina Warshe, které může rozhodnout o dalším vývoji úrokových sazeb.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/kryptomeny/bitcoin-se-vraci-k-rustu-a-poprve-od-kvetna-prekonava-hranici-80-tisic-dolaru-1435170" },
+        { "name": "E15", "url": "https://www.e15.cz/investicni-newsletter/amerika-propadla-strachu-ze-znehodnoceni-dolaru-zlato-i-bitcoin-vystrelily-vzhuru-1435180" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:40",
+      "day": "covered",
+      "headline": "Balík senáže po suchu zdražil na dvojnásobek, zemědělci se obávají o krmiva i ceny potravin",
+      "body": "Sucha sežehla louky a zemědělci mají méně krmení pro hospodářská zvířata. Doplnit zásoby na zimu je vyjde draho: balík senáže nebo siláže podle Seznam Zpráv zdražil z necelého tisíce na více než 2000 korun. Zdražení zvedá obavy o dostupnost krmiv i o ceny potravin.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-trendy-analyzy-balik-sena-zdrazil-na-dvojnasobek-sucho-zveda-obavy-o-krmiva-a-ceny-potravin-313773" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "18:30",
+      "day": "prev",
+      "headline": "Proti evropskému označování obsahu od AI už vznikají nástroje, které stopy po AI mažou",
+      "body": "Evropská pravidla mají zvýšit rozpoznatelnost obsahu vytvořeného umělou inteligencí. Proti označování ale podle E15 už vznikají nástroje, které mají stopy po AI z obsahu odstraňovat. Regulace tak podle textu může paradoxně zvýhodnit čínské modely stojící mimo evropská pravidla.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/nazory-a-analyzy/evropska-unie-chce-po-ai-aby-praskala-internet-se-okamzite-brani-1435140" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:28",
+      "day": "prev",
+      "headline": "Analýza tvrdí, že MS Paint a Fotky vkládají do obrázků neviditelný identifikátor",
+      "body": "Podle analýzy zveřejněné na blogu xusheng.dev vkládají windowsové aplikace MS Paint a Fotky do výstupů neviditelný vodoznak s identifikátorem GUID, a to i u obsahu vytvořeného lokálně, bez umělé inteligence. Text patřil k nejdiskutovanějším příspěvkům na Hacker News: má tam 798 bodů a 397 komentářů.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "06:35",
+      "day": "covered",
+      "headline": "Italský vzor deportačních center v Albánii se podle Voxpotu neosvědčil",
+      "body": "Řada členských zemí EU včetně Česka volá po vybudování návratových center za hranicemi Evropy. Podobný italský model v Albánii se ale zatím neosvědčil a jasné podle Voxpotu není ani to, kde by centra vyrostla a jak by se zaplatila jejich výstavba a provoz.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/deportacni-centra-mimo-eu-italsky-vzor-za-miliony-nefunguje/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:08",
+      "day": "prev",
+      "headline": "Vondroušová se proti čtyřletému trestu za doping odvolala k arbitráži CAS",
+      "body": "Markéta Vondroušová se odvolala ke sportovní arbitráži CAS proti čtyřletému zákazu činnosti, který dostala za neodevzdaný vzorek při dopingové kontrole. Informovala o tom agentura AFP s odkazem na mluvčího soudu.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/vondrousova-se-proti-trestu-za-doping-odvolala-k-arbitrazi-158569" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:58",
+      "day": "covered",
+      "headline": "Sparta dala do bezpečnosti nedělního derby 700 tisíc, ministr Šťastný chystá zákon o bezpečí na stadionech",
+      "body": "Fotbalová Sparta investovala do zajištění bezpečnosti nedělního ligového derby se Slavií 700 tisíc korun, informovala na svém webu. Pražští rivalové se utkají poprvé od květnového nedohraného derby v Edenu, které předčasně ukončily výtržnosti slávistických fanoušků. Ministr pro sport, prevenci a zdraví Boris Šťastný (Motoristé) dnes na jednání pracovní skupiny Bezpečí na stadionech ve Sněmovně představil návrh legislativních změn, které chce projednat na podzim; protože se jednání účastní i opozice, očekává shodu už v prvním čtení ve zrychleném řízení a fungování změn od podzimní sezony příštího roku. Na jednání byli podle Sport.cz pozváni i Jaroslav Tvrdík, František Čupr a předseda fotbalové asociace David Trunda. Rozsáhlé bezpečnostní opatření zároveň chystá plzeňská policie na čtvrteční odvetu Evropské ligy mezi Viktorií Plzeň a Crvenou zvezdou Bělehrad, kterou vyhodnotila jako vysoce rizikovou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-se-pripravuje-na-derby-do-bezpecnosti-investovala-statisice-5518407" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ministr-sportu-ma-plan-pro-ceske-stadiony-po-divokem-derby-se-chystaji-zasadni-novinky-5518418" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/sparta-se-chysta-na-derby-do-bezpecnostnich-opatreni-investovala-700-tisic-chce_2608251410_mim" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2164502/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:32",
+      "day": "covered",
+      "headline": "Spartu posílil stoper Mbe Soh z belgického St. Truidenu",
+      "body": "Fotbalisty Sparty posílil pětadvacetiletý obránce Loic Mbe Soh z belgického St. Truidenu. Absolvent akademie Paris Saint-Germain a bývalý mládežnický reprezentant Francie, který se narodil v Kamerunu, přichází jako reakce na odchod dánského stopera Asgera Sörensena do FC Kodaň. Délku kontraktu klub nezveřejnil.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-ulovila-absolventa-akademie-psg-na-letnou-prichazi-obrance-mbe-soh-158576" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-potvrzeno-sparta-ma-nahradu-za-sorensena-5518389" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:57",
+      "day": "covered",
+      "headline": "Siniaková s Pattenem prošli kvalifikací mixu na US Open a v osmifinále narazí na Djokoviče se Sabalenkovou",
+      "body": "Kateřina Siniaková si po boku Brita Henryho Pattena zahraje hlavní soutěž smíšené čtyřhry na US Open. Favorizovaný pár, který tvoří ženská a mužská světová deblová jednička, v kvalifikaci nejprve porazil dvojici Valentin Vacherot, Tatjana Mariaová 4:1, 4:2 a poté stejným poměrem i domácí duo Christian Harrison, Peyton Stearnsová. V osmifinále je dnes odpoledne čeká pár Novak Djokovič, Aryna Sabalenková. Hradecký deník, který připomíná, že Siniaková je hradecká rodačka, si všímá i toho, že nejlepší deblistka světa musela na turnaji překvapivě absolvovat kvalifikaci smíšené čtyřhry.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/svetove-jednicky-ukazaly-silu-siniakova-s-pattenem-postoupili-na-us-open-z-kvalifikace-158575" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-2026-smisena-ctyrhra-siniakova-patten-sabalenkova-djokovic-online-5518400" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-sporty/asi-toho-jeste-neni-dost-siniakova-si-rypla-do-us-open-ted-vyzve-djokovice/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-sporty" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:12",
+      "day": "covered",
+      "headline": "Policie zahájila další stíhání kvůli hospodaření v českém tenise",
+      "body": "Policie zahájila stíhání dvou lidí a dvou firem v souvislosti s hospodařením a financováním klubů v tenisovém prostředí. Poznatky o trestné činnosti získala při prověřování dřívější rozsáhlejší kauzy kolem Českého tenisového svazu. Jednoho člověka viní mimo jiné ze zpronevěry peněz, druhého ze zkreslování údajů v účetnictví; jejich identitu nesdělila. V úterý to oznámil mluvčí Národní centrály proti organizovanému zločinu Jaroslav Ibehej.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-policie-stiha-dva-lidi-a-dve-firmy-kvuli-hospodareni-v-tenisovem-prostredi-5518397" }
+      ]
+    }
+  ]
+}
