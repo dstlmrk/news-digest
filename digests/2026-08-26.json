@@ -1,0 +1,567 @@
+{
+  "date": "2026-08-26",
+  "covers": "2026-08-26",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Claude Blog",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo, ale výrazně tepleji než dnes — denní teplota vystoupí až k 27 °C a srážky se nečekají. Kvalita ovzduší bude zhoršená.",
+    "outlook": "V sobotu má spadnout přes dvacet milimetrů srážek a v pátek i v sobotu zesílí vítr s nárazy kolem čtyřiceti kilometrů za hodinu.",
+    "days": [
+      {
+        "date": "2026-08-27",
+        "icon": "cloudy",
+        "temp_max_c": 27.0,
+        "temp_min_c": 12.2
+      },
+      {
+        "date": "2026-08-28",
+        "icon": "cloudy",
+        "temp_max_c": 30.4,
+        "temp_min_c": 16.4
+      },
+      {
+        "date": "2026-08-29",
+        "icon": "rain",
+        "temp_max_c": 24.4,
+        "temp_min_c": 16.3
+      },
+      {
+        "date": "2026-08-30",
+        "icon": "cloudy",
+        "temp_max_c": 26.1,
+        "temp_min_c": 16.7
+      }
+    ]
+  },
+  "highlights": [
+    "Generální ředitel Českých drah Michal Krapinec odstoupil poté, co vrátil bezpečnostní prověrku; v čele státního dopravce ho od září vystřídá úřednice ministerstva dopravy Lenka Hamplová.",
+    "Sněmovna přehlasovala veto prezidenta Pavla a schválila novelu rozpočtových pravidel, kterou chce opozice napadnout u Ústavního soudu.",
+    "Přívalové povodně na hranici Nepálu a Tibetu si podle nové bilance vyžádaly nejméně 95 obětí, pohřešuje se 384 cestovatelů.",
+    "Meta se dohodla s americkými státy na urovnání sporu o závislost dětí na sociálních sítích za 16,7 miliardy dolarů."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:40",
+      "headline": "Šéf Českých drah Krapinec odstoupil, dopravce poprvé povede žena",
+      "body": "Generální ředitel a předseda představenstva Českých drah Michal Krapinec dnes odstoupil z čela státního dopravce, ve funkci skončí k 31. srpnu. Od září ho nahradí dosavadní vrchní ředitelka sekce ekonomické a infrastrukturní na ministerstvu dopravy Lenka Hamplová; podle ČT24 půjde na základě dostupných historických pramenů o první ženu v čele celostátních státních drah. Odchod oznámil po jednání mimořádné dozorčí rady její místopředseda Dan Ťok. Krapinec nedávno vrátil bezpečnostní prověrku na stupeň Důvěrné s tím, že ji nepotřebuje — podle ministra dopravy Ivana Bednárika (za SPD), který byl Krapincovým předchůdcem v čele drah, přitom byla prověrka jednou z podmínek při jeho výběru v roce 2022. Seznam Zprávy uvádějí, že prověrku vrátil po hodinách výslechů na Národním bezpečnostním úřadu. E15 ráno psala, že premiér Andrej Babiš pro dopravce hledá nástupce a že Krapince kritizoval i předseda Sněmovny Tomio Okamura kvůli údajnému nedostatku toaletního papíru ve vlacích.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/krapinec-odstoupil-z-cela-ceskych-drah-376977"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/michal-krapinec-ceske-drahy-odstoupil_2608261425_ako"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-generalni-reditel-ceskych-drah-konci-drive-vratil-bezpecnostni-proverku-313917"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2165489/sef-ceskych-drah-skoncil-nahradi-ho-karierni-urednice-z-ministerstva-dopravy/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/doprava-a-logistika/ceske-drahy-poprve-povede-zena-krapinec-odstoupil-z-cela-dopravce-1435233"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:20",
+      "headline": "Koalice přehlasovala prezidentovo veto rozpočtové novely, opozice míří k Ústavnímu soudu",
+      "body": "Sněmovna dnes koaliční většinou přehlasovala veto prezidenta Petra Pavla a definitivně schválila novelu upravující sestavování veřejných rozpočtů. Předloha umožní vládě navyšovat obranné výdaje o několik let déle než dosud, obdobně to bude platit pro strategické infrastrukturní stavby, a kabinet bude moci překročit schválené výdaje při zhoršené bezpečnostní situaci. E15 dodává, že financování jaderných zdrojů se nebude započítávat do zákonného zadlužení státu. Pavel návrh vetoval s tím, že ohrožuje udržitelnost veřejných financí a oslabuje poslaneckou kontrolu; opozice varuje před vyšším utrácením a růstem dluhu a potvrdila, že novelu napadne u Ústavního soudu. Jednání předcházely podle E15 desetihodinové obstrukce, kvůli kterým se Sněmovna dostala ke sporné novele až v úterý večer.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-se-vrati-k-novele-k-rozpoctum-koalice-zrejme-prehlasuje-prezidentovo-veto-376961"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/koalice-prehlasovala-veto-zakona-o-rozpoctove-odpovednosti-opozice-se-chce_2608261344_mst"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-koalice-se-chysta-prehlasovat-prezidentovo-veto-hlasy-mame-vzkazuje-313913"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/prezident-s-vetem-neuspel-koalice-prosadila-volnejsi-rozpoctova-pravidla-pro-obranu-i-jadro-1435256"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:55",
+      "headline": "Odbory kývly na vládní reformu platových tabulek, opozice varuje před účtem pro obce a kraje",
+      "body": "Odbory veřejné sféry souhlasí s vládním návrhem na změnu platových tabulek. Po jednání předáků svazů veřejného sektoru to řekli předseda ČMKOS Josef Středula a šéf svazu státních orgánů a organizací Pavel Bednář. Podle návrhu by žádný z tarifů neměl být pod minimální mzdou či zaručeným platem; odboráři chtějí s vládou ještě vyjednat přidání pro příští rok. E15 uvádí, že se reforma týká až půl milionu zaměstnanců a že podle opozice může změna stát kraje a obce 38 miliard korun.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/my-tu-reformu-vitame-odbory-verejne-sfery-souhlasi-s-vladnim-navrhem-na-zmenu_2608261447_elev"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/odbory-kyvly-na-platovou-revoluci-pro-pul-milionu-lidi-opozice-varuje-pred-uctem-38-miliard-pro-obce-a-kraje-1435252"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:03",
+      "headline": "Ministr Červený odstavil šéfa Výzkumného ústavu pro krajinu, mluví o pochybeních u zakázek",
+      "body": "Ministr životního prostředí Igor Červený (Motoristé) nařídil řediteli Výzkumného ústavu pro krajinu Liboru Hortovi překážky v práci a postavil ho mimo službu. Podle ministra jde o preventivní opatření po závažných zjištěních při zadávání veřejných zakázek a střetu zájmů u projektů Politika krajiny a Akcelerační zóny OZE. Červený řekl, že je nepřijatelné, aby lidé placení z veřejných peněz připravovali zakázky a zároveň byli majetkově propojeni s firmami, které je získávají; ze střetu zájmů obvinil tři lidi, kteří to odmítají. Sám Hort podle svých slov o svém odstavení nic nevěděl a dozvěděl se o něm až z tiskové konference.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2165356/cerveny-odstavil-sefa-ustavu-pro-krajinu-mluvi-o-zavaznych-pochybenich-nic-o-tom-nevim-reaguje-reditel/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-mzp-setri-poruseni-zakona-o-verejnych-zakazkach-ve-vyzkumnem-ustavu-pro-krajinu-313953"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:35",
+      "headline": "Polsko se ohradilo proti kampani, která má podle expertů rozeštvat Varšavu s Prahou",
+      "body": "Polsko podle Seznam Zpráv zareagovalo na lživou kampaň, která má podle expertů rozhádat zemi s Českem a z níž je podezřelé Rusko. Ministr zahraničí Radosław Sikorski vyzval, aby se obě země nenechaly rozeštvat. Vyjádření podle serveru nakonec vydalo i české ministerstvo zahraničí.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-nenechme-se-s-ceskem-rozestvat-polsko-se-postavilo-akci-z-niz-je-podezrele-rusko-313943"
+        }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:29",
+      "day": "prev",
+      "headline": "Hejtman Kuba zasedl v dozorčí radě Budvaru, domluvil se přímo s ministrem",
+      "body": "Jihočeský hejtman a lídr nového hnutí Naše Česko Martin Kuba se podle zjištění Deníku N stal členem dozorčí rady Budějovického Budvaru. Na jmenování se domluvil přímo s ministrem zemědělství Martinem Šebestyánem (za SPD). E15 dodává, že spolu s Kubou do rady přicházejí i politici ANO a SPD.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2164549/kuba-zasedne-v-dozorci-rade-budvaru-domluvil-se-na-tom-primo-s-ministrem/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/hejtman-kuba-ma-novou-funkci-ministr-ho-poslal-do-vedeni-budejovickeho-budvaru-1435193"
+        }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:04",
+      "headline": "Z hradeckého podvodu za 46 milionů se podařilo zajistit jen asi pět milionů",
+      "body": "Policii se v zahraničí podařilo zajistit asi pět milionů z 46 milionů korun, které v polovině července poslala podvodníkům zaměstnankyně Správy nemovitostí Hradec Králové. Podle iDNES šlo o ekonomicko-organizační náměstkyni ředitelky, která podlehla vishingovému útoku — pachatelé se podle Hradecké drbny vydávali za policisty a pracovníky České národní banky. Na úterním jednání zastupitelstva to řekl dočasný ředitel SNHK Tomáš Pospíšil; firma letos očekává hospodaření se ztrátou 46 milionů korun. Podle policie jde o rekordní škodu způsobenou tímto typem podvodu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/podvod-sprava-nemovitosti-policie-rekord-zachrana-opatreni/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/podvod-46-milionu-sprava-nemovitosti-hradec-policie-urednice-pachatele.A260826_082421_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/898453-z-rekordniho-podvodu-v-hradci-kralove-policie-zajistila-asi-pet-milionu.html"
+        }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "18:08",
+      "day": "prev",
+      "headline": "Zastupitelé vybrali na dostavbu náměstí u Gayerových kasáren nejdražší nabídku za 138 milionů",
+      "body": "Hradečtí zastupitelé v úterý schválili nejdražší nabídku na dostavbu náměstí u Gayerových kasáren za 138 milionů korun bez DPH. Hlasování podle Hradeckého deníku doprovázela ostrá debata a pro návrh nehlasovala celá koalice; ruku nezvedl ani zastupitel Soukup, který své rozhodnutí zdůvodnil v prohlášení. Neúspěšná firma Stako chce výsledek zvrátit námitkou.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/gayerova-kasarna-v-hradci-kralove-nejdrazsi-nabidka-prosla-stako-se-brani/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zakazka-na-nove-namesti-a-podvod-za-46-milionu-hradecti-zastupitele-znovu-usedli_2608261431_kch"
+        }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:38",
+      "headline": "Příhraniční úsek D11 z Královce do Polska se otevře 27. listopadu",
+      "body": "Tříkilometrový úsek dálnice D11 mezi Královcem a polskou Lubawkou se řidičům otevře 27. listopadu. Po kontrolním dni to dnes potvrdili ministr dopravy Ivan Bednárik (nestraník za SPD) a generální ředitel Ředitelství silnic a dálnic Radek Mátl. Nová část dálnice má oběma příhraničním obcím výrazně ulevit od tranzitní dopravy.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/stavba-dalnice-d11-trutnov-kralovec-rsd-hranice-polsko-s3.A260826_095056_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:06",
+      "headline": "Povodně na hranici Nepálu a Tibetu si vyžádaly nejméně 95 obětí, pohřešují se stovky lidí",
+      "body": "Nová bilance přívalových povodní a sesuvu půdy na hranici Nepálu a Tibetu vzrostla podle tamní policie na nejméně 95 mrtvých. Nepálská správa cestovního ruchu zároveň eviduje 384 pohřešovaných cestovatelů, z nichž 291 jsou cizinci. České úřady uvedly, že mezi dosud uvedenými pohřešovanými nejsou čeští občané; velvyslanectví v Dillí nemá informace, že by mezi nimi Češi byli. Záchranné práce komplikuje špatné počasí. Podle Seznam Zpráv se Nepál a Čína rozcházejí v tom, na které straně hranice katastrofa vznikla.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/po-privalovych-povodnich-jsou-v-nepalu-a-tibetu-mrtvi-a-stovky-pohresovanych-376972"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-povoden-a-sesuv-pudy-v-nepalu-a-tibetu-si-vyzadaly-nejmene-17-obeti-313946"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/video-povoden-a-sesuv-pudy-v-nepalu-a-tibetu-ocekavame-obrovske-ztraty-zni-z_2608261425_med"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2165707/"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:47",
+      "headline": "Šéf CIA nečekaně přiletěl do Moskvy, Rubio spojencům vzkázal, že nové údery na Írán se nechystají",
+      "body": "Ředitel americké Ústřední zpravodajské služby John Ratcliffe odcestoval do Moskvy na předem neohlášená jednání. Washington ani Kreml neuvedly, jaký je účel návštěvy ani s kým se měl setkat. Seznam Zprávy připomínají, že když se šéf CIA vydal do Moskvy naposledy, krátce nato začala ruská invaze na Ukrajinu, a proto se analytici domnívají, že i tato cesta může souviset se závažnými zjištěními amerických zpravodajských služeb. Ukrajinistka Lenka Víchová pro Český rozhlas Plus soudí, že jedním z témat bude nastávající mobilizace v Rusku. Souběžně podle webu Axios americký ministr zahraničí Marco Rubio řekl kolegům ze spojeneckých zemí, že USA nyní nechystají nové útoky na Írán a tlak budou vyvíjet jiným způsobem. Náměstek íránského ministra zahraničí Kázem Gharíbabádí naopak podle agentury Reuters vzkázal, že pokud se Spojené státy chtějí dočkat otevření Hormuzského průlivu, musí napravit své chyby a plnit závazky.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2165003/poprve-od-zacatku-velke-ruske-valky-proc-byl-reditel-cia-v-moskve-varoval-nebo-zadal/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-tajemna-cesta-sefa-cia-do-moskvy-ctyri-temata-o-nichz-se-mohlo-mluvit-313918"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/usa-nechystaji-nove-utoky-na-iran-rekl-rubio-spojencum-376962"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/i-kdyby-zelenskyj-valku-rychle-vyhral-ve-volbach-nema-sanci-delal-chyby-rika_2608261503_ntu"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:12",
+      "headline": "Ruský dron si podle ukrajinských expertů poprvé sám vybral cíl a zabil tři civilisty",
+      "body": "Ruský dron Molnija si u Záporoží podle ukrajinských expertů poprvé sám zvolil cíl a zabil tři civilisty. Podle Deníku N jde zřejmě o první případ, kdy na Ukrajině zabil lidi plně autonomní stroj. Ukrajina s umělou inteligencí experimentuje déle, její armádní pravidla ale plně autonomní údery bez lidského schválení cíle zakazují. Velitel 3. armádního sboru ukrajinské armády varuje, že válka je oblast příliš velké odpovědnosti na to, aby se rozhodování úplně přenechalo umělé inteligenci.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2165100/cil-nevybral-clovek-nybrz-ai-na-ukrajine-lidi-zrejme-poprve-zabil-plne-autonomni-rusky-dron/"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:29",
+      "headline": "Ruský útok na Černihiv zabil i čtyřletou dívku, Ukrajina zasáhla sklad Wildberries a rafinerii",
+      "body": "Při ruském útoku na Černihiv přišli o život nejméně dva lidé včetně čtyřleté holčičky, další civilista zemřel ve Slovjansku, oznámily tamní úřady. Ukrajinské drony znovu zaútočily na sklad největšího ruského internetového prodejce Wildberries, který ČT24 umisťuje do Tambovské oblasti a Seznam Zprávy do Kotovska; útok společnost potvrdila. Kyjev zasáhl také rafinerii ve městě Kstovo. Rusko podle ČT24 mluví o dvou obětech v Lipecké oblasti a devíti mrtvých v Luhanské oblasti; šéf ruské okupační správy Luhanské oblasti Leonid Pasečnik uvedl, že ukrajinský úder zasáhl linkový autobus, ve kterém cestovalo patnáct lidí, a zabil devět z nich. Kyjev se k tomuto obvinění nevyjádřil.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-utocili-v-cernihivu-ukrajina-znovu-zasahla-sklad-wildberries-376968"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ruske-a-ukrajinske-urady-informuji-o-obetech-po-vzajemnych-utocich-313923"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2165747/"
+        }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "18:00",
+      "day": "prev",
+      "headline": "Kanada zveřejnila odvetná cla, od 8. září zasáhnou zhruba 700 druhů amerického zboží",
+      "body": "Kanada podle E15 odpoví na americká padesátiprocentní cla na část kanadského zboží vlastními cly ve výši 15 až 50 procent, a to od 8. září a na zhruba 700 druhů zboží. Celní válka může podle serveru zdražit zboží a poškodit firmy na obou stranách hranice.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/kanada-tvrde-vraci-trumpovi-uder-cerstve-zverejnena-odvetna-cla-zasahnou-stovky-firem-1435152"
+        }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:44",
+      "headline": "Antimonopolní úřad uložil O2 a firmě Sherlog za kartel pokutu přes 280 milionů",
+      "body": "Úřad pro ochranu hospodářské soutěže uložil pokutu 262,3 milionu korun společnosti O2 Czech Republic a 18,4 milionu korun firmě Sherlog Technology za kartelovou dohodu při nabídce a prodeji služeb monitoringu aut a dalších dopravních prostředků a elektronických knih jízd. Sherlog se navíc nesmí půl roku účastnit veřejných zakázek. Rozhodnutí je nepravomocné; O2 s ním nesouhlasí, podá proti němu rozklad a případně se bude bránit soudní cestou.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/antimonopolni-urad-ulozil-firmam-o2-a-sherlog-za-kartel-pokutu-pres-280-milionu-376969"
+        }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:00",
+      "headline": "Sazby hypoték podle Seznam Zpráv vyskočily na pět procent",
+      "body": "Cena hypotečních úvěrů podle Seznam Zpráv vyskočila na pět procent a tlak na další zdražování roste. Server to vysvětluje obavami trhů z vysoké inflace kvůli válce v Íránu a neúrodě, které se promítají do růstu ceny peněz na trhu.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-cena-penez-prudce-roste-sazba-hypotek-dosahla-peti-procent-313973"
+        }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:04",
+      "headline": "Chmelaři čekají kvůli suchu a horku až o čtvrtinu nižší úrodu",
+      "body": "Chmelaři kvůli suchu a horku čekají až o čtvrtinu nižší úrodu proti dlouhodobému průměru; před sklizní přitom odhadovali pětinový pokles. Slabší bude podle nich i kvalita.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2165212/"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:55",
+      "headline": "Meta zaplatí 16,7 miliardy dolarů za urovnání sporu o závislost dětí na sociálních sítích",
+      "body": "Společnost Meta Platforms se dohodla s americkými státy na mimosoudním urovnání sporu o závislost dětí na sociálních sítích a zaplatí 16,7 miliardy dolarů; ČT24 částku přepočítává na zhruba 351 miliard korun. Deník N a E15 uvádějí, že šlo o 29 států, ČT24 mluví o téměř třech desítkách. Ty firmu vinily z toho, že sítě Facebook a Instagram vědomě navrhla tak, aby u dětí vyvolávaly závislost, a tyto dopady zatajovala před veřejností; obviněna byla i z neoprávněného shromažďování jejich dat. Meta při souhlasu s urovnáním jakékoli pochybení popřela, přesto provede významné změny v používání sítí mladistvými, mimo jiné denní limity a noční blokace. Podle E15 se firma vyrovnáním vyhnula soudnímu procesu a hrozbě sankcí, které podle jejích vlastních odhadů mohly dosáhnout až 1,4 bilionu dolarů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/meta-se-v-usa-dohodla-na-mimosoudnim-urovnani-sporu-o-zavislosti-deti-na-sitich-376980"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-meta-se-dohodla-s-americkymi-staty-zaplati-167-miliardy-dolaru-313969"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/technologie/az-345-miliard-korun-v-mimosoudnim-urovnani-meta-podnecovani-zavislosti-deti_2608261641_jar"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/rekordni-smir-v-usa-meta-zaplati-pres-350-miliard-korun-kvuli-zavislosti-deti-na-socialnich-sitich-1435258"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:59",
+      "headline": "Amazon podle oznámení DuckLabs kupuje databázi DuckDB",
+      "body": "Nejsledovanější zprávou dne na Hacker News je akvizice databáze DuckDB Amazon Web Services. Odkaz vede na oznámení na webu firmy DuckLabs, podle jehož titulku se DuckLabs připojuje k AWS.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Claude sdílí paměť mezi chatem a nástrojem Cowork, citlivá témata si ve výchozím nastavení nepamatuje",
+      "body": "Anthropic propojil paměť Claudea napříč produkty: paměť, kterou uživatel používá v chatu, je nově stejná jako v Claude Cowork, takže si obě prostředí předávají kontext. Claude podle firmy ukládá témata průběžně během konverzace, místo aby ji shrnoval až po skončení. Všechno, co si pamatuje, je v nastavení paměti k vidění jako seznam souborů podle témat a uživatel je může číst, upravovat i mazat; paměť lze také kdykoli pozastavit nebo vynulovat. Citlivá témata — firma jmenuje zdraví, rasu, etnicitu, náboženské přesvědčení, politiku nebo genderovou identitu — se ve výchozím nastavení neukládají. Kdo si je zapne, dostane při každém takovém uložení upozornění; zpětně se nic neuloží.",
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
+        }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "18:47",
+      "day": "prev",
+      "headline": "Vývojáře QEMU zavalila stovka strojově generovaných hlášení chyb za deset minut",
+      "body": "Projekt QEMU zasáhlo více než sto hlášení chyb od jediného uživatele během pouhých deseti minut. Podle Rootu jsou hlášení strojová, nenesou žádné známky lidské práce, ignorují daná pravidla a nenavrhují žádná řešení; už jen nutnost se jimi probrat je pro vývojáře velkým zatížením. Vývojář Daniel P. Berrangé podle serveru doslova hovoří o útoku typu DoS na správce projektu.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/ai-hlaseni-chyb-jako-dos-utok-na-spravce-open-source-projektu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "20:11",
+      "day": "prev",
+      "headline": "Ve věku 80 let zemřela americká zpěvačka Dolly Parton",
+      "body": "Ve věku 80 let zemřela americká zpěvačka, autorka písní, herečka a filantropka Dolly Partonová. V úterý večer to uvedly světové agentury s odvoláním na rodinu umělkyně. Podle ČT24 byla považována za legendu a první dámu americké country, neméně zásadní byl ale i její vliv na poli filantropie a ženské emancipace v hudbě. Deník N v nekrologu píše, že se mezi šedesátými a sedmdesátými lety vyšvihla do výšin amerického country i popu a stala se popkulturním miláčkem starých i mladých, konzervativních i liberálních.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/ve-veku-80-let-zemrela-zpevacka-dolly-partonova-376956"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2165108/jedinecny-odkaz-kralovny-country-proc-dolly-parton-zboznovali-konzervativci-i-progresivci/"
+        }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:18",
+      "headline": "Začala oprava pražské Invalidovny za 2,15 miliardy, hotovo má být v roce 2030",
+      "body": "V pražském Karlíně dnes začala kompletní obnova barokní Invalidovny za 2,15 miliardy korun a stavbaři převzali symbolický klíč. Jde o dosud největší investici Národního památkového ústavu; premiér Andrej Babiš při zahájení řekl, že oprava patří k největším a nejsložitějším projektům rekonstrukce památek ve střední Evropě. Na volném pozemku v jižní části u historické budovy vzniknou dvě moderní přístavby pro Pražský filharmonický sbor a technické zázemí. Práce mají trvat čtyři roky, veřejnost se do obnovené Invalidovny poprvé podívá v roce 2030.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zivotni-styl/spolecnost/obrazem-zacina-oprava-invalidovny-v-prazskem-karline-pamatkari-predali_2608261524_mkm"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2165082/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/ctyri-roky-dve-miliardy-jak-bude-vypadat-prazska-invalidovna-po-rekordni-rekonstrukci-1435244"
+        }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:12",
+      "headline": "Reportáž Deníku N ze Saska-Anhaltska, kde se AfD blíží absolutní většině",
+      "body": "Spolková země Sasko-Anhaltsko volí 6. září nový parlament a vládu a s více než čtyřiceti procenty v ní vede krajně pravicová Alternativa pro Německo. Reportéři Deníku N vyrazili mezi její voliče zjistit, proč jí věří a co od ní čekají; na shromáždění podle nich poslanec z pódia slibuje konec ideologie ve školách, konec peněz pro Ukrajinu bránící se ruské agresi i konec masové migrace. Zemský lídr Ulrich Siegmund, možný první premiér z AfD, v rozhovoru pro Deník N řekl, že ne každý Syřan je zločinec a dobří migranti jsou v pořádku.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2165028/reportaz-z-vychodu-prichazi-svetlo-jak-se-krajne-pravicova-afd-v-sasku-anhaltsku-blizi-absolutni-vetsine/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2164670/ne-kazdy-syran-je-zlocinec-dobri-migranti-jsou-v-poradku-rekl-deniku-n-mozny-prvni-premier-z-afd/"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:30",
+      "headline": "Menšík s Muchovou jsou v semifinále mixu na US Open, Siniaková s Pattenem vypadli",
+      "body": "Jakub Menšík s Karolínou Muchovou postoupili do semifinále smíšené čtyřhry na US Open a utkají se v něm s ruskou dvojicí Andrej Rubljov, Mirra Andrejevová. Kateřina Siniaková s Britem Henrym Pattenem naopak skončili ve čtvrtfinále: nejprve otočili duel s Novakem Djokovičem a Arynou Sabalenkovou 1:4, 4:2, 10:2, pak ale podlehli manželskému páru Elina Svitolinová, Gaël Monfils 4:5, 5:4 a 8:10. Podle Sport.cz se na porážce podepsala i sporná situace v koncovce super tie-breaku, kterou Siniaková nechápala a rozhodčí nad ní jen pokrčil rameny.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-s-muchovou-narazi-v-semifinale-mixu-na-rubljova-s-andrejevovou-158589"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-us-open-nastvana-siniakova-nechapala-zarez-obrovske-napeti-az-do-konce-priznala-ukrajinka-po-dramatu-na-us-open-5519001"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:35",
+      "day": "prev",
+      "headline": "Volejbalistky porazily na domácím ME Ukrajinu a mají jistý postup do osmifinále",
+      "body": "České volejbalistky porazily na domácím mistrovství Evropy Ukrajinu 3:1 (25:17, 21:25, 25:19, 25:21) a třetí výhrou ve skupině si zajistily postup do osmifinále. K vítězství pomohla 21 body univerzálka Monika Brancuská, tým zaznamenal 16 bodových bloků. Ve čtvrtek Češky hrají s Bulharskem o co nejlepší pozici do play off. Podle Sport.cz na ně v osmifinále velmi pravděpodobně čeká Švédsko.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/volejbal/me-volejbalistek-cesko-ukrajina-158582"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/volejbal-na-koho-v-osmifinale-pravdepodobne-souper-s-nimz-volejbalistky-nemaji-dobrou-zkusenost-5518995"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:45",
+      "headline": "Fuksa vykročil na MS v Poznani za třetím zlatem v řadě",
+      "body": "Kanoista Martin Fuksa hladce postoupil z rozjížďky na olympijském kilometru na mistrovství světa v Poznani, když v ní skončil druhý, a odpoledne ovládl i úvodní start na trati 500 metrů, kde byl dvakrát za sebou stříbrný. Úřadující mistr světa tak vykročil za zlatým hattrickem. Postup na kilometru z druhé příčky jistila i kajakářka Barbora Betlachová a uspěly také další české posádky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/rychlostni-kanoistika/fuksa-nakrocil-za-obhajobou-hladkym-postupem-z-rozjizdky-uspela-i-betlachova-158594"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/vodni-sporty-martin-fuksa-vykrocil-na-ms-za-zlatym-hattrickem-na-kilometru-postoupil-do-semifinale-5519008"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:03",
+      "day": "prev",
+      "headline": "Linec smazal čtyřgólové manko a vyřadil Celtic, Daněk přihrál na rozhodující gól",
+      "body": "Rakouský LASK Linec v odvetě play off Ligy mistrů porazil Celtic Glasgow 5:1 po prodloužení a po celkovém skóre 5:4 si premiérově zahraje hlavní fázi soutěže. Gól a asistenci si připsal bývalý hráč Slavie Moses Usor, na rozhodující branku přihrál střídající Kryštof Daněk. Skotská média podle Sport.cz Celtic po promarněném čtyřgólovém náskoku nešetří a jeden z hráčů si kvůli kritice deaktivoval účet na sociální síti. Do hlavní fáze poprvé v historii postoupil také ázerbájdžánský Sabah, který zdolal Hapoel Beer Ševa 5:2 po prodloužení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/azerbajdzansky-sabah-poprve-okusi-ligu-mistru-beer-seva-zase-ostrouhala-158587"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-hanba-na-ostrovech-cupuji-slavneho-obra-po-neuveritelnem-kolapsu-jeden-z-hracu-napor-neustal-5518999"
+        }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:03",
+      "headline": "Čeští mládežníci nepojedou na ME ve flag fotbalu kvůli účasti Ruska",
+      "body": "České týmy v americkém fotbalu nebudou kvůli účasti Ruska startovat na zářijovém mistrovství Evropy do 15 a 17 let. Předseda České asociace amerického fotbalu Radim Kroulík na svazovém webu uvedl, že mezinárodní federace IFAF o navrácení ruských týmů do soutěží ostatní členské země předem neinformovala. Flag football bude podle Sport.cz olympijským sportem na hrách v Los Angeles.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/americky-fotbal/cesi-se-nechteji-utkavat-s-ruskem-a-bojkotuji-mladeznicke-me-ve-flag-fotbalu-158592"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/americky-fotbal-s-ruskem-ne-ceske-mladeznicke-tymy-odmitly-jet-na-mistrovstvi-evropy-5518982"
+        }
+      ]
+    }
+  ]
+}
