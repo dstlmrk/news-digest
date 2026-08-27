@@ -1,0 +1,391 @@
+{
+  "date": "2026-08-27",
+  "covers": "2026-08-27",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "storm",
+    "summary": "Zítra bude bouřkově a teplo, přes den až 30 °C. Spadne kolem pěti milimetrů srážek, vítr může v nárazech dosáhnout 54 kilometrů v hodině a kvalita ovzduší bude zhoršená.",
+    "days": [
+      { "date": "2026-08-28", "icon": "storm", "temp_max_c": 30.4, "temp_min_c": 16.2 },
+      { "date": "2026-08-29", "icon": "rain", "temp_max_c": 24.2, "temp_min_c": 17.5 },
+      { "date": "2026-08-30", "icon": "cloudy", "temp_max_c": 27.1, "temp_min_c": 15.1 },
+      { "date": "2026-08-31", "icon": "rain", "temp_max_c": 25.6, "temp_min_c": 16.7 }
+    ]
+  },
+  "highlights": [
+    "Počet obětí bleskové povodně na pomezí Nepálu a čínského Tibetu vzrostl nejméně na 359, katastrofu spustil kolaps ledovce.",
+    "BIS ve výroční zprávě označila rok 2025 za jeden z nejvážnějších v bezpečnostní oblasti od konce studené války.",
+    "Ministerstvo zahraničí si předvolalo íránského velvyslance kvůli výhrůžce pražskému Radiu Farda.",
+    "Jakub Menšík a Karolína Muchová vyhráli smíšenou čtyřhru na US Open a mají první grandslamový titul."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "09:45",
+      "day": "covered",
+      "headline": "BIS označila rok 2025 za jeden z nejvážnějších od konce studené války",
+      "body": "Bezpečnostní informační služba zveřejnila výroční zprávu za rok 2025. „Rok 2025 musíme označit v bezpečnostní oblasti za jeden z nejvážnějších od skončení studené války,“ píše v úvodu ředitel BIS Michal Koudelka; podle Deníku N k tomu vedla ruská válka na Ukrajině, zesilující rétorika Číny proti Tchaj-wanu, válka v Íránu a změna postoje USA k Evropě. V Česku podle služby přetrvává riziko využití takzvaných agentů na jedno použití k sabotážním útokům řízeným z Ruska a jejich počet v druhé polovině loňského roku znovu rostl. U žádného z loňských incidentů, u nichž se prověřovalo, zda nešlo o sabotáž koordinovanou z Ruska, se ale podezření dosud nepodařilo spolehlivě potvrdit. Čína loni podle zprávy využívala vytipované české akademiky k získávání citlivých informací a lepší orientaci v tuzemském prostředí; policie letos v lednu zadržela čínského občana obviněného ze špionáže pro čínskou zpravodajskou službu. České subjekty čelily kybernetickým útokům aktérů spojovaných s Čínou i s Ruskem. Zpráva zmiňuje také snahy o ovlivňování veřejného mínění přes TikTok a dezinformační weby. Nebezpečí terorismu podle E15 zůstalo nízké a rizikem není ani česká pravicově extremistická scéna.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/bis-v-cesku-pretrvava-riziko-vyuziti-agentu-k-sabotazim-rizenym-z-ruska-377001" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/k-ziskavani-citlivych-informaci-cina-vyuzivala-ceske-akademiky-uvadi-bis-377004" },
+        { "name": "Deník N", "url": "https://denikn.cz/2165631/rusko-chce-ukazat-evropu-v-plamenech-obrazne-i-doslova-varuje-bis/" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/rusko-zkousi-sabotaze-cina-utoci-v-kyberprostoru-bis-popsala-hlavni-hrozby-pro-cesko-1435268" },
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/cesko/bis-vyrocni-zprava/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=cesko" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:38",
+      "day": "covered",
+      "headline": "Ministerstvo zahraničí si předvolalo íránského velvyslance kvůli výhrůžce Radiu Farda",
+      "body": "Íránské ozbrojené síly zařadily na seznam svých vojenských cílů zahraniční perskojazyčná média včetně stanice Radio Farda, která vysílá ze svého sídla v pražském Hagiboru. Mluvčí íránské armády podle E15 redakce obvinil ze spolupráce s americkými a izraelskými tajnými službami a označil je za legitimní terče. Ministerstvo zahraničí si kvůli výhrůžce předvolalo íránského velvyslance, uvedl ministr Petr Macinka (Motoristé); schůzka bude v nejbližším možném termínu na úrovni ředitele odboru Blízkého východu. České bezpečnostní složky se výhrůžkou zabývají a informaci vyhodnocují.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/teheran-zaradil-radio-farda-na-seznam-vojenskych-cilu-macinka-predvolam-si_2608271338_lar" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ceske-bezpecnostni-slozky-proveruji-iranskou-vyhruzku-radiu-farda-377002" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-iran-zaradil-na-seznam-vojenskych-cilu-radio-farda-ktere-sidli-v-praze-313991" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/vojensky-terc-pro-iran-teheran-miri-na-zahranicni-media-vcetne-prazske-stanice-radio-farda-1435261" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:32",
+      "day": "covered",
+      "headline": "Pavel podepsal novelu jednacího řádu, která má omezit obstrukce ve Sněmovně",
+      "body": "Prezident Petr Pavel podepsal poslaneckou novelu jednacího řádu Sněmovny, jež má snížit možnost obstrukcí. Poslanecká vystoupení při navrhování úprav programu schůzí budou víc časově ohraničená a Sněmovna bude mít širší pravomoc omezit řečnickou dobu při projednávání předloh. Omezení se budou nově vztahovat i na poslance s právem přednostního vystoupení. Novela nabude účinnosti patnáctým dnem po vyhlášení, o podpisu informoval Hrad.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/pavel-podepsal-zmeny-snemovnich-pravidel-novela-mela-omezit-mozne-obstrukce_2608271532_adn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166935/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:01",
+      "day": "covered",
+      "headline": "Sněmovní výbor zamítl Urbanové cestu na Ukrajinu, zahraniční politiku podle něj tvoří jen vláda",
+      "body": "Sněmovní organizační výbor zamítl žádost místopředsedkyně dolní komory Barbory Urbanové (STAN) o schválení cesty na Ukrajinu; podle výboru tvoří zahraniční politiku jen vláda. Urbanová pokládá postup koaliční většiny za nepřijatelný. „Považuji to za nedůstojné jednání nikoliv vůči mé osobě či straně, ale vůči lidem, které zastupuji,“ napsala v tiskové zprávě. Rozhodnutí výboru respektuje, do Kyjeva ale podle svých slov v září odcestuje na základě oficiálního pozvání ukrajinské strany. Vyjádření předsedy Sněmovny Tomia Okamury (SPD) podle iROZHLAS ČTK zjišťuje.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/snemovni-vybor-zamitl-urbanove-cestu-na-ukrajinu-zahranicni-politiku-podle-nej_2608271701_adn" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2167058/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:53",
+      "day": "covered",
+      "headline": "Babiš odmítl, že by se onkologické operace v regionech rušily plošně",
+      "body": "Premiér Andrej Babiš (ANO) byl hostem pořadu Deníku.cz 15 minut Kateřiny Perknerové a reagoval na ohlášený záměr ministra zdravotnictví Adama Vojtěcha (ANO) přesunout onkologickou péči z regionů do velkých nemocnic. Plán čelí kritice a obavám, že povede k přetížení pracovišť a dlouhým čekacím lhůtám pro akutní pacienty; podle Babiše se ale rušit plošně nebude a lidem se dostane té nejlepší péče. Premiér také komentoval rozhodnutí ministerstva práce a sociálních věcí zvýšit od ledna 2027 starobní, invalidní a pozůstalostní důchody jen o zákonné minimum, přestože předvolební sliby i programové prohlášení vlády mluvily o štědřejší valorizaci. Částka se podle něj může během příštího roku ještě zvýšit, připustil ale, že prostředky se budou v napjatém rozpočtu hledat složitě.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/cesko/andrej-babis-ruseni-onkologickych-operaci-regiony/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=cesko" },
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/ekonomika/cesko-vyssi-duchody-kdy-rozpocet-premier-andrej-babis/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:00",
+      "day": "covered",
+      "headline": "Do systémů Partners Banky pronikli hackeři a dostali se k osobním datům klientů",
+      "body": "Do systémů Partners Banky o víkendu pronikli hackeři. Banka o tom ve čtvrtek informovala své klienty s tím, že se útočníci dostali k osobním datům. Klienty proto vyzvala ke zvýšené ostražitosti před možnými podvodnými voláními a online kontakty.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/cesko/banka-partners-hackesky-utok-unik-dat/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=cesko" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:00",
+      "day": "covered",
+      "headline": "Hradec hraje dnes večer s Panathinaikosem o historický postup, policie chystá mimořádná opatření",
+      "body": "Fotbalisté Hradce Králové hostí dnes od 19 hodin v Malšovické aréně odvetu závěrečného 4. předkola Konferenční ligy proti Panathinaikosu Atény. Z Atén si přivezli remízu 2:2 a mohou poprvé v klubové historii postoupit do hlavní fáze evropského poháru. Stadion je vyprodaný a mimořádnost zápasu je ve městě znát: kapitán Vladimír Darida podle Hradecké drbny řekl, že celé město se baví o fotbale a tolik lístků ještě nesháněl, trenér David Horejš musel sehnat třicet vstupenek pro známé a podle něj remíza z Atén Hradci vůbec nic nezaručuje. Policie varuje řidiče před kolonami — v okolí stadionu se opravují silnice na okruhu, nedaleký most i nadjezd — a nasazuje mimořádné množství policistů. Podle informací ze zahraničí totiž hrozí mezi některými skupinami fanoušků, které do Česka na čtvrteční pohárová utkání míří, riziko střetu kvůli dlouhodobé řevnivosti.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898521-cele-mesto-se-bavi-o-fotbale-tolik-listku-jsem-jeste-neshanel-rekl-darida.html" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/fc-hradec-panathinaikos-atheny-fotbal-utkani-doprava-policie-sport.A260827_084820_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/fotbal-utkani-hradec-panathinaikos-fanousci-policie/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-fotbal/horejs-shanel-30-listku-na-panathinaikos-ted-veri-v-dalsi-obrovsky-krok/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-fotbal" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:54",
+      "day": "covered",
+      "headline": "Stavba radiály v Kuklenách může podle archeologů ohrozit neolitické rondely",
+      "body": "Plánovaná stavba radiály Nová Zelená v hradeckých Kuklenách může ohrozit tamní více než 6500 let staré neolitické rondely. Potvrdili to archeologové z Muzea východních Čech. Muzeum svolalo jednání o výsledcích zatím posledního odborného průzkumu zasažené lokality — reagovalo tak na řadu protichůdných informací, které se v uplynulých týdnech objevily ve veřejném prostoru.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/65-tisice-let-stare-pamatky-u-hradce-kralove-muze-ohrozit-stavba-debatu-chce_2608271431_kma" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:30",
+      "day": "covered",
+      "headline": "O zastupitelstva na Hradecku se uchází 2263 lidí, o hradeckou radnici deset subjektů",
+      "body": "O místa v zastupitelstvech měst a obcí na Hradecku se letos uchází 2263 lidí. Dvě třetiny z nich tvoří muži a průměrnému kandidátovi je téměř 49 let; osmnáctiletých a devatenáctiletých je na kandidátkách jen dvanáct, lidí ve věku 80 let a více kandiduje šestnáct. O křesla v zastupitelstvu krajské metropole svede boj deset volebních stran a koalic, hned čtyři z nich vsadily na lokální patriotismus a slovo Hradec vložily přímo do svého názvu; podle Hradeckého deníku jsou mezi kandidáty tři teenageři i skoro stoletý architekt. V okolních městech se může měnit vedení: v Novém Bydžově osminásobný starosta Louda kandiduje za jiný subjekt a navíc nevede kandidátku, ve Smiřicích jde současný starosta Seidl do voleb ze třetího místa a bývalý starosta Tuzar nekandiduje vůbec.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898553-mladych-je-minimum-na-hradecku-kandiduje-vic-lidi-nad-80-nez-do-20-let.html" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/kde-se-na-hradecku-vymeni-starosta-kandidatky-nevedou-v-bydzove-ani-smiricich/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/volby-2026-kandidati-hradec-kralove-rekordy-zajimavosti/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:30",
+      "day": "covered",
+      "headline": "Královské slavnosti startují zítra v novém devítidenním formátu",
+      "body": "V Hradci Králové zítra začínají Královské slavnosti, které v novém devítidenním formátu propojují historii se současnou kulturou. Program na různých místech města nabídne koncerty Xindla X či Michala Prokopa, desítky balónů na obloze i návrat do středověku. Většina zážitků bude podle Hradecké drbny zdarma.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898286-rytiri-koncerty-a-nebe-plne-balonu-zitra-startuji-nove-kralovske-slavnosti.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:30",
+      "day": "covered",
+      "headline": "Povodeň na pomezí Nepálu a Tibetu má nejméně 359 obětí, spustil ji kolaps ledovce",
+      "body": "Počet obětí bleskové povodně, která ve středu zasáhla pohraničí čínského Tibetu a Nepálu, vzrostl nejméně na 359, uvedla nepálská policie. Záchranáři dál pátrají po stovkách pohřešovaných; podle agentury AP jsou mezi více než tisícem pohřešovaných lidé z více než třiceti zemí a podle Seznam Zpráv je asi polovina z nich cizinci. Původně se zdálo, že katastrofu spustilo zemětřesení, seizmometry ale ve skutečnosti zachytily mohutný kolaps ledu a horniny. Voda s bahnem a sutinami zpustošila údolí podél řeky Trishuli a smetla i řady zaparkovaných autobusů a nákladních automobilů. V místě sesuvu ledovce vzniklo jezero, které se zvětšuje a podle agentury Reuters hrozí vylitím. Geomorfolog Michal Břežný v rozhovoru pro iROZHLAS.cz řekl, že před pádem ledovce nejde stoprocentně varovat: „Úřady by museli dělat soustavný online monitoring všech ledovců, které v horách jsou.“ České ministerstvo zahraničí uvedlo, že mezi pohřešovanými ani zemřelými neeviduje české občany. Podle Seznam Zpráv katastrofa otevřela také spor mezi Nepálem a Čínou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-povodne-nepal-srovnavaci-satelitni-fotky-314034" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zemetreseni-ktere-nebylo-zemetresenim-co-spustilo-nicivou-povoden-v-nepalu-314022" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/cina-po-povodni-na-hranici-s-nepalem-pohresuje-nejmene-558-lidi-376996" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166795/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/pred-padem-ledovce-nejde-stoprocentne-varovat-museli-bychom-je-sledovat-neustale_2608271600_mst" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:55",
+      "day": "covered",
+      "headline": "Ve vězení v Haagu zemřel válečný zločinec Ratko Mladić",
+      "body": "Ve vězení v nizozemském Haagu zemřel ve věku 84 let bosenskosrbský válečný zločinec Ratko Mladić. Uvedly to tiskové agentury s odvoláním na srbská média, informaci podle agentury Reuters následně potvrdil činitel OSN. Někdejší velitel bosenskosrbské armády si odpykával doživotní trest za genocidu a válečné zločiny spáchané během války v Bosně v 90. letech; mezinárodní tribunál ho odsoudil za osobní odpovědnost za srebrenickou genocidu a několikaletý teror civilistů v Sarajevu. Podle agentury AFP zemřel ve vězeňské nemocnici poté, co v posledních měsících prodělal několik mrtvic.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zemrel-valecny-zlocinec-ratko-mladic-314048" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/zemrel-valecny-zlocinec-mladic-377018" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/zemrel-valecny-zlocinec-ratko-mladic-v-90-letech-se-podilel-na-genocide-v_2608271447_jgr" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166859/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:00",
+      "day": "covered",
+      "headline": "Rusko poprvé použilo proti Kyjevu raketu Iskander-1000, útok na obchodní centrum v Charkově má oběť",
+      "body": "Rusko při jednom z útoků na Kyjev poprvé použilo novou zbraň Iskander-1000. Podle Deníku N jde o modernizovanou balistickou raketu 9M723-2, která díky vylepšenému motoru dokáže zasahovat cíle na vzdálenost až 550 kilometrů, tedy asi o 160 kilometrů dál než dosavadní modifikace Iskanderu. Ukrajinská rozvědka zároveň zveřejnila seznam 140 komponentů, které identifikovala v raketě Iskander-M; jsou mezi nimi ruské i zahraniční součástky. Ruský útok na nákupní středisko v Charkově zabil nejméně jednoho člověka a pět dalších zranil, oznámil náčelník oblastní správy Oleh Syněhubov. Ruské dělostřelectvo ostřelovalo také centrum Nikopolu na jihovýchodě země a zranilo pět lidí, napsal šéf správy Dněpropetrovské oblasti Oleksandr Hanža. Mluvčí ruského ministerstva zahraničí Marija Zacharova podle agentury Reuters uvedla, že Rusko by na ukrajinské údery s použitím britských střel mohlo odpovědět útoky na britské vojenské cíle na ukrajinském území i mimo něj.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166797/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2167088/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166772/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:41",
+      "day": "covered",
+      "headline": "Šéf CIA měl v Moskvě varovat Rusko před útokem na Pobaltí a pomocí Íránu",
+      "body": "Ředitel americké Ústřední zpravodajské služby John Ratcliffe minulý týden tajně navštívil Moskvu. Podle deníků Politico a Wall Street Journal měl Rusku vyřídit dvojí varování — ať nezaútočí na pobaltské spojence z NATO a ať omezí vojenskou a ekonomickou pomoc Íránu. Prezident Donald Trump ale verzi amerických deníků odmítl jako nepravdivou a o cestě mluvil jako o rutině.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/sef-cia-v-moskve-varoval-rusko-pred-utokem-na-nato-a-pred-pomoci-iranu-trump_2608271641_dci" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:50",
+      "day": "covered",
+      "headline": "Dva obvinění z přípravy útoku na slovenskou továrnu na drony jsou ve vazbě, třetího zadrželi Němci",
+      "body": "Soud na Slovensku poslal do vazby dva obviněné v případu připravovaného žhářského útoku na továrnu výrobce bezpilotních systémů, jehož odhalení oznámila slovenská policie v úterý. Potvrdila to mluvčí krajského soudu v Prešově Ivana Petrufová; kvůli podané stížnosti se rozhodnutím okresního soudu bude zabývat odvolací soud a oba obvinění na jeho verdikt vyčkají ve vazbě. Cizinec, kterého v souvislosti s plánováním útoku zadržela německá policie, je podle Seznam Zpráv 26letý Lotyš a bude vydán na Slovensko. Slovenský ministr obrany Robert Kaliňák prohlásil, že tři podezřelé najal někdo ze zahraničí, a nepřímo potvrdil, že jde o dva Lotyše a jednoho Ukrajince; podezření podle Deníku N padá opět na Rusko. K neúspěšnému útoku na továrnu firmy Skyeton v Hanisce u Prešova se e-mailem přihlásila málo známá „protiválečná“ organizace, která hrozí útoky na všechny zbrojařské firmy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensky-soud-poslal-do-vazby-dva-obvinene-z-pripravy-utoku-na-tovarnu-na-drony-377013" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-cizinec-zadrzeny-v-nemecku-kvuli-priprave-utoku-na-slovensku-je-26lety-lotys-314014" },
+        { "name": "Deník N", "url": "https://denikn.cz/2166433/utoci-na-nas-rusko-tvrdi-presovsky-vyrobce-dronu-k-diverzi-se-hlasi-protivalecna-organizace/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166584/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:28",
+      "day": "covered",
+      "headline": "Šest premiérů chce snížit rozpočet EU o stovky miliard, Babiš odmítá škrty v kohezi",
+      "body": "Návrh nového rozpočtu Evropské unie na roky 2028 až 2034 je třeba snížit o stovky miliard eur, uvedli premiéři šesti zemí po jednání v Německu; informoval o tom server Euractiv. Ve stejný den se v Praze sešel premiér Andrej Babiš (ANO) s předsedou Evropské rady Antóniem Costou. Víceletý rozpočet podle Babiše nesmí zhoršit postavení slabších ekonomik a průmyslových zemí; Česko podporuje investice do obrany a technologií, ale škrty v zemědělských a kohezních fondech, které mají snižovat rozdíly mezi členskými státy, označil za nepřijatelné. Podle Costy musí dohoda reflektovat nové priority včetně bezpečnosti a zároveň zachovat podporu pro regiony i zemědělství.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166837/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vicelety-rozpocet-eu-nesmi-zhorsit-postaveni-slabsich-ekonomik-rekl-babis-costovi-377010" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:01",
+      "day": "covered",
+      "headline": "Kvůli suchu nebude výlov Rožmberku, do cen potravin se sucho podle analytika začne propisovat",
+      "body": "Slavnostní výlov největšího českého rybníka Rožmberk u Třeboně se letos kvůli suchu neuskuteční. V rybnících chybí přibližně 40 procent vody, což odpovídá 30 milionům metrů krychlových, informovalo Rybářství Třeboň. Zemědělský analytik Petr Havel v rozhovoru pro Deník N řekl, že doba zlevňování mléka, másla či masa se chýlí ke konci a sucho se do cen potravin postupně začne propisovat; může podle něj vést i k častějším porážkám hovězího dobytka. „Pokud ale stavy snížíme příliš, zabolí nás to jinde,“ varuje. Jedna z potravin podle něj naopak může zlevnit o desetinu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2166634/potraviny-zacnou-kvuli-suchu-zdrazovat-jedna-z-nich-ale-muze-zlevnit-o-desetinu-rika-expert/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/veda-technologie/priroda/vylov-nejvetsiho-rybnika-rozmberk-nebude-kvuli-extremnimu-pocasi-mu-chybi-30_2608272020_mkm" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-kvuli-suchu-letos-na-trebonsku-nebude-vylov-nejvetsiho-rybnika-rozmberk-314047" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2166820/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:50",
+      "day": "covered",
+      "headline": "Startupový zákon míří do připomínkového řízení a nabídne investorům daňovou úlevu až pět milionů",
+      "body": "Připravovaný startupový zákon míří do meziresortního připomínkového řízení. Nová legislativa bude startupy jasně definovat a přinese daňové úlevy pro investory až do pěti milionů korun. Pokud vše půjde podle aktuálního plánu, začne platit v polovině příštího roku.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/startupy/cesko-chysta-zasadni-zmenu-pro-startupy-investorum-nabidne-danovou-ulevu-az-pet-milionu-1434386" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:12",
+      "day": "covered",
+      "headline": "Prazdroj od října zdraží pivo v průměru o 70 haléřů na půllitr",
+      "body": "Plzeňský Prazdroj, největší český pivovar, zdraží od 1. října čepované pivo ze sudů a tanků, část plechovek a některá lahvová piva o 2,6 procenta, tedy v průměru o 70 haléřů na půllitr. Cenu ležáku Pilsner Urquell mění pivovar poprvé od roku 2023. Informaci má E15 od hostinských a obchodních řetězců, potvrdil ji mluvčí Prazdroje Zdeněk Kovář.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/potraviny/prazdroj-zdrazi-pivo-pullitr-pilsneru-urquell-vyjde-od-podzimu-draz-1435270" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:35",
+      "day": "covered",
+      "headline": "Nvidia kupuje Hugging Face, největší platformu pro AI modely, za téměř 13 miliard dolarů",
+      "body": "Americký výrobce čipů Nvidia se dohodl na koupi start-upu Hugging Face, tvůrce největší platformy pro modely umělé inteligence. Podle serveru The Information, který se odvolal na informovaný zdroj, zaplatí 12,9 miliardy dolarů (267 miliard korun); Business Insider, na nějž odkazuje diskuse na Hacker News, mluví o 13 miliardách dolarů. Transakce tohoto rozsahu by pro Nvidii byla jednou z největších akvizic v její historii. Firma zároveň ve druhém čtvrtletí více než zdvojnásobila zisk i tržby — čistý zisk vzrostl meziročně o 126 procent na 59,7 miliardy dolarů a tržby o 106 procent na 96,2 miliardy dolarů. Investorům to ale nestačilo a akcie po zveřejnění výsledků oslabily.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/nvidia-miri-hloubeji-do-sveta-ai-kupuje-tvurce-nejvetsi-platformy-pro-modely-1435267" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/nvidia-zdvojnasobila-trzby-i-zisk-investorum-to-nestaci-akcie-oslabily-1435264" },
+        { "name": "Hacker News", "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Claude v Chromu je obecně dostupný, nástroj Cowork dostal vlastní prohlížeč",
+      "body": "Anthropic uvolnil rozšíření Claude in Chrome do obecné dostupnosti pro všechny placené tarify. Claude v prohlížeči čte obsah stránek, klika na odkazy, píše text a vyplňuje formuláře a může jednotlivé kroky provádět i bez schvalování uživatelem, včetně interních dashboardů, starších systémů a dodavatelských portálů, kde je uživatel přihlášený. Firemní správci ho mohou omezit na schválené domény. Proti prompt injection má podle oznámení chránit trénink modelu na rostoucí knihovně útoků, kontrola obsahu stránky předtím, než na něj Claude zareaguje, a klasifikátor, který každou akci před provedením porovnává se zadáním; v testech s profesionálními red-teamovými útoky firma uvádí nulovou úspěšnost útoků u modelů Sonnet 5 a Opus 5 a 0,3 procenta u Fable 5. Vedle toho dostal vlastní zabudovaný prohlížeč nástroj Cowork: Claude v něm prochází weby sám, bez přístupu k osobnímu prohlížeči uživatele — třeba když má posbírat podklady k reportu nebo faktury z dodavatelského portálu. Rozbíhá se v týdnu od 26. srpna v desktopové aplikaci pro tarify Pro, Max a Team i pro firemní zákazníky, ve výchozím nastavení zapnutý; přihlášení lze importovat z Chromu, Edge nebo Firefoxu, bankovní a SSO stránky jsou z importu ve výchozím nastavení vyloučené. Anthropic upozorňuje, že riziko prompt injection ani tady nelze úplně vyloučit, a doporučuje začínat u důvěryhodných webů.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/claude-in-chrome-generally-available" },
+        { "name": "Claude Blog", "url": "https://claude.com/blog/cowork-built-in-browser" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:21",
+      "day": "covered",
+      "headline": "Ve věku 97 let zemřela japonská umělkyně Jajoi Kusama",
+      "body": "Ve věku 97 let zemřela japonská umělkyně Jajoi Kusama, autorka barevných teček, soch dýní a zrcadlových instalací budících dojem nekonečna. Na protest proti invazi do Československa vyprala „špinavou“ sovětskou vlajku před budovou OSN. O mužích ve světě umění říkala, že jí kradou nápady.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-zemrela-jajoi-kusama-foto-314026" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "06:00",
+      "day": "covered",
+      "headline": "Rusko zničilo za léto třetinu roční produkce ukrajinských nakladatelů",
+      "body": "Rusko v poslední době zesílilo útoky na válkou už tak ohrožený ukrajinský knižní trh. Během léta zničilo ve skladech či tiskárnách třetinu roční produkce ukrajinských nakladatelů včetně velké části učebnic. Představitelé odvětví varují před kolapsem sektoru, který by podle ČT24 Ukrajině vzal právo mluvit vlastním hlasem.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/valka-proti-slovu-rusko-v-lete-znicilo-tretinu-rocni-ukrajinske-produkce-knih-376955" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "16:02",
+      "day": "covered",
+      "headline": "Somálští piráti znovu unášejí lodě a jejich útoky mohou zdražit zboží i v Česku",
+      "body": "Somálští piráti se v posledních měsících objevili znovu na scéně: unesli několik lodí a jejich posádky drží jako rukojmí. Za zvýšenou aktivitou stojí podle Voxpotu souběh několika krizí a útoky by se mohly propsat do cen zboží i v Česku. Podrobně o krizi v Somálsku mluví nový díl podcastu Afrika.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/somalsti-pirati-proc-opet-utoci/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:17",
+      "day": "covered",
+      "headline": "Menšík s Muchovou vyhráli mix na US Open a mají první grandslamový titul",
+      "body": "Tenisté Jakub Menšík a Karolína Muchová vyhráli smíšenou čtyřhru na US Open a získali premiérový grandslamový titul. Ve finále v New Yorku porazili nasazené čtyřky, italsko-švýcarský pár Flavio Cobolli a Belinda Bencicová, 6:3, 1:6, 10:6. Zápas jim trval hodinu a 13 minut a získali za něj prémii jeden milion dolarů. Muchová webu Tenisový svět řekla, že titul v hvězdně obsazeném mixu nečekala, Menšík žertoval, že teď už může ukončit kariéru.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-a-muchova-vyhrali-mix-na-us-open-158605" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/to-je-na-ukonceni-kariery-zertoval-mensik-po-zisku-titulu-na-us-open-158610" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-ted-uz-muzu-ukoncit-karieru-vtipkoval-mensik-po-triumfu-na-us-open-5519356" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:34",
+      "day": "covered",
+      "headline": "Fuksa se protlačil do finále kilometru, Dostál hladce postoupil do semifinále",
+      "body": "Kanoista Martin Fuksa znovu pojede na mistrovství světa v Poznani finále kilometru. Olympijský šampion a obhájce titulu měl ale v semifinále problémy a postoupil až z poslední, třetí pozice. Kajakář Josef Dostál dopoledne vstoupil do šampionátu suverénním vítězstvím ve své rozjížďce na 500 metrů, kde obhajuje titul, a hladce prošel do semifinále; podle ČT Sport na sobě nenechal znát problémy z přípravy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-kanoista-fuksa-postoupil-na-ms-do-finale-kilometru-5519382" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/rychlostni-kanoistika/dostal-na-sobe-problemy-z-pripravy-nenechal-znat-na-ms-je-v-semifinale-158607" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:09",
+      "day": "covered",
+      "headline": "Bukovská vybojovala na MS horských kol stříbro v cross country juniorek",
+      "body": "Česká cyklistka Barbora Bukovská získala na mistrovství světa horských kol v italském Val di Sole stříbro v závodě juniorek v cross country; podle ČT Sport jde o první českou medaili šampionátu, Sport.cz o Bukovské píše jako o sedmnáctileté. Zvítězila Švýcarka Anja Grossmannová, bronz vybojovala Agathe Vauchampová z Francie, mezi juniory slavil triumf Australan Connor Wright. Šampionát čeští jezdci zahájili ve středu sedmým místem ve štafetě, kterou vyhráli domácí Italové před Švýcary a Američany.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/prvni-medaili-z-ms-ziskala-juniorka-bukovska-uspela-v-cross-country-158609" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-sedmnactileta-bikerka-bukovska-ziskala-na-ms-horskych-kol-stribro-v-zavode-juniorek-5519357" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/bikerska-stafeta-zahajila-ms-sedmym-mistem-raduji-se-domaci-158601" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:55",
+      "day": "covered",
+      "headline": "Jablonec a Plzeň hrají dnes odvety o evropské skupiny, Slavia se dozví soupeře pro Ligu mistrů",
+      "body": "Jablonec dnes od 18 hodin hostí Glasgow Rangers a v odvetě play off Konferenční ligy musí dohánět porážku 0:1 z prvního zápasu; zájem je tak velký, že vstupenky jsou vyprodané. „Bylo to naše přání,“ řekl k plnému stadionu trenér Luboš Kozel. Plzeň se od 19 hodin pokusí v odvetě závěrečného předkola Evropské ligy otočit tříbrankové manko s Crvenou zvezdou Bělehrad — pokud chce postoupit, musela by poprvé v klubové historii obrátit pohárový dvojzápas. Porážka 0:3 v Bělehradě vedla k odvolání trenéra Martina Hyského a Viktorii poprvé povede jeho nástupce Radoslav Kováč, s nímž se dají očekávat změny v základní sestavě. Ve stejný čas jako v Jablonci, v 18 hodin, začíná los hlavní fáze Ligy mistrů, ve kterém fotbalisté Slavie poznají osm soupeřů. Od 19 hodin hraje domácí odvetu Konferenční ligy také Hradec Králové.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/jablonec-fotbal-konferencni-liga-uefa-rangers-fc_2608271355_ssi" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/podari-se-kovacovi-s-plzni-zazracny-obrat-proti-crvene-zvezde-158596" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-hradec-158597" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-slavia-se-dozvi-soupere-pro-ligu-mistru-5519355" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:56",
+      "day": "covered",
+      "headline": "UEFA chystá trestní oznámení na šéfa FIFA Infantina, Saúdská Arábie mu vyjádřila podporu",
+      "body": "Unie evropských fotbalových asociací připravuje trestní oznámení na předsedu Mezinárodní fotbalové federace Gianniho Infantina kvůli jeho plánu prodat soukromým investorům část práv z mistrovství světa za 4,2 miliardy dolarů (téměř 87 miliard korun). Informovala o tom agentura AP. Infantino, který čelí kritice některých konfederací včetně asijské, bude mít při pokusu o znovuzvolení v příštím roce podporu Saúdské Arábie: pořadatel mistrovství světa 2034 oznámil na sociálních sítích, že Infantina podporuje v jeho snaze o obnovení globální jednoty ve fotbale.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/uefa-chysta-na-infantina-trestni-oznameni-saudska-arabie-mu-vyjadrila-podporu-158613" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ms-uefa-chysta-trestni-oznameni-na-sefa-fifa-infantina-kvuli-prodeji-prav-z-ms-5519391" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-predsedu-fifa-infantina-podporila-saudska-arabie-poradatel-ms-2034-5519383" }
+      ]
+    }
+  ]
+}
