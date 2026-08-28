@@ -1,0 +1,387 @@
+{
+  "date": "2026-08-28",
+  "covers": "2026-08-28",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "storm",
+    "summary": "Zítra bouřky a vydatný déšť, srážek má napadnout téměř 15 milimetrů a pršet bude prakticky jistě. Denní teplota klesne na 25 °C, kvalita ovzduší má být přijatelná.",
+    "days": [
+      { "date": "2026-08-29", "icon": "storm", "temp_max_c": 24.9, "temp_min_c": 17.9 },
+      { "date": "2026-08-30", "icon": "cloudy", "temp_max_c": 26.6, "temp_min_c": 15.4 },
+      { "date": "2026-08-31", "icon": "rain", "temp_max_c": 23.3, "temp_min_c": 15.8 },
+      { "date": "2026-09-01", "icon": "cloudy", "temp_max_c": 23.1, "temp_min_c": 14.3 }
+    ]
+  },
+  "highlights": [
+    "Ministerstvo práce chce od ledna vrátit podporu v nezaměstnanosti na dřívější, nižší úroveň a ušetřit tak 4,5 miliardy korun; proti jsou odbory, zaměstnavatelé i odborníci.",
+    "Ve věku 89 let zemřel norský král Harald V., nejstarší vládnoucí evropský panovník. Nastoupil po něm syn jako Haakon VIII.",
+    "Plzeň i Jablonec se probojovaly do hlavních fází evropských pohárů, Hradec Králové vypadl s Panathinaikosem po penaltě ve 125. minutě."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:48",
+      "day": "covered",
+      "headline": "Ministerstvo práce chce od ledna snížit podporu v nezaměstnanosti a ušetřit 4,5 miliardy",
+      "body": "Ministerstvo práce a sociálních věcí plánuje návrat k předchozímu nastavení podpor v nezaměstnanosti a snížení částek od ledna. Na výdajích tak chce příští rok ušetřit asi 4,5 miliardy korun. Podpora by v prvních měsících znovu klesla z 80 procent výdělku na 65 procent a maximální podpora by činila 60 procent průměrné mzdy namísto letošních 80 procent; uvedl to odbor komunikace ministerstva. Seznam Zprávy záměr spojují s ministrem Juchelkou. Proti návratu k předchozím pravidlům se podle všech zdrojů staví odbory i zaměstnavatelé, nesouhlasí ani odborníci.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ministerstvo-planuje-snizeni-podpory-v-nezamestnanosti-377055" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-mpsv-planuje-zmenu-podpor-v-nezamestnanosti-usetrit-chce-45-miliardy-314129" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/vrati-se-stare-nastaveni-podpor-v-nezamestnanosti-ministerstvo-prace-zvazuje_2608281436_kma" },
+        { "name": "E15", "url": "https://www.e15.cz/finexpert/prispevky-a-davky/podpory-v-nezamestnanosti-maji-od-ledna-2027-klesnout-stat-chce-usetrit-miliardy-1435312" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:37",
+      "day": "covered",
+      "headline": "Experti začátkem září exhumují ostatky Jana Masaryka z lánské hrobky",
+      "body": "Odborníci vyzvednou začátkem září ostatky někdejšího ministra zahraničí Jana Masaryka z rodinné hrobky v Lánech. Exhumace má po téměř osmdesáti letech přispět k objasnění jeho smrti; Radiožurnál to zjistil od zdrojů blízkých vyšetřování. Masaryk zemřel 10. března 1948 po pádu z okna svého služebního bytu v Černínském paláci, případ byl původně uzavřen jako sebevražda.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/jak-zemrel-jan-masaryk-experti-exhumuji-po-temer-80-letech-jeho-ostatky-z_2608281405_ako" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168185/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:59",
+      "day": "covered",
+      "headline": "Policie prověřuje příspěvek novináře Parlamentních listů, který velebil Ratka Mladiće",
+      "body": "Zástupce šéfredaktora Parlamentních listů Radim Panenka označil na síti X zesnulého bosenskosrbského generála Ratka Mladiće za obránce národa, který podle něj zachránil Srby v Bosně před genocidou, a proces v Haagu za nespravedlivý a zpolitizovaný. Kriminalisté podle Deníku N vyhodnocují, zda tím nenaplnil skutkovou podstatu trestného činu; Seznam Zprávy uvádějí, že policie řeší možné zlehčování genocidy. Proti vyjádření se ohradila velvyslankyně Bosny a Hercegoviny v Česku Martina Mlinarevićová. „Moje reakce byla prvně lidská a morální,“ řekla redakci iROZHLAS.cz.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-novinar-parlamentnich-listu-velebil-strujce-genocidy-mladice-resi-to-policie-314103" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2167798/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/diplomatka-adorace-mladice-ohavnost-verim-ze-neni-obecny-nazor-sem-rada-ze-cesi_2608281459_kma" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:36",
+      "day": "covered",
+      "headline": "Skupina Partners upřesnila, jaká klientská data při kyberútoku unikla",
+      "body": "Finanční skupina Partners rozeslala klientům oznámení, k jakým údajům se útočníci mohli dostat. Podle Deníku N jde o identifikační a kontaktní údaje klientů Partners Financial Services, údaje související s produktovými smlouvami a historické hovory z klientského centra do roku 2021. Skupina varuje, že data mohou posloužit podvodníkům, a klienti mají čekat pokusy o podvod. Zdroje se liší v načasování útoku: Seznam Zprávy mluví o čtvrtečním hackerském útoku, Deník N uvádí, že terčem se skupina stala v neděli.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-partners-pri-utoku-unikly-citlive-udaje-klienti-maji-cekat-pokusy-o-podvod-314130" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168084/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:16",
+      "day": "prev",
+      "headline": "Vláda chce zakotvit korunu a hotovost do ústavy, ústavní většinu ale nemá",
+      "body": "Vládní politici připravili normu, kterou by do ústavy zakotvili českou korunu, a jednali o ní už i koaliční lídři. Předložit ji mají příští týden. S návrhem počítá programové prohlášení vlády stejně jako se zavedením práva používat hotovost. Kabinet ale nemá dostatečnou ústavní většinu a připouští, že její hledání ve Sněmovně bude obtížné. K přijetí eura se navíc Česko zavázalo vstupem do Evropské unie.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-chce-zakotvit-korunu-a-hotovost-do-ustavy-dost-hlasu-ale-nema-377028" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:32",
+      "day": "prev",
+      "headline": "Ministr zahraničí Macinka odepřel Hradu informace o Okamurově cestě do Číny",
+      "body": "Šéf Motoristů a ministr zahraničí Petr Macinka odmítl poslat prezidentu Petru Pavlovi informace k cestě předsedy Sněmovny Tomia Okamury do Číny, o které Hrad oficiálně požádal. Deník N, který o věci informoval, má k dispozici korespondenci mezi oběma politiky.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2166622/nove-dejstvi-macinkovy-valky-s-pavlem-ministr-prezidentovi-odeprel-informace-o-okamurove-navsteve-ciny/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "22:19",
+      "day": "prev",
+      "headline": "Hradec vypadl z Konferenční ligy po penaltě v závěru prodloužení",
+      "body": "Fotbalisté Hradce Králové podlehli ve včerejší domácí odvetě závěrečného předkola Konferenční ligy Panathinaikosu Atény 1:2 po prodloužení a po úvodní remíze 2:2 v soutěži končí. Skóre otevřel v 72. minutě Cyriel Dessers, v závěru základní hrací doby srovnal Vladimír Darida. V prodloužení pak rozhodčí neuznal branku Filipa Čiháka kvůli předcházejícímu faulu a v páté minutě nastavení druhé části prodloužení proměnil Dessers penaltu za faul Neta. „U mého gólu si myslím, že tam žádný faul nebyl,“ řekl Čihák Hradeckému deníku. Trenér David Horejš, který v závěru dostal červenou kartu, zdůraznil: „Nemáme se za co stydět.“",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/fotbal/898608-fotbaliste-hradce-podlehli-doma-panathinaikosu-1-2-po-prodlouzeni-a-v-kl.html" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-fotbal/kruty-konec-evropskeho-snu-hradec-padl-penaltou-ve-125-minute/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-fotbal" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/pohary/konferencni-liga-hradec-kralove-panathinaikos-online-vysledek.A260827_152635_fot_pohary_duff#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:53",
+      "day": "covered",
+      "headline": "Provozovateli hradeckého parkovacího systému vzrostl zisk o 51 procent",
+      "body": "Společnosti ISP Hradec Králové, která ve městě provozuje systém parkování, loni meziročně stoupl zisk o 51 procent na 12,8 milionu korun. Tržby firma zvýšila o 13 procent na dosud nejvyšších 66,5 milionu korun. Růstu tržeb podle Hradecké drbny pomohlo zavedení kontroly placení parkovného kamerovým vozem městské policie loni v říjnu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898662-provozovateli-systemu-parkovani-v-hradci-kralove-loni-vzrostl-zisk-o-51.html" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/provozovateli-systemu-parkovani-v-hradci-kralove-loni-vzrostl-zisk-o-51-procent/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:05",
+      "day": "covered",
+      "headline": "Možný příchod RegioJetu na trať do Hradce vyvolal obavy cestujících i zaměstnanců drah",
+      "body": "Případný vstup RegioJetu na rychlíkovou linku mezi Prahou, Hradcem Králové a Trutnovem vyvolal obavy cestujících i zaměstnanců Českých drah. Někteří se bojí zhoršení služeb, další mají strach o práci. Ministerstvo dopravy Hradecké drbně sdělilo, že vítěz soutěže zatím není známý a případný nový dopravce bude muset splnit požadované standardy.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/doprava/898600-regiojet-na-trati-do-hradce-cestujici-se-boji-horsi-kvality.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:15",
+      "day": "covered",
+      "headline": "Hradečtí ředitelé vítají chystaný zákaz displejů ve třídách a družinách",
+      "body": "Od září 2027 mají být displeje plošně vykázány ze tříd, jídelen i družin českých škol. Ředitelé hradeckých škol podle Hradeckého deníku novinku vítají a nepanikaří kvůli ní.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/zakaz-mobilu-zakladni-skoly-druzina-hradec-reditele/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:28",
+      "day": "covered",
+      "headline": "Zemřel norský král Harald V., nastoupil po něm syn jako Haakon VIII.",
+      "body": "Ve věku 89 let zemřel po dlouhé nemoci norský král Harald V., oznámil tamní královský palác. Monarcha byl od minulého pondělí v péči lékařů a ve čtvrtek palác uvedl, že se jeho stav zhoršil. Byl nejstarším vládnoucím evropským panovníkem. Novým králem se stal jeho syn, který na mimořádném zasedání vlády potvrdil, že bude vládnout jako Haakon VIII. Podle Seznam Zpráv drží Norsko státní smutek až do dne pohřbu, jehož datum zatím nebylo stanoveno. Prezident Petr Pavel v kondolenčním telegramu uvedl, že Harald V. zanechává výraznou stopu v moderních dějinách Norska i v mezinárodním veřejném životě.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/zemrel-norsky-kral-harald-v-377043" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-kralovska-rodina-fotky-norsko-truchli-za-zesnuleho-krale-ten-novy-si-zvolil-panovnicke-jmeno-314121" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168004/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:36",
+      "day": "covered",
+      "headline": "Povodeň v Nepálu má přes 500 obětí, nově vzniklé jezero začalo přetékat",
+      "body": "Bilance středeční bleskové povodně na pomezí Nepálu a Tibetu dál roste. Seznam Zprávy s odvoláním na policii uvedly 547 mrtvých, Deník N citoval odpolední aktualizaci místních úřadů se 538 oběťmi; stovky lidí se stále pohřešují a jsou mezi nimi občané více než třiceti zemí. Jezero, které se vytvořilo po sesuvu části ledovce, v pátek začalo přetékat a nepálská policie varovala obyvatele před další povodní. Záchranné práce komplikuje hrozba dalších sesuvů. Nepálské ministerstvo zahraničí přitom podle agentury Reuters uvedlo, že země zahraniční pomoc při pátracích a záchranných operacích nepotřebuje, přestože ji nabídla řada států, jejichž občané se pohřešují. Česko podle Seznam Zpráv pošle 2,5 milionu korun.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/povodne-nepal-nepalska-vlada-kathmandu-humanitarni-pomoc_2608281636_elev" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-povodnich-v-nepalu-zemrelo-469-lidi-uvedla-policie-314079" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2167840/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:02",
+      "day": "covered",
+      "headline": "Island rozhodne v sobotním referendu o obnovení jednání s Evropskou unií",
+      "body": "Islanďané v sobotu v referendu rozhodnou, zda má vláda obnovit zastavená přístupová jednání s Evropskou unií. Nehlasují tedy o samotném členství. Podle Deníku N by šlo o první rozšíření Unie o západní zemi od roku 1995, nepočítáme-li Maltu. Výsledky mají být podle průzkumů extrémně vyrovnané; z nového průzkumu, o kterém informovala agentura Reuters, vyplynulo, že těsná většina voličů by obnovení jednání nepodpořila, což je opačný výsledek než u předchozích šetření.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168192/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/tradice-velrybarstvi-nebo-stabilita-eura-islandane-rozhoduji-o-obnoveni_2608281145_elev" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:07",
+      "day": "covered",
+      "headline": "Slovenská policie zadržela čtvrtého cizince kvůli chystanému útoku na výrobce dronů",
+      "body": "Slovenská policie v pátek zadržela dalšího občana Ukrajiny v souvislosti s překaženým útokem na výrobce bezpilotních systémů Skyeton na východním Slovensku. V případu už dříve obvinila tři cizince, podle Seznam Zpráv dva Lotyše a jednoho Ukrajince. Policejní prezidentka Jana Maškarová na tiskové konferenci uvedla, že policie nemá důkaz o tom, že by za chystaným útokem stálo Rusko. Zástupce ředitele jednotky ÚBOK Peter Brndiar podle iROZHLASu upozornil, že slovenský případ má jisté podobnosti s incidentem v Česku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/policie-na-slovensku-zadrzela-dalsiho-cizince-kvuli-chystanemu-utoku-na_2608281607_elev" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovenska-policie-oznamila-zadrzeni-ctvrteho-cizince-v-pripadu-prekazeneho-utoku-314126" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2167983/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:29",
+      "day": "covered",
+      "headline": "Pobaltské státy tlumí spekulace, které vyvolala cesta šéfa CIA do Moskvy",
+      "body": "Ředitel CIA John Ratcliffe měl podle amerických médií v Moskvě varovat Rusko před útokem na NATO, zejména na baltské státy. Tallinn, Riga a Vilnius ale podle Seznam Zpráv spekulace tlumí a tvrdí, že bezprostřední hrozba nevzrostla. Deník N v analýze upozorňuje, že se stále přesně neví, co se během osmi a půl hodiny Ratcliffeova pobytu v Moskvě dělo, a připouští, že návštěva se mírových rozhovorů týkat nemusela — ve hře je i samotný Trump, jeho rodina nebo zpravodajská data. Podle deníku by se mírové rozhovory mohly obnovit v Ženevě.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-tanky-neprijedou-baltske-staty-mirni-zvesti-po-ceste-sefa-cia-do-moskvy-314133" },
+        { "name": "Deník N", "url": "https://denikn.cz/2167618/byla-impozantni-nikoliv-utajovana-cesta-reditele-cia-ale-zprvu-zaskocila-i-trumpovy-poradce/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:15",
+      "day": "covered",
+      "headline": "Epidemie eboly v Kongu zasáhla 60 zdravotních zón, zemřelo už 2786 lidí",
+      "body": "Epidemie eboly na východě Konžské demokratické republiky se rozšířila do dalších dvou vytyčených zdravotních oblastí, celkem je nyní zasaženo 60 zón, uvedlo tamní ministerstvo zdravotnictví. Podle úřadů epidemie nabírá bezprecedentní tempo a šíří se rychleji, než se ji daří sledovat a zpomalovat. Od začátku epidemie bylo podle agentury AP potvrzeno 5794 případů, z nichž 2786 skončilo úmrtím.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/ebola-na-vychode-konga-se-rozsirila-nyni-zasahuje-do-60-zon-tvrdi-tamni_2608281415_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2167893/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-epidemie-eboly-v-kongu-se-rozsirila-do-dalsich-dvou-zdravotnich-oblasti-314119" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:56",
+      "day": "covered",
+      "headline": "Česká ekonomika ve druhém čtvrtletí vzrostla o 1,9 procenta",
+      "body": "Hrubý domácí produkt Česka ve druhém čtvrtletí meziročně vzrostl o 1,9 procenta, tedy o desetinu procentního bodu méně, než uváděl původní červencový odhad Českého statistického úřadu. Růst táhla především silnější spotřeba domácností a investice firem, brzdil ho naopak pokles stavu zásob a nižší přebytek zahraničního obchodu. Počet odpracovaných hodin meziročně vzrostl o 2,8 procenta a celkové mzdové náklady o více než sedm procent.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/ceska-ekonomika-zrychluje-firmam-rostou-mzdove-naklady-lide-vice-utraceji-1435295" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:00",
+      "day": "covered",
+      "headline": "Šéf Volkswagenu představí 4. září plán historické restrukturalizace koncernu",
+      "body": "Generální ředitel Volkswagenu Oliver Blume předloží 4. září dozorčí radě plán historické restrukturalizace koncernu. V sázce jsou podle E15 desítky tisíc pracovních míst i budoucnost několika německých továren. Pokud Blume před dozorčí radou neuspěje, má prý připravený záložní plán, jak svého záměru přesto dosáhnout.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/bitva-o-100-tisic-mist-sef-volkswagenu-ma-plan-jak-obejit-odpor-dozorci-rady-1435305" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:41",
+      "day": "covered",
+      "headline": "Jmění stovky nejbohatších Čechů a Slováků vzrostlo o 19 procent, žebříček vede Strnad",
+      "body": "Souhrnné jmění stovky nejbohatších Čechů a Slováků vzrostlo meziročně o 19 procent na 4,069 bilionu korun, tedy víc, než činí celý státní dluh České republiky. Hlavními motory rekordního růstu byly podle Deníku zbrojní průmysl a energetika, které vygenerovaly přes 60 procent celkového přírůstku. Žebříček vede Strnad, elitní šestice miliardářů ovládá majetek v hodnotě téměř dvou bilionů korun.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/ekonomika/zebricek-nejbohatsich-cechu-a-slovaku/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:25",
+      "day": "covered",
+      "headline": "Soud označil zařazení Anthropicu na černou listinu Pentagonu za protiprávní",
+      "body": "Technologická firma Anthropic uspěla u soudu ve sporu s Pentagonem, který ji označil za „bezpečnostní riziko dodavatelského řetězce“. Soud toto rozhodnutí amerického ministerstva obrany označil za protiprávní a nepodložené, uvedly podle ČT24 agentury Reuters a AFP. Spor vychází z toho, že Anthropic odmítá, aby jeho technologie byly používány například v plně autonomních zbraních, s čímž resort nesouhlasí. Ministerstvo se může odvolat.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/firma-anthropic-uspela-u-soudu-ve-sporu-s-pentagonem-377036" },
+        { "name": "Hacker News", "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "covered",
+      "headline": "Anthropic nabídne americkým školám Claude for Teachers zdarma",
+      "body": "Anthropic zpřístupnil nabídku Claude for Teachers ověřeným americkým základním a středním školám a školním okresům, a to zdarma pro organizace, které se zaregistrují do 30. června 2027. Balík obsahuje výukové dovednosti opřené o poznatky pedagogického výzkumu, napojení na vzdělávací standardy všech padesáti amerických států, dvě nové dovednosti pro přípravu lekcí a ověřování porozumění a přístup do Claude for K-12 Academy s bezplatnými kurzy. Pro správce nabízí jednotné přihlašování, řízení přístupu podle rolí, správu domén a soulad s americkým zákonem FERPA na ochranu studentských dat.",
+      "sources": [
+        { "name": "Claude Blog", "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:33",
+      "day": "covered",
+      "headline": "Open source hra Luanti zmizela z Google Play kvůli neopodstatněnému AI oznámení o autorských právech",
+      "body": "Vývojáři open source herního enginu Luanti na svém blogu uvedli, že jejich aplikaci Google odstranil z obchodu Play na základě neopodstatněného oznámení o porušení autorských práv, které vzniklo pomocí umělé inteligence.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "11:15",
+      "day": "covered",
+      "headline": "Nad ránem bylo nad Českem vidět téměř úplné zatmění Měsíce",
+      "body": "Nad značnou částí Evropy se v pátek nad ránem dalo pozorovat téměř úplné zatmění Měsíce. ČT24 uvádí, že stín Země skryl 96 procent měsíčního kotouče, iROZHLAS mluví o více než devadesáti procentech. Otevřené kvůli tomu byly například hvězdárny v Rokycanech a v Plzni. K jevu dochází, když se Země ocitne mezi Sluncem a Měsícem a vrhá na něj svůj stín.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/zatmeni-mesice-nad-ranem-skrylo-96-procent-jeho-kotouce-377041" },
+        { "name": "iROZHLAS Sport", "url": "https://www.irozhlas.cz/veda-technologie/vesmir/stin-zeme-zakryl-vic-nez-devadesat-procent-mesice-castecne-zatmeni-pozorovali_2608281115_jos" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:15",
+      "day": "covered",
+      "headline": "Voxpot se ptá, co drží Česko ve stagnaci: oligarchové, nebo neschopní politici",
+      "body": "Analýza Voxpotu popisuje, jak se v Česku dále prohlubují velké sociální propasti. Nerovný přístup ke vzdělání nebo vysoké zdanění nízkopříjmové práce podle textu brzdí celou zemi, a ptá se, jak se ze setrvalé společenské a ekonomické stagnace vymanit.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/cesko-nefunguje-zli-oligarchove-nebo-neschopni-politici/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:45",
+      "day": "prev",
+      "headline": "Plzeň smazala tříbrankové manko a po výhře 5:1 postoupila do Evropské ligy",
+      "body": "Viktoria Plzeň porazila ve včerejší odvetě závěrečného předkola Evropské ligy doma Crvenu zvezdu Bělehrad 5:1 po prodloužení a po obratu postoupila do hlavní fáze soutěže; v úvodním duelu v Srbsku přitom prohrála 0:3. V osmé minutě poslal Plzeň do vedení Prince Adu, vzápětí srovnal Mirko Ivanič, na začátku druhé půle Adu neproměnil penaltu. Podle Sport.cz zavinil rozhodující penaltu v samém závěru bývalý slávista Muhammed Cham a srbská média se do něj pustila. Záložník Lukáš Červ označil večer za největší zážitek za tři roky v Plzni a vyzdvihl přínos nového trenéra Radoslava Kováče.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/blaznivy-vecer-v-plzni-viktoria-si-po-epickem-obratu-zahraje-evropskou-ligu-158622" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-evropska-liga-je-zraly-na-psychologa-po-kolapsu-v-plzni-pali-srbska-media-do-byvaleho-slavisty-5520408" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:46",
+      "day": "prev",
+      "headline": "Jablonec vyřadil po penaltách Glasgow Rangers a postoupil do Konferenční ligy",
+      "body": "Fotbalisté Jablonce vyzráli včera v odvetě závěrečného předkola Konferenční ligy na Glasgow Rangers 1:0 po prodloužení, penaltový rozstřel vyhráli 4:3 a postoupili do hlavní soutěže. Trenér Luboš Kozel řekl, že je na tým pyšný a že Severočeši byli podle jeho názoru lepší než slavný soupeř. Pro Sport.cz novinář BBC Alasdair Lamont uvedl, že „propadák Rangers je ještě horší než ten Celtiku“, který v týdnu vypadl z Ligy mistrů s LASK Linec.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-urval-vitezstvi-nad-rangers-po-penaltach-158620" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-evropska-konferencni-liga-vyrazeni-rangers-s-jabloncem-je-jeste-vetsi-ostuda-nez-blamaz-celtiku-rika-respektovany-novinar-bbc-5520395" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:01",
+      "day": "covered",
+      "headline": "Sparta a Plzeň znají soupeře v Evropské lize, Jablonec vyzve Brighton i Salahův Trabzonspor",
+      "body": "Los rozdělil soupeře v ligových fázích evropských pohárů. Spartu v Evropské lize čeká Crystal Palace, Olympiakos Pireus, Rennes, Salcburk, Ararat-Armenia a znovu Alkmaar, Plzeň narazí na Benfiku, Real Sociedad, Ferencváros a Union Saint-Gilloise; oba české týmy mají navíc společné soupeře Bournemouth a Lilleström. Jablonec v Konferenční lize vyrazí do Freiburgu, na Trabzonspor s Muhammadem Salahem a do FC Riga, doma přivítá Brighton, Lugano a Iberii Tbilisi. Slavia se ve čtvrtek večer dozvěděla, že v Lize mistrů si doma zopakuje duel s Arsenalem a přivítá i Bayern Mnichov a Aston Villu, vyjede naopak do Porta.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/tezky-los-pro-jablonec-severocesi-vyzvou-brighton-freiburg-nebo-trabzonspor-158636" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-evropska-liga-plzen-sparta-konferencni-liga-jablonec_2608281344_lbk" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-si-zopakuje-domaci-duel-s-arsenalem-a-vyrazi-do-mnichova-158617" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:48",
+      "day": "covered",
+      "headline": "Fuksa obhájil na MS v Poznani zlato na kilometru, dělí se o něj s Maďarem Fejesem",
+      "body": "Kanoista Martin Fuksa obhájil na mistrovství světa v Poznani titul na kilometrové trati. Po třech čtvrtinách závodu byl ještě pátý, závěrečným finišem ale soupeře dotáhl a cílem projel současně s Maďarem Dánielem Fejesem, s nímž se o zlato dělí. Olympijský vítěz z Paříže postoupil do finále i na pětistovce. Kajakářka Barbora Betlachová skončila ve finále kilometru čtvrtá, od medaile ji dělila jedna sekunda a 35 setin.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/rychlostni-kanoistika/ms-v-rychlostni-kanoistice-fuksu-ceka-finale-na-kilometru-158635" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/kanoista-fuksa-obhajil-titul-mistra-sveta-na-kilometru-betlachovou-delilo-od_2608281548_mim" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:10",
+      "day": "covered",
+      "headline": "Schick vysvětlil konec v reprezentaci, podle něj se hráči jezdili znehodnocovat",
+      "body": "Útočník Leverkusenu Patrik Schick poprvé promluvil po ukončení reprezentační kariéry. V podcastu sázkové společnosti Fortuna řekl, že mu národní tým „víc bral, než dával“, a že se do něj hráči jezdili znehodnocovat. „Mistrovství světa mě utvrdilo, že se nikam neposouváme,“ uvedl třicetiletý fotbalista k šampionátu v USA, Kanadě a Mexiku, kde Česko skončilo už ve skupině; podle jeho názoru tým turnaj pojal laxně. Na svém rozhodnutí zatím trvá a s novým trenérem českého týmu Santim Deniou se dosud nesetkal.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-reprezentace-schick-poprve-promluvil-po-konci-v-narodaku-reprezentace-mi-vic-brala-nez-davala-jezdili-jsme-se-znehodnocovat-5520432" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/schickovi-reprezentace-spis-brala-nez-davala-prohlasil-mistrovstvi-sveta-pojal_2608281705_mim" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/schickovi-reprezentace-spis-neco-brala-nez-davala-vratit-se-do-ni-nehodla-158639" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:58",
+      "day": "prev",
+      "headline": "Na Diamantové lize v Curychu padly včera dva světové rekordy v překážkových bězích",
+      "body": "Mítink Diamantové ligy v Curychu přinesl dva světové rekordy krátce po sobě. Brazilec Alison dos Santos zlepšil historické maximum na 400 metrů překážek a o pár minut později překonala světový rekord na 100 metrů překážek Američanka Masai Russellová. Podle ČT Sport zaběhla výtečnou osmistovku i Švýcarka Audrey Werrová a světový rekord Jarmily Kratochvílové byl v ohrožení, nakonec ale odolal.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/diamantova-liga-v-curychu-158612" }
+      ]
+    }
+  ]
+}
