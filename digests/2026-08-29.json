@@ -1,0 +1,355 @@
+{
+  "date": "2026-08-29",
+  "covers": "2026-08-29",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra zataženo a beze srážek, přes den až 27 °C. Kvalita ovzduší je podle předpovědi přijatelná.",
+    "outlook": "V pondělí se mají vrátit bouřky s vydatným deštěm.",
+    "days": [
+      { "date": "2026-08-30", "icon": "cloudy", "temp_max_c": 26.9, "temp_min_c": 13.6 },
+      { "date": "2026-08-31", "icon": "storm", "temp_max_c": 23.9, "temp_min_c": 15.8 },
+      { "date": "2026-09-01", "icon": "cloudy", "temp_max_c": 21.4, "temp_min_c": 14.2 },
+      { "date": "2026-09-02", "icon": "cloudy", "temp_max_c": 22.0, "temp_min_c": 12.5 }
+    ]
+  },
+  "highlights": [
+    "Babiš na Bezpečnostní radě státu vyčetl zpravodajcům, že se o dezinformační kampani o polských nárocích na české území dozvěděl až z médií.",
+    "Při ruském útoku na okolí Buči zemřelo nejméně 37 lidí, bilance povodní na pomezí Nepálu a Tibetu stoupla na 626 mrtvých.",
+    "Trump oznámil ropnou dohodu s Venezuelou, která má USA dát kontrolu nad více než 65 miliardami barelů zásob.",
+    "Kanoista Martin Fuksa přidal na MS v Poznani stříbro na pětistovce a má osmnáctou medaili ze světových šampionátů."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:42",
+      "day": "covered",
+      "headline": "Babiš vyčetl zpravodajcům, že se o dezinformacích o Polsku dozvěděl až z médií",
+      "body": "Premiér Andrej Babiš (ANO) na čtvrtečním mimořádném jednání Bezpečnostní rady státu vyčetl zpravodajským službám, že se o dezinformační kampani o polských územních nárocích vůči Česku nedozvěděl od nich, ale z médií. Kampaň tvrdila, že Polsko chce zabrat část českého území; média na ni podle iROZHLASu upozornila v úterý a služby podle Babiše informovaly vládu až o dva dny později. Prezident Petr Pavel se proti operaci, z níž je podezřelé Rusko, vymezil přímo na Těšínsku. „Cílená provokace. Jsem moc rád, že na ni lidé neslyší,“ řekl podle Seznam Zpráv a dodal, že Rusko se dlouhodobě snaží zasít na Západě sváry.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/meli-jsme-pozde-babis-vycetl-zpravodajcum-ze-se-o-dezinformacich-o-polsku_2608291632_med" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168768/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-cilena-provokace-odsoudil-prezident-kampan-snazici-se-rozestvat-cechy-a-polaky-314150" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "22:33",
+      "day": "prev",
+      "headline": "Z Babišových přehrad může podle Deníku N těžit Agrofert, skupuje chmelnice v dotčených oblastech",
+      "body": "Vláda Andreje Babiše kvůli suchu plánuje výstavbu desítek přehrad. Na Rakovnicku a Žatecku by z miliardové výstavby vodních nádrží mohl podle Deníku N těžit také holding Agrofert, který v oblasti mohutně investoval a skupoval chmelnice. Kritici zároveň varují před negativními dopady na řeku Ohři, z níž se má voda pro nádrže brát.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2167177/z-babisovych-prehrad-muze-tezit-agrofert-skupuje-chmelnice-tam-kde-maji-nadrze-vzniknout/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:36",
+      "day": "prev",
+      "headline": "Policie našla u rodičů Jiřikovského 33 milionů v hotovosti, popisuje obžaloba v bitcoinové kauze",
+      "body": "Obžaloba v bitcoinové kauze popisuje také finanční poměry rodiny Tomáše Jiřikovského. Policie u jeho rodičů našla více než 33 milionů korun v hotovosti. Přes účty jeho bratra, který podle státní zástupkyně téměř dvacet let nebyl oficiálně zaměstnaný ani nepodnikal, zase prošly desítky milionů korun.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2168065/desitky-milionu-pres-bratrovy-ucty-a-33-milionu-v-hotovosti-u-rodicu-co-obzaloba-rika-o-jirikovskeho-rodine/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:30",
+      "day": "covered",
+      "headline": "Kyberkriminality přibývá, podvodníci zneužili i data pracovníků NÚKIB",
+      "body": "Za prvních sedm měsíců roku 2026 vyšetřují detektivové přes čtrnáct tisíc kybernetických trestných činů, tedy zhruba o dva tisíce víc než loni za stejnou dobu. Přes dvě třetiny případů se týkaly podvodů. Útočníci se podle ČT24 nejčastěji vydávají za policisty nebo bankéře a zneužívají přitom osobní údaje skutečných pracovníků institucí, mezi nimi i Národního úřadu pro kybernetickou a informační bezpečnost.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pribyva-kyberkriminality-podvodnici-zneuzili-i-data-lidi-z-nukib-377071" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "08:13",
+      "day": "covered",
+      "headline": "Česko zaplatilo za covidové vakcíny 19 miliard, využilo méně než polovinu dávek",
+      "body": "Za covidové vakcíny Česko od roku 2020 zaplatilo zhruba 19 miliard korun. Na základě letos končící smlouvy z počátku pandemie odebralo 41 milionů dávek a využilo jich méně než polovinu. O podmínkách zajištění vakcín pro další období se podle ministerstva zdravotnictví jedná; pro nadcházející sezonu bude k dispozici 900 000 dávek.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168571/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:17",
+      "day": "covered",
+      "headline": "Hasiči v noci zachraňovali pět lezců uvízlých v Adršpašských skalách",
+      "body": "Tři ženy a dva muži uvázli při výstupu na skalní útvar Milenci v Adršpašských skalách na Náchodsku, kde strávili více než deset hodin. O pomoc si zavolali před třetí hodinou ráno. Jeden z nich zůstal při pokusu o slanění viset na laně, další čtyři podle iDNES čekali těsně pod vrcholem. Podle mluvčí krajských hasičů byli zmoklí, prochladlí a vyčerpaní, nikdo se ale nezranil; zásah skončil kolem čtvrt na šest ráno.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/skaly-lezci-uvazli-vycerpani-zachrana-adrspasske-skaly.A260829_092423_hradec-zpravy_zdo#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/898732-pet-lidi-uvazlo-v-noci-v-adrspachu-ze-skaly-je-sundali-hasici.html" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168603/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:29",
+      "day": "covered",
+      "headline": "Trenér Horejš nechce, aby porážka s Panathinaikosem přebila evropské tažení Hradce",
+      "body": "Porážka 1:2 s řeckým Panathinaikosem ukončila kvalifikační tažení fotbalistů Hradce Králové, kterým k postupu do hlavní fáze evropských pohárů chybělo jen málo. „Nechci, aby výsledek přebil to, co jsme v Evropě dokázali, byla by to škoda,“ řekl v rozhovoru pro iDNES trenér David Horejš. Podle serveru má tým za sebou šest týdnů, v nichž šestkrát ukázal, že v Evropě nepatří mezi outsidery.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/fotbal/pohary/hradec-kralove-panathinaikos-david-horejs-porazka-rozhovor.A260829_964239_fot_pohary_jrv#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:30",
+      "day": "covered",
+      "headline": "Hradcem dnes večer projede kolona stovek motorkářů",
+      "body": "Do ulic Hradce Králové dnes večer vyrazí stovky motorkářů. Akce Night ride on a motorcycle se ve městě koná už popatnácté.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898739-stovky-motorek-dnes-ovladnou-nocni-hradec-kolona-projede-ulicemi-mesta.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:35",
+      "day": "covered",
+      "headline": "Ruský útok na okolí Buči si vyžádal nejméně 37 mrtvých",
+      "body": "Při ruském útoku na oblast kolem ukrajinského města Buča nedaleko Kyjeva zemřelo nejméně 37 lidí a dalších 42 bylo zraněno. Uvedl to podle agentury Reuters šéf správy Kyjevské oblasti Tymur Tkačenko s tím, že bilance nemusí být konečná. Z postižené oblasti se evakuuje 381 lidí, mezi nimi 59 dětí; hlavním cílem zatím neznámého typu ruského dronu byla podle Deníku N obec Myla. Rusko podle Ukrajinské pravdy zaútočilo v noci na dnešek na Ukrajinu balistickými raketami a 267 drony různých typů, zásahy byly zaznamenány na patnácti místech a v Kyjevě byli zraněni dva lidé.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusky-utok-na-oblast-kolem-buci-neprezilo-27-lidi-uvedly-mistni-urady-377079" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-nocnim-ruskem-utoku-v-okoli-ukrajinske-buci-zahynulo-27-lidi-uvedly-urady-314160" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168638/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:06",
+      "day": "covered",
+      "headline": "Povodně na pomezí Nepálu a Tibetu mají 626 obětí, čínská média o tragédii mlčí",
+      "body": "Bilance bleskových povodní na hranici Nepálu a Tibetu stoupla na nejméně 626 mrtvých a pohřešuje se téměř tři tisíce lidí. Podle ČT24 jde o 2426 pohřešovaných v Nepálu a nejméně 558 v Tibetu, Deník N s odvoláním na Reuters uvádí, že nejméně 540 z nich jsou cizinci. Pátrání po přeživších komplikuje déšť a mlha, kvůli počasí musely úřady operace přerušit, odborníci varují před druhotnými katastrofami a nepálský ministr financí požádal o zahraniční pomoc. O rozsahu tragédie na tibetské straně podle iROZHLASu čínská státní média mlčí a cenzura maže příspěvky ze sociálních sítí; organizace International Campaign for Tibet vyzvala čínské úřady, aby zveřejnily úplné a ověřitelné informace o škodách a obětech.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/pocet-obeti-povodne-v-nepalu-prekrocil-sest-set-377076" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168772/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/pohroma-o-ktere-se-mlci-cinska-media-cenzuruji-zaplavy-v-tibetu-pocty-obeti-drzi_2608291606_elev" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "07:57",
+      "day": "covered",
+      "headline": "Trump oznámil ropnou dohodu s Venezuelou, USA mají získat kontrolu nad 65 miliardami barelů",
+      "body": "Spojené státy uzavřely ropnou dohodu s Venezuelou a zajistily si podle Donalda Trumpa většinovou kontrolu nad více než 65 miliardami barelů z prokázaných venezuelských zásob ropy, což odpovídá zhruba pětině prokázaných rezerv země. Americký prezident to oznámil v noci na sobotu na své síti Truth Social a tvrdí, že jde o největší ropnou dohodu ve světové historii. Podle Seznam Zpráv má dohoda přinést zvýšení těžby a americké investice a Washington bude mít kontrolu nad zásobami v sedmnácti strategických polích. Dosažení dohody potvrdila i prozatímní venezuelská prezidentka Delcy Rodríguezová.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-oznamil-uzavreni-ropne-dohody-s-venezuelou-377073" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-trump-usa-uzavrely-ropnou-dohodu-s-venezuelou-zajistily-si-cast-jejich-zasob-314151" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168548/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:01",
+      "day": "covered",
+      "headline": "Merz chce podle Politico obvinit Rusko z pokusu o dronový útok na lipské letiště",
+      "body": "Německý kancléř Friedrich Merz se chystá obvinit Rusko z pokusu o dronový útok na lipské letiště a souběžně s novými unijními sankcemi oznámit vlastní rozsáhlé sankce na ruské subjekty. Píše o tom server Politico, podle kterého je oznámení naplánované na začátek příštího týdne, možným termínem je úterý, kdy se unijní ministři sejdou v Irsku. Generální tajemník NATO Mark Rutte podle polského premiéra Donalda Tuska varoval Varšavu před nadcházející eskalací ze strany Ruska. „Nadcházejících šest měsíců bude rozhodujících a my – jako Polsko i NATO – musíme být připraveni na různé scénáře,“ napsal Tusk po debatě s Ruttem na síti X.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168800/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168770/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:00",
+      "day": "covered",
+      "headline": "Na Islandu začalo referendum o obnovení přístupových jednání s Evropskou unií",
+      "body": "Na Islandu dnes v 11:00 začalo referendum o obnovení jednání o vstupu země do Evropské unie. Průzkumy podle ČT24 ukazují, že těsná většina Islanďanů je proti obnovení rozhovorů. E15 píše, že pokud by se občané vyslovili kladně, mohl by severský stát do unie vstoupit už během následujících dvou let; česká vláda přijetí Islandu podporuje, v některých oblastech by pro ni ale mohl být oponentem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-islandu-zacalo-referendum-o-obnoveni-pristupovych-jednani-s-eu-377077" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/island-v-referendu-rozhoduje-o-priblizeni-k-eu-jak-to-ovlivni-ceske-zajmy-v-bruselu-1435190" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-islandane-v-referendu-rozhodnou-o-obnoveni-pristupovych-jednani-s-eu-314156" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:03",
+      "day": "covered",
+      "headline": "V Nigeru se vzbouřili vojáci, junta tvrdí, že má situaci pod kontrolou",
+      "body": "Vzbouření vojáci v Nigeru zaútočili na letiště a prezidentskou budovu v hlavním městě Niamey. Podle zdrojů agentury Reuters se v místě ozývala nepřetržitá střelba a výbuchy a na krátkou dobu bylo přerušeno vysílání státní televize a rozhlasu. Za útoky podle nigerského ministerstva obrany stáli vzbouření vojáci, vládnoucí junta tvrdí, že situaci ovládla.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-nigeru-se-vzbourili-vojaci-vladnouci-junta-ma-pry-situaci-pod-kontrolou-377080" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-nigerskem-hlavnim-meste-byly-podle-agentur-slyset-vystrely-a-exploze-314155" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "07:35",
+      "day": "covered",
+      "headline": "Slovenská opozice viní CSG z vyvedení téměř dvou miliard ze zbrojovky ZVS",
+      "body": "Slovenská vláda podle tamní opozice umožnila skupině CSG vyvést téměř dvě miliardy korun ze zbrojovky ZVS, kterou CSG vlastní napůl se slovenským státem. Strnadova skupina i slovenské ministerstvo obrany obvinění odmítají.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-csg-podle-slovenske-opozice-vyvedla-z-tamni-zbrojovky-temer-dve-miliardy-314147" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:12",
+      "day": "covered",
+      "headline": "Autobusy pro náhradní dopravu Českých drah dodá SOR Libchavy",
+      "body": "Tendr na autobusy pro náhradní dopravu při výlukách vyhrál český výrobce SOR Libchavy, který dceřiné společnosti Českých drah ČD Bus dodá až 122 vozidel. Seznam Zprávy dodávají, že soutěž se podařilo dokončit až na třetí pokus.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-nahradni-autobusy-pro-vyluky-spolecnosti-cd-bus-doda-sor-libchavy-314159" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168698/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:36",
+      "day": "covered",
+      "headline": "Čínský výrobce paměťových čipů CXMT žaluje Pentagon kvůli zařazení mezi vojenské firmy",
+      "body": "Americké ministerstvo obrany vede seznam firem, které podporují čínskou armádu, a figuruje na něm i čínský výrobce paměťových čipů CXMT. Společnost nyní požaduje vyškrtnutí ze seznamu a tvrdí, že jí zařazení poškozuje dobré jméno.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-cinsky-vyrobce-cipu-cxmt-zaluje-pentagon-ktery-ho-oznacil-za-vojenskou-firmu-314158" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "03:47",
+      "day": "covered",
+      "headline": "Vývojářský nástroj Cursor koupila SpaceX, OpenAI k tomu zveřejnila své rozhodnutí",
+      "body": "Nástroj pro programátory Cursor koupila společnost SpaceX. Vyplývá to z příspěvku na blogu OpenAI nazvaného „Naše rozhodnutí ohledně Cursoru po jeho akvizici společností SpaceX“, který se dostal na přední místa Hacker News s více než šesti sty body.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:28",
+      "day": "covered",
+      "headline": "Většina státních hradů a zámků bude v neděli zdarma, pozor na podvodné vstupenky",
+      "body": "V neděli umožní většina státních hradů a zámků po celé republice prohlídky zdarma. Na internetu se přesto objevily inzeráty, které tyto bezplatné vstupenky nabízejí k prodeji; policie zatím podle Seznam Zpráv neeviduje konkrétní případy podvodů. První zářijovou neděli se pak zdarma otevřou i státní muzea a galerie a podle Deníku N to budou opakovat každou první neděli v měsíci.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ceske-hrady-a-zamky-budou-mit-prohlidky-zdarma-pozor-na-podvodne-vstupenky-314161" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2168585/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "09:01",
+      "day": "covered",
+      "headline": "Válka na Ukrajině směřuje k totální válce, říká oceňovaný reportér Kyiv Independent",
+      "body": "Konflikt na Ukrajině podle novináře ukrajinského webu Kyiv Independent Francise Farella rychle eskaluje a stává se nepředvídatelným. „Konflikt na Ukrajině směřuje k totální válce. Donbas čelí úplnému zničení, normální život tam do zimy zmizí,“ odhaduje v rozhovoru pro Deník N. Zároveň upozorňuje, že Ukrajina musí víc než kdy dřív bojovat s korupcí, protože opotřebovávací válka je válkou čísel a zdrojů a konec se podle něj neblíží. Farell o válce píše od roku 2022 a v roce 2023 za svou práci dostal cenu Bayeux Calvados-Normandy Award.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2166954/konflikt-na-ukrajine-smeruje-k-totalni-valce-donbas-celi-uplnemu-zniceni-rika-ocenovany-valecny-reporter/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "17:00",
+      "day": "covered",
+      "headline": "Aféra s toxickým mlékem se může opakovat, chybí peníze, říká hlavní hygienička",
+      "body": "Děti podle Seznam Zpráv měsíce pily kojenecké mléko s toxinem a stát testy přes prosby rodičů neudělal. Hlavní hygienička Barbora Macková v rozhovoru varuje, že se kauza může zopakovat, protože na to úřady nemají peníze, a zároveň obhajuje jejich postup i statisícovou odměnu, kterou dostala.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-afera-s-toxickym-mlekem-se-muze-opakovat-nemame-penize-rika-hlavni-hygienicka-313949" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:01",
+      "day": "covered",
+      "headline": "Fuksa má na MS v Poznani stříbro na pětistovce a osmnáctou medaili ze světových šampionátů",
+      "body": "Kanoista Martin Fuksa obhájil na mistrovství světa v Poznani stříbro na trati 500 metrů a připsal si celkově osmnáctou medaili ze světových šampionátů. Rychlejší byl jen Brazilec Isaquias Queiroz, a to o 24 setiny sekundy; loni v Miláně Fuksu předčil Rus Zachar Petrov. Závod hodně ovlivnil silný vítr a vlny. „Dříve bych nebojoval tak dobře, jako dnes,“ řekl Fuksa v cíli Radiožurnálu Sport. Kanoistka Denisa Řáhová obsadila ve stejné disciplíně šesté místo, což je její nejlepší výsledek na MS v kariéře.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/fuksu-ve-finale-petistovky-trapily-vlny-drive-bych-nebojoval-tak-dobre-jako-dnes_2608291701_mim" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/rychlostni-kanoistika/dostal-pojede-na-ms-finale-petistovky-fuksum-postup-tesne-unikl-158653" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/vodni-sporty-dostal-na-petistovce-postoupil-do-finale-ms-v-poznani-ho-ceka-boj-o-obhajobu-titulu-5520741" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:18",
+      "day": "covered",
+      "headline": "Slavia rozehraje Ligu mistrů 10. září doma proti Lens, Bayern ji čeká v prosinci",
+      "body": "Fotbalisté Slavie vstoupí do hlavní fáze Ligy mistrů ve čtvrtek 10. září domácím zápasem proti francouzskému Lens. Arsenal přijede do Prahy 4. listopadu, v Mnichově se Pražané představí 8. prosince a základní část zakončí 27. ledna doma proti Aston Ville. Soutěž se třetím rokem hraje jako jedna liga.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-rozehraje-hlavni-fazi-ligy-mistru-doma-proti-lens-158657" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-slavia-zna-program-v-lize-mistru-zacne-doma-5520758" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:20",
+      "day": "covered",
+      "headline": "Makar podepsal rekordní smlouvu NHL, jako první v historii ligy překročil 20 milionů dolarů na sezonu",
+      "body": "Obránce Cale Makar podepsal s Coloradem osmiletou smlouvu na 163,2 milionu dolarů, tedy zhruba 3,38 miliardy korun. Sedmadvacetiletý Kanaďan si díky ní jako první hráč v historii NHL vydělá v průměru přes 20 milionů dolarů za sezonu. Kontrakt spoluhráče českého útočníka Martina Nečase začne platit od ročníku 2027/28.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/hokej/makar-podepsal-s-coloradem-rekordni-smlouvu-za-osm-let-dostane-pres-160-milionu-dolaru-158651" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/hokej-nhl-rekordni-smlouva-v-nhl-necasuv-spoluhrac-prorazil-magickou-hranici-5520732" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:12",
+      "day": "covered",
+      "headline": "Norris prodloužil smlouvu s McLarenem do roku 2030",
+      "body": "Úřadující mistr světa formule 1 Lando Norris podepsal s McLarenem prodloužení smlouvy, které ho ve stáji udrží nejméně do konce sezony 2030. Šestadvacetiletý Brit, jenž do týmu přišel v roce 2017, by v něm rád dokončil kariéru. Podle Sport.cz se z něj stane třetí nejlépe placený pilot po Maxi Verstappenovi a Lewisi Hamiltonovi s ročním platem kolem 60 milionů eur.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/moto-formule-1-mistr-sveta-formule-1-lando-norris-prodlouzil-smlouvu-s-mclarenem-5520749" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/motorsport/norris-prodlouzil-smlouvu-s-mclarenem-do-roku-2030-ve-staji-chce-dokoncit-karieru-158654" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:04",
+      "day": "covered",
+      "headline": "Liverpool se podle médií dohodl s PSG na přestupu Barcoly za až 123 milionů liber",
+      "body": "Liverpool se několik dnů před úterní uzávěrkou přestupů dohodl s Paris Saint-Germain na příchodu útočníka Bradleyho Barcoly. Uvedla to agentura AP s odkazem na svůj zdroj s tím, že anglický klub za francouzského reprezentanta zaplatí až 123 milionů liber, tedy téměř 3,5 miliardy korun.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-premier-league-velka-posila-pro-liverpool-podle-medii-se-dohodl-s-psg-na-prestupu-utocnika-5520767" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:54",
+      "day": "covered",
+      "headline": "Havlíčková a Svrčina prošli kvalifikací a poprvé si zahrají hlavní soutěž US Open",
+      "body": "Lucie Havlíčková a Dalibor Svrčina zvládli rozhodující kola kvalifikace a poprvé v kariéře se představí v hlavní soutěži grandslamového turnaje. Jednadvacetiletá sparťanská tenistka Havlíčková se podle Sport.cz probila mezi grandslamovou elitu na třetí pokus v tříkolové kvalifikaci. Svrčina zdolal domácího Mackenzieho McDonalda 4:6, 6:2, 7:5 a podle vlastních slov musel překousnout provokace amerického publika. Vendula Valdmannová naopak neuspěla, na Američanku Elvinu Kalievovou nestačila.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/havlickova-si-poprve-zahraje-v-hlavni-soutezi-grandslamu-uspel-i-svrcina-158643" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-cesky-tenista-ustal-provokace-publika-i-spinavou-taktiku-po-mecbolu-to-jiskrilo-u-site-5520747" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:07",
+      "day": "covered",
+      "headline": "Plzeň přivedla z Wolfsburgu slovenského obránce Vavra",
+      "body": "Fotbalisty Plzně posílil slovenský reprezentant Denis Vavro. Třicetiletý střední obránce a účastník Eura 2024 přestoupil do Viktorie z německého Wolfsburgu, který na jaře sestoupil do druhé ligy, a podepsal dvouletou smlouvu. Přichází den poté, co klub představil obránce Adama Gabriela.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-evropska-liga-viktoria-plzen-wolfsburg-prestup-vavro_2608291307_lbk" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-plzen-ma-dalsi-posilu-upsal-se-ji-slovensky-brousek-5520750" }
+      ]
+    }
+  ]
+}
