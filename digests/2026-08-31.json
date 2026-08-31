@@ -1,0 +1,339 @@
+{
+  "date": "2026-08-31",
+  "covers": "2026-08-31",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, denní teplota vystoupá na 22 °C. Foukat bude čerstvý vítr s nárazy přes 30 kilometrů v hodině, kvalita ovzduší má být přijatelná.",
+    "days": [
+      { "date": "2026-09-01", "icon": "cloudy", "temp_max_c": 22.4, "temp_min_c": 14.5 },
+      { "date": "2026-09-02", "icon": "cloudy", "temp_max_c": 22.4, "temp_min_c": 13.5 },
+      { "date": "2026-09-03", "icon": "fog", "temp_max_c": 23.8, "temp_min_c": 10.4 },
+      { "date": "2026-09-04", "icon": "rain", "temp_max_c": 27.4, "temp_min_c": 16.5 }
+    ]
+  },
+  "highlights": [
+    "Vláda navrhla rozpočet na rok 2027 se schodkem 389 miliard korun, druhým nejvyšším v historii samostatného Česka.",
+    "Konflikt USA a Íránu se po několika týdnech klidu znovu rozhořel a velkoobchodní cena plynu v Evropě vyskočila nad 70 eur za megawatthodinu.",
+    "Vrchní soud pravomocně potvrdil europoslankyni Janě Nagyové podmíněný trest v kauze Čapí hnízdo."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:08",
+      "headline": "Vláda navrhla rozpočet na příští rok se schodkem 389 miliard korun",
+      "body": "Babišova vláda představila návrh státního rozpočtu na rok 2027 se schodkem 389 miliard korun. Podle E15 by šlo o druhý nejvyšší deficit v historii samostatného Česka, vyšší mělo zemi pouze v pandemickém roce 2021, a schodek přesahuje tři procenta HDP. Ministryně financí Alena Schillerová (ANO) obhajuje návrh rekordními investicemi a tvrdí, že jiná cesta není; výrazně mají vzrůst také výdaje na obranu a stát dál zaplatí poplatky za obnovitelné zdroje. Deník N upozorňuje, že vláda tím překonala očekávání ekonomů i analytiků a že menší deficit měl stát i v době covidu. V analýze pak Deník N mluví o triku s čísly a o ošizeném školství. Podle ekonomů, které cituje Deník.cz, chce vláda zvýšit dluh státu oproti letošku asi o 80 miliard korun, přičemž plnou čtvrtinu tohoto navýšení spolkne splácení dluhu. Nejvyšší kontrolní úřad přitom ve své zprávě varuje, že státní dluh loni vystoupal na 3,7 bilionu korun.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2169781/schillerova-navrhuje-rekordni-schodek-mensi-deficit-mel-stat-i-za-covidu/" },
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/cesko-miri-k-druhemu-nejvyssimu-schodku-v-historii-schillerova-tvrdi-ze-jina-cesta-neni-1435338" },
+        { "name": "Deník N", "url": "https://denikn.cz/2170236/nevidany-schodek-trik-s-cisly-a-osizene-skolstvi-popisujeme-hlavni-problemy-rozpoctu-na-pristi-rok/" },
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/ekonomika/vlada-odbrzdila-utraceni-co-obri-schodek-rozpoctu-prinese-a-jak-reaguji-experti/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:06",
+      "headline": "Vrchní soud pravomocně potvrdil Nagyové podmíněný trest v kauze Čapí hnízdo",
+      "body": "Vrchní soud v Praze zamítl odvolání europoslankyně Jany Nagyové (ANO) a potvrdil jí tříletý podmíněný trest se zkušební dobou na pět let a peněžitý trest půl milionu korun za dotační podvod a poškození finančních zájmů Evropské unie. Rozhodnutí je pravomocné, podat proti němu lze dovolání k Nejvyššímu soudu. Podle mluvčí soudu Elišky Duchkové soud setrval na svém konstantním závěru, že Farma Čapí hnízdo byla účelově vyvedena z holdingu Agrofert a její vlastnická struktura byla prostřednictvím anonymních akcií zastřena s cílem získat dotaci určenou malým a středním podnikům. Nagyová vinu odmítá a k pondělnímu veřejnému zasedání nepřišla, její obhájce považuje rozhodnutí za nezákonné a chce podat dovolání.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vrchni-soud-potvrdil-nagyove-podminku-a-penezity-trest-v-kauze-capi-hnizdo-377114" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170358/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:50",
+      "headline": "Platové tabulky ve veřejné sféře se od ledna zvýší o pět až devět procent",
+      "body": "Vláda schválila změnu platových tabulek ve veřejné sféře od ledna. Žádný z tarifů by neměl být pod minimální mzdou či zaručeným platem a částky by se měly zvýšit mezi pěti až devíti procenty; do výdělků by tak podle ministryně financí Aleny Schillerové (ANO) mělo meziročně plynout o 36 miliard korun víc. Jednání budou pokračovat v září. Kabinet zároveň schválil novelu zákoníku práce s pravidly odměňování, která vychází z unijní směrnice o rovném odměňování mužů a žen a měla by platit od roku 2028. Ministr práce Aleš Juchelka podle Seznam Zpráv uvedl, že Česko nová pravidla přebírá „co nejúsporněji“, aby se nezatěžovali zaměstnavatelé.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-schvalila-zmenu-platovych-tabulek-377113" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-vlada-schvalila-novelu-zakoniku-prace-s-pravidly-odmenovani-oznamil-juchelka-314265" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:17",
+      "headline": "Vláda schválila zákon o platformové práci, odbory se obávají rozšíření švarcsystému",
+      "body": "Vláda schválila návrh zákona o platformové práci, který mění definici zaměstnání. Podle odborů povede změna k rozšíření švarcsystému, výhrady mají i ombudsman a Hospodářská komora. Ministr práce Aleš Juchelka naopak tvrdí, že redefinice povede k lepšímu právnímu rozlišení mezi zaměstnancem a podnikáním jako OSVČ, a švarcsystém označuje za záležitost odborů, které nevyjednaly běžné podmínky.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-svarcsystem-je-zalezitost-odboru-ze-nevyjednaly-bezne-podminky-tvrdi-juchelka-314251" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:32",
+      "headline": "Babiš stáhl z jednání vlády Klempířovu kulturní strategii, chce se sejít s umělci",
+      "body": "Ministr kultury Oto Klempíř narazil se svým návrhem Státní kulturní politiky. Poté co návrh rozbouřil kulturní obec, se do věci vložil premiér Andrej Babiš a strategii dnes stáhl z jednání vlády. S umělci se chce sejít.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2169962/babis-stahl-z-jednani-vlady-klempirovu-kulturni-strategii-vadi-mu-kritika-od-umelcu/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:00",
+      "headline": "BIS popsala klientelistické poměry v některých státních firmách",
+      "body": "Některé státem ovládané firmy podle Bezpečnostní informační služby dlouhodobě fungují v klientelistickém režimu. Jejich vedení si podle BIS vytváří vazby na vybrané obchodní partnery a oslabuje vlastní kontrolní orgány. Služba na tyto praktiky upozorňuje ve výroční zprávě za loňský rok, o níž podle E15 informoval server Info.cz.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/domaci/bis-popsala-alarmujici-pomery-ve-statnich-firmach-manazeri-si-meli-ochocit-i-vlastni-kontrolory-1435302" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:32",
+      "headline": "Babiš vyzval ve Slovinsku k vytváření koalic hájících v EU zájmy střední Evropy",
+      "body": "Premiér Andrej Babiš při vystoupení ve slovinském Bledu vyzval k vytváření koalic členských zemí Evropské unie, které budou na unijní úrovni při vyjednávání o příštím rozpočtu EU hájit zájmy Česka a střední Evropy v oblasti konkurenceschopnosti a kohezních fondů. Vyzdvihl důležitost spolupráce na půdorysu Visegrádské skupiny, tedy Česka, Slovenska, Polska a Maďarska. Kritizoval také přístup unie k migraci a její klimatickou politiku Green Deal, která podle něj ničí český průmysl.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/tvorme-koalice-statu-hajici-zajmy-stredni-evropy-vyzval-babis-377122" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/babis-vyzval-k-vytvareni-koalic-ktere-budou-v-eu-hajit-zajmy-stredni-evropy_2608311632_elev" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:04",
+      "headline": "Řízení letového provozu povede od září Zdeněk Jelínek z ministerstva dopravy",
+      "body": "Novým generálním ředitelem státního podniku Řízení letového provozu bude od začátku září Zdeněk Jelínek, který dosud vedl odbor civilního letectví na ministerstvu dopravy. Na síti X to oznámil ministr dopravy Ivan Bednárik (za SPD), který ho do funkce jmenoval a označil za mezinárodně uznávaného odborníka v oboru. Jelínek nahradí dlouholetého šéfa podniku Jana Klase, který se rozhodl skončit k 1. září kvůli své kandidatuře do Senátu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-novym-reditelem-rizeni-letoveho-provozu-bude-od-zari-zdenek-jelinek-314278" },
+        { "name": "E15", "url": "https://www.e15.cz/domaci/politika/rizeni-letoveho-provozu-ma-noveho-sefa-jana-klase-nahradi-zdenek-jelinek-z-ministerstva-dopravy-1435344" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/novym-generalnim-reditelem-rizeni-letoveho-provozu-bude-jelinek-dosud-pusobil-na_2608311355_kvr" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:56",
+      "headline": "Zastupitelé zastavili vítězný projekt participativního rozpočtu pro Šimkovy sady",
+      "body": "Zastupitelé Hradce Králové zastavili vítězný projekt prvního ročníku takzvaného participativního rozpočtu. Na proměnu části Šimkových sadů neschválili navýšení rozpočtu na tři a půl milionu korun, ke schválení přitom chyběl jediný hlas. Hradecký deník k tomu upozorňuje, že pro sady zároveň vznikla studie proveditelnosti, která počítá s kácením vzrostlých stromů a s výstavbou domu pro správce za více než deset milionů korun.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/navyseni-rozpoctu-zastavilo-projekt-na-promenu-casti-simkovych-sadu-ke-schvaleni_2608311908_bva" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/simkovy-sady-dum-pro-spravce-utajeny-plan-miliony-radnice-vedeni-opozice/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:09",
+      "headline": "O budoucnosti neolitických rondelů v Kuklenách se bude jednat 2. září",
+      "body": "Muzeum východních Čech svolalo na 2. září jednání o budoucnosti kruhových neolitických staveb objevených v hradecké městské části Kukleny. Zúčastnit se ho mají zástupci magistrátu, muzea, autorů petice, developera, investora a místní samosprávy.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/hradecke-muzeum-svolalo-jednani-o-zachrane-kuklenskych-neolitickych-rondelu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:57",
+      "headline": "Balonová fiesta s padesátkou balonů začne ve středu, pořadatelé prosí o zajištění zvířat",
+      "body": "Od středy 2. září do neděle 6. září se v Hradci Králové a Jaroměři koná balonová fiesta s padesátkou horkovzdušných balonů. Pořadatelé žádají chovatele, zejména majitele koní, aby si svá zvířata zajistili — některá jsou citlivá na hluk hořáků.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/balonova-fiesta-hluk-horaku-kone-zvirata-zajistit/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:15",
+      "headline": "Kutnohorská ulice v Plačicích se po dvouměsíční uzavírce otevírá, vrací se i MHD",
+      "body": "V hradecké části Plačice se po dvouměsíční uzavírce otevírá obnovená Kutnohorská ulice. Od září zde opět projedou městská hromadná doprava i osobní vozidla. Oprava zahrnovala kompletní obnovu vozovky, chodníků, obrubníků i autobusových zastávek.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/oprava-kutnohorska-hradec-silnice-otevreni-mhd/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:12",
+      "headline": "Konflikt USA a Íránu se znovu rozhořel, Teherán odpověděl na americký úder raketami na základny",
+      "body": "Americký úder na íránský ostrov Larak přerušil několik týdnů trvající klid v půl roku probíhající válce a vyvolal okamžitou odvetu Teheránu. Podle Deníku N odpálily íránské Islámské revoluční gardy v noci balistické rakety a drony na tři americké základny v Jordánsku a Spojených arabských emirátech; Seznam Zprávy píší o osmi raketách vystřelených na americké základny v Jordánsku. Americký prezident Donald Trump podle Seznam Zpráv slíbil tvrdou odvetu. Eskalace se hned promítla na energetických trzích — velkoobchodní cena plynu v Evropě vystoupala nejvýše od března.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2170085/pul-roku-valky-usa-nove-uderily-na-iransky-ostrov-larak-teheran-na-americke-spojence/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-usa-zautocily-na-iranske-pozice-na-ostrove-v-hormuzskem-prulivu-pise-axios-314199" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:25",
+      "headline": "Ukrajina hlásí po ranních ruských útocích výpadky elektřiny v šesti oblastech",
+      "body": "Ukrajina po rozsáhlých ranních ruských útocích ohlásila výpadky elektřiny v šesti oblastech. Zasaženy jsou podle Deníku N s odvoláním na Ukrajinskou pravdu Doněcká, Dnipropetrovská, Záporožská, Charkovská, Sumská a Mykolajivská oblast. Rusové zasáhli také důl v Dnipropetrovské oblasti, kde útok zranil jednoho pracovníka.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170030/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:56",
+      "headline": "Povodně v Nepálu mají 939 potvrzených obětí, pohřešují se téměř čtyři tisíce lidí",
+      "body": "Počet potvrzených obětí ničivých povodní v Nepálu stoupl na 939, dalších 3925 lidí se pohřešuje. Mezi nimi je podle Deníku N s odkazem na BBC minimálně 592 cizinců ze 39 zemí; úřady dosud zachránily 323 cizinců. Seznam Zprávy uvádějí, že mezi tisíci pohřešovaných jsou i stovky dělníků zavalených v tunelech vodních elektráren a že katastrofa narušila vzdělávání téměř 19 tisíc dětí, pro které se školy staly jedním z posledních bezpečných míst.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170405/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nicive-povodne-v-nepalu-si-vyzadaly-jiz-vice-nez-900-obeti-314202" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:10",
+      "headline": "Epidemie eboly v Kongu překročila šest tisíc případů a je největší v historii země",
+      "body": "V Kongu bylo potvrzeno více než šest tisíc případů eboly, informovala tamní vláda. Epidemie je největší v historii této středoafrické země. Podle agentury Reuters epidemie překonala předchozí nejhorší epidemii, která zemi sužovala mezi lety 2018 a 2020. Počet potvrzených obětí je 2911. Světová zdravotnická organizace podle iROZHLASu varuje, že může jít o nejhorší epidemii eboly v dějinách.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/kongo-ebola-epidemie-who-afrika_2608311710_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170239/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-kongo-hlasi-pres-6000-pripadu-eboly-jde-o-nejhorsi-epidemii-v-historii-zeme-314290" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:43",
+      "headline": "Cena plynu v Evropě přesáhla 70 eur za megawatthodinu, zásobníky jsou pod 65 procenty",
+      "body": "Velkoobchodní cena plynu pro evropský trh překročila sedmdesát eur (1690 korun) za megawatthodinu a je nejvýše od března. Obnovení bojů mezi Spojenými státy a Íránem podle Deníku N přispívá k růstu cen ropy a vyvolává obavy z dalšího zpoždění vývozu zkapalněného zemního plynu z Perského zálivu. E15 dodává, že se výrazně zpomalilo doplňování evropských zásobníků a jejich naplněnost je pod 65 procenty, což je rekordní minimum pro toto roční období. Podle analytiků, které E15 cituje, mohou ceny při chladné zimě a přetrvávajících výpadcích LNG vystoupat nad 100 eur za megawatthodinu a s odstupem několika měsíců se promítnout i do účtů domácností. Dražší energie kvůli konfliktu s Íránem podle Spolkového statistického úřadu už zvedly srpnovou inflaci v Německu na 2,9 procenta z červencových 2,8 procenta.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/nejhorsi-stav-zasobniku-za-posledni-roky-analytici-varuji-pred-navratem-cen-z-dob-energeticke-krize-1435352" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170329/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170202/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "07:35",
+      "headline": "NKÚ varuje před nízkou produktivitou, státní dluh loni vystoupal na 3,7 bilionu",
+      "body": "Česká ekonomika loni rostla rychleji než průměr Evropské unie, státní dluh ale podle Nejvyššího kontrolního úřadu vystoupal na 3,7 bilionu korun. NKÚ varuje před nízkou produktivitou, drahými energiemi a chybějícími reformami. Už příští rok může podle úřadu dluh překročit 4,4 bilionu korun a úroky spolknout až 139 miliard.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/cesko-roste-rychleji-nez-evropa-za-dobrymi-cisly-se-ale-skryva-stale-drazsi-problem-varuje-nku-1435337" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:52",
+      "headline": "Nvidia investuje 3,5 miliardy dolarů do tchajwanského MediaTeku",
+      "body": "Výrobce grafických čipů Nvidia investuje 3,5 miliardy dolarů do tchajwanské firmy MediaTek. Dohoda rozšiřuje dosavadní partnerství obou vývojářů čipů pro umělou inteligenci; podle Seznam Zpráv v jejím rámci Nvidia odkoupí dluhopisy převoditelné na akcie MediaTeku. O investici informoval Bloomberg.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170311/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-nvidia-chce-investovat-35-miliardy-dolaru-do-tchajwanske-spolecnosti-mediatek-314292" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:22",
+      "headline": "Evropská komise zařadila ChatGPT, Reddit a Roblox pod přísnější režim nařízení DSA",
+      "body": "Evropská komise rozhodla zařadit platformy ChatGPT, Reddit a Roblox mezi velké internetové platformy, které podléhají přísnější regulaci podle unijního nařízení o digitálních službách. Platformy uvedly, že mají v Evropské unii v průměru nejméně 45 milionů uživatelů měsíčně, a splňují tak podmínky pro takové označení. Online platformy a vyhledávače zařazené na seznamy DSA musejí dodržovat řadu dalších pravidel.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-evropska-komise-zaradila-chatgpt-reddit-a-roblox-pod-prisnejsi-dohled-314263" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2170008/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "00:00",
+      "headline": "Útok na Hugging Face podle Rootu koordinovalo přes 700 agentů AI",
+      "body": "Root.cz v pravidelném přehledu bezpečnostních zpráv popisuje útok na platformu Hugging Face, který podle serveru koordinovalo přes 700 agentů umělé inteligence. Přehled se dále věnuje zatčení údajných členů skupiny TeamPCP v Austrálii, kyberútoku na firmu Boston Scientific, phishingu na přístupové kódy k iPhonu a zřetězeným zranitelnostem v SharePointu.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/clanky/postrehy-z-bezpecnosti-utok-na-hugging-face-koordinovalo-pres-700-agentu-ai/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:59",
+      "day": "prev",
+      "headline": "Vývojáři Debianu odhlasovali pravidla pro odpovědné používání umělé inteligence",
+      "body": "Vývojáři Debianu měli dva týdny na hlasování o kódu vytvořeném velkými jazykovými modely. Rozhodovalo se mezi osmi variantami a hlasování, které skončilo v pátek, vyhrálo odpovědné používání umělé inteligence, tedy návrh číslo 5 (E).",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/vyvojari-debianu-odhlasovali-odpovedne-pouzivani-umele-inteligence/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:50",
+      "headline": "Texty psané umělou inteligencí se dostávají i na český knižní trh",
+      "body": "Umělá inteligence už nepíše jen e-maily nebo reklamní texty, čím dál častěji se dostává také do literatury — a někdy o tom čtenář nemusí vůbec vědět. Pomáhá spisovatelům s nápady, textem i překlady a její stopa se podle iROZHLASu začíná objevovat i v českém literárním prostředí. Literární vědec v reportáži argumentuje tím, že čtenáři by měli vědět, co kupují.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/kultura/literatura/ai-slop-knihy-umela-inteligence_2608311650_hrc" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "05:47",
+      "headline": "Babišova klinika Iscare přebírá běžné operace, premiér mezitím mění pražské státní nemocnice",
+      "body": "Klinika Iscare, která patří Andreji Babišovi, překonává v počtu plánovaných operací pražské fakultní nemocnice. Ze srovnání Deníku N vyplývá, že se toto soukromé zařízení stává podle listu magnátem v lukrativních oblastech chirurgie. Premiér přitom rozjíždí zásadní přestavbu fungování státních nemocnic v metropoli.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2166439/babis-meni-prazske-statni-nemocnice-jeho-soukroma-klinika-mezitim-prebira-bezne-operace/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:14",
+      "headline": "Djokovič vypadl na US Open v prvním kole, se soupeřem prohrál po pětisetové bitvě",
+      "body": "Novak Djokovič skončil poprvé v kariéře na US Open už v prvním kole. Čtyřnásobný šampion tohoto turnaje a vítěz rekordních 24 grandslamů prohrál s Argentincem Marianem Navonem 6:7, 7:5, 6:4, 2:6 a 1:6. Devětatřicetiletý Srb měl podle Sport.cz celý zápas evidentně zdravotní problémy a několikrát se vyzvracel; naposledy skončil hned v úvodu grandslamu v roce 2006 na Australian Open. Seznam Zprávy píší, že po zápase na kurtu plakal. S turnajem se v prvním kole rozloučila také Venus Williamsová.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/djokovic-na-us-open-vypadl-uz-v-prvnim-kole-158695" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-sok-na-us-open-djokovic-vypadl-uz-v-prvnim-kole-5522748" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/sport-moje-telo-kolabuje-kral-tenisovych-dejin-se-rozsypal-zbyva-posledni-sen-314271" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:20",
+      "day": "prev",
+      "headline": "Slavia vyhrála v nedělním derby na Spartě 3:0 a vede ligovou tabulku",
+      "body": "Slavia vyhrála v 6. kole první ligy pražské derby na Spartě 3:0 a bez porážky vede neúplnou tabulku o bod před druhým Libercem. Skóre v úvodu otevřel Wiktor Nowak, po přestávce pojistili obhájci titulu vítězství další letní posily Danijel Šturm a Emmanuel Ayaosi. Letenští jsou sedmí a na městského rivala ztrácejí pět bodů; jejich kapitán Adam Karabec označil porážku za neakceptovatelnou. Červenobílí vyhráli v lize na Letné poprvé od prosince 2020. Sparta se dnes distancovala od kontroverzní vlajky, která během derby chvíli visela v kotli a odkazovala na Ratka Mladiće. Podle Sport.cz čeká oba kluby kvůli chování jejich příznivců, především kvůli pyrotechnice a transparentům, jednání disciplinární komise LFA, která zasedá ve čtvrtek.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-v-lize-po-sesti-letech-dobyla-letnou-skorovaly-letni-posily-158690" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-se-distancuje-od-kontroverzni-vlajky-v-kotli-pri-derby-5522788" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-i-slavia-mohou-ocekavat-po-derby-tvrde-flastry-5522760" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:37",
+      "day": "prev",
+      "headline": "Lehečka a Plíšková prošli na US Open do druhého kola, Krejčíková vypadla hned v úvodu",
+      "body": "Jiří Lehečka postoupil do 2. kola US Open, když v New Yorku porazil Španěla Pabla Carreňu 6:1, 7:6, 4:6, 6:2, a příště narazí na britského kvalifikanta Tobyho Samuela, který zdolal Tomáše Macháče 6:2, 6:3, 6:2. Karolína Plíšková odvrátila proti Belgičance Hanne Vandewinkelové mečbol a zvítězila 2:6, 7:5, 6:3. Vít Kopřiva prohrál s Argentincem Tomásem Martínem Etcheverrym 3:6, 4:6, 0:6. Barbora Krejčíková podlehla i přes šest odvrácených mečbolů Kamille Rachimovové z Uzbekistánu 6:7, 2:6; příčinu porážky viděla ve fyzickém vyčerpání a po sérii čtyř proher si chce odpočinout.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/krejcikova-prohrala-s-rachimovovou-a-na-us-open-konci-v-prvnim-kole-158687" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/krejcikova-nejsem-v-dobrem-rozpolozeni-baterie-je-vybita-158693" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:46",
+      "day": "prev",
+      "headline": "Basketbalisté zdolali v předkvalifikaci ME Norsko po prodloužení, Kříž ukončil reprezentační kariéru",
+      "body": "Čeští basketbalisté porazili v předkvalifikaci mistrovství Evropy v Praze Norsko 108:97 po prodloužení a ve druhém utkání skupiny G si připsali první výhru; ve čtvrtek podlehli v Ostende Belgii 81:92. K úspěchu pomohl 22 body kapitán Martin Peterka, o bod méně si připsal Martin Svoboda, nejlepším střelcem poražených byl s 31 body Harald Frey. Domácí přitom ztratili náskok 19 bodů a Richard Bálint vyrovnal trojkou 7,7 sekundy před koncem na 90:90. Duel byl posledním v reprezentaci pro třiatřicetiletého pivota Martina Kříže, účastníka mistrovství světa v Číně v roce 2019 a tří EuroBasketů, který bude pokračovat jen na klubové scéně.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/basketbal/predkvalifikace-me-basketbalistu-cesko-norsko-158681" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/basketbal/pivot-kriz-odehral-proti-norsku-posledni-zapas-za-reprezentaci-158688" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:32",
+      "headline": "Cyklistka Julia Kopecký bude od příští sezony závodit za elitní stáj Lidl-Trek",
+      "body": "Cyklistka Julia Kopecký bude od příští sezony závodit v elitní stáji Lidl-Trek. Německý tým na svém webu oznámil, že se s úřadující českou šampionkou v časovce i silničním závodu dohodl na spolupráci do konce roku 2028.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-ceska-cyklistka-bude-od-pristi-sezony-zavodit-v-elitni-staji-5522799" }
+      ]
+    }
+  ]
+}
