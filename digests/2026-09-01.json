@@ -1,0 +1,333 @@
+{
+  "date": "2026-09-01",
+  "covers": "2026-09-01",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra mlhavo, přes den až 23,6 °C a beze srážek. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      { "date": "2026-09-02", "icon": "fog", "temp_max_c": 23.6, "temp_min_c": 11.3 },
+      { "date": "2026-09-03", "icon": "cloudy", "temp_max_c": 22.8, "temp_min_c": 14.1 },
+      { "date": "2026-09-04", "icon": "rain", "temp_max_c": 26.6, "temp_min_c": 16.3 },
+      { "date": "2026-09-05", "icon": "rain", "temp_max_c": 21.2, "temp_min_c": 13.8 }
+    ]
+  },
+  "highlights": [
+    "Státní ČEPS podal trestní oznámení kvůli nákupu plynovodní sítě NET4GAS, který proběhl za minulé vlády.",
+    "Prezident Pavel i koaliční Motoristé a SPD odmítají navržený schodek 389 miliard, Schillerová zároveň připustila zvyšování daní.",
+    "Na rozvodně u německé elektrárny Jänschwalde se našla výbušná zařízení, provozovatel mluví o útoku.",
+    "Vedení Volkswagenu chce podle uniklých dokumentů navrhnout uzavření čtyř německých závodů."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:46",
+      "headline": "ČEPS podal trestní oznámení kvůli nákupu plynovodní sítě NET4GAS",
+      "body": "Státní provozovatel přenosové soustavy ČEPS podal trestní oznámení v souvislosti s koupí společnosti NET4GAS, kterou uskutečnil po rozhodnutí minulé vlády v roce 2023. Audit, který si k akvizici nechal zpracovat, podle firmy potvrdil zásadní pochybnosti o procesu nákupu. Podle E15 prověrku vyvolal požadavek ministra průmyslu Karla Havlíčka na posouzení ekonomické výhodnosti nákupu, Deník N připomíná, že transakce zadluženého podniku proběhla za předchozího ministra průmyslu Jozefa Síkely (STAN). Na koho oznámení míří ani podrobnosti auditu ČEPS neuvedl: „Vzhledem k zahájenému trestnímu řízení a poučení Policie ČR nemůže ČEPS ve věci poskytovat další informace,“ sdělil Deníku N.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/audit-ukazal-zasadni-pochybnosti-ceps-podal-trestni-oznameni-kvuli-nejasnostem_2609011546_aru" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/nakup-net4gas-miri-k-policii-ceps-podal-trestni-oznameni-kvuli-fialove-miliardove-akvizici-1435354" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171409/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-ceps-podal-trestni-oznameni-kvuli-pochybnostem-kolem-nakupu-net4gas-314368" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:45",
+      "headline": "Pavel i koaliční Motoristé a SPD odmítají navržený schodek 389 miliard",
+      "body": "Návrh státního rozpočtu na příští rok není podle prezidenta Petra Pavla dobrý a deficit ve výši 389 miliard korun považuje za vysoký. „Navrhovaný deficit je skutečně vysoký v rozsahu k tomu, že jsme v období růstu ekonomiky,“ řekl. Doufá, že návrh ještě před konečným schvalováním dozná změn. Kritiku sdílejí i koaliční partneři hnutí ANO: předseda Motoristů a ministr zahraničí Petr Macinka chce o schodku ve čtvrtek jednat s premiérem Andrejem Babišem a věří, že bude nakonec nižší, podle Seznam Zpráv chtějí Motoristé navrhnout snížení o desítky miliard. Výhrady má také SPD. Ministryně financí Alena Schillerová podle ČTK vidí v rozpočtu prostor pro škrty v jednotkách miliard a s úsporami mají přijít jednotliví ministři.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-povazuje-navrh-schodku-statniho-rozpoctu-pro-pristi-rok-za-vysoky-377147" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-vladu-ceka-vazne-jednani-kvuli-schodku-to-vre-u-motoristu-i-spd-314345" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171678/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:52",
+      "headline": "Schillerová den po představení rozpočtu mluví o zvyšování daní, ve hře je i daň z nemovitosti",
+      "body": "Jen den poté, co ministryně financí Alena Schillerová představila návrh rozpočtu na příští rok, začala veřejně mluvit také o zvyšování vybraných daní. S ohledem na slib, který kabinet dal v Bruselu, jí podle Deníku N nic jiného nezbývá. Do hry se tak dostalo kromě jiného i zvýšení daně z nemovitosti, o které vláda dlouho odmítala debatovat. E15 dodává, že zvýšené zdanění by se mohlo zaměřit na investiční byty.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2171087/schillerova-mluvi-o-zvysovani-vybranych-dani-zamerit-se-chce-na-neresti-i-nemovitosti/" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/rekordni-schodek-chce-vlada-resit-i-pomoci-zdaneni-nemovitosti-zameri-se-na-investicni-byty-1435362" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:41",
+      "headline": "Vláda schválila snížení podpory v nezaměstnanosti, SPD s ním nesouhlasí",
+      "body": "Podpora v nezaměstnanosti má v prvních dvou měsících klesnout z 80 procent výdělku na 65 procent a její maximum ze 80 na 60 procent průměrné mzdy. Snížit se má i podpora při rekvalifikaci a pro rodiče malých dětí či lidi, kteří v poslední době pečovali o blízké. Ministerstvo práce, které o návrhu schváleném v pondělí informovalo na svém webu, chce ušetřit asi pět miliard korun. Koaliční SPD návrh odmítá — podle Tomia Okamury jde o trestání pracujících, kteří se ocitnou bez zaměstnání a mají na podporu nárok. Podle iROZHLASU si SPD stěžuje, že ministr práce Aleš Juchelka (ANO) věc nepředjednal.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/vlada-schvalila-navrh-se-snizenim-podpory-v-nezamestnanosti-spd-s-nim-nesouhlasi_2609011316_lar" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171245/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:28",
+      "headline": "Soud pravomocně rozhodl, že SPD svými plakáty nepodněcovala k nenávisti",
+      "body": "Pražský městský soud v úterý pravomocně rozhodl, že hnutí SPD kontroverzními předvolebními plakáty nespáchalo podněcování k nenávisti ani jiný trestný čin. Vyhověl tak odvolání strany a zrušil původní rozsudek, který jí ukládal třímilionový peněžitý trest. Obžalobě čelí také předseda hnutí a předseda sněmovny Tomio Okamura, jeho stíhání je ale přerušené, protože ho poslanci odmítli vydat, a justice bude jeho skutky projednávat zvlášť. Okamura i SPD vinu od počátku odmítali.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/spd-nespachalo-trestny-cin-podnecovani-k-nenavisti-rozhodl-odvolaci-soud-377144" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:55",
+      "headline": "Jiřikovský odvolal pro nevděk bitcoinový dar ministerstvu spravedlnosti",
+      "body": "Obžalovaný Tomáš Jiřikovský odvolal pro nevděk dar v bitcoinech v hodnotě miliardy korun, který loni věnoval ministerstvu spravedlnosti. Úřad to oznámil v úterní tiskové zprávě a označil to za další právní riziko spojené s bitcoinovou kauzou. Zdrojem budoucích sporů mohou být podle ministerstva jak okolnosti přijetí daru, tak jeho následný prodej v aukcích i uzavření dohod o narovnání s kupci.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171706/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:49",
+      "headline": "Ministerstvo zahraničí nedá příští rok na zahraniční vysílání Českého rozhlasu ani korunu",
+      "body": "Česká diplomacie přestane od příštího roku financovat zahraniční vysílání Českého rozhlasu, stanice Radio Prague International je tak podle Seznam Zpráv po devadesáti letech existence v ohrožení. Ministerstvo vedené Petrem Macinkou s podporou ve své rozpočtové kapitole nepočítá; už letos částku pro RPI snížilo o čtvrtinu na 25,26 milionu korun, uvedla mluvčí rozhlasu Lidija Erlebachová. Český rozhlas očekává, že se mu podaří plán nulové podpory zvrátit.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-macinka-skrtl-penize-pro-zahranicni-vysilani-ceskeho-rozhlasu-314333" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171434/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "19:42",
+      "day": "prev",
+      "headline": "Američané podle Deníku N tlačí na vyšší české výdaje na obranu, Babiš je odmítá",
+      "body": "Spojené státy nejsou spokojené s tím, kolik chce Česko příští rok vydat na obranu. Deníku N to řekly čtyři dobře informované zdroje. Premiér Andrej Babiš další navyšování odmítá, ministr zahraničí Petr Macinka je podle nich k americkým požadavkům vstřícnější.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2170342/dve-procenta-nestaci-vzkazuji-usa-cesku-babis-ale-vyssi-obranne-vydaje-odmita/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:30",
+      "headline": "Na Pospíšilově třídě se otevřela nová krajská jídelna za 101 milionů korun",
+      "body": "Studentům tří hradeckých středních škol končí každodenní cesty za obědem mimo areál. Novou školní jídelnu na Pospíšilově třídě nechal postavit Královéhradecký kraj za 101 milionů korun bez DPH a provoz zahájila 1. září, zpočátku v omezeném režimu. Po plném rozjezdu má podle Hradecké drbny zvládnout až 1200 strávníků denně.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/hradecky-kraj-otevre-v-utery-novou-jidelnu-pro-studenty-na-pospisilove-tride/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/898926-studenti-na-hradecke-pospisilove-tride-maji-konecne-jidelnu-pod-nosem.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:44",
+      "headline": "Děti z Malšovy Lhoty se po dvou letech dojíždění vrátily do opravené školy",
+      "body": "Školáci v úterý nastoupili do opravené základní a mateřské školy v hradecké Malšově Lhotě. Předchozí dva školní roky museli dojíždět do jiných škol, nejprve kvůli přestavbě a pak kvůli sporu o stavební povolení a chybějící kolaudaci opravené budovy. Podle Hradecké drbny do školy nastoupilo 85 dětí školního a 38 předškolního věku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/zakladni-skola-malsova-lhota-kolaudace-stavba-otevreni-zaci.A260901_101949_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/898951-deti-z-hradecke-malsovy-lhoty-se-vratily-do-sve-skoly-dva-roky-dojizdely.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:14",
+      "headline": "Oprava Gočárova okruhu vstoupila do poslední fáze, objížďky do centra skončily",
+      "body": "Silničáři v úterý zahájili poslední etapu opravy téměř kilometrového úseku čtyřproudého městského okruhu. Od poloviny července do konce srpna opravili pravé jízdní pruhy včetně nájezdů na malšovický nadjezd, takže řidiči už při cestě z okruhu do centra a do Malšovic nemusejí objížďkami.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/gocaruv-okruh-hradec-kralove-oprava-objizdky/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:22",
+      "headline": "Ve středu čekají čtyři tratě u Hradce výluky, večerní vlaky nahradí autobusy",
+      "body": "Přestavba hlavního nádraží v Hradci Králové pokračuje. Ve středu 2. září čekají čtyři železniční tratě výluky, během kterých vlaky nahradí náhradní autobusová doprava. Omezení se podle Hradecké drbny dotkne hlavně večerních cestujících.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/898936-hradecke-koleje-na-par-hodin-ztichnou-cestujici-prevezou-autobusy.html" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:04",
+      "headline": "Na rozvodně u německé elektrárny Jänschwalde se našla výbušná zařízení",
+      "body": "Na rozvodně nedaleko elektrárny Jänschwalde na východě Německa se našla výbušná zařízení, informovala s odvoláním na své zdroje agentura DPA. Policie zjistila poškození na jednom z elektrických vedení, na místě jsou pyrotechnici a nebezpečí podle ní nehrozí. Provozovatel elektrárny v tiskové zprávě uvedl, že se rozvodna v úterý ráno pravděpodobně stala terčem útoku, po němž došlo k technickému výpadku bloku B a zaměstnanci pracují na obnovení provozu. Podle Seznam Zpráv měl útok zřejmě způsobit rozsáhlý výpadek proudu a poškozené vedení se nachází pár kilometrů od elektrárny. ČT24 uvádí, že elektrárna patří společnosti LEAG, Seznam Zprávy ji řadí pod EP Energy Transition ze skupiny EP Group českého miliardáře Daniela Křetínského. Deník N k tomu dodává, že Německo se podle domácích médií chystá poprvé otevřeně obvinit ruskou tajnou službu z dřívějšího útoku u letiště Lipsko/Halle a zařadit ho mezi ruské operace.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-rozvodne-u-elektrarny-na-vychode-nemecka-se-nasla-vybusna-zarizeni-pise-dpa-377153" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/na-rozvodne-u-elektrarny-v-nemecku-se-nasly-vybusniny-poskozeni-je-na_2609011355_lar" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-na-rozvodne-u-elektrarny-na-vychode-nemecka-se-nasla-vybusna-zarizeni-314360" },
+        { "name": "Deník N", "url": "https://denikn.cz/2171685/nemecko-obvini-z-incidentu-na-lipskem-letisti-rusko-pisou-domaci-media-co-to-bude-znamenat/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:27",
+      "headline": "Ruské údery na Kyjev pokračovaly šestou noc v řadě, Ukrajina hlásí patnáct mrtvých",
+      "body": "Při nočních ruských úderech na Kyjev a okolí hlavního města zemřelo dvanáct lidí včetně jednoho občana Indie, oznámil ráno prezident Volodymyr Zelenskyj. O dalších dvou obětech informoval náčelník Záporožské oblasti Ivan Fedorov, v Chersonu ruské drony zabily jednoho muže a zranily dvě děti. Rusko tvrdí, že se v noci zaměřilo na vojenskou a energetickou infrastrukturu v Kyjevě a Oděse. Ukrajinská armáda útočila i na ruské území — podle Seznam Zpráv zasáhla přístav Usť-Luga nedaleko Petrohradu — a ruské úřady informují o pěti obětech. Kyjev podle Deníku N zároveň oznámil, že Rusko v srpnu vyslalo na Ukrajinu přes 2800 hůře sestřelitelných dronů s proudovým pohonem.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/ruske-utoky-v-okoli-kyjeva-neprezili-ctyri-lide-ukrajina-uderila-u-moskvy-377137" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-kyjev-a-okoli-hlasi-po-utocich-ruska-ctyri-obeti-ukrajina-zasahla-pristav-314318" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171193/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:45",
+      "headline": "Počet obětí záplav v Nepálu a Tibetu přesáhl tisíc, pohřešuje se přes 3900 lidí",
+      "body": "Počet obětí ničivých záplav, které minulý týden zasáhly Nepál a Tibet, přesáhl tisíc. Pohřešovaných je 3916 lidí včetně 583 cizinců z více než třiceti zemí. Mezi nimi je stále přes 900 pracovníků z dvanácti vodních elektráren, z nichž asi 500 je s velkou pravděpodobností uvězněno v tunelech. Záchranáři pokračují v operacích v odříznutých oblastech a do tunelů vysílají drony s nadějí, že se tam přeživší mohli ukrýt.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/prezivsi-se-v-nepalu-mohli-ukryt-do-labyrintu-u-elektraren-doufaji-zachranari_2609011445_ako" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:16",
+      "headline": "Írán nabízí návrat k dohodě, pokud závazky obnoví i Spojené státy",
+      "body": "Jestliže se Spojené státy vrátí k naplňování svých závazků vyplývajících z červnového memoranda o porozumění, Teherán začne okamžitě jednat recipročně. Íránský prezident Masúd Pezeškján to podle agentury AFP řekl na summitu Šanghajské organizace pro spolupráci v Kyrgyzstánu. V Biškeku se také setkal s ruským prezidentem Vladimirem Putinem, podle něhož se rusko-íránské vztahy stabilně rozvíjejí ve všech oblastech.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/pokud-se-usa-vrati-k-respektovani-dohody-iran-ucini-totez-rekl-pezeskjan-377143" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171386/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:49",
+      "headline": "Vedení Volkswagenu chce navrhnout uzavření čtyř německých závodů",
+      "body": "Vedení automobilového koncernu Volkswagen navrhne v pátek na zasedání dozorčí rady uzavření čtyř výrobních závodů v Německu. S odvoláním na interní dokument o tom napsal web WirtschaftsWoche. Výroba v továrnách v Emdenu a Zwickau by měla skončit v roce 2031, v Hannoveru v roce 2032 a v Neckarsulmu v roce 2034. Podle Seznam Zpráv chystá vedení rozsáhlou restrukturalizaci. Mluvčí Volkswagenu, kterého oslovila agentura Reuters, se ke zprávě odmítl vyjádřit.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/unikly-tajne-dokumenty-volkswagenu-vedeni-naplanovalo-konec-ctyrem-nemeckym-zavodum-1435376" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-vedeni-volkswagenu-navrhne-uzavreni-ctyr-tovaren-v-nemecku-314379" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171684/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:48",
+      "headline": "Schodek státního rozpočtu se v srpnu prohloubil na 186,1 miliardy korun",
+      "body": "Hospodaření státu skončilo po osmi měsících schodkem 186,1 miliardy korun, oproti červencovým 176,6 miliardy. Loni ve stejném období činil deficit 165,4 miliardy. Podle E15 jde o pátý nejhorší osmiměsíční výsledek v historii samostatného Česka. Příjmy vzrostly o 4,4 procenta na 1,398 bilionu korun díky vyššímu inkasu DPH a daně z příjmů fyzických osob, výdaje stouply o 5,3 procenta na 1,584 bilionu korun, nejvíc kvůli sociálním dávkám v čele s penzemi a skokovému nárůstu podpory v nezaměstnanosti. Méně se naopak vybralo na dani z minerálních olejů kvůli dočasnému snížení daně na naftu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/paty-nejhorsi-srpnovy-vysledek-v-historii-schodek-rozpoctu-se-prohloubil-na-186-miliard-1435375" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171333/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:20",
+      "headline": "Tim Cook po patnácti letech skončil v čele Applu, nahradil ho John Ternus",
+      "body": "Tim Cook k 1. září odstoupil z pozice generálního ředitele Applu, kterou převzal po Stevu Jobsovi v roce 2011. Firmu neopouští, zůstává ve vedení jako výkonný předseda představenstva. Novým šéfem je John Ternus, který podle Seznam Zpráv přebírá silnou společnost hledající odpověď na největší technologickou změnu současnosti.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-apple-ma-noveho-sefa-do-tymu-si-vybral-zenu-kterou-vytahl-z-duchodu-314317" },
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/tim-cook-odchadza-z-cela-apple-nahradi-ho-john-ternus/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:55",
+      "headline": "Česko získá přístup k jednomu z nejsilnějších evropských AI superpočítačů",
+      "body": "Čeští výzkumníci i firmy budou mít přístup k superpočítači LUMI-AI umístěnému ve Finsku, který patří k nejvýkonnějším evropským systémům pro umělou inteligenci. Zprostředkuje ho národní superpočítačové centrum IT4Innovations při Vysoké škole báňské — Technické univerzitě Ostrava. Nasazení je podle mluvčí centra Zuzany Červenkové plánováno na druhou polovinu příštího roku.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/technologie-a-media/cesko-ziska-pristup-k-jednomu-z-nejsilnejsich-ai-superpocitacu-v-evrope-1435367" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:30",
+      "headline": "Firefox 155 přináší Smart Window s lokální umělou inteligencí",
+      "body": "Vyšla nová verze prohlížeče Firefox. Hlavní novinkou je Smart Window, nový způsob práce s prohlížečem asistovaný lokálně běžící umělou inteligencí. Míří nejprve k uživatelům v USA, Kanadě a Francii, další země mají následovat postupně. Vydání podle Rootu také opravuje funkčnost na Linuxu.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/firefox-155-prinasi-smart-window-s-lokalni-ai-pro-prvni-zeme-opravuje-funkcnost-na-linuxu/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "17:04",
+      "headline": "Letošní léto bylo v Česku druhé nejteplejší od roku 1961",
+      "body": "Průměrná teplota za červen až srpen dosáhla 19,4 stupně Celsia, vyšší byla jen v roce 2019, kdy činila 19,5 stupně. Vyplývá to z předběžných údajů Českého hydrometeorologického ústavu. Podle Seznam Zpráv bylo v Brně letošní léto vůbec nejteplejší za 226 let měření.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2171719/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-plus-5-stupnu-proti-normalu-v-cesku-konci-dalsi-extremni-leto-plne-rekordu-314342" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "16:20",
+      "headline": "Akce Těšínsko může být podle Deníku N součástí rozsáhlejšího ruského plánu",
+      "body": "Z korespondence ruských důstojníků podle Deníku N vyplývá, že mnohé dezinformační kampaně, které dnes zmítají veřejným míněním evropských zemí včetně Česka, byly naplánovány nedlouho po zahájení velké ruské invaze na Ukrajinu. Ruští zpravodajci se podle textu v roce 2022 zděsili, že útok byl špatně připraven technicky i ideologicky, a začali pracovat na tom, aby svět „prozřel“. Podle Deníku N je projekt rozjetý a v příštích týdnech vyprodukuje další kauzy.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2169814/akce-tesinsko-muze-byt-soucast-rozsahlejsiho-planu-vyplyva-z-korespondence-ruskych-dustojniku/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:18",
+      "headline": "Lionel Messi ukončil po dvaceti letech reprezentační kariéru",
+      "body": "Argentinský fotbalista Lionel Messi ve 39 letech ukončil reprezentační kariéru. S národním týmem vyhrál v roce 2022 mistrovství světa, v roce 2014 a letos získal stříbro. Osminásobný držitel Zlatého míče odehrál za Argentinu 207 utkání a vstřelil 125 gólů, posledním zápasem pro něj bylo finále letošního světového šampionátu, v němž Argentina podlehla Španělsku 0:1 po prodloužení. Podle iROZHLASU se rozhodl už v červenci dva dny po konci mistrovství a na Instagramu napsal, že ho rozhodnutí bolí v hloubi duše, ale nadešel ten správný čas.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/lionel-messi-ukoncil-reprezentacni-karieru-158702" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-lionel-messi-argentina-fifa_2609011418_ssi" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:50",
+      "headline": "Muchová, Nosková, Siniaková i Menšík prošli na US Open do druhého kola",
+      "body": "Karolína Muchová zahájila dvouhru hladkým vítězstvím nad Rakušankou Sinjou Krausovou 6:3, 6:0, které jí trvalo 58 minut. Marie Bouzková porazila Francouzku Elsu Jacquemotovou 6:2, 6:2 a wimbledonská šampionka Linda Nosková zdolala domácí Katie Volynetsovou 7:5, 6:1, přestože v prvním setu prohrávala 2:5. Dál jdou i Jakub Menšík, který v den svých jednadvacátých narozenin vyřadil Japonce Šintara Močizukiho 6:1, 6:4, 7:5, a Dalibor Svrčina. Naopak Sára Bejlek dohrála. Královéhradecká rodačka Kateřina Siniaková zvládla první kolo za 69 minut proti Italce Elisabettě Cocciarettové 6:3, 6:2, ve druhém kole ji čeká dvojnásobná newyorská šampionka Naomi Ósakaová.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/muchova-zacala-ve-flushing-meadows-hladkou-vyhrou-nad-krausovou-158703" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-sporty/siniakova-nedala-italce-sanci-v-new-yorku-ji-ted-ceka-mnohem-tezsi-kalibr/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-sporty" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "06:40",
+      "headline": "Volejbalistky prohrály v osmifinále ME se Švédskem a na turnaji končí",
+      "body": "České volejbalistky v brněnském osmifinále mistrovství Evropy podlehly Švédsku 0:3 po setech 19:25, 23:25 a 21:25. Seveřanky přijely do Brna jako třetí tým göteborské skupiny a ve středečním čtvrtfinále narazí na úřadující mistryně světa z Itálie. Podle kapitánky Michaely Mlejnkové rozhodl výkon švédské univerzálky Isabelle Haakové a několik vlastních chyb.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/volejbal/osmifinale-me-volejbalistek-cesko-svedsko-158700" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/volejbal/vyrazeni-cesek-na-me-ve-volejbale-zpusobila-haakova-a-vlastni-chyby-158707" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:35",
+      "headline": "Českou fotbalovou reprezentaci bude po 33 letech oblékat adidas místo Pumy",
+      "body": "Novým dodavatelem dresů české fotbalové reprezentace se stala společnost adidas, která po třiatřiceti letech vystřídala Pumu. Oznámila to na svém webu Fotbalová asociace České republiky. Dohoda se vztahuje na mužské, ženské, mládežnické i futsalové reprezentace.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/domaci/puma-po-33-letech-konci-u-ceske-fotbalove-reprezentace-dresy-zacne-tvorit-jina-svetova-znacka-1435360" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-reprezentace-fotbalova-reprezentace-meni-po-33-letech-dodavatele-dresu-5524310" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:36",
+      "headline": "Ultimátní atletické mistrovství světa se obejde bez medailí",
+      "body": "Na ultimátním atletickém šampionátu v Budapešti, který je určený jen pro úzkou skupinu atletů, se nebudou rozdělovat medaile. Trofej dostanou pouze vítězové, každý z účastníků obdrží speciální náramek. Akce se koná od 11. do 13. září.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/atletika/ultimatni-atleticke-ms-bude-bez-medaili-trofej-dostanou-jen-vitezove-158713" }
+      ]
+    }
+  ]
+}
