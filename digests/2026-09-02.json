@@ -1,0 +1,339 @@
+{
+  "date": "2026-09-02",
+  "covers": "2026-09-02",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra slabé přeháňky s asi poloviční pravděpodobností srážek, přes den až 22 °C.",
+    "outlook": "Nejvíc srážek z celého výhledu má přinést sobota, k tomu nárazový vítr přes 40 kilometrů v hodině.",
+    "days": [
+      { "date": "2026-09-03", "icon": "rain", "temp_max_c": 21.8, "temp_min_c": 13.5 },
+      { "date": "2026-09-04", "icon": "cloudy", "temp_max_c": 25.7, "temp_min_c": 14.7 },
+      { "date": "2026-09-05", "icon": "rain", "temp_max_c": 21.2, "temp_min_c": 14.2 },
+      { "date": "2026-09-06", "icon": "cloudy", "temp_max_c": 21.8, "temp_min_c": 10.9 }
+    ]
+  },
+  "highlights": [
+    "Premiér Babiš si za návrhem rozpočtu na rok 2027 stojí, koaliční Motoristé a SPD ale dál tlačí na škrty.",
+    "Kriminalisté vyzvedli v Lánech ostatky Jana Masaryka a budou na nich hledat známky násilí.",
+    "Německo čelí další sérii sabotáží, u srpnového útoku na letišti v Lipsku úřady identifikovaly dva podezřelé."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:33",
+      "headline": "Babiš si za rozpočtem stojí, Motoristé i SPD dál tlačí na škrty",
+      "body": "Premiér Andrej Babiš za návrhem rozpočtu stojí. Kritici podle něj nejdou do detailů a nejsou schopni říct, kde by se mělo šetřit; dodal, že v roce 2028 bude schodek nižší. Koaliční partneři zůstávají nespokojení: podle E15 hrozí Motoristé blokací rozpočtu a chtějí své úsporné návrhy předložit přímo premiérovi, SPD požaduje škrtnutí dotací neziskovým organizacím a zastavení sociálních dávek cizincům. Ministryně financí Alena Schillerová podle E15 vidí prostor pro úspory jen v jednotkách miliard. Předseda Motoristů a ministr zahraničí Petr Macinka chce s Babišem probrat systémové změny mířící až k rozpočtu na rok 2028, podle něj je třeba se podívat i na možnost odložení některých projektů. Deník N zároveň upozorňuje, že v rozpočtu ministerstva školství chybí miliardy, které stát musí ze zákona zaplatit, a o peníze navíc přicházejí i vysoké školy, které hrozí, že kvůli tomu přijmou méně studentů. Ministr školství Robert Plaga chce podle Deníku N ještě v září o chybějící miliardy bojovat.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172929/" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/vzpoura-o-miliardy-v-koalici-motoriste-hrozi-blokaci-rozpoctu-schillerova-vidi-prostor-jen-v-jednotkach-miliard-1435378" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172908/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2171628/skolstvi-v-rozpoctu-ostrouhalo-chybi-i-penize-na-zakonne-vydaje-plaga-chce-vic-penez/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:46",
+      "headline": "Policie exhumovala v Lánech ostatky Jana Masaryka a bude na nich hledat známky násilí",
+      "body": "Policejní odborníci dnes vyzvedli z rodinné hrobky na hřbitově v Lánech na Kladensku ostatky někdejšího ministra zahraničí Jana Masaryka. Podle mluvčího policejního prezidia Jakuba Vinčálka to může pomoci při objasňování okolností jeho úmrtí z března 1948, kdy zemřel po pádu z okna pražského Černínského paláce krátce po komunistickém převratu. Kriminalisté chtějí na ostatcích hledat známky násilí a zjistit, zda komunisté nezmanipulovali původní pitvu, popisuje Deník N. Souhlas rodiny policie k exhumaci nepotřebovala, protože jde o úkon trestního řízení, příbuzné ale o svém záměru předem informovala. „Nebojím se, že bychom se o smrti Jana Masaryka nedozvěděli něco nového,“ řekla Deníku N forenzní antropoložka a ředitelka Ústavu antropologie Přírodovědecké fakulty Masarykovy univerzity Petra Urbanová.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/experti-exhumuji-ostatky-jana-masaryka-ma-to-pomoci-objasnit-okolnosti-jeho-smrti-377182" },
+        { "name": "Deník N", "url": "https://denikn.cz/2172406/policie-hleda-na-ostatcich-jana-masaryka-znamky-nasili-chce-zjistit-zda-komuniste-zmanipulovali-pitvu/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2172563/skrceni-nebo-duseni-nam-muze-napovedet-jedina-kustka-rika-expertka-ke-zkoumani-masarykovy-smrti/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-policejni-odbornici-exhumuji-ostatky-nekdejsiho-ministra-zahranici-jana-masaryka-314406" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:14",
+      "headline": "Odvolání bitcoinového daru může být podle Tejce způsob, jak komplikovat trestní řízení",
+      "body": "Navazuje na včerejší zprávu, že obžalovaný Tomáš Jiřikovský odvolal pro nevděk dar bitcoinů v hodnotě miliardy korun, který loni věnoval ministerstvu spravedlnosti. Ministr spravedlnosti Jeroným Tejc (za ANO) dnes novinářům v Českých Budějovicích řekl, že to může být způsob, jak komplikovat trestní řízení, a resort zváží další postup. Bitcoiny jsou podle něj nyní kvůli trestnímu řízení zablokované a vracet se nebudou. Ministerstvo označilo odvolání daru za další právní riziko spojené s bitcoinovou kauzou; zdrojem budoucích sporů mohou být jak okolnosti přijetí daru, tak jeho následného prodeje v aukci.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/odvolani-bitcoinoveho-daru-muze-byt-dle-tejce-zpusob-jak-komplikovat-rizeni-377188" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/zpusob-jak-komplikovat-trestni-rizeni-tejc-se-vyjadril-k-jirikovskemu-odvolani_2609021305_lar" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/obzalovany-jirikovsky-odvolal-pro-nevdek-bitcoinovy-dar-venovany-ministerstvu-377166" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:59",
+      "headline": "Ministr kultury Klempíř odvolal ředitele Industriálního muzea v Ostravě",
+      "body": "Ministr kultury Oto Klempíř (za Motoristy) dnes odvolal z funkce ředitele příspěvkové organizace MUSEum+, Industriálního muzea v Ostravě, Pavla Lazara. Hlavním důvodem je obava o další řádnou realizaci projektu MUSEum+, jehož cílem je vybudovat v areálu Dolních Vítkovic nové industriální muzeum a využít pro jeho potřeby vysoké pece č. 4 a 6. Vedení se dočasně ujme generální ředitelka Národního památkového ústavu Naděžda Goryczková, jejím hlavním úkolem bude organizaci stabilizovat a zajistit pokračování projektu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/reditel-industrialniho-muzea-v-ostrave-konci-z-funkce-ho-odvolal-ministr-kultury_2609021559_tez" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/kultura-ministr-kultury-odvolal-reditele-museum-industrialniho-muzea-v-ostrave-314452" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172756/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:38",
+      "headline": "Začaly kampaně do říjnových komunálních a senátních voleb",
+      "body": "V Česku se rozjíždějí kampaně do říjnových komunálních a senátních voleb, na řadě míst dnes vládní i opoziční strany představovaly programy. O téměř 6400 zastupitelských křesel se uchází přes 190 000 kandidátů a kandidátek, většinu z nich tvoří nezávislí. Předseda Starostů a nezávislých Vít Rakušan při zahájení kampaně řekl, že konkrétním cílem hnutí je výrazně uspět v Praze a dostat se do zastupitelstev všech statutárních měst; chce podle svých slov oslovit i zklamané voliče ANO. Šance Motoristů na úspěch je podle politologa Josefa Mlejnka mizivá a kandidaturu ministrů považuje za ctnost z nouze.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/mlejnek-sance-motoristu-na-uspech-ve-volbach-je-miziva-kandidatura-ministru-je-z_2609021638_raf" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172688/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:17",
+      "headline": "Nad Hradcem začaly stoupat balony, upoutanou atrakci pořadatelé přesunuli na dnešek",
+      "body": "Balónové nebe, jeden z hlavních taháků letošních Královských slavností, se nad Hradcem a okolím koná od 2. do 5. září. Upoutaný balon pro děti, který organizátoři původně chystali na pátek, přesunuli už na dnešek — v pátek by ho mohl ohrozit silný vítr. Atrakce, při níž balon vystoupá do omezené výšky a vrátí se zpět na zem, je určená dětem do 13 let.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/upoutany-balon-hradec-presun-balonove-nebe-atrakce-deti/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" },
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/zpravy/898784-balonove-nebe-znovu-rozzari-hradec-kralove-ceka-nas-paradni-podivana.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:02",
+      "headline": "Na Gočárově okruhu jsou hotové pomalé pruhy, práce potrvají do října",
+      "body": "Ředitelství silnic a dálnic dokončilo na Gočárově okruhu opravu pomalých jízdních pruhů a nájezdových ramp, práce se nyní přesouvají do rychlých pruhů. Podle harmonogramu by mohlo být hotovo 5. října. Do provozu se v úterý po více než sedmi týdnech vrátila auta na Malšovický nadjezd, píše iDNES; rozsáhlá oprava Malšovického mostu přes Orlici, kde obousměrný provoz řídí semafory, ale bude hotová až v polovině listopadu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/doprava/898953-pomale-pruhy-jsou-hotove-oprava-gocarova-okruhu-potrva-do-rijna.html" },
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/uzavirky-opravy-silnice-malsovicky-most-nadjezd-okruh-rsd.A260901_153820_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:32",
+      "headline": "Velké náměstí dostává zeleň a pobytovou zónu, celková rekonstrukce se teprve chystá",
+      "body": "Velké náměstí v Hradci Králové postupně mění podobu — přibývá zeleň, nový mobiliář a pobytová zóna. Celková rekonstrukce náměstí se ale teprve připravuje, od loňského září se zpracovává dokumentace pro povolení celého záměru.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/velke-namesti-promena-rekonstrukce-pobytova-zona-hradec-kralove/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:02",
+      "headline": "Fotbalisté Hradce hrají dnes v Brně dohrávku čtvrtého kola",
+      "body": "Po vyřazení z evropských pohárů a porážce v Liberci čeká fotbalisty Hradce Králové další těžká zkouška: dnes se představí v dohrávce 4. kola první ligy na hřišti rozjeté Zbrojovky Brno. Proti Votrokům by měl nastoupit i brněnský střelec Vašulín, který v Hradci dříve působil.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/hradec-ceka-tezka-sichta-v-brne-proti-bude-i-strelec-vasulin/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:51",
+      "headline": "Německo řeší další sabotáže, u útoku v Lipsku má dva podezřelé",
+      "body": "Nádražím v bavorském Augsburgu dnes ráno otřásl výbuch ručního granátu. Německé úřady zároveň vyšetřují dva úterní zásahy do elektrické infrastruktury jako možné sabotáže: úmyslně způsobený zkrat v rozvodně u elektrárny Jänschwalde v Braniborsku a další v rozvodně v Bergheimu v Severním Porýní-Vestfálsku, kde policie vyloučila technickou závadu. Podle E15 zkrat v Bergheimu odstavil pět bloků dvou okolních elektráren, jednou z nich je elektrárna Křetínského, dodávky elektřiny ale ohroženy nebyly. Ke včerejšímu oznámení, že za srpnovým hybridním útokem na letišti Lipsko/Halle stojí Moskva, přibyli podezřelí: podle stanic NDR, WDR a listu Süddeutsche Zeitung jde o Rusa s lotyšským pasem a Bělorusa s ruským občanstvím, jejich zadržení ale média nepovažují za pravděpodobné. Předsedkyně Evropské komise Ursula von der Leyen uvedla, že při útoku v Lipsku byl použit materiál vojenské kvality a při úspěšném provedení mohlo dojít ke ztrátám na životech. Ruský prezident Vladimir Putin označil odvetná opatření Berlína za „hrubou chybu“ a z Moskvy podle Seznam Zpráv zněly výhrůžky, že by si Německo „zasloužilo přímý úder“; ruské ministerstvo zahraničí si předvolalo německého diplomata. Rusko přitom v tichosti stáhlo z Bruselu zhruba dvacet diplomatů, čímž splnilo požadavek EU omezit svou misi na čtyřicet lidí. Premiér Andrej Babiš označil incidenty v Německu za velmi vážné a uvedl, že Česko je připravené úzce spolupracovat s Německem i s evropskými a transatlantickými partnery.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2172258/vybuch-granatu-sabotaz-elektriny-nemecka-vlada-pritvrdila-proti-rusku-pote-pribyly-dalsi-utoky/" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-rozvodne-na-zapade-nemecka-nekdo-umyslne-zpusobil-zkrat-377178" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/umyslny-zkrat-odstavil-pet-bloku-elektraren-tercem-sabotaze-byla-i-kretinskeho-elektrarna-1435388" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/nemecke-urady-identifikovaly-dva-podezrele-z-utoku-na-letisti-u-lipska-pisi_2609021455_vdv" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-hruba-chyba-rekl-putin-k-odvete-berlina-nemecko-hlasi-dalsi-sabotaze-314407" },
+        { "name": "Deník N", "url": "https://denikn.cz/2172862/rusti-diplomate-v-dobe-utoku-v-nemecku-v-tichosti-opousteji-brusel/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-babis-oznacil-incidenty-v-nemecku-za-vazne-cr-podpori-posileni-bezpecnosti-314451" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:36",
+      "headline": "Ruské střely zasáhly v Kyjevě univerzitu během vyučování, Německo pošle protivzdušnou obranu",
+      "body": "Ruské střely dnes zasáhly jednu z kyjevských univerzit přímo během vyučování, všech 160 studentů ale bylo v úkrytu, uvedl na síti X ukrajinský prezident Volodymyr Zelenskyj. Rusové podle něj v noci bombardovali také Odesu, kde poškodili obytný dům a městskou infrastrukturu a zranili pět lidí včetně dítěte. Německo tento měsíc předá Ukrajině nové balíčky protivzdušné obrany, Zelenskyj s kancléřem projednal i společnou dronovou dohodu. Novým velitelem ukrajinských pozemních sil se stal bývalý výsadkář Svjatoslav Zajic, který nahradil Hennadije Šapovalova.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172681/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172963/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-jmenoval-noveho-velitele-ukrajinskych-pozemnich-sil-314443" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:25",
+      "headline": "Izrael má podle ministra obrany hotové plány na odsun Palestinců z Gazy",
+      "body": "Izrael má připravené plány na odsun Palestinců z Pásma Gazy, ale čeká, až Spojené státy vymyslí, kam je odvézt. Podle agentury AFP to dnes řekl izraelský ministr obrany Jisrael Kac na konferenci, kterou pořádal server Ynet a deník Jediot Achronot. Vláda premiéra Benjamina Netanjahua je podle Kace připravena Palestince z Pásma Gazy „dostat pryč“.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/izrael-vyckava-az-usa-vymysli-kam-palestince-odvezt-zeme-je-pripravena-na-jejich_2609021625_jos" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/mame-plan-na-odsun-palestincu-z-pasma-gazy-ceka-se-na-usa-prohlasil-kac-377193" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172916/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "20:02",
+      "day": "prev",
+      "headline": "Americké síly zasáhly další íránské cíle, podle IRNA zemřelo jedenáct lidí",
+      "body": "Americké síly podle velitelství CENTCOM podnikly v úterý další útoky na íránské cíle. Íránská státní agentura IRNA uvedla, že při nich zemřelo jedenáct lidí, íránská média podle Reuters hlásila výbuchy na ostrově Kešm v Hormuzském průlivu. ČT24 zároveň informovala, že Teherán udeřil na Jordánsko.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/americke-sily-zahajily-dalsi-utoky-na-iranske-cile-vybuchy-hlasi-ostrov-kesm-377170" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:59",
+      "headline": "AfD by v nedělních volbách v Sasku-Anhaltsku mohla podle průzkumu získat až 43 procent",
+      "body": "Alternativa pro Německo by v nedělních volbách ve východoněmecké spolkové zemi Sasko-Anhaltsko mohla získat až 43 procent hlasů, vyplývá z dnes zveřejněného průzkumu agentury INSA. Křesťanskodemokratická unie současného zemského premiéra Svena Schulzeho zaostává o 21 procentních bodů. E15 dodává, že AfD vede i v průzkumech v Meklenbursku-Předním Pomořansku a v Berlíně drží silnou pozici v těsném trojboji s Levicí a CDU.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/afd-v-sasku-anhaltsku-mohla-vyhrat-az-s-43-procenty-uvadi-novy-pruzkum_2609021535_med" },
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/politicke-zemetreseni-na-vychode-nemecka-afd-saha-po-43-procentech-a-prvnim-zemskem-premierovi-1435444" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172803/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:44",
+      "headline": "Záplavy v Nepálu a Tibetu mají nejméně 1130 mrtvých, naděje na nalezení přeživších slábne",
+      "body": "Počet obětí ničivých záplav v Nepálu a Tibetu z minulého týdne vzrostl podle agentury AFP na nejméně 1130, po 4462 lidech záchranáři dál pátrají. Naděje na nalezení dalších přeživších podle úřadů slábnou, uvedl Reuters. Nepálská vláda se nyní chce zaměřit na obnovu zasažených oblastí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/modlime-se-doufame-mrtvych-v-nepalu-je-uz-pres-1100-patrani-pokracuje-377190" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zaplavy-v-nepalu-si-dosud-vyzadaly-1114-mrtvych-vlada-se-chce-zamerit-na-obnovu-314426" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:58",
+      "headline": "Chevron se dohodl s Venezuelou a chce tam investovat sedm miliard dolarů",
+      "body": "Americká ropná společnost Chevron se dohodla s Venezuelou na podmínkách pro své společné podniky v zemi a v příštích pěti letech tam plánuje investovat více než sedm miliard dolarů. Cílem je těžba přibližně 600 000 barelů denně. Podle Seznam Zpráv firma získala přístup k novým ložiskům a chce tak svou venezuelskou produkci zdvojnásobit.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-americky-ropny-koncern-chevron-zdvojnasobi-produkci-ropy-ve-venezuele-314436" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172584/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:26",
+      "headline": "Uber propustí desetinu zaměstnanců, tedy přes tři tisíce lidí",
+      "body": "Taxislužba Uber prochází rozsáhlou restrukturalizací a propustí deset procent zaměstnanců, tedy přes tři tisíce lidí. Podle generálního ředitele Dary Khosrowshahiho jsou změny potřeba, protože dosavadní stav neodpovídal současné velikosti firmy.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-provozovatel-taxisuzby-uber-propusti-deset-procent-zamestnancu-314445" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:25",
+      "headline": "Nizozemská centrální banka přesunula 86 tun zlata z Ameriky do Londýna",
+      "body": "Nizozemská centrální banka přesunula z USA a Kanady do Londýna kolem 86 tun zlata, tedy více než čtvrtinu svých dosavadních rezerv. Přesun přichází měsíce poté, co francouzská centrální banka prodala zlato, které držela ve Spojených státech.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-komodity-dluhopisy-nizozemska-banka-presunula-cast-zlatych-rezerv-z-ameriky-do-britanie-314467" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:30",
+      "headline": "Mistral podle své nápovědy trénuje na vstupech uživatelů ve výchozím nastavení",
+      "body": "Francouzská firma Mistral podle stránky své nápovědy, na kterou dnes upozornila diskuse na Hacker News, nově ve výchozím nastavení používá vstupy uživatelů k trénování svých modelů. Výjimkou má být podnikový tarif.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:36",
+      "headline": "Americký soud rozhodl, že držení AI obrázků zneužívání fiktivních dětí chrání první dodatek",
+      "body": "Odvolací soud v Chicagu minulý týden rozhodl, že soukromé vlastnictví obrázků a videí zobrazujících sexuální zneužívání fiktivních dětí, která vygenerovala umělá inteligence, je pod ochranou prvního dodatku americké ústavy. Rozsudek padl v případu muže, u něhož se našel vysoký počet takto vygenerovaných explicitních obrázků dětí.",
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/mame-obavy-ale-nemuzeme-je-zmenit-americky-soud-rozhodl-o-uchovavani-ai-obrazku_2609021336_raf" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:32",
+      "headline": "Cvičné letouny L-39C Albatros ukončily po 22 letech provoz",
+      "body": "Cvičné proudové letouny L-39C Albatros dnes po 22 letech ukončily provoz, naposledy se vznesly při rozlučkovém letu nad Českem. Ve výcviku je nahrazuje nová generace letounů L-39NG Skyfox.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2172630/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "05:00",
+      "headline": "Na českém trhu se prodávají vína majitelů s vazbami na ruský stát, popisuje Voxpot",
+      "body": "Voxpot sestavil přehled čtyř vinařských značek, které se prodávají i v Česku, přesto že jejich majitelé mají vazby na ruský stát. Jde zejména o italská vína z oblasti Chianti. Reportáž se zároveň ptá českých obchodníků, jestli o původu těch vín vědí a co si o něm myslí.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/na-zdravi-kremlu-cesky-trh-nabizi-vina-putinovych-muzu/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:06",
+      "day": "prev",
+      "headline": "Zverev vydřel na US Open pětisetový úvod, tři české tenistky v prvním kole vypadly",
+      "body": "Nejvýše nasazený Alexander Zverev otevřel US Open vítězstvím 6:4, 3:6, 6:7, 7:5 a 6:4 nad Italem Lorenzem Sonegem; zápas trval bez pěti minut pět hodin. Druhá hráčka světového žebříčku Jelena Rybakinová zdolala 6:3 a 6:2 domácí Theu Frodinovou. Z Češek se do druhého kola nedostaly Gabriela Knutsonová ani Lucie Havlíčková, které v hlavní soutěži grandslamu debutovaly a obě prohrály 3:6 a 3:6 — Havlíčková s Maďarkou Annou Bondárovou. Skončila také Darja Viďmanová, která podlehla Španělce Jessice Bouzasové.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/knutsonova-a-havlickova-v-grandslamove-premiere-dohraly-v-1-kole-158719" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-svetova-dvojka-zvladla-uvod-us-open-a-je-v-dalsim-kole-5524679" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:30",
+      "headline": "Manchester City zaplatil za Enza Fernándeze 125 milionů liber a vyrovnal rekord anglické ligy",
+      "body": "Záložník Enzo Fernández odešel z Chelsea do Manchesteru City, který za něj podle médií zaplatil 125 milionů liber, tedy 3,53 miliardy korun. Argentinský fotbalista tak vyrovnal přestupový rekord anglické ligy.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/druhy-rekordni-prestup-fernandeze-city-za-argentince-zaplati-chelsea-125-milionu-liber-158720" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:47",
+      "day": "prev",
+      "headline": "Basketbalistky zvládly generálku na mistrovství světa, Jižní Koreu přehrály 79:64",
+      "body": "České basketbalistky vyhrály v Berlíně v generálce na mistrovství světa nad Jižní Koreou 79:64, šlo o jejich čtvrtou výhru z pěti přípravných duelů. Nejlepší střelkyní týmu trenérky Romany Ptáčkové byla se 16 body Petra Malíková, o bod méně zaznamenala Petra Holešínská. Do turnaje Češky vstoupí v pátek zápasem s Itálií, v neděli je ve skupině D čeká Čína.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/basketbal/vydarena-generalka-na-ms-basketbalistky-prehraly-koreu-158716" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:06",
+      "headline": "Ruský hokej se odvolal k arbitráži, lyžaři budou dál startovat jako neutrální",
+      "body": "Ruský hokejový svaz se odvolal ke Sportovnímu arbitrážnímu soudu proti zákazu startů svých týmů v mezinárodních soutěžích včetně mistrovství světa, který federace IIHF potvrdila na konci července. Potřebné materiály svaz podle svého prohlášení předal arbitráži s posledním srpnovým dnem, slyšení se má uskutečnit koncem října. Ruští a běloruští lyžaři a snowboardisté zároveň budou i v nadcházející sezoně startovat v závodech Mezinárodní lyžařské federace jako neutrální sportovci, oznámila dnes FIS.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/hokej/rusove-se-kvuli-pokracujicimu-zakazu-startu-na-hokejovych-turnajich-odvolali-k-cas-158725" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/zimni-sporty-lyzovani-rusti-a-belorusti-lyzari-budou-dal-zavodit-jako-neutralni-5524935" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:45",
+      "headline": "Vuelta přišla o Madse Pedersena, desátou etapu vyhrál překvapivě Tronchon",
+      "body": "Dánský cyklista Mads Pedersen ze stáje Lidl-Trek nenastoupil do 11. etapy Vuelty. V uplynulých dnech bojoval s nemocí a výsledkově zůstával daleko za očekáváním. Desátou etapu předtím překvapivě vyhrál Francouz Bastien Tronchon, červený trikot lídra dál drží Španěl Enric Mas.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/cyklistika-vuelta-prisla-o-dalsi-velke-jmeno-5524922" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/prekvapeni-na-vuelte-favority-zaskocil-francouz-tronchon-158715" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:16",
+      "headline": "Reprezentační kapitán Krejčí zůstává po uzavření přestupových oken ve Wolverhamptonu",
+      "body": "Po sestupu Wolverhamptonu z Premier League kroužila okolo reprezentačního kapitána Ladislava Krejčího řada zájemců včetně klubů z nejvyšší anglické soutěže. Po úterním uzavření přestupových oken top lig je ale jasno: sedmadvacetiletý obránce ve Wolves pokračuje, potvrdil to po prohře 2:4 s West Hamem kouč César Peixoto.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-premier-league-o-budoucnosti-kapitana-reprezentace-uz-je-jasno-5524915" }
+      ]
+    }
+  ]
+}
