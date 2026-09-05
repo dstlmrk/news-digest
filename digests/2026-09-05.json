@@ -1,0 +1,354 @@
+{
+  "date": "2026-09-05",
+  "covers": "2026-09-05",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra zataženo a beze srážek, přes den necelých 20 °C. Ráno bude chladno, teplota klesne k 12 °C.",
+    "days": [
+      { "date": "2026-09-06", "icon": "cloudy", "temp_max_c": 19.7, "temp_min_c": 11.7 },
+      { "date": "2026-09-07", "icon": "cloudy", "temp_max_c": 22.8, "temp_min_c": 9.1 },
+      { "date": "2026-09-08", "icon": "cloudy", "temp_max_c": 27.3, "temp_min_c": 14.1 },
+      { "date": "2026-09-09", "icon": "rain", "temp_max_c": 18.4, "temp_min_c": 14.0 }
+    ]
+  },
+  "highlights": [
+    "Spor o rozpočet se schodkem 389 miliard pokračuje: Okamura chce škrtat v resortech ANO a Motoristů, v pondělí se má o rozpočtu znovu jednat.",
+    "Trumpovi vyjednavači Witkoff a Kushner přistáli v Moskvě; Rusko přes noc udeřilo na letiště v Kyjevě a pak oznámilo, že na tři dny útoky na metropoli zastaví.",
+    "Írán tvrdí, že americké rakety zasáhly u ostrova Charg jeho tanker."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "13:41",
+      "day": "covered",
+      "headline": "Okamura chce škrtat v resortech ANO a Motoristů, veřejnost schodek odmítá",
+      "body": "Snížit schodek státního rozpočtu na příští rok, navržený ve výši 389 miliard korun, by podle předsedy Sněmovny a šéfa SPD Tomia Okamury bylo možné úsporami v resortech vedených zástupci ANO a Motoristů. Řekl to v pořadu Za pět minut dvanáct televize Nova; jako příklad uvedl zrušení humanitárních dávek pro ukrajinské uprchlíky, kterým by se podle něj dalo ušetřit 12 miliard korun. Ministr zdravotnictví Adam Vojtěch (za ANO) nechtěl předjímat, zda pondělní jednání s Motoristy rozpočet změní, s tím, že důležitá je finanční stabilita zdravotnictví. Motoristé návrh s druhým nejhlubším schodkem v historii kritizují a ve čtvrtek předložili premiérovi Andreji Babišovi vlastní návrh úspor. Podle průzkumu Medianu považuje navrhovaný schodek za nepřijatelný 62 procent lidí; za přijatelný ho v nějaké míře označilo 53 procent voličů ANO, 26 procent voličů Motoristů a 27 procent voličů SPD, zatímco mezi voliči Spolu, STAN a Pirátů ho odmítá kolem 95 procent.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/snizeni-schodku-rozpoctu-chce-okamura-spd-v-resortech-vedenych-ano-a-motoristy_2609051341_elev" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175466/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175383/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "21:19",
+      "day": "prev",
+      "headline": "Macinka odmítl, že by rozhovorem s maskovaným mužem ohrozil bezpečnost",
+      "body": "Ministr zahraničí a předseda Motoristů Petr Macinka v Interview ČT24 odmítl, že by účastí na rozhovoru s maskovaným moderátorem ohrozil svoji nebo národní bezpečnost. „Nemám pocit, že bych se vystavil nebezpečí,“ řekl k setkání s aktivistickou skupinou Detektivní parta, jejíž člen před ním vystupoval v kukle jako publicista Thomas Paukner. Podle skupiny i opozice ministr bezpečnost podcenil. Deníku N Macinka řekl, že se rozhodl rozhovor „dohrát do konce“ a že mu premiér Andrej Babiš schůzku nevytkl. Zároveň uvedl, že vláda by mohla snížit schodek rozpočtu úsporami ve zdravotnictví nebo v podpoře obnovitelných zdrojů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nevystavil-jsem-se-nebezpeci-rekl-macinka-k-rozhovoru-s-prestrojenymi-aktivisty-377285" },
+        { "name": "Deník N", "url": "https://denikn.cz/2175231/rozhodl-jsem-se-to-dohrat-do-konce-macinka-hajil-rozhovor-s-falesnym-pauknerem-a-priblizil-jak-chteji-motoriste-snizit-schodek/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "08:57",
+      "day": "covered",
+      "headline": "Ministerstvo zdravotnictví chce objednávat u fakult i zubaře, peníze na to v rozpočtu nemá",
+      "body": "Stát si u vysokých škol začal napřímo „objednávat“ lékaře a studium jich nyní končí o 15 procent více. Stejný program by ministerstvo zdravotnictví chtělo zavést i u zubařů, na které v rozpočtu peníze nejsou. Lékařské fakulty podle Seznam Zpráv upozorňují, že u zubařů může být takový program náročnější.",
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-vojtech-chce-vic-zubaru-na-jeho-plan-ale-nejsou-penize-314668" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:00",
+      "day": "covered",
+      "headline": "Na části D3 se smí jezdit 150 kilometrů v hodině až do konce roku",
+      "body": "Testovací režim mezi Planou nad Lužnicí na Táborsku a Úsilným u Českých Budějovic pokračuje, řidiči tam na dálnici D3 mohou za vhodných podmínek jezdit až 150 kilometrů v hodině do konce roku. Zkušební období mělo původně skončit v září, ministerstvo dopravy ale chce získat víc dat o tom, jak se auta na úseku chovají a jestli vyšší rychlost nezpůsobuje víc nehod.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/regiony/az-150-kilometru-v-hodine-mohou-ridici-na-casti-d3-jezdit-do-konce-roku-377282" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:00",
+      "day": "covered",
+      "headline": "Hradec znovu rozdá tisícikorunové příspěvky, nově je lze utratit i za kroužky dětí",
+      "body": "Město opět rozdělí mezi obyvatele peníze prostřednictvím projektu Corrency. Loni šlo o příspěvek na nákupy u místních obchodníků, letos ho rodiče mohou využít také na sport, kroužky, tábory nebo další volnočasové aktivity svých dětí.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/899165-tisicovka-od-hradce-je-zpet-nove-ji-muzete-vyuzit-i-na-krouzky-deti.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:19",
+      "day": "covered",
+      "headline": "Nevydané obědy ze dvou hradeckých škol skončí místo v koši v automatu",
+      "body": "Obědy, které se ve školní jídelně uvaří, ale nesní, se v Hradci Králové nově nebudou muset vyhazovat. Dvě základní školy se zapojily do projektu, díky kterému si lidé nevydané jídlo vyzvednou z automatu.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/hradecko/899303-nevydane-skolni-obedy-v-hradci-dostanou-druhou-sanci-lide-ho-najdou-v-automatu.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:14",
+      "day": "covered",
+      "headline": "Soutěž Balonové nebe vyhrála posádka, jejíž balon minul Bílou věž o 60 centimetrů",
+      "body": "V soutěži Balonové nebe 2026 v Hradci Králové zvítězila posádka z Českých Budějovic. Vítězný balon se při průletu nad městem přiblížil cípu Bílé věže na 60 centimetrů, člen posádky Roman Hanzlik průlet natočil.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/balony-fiesta-hradec-posadka-bila-vez-balonove-nebe-fiesta-fly-in-soutez.A260905_102230_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:55",
+      "day": "covered",
+      "headline": "Krajský fotbalový svaz povede Martin Červíček",
+      "body": "Předsedou Královéhradeckého krajského fotbalového svazu byl na mimořádné valné hromadě zvolen Martin Červíček. Ve funkci navazuje na dlouholetého předsedu Václava Andrejse a po zvolení uvedl, že chce pokračovat v jeho odkazu.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-kraj/krajsky-fotbal-ma-noveho-sefa-po-andrejsovi-prebira-svaz-martin-cervicek/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-kraj" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:20",
+      "day": "covered",
+      "headline": "Rusko udeřilo na kyjevská letiště, pak slíbilo tři dny neútočit na metropoli",
+      "body": "Ukrajina vyhlásila od půlnoci na sobotu jednostranné příměří na celý víkend kvůli návštěvě amerických vyjednavačů a vyzvala k jeho dodržování i Moskvu. Rusko přesto v noci zaútočilo na letiště v Kyjevě a nedalekém Boryspilu, kde by americká delegace mohla přistát; oznámil to na síti X prezident Volodymyr Zelenskyj. Podle ukrajinského generálního štábu Moskva klid zbraní nerespektuje a boje i nálety pokračují, při ruském útoku na jihovýchodě Ukrajiny zemřeli čtyři lidé. Během dne pak mluvčí Kremlu Dmitrij Peskov podle agentury TASS uvedl, že Vladimir Putin vydal pokyn tři dny neútočit na Kyjev. Nařízení má podle něj souviset s příjezdem americké delegace a platit začne až od sobotní půlnoci.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-tvrdi-ze-kvuli-delegaci-usa-nebude-tri-dny-utocit-na-kyjev-377295" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-putin-naridil-kvuli-delegaci-usa-na-tri-dny-zastavit-utoky-na-kyjev-rekl_2609051416_lar" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-ruskem-utoku-na-jihovychode-ukrajiny-zemreli-ctyri-lide-314698" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-pri-utoku-na-jihovychode-ukrajiny-zabili-ctyri-lidi-377290" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:57",
+      "day": "covered",
+      "headline": "Witkoff a Kushner přistáli v Moskvě, mají obnovit jednání o konci války",
+      "body": "Američtí vyjednavači Steve Witkoff a Jared Kushner v sobotu přistáli v Moskvě, aby se pokusili obnovit jednání o ukončení války na Ukrajině. Na letišti je přivítal zmocněnec Vladimira Putina Kirill Dmitrijev, který vystupuje jako ruský vyjednavač v kontaktech s Trumpovou administrativou; poté má dvojice zamířit i do Kyjeva. Podle Seznam Zpráv mírová jednání už měsíce stagnují a rozhovory přicházejí ve chvíli, kdy jsou obě strany stále vyčerpanější. Náměstek ruského ministra zahraničí Sergej Rjabkov před návštěvou pro TASS uvedl, že by Washington měl brát v potaz realitu na bojišti, která se podle něj mění v neprospěch Kyjeva.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/zahranicni/americane-pristali-v-moskve-jednani-s-kremlem-zacina-1435578" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-mirova-jednani-zamrzla-trumpovi-vyjednavaci-poprve-miri-za-putinem-i-zelenskym-314711" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rjabkov-usa-by-mely-pri-jednani-o-ukrajine-brat-v-potaz-realitu-na-bojisti-314703" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:46",
+      "day": "covered",
+      "headline": "Írán tvrdí, že americké rakety zasáhly u ostrova Charg jeho tanker",
+      "body": "U íránského ostrova Charg v Perském zálivu byly slyšet výbuchy, informovala íránská agentura Fars. Íránská státní televize tvrdí, že tanker zasáhly čtyři americké rakety a posádka byla evakuována; žádné důkazy zpráva neobsahovala. Americká armáda oznámila, že zasáhla a vyřadila z provozu tři íránské tankery poté, co Írán odpálil balistické střely proti dvěma válečným lodím USA. Charg je klíčový ropný terminál, přes který proudí většina íránského ropného exportu. Podle Seznam Zpráv incident přichází po výhrůžkách Donalda Trumpa, že terminál rozmetá na prach.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/u-iranskeho-ostrova-charg-se-ozvaly-vybuchy-377291" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-americane-zasahli-iransky-tanker-v-perskem-zalivu-tvrdi-teheran-314705" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175413/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:10",
+      "day": "covered",
+      "headline": "Americký velvyslanec popřel plán na vysídlení Palestinců, izraelští ministři ho přitom představili",
+      "body": "Neexistuje žádný plán na nucené vysídlení Palestinců z Pásma Gazy, řekl při návštěvě okupovaného Západního břehu americký velvyslanec v Izraeli Mike Huckabee. Izraelský krajně pravicový ministr národní bezpečnosti Itamar Ben Gvir přitom takový návrh představil: podle něj má za rok odejít 250 tisíc Palestinců a během dalších šesti let prakticky celé palestinské obyvatelstvo. O stejném záměru podle ČT24 hovořil i ministr obrany Jisra'el Kac. Huckabee se v obci Turmus Ajjá setkal s Palestinci a řekl, že izraelští osadníci útočící na palestinské vesnice musí čelit tvrdým následkům.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/americky-velvyslanec-poprel-plan-na-vysidleni-palestincu-ktery-uz-izraelci-predstavili-377292" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-izrael-nema-plan-na-vysidleni-palestincu-z-gazy-tvrdi-velvyslanec-usa-huckabee-314712" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175485/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:36",
+      "day": "covered",
+      "headline": "Merz chce před nedělními volbami v Sasku-Anhaltsku zlepšit boj proti AfD",
+      "body": "Německý kancléř Friedrich Merz před nedělními zemskými volbami v Sasku-Anhaltsku řekl, že chce zlepšit politický boj proti AfD. Pravicově extremistická strana získávala v posledních průzkumech ve východoněmecké spolkové zemi pravidelně kolem 40 procent hlasů. Ostatní strany včetně Merzovy CDU/CSU vůči ní uplatňují takzvanou požární zeď, tedy odmítání jakékoli koalice.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175555/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:22",
+      "day": "covered",
+      "headline": "Merz označil útok na letiště v Lipsku za zlom pro Německo",
+      "body": "Útok na letiště v Lipsku podle německého kancléře Friedricha Merze ukazuje, že Německo stojí před zlomem s dalekosáhlými dopady. Přisouzení útoku Rusku bylo podle něj opodstatněné.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175532/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:24",
+      "day": "covered",
+      "headline": "V Bělehradě se konala veřejná pocta válečnému zločinci Mladićovi",
+      "body": "Dva dny před chystaným pohřbem se v Bělehradě konala veřejná pocta zemřelému bosenskosrbskému válečnému zločinci Ratku Mladićovi. Zúčastnily se jí desítky bývalých vojáků, rodinní příslušníci i srbští činitelé včetně ministra spravedlnosti Nenada Vujiće, informovala agentura AFP. Pondělní pohřeb se má obejít bez původně plánovaných státních poct. Mladić, který se v Bosně v 90. letech podílel mimo jiné na vraždění ve Srebrenici, zemřel minulý týden ve vězeňské nemocnici v Haagu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-poctu-valecnemu-zlocinci-mladicovi-prijel-i-srbsky-ministr-spravedlnosti-377298" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175548/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:12",
+      "day": "covered",
+      "headline": "Čistá minimální mzda loni nestačila na nájem a základní potřeby",
+      "body": "Čistá minimální mzda loni nepokryla základní potřeby a bydlení v nájmu. Podle velikosti bydliště by k tomu musela být o sedm až 24 procent vyšší, tedy zhruba o 1250 až 4280 korun. Ukázala to analýza přiměřenosti nejnižšího výdělku, kterou vypracoval Výzkumný ústav práce a sociálních věcí.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/burzy-a-trhy/minimalni-mzda-uz-nestaci-ani-na-najem-a-zakladni-potreby-1435577" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:25",
+      "day": "prev",
+      "headline": "Česká zbrojařská firma LPP vyhrála alianční soutěž inovátorů NATO",
+      "body": "Tuzemský podnik LPP, který vyrábí například drony řízené umělou inteligencí, zvítězil v pravidelné soutěži inovátorů NATO a porazil více než šest desítek firem z členských států. Podobnou technologii podle E15 západní konkurenční společnosti dosud nemají.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/ceska-technologicka-firma-lpp-zvitezila-v-prestizni-soutezi-nato-1435562" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "20:57",
+      "day": "prev",
+      "headline": "Anthropic zveřejnil formalizaci Velké Fermatovy věty, na Hacker News byla nejdiskutovanějším tématem",
+      "body": "Anthropic vydal práci o formalizaci Velké Fermatovy věty a na GitHubu k ní zveřejnil repozitář s důkazem v jazyce Lean 4. Na Hacker News šlo o nejsledovanější položku dne — příspěvek odkazující na výzkum firmy získal 674 bodů a přes 400 komentářů, samostatná diskuze nad repozitářem dalších 133 bodů.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hacker News", "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem" },
+        { "name": "Hacker News", "url": "https://github.com/anthropics/fermats-last-theorem" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:52",
+      "day": "prev",
+      "headline": "Ve všech verzích Chromia je podle záznamu NVD aktivně zneužívaná zranitelnost sandboxu",
+      "body": "Jednou z nejdiskutovanějších položek na Hacker News byl záznam CVE-2026-85046 v americké databázi zranitelností NVD, popsaný jako aktivně zneužívané vzdálené spuštění kódu s únikem ze sandboxu ve všech verzích Chromia. Diskuze získala 628 bodů a 350 komentářů.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:09",
+      "day": "covered",
+      "headline": "Anthropic odkládá vstup na burzu",
+      "body": "Americká společnost Anthropic, která vyvíjí generativní umělou inteligenci, posouvá termín vstupu na burzu. Přípravu primární veřejné nabídky akcií by měla zahájit nejdříve v polovině října a vstup na burzu dokončit několik dní před listopadovými americkými volbami do Kongresu.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/burzy-a-trhy/anthropic-odklada-vstup-na-burzu-1435576" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:45",
+      "day": "covered",
+      "headline": "Valné shromáždění OSN podpořilo nahrazení Mercatorova zobrazení na mapách světa",
+      "body": "Valné shromáždění OSN drtivou většinou schválilo rezoluci o nahrazení Mercatorova zobrazení mapami, které přesněji odrážejí skutečnou velikost jednotlivých zemí. Dokument předložily africké státy v čele s Togem s cílem vyvrátit vnímání kontinentu jako méně významné oblasti; právě Afrika se v Mercatorově zobrazení jeví výrazně menší, než ve skutečnosti je. Podle ČT24, která se odvolává na agenturu Reuters, hlasovaly proti jen Spojené státy.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/na-svetovych-mapach-je-afrika-mensi-nez-ve-skutecnosti-osn-odhlasovalo-nove_2609051645_kvr" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/osn-podporila-nahrazeni-mercatorova-zobrazeni-na-mapach-377286" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "17:55",
+      "day": "prev",
+      "headline": "Soudní lékař popisuje v Deníku N pitvu ostatků Jana Masaryka",
+      "body": "Navazuje na exhumaci ostatků Jana Masaryka: soudní lékař Jiří Hladík v rozhovoru s Deníkem N popsal okolnosti pitvy, kterou prováděl. Tělo bylo podle něj exhumováno v celistvém stavu, díky čemuž bylo možné při několikahodinové pitvě lépe dojít k jednoznačnému závěru.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2175048/kdyz-vas-nekdo-strci-jak-to-prokazete-soudni-lekar-popisuje-jak-pitval-jana-masaryka/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:56",
+      "day": "covered",
+      "headline": "Slavia rozdrtila Zbrojovku 4:0 a odskočila v čele ligy, druhá je Olomouc",
+      "body": "Sedmé kolo první fotbalové ligy nabídlo souboj o první místo mezi Slavií a druhou Zbrojovkou Brno, nováček ale na mistrovský tým nestačil a v Edenu prohrál 4:0. Dvěma brankami rozhodl Tomáš Chorý, který dal své premiérové góly v sezoně. Olomoucká Sigma zvítězila nad Bohemians 3:0 a v neúplné tabulce vyskočila na druhé místo. Slovácko a Pardubice dál čekají na první ligovou výhru, jejich vzájemný zápas skončil 0:0; Slovácko má tři body, Pardubice dva.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-slavia-znicila-zbrojovku-v-cele-ligy-unika-5528821" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/chory-rozhodl-bitvu-o-prvni-pricku-pardubice-se-slovackem-dal-cekaji-na-vyhru-158780" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-olomouc-se-razne-vyporadala-s-bohemians-a-je-druha-5528816" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:44",
+      "day": "covered",
+      "headline": "Pogačar předčasně ukončil sezonu a nebude obhajovat titul mistra světa",
+      "body": "Pětinásobný vítěz Tour de France Tadej Pogačar předčasně ukončil sezonu a dal přednost léčbě operované klíční kosti a dalších zranění z Vuelty. Přijde tak mimo jiné o mistrovství světa, kde měl obhajovat loňský titul. Informovala o tom jeho stáj, kterou ČT Sport i Sport.cz uvádějí jako UAE Emirates a Deník N jako SAE Emirates-XRG. Podle Deníku N s ní slovinský cyklista zároveň prodloužil smlouvu do roku 2032.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/pogacar-po-operaci-klicni-kosti-predcasne-ukoncil-sezonu-a-prijde-o-ms-158776" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/ostatni-sporty/pogacar-predcasne-ukoncil-sezonu-slovinsky-cyklista-po-operaci-oznamil-ze-chce_2609051310_mim" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175559/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:25",
+      "day": "covered",
+      "headline": "Nosková je poprvé v osmifinále US Open, Muchová i Lehečka skončili",
+      "body": "Wimbledonská vítězka Linda Nosková postoupila poprvé do osmifinále US Open, když porazila Američanku Ann Liovou 6:2, 6:7, 6:2 a vítěznou šňůru na grandslamech protáhla na deset zápasů. V osmifinále ji čeká Ukrajinka Marta Kosťuk. Nasazená sedmička Karolína Muchová naopak prohrála s domácí Emmou Navarrovou 3:6, 5:7 a po zápase přiznala, že se jí utkání nepovedlo. Jiří Lehečka nestačil na Stefanose Tsitsipase a prohrál 6:2, 1:6, 6:7, 1:6. V sobotním večerním programu měly o osmifinále hrát ještě Nikola Bartůňková se světovou pětkou Mirrou Andrejevovou a Marie Bouzková s osmou hráčkou světa Igou Šwiatekovou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/muchova-dohrala-na-us-open-ve-3-kole-nestacila-na-navarrovou-158767" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-bartunkova-a-bouzkova-zabojuji-na-us-open-o-osmifinale-v-ceste-jim-stoji-svetove-hvezdy-5528381" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2175408/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:04",
+      "day": "covered",
+      "headline": "Crvena zvezda dostala pokutu 90 tisíc eur za oslavy Mladiće při zápase v Plzni",
+      "body": "UEFA potrestala Crvenou zvezdu Bělehrad pokutou 90 tisíc eur, tedy asi 2,2 milionu korun, za to, že její fanoušci v srpnovém utkání kvalifikace Evropské ligy s Plzní oslavovali válečného zločince Ratka Mladiće. Klub dostal navíc zákaz prodeje vstupenek na zápas v Luganu v Konferenční lize.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/uefa-potrestala-crvenou-zvezdu-za-chovani-fanousku-v-plzni-oslavovali-valecneho-zlocince-mladice-158775" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-evropska-liga-dohra-utkani-s-plzni-crvena-zvezda-belehrad-musi-zaplatit-tucnou-pokutu-5528384" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:34",
+      "day": "covered",
+      "headline": "Handbiker Jahoda vyhrál časovku na paracyklistickém mistrovství světa",
+      "body": "Český paracyklista Patrik Jahoda se v americkém Huntsville stal mistrem světa v časovce na handbiku. Třiatřicetiletý reprezentant v kategorii H1 vylepšil loňský bronz a získal premiérový titul. Pavlína Vejvodová vybojovala ve stejné disciplíně stříbro mezi tricyklistkami ve třídě T1.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/sport-handicapovanych/paracyklista-jahoda-je-mistrem-sveta-v-casovce-na-handbiku-vejvodova-ziskala-stribro-158773" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/ostatni-zlato-navzdory-handicapu-ceska-cyklistika-ma-mistra-sveta-5528373" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:37",
+      "day": "covered",
+      "headline": "Krasobruslařka Valijevová přišla o status neutrální sportovkyně",
+      "body": "Ruská krasobruslařka Kamila Valijevová přišla o status neutrální sportovkyně a nemůže startovat v mezinárodních soutěžích. O rozhodnutí Mezinárodní bruslařské unie informovala agentura Reuters, sama ISU se oficiálně nevyjádřila. Podle médií byl status odebrán také Marku Kondraťukovovi.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/zimni-sporty-krasobrusleni-ruska-krasobruslarka-valijevova-prisla-o-status-neutralni-sportovkyne-5528747" }
+      ]
+    }
+  ]
+}
