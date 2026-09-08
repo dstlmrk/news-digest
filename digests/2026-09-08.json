@@ -1,0 +1,346 @@
+{
+  "date": "2026-09-08",
+  "covers": "2026-09-08",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra se výrazně ochladí, denní teplota vystoupá jen na 24 °C. Déšť je téměř jistý, spadnout má kolem 4,6 milimetru srážek.",
+    "days": [
+      { "date": "2026-09-09", "icon": "rain", "temp_max_c": 24.4, "temp_min_c": 16.8 },
+      { "date": "2026-09-10", "icon": "cloudy", "temp_max_c": 18.0, "temp_min_c": 11.1 },
+      { "date": "2026-09-11", "icon": "cloudy", "temp_max_c": 19.9, "temp_min_c": 9.3 },
+      { "date": "2026-09-12", "icon": "cloudy", "temp_max_c": 19.9, "temp_min_c": 11.9 }
+    ]
+  },
+  "highlights": [
+    "Evropská komise rozhodla, že Andrej Babiš je stále v potenciálním střetu zájmů, a potvrdila pozastavení části dotací pro Agrofert; premiér vzkázal, že ho to nezajímá.",
+    "Na Šumavě je podle ministra životního prostředí 200 sudů s nebezpečnými chemikáliemi a tisíc tun kontaminované zeminy, sanace za 192 milionů začne na konci září.",
+    "Německo dodá Ukrajině střely do systémů Patriot, Rusko mezitím po třídenní přestávce obnovilo údery na Kyjev."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:55",
+      "headline": "Evropská komise rozhodla, že Babiš je stále v potenciálním střetu zájmů, a pozastavila část dotací Agrofertu",
+      "body": "Evropská komise po důkladném posouzení dospěla k závěru, že premiér Andrej Babiš (ANO) se nachází v potenciálním střetu zájmů a svěřenský fond, do kterého v únoru vložil akcie Agrofertu, situaci dostatečně neřeší. Uvedla to mluvčí Komise Louise Bogeyová. Komise zároveň potvrdila, že firmám z holdingu pozastavila proplácení části dotací z Evropského zemědělského fondu pro rozvoj venkova; podle E15 jde o 76,9 milionu korun za druhé čtvrtletí, přímé platby z fondu EZZF běží dál. Ostatní dotace z kohezních fondů jsou podle iROZHLAS pozastavené od února, o zastavení zemědělských plateb informoval v pondělí Státní zemědělský intervenční fond. Babiš Deníku N napsal, že ho postoj Komise nezajímá: „Agrofert nevlastním, nikdy už vlastnit nebudu a nemám z něj ani žádný prospěch. Nevím, co bych měl udělat víc.“ Agrofert je podle svého mluvčího přesvědčen, že postupoval v souladu se zákony a dotačními pravidly. Prezident Petr Pavel uvedl, že je potřeba najít řešení, aby na spor nedoplácela Česká republika ani její občané. Exministr průmyslu Lukáš Vlček (STAN) vyzval vládu, aby okamžitě zastavila i čerpání českých dotací pro Agrofert.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/babis-se-nachazi-v-potencialnim-stretu-zajmu-rozhodla-evropska-komise-377370" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/stret-zajmu-andrej-babis-dotace-rsv_2609081434_tec" },
+        { "name": "Deník N", "url": "https://denikn.cz/2177886/babis-stale-muze-byt-ve-stretu-zajmu-tvrdi-brusel-a-pozastavil-cast-dotaci-nezajima-me-to-reaguje-premier/" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-komise-pozastavila-cast-dotaci-pro-agrofert-nezajima-me-to-rekl-babis-314894" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/stopka-pro-agrofert-evropska-komise-zmrazila-desitky-milionu-korun-z-dotaci-1435616" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:41",
+      "headline": "Na Šumavě je dvě stě sudů s chemikáliemi, sanace za 192 milionů začne na konci září",
+      "body": "Navazuje na včerejší zprávu o únicích toxických látek v Národním parku Šumava. Ministr životního prostředí Igor Červený (Motoristé) upřesnil, že v bývalém vojenském prostoru Dobrá Voda na Klatovsku je asi tisíc tun kontaminované zeminy a dvě stě sudů s nebezpečnými chemikáliemi, mezi nimi dioxiny, furany, rtuť, arsen a chlorovaná rozpouštědla. Sanace začne na konci září, potrvá do června 2028 a vyjde asi na 192 milionů korun s DPH; území zabezpečila policie. Státní úřad pro jadernou bezpečnost ale uvedl, že dosavadní průzkumy tam nezjistily žádné látky historicky používané jako chemické zbraně, tedy ani yperit či sarin, a nenašly se ani nádoby s fosgenem — přesto jde podle úřadu o významnou ekologickou zátěž. O yperitu a fosgenu předtím mluvil poslanec a čestný prezident Motoristů Filip Turek, za což ho podle Deníku N pokáral premiér Babiš s tím, že se má za ministerstvo vyjadřovat jen ministr. Motoristé viní z nečinnosti své předchůdce, Deník N ale píše, že má k dispozici dokumenty dokládající předchozí průzkumy i čištění areálu, a že letošní průzkum resort zadal firmě úzce spojené s lídryní pražské kandidátky Motoristů Klárou Sovovou. Podle exministra Petra Hladíka (KDU-ČSL) dostala zakázku za 3,2 milionu korun bez výběrového řízení společnost Dekonta. Plzeňský kraj zatím stav nebezpečí nevyhlašuje, hejtman Kamal Farhan (ANO) uvedl, že oblast je zabezpečená.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cerveny-k-uniku-latek-v-np-sumava-377366" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-samozrejme-hrozi-nebezpeci-na-sumave-se-nasly-sudy-s-chemikaliemi-314866" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/statni-urad-pro-jadernou-bezpecnost-na-klatovsku-nezjistil-zadne-latky-pouzivane_2609081616_jar" },
+        { "name": "Deník N", "url": "https://denikn.cz/2177897/jedy-na-sumave-kdo-o-sudech-vedel-komu-vyplatili-miliony-a-jak-s-tim-souvisi-politicka-motoristu/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:42",
+      "headline": "Lidovci chtějí svolat Sněmovnu k hlasování o nedůvěře vládě, ODS je pro",
+      "body": "KDU-ČSL chce svolat schůzi Sněmovny k vyslovení nedůvěry vládě ANO, SPD a Motoristů. Podle předsedy lidovců Jana Grolicha vláda postupuje s rozpočtem proti svému programovému prohlášení a měla by ho změnit a znovu požádat poslance o důvěru. K svolání schůze je potřeba padesát podpisů, lidovci mají šestnáct mandátů, a Grolich proto jedná s lídry dalších opozičních stran. Šéf ODS Martin Kupka řekl, že jeho strana bude pro; vadí jí porušování programového prohlášení i Babišův střet zájmů. Piráti podle předsedy Zdeňka Hřiba svolání podpoří, pokud z toho budou něco mít občané.",
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177834/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177930/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177913/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:56",
+      "headline": "Náčelník generálního štábu Hlaváč nepojede na bezpečnostní konferenci do Kyjeva",
+      "body": "Náčelník generálního štábu Miroslav Hlaváč se tento týden nezúčastní mezinárodní bezpečnostní konference YES, která se koná v Kyjevě. Potvrdila to Seznam Zprávám mluvčí štábu Gabriela Kugler. Podle týdeníku Respekt mu účast nepovolil ministr obrany Jaromír Zůna (za SPD).",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-definitivni-stopka-z-ministerstva-sef-armady-na-ukrajinu-nepojede-314862" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177932/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:36",
+      "headline": "Soud zpřísnil trest Čechovi za působení u separatistů na Donbase na 3,5 roku vězení",
+      "body": "Miloš Ouřecký si za účast v teroristické skupině na Donbase odpyká tři a půl roku vězení. Soud vyhověl státnímu zástupci a zpřísnil původní podmíněný trest. Podle obžaloby Ouřeckého k proruským separatistům vyslal spolek Českoslovenští vojáci v záloze za mír.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-soud-zprisnil-muzi-trest-za-pusobeni-u-separatistu-na-donbase-na-35-roku-vezeni-314912" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2178025/" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:00",
+      "headline": "Developer Nové Zelené poslal Hradci předžalobní výzvu a žádá přes 320 milionů",
+      "body": "Developerovi chystaného obchodního centra a nové čtvrti Nová Zelená v Kuklenách došla trpělivost a poslal městu předžalobní výzvu. Za údajné průtahy požaduje úhradu škody ve výši téměř 320 milionů korun, což je zhruba desetina celoročních příjmů města. Při úplném zmaření investice podle Hradeckého deníku hrozí nárok přesahující miliardu a půl. Město jakékoliv nároky odmítá.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/developer-nova-zelena-kukleny-predzalobni-vyzva-uhrada-skody/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:20",
+      "headline": "Finále MOL Cupu se znovu odehraje v Hradci Králové",
+      "body": "Výkonný výbor FAČR rozhodl, že finále domácího fotbalového poháru bude i letos hostit FINEP Arena v Hradci Králové, stejně jako minulou sezonu. Úředním termínem je středa 12. května příštího roku. Votroci svou pohárovou cestu začnou příští týden na hřišti druholigové Příbrami.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/ostatni-fotbal/finale-mol-cupu-bude-znovu-v-hradci-votroci-cestu-k-nemu-zacnou-v-pribrami/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-fotbal" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-pohar-finale-mol-cupu-bude-znovu-hostit-stadion-v-hradci-kralove-5531002" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:01",
+      "headline": "Nezaměstnanost v Královéhradeckém kraji vzrostla v srpnu na 4,2 procenta",
+      "body": "Podíl nezaměstnaných v kraji se v srpnu zvýšil na 4,2 procenta ze 4,1 procenta v červenci a rostl druhý měsíc po sobě. Loni v srpnu byla nezaměstnanost v kraji 3,8 procenta. Vyplývá to z údajů Úřadu práce ČR.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/nezamestnanost-srpen-2026-kralovehradecky-kraj/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:42",
+      "headline": "V Nové Pace otevřely místní firmy technické lyceum, studenti neplatí školné",
+      "body": "Střední školu technického zaměření založily v Nové Pace na Jičínsku firmy SQS Vláknová optika a Quittner & Schimek. Chtějí tak podpořit zájem o technické vzdělávání v regionu, kde dlouhodobě slábne. Na provoz školy dají ročně deset milionů korun, díky čemuž studenti neplatí školné.",
+      "sources": [
+        { "name": "iDNES Hradec", "url": "https://www.idnes.cz/hradec-kralove/zpravy/nova-paka-jicinsko-technicke-lyceum-stredni-skola-firmy.A260908_966527_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:58",
+      "headline": "Rusko po třídenní přestávce obnovilo útoky na Kyjev, dron zasáhl vysílající televizi",
+      "body": "Moskva v noci na úterý obnovila útoky na ukrajinskou metropoli poté, co skončila třídenní přestávka v úderech na Kyjev a Moskvu, která platila kvůli cestě amerických vyjednavačů Steva Witkoffa a Jareda Kushnera. ČT24 psala nad ránem o nejméně dvou mrtvých a deseti zraněných, Seznam Zprávy později uvedly tři mrtvé a pětadvacet zraněných. Během dne zasáhl ruský dron budovu soukromé televize My-Ukraina přímo při vysílání, šest lidí je zraněných a budova je částečně zničená. Rusko podle ČT24 tvrdí, že ukrajinské drony zasáhly cíle v Saratově.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-po-tridenni-prestavce-obnovilo-utoky-na-kyjev-377361" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-po-tridenni-prestavce-obnovilo-utoky-na-kyjev-urady-hlasi-dva-mrtve-314852" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-zautocilo-na-redakci-televize-v-kyjeve-sest-lidi-je-zranenych-314918" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:36",
+      "headline": "Německo dodá Ukrajině střely do systémů Patriot, Kyjev jich smlouvá tisíc",
+      "body": "Německý ministr obrany Boris Pistorius na online schůzce kontaktní skupiny pro obranu Ukrajiny oznámil, že Německo poskytne Ukrajině střely PAC-2 do protivzdušných systémů Patriot ze zásob své armády. Podle iROZHLAS Berlín dodá také drony. Ukrajinský ministr obrany Jevhenij Chmara zároveň uvedl, že Ukrajina s pomocí spojenců a půjčky Evropské unie uzavírá smlouvy na zhruba tisíc těchto střel, které potřebuje k sestřelování ruských balistických raket. Šéfka Evropské komise Ursula von der Leyen podle Deníku N spolu s generálním tajemníkem NATO Markem Ruttem krok uvítala.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/online-nemecko-doda-ukrajine-strely-do-systemu-patriot-uvadi-pistorius-berlin_2609081633_ape" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nemecko-poskytne-ukrajine-potrebne-strely-do-protivzdusnych-systemu-patriot-314919" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2178197/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:08",
+      "headline": "Putin s Trumpem si telefonovali o misi amerických vyjednavačů a výměně vězňů",
+      "body": "Prezidenti Ruska a Spojených států spolu podle Kremlu hovořili po skončení mise amerických vyjednavačů, kteří se snaží zprostředkovat mírové řešení války na Ukrajině. Řešili možnou výměnu vězňů, Putin také Trumpa seznámil s děním na bojišti a řekl mu, že Rusko nespřádá vůči Evropě žádné nepřátelské plány. Ukrajinský prezident Volodymyr Zelenskyj mezitím uvedl, že doufá v setkání s Trumpem po 20. září, na kterém chce mluvit o protivzdušné obraně Kyjeva.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/putin-a-trump-si-po-misi-vyjednavacu-telefonovali-resili-vymenu-veznu-i-situaci_2609081708_ape" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177794/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:58",
+      "headline": "Západní země omezí dovoz zboží z izraelských osad, Izrael za to zavře britský konzulát",
+      "body": "Skupina západních zemí v čele s Británií a Francií oznámila omezení dovozu zboží z nelegálních izraelských osad na okupovaném Západním břehu. V počtu zemí se zdroje liší: iROZHLAS mluví o Británii a jedenácti dalších státech, Seznam Zprávy s odvoláním na Reuters o devíti zemích včetně Polska. Britský ministr zahraničí Ed Miliband podle Deníku N prohlásil, že izraelští „teroristé“ provádějí na Západním břehu etnické čistky s tichou podporou vlády, a oznámil, že Londýn nově zastává stanovisko, že izraelská okupace Západního břehu je v celém rozsahu protiprávní. Izrael v reakci uzavře britský konzulát ve východním Jeruzalémě a zakáže vstup do země dvanácti britským občanům, uvedl izraelský ministr zahraničí Gideon Saar.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/odmitame-jen-prihlizet-dalsimu-utrpeni-britanie-francie-a-dalsi-zeme-omezi-dovoz_2609081605_elev" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-britanie-francie-a-dalsi-zeme-omezi-dovoz-zbozi-z-izraelskych-osad-314909" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2178318/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:39",
+      "headline": "Maďarsko vyhostilo deset ruských diplomatů, Moskva slibuje bolestivou odvetu",
+      "body": "Budapešť vyhošťuje deset zaměstnanců ruského velvyslanectví, jejichž činnost považuje za neslučitelnou s diplomatickým statusem. Oznámila to na síti X maďarská ministryně zahraničí Anita Orbán. Mluvčí ruského ministerstva zahraničí Maria Zacharova podle agentury TASS slíbila tvrdou a bolestivou odpověď.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/madarsko-vyhostuje-deset-ruskych-diplomatu-377367" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177820/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:47",
+      "headline": "Německá policie zadržela muže podezřelého ze sabotáží na elektrické síti",
+      "body": "Navazuje na včerejší zásah u německé rozvodny. Policie zadržela osmačtyřicetiletého muže podezřelého ze série sabotáží na elektrické síti na několika místech Německa, informovala agentura DPA. Pozornost policistů vzbudil poblíž západoněmecké elektrárny Weisweiler nedaleko Cách; podle serveru deníku Frankfurter Allgemeine Zeitung byl zadržen při dopravní kontrole. Seznam Zprávy dodávají, že se pachatel k činům sám přihlásil v dopise, který zanechal poblíž jedné z elektráren.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-nemecku-zadrzeli-muze-podezreleho-ze-sabotazi-na-elektrickych-rozvodnach-377373" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-nemecku-zadrzeli-muze-podezreleho-ze-sabotazi-na-elektrickych-rozvodnach-314889" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2177846/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:00",
+      "headline": "Babiš zvažuje vyšší daně pro majitele investičních bytů i zdanění dividend",
+      "body": "Po ministryni financí Aleně Schillerové připouští zvyšování daní i premiér Andrej Babiš; zaměřit se chce například na investiční byty. Podle E15 chce mít vláda změny daňových paragrafů připravené do dvou let. Rozpočtu to ale podle listu příliš nepomůže: zdanění dividend by státu přineslo jen jednotky miliard a z daně z investičních bytů by neměl nic, protože tyto příjmy náležejí výhradně obcím. Babiš podle E15 očekává, že škrty sníží rozpočtový schodek nejvýše o jednotky miliard korun. Deník N upozorňuje, že jde zatím především o dílčí opatření, která chybějící stovky miliard nepřinesou.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/majitelum-investicnich-bytu-hrozi-vyssi-dane-babis-chce-sahnout-i-na-dividendy-statni-kase-ale-nepomuze-1435635" },
+        { "name": "Deník N", "url": "https://denikn.cz/2177175/byty-dividendy-nebo-cukr-babis-zvazuje-nove-dane-o-zasadni-kroky-ale-nejde/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:40",
+      "headline": "Cena ropy roste po útocích na Saúdskou Arábii, nafta se blíží padesáti korunám za litr",
+      "body": "Série útoků jemenských povstalců hútíů na cíle v jižní části Saúdské Arábie zranila podle koalice vedené Rijádem 73 civilistů; zasaženo bylo podle povstalců mezinárodní letiště i zařízení ropné společnosti Aramco. Eskalace na Blízkém východě se propisuje do ceny ropy a k nedostatku rafinérských kapacit přidává další tlak na zdražování pohonných hmot. Průměrná cena nafty by podle Seznam Zpráv brzy mohla překonat hranici 50 korun za litr.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-cena-ropy-po-utocich-na-saudskou-arabie-roste-nafta-jeste-zdrazi-314898" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/hutiove-utocili-na-saudskou-arabii-podle-ji-vedene-koalice-zranili-73-lidi-377362" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:15",
+      "headline": "Česká spořitelna zdražila hypotéky, sazby mohou letos vystoupat k šesti procentům",
+      "body": "Největší tuzemská banka zvýšila úrokové sazby u všech fixací o několik desetin procentního bodu. Za zdražováním stojí podle E15 hlavně dražší financování bank, geopolitická nejistota a obavy z vyšší inflace. Experti čekají další růst: u nejčastějších tříletých fixací zhruba na 5,5 až 6 procent do konce roku napříč trhem.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/hypoteka-i-za-sedm-procent-nejvetsi-banka-v-zemi-razantne-zdrazuje-pujcky-na-bydleni-1435633" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:06",
+      "headline": "Francouzská Mistral AI oznámila, že získala tři miliardy eur",
+      "body": "Francouzský vývojář jazykových modelů Mistral AI zveřejnil, že v novém investičním kole získal tři miliardy eur.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:23",
+      "day": "prev",
+      "headline": "Autonomní AI agent OpenClaw vyšel ve verzi 2.0 a míří do firem",
+      "body": "Autonomní agent OpenClaw dostal verzi 2.0. Hlavní novinkou je, že už nejde jen o osobního asistenta — dokáže pracovat s více lidmi v týmu, čemuž jeho autor Peter Steinberger říká multiplayer AI coding, a míří tím na firmy. Steinberger podle Rootu možná v nadsázce řekl, že OpenClaw 2.0 je napsaný pomocí OpenClaw.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/openclaw-2-0-miri-do-firem/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:42",
+      "headline": "Téměř devět z deseti evropských firem s CDN používá Cloudflare",
+      "body": "Podle analýzy webu Ciphercue používá mezi evropskými firmami, které nasazují síť pro doručování obsahu, téměř devět z deseti právě Cloudflare.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "10:47",
+      "headline": "Čeští patnáctiletí žáci si v mezinárodním srovnání PISA pohoršili v matematice i čtení",
+      "body": "Přírodovědné, čtenářské i matematické dovednosti patnáctiletých žáků v zemích OECD loni podle srovnávacích testů PISA dál klesly. Česko zůstalo nad průměrem OECD, v celosvětovém žebříčku si však oproti roku 2022 pohoršilo. Nejlépe si podle ČT24 vedly asijské země.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/cesti-zaci-se-v-mezinarodnim-srovnani-zhorsili-v-matematice-i-cteni-377364" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "11:44",
+      "headline": "Zpráva OSN připouští, že oteplení planety dosáhne nejméně 1,8 stupně",
+      "body": "Rok 2024 byl prvním, kdy průměrná globální teplota překročila předprůmyslovou úroveň o 1,5 stupně Celsia. Nová zpráva OSN podle ČT24 přiznává, že lidstvo se bude muset — přinejmenším dočasně — smířit s tím, že tato symbolická hranice bude překročená nejen na jeden rok a že oteplení dosáhne nejméně 1,8 stupně. Zpráva zároveň popisuje, co to pro civilizaci znamená.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/pripravte-se-na-novy-svet-radi-osn-planeta-se-otepli-o-vic-nez-15-stupne-377344" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "05:00",
+      "headline": "Voxpot se ptá, jestli eskalace mezi Ruskem a NATO může přerůst v otevřenou válku",
+      "body": "Analýza Voxpotu popisuje výraznou eskalaci války na Ukrajině v posledních týdnech a spolu s ní i větší ruskou ochotu přitvrzovat rétoriku i činy vůči NATO. Ptá se, zda může současné vyostřování přerůst do horké války mezi Ruskem a Aliancí.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/nezbyva-nez-se-modlit-ze-putin-neda-povel-k-utoku/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:12",
+      "headline": "Asistentem kouče fotbalové reprezentace bude Radek Bejbl",
+      "body": "Dalším asistentem trenéra Santiho Denii u české fotbalové reprezentace bude Radek Bejbl, bývalý záložník Slavie a národního týmu, který s Deniou hrál v Atléticu Madrid. Jmenování čtyřiapadesátiletého kouče schválil výkonný výbor FAČR. Prvním asistentem je Deniův krajan Pablo Amo.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-reprezentace-potvrzeno-bejbl-se-stal-asistentem-u-fotbalove-reprezentace-5530998" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/deniovym-asistentem-bude-i-jeho-byvaly-spoluhrac-bejbl-158837" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/fotbal/asistentem-trenera-fotbalove-reprezentace-bude-bejbl-spolupraci-s-deniou-zazil_2609081612_mim" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:45",
+      "headline": "Poslední den přestupového okna přinesl posily Baníku, Slovácku i Sigmě",
+      "body": "Baník angažoval na hostování s opcí do konce sezony dvacetiletého švýcarského levého beka Rhodriho Smithe z Young Boys Bern; nahradí Vlasije Siňjavského, kterému skončila sezona po přetržení zkříženého vazu. Slovácko získalo na roční hostování z Olomouce pětadvacetiletého útočníka Jana Fialu. Sigma přivedla z Pogoně Štětín devatenáctiletého polského záložníka Igora Brzyského.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-banik-sehnal-nahradu-za-vazne-zranenou-oporu-5531008" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-slovacko-v-zaveru-prestupoveho-obdobi-oznamilo-prichod-utocnika-5531000" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-olomouc-ma-dalsi-posilu-z-polska-5530988" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:09",
+      "headline": "Nosková hraje čtvrtfinále US Open se světovou jedničkou Sabalenkovou",
+      "body": "Linda Nosková se poprvé v kariéře probojovala mezi osmičku nejlepších na US Open a od 17:30 nastupuje proti obhájkyni titulu Aryně Sabalenkové. V případě výhry by postoupila do druhého grandslamového semifinále kariéry a Sabalenková by po turnaji přišla o post světové jedničky. Kateřina Siniaková s Američankou Taylor Townsendovou postoupily do čtvrtfinále čtyřhry po výhře 7:6 a 6:4. Z turnaje naopak včera večer vypadla Iga Šwiateková, kterou v osmifinále vyřadila Číňanka Čeng Čchin-wen 7:5, 6:3.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/sport/tenis/online-noskovou-ceka-ctvrtfinale-us-open-proti-sabalenkove-ve-hre-je-i-post_2609081709_mim" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-s-townsendovou-bez-vetsich-problemu-postoupily-do-ctvrtfinale-us-open-158829" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/swiatekova-konci-na-us-open-vyradila-ji-cinanka-ceng-cchin-wen-158828" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:25",
+      "day": "prev",
+      "headline": "Basketbalistky skončily na mistrovství světa patnácté, s USA prohrály o 41 bodů",
+      "body": "České basketbalistky zakončily mistrovství světa porážkou s USA 64:105. Na turnaji prohrály všechny tři zápasy a obsadily patnácté místo.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/basketbal/ms-basketbalistek-usa-cesko-158827" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:59",
+      "headline": "Čeští paralukostřelci získali na Světovém poháru v Indii pět zlatých medailí",
+      "body": "Na podniku 2026 Hyundai World Archery Para Series v indickém Ahmedabádu vybojovali čeští paralukostřelci pět zlatých medailí. Podepsala se pod ně zejména dvojice Šárka Pultar Musilová a David Drahonínský, kteří kromě individuálních medailí pomohli i k týmovým triumfům.",
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/paralympiada-absolutni-parada-cesti-paralukostrelci-si-podmanili-podnik-svetoveho-poharu-5531009" }
+      ]
+    }
+  ]
+}
