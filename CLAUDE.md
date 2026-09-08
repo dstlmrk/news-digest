@@ -204,7 +204,9 @@ V tomhle pořadí důležitosti:
    nečekaně zajímavé.
 8. **Sport** — patří k mým hlavním zájmům, dej mu o něco víc prostoru.
    Výsledky českých reprezentací a soutěží, velké mezinárodní akce,
-   transfery a kauzy s dopadem.
+   transfery a kauzy s dopadem. Uvnitř rubriky mám **mírnou preferenci
+   fotbalu** — když je z čeho vybírat, ať zabere víc položek než ostatní
+   sporty. Celkový strop rubriky se tím ale neposouvá.
 
 **Nezajímá mě** a do digestu to nedávej: celebrity a bulvár, kriminalita
 bez širšího významu (dopravní nehody, lokální krádeže), počasí, horoskopy,
@@ -318,6 +320,22 @@ kontextu nedávají smysl:
 - zprávy, kde je podstatné, co tomu předcházelo nebo co bude dál.
 
 Kontext piš jen tehdy, když ho máš ze zdroje. Nezaplňuj místo obecnostmi.
+
+### Kdy psát krátce
+
+Opačný pól: u **výsledkových sportovních zpráv** mě zajímá jen highlight,
+ne detaily. Kdo s kým, jak to skončilo, případně o co šlo (titul, postup) —
+a tím zpráva končí. Typicky jde o jednu větu, ne o tři:
+
+> Veslařky Kubátová a Janštová vyhrály na dvojskifu mistrovství Evropy
+> do 23 let.
+>
+> V lize deklasovala Mladá Boleslav Baník 4:0, Liberec vyhrál derby
+> v Jablonci.
+
+Průběh zápasu, střelce, statistiky, hodnocení trenérů a plány do dalšího
+kola vynech. Delší text si zaslouží jen sportovní zpráva, která není
+o výsledku — kauza, transfer s dopadem, konec kariéry.
 
 ### Jazyk
 
