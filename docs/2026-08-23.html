@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" data-lang="cs" data-has-en="0">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,47 @@
 <meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
+/* Jazyk stránky. Výchozí je angličtina, protože web se čte kvůli učení;
+   „both" staví větu pod větu, „cs" ukazuje původní české znění. Volba se
+   pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
+   nemají a přepínač na nich není. */
+(function () {
+  var root = document.documentElement;
+  var MODES = { en: 1, both: 1, cs: 1 };
+  var HTML_LANG = { en: 'en', both: 'en', cs: 'cs' };
+
+  function apply(mode) {
+    root.setAttribute('data-lang', mode);
+    root.setAttribute('lang', HTML_LANG[mode]);
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem('lang'); } catch (e) {}
+  if (root.getAttribute('data-has-en') === '1' && MODES[stored]) apply(stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var box = document.querySelector('.lang-switch');
+    if (!box) return;
+    var btns = box.querySelectorAll('button[data-mode]');
+    function sync() {
+      var now = root.getAttribute('data-lang') || 'en';
+      Array.prototype.forEach.call(btns, function (b) {
+        b.setAttribute('aria-pressed',
+          b.getAttribute('data-mode') === now ? 'true' : 'false');
+      });
+    }
+    sync();
+    Array.prototype.forEach.call(btns, function (b) {
+      b.addEventListener('click', function () {
+        apply(b.getAttribute('data-mode'));
+        try { localStorage.setItem('lang', b.getAttribute('data-mode')); }
+        catch (e) {}
+        sync();
+      });
+    });
+  });
+})();
+
 (function () {
   var root = document.documentElement;
   var stored = null;
@@ -49,9 +90,10 @@
   });
 })();
 
-/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
-   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
-   záznamy starší 90 dnů se promazávají. */
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), stejně tak
+   tlačítko v hlavičce zprávy; klik na odkaz ji označí a nechá odkaz
+   normálně otevřít. Klikání na věty a slovíčka se do označování neplete.
+   Stav žije v localStorage, záznamy starší 90 dnů se promazávají. */
 (function () {
   var KEY = 'readItems';
   var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
@@ -77,26 +119,171 @@
       document.querySelectorAll('[data-read-id]'),
       function (el) {
         var id = el.getAttribute('data-read-id');
+        var btn = el.querySelector('.tool-read');
         if (map[id]) el.classList.add('read');
 
+        function sync() {
+          if (btn) {
+            btn.setAttribute('aria-pressed',
+              el.classList.contains('read') ? 'true' : 'false');
+          }
+        }
+        function mark() {
+          if (!map[id]) { map[id] = Date.now(); el.classList.add('read'); save(map); }
+          sync();
+        }
+        function toggle() {
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+          sync();
+        }
+        sync();
+
+        if (btn) {
+          btn.addEventListener('click', function (ev) {
+            ev.stopPropagation();
+            toggle();
+          });
+        }
+
         el.addEventListener('click', function (ev) {
+          // Věty, slovíčka a tlačítka mají vlastní význam kliknutí.
+          if (ev.target.closest('.s, .gl, .tool')) return;
           if (ev.target.closest('a')) {
             // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
-            if (!map[id]) {
-              map[id] = Date.now();
-              el.classList.add('read');
-              save(map);
-            }
+            mark();
             return;
           }
           // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
           if (window.getSelection && String(window.getSelection())) return;
-          if (el.classList.toggle('read')) map[id] = Date.now();
-          else delete map[id];
-          save(map);
+          toggle();
         });
       }
     );
+  });
+})();
+
+/* Srovnání s češtinou: klik na větu ukáže její překlad, tlačítko „CS"
+   v hlavičce zprávy přepne na souběžné čtení celé zprávy. */
+(function () {
+  function selecting() {
+    return !!(window.getSelection && String(window.getSelection()));
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.s'),
+      function (s) {
+        s.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (selecting()) return;
+          s.classList.toggle('open');
+        });
+        s.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          s.classList.toggle('open');
+        });
+      }
+    );
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.tool-cs'),
+      function (btn) {
+        var box = btn.closest('[data-read-id]');
+        btn.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (!box) return;
+          var on = box.classList.toggle('bi');
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+      }
+    );
+  });
+})();
+
+/* Vysvětlivky slovíček. Bublina se skládá až tady, aby v HTML nebyla
+   u každého slova schovaná kopie definice. */
+(function () {
+  var pop = null;
+  var owner = null;
+
+  function close() {
+    if (pop) { pop.parentNode.removeChild(pop); pop = null; }
+    if (owner) { owner.setAttribute('aria-expanded', 'false'); owner = null; }
+  }
+
+  function line(cls, text) {
+    var el = document.createElement('p');
+    el.className = cls;
+    el.textContent = text;
+    return el;
+  }
+
+  function place(el) {
+    var box = el.getBoundingClientRect();
+    pop.style.left = '0px';
+    pop.style.top = (box.bottom + window.scrollY + 6) + 'px';
+    var width = pop.offsetWidth;
+    var limit = document.documentElement.clientWidth - 10;
+    var left = box.left + window.scrollX;
+    if (left + width > limit) left = Math.max(10, limit - width);
+    pop.style.left = left + 'px';
+  }
+
+  function open(el) {
+    var again = owner === el;
+    close();
+    if (again) return;
+    pop = document.createElement('div');
+    pop.className = 'gloss-pop';
+    pop.setAttribute('role', 'dialog');
+    pop.appendChild(line('term', el.getAttribute('data-term')));
+    pop.appendChild(line('def', el.getAttribute('data-def')));
+    if (el.getAttribute('data-cs')) {
+      pop.appendChild(line('cz', el.getAttribute('data-cs')));
+    }
+    var more = document.createElement('a');
+    more.className = 'more';
+    more.href = el.getAttribute('data-url');
+    more.target = '_blank';
+    more.rel = 'noopener noreferrer';
+    more.textContent = 'Cambridge Dictionary ↗';
+    pop.appendChild(more);
+    document.body.appendChild(pop);
+    owner = el;
+    el.setAttribute('aria-expanded', 'true');
+    place(el);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.gl'),
+      function (el) {
+        el.setAttribute('aria-expanded', 'false');
+        el.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          open(el);
+        });
+        el.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          open(el);
+        });
+      }
+    );
+
+    document.addEventListener('click', function (ev) {
+      if (!pop || ev.target.closest('.gloss-pop')) return;
+      close();
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') close();
+    });
+    window.addEventListener('resize', close);
   });
 })();
 </script>
@@ -108,7 +295,7 @@
 <h1><a href="index.html">Denní přehled</a></h1>
 <p class="dateline">neděle 23. srpna 2026</p>
 <hr class="rule-double">
-<p class="meta">28 zpráv &nbsp;·&nbsp; aktualizováno <time datetime="2026-08-23T17:21+02:00">23. 8. 2026 v 17:21</time></p>
+<p class="meta">28 zpráv &nbsp;·&nbsp; ≈ 12 min čtení &nbsp;·&nbsp; aktualizováno <time datetime="2026-08-23T17:21+02:00">23. 8. 2026 v 17:21</time></p>
 <nav class="issues">Starší vydání: <a href="2026-08-22.html">22. 8. 2026</a><span class="sep">·</span><a href="2026-08-21.html">21. 8. 2026</a><span class="sep">·</span><a href="2026-08-20.html">20. 8. 2026</a><span class="sep">·</span><a href="archiv.html">celý archiv</a></nav>
 </header>
 
@@ -123,199 +310,209 @@
 </ul>
 </section>
 
-<section class="opener" data-read-id="09e96e5a9907" title="Kliknutím označíte zprávu jako přečtenou">
-<p class="kicker">Svět · 15:07 · 4 zdroje</p>
+<section class="lead">
+<p class="kicker">Ve zkratce</p>
+<ul>
+<li>Kanada podle premiéra Marka Carneyho vstoupila do obchodní války s USA, od 8. září zavede odvetná cla v režimu dolar za dolar.</li>
+<li>Šéf NÚKIB Lukáš Kintr varuje, že pokusy o čínskou kyberšpionáž v Česku pokračují a stát by měl mít připravený plán B pro čínské technologie.</li>
+<li>Zelenskyj odmítl volby za války a řekl, že Rusko podle Kyjeva chystá po zářijových volbách odvod dalších 300 tisíc vojáků.</li>
+<li>Lurdes Gloria Manuel vyhrála na Diamantové lize v Chorzówě třístovku v českém rekordu a jako první Češka zaběhla tuto distanci pod 36 sekund.</li>
+</ul>
+</section>
+
+<section class="opener" data-read-id="09e96e5a9907">
+<p class="kicker stamp">Svět · 15:07 · <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></p>
 <h2>Kanada je podle premiéra Carneyho v obchodní válce s USA a chystá odvetná cla</h2>
-<p>Kanadský premiér Mark Carney v sobotu prohlásil, že se jeho země dostala do obchodní války se Spojenými státy, protože byla napadena. Reagoval tak na krach obchodních jednání a na americké padesátiprocentní clo na dovoz kanadského zboží. Kanada podle něj zavede odvetná cla na některé americké zboží v režimu „dolar za dolar“ — na dovoz americké oceli, elektroniky a dalších produktů — a platit mají od 8. září. Americký prezident Donald Trump napsal na síti Truth Social, že Kanada požaduje stejné výhody, jaké mají členské státy USA, aniž by mezi ně patřila. ČT24 s odkazem na agenturu Bloomberg dodává, že Kanaďané za pevným postojem svého premiéra stojí. Zahraničně-politický analytik Milan Slezák pro Radiožurnál upozornil, že cla v první fázi zasáhnou víc Kanadu, ale následky obchodní války brzy pocítí i Američané: podle něj nemusí platit představa, že vysoká cla zajistí v USA nová pracovní místa a renesanci výrobních odvětví. Seznam Zprávy píší, že spor může mít dopady daleko za hranicemi obchodu.</p>
+<p class="body">Kanadský premiér Mark Carney v sobotu prohlásil, že se jeho země dostala do obchodní války se Spojenými státy, protože byla napadena. Reagoval tak na krach obchodních jednání a na americké padesátiprocentní clo na dovoz kanadského zboží. Kanada podle něj zavede odvetná cla na některé americké zboží v režimu „dolar za dolar“ — na dovoz americké oceli, elektroniky a dalších produktů — a platit mají od 8. září. Americký prezident Donald Trump napsal na síti Truth Social, že Kanada požaduje stejné výhody, jaké mají členské státy USA, aniž by mezi ně patřila. ČT24 s odkazem na agenturu Bloomberg dodává, že Kanaďané za pevným postojem svého premiéra stojí. Zahraničně-politický analytik Milan Slezák pro Radiožurnál upozornil, že cla v první fázi zasáhnou víc Kanadu, ale následky obchodní války brzy pocítí i Američané: podle něj nemusí platit představa, že vysoká cla zajistí v USA nová pracovní místa a renesanci výrobních odvětví. Seznam Zprávy píší, že spor může mít dopady daleko za hranicemi obchodu.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/kanada-je-v-obchodni-valce-nebot-byla-napadena-prohlasil-premier-carney-376867" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/analytik-v-prvni-fazi-zasahnou-cla-vice-kanadu-nasledky-obchodni-valky-vsak-brzy_2608231501_ntu" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-jsme-ve-valce-prohlasil-kanadsky-premier-dlouholeti-spojenci-se-prou-313711" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162381/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </section>
 
 <section class="rubric">
 <h2>Domov</h2>
-<article data-read-id="7802d47ffeb7" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:11 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="7802d47ffeb7">
+<span class="stamp">14:11<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Pokusy o čínskou kyberšpionáž v Česku pokračují, varuje šéf NÚKIB</h3>
-<p>Šéf Národního úřadu pro kybernetickou a informační bezpečnost Lukáš Kintr v pořadu Poledne s Moravcem řekl, že pokusy o čínskou kyberšpionáž v Česku neustávají a jejich cílem jsou citlivá data. Stát by podle něj měl být opatrný, pokud jde o posilování závislosti na čínských technologiích, a měl by mít připravený centrální „plán B“ pro případ, že by tyto technologie přestaly fungovat. Seznam Zprávy dodávají, že úřad loni evidoval méně incidentů, sofistikovanost kyberútoků ale roste.</p>
+<p class="body">Šéf Národního úřadu pro kybernetickou a informační bezpečnost Lukáš Kintr v pořadu Poledne s Moravcem řekl, že pokusy o čínskou kyberšpionáž v Česku neustávají a jejich cílem jsou citlivá data. Stát by podle něj měl být opatrný, pokud jde o posilování závislosti na čínských technologiích, a měl by mít připravený centrální „plán B“ pro případ, že by tyto technologie přestaly fungovat. Seznam Zprávy dodávají, že úřad loni evidoval méně incidentů, sofistikovanost kyberútoků ale roste.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-domov/v-cesku-nadale-pokracuji-pokusy-o-cinskou-kyberspionaz-uvedl-sef-nukib-cilem_2608231406_ntu" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-cinska-kyberspionaz-v-cesku-pokracuje-musime-mit-plan-b-rekl-sef-nukib-313710" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162508/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="b723b96ec9b8" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">22. 8. 20:52</span>
+<article data-read-id="b723b96ec9b8">
+<span class="stamp"><span class="lang-cs">22. 8. 20:52</span><span class="lang-en">22 Aug 20:52</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Minimální mzda má od ledna vzrůst o 2500 korun na 24 900</h3>
-<p>Vyplývá to z výpočtu České televize podle nové makroekonomické prognózy ministerstva financí. Nejnižší možný výdělek při osmihodinové pracovní době by odpovídal 44,5 procenta průměrné mzdy, což je dosud nejvyšší podíl v Česku. Výši minimální mzdy pro rok 2027 má v pondělí oznámit ministr práce a sociálních věcí Aleš Juchelka (ANO) zástupcům odborů.</p>
+<p class="body">Vyplývá to z výpočtu České televize podle nové makroekonomické prognózy ministerstva financí. Nejnižší možný výdělek při osmihodinové pracovní době by odpovídal 44,5 procenta průměrné mzdy, což je dosud nejvyšší podíl v Česku. Výši minimální mzdy pro rok 2027 má v pondělí oznámit ministr práce a sociálních věcí Aleš Juchelka (ANO) zástupcům odborů.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/podle-vypoctu-ct-vzroste-minimalni-mzda-od-ledna-o-2500-korun-na-24-900-376859" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </article>
-<article data-read-id="b810b205d4c0" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">07:41</span>
+<article data-read-id="b810b205d4c0">
+<span class="stamp">07:41<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Poslanci se v úterý znovu pustí do novely rozpočtových zákonů, kterou vetoval Pavel</h3>
-<p>Sněmovní schůze začne v úterý dopoledne a jednání může pokračovat i v dalších dnech, možná do pátku. Návrh programu zahrnuje také čtveřici předloh v závěrečném schvalování, mimo jiné návrh zákona s digitalizací povolování pobytu cizinců a novelu snižující státní náhradu České poště.</p>
+<p class="body">Sněmovní schůze začne v úterý dopoledne a jednání může pokračovat i v dalších dnech, možná do pátku. Návrh programu zahrnuje také čtveřici předloh v závěrečném schvalování, mimo jiné návrh zákona s digitalizací povolování pobytu cizinců a novelu snižující státní náhradu České poště.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2162395/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="7a14e3f25028" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">09:45 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="7a14e3f25028">
+<span class="stamp">09:45<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Most Šmejkalka na D1 má za sebou zátěžovou zkoušku a je znovu průjezdný</h3>
-<p>Nejstarší český dálniční most byl od sobotního večera zavřený a v neděli ráno se otevřel, dopravní komplikace na místě nejsou. Podle Seznam Zpráv je první část oprav hotová a pracovníci Ředitelství silnic a dálnic most v noci na neděli zatížili 250 tunami; výsledky teď vyhodnocují. ČT24 uvedla, že rekonstruovanou část prověřilo celkem 256 tun a že už uzavírka z předchozí noci přinesla problémy: někteří řidiči nákladních aut nerespektovali značení, jednu z objízdných tras na několik hodin zablokovala nehoda a na druhé uvázlo auto.</p>
+<p class="body">Nejstarší český dálniční most byl od sobotního večera zavřený a v neděli ráno se otevřel, dopravní komplikace na místě nejsou. Podle Seznam Zpráv je první část oprav hotová a pracovníci Ředitelství silnic a dálnic most v noci na neděli zatížili 250 tunami; výsledky teď vyhodnocují. ČT24 uvedla, že rekonstruovanou část prověřilo celkem 256 tun a že už uzavírka z předchozí noci přinesla problémy: někteří řidiči nákladních aut nerespektovali značení, jednu z objízdných tras na několik hodin zablokovala nehoda a na druhé uvázlo auto.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-fotky-testovali-nejstarsi-dalnicni-most-v-cesku-zatizili-ho-250-tunami-313701" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/domaci/uzavirka-behem-zatezove-zkousky-smejkalky-prinesla-problemy-376861" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162393/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="a12646524362" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">13:02</span>
+<article data-read-id="a12646524362">
+<span class="stamp">13:02<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>České vrtulníky Black Hawk začaly hasit v srbské oblasti Deliblatska Peščara</h3>
-<p>Podle Hasičského záchranného sboru ČR zahájily hašení vrtulníky soukromého provozovatele vybavené velkokapacitními bambi vaky, na palubě jsou čeští záchranáři. V Srbsku zůstanou pět až sedm dní.</p>
+<p class="body">Podle Hasičského záchranného sboru ČR zahájily hašení vrtulníky soukromého provozovatele vybavené velkokapacitními bambi vaky, na palubě jsou čeští záchranáři. V Srbsku zůstanou pět až sedm dní.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2162496/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Hradec Králové</h2>
-<article data-read-id="df632355b4fb" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:13</span>
+<article data-read-id="df632355b4fb">
+<span class="stamp">14:13<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>V Teplických skalách začne zítra po deseti letech příprav stavba nového infocentra</h3>
-<p>U vstupu do Teplických skal má vyrůst návštěvnické centrum za více než 31 milionů korun. Podle Hradecké drbny nabídne turistům pohodlnější servis, informace, občerstvení i lepší podmínky pro návštěvu jedné z nejvyhledávanějších přírodních lokalit v regionu.</p>
+<p class="body">U vstupu do Teplických skal má vyrůst návštěvnické centrum za více než 31 milionů korun. Podle Hradecké drbny nabídne turistům pohodlnější servis, informace, občerstvení i lepší podmínky pro návštěvu jedné z nejvyhledávanějších přírodních lokalit v regionu.</p>
 <p class="sources"><a href="https://hradecka.drbna.cz/zpravy/898045-po-deseti-letech-cekani-zacne-zitra-v-teplickych-skalach-stavba-noveho-infocentra.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a></p>
 </article>
-<article data-read-id="8cadeb9839b8" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">12:25</span>
+<article data-read-id="8cadeb9839b8">
+<span class="stamp">12:25<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Vysoké Mýto po otevření nového úseku D35 slyší v centru ticho</h3>
-<p>Navazuje na páteční otevření úseku dálnice, po kterém řidiči z Hradce dojedou až za Vysoké Mýto. Podle Hradeckého deníku se město zbavilo hustého průtahu: lidé mohou v klidu přejít silnici, v noci je ticho a kamiony už nejezdí centrem. Celý obchvat města teď využívají všichni řidiči, kteří míří na dálnici.</p>
+<p class="body">Navazuje na páteční otevření úseku dálnice, po kterém řidiči z Hradce dojedou až za Vysoké Mýto. Podle Hradeckého deníku se město zbavilo hustého průtahu: lidé mohou v klidu přejít silnici, v noci je ticho a kamiony už nejezdí centrem. Celý obchvat města teď využívají všichni řidiči, kteří míří na dálnici.</p>
 <p class="sources"><a href="https://orlicky.denik.cz/zpravy-region/vysoke-myto-po-otevreni-dalnice-d35-konecne-slysi-ticho/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=zpravy-region" target="_blank" rel="noopener noreferrer">Hradecký deník</a></p>
 </article>
-<article data-read-id="7b91890202cf" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">07:37</span>
+<article data-read-id="7b91890202cf">
+<span class="stamp">07:37<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Klicperovo divadlo chystá na novou sezonu Ubu, Steinbecka i Dona Quijota</h3>
-<p>Hradecké divadlo uzavřelo 141. sezonu a na tu příští slibuje šest velkých příběhů včetně klasických. První premiérou bude 17. října westernově laděná adaptace Steinbeckova románu O myších a lidech v režii uměleckého šéfa Pavla Kheka.</p>
+<p class="body">Hradecké divadlo uzavřelo 141. sezonu a na tu příští slibuje šest velkých příběhů včetně klasických. První premiérou bude 17. října westernově laděná adaptace Steinbeckova románu O myších a lidech v režii uměleckého šéfa Pavla Kheka.</p>
 <p class="sources"><a href="https://www.idnes.cz/hradec-kralove/zpravy/klicperovo-divadlo-142-sezona-premiery-predprodej-vstupenky.A260813_937811_hradec-zpravy_tuu#utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=hradec&amp;utm_content=main" target="_blank" rel="noopener noreferrer">iDNES Hradec</a></p>
 </article>
-<article data-read-id="9fc7450c4ca6" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">11:05</span>
+<article data-read-id="9fc7450c4ca6">
+<span class="stamp">11:05<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Cestující dávají Českým drahám lepší známky, dobře hodnotí i linku přes Hradec</h3>
-<p>Prostřednictvím aplikace Můj vlak poslali lidé Českým drahám už více než milion hodnocení. Zatímco v roce 2022 dávali své cestě v průměru 3,85 bodu z pěti, letos je to 4,25. Podle Hradecké drbny si dobře vede také linka přes Hradec Králové a Trutnov.</p>
+<p class="body">Prostřednictvím aplikace Můj vlak poslali lidé Českým drahám už více než milion hodnocení. Zatímco v roce 2022 dávali své cestě v průměru 3,85 bodu z pěti, letos je to 4,25. Podle Hradecké drbny si dobře vede také linka přes Hradec Králové a Trutnov.</p>
 <p class="sources"><a href="https://hradecka.drbna.cz/hradecko/898062-cesi-jsou-s-ceskymi-drahami-spokojenejsi-dobre-hodnoti-i-spoje-pres-hradec.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Svět</h2>
-<article data-read-id="bf7c8bfc9014" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">12:05 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="bf7c8bfc9014">
+<span class="stamp">12:05<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Zelenskyj odmítl volby za války, Ukrajina čeká další ruskou mobilizaci</h3>
-<p>Konání voleb během války by podle ukrajinského prezidenta Volodymyra Zelenského mohlo „rozložit zemi“ a způsobit rozkol ve společnosti. Podle veřejnoprávní stanice Suspilne řekl, že volby v této chvíli představují velké riziko, byly by pro stát jako vlna tsunami a Ukrajinu by rozdělily. Vyjádřil se tak před novináři poté, co k uspořádání voleb ještě během války vyzval bývalý ministr obrany Mychajlo Fedorov, který nedávno skončil ve vládě; pořádání voleb za válečného stavu ukrajinské zákony neumožňují. Ve stejných komentářích Zelenskyj uvedl, že Ukrajina se domnívá, že Rusko plánuje po zářijových parlamentních volbách odvést pro své válečné úsilí dalších 300 tisíc vojáků. Ruské síly podle Kyjeva pokračují v tlaku na obsazení zbytku průmyslového Donbasu, kde postupují za cenu obrovských ztrát.</p>
+<p class="body">Konání voleb během války by podle ukrajinského prezidenta Volodymyra Zelenského mohlo „rozložit zemi“ a způsobit rozkol ve společnosti. Podle veřejnoprávní stanice Suspilne řekl, že volby v této chvíli představují velké riziko, byly by pro stát jako vlna tsunami a Ukrajinu by rozdělily. Vyjádřil se tak před novináři poté, co k uspořádání voleb ještě během války vyzval bývalý ministr obrany Mychajlo Fedorov, který nedávno skončil ve vládě; pořádání voleb za válečného stavu ukrajinské zákony neumožňují. Ve stejných komentářích Zelenskyj uvedl, že Ukrajina se domnívá, že Rusko plánuje po zářijových parlamentních volbách odvést pro své válečné úsilí dalších 300 tisíc vojáků. Ruské síly podle Kyjeva pokračují v tlaku na obsazení zbytku průmyslového Donbasu, kde postupují za cenu obrovských ztrát.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/volby-v-dobe-valky-by-rozdelily-ukrajinu-prohlasil-zelenskyj-376871" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-volby-by-byly-tsunami-ktere-by-rozstepily-ukrajinu-rekl-zelenskyj-313707" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162486/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="943316742e31" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">09:30 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="943316742e31">
+<span class="stamp">09:30<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Ukrajinské drony zasáhly další sklad Ozonu, Putin mluví o Pandorině skříňce</h3>
-<p>Ukrajinská armáda podle serveru Kyiv Independent v noci poslala drony na ruský Orenburg a zasáhla další logistické centrum internetového obchodu Ozon; podle úřadů hoří sklad také v Petrohradu. Rusko útočilo drony s proudovým pohonem, v Charkově jeden z nich zranil sedm lidí. Vladimir Putin v komentářích zveřejněných v sobotu uvedl, že Kyjev svými útoky na ruské ekonomické cíle otevřel „Pandorinu skříňku“, a prohlásil, že Rusko opětuje údery na nejcitlivější ekonomická odvětví Ukrajiny.</p>
+<p class="body">Ukrajinská armáda podle serveru Kyiv Independent v noci poslala drony na ruský Orenburg a zasáhla další logistické centrum internetového obchodu Ozon; podle úřadů hoří sklad také v Petrohradu. Rusko útočilo drony s proudovým pohonem, v Charkově jeden z nich zranil sedm lidí. Vladimir Putin v komentářích zveřejněných v sobotu uvedl, že Kyjev svými útoky na ruské ekonomické cíle otevřel „Pandorinu skříňku“, a prohlásil, že Rusko opětuje údery na nejcitlivější ekonomická odvětví Ukrajiny.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-opet-zasahla-ozon-rusko-utocilo-proudovymi-drony-376869" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162454/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="52a7b2e451ff" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">10:16 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="52a7b2e451ff">
+<span class="stamp">10:16<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Zemětřesení ve východním Japonsku zranilo nejméně 37 lidí</h3>
-<p>Otřesy o síle 5,9 stupně zasáhly dnes ráno východní Japonsko včetně oblasti Tokia, podle agentury Kjódó se zranilo nejméně 37 lidí. Japonská meteorologická agentura uvedla, že zemětřesení se odehrálo v jižní části prefektury Ibaraki v hloubce 70 kilometrů, tedy v oblasti, kde k otřesům dochází často. Cunami podle úřadů nehrozí.</p>
+<p class="body">Otřesy o síle 5,9 stupně zasáhly dnes ráno východní Japonsko včetně oblasti Tokia, podle agentury Kjódó se zranilo nejméně 37 lidí. Japonská meteorologická agentura uvedla, že zemětřesení se odehrálo v jižní části prefektury Ibaraki v hloubce 70 kilometrů, tedy v oblasti, kde k otřesům dochází často. Cunami podle úřadů nehrozí.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-vychodni-japonsko-postihlo-stredne-silne-zemetreseni-zranilo-se-37-lidi-313702" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/pri-zemetreseni-ve-vychodnim-japonsku-bylo-zraneno-nejmene-37-lidi-376868" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162391/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="ad98c1e5a5af" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:34</span>
+<article data-read-id="ad98c1e5a5af">
+<span class="stamp">15:34<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Přes sto britských a francouzských diplomatů obviňuje Izrael z etnických čistek</h3>
-<p>Bývalí diplomaté, kteří působili na Blízkém východě a v okolních zemích, zaslali podle iROZHLASu dopis britskému premiérovi Andymu Burnhamovi a francouzskému prezidentovi Emmanuelu Macronovi. Vyzývají v něm k akci kvůli izraelskému „vymazávání“ Palestiny, židovský stát obviňují z etnických čistek a požadují opatření včetně zákazu obchodu. Izraelské velvyslanectví v Londýně bylo požádáno o reakci.</p>
+<p class="body">Bývalí diplomaté, kteří působili na Blízkém východě a v okolních zemích, zaslali podle iROZHLASu dopis britskému premiérovi Andymu Burnhamovi a francouzskému prezidentovi Emmanuelu Macronovi. Vyzývají v něm k akci kvůli izraelskému „vymazávání“ Palestiny, židovský stát obviňují z etnických čistek a požadují opatření včetně zákazu obchodu. Izraelské velvyslanectví v Londýně bylo požádáno o reakci.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/dopis-macronovi-a-burnhamovi-diplomate-obvinuji-izrael-z-etnickych-cistek-v_2608231534_elev" target="_blank" rel="noopener noreferrer">iROZHLAS</a></p>
 </article>
-<article data-read-id="c692105448e7" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:52 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="c692105448e7">
+<span class="stamp">16:52<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Požár u Rena v Nevadě donutil k evakuaci obyvatele 14 tisíc domů</h3>
-<p>V podhůří Sierry Nevady nedaleko města Reno se dnes rychle rozšířil lesní požár pojmenovaný Hawk, tedy Jestřáb. Podle stanice CBS News nemají hasiči plameny zatím pod kontrolou.</p>
+<p class="body">V podhůří Sierry Nevady nedaleko města Reno se dnes rychle rozšířil lesní požár pojmenovaný Hawk, tedy Jestřáb. Podle stanice CBS News nemají hasiči plameny zatím pod kontrolou.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/nevadu-spaluje-jestrab-evakuovano-bylo-14-tisic-domu-376879" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162583/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="0483277da1a7" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">09:23 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="0483277da1a7">
+<span class="stamp">09:23<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Kazachstán volil nový jednokomorový parlament, opoziční skupiny byly zakázány</h3>
-<p>Země letos přijala novou ústavu, která horní komoru zákonodárného sboru zrušila. Změna podle úřadů demokratizuje největší ekonomiku Střední Asie, podle kritiků ale upevní moc prezidenta, píše agentura AFP. Nedělních voleb se účastnilo sedm schválených stran, opoziční skupiny byly zakázány. Volební místnosti se zavíraly ve 20:00 místního času, tedy v 17:00 SELČ.</p>
+<p class="body">Země letos přijala novou ústavu, která horní komoru zákonodárného sboru zrušila. Změna podle úřadů demokratizuje největší ekonomiku Střední Asie, podle kritiků ale upevní moc prezidenta, píše agentura AFP. Nedělních voleb se účastnilo sedm schválených stran, opoziční skupiny byly zakázány. Volební místnosti se zavíraly ve 20:00 místního času, tedy v 17:00 SELČ.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/v-kazachstanu-zacaly-volby-do-parlamentu-opozice-byla-vyloucena-376870" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2162449/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Ekonomika</h2>
-<article data-read-id="3b464d8b2ebf" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:05</span>
+<article data-read-id="3b464d8b2ebf">
+<span class="stamp">16:05<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Šéf Volkswagenu Blume chystá historicky největší restrukturalizaci koncernu</h3>
-<p>Oliver Blume podle Seznam Zpráv uvedl, že Volkswagen stojí v centru obří krize globálního automobilového průmyslu, a připravuje historicky největší restrukturalizaci včetně rušení pracovních míst. Dceřiné Škodě Auto se ale navzdory krizi daří dobře.</p>
+<p class="body">Oliver Blume podle Seznam Zpráv uvedl, že Volkswagen stojí v centru obří krize globálního automobilového průmyslu, a připravuje historicky největší restrukturalizaci včetně rušení pracovních míst. Dceřiné Škodě Auto se ale navzdory krizi daří dobře.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-volkswagen-je-v-centru-obri-krize-globalniho-autoprumyslu-uvedl-sef-koncernu-313713" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
-<article data-read-id="b43194c3d9f9" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">09:00</span>
+<article data-read-id="b43194c3d9f9">
+<span class="stamp">09:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Ministerstvo financí spouští druhou emisi Dluhopisů Republiky, nabídka je užší</h3>
-<p>Ministerstvo začne přijímat objednávky na druhou letošní emisi. Nabídne tříměsíční obligace s úrokem 3,75 procenta a limitem tři miliony korun. V první letošní emisi lidé podle E15 nakoupili dluhopisy za 74 miliard korun.</p>
+<p class="body">Ministerstvo začne přijímat objednávky na druhou letošní emisi. Nabídne tříměsíční obligace s úrokem 3,75 procenta a limitem tři miliony korun. V první letošní emisi lidé podle E15 nakoupili dluhopisy za 74 miliard korun.</p>
 <p class="sources"><a href="https://www.e15.cz/byznys/finance-a-bankovnictvi/prichazi-dalsi-dluhopisy-republiky-nabidka-tentokrat-vyrazne-proridla-1435119" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
-<article data-read-id="f81e0cd81534" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">12:00</span>
+<article data-read-id="f81e0cd81534">
+<span class="stamp">12:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>CSG bude sedm let dodávat munici policii pěti severských zemí</h3>
-<p>Podle E15 dodá do skandinávských policejních sborů závod v USA — značka Federal má poslat 35 milionů nábojů .223 Remington a také výcvikovou munici. Americké značky skupiny Czechoslovak Group letos uspěly i v kontraktu FBI za 77,4 milionu dolarů.</p>
+<p class="body">Podle E15 dodá do skandinávských policejních sborů závod v USA — značka Federal má poslat 35 milionů nábojů .223 Remington a také výcvikovou munici. Americké značky skupiny Czechoslovak Group letos uspěly i v kontraktu FBI za 77,4 milionu dolarů.</p>
 <p class="sources"><a href="https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/skandinavsti-policiste-budou-strilet-strnadovou-munici-zazasobi-je-zavod-z-ameriky-1435125" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Technologie</h2>
-<article data-read-id="abc456dc92cf" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">05:00</span>
+<article data-read-id="abc456dc92cf">
+<span class="stamp">05:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>AI expert Romportl čeká do tří let velké otřesy na trhu práce</h3>
-<p>Vývoj umělé inteligence podle něj zrychluje a tradiční testovací benchmarky přestávají stačit. Zvýšení produktivity díky AI využije především nejinteligentnější třetina populace a jako první otřesy pocítí freelanceři, kteří jsou podle Romportla „kanárkem v dole“. Investoři podle rozhovoru pro E15 stahují kapitál ze softwaru k robotice.</p>
+<p class="body">Vývoj umělé inteligence podle něj zrychluje a tradiční testovací benchmarky přestávají stačit. Zvýšení produktivity díky AI využije především nejinteligentnější třetina populace a jako první otřesy pocítí freelanceři, kteří jsou podle Romportla „kanárkem v dole“. Investoři podle rozhovoru pro E15 stahují kapitál ze softwaru k robotice.</p>
 <p class="sources"><a href="https://www.e15.cz/byznys/technologie-a-media/do-tri-let-ocekavam-velke-otresy-na-trhu-prace-freelanceri-jsou-kanarkem-v-dole-rika-ai-expert-romportl-1435060" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
-<article data-read-id="19e773cb44c2" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">17:00</span>
+<article data-read-id="19e773cb44c2">
+<span class="stamp">17:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>V Pekingu probíhá druhý ročník olympiády humanoidních robotů</h3>
-<p>Sportovní závody robotů mají podle Seznam Zpráv trvat pět dní. Olympiáda je především velkou přehlídkou technologického pokroku v oblasti robotiky a umělé inteligence.</p>
+<p class="body">Sportovní závody robotů mají podle Seznam Zpráv trvat pět dní. Olympiáda je především velkou přehlídkou technologického pokroku v oblasti robotiky a umělé inteligence.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-fotky-v-pekingu-probiha-druhy-rocnik-olympiady-humanoidnich-robotu-313712" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Za pozornost</h2>
-<article data-read-id="40c3e370429b" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:45</span>
+<article data-read-id="40c3e370429b">
+<span class="stamp">14:45<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Deník N vysvětluje, co udělala OpenAI a proč je to takový problém</h3>
-<p>Vedoucí vědecké rubriky Deníku N Petr Koubský mluví o testování modelů umělé inteligence, ze kterého se stalo „skoro poslední varování před průšvihem, při kterém už začnou umírat lidé“. Vysvětluje také, proč závod o umělou inteligenci nakonec možná všichni prohrajeme a proč v některých profesích zůstane člověk levnější variantou než stroje. Deník N přinesl přepis epizody podcastu Studio N z 19. srpna.</p>
+<p class="body">Vedoucí vědecké rubriky Deníku N Petr Koubský mluví o testování modelů umělé inteligence, ze kterého se stalo „skoro poslední varování před průšvihem, při kterém už začnou umírat lidé“. Vysvětluje také, proč závod o umělou inteligenci nakonec možná všichni prohrajeme a proč v některých profesích zůstane člověk levnější variantou než stroje. Deník N přinesl přepis epizody podcastu Studio N z 19. srpna.</p>
 <p class="sources"><a href="https://denikn.cz/2160217/jedno-z-poslednich-varovani-pred-prusvihem-pri-nemz-zacnou-umirat-lide-co-udelala-openai-a-proc-je-to-takovy-problem/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Sport</h2>
-<article data-read-id="7fc630214a03" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:01 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="7fc630214a03">
+<span class="stamp">16:01<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Manuel vyhrála v Chorzówě třístovku v českém rekordu 35,76</h3>
-<p>Lurdes Gloria Manuel na mítinku Diamantové ligy v Chorzówě vyhrála v předprogramu závod na 300 metrů v nejrychlejším českém čase historie 35,76 sekundy. Dosud nejlepší český výkon Heleny Fuchsové z roku 1999 vylepšila o 68 setin a jako první Češka zaběhla tuto nemistrovskou distanci pod 36 sekund. Podle Sport.cz je to letos druhý nejrychlejší čas na světě. Jednadvacetiletá halová mistryně světa v běhu na 400 metrů byla na nedávném mistrovství Evropy čtvrtá.</p>
+<p class="body">Lurdes Gloria Manuel na mítinku Diamantové ligy v Chorzówě vyhrála v předprogramu závod na 300 metrů v nejrychlejším českém čase historie 35,76 sekundy. Dosud nejlepší český výkon Heleny Fuchsové z roku 1999 vylepšila o 68 setin a jako první Češka zaběhla tuto nemistrovskou distanci pod 36 sekund. Podle Sport.cz je to letos druhý nejrychlejší čas na světě. Jednadvacetiletá halová mistryně světa v běhu na 400 metrů byla na nedávném mistrovství Evropy čtvrtá.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/atletika/diamantova-liga-v-chorove-manuel-vyhrala-tristovku-v-ceskem-rekordu-158548" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/atletika/manuel-si-spravila-chut-po-mistrovstvi-evropy-na-diamantove-lize-vyhrala_2608231547_rej" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/atletika-letos-druha-nejrychlejsi-na-svete-manuel-pri-diamantove-lize-zarila-na-tristovce-5517776" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="42d07e6ed2c1" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:36 <span class="flag">· 4 zdroje</span></span>
+<article data-read-id="42d07e6ed2c1">
+<span class="stamp">15:36<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Fotbalovou Plzeň povede Radoslav Kováč</h3>
-<p>Šestačtyřicetiletý bývalý český reprezentant nahradil na lavičce Viktorie Martina Hyského, kterého klub odvolal v pátek po nepovedeném vstupu do sezony a porážce 0:3 v Evropské lize v Bělehradě. Kováč podepsal podle iROZHLASu a ČT Sport smlouvu do konce sezony s následnou opcí na dva roky, Seznam Zprávy mluví o roční smlouvě s dvouletou opcí. Do ligového kolotoče se vrací po dvou měsících, naposledy vedl Liberec; podle Sport.cz povede na západě Čech už nedělní tréninkovou jednotku.</p>
+<p class="body">Šestačtyřicetiletý bývalý český reprezentant nahradil na lavičce Viktorie Martina Hyského, kterého klub odvolal v pátek po nepovedeném vstupu do sezony a porážce 0:3 v Evropské lize v Bělehradě. Kováč podepsal podle iROZHLASu a ČT Sport smlouvu do konce sezony s následnou opcí na dva roky, Seznam Zprávy mluví o roční smlouvě s dvouletou opcí. Do ligového kolotoče se vrací po dvou měsících, naposledy vedl Liberec; podle Sport.cz povede na západě Čech už nedělní tréninkovou jednotku.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-viktoria-plzen-trener-kovac_2608231323_lbk" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/fotbal/plzen-ma-noveho-trenera-vedeni-viktorie-ukazalo-na-kovace-158547" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/fotbal-ceska-1-liga-hotovo-plzen-ma-noveho-trenera-5517730" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/sport-fotbal-fotbalisty-plzne-povede-trener-kovac-podepsal-rocni-smlouvu-s-dvouletou-opci-313709" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
-<article data-read-id="59d045368034" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">08:06 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="59d045368034">
+<span class="stamp">08:06<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Nosková s Bouzkovou získaly v Cincinnati titul ve čtyřhře, Bejlek nestačila na Gauffovou</h3>
-<p>Linda Nosková a Marie Bouzková včera večer ve finále čtyřhry porazily belgicko-ruskou dvojici Magali Kempenová a Alexandra Panovová 6:1 a 6:2. Sára Bejlek si o titul ve dvouhře nezahraje, americké světové čtyřce Coco Gauffové podlehla v semifinále 4:6 a 1:6. Duel s dvojnásobnou grandslamovou šampionkou prohrála na tvrdém povrchu za hodinu a 16 minut.</p>
+<p class="body">Linda Nosková a Marie Bouzková včera večer ve finále čtyřhry porazily belgicko-ruskou dvojici Magali Kempenová a Alexandra Panovová 6:1 a 6:2. Sára Bejlek si o titul ve dvouhře nezahraje, americké světové čtyřce Coco Gauffové podlehla v semifinále 4:6 a 1:6. Duel s dvojnásobnou grandslamovou šampionkou prohrála na tvrdém povrchu za hodinu a 16 minut.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/tenis/bejlek-na-gauffovou-nestacila-a-finale-si-v-cincinnati-nezahraje-158544" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/tenis/noskova-s-bouzkovou-ovladly-v-cincinnati-ctyrhru-158534" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
 </article>
-<article data-read-id="5b7b94f11895" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">22. 8. 19:25 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="5b7b94f11895">
+<span class="stamp"><span class="lang-cs">22. 8. 19:25</span><span class="lang-en">22 Aug 19:25</span><span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Slavia v derby s Bohemians ztratila body, Sparta deklasovala Artis</h3>
-<p>Fotbalisté Slavie v ligovém derby remizovali s Bohemians 1905 2:2 a podruhé po sobě ztratili body, obhájce titulu vede tabulku už jen o skóre. Sport.cz upozorňuje, že Klokani poprvé od listopadu 2016 neodjeli ze stánku Slavie s prázdnou. Sparta zvítězila 4:0 nad Artisem a poprvé v sezoně uspěla venku, Mladá Boleslav porazila Slovácko 2:1 a v nové sezoně ještě neprohrála. Zlín po domácí prohře s Libercem zůstává bez bodu.</p>
+<p class="body">Fotbalisté Slavie v ligovém derby remizovali s Bohemians 1905 2:2 a podruhé po sobě ztratili body, obhájce titulu vede tabulku už jen o skóre. Sport.cz upozorňuje, že Klokani poprvé od listopadu 2016 neodjeli ze stánku Slavie s prázdnou. Sparta zvítězila 4:0 nad Artisem a poprvé v sezoně uspěla venku, Mladá Boleslav porazila Slovácko 2:1 a v nové sezoně ještě neprohrála. Zlín po domácí prohře s Libercem zůstává bez bodu.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/boleslav-zdolala-slovacko-artisu-a-zlinu-se-doma-proti-sparte-a-liberci-nedarilo-158535" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/fotbal-ceska-1-liga-strasidelna-serie-u-konce-bohemians-zlomili-kletbu-edenu-5517594" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="95164a092337" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">06:56</span>
+<article data-read-id="95164a092337">
+<span class="stamp">06:56<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Velkou cenu Nizozemska vyhrál Norris, Verstappen po nehodě nedojel</h3>
-<p>Lando Norris z McLarenu startoval z pole position a dojel si pro druhé vítězství v řadě. Druhý projel cílem lídr šampionátu Andrea Kimi Antonelli z Mercedesu, třetí byl jeho týmový kolega George Russell. Poslední Velká cena Nizozemska přinesla podle Sport.cz část závodu na mokré trati, kolizi domácího favorita Maxe Verstappena, který nedojel, a strategický chaos.</p>
+<p class="body">Lando Norris z McLarenu startoval z pole position a dojel si pro druhé vítězství v řadě. Druhý projel cílem lídr šampionátu Andrea Kimi Antonelli z Mercedesu, třetí byl jeho týmový kolega George Russell. Poslední Velká cena Nizozemska přinesla podle Sport.cz část závodu na mokré trati, kolizi domácího favorita Maxe Verstappena, který nedojel, a strategický chaos.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/moto-formule-1-norris-v-zandvoortu-pojede-o-druhe-vitezstvi-v-rade-5517592" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="6048c27f45f8" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:14 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="6048c27f45f8">
+<span class="stamp">16:14<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Kejelcha zaběhl jako první v historii půlmaraton pod 57 minut</h3>
-<p>Etiopan Yomif Kejelcha v Buenos Aires zvítězil časem 56:51 a je znovu světovým rekordmanem v půlmaratonu. O 29 sekund překonal březnový výkon Uganďana Jacoba Kiplima z Lisabonu, s nímž se v posledních letech o první místo v historických tabulkách na této trati přetahuje.</p>
+<p class="body">Etiopan Yomif Kejelcha v Buenos Aires zvítězil časem 56:51 a je znovu světovým rekordmanem v půlmaratonu. O 29 sekund překonal březnový výkon Uganďana Jacoba Kiplima z Lisabonu, s nímž se v posledních letech o první místo v historických tabulkách na této trati přetahuje.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/sport/atletika/kejelcha-si-bere-zpet-svetovy-rekord-jako-prvni-v-historii-ubehl-pulmaraton-pod_2608231614_rej" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/atletika/pretahovane-o-svetovy-rekord-v-pulmaratonu-vladne-znovu-kejelcha-158550" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
 </article>
 </section>

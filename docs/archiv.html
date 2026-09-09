@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en" data-lang="en" data-has-en="1">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Denní přehled · archiv</title>
+<title>Daily Digest · archive</title>
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
+<meta name="description" content="News from Czech sources, retold in English. A new issue every day at 17:00, covering the last 24 hours.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
+/* Jazyk stránky. Výchozí je angličtina, protože web se čte kvůli učení;
+   „both" staví větu pod větu, „cs" ukazuje původní české znění. Volba se
+   pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
+   nemají a přepínač na nich není. */
+(function () {
+  var root = document.documentElement;
+  var MODES = { en: 1, both: 1, cs: 1 };
+  var HTML_LANG = { en: 'en', both: 'en', cs: 'cs' };
+
+  function apply(mode) {
+    root.setAttribute('data-lang', mode);
+    root.setAttribute('lang', HTML_LANG[mode]);
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem('lang'); } catch (e) {}
+  if (root.getAttribute('data-has-en') === '1' && MODES[stored]) apply(stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var box = document.querySelector('.lang-switch');
+    if (!box) return;
+    var btns = box.querySelectorAll('button[data-mode]');
+    function sync() {
+      var now = root.getAttribute('data-lang') || 'en';
+      Array.prototype.forEach.call(btns, function (b) {
+        b.setAttribute('aria-pressed',
+          b.getAttribute('data-mode') === now ? 'true' : 'false');
+      });
+    }
+    sync();
+    Array.prototype.forEach.call(btns, function (b) {
+      b.addEventListener('click', function () {
+        apply(b.getAttribute('data-mode'));
+        try { localStorage.setItem('lang', b.getAttribute('data-mode')); }
+        catch (e) {}
+        sync();
+      });
+    });
+  });
+})();
+
 (function () {
   var root = document.documentElement;
   var stored = null;
@@ -49,9 +90,10 @@
   });
 })();
 
-/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
-   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
-   záznamy starší 90 dnů se promazávají. */
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), stejně tak
+   tlačítko v hlavičce zprávy; klik na odkaz ji označí a nechá odkaz
+   normálně otevřít. Klikání na věty a slovíčka se do označování neplete.
+   Stav žije v localStorage, záznamy starší 90 dnů se promazávají. */
 (function () {
   var KEY = 'readItems';
   var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
@@ -77,81 +119,231 @@
       document.querySelectorAll('[data-read-id]'),
       function (el) {
         var id = el.getAttribute('data-read-id');
+        var btn = el.querySelector('.tool-read');
         if (map[id]) el.classList.add('read');
 
+        function sync() {
+          if (btn) {
+            btn.setAttribute('aria-pressed',
+              el.classList.contains('read') ? 'true' : 'false');
+          }
+        }
+        function mark() {
+          if (!map[id]) { map[id] = Date.now(); el.classList.add('read'); save(map); }
+          sync();
+        }
+        function toggle() {
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+          sync();
+        }
+        sync();
+
+        if (btn) {
+          btn.addEventListener('click', function (ev) {
+            ev.stopPropagation();
+            toggle();
+          });
+        }
+
         el.addEventListener('click', function (ev) {
+          // Věty, slovíčka a tlačítka mají vlastní význam kliknutí.
+          if (ev.target.closest('.s, .gl, .tool')) return;
           if (ev.target.closest('a')) {
             // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
-            if (!map[id]) {
-              map[id] = Date.now();
-              el.classList.add('read');
-              save(map);
-            }
+            mark();
             return;
           }
           // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
           if (window.getSelection && String(window.getSelection())) return;
-          if (el.classList.toggle('read')) map[id] = Date.now();
-          else delete map[id];
-          save(map);
+          toggle();
         });
       }
     );
+  });
+})();
+
+/* Srovnání s češtinou: klik na větu ukáže její překlad, tlačítko „CS"
+   v hlavičce zprávy přepne na souběžné čtení celé zprávy. */
+(function () {
+  function selecting() {
+    return !!(window.getSelection && String(window.getSelection()));
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.s'),
+      function (s) {
+        s.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (selecting()) return;
+          s.classList.toggle('open');
+        });
+        s.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          s.classList.toggle('open');
+        });
+      }
+    );
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.tool-cs'),
+      function (btn) {
+        var box = btn.closest('[data-read-id]');
+        btn.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (!box) return;
+          var on = box.classList.toggle('bi');
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+      }
+    );
+  });
+})();
+
+/* Vysvětlivky slovíček. Bublina se skládá až tady, aby v HTML nebyla
+   u každého slova schovaná kopie definice. */
+(function () {
+  var pop = null;
+  var owner = null;
+
+  function close() {
+    if (pop) { pop.parentNode.removeChild(pop); pop = null; }
+    if (owner) { owner.setAttribute('aria-expanded', 'false'); owner = null; }
+  }
+
+  function line(cls, text) {
+    var el = document.createElement('p');
+    el.className = cls;
+    el.textContent = text;
+    return el;
+  }
+
+  function place(el) {
+    var box = el.getBoundingClientRect();
+    pop.style.left = '0px';
+    pop.style.top = (box.bottom + window.scrollY + 6) + 'px';
+    var width = pop.offsetWidth;
+    var limit = document.documentElement.clientWidth - 10;
+    var left = box.left + window.scrollX;
+    if (left + width > limit) left = Math.max(10, limit - width);
+    pop.style.left = left + 'px';
+  }
+
+  function open(el) {
+    var again = owner === el;
+    close();
+    if (again) return;
+    pop = document.createElement('div');
+    pop.className = 'gloss-pop';
+    pop.setAttribute('role', 'dialog');
+    pop.appendChild(line('term', el.getAttribute('data-term')));
+    pop.appendChild(line('def', el.getAttribute('data-def')));
+    if (el.getAttribute('data-cs')) {
+      pop.appendChild(line('cz', el.getAttribute('data-cs')));
+    }
+    var more = document.createElement('a');
+    more.className = 'more';
+    more.href = el.getAttribute('data-url');
+    more.target = '_blank';
+    more.rel = 'noopener noreferrer';
+    more.textContent = 'Cambridge Dictionary ↗';
+    pop.appendChild(more);
+    document.body.appendChild(pop);
+    owner = el;
+    el.setAttribute('aria-expanded', 'true');
+    place(el);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.gl'),
+      function (el) {
+        el.setAttribute('aria-expanded', 'false');
+        el.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          open(el);
+        });
+        el.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          open(el);
+        });
+      }
+    );
+
+    document.addEventListener('click', function (ev) {
+      if (!pop || ev.target.closest('.gloss-pop')) return;
+      close();
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') close();
+    });
+    window.addEventListener('resize', close);
   });
 })();
 </script>
 </head>
 <body>
 <button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
+<div class="lang-switch" role="group" aria-label="Language">
+<button type="button" data-mode="en" title="English only">EN</button>
+<button type="button" data-mode="both" title="English with Czech under each sentence">EN+CS</button>
+<button type="button" data-mode="cs" title="Jen česky">CS</button>
+</div>
 <div class="wrap">
 <header class="masthead">
-<h1><a href="index.html">Denní přehled</a></h1>
-<p class="dateline">Archiv</p>
+<h1><a href="index.html"><span class="lang-cs">Denní přehled</span><span class="lang-en">Daily Digest</span></a></h1>
+<p class="dateline"><span class="lang-cs">Archiv</span><span class="lang-en">Archive</span></p>
 <hr class="rule-double">
-<p class="meta">36 vydání &nbsp;·&nbsp; aktualizováno <time datetime="2026-09-09T17:26+02:00">9. 9. 2026 v 17:26</time></p>
+<p class="meta"><span class="lang-cs">36 vydání</span><span class="lang-en">36 issues</span> &nbsp;·&nbsp; <span class="lang-cs">aktualizováno <time datetime="2026-09-09T17:26+02:00">9. 9. 2026 v 17:26</time></span><span class="lang-en">updated <time datetime="2026-09-09T17:26+02:00">9 Sep 2026 at 17:26</time></span></p>
 </header>
 
 <ul class="archive">
-<li><a href="2026-09-09.html">středa 9. září 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-09-08.html">úterý 8. září 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-09-07.html">pondělí 7. září 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-09-06.html">neděle 6. září 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-09-05.html">sobota 5. září 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-09-04.html">pátek 4. září 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-09-03.html">čtvrtek 3. září 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-09-02.html">středa 2. září 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-09-01.html">úterý 1. září 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-31.html">pondělí 31. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-30.html">neděle 30. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-29.html">sobota 29. srpna 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-28.html">pátek 28. srpna 2026</a><span class="count">30 zpráv</span></li>
-<li><a href="2026-08-27.html">čtvrtek 27. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-26.html">středa 26. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-25.html">úterý 25. srpna 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-24.html">pondělí 24. srpna 2026</a><span class="count">30 zpráv</span></li>
-<li><a href="2026-08-23.html">neděle 23. srpna 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-22.html">sobota 22. srpna 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-21.html">pátek 21. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-20.html">čtvrtek 20. srpna 2026</a><span class="count">31 zpráv</span></li>
-<li><a href="2026-08-19.html">středa 19. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-18.html">úterý 18. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-17.html">pondělí 17. srpna 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-16.html">neděle 16. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-15.html">sobota 15. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-14.html">pátek 14. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-13.html">čtvrtek 13. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-12.html">středa 12. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-11.html">úterý 11. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-10.html">pondělí 10. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-09.html">neděle 9. srpna 2026</a><span class="count">28 zpráv</span></li>
-<li><a href="2026-08-08.html">sobota 8. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-07.html">pátek 7. srpna 2026</a><span class="count">30 zpráv</span></li>
-<li><a href="2026-08-06.html">čtvrtek 6. srpna 2026</a><span class="count">29 zpráv</span></li>
-<li><a href="2026-08-05.html">středa 5. srpna 2026</a><span class="count">29 zpráv</span></li>
+<li><a href="2026-09-09.html"><span class="lang-cs">středa 9. září 2026</span><span class="lang-en">Wednesday 9 September 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-08.html"><span class="lang-cs">úterý 8. září 2026</span><span class="lang-en">Tuesday 8 September 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span></span></li>
+<li><a href="2026-09-07.html"><span class="lang-cs">pondělí 7. září 2026</span><span class="lang-en">Monday 7 September 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-06.html"><span class="lang-cs">neděle 6. září 2026</span><span class="lang-en">Sunday 6 September 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-05.html"><span class="lang-cs">sobota 5. září 2026</span><span class="lang-en">Saturday 5 September 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-04.html"><span class="lang-cs">pátek 4. září 2026</span><span class="lang-en">Friday 4 September 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-03.html"><span class="lang-cs">čtvrtek 3. září 2026</span><span class="lang-en">Thursday 3 September 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-02.html"><span class="lang-cs">středa 2. září 2026</span><span class="lang-en">Wednesday 2 September 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-09-01.html"><span class="lang-cs">úterý 1. září 2026</span><span class="lang-en">Tuesday 1 September 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-31.html"><span class="lang-cs">pondělí 31. srpna 2026</span><span class="lang-en">Monday 31 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-30.html"><span class="lang-cs">neděle 30. srpna 2026</span><span class="lang-en">Sunday 30 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-29.html"><span class="lang-cs">sobota 29. srpna 2026</span><span class="lang-en">Saturday 29 August 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-28.html"><span class="lang-cs">pátek 28. srpna 2026</span><span class="lang-en">Friday 28 August 2026</span></a><span class="count"><span class="lang-cs">30 zpráv</span><span class="lang-en">30 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-27.html"><span class="lang-cs">čtvrtek 27. srpna 2026</span><span class="lang-en">Thursday 27 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-26.html"><span class="lang-cs">středa 26. srpna 2026</span><span class="lang-en">Wednesday 26 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-25.html"><span class="lang-cs">úterý 25. srpna 2026</span><span class="lang-en">Tuesday 25 August 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-24.html"><span class="lang-cs">pondělí 24. srpna 2026</span><span class="lang-en">Monday 24 August 2026</span></a><span class="count"><span class="lang-cs">30 zpráv</span><span class="lang-en">30 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-23.html"><span class="lang-cs">neděle 23. srpna 2026</span><span class="lang-en">Sunday 23 August 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-22.html"><span class="lang-cs">sobota 22. srpna 2026</span><span class="lang-en">Saturday 22 August 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-21.html"><span class="lang-cs">pátek 21. srpna 2026</span><span class="lang-en">Friday 21 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-20.html"><span class="lang-cs">čtvrtek 20. srpna 2026</span><span class="lang-en">Thursday 20 August 2026</span></a><span class="count"><span class="lang-cs">31 zpráv</span><span class="lang-en">31 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-19.html"><span class="lang-cs">středa 19. srpna 2026</span><span class="lang-en">Wednesday 19 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-18.html"><span class="lang-cs">úterý 18. srpna 2026</span><span class="lang-en">Tuesday 18 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-17.html"><span class="lang-cs">pondělí 17. srpna 2026</span><span class="lang-en">Monday 17 August 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-16.html"><span class="lang-cs">neděle 16. srpna 2026</span><span class="lang-en">Sunday 16 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-15.html"><span class="lang-cs">sobota 15. srpna 2026</span><span class="lang-en">Saturday 15 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-14.html"><span class="lang-cs">pátek 14. srpna 2026</span><span class="lang-en">Friday 14 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-13.html"><span class="lang-cs">čtvrtek 13. srpna 2026</span><span class="lang-en">Thursday 13 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-12.html"><span class="lang-cs">středa 12. srpna 2026</span><span class="lang-en">Wednesday 12 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-11.html"><span class="lang-cs">úterý 11. srpna 2026</span><span class="lang-en">Tuesday 11 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-10.html"><span class="lang-cs">pondělí 10. srpna 2026</span><span class="lang-en">Monday 10 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-09.html"><span class="lang-cs">neděle 9. srpna 2026</span><span class="lang-en">Sunday 9 August 2026</span></a><span class="count"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-08.html"><span class="lang-cs">sobota 8. srpna 2026</span><span class="lang-en">Saturday 8 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-07.html"><span class="lang-cs">pátek 7. srpna 2026</span><span class="lang-en">Friday 7 August 2026</span></a><span class="count"><span class="lang-cs">30 zpráv</span><span class="lang-en">30 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-06.html"><span class="lang-cs">čtvrtek 6. srpna 2026</span><span class="lang-en">Thursday 6 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
+<li><a href="2026-08-05.html"><span class="lang-cs">středa 5. srpna 2026</span><span class="lang-en">Wednesday 5 August 2026</span></a><span class="count"><span class="lang-cs">29 zpráv</span><span class="lang-en">29 stories</span><span class="lang-cs"> · jen česky</span><span class="lang-en"> · Czech only</span></span></li>
 </ul>
 
 <nav class="pager">
-<a href="index.html">← Nejnovější vydání</a>
+<a href="index.html">← <span class="lang-cs">Nejnovější vydání</span><span class="lang-en">Latest issue</span></a>
 <span></span>
 <span></span>
 </nav>

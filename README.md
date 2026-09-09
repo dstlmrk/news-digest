@@ -8,6 +8,14 @@ Motivace: přečíst si jednou denně to podstatné z důvěryhodných českých
 zdrojů, včetně sportu, místo průběžného scrollování — a to v době, kdy
 už je den odbytý a je co shrnovat.
 
+**Web se čte anglicky.** Zprávy pocházejí z českých zdrojů a agent je
+píše česky, ale vydání pak ještě přeloží do angličtiny na úrovni B2–C1.
+Čeština na stránce zůstává k porovnání: kliknutím na větu se odkryje její
+české znění, přepínačem se dá zapnout souběžné čtení nebo rovnou původní
+čeština. Těžší slova jsou v textu podtržená a nesou vysvětlivku
+s odkazem do Cambridge Dictionary; na konci vydání je z nich slovníček.
+Denní přehled zpráv tak slouží zároveň jako čtení k učení jazyka.
+
 ## Kdy to běží a co vydání pokrývá
 
 Spouští to **Claude routine každý den v 17:00** (Europe/Prague) — běží
@@ -37,9 +45,11 @@ nastaví se `covers` na den, ze kterého je většina zpráv.
 ```
 sources.toml ──► fetch_feeds.py ──► feed.json ──► agent ──► digests/*.json ──► build_site.py ──► docs/
   19 RSS feedů    stažení, okno      témata se     výběr,      strukturovaný     validace,      GitHub
-                  24 h, dedup,       signálem      redakce,    výstup            novinová       Pages
-                  clustering         relevance     formát                        sazba
-                              fetch_weather.py ──► předpověď na další dny (Open-Meteo)
+                  24 h, dedup,       signálem      redakce,    výstup            dvojjazyčná    Pages
+                  clustering         relevance     formát            ▲           novinová sazba
+                              fetch_weather.py ──► předpověď         │
+                                                   (Open-Meteo)  add_english.py ◄── agent: anglický
+                                                                 spáruje věty        překlad + slovíčka
 ```
 
 Návrh stojí na dvou rozhodnutích:
@@ -57,6 +67,11 @@ Model dostane čistý vstup a řeší jen výběr, zkrácení a formulaci. Výst
 je strukturovaný JSON, ne rovnou HTML — sazba webu je pak čistě otázka
 šablony, ne toho, co model zvládne napsat.
 
+Stejná dělba platí pro překlad: model píše jen anglické věty, české úseky
+k nim dopáruje `add_english.py` a `build_site.py` pak ověří, že složené
+dohromady dají přesně původní český text. Angličtina se tak nemůže
+rozejít s češtinou, na kterou se na webu odkazuje.
+
 ## Soubory
 
 | Soubor | Co v něm je |
@@ -66,7 +81,8 @@ je strukturovaný JSON, ne rovnou HTML — sazba webu je pak čistě otázka
 | `sources.toml` | Seznam feedů, váhy, časové okno, práh clusteringu |
 | `scripts/fetch_feeds.py` | Sběr a normalizace feedů |
 | `scripts/fetch_weather.py` | Předpověď na 5 dní a kvalita ovzduší pro Hradec Králové |
-| `scripts/build_site.py` | Validace digestů a generování webu do `docs/` |
+| `scripts/add_english.py` | Spojení anglického překladu s českými větami digestu |
+| `scripts/build_site.py` | Validace digestů a generování dvojjazyčného webu do `docs/` |
 | `SETUP.md` | Jak založit routinu, povolit síť a zapnout Pages |
 | `digests/` | Digesty jako JSON; archiv i podklad pro deduplikaci |
 | `docs/` | Generovaný web — nikdy needituj ručně |
@@ -91,13 +107,32 @@ písmem ze systému, barva novinového papíru, tmavý režim pro čtení večer
 (řídí se systémem, ikonový přepínač si volbu pamatuje) a responzivní layout
 pro mobil.
 
-Hlavička nese podtitulek „Zprávy z českých zdrojů · nové vydání každý den
-v 17:00", aby bylo z první obrazovky jasné, co web je. Pod ní box
-s počasím: **zítřek slovně s ikonou a proužek dalších tří dnů** (den,
-ikona, denní a noční teplota). Následuje hlavní zpráva dne jako otvírák,
-rubriky a archiv s prolistováním po dnech. Kliknutím se zpráva označí
-jako přečtená (stav drží localStorage prohlížeče, nikam se neodesílá),
-odkazy na původní články se otevírají v novém panelu.
+Pod hlavičkou je box s počasím: **zítřek slovně s ikonou a proužek dalších
+tří dnů** (den, ikona, denní a noční teplota). Následuje **Ve zkratce** —
+dvě až čtyři věty o tom podstatném —, hlavní zpráva dne jako otvírák,
+rubriky, slovníček vydání a archiv s prolistováním po dnech. Zprávu lze
+označit jako přečtenou (tlačítkem v její hlavičce nebo kliknutím vedle
+textu; stav drží localStorage prohlížeče a nikam se neodesílá), odkazy na
+původní články se otevírají v novém panelu.
+
+### Dvojjazyčné čtení
+
+Obě jazykové verze jsou v HTML naráz a přepínač jen mění, která se ukazuje
+— na statickém webu není kam pro překlad dojet. Volba se pamatuje
+v localStorage.
+
+- **EN** — anglicky. Kliknutí na větu za ni vloží její české znění,
+  tlačítko `CS` v hlavičce zprávy přepne celou zprávu na souběžné čtení.
+- **EN+CS** — každá věta na svém řádku a pod ní česky. Režim na srovnávání.
+- **CS** — původní české znění, tak jak ho agent napsal.
+
+Slova nad úroveň B2 jsou tečkovaně podtržená; po kliknutí ukážou definici
+jednoduchou angličtinou, český ekvivalent a odkaz do Cambridge Dictionary.
+Všechna slovíčka vydání se opakují v přehledu na konci stránky.
+
+Starší vydání z doby před anglickou verzí zůstávají česky a přepínač na
+nich není. Angličtinu má vydání buď celou, nebo vůbec — build skript
+napůl přeložený digest odmítne.
 
 V patičce je čas poslední aktualizace vydání a seznam zdrojů, ze kterých
 digest vznikl. Čas bere build skript z gitu — z posledního commitu daného
@@ -111,6 +146,10 @@ python3 scripts/fetch_feeds.py --out /tmp/feed.json   # vyžaduje Python 3.11+
 python3 scripts/fetch_feeds.py --hours 48             # širší okno
 
 python3 scripts/fetch_weather.py --out /tmp/weather.json   # předpověď na 5 dní
+
+python3 scripts/add_english.py --digest digests/2026-09-08.json --show
+python3 scripts/add_english.py --digest digests/2026-09-08.json \
+    --translations /tmp/en.json                       # doplní anglickou verzi
 
 python3 scripts/build_site.py --check                 # jen zvaliduje digesty
 python3 scripts/build_site.py                         # přegeneruje docs/

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" data-lang="cs" data-has-en="0">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,47 @@
 <meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
+/* Jazyk stránky. Výchozí je angličtina, protože web se čte kvůli učení;
+   „both" staví větu pod větu, „cs" ukazuje původní české znění. Volba se
+   pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
+   nemají a přepínač na nich není. */
+(function () {
+  var root = document.documentElement;
+  var MODES = { en: 1, both: 1, cs: 1 };
+  var HTML_LANG = { en: 'en', both: 'en', cs: 'cs' };
+
+  function apply(mode) {
+    root.setAttribute('data-lang', mode);
+    root.setAttribute('lang', HTML_LANG[mode]);
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem('lang'); } catch (e) {}
+  if (root.getAttribute('data-has-en') === '1' && MODES[stored]) apply(stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var box = document.querySelector('.lang-switch');
+    if (!box) return;
+    var btns = box.querySelectorAll('button[data-mode]');
+    function sync() {
+      var now = root.getAttribute('data-lang') || 'en';
+      Array.prototype.forEach.call(btns, function (b) {
+        b.setAttribute('aria-pressed',
+          b.getAttribute('data-mode') === now ? 'true' : 'false');
+      });
+    }
+    sync();
+    Array.prototype.forEach.call(btns, function (b) {
+      b.addEventListener('click', function () {
+        apply(b.getAttribute('data-mode'));
+        try { localStorage.setItem('lang', b.getAttribute('data-mode')); }
+        catch (e) {}
+        sync();
+      });
+    });
+  });
+})();
+
 (function () {
   var root = document.documentElement;
   var stored = null;
@@ -49,9 +90,10 @@
   });
 })();
 
-/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
-   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
-   záznamy starší 90 dnů se promazávají. */
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), stejně tak
+   tlačítko v hlavičce zprávy; klik na odkaz ji označí a nechá odkaz
+   normálně otevřít. Klikání na věty a slovíčka se do označování neplete.
+   Stav žije v localStorage, záznamy starší 90 dnů se promazávají. */
 (function () {
   var KEY = 'readItems';
   var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
@@ -77,26 +119,171 @@
       document.querySelectorAll('[data-read-id]'),
       function (el) {
         var id = el.getAttribute('data-read-id');
+        var btn = el.querySelector('.tool-read');
         if (map[id]) el.classList.add('read');
 
+        function sync() {
+          if (btn) {
+            btn.setAttribute('aria-pressed',
+              el.classList.contains('read') ? 'true' : 'false');
+          }
+        }
+        function mark() {
+          if (!map[id]) { map[id] = Date.now(); el.classList.add('read'); save(map); }
+          sync();
+        }
+        function toggle() {
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+          sync();
+        }
+        sync();
+
+        if (btn) {
+          btn.addEventListener('click', function (ev) {
+            ev.stopPropagation();
+            toggle();
+          });
+        }
+
         el.addEventListener('click', function (ev) {
+          // Věty, slovíčka a tlačítka mají vlastní význam kliknutí.
+          if (ev.target.closest('.s, .gl, .tool')) return;
           if (ev.target.closest('a')) {
             // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
-            if (!map[id]) {
-              map[id] = Date.now();
-              el.classList.add('read');
-              save(map);
-            }
+            mark();
             return;
           }
           // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
           if (window.getSelection && String(window.getSelection())) return;
-          if (el.classList.toggle('read')) map[id] = Date.now();
-          else delete map[id];
-          save(map);
+          toggle();
         });
       }
     );
+  });
+})();
+
+/* Srovnání s češtinou: klik na větu ukáže její překlad, tlačítko „CS"
+   v hlavičce zprávy přepne na souběžné čtení celé zprávy. */
+(function () {
+  function selecting() {
+    return !!(window.getSelection && String(window.getSelection()));
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.s'),
+      function (s) {
+        s.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (selecting()) return;
+          s.classList.toggle('open');
+        });
+        s.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          s.classList.toggle('open');
+        });
+      }
+    );
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.tool-cs'),
+      function (btn) {
+        var box = btn.closest('[data-read-id]');
+        btn.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (!box) return;
+          var on = box.classList.toggle('bi');
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+      }
+    );
+  });
+})();
+
+/* Vysvětlivky slovíček. Bublina se skládá až tady, aby v HTML nebyla
+   u každého slova schovaná kopie definice. */
+(function () {
+  var pop = null;
+  var owner = null;
+
+  function close() {
+    if (pop) { pop.parentNode.removeChild(pop); pop = null; }
+    if (owner) { owner.setAttribute('aria-expanded', 'false'); owner = null; }
+  }
+
+  function line(cls, text) {
+    var el = document.createElement('p');
+    el.className = cls;
+    el.textContent = text;
+    return el;
+  }
+
+  function place(el) {
+    var box = el.getBoundingClientRect();
+    pop.style.left = '0px';
+    pop.style.top = (box.bottom + window.scrollY + 6) + 'px';
+    var width = pop.offsetWidth;
+    var limit = document.documentElement.clientWidth - 10;
+    var left = box.left + window.scrollX;
+    if (left + width > limit) left = Math.max(10, limit - width);
+    pop.style.left = left + 'px';
+  }
+
+  function open(el) {
+    var again = owner === el;
+    close();
+    if (again) return;
+    pop = document.createElement('div');
+    pop.className = 'gloss-pop';
+    pop.setAttribute('role', 'dialog');
+    pop.appendChild(line('term', el.getAttribute('data-term')));
+    pop.appendChild(line('def', el.getAttribute('data-def')));
+    if (el.getAttribute('data-cs')) {
+      pop.appendChild(line('cz', el.getAttribute('data-cs')));
+    }
+    var more = document.createElement('a');
+    more.className = 'more';
+    more.href = el.getAttribute('data-url');
+    more.target = '_blank';
+    more.rel = 'noopener noreferrer';
+    more.textContent = 'Cambridge Dictionary ↗';
+    pop.appendChild(more);
+    document.body.appendChild(pop);
+    owner = el;
+    el.setAttribute('aria-expanded', 'true');
+    place(el);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.gl'),
+      function (el) {
+        el.setAttribute('aria-expanded', 'false');
+        el.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          open(el);
+        });
+        el.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          open(el);
+        });
+      }
+    );
+
+    document.addEventListener('click', function (ev) {
+      if (!pop || ev.target.closest('.gloss-pop')) return;
+      close();
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') close();
+    });
+    window.addEventListener('resize', close);
   });
 })();
 </script>
@@ -108,7 +295,7 @@
 <h1><a href="index.html">Denní přehled</a></h1>
 <p class="dateline">neděle 6. září 2026</p>
 <hr class="rule-double">
-<p class="meta">28 zpráv &nbsp;·&nbsp; aktualizováno <time datetime="2026-09-06T17:19+02:00">6. 9. 2026 v 17:19</time></p>
+<p class="meta">28 zpráv &nbsp;·&nbsp; ≈ 12 min čtení &nbsp;·&nbsp; aktualizováno <time datetime="2026-09-06T17:19+02:00">6. 9. 2026 v 17:19</time></p>
 <nav class="issues">Starší vydání: <a href="2026-09-05.html">5. 9. 2026</a><span class="sep">·</span><a href="2026-09-04.html">4. 9. 2026</a><span class="sep">·</span><a href="2026-09-03.html">3. 9. 2026</a><span class="sep">·</span><a href="archiv.html">celý archiv</a></nav>
 </header>
 
@@ -124,203 +311,212 @@
 </ul>
 </section>
 
-<section class="opener" data-read-id="820199ae569c" title="Kliknutím označíte zprávu jako přečtenou">
-<p class="kicker">Domov · 14:40 · 4 zdroje</p>
+<section class="lead">
+<p class="kicker">Ve zkratce</p>
+<ul>
+<li>Američtí vyjednavači Witkoff a Kushner jednali v sobotu s Putinem v Kremlu a dnes v Kyjevě se Zelenským; Bílý dům mluví o plánech dalších kroků, které mají být oznámeny v příštích týdnech.</li>
+<li>V Sasku-Anhaltsku se volí zemský sněm, průzkumy favorizují krajně pravicovou AfD a volební účast je proti roku 2021 zhruba dvojnásobná.</li>
+<li>Koaliční SPD půjde v pondělí na jednání o rozpočtu s návrhem ušetřit devět miliard na dávkách pro Ukrajince, ministryně financí Schillerová ale takové škrty vylučuje.</li>
+</ul>
+</section>
+
+<section class="opener" data-read-id="820199ae569c">
+<p class="kicker stamp">Domov · 14:40 · <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></p>
 <h2>SPD chce v rozpočtu ušetřit devět miliard na dávkách pro Ukrajince, Schillerová to odmítá</h2>
-<p>Koaliční SPD půjde v pondělí večer na jednání o rozpočtu s premiérem Andrejem Babišem a ministryní financí Alenou Schillerovou (oba ANO) s návrhy na snižování nemandatorních výdajů. Předseda poslaneckého klubu Radim Fiala v Nedělní debatě České televize zmínil sociální dávky pro Ukrajince: podle ČT24 řekl, že je otázka, jestli v současné situaci bude stát vyplácet devět miliard. Schillerová ve stejném pořadu připustila, že se lze bavit o úsporách v řádu jednotek miliard, vždy to ale podle ní bude na úkor odložení jiných výdajů; škrty v obraně a právě v dávkách pro ukrajinské uprchlíky vyloučila. Podle Seznam Zpráv premiér Babiš připustil, že se schodek možná ještě sníží. Vláda navrhuje na příští rok deficit 389 miliard korun, který ČT24 označuje za druhý nejvyšší v historii; letos je plánovaný schodek 310 miliard. S výší deficitu nesouhlasí koaliční SPD ani Motoristé.</p>
+<p class="body">Koaliční SPD půjde v pondělí večer na jednání o rozpočtu s premiérem Andrejem Babišem a ministryní financí Alenou Schillerovou (oba ANO) s návrhy na snižování nemandatorních výdajů. Předseda poslaneckého klubu Radim Fiala v Nedělní debatě České televize zmínil sociální dávky pro Ukrajince: podle ČT24 řekl, že je otázka, jestli v současné situaci bude stát vyplácet devět miliard. Schillerová ve stejném pořadu připustila, že se lze bavit o úsporách v řádu jednotek miliard, vždy to ale podle ní bude na úkor odložení jiných výdajů; škrty v obraně a právě v dávkách pro ukrajinské uprchlíky vyloučila. Podle Seznam Zpráv premiér Babiš připustil, že se schodek možná ještě sníží. Vláda navrhuje na příští rok deficit 389 miliard korun, který ČT24 označuje za druhý nejvyšší v historii; letos je plánovaný schodek 310 miliard. S výší deficitu nesouhlasí koaliční SPD ani Motoristé.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/nedelni-debata-o-navrhu-statniho-rozpoctu-na-pristi-rok-377305" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/spd-predstavi-sve-navrhy-na-snizeni-vydaju-babisovi-a-schillerove-usetrit-chteji_2609061318_kvr" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/ekonomika-schodek-rozpoctu-se-mozna-snizi-vladni-strany-budou-jeste-jednat-314734" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2175825/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </section>
 
 <section class="rubric">
 <h2>Domov</h2>
-<article data-read-id="5a8e0501706a" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">11:15</span>
+<article data-read-id="5a8e0501706a">
+<span class="stamp">11:15<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Babiš naznačil, že důchody mohou příští rok růst o více než 300 korun</h3>
-<p>Průměrná výše důchodů má v příštím roce stoupnout nejméně za posledních deset let. Premiér Andrej Babiš v nedělním videu uvedl, že se vláda může ještě rozhodnout seniorům přidat, píší Seznam Zprávy.</p>
+<p class="body">Průměrná výše důchodů má v příštím roce stoupnout nejméně za posledních deset let. Premiér Andrej Babiš v nedělním videu uvedl, že se vláda může ještě rozhodnout seniorům přidat, píší Seznam Zprávy.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-duchody-muzou-rust-o-vice-nez-300-korun-naznacil-babis-314726" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
-<article data-read-id="bf4571fa5905" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">06:00</span>
+<article data-read-id="bf4571fa5905">
+<span class="stamp">06:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>BIS má v návrhu rozpočtu dostat o deset milionů méně než loni, opozice mluví o hrubé chybě</h3>
-<p>Kontrarozvědce má podle návrhu rozpočtu připadnout zhruba 2,5 miliardy korun, tedy o deset milionů méně než loni. Vít Rakušan (STAN) to označil za hrubou chybu a míní, že ministryně financí Alena Schillerová má měsíc na změnu; ta hájí návrh tím, že je v něm zabezpečeno, co služba potřebuje na svůj chod. Ředitel BIS Michal Koudelka podle ČT24 opakuje, že Rusko je největší bezpečnostní hrozbou pro Česko. Kontext je čerstvý: kancléř Friedrich Merz v sobotu potvrdil, že za nedávným incidentem na letišti v Lipsku stálo Rusko, a ke stejnému závěru došly i české zpravodajské služby. Pavel Žáček (ODS) po jednání bezpečnostního výboru sněmovny uvedl, že nezaznělo nic, co by vyjádření německých představitelů rozporovalo.</p>
+<p class="body">Kontrarozvědce má podle návrhu rozpočtu připadnout zhruba 2,5 miliardy korun, tedy o deset milionů méně než loni. Vít Rakušan (STAN) to označil za hrubou chybu a míní, že ministryně financí Alena Schillerová má měsíc na změnu; ta hájí návrh tím, že je v něm zabezpečeno, co služba potřebuje na svůj chod. Ředitel BIS Michal Koudelka podle ČT24 opakuje, že Rusko je největší bezpečnostní hrozbou pro Česko. Kontext je čerstvý: kancléř Friedrich Merz v sobotu potvrdil, že za nedávným incidentem na letišti v Lipsku stálo Rusko, a ke stejnému závěru došly i české zpravodajské služby. Pavel Žáček (ODS) po jednání bezpečnostního výboru sněmovny uvedl, že nezaznělo nic, co by vyjádření německých představitelů rozporovalo.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/vlada-na-kontrarozvedku-vyclenila-mene-penez-nez-loni-hruba-chyba-soudi-opozice-377301" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </article>
-<article data-read-id="268b33e92613" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">11:21</span>
+<article data-read-id="268b33e92613">
+<span class="stamp">11:21<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Babiš chce o omezení pohybu ruských diplomatů postupovat společně se spojenci</h3>
-<p>Česko chce v otázce omezení pohybu ruských diplomatů postupovat společně se spojenci, řekl premiér Andrej Babiš. Rusko podle něj představuje hrozbu a je agresor.</p>
+<p class="body">Česko chce v otázce omezení pohybu ruských diplomatů postupovat společně se spojenci, řekl premiér Andrej Babiš. Rusko podle něj představuje hrozbu a je agresor.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175769/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="77f99dda3b55" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:48 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="77f99dda3b55">
+<span class="stamp">15:48<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Babiš označil Macinkův výrok o Turkově nehodě za neadekvátní, ochranku hájí</h3>
-<p>Výrok vicepremiéra a předsedy Motoristů Petra Macinky, že je mu ukradené vyšetřování dopravní nehody Filipa Turka, nebyl podle premiéra Andreje Babiše adekvátní. Řekl to v pořadu Partie televize Prima; nehoda se stala v červenci v centru Prahy poblíž náměstí I. P. Pavlova. Babiš se zároveň zastal policistů z Macinkovy ochranky v souvislosti s jeho rozhovorem pro maskovaného muže — ministr si podle něj sám vyhodnotil, že ochranku nepotřebuje. Zároveň dodal, že mu Macinkův postup nepřišel normální.</p>
+<p class="body">Výrok vicepremiéra a předsedy Motoristů Petra Macinky, že je mu ukradené vyšetřování dopravní nehody Filipa Turka, nebyl podle premiéra Andreje Babiše adekvátní. Řekl to v pořadu Partie televize Prima; nehoda se stala v červenci v centru Prahy poblíž náměstí I. P. Pavlova. Babiš se zároveň zastal policistů z Macinkovy ochranky v souvislosti s jeho rozhovorem pro maskovaného muže — ministr si podle něj sám vyhodnotil, že ochranku nepotřebuje. Zároveň dodal, že mu Macinkův postup nepřišel normální.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-babis-policiste-z-ochranky-za-okolnosti-macinkova-rozhovoru-nemohou-314738" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2175783/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Hradec Králové</h2>
-<article data-read-id="59612b088bc5" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">11:11</span>
+<article data-read-id="59612b088bc5">
+<span class="stamp">11:11<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Balónové nebe skončilo v polovině plánovaných letů, vzlétnout zabránil vítr</h3>
-<p>Organizátoři hradecké fiesty Balónové nebe 2026 museli zrušit i poslední letový termín, protože balonům nepřál silný vítr. Akce tak podle Hradecké drbny skončila v polovině plánovaných letů.</p>
+<p class="body">Organizátoři hradecké fiesty Balónové nebe 2026 museli zrušit i poslední letový termín, protože balonům nepřál silný vítr. Akce tak podle Hradecké drbny skončila v polovině plánovaných letů.</p>
 <p class="sources"><a href="https://hradecka.drbna.cz/spolecnost/899375-pocasi-rozhodlo-balonove-nebe-skoncilo-v-polovine-planovanych-letu.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a></p>
 </article>
-<article data-read-id="2591fb1b4a38" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:06</span>
+<article data-read-id="2591fb1b4a38">
+<span class="stamp">14:06<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Hradecký herec Petr Kult napsal knihu o zkušenostech učitele autoškoly</h3>
-<p>Královéhradecký herec a režisér Petr Kult, spoluautor Kabaretu Königgrätz a hlavní hrdina komedie Láska na první pohřeb, zúročil zkušenosti učitele autoškoly v knize Dva krát tři pedály. Podtitul zní O autoškole, jejích učitelích, jejích žácích a o všem, co se o nich říká. „Nejsem odborník, spíš poučený laik,“ říká pro iDNES.</p>
+<p class="body">Královéhradecký herec a režisér Petr Kult, spoluautor Kabaretu Königgrätz a hlavní hrdina komedie Láska na první pohřeb, zúročil zkušenosti učitele autoškoly v knize Dva krát tři pedály. Podtitul zní O autoškole, jejích učitelích, jejích žácích a o všem, co se o nich říká. „Nejsem odborník, spíš poučený laik,“ říká pro iDNES.</p>
 <p class="sources"><a href="https://www.idnes.cz/hradec-kralove/zpravy/herec-petr-kult-kniha-autoskola-klicperovo-divadlo-prvotina.A260903_940853_hradec-zpravy_tuu#utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=hradec&amp;utm_content=main" target="_blank" rel="noopener noreferrer">iDNES Hradec</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Svět</h2>
-<article data-read-id="104f2109ddac" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:49 <span class="flag">· 4 zdroje</span></span>
+<article data-read-id="104f2109ddac">
+<span class="stamp">16:49<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Witkoff a Kushner jednali s Putinem i se Zelenským, výsledky mají přijít v příštích týdnech</h3>
-<p>Trumpovi vyslanci Steve Witkoff a Jared Kushner se v sobotu setkali na tři hodiny v Kremlu s Vladimirem Putinem a v neděli poprvé oficiálně přicestovali do Kyjeva k jednání s Volodymyrem Zelenským. Bílý dům k moskevské schůzce agentuře AFP sdělil jen to, že byly projednány podstatné plány dalších kroků, které budou oznámeny v příštích týdnech; ruský poradce Ušakov označil jednání za konstruktivní a maximálně upřímná. Zelenskyj podle ČT24 řekl, že se chce přiblížit ukončení války a že jsou potřeba bezpečnostní záruky. K první fázi rozhovorů se podle Deníku N měli později přidat poradci pro národní bezpečnost z Británie, Francie a Německa. Do Kyjeva museli Američané dorazit vlakem přes polský Řešov — Rusko jim podle Zelenského neumožnilo přiletět. Kvůli misi platí třídenní zastavení vzdušných úderů na Kyjev a Moskvu, které obě země oznámily v sobotu, jinde ale útoky pokračují. Politolog Petr Kratochvíl z Ústavu mezinárodních vztahů pro Radiožurnál řekl, že se nezdá, že bychom byli výrazně blíž vyřešení konfliktu.</p>
+<p class="body">Trumpovi vyslanci Steve Witkoff a Jared Kushner se v sobotu setkali na tři hodiny v Kremlu s Vladimirem Putinem a v neděli poprvé oficiálně přicestovali do Kyjeva k jednání s Volodymyrem Zelenským. Bílý dům k moskevské schůzce agentuře AFP sdělil jen to, že byly projednány podstatné plány dalších kroků, které budou oznámeny v příštích týdnech; ruský poradce Ušakov označil jednání za konstruktivní a maximálně upřímná. Zelenskyj podle ČT24 řekl, že se chce přiblížit ukončení války a že jsou potřeba bezpečnostní záruky. K první fázi rozhovorů se podle Deníku N měli později přidat poradci pro národní bezpečnost z Británie, Francie a Německa. Do Kyjeva museli Američané dorazit vlakem přes polský Řešov — Rusko jim podle Zelenského neumožnilo přiletět. Kvůli misi platí třídenní zastavení vzdušných úderů na Kyjev a Moskvu, které obě země oznámily v sobotu, jinde ale útoky pokračují. Politolog Petr Kratochvíl z Ústavu mezinárodních vztahů pro Radiožurnál řekl, že se nezdá, že bychom byli výrazně blíž vyřešení konfliktu.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/witkoff-a-kushner-jsou-v-kyjeve-na-prvni-navsteve-budou-jednat-se-zelenskym-377307" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/rusko-usa-mirovy-plan-ukrajina_2609061600_elev" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-superlativ-putinovi-pak-objeti-se-zelenskym-americane-jednaji-o-konci-valky-314732" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2175887/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="5bad1c4ace46" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:37 <span class="flag">· 4 zdroje</span></span>
+<article data-read-id="5bad1c4ace46">
+<span class="stamp">14:37<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Lavrov označil obviňování Moskvy z útoku v Lipsku za začátek skutečné války</h3>
-<p>Obvinění západních zemí, že se Moskva podílela na dronovém incidentu na letišti Lipsko/Halle, jsou podle ruského ministra zahraničí Sergeje Lavrova v podstatě začátkem skutečné války. Agentura Interfax jeho slova přinesla v neděli. Německá vláda srpnový hybridní útok přičítá Rusku, které to popírá; zaměstnanec letiště našel 4. srpna poblíž ukrajinského letadla dron s výbušninou a nefunkční roznětkou. Seznam Zprávy dodávají, že Německo v reakci uzavřelo ruský konzulát a Moskva chystá odvetné kroky. Podle E15 Lavrov napadl i kancléře Friedricha Merze za plány na posílení armády.</p>
+<p class="body">Obvinění západních zemí, že se Moskva podílela na dronovém incidentu na letišti Lipsko/Halle, jsou podle ruského ministra zahraničí Sergeje Lavrova v podstatě začátkem skutečné války. Agentura Interfax jeho slova přinesla v neděli. Německá vláda srpnový hybridní útok přičítá Rusku, které to popírá; zaměstnanec letiště našel 4. srpna poblíž ukrajinského letadla dron s výbušninou a nefunkční roznětkou. Seznam Zprávy dodávají, že Německo v reakci uzavřelo ruský konzulát a Moskva chystá odvetné kroky. Podle E15 Lavrov napadl i kancléře Friedricha Merze za plány na posílení armády.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-lavrov-oznacil-obvineni-od-zapadu-z-utoku-v-lipsku-za-zacatek-valky-314735" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/obvineni-od-zapadu-z-utoku-v-lipsku-je-podle-lavrova-zacatek-skutecne-valky-pisi_2609061321_kvr" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/vineni-moskvy-z-utoku-v-lipsku-je-zacatkem-skutecne-valky-vzkazal-lavrov-zapadu-377308" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.e15.cz/valka-na-ukrajine/hybridni-utok-na-ukrajinske-letadlo-v-nemecku-stepi-vztahy-moskva-hrozi-odvetou-za-konec-ruskeho-domu-1435582" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
-<article data-read-id="07fd19889d53" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:42 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="07fd19889d53">
+<span class="stamp">15:42<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Sasko-Anhaltsko volí zemský sněm, účast je proti minulým volbám dvojnásobná</h3>
-<p>Ve východoněmecké spolkové zemi Sasko-Anhaltsko se v neděli volil zemský sněm, volební místnosti byly otevřené do 18:00. Průzkumy favorizují krajně pravicovou AfD, kterou zemská tajná služba už od roku 2023 považuje za prokazatelně pravicově extremistickou; podle nich může získat 40 až 43 procent hlasů. Rozhodující bude, jestli strana získá většinu mandátů a bude moci sestavit jednobarevnou vládu — v Německu by šlo o první zemskou vládu AfD. Ke 14:00 činila účast 54,4 procenta oproti více než 27 procentům v roce 2021, uvedl Zemský volební úřad. Údaje nezahrnují korespondenční hlasování, které se do projekcí započítá až po uzavření místností.</p>
+<p class="body">Ve východoněmecké spolkové zemi Sasko-Anhaltsko se v neděli volil zemský sněm, volební místnosti byly otevřené do 18:00. Průzkumy favorizují krajně pravicovou AfD, kterou zemská tajná služba už od roku 2023 považuje za prokazatelně pravicově extremistickou; podle nich může získat 40 až 43 procent hlasů. Rozhodující bude, jestli strana získá většinu mandátů a bude moci sestavit jednobarevnou vládu — v Německu by šlo o první zemskou vládu AfD. Ke 14:00 činila účast 54,4 procenta oproti více než 27 procentům v roce 2021, uvedl Zemský volební úřad. Údaje nezahrnují korespondenční hlasování, které se do projekcí započítá až po uzavření místností.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175855/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/sasko-anhaltsko-voli-ceka-se-jasne-vitezstvi-afd-377304" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </article>
-<article data-read-id="5c8318ec5d1e" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">12:16</span>
+<article data-read-id="5c8318ec5d1e">
+<span class="stamp">12:16<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Německo chce rozšířit protidronové jednotky a postavit národní kybernetický štít</h3>
-<p>Spolkový ministr vnitra Alexander Dobrindt v rozhovoru pro nedělník Bild am Sonntag oznámil rozsáhlé posílení ochrany před ruskými dronovými a kybernetickými útoky. Chce mimo jiné rozšířit mobilní protidronové jednotky a vybudovat národní digitální ochranný štít nazývaný Cyberdome. Plán přichází po zmařeném útoku na letiště Lipsko/Halle, z něhož Berlín viní Moskvu.</p>
+<p class="body">Spolkový ministr vnitra Alexander Dobrindt v rozhovoru pro nedělník Bild am Sonntag oznámil rozsáhlé posílení ochrany před ruskými dronovými a kybernetickými útoky. Chce mimo jiné rozšířit mobilní protidronové jednotky a vybudovat národní digitální ochranný štít nazývaný Cyberdome. Plán přichází po zmařeném útoku na letiště Lipsko/Halle, z něhož Berlín viní Moskvu.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175786/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="70c9c34a1c45" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">10:17</span>
+<article data-read-id="70c9c34a1c45">
+<span class="stamp">10:17<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Izrael udeřil na jižní Libanon, zemřeli nejméně čtyři lidé</h3>
-<p>Izraelská armáda oznámila údery na jižní Libanon jako odvetu za drony, které na izraelské vojáky v oblasti vyslal Hizballáh. Libanonské ministerstvo zdravotnictví podle stanice Al-Arabíja uvedlo, že při nich zemřeli nejméně čtyři lidé, z toho dvě ženy.</p>
+<p class="body">Izraelská armáda oznámila údery na jižní Libanon jako odvetu za drony, které na izraelské vojáky v oblasti vyslal Hizballáh. Libanonské ministerstvo zdravotnictví podle stanice Al-Arabíja uvedlo, že při nich zemřeli nejméně čtyři lidé, z toho dvě ženy.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175743/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="c5c976fbb7e9" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">13:24</span>
+<article data-read-id="c5c976fbb7e9">
+<span class="stamp">13:24<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Povodně na hranici Nepálu a Tibetu si vyžádaly 43 obětí na čínské straně</h3>
-<p>Počet obětí ničivých povodní na hranicích mezi Nepálem a Tibetem se na čínské straně zvýšil na 43. Dalších 519 lidí se pohřešuje, informovala agentura CNA.</p>
+<p class="body">Počet obětí ničivých povodní na hranicích mezi Nepálem a Tibetem se na čínské straně zvýšil na 43. Dalších 519 lidí se pohřešuje, informovala agentura CNA.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175812/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Ekonomika</h2>
-<article data-read-id="efd0073a3464" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">09:54</span>
+<article data-read-id="efd0073a3464">
+<span class="stamp">09:54<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Vláda v pondělí projedná zvýšení minimální mzdy o 2500 korun na 24 900</h3>
-<p>Nejnižší výdělek by se měl od ledna zvednout o 2500 korun na 24 900 korun; výpočet minimální mzdy pro příští a přespříští rok projedná vláda v pondělí. Zvyšuje se podle zákona automaticky a do roku 2029 by se měla postupně dostat na 47 procent průměrné mzdy. Podle podkladů k nařízení ji pobírá asi 181 tisíc lidí, tedy 4,9 procenta zaměstnanců.</p>
+<p class="body">Nejnižší výdělek by se měl od ledna zvednout o 2500 korun na 24 900 korun; výpočet minimální mzdy pro příští a přespříští rok projedná vláda v pondělí. Zvyšuje se podle zákona automaticky a do roku 2029 by se měla postupně dostat na 47 procent průměrné mzdy. Podle podkladů k nařízení ji pobírá asi 181 tisíc lidí, tedy 4,9 procenta zaměstnanců.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175735/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="f10fdc1dbc1d" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">5. 9. 20:05</span>
+<article data-read-id="f10fdc1dbc1d">
+<span class="stamp"><span class="lang-cs">5. 9. 20:05</span><span class="lang-en">5 Sep 20:05</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>České zbrojovky stále víc těží ze zbrojního boomu, loni podepsaly kontrakty za 122 miliard</h3>
-<p>Ministerstvo obrany loni uzavřelo se zbrojaři smlouvy za 122 miliard korun, letos za osm měsíců zhruba za 33 miliard — naprostou většinu už s domácími podniky. Obrana má příští rok hospodařit s rekordním rozpočtem, z čehož by měly české firmy podle ČT24 dál výrazně těžit.</p>
+<p class="body">Ministerstvo obrany loni uzavřelo se zbrojaři smlouvy za 122 miliard korun, letos za osm měsíců zhruba za 33 miliard — naprostou většinu už s domácími podniky. Obrana má příští rok hospodařit s rekordním rozpočtem, z čehož by měly české firmy podle ČT24 dál výrazně těžit.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/ceske-firmy-stale-vice-tezi-ze-zbrojniho-boomu-377293" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </article>
-<article data-read-id="f80199467a10" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">06:30</span>
+<article data-read-id="f80199467a10">
+<span class="stamp">06:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Škoda vede žebříček prodejů elektromobilů v Německu</h3>
-<p>Žebříčku nejprodávanějších elektroaut na největším evropském trhu, tedy v Německu, letos vévodí Škoda s modelem Elroq; předstihla tak i Volkswagen a Teslu. Čistě elektrické vozy tvořily podle E15 v prvním pololetí více než pětinu automobilového trhu Evropské unie, rostou díky těkavým cenám ropy, státní podpoře i klesající pořizovací ceně.</p>
+<p class="body">Žebříčku nejprodávanějších elektroaut na největším evropském trhu, tedy v Německu, letos vévodí Škoda s modelem Elroq; předstihla tak i Volkswagen a Teslu. Čistě elektrické vozy tvořily podle E15 v prvním pololetí více než pětinu automobilového trhu Evropské unie, rostou díky těkavým cenám ropy, státní podpoře i klesající pořizovací ceně.</p>
 <p class="sources"><a href="https://www.e15.cz/byznys/doprava-a-logistika/skoda-kraluje-prodejum-elektroaut-v-nemecku-nechala-za-sebou-volkswagen-i-teslu-1435277" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Technologie</h2>
-<article data-read-id="56fe3c5c2d8f" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">09:21</span>
+<article data-read-id="56fe3c5c2d8f">
+<span class="stamp">09:21<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Raketa firmy Isar Aerospace se při druhém letu dostala na oběžnou dráhu a vypustila náklad</h3>
-<p>Společnost Isar Aerospace v tiskové zprávě oznámila, že se její raketa při druhém letu dostala na oběžnou dráhu a vypustila náklad; sama to označuje za historii evropských kosmických letů. Na Hacker News patřila zpráva k nejdiskutovanějším tématům dne s 377 body a 106 komentáři.</p>
+<p class="body">Společnost Isar Aerospace v tiskové zprávě oznámila, že se její raketa při druhém letu dostala na oběžnou dráhu a vypustila náklad; sama to označuje za historii evropských kosmických letů. Na Hacker News patřila zpráva k nejdiskutovanějším tématům dne s 377 body a 106 komentáři.</p>
 <p class="sources"><a href="https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight" target="_blank" rel="noopener noreferrer">Hacker News</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Společnost a kultura</h2>
-<article data-read-id="361ade0dd21b" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:47</span>
+<article data-read-id="361ade0dd21b">
+<span class="stamp">14:47<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Arcibiskup Přibyl v prvním pastýřském listě přiznal, že kauzy vážně narušily důvěru v církev</h3>
-<p>Důvěru veřejnosti v církev vážně narušila podezření na mravní a majetkové delikty, které se v nedávné minulosti odehrály na církevní půdě i přímo v sídle arcibiskupství, napsal pražský arcibiskup Stanislav Přibyl. Ve svém prvním pastýřském listě od letošního nástupu do čela české katolické církve zdůraznil, že kvůli těmto odsouzeníhodným případům cítí bolest, frustraci a stud ze způsobeného pohoršení.</p>
+<p class="body">Důvěru veřejnosti v církev vážně narušila podezření na mravní a majetkové delikty, které se v nedávné minulosti odehrály na církevní půdě i přímo v sídle arcibiskupství, napsal pražský arcibiskup Stanislav Přibyl. Ve svém prvním pastýřském listě od letošního nástupu do čela české katolické církve zdůraznil, že kvůli těmto odsouzeníhodným případům cítí bolest, frustraci a stud ze způsobeného pohoršení.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175836/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="0a5911a33573" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:30</span>
+<article data-read-id="0a5911a33573">
+<span class="stamp">16:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Prasečí ledvina udržela pacienta naživu rekordních 271 dní</h3>
-<p>Ledvina transplantovaná z prasete udržela šestašedesátiletého muže naživu devět měsíců, než dostal orgán od lidského dárce. Tým z nemocnice Massachusetts General Brigham podle iROZHLASu tvrdí, že prasečí orgány lze použít jako most, dokud nejsou k dispozici lidské. Pro Radiožurnál téma komentoval profesor Jiří Froněk, přednosta kliniky transplantační chirurgie pražského IKEM.</p>
+<p class="body">Ledvina transplantovaná z prasete udržela šestašedesátiletého muže naživu devět měsíců, než dostal orgán od lidského dárce. Tým z nemocnice Massachusetts General Brigham podle iROZHLASu tvrdí, že prasečí orgány lze použít jako most, dokud nejsou k dispozici lidské. Pro Radiožurnál téma komentoval profesor Jiří Froněk, přednosta kliniky transplantační chirurgie pražského IKEM.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zivotni-styl/zdravi/praseci-ledvina-vydrzela-v-lidskem-tele-271-dni-uzasna-zprava-kvuli-premosteni_2609061630_elev" target="_blank" rel="noopener noreferrer">iROZHLAS</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Za pozornost</h2>
-<article data-read-id="f9f9158229a0" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">10:05</span>
+<article data-read-id="f9f9158229a0">
+<span class="stamp">10:05<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Voxpot rozebírá, proč AfD sází na východoněmeckou nostalgii</h3>
-<p>Podpora krajně pravicové Alternativy pro Německo stále narůstá. Voxpot se v den zemských voleb v Sasku-Anhaltsku ptá, proč straně vychází sázka na východoněmeckou nostalgii, jak radikální ve skutečnosti je a jestli ji úřady zakážou.</p>
+<p class="body">Podpora krajně pravicové Alternativy pro Německo stále narůstá. Voxpot se v den zemských voleb v Sasku-Anhaltsku ptá, proč straně vychází sázka na východoněmeckou nostalgii, jak radikální ve skutečnosti je a jestli ji úřady zakážou.</p>
 <p class="sources"><a href="https://www.voxpot.cz/clanky/nasla-afd-reseni-pro-nemecko/" target="_blank" rel="noopener noreferrer">Voxpot</a></p>
 </article>
-<article data-read-id="5c10e2e26019" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">11:00</span>
+<article data-read-id="5c10e2e26019">
+<span class="stamp">11:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Vědci sepsali čtyři scénáře budoucnosti Česka, od kolapsu po soužití s umělou inteligencí</h3>
-<p>Vědci, akademici a zástupci tuzemské státní správy se pokusili představit si, jak rozdílnými cestami by se mohla ubírat budoucnost České republiky do konce 21. století. ČT24 čtyři výsledné vize shrnuje — sahají od kolapsu až po soužití s umělou inteligencí.</p>
+<p class="body">Vědci, akademici a zástupci tuzemské státní správy se pokusili představit si, jak rozdílnými cestami by se mohla ubírat budoucnost České republiky do konce 21. století. ČT24 čtyři výsledné vize shrnuje — sahají od kolapsu až po soužití s umělou inteligencí.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/veda/od-kolapsu-po-souziti-s-ai-vedci-predstavili-vize-mozne-budoucnosti-ceska-377240" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Sport</h2>
-<article data-read-id="c77cd7a22594" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:49 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="c77cd7a22594">
+<span class="stamp">15:49<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Mladá Boleslav deklasovala Baník 4:0, Liberec vyhrál derby v Jablonci</h3>
-<p>Fotbalisté Mladé Boleslavi v 7. kole Chance ligy doma přehráli Ostravu 4:0 a zůstávají v sezoně neporažení. Dvakrát se prosadil nejlepší střelec soutěže Martin Šubert, přidali i Solomon John a střídající Josef Kolářík. Středočeši jsou v neúplné tabulce druzí, tři body za Slavií a se zápasem k dobru. Podještědské derby ovládl Liberec, který v Jablonci zvítězil 2:1. Zlín podlehl doma Teplicím 1:3 a po sedmi kolech je stále bez bodu.</p>
+<p class="body">Fotbalisté Mladé Boleslavi v 7. kole Chance ligy doma přehráli Ostravu 4:0 a zůstávají v sezoně neporažení. Dvakrát se prosadil nejlepší střelec soutěže Martin Šubert, přidali i Solomon John a střídající Josef Kolářík. Středočeši jsou v neúplné tabulce druzí, tři body za Slavií a se zápasem k dobru. Podještědské derby ovládl Liberec, který v Jablonci zvítězil 2:1. Zlín podlehl doma Teplicím 1:3 a po sedmi kolech je stále bez bodu.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/boleslav-ustedrila-tvrdou-lekci-baniku-158798" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-mlada-boleslav-banik-ostrava-primy-prenos-zive_2609061238_lbk" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/fotbal-ceska-1-liga-liberec-udelil-jablonci-lekci-z-produktivity-5530262" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="b83630fd0bd3" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:59 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="b83630fd0bd3">
+<span class="stamp">16:59<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Velkou cenu Itálie vyhrál Antonelli, který se probojoval z devatenáctého místa</h3>
-<p>Velkou cenu Itálie formule 1 vyhrál domácí jezdec Kimi Antonelli z Mercedesu. Druhý dojel jeho týmový kolega George Russell, třetí byl Max Verstappen z Red Bullu. Antonelli podle Sport.cz startoval až z 19. místa a napočítali mu celkem 26 předjetí; navýšil tak vedení v šampionátu. Závod poznamenal hned v úvodu tvrdý náraz Charlese Leclerca. Sobotní kvalifikaci přitom překvapivě vyhrál Pierre Gasly z Alpine, pro kterého to byla první pole position v kariéře.</p>
+<p class="body">Velkou cenu Itálie formule 1 vyhrál domácí jezdec Kimi Antonelli z Mercedesu. Druhý dojel jeho týmový kolega George Russell, třetí byl Max Verstappen z Red Bullu. Antonelli podle Sport.cz startoval až z 19. místa a napočítali mu celkem 26 předjetí; navýšil tak vedení v šampionátu. Závod poznamenal hned v úvodu tvrdý náraz Charlese Leclerca. Sobotní kvalifikaci přitom překvapivě vyhrál Pierre Gasly z Alpine, pro kterého to byla první pole position v kariéře.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2175890/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/moto-formule-1-gaslyho-ceka-v-monze-prvni-start-z-pole-position-antonelliho-stihaci-jizda-5529345" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="b6ee00f79b8a" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:33 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="b6ee00f79b8a">
+<span class="stamp">16:33<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Vacek vyhrál ZLM Tour a ovládl první etapový závod v kariéře</h3>
-<p>Navazuje na jeho vítězství v úvodní časovce i ve druhé etapě: čtyřiadvacetiletý cyklista Mathias Vacek ze stáje Lidl-Trek vyhrál nizozemskou ZLM Tour a poprvé v kariéře ovládl etapový závod. Vedení hájil od úvodní časovky a nakonec udržel náskok 33 sekund před svým týmovým kolegou Maxem Walscheidem.</p>
+<p class="body">Navazuje na jeho vítězství v úvodní časovce i ve druhé etapě: čtyřiadvacetiletý cyklista Mathias Vacek ze stáje Lidl-Trek vyhrál nizozemskou ZLM Tour a poprvé v kariéře ovládl etapový závod. Vedení hájil od úvodní časovky a nakonec udržel náskok 33 sekund před svým týmovým kolegou Maxem Walscheidem.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/cyklistika/vacek-poprve-ovladl-etapovy-zavod-slavi-triumf-na-zlm-tour-158799" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/cyklistika-velky-milnik-pro-ceskeho-sampiona-poprve-v-kariere-ovladl-etapovy-zavod-5530191" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="573aab5df0e3" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">5. 9. 21:11 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="573aab5df0e3">
+<span class="stamp"><span class="lang-cs">5. 9. 21:11</span><span class="lang-en">5 Sep 21:11</span><span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Bartůňková, Bouzková ani Menšík na US Open do osmifinále nepostoupili</h3>
-<p>Nikola Bartůňková prohrála ve 3. kole s nasazenou pětkou Mirrou Andrejevovou 2:6, 6:7. Marie Bouzková podlehla Ize Šwiatekové 6:7, 6:7 a po zápase řekla, že s ní odehrála nejvyrovnanější ze čtyř vzájemných utkání. Jakub Menšík prohrál po třech a půl hodinách s domácím Learnerem Tienem 3:6, 6:1, 7:6, 3:6, 4:6; podle Sport.cz k porážce přispěla i ztráta koncentrace po konfliktech s fanoušky. Jedinou Češkou v pavouku dvouhry zůstává Linda Nosková, která dnes večer hraje osmifinále s Ukrajinkou Martou Kosťukovou.</p>
+<p class="body">Nikola Bartůňková prohrála ve 3. kole s nasazenou pětkou Mirrou Andrejevovou 2:6, 6:7. Marie Bouzková podlehla Ize Šwiatekové 6:7, 6:7 a po zápase řekla, že s ní odehrála nejvyrovnanější ze čtyř vzájemných utkání. Jakub Menšík prohrál po třech a půl hodinách s domácím Learnerem Tienem 3:6, 6:1, 7:6, 3:6, 4:6; podle Sport.cz k porážce přispěla i ztráta koncentrace po konfliktech s fanoušky. Jedinou Češkou v pavouku dvouhry zůstává Linda Nosková, která dnes večer hraje osmifinále s Ukrajinkou Martou Kosťukovou.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/tenis/bartunkova-v-new-yorku-konci-nestacila-na-andrejevovou-158790" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/tenis-us-open-provokace-nadavky-mensika-v-pulnocni-divocine-rozhodila-i-valka-s-fanousky-5529716" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="da8547ec913e" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:10 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="da8547ec913e">
+<span class="stamp">14:10<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Basketbalistky prohrály s Čínou v prodloužení a o postup na mistrovství světa přišly</h3>
-<p>České basketbalistky byly v Berlíně velmi blízko prvnímu vítězství na mistrovství světa — ještě čtyři sekundy před koncem vedly, po ztrátě míče ale zápas dospěl do prodloužení, v němž Čína zvítězila 74:70. Po druhé porážce jsou naděje na postup do další fáze turnaje pryč. Skupinu D Češky zakončí v pondělí večer proti Spojeným státům.</p>
+<p class="body">České basketbalistky byly v Berlíně velmi blízko prvnímu vítězství na mistrovství světa — ještě čtyři sekundy před koncem vedly, po ztrátě míče ale zápas dospěl do prodloužení, v němž Čína zvítězila 74:70. Po druhé porážce jsou naděje na postup do další fáze turnaje pryč. Skupinu D Češky zakončí v pondělí večer proti Spojeným státům.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/basketbal/ms-basketbalistek-cina-cesko-158794" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/basketbal-nadeje-na-postup-zije-cesky-ale-potrebuji-udolat-cinu-5529160" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="b1eb9cfb804e" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:21</span>
+<article data-read-id="b1eb9cfb804e">
+<span class="stamp">14:21<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Veslařky Kubátová a Janštová vyhrály na dvojskifu mistrovství Evropy do 23 let</h3>
-<p>Sofie Kubátová a Terezie Janštová získaly na šampionátu v polské Kruszwici titul mistryň Evropy do 23 let na dvojskifu. Česká výprava přidala stříbro v osmě mužů.</p>
+<p class="body">Sofie Kubátová a Terezie Janštová získaly na šampionátu v polské Kruszwici titul mistryň Evropy do 23 let na dvojskifu. Česká výprava přidala stříbro v osmě mužů.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/vodni-sporty-skvela-zprava-dvojskif-kubatova-janstova-ziskal-na-veslarskem-me-do-23-let-titul-5529802" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="d59ee5ac5c80" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:50 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="d59ee5ac5c80">
+<span class="stamp">14:50<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Infantino se bude i přes kritiku ucházet o další období v čele FIFA</h3>
-<p>Předseda Mezinárodní fotbalové federace Gianni Infantino se navzdory masivní kritice kvůli plánu prodat soukromým investorům část práv z mistrovství světa hodlá příští rok ucházet o znovuzvolení. FIFA to v neděli uvedla v prohlášení.</p>
+<p class="body">Předseda Mezinárodní fotbalové federace Gianni Infantino se navzdory masivní kritice kvůli plánu prodat soukromým investorům část práv z mistrovství světa hodlá příští rok ucházet o znovuzvolení. FIFA to v neděli uvedla v prohlášení.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/infantino-se-navzdory-kritice-hodla-pristi-rok-uchazet-o-znovuzvoleni-158796" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/fotbal/kritice-navzdory-infantino-planuje-byt-pristi-rok-znovu-zvolen-do-kresla-pro_2609061449_mim" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/fotbal-infantino-na-ms-fotbalistek-do-20-let-nechtel-mluvit-o-sve-budoucnosti-5529721" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
 </section>

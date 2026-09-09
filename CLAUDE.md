@@ -7,6 +7,11 @@ v Claude Code, takže se spustí i když je notebook zavřený.
 Čteš tohle jako agent uvnitř běhu routiny. Postupuj podle sekce
 [Průběh běhu](#průběh-běhu) níže.
 
+**Web se čte anglicky.** Zprávy vybíráš a píšeš česky z českých zdrojů,
+ale vydání pak ještě přeložíš do angličtiny — čtenář se přes digest učí
+jazyk a češtinu si na webu zobrazuje jen na porovnání. Podrobně v kroku 6
+a v sekci [Angličtina](#angličtina).
+
 ---
 
 ## Co vydání pokrývá
@@ -130,7 +135,47 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    dnešní datum. Do `failed_feeds` vypiš zdroje, které se nepodařilo
    načíst — web je zobrazí v patičce.
 
-6. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
+6. **Přelož vydání do angličtiny.** Web se čte anglicky a čeština v něm
+   slouží k porovnání — pravidla jsou v sekci [Angličtina](#angličtina).
+   Napiš překlad do `/tmp/en.json`:
+
+   ```json
+   {
+     "highlights": ["Anglická věta.", "…"],
+     "weather": { "summary": "…", "outlook": "…" },
+     "items": [
+       {
+         "headline": "English headline",
+         "sentences": ["First English sentence.", "Second one."],
+         "glossary": [
+           { "term": "curb", "definition": "to control or limit something",
+             "cs": "omezit" }
+         ]
+       }
+     ]
+   }
+   ```
+
+   `items` musí jít ve stejném pořadí a počtu jako digest. Anglických vět
+   napiš tolik, na kolik se rozpadne české `body` — rozpad si nech vypsat:
+
+   ```bash
+   python3 scripts/add_english.py --digest digests/RRRR-MM-DD.json --show
+   ```
+
+   Pak překlad vlož do digestu:
+
+   ```bash
+   python3 scripts/add_english.py --digest digests/RRRR-MM-DD.json \
+       --translations /tmp/en.json
+   ```
+
+   Češtinu k anglickým větám dopáruje skript sám, takže ji nikam
+   nepřepisuješ. Když počty nesedí, vypíše u které položky a nic nezapíše
+   — buď anglické věty sluč či rozděl, nebo u položky dodej vlastní pole
+   `"cs"` s vlastním rozdělením češtiny.
+
+7. **Přegeneruj web.** Skript zvaliduje všechny digesty a přepíše `docs/`:
 
    ```bash
    python3 scripts/build_site.py
@@ -139,7 +184,7 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
    Když skončí chybou, oprav JSON a spusť ho znovu. **Nikdy necommituj
    digest, který build neprošel**, a nikdy needituj HTML v `docs/` ručně.
 
-7. **Commitni a publikuj.** `digests/` i `docs/` jedním commitem s message
+8. **Commitni a publikuj.** `digests/` i `docs/` jedním commitem s message
    `digest: RRRR-MM-DD`. Publikované je jen to, co je na branchi `master`
    na originu — GitHub Pages odtud staví `docs/` samo a jinou cestou web
    nevznikne. Proto vždycky, bez ohledu na to, na jaké branchi tě běh
@@ -173,7 +218,7 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
      Tichý neúspěch je tady nejhorší varianta: routina reportuje úspěch
      a web přitom stojí.
 
-8. **Doruč.** Viz [Doručení](#doručení).
+9. **Doruč.** Viz [Doručení](#doručení).
 
 ---
 
@@ -351,6 +396,51 @@ nedopovězený; přepiš ho tak, aby sám nesl informaci.
 
 ---
 
+### Angličtina
+
+Vydání vychází anglicky a čeština je v něm jen pro srovnání — čtenář se
+tím učí jazyk. Web ukazuje anglický text, kliknutím na větu vedle ní
+odkryje tu českou a u vysvětlených slovíček nabídne definici.
+
+- **Úroveň B2 až C1.** Běžná novinová angličtina: srozumitelná stavba věty,
+  žádné vzácné idiomy ani úřední šroubovanost, ale ani školácké
+  zjednodušení. Souvětí klidně nech souvětím, jen ho nezamotávej.
+- **Je to překlad, ne převyprávění.** Každá anglická věta odpovídá téže
+  české větě: nic nepřidávej, nic nevynechávej, nic nedovysvětluj.
+  [Železné pravidlo](#železné-pravidlo-nic-si-nevymýšlej) platí i na
+  angličtinu — co není v české větě, nesmí být ani v té anglické.
+- **Titulek přelož taky** (`headline` v překladovém souboru).
+- **Citace překládej věrně** a piš je anglickými uvozovkami `“ ”`.
+- **Jména osob, stran a klubů nech v originále** i s diakritikou. Názvy
+  institucí a funkcí přelož běžným ekvivalentem (*Chamber of Deputies*,
+  *State Office for Nuclear Safety*). Zkratky stran (ANO, ODS, KDU-ČSL)
+  nerozepisuj.
+- **Počasí** přelož jako celý text, ne po větách; `highlights` naopak
+  jedna věta za druhou.
+
+#### Slovníček
+
+`glossary` u položky vysvětluje slova, o která by se čtenář na úrovni B2
+zadrhl. Web je v textu tečkovaně podtrhne, po kliknutí ukáže bublinu
+a všechna slovíčka vydání zopakuje v přehledu na konci stránky.
+
+- **Nula až tři slova na položku**, a jen tam, kde to má smysl. Zpráva,
+  ve které nic těžkého není, slovníček mít nemusí.
+- **Vybírej slova nad B2 a oborové termíny** (*substation*, *suspended
+  sentence*, *cruciate ligament*), ne běžnou slovní zásobu, vlastní jména
+  ani zkratky institucí.
+- `term` napiš **přesně tak, jak stojí v anglickém textu** položky, včetně
+  koncovky. Build kontroluje, že se tam slovo opravdu vyskytuje, a jinak
+  skončí chybou.
+- `definition` je **jedna krátká věta jednoduchou angličtinou** (A2–B1),
+  stylem výkladového slovníku. Odkaz na Cambridge doplní web sám, takže
+  definici **nevydávej za citaci slovníku** — piš ji vlastními slovy.
+- `cs` je český ekvivalent, jedno až dvě slova.
+
+Build web nepustí ven z půlky přeložený: buď má angličtinu celé vydání,
+nebo žádná položka.
+
+
 ## Doručení
 
 Aktuálně nastavené: **commit do branche `master`**, odkud GitHub Pages
@@ -380,6 +470,9 @@ Dokud tam není nastavený API klíč, e-mail neposílej a nezkoušej to obejít
   — HTML je odvozený soubor.)
 - Nepřidávej zdroje mimo `sources.toml`. Když ti nějaký chybí, zmiň to
   na konci digestu jako návrh; nerozšiřuj seznam sám.
+- **Nevydávej vydání jen česky.** Angličtina je hlavní jazyk webu; bez
+  ní čtenář dostane jen archivní českou stránku. Když se překlad z nějakého
+  důvodu nepovede, napiš to ve shrnutí běhu.
 - Nepiš do digestu meta komentáře o své práci („nepodařilo se mi…",
   „jako AI…"). Jediná povolená technická poznámka je zmínka o nedostupných
   zdrojích na konci.

@@ -298,13 +298,10 @@ article p { margin: 0; }
 [data-read-id].read h3,
 [data-read-id].read p { opacity: 0.42; }
 
-[data-read-id].read .stamp::after,
-[data-read-id].read .kicker::after {
-  content: "· přečteno ✓";
-  margin-left: 0.5rem;
-  font-weight: 400;
-  color: var(--ink-muted);
-}
+/* Značka „přečteno" je element, ne ::after — v hlavičce zprávy stojí
+   před tlačítky, která jsou odsunutá doprava. */
+.read-mark { display: none; font-weight: 400; color: var(--ink-muted); }
+[data-read-id].read .read-mark { display: inline; }
 
 /* ── navigace a patička ───────────────────────────────────────────────── */
 
@@ -392,9 +389,272 @@ footer a { color: var(--accent); }
   .rubric { margin-top: 2.3rem; }
   article h3 { font-size: 1.14rem; }
   .pager { flex-direction: column; }
+  .lang-switch { top: 0.7rem; right: 3.2rem; }
+  .lang-switch button { padding: 0.2rem 0.4rem; font-size: 0.64rem; }
+  .theme-toggle { top: 0.7rem; width: 2.1rem; height: 2.1rem; }
+  .vocab li { grid-template-columns: 1fr; gap: 0.1rem; }
 }
 
+/* ── dvě jazykové verze ───────────────────────────────────────────────────
+   Obě jsou v HTML naráz, přepínač jen mění, co je vidět. Výchozí je
+   angličtina, takže bez atributu data-lang platí anglická sazba.
+   Režimy: „en" (anglicky), „both" (věta pod větou), „cs" (česky).       */
+
+:root:not([data-lang="cs"]) .lang-cs { display: none; }
+:root[data-lang="cs"] .lang-en { display: none; }
+
+/* Věta zprávy: v angličtině se dá rozkliknout a ukázat český protějšek. */
+.s { cursor: pointer; }
+.s > .t-cs { display: none; }
+
+:root[data-lang="cs"] .s > .t-en { display: none; }
+:root[data-lang="cs"] .s > .t-cs { display: inline; }
+
+.s:hover > .t-en, .s:focus-visible > .t-en,
+:root[data-lang="cs"] .s:hover > .t-cs,
+:root[data-lang="cs"] .s:focus-visible > .t-cs {
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+  border-radius: 2px;
+}
+
+/* V souběžném čtení je věta oddělená sama o sobě, zvýraznění by rušilo. */
+:root[data-lang="both"] .s:hover > .t-en,
+:root[data-lang="en"] .bi .s:hover > .t-en { background: none; }
+
+.s:focus { outline: none; }
+.s:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Jedna rozkliknutá věta: překlad hned za ní, kurzívou a ztlumeně. */
+:root[data-lang="en"] .s.open > .t-cs {
+  display: inline;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+:root[data-lang="en"] .s.open > .t-cs::before {
+  content: "↳\00a0";
+  font-style: normal;
+  opacity: 0.65;
+  margin-left: 0.3em;
+}
+
+/* Souběžné čtení: každá věta na svém řádku, překlad pod ní. Platí pro
+   celý web v režimu „both" a pro jednotlivou zprávu přepnutou tlačítkem. */
+:root[data-lang="both"] .s,
+:root[data-lang="en"] .bi .s {
+  display: block;
+  margin: 0 0 0.55rem;
+}
+
+:root[data-lang="both"] .s > .t-cs,
+:root[data-lang="en"] .bi .s > .t-cs {
+  display: block;
+  color: var(--ink-muted);
+  font-style: italic;
+  font-size: 0.94em;
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--rule);
+}
+
+:root[data-lang="both"] .s.open > .t-cs::before,
+:root[data-lang="en"] .bi .s.open > .t-cs::before { content: none; }
+
+/* Celý český odstavec je jen pro čistě českou verzi — v obou anglických
+   režimech češtinu nesou už samotné věty. */
+.body.cs-full { display: none; }
+:root[data-lang="cs"] .body.cs-full { display: block; }
+:root[data-lang="cs"] .body.en { display: none; }
+
+/* ── vysvětlivky slovíček ─────────────────────────────────────────────── */
+
+.gl {
+  border-bottom: 1px dotted var(--accent);
+  cursor: help;
+  text-decoration: none;
+}
+
+.gl:hover, .gl[aria-expanded="true"] {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.gl:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.gloss-pop {
+  position: absolute;
+  z-index: 40;
+  max-width: min(22rem, calc(100vw - 2rem));
+  padding: 0.7rem 0.85rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule-strong);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  font-family: var(--sans);
+  font-size: 0.83rem;
+  line-height: 1.45;
+}
+
+.gloss-pop p { margin: 0; }
+
+.gloss-pop .term {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.gloss-pop .def { margin: 0.25rem 0 0; }
+
+.gloss-pop .cz {
+  margin: 0.3rem 0 0;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.gloss-pop .more {
+  display: inline-block;
+  margin-top: 0.45rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  font-size: 0.78rem;
+}
+
+/* ── ovládání jazyka ──────────────────────────────────────────────────── */
+
+.lang-switch {
+  position: fixed;
+  top: 0.85rem;
+  right: 3.6rem;
+  z-index: 10;
+  display: flex;
+  padding: 2px;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-family: var(--sans);
+}
+
+.lang-switch button {
+  padding: 0.24rem 0.55rem;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--ink-muted);
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.lang-switch button:hover { color: var(--ink); }
+
+.lang-switch button[aria-pressed="true"] {
+  background: var(--rule-strong);
+  color: var(--paper);
+}
+
+/* Nápověda pod hlavičkou — bez ní se o klikacích větách nikdo nedozví. */
+.hint {
+  margin: 0.5rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  line-height: 1.5;
+  color: var(--ink-muted);
+  text-align: center;
+}
+
+.hint b { font-weight: 600; color: var(--ink); }
+
+/* ── tlačítka u zprávy ────────────────────────────────────────────────── */
+
+.stamp { display: flex; align-items: baseline; gap: 0.5rem; }
+.stamp .grow { flex: 1 1 auto; }
+
+.tool {
+  padding: 0.1rem 0.4rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: none;
+  color: var(--ink-muted);
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.tool:hover { color: var(--accent); border-color: var(--accent); }
+.tool[aria-pressed="true"] { color: var(--paper); background: var(--rule-strong);
+  border-color: var(--rule-strong); }
+
+:root[data-lang="both"] .tool.tool-cs,
+:root[data-lang="cs"] .tool.tool-cs { display: none; }
+
+/* ── shrnutí dne ──────────────────────────────────────────────────────── */
+
+.lead {
+  margin: 2rem 0 0;
+  padding: 1rem 1.15rem 1.05rem;
+  border-top: 3px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper-raised);
+}
+
+.lead .kicker {
+  margin: 0 0 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.lead ul { margin: 0; padding-left: 1.05rem; }
+.lead li { margin: 0 0 0.4rem; }
+.lead li:last-child { margin-bottom: 0; }
+
+/* ── slovníček vydání ─────────────────────────────────────────────────── */
+
+.vocab { margin: 2.8rem 0 0; }
+
+.vocab > h2 {
+  margin: 0 0 0.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid var(--rule-strong);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.vocab ul { margin: 0; padding: 0; list-style: none; }
+
+.vocab li {
+  display: grid;
+  grid-template-columns: minmax(6rem, 9rem) 1fr auto;
+  gap: 0.2rem 0.9rem;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.vocab li:last-child { border-bottom: 0; }
+.vocab .term { font-weight: 700; font-size: 0.95rem; }
+.vocab .cz { color: var(--ink-muted); font-style: italic; }
+.vocab .more {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+.vocab .more:hover { text-decoration: underline; }
+
 @media print {
-  .theme-toggle, .pager, .issues { display: none; }
+  .theme-toggle, .pager, .issues, .lang-switch, .tool, .hint { display: none; }
   body { background: #fff; color: #000; }
+  .s > .t-cs, .body.cs-full { display: none; }
 }

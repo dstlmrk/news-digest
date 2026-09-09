@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" data-lang="cs" data-has-en="0">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,47 @@
 <meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
+/* Jazyk stránky. Výchozí je angličtina, protože web se čte kvůli učení;
+   „both" staví větu pod větu, „cs" ukazuje původní české znění. Volba se
+   pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
+   nemají a přepínač na nich není. */
+(function () {
+  var root = document.documentElement;
+  var MODES = { en: 1, both: 1, cs: 1 };
+  var HTML_LANG = { en: 'en', both: 'en', cs: 'cs' };
+
+  function apply(mode) {
+    root.setAttribute('data-lang', mode);
+    root.setAttribute('lang', HTML_LANG[mode]);
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem('lang'); } catch (e) {}
+  if (root.getAttribute('data-has-en') === '1' && MODES[stored]) apply(stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var box = document.querySelector('.lang-switch');
+    if (!box) return;
+    var btns = box.querySelectorAll('button[data-mode]');
+    function sync() {
+      var now = root.getAttribute('data-lang') || 'en';
+      Array.prototype.forEach.call(btns, function (b) {
+        b.setAttribute('aria-pressed',
+          b.getAttribute('data-mode') === now ? 'true' : 'false');
+      });
+    }
+    sync();
+    Array.prototype.forEach.call(btns, function (b) {
+      b.addEventListener('click', function () {
+        apply(b.getAttribute('data-mode'));
+        try { localStorage.setItem('lang', b.getAttribute('data-mode')); }
+        catch (e) {}
+        sync();
+      });
+    });
+  });
+})();
+
 (function () {
   var root = document.documentElement;
   var stored = null;
@@ -49,9 +90,10 @@
   });
 })();
 
-/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), klik na odkaz
-   ji označí a nechá odkaz normálně otevřít. Stav žije v localStorage,
-   záznamy starší 90 dnů se promazávají. */
+/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), stejně tak
+   tlačítko v hlavičce zprávy; klik na odkaz ji označí a nechá odkaz
+   normálně otevřít. Klikání na věty a slovíčka se do označování neplete.
+   Stav žije v localStorage, záznamy starší 90 dnů se promazávají. */
 (function () {
   var KEY = 'readItems';
   var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
@@ -77,26 +119,171 @@
       document.querySelectorAll('[data-read-id]'),
       function (el) {
         var id = el.getAttribute('data-read-id');
+        var btn = el.querySelector('.tool-read');
         if (map[id]) el.classList.add('read');
 
+        function sync() {
+          if (btn) {
+            btn.setAttribute('aria-pressed',
+              el.classList.contains('read') ? 'true' : 'false');
+          }
+        }
+        function mark() {
+          if (!map[id]) { map[id] = Date.now(); el.classList.add('read'); save(map); }
+          sync();
+        }
+        function toggle() {
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+          sync();
+        }
+        sync();
+
+        if (btn) {
+          btn.addEventListener('click', function (ev) {
+            ev.stopPropagation();
+            toggle();
+          });
+        }
+
         el.addEventListener('click', function (ev) {
+          // Věty, slovíčka a tlačítka mají vlastní význam kliknutí.
+          if (ev.target.closest('.s, .gl, .tool')) return;
           if (ev.target.closest('a')) {
             // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
-            if (!map[id]) {
-              map[id] = Date.now();
-              el.classList.add('read');
-              save(map);
-            }
+            mark();
             return;
           }
           // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
           if (window.getSelection && String(window.getSelection())) return;
-          if (el.classList.toggle('read')) map[id] = Date.now();
-          else delete map[id];
-          save(map);
+          toggle();
         });
       }
     );
+  });
+})();
+
+/* Srovnání s češtinou: klik na větu ukáže její překlad, tlačítko „CS"
+   v hlavičce zprávy přepne na souběžné čtení celé zprávy. */
+(function () {
+  function selecting() {
+    return !!(window.getSelection && String(window.getSelection()));
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.s'),
+      function (s) {
+        s.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (selecting()) return;
+          s.classList.toggle('open');
+        });
+        s.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          s.classList.toggle('open');
+        });
+      }
+    );
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.tool-cs'),
+      function (btn) {
+        var box = btn.closest('[data-read-id]');
+        btn.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (!box) return;
+          var on = box.classList.toggle('bi');
+          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+      }
+    );
+  });
+})();
+
+/* Vysvětlivky slovíček. Bublina se skládá až tady, aby v HTML nebyla
+   u každého slova schovaná kopie definice. */
+(function () {
+  var pop = null;
+  var owner = null;
+
+  function close() {
+    if (pop) { pop.parentNode.removeChild(pop); pop = null; }
+    if (owner) { owner.setAttribute('aria-expanded', 'false'); owner = null; }
+  }
+
+  function line(cls, text) {
+    var el = document.createElement('p');
+    el.className = cls;
+    el.textContent = text;
+    return el;
+  }
+
+  function place(el) {
+    var box = el.getBoundingClientRect();
+    pop.style.left = '0px';
+    pop.style.top = (box.bottom + window.scrollY + 6) + 'px';
+    var width = pop.offsetWidth;
+    var limit = document.documentElement.clientWidth - 10;
+    var left = box.left + window.scrollX;
+    if (left + width > limit) left = Math.max(10, limit - width);
+    pop.style.left = left + 'px';
+  }
+
+  function open(el) {
+    var again = owner === el;
+    close();
+    if (again) return;
+    pop = document.createElement('div');
+    pop.className = 'gloss-pop';
+    pop.setAttribute('role', 'dialog');
+    pop.appendChild(line('term', el.getAttribute('data-term')));
+    pop.appendChild(line('def', el.getAttribute('data-def')));
+    if (el.getAttribute('data-cs')) {
+      pop.appendChild(line('cz', el.getAttribute('data-cs')));
+    }
+    var more = document.createElement('a');
+    more.className = 'more';
+    more.href = el.getAttribute('data-url');
+    more.target = '_blank';
+    more.rel = 'noopener noreferrer';
+    more.textContent = 'Cambridge Dictionary ↗';
+    pop.appendChild(more);
+    document.body.appendChild(pop);
+    owner = el;
+    el.setAttribute('aria-expanded', 'true');
+    place(el);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.gl'),
+      function (el) {
+        el.setAttribute('aria-expanded', 'false');
+        el.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          open(el);
+        });
+        el.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          open(el);
+        });
+      }
+    );
+
+    document.addEventListener('click', function (ev) {
+      if (!pop || ev.target.closest('.gloss-pop')) return;
+      close();
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') close();
+    });
+    window.addEventListener('resize', close);
   });
 })();
 </script>
@@ -108,7 +295,7 @@
 <h1><a href="index.html">Denní přehled</a></h1>
 <p class="dateline">neděle 30. srpna 2026</p>
 <hr class="rule-double">
-<p class="meta">29 zpráv &nbsp;·&nbsp; aktualizováno <time datetime="2026-08-30T17:21+02:00">30. 8. 2026 v 17:21</time></p>
+<p class="meta">29 zpráv &nbsp;·&nbsp; ≈ 15 min čtení &nbsp;·&nbsp; aktualizováno <time datetime="2026-08-30T17:21+02:00">30. 8. 2026 v 17:21</time></p>
 <nav class="issues">Starší vydání: <a href="2026-08-29.html">29. 8. 2026</a><span class="sep">·</span><a href="2026-08-28.html">28. 8. 2026</a><span class="sep">·</span><a href="2026-08-27.html">27. 8. 2026</a><span class="sep">·</span><a href="archiv.html">celý archiv</a></nav>
 </header>
 
@@ -123,209 +310,218 @@
 </ul>
 </section>
 
-<section class="opener" data-read-id="5f6737de85b6" title="Kliknutím označíte zprávu jako přečtenou">
-<p class="kicker">Domov · 15:10 · 4 zdroje</p>
+<section class="lead">
+<p class="kicker">Ve zkratce</p>
+<ul>
+<li>Schodek státního rozpočtu na příští rok bude pod 400 miliardami korun, přesnou výši oznámí ministryně financí Schillerová vládě v pondělí ráno.</li>
+<li>Islanďané v referendu těsně odmítli obnovit přístupová jednání s Evropskou unií.</li>
+<li>U severního pobřeží Kypru se převrhla loď s 267 lidmi na palubě, nejméně sedm lidí zemřelo.</li>
+</ul>
+</section>
+
+<section class="opener" data-read-id="5f6737de85b6">
+<p class="kicker stamp">Domov · 15:10 · <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></p>
 <h2>Schodek příštího rozpočtu bude pod 400 miliardami, přesnou výši oznámí Schillerová v pondělí</h2>
-<p>Schodek státního rozpočtu na příští rok bude pod 400 miliardami korun, řekla ministryně financí Alena Schillerová (ANO) v nedělní Partii na CNN Prima News. Přesnou výši sdělí vládě v pondělí ráno a během dne zveřejní podrobnosti. Podle E15 tak deficit přesto prohloubí letošních 310 miliard, přičemž ministerstvo financí chystá dílčí daňové úpravy včetně zdanění nikotinových sáčků či postihů za práci načerno. Seznam Zprávy dodávají, že vláda využije výjimku ke zvýšení výdajů na obranu a že opoziční politici odhadují schodek na 350 až 370 miliard a kritizují jeho růst v době, kdy se ekonomice daří. Prezident Petr Pavel podle svých slov veto rozpočtu nepředpokládá, důvodem by pro něj bylo například výrazně nízké financování obrany. Šéf ODS Martin Kupka v Nedělní debatě ČT tvrdil, že jeho strana by dokázala sestavit rozpočet se schodkem kolem 156 miliard korun.</p>
+<p class="body">Schodek státního rozpočtu na příští rok bude pod 400 miliardami korun, řekla ministryně financí Alena Schillerová (ANO) v nedělní Partii na CNN Prima News. Přesnou výši sdělí vládě v pondělí ráno a během dne zveřejní podrobnosti. Podle E15 tak deficit přesto prohloubí letošních 310 miliard, přičemž ministerstvo financí chystá dílčí daňové úpravy včetně zdanění nikotinových sáčků či postihů za práci načerno. Seznam Zprávy dodávají, že vláda využije výjimku ke zvýšení výdajů na obranu a že opoziční politici odhadují schodek na 350 až 370 miliard a kritizují jeho růst v době, kdy se ekonomice daří. Prezident Petr Pavel podle svých slov veto rozpočtu nepředpokládá, důvodem by pro něj bylo například výrazně nízké financování obrany. Šéf ODS Martin Kupka v Nedělní debatě ČT tvrdil, že jeho strana by dokázala sestavit rozpočet se schodkem kolem 156 miliard korun.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/ekonomika/schodek-bude-pod-400-miliardami-korun-uvedla-schillerova-pavel-veto-rozpoctu_2608301420_bva" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.e15.cz/byznys/finance-a-bankovnictvi/schodek-rozpoctu-prolomi-hranici-310-miliard-schillerova-chysta-nove-spotrebni-dane-i-bic-na-praci-nacerno-1435331" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/ekonomika-finance-schodek-rozpoctu-bude-pod-400-miliardami-je-to-armagedon-kritizuje-opozice-314186" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/domaci/havlicek-haji-vyssi-vydaje-investicemi-dle-rakusana-vlada-hazarduje-377098" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </section>
 
 <section class="rubric">
 <h2>Domov</h2>
-<article data-read-id="9a634165dd5f" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:03 <span class="flag">· 4 zdroje</span></span>
+<article data-read-id="9a634165dd5f">
+<span class="stamp">14:03<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>ANO v modelu Kantaru kleslo na 30,5 procenta, Starostům pomohli jeho voliči k historickému maximu</h3>
-<p>Srpnový volební model agentury Kantar pro Českou televizi dává vládnímu hnutí ANO 30,5 procenta, tedy o bod méně než v květnu a o čtyři procentní body méně, než získalo ve volbách. Druhý je opoziční STAN se 17 procenty, což je podle iROZHLAS jeho historické maximum, třetí ODS s 15,5 procenta. Pětiprocentní hranici by překročilo šest subjektů — kromě zmíněných ještě Piráti, SPD a Motoristé, naopak KDU-ČSL, TOP 09 ani hnutí Naše Česko Martina Kuby by se do Sněmovny nedostaly. Odliv nespokojených voličů ANO míří podle výzkumníků nejvíc ke Starostům, část k SPD a ODS; hlavním důvodem je zklamání z neplnění volebních slibů nebo styl komunikace. Politickou situaci v zemi hodnotí negativně více než dvě třetiny dotázaných, 28 procent ji považuje za velmi špatnou.</p>
+<p class="body">Srpnový volební model agentury Kantar pro Českou televizi dává vládnímu hnutí ANO 30,5 procenta, tedy o bod méně než v květnu a o čtyři procentní body méně, než získalo ve volbách. Druhý je opoziční STAN se 17 procenty, což je podle iROZHLAS jeho historické maximum, třetí ODS s 15,5 procenta. Pětiprocentní hranici by překročilo šest subjektů — kromě zmíněných ještě Piráti, SPD a Motoristé, naopak KDU-ČSL, TOP 09 ani hnutí Naše Česko Martina Kuby by se do Sněmovny nedostaly. Odliv nespokojených voličů ANO míří podle výzkumníků nejvíc ke Starostům, část k SPD a ODS; hlavním důvodem je zklamání z neplnění volebních slibů nebo styl komunikace. Politickou situaci v zemi hodnotí negativně více než dvě třetiny dotázaných, 28 procent ji považuje za velmi špatnou.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/ano-se-dle-kantaru-dal-drzi-na-spici-cast-jeho-volicu-ale-miri-ke-stan-377082" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/kantar-ano-dal-vede-cast-jeho-volicu-ale-odchazi-ke-starostum-ti-jsou-na-svem_2608301224_jgr" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/politika/podpora-ano-dal-klesa-naopak-stan-stoupa-snemovni-prah-by-prekrocilo-sest-stran-1435328" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://denikn.cz/2169170/starostove-na-maximu-ano-v-utlumu-novy-pruzkum-naznacuje-necekany-preliv-hlasu-od-vlady-k-opozici/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="c11262e886d5" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:08 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="c11262e886d5">
+<span class="stamp">14:08<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Pavel a Babiš ohlásili restart vztahů, kompetenční žalobu ale prezident nestáhne</h3>
-<p>Prezident Petr Pavel a premiér Andrej Babiš nezávisle na sobě oznámili restart vztahů pošramocených summitem NATO v Ankaře či vetem vládní rozpočtové novely a domluvili se na společných schůzkách. Babiš v pravidelném videu na sociálních sítích uvedl, že mezi ním a prezidentem nepanují problémy ani boj, a popsal čtvrteční setkání po jednání Bezpečnostní rady státu, na kterém mluvili hlavně o kybernetické bezpečnosti a zahraničních cestách. Kompetenční žalobu k Ústavnímu soudu kvůli účasti na summitu NATO ale Pavel v předtočeném rozhovoru pro CNN Prima News stáhnout odmítl — chce počkat, až soud kompetence vyjasní, a nevnímá ji jako útok na vládu. Odmítl také, že by byl lídrem opozice: „Pokud má být někdo opozicí vůči vládě, měl by asi usilovat o to, aby vládu nahradil. Já o to neusiluji.“ K ministru zahraničí Petru Macinkovi (Motoristé) řekl, že jeho vyjádření bere jako folklór, ale že od něj dostává méně informací než dřív. Za pokračování podpory Ukrajiny by podle svých slov vládu pochválil, byť už není taková jako dřív.</p>
+<p class="body">Prezident Petr Pavel a premiér Andrej Babiš nezávisle na sobě oznámili restart vztahů pošramocených summitem NATO v Ankaře či vetem vládní rozpočtové novely a domluvili se na společných schůzkách. Babiš v pravidelném videu na sociálních sítích uvedl, že mezi ním a prezidentem nepanují problémy ani boj, a popsal čtvrteční setkání po jednání Bezpečnostní rady státu, na kterém mluvili hlavně o kybernetické bezpečnosti a zahraničních cestách. Kompetenční žalobu k Ústavnímu soudu kvůli účasti na summitu NATO ale Pavel v předtočeném rozhovoru pro CNN Prima News stáhnout odmítl — chce počkat, až soud kompetence vyjasní, a nevnímá ji jako útok na vládu. Odmítl také, že by byl lídrem opozice: „Pokud má být někdo opozicí vůči vládě, měl by asi usilovat o to, aby vládu nahradil. Já o to neusiluji.“ K ministru zahraničí Petru Macinkovi (Motoristé) řekl, že jeho vyjádření bere jako folklór, ale že od něj dostává méně informací než dřív. Za pokračování podpory Ukrajiny by podle svých slov vládu pochválil, byť už není taková jako dřív.</p>
 <p class="sources"><a href="https://denikn.cz/2169183/kompetencni-zalobu-nestahnu-opozice-je-nevyrazna-jejim-lidrem-ale-nejsem-rika-pavel/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-pavel-rovna-vztahy-s-vladou-kompetencni-zalobu-ale-nestahne-314182" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/macinkova-vyjadreni-beru-jako-folklor-dostavame-ted-od-nej-mene-informaci_2608301201_jgr" target="_blank" rel="noopener noreferrer">iROZHLAS</a></p>
 </article>
-<article data-read-id="199068f76cfe" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:05</span>
+<article data-read-id="199068f76cfe">
+<span class="stamp">16:05<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Pacientka na Bulovce vzplála při císařském řezu a má popáleniny na patnácti procentech těla</h3>
-<p>V porodnici pražské Bulovky došlo podle zjištění Deníku N k závažnému pochybení. Pacientka při akutním císařském řezu vzplála a skončila s popáleninami na patnácti procentech těla. Nemocnice událost vyšetřuje.</p>
+<p class="body">V porodnici pražské Bulovky došlo podle zjištění Deníku N k závažnému pochybení. Pacientka při akutním císařském řezu vzplála a skončila s popáleninami na patnácti procentech těla. Nemocnice událost vyšetřuje.</p>
 <p class="sources"><a href="https://denikn.cz/2168878/pacientka-vzplala-pri-cisarskem-rezu-na-bulovce-skoncila-s-popaleninami-na-patnacti-procentech-tela/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Hradec Králové</h2>
-<article data-read-id="05540ce55dc4" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:55 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="05540ce55dc4">
+<span class="stamp">16:55<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Hradec prohrál v Liberci 2:0, po vyloučení Čecha hrál téměř celý zápas v deseti</h3>
-<p>Fotbalisté Hradce Králové prohráli v šestém kole Chance Ligy na hřišti Liberce 2:0. Stoper František Čech byl vyloučen už v šesté minutě, takže Hradec, který měl v nohách 120 minut ze čtvrtečního zápasu předkola Konferenční ligy, odehrál zbytek utkání v deseti. Domácí přesilovku využili góly Lukáše Maška těsně před pauzou a Azize Abdu Kayonda v poslední minutě základní hrací doby. Liberec vede neúplnou tabulku.</p>
+<p class="body">Fotbalisté Hradce Králové prohráli v šestém kole Chance Ligy na hřišti Liberce 2:0. Stoper František Čech byl vyloučen už v šesté minutě, takže Hradec, který měl v nohách 120 minut ze čtvrtečního zápasu předkola Konferenční ligy, odehrál zbytek utkání v deseti. Domácí přesilovku využili góly Lukáše Maška těsně před pauzou a Azize Abdu Kayonda v poslední minutě základní hrací doby. Liberec vede neúplnou tabulku.</p>
 <p class="sources"><a href="https://www.idnes.cz/fotbal/prvni-liga/chance-liga-6-kolo-liberec-hradec-kralove-online-vysledek.A260830_094329_fotbal_tals#utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=hradec&amp;utm_content=main" target="_blank" rel="noopener noreferrer">iDNES Hradec</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/fotbal-ceska-1-liga-liberec-pretlacil-oslabeny-hradec-5521364" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="e619aa4b4e35" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">07:34</span>
+<article data-read-id="e619aa4b4e35">
+<span class="stamp">07:34<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>V Jičíně u Cidliny roste jeden z největších parků ve východních Čechách</h3>
-<p>Dvanáctihektarová plocha u břehů Cidliny v jičínské části Nové Město se proměnila ve velké staveniště. Vzniká tu jeden z největších veřejných parků ve východních Čechách, který kromě páteřní cyklostezky nabídne sáňkovací kopec, skatepark a pumptrack.</p>
+<p class="body">Dvanáctihektarová plocha u břehů Cidliny v jičínské části Nové Město se proměnila ve velké staveniště. Vzniká tu jeden z největších veřejných parků ve východních Čechách, který kromě páteřní cyklostezky nabídne sáňkovací kopec, skatepark a pumptrack.</p>
 <p class="sources"><a href="https://www.idnes.cz/hradec-kralove/zpravy/jicin-park-odpocinkova-zona-cidlina-stavba-cyklostezka.A260819_961407_hradec-zpravy_pos#utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=hradec&amp;utm_content=main" target="_blank" rel="noopener noreferrer">iDNES Hradec</a></p>
 </article>
-<article data-read-id="6d4f1bd77108" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">07:30</span>
+<article data-read-id="6d4f1bd77108">
+<span class="stamp">07:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Nová česká pohádka Líné království se natáčí na třech místech v Královéhradeckém kraji</h3>
-<p>Krňovice, Nové Město nad Metují a Kostelec nad Orlicí se promění v pohádkové kulisy. Pohádka Líné království režiséra Iva Macharáčka využije v kraji tři výrazné lokace a do kin zamíří v březnu příštího roku.</p>
+<p class="body">Krňovice, Nové Město nad Metují a Kostelec nad Orlicí se promění v pohádkové kulisy. Pohádka Líné království režiséra Iva Macharáčka využije v kraji tři výrazné lokace a do kin zamíří v březnu příštího roku.</p>
 <p class="sources"><a href="https://hradecka.drbna.cz/kultura/898409-nova-ceska-pohadka-se-nataci-i-v-kralovehradeckem-kraji.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Svět</h2>
-<article data-read-id="afcf81b7a86f" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:38 <span class="flag">· 4 zdroje</span></span>
+<article data-read-id="afcf81b7a86f">
+<span class="stamp">14:38<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>U severního Kypru se převrhla loď s 267 lidmi na palubě, nejméně sedm lidí zemřelo</h3>
-<p>U severního pobřeží Kypru se v neděli převrhlo plavidlo s 267 lidmi na palubě a podle tamních úřadů nejméně sedm lidí zemřelo. Zdroje se liší v popisu lodi i v číslech: ČT24 píše o výletní lodi, Seznam Zprávy a Deník N o trajektu, iROZHLAS uvádí, že deník Kibris hovoří o katamaránu, který začal nabírat vodu asi čtyři míle od pobřeží. Podle Seznam Zpráv se podařilo zachránit 237 cestujících a 23 lidí se pohřešuje, starosta nedalekého města Kyrenia Murat Senkul přitom televizi CNN Turk řekl, že se záchranářům podařilo kontaktovat 159 z 258 lidí na palubě a že situace je velmi vážná. Deník N s odvoláním na tureckou CNN psal o nejméně šesti obětech; počet oznámil premiér mezinárodním společenstvím neuznaného Severního Kypru Ünal Üstel. Na místě pokračuje pátrací a záchranná akce.</p>
+<p class="body">U severního pobřeží Kypru se v neděli převrhlo plavidlo s 267 lidmi na palubě a podle tamních úřadů nejméně sedm lidí zemřelo. Zdroje se liší v popisu lodi i v číslech: ČT24 píše o výletní lodi, Seznam Zprávy a Deník N o trajektu, iROZHLAS uvádí, že deník Kibris hovoří o katamaránu, který začal nabírat vodu asi čtyři míle od pobřeží. Podle Seznam Zpráv se podařilo zachránit 237 cestujících a 23 lidí se pohřešuje, starosta nedalekého města Kyrenia Murat Senkul přitom televizi CNN Turk řekl, že se záchranářům podařilo kontaktovat 159 z 258 lidí na palubě a že situace je velmi vážná. Deník N s odvoláním na tureckou CNN psal o nejméně šesti obětech; počet oznámil premiér mezinárodním společenstvím neuznaného Severního Kypru Ünal Üstel. Na místě pokračuje pátrací a záchranná akce.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/u-kypru-se-prevrhla-lod-s-priblizne-270-lidmi-na-palube-377096" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-u-pobrezi-severniho-kypru-se-prevratila-lod-s-priblizne-270-lidmi-na-palube-314184" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/u-severniho-kypru-se-prevrhla-lod-s-270-lidmi-na-palube-v-miste-probiha-patraci_2608301436_bva" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2169255/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="4511fad77264" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:59 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="4511fad77264">
+<span class="stamp">16:59<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Islanďané v referendu odmítli obnovit přístupová jednání s Evropskou unií</h3>
-<p>Islandští voliči v referendu odmítli obnovit jednání o vstupu do Evropské unie, která byla přerušena před třinácti lety. Proti bylo 52,8 procenta hlasujících, pro 47,2 procenta; podle agentury DPA hlasovalo proti přibližně o dvanáct tisíc lidí více. Nejvíc podporovatelů měly přístupové rozhovory v Reykjavíku. Podle islandské veřejnoprávní RÚV se odpůrci obávali hlavně omezení práv na rybolov, který je pro tamní ekonomiku klíčový. Seznam Zprávy uvádějí, že znovuotevření otázky vstupu předtím napomohl růst životních nákladů, obavy z probíhajících konfliktů i výroky amerického prezidenta Donalda Trumpa. Evropská komise sdělila, že rozhodnutí islandského lidu respektuje a Island zůstává jejím blízkým partnerem.</p>
+<p class="body">Islandští voliči v referendu odmítli obnovit jednání o vstupu do Evropské unie, která byla přerušena před třinácti lety. Proti bylo 52,8 procenta hlasujících, pro 47,2 procenta; podle agentury DPA hlasovalo proti přibližně o dvanáct tisíc lidí více. Nejvíc podporovatelů měly přístupové rozhovory v Reykjavíku. Podle islandské veřejnoprávní RÚV se odpůrci obávali hlavně omezení práv na rybolov, který je pro tamní ekonomiku klíčový. Seznam Zprávy uvádějí, že znovuotevření otázky vstupu předtím napomohl růst životních nákladů, obavy z probíhajících konfliktů i výroky amerického prezidenta Donalda Trumpa. Evropská komise sdělila, že rozhodnutí islandského lidu respektuje a Island zůstává jejím blízkým partnerem.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/v-islandskem-referendu-zatim-tesne-vede-obnoveni-pristupovych-jednani-s-eu-377091" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/2169161/proc-islandane-tesne-odmitli-evropskou-unii-boji-se-hlavne-o-prava-na-rybolov/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-v-islandskem-referendu-se-do-vedeni-dostalo-neobnoveni-pristupovych-jednani-s-eu-314171" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
-<article data-read-id="3de1cc120796" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">17:06 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="3de1cc120796">
+<span class="stamp">17:06<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Kyjev čtvrtý den čelí nepřetržitým útokům dronů, obětí u Buči je už 38</h3>
-<p>Rusko útočí čtvrtým dnem téměř bez přestání stovkami dronů na Kyjev a přilehlou oblast, a to ve dne i v noci. Ukrajinská obrana většinu strojů likviduje, zbytek ale ve velkém ničí sklady obchodů a logistická zázemí firem; po jednom z útoků hořely v metropoli kanceláře společností Danone, Nivea a Watsons. Analytik oslovený Deníkem N to označuje za psychologický teror, jehož cílem je zlomit odolnost obyvatel a vyvolat exodus civilistů. Počet obětí pátečního ruského útoku u Buči mezitím podle agentury AP stoupl na 38, čtyři lidé se stále pohřešují. Ruské ministerstvo v neděli oznámilo, že Ukrajinu čekají další masivní údery proti energetickým zařízením.</p>
+<p class="body">Rusko útočí čtvrtým dnem téměř bez přestání stovkami dronů na Kyjev a přilehlou oblast, a to ve dne i v noci. Ukrajinská obrana většinu strojů likviduje, zbytek ale ve velkém ničí sklady obchodů a logistická zázemí firem; po jednom z útoků hořely v metropoli kanceláře společností Danone, Nivea a Watsons. Analytik oslovený Deníkem N to označuje za psychologický teror, jehož cílem je zlomit odolnost obyvatel a vyvolat exodus civilistů. Počet obětí pátečního ruského útoku u Buči mezitím podle agentury AP stoupl na 38, čtyři lidé se stále pohřešují. Ruské ministerstvo v neděli oznámilo, že Ukrajinu čekají další masivní údery proti energetickým zařízením.</p>
 <p class="sources"><a href="https://denikn.cz/2169177/je-to-psychologicky-teror-neustavajici-rusky-utok-na-kyjev-ma-vyhnat-lidi-z-mesta-rika-analytik/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-nejkrvavejsi-utok-roku-pocet-obeti-patecniho-ruskeho-utoku-stoupl-na-38-314178" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
-<article data-read-id="301d0f0a3bb4" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:48 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="301d0f0a3bb4">
+<span class="stamp">15:48<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Povodně v Nepálu mají podle policie 794 obětí, na hranici s Tibetem vzniklo druhé hrazené jezero</h3>
-<p>Počet obětí ničivých povodní v Nepálu stoupl podle tamní policie na 794. Národní úřad pro snižování rizika katastrof a krizové řízení (NDRRMA) uvádí 781 mrtvých a dalších 2502 pohřešovaných. V zemi začali pohřbívat neidentifikované oběti, pro stovky z nich vykopali hroby v lese Devghat v oblasti Čitvan. Situaci komplikuje hrozba nových záplav: po víkendovém sesuvu půdy vzniklo na hranici Nepálu a Tibetu druhé hrazené jezero, které monitorují čínské úřady. Záchranáře působící poblíž hraničního přechodu Gyirong preventivně přesunuly do bezpečí.</p>
+<p class="body">Počet obětí ničivých povodní v Nepálu stoupl podle tamní policie na 794. Národní úřad pro snižování rizika katastrof a krizové řízení (NDRRMA) uvádí 781 mrtvých a dalších 2502 pohřešovaných. V zemi začali pohřbívat neidentifikované oběti, pro stovky z nich vykopali hroby v lese Devghat v oblasti Čitvan. Situaci komplikuje hrozba nových záplav: po víkendovém sesuvu půdy vzniklo na hranici Nepálu a Tibetu druhé hrazené jezero, které monitorují čínské úřady. Záchranáře působící poblíž hraničního přechodu Gyirong preventivně přesunuly do bezpečí.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2169333/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/po-dalsim-sesuvu-vzniklo-na-hranici-nepalu-a-tibetu-druhe-jezero-hrozi-nove_2608301215_med" target="_blank" rel="noopener noreferrer">iROZHLAS</a></p>
 </article>
-<article data-read-id="e8b91639dba8" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">13:53 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="e8b91639dba8">
+<span class="stamp">13:53<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Izraelský útok v Gaze zabil dva Palestince včetně tříletého chlapce</h3>
-<p>Při vzdušném útoku v centru okupovaného Pásma Gazy zabily v neděli izraelské síly dva Palestince — dospělého muže a tříletého chlapce. Informovala o tom agentura Reuters s odvoláním na tamní zdravotníky. Úder zasáhl místo poblíž pekárny, několik dalších lidí utrpělo zranění. Izraelská armáda tvrdí, že cílem měl být bojovník z Hamásu.</p>
+<p class="body">Při vzdušném útoku v centru okupovaného Pásma Gazy zabily v neděli izraelské síly dva Palestince — dospělého muže a tříletého chlapce. Informovala o tom agentura Reuters s odvoláním na tamní zdravotníky. Úder zasáhl místo poblíž pekárny, několik dalších lidí utrpělo zranění. Izraelská armáda tvrdí, že cílem měl být bojovník z Hamásu.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-izraelsky-utok-v-gaze-zabil-dva-palestince-vcetne-trileteho-chlapce-314185" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/izraelsky-vzdusny-utok-v-gaze-zabil-dva-palestince-vcetne-trileteho-chlapce_2608301338_bva" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2169180/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Ekonomika</h2>
-<article data-read-id="03bf058cde85" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">29. 8. 20:14</span>
+<article data-read-id="03bf058cde85">
+<span class="stamp"><span class="lang-cs">29. 8. 20:14</span><span class="lang-en">29 Aug 20:14</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Ministerstvo průmyslu upustí od velké energetické koncepce, chce kratší dokument každý rok</h3>
-<p>Ministerstvo průmyslu a obchodu nebude připravovat velkou státní energetickou koncepci jako dosud, sdělil jeho šéf Karel Havlíček (ANO). Místo ní má každoročně vznikat stručnější dokument. O koncepci přitom mluví přímo zákon jako o závazném podkladu státu ve výrobě elektřiny, teplárenství a dalších oblastech. Poslední taková koncepce je stará jedenáct let, vývoj ji zčásti překonal a aktualizovat se ji nepodařilo ani předchozí vládě. Ta proti nové podobě v opozici není, očekává ale podrobnou diskusi třeba ve výborech, protože energetické projekty se připravují dlouhodobě.</p>
+<p class="body">Ministerstvo průmyslu a obchodu nebude připravovat velkou státní energetickou koncepci jako dosud, sdělil jeho šéf Karel Havlíček (ANO). Místo ní má každoročně vznikat stručnější dokument. O koncepci přitom mluví přímo zákon jako o závazném podkladu státu ve výrobě elektřiny, teplárenství a dalších oblastech. Poslední taková koncepce je stará jedenáct let, vývoj ji zčásti překonal a aktualizovat se ji nepodařilo ani předchozí vládě. Ta proti nové podobě v opozici není, očekává ale podrobnou diskusi třeba ve výborech, protože energetické projekty se připravují dlouhodobě.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/ministerstvo-upusti-od-energeticke-koncepce-chce-mensi-a-castejsi-377081" target="_blank" rel="noopener noreferrer">ČT24</a></p>
 </article>
-<article data-read-id="5bd0b1b55448" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">10:24</span>
+<article data-read-id="5bd0b1b55448">
+<span class="stamp">10:24<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Účastníků třetího penzijního pilíře ubylo, průměrný měsíční příspěvek klesl na 967 korun</h3>
-<p>Počet účastníků třetího penzijního pilíře klesl v prvním pololetí na 3,9 milionu — úbytek z transformovaných fondů převážil růst v doplňkovém penzijním spoření. Průměrný měsíční příspěvek spořících se snížil na 967 korun, průměrná státní podpora naopak mírně vzrostla na 139 korun. Vláda podle E15 chystá změny, které mají přilákat mladé lidi, a ukončení transformovaných fondů k roku 2036.</p>
+<p class="body">Počet účastníků třetího penzijního pilíře klesl v prvním pololetí na 3,9 milionu — úbytek z transformovaných fondů převážil růst v doplňkovém penzijním spoření. Průměrný měsíční příspěvek spořících se snížil na 967 korun, průměrná státní podpora naopak mírně vzrostla na 139 korun. Vláda podle E15 chystá změny, které mají přilákat mladé lidi, a ukončení transformovaných fondů k roku 2036.</p>
 <p class="sources"><a href="https://www.e15.cz/byznys/finance-a-bankovnictvi/treti-pilir-chudne-lide-posilaji-na-penzi-mene-a-klienti-ze-starych-fondu-utikaji-1435327" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
-<article data-read-id="e27d16512b9c" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">04:00</span>
+<article data-read-id="e27d16512b9c">
+<span class="stamp">04:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Novela zákoníku práce má ukončit mlčenlivost o platech, povinné mzdy v inzerátech nepřinese</h3>
-<p>Chystaná novela zákoníku práce zřejmě nakonec nepřinese povinnost uvádět mzdy v pracovních inzerátech. Nová pravidla, která by měla platit od 1. ledna 2027, ale mají zvýšit transparentnost odměňování: přinesou definitivní konec mlčenlivosti zaměstnanců o výdělcích a zákaz vyptávání se uchazečů na dosavadní mzdu během pohovoru.</p>
+<p class="body">Chystaná novela zákoníku práce zřejmě nakonec nepřinese povinnost uvádět mzdy v pracovních inzerátech. Nová pravidla, která by měla platit od 1. ledna 2027, ale mají zvýšit transparentnost odměňování: přinesou definitivní konec mlčenlivosti zaměstnanců o výdělcích a zákaz vyptávání se uchazečů na dosavadní mzdu během pohovoru.</p>
 <p class="sources"><a href="https://www.denik.cz/ekonomika/mzdy-v-inzeratech-konec-tajnych-platu-mlcenlivost/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=ekonomika" target="_blank" rel="noopener noreferrer">Hradecký deník</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Technologie</h2>
-<article data-read-id="d5d577e50699" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">00:00</span>
+<article data-read-id="d5d577e50699">
+<span class="stamp">00:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Facebook se dohodl na odškodném 18 miliard dolarů ve sporu o závislost dětí</h3>
-<p>Spor o záměrné budování závislosti dětí na Facebooku a Instagramu končí podle Root.cz mimosoudní dohodou — Facebook zaplatí odškodné 18 miliard dolarů. Server označuje případ za spor století a píše, že se Mark Zuckerberg vykoupil.</p>
+<p class="body">Spor o záměrné budování závislosti dětí na Facebooku a Instagramu končí podle Root.cz mimosoudní dohodou — Facebook zaplatí odškodné 18 miliard dolarů. Server označuje případ za spor století a píše, že se Mark Zuckerberg vykoupil.</p>
 <p class="sources"><a href="https://www.root.cz/clanky/facebook-se-dohodl-a-zaplati-odskodne-18-miliard-usd-do-flatpaku-miri-pul-milionu-eur/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss" target="_blank" rel="noopener noreferrer">Root.cz</a></p>
 </article>
-<article data-read-id="16b1436b29f2" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">05:15</span>
+<article data-read-id="16b1436b29f2">
+<span class="stamp">05:15<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Kalifornští zákonodárci jednomyslně schválili výjimku pro Linux ze zákona o ověřování věku</h3>
-<p>Kalifornští zákonodárci podle serveru Tom&#x27;s Hardware jednomyslně schválili výjimku pro Linux ze zákona, který nařizuje ověřování věku uživatelů. Root.cz ve svém týdenním přehledu k tomu píše, že ověřování věku v Kalifornii nemá probíhat na úrovni samotného Linuxu a otázkou zůstávají polouzavřené systémy.</p>
+<p class="body">Kalifornští zákonodárci podle serveru Tom&#x27;s Hardware jednomyslně schválili výjimku pro Linux ze zákona, který nařizuje ověřování věku uživatelů. Root.cz ve svém týdenním přehledu k tomu píše, že ověřování věku v Kalifornii nemá probíhat na úrovni samotného Linuxu a otázkou zůstávají polouzavřené systémy.</p>
 <p class="sources"><a href="https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt" target="_blank" rel="noopener noreferrer">Hacker News</a><span class="sep">·</span><a href="https://www.root.cz/clanky/facebook-se-dohodl-a-zaplati-odskodne-18-miliard-usd-do-flatpaku-miri-pul-milionu-eur/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss" target="_blank" rel="noopener noreferrer">Root.cz</a></p>
 </article>
-<article data-read-id="9c3031be1bd7" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">05:30</span>
+<article data-read-id="9c3031be1bd7">
+<span class="stamp">05:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Amazon skupuje desítky let staré knihy, rozřezává je a digitalizuje pro trénink AI</h3>
-<p>Umělá inteligence potřebuje stále víc kvalitních dat vytvořených lidmi a jejich zásoba se může během několika let vyčerpat. Technologické firmy proto hledají nové zdroje a jedním z nich jsou i desítky let staré knihy: Amazon je nakupuje, rozřezává a digitalizuje pro vývoj AI. Na záhadného kupce tisíců starých knih, kterého odhalil sledovací přívěsek AirTag, upozornil server Živě.cz s odkazem na zjištění webu 404 Media.</p>
+<p class="body">Umělá inteligence potřebuje stále víc kvalitních dat vytvořených lidmi a jejich zásoba se může během několika let vyčerpat. Technologické firmy proto hledají nové zdroje a jedním z nich jsou i desítky let staré knihy: Amazon je nakupuje, rozřezává a digitalizuje pro vývoj AI. Na záhadného kupce tisíců starých knih, kterého odhalil sledovací přívěsek AirTag, upozornil server Živě.cz s odkazem na zjištění webu 404 Media.</p>
 <p class="sources"><a href="https://www.e15.cz/byznys/technologie-a-media/zahadny-kupec-skupoval-tisice-starych-knih-airtag-odhalil-amazon-ktery-je-rozrezava-pro-hladovou-ai-1435177" target="_blank" rel="noopener noreferrer">E15</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Společnost a kultura</h2>
-<article data-read-id="5ca159a8167b" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:22</span>
+<article data-read-id="5ca159a8167b">
+<span class="stamp">14:22<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>NASA vyslala do vesmíru teleskop Nancy Roman, hledat bude exoplanety a studovat temnou hmotu</h3>
-<p>NASA vyslala do vesmíru nový teleskop Nancy Roman. Bude mít za úkol hledat exoplanety a studovat temnou hmotu a energii. Projekt za zhruba čtyři miliardy dolarů odstartoval z odpalovacího střediska na floridském mysu Canaveral.</p>
+<p class="body">NASA vyslala do vesmíru nový teleskop Nancy Roman. Bude mít za úkol hledat exoplanety a studovat temnou hmotu a energii. Projekt za zhruba čtyři miliardy dolarů odstartoval z odpalovacího střediska na floridském mysu Canaveral.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2169253/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://science.nasa.gov/mission/roman-space-telescope/" target="_blank" rel="noopener noreferrer">Hacker News</a></p>
 </article>
-<article data-read-id="214fb059ae3f" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:55 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="214fb059ae3f">
+<span class="stamp">15:55<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Česká televize odvysílala první Nedělní debatu, která po dvaceti letech nahradila Otázky Václava Moravce</h3>
-<p>Na ČT24 začal vysílat nový diskusní pořad Nedělní debata, který po více než dvaceti letech nahrazuje Otázky Václava Moravce. Vysílá se ze dvou studií zároveň: analytickou půlhodinu moderoval Daniel Takáč s exministryní a podnikatelkou Danou Bérovou, ústavním právníkem Markem Antošem a sociologem, hlavní polední politickou debatu vedl Lukáš Dolanský. Podle mediálního analytika osloveného Seznam Zprávami formát zajímavě propojuje politiku a odbornou analýzu, zároveň ale diváka zahlcuje informacemi — kritiku si vysloužila hlavně vyskakovací okna a množství lišt.</p>
+<p class="body">Na ČT24 začal vysílat nový diskusní pořad Nedělní debata, který po více než dvaceti letech nahrazuje Otázky Václava Moravce. Vysílá se ze dvou studií zároveň: analytickou půlhodinu moderoval Daniel Takáč s exministryní a podnikatelkou Danou Bérovou, ústavním právníkem Markem Antošem a sociologem, hlavní polední politickou debatu vedl Lukáš Dolanský. Podle mediálního analytika osloveného Seznam Zprávami formát zajímavě propojuje politiku a odbornou analýzu, zároveň ale diváka zahlcuje informacemi — kritiku si vysloužila hlavně vyskakovací okna a množství lišt.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-nova-nedelni-debata-ct-divaka-rusi-premirou-informaci-mini-analytik-314179" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2169106/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Za pozornost</h2>
-<article data-read-id="6fda12320d2c" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:00</span>
+<article data-read-id="6fda12320d2c">
+<span class="stamp">15:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Ministerstvo spravedlnosti sloužilo podle obžaloby jako pračka na peníze z drogového tržiště</h3>
-<p>Seznam Zprávy shrnují v komentáři obžalobu v bitcoinové kauze, kterou s kolegy studovaly: ministerstvo spravedlnosti pod vedením Pavla Blažka podle ní posloužilo jako pračka, do níž provozovatel drogového tržiště Tomáš Jiřikovský vysypal špinavé peníze.</p>
+<p class="body">Seznam Zprávy shrnují v komentáři obžalobu v bitcoinové kauze, kterou s kolegy studovaly: ministerstvo spravedlnosti pod vedením Pavla Blažka podle ní posloužilo jako pračka, do níž provozovatel drogového tržiště Tomáš Jiřikovský vysypal špinavé peníze.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/nazory-komentare-obzaloba-ve-zkratce-blazkovo-ministerstvo-skakalo-jak-kryptomafian-piskal-314142" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
 </article>
-<article data-read-id="95c1e0f07304" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:30</span>
+<article data-read-id="95c1e0f07304">
+<span class="stamp">16:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Izrael začne smrt pětileté Hind Radžab vyšetřovat po dvou a půl letech</h3>
-<p>29. ledna 2024 zavolala pětiletá Hind Radžab operátorům Červeného půlměsíce. Byla uvázlá v autě v Gaze spolu se svými příbuznými během ostřelování izraelskými jednotkami a během několikahodinového telefonátu byla jedinou žijící osobou ve voze. Komentář iROZHLAS se ptá, co s těmi oběťmi, jejichž hlas nikdo neslyšel.</p>
+<p class="body">29. ledna 2024 zavolala pětiletá Hind Radžab operátorům Červeného půlměsíce. Byla uvázlá v autě v Gaze spolu se svými příbuznými během ostřelování izraelskými jednotkami a během několikahodinového telefonátu byla jedinou žijící osobou ve voze. Komentář iROZHLAS se ptá, co s těmi oběťmi, jejichž hlas nikdo neslyšel.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/komentare/smrt-petilete-radzab-zacne-izrael-vysetrovat-az-po-25-letech-co-ti-jejichz-hlas_2608301630_med" target="_blank" rel="noopener noreferrer">iROZHLAS</a></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Sport</h2>
-<article data-read-id="4f97750facab" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:33 <span class="flag">· 4 zdroje</span></span>
+<article data-read-id="4f97750facab">
+<span class="stamp">16:33<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Čeští kanoisté zakončili mistrovství světa v Poznani třemi bronzy</h3>
-<p>Závěrečný den světového šampionátu v rychlostní kanoistice v Poznani přinesl české výpravě tři medaile. Deblkajakáři Jakub Špicar a Daniel Havel získali na olympijské pětistovce bronz, tedy první světovou medaili v této disciplíně — třikrát předtím skončili čtvrtí. Bronz si vyjela i kajakářka Kateřina Mílová v neolympijském závodě na 5000 metrů a na třetí příčku se ve stejné vzdálenosti po diskvalifikaci jednoho ze soupeřů posunul původně čtvrtý kanoista Robin Hirsch. Kajakář Josef Dostál, který bojuje s nemocí, titul na pětistovce neobhájil a dojel čtvrtý. V předchozích dnech přidal Martin Fuksa zlato a stříbro.</p>
+<p class="body">Závěrečný den světového šampionátu v rychlostní kanoistice v Poznani přinesl české výpravě tři medaile. Deblkajakáři Jakub Špicar a Daniel Havel získali na olympijské pětistovce bronz, tedy první světovou medaili v této disciplíně — třikrát předtím skončili čtvrtí. Bronz si vyjela i kajakářka Kateřina Mílová v neolympijském závodě na 5000 metrů a na třetí příčku se ve stejné vzdálenosti po diskvalifikaci jednoho ze soupeřů posunul původně čtvrtý kanoista Robin Hirsch. Kajakář Josef Dostál, který bojuje s nemocí, titul na pětistovce neobhájil a dojel čtvrtý. V předchozích dnech přidal Martin Fuksa zlato a stříbro.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/rychlostni-kanoistika/dostal-na-ms-neobhajil-titul-na-500-metru-skoncil-ctvrty-158674" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/vodni-sporty-dostal-pri-zlate-obhajobe-mocne-stahoval-skoncil-tesne-pod-podiem-5521208" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/sport-deblkajak-jakub-spicar-a-daniel-havel-ziskal-na-ms-bronz-na-petistovce-314177" target="_blank" rel="noopener noreferrer">Seznam Zprávy Sport</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2169379/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
 </article>
-<article data-read-id="13185a1b2764" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:16 <span class="flag">· 3 zdroje</span></span>
+<article data-read-id="13185a1b2764">
+<span class="stamp">14:16<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Moderní pětibojař Lukeš vyhrál mistrovství světa, je teprve druhým českým šampionem</h3>
-<p>Matěj Lukeš se na mistrovství světa v Číně stal mistrem světa v individuálním závodě moderního pětiboje. V závěrečné disciplíně se posunul ze šestého místa až k vítězství, vylepšil tak loňský bronz a potvrdil pozici světové jedničky. Je teprve druhým českým světovým šampionem v této disciplíně — napodobil triumf Michala Sedleckého z roku 2002, tedy roku, kdy se čtyřiadvacetiletý Lukeš narodil.</p>
+<p class="body">Matěj Lukeš se na mistrovství světa v Číně stal mistrem světa v individuálním závodě moderního pětiboje. V závěrečné disciplíně se posunul ze šestého místa až k vítězství, vylepšil tak loňský bronz a potvrdil pozici světové jedničky. Je teprve druhým českým světovým šampionem v této disciplíně — napodobil triumf Michala Sedleckého z roku 2002, tedy roku, kdy se čtyřiadvacetiletý Lukeš narodil.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/ostatni-lukes-je-druhym-ceskym-mistrem-sveta-v-modernim-petiboji-5521203" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/moderni-petiboj/lukes-je-mistrem-sveta-v-modernim-petiboji-158672" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/sport-moderni-petibojar-lukes-je-mistrem-sveta-zlato-ziskal-jako-druhy-cech-314174" target="_blank" rel="noopener noreferrer">Seznam Zprávy Sport</a></p>
 </article>
-<article data-read-id="902196c1aa7c" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">11:46 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="902196c1aa7c">
+<span class="stamp">11:46<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Pogačar odstoupil z Vuelty se zlomeným obratlem a klíční kostí, čeká ho operace</h3>
-<p>Tadej Pogačar, který jasně vedl celkové pořadí Vuelty, musel v sobotní osmé etapě odstoupit kvůli zranění z pádu 33 kilometrů před cílem. Vyšetření ukázalo otřes mozku a zlomeniny krčního obratle a klíční kosti. Slovinského cyklistu převezli do nemocnice v Barceloně, kde by měl v pondělí podstoupit operaci klíční kosti; podle španělských médií si rekonvalescence vyžádá minimálně tři až pět týdnů. Do červeného trikotu lídra se převlékl Enric Mas, sobotní etapu vyhrál v hromadném dojezdu Bryan Coquard.</p>
+<p class="body">Tadej Pogačar, který jasně vedl celkové pořadí Vuelty, musel v sobotní osmé etapě odstoupit kvůli zranění z pádu 33 kilometrů před cílem. Vyšetření ukázalo otřes mozku a zlomeniny krčního obratle a klíční kosti. Slovinského cyklistu převezli do nemocnice v Barceloně, kde by měl v pondělí podstoupit operaci klíční kosti; podle španělských médií si rekonvalescence vyžádá minimálně tři až pět týdnů. Do červeného trikotu lídra se převlékl Enric Mas, sobotní etapu vyhrál v hromadném dojezdu Bryan Coquard.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/cyklistika-pogacara-prevezli-sanitkou-do-nemocnice-v-barcelone-sam-zverejnil-fotku-z-luzka-5521214" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/cyklistika/pogacar-po-padu-odstoupil-v-osme-etape-z-vuelty-v-dojezdu-se-radoval-coquard-158662" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
 </article>
-<article data-read-id="59b4ab2a28ca" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:03</span>
+<article data-read-id="59b4ab2a28ca">
+<span class="stamp">16:03<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Sparta hostí dnes večer Slavii v prvním derby sezony, policie zápas vnímá jako rizikový</h3>
-<p>Sparta v neděli od 20 hodin přivítá na Letné obhájce titulu Slavii. Pražská „S“ se potkají poprvé od květnového nedohraného zápasu v Edenu, kdy část domácích fanoušků vtrhla na trávník a napadla hostující hráče. Policie se na utkání připravuje už několik týdnů, vnímá ho jako rizikové a do bezpečnostních opatření zapojí stovky policistů. Spartu povede s kapitánskou páskou navrátilec z ciziny Adam Karabec, kterého Sport.cz na základě dat Opty označuje za hlavní tvůrčí zbraň týmu.</p>
+<p class="body">Sparta v neděli od 20 hodin přivítá na Letné obhájce titulu Slavii. Pražská „S“ se potkají poprvé od květnového nedohraného zápasu v Edenu, kdy část domácích fanoušků vtrhla na trávník a napadla hostující hráče. Policie se na utkání připravuje už několik týdnů, vnímá ho jako rizikové a do bezpečnostních opatření zapojí stovky policistů. Spartu povede s kapitánskou páskou navrátilec z ciziny Adam Karabec, kterého Sport.cz na základě dat Opty označuje za hlavní tvůrčí zbraň týmu.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/sport/mezi-fanousky-je-rivalita-z-minulosti-policie-se-uz-tydny-pripravuje-na-prazske_2608301603_zko" target="_blank" rel="noopener noreferrer">iROZHLAS Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/nazory-komentare-analyza-hlavni-zbrani-sparty-pro-derby-je-kapitan-slavia-ho-musi-zastavit-5520772" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="c7960d5a7617" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">14:46 <span class="flag">· 2 zdroje</span></span>
+<article data-read-id="c7960d5a7617">
+<span class="stamp">14:46<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Mistry světa v cross country se stali Pidcock a Freiová, Češi skončili daleko</h3>
-<p>Cross country na mistrovství světa horských kol ve Val di Sole ovládli Brit Thomas Pidcock a Švýcarka Sina Freiová. Pidcock se navzdory horší startovní pozici probojoval až do čela a získal druhý titul světového šampiona, druhý dojel Charlie Aldridge a třetí Cole Punchard. Freiová zvítězila poprvé, a to s náskokem více než minuty před domácí Martinou Bertaovou; třetí skončila Nicole Kollerová. Z Čechů byl nejlepší Ondřej Cink na 27. místě, mezi ženami obsadila Adéla Holubová 37. a Tereza Tvarůžková 44. pozici.</p>
+<p class="body">Cross country na mistrovství světa horských kol ve Val di Sole ovládli Brit Thomas Pidcock a Švýcarka Sina Freiová. Pidcock se navzdory horší startovní pozici probojoval až do čela a získal druhý titul světového šampiona, druhý dojel Charlie Aldridge a třetí Cole Punchard. Freiová zvítězila poprvé, a to s náskokem více než minuty před domácí Martinou Bertaovou; třetí skončila Nicole Kollerová. Z Čechů byl nejlepší Ondřej Cink na 27. místě, mezi ženami obsadila Adéla Holubová 37. a Tereza Tvarůžková 44. pozici.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/cyklistika/cross-country-zen-na-ms-horskych-kol-ve-val-di-sole-158675" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/cyklistika-svycarka-freiova-je-poprve-mistryni-sveta-5521237" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="529c760ad188" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">16:02</span>
+<article data-read-id="529c760ad188">
+<span class="stamp">16:02<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Ondra skončil na mistrovství Evropy v lezení čtvrtý a poprvé v kariéře zůstal bez medaile</h3>
-<p>Adam Ondra obsadil na mistrovství Evropy v lezení na obtížnost ve francouzském Lavalu čtvrté místo a poprvé v kariéře nezískal na kontinentálním šampionátu medaili. Stejná pozice patří i Tereze Širůčkové, pro kterou to je nejlepší výsledek české ženy na evropském šampionátu od roku 2020. Do finále se probojovala také Michaela Smetanová, jež skončila šestá.</p>
+<p class="body">Adam Ondra obsadil na mistrovství Evropy v lezení na obtížnost ve francouzském Lavalu čtvrté místo a poprvé v kariéře nezískal na kontinentálním šampionátu medaili. Stejná pozice patří i Tereze Širůčkové, pro kterou to je nejlepší výsledek české ženy na evropském šampionátu od roku 2020. Do finále se probojovala také Michaela Smetanová, jež skončila šestá.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/ostatni-adam-ondra-poprve-neziskal-na-me-medaili-5521303" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
-<article data-read-id="c32554a8aab2" title="Kliknutím označíte zprávu jako přečtenou">
-<span class="stamp">15:47</span>
+<article data-read-id="c32554a8aab2">
+<span class="stamp">15:47<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
 <h3>Leao přestoupil z AC Milán do Galatasaraye, Martínez z Aston Villy do Chelsea</h3>
-<p>Portugalský reprezentační křídelník Rafael Leao odchází z AC Milán do Galatasaraye Istanbul, kde podepsal čtyřletou smlouvu s platem deset milionů eur (241 milionů korun) za sezonu; turecký klub za něj zaplatí odstupné 38 milionů eur, tedy asi 916 milionů korun. Brankář argentinské reprezentace Emiliano Martínez přestoupil z Aston Villy do Chelsea a upsal se jí na tři roky. Finanční podmínky londýnský klub neoznámil, podle britských médií zaplatí za mistra světa z roku 2022 zhruba 7,5 milionu liber (212 milionů korun).</p>
+<p class="body">Portugalský reprezentační křídelník Rafael Leao odchází z AC Milán do Galatasaraye Istanbul, kde podepsal čtyřletou smlouvu s platem deset milionů eur (241 milionů korun) za sezonu; turecký klub za něj zaplatí odstupné 38 milionů eur, tedy asi 916 milionů korun. Brankář argentinské reprezentace Emiliano Martínez přestoupil z Aston Villy do Chelsea a upsal se jí na tři roky. Finanční podmínky londýnský klub neoznámil, podle britských médií zaplatí za mistra světa z roku 2022 zhruba 7,5 milionu liber (212 milionů korun).</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/fotbal-evropske-ligy-velka-posila-pro-galatasaray-z-ac-milan-prichazi-kridelnik-5521297" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/fotbal-premier-league-argentinsky-brankar-martinez-prestoupil-z-aston-villy-do-chelsea-5521215" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
 </article>
 </section>
