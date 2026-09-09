@@ -1,0 +1,365 @@
+{
+  "date": "2026-09-09",
+  "covers": "2026-09-09",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo, denní teplota vystoupá k 20 °C. Srážky se nepředpokládají a kvalita ovzduší má být přijatelná.",
+    "days": [
+      { "date": "2026-09-10", "icon": "cloudy", "temp_max_c": 19.6, "temp_min_c": 11.8 },
+      { "date": "2026-09-11", "icon": "cloudy", "temp_max_c": 16.8, "temp_min_c": 11.6 },
+      { "date": "2026-09-12", "icon": "fog", "temp_max_c": 20.2, "temp_min_c": 7.2 },
+      { "date": "2026-09-13", "icon": "cloudy", "temp_max_c": 21.7, "temp_min_c": 10.4 }
+    ]
+  },
+  "highlights": [
+    "Ministr životního prostředí Igor Červený chtěl zakázku na sanaci chemikálií na Šumavě zadat bez soutěže firmě, v níž má podíl kandidátka Motoristů; podle Deníku N narazil u premiéra Babiše.",
+    "Sněmovna rozhodovala o přehlasování senátního veta koaliční novely stavebního zákona, koalice si prosadila hlasování až do noci.",
+    "Temelín získal povolení používat americké palivo od Westinghouse a s ruským definitivně končí.",
+    "Vítězství AfD v Sasku-Anhaltsku rozvířilo Bundestag, Angela Merkelová mluví o zlomu v moderních německých dějinách."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:27",
+      "day": "covered",
+      "headline": "Červený chtěl zakázku na sanaci Šumavy dát bez soutěže firmě spojené s Motoristy",
+      "body": "Ministr životního prostředí Igor Červený (Motoristé) přinesl na vládu návrh, aby mohl zakázku na sanaci chemikálií v bývalém vojenském prostoru na Šumavě zadat bez soutěže přímo firmě Dekonta. V ní má podle Deníku N podíl Klára Sovová, kandidátka Motoristů na pražskou primátorku, a jde o zakázku za 200 milionů korun. S návrhem podle Deníku N narazil u premiéra Andreje Babiše. Ukazuje se zároveň, že místní se o rozsahu kontaminace dozvěděli pozdě: starosta šumavské obce Prášily Josef Rada řekl Deníku N, že měl od roku 2023 pouze neoficiální informace od hasičů a podrobnosti mu ministerstvo sdělilo až krátce před úterní tiskovou konferencí, na níž Červený označil situaci za katastrofu. Ředitel Národního parku Šumava Pavel Hubený pro iROZHLAS.cz popsal, že po nálezu sudů v bunkru s propadlým stropem se vědělo, že takových míst může být víc; problém byly ale peníze, a proto park žádal ministerstvo životního prostředí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/2179379/jedy-na-sumave-cerveny-chtel-dat-zakazku-za-200-milionu-rovnou-firme-spojene-s-motoristy-narazil-u-babise/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2179370/starosta-sumavskych-prasil-o-rozsahu-kontaminace-jsem-se-dozvedel-az-pred-vcerejsi-tiskovkou/" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/sef-np-sumava-po-objeveni-sudu-se-vedelo-ze-toho-muze-byt-vic-kvuli-penezum-jsme_2609091230_ako" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:58",
+      "day": "covered",
+      "headline": "Sněmovna rozhodovala o přehlasování senátního veta novely stavebního zákona",
+      "body": "Poslanci se ve středu vrátili k rozsáhlé koaliční novele stavebního zákona, která má podle předkladatelů zjednodušit a zrychlit povolování staveb a zavádí státní stavební úřady. Předlohu zamítl Senát a Sněmovna rozhoduje, zda jeho veto přehlasuje; vládní koalice na to má dostatečnou většinu. Ministryně pro místní rozvoj Zuzana Mrázová (ANO) v úvodu debaty řekla, že koalice má dost důvodů veto přehlasovat, protože novela odpovídá na konkrétní problémy stavebníků, a že respekt k Senátu podle ní neznamená povinnost přijmout jeho závěr tehdy, když významná část kritiky nevychází z toho, co návrh skutečně říká. Z opozičních lavic zaznívá kritika, že jde o zásadní změnu předloženou jako poslanecký návrh, další poslanci poukazují na možné dopady. Koalice si na návrh předsedkyně poslanců ANO Taťány Malé prosadila, že Sněmovna může jednat a schvalovat zákony i po 21. hodině; kromě stavebního zákona chce vládní tábor ANO, SPD a Motoristů přehlasovat i senátní úpravy zákona o obnovení elektronické evidence tržeb.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-znovu-posoudi-stavebni-novelu-a-opetovne-zavedeni-eet-377396" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179483/" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179036/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "21:16",
+      "day": "prev",
+      "headline": "Sněmovna přehlasovala Senát a znovu schválila nový zákon o státních zaměstnancích",
+      "body": "Sněmovna včera večer přehlasovala Senát a znovu schválila nový zákon o státních zaměstnancích, který má od listopadu nahradit služební zákon. Koalice zároveň prosadila omezení pravomocí prezidenta při obsazování stálých misí, proti čemuž se podle E15 ohradil Hrad. Opozice a senátoři varují před politizací státní správy a část změn chtějí napadnout u Ústavního soudu.",
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/domaci/politika/koalice-prehlasovala-senat-meni-pravidla-pro-tisice-uredniku-a-bere-pravomoc-prezidentovi-1435643" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:37",
+      "day": "covered",
+      "headline": "Zemědělský intervenční fond dál vyplácí podporu Agrofertu, přes rozhodnutí Evropské komise",
+      "body": "Státní zemědělský intervenční fond dál vyplácí podporu holdingu Agrofert a nepřerušil ani zpracovávání dalších žádostí, informoval podle ČT24 server iRozhlas.cz. Evropská komise přitom firmám z holdingu pozastavila proplácení části unijních dotací, protože premiér Andrej Babiš (ANO) se podle ní nachází v potenciálním střetu zájmů.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/szif-dal-vyplaci-podporu-agrofertu-a-zpracovava-zadosti-pise-irozhlas-377409" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:21",
+      "day": "covered",
+      "headline": "Kvůli požáru restaurace U Kojota v Mostě, kde zemřelo sedm lidí, čelí dva lidé obžalobě",
+      "body": "Státní zástupce obžaloval dva lidi v souvislosti s loňským požárem restaurace U Kojota v Mostě a viní je z obecného ohrožení z nedbalosti. Informovala o tom Česká televize s odvoláním na mosteckého okresního státního zástupce Jakuba Procházku. Požár způsobil pád plynového topidla loni v lednu, zemřelo při něm sedm lidí a deset se zranilo. Podle trestního zákoníku hrozí obviněným v případě odsouzení až deset let.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-domov/statni-zastupce-obzaloval-dva-lidi-v-souvislosti-s-tragickym-pozarem-restaurace_2609091621_mkm" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-statni-zastupce-obzaloval-dva-lidi-kvuli-tragickemu-pozaru-restaurace-v-moste-315004" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179605/" }
+      ]
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:47",
+      "day": "covered",
+      "headline": "Policie vyzývá uživatele školního systému Bakaláři, aby si zkontrolovali zabezpečení účtů",
+      "body": "Policie vyzvala uživatele informačního systému Bakaláři, který slouží ke komunikaci školy s žáky a rodiči, ke kontrole zabezpečení účtů. Reaguje na úterní případ, kdy se neznámý pachatel pravděpodobně dostal do účtu studenta a jeho jménem poslal do jedné pražské školy výhrůžnou zprávu; podle Seznam Zpráv v ní vyhrožoval hromadným vražděním. Společnost provozující Bakaláře uvedla, že situaci řeší a spolupracuje s policií i školami.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/domaci/policie-vyzyva-uzivatele-systemu-bakalari-aby-zkontrolovali-zabezpeceni-uctu-377414" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-vyhruzny-dopis-zak-neposlal-nekdo-se-mu-naboural-do-bakalaru-uvedla-policie-314972" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:52",
+      "day": "covered",
+      "headline": "Hradec chce postavit parkovací dům na družstevním principu",
+      "body": "Hradečtí radní schválili studii proveditelnosti pro první parkovací dům, který by ve městě vznikl na družstevním principu. Město tak hledá cestu, jak vyřešit chronický nedostatek parkovacích míst a zároveň nezatížit rozpočet. Kapacita se odhaduje na přibližně 300 automobilů, studie má podle Hradecké drbny přijít na téměř 600 tisíc korun. Zdroje se rozcházejí v tom, kde by dům stál: Hradecký deník píše o Třebši, Hradecká drbna o stávajícím parkovišti v ulici Na Potoce na Moravském Předměstí.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/doprava/899724-hradec-kralove-zvazuje-stavbu-parkovaciho-domu-pro-300-aut.html" },
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/zpravy-region/parkovani-hradec-kralove-parkovaci-dum-druzstevni-model/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:02",
+      "day": "covered",
+      "headline": "Úpravy Velkého náměstí stály 1,9 milionu, část lidí kritizuje stromy v květináčích",
+      "body": "Nové pobytové plochy, dřevěné platformy a nádoby se zelení na Velkém náměstí stály téměř 1,9 milionu korun. Část lidí podle Hradecké drbny kritizuje dočasnost úprav i to, že stromy jsou v květináčích; město vysvětluje, že jejich zasazení do země by před rekonstrukcí náměstí nedávalo smysl. V budoucnu má na náměstí vyrůst 40 stromů.",
+      "sources": [
+        { "name": "Hradecká drbna", "url": "https://hradecka.drbna.cz/spolecnost/899479-kvetinace-misto-stromu-upravy-velkeho-namesti-staly-1-9-milionu.html" }
+      ]
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "19:33",
+      "day": "prev",
+      "headline": "Hradecký Umar podepsal novou smlouvu až do roku 2031",
+      "body": "Fotbalisté Hradce Králové si dlouhodobým kontraktem pojistili nigerijského hráče Abdullahiho Umara. Podepsal novou smlouvu až do konce sezony 2030/31.",
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://hradecky.denik.cz/fotbal-prvni-liga/hradec-si-pojistil-nigerijsky-klenot-umar-podepsal-az-do-roku-2031/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:21",
+      "day": "covered",
+      "headline": "Írán zaútočil na americkou základnu v Jordánsku, útok na torpédoborce ale Američané popřeli",
+      "body": "Írán v noci na středu zaútočil balistickými střelami na americkou základnu ve městě Azrak na severu Jordánska. Podle íránských revolučních gard, které to oznámily podle agentury Tasním, šlo o odvetu za předchozí americké údery na íránské tankery; Jordánsko útok potvrdilo a zatím nejsou hlášeny žádné oběti ani škody. Gardy později uvedly, že zaútočily také na deset amerických lodí v Perském zálivu. Americká armáda ale zprávy o útoku na dva americké torpédoborce popřela — tvrzení revolučních gard o úspěšném útoku označila v příspěvku na síti X za zcela nepravdivé a uvedla, že pokusy o útoky selhaly.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/iran-v-odvete-zautocil-na-americkou-zakladnu-v-jordansku-pisi-agentury-377393" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179526/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "day": "covered",
+      "headline": "Vítězství AfD rozvířilo Bundestag, Merkelová mluví o zlomu v německých dějinách",
+      "body": "Alternativa pro Německo získala v nedělních zemských volbách v Sasku-Anhaltsku 43,8 procenta hlasů, téměř dvakrát více než před pěti lety, a spor o výsledek dorazil až do Bundestagu. Předsedkyně AfD Alice Weidelová podle Seznam Zpráv vzkázala kancléři Friedrichu Merzovi, že jeho čas vypršel; Merz odpověděl útokem na „reemigraci“ i na vztahy strany k Rusku a v sále se pískalo a bučelo. Bývalá kancléřka Angela Merkelová označila výhru AfD za „šokující“, řekla, že jí „jako člence CDU krvácí srdce“, a dodala: „Právě zažíváme skutečný zlom v moderních německých dějinách.“ Americký prezident Donald Trump na síti Truth Social výsledek přivítal a ocenil, že Němci podle jeho názoru vyjádřili podporu změně migrační politiky. Radikální a populistická pravice v Evropě je podle Deníku N v pohledu na úspěch AfD rozdělená — někteří politici se radují, jiným, například v Itálii, strana připadá radikální až moc.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-etnicka-cistka-uderil-merz-v-bundestagu-vypukla-po-triumfu-afd-vrava-314977" },
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/zahranicni-trump-spojil-uspech-afd-s-nevoli-obyvatelstva-vuci-migracni-politice-nemecka-314999" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179078/" },
+        { "name": "Deník N", "url": "https://denikn.cz/2178858/cast-krajne-pravicovych-populistu-v-evrope-uspech-afd-slavi-pro-jine-je-strana-radikalni-az-moc/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:14",
+      "day": "covered",
+      "headline": "Vučić rozpustil srbský parlament, předčasné volby budou 25. října",
+      "body": "Navazuje na včerejší žádost srbské vlády: prezident Aleksandar Vučić ve středu podepsal výnos, kterým rozpustil parlament a vypsal předčasné volby do zákonodárného sboru na 25. října. Informovala o tom stanice RTS. Vučićova Srbská pokroková strana ho dříve nominovala na premiéra. Po předčasných volbách dlouhodobě volá opozice, žádá ale spravedlivé podmínky.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/srbsky-prezident-vucic-rozpustil-parlament-a-vypsal-volby-na-25-rijna_2609091414_cen" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179250/" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:26",
+      "day": "covered",
+      "headline": "Britská letiště zrušila kvůli potížím řízení letového provozu přes dva tisíce letů",
+      "body": "Ve Velké Británii pokračují druhým dnem potíže s řízením letového provozu, které začaly v úterý. Podle ČT24 bylo za dva dny zrušeno či odloženo přes 2000 letů a na letištích uvázly desítky tisíc pasažérů; iROZHLAS uvádí, že přes 2000 letů musely aerolinky zrušit už v úterý. Letiště upozorňují cestující, že velké komplikace očekávají minimálně i ve středu. Ministryně dopravy si předvolala šéfa dispečerské společnosti NATS a podle webu BBC hodlala v projevu k poslancům potvrdit, že za problémy nestojí kybernetický útok.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zpravy-svet/britske-aerolinky-musely-zrusit-pres-2000-letu-dalsi-smerem-ze-zeme-i-do-ni_2609091626_eml" },
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/britska-letiste-kvuli-problemum-rizeni-provozu-zrusila-pres-dva-tisice-letu-377407" }
+      ]
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:18",
+      "day": "covered",
+      "headline": "Ruský dron zasáhl osobní vlak u Charkova, Ukrajina útočila na základnu v Novorossijsku",
+      "body": "Útok ruského dronu na osobní vlak mezi Charkovem a Izjumem zranil sedm lidí, oznámil šéf ukrajinských železnic Oleksandr Percovskyj. Ukrajinské úřady dále uvádějí, že při ruských úderech na jihu země zahynulo nejméně šest lidí, z toho dva u hraničního přechodu s Moldavskem, a pět lidí zranil ruský útok na výškovou budovu v Kyjevě. Ukrajina zaútočila na námořní základnu v ruském přístavu Novorossijsk, místní úřady hlásí mrtvé a zraněné.",
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/svet/moskva-zasahla-hranici-ukrajiny-s-moldavskem-kyjev-namorni-zakladnu-v-novorossijsku-377399" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:41",
+      "day": "covered",
+      "headline": "Temelín dostal povolení používat americké palivo, s ruským definitivně končí",
+      "body": "Jaderná elektrárna Temelín bude moci začít používat palivo od americké společnosti Westinghouse — ČEZ k tomu získal povolení Státního úřadu pro jadernou bezpečnost. Dosud elektrárna využívala palivo od ruského výrobce TVEL. Nové palivové soubory chtějí energetici zavézt do reaktoru prvního bloku během plánované odstávky na konci letošního roku. Podle E15 stojí povolení na několikaletém procesu příprav, testování a bezpečnostních analýz, jejichž součástí bylo přibližně dvouleté bezpečnostní hodnocení, a elektrárna už zkušební soubory Westinghouse otestovala přímo v provozu. Temelín má podle E15 uzavřenou smlouvu také s francouzskou firmou Framatome. Přechod na nové palivo připravují i Dukovany, kde už první soubory Westinghouse převzali a testují je.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/energetika-temelin-nove-palivo-dukovany-westinghouse_2609091241_elev" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/prumysl-a-energetika/temelin-vymeni-ruske-palivo-za-americke-po-letech-priprav-dostal-cez-povoleni-1435657" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179059/" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:18",
+      "day": "covered",
+      "headline": "Hypoteční sazby rostou šestý měsíc v řadě a jsou nejvýše za dva roky",
+      "body": "Průměr nabídkových hypotečních sazeb podle Swiss Life Hypoindexu v září vystoupal na 5,51 procenta, nejvýše od léta 2024. Sazby rostou už šest měsíců za sebou a vyšší úroky zvedají domácnostem splátky. Banky podle E15 plošné zlevnění zatím nechystají a experti čekají spíš další růst nebo stagnaci, hlavně kvůli drahému financování a geopolitickým rizikům.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Hradecký deník", "url": "https://www.denik.cz/ekonomika/cesko-ekonomika-hypoteky-dalsi-zdrazeni/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika" },
+        { "name": "E15", "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/hypotecni-trh-se-vraci-do-sve-temne-historie-sazby-rostou-pul-roku-v-rade-obrat-je-v-nedohlednu-1435640" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:25",
+      "day": "covered",
+      "headline": "Ministerstvo práce chce od ledna zkrátit podporu v nezaměstnanosti",
+      "body": "Ministerstvo práce a sociálních věcí plánuje od ledna zkrátit podporu v nezaměstnanosti. Podle ministra Aleše Juchelky by stát ušetřil až 4,5 miliardy korun ročně, E15 mluví o úspoře až pěti miliard. Sociolog a zakladatel PAQ Research Daniel Prokop v pořadu Radiožurnálu upozornil, že jde o krátkodobé řešení. E15 k tomu dodává, že Češi mění zaměstnání nejméně často v celé Evropské unii — ročně tak učiní méně než dvě procenta pracovníků — a že změna práce po krátké nezaměstnanosti přináší podle dat v průměru asi dvanáctiprocentní růst odměny.",
+      "cross_source": true,
+      "sources": [
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/ekonomika/daniel-prokop-ekonomika-podpora-v-nezamestnanosti-zivot-k-nezaplaceni-juchelka_2609091525_elev" },
+        { "name": "E15", "url": "https://www.e15.cz/nazory-a-analyzy/babis-chce-usetrit-pet-miliard-jeho-plan-muze-cechum-zkomplikovat-cestu-k-vyssim-vyplatam-1435637" }
+      ]
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:53",
+      "day": "covered",
+      "headline": "USA zakázaly dovoz kanadských motorek, alkoholu i mléčných výrobků",
+      "body": "Spojené státy zakázaly dovoz motorek, alkoholu a mléčných výrobků z Kanady. Zákaz se vztahuje na výrobky, které dosud podléhaly dodatečnému padesátiprocentnímu clu. Kanada už zavedla odvetná cla na stovky výrobků z USA a chce podle E15 do budoucna víc rozvíjet obchodní vztahy s jinými zeměmi a s Evropskou unií. Deník N popisuje, že si obě strany vzájemně uvalily vysoká cla na stovky položek a spor mezi Washingtonem a Ottawou se změnil v obchodní válku.",
+      "cross_source": true,
+      "sources": [
+        { "name": "E15", "url": "https://www.e15.cz/ekonomika/celni-valka-se-vyostruje-usa-zakazaly-dovoz-motorek-alkoholu-i-mlecnych-vyrobku-z-kanady-1435645" },
+        { "name": "Deník N", "url": "https://denikn.cz/2178765/trumpuv-svet-596-597-den-dolar-za-dolar-jak-se-spor-s-kanadou-zmenil-v-obchodni-valku/" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:28",
+      "day": "covered",
+      "headline": "Umělá inteligence od OpenAI vyřešila desítky let starý matematický problém, spolu s tím vznikla i kontroverze",
+      "body": "Na matematiku specializovaná umělá inteligence od OpenAI vyřešila problém, který zůstával desítky let nevyřešený, a předběhla tak lidské matematiky, kteří se o totéž snažili. Podle ČT24 přitom možná využila jejich data. Český matematik Vítězslav Kala pro ČT24 uvedl, že v každém případě jde o mimořádný úspěch. Sporu, který se kolem výsledku rozhořel, se věnuje také článek serveru Science.org, jenž patřil k nejdiskutovanějším příspěvkům na Hacker News.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT24", "url": "https://ct24.ceskatelevize.cz/clanek/veda/dekady-stary-matematicky-problem-ai-vyresila-za-desitky-hodin-ale-mozna-kradla-377403" },
+        { "name": "Hacker News", "url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:27",
+      "day": "covered",
+      "headline": "Tailwind Labs, firma za CSS frameworkem Tailwind, přechází pod Shopify",
+      "body": "Tailwind Labs, firma stojící za CSS frameworkem Tailwind, oznámila na svém blogu, že se stává součástí Shopify.",
+      "sources": [
+        { "name": "Hacker News", "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify" }
+      ]
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:23",
+      "day": "covered",
+      "headline": "GymBeam kvůli nasazení umělé inteligence propustil 42 překladatelů",
+      "body": "Zakladatel a šéf slovenské firmy GymBeam Dalibor Cicman v diskusi Startitup přiznal, že firma v důsledku nasazování technologií umělé inteligence propustila 42 překladatelů. Podle jeho slov se ne každý pracovník dokáže přizpůsobit novým technologiím.",
+      "sources": [
+        { "name": "Root.cz", "url": "https://www.root.cz/zpravicky/gymbeam-nahradza-prekladatelov-umelou-inteligenciou/?utm_source=rss&utm_medium=text&utm_campaign=rss" }
+      ]
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:07",
+      "day": "covered",
+      "headline": "V Motole se otevřelo Národní onkologické centrum za necelých pět miliard",
+      "body": "Ve Fakultní nemocnici Motol a Homolka se ve středu slavnostně otevřelo Národní onkologické centrum, které stálo 4,96 miliardy korun; většinu nákladů podle mluvčí nemocnice Martiny Dostálové pokryly dotace Evropské unie z Národního plánu obnovy. Kapacita onkologické péče se má díky centru zvýšit o 40 procent a nemocní mají mít veškerý servis na jednom místě. Jednotlivá pracoviště se pro pacienty otevírala postupně už zhruba od poloviny srpna, některá spustí provoz ještě v říjnu.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-v-motole-se-otevrelo-narodni-onkologicke-centrum-za-temer-pet-miliard-korun-314984" },
+        { "name": "iROZHLAS", "url": "https://www.irozhlas.cz/zivotni-styl/zdravi/pacienti-maji-vse-pod-jednou-strechou-a-systemem-nebloudi-narodni-onkologicke_2609091236_brz" },
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179160/" }
+      ]
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "05:00",
+      "day": "covered",
+      "headline": "Pražský fotbal omezil hraní dětem s občanstvím mimo Evropu, kluby mluví o diskriminaci",
+      "body": "Pražský fotbal se od této sezony musí řídit pravidlem, které kluby označují za diskriminační — hrát mohou jen některé děti a těm s občanstvím mimo Evropu hrozí, že se do týmu nedostanou. Voxpot popisuje, že kvůli kroku Pražského fotbalového svazu hrozí, že tyto děti ztratí o sport zájem.",
+      "sources": [
+        { "name": "Voxpot", "url": "https://www.voxpot.cz/clanky/fotbal-jen-pro-evropany-nove-pravidlo-vyhani-deti-cizincu-z-travniku/" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:29",
+      "day": "covered",
+      "headline": "Messi se stane majoritním vlastníkem druholigového španělského klubu Eldense",
+      "body": "Lionel Messi se stane majoritním vlastníkem španělského druholigového klubu CD Eldense. Podle Deníku N dosáhl základní dohody s kolumbijskou investiční skupinou TH o převzetí stoprocentního podílu akcií.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Deník N", "url": "https://denikn.cz/minuta/2179255/" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-la-liga-messi-kupuje-spanelsky-fotbalovy-klub-5531421" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:11",
+      "day": "prev",
+      "headline": "Real porazil v úvodu Ligy mistrů Inter 2:1, Haaland vyrovnal klubový rekord City",
+      "body": "V úvodním kole Ligy mistrů porazil Real Madrid doma 2:1 Inter Milán. Manchester City vyhrál 2:0 v Portu díky dvěma gólům Erlinga Haalanda, který se 36 zásahy vyrovnal klubový rekord soutěže Sergia Agüera. Aston Villa vyhrála 3:2 v Bruggách, stejným výsledkem zvítězil Dortmund nad Villarrealem i Betis Sevilla v Lille. LASK Linec s Kryštofem Daňkem celý zápas na lavičce prohrál 0:1 v Athénách s AEK.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/linec-zahajil-fotbalovou-ligu-mistru-porazkou-01-v-athenach-158844" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-mimoradny-haaland-znovu-radil-nikdy-jsem-nic-takoveho-nevidel-rekl-expert-5531430" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:52",
+      "day": "covered",
+      "headline": "Sparta se rozloučila se dvěma členy trenérského týmu a vrátila Clarupa, Priske zůstává",
+      "body": "Sparta ukončila spolupráci s vedoucím kondiční přípravy Ianem Collem a trenérem pro standardní situace Jackem Wilsonem. Do realizačního týmu se po roce a půl vrací Dán Christian Clarup, který Colla ve funkci nahradí. Hlavní kouč Brian Priske i po nepovedeném vstupu do prvoligové sezony u týmu zůstává — podle analýzy Sport.cz má Sparta po sedmi zápasech devět bodů a je desátá, z tribun se ozývá volání po konci Priskeho i sportovního ředitele Tomáše Rosického.",
+      "cross_source": true,
+      "sources": [
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-hlasi-velky-navrat-5531438" },
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/fotbal/priske-povede-trapici-se-spartu-dal-v-klubu-skoncili-dva-asistenti-158842" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/nazory-komentare-analyza-sparta-valcuje-ligu-a-presto-je-v-krizi-jak-je-to-mozne-5531020" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:10",
+      "day": "prev",
+      "headline": "Nosková vypadla na US Open ve čtvrtfinále se Sabalenkovou",
+      "body": "Linda Nosková podlehla na US Open obhájkyni titulu a světové jedničce Aryně Sabalenkové 6:7, 6:3, 6:7 a do semifinále nepostoupila. Zápas trval dvě hodiny a 22 minut, rozhodující super tie-break wimbledonská vítězka ztratila 7:10.",
+      "cross_source": true,
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/noskova-prohrala-se-sabalenkovou-a-do-semifinale-us-open-nepostoupila-158841" },
+        { "name": "Sport.cz", "url": "https://www.sport.cz/clanek/tenis-us-open-neuveritelna-hracka-zasla-sabalenkova-nad-noskovou-konec-uz-mela-pred-ocima-5531367" }
+      ]
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:58",
+      "day": "covered",
+      "headline": "Shelton vyřadil na US Open obhájce titulu Alcaraze v zápase, který skončil v půl čtvrté ráno",
+      "body": "Carlos Alcaraz titul na US Open neobhájí. Druhý nasazený Španěl ve čtvrtfinále po čtyři a půl hodiny dlouhé bitvě prohrál s domácím Benem Sheltonem 7:6, 1:6, 3:6, 6:1 a 6:7. Zápas skončil v půl čtvrté ráno, nejpozději v historii turnaje. V semifinále čeká Sheltona krajan Frances Tiafoe.",
+      "sources": [
+        { "name": "ČT Sport", "url": "https://sport.ceskatelevize.cz/clanek/tenis/shelton-v-nocni-bitve-vyradil-obhajce-titulu-alcaraze-158850" }
+      ]
+    }
+  ]
+}
