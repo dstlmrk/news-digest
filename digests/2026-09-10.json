@@ -1,0 +1,1461 @@
+{
+  "date": "2026-09-10",
+  "covers": "2026-09-10",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, přes den až 18,5 °C. Kvalita ovzduší zůstane přijatelná.",
+    "days": [
+      {
+        "date": "2026-09-11",
+        "icon": "cloudy",
+        "temp_max_c": 18.5,
+        "temp_min_c": 12.3
+      },
+      {
+        "date": "2026-09-12",
+        "icon": "cloudy",
+        "temp_max_c": 20.5,
+        "temp_min_c": 9.5
+      },
+      {
+        "date": "2026-09-13",
+        "icon": "rain",
+        "temp_max_c": 20.5,
+        "temp_min_c": 11.7
+      },
+      {
+        "date": "2026-09-14",
+        "icon": "cloudy",
+        "temp_max_c": 18.3,
+        "temp_min_c": 11.2
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast and dry, with up to 18.5 °C during the day. Air quality will remain acceptable."
+  },
+  "highlights": [
+    "Vrchní státní zastupitelství v Olomouci obžalovalo osm lidí a jednu firmu v kauze zmanipulovaných dopravních zakázek Olomouckého kraje.",
+    "Evropská centrální banka zvýšila sazby na 2,50 procenta, česká inflace v srpnu zrychlila na 1,9 procenta a benzin je nejdražší za čtyři roky.",
+    "NATO podle agentury Reuters překazilo ruským ponorkám nácvik sabotáže podmořských kabelů u Špicberků.",
+    "Knihovna Václava Havla se po sporech s Dagmar Havlovou přejmenovala na 1. prezidentskou."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:02",
+      "headline": "Žalobce podal obžalobu v kauze dopravních zakázek Olomouckého kraje",
+      "body": "Žalobce Vrchního státního zastupitelství v Olomouci obžaloval osm lidí a jednu firmu v kauze deseti údajně zmanipulovaných dopravních zakázek v Olomouckém kraji. Případ známý jako Autostráda projedná olomoucký krajský soud, uvedlo zastupitelství na svých stránkách. Podle Seznam Zpráv se sedm lidí a jedna firma měli dopustit mimo jiné trestného činu účast na organizované zločinecké skupině.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/pripad-autostrada-zalobce-obzaloval-osm-lidi-a-firmu-v-kauze-dopravnich-zakazek_2609101337_cen"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobce-obzaloval-osm-lidi-a-firmu-v-kauze-dopravnich-zakazek-olomouckeho-kraje-315073"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180457/"
+        }
+      ],
+      "en": {
+        "headline": "A prosecutor has filed charges in the case of transport contracts in the Olomouc Region",
+        "sentences": [
+          {
+            "en": "A prosecutor from the High Public Prosecutor's Office in Olomouc has charged eight people and one company over ten allegedly rigged transport contracts in the Olomouc Region.",
+            "cs": "Žalobce Vrchního státního zastupitelství v Olomouci obžaloval osm lidí a jednu firmu v kauze deseti údajně zmanipulovaných dopravních zakázek v Olomouckém kraji."
+          },
+          {
+            "en": "The case, known as Autostráda, will be heard by the Olomouc regional court, the prosecutor's office said on its website.",
+            "cs": "Případ známý jako Autostráda projedná olomoucký krajský soud, uvedlo zastupitelství na svých stránkách."
+          },
+          {
+            "en": "According to Seznam Zprávy, seven people and one company are alleged to have committed, among other things, the crime of taking part in an organised criminal group.",
+            "cs": "Podle Seznam Zpráv se sedm lidí a jedna firma měli dopustit mimo jiné trestného činu účast na organizované zločinecké skupině."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rigged",
+            "definition": "secretly arranged so that the result is unfair"
+          },
+          {
+            "term": "charged",
+            "definition": "officially accused of a crime"
+          },
+          {
+            "term": "alleged",
+            "definition": "said to be true but not yet proved"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:18",
+      "headline": "Knihovna Václava Havla se přejmenovala na 1. prezidentskou",
+      "body": "Knihovna Václava Havla ponese nové jméno 1. prezidentská knihovna. Podle předsedy správní rady Davida Duška tím instituce vyhověla přání vdovy po prvním českém prezidentovi Dagmar Havlové; Havlovo jméno používat nesmí, protože k tomu už nemá její souhlas. Knihovna se také nebude podílet na organizaci Ceny Václava Havla. „Název nejlépe vystihuje to, v čem chceme pokračovat,“ komentoval změnu Dušek.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/knihovna-vaclava-havla-se-prejmenuje-na-1-prezidentskou-377443"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2180241/havlova-knihovna-ma-novy-nazev-po-dlouhych-sporech-se-jmenuje-1-prezidentska/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-knihovna-vaclava-havla-se-prejmenovala-na-1-prezidentskou-knihovnu-315064"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180382/"
+        }
+      ],
+      "en": {
+        "headline": "The Václav Havel Library has renamed itself the 1st Presidential Library",
+        "sentences": [
+          {
+            "en": "The Václav Havel Library will carry a new name, the 1st Presidential Library.",
+            "cs": "Knihovna Václava Havla ponese nové jméno 1. prezidentská knihovna."
+          },
+          {
+            "en": "According to the chair of its board of trustees, David Dušek, the institution has thereby met the wish of Dagmar Havlová, the widow of the first Czech president; it may not use Havel's name because it no longer has her consent.",
+            "cs": "Podle předsedy správní rady Davida Duška tím instituce vyhověla přání vdovy po prvním českém prezidentovi Dagmar Havlové; Havlovo jméno používat nesmí, protože k tomu už nemá její souhlas."
+          },
+          {
+            "en": "The library will also no longer take part in organising the Václav Havel Prize.",
+            "cs": "Knihovna se také nebude podílet na organizaci Ceny Václava Havla."
+          },
+          {
+            "en": "“The name best captures what we want to continue doing,” Dušek said of the change.",
+            "cs": "„Název nejlépe vystihuje to, v čem chceme pokračovat,“ komentoval změnu Dušek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "board of trustees",
+            "definition": "a group of people who manage an organisation and its money"
+          },
+          {
+            "term": "widow",
+            "definition": "a woman whose husband has died"
+          },
+          {
+            "term": "consent",
+            "definition": "permission for something to happen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:25",
+      "headline": "Exnáměstek Tesař odmítá, že by zatajil výsledky průzkumu na Šumavě",
+      "body": "Bývalý náměstek ministra životního prostředí Tomáš Tesař (TOP 09) odmítá, že by před vedením rezortu zatajil výsledky průzkumu bývalého vojenského areálu na Šumavě. Tvrdí, že vedení informoval o tom, že se ve zkoumaných vzorcích nepotvrdily bojové látky, a že další postup měl řešit národní park. „Celý příběh dnes vypadá tak, že jsem někde způsobil nějakou katastrofu, protože jsem nekonal. Já jsem ale naopak konal,“ řekl Deníku N. Ministerstvo životního prostředí, které nález toxických látek v areálu oznámilo v pondělí, chce počátkem týdne seznámit šumavské obce s tím, jak je hodlá sanovat.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2180182/je-to-hysterie-a-politicky-marketing-exnamestek-tesar-odmita-ze-zatajil-kauzu-jedu-na-sumave/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180397/"
+        }
+      ],
+      "en": {
+        "headline": "Former deputy minister Tesař denies withholding the findings of the Šumava survey",
+        "sentences": [
+          {
+            "en": "Tomáš Tesař (TOP 09), a former deputy environment minister, denies that he withheld from the ministry's leadership the findings of a survey of a former military site in Šumava.",
+            "cs": "Bývalý náměstek ministra životního prostředí Tomáš Tesař (TOP 09) odmítá, že by před vedením rezortu zatajil výsledky průzkumu bývalého vojenského areálu na Šumavě."
+          },
+          {
+            "en": "He says he told the leadership that chemical warfare agents had not been confirmed in the samples examined, and that the national park was the one to decide what came next.",
+            "cs": "Tvrdí, že vedení informoval o tom, že se ve zkoumaných vzorcích nepotvrdily bojové látky, a že další postup měl řešit národní park."
+          },
+          {
+            "en": "“The whole story now looks as if I caused some kind of disaster somewhere because I failed to act. In fact I did the opposite,” he told Deník N.",
+            "cs": "„Celý příběh dnes vypadá tak, že jsem někde způsobil nějakou katastrofu, protože jsem nekonal. Já jsem ale naopak konal,“ řekl Deníku N."
+          },
+          {
+            "en": "The Environment Ministry, which announced the discovery of toxic substances at the site on Monday, wants to brief the Šumava municipalities early in the week on how it intends to clean them up.",
+            "cs": "Ministerstvo životního prostředí, které nález toxických látek v areálu oznámilo v pondělí, chce počátkem týdne seznámit šumavské obce s tím, jak je hodlá sanovat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "withheld",
+            "definition": "kept something back and did not tell or give it to someone"
+          },
+          {
+            "term": "warfare",
+            "definition": "the activity of fighting a war"
+          },
+          {
+            "term": "municipalities",
+            "definition": "towns or villages with their own local government"
+          },
+          {
+            "term": "deputy",
+            "definition": "a person who is second in rank and can act for their boss"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:16",
+      "headline": "Městský soud zrušil osvobozující rozhodnutí v jedné z kauz Dominika Feriho",
+      "body": "Obvodní soud pro Prahu 3 bude znovu rozhodovat v kauze Dominika Feriho, která se týká údajného dalšího znásilnění. Městský soud v Praze zrušil předchozí rozhodnutí, kterým prvoinstanční soud Feriho zprostil obžaloby; vyplývá to z databáze Infosoud. Státní zástupkyně tvrdila, že si Feri v roce 2015 při styku s tehdy sedmnáctiletou dívkou přes její nesouhlas sundal kondom, podle soudu ale nešlo o trestný čin. Proti rozsudku se odvolala žalobkyně i Feri.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/mestsky-soud-zrusil-osvobozeni-feriho-377439"
+        }
+      ],
+      "en": {
+        "headline": "The Municipal Court has overturned an acquittal in one of Dominik Feri's cases",
+        "sentences": [
+          {
+            "en": "The District Court for Prague 3 will rule again in the case of Dominik Feri concerning an alleged further rape.",
+            "cs": "Obvodní soud pro Prahu 3 bude znovu rozhodovat v kauze Dominika Feriho, která se týká údajného dalšího znásilnění."
+          },
+          {
+            "en": "The Municipal Court in Prague overturned the earlier decision by which the court of first instance had acquitted Feri; this follows from the Infosoud database.",
+            "cs": "Městský soud v Praze zrušil předchozí rozhodnutí, kterým prvoinstanční soud Feriho zprostil obžaloby; vyplývá to z databáze Infosoud."
+          },
+          {
+            "en": "The state prosecutor argued that in 2015, during sex with a girl who was seventeen at the time, Feri removed the condom against her wishes, but the court held that this was not a criminal offence.",
+            "cs": "Státní zástupkyně tvrdila, že si Feri v roce 2015 při styku s tehdy sedmnáctiletou dívkou přes její nesouhlas sundal kondom, podle soudu ale nešlo o trestný čin."
+          },
+          {
+            "en": "Both the prosecutor and Feri appealed against the verdict.",
+            "cs": "Proti rozsudku se odvolala žalobkyně i Feri."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "acquittal",
+            "definition": "a court decision that someone is not guilty"
+          },
+          {
+            "term": "overturned",
+            "definition": "officially changed a decision so that it no longer applies"
+          },
+          {
+            "term": "appealed",
+            "definition": "asked a higher court to change a decision"
+          },
+          {
+            "term": "verdict",
+            "definition": "the decision made by a court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:05",
+      "headline": "Sněmovna poslala do závěrečného čtení konec zdražování dálničních známek",
+      "body": "Sněmovna projednala a odeslala do třetího čtení vládní novelu zákona o pozemních komunikacích, která má od příštího roku zastavit pravidelné zdražování dálničních známek. Koalice chce zrušit valorizaci zavedenou předchozí vládou, řidiči by tak příští rok měli platit stejně jako letos. Opozice pokládá krok za populistický, podle Martina Kupky bude výsledek pro všechny nakonec dražší.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/vlada-chce-zrusit-valorizaci-dalnicnich-znamek-ve-vysledku-pro-vsechny-bude_2609101605_adn"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-by-mela-dal-projednavat-zastaveni-zdrazovani-dalnicnich-znamek-377435"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies has sent the end of motorway vignette price rises to a final reading",
+        "sentences": [
+          {
+            "en": "The Chamber of Deputies debated a government amendment to the road act that is meant to stop the regular rise in the price of motorway vignettes from next year, and sent it to a third reading.",
+            "cs": "Sněmovna projednala a odeslala do třetího čtení vládní novelu zákona o pozemních komunikacích, která má od příštího roku zastavit pravidelné zdražování dálničních známek."
+          },
+          {
+            "en": "The coalition wants to scrap the indexation introduced by the previous government, so drivers would pay the same next year as they do this year.",
+            "cs": "Koalice chce zrušit valorizaci zavedenou předchozí vládou, řidiči by tak příští rok měli platit stejně jako letos."
+          },
+          {
+            "en": "The opposition sees the move as populist, and according to Martin Kupka it will end up being more expensive for everyone.",
+            "cs": "Opozice pokládá krok za populistický, podle Martina Kupky bude výsledek pro všechny nakonec dražší."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vignette",
+            "definition": "a sticker or pass that lets you drive on motorways"
+          },
+          {
+            "term": "amendment",
+            "definition": "a change made to a law"
+          },
+          {
+            "term": "indexation",
+            "definition": "raising a price or payment automatically in line with inflation"
+          },
+          {
+            "term": "scrap",
+            "definition": "to get rid of something completely"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:40",
+      "headline": "Audit ukázal, jak ze Správy nemovitostí Hradec Králové zmizelo 46 milionů",
+      "body": "Správa nemovitostí Hradec Králové měla platby nastavené tak, aby je kontrolovali nejméně dva lidé, přesto z jejího účtu při červencovém podvodu odešlo 46 milionů korun. Interní audit podle Hradecké drbny popsal, jak statutární zástupkyně běžný postup obešla. Peníze skončily u podvodníků vydávajících se za policisty a pracovníky České národní banky, tehdejší ředitelka Jaroslava Bernhardová poté rezignovala. Firmu dočasně vede šéf hradeckých technických služeb Tomáš Pospíšil, který posiluje kontrolu finančních pohybů, a rada města schválila výběrové řízení na nového ředitele.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/899736-jak-mohlo-zmizet-46-milionu-audit-odhalil-slabe-misto-kontrol.html"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/sprava-nemovitosti-hradec-podvod-46-milionu-vyberove-rizeni-reditel.A260910_090546_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/hradec-hleda-reditele-spravy-nemovitosti-ktera-podvodem-prisla-o-46-milionu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "An audit has shown how 46 million disappeared from the Hradec Králové property company",
+        "sentences": [
+          {
+            "en": "Payments at Správa nemovitostí Hradec Králové were set up so that at least two people had to check them, yet 46 million crowns left its account in a fraud in July.",
+            "cs": "Správa nemovitostí Hradec Králové měla platby nastavené tak, aby je kontrolovali nejméně dva lidé, přesto z jejího účtu při červencovém podvodu odešlo 46 milionů korun."
+          },
+          {
+            "en": "An internal audit has now described how the deputy statutory officer got around the standard procedure, Hradecká drbna reports.",
+            "cs": "Interní audit podle Hradecké drbny popsal, jak statutární zástupkyně běžný postup obešla."
+          },
+          {
+            "en": "The money ended up with fraudsters posing as police officers and staff of the Czech National Bank, and the director at the time, Jaroslava Bernhardová, resigned afterwards.",
+            "cs": "Peníze skončily u podvodníků vydávajících se za policisty a pracovníky České národní banky, tehdejší ředitelka Jaroslava Bernhardová poté rezignovala."
+          },
+          {
+            "en": "The company is temporarily run by Tomáš Pospíšil, the head of the city's technical services, who is tightening checks on money transfers, and the city council has approved a selection procedure for a new director.",
+            "cs": "Firmu dočasně vede šéf hradeckých technických služeb Tomáš Pospíšil, který posiluje kontrolu finančních pohybů, a rada města schválila výběrové řízení na nového ředitele."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fraud",
+            "definition": "the crime of getting money by lying or cheating"
+          },
+          {
+            "term": "posing",
+            "definition": "pretending to be someone you are not"
+          },
+          {
+            "term": "tightening",
+            "definition": "making rules or checks stricter"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:25",
+      "headline": "V Hradci vyrůstají po více než 40 letech družstevní byty",
+      "body": "V hradecké lokalitě Pouchov vzniká na místě bývalého brownfieldu nová čtvrť s družstevními byty, tedy modelem bydlení, který se ve městě po více než čtyřiceti letech vrací. Podle Hradeckého deníku má jít o finančně schůdnější cestu k vlastnímu bytu než přes hypotéku, bez ohledu na věk či přísné bankovní limity. S vlastním družstevním záměrem přichází i radnice.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/v-hradci-stavi-po-40-letech-druzstevni-byty/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Hradec is building housing cooperative flats for the first time in more than 40 years",
+        "sentences": [
+          {
+            "en": "In the Pouchov area of Hradec, a new neighbourhood of housing cooperative flats is going up on a former brownfield site, a model of housing that is returning to the city after more than forty years.",
+            "cs": "V hradecké lokalitě Pouchov vzniká na místě bývalého brownfieldu nová čtvrť s družstevními byty, tedy modelem bydlení, který se ve městě po více než čtyřiceti letech vrací."
+          },
+          {
+            "en": "According to Hradecký deník it is meant to be a more affordable route to a flat of your own than a mortgage, regardless of age or strict bank limits.",
+            "cs": "Podle Hradeckého deníku má jít o finančně schůdnější cestu k vlastnímu bytu než přes hypotéku, bez ohledu na věk či přísné bankovní limity."
+          },
+          {
+            "en": "The city hall is coming with a cooperative scheme of its own as well.",
+            "cs": "S vlastním družstevním záměrem přichází i radnice."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "brownfield",
+            "definition": "land that was used for industry before and is now empty"
+          },
+          {
+            "term": "affordable",
+            "definition": "cheap enough for people to be able to pay for it"
+          },
+          {
+            "term": "mortgage",
+            "definition": "a loan from a bank used to buy a home"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "21:22",
+      "day": "prev",
+      "headline": "Fotbalisté Hradce remizovali v dohrávce s Plzní 0:0",
+      "body": "Hradec Králové v dohrávce 5. kola Chance Ligy doma remizoval s Plzní 0:0 a poprvé v ligové sezoně doma ztratil body. Hosté dohrávali závěr bez vyloučeného Denise Vavra, Východočeši jsou v tabulce osmí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/fotbal/899781-fotbaliste-hradce-remizovali-v-dohravce-0-0-s-plzni-ktera-dohravala-v.html"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-5-kolo-plzen-hradec-kralove-online-dohravka.A260909_110517_fotbal_tals#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Hradec's footballers drew 0:0 with Plzeň in a rescheduled match",
+        "sentences": [
+          {
+            "en": "Hradec Králové drew 0:0 at home with Plzeň in the rescheduled fifth round of the Chance Liga and dropped points at home for the first time this league season.",
+            "cs": "Hradec Králové v dohrávce 5. kola Chance Ligy doma remizoval s Plzní 0:0 a poprvé v ligové sezoně doma ztratil body."
+          },
+          {
+            "en": "The visitors played out the closing stages without Denis Vavro, who was sent off, and the East Bohemian side are eighth in the table.",
+            "cs": "Hosté dohrávali závěr bez vyloučeného Denise Vavra, Východočeši jsou v tabulce osmí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rescheduled",
+            "definition": "moved to a different date"
+          },
+          {
+            "term": "sent off",
+            "definition": "ordered by the referee to leave the pitch"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:29",
+      "headline": "NATO podle Reuters překazilo ruským ponorkám sabotáž kabelů u Špicberků",
+      "body": "Armády zemí Severoatlantické aliance překazily sabotáž ruských ponorek, které poblíž souostroví Špicberky nacvičovaly poškozování podmořských kabelů. Operaci, při níž Rusko podle ČT24 zkoušelo sofistikovanou vojenskou techniku nezanechávající stopy, odhalily na jaře armády Spojených států, Británie a Norska; napsala to agentura Reuters s odvoláním na dva nejmenované zdroje. Podle Seznam Zpráv se spojeneckým plavidlům a letadlům podařilo ponorky vypátrat dřív, než novou tajnou zbraň určenou k poškození kabelů nasadily.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/akce-nato-odradila-ruske-ponorky-od-poskozeni-kabelu-u-spicberku-377446"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusove-chteli-u-spicberku-otestovat-novou-tajnou-zbran-nato-to-odhalilo-315062"
+        }
+      ],
+      "en": {
+        "headline": "NATO thwarted a Russian submarine sabotage of cables near Svalbard, Reuters reports",
+        "sentences": [
+          {
+            "en": "The armed forces of NATO countries thwarted an act of sabotage by Russian submarines that were rehearsing the damaging of undersea cables near the Svalbard archipelago.",
+            "cs": "Armády zemí Severoatlantické aliance překazily sabotáž ruských ponorek, které poblíž souostroví Špicberky nacvičovaly poškozování podmořských kabelů."
+          },
+          {
+            "en": "The operation, in which Russia was according to ČT24 testing sophisticated military equipment that leaves no traces, was uncovered in the spring by the armed forces of the United States, Britain and Norway; the Reuters agency reported this, citing two unnamed sources.",
+            "cs": "Operaci, při níž Rusko podle ČT24 zkoušelo sofistikovanou vojenskou techniku nezanechávající stopy, odhalily na jaře armády Spojených států, Británie a Norska; napsala to agentura Reuters s odvoláním na dva nejmenované zdroje."
+          },
+          {
+            "en": "According to Seznam Zprávy, allied vessels and aircraft managed to track down the submarines before they could deploy a new secret weapon designed to damage the cables.",
+            "cs": "Podle Seznam Zpráv se spojeneckým plavidlům a letadlům podařilo ponorky vypátrat dřív, než novou tajnou zbraň určenou k poškození kabelů nasadily."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "thwarted",
+            "definition": "stopped something from happening"
+          },
+          {
+            "term": "archipelago",
+            "definition": "a group of islands"
+          },
+          {
+            "term": "vessels",
+            "definition": "ships or large boats"
+          },
+          {
+            "term": "deploy",
+            "definition": "to move something into position so that it can be used"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:06",
+      "headline": "Při požáru lodi v čínském přístavu Čching-tao zemřelo nejméně 25 lidí",
+      "body": "Nejméně 25 lidí zahynulo při požáru nákladní lodi v čínském přístavu Čching-tao, informovala místní státní média. Ze 42 lidí na palubě se dvanáct podařilo evakuovat a pět zraněných skončilo v nemocnici ve stabilním stavu, po dalších pěti záchranáři pátrají. Podle Seznam Zpráv šlo o loděnici vlastníka největšího čínského výrobce lodí a oheň se podařilo uhasit až po několika hodinách. Prezident Si vyzval k pátrání po pohřešovaných.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-lodi-v-cinskem-pristavu-vypukl-pozar-mrtvych-jsou-desitky-377450"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pozar-na-lodi-v-cinskem-pristavu-si-vyzadal-nejmene-20-obeti-315074"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180481/"
+        }
+      ],
+      "en": {
+        "headline": "At least 25 people died in a ship fire in the Chinese port of Qingdao",
+        "sentences": [
+          {
+            "en": "At least 25 people died in a fire on a cargo ship in the Chinese port of Qingdao, local state media reported.",
+            "cs": "Nejméně 25 lidí zahynulo při požáru nákladní lodi v čínském přístavu Čching-tao, informovala místní státní média."
+          },
+          {
+            "en": "Of the 42 people on board, twelve were evacuated and five injured were taken to hospital in a stable condition, while rescuers are searching for another five.",
+            "cs": "Ze 42 lidí na palubě se dvanáct podařilo evakuovat a pět zraněných skončilo v nemocnici ve stabilním stavu, po dalších pěti záchranáři pátrají."
+          },
+          {
+            "en": "According to Seznam Zprávy it was a shipyard belonging to the owner of China's largest shipbuilder, and the fire was only put out after several hours.",
+            "cs": "Podle Seznam Zpráv šlo o loděnici vlastníka největšího čínského výrobce lodí a oheň se podařilo uhasit až po několika hodinách."
+          },
+          {
+            "en": "President Xi called for a search for the missing.",
+            "cs": "Prezident Si vyzval k pátrání po pohřešovaných."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cargo",
+            "definition": "goods carried by a ship, plane or lorry"
+          },
+          {
+            "term": "shipyard",
+            "definition": "a place where ships are built or repaired"
+          },
+          {
+            "term": "put out",
+            "definition": "to stop a fire from burning"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:55",
+      "headline": "Muž zadržený kvůli sabotážím v Německu měl seznam více než 160 cílů",
+      "body": "V obytném voze muže zadrženého kvůli sabotážím na německých elektrických stanicích našla policie poznámky s více než 160 cíli, sdělil zemský ministr Herbert Reul. Vyšetřovatelé se proto domnívají, že série útoků by pokračovala. Podle Seznam Zpráv chtěl zadržený zřejmě způsobit blackout; na některých místech podomácku vyrobenými raketami střílel drát přes vedení vysokého napětí a způsoboval zkrat.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-muz-podezrely-ze-sabotazi-v-nemecku-mel-seznam-vic-nez-160-cilu-315094"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180664/"
+        }
+      ],
+      "en": {
+        "headline": "The man arrested over sabotage in Germany had a list of more than 160 targets",
+        "sentences": [
+          {
+            "en": "In the caravan of a man arrested over sabotage at German electrical substations, police found notes listing more than 160 targets, the regional minister Herbert Reul said.",
+            "cs": "V obytném voze muže zadrženého kvůli sabotážím na německých elektrických stanicích našla policie poznámky s více než 160 cíli, sdělil zemský ministr Herbert Reul."
+          },
+          {
+            "en": "Investigators therefore believe the series of attacks would have continued.",
+            "cs": "Vyšetřovatelé se proto domnívají, že série útoků by pokračovala."
+          },
+          {
+            "en": "According to Seznam Zprávy the detained man probably wanted to cause a blackout; at some sites he used homemade rockets to shoot wire over high-voltage lines and cause a short circuit.",
+            "cs": "Podle Seznam Zpráv chtěl zadržený zřejmě způsobit blackout; na některých místech podomácku vyrobenými raketami střílel drát přes vedení vysokého napětí a způsoboval zkrat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "substations",
+            "definition": "places where electricity is changed to a different voltage"
+          },
+          {
+            "term": "caravan",
+            "definition": "a vehicle you can live in that is pulled by a car"
+          },
+          {
+            "term": "blackout",
+            "definition": "a period when the electricity supply stops"
+          },
+          {
+            "term": "short circuit",
+            "definition": "a fault where electricity takes a wrong, direct path"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "07:54",
+      "headline": "Ukrajinské drony zaútočily na ruský přístav Machačkala u Kaspického moře",
+      "body": "Ukrajinské drony v noci na čtvrtek zaútočily na Machačkalu, která leží na jihu Ruské federace na západním pobřeží Kaspického moře. Ukrajinský přístav Mykolajiv po ruském útoku hlásí čtyři mrtvé, další oběti jsou v Dnipru.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajinske-drony-zautocily-na-pristav-v-machackale-377434"
+        }
+      ],
+      "en": {
+        "headline": "Ukrainian drones attacked the Russian port of Makhachkala on the Caspian Sea",
+        "sentences": [
+          {
+            "en": "Ukrainian drones attacked Makhachkala, which lies in the south of the Russian Federation on the western shore of the Caspian Sea, overnight into Thursday.",
+            "cs": "Ukrajinské drony v noci na čtvrtek zaútočily na Machačkalu, která leží na jihu Ruské federace na západním pobřeží Kaspického moře."
+          },
+          {
+            "en": "The Ukrainian port of Mykolaiv is reporting four dead after a Russian attack, and there are further casualties in Dnipro.",
+            "cs": "Ukrajinský přístav Mykolajiv po ruském útoku hlásí čtyři mrtvé, další oběti jsou v Dnipru."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overnight",
+            "definition": "during the night"
+          },
+          {
+            "term": "casualties",
+            "definition": "people killed or injured in an event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:30",
+      "headline": "Země V4 podle Fica odmítají škrty v kohezní a zemědělské politice EU",
+      "body": "Země Visegrádské čtyřky jsou proti škrtům v kohezní a zemědělské politice v příštím rozpočtu Evropské unie, uvedl slovenský premiér Robert Fico na tiskové konferenci po jednání premiérů V4 s irským kolegou Micheálem Martinem v Bratislavě. Irsko, které nyní předsedá Radě EU, si klade rozpočet unie za prioritu. Česko na jednání zastupuje premiér Andrej Babiš.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zeme-v4-podle-fica-odmitaji-skrty-v-kohezni-a-zemedelske-politice-eu-315098"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180693/"
+        }
+      ],
+      "en": {
+        "headline": "The V4 countries reject cuts to EU cohesion and agricultural policy, Fico says",
+        "sentences": [
+          {
+            "en": "The Visegrád Four countries are against cuts to cohesion and agricultural policy in the next European Union budget, the Slovak Prime Minister Robert Fico said at a press conference after a meeting of the V4 prime ministers with their Irish counterpart Micheál Martin in Bratislava.",
+            "cs": "Země Visegrádské čtyřky jsou proti škrtům v kohezní a zemědělské politice v příštím rozpočtu Evropské unie, uvedl slovenský premiér Robert Fico na tiskové konferenci po jednání premiérů V4 s irským kolegou Micheálem Martinem v Bratislavě."
+          },
+          {
+            "en": "Ireland, which currently holds the presidency of the Council of the EU, makes the union's budget a priority.",
+            "cs": "Irsko, které nyní předsedá Radě EU, si klade rozpočet unie za prioritu."
+          },
+          {
+            "en": "The Czech Republic is represented at the talks by Prime Minister Andrej Babiš.",
+            "cs": "Česko na jednání zastupuje premiér Andrej Babiš."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cohesion",
+            "definition": "in the EU, funding meant to reduce differences between regions"
+          },
+          {
+            "term": "counterpart",
+            "definition": "a person with the same job in another country or organisation"
+          },
+          {
+            "term": "presidency",
+            "definition": "the position of leading an organisation for a set period"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:43",
+      "headline": "ECB zvýšila sazby o čtvrt bodu, depozitní sazba je na 2,50 procenta",
+      "body": "Evropská centrální banka podle očekávání zvýšila úrokové sazby o další čtvrtinu procentního bodu, depozitní sazba tak vzrostla na 2,50 procenta. Banka upozornila, že konflikt na Blízkém východě nadále vytváří inflační tlaky, a předpověděla, že inflace zůstane po delší dobu nad dvouprocentním cílem; meziroční inflace v eurozóně v srpnu zrychlila na 3,3 procenta. E15 dodává, že rozhodnutí přichází týden před zasedáním České národní banky, která bude o nastavení tuzemských sazeb rozhodovat ve čtvrtek 17. září.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/ecb-pod-tlakem-drazsich-energii-zvysila-sazby-inflace-v-eurozone-zrychluje-kvuli-valce-na-blizkem-vychode-1435702"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-evropska-centarlni-banka-zvysila-uroky-o-ctvrt-procentniho-bodu-315090"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180565/"
+        }
+      ],
+      "en": {
+        "headline": "The ECB raised rates by a quarter point, taking the deposit rate to 2.50 percent",
+        "sentences": [
+          {
+            "en": "The European Central Bank raised interest rates by another quarter of a percentage point, as expected, and the deposit rate thus rose to 2.50 percent.",
+            "cs": "Evropská centrální banka podle očekávání zvýšila úrokové sazby o další čtvrtinu procentního bodu, depozitní sazba tak vzrostla na 2,50 procenta."
+          },
+          {
+            "en": "The bank warned that the conflict in the Middle East continues to create inflationary pressures and forecast that inflation will stay above its two percent target for a longer period; year-on-year inflation in the eurozone accelerated to 3.3 percent in August.",
+            "cs": "Banka upozornila, že konflikt na Blízkém východě nadále vytváří inflační tlaky, a předpověděla, že inflace zůstane po delší dobu nad dvouprocentním cílem; meziroční inflace v eurozóně v srpnu zrychlila na 3,3 procenta."
+          },
+          {
+            "en": "E15 adds that the decision comes a week before the meeting of the Czech National Bank, which will decide on domestic interest rates on Thursday 17 September.",
+            "cs": "E15 dodává, že rozhodnutí přichází týden před zasedáním České národní banky, která bude o nastavení tuzemských sazeb rozhodovat ve čtvrtek 17. září."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deposit rate",
+            "definition": "the interest a central bank pays banks on money they park with it"
+          },
+          {
+            "term": "inflationary",
+            "definition": "causing prices to rise"
+          },
+          {
+            "term": "forecast",
+            "definition": "to say what is likely to happen in the future"
+          },
+          {
+            "term": "year-on-year",
+            "definition": "compared with the same period one year earlier"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:59",
+      "headline": "Česká inflace v srpnu zrychlila na 1,9 procenta, benzin je nejdražší za čtyři roky",
+      "body": "Spotřebitelské ceny v Česku v srpnu zrychlily meziroční růst na 1,9 procenta z červencových 1,7 procenta, meziměsíčně vzrostly o 0,3 procenta, potvrdil Český statistický úřad. Zdražovaly především pohonné hmoty, naopak trvanlivé mléko a vepřové maso byly meziročně levnější skoro o čtvrtinu a máslo téměř o dvě pětiny. Podle E15 je benzin nejdražší za poslední čtyři roky a vláda zatím odmítla znovu omezovat marže pumpařů nebo snižovat spotřební daň. Cena americké lehké ropy West Texas Intermediate se dnes poprvé od května dostala nad sto dolarů za barel, severomořská ropa Brent se vyšplhala až do blízkosti 106 dolarů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/zdrazovani-tahnou-pohonne-hmoty-potraviny-zlevnily-377437"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/benzin-je-nejdrazsi-za-posledni-ctyri-roky-babisova-vlada-do-cen-zatim-zasahovat-nechce-1435691"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180742/"
+        }
+      ],
+      "en": {
+        "headline": "Czech inflation accelerated to 1.9 percent in August and petrol is the most expensive in four years",
+        "sentences": [
+          {
+            "en": "Consumer prices in the Czech Republic accelerated their year-on-year growth to 1.9 percent in August from 1.7 percent in July and rose by 0.3 percent month on month, the Czech Statistical Office confirmed.",
+            "cs": "Spotřebitelské ceny v Česku v srpnu zrychlily meziroční růst na 1,9 procenta z červencových 1,7 procenta, meziměsíčně vzrostly o 0,3 procenta, potvrdil Český statistický úřad."
+          },
+          {
+            "en": "Fuel prices rose above all, while long-life milk and pork were almost a quarter cheaper than a year earlier and butter nearly two fifths cheaper.",
+            "cs": "Zdražovaly především pohonné hmoty, naopak trvanlivé mléko a vepřové maso byly meziročně levnější skoro o čtvrtinu a máslo téměř o dvě pětiny."
+          },
+          {
+            "en": "According to E15, petrol is the most expensive it has been in four years and the government has so far refused to cap filling station margins again or to cut excise duty.",
+            "cs": "Podle E15 je benzin nejdražší za poslední čtyři roky a vláda zatím odmítla znovu omezovat marže pumpařů nebo snižovat spotřební daň."
+          },
+          {
+            "en": "The price of American light crude, West Texas Intermediate, rose above one hundred dollars a barrel today for the first time since May, and North Sea Brent climbed close to 106 dollars.",
+            "cs": "Cena americké lehké ropy West Texas Intermediate se dnes poprvé od května dostala nad sto dolarů za barel, severomořská ropa Brent se vyšplhala až do blízkosti 106 dolarů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "margins",
+            "definition": "the difference between what a seller pays and the price charged"
+          },
+          {
+            "term": "excise duty",
+            "definition": "a tax on certain goods such as fuel or alcohol"
+          },
+          {
+            "term": "crude",
+            "definition": "oil in its natural state, before it is refined"
+          },
+          {
+            "term": "barrel",
+            "definition": "a unit used to measure oil, about 159 litres"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:16",
+      "headline": "Volkswagen odhaduje náklady na rušení pracovních míst na deset miliard eur",
+      "body": "Německý koncern Volkswagen předpokládá, že náklady na restrukturalizaci spojenou s rušením pracovních míst do roku 2030 dosáhnou deseti miliard eur, tedy přes 242 miliard korun. Napsal to server týdeníku Der Spiegel s odvoláním na usnesení dozorčí rady a další firemní dokumenty. Pokud by se naplnila hrozba uzavření závodů, hovoří interní odhady podle informovaného zdroje agentury Reuters až o šestnácti miliardách eur. Podle E15 jde o rušení až sta tisíc míst a úsporný plán schválila dozorčí rada po ostrých sporech s odbory a spolkovou zemí Dolní Sasko; vedení zvažuje útlum výroby v závodech jako Cvikov či Hannover, zaručenou budoucnost má zatím jen továrna v Osnabrücku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/volkswagen-spocital-cenu-za-nejvetsi-skrty-v-historii-restrukturalizace-spolkne-stovky-miliard-1435698"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-restrukturalizace-volkswagenu-muze-stat-od-deseti-do-16-miliard-eur-315067"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180581/"
+        }
+      ],
+      "en": {
+        "headline": "Volkswagen puts the cost of cutting jobs at ten billion euros",
+        "sentences": [
+          {
+            "en": "The German group Volkswagen expects the cost of the restructuring linked to job cuts to reach ten billion euros, or more than 242 billion crowns, by 2030.",
+            "cs": "Německý koncern Volkswagen předpokládá, že náklady na restrukturalizaci spojenou s rušením pracovních míst do roku 2030 dosáhnou deseti miliard eur, tedy přes 242 miliard korun."
+          },
+          {
+            "en": "The website of the weekly Der Spiegel reported this, citing a resolution of the supervisory board and other company documents.",
+            "cs": "Napsal to server týdeníku Der Spiegel s odvoláním na usnesení dozorčí rady a další firemní dokumenty."
+          },
+          {
+            "en": "If the threat of plant closures were to materialise, internal estimates put the figure at up to sixteen billion euros, according to a source familiar with the matter quoted by the Reuters agency.",
+            "cs": "Pokud by se naplnila hrozba uzavření závodů, hovoří interní odhady podle informovaného zdroje agentury Reuters až o šestnácti miliardách eur."
+          },
+          {
+            "en": "According to E15, up to a hundred thousand jobs are to go and the savings plan was approved by the supervisory board after sharp disputes with the unions and the state of Lower Saxony; management is considering scaling back production at plants such as Zwickau and Hanover, and only the Osnabrück factory has a guaranteed future so far.",
+            "cs": "Podle E15 jde o rušení až sta tisíc míst a úsporný plán schválila dozorčí rada po ostrých sporech s odbory a spolkovou zemí Dolní Sasko; vedení zvažuje útlum výroby v závodech jako Cvikov či Hannover, zaručenou budoucnost má zatím jen továrna v Osnabrücku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "restructuring",
+            "definition": "changing the way a company is organised"
+          },
+          {
+            "term": "supervisory board",
+            "definition": "a body that watches over how a company is run"
+          },
+          {
+            "term": "materialise",
+            "definition": "to actually happen"
+          },
+          {
+            "term": "unions",
+            "definition": "organisations that protect the rights of workers"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "22:36",
+      "day": "prev",
+      "headline": "Sněmovna definitivně schválila návrat elektronické evidence tržeb",
+      "body": "Sněmovna přehlasovala Senát a definitivně schválila návrat elektronické evidence tržeb od příštího roku. Nová EET se na rozdíl od původní verze bude vztahovat také na bezhotovostní platby. Zákon podle E15 zároveň vrací školkovné a slevu pro studenty a veřejným rozpočtům má přinést miliardy korun.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/eet-se-definitivne-vraci-podnikatele-budou-evidovat-i-platby-kterych-se-drive-netykala-1435678"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies has definitively approved the return of electronic sales records",
+        "sentences": [
+          {
+            "en": "The Chamber of Deputies overrode the Senate and definitively approved the return of electronic sales records from next year.",
+            "cs": "Sněmovna přehlasovala Senát a definitivně schválila návrat elektronické evidence tržeb od příštího roku."
+          },
+          {
+            "en": "Unlike the original version, the new system will also apply to cashless payments.",
+            "cs": "Nová EET se na rozdíl od původní verze bude vztahovat také na bezhotovostní platby."
+          },
+          {
+            "en": "According to E15, the law also brings back the preschool tax credit and the student allowance, and is meant to bring billions of crowns to public budgets.",
+            "cs": "Zákon podle E15 zároveň vrací školkovné a slevu pro studenty a veřejným rozpočtům má přinést miliardy korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overrode",
+            "definition": "used its power to reject a decision made by another body"
+          },
+          {
+            "term": "cashless",
+            "definition": "done without cash, for example by card"
+          },
+          {
+            "term": "allowance",
+            "definition": "an amount you are allowed to take off your tax or receive"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:11",
+      "headline": "DeepSeek zveřejnil model V4.1 Flash",
+      "body": "Čínská laboratoř DeepSeek zveřejnila na platformě Hugging Face model DeepSeek-V4.1-Flash. Oznámení patřilo ve čtvrtek k nejdiskutovanějším příspěvkům na Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907"
+        }
+      ],
+      "en": {
+        "headline": "DeepSeek has released the V4.1 Flash model",
+        "sentences": [
+          {
+            "en": "The Chinese lab DeepSeek has released the DeepSeek-V4.1-Flash model on the Hugging Face platform.",
+            "cs": "Čínská laboratoř DeepSeek zveřejnila na platformě Hugging Face model DeepSeek-V4.1-Flash."
+          },
+          {
+            "en": "The announcement was among the most discussed posts on Hacker News on Thursday.",
+            "cs": "Oznámení patřilo ve čtvrtek k nejdiskutovanějším příspěvkům na Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "released",
+            "definition": "made available to the public"
+          },
+          {
+            "term": "lab",
+            "definition": "a team or place where research is done"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:39",
+      "headline": "Kolem řešení Navierovy–Stokesovy rovnice se rozhořel spor, kdo za ním stojí",
+      "body": "Navazuje na včerejší zprávu o matematickém průlomu s pomocí umělé inteligence. Jedna z nejúpornějších matematických záhad, řešení Navierovy–Stokesovy rovnice, na kterou je vypsána odměna jednoho milionu dolarů, možná došla vyluštění. Podle Deníku N je ale zatím vše sporné a ve hře jsou dva matematici, jedna velká firma a mnoho umělé inteligence. Na Hacker News mezitím rezonuje příspěvek, podle kterého další výzkumník tvrdí, že OpenAI trénovala na konverzacích a pak ohlásila průlom.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2180317/matematika-za-milion-vyresili-staletou-hadanku-lide-nebo-umela-inteligence/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d"
+        }
+      ],
+      "en": {
+        "headline": "A dispute has broken out over who is behind the solution to the Navier–Stokes equation",
+        "sentences": [
+          {
+            "en": "This follows on from yesterday's report about a mathematical breakthrough achieved with the help of artificial intelligence.",
+            "cs": "Navazuje na včerejší zprávu o matematickém průlomu s pomocí umělé inteligence."
+          },
+          {
+            "en": "One of the most stubborn mathematical puzzles, the solution to the Navier–Stokes equation, for which a reward of one million dollars is on offer, may have been cracked.",
+            "cs": "Jedna z nejúpornějších matematických záhad, řešení Navierovy–Stokesovy rovnice, na kterou je vypsána odměna jednoho milionu dolarů, možná došla vyluštění."
+          },
+          {
+            "en": "According to Deník N, however, everything is disputed so far, and two mathematicians, one large company and a great deal of artificial intelligence are in play.",
+            "cs": "Podle Deníku N je ale zatím vše sporné a ve hře jsou dva matematici, jedna velká firma a mnoho umělé inteligence."
+          },
+          {
+            "en": "Hacker News is meanwhile buzzing with a post in which another researcher claims that OpenAI trained on conversations and then announced a breakthrough.",
+            "cs": "Na Hacker News mezitím rezonuje příspěvek, podle kterého další výzkumník tvrdí, že OpenAI trénovala na konverzacích a pak ohlásila průlom."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "breakthrough",
+            "definition": "an important discovery or step forward"
+          },
+          {
+            "term": "stubborn",
+            "definition": "hard to deal with or get rid of"
+          },
+          {
+            "term": "cracked",
+            "definition": "solved a very difficult problem"
+          },
+          {
+            "term": "buzzing",
+            "definition": "full of excited activity and talk"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:09",
+      "headline": "Apple představil skládací iPhone Duo, v Česku bude stát přes padesát tisíc",
+      "body": "Apple ukázal svůj první skládací telefon iPhone Duo, který se začne na podzim prodávat i v Česku od 54 990 korun a po rozložení nabídne velký displej podobný iPadu. Vedle něj firma představila další telefony, hodinky sledující konverzace uživatele, vylepšená sluchátka a novou verzi operačního systému. Podle E15 vstupuje Apple na trh skládacích telefonů sedm let po Samsungu a podle odhadu analytiků IDC se může už do roka stát jeho jedničkou. Deník N píše, že novinky se téměř jistě budou dobře prodávat, překvapit však nemají čím.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2180016/skladaci-telefon-v-cene-spickoveho-notebooku-apple-predvedl-letosni-novinky/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/apple-ukazal-prvni-skladaci-iphone-v-cesku-bude-stat-pres-50-tisic-korun-1435677"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.apple.com/iphone-duo/"
+        }
+      ],
+      "en": {
+        "headline": "Apple has unveiled the folding iPhone Duo, which will cost over fifty thousand crowns in the Czech Republic",
+        "sentences": [
+          {
+            "en": "Apple showed its first folding phone, the iPhone Duo, which will go on sale in the autumn in the Czech Republic too from 54,990 crowns and which unfolds into a large display similar to an iPad.",
+            "cs": "Apple ukázal svůj první skládací telefon iPhone Duo, který se začne na podzim prodávat i v Česku od 54 990 korun a po rozložení nabídne velký displej podobný iPadu."
+          },
+          {
+            "en": "Alongside it the company presented further phones, a watch that tracks the user's conversations, improved headphones and a new version of its operating system.",
+            "cs": "Vedle něj firma představila další telefony, hodinky sledující konverzace uživatele, vylepšená sluchátka a novou verzi operačního systému."
+          },
+          {
+            "en": "According to E15, Apple is entering the folding phone market seven years after Samsung and, on the estimates of IDC, could become its leader within a year.",
+            "cs": "Podle E15 vstupuje Apple na trh skládacích telefonů sedm let po Samsungu a podle odhadu analytiků IDC se může už do roka stát jeho jedničkou."
+          },
+          {
+            "en": "Deník N writes that the new products will almost certainly sell well, but have nothing to surprise anyone with.",
+            "cs": "Deník N píše, že novinky se téměř jistě budou dobře prodávat, překvapit však nemají čím."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unveiled",
+            "definition": "shown to the public for the first time"
+          },
+          {
+            "term": "unfolds",
+            "definition": "opens out from a folded position"
+          },
+          {
+            "term": "estimates",
+            "definition": "figures based on judgement rather than exact counting"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:14",
+      "headline": "Švýcarská vláda nahrazuje Microsoft 365 open source softwarem na třech tisících počítačů",
+      "body": "Švýcarská federální vláda spustila pilotní program, jehož cílem je nahradit sadu Microsoft 365 alternativami s otevřeným zdrojovým kódem na třech tisících pracovních stanic, což je zhruba sedm procent federálních zaměstnanců. Do migrace plánuje investovat devět milionů švýcarských franků, přibližně čtvrt miliardy korun, a dokončit ji chce do konce roku 2027.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/svycarska-federalni-vlada-nahrazuje-software-microsoftu-na-3000-pocitacich/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "The Swiss government is replacing Microsoft 365 with open source software on three thousand computers",
+        "sentences": [
+          {
+            "en": "The Swiss federal government has launched a pilot programme aimed at replacing the Microsoft 365 suite with open source alternatives on three thousand workstations, which is roughly seven percent of federal employees.",
+            "cs": "Švýcarská federální vláda spustila pilotní program, jehož cílem je nahradit sadu Microsoft 365 alternativami s otevřeným zdrojovým kódem na třech tisících pracovních stanic, což je zhruba sedm procent federálních zaměstnanců."
+          },
+          {
+            "en": "It plans to invest nine million Swiss francs, about a quarter of a billion crowns, in the migration and wants to complete it by the end of 2027.",
+            "cs": "Do migrace plánuje investovat devět milionů švýcarských franků, přibližně čtvrt miliardy korun, a dokončit ji chce do konce roku 2027."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "suite",
+            "definition": "a set of software programs sold together"
+          },
+          {
+            "term": "workstations",
+            "definition": "computers used by one person at work"
+          },
+          {
+            "term": "migration",
+            "definition": "moving data or systems from one place to another"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:00",
+      "headline": "Čeští žáci mají ke škole jeden z nejhorších vztahů na světě, ukazují data PISA",
+      "body": "Výsledky českých patnáctiletých v mezinárodním výzkumu PISA sice klesají, z mezinárodního pohledu ale zůstávají nad průměrem; podle Seznam Zpráv je Česko téměř nejhorší na světě v tom, jaký mají žáci ke škole vztah a jak neradi do ní chodí. Schopnosti patnáctiletých přitom podle Deníku N prudce klesají po celém světě a autoři studie propad připisují zejména digitalizaci, umělé inteligenci a nezájmu o čtení knih, byť to není jednoznačné. E15 dodává, že si čeští žáci za tři roky pohoršili o dvacet bodů a nejlepší evropskou zemí žebříčku je Estonsko, čtvrté na světě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kampus-zakladni-vzdelavani-deti-maji-skolu-za-misto-frustrace-nejcasteji-z-vyspeleho-sveta-ucitele-naopak-315000"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2179158/schopnosti-zaku-globalne-prudce-klesaji-experti-vini-digitalizaci-i-nezajem-o-cetbu/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/nazory-a-analyzy/mladi-cinane-korejci-japonci-ale-i-americane-a-kanadane-toho-znaji-a-umeji-vic-nez-vetsina-evropanu-1435679"
+        }
+      ],
+      "en": {
+        "headline": "Czech pupils have one of the worst attitudes to school in the world, PISA data show",
+        "sentences": [
+          {
+            "en": "The results of Czech fifteen-year-olds in the international PISA study are falling, but from an international perspective they remain above average; according to Seznam Zprávy the Czech Republic is close to the worst in the world when it comes to pupils' attitude to school and how reluctantly they go there.",
+            "cs": "Výsledky českých patnáctiletých v mezinárodním výzkumu PISA sice klesají, z mezinárodního pohledu ale zůstávají nad průměrem; podle Seznam Zpráv je Česko téměř nejhorší na světě v tom, jaký mají žáci ke škole vztah a jak neradi do ní chodí."
+          },
+          {
+            "en": "The abilities of fifteen-year-olds are meanwhile falling sharply all over the world, Deník N reports, and the authors of the study attribute the drop above all to digitalisation, artificial intelligence and a lack of interest in reading books, although this is not clear-cut.",
+            "cs": "Schopnosti patnáctiletých přitom podle Deníku N prudce klesají po celém světě a autoři studie propad připisují zejména digitalizaci, umělé inteligenci a nezájmu o čtení knih, byť to není jednoznačné."
+          },
+          {
+            "en": "E15 adds that Czech pupils have dropped twenty points in three years and that the best European country in the ranking is Estonia, fourth in the world.",
+            "cs": "E15 dodává, že si čeští žáci za tři roky pohoršili o dvacet bodů a nejlepší evropskou zemí žebříčku je Estonsko, čtvrté na světě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reluctantly",
+            "definition": "in a way that shows you do not want to do something"
+          },
+          {
+            "term": "attribute",
+            "definition": "to say that something is caused by something else"
+          },
+          {
+            "term": "clear-cut",
+            "definition": "clear and certain, with no doubt"
+          },
+          {
+            "term": "ranking",
+            "definition": "a list showing positions from best to worst"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "05:00",
+      "headline": "Ruský dům v Praze podle Voxpotu dál vybírá poplatky za jazykové zkoušky navzdory sankcím",
+      "body": "Ruský dům v Praze dál vybírá poplatky za jazykové zkoušky a kurzy, přestože jeho mateřská organizace je od roku 2022 na unijním sankčním seznamu. Stát i školy podle reportáže Voxpotu přehazují odpovědnost na studenty, kteří tím porušují sankce.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/maturitu-z-rustiny-za-hranou-zakona-na-ruske-ambasade-a-v-cashi/"
+        }
+      ],
+      "en": {
+        "headline": "The Russian House in Prague is still charging fees for language exams despite sanctions, Voxpot reports",
+        "sentences": [
+          {
+            "en": "The Russian House in Prague continues to charge fees for language exams and courses, even though its parent organisation has been on the EU sanctions list since 2022.",
+            "cs": "Ruský dům v Praze dál vybírá poplatky za jazykové zkoušky a kurzy, přestože jeho mateřská organizace je od roku 2022 na unijním sankčním seznamu."
+          },
+          {
+            "en": "According to the Voxpot report, both the state and the schools pass responsibility on to the students, who are thereby breaking the sanctions.",
+            "cs": "Stát i školy podle reportáže Voxpotu přehazují odpovědnost na studenty, kteří tím porušují sankce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sanctions",
+            "definition": "official measures used to punish a country or organisation"
+          },
+          {
+            "term": "parent organisation",
+            "definition": "the larger body that owns or controls a smaller one"
+          },
+          {
+            "term": "thereby",
+            "definition": "as a result of the action just mentioned"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:50",
+      "headline": "Sparta zaplatí 600 tisíc za chování fanoušků v derby se Slavií",
+      "body": "Disciplinární komise Ligové fotbalové asociace potrestala Spartu pokutou 600 tisíc korun za chování fanoušků během domácího derby se Slavií v 6. kole první ligy; podle ČT Sport šlo mimo jiné o pyrotechniku a banner s Mladićem. Baník Ostrava zaplatí 300 tisíc korun za provinění svých příznivců v duelu s Olomoucí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/dohra-derby-sparta-zaplati-za-fanousky-pres-pul-milionu-korun-158873"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbalova-sparta-utrzila-dalsi-ranu-po-prohre-03-v-derby-musi-zaplatit-600-tisic_2609101634_lar"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-vyfasovala-drsny-flastr-5532462"
+        }
+      ],
+      "en": {
+        "headline": "Sparta will pay 600,000 for its fans' behaviour in the derby with Slavia",
+        "sentences": [
+          {
+            "en": "The disciplinary committee of the Football League Association fined Sparta 600,000 crowns for its fans' behaviour during the home derby with Slavia in the sixth round of the top league; according to ČT Sport this involved, among other things, pyrotechnics and a banner featuring Mladić.",
+            "cs": "Disciplinární komise Ligové fotbalové asociace potrestala Spartu pokutou 600 tisíc korun za chování fanoušků během domácího derby se Slavií v 6. kole první ligy; podle ČT Sport šlo mimo jiné o pyrotechniku a banner s Mladićem."
+          },
+          {
+            "en": "Baník Ostrava will pay 300,000 crowns for the offences of its supporters in the match against Olomouc.",
+            "cs": "Baník Ostrava zaplatí 300 tisíc korun za provinění svých příznivců v duelu s Olomoucí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "disciplinary",
+            "definition": "connected with punishing people who break rules"
+          },
+          {
+            "term": "fined",
+            "definition": "made someone pay money as a punishment"
+          },
+          {
+            "term": "offences",
+            "definition": "acts that break a rule or a law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:35",
+      "headline": "FC Zlínsko putuje za korupci až do nejnižší soutěže",
+      "body": "Etická komise Fotbalové asociace ČR přeřadila FC Zlínsko za tři případy match fixingu, narušení regulérnosti soutěže a úplatkářství do nejnižší, desáté ligy a udělila mu pokutu 150 tisíc korun. Celek z Otrokovic hrál ještě v minulé sezoně třetí nejvyšší soutěž. START Brno dostal pokutu sto tisíc korun a odečet deseti bodů. Kluby se mohou do pěti dnů odvolat.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-korupce-zlinsko-eticka-komise-fotbalove-asociace-fc-zlinsko_2609101535_ssi"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-tvrdy-trest-za-korupcni-kauzu-cesky-klub-preradili-do-nejnizsi-souteze-5532434"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2180675/"
+        }
+      ],
+      "en": {
+        "headline": "FC Zlínsko is being sent down to the lowest league for corruption",
+        "sentences": [
+          {
+            "en": "The ethics committee of the Football Association of the Czech Republic demoted FC Zlínsko to the lowest, tenth league for three cases of match fixing, interference with the fairness of the competition and bribery, and fined it 150,000 crowns.",
+            "cs": "Etická komise Fotbalové asociace ČR přeřadila FC Zlínsko za tři případy match fixingu, narušení regulérnosti soutěže a úplatkářství do nejnižší, desáté ligy a udělila mu pokutu 150 tisíc korun."
+          },
+          {
+            "en": "The club from Otrokovice was still playing in the third tier last season.",
+            "cs": "Celek z Otrokovic hrál ještě v minulé sezoně třetí nejvyšší soutěž."
+          },
+          {
+            "en": "START Brno was fined one hundred thousand crowns and docked ten points.",
+            "cs": "START Brno dostal pokutu sto tisíc korun a odečet deseti bodů."
+          },
+          {
+            "en": "The clubs may appeal within five days.",
+            "cs": "Kluby se mohou do pěti dnů odvolat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "demoted",
+            "definition": "moved down to a lower level"
+          },
+          {
+            "term": "match fixing",
+            "definition": "arranging a result before a match is played"
+          },
+          {
+            "term": "bribery",
+            "definition": "giving money to get someone to act dishonestly"
+          },
+          {
+            "term": "docked",
+            "definition": "taken away as a punishment"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:50",
+      "day": "prev",
+      "headline": "Sparta v poháru vyhrála na Žižkově 5:0, Sigma vypadla v Prostějově",
+      "body": "Sparta vstoupila do domácího poháru drtivým vítězstvím 5:0 v pražském derby na Žižkově, hattrick dal Matyáš Vojta. Olomouc naopak ve 3. kole vypadla u druholigového Prostějova po penaltovém rozstřelu 3:4 a je prvním vyřazeným prvoligovým týmem letošního MOL Cupu.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-si-po-trapeni-lize-spravila-chut-na-zizkove-sigma-v-poharu-prekvapive-konci-158859"
+        }
+      ],
+      "en": {
+        "headline": "Sparta won 5:0 at Žižkov in the cup, while Sigma went out in Prostějov",
+        "sentences": [
+          {
+            "en": "Sparta opened the domestic cup with a crushing 5:0 win in the Prague derby at Žižkov, with a hat-trick from Matyáš Vojta.",
+            "cs": "Sparta vstoupila do domácího poháru drtivým vítězstvím 5:0 v pražském derby na Žižkově, hattrick dal Matyáš Vojta."
+          },
+          {
+            "en": "Olomouc, by contrast, went out in the third round at second-tier Prostějov after losing 3:4 on penalties, and are the first top-flight side to be knocked out of this year's MOL Cup.",
+            "cs": "Olomouc naopak ve 3. kole vypadla u druholigového Prostějova po penaltovém rozstřelu 3:4 a je prvním vyřazeným prvoligovým týmem letošního MOL Cupu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crushing",
+            "definition": "complete and very one-sided, of a win or defeat"
+          },
+          {
+            "term": "top-flight",
+            "definition": "belonging to the highest league"
+          },
+          {
+            "term": "knocked out",
+            "definition": "removed from a competition by losing"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:56",
+      "day": "prev",
+      "headline": "PSG deklasovalo v Lize mistrů Slovan 6:1, Barcelona dala pět gólů Feyenoordu",
+      "body": "Paris St. Germain porazilo v úvodním kole Ligy mistrů Slovan Bratislava 6:1, Barcelona zdolala Feyenoord Rotterdam 5:1, Liverpool vyhrál 2:1 nad Atlétikem Madrid a Arsenalu stačila na Neapol jediná branka. Obránce Slovanu Sahmkou Camara, který hostuje ze Slavie, podle Sport.cz necelou minutu po příchodu na hřiště chyboval v rozehrávce a Ousmane Dembélé z toho dal druhý gól PSG.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/barcelona-nasazela-feyenoordu-pet-golu-stuttgart-si-proti-stavangeru-vystacil-se-tremi-158863"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-sotva-naskocil-daroval-psg-gol-slavista-zazil-hororovy-vstup-do-ligy-mistru-5532422"
+        }
+      ],
+      "en": {
+        "headline": "PSG thrashed Slovan 6:1 in the Champions League and Barcelona put five past Feyenoord",
+        "sentences": [
+          {
+            "en": "Paris St. Germain beat Slovan Bratislava 6:1 in the opening round of the Champions League, Barcelona saw off Feyenoord Rotterdam 5:1, Liverpool won 2:1 against Atlético Madrid, and a single goal was enough for Arsenal against Napoli.",
+            "cs": "Paris St. Germain porazilo v úvodním kole Ligy mistrů Slovan Bratislava 6:1, Barcelona zdolala Feyenoord Rotterdam 5:1, Liverpool vyhrál 2:1 nad Atlétikem Madrid a Arsenalu stačila na Neapol jediná branka."
+          },
+          {
+            "en": "The Slovan defender Sahmkou Camara, who is on loan from Slavia, made a mistake in build-up play less than a minute after coming on and Ousmane Dembélé scored PSG's second goal from it, Sport.cz reports.",
+            "cs": "Obránce Slovanu Sahmkou Camara, který hostuje ze Slavie, podle Sport.cz necelou minutu po příchodu na hřiště chyboval v rozehrávce a Ousmane Dembélé z toho dal druhý gól PSG."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "thrashed",
+            "definition": "beat someone easily by a large score"
+          },
+          {
+            "term": "on loan",
+            "definition": "playing temporarily for another club"
+          },
+          {
+            "term": "coming on",
+            "definition": "entering the pitch as a substitute"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:55",
+      "headline": "Siniaková je ve finále čtyřhry US Open, Rybakinová bude novou světovou jedničkou",
+      "body": "Kateřina Siniaková postoupila s Taylor Townsendovou do finále čtyřhry US Open po výhře 6:0 a 7:6 nad Šnajderovou a Mertensovou; kdyby zvítězily i ve finále proti domácí dvojici Montgomeryová, Kruegerová, stala by se Siniaková první tenistkou, která vyhrála všechny čtyři grandslamy ve čtyřhře už s druhou partnerkou. Ve dvouhře si postupem do semifinále zajistila Jelena Rybakinová první místo světového žebříčku, ze kterého sesadí Arynu Sabalenkovou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/tenis-us-open-katerina-siniakova-taylor-townsendova-wta-ctyrhra_2609101555_ssi"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-je-s-townsendovou-ve-finale-ctyrhry-us-open-158865"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/zensky-tenis-bude-mit-novou-jednicku-rybakinova-po-postupu-na-cele-vystrida-sabalenkovou-158862"
+        }
+      ],
+      "en": {
+        "headline": "Siniaková is in the US Open doubles final and Rybakina will be the new world number one",
+        "sentences": [
+          {
+            "en": "Kateřina Siniaková reached the US Open doubles final with Taylor Townsend after a 6:0, 7:6 win over Shnaider and Mertens; if they were to win the final against the home pair of Montgomery and Krueger, Siniaková would become the first player to have won all four Grand Slams in doubles with a second partner.",
+            "cs": "Kateřina Siniaková postoupila s Taylor Townsendovou do finále čtyřhry US Open po výhře 6:0 a 7:6 nad Šnajderovou a Mertensovou; kdyby zvítězily i ve finále proti domácí dvojici Montgomeryová, Kruegerová, stala by se Siniaková první tenistkou, která vyhrála všechny čtyři grandslamy ve čtyřhře už s druhou partnerkou."
+          },
+          {
+            "en": "In the singles, Jelena Rybakina secured top place in the world rankings by reaching the semi-final, dethroning Aryna Sabalenka.",
+            "cs": "Ve dvouhře si postupem do semifinále zajistila Jelena Rybakinová první místo světového žebříčku, ze kterého sesadí Arynu Sabalenkovou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "doubles",
+            "definition": "a tennis match with two players on each side"
+          },
+          {
+            "term": "secured",
+            "definition": "made certain of getting something"
+          },
+          {
+            "term": "dethroning",
+            "definition": "taking the top position away from someone"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The High Public Prosecutor's Office in Olomouc has charged eight people and one company over rigged transport contracts in the Olomouc Region.",
+    "The European Central Bank raised rates to 2.50 percent, Czech inflation accelerated to 1.9 percent in August, and petrol is the most expensive it has been in four years.",
+    "NATO thwarted Russian submarines rehearsing sabotage of undersea cables near Svalbard, the Reuters agency reports.",
+    "The Václav Havel Library has renamed itself the 1st Presidential Library after disputes with Dagmar Havlová."
+  ]
+}
