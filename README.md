@@ -113,9 +113,9 @@ dvě až čtyři věty o tom podstatném —, hlavní zpráva dne jako otvírák
 rubriky a archiv s prolistováním po dnech. Odkazy na původní články se
 otevírají v novém panelu.
 
-**Přečtená zpráva se sbalí na titulek.** Tlačítko je pod zprávou, tedy
-tam, kde čtenář skončí, a stejným tlačítkem se zpráva zase rozbalí. Stav
-drží localStorage prohlížeče a nikam se neodesílá.
+**Přečtená zpráva se ztlumí.** Přepíná to zaškrtávací tlačítko vpravo na
+řádku se zdroji, tedy tam, kde čtenář skončí. Stav drží localStorage
+prohlížeče a nikam se neodesílá.
 
 ### Dvojjazyčné čtení
 
@@ -123,8 +123,9 @@ Obě jazykové verze jsou v HTML naráz a přepínač jen mění, která se ukaz
 — na statickém webu není kam pro překlad dojet. Volba se pamatuje
 v localStorage.
 
-- **Kliknutí na větu** za ni vloží její české znění, výrazně podbarvené,
-  aby bylo hned vidět, co ke které anglické větě patří.
+- **Kliknutí na větu** za ni vloží její české znění. Výrazně se podbarví
+  ta věta, kterou čteš — v odstavci se hledá nejhůř —, překlad má slabší
+  podbarvení a kurzívu.
 - **Kolečko `EN`/`CS`** v rohu vedle přepínače tmavého režimu přepne celou
   stránku do původního českého znění a zpátky.
 - **Slova nad úroveň B2** jsou tečkovaně podtržená; po kliknutí ukážou

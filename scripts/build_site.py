@@ -928,12 +928,19 @@ article h3 {
 
 article p { margin: 0; }
 
+/* Řádek se zdroji nese vpravo i zaškrtnutí „přečteno" — je to drobnost
+   na okraji čtení, která nemá zabírat vlastní řádek. */
 .sources {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
   margin-top: 0.6rem;
   font-family: var(--sans);
   font-size: 0.78rem;
   color: var(--ink-muted);
 }
+
+.src-list { flex: 1 1 auto; }
 
 .sources a {
   color: var(--ink-muted);
@@ -948,43 +955,44 @@ article p { margin: 0; }
 
 /* ── přečtené zprávy ──────────────────────────────────────────────────── */
 
-/* Přečtená zpráva se sbalí na titulek — tělo i zdroje zmizí a vrátí je
-   až tlačítko pod zprávou. Ve výpisu tak zbude jen to, co dává přehled
-   o dni, a nepřečtené zprávy se hledají snadněji. */
-[data-read-id].read .body,
-[data-read-id].read .sources { display: none; }
-
+/* Přečtená zpráva zůstane celá, jen se ztlumí — ve výpisu je pak vidět,
+   co už má čtenář za sebou, a dá se do ní kdykoli vrátit. Ztlumují se
+   jmenované části, ne celé odstavce: přes ztlumené tlačítko by se
+   přečtení odznačovalo naslepo. */
 [data-read-id].read h2,
-[data-read-id].read h3 { opacity: 0.5; }
-
-[data-read-id].read .stamp { opacity: 0.7; }
+[data-read-id].read h3,
+[data-read-id].read .body,
+[data-read-id].read .src-list { opacity: 0.42; }
 
 .read-mark { display: none; font-weight: 400; color: var(--ink-muted); }
 [data-read-id].read .read-mark { display: inline; }
 
-/* ── tlačítko pod zprávou ─────────────────────────────────────────────── */
-
-.item-foot { margin: 0.85rem 0 0; }
-
+/* Zaškrtnutí „přečteno" stojí vpravo na řádku se zdroji. */
 .tool-read {
-  padding: 0.32rem 0.7rem;
+  flex: 0 0 auto;
+  width: 1.55rem;
+  height: 1.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   border: 1px solid var(--rule);
-  border-radius: 3px;
+  border-radius: 4px;
   background: none;
   color: var(--ink-muted);
   font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1;
   cursor: pointer;
 }
 
 .tool-read:hover { color: var(--accent); border-color: var(--accent); }
 
-.tool-read .lbl-off { display: none; }
-[data-read-id].read .tool-read .lbl-on { display: none; }
-[data-read-id].read .tool-read .lbl-off { display: inline; }
+[data-read-id].read .tool-read {
+  color: var(--paper);
+  background: var(--rule-strong);
+  border-color: var(--rule-strong);
+}
 
 /* ── navigace a patička ───────────────────────────────────────────────── */
 
@@ -1077,25 +1085,27 @@ footer a { color: var(--accent); }
 .s:focus { outline: none; }
 .s:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* Rozkliknutá věta: originál se podbarví slabě, překlad výrazně, aby
-   bylo poznat, co ke komu patří. */
+/* Rozkliknutá věta: výrazně se podbarví **čtená** věta, protože ta se
+   v odstavci hledá nejhůř — je potřeba vidět, kde začíná a kde končí.
+   Překlad pod ní odlišuje kurzíva, takže mu stačí slabší podbarvení. */
 .s.open > .t-en,
 :root[data-lang="cs"] .s.open > .t-cs {
-  background: color-mix(in srgb, var(--accent) 13%, transparent);
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
   border-radius: 2px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+  padding: 0.04em 0.12em;
 }
 
 .s.open > .t-cs,
 :root[data-lang="cs"] .s.open > .t-en {
   display: inline;
-  background: color-mix(in srgb, var(--accent) 26%, transparent);
+  background: color-mix(in srgb, var(--accent) 11%, transparent);
   border-radius: 2px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  padding: 0.05em 0.2em;
-  margin-left: 0.25em;
+  padding: 0.04em 0.2em;
+  margin-left: 0.3em;
   font-style: italic;
   color: var(--ink);
 }
@@ -1212,7 +1222,7 @@ footer a { color: var(--accent); }
 .lead li:last-child { margin-bottom: 0; }
 
 @media print {
-  .theme-toggle, .lang-toggle, .pager, .issues, .item-foot { display: none; }
+  .theme-toggle, .lang-toggle, .pager, .issues, .tool-read { display: none; }
   body { background: #fff; color: #000; }
   .s > .t-cs, .body.cs-full { display: none; }
 }
@@ -1297,8 +1307,8 @@ THEME_JS = """
   });
 })();
 
-/* Přečtené zprávy: přepíná je tlačítko pod zprávou, které ji zároveň
-   sbalí na titulek. Stav žije v localStorage, záznamy starší 90 dnů se
+/* Přečtené zprávy: přepíná je zaškrtávací tlačítko pod zprávou, přečtená
+   se ztlumí. Stav žije v localStorage, záznamy starší 90 dnů se
    promazávají. */
 (function () {
   var KEY = 'readItems';
@@ -1336,15 +1346,8 @@ THEME_JS = """
         sync();
 
         btn.addEventListener('click', function () {
-          if (el.classList.toggle('read')) {
-            map[id] = Date.now();
-            // Sbalená zpráva se scvrkne na titulek; kdyby zůstala nad
-            // horní hranou, čtenář by se ocitl uprostřed jiné zprávy.
-            var box = el.getBoundingClientRect();
-            if (box.top < 0) el.scrollIntoView({ block: 'start' });
-          } else {
-            delete map[id];
-          }
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
           save(map);
           sync();
         });
@@ -1538,15 +1541,12 @@ READ_MARK = ('<span class="read-mark"> · '
              + bi("přečteno ✓", "read ✓") + "</span>")
 
 # Označit zprávu za přečtenou dává smysl až po přečtení, takže tlačítko
-# stojí pod ní, ne v hlavičce. Zároveň zprávu sbalí na titulek, a tak
-# nese oba popisky.
+# stojí pod ní, ne v hlavičce.
 READ_BUTTON = (
-    '<p class="item-foot"><button class="tool-read" type="button" '
-    'aria-pressed="false">'
-    '<span class="lbl-on">' + bi("Označit jako přečtené", "Mark as read")
-    + '</span><span class="lbl-off">'
-    + bi("Přečteno ✓ · rozbalit", "Read ✓ · show again")
-    + "</span></button></p>"
+    '<button class="tool-read" type="button" '
+    'aria-pressed="false" aria-label="Mark as read" '
+    f'title="{esc("Mark as read / Označit jako přečtené")}">'
+    '<span aria-hidden="true">✓</span></button>'
 )
 
 
@@ -1558,8 +1558,8 @@ def render_item(item: dict, rid: str, prev_date: str) -> str:
 <span class="stamp">{stamp_text(item, prev_date)}{flag_html}{READ_MARK}</span>
 <h3>{item_headline(item, used)}</h3>
 {item_body(item, used)}
-<p class="sources">{render_sources(item["sources"])}</p>
-{READ_BUTTON}
+<p class="sources"><span class="src-list">\
+{render_sources(item["sources"])}</span>{READ_BUTTON}</p>
 </article>"""
 
 
@@ -1575,8 +1575,8 @@ def render_opener(item: dict, rid: str, prev_date: str) -> str:
 <p class="kicker">{kicker}{READ_MARK}</p>
 <h2>{item_headline(item, used)}</h2>
 {item_body(item, used)}
-<p class="sources">{render_sources(item["sources"])}</p>
-{READ_BUTTON}
+<p class="sources"><span class="src-list">\
+{render_sources(item["sources"])}</span>{READ_BUTTON}</p>
 </section>"""
 
 

@@ -86,8 +86,8 @@
   });
 })();
 
-/* Přečtené zprávy: přepíná je tlačítko pod zprávou, které ji zároveň
-   sbalí na titulek. Stav žije v localStorage, záznamy starší 90 dnů se
+/* Přečtené zprávy: přepíná je zaškrtávací tlačítko pod zprávou, přečtená
+   se ztlumí. Stav žije v localStorage, záznamy starší 90 dnů se
    promazávají. */
 (function () {
   var KEY = 'readItems';
@@ -125,15 +125,8 @@
         sync();
 
         btn.addEventListener('click', function () {
-          if (el.classList.toggle('read')) {
-            map[id] = Date.now();
-            // Sbalená zpráva se scvrkne na titulek; kdyby zůstala nad
-            // horní hranou, čtenář by se ocitl uprostřed jiné zprávy.
-            var box = el.getBoundingClientRect();
-            if (box.top < 0) el.scrollIntoView({ block: 'start' });
-          } else {
-            delete map[id];
-          }
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
           save(map);
           sync();
         });
@@ -257,7 +250,7 @@
 <h1><a href="index.html"><span class="lang-cs">Denní přehled</span><span class="lang-en">Daily Digest</span></a></h1>
 <p class="dateline"><span class="lang-cs">Archiv</span><span class="lang-en">Archive</span></p>
 <hr class="rule-double">
-<p class="meta"><span class="lang-cs">36 vydání</span><span class="lang-en">36 issues</span> &nbsp;·&nbsp; <span class="lang-cs">aktualizováno <time datetime="2026-09-10T08:44+02:00">10. 9. 2026 v 8:44</time></span><span class="lang-en">updated <time datetime="2026-09-10T08:44+02:00">10 Sep 2026 at 8:44</time></span></p>
+<p class="meta"><span class="lang-cs">36 vydání</span><span class="lang-en">36 issues</span> &nbsp;·&nbsp; <span class="lang-cs">aktualizováno <time datetime="2026-09-10T08:50+02:00">10. 9. 2026 v 8:50</time></span><span class="lang-en">updated <time datetime="2026-09-10T08:50+02:00">10 Sep 2026 at 8:50</time></span></p>
 </header>
 
 <ul class="archive">
