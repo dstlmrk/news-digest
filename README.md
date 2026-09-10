@@ -11,10 +11,10 @@ už je den odbytý a je co shrnovat.
 **Web se čte anglicky.** Zprávy pocházejí z českých zdrojů a agent je
 píše česky, ale vydání pak ještě přeloží do angličtiny na úrovni B2–C1.
 Čeština na stránce zůstává k porovnání: kliknutím na větu se odkryje její
-české znění, přepínačem se dá zapnout souběžné čtení nebo rovnou původní
-čeština. Těžší slova jsou v textu podtržená a nesou vysvětlivku
-s odkazem do Cambridge Dictionary; na konci vydání je z nich slovníček.
-Denní přehled zpráv tak slouží zároveň jako čtení k učení jazyka.
+české znění, přepínačem v rohu se dá přejít rovnou na původní češtinu.
+Těžší slova jsou v textu podtržená a nesou anglickou definici s odkazem
+do Cambridge Dictionary. Denní přehled zpráv tak slouží zároveň jako
+čtení k učení jazyka.
 
 ## Kdy to běží a co vydání pokrývá
 
@@ -110,10 +110,12 @@ pro mobil.
 Pod hlavičkou je box s počasím: **zítřek slovně s ikonou a proužek dalších
 tří dnů** (den, ikona, denní a noční teplota). Následuje **Ve zkratce** —
 dvě až čtyři věty o tom podstatném —, hlavní zpráva dne jako otvírák,
-rubriky, slovníček vydání a archiv s prolistováním po dnech. Zprávu lze
-označit jako přečtenou (tlačítkem v její hlavičce nebo kliknutím vedle
-textu; stav drží localStorage prohlížeče a nikam se neodesílá), odkazy na
-původní články se otevírají v novém panelu.
+rubriky a archiv s prolistováním po dnech. Odkazy na původní články se
+otevírají v novém panelu.
+
+**Přečtená zpráva se sbalí na titulek.** Tlačítko je pod zprávou, tedy
+tam, kde čtenář skončí, a stejným tlačítkem se zpráva zase rozbalí. Stav
+drží localStorage prohlížeče a nikam se neodesílá.
 
 ### Dvojjazyčné čtení
 
@@ -121,14 +123,13 @@ Obě jazykové verze jsou v HTML naráz a přepínač jen mění, která se ukaz
 — na statickém webu není kam pro překlad dojet. Volba se pamatuje
 v localStorage.
 
-- **EN** — anglicky. Kliknutí na větu za ni vloží její české znění,
-  tlačítko `CS` v hlavičce zprávy přepne celou zprávu na souběžné čtení.
-- **EN+CS** — každá věta na svém řádku a pod ní česky. Režim na srovnávání.
-- **CS** — původní české znění, tak jak ho agent napsal.
-
-Slova nad úroveň B2 jsou tečkovaně podtržená; po kliknutí ukážou definici
-jednoduchou angličtinou, český ekvivalent a odkaz do Cambridge Dictionary.
-Všechna slovíčka vydání se opakují v přehledu na konci stránky.
+- **Kliknutí na větu** za ni vloží její české znění, výrazně podbarvené,
+  aby bylo hned vidět, co ke které anglické větě patří.
+- **Kolečko `EN`/`CS`** v rohu vedle přepínače tmavého režimu přepne celou
+  stránku do původního českého znění a zpátky.
+- **Slova nad úroveň B2** jsou tečkovaně podtržená; po kliknutí ukážou
+  definici jednoduchou angličtinou a odkaz do Cambridge Dictionary. Česky
+  se slovíčko nepřekládá — smysl je zůstat v jazyce.
 
 Starší vydání z doby před anglickou verzí zůstávají česky a přepínač na
 nich není. Angličtinu má vydání buď celou, nebo vůbec — build skript

@@ -148,8 +148,7 @@ tvrzení ukázat ve zdroji?"* Když ne, tvrzení škrtni.
          "headline": "English headline",
          "sentences": ["First English sentence.", "Second one."],
          "glossary": [
-           { "term": "curb", "definition": "to control or limit something",
-             "cs": "omezit" }
+           { "term": "curb", "definition": "to control or limit something" }
          ]
        }
      ]
@@ -400,7 +399,7 @@ nedopovězený; přepiš ho tak, aby sám nesl informaci.
 
 Vydání vychází anglicky a čeština je v něm jen pro srovnání — čtenář se
 tím učí jazyk. Web ukazuje anglický text, kliknutím na větu vedle ní
-odkryje tu českou a u vysvětlených slovíček nabídne definici.
+odkryje tu českou a u vysvětlených slovíček nabídne anglickou definici.
 
 - **Úroveň B2 až C1.** Běžná novinová angličtina: srozumitelná stavba věty,
   žádné vzácné idiomy ani úřední šroubovanost, ale ani školácké
@@ -421,21 +420,26 @@ odkryje tu českou a u vysvětlených slovíček nabídne definici.
 #### Slovníček
 
 `glossary` u položky vysvětluje slova, o která by se čtenář na úrovni B2
-zadrhl. Web je v textu tečkovaně podtrhne, po kliknutí ukáže bublinu
-a všechna slovíčka vydání zopakuje v přehledu na konci stránky.
+zadrhl. Web je v textu tečkovaně podtrhne a po kliknutí ukáže bublinu
+s definicí a odkazem do Cambridge Dictionary.
 
-- **Nula až tři slova na položku**, a jen tam, kde to má smysl. Zpráva,
-  ve které nic těžkého není, slovníček mít nemusí.
+- **Dvě až čtyři slova na položku.** Radši víc než míň — vysvětlené slovo
+  je hlavní důvod, proč se digest čte anglicky. U jednovětých zpráv stačí
+  jedno, u delších klidně čtyři. Nula jen tam, kde v textu opravdu nic
+  těžkého není.
 - **Vybírej slova nad B2 a oborové termíny** (*substation*, *suspended
-  sentence*, *cruciate ligament*), ne běžnou slovní zásobu, vlastní jména
-  ani zkratky institucí.
+  sentence*, *cruciate ligament*, *across-the-board*), ne běžnou slovní
+  zásobu, vlastní jména ani zkratky institucí. Frázová slovesa a idiomy
+  (*fell through*, *tongue in cheek*, *claimed responsibility*) jsou
+  dobrá volba — ve slovníku se hledají hůř než jednotlivá slova.
 - `term` napiš **přesně tak, jak stojí v anglickém textu** položky, včetně
   koncovky. Build kontroluje, že se tam slovo opravdu vyskytuje, a jinak
-  skončí chybou.
+  skončí chybou. Značí se první výskyt v položce.
 - `definition` je **jedna krátká věta jednoduchou angličtinou** (A2–B1),
   stylem výkladového slovníku. Odkaz na Cambridge doplní web sám, takže
   definici **nevydávej za citaci slovníku** — piš ji vlastními slovy.
-- `cs` je český ekvivalent, jedno až dvě slova.
+- **Český překlad slovíčka nepiš.** Vysvětlivka je celá anglicky, aby
+  čtenář zůstal v jazyce; pole `cs` u slovíčka build odmítne.
 
 Build web nepustí ven z půlky přeložený: buď má angličtinu celé vydání,
 nebo žádná položka.

@@ -16,8 +16,7 @@ Vstupní soubor s překladem (výchozí /tmp/en.json):
           "headline": "English headline",
           "sentences": ["First English sentence.", "Second one."],
           "glossary": [
-            { "term": "curb", "definition": "to control or limit sth",
-              "cs": "omezit" }
+            { "term": "curb", "definition": "to control or limit sth" }
           ]
         }
       ]

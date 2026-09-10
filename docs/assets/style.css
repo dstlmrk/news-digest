@@ -292,16 +292,43 @@ article p { margin: 0; }
 
 /* ── přečtené zprávy ──────────────────────────────────────────────────── */
 
-[data-read-id] { cursor: pointer; }
+/* Přečtená zpráva se sbalí na titulek — tělo i zdroje zmizí a vrátí je
+   až tlačítko pod zprávou. Ve výpisu tak zbude jen to, co dává přehled
+   o dni, a nepřečtené zprávy se hledají snadněji. */
+[data-read-id].read .body,
+[data-read-id].read .sources { display: none; }
 
 [data-read-id].read h2,
-[data-read-id].read h3,
-[data-read-id].read p { opacity: 0.42; }
+[data-read-id].read h3 { opacity: 0.5; }
 
-/* Značka „přečteno" je element, ne ::after — v hlavičce zprávy stojí
-   před tlačítky, která jsou odsunutá doprava. */
+[data-read-id].read .stamp { opacity: 0.7; }
+
 .read-mark { display: none; font-weight: 400; color: var(--ink-muted); }
 [data-read-id].read .read-mark { display: inline; }
+
+/* ── tlačítko pod zprávou ─────────────────────────────────────────────── */
+
+.item-foot { margin: 0.85rem 0 0; }
+
+.tool-read {
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: none;
+  color: var(--ink-muted);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.tool-read:hover { color: var(--accent); border-color: var(--accent); }
+
+.tool-read .lbl-off { display: none; }
+[data-read-id].read .tool-read .lbl-on { display: none; }
+[data-read-id].read .tool-read .lbl-off { display: inline; }
 
 /* ── navigace a patička ───────────────────────────────────────────────── */
 
@@ -334,30 +361,6 @@ footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
 
-/* ── přepínač témat ───────────────────────────────────────────────────── */
-
-.theme-toggle {
-  position: fixed;
-  top: 0.85rem;
-  right: 0.85rem;
-  z-index: 10;
-  width: 2.3rem;
-  height: 2.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  background: var(--paper-raised);
-  color: var(--ink-muted);
-  border: 1px solid var(--rule);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.theme-toggle svg { width: 1.05rem; height: 1.05rem; display: block; }
-
-.theme-toggle:hover { color: var(--ink); border-color: var(--rule-strong); }
-
 /* ── archiv ───────────────────────────────────────────────────────────── */
 
 .archive { margin: 2.4rem 0 0; list-style: none; padding: 0; }
@@ -389,78 +392,60 @@ footer a { color: var(--accent); }
   .rubric { margin-top: 2.3rem; }
   article h3 { font-size: 1.14rem; }
   .pager { flex-direction: column; }
-  .lang-switch { top: 0.7rem; right: 3.2rem; }
-  .lang-switch button { padding: 0.2rem 0.4rem; font-size: 0.64rem; }
-  .theme-toggle { top: 0.7rem; width: 2.1rem; height: 2.1rem; }
-  .vocab li { grid-template-columns: 1fr; gap: 0.1rem; }
+  .theme-toggle, .lang-toggle { top: 0.7rem; width: 2.1rem; height: 2.1rem; }
+  .lang-toggle { right: 3.2rem; }
 }
 
 /* ── dvě jazykové verze ───────────────────────────────────────────────────
    Obě jsou v HTML naráz, přepínač jen mění, co je vidět. Výchozí je
-   angličtina, takže bez atributu data-lang platí anglická sazba.
-   Režimy: „en" (anglicky), „both" (věta pod větou), „cs" (česky).       */
+   angličtina, takže bez atributu data-lang platí anglická sazba.        */
 
 :root:not([data-lang="cs"]) .lang-cs { display: none; }
 :root[data-lang="cs"] .lang-en { display: none; }
 
-/* Věta zprávy: v angličtině se dá rozkliknout a ukázat český protějšek. */
+/* Věta zprávy: kliknutím se pod ni odkryje druhá jazyková verze. Musí to
+   být vidět na první pohled i na mobilu ve slunci, proto podbarvení, ne
+   jen kurzíva. */
 .s { cursor: pointer; }
 .s > .t-cs { display: none; }
 
 :root[data-lang="cs"] .s > .t-en { display: none; }
 :root[data-lang="cs"] .s > .t-cs { display: inline; }
 
-.s:hover > .t-en, .s:focus-visible > .t-en,
-:root[data-lang="cs"] .s:hover > .t-cs,
-:root[data-lang="cs"] .s:focus-visible > .t-cs {
-  background: color-mix(in srgb, var(--accent) 7%, transparent);
+.s:hover > .t-en,
+:root[data-lang="cs"] .s:hover > .t-cs {
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
   border-radius: 2px;
 }
-
-/* V souběžném čtení je věta oddělená sama o sobě, zvýraznění by rušilo. */
-:root[data-lang="both"] .s:hover > .t-en,
-:root[data-lang="en"] .bi .s:hover > .t-en { background: none; }
 
 .s:focus { outline: none; }
 .s:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* Jedna rozkliknutá věta: překlad hned za ní, kurzívou a ztlumeně. */
-:root[data-lang="en"] .s.open > .t-cs {
+/* Rozkliknutá věta: originál se podbarví slabě, překlad výrazně, aby
+   bylo poznat, co ke komu patří. */
+.s.open > .t-en,
+:root[data-lang="cs"] .s.open > .t-cs {
+  background: color-mix(in srgb, var(--accent) 13%, transparent);
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.s.open > .t-cs,
+:root[data-lang="cs"] .s.open > .t-en {
   display: inline;
-  color: var(--ink-muted);
+  background: color-mix(in srgb, var(--accent) 26%, transparent);
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0.05em 0.2em;
+  margin-left: 0.25em;
   font-style: italic;
+  color: var(--ink);
 }
 
-:root[data-lang="en"] .s.open > .t-cs::before {
-  content: "↳\00a0";
-  font-style: normal;
-  opacity: 0.65;
-  margin-left: 0.3em;
-}
-
-/* Souběžné čtení: každá věta na svém řádku, překlad pod ní. Platí pro
-   celý web v režimu „both" a pro jednotlivou zprávu přepnutou tlačítkem. */
-:root[data-lang="both"] .s,
-:root[data-lang="en"] .bi .s {
-  display: block;
-  margin: 0 0 0.55rem;
-}
-
-:root[data-lang="both"] .s > .t-cs,
-:root[data-lang="en"] .bi .s > .t-cs {
-  display: block;
-  color: var(--ink-muted);
-  font-style: italic;
-  font-size: 0.94em;
-  padding-left: 0.7rem;
-  border-left: 2px solid var(--rule);
-}
-
-:root[data-lang="both"] .s.open > .t-cs::before,
-:root[data-lang="en"] .bi .s.open > .t-cs::before { content: none; }
-
-/* Celý český odstavec je jen pro čistě českou verzi — v obou anglických
-   režimech češtinu nesou už samotné věty. */
+/* Celý český odstavec je jen pro čistě českou verzi — v angličtině nese
+   češtinu odkrytá věta. */
 .body.cs-full { display: none; }
 :root[data-lang="cs"] .body.cs-full { display: block; }
 :root[data-lang="cs"] .body.en { display: none; }
@@ -501,12 +486,6 @@ footer a { color: var(--accent); }
 
 .gloss-pop .def { margin: 0.25rem 0 0; }
 
-.gloss-pop .cz {
-  margin: 0.3rem 0 0;
-  color: var(--ink-muted);
-  font-style: italic;
-}
-
 .gloss-pop .more {
   display: inline-block;
   margin-top: 0.45rem;
@@ -516,78 +495,41 @@ footer a { color: var(--accent); }
   font-size: 0.78rem;
 }
 
-/* ── ovládání jazyka ──────────────────────────────────────────────────── */
+/* ── plovoucí tlačítka ────────────────────────────────────────────────── */
 
-.lang-switch {
+.theme-toggle, .lang-toggle {
   position: fixed;
   top: 0.85rem;
-  right: 3.6rem;
   z-index: 10;
+  width: 2.3rem;
+  height: 2.3rem;
   display: flex;
-  padding: 2px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   background: var(--paper-raised);
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  font-family: var(--sans);
-}
-
-.lang-switch button {
-  padding: 0.24rem 0.55rem;
-  border: 0;
-  border-radius: 999px;
-  background: none;
   color: var(--ink-muted);
-  font: inherit;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.lang-switch button:hover { color: var(--ink); }
+.theme-toggle { right: 0.85rem; }
+.lang-toggle { right: 3.45rem; }
 
-.lang-switch button[aria-pressed="true"] {
-  background: var(--rule-strong);
-  color: var(--paper);
-}
+.theme-toggle svg { width: 1.05rem; height: 1.05rem; display: block; }
 
-/* Nápověda pod hlavičkou — bez ní se o klikacích větách nikdo nedozví. */
-.hint {
-  margin: 0.5rem 0 0;
+.lang-toggle {
   font-family: var(--sans);
-  font-size: 0.74rem;
-  line-height: 1.5;
-  color: var(--ink-muted);
-  text-align: center;
-}
-
-.hint b { font-weight: 600; color: var(--ink); }
-
-/* ── tlačítka u zprávy ────────────────────────────────────────────────── */
-
-.stamp { display: flex; align-items: baseline; gap: 0.5rem; }
-.stamp .grow { flex: 1 1 auto; }
-
-.tool {
-  padding: 0.1rem 0.4rem;
-  border: 1px solid var(--rule);
-  border-radius: 3px;
-  background: none;
-  color: var(--ink-muted);
-  font-family: var(--sans);
-  font-size: 0.66rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 1.5;
-  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
-.tool:hover { color: var(--accent); border-color: var(--accent); }
-.tool[aria-pressed="true"] { color: var(--paper); background: var(--rule-strong);
-  border-color: var(--rule-strong); }
-
-:root[data-lang="both"] .tool.tool-cs,
-:root[data-lang="cs"] .tool.tool-cs { display: none; }
+.theme-toggle:hover, .lang-toggle:hover {
+  color: var(--ink);
+  border-color: var(--rule-strong);
+}
 
 /* ── shrnutí dne ──────────────────────────────────────────────────────── */
 
@@ -613,48 +555,8 @@ footer a { color: var(--accent); }
 .lead li { margin: 0 0 0.4rem; }
 .lead li:last-child { margin-bottom: 0; }
 
-/* ── slovníček vydání ─────────────────────────────────────────────────── */
-
-.vocab { margin: 2.8rem 0 0; }
-
-.vocab > h2 {
-  margin: 0 0 0.2rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 2px solid var(--rule-strong);
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.vocab ul { margin: 0; padding: 0; list-style: none; }
-
-.vocab li {
-  display: grid;
-  grid-template-columns: minmax(6rem, 9rem) 1fr auto;
-  gap: 0.2rem 0.9rem;
-  align-items: baseline;
-  padding: 0.6rem 0;
-  border-bottom: 1px solid var(--rule);
-  font-family: var(--sans);
-  font-size: 0.86rem;
-  line-height: 1.5;
-}
-
-.vocab li:last-child { border-bottom: 0; }
-.vocab .term { font-weight: 700; font-size: 0.95rem; }
-.vocab .cz { color: var(--ink-muted); font-style: italic; }
-.vocab .more {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 0.76rem;
-  white-space: nowrap;
-}
-.vocab .more:hover { text-decoration: underline; }
-
 @media print {
-  .theme-toggle, .pager, .issues, .lang-switch, .tool, .hint { display: none; }
+  .theme-toggle, .lang-toggle, .pager, .issues, .item-foot { display: none; }
   body { background: #fff; color: #000; }
   .s > .t-cs, .body.cs-full { display: none; }
 }

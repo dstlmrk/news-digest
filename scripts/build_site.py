@@ -285,8 +285,11 @@ def validate_item_english(item: dict, where: str, fail) -> None:
         for field in ("term", "definition"):
             if not isinstance(entry.get(field), str) or not entry[field].strip():
                 fail(f"{spot}: chybí nebo je prázdné pole '{field}'")
-        if "cs" in entry and not isinstance(entry["cs"], str):
-            fail(f"{spot}: cs musí být řetězec")
+        if "cs" in entry:
+            fail(
+                f"{spot}: pole 'cs' se u slovíčka nepoužívá — vysvětlivka "
+                f"je celá anglicky, aby čtenář zůstal v jazyce"
+            )
         key = entry["term"].lower()
         if key in seen:
             fail(f"{spot}: slovíčko '{entry['term']}' je v položce dvakrát")
@@ -548,22 +551,6 @@ def plural_items_en(n: int) -> str:
     return "1 story" if n == 1 else f"{n} stories"
 
 
-def reading_minutes(data: dict) -> int:
-    """Odhad doby čtení; u anglického vydání z anglického textu."""
-    if has_english(data):
-        words = sum(
-            len(i["en"]["headline"].split())
-            + sum(len(p["en"].split()) for p in i["en"]["sentences"])
-            for i in data["items"]
-        )
-    else:
-        words = sum(
-            len(i["headline"].split()) + len(i["body"].split())
-            for i in data["items"]
-        )
-    return max(1, round(words / 160))
-
-
 # ───────────────────────────  dvojjazyčná sazba  ────────────────────────────
 #
 # Obě jazykové verze jsou v HTML naráz a přepínač jen mění, která se
@@ -585,17 +572,19 @@ def cambridge_url(term: str) -> str:
 
 
 def gloss_span(surface: str, entry: dict) -> str:
-    """Slovíčko s vysvětlivkou. Definici i překlad nese v data atributech,
-    bublinu z nich skládá až JavaScript."""
-    czech = entry.get("cs") or ""
-    hint = entry["definition"] + (f" · {czech}" if czech else "")
+    """Slovíčko s vysvětlivkou. Definici nese v data atributu, bublinu
+    z ní skládá až JavaScript.
+
+    Vysvětluje se anglicky: čtenář má o slovo zakopnout a pochopit ho
+    z anglického výkladu, ne si ho přeložit a číst dál česky.
+    """
     return (
         f'<span class="gl" role="button" tabindex="0" '
         f'data-term="{esc(entry["term"])}" '
         f'data-def="{esc(entry["definition"])}" '
-        f'data-cs="{esc(czech)}" '
         f'data-url="{esc(cambridge_url(entry["term"]))}" '
-        f'aria-label="{esc(surface)} — {esc(hint)}">{esc(surface)}</span>'
+        f'aria-label="{esc(surface)} — {esc(entry["definition"])}"'
+        f'>{esc(surface)}</span>'
     )
 
 
@@ -660,20 +649,6 @@ def item_body(item: dict, used: set[str]) -> str:
     )
     return (f'<p class="body en">{sentences}</p>\n'
             f'<p class="body cs-full">{esc(item["body"])}</p>')
-
-
-def collect_vocabulary(items: list[dict]) -> list[dict]:
-    """Slovíčka celého vydání v pořadí, v jakém se ve zprávách objeví."""
-    seen: set[str] = set()
-    words: list[dict] = []
-    for item in items:
-        for entry in (item.get("en") or {}).get("glossary") or []:
-            key = entry["term"].lower()
-            if key in seen:
-                continue
-            seen.add(key)
-            words.append(entry)
-    return words
 
 
 # ────────────────────────────────────  CSS  ─────────────────────────────────
@@ -973,16 +948,43 @@ article p { margin: 0; }
 
 /* ── přečtené zprávy ──────────────────────────────────────────────────── */
 
-[data-read-id] { cursor: pointer; }
+/* Přečtená zpráva se sbalí na titulek — tělo i zdroje zmizí a vrátí je
+   až tlačítko pod zprávou. Ve výpisu tak zbude jen to, co dává přehled
+   o dni, a nepřečtené zprávy se hledají snadněji. */
+[data-read-id].read .body,
+[data-read-id].read .sources { display: none; }
 
 [data-read-id].read h2,
-[data-read-id].read h3,
-[data-read-id].read p { opacity: 0.42; }
+[data-read-id].read h3 { opacity: 0.5; }
 
-/* Značka „přečteno" je element, ne ::after — v hlavičce zprávy stojí
-   před tlačítky, která jsou odsunutá doprava. */
+[data-read-id].read .stamp { opacity: 0.7; }
+
 .read-mark { display: none; font-weight: 400; color: var(--ink-muted); }
 [data-read-id].read .read-mark { display: inline; }
+
+/* ── tlačítko pod zprávou ─────────────────────────────────────────────── */
+
+.item-foot { margin: 0.85rem 0 0; }
+
+.tool-read {
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: none;
+  color: var(--ink-muted);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.tool-read:hover { color: var(--accent); border-color: var(--accent); }
+
+.tool-read .lbl-off { display: none; }
+[data-read-id].read .tool-read .lbl-on { display: none; }
+[data-read-id].read .tool-read .lbl-off { display: inline; }
 
 /* ── navigace a patička ───────────────────────────────────────────────── */
 
@@ -1015,30 +1017,6 @@ footer .used { line-height: 1.5; }
 footer .warn { font-style: italic; }
 footer a { color: var(--accent); }
 
-/* ── přepínač témat ───────────────────────────────────────────────────── */
-
-.theme-toggle {
-  position: fixed;
-  top: 0.85rem;
-  right: 0.85rem;
-  z-index: 10;
-  width: 2.3rem;
-  height: 2.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  background: var(--paper-raised);
-  color: var(--ink-muted);
-  border: 1px solid var(--rule);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.theme-toggle svg { width: 1.05rem; height: 1.05rem; display: block; }
-
-.theme-toggle:hover { color: var(--ink); border-color: var(--rule-strong); }
-
 /* ── archiv ───────────────────────────────────────────────────────────── */
 
 .archive { margin: 2.4rem 0 0; list-style: none; padding: 0; }
@@ -1070,78 +1048,60 @@ footer a { color: var(--accent); }
   .rubric { margin-top: 2.3rem; }
   article h3 { font-size: 1.14rem; }
   .pager { flex-direction: column; }
-  .lang-switch { top: 0.7rem; right: 3.2rem; }
-  .lang-switch button { padding: 0.2rem 0.4rem; font-size: 0.64rem; }
-  .theme-toggle { top: 0.7rem; width: 2.1rem; height: 2.1rem; }
-  .vocab li { grid-template-columns: 1fr; gap: 0.1rem; }
+  .theme-toggle, .lang-toggle { top: 0.7rem; width: 2.1rem; height: 2.1rem; }
+  .lang-toggle { right: 3.2rem; }
 }
 
 /* ── dvě jazykové verze ───────────────────────────────────────────────────
    Obě jsou v HTML naráz, přepínač jen mění, co je vidět. Výchozí je
-   angličtina, takže bez atributu data-lang platí anglická sazba.
-   Režimy: „en" (anglicky), „both" (věta pod větou), „cs" (česky).       */
+   angličtina, takže bez atributu data-lang platí anglická sazba.        */
 
 :root:not([data-lang="cs"]) .lang-cs { display: none; }
 :root[data-lang="cs"] .lang-en { display: none; }
 
-/* Věta zprávy: v angličtině se dá rozkliknout a ukázat český protějšek. */
+/* Věta zprávy: kliknutím se pod ni odkryje druhá jazyková verze. Musí to
+   být vidět na první pohled i na mobilu ve slunci, proto podbarvení, ne
+   jen kurzíva. */
 .s { cursor: pointer; }
 .s > .t-cs { display: none; }
 
 :root[data-lang="cs"] .s > .t-en { display: none; }
 :root[data-lang="cs"] .s > .t-cs { display: inline; }
 
-.s:hover > .t-en, .s:focus-visible > .t-en,
-:root[data-lang="cs"] .s:hover > .t-cs,
-:root[data-lang="cs"] .s:focus-visible > .t-cs {
-  background: color-mix(in srgb, var(--accent) 7%, transparent);
+.s:hover > .t-en,
+:root[data-lang="cs"] .s:hover > .t-cs {
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
   border-radius: 2px;
 }
-
-/* V souběžném čtení je věta oddělená sama o sobě, zvýraznění by rušilo. */
-:root[data-lang="both"] .s:hover > .t-en,
-:root[data-lang="en"] .bi .s:hover > .t-en { background: none; }
 
 .s:focus { outline: none; }
 .s:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* Jedna rozkliknutá věta: překlad hned za ní, kurzívou a ztlumeně. */
-:root[data-lang="en"] .s.open > .t-cs {
+/* Rozkliknutá věta: originál se podbarví slabě, překlad výrazně, aby
+   bylo poznat, co ke komu patří. */
+.s.open > .t-en,
+:root[data-lang="cs"] .s.open > .t-cs {
+  background: color-mix(in srgb, var(--accent) 13%, transparent);
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.s.open > .t-cs,
+:root[data-lang="cs"] .s.open > .t-en {
   display: inline;
-  color: var(--ink-muted);
+  background: color-mix(in srgb, var(--accent) 26%, transparent);
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0.05em 0.2em;
+  margin-left: 0.25em;
   font-style: italic;
+  color: var(--ink);
 }
 
-:root[data-lang="en"] .s.open > .t-cs::before {
-  content: "↳\\00a0";
-  font-style: normal;
-  opacity: 0.65;
-  margin-left: 0.3em;
-}
-
-/* Souběžné čtení: každá věta na svém řádku, překlad pod ní. Platí pro
-   celý web v režimu „both" a pro jednotlivou zprávu přepnutou tlačítkem. */
-:root[data-lang="both"] .s,
-:root[data-lang="en"] .bi .s {
-  display: block;
-  margin: 0 0 0.55rem;
-}
-
-:root[data-lang="both"] .s > .t-cs,
-:root[data-lang="en"] .bi .s > .t-cs {
-  display: block;
-  color: var(--ink-muted);
-  font-style: italic;
-  font-size: 0.94em;
-  padding-left: 0.7rem;
-  border-left: 2px solid var(--rule);
-}
-
-:root[data-lang="both"] .s.open > .t-cs::before,
-:root[data-lang="en"] .bi .s.open > .t-cs::before { content: none; }
-
-/* Celý český odstavec je jen pro čistě českou verzi — v obou anglických
-   režimech češtinu nesou už samotné věty. */
+/* Celý český odstavec je jen pro čistě českou verzi — v angličtině nese
+   češtinu odkrytá věta. */
 .body.cs-full { display: none; }
 :root[data-lang="cs"] .body.cs-full { display: block; }
 :root[data-lang="cs"] .body.en { display: none; }
@@ -1182,12 +1142,6 @@ footer a { color: var(--accent); }
 
 .gloss-pop .def { margin: 0.25rem 0 0; }
 
-.gloss-pop .cz {
-  margin: 0.3rem 0 0;
-  color: var(--ink-muted);
-  font-style: italic;
-}
-
 .gloss-pop .more {
   display: inline-block;
   margin-top: 0.45rem;
@@ -1197,78 +1151,41 @@ footer a { color: var(--accent); }
   font-size: 0.78rem;
 }
 
-/* ── ovládání jazyka ──────────────────────────────────────────────────── */
+/* ── plovoucí tlačítka ────────────────────────────────────────────────── */
 
-.lang-switch {
+.theme-toggle, .lang-toggle {
   position: fixed;
   top: 0.85rem;
-  right: 3.6rem;
   z-index: 10;
+  width: 2.3rem;
+  height: 2.3rem;
   display: flex;
-  padding: 2px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   background: var(--paper-raised);
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  font-family: var(--sans);
-}
-
-.lang-switch button {
-  padding: 0.24rem 0.55rem;
-  border: 0;
-  border-radius: 999px;
-  background: none;
   color: var(--ink-muted);
-  font: inherit;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.lang-switch button:hover { color: var(--ink); }
+.theme-toggle { right: 0.85rem; }
+.lang-toggle { right: 3.45rem; }
 
-.lang-switch button[aria-pressed="true"] {
-  background: var(--rule-strong);
-  color: var(--paper);
-}
+.theme-toggle svg { width: 1.05rem; height: 1.05rem; display: block; }
 
-/* Nápověda pod hlavičkou — bez ní se o klikacích větách nikdo nedozví. */
-.hint {
-  margin: 0.5rem 0 0;
+.lang-toggle {
   font-family: var(--sans);
-  font-size: 0.74rem;
-  line-height: 1.5;
-  color: var(--ink-muted);
-  text-align: center;
-}
-
-.hint b { font-weight: 600; color: var(--ink); }
-
-/* ── tlačítka u zprávy ────────────────────────────────────────────────── */
-
-.stamp { display: flex; align-items: baseline; gap: 0.5rem; }
-.stamp .grow { flex: 1 1 auto; }
-
-.tool {
-  padding: 0.1rem 0.4rem;
-  border: 1px solid var(--rule);
-  border-radius: 3px;
-  background: none;
-  color: var(--ink-muted);
-  font-family: var(--sans);
-  font-size: 0.66rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 1.5;
-  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
-.tool:hover { color: var(--accent); border-color: var(--accent); }
-.tool[aria-pressed="true"] { color: var(--paper); background: var(--rule-strong);
-  border-color: var(--rule-strong); }
-
-:root[data-lang="both"] .tool.tool-cs,
-:root[data-lang="cs"] .tool.tool-cs { display: none; }
+.theme-toggle:hover, .lang-toggle:hover {
+  color: var(--ink);
+  border-color: var(--rule-strong);
+}
 
 /* ── shrnutí dne ──────────────────────────────────────────────────────── */
 
@@ -1294,91 +1211,47 @@ footer a { color: var(--accent); }
 .lead li { margin: 0 0 0.4rem; }
 .lead li:last-child { margin-bottom: 0; }
 
-/* ── slovníček vydání ─────────────────────────────────────────────────── */
-
-.vocab { margin: 2.8rem 0 0; }
-
-.vocab > h2 {
-  margin: 0 0 0.2rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 2px solid var(--rule-strong);
-  font-family: var(--sans);
-  font-size: 0.8rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.vocab ul { margin: 0; padding: 0; list-style: none; }
-
-.vocab li {
-  display: grid;
-  grid-template-columns: minmax(6rem, 9rem) 1fr auto;
-  gap: 0.2rem 0.9rem;
-  align-items: baseline;
-  padding: 0.6rem 0;
-  border-bottom: 1px solid var(--rule);
-  font-family: var(--sans);
-  font-size: 0.86rem;
-  line-height: 1.5;
-}
-
-.vocab li:last-child { border-bottom: 0; }
-.vocab .term { font-weight: 700; font-size: 0.95rem; }
-.vocab .cz { color: var(--ink-muted); font-style: italic; }
-.vocab .more {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 0.76rem;
-  white-space: nowrap;
-}
-.vocab .more:hover { text-decoration: underline; }
-
 @media print {
-  .theme-toggle, .pager, .issues, .lang-switch, .tool, .hint { display: none; }
+  .theme-toggle, .lang-toggle, .pager, .issues, .item-foot { display: none; }
   body { background: #fff; color: #000; }
   .s > .t-cs, .body.cs-full { display: none; }
 }
 """
 
 THEME_JS = """
-/* Jazyk stránky. Výchozí je angličtina, protože web se čte kvůli učení;
-   „both" staví větu pod větu, „cs" ukazuje původní české znění. Volba se
+/* Jazyk stránky: „en" (výchozí) a „cs" pro původní české znění. Volba se
    pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
    nemají a přepínač na nich není. */
 (function () {
   var root = document.documentElement;
-  var MODES = { en: 1, both: 1, cs: 1 };
-  var HTML_LANG = { en: 'en', both: 'en', cs: 'cs' };
 
   function apply(mode) {
     root.setAttribute('data-lang', mode);
-    root.setAttribute('lang', HTML_LANG[mode]);
+    root.setAttribute('lang', mode);
   }
 
   var stored = null;
   try { stored = localStorage.getItem('lang'); } catch (e) {}
-  if (root.getAttribute('data-has-en') === '1' && MODES[stored]) apply(stored);
+  // Dřívější třetí režim „both" už neexistuje, bereme ho jako angličtinu.
+  if (stored !== 'cs') stored = 'en';
+  if (root.getAttribute('data-has-en') === '1') apply(stored);
 
   document.addEventListener('DOMContentLoaded', function () {
-    var box = document.querySelector('.lang-switch');
-    if (!box) return;
-    var btns = box.querySelectorAll('button[data-mode]');
-    function sync() {
-      var now = root.getAttribute('data-lang') || 'en';
-      Array.prototype.forEach.call(btns, function (b) {
-        b.setAttribute('aria-pressed',
-          b.getAttribute('data-mode') === now ? 'true' : 'false');
-      });
+    var btn = document.querySelector('.lang-toggle');
+    if (!btn) return;
+    function label() {
+      var czech = root.getAttribute('data-lang') === 'cs';
+      btn.textContent = czech ? 'CS' : 'EN';
+      var text = czech ? 'Switch to English' : 'Přepnout do češtiny';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
     }
-    sync();
-    Array.prototype.forEach.call(btns, function (b) {
-      b.addEventListener('click', function () {
-        apply(b.getAttribute('data-mode'));
-        try { localStorage.setItem('lang', b.getAttribute('data-mode')); }
-        catch (e) {}
-        sync();
-      });
+    label();
+    btn.addEventListener('click', function () {
+      var next = root.getAttribute('data-lang') === 'cs' ? 'en' : 'cs';
+      apply(next);
+      try { localStorage.setItem('lang', next); } catch (e) {}
+      label();
     });
   });
 })();
@@ -1424,10 +1297,9 @@ THEME_JS = """
   });
 })();
 
-/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), stejně tak
-   tlačítko v hlavičce zprávy; klik na odkaz ji označí a nechá odkaz
-   normálně otevřít. Klikání na věty a slovíčka se do označování neplete.
-   Stav žije v localStorage, záznamy starší 90 dnů se promazávají. */
+/* Přečtené zprávy: přepíná je tlačítko pod zprávou, které ji zároveň
+   sbalí na titulek. Stav žije v localStorage, záznamy starší 90 dnů se
+   promazávají. */
 (function () {
   var KEY = 'readItems';
   var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
@@ -1455,51 +1327,33 @@ THEME_JS = """
         var id = el.getAttribute('data-read-id');
         var btn = el.querySelector('.tool-read');
         if (map[id]) el.classList.add('read');
+        if (!btn) return;
 
         function sync() {
-          if (btn) {
-            btn.setAttribute('aria-pressed',
-              el.classList.contains('read') ? 'true' : 'false');
-          }
-        }
-        function mark() {
-          if (!map[id]) { map[id] = Date.now(); el.classList.add('read'); save(map); }
-          sync();
-        }
-        function toggle() {
-          if (el.classList.toggle('read')) map[id] = Date.now();
-          else delete map[id];
-          save(map);
-          sync();
+          btn.setAttribute('aria-pressed',
+            el.classList.contains('read') ? 'true' : 'false');
         }
         sync();
 
-        if (btn) {
-          btn.addEventListener('click', function (ev) {
-            ev.stopPropagation();
-            toggle();
-          });
-        }
-
-        el.addEventListener('click', function (ev) {
-          // Věty, slovíčka a tlačítka mají vlastní význam kliknutí.
-          if (ev.target.closest('.s, .gl, .tool')) return;
-          if (ev.target.closest('a')) {
-            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
-            mark();
-            return;
+        btn.addEventListener('click', function () {
+          if (el.classList.toggle('read')) {
+            map[id] = Date.now();
+            // Sbalená zpráva se scvrkne na titulek; kdyby zůstala nad
+            // horní hranou, čtenář by se ocitl uprostřed jiné zprávy.
+            var box = el.getBoundingClientRect();
+            if (box.top < 0) el.scrollIntoView({ block: 'start' });
+          } else {
+            delete map[id];
           }
-          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
-          if (window.getSelection && String(window.getSelection())) return;
-          toggle();
+          save(map);
+          sync();
         });
       }
     );
   });
 })();
 
-/* Srovnání s češtinou: klik na větu ukáže její překlad, tlačítko „CS"
-   v hlavičce zprávy přepne na souběžné čtení celé zprávy. */
+/* Srovnání s češtinou: klik na větu ukáže její překlad. */
 (function () {
   function selecting() {
     return !!(window.getSelection && String(window.getSelection()));
@@ -1519,19 +1373,6 @@ THEME_JS = """
           ev.preventDefault();
           ev.stopPropagation();
           s.classList.toggle('open');
-        });
-      }
-    );
-
-    Array.prototype.forEach.call(
-      document.querySelectorAll('.tool-cs'),
-      function (btn) {
-        var box = btn.closest('[data-read-id]');
-        btn.addEventListener('click', function (ev) {
-          ev.stopPropagation();
-          if (!box) return;
-          var on = box.classList.toggle('bi');
-          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
       }
     );
@@ -1576,9 +1417,6 @@ THEME_JS = """
     pop.setAttribute('role', 'dialog');
     pop.appendChild(line('term', el.getAttribute('data-term')));
     pop.appendChild(line('def', el.getAttribute('data-def')));
-    if (el.getAttribute('data-cs')) {
-      pop.appendChild(line('cz', el.getAttribute('data-cs')));
-    }
     var more = document.createElement('a');
     more.className = 'more';
     more.href = el.getAttribute('data-url');
@@ -1626,12 +1464,8 @@ THEME_JS = """
 # ──────────────────────────────────  šablony  ───────────────────────────────
 
 
-LANG_SWITCH = """<div class="lang-switch" role="group" aria-label="Language">
-<button type="button" data-mode="en" title="English only">EN</button>
-<button type="button" data-mode="both" title="English with Czech under \
-each sentence">EN+CS</button>
-<button type="button" data-mode="cs" title="Jen česky">CS</button>
-</div>"""
+LANG_TOGGLE = ('<button class="lang-toggle" type="button" '
+               'aria-label="Switch language">EN</button>')
 
 
 def page(title: str, body: str, *, depth_prefix: str = "",
@@ -1643,7 +1477,7 @@ def page(title: str, body: str, *, depth_prefix: str = "",
     bylo na co jen naoko.
     """
     lang = "en" if has_en else "cs"
-    switch = f"\n{LANG_SWITCH}" if has_en else ""
+    switch = f"\n{LANG_TOGGLE}" if has_en else ""
     description = SITE_DESCRIPTION_EN if has_en else SITE_DESCRIPTION
     return f"""<!DOCTYPE html>
 <html lang="{lang}" data-lang="{lang}" data-has-en="{'1' if has_en else '0'}">
@@ -1700,35 +1534,32 @@ def stamp_text(item: dict, prev_date: str) -> str:
               esc(f'{day_month_en(prev_date)} {item["time"]}'))
 
 
-READ_MARK = ('<span class="read-mark">· '
+READ_MARK = ('<span class="read-mark"> · '
              + bi("přečteno ✓", "read ✓") + "</span>")
 
-
-def item_tools(has_en: bool) -> str:
-    """Tlačítka v hlavičce zprávy: souběžná čeština a značka „přečteno"."""
-    tools = []
-    if has_en:
-        tools.append(
-            '<button class="tool tool-cs" type="button" aria-pressed="false" '
-            'title="Show the Czech original sentence by sentence">CS</button>'
-        )
-    tools.append(
-        '<button class="tool tool-read" type="button" aria-pressed="false" '
-        + f'title="{esc("Mark as read / Označit jako přečtené")}">✓</button>'
-    )
-    return "".join(tools)
+# Označit zprávu za přečtenou dává smysl až po přečtení, takže tlačítko
+# stojí pod ní, ne v hlavičce. Zároveň zprávu sbalí na titulek, a tak
+# nese oba popisky.
+READ_BUTTON = (
+    '<p class="item-foot"><button class="tool-read" type="button" '
+    'aria-pressed="false">'
+    '<span class="lbl-on">' + bi("Označit jako přečtené", "Mark as read")
+    + '</span><span class="lbl-off">'
+    + bi("Přečteno ✓ · rozbalit", "Read ✓ · show again")
+    + "</span></button></p>"
+)
 
 
 def render_item(item: dict, rid: str, prev_date: str) -> str:
     used: set[str] = set()
     flag = cross_flag(item)
-    flag_html = f'<span class="flag">· {flag}</span>' if flag else ""
+    flag_html = f' <span class="flag">· {flag}</span>' if flag else ""
     return f"""<article data-read-id="{rid}">
-<span class="stamp">{stamp_text(item, prev_date)}{flag_html}\
-{READ_MARK}<span class="grow"></span>{item_tools(bool(item.get("en")))}</span>
+<span class="stamp">{stamp_text(item, prev_date)}{flag_html}{READ_MARK}</span>
 <h3>{item_headline(item, used)}</h3>
 {item_body(item, used)}
 <p class="sources">{render_sources(item["sources"])}</p>
+{READ_BUTTON}
 </article>"""
 
 
@@ -1741,11 +1572,11 @@ def render_opener(item: dict, rid: str, prev_date: str) -> str:
     if flag:
         kicker += f" · {flag}"
     return f"""<section class="opener" data-read-id="{rid}">
-<p class="kicker stamp">{kicker}{READ_MARK}<span class="grow"></span>\
-{item_tools(bool(item.get("en")))}</p>
+<p class="kicker">{kicker}{READ_MARK}</p>
 <h2>{item_headline(item, used)}</h2>
 {item_body(item, used)}
 <p class="sources">{render_sources(item["sources"])}</p>
+{READ_BUTTON}
 </section>"""
 
 
@@ -1900,35 +1731,6 @@ def render_lead(data: dict) -> str:
             f'<ul>\n{chr(10).join(rows)}\n</ul>\n</section>')
 
 
-def render_vocabulary(items: list[dict]) -> str:
-    """Slovníček vydání: všechna vysvětlená slovíčka pohromadě na konci."""
-    words = collect_vocabulary(items)
-    if not words:
-        return ""
-    rows = []
-    for entry in words:
-        czech = ""
-        if entry.get("cs"):
-            czech = f' <span class="cz">· {esc(entry["cs"])}</span>'
-        rows.append(
-            f'<li><span class="term">{esc(entry["term"])}</span>'
-            f'<span class="def">{esc(entry["definition"])}{czech}</span>'
-            f'<a class="more" href="{esc(cambridge_url(entry["term"]))}" '
-            f'target="_blank" rel="noopener noreferrer">Cambridge ↗</a></li>'
-        )
-    heading = bi("Slovníček", "Vocabulary")
-    return (f'<section class="vocab">\n<h2>{heading}</h2>\n'
-            f'<ul>\n{chr(10).join(rows)}\n</ul>\n</section>')
-
-
-HINT_CS = ("Čteš anglickou verzi českých zpráv. <b>Klikni na větu</b> "
-           "a ukáže se česky, <b>tečkovaně podtržená slova</b> mají "
-           "vysvětlivku.")
-HINT_EN = ("Czech news retold in English (B2–C1). <b>Click any sentence</b> "
-           "for the Czech version, <b>tap the dotted words</b> for "
-           "a definition.")
-
-
 def render_digest(data: dict, prev: str | None, nxt: str | None,
                   recent: list[str], *, is_index: bool,
                   labels: dict[str, tuple[str, str]]) -> str:
@@ -1949,24 +1751,19 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
     opener = max(items, key=lambda i: len(i["sources"]))
     rest = [i for i in items if i is not opener]
 
-    issues = ""
+    # Rozcestník pod hlavičkou drží jen dva odkazy: o vydání zpátky
+    # a archiv. Delší výčet dnů se stejně proklikával přes archiv.
+    links = []
     if recent:
-        links = '<span class="sep">·</span>'.join(
-            f'<a href="{esc(d)}.html">{label(d)}</a>' for d in recent
-        )
-        archive = bi("celý archiv", "full archive" if english else None)
-        older = bi("Starší vydání:", "Earlier issues:" if english else None)
-        issues = (f'\n<nav class="issues">{older} {links}'
-                  f'<span class="sep">·</span>'
-                  f'<a href="archiv.html">{archive}</a></nav>')
+        links.append(f'<a href="{esc(recent[0])}.html">{label(recent[0])}</a>')
+    links.append(f'<a href="archiv.html">'
+                 f'{bi("archiv", "archive" if english else None)}</a>')
+    older = bi("Starší vydání:", "Earlier issues:" if english else None)
+    issues = (f'\n<nav class="issues">{older} '
+              + '<span class="sep">·</span>'.join(links) + '</nav>')
 
-    minutes = reading_minutes(data)
-    meta = bi(
-        f"{esc(plural_items(len(items)))} &nbsp;·&nbsp; ≈ {minutes} min čtení",
-        f"{esc(plural_items_en(len(items)))} &nbsp;·&nbsp; ≈ {minutes} min read"
-        if english else None,
-    )
-    hint = f'\n<p class="hint">{bi(HINT_CS, HINT_EN)}</p>' if english else ""
+    meta = bi(esc(plural_items(len(items))),
+              esc(plural_items_en(len(items))) if english else None)
 
     home = "index.html"
     title = bi(esc(SITE_TITLE), esc(SITE_TITLE_EN) if english else None)
@@ -1977,7 +1774,7 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
 <p class="dateline">{dateline}</p>
 <hr class="rule-double">
 <p class="meta">{meta}{updated_note(data.get("_updated"), english)}</p>\
-{issues}{hint}
+{issues}
 </header>""")
 
     if data.get("weather"):
@@ -1998,8 +1795,6 @@ def render_digest(data: dict, prev: str | None, nxt: str | None,
         parts.append(
             f'<section class="rubric">\n<h2>{heading}</h2>\n{body}\n</section>'
         )
-
-    parts.append(render_vocabulary(items))
 
     pager = ['<nav class="pager">']
     pager.append(

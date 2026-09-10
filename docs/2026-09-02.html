@@ -8,43 +8,39 @@
 <meta name="description" content="Přehled zpráv z českých zdrojů. Nové vydání každý den v 17:00, shrnuje uplynulých 24 hodin.">
 <link rel="stylesheet" href="assets/style.css">
 <script>
-/* Jazyk stránky. Výchozí je angličtina, protože web se čte kvůli učení;
-   „both" staví větu pod větu, „cs" ukazuje původní české znění. Volba se
+/* Jazyk stránky: „en" (výchozí) a „cs" pro původní české znění. Volba se
    pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
    nemají a přepínač na nich není. */
 (function () {
   var root = document.documentElement;
-  var MODES = { en: 1, both: 1, cs: 1 };
-  var HTML_LANG = { en: 'en', both: 'en', cs: 'cs' };
 
   function apply(mode) {
     root.setAttribute('data-lang', mode);
-    root.setAttribute('lang', HTML_LANG[mode]);
+    root.setAttribute('lang', mode);
   }
 
   var stored = null;
   try { stored = localStorage.getItem('lang'); } catch (e) {}
-  if (root.getAttribute('data-has-en') === '1' && MODES[stored]) apply(stored);
+  // Dřívější třetí režim „both" už neexistuje, bereme ho jako angličtinu.
+  if (stored !== 'cs') stored = 'en';
+  if (root.getAttribute('data-has-en') === '1') apply(stored);
 
   document.addEventListener('DOMContentLoaded', function () {
-    var box = document.querySelector('.lang-switch');
-    if (!box) return;
-    var btns = box.querySelectorAll('button[data-mode]');
-    function sync() {
-      var now = root.getAttribute('data-lang') || 'en';
-      Array.prototype.forEach.call(btns, function (b) {
-        b.setAttribute('aria-pressed',
-          b.getAttribute('data-mode') === now ? 'true' : 'false');
-      });
+    var btn = document.querySelector('.lang-toggle');
+    if (!btn) return;
+    function label() {
+      var czech = root.getAttribute('data-lang') === 'cs';
+      btn.textContent = czech ? 'CS' : 'EN';
+      var text = czech ? 'Switch to English' : 'Přepnout do češtiny';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
     }
-    sync();
-    Array.prototype.forEach.call(btns, function (b) {
-      b.addEventListener('click', function () {
-        apply(b.getAttribute('data-mode'));
-        try { localStorage.setItem('lang', b.getAttribute('data-mode')); }
-        catch (e) {}
-        sync();
-      });
+    label();
+    btn.addEventListener('click', function () {
+      var next = root.getAttribute('data-lang') === 'cs' ? 'en' : 'cs';
+      apply(next);
+      try { localStorage.setItem('lang', next); } catch (e) {}
+      label();
     });
   });
 })();
@@ -90,10 +86,9 @@
   });
 })();
 
-/* Přečtené zprávy: klik na zprávu ji označí (a odznačí), stejně tak
-   tlačítko v hlavičce zprávy; klik na odkaz ji označí a nechá odkaz
-   normálně otevřít. Klikání na věty a slovíčka se do označování neplete.
-   Stav žije v localStorage, záznamy starší 90 dnů se promazávají. */
+/* Přečtené zprávy: přepíná je tlačítko pod zprávou, které ji zároveň
+   sbalí na titulek. Stav žije v localStorage, záznamy starší 90 dnů se
+   promazávají. */
 (function () {
   var KEY = 'readItems';
   var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
@@ -121,51 +116,33 @@
         var id = el.getAttribute('data-read-id');
         var btn = el.querySelector('.tool-read');
         if (map[id]) el.classList.add('read');
+        if (!btn) return;
 
         function sync() {
-          if (btn) {
-            btn.setAttribute('aria-pressed',
-              el.classList.contains('read') ? 'true' : 'false');
-          }
-        }
-        function mark() {
-          if (!map[id]) { map[id] = Date.now(); el.classList.add('read'); save(map); }
-          sync();
-        }
-        function toggle() {
-          if (el.classList.toggle('read')) map[id] = Date.now();
-          else delete map[id];
-          save(map);
-          sync();
+          btn.setAttribute('aria-pressed',
+            el.classList.contains('read') ? 'true' : 'false');
         }
         sync();
 
-        if (btn) {
-          btn.addEventListener('click', function (ev) {
-            ev.stopPropagation();
-            toggle();
-          });
-        }
-
-        el.addEventListener('click', function (ev) {
-          // Věty, slovíčka a tlačítka mají vlastní význam kliknutí.
-          if (ev.target.closest('.s, .gl, .tool')) return;
-          if (ev.target.closest('a')) {
-            // Otevření zdroje počítáme jako přečtení, ale neodznačujeme.
-            mark();
-            return;
+        btn.addEventListener('click', function () {
+          if (el.classList.toggle('read')) {
+            map[id] = Date.now();
+            // Sbalená zpráva se scvrkne na titulek; kdyby zůstala nad
+            // horní hranou, čtenář by se ocitl uprostřed jiné zprávy.
+            var box = el.getBoundingClientRect();
+            if (box.top < 0) el.scrollIntoView({ block: 'start' });
+          } else {
+            delete map[id];
           }
-          // Výběr textu (např. kvůli kopírování) přečtení nepřepíná.
-          if (window.getSelection && String(window.getSelection())) return;
-          toggle();
+          save(map);
+          sync();
         });
       }
     );
   });
 })();
 
-/* Srovnání s češtinou: klik na větu ukáže její překlad, tlačítko „CS"
-   v hlavičce zprávy přepne na souběžné čtení celé zprávy. */
+/* Srovnání s češtinou: klik na větu ukáže její překlad. */
 (function () {
   function selecting() {
     return !!(window.getSelection && String(window.getSelection()));
@@ -185,19 +162,6 @@
           ev.preventDefault();
           ev.stopPropagation();
           s.classList.toggle('open');
-        });
-      }
-    );
-
-    Array.prototype.forEach.call(
-      document.querySelectorAll('.tool-cs'),
-      function (btn) {
-        var box = btn.closest('[data-read-id]');
-        btn.addEventListener('click', function (ev) {
-          ev.stopPropagation();
-          if (!box) return;
-          var on = box.classList.toggle('bi');
-          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
       }
     );
@@ -242,9 +206,6 @@
     pop.setAttribute('role', 'dialog');
     pop.appendChild(line('term', el.getAttribute('data-term')));
     pop.appendChild(line('def', el.getAttribute('data-def')));
-    if (el.getAttribute('data-cs')) {
-      pop.appendChild(line('cz', el.getAttribute('data-cs')));
-    }
     var more = document.createElement('a');
     more.className = 'more';
     more.href = el.getAttribute('data-url');
@@ -295,8 +256,8 @@
 <h1><a href="index.html">Denní přehled</a></h1>
 <p class="dateline">středa 2. září 2026</p>
 <hr class="rule-double">
-<p class="meta">28 zpráv &nbsp;·&nbsp; ≈ 13 min čtení &nbsp;·&nbsp; aktualizováno <time datetime="2026-09-02T17:24+02:00">2. 9. 2026 v 17:24</time></p>
-<nav class="issues">Starší vydání: <a href="2026-09-01.html">1. 9. 2026</a><span class="sep">·</span><a href="2026-08-31.html">31. 8. 2026</a><span class="sep">·</span><a href="2026-08-30.html">30. 8. 2026</a><span class="sep">·</span><a href="archiv.html">celý archiv</a></nav>
+<p class="meta">28 zpráv &nbsp;·&nbsp; aktualizováno <time datetime="2026-09-02T17:24+02:00">2. 9. 2026 v 17:24</time></p>
+<nav class="issues">Starší vydání: <a href="2026-09-01.html">1. 9. 2026</a><span class="sep">·</span><a href="archiv.html">archiv</a></nav>
 </header>
 
 <section class="weather">
@@ -321,203 +282,231 @@
 </section>
 
 <section class="opener" data-read-id="50d514c0d85f">
-<p class="kicker stamp">Svět · 16:51 · <span class="lang-cs">7 zdrojů</span><span class="lang-en">7 sources</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></p>
+<p class="kicker">Svět · 16:51 · <span class="lang-cs">7 zdrojů</span><span class="lang-en">7 sources</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></p>
 <h2>Německo řeší další sabotáže, u útoku v Lipsku má dva podezřelé</h2>
 <p class="body">Nádražím v bavorském Augsburgu dnes ráno otřásl výbuch ručního granátu. Německé úřady zároveň vyšetřují dva úterní zásahy do elektrické infrastruktury jako možné sabotáže: úmyslně způsobený zkrat v rozvodně u elektrárny Jänschwalde v Braniborsku a další v rozvodně v Bergheimu v Severním Porýní-Vestfálsku, kde policie vyloučila technickou závadu. Podle E15 zkrat v Bergheimu odstavil pět bloků dvou okolních elektráren, jednou z nich je elektrárna Křetínského, dodávky elektřiny ale ohroženy nebyly. Ke včerejšímu oznámení, že za srpnovým hybridním útokem na letišti Lipsko/Halle stojí Moskva, přibyli podezřelí: podle stanic NDR, WDR a listu Süddeutsche Zeitung jde o Rusa s lotyšským pasem a Bělorusa s ruským občanstvím, jejich zadržení ale média nepovažují za pravděpodobné. Předsedkyně Evropské komise Ursula von der Leyen uvedla, že při útoku v Lipsku byl použit materiál vojenské kvality a při úspěšném provedení mohlo dojít ke ztrátám na životech. Ruský prezident Vladimir Putin označil odvetná opatření Berlína za „hrubou chybu“ a z Moskvy podle Seznam Zpráv zněly výhrůžky, že by si Německo „zasloužilo přímý úder“; ruské ministerstvo zahraničí si předvolalo německého diplomata. Rusko přitom v tichosti stáhlo z Bruselu zhruba dvacet diplomatů, čímž splnilo požadavek EU omezit svou misi na čtyřicet lidí. Premiér Andrej Babiš označil incidenty v Německu za velmi vážné a uvedl, že Česko je připravené úzce spolupracovat s Německem i s evropskými a transatlantickými partnery.</p>
 <p class="sources"><a href="https://denikn.cz/2172258/vybuch-granatu-sabotaz-elektriny-nemecka-vlada-pritvrdila-proti-rusku-pote-pribyly-dalsi-utoky/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/v-rozvodne-na-zapade-nemecka-nekdo-umyslne-zpusobil-zkrat-377178" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.e15.cz/zahranicni/umyslny-zkrat-odstavil-pet-bloku-elektraren-tercem-sabotaze-byla-i-kretinskeho-elektrarna-1435388" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/nemecke-urady-identifikovaly-dva-podezrele-z-utoku-na-letisti-u-lipska-pisi_2609021455_vdv" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-hruba-chyba-rekl-putin-k-odvete-berlina-nemecko-hlasi-dalsi-sabotaze-314407" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/2172862/rusti-diplomate-v-dobe-utoku-v-nemecku-v-tichosti-opousteji-brusel/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-babis-oznacil-incidenty-v-nemecku-za-vazne-cr-podpori-posileni-bezpecnosti-314451" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </section>
 
 <section class="rubric">
 <h2>Domov</h2>
 <article data-read-id="0e5acebe431e">
-<span class="stamp">16:33<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">16:33 <span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Babiš si za rozpočtem stojí, Motoristé i SPD dál tlačí na škrty</h3>
 <p class="body">Premiér Andrej Babiš za návrhem rozpočtu stojí. Kritici podle něj nejdou do detailů a nejsou schopni říct, kde by se mělo šetřit; dodal, že v roce 2028 bude schodek nižší. Koaliční partneři zůstávají nespokojení: podle E15 hrozí Motoristé blokací rozpočtu a chtějí své úsporné návrhy předložit přímo premiérovi, SPD požaduje škrtnutí dotací neziskovým organizacím a zastavení sociálních dávek cizincům. Ministryně financí Alena Schillerová podle E15 vidí prostor pro úspory jen v jednotkách miliard. Předseda Motoristů a ministr zahraničí Petr Macinka chce s Babišem probrat systémové změny mířící až k rozpočtu na rok 2028, podle něj je třeba se podívat i na možnost odložení některých projektů. Deník N zároveň upozorňuje, že v rozpočtu ministerstva školství chybí miliardy, které stát musí ze zákona zaplatit, a o peníze navíc přicházejí i vysoké školy, které hrozí, že kvůli tomu přijmou méně studentů. Ministr školství Robert Plaga chce podle Deníku N ještě v září o chybějící miliardy bojovat.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2172929/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.e15.cz/byznys/finance-a-bankovnictvi/vzpoura-o-miliardy-v-koalici-motoriste-hrozi-blokaci-rozpoctu-schillerova-vidi-prostor-jen-v-jednotkach-miliard-1435378" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172908/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/2171628/skolstvi-v-rozpoctu-ostrouhalo-chybi-i-penize-na-zakonne-vydaje-plaga-chce-vic-penez/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="552dd88ab43a">
-<span class="stamp">16:46<span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">16:46 <span class="flag">· <span class="lang-cs">4 zdroje</span><span class="lang-en">4 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Policie exhumovala v Lánech ostatky Jana Masaryka a bude na nich hledat známky násilí</h3>
 <p class="body">Policejní odborníci dnes vyzvedli z rodinné hrobky na hřbitově v Lánech na Kladensku ostatky někdejšího ministra zahraničí Jana Masaryka. Podle mluvčího policejního prezidia Jakuba Vinčálka to může pomoci při objasňování okolností jeho úmrtí z března 1948, kdy zemřel po pádu z okna pražského Černínského paláce krátce po komunistickém převratu. Kriminalisté chtějí na ostatcích hledat známky násilí a zjistit, zda komunisté nezmanipulovali původní pitvu, popisuje Deník N. Souhlas rodiny policie k exhumaci nepotřebovala, protože jde o úkon trestního řízení, příbuzné ale o svém záměru předem informovala. „Nebojím se, že bychom se o smrti Jana Masaryka nedozvěděli něco nového,“ řekla Deníku N forenzní antropoložka a ředitelka Ústavu antropologie Přírodovědecké fakulty Masarykovy univerzity Petra Urbanová.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/experti-exhumuji-ostatky-jana-masaryka-ma-to-pomoci-objasnit-okolnosti-jeho-smrti-377182" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/2172406/policie-hleda-na-ostatcich-jana-masaryka-znamky-nasili-chce-zjistit-zda-komuniste-zmanipulovali-pitvu/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/2172563/skrceni-nebo-duseni-nam-muze-napovedet-jedina-kustka-rika-expertka-ke-zkoumani-masarykovy-smrti/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-policejni-odbornici-exhumuji-ostatky-nekdejsiho-ministra-zahranici-jana-masaryka-314406" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="5ce19062f804">
-<span class="stamp">13:14<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">13:14 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Odvolání bitcoinového daru může být podle Tejce způsob, jak komplikovat trestní řízení</h3>
 <p class="body">Navazuje na včerejší zprávu, že obžalovaný Tomáš Jiřikovský odvolal pro nevděk dar bitcoinů v hodnotě miliardy korun, který loni věnoval ministerstvu spravedlnosti. Ministr spravedlnosti Jeroným Tejc (za ANO) dnes novinářům v Českých Budějovicích řekl, že to může být způsob, jak komplikovat trestní řízení, a resort zváží další postup. Bitcoiny jsou podle něj nyní kvůli trestnímu řízení zablokované a vracet se nebudou. Ministerstvo označilo odvolání daru za další právní riziko spojené s bitcoinovou kauzou; zdrojem budoucích sporů mohou být jak okolnosti přijetí daru, tak jeho následného prodeje v aukci.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/domaci/odvolani-bitcoinoveho-daru-muze-byt-dle-tejce-zpusob-jak-komplikovat-rizeni-377188" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/zpusob-jak-komplikovat-trestni-rizeni-tejc-se-vyjadril-k-jirikovskemu-odvolani_2609021305_lar" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/domaci/obzalovany-jirikovsky-odvolal-pro-nevdek-bitcoinovy-dar-venovany-ministerstvu-377166" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="3d1977109cb7">
-<span class="stamp">15:59<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">15:59 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Ministr kultury Klempíř odvolal ředitele Industriálního muzea v Ostravě</h3>
 <p class="body">Ministr kultury Oto Klempíř (za Motoristy) dnes odvolal z funkce ředitele příspěvkové organizace MUSEum+, Industriálního muzea v Ostravě, Pavla Lazara. Hlavním důvodem je obava o další řádnou realizaci projektu MUSEum+, jehož cílem je vybudovat v areálu Dolních Vítkovic nové industriální muzeum a využít pro jeho potřeby vysoké pece č. 4 a 6. Vedení se dočasně ujme generální ředitelka Národního památkového ústavu Naděžda Goryczková, jejím hlavním úkolem bude organizaci stabilizovat a zajistit pokračování projektu.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-domov/reditel-industrialniho-muzea-v-ostrave-konci-z-funkce-ho-odvolal-ministr-kultury_2609021559_tez" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/kultura-ministr-kultury-odvolal-reditele-museum-industrialniho-muzea-v-ostrave-314452" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172756/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="9a6b636f7723">
-<span class="stamp">16:38<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">16:38 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Začaly kampaně do říjnových komunálních a senátních voleb</h3>
 <p class="body">V Česku se rozjíždějí kampaně do říjnových komunálních a senátních voleb, na řadě míst dnes vládní i opoziční strany představovaly programy. O téměř 6400 zastupitelských křesel se uchází přes 190 000 kandidátů a kandidátek, většinu z nich tvoří nezávislí. Předseda Starostů a nezávislých Vít Rakušan při zahájení kampaně řekl, že konkrétním cílem hnutí je výrazně uspět v Praze a dostat se do zastupitelstev všech statutárních měst; chce podle svých slov oslovit i zklamané voliče ANO. Šance Motoristů na úspěch je podle politologa Josefa Mlejnka mizivá a kandidaturu ministrů považuje za ctnost z nouze.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-domov/mlejnek-sance-motoristu-na-uspech-ve-volbach-je-miziva-kandidatura-ministru-je-z_2609021638_raf" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172688/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Hradec Králové</h2>
 <article data-read-id="6afd96d49d0a">
-<span class="stamp">12:17<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">12:17 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Nad Hradcem začaly stoupat balony, upoutanou atrakci pořadatelé přesunuli na dnešek</h3>
 <p class="body">Balónové nebe, jeden z hlavních taháků letošních Královských slavností, se nad Hradcem a okolím koná od 2. do 5. září. Upoutaný balon pro děti, který organizátoři původně chystali na pátek, přesunuli už na dnešek — v pátek by ho mohl ohrozit silný vítr. Atrakce, při níž balon vystoupá do omezené výšky a vrátí se zpět na zem, je určená dětem do 13 let.</p>
 <p class="sources"><a href="https://hradecky.denik.cz/zpravy-region/upoutany-balon-hradec-presun-balonove-nebe-atrakce-deti/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=zpravy-region" target="_blank" rel="noopener noreferrer">Hradecký deník</a><span class="sep">·</span><a href="https://hradecka.drbna.cz/zpravy/898784-balonove-nebe-znovu-rozzari-hradec-kralove-ceka-nas-paradni-podivana.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="5ceb06fad1db">
-<span class="stamp">06:02<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">06:02 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Na Gočárově okruhu jsou hotové pomalé pruhy, práce potrvají do října</h3>
 <p class="body">Ředitelství silnic a dálnic dokončilo na Gočárově okruhu opravu pomalých jízdních pruhů a nájezdových ramp, práce se nyní přesouvají do rychlých pruhů. Podle harmonogramu by mohlo být hotovo 5. října. Do provozu se v úterý po více než sedmi týdnech vrátila auta na Malšovický nadjezd, píše iDNES; rozsáhlá oprava Malšovického mostu přes Orlici, kde obousměrný provoz řídí semafory, ale bude hotová až v polovině listopadu.</p>
 <p class="sources"><a href="https://hradecka.drbna.cz/doprava/898953-pomale-pruhy-jsou-hotove-oprava-gocarova-okruhu-potrva-do-rijna.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a><span class="sep">·</span><a href="https://www.idnes.cz/hradec-kralove/zpravy/uzavirky-opravy-silnice-malsovicky-most-nadjezd-okruh-rsd.A260901_153820_hradec-zpravy_tuu#utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=hradec&amp;utm_content=main" target="_blank" rel="noopener noreferrer">iDNES Hradec</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="ec72459213d5">
-<span class="stamp">13:32<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">13:32<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Velké náměstí dostává zeleň a pobytovou zónu, celková rekonstrukce se teprve chystá</h3>
 <p class="body">Velké náměstí v Hradci Králové postupně mění podobu — přibývá zeleň, nový mobiliář a pobytová zóna. Celková rekonstrukce náměstí se ale teprve připravuje, od loňského září se zpracovává dokumentace pro povolení celého záměru.</p>
 <p class="sources"><a href="https://hradecky.denik.cz/zpravy-region/velke-namesti-promena-rekonstrukce-pobytova-zona-hradec-kralove/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=zpravy-region" target="_blank" rel="noopener noreferrer">Hradecký deník</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="c2c5eee6bff3">
-<span class="stamp">09:02<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">09:02<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Fotbalisté Hradce hrají dnes v Brně dohrávku čtvrtého kola</h3>
 <p class="body">Po vyřazení z evropských pohárů a porážce v Liberci čeká fotbalisty Hradce Králové další těžká zkouška: dnes se představí v dohrávce 4. kola první ligy na hřišti rozjeté Zbrojovky Brno. Proti Votrokům by měl nastoupit i brněnský střelec Vašulín, který v Hradci dříve působil.</p>
 <p class="sources"><a href="https://hradecky.denik.cz/fotbal-prvni-liga/hradec-ceka-tezka-sichta-v-brne-proti-bude-i-strelec-vasulin/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=fotbal-prvni-liga" target="_blank" rel="noopener noreferrer">Hradecký deník</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Svět</h2>
 <article data-read-id="55587de6d1e2">
-<span class="stamp">16:36<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">16:36<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Ruské střely zasáhly v Kyjevě univerzitu během vyučování, Německo pošle protivzdušnou obranu</h3>
 <p class="body">Ruské střely dnes zasáhly jednu z kyjevských univerzit přímo během vyučování, všech 160 studentů ale bylo v úkrytu, uvedl na síti X ukrajinský prezident Volodymyr Zelenskyj. Rusové podle něj v noci bombardovali také Odesu, kde poškodili obytný dům a městskou infrastrukturu a zranili pět lidí včetně dítěte. Německo tento měsíc předá Ukrajině nové balíčky protivzdušné obrany, Zelenskyj s kancléřem projednal i společnou dronovou dohodu. Novým velitelem ukrajinských pozemních sil se stal bývalý výsadkář Svjatoslav Zajic, který nahradil Hennadije Šapovalova.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2172681/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172963/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-jmenoval-noveho-velitele-ukrajinskych-pozemnich-sil-314443" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="beb765dca9b2">
-<span class="stamp">16:25<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">16:25 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Izrael má podle ministra obrany hotové plány na odsun Palestinců z Gazy</h3>
 <p class="body">Izrael má připravené plány na odsun Palestinců z Pásma Gazy, ale čeká, až Spojené státy vymyslí, kam je odvézt. Podle agentury AFP to dnes řekl izraelský ministr obrany Jisrael Kac na konferenci, kterou pořádal server Ynet a deník Jediot Achronot. Vláda premiéra Benjamina Netanjahua je podle Kace připravena Palestince z Pásma Gazy „dostat pryč“.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/izrael-vyckava-az-usa-vymysli-kam-palestince-odvezt-zeme-je-pripravena-na-jejich_2609021625_jos" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://ct24.ceskatelevize.cz/clanek/svet/mame-plan-na-odsun-palestincu-z-pasma-gazy-ceka-se-na-usa-prohlasil-kac-377193" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172916/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="f8aa16963f86">
-<span class="stamp"><span class="lang-cs">1. 9. 20:02</span><span class="lang-en">1 Sep 20:02</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp"><span class="lang-cs">1. 9. 20:02</span><span class="lang-en">1 Sep 20:02</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Americké síly zasáhly další íránské cíle, podle IRNA zemřelo jedenáct lidí</h3>
 <p class="body">Americké síly podle velitelství CENTCOM podnikly v úterý další útoky na íránské cíle. Íránská státní agentura IRNA uvedla, že při nich zemřelo jedenáct lidí, íránská média podle Reuters hlásila výbuchy na ostrově Kešm v Hormuzském průlivu. ČT24 zároveň informovala, že Teherán udeřil na Jordánsko.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/americke-sily-zahajily-dalsi-utoky-na-iranske-cile-vybuchy-hlasi-ostrov-kesm-377170" target="_blank" rel="noopener noreferrer">ČT24</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="af6618ee6fe2">
-<span class="stamp">15:59<span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">15:59 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>AfD by v nedělních volbách v Sasku-Anhaltsku mohla podle průzkumu získat až 43 procent</h3>
 <p class="body">Alternativa pro Německo by v nedělních volbách ve východoněmecké spolkové zemi Sasko-Anhaltsko mohla získat až 43 procent hlasů, vyplývá z dnes zveřejněného průzkumu agentury INSA. Křesťanskodemokratická unie současného zemského premiéra Svena Schulzeho zaostává o 21 procentních bodů. E15 dodává, že AfD vede i v průzkumech v Meklenbursku-Předním Pomořansku a v Berlíně drží silnou pozici v těsném trojboji s Levicí a CDU.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/afd-v-sasku-anhaltsku-mohla-vyhrat-az-s-43-procenty-uvadi-novy-pruzkum_2609021535_med" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.e15.cz/zahranicni/politicke-zemetreseni-na-vychode-nemecka-afd-saha-po-43-procentech-a-prvnim-zemskem-premierovi-1435444" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172803/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="774dcea29570">
-<span class="stamp">15:44<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">15:44 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Záplavy v Nepálu a Tibetu mají nejméně 1130 mrtvých, naděje na nalezení přeživších slábne</h3>
 <p class="body">Počet obětí ničivých záplav v Nepálu a Tibetu z minulého týdne vzrostl podle agentury AFP na nejméně 1130, po 4462 lidech záchranáři dál pátrají. Naděje na nalezení dalších přeživších podle úřadů slábnou, uvedl Reuters. Nepálská vláda se nyní chce zaměřit na obnovu zasažených oblastí.</p>
 <p class="sources"><a href="https://ct24.ceskatelevize.cz/clanek/svet/modlime-se-doufame-mrtvych-v-nepalu-je-uz-pres-1100-patrani-pokracuje-377190" target="_blank" rel="noopener noreferrer">ČT24</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/zahranicni-zaplavy-v-nepalu-si-dosud-vyzadaly-1114-mrtvych-vlada-se-chce-zamerit-na-obnovu-314426" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Ekonomika</h2>
 <article data-read-id="67288245a7bd">
-<span class="stamp">13:58<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">13:58 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Chevron se dohodl s Venezuelou a chce tam investovat sedm miliard dolarů</h3>
 <p class="body">Americká ropná společnost Chevron se dohodla s Venezuelou na podmínkách pro své společné podniky v zemi a v příštích pěti letech tam plánuje investovat více než sedm miliard dolarů. Cílem je těžba přibližně 600 000 barelů denně. Podle Seznam Zpráv firma získala přístup k novým ložiskům a chce tak svou venezuelskou produkci zdvojnásobit.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-americky-ropny-koncern-chevron-zdvojnasobi-produkci-ropy-ve-venezuele-314436" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2172584/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="021b1c6c6375">
-<span class="stamp">14:26<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">14:26<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Uber propustí desetinu zaměstnanců, tedy přes tři tisíce lidí</h3>
 <p class="body">Taxislužba Uber prochází rozsáhlou restrukturalizací a propustí deset procent zaměstnanců, tedy přes tři tisíce lidí. Podle generálního ředitele Dary Khosrowshahiho jsou změny potřeba, protože dosavadní stav neodpovídal současné velikosti firmy.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-provozovatel-taxisuzby-uber-propusti-deset-procent-zamestnancu-314445" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="a20db496d6b4">
-<span class="stamp">16:25<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">16:25<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Nizozemská centrální banka přesunula 86 tun zlata z Ameriky do Londýna</h3>
 <p class="body">Nizozemská centrální banka přesunula z USA a Kanady do Londýna kolem 86 tun zlata, tedy více než čtvrtinu svých dosavadních rezerv. Přesun přichází měsíce poté, co francouzská centrální banka prodala zlato, které držela ve Spojených státech.</p>
 <p class="sources"><a href="https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-komodity-dluhopisy-nizozemska-banka-presunula-cast-zlatych-rezerv-z-ameriky-do-britanie-314467" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Technologie</h2>
 <article data-read-id="70bf889693e9">
-<span class="stamp">14:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">14:30<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Mistral podle své nápovědy trénuje na vstupech uživatelů ve výchozím nastavení</h3>
 <p class="body">Francouzská firma Mistral podle stránky své nápovědy, na kterou dnes upozornila diskuse na Hacker News, nově ve výchozím nastavení používá vstupy uživatelů k trénování svých modelů. Výjimkou má být podnikový tarif.</p>
 <p class="sources"><a href="https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training" target="_blank" rel="noopener noreferrer">Hacker News</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="c44e4e33e545">
-<span class="stamp">13:36<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">13:36<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Americký soud rozhodl, že držení AI obrázků zneužívání fiktivních dětí chrání první dodatek</h3>
 <p class="body">Odvolací soud v Chicagu minulý týden rozhodl, že soukromé vlastnictví obrázků a videí zobrazujících sexuální zneužívání fiktivních dětí, která vygenerovala umělá inteligence, je pod ochranou prvního dodatku americké ústavy. Rozsudek padl v případu muže, u něhož se našel vysoký počet takto vygenerovaných explicitních obrázků dětí.</p>
 <p class="sources"><a href="https://www.irozhlas.cz/zpravy-svet/mame-obavy-ale-nemuzeme-je-zmenit-americky-soud-rozhodl-o-uchovavani-ai-obrazku_2609021336_raf" target="_blank" rel="noopener noreferrer">iROZHLAS</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Společnost a kultura</h2>
 <article data-read-id="78715e01c402">
-<span class="stamp">13:32<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">13:32<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Cvičné letouny L-39C Albatros ukončily po 22 letech provoz</h3>
 <p class="body">Cvičné proudové letouny L-39C Albatros dnes po 22 letech ukončily provoz, naposledy se vznesly při rozlučkovém letu nad Českem. Ve výcviku je nahrazuje nová generace letounů L-39NG Skyfox.</p>
 <p class="sources"><a href="https://denikn.cz/minuta/2172630/" target="_blank" rel="noopener noreferrer">Deník N</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Za pozornost</h2>
 <article data-read-id="abeca135eebf">
-<span class="stamp">05:00<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">05:00<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Na českém trhu se prodávají vína majitelů s vazbami na ruský stát, popisuje Voxpot</h3>
 <p class="body">Voxpot sestavil přehled čtyř vinařských značek, které se prodávají i v Česku, přesto že jejich majitelé mají vazby na ruský stát. Jde zejména o italská vína z oblasti Chianti. Reportáž se zároveň ptá českých obchodníků, jestli o původu těch vín vědí a co si o něm myslí.</p>
 <p class="sources"><a href="https://www.voxpot.cz/clanky/na-zdravi-kremlu-cesky-trh-nabizi-vina-putinovych-muzu/" target="_blank" rel="noopener noreferrer">Voxpot</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 
 <section class="rubric">
 <h2>Sport</h2>
 <article data-read-id="86c038afcc7d">
-<span class="stamp"><span class="lang-cs">1. 9. 23:06</span><span class="lang-en">1 Sep 23:06</span><span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp"><span class="lang-cs">1. 9. 23:06</span><span class="lang-en">1 Sep 23:06</span> <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Zverev vydřel na US Open pětisetový úvod, tři české tenistky v prvním kole vypadly</h3>
 <p class="body">Nejvýše nasazený Alexander Zverev otevřel US Open vítězstvím 6:4, 3:6, 6:7, 7:5 a 6:4 nad Italem Lorenzem Sonegem; zápas trval bez pěti minut pět hodin. Druhá hráčka světového žebříčku Jelena Rybakinová zdolala 6:3 a 6:2 domácí Theu Frodinovou. Z Češek se do druhého kola nedostaly Gabriela Knutsonová ani Lucie Havlíčková, které v hlavní soutěži grandslamu debutovaly a obě prohrály 3:6 a 3:6 — Havlíčková s Maďarkou Annou Bondárovou. Skončila také Darja Viďmanová, která podlehla Španělce Jessice Bouzasové.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/tenis/knutsonova-a-havlickova-v-grandslamove-premiere-dohraly-v-1-kole-158719" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/tenis-us-open-svetova-dvojka-zvladla-uvod-us-open-a-je-v-dalsim-kole-5524679" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="455c38a2aba0">
-<span class="stamp">07:30<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">07:30<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Manchester City zaplatil za Enza Fernándeze 125 milionů liber a vyrovnal rekord anglické ligy</h3>
 <p class="body">Záložník Enzo Fernández odešel z Chelsea do Manchesteru City, který za něj podle médií zaplatil 125 milionů liber, tedy 3,53 miliardy korun. Argentinský fotbalista tak vyrovnal přestupový rekord anglické ligy.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/druhy-rekordni-prestup-fernandeze-city-za-argentince-zaplati-chelsea-125-milionu-liber-158720" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="b0133ac4d238">
-<span class="stamp"><span class="lang-cs">1. 9. 18:47</span><span class="lang-en">1 Sep 18:47</span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp"><span class="lang-cs">1. 9. 18:47</span><span class="lang-en">1 Sep 18:47</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Basketbalistky zvládly generálku na mistrovství světa, Jižní Koreu přehrály 79:64</h3>
 <p class="body">České basketbalistky vyhrály v Berlíně v generálce na mistrovství světa nad Jižní Koreou 79:64, šlo o jejich čtvrtou výhru z pěti přípravných duelů. Nejlepší střelkyní týmu trenérky Romany Ptáčkové byla se 16 body Petra Malíková, o bod méně zaznamenala Petra Holešínská. Do turnaje Češky vstoupí v pátek zápasem s Itálií, v neděli je ve skupině D čeká Čína.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/basketbal/vydarena-generalka-na-ms-basketbalistky-prehraly-koreu-158716" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="2548a15609ef">
-<span class="stamp">14:06<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">14:06 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Ruský hokej se odvolal k arbitráži, lyžaři budou dál startovat jako neutrální</h3>
 <p class="body">Ruský hokejový svaz se odvolal ke Sportovnímu arbitrážnímu soudu proti zákazu startů svých týmů v mezinárodních soutěžích včetně mistrovství světa, který federace IIHF potvrdila na konci července. Potřebné materiály svaz podle svého prohlášení předal arbitráži s posledním srpnovým dnem, slyšení se má uskutečnit koncem října. Ruští a běloruští lyžaři a snowboardisté zároveň budou i v nadcházející sezoně startovat v závodech Mezinárodní lyžařské federace jako neutrální sportovci, oznámila dnes FIS.</p>
 <p class="sources"><a href="https://sport.ceskatelevize.cz/clanek/hokej/rusove-se-kvuli-pokracujicimu-zakazu-startu-na-hokejovych-turnajich-odvolali-k-cas-158725" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/zimni-sporty-lyzovani-rusti-a-belorusti-lyzari-budou-dal-zavodit-jako-neutralni-5524935" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="c52871de5f63">
-<span class="stamp">12:45<span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">12:45 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Vuelta přišla o Madse Pedersena, desátou etapu vyhrál překvapivě Tronchon</h3>
 <p class="body">Dánský cyklista Mads Pedersen ze stáje Lidl-Trek nenastoupil do 11. etapy Vuelty. V uplynulých dnech bojoval s nemocí a výsledkově zůstával daleko za očekáváním. Desátou etapu předtím překvapivě vyhrál Francouz Bastien Tronchon, červený trikot lídra dál drží Španěl Enric Mas.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/cyklistika-vuelta-prisla-o-dalsi-velke-jmeno-5524922" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/cyklistika/prekvapeni-na-vuelte-favority-zaskocil-francouz-tronchon-158715" target="_blank" rel="noopener noreferrer">ČT Sport</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 <article data-read-id="0ef75e505616">
-<span class="stamp">11:16<span class="read-mark">· <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span><span class="grow"></span><button class="tool tool-read" type="button" aria-pressed="false" title="Mark as read / Označit jako přečtené">✓</button></span>
+<span class="stamp">11:16<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
 <h3>Reprezentační kapitán Krejčí zůstává po uzavření přestupových oken ve Wolverhamptonu</h3>
 <p class="body">Po sestupu Wolverhamptonu z Premier League kroužila okolo reprezentačního kapitána Ladislava Krejčího řada zájemců včetně klubů z nejvyšší anglické soutěže. Po úterním uzavření přestupových oken top lig je ale jasno: sedmadvacetiletý obránce ve Wolves pokračuje, potvrdil to po prohře 2:4 s West Hamem kouč César Peixoto.</p>
 <p class="sources"><a href="https://www.sport.cz/clanek/fotbal-premier-league-o-budoucnosti-kapitana-reprezentace-uz-je-jasno-5524915" target="_blank" rel="noopener noreferrer">Sport.cz</a></p>
+<p class="item-foot"><button class="tool-read" type="button" aria-pressed="false"><span class="lbl-on"><span class="lang-cs">Označit jako přečtené</span><span class="lang-en">Mark as read</span></span><span class="lbl-off"><span class="lang-cs">Přečteno ✓ · rozbalit</span><span class="lang-en">Read ✓ · show again</span></span></button></p>
 </article>
 </section>
 

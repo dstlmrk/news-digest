@@ -70,8 +70,7 @@ Podrobně v `CLAUDE.md` → *Co vydání pokrývá*.
             "cs": "Vrchní státní zastupitelství v Olomouci podalo obžalobu na čtyři lidi…" }
         ],
         "glossary": [
-          { "term": "charged", "definition": "officially accused of a crime",
-            "cs": "obžalovaný" }
+          { "term": "charged", "definition": "officially accused of a crime" }
         ]
       }
     }
@@ -136,7 +135,7 @@ vypadá výsledek a co na něm build kontroluje.
 | --- | --- | --- |
 | `en.headline` | ano | Překlad `headline`. |
 | `en.sentences` | ano | Pole dvojic `{ "en": …, "cs": … }`. `cs` jsou **úseky původního `body`**: když je za sebou složíš, musí dát přesně `body`. Web podle nich odkrývá překlad po větách. |
-| `en.glossary` | ne | Vysvětlená slovíčka: `term`, `definition` a volitelně `cs`. |
+| `en.glossary` | ne | Vysvětlená slovíčka: `term` a `definition`, obojí anglicky. Dvě až čtyři na položku. Český překlad slovíčka se nepíše. |
 
 Build skript ověřuje tři věci a jinak skončí chybou:
 
@@ -144,7 +143,8 @@ Build skript ověřuje tři věci a jinak skončí chybou:
    češtiny a po větách by se nedalo srovnávat.
 2. **Každý `term` je opravdu v anglickém textu položky** (celé slovo, na
    velikosti písmen nezáleží). Vysvětlivka ke slovu, které v textu není,
-   by na webu nikde nevyskočila.
+   by na webu nikde nevyskočila. Pole `cs` u slovíčka build odmítne —
+   vysvětlivka je celá anglicky.
 3. **Angličtinu má buď celé vydání, nebo žádná položka.**
 
 Redakční pravidla překladu — úroveň jazyka, co patří do slovníčku a co ne
