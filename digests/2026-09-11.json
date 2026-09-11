@@ -1,0 +1,1372 @@
+{
+  "date": "2026-09-11",
+  "covers": "2026-09-11",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, přes den až 21 °C.",
+    "days": [
+      {
+        "date": "2026-09-12",
+        "icon": "cloudy",
+        "temp_max_c": 20.9,
+        "temp_min_c": 8.5
+      },
+      {
+        "date": "2026-09-13",
+        "icon": "rain",
+        "temp_max_c": 18.5,
+        "temp_min_c": 10.4
+      },
+      {
+        "date": "2026-09-14",
+        "icon": "rain",
+        "temp_max_c": 20.8,
+        "temp_min_c": 14.7
+      },
+      {
+        "date": "2026-09-15",
+        "icon": "fog",
+        "temp_max_c": 21.7,
+        "temp_min_c": 11.1
+      }
+    ],
+    "summary_en": "Tomorrow will be cloudy with no rain, reaching up to 21 °C during the day."
+  },
+  "highlights": [
+    "Anthropic ve 154stránkové zprávě popsal, že zmařil pokusy zneužít jeho modely Claude k vývoji biologických zbraní i kybernetickou špionáž proti Ukrajině.",
+    "Spojené státy si připomněly 25 let od útoků z 11. září. Piety v New Yorku se zúčastnili všichni žijící exprezidenti, Donald Trump promluvil u Pentagonu.",
+    "Jemenští Húthíové ovládli město Zúbáb a ostrov Perim u průlivu Báb al-Mandab, kudy vede klíčová lodní trasa z Evropy do Asie.",
+    "Sněmovna schválila přísnější pravidla pro spotřebitelské úvěry a Evropská komise uvolnila 6,1 miliardy eur na nákup obranného materiálu pro Ukrajinu."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:30",
+      "headline": "Sněmovna schválila přísnější podmínky pro spotřebitelské úvěry",
+      "body": "Roční procentní sazba nákladů u vyšších půjček nebude smět překročit čtyřnásobek repo sazby České národní banky o více než osm procentních bodů. Opoziční ODS neprosadila pětinásobek. Reklama na tyto úvěry nebude smět zájemcům naznačovat, že si půjčkou zlepší svou finanční situaci. Podle Seznam Zpráv má úprava mimo jiné omezit účelové zpochybňování smluv. Sněmovna naopak nedokončila úvodní schvalování novely, kterou chce vláda lidem od 80 let věku zvyšovat v pětiletých intervalech důchod o 500 korun měsíčně.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-budou-schvalovat-digitalizaci-povolovani-a-ruseni-pobytu-cizincum-377474"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/prisnejsi-podminky-pro-spotrebitelske-uvery-novelu-zakona-schvalila-snemovna_2609111429_bva"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-snemovna-schvalila-prisnejsi-podminky-pro-spotrebitelske-uvery-315183"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies has approved stricter rules for consumer loans",
+        "sentences": [
+          {
+            "en": "The annual percentage rate of charge on larger loans will not be allowed to exceed four times the Czech National Bank's repo rate by more than eight percentage points.",
+            "cs": "Roční procentní sazba nákladů u vyšších půjček nebude smět překročit čtyřnásobek repo sazby České národní banky o více než osm procentních bodů."
+          },
+          {
+            "en": "The opposition ODS failed to push through a five-times limit.",
+            "cs": "Opoziční ODS neprosadila pětinásobek."
+          },
+          {
+            "en": "Advertising for these loans will not be allowed to suggest to applicants that borrowing will improve their financial situation.",
+            "cs": "Reklama na tyto úvěry nebude smět zájemcům naznačovat, že si půjčkou zlepší svou finanční situaci."
+          },
+          {
+            "en": "According to Seznam Zprávy, the amendment is also meant to curb the deliberate challenging of contracts.",
+            "cs": "Podle Seznam Zpráv má úprava mimo jiné omezit účelové zpochybňování smluv."
+          },
+          {
+            "en": "The Chamber, by contrast, did not finish the first reading of a bill under which the government wants to raise pensions by 500 crowns a month at five-year intervals for people aged 80 and over.",
+            "cs": "Sněmovna naopak nedokončila úvodní schvalování novely, kterou chce vláda lidem od 80 let věku zvyšovat v pětiletých intervalech důchod o 500 korun měsíčně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "curb",
+            "definition": "to control or limit something"
+          },
+          {
+            "term": "amendment",
+            "definition": "a small change made to a law"
+          },
+          {
+            "term": "first reading",
+            "definition": "the first time a parliament formally discusses a proposed law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:29",
+      "headline": "Turek popudil výroky o chemikáliích na Šumavě i vlastní Motoristy",
+      "body": "Poslanec Filip Turek čelí kritice části Motoristů kvůli svým výrokům o nebezpečných chemikáliích na Šumavě a kvůli úkolování ministra životního prostředí Igora Červeného. Ministr odmítá, že by ho Turek úkoloval. Podle Deníku N jsou s Turkovou komunikací nespokojení i poslanci ANO v čele s premiérem Andrejem Babišem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2181868/turek-slovy-k-sumave-popudil-uz-i-motoristy-neukoluje-me-odmita-cerveny/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-turek-priznal-ze-ukoluje-ministra-cerveneho-poslance-napomenul-uz-i-macinka-315134"
+        }
+      ],
+      "en": {
+        "headline": "Turek has angered his own Motoristé with his remarks about chemicals in Šumava",
+        "sentences": [
+          {
+            "en": "MP Filip Turek is facing criticism from part of Motoristé over his remarks about dangerous chemicals in Šumava and over giving instructions to Environment Minister Igor Červený.",
+            "cs": "Poslanec Filip Turek čelí kritice části Motoristů kvůli svým výrokům o nebezpečných chemikáliích na Šumavě a kvůli úkolování ministra životního prostředí Igora Červeného."
+          },
+          {
+            "en": "The minister denies that Turek gives him instructions.",
+            "cs": "Ministr odmítá, že by ho Turek úkoloval."
+          },
+          {
+            "en": "According to Deník N, MPs from ANO, led by Prime Minister Andrej Babiš, are also unhappy with the way Turek communicates.",
+            "cs": "Podle Deníku N jsou s Turkovou komunikací nespokojení i poslanci ANO v čele s premiérem Andrejem Babišem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "angered",
+            "definition": "made someone feel angry"
+          },
+          {
+            "term": "remarks",
+            "definition": "things that someone says"
+          },
+          {
+            "term": "facing criticism",
+            "definition": "having to deal with people saying you did something wrong"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:53",
+      "headline": "Na plzeňské střední škole učí dějepis muž, který roky pracoval pro ruskou propagandu",
+      "body": "Učitel angličtiny a dějepisu z plzeňské střední školy šest let studoval a pracoval v Rusku a poté pracoval v Moskvě pro ruskou státní propagandu, zjistil Deník N. Ředitel školy podle deníku uvedl, že je to pro něj nová informace a nevadí mu to. Plzeňský kraj vedený hnutím ANO v učitelově působení problém nevidí a muž má vyučovat dál.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2181678/kraj-vedeny-hnutim-ano-haji-ucitele-dejepisu-ktery-roky-pracoval-pro-ruskou-propagandu/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2180749/roky-pracoval-pro-ruskou-propagandu-ted-uci-dejepis-v-plzni/"
+        }
+      ],
+      "en": {
+        "headline": "A man who worked for Russian propaganda for years teaches history at a secondary school in Plzeň",
+        "sentences": [
+          {
+            "en": "The English and history teacher from a secondary school in Plzeň studied and worked in Russia for six years and then worked in Moscow for Russian state propaganda, Deník N has found.",
+            "cs": "Učitel angličtiny a dějepisu z plzeňské střední školy šest let studoval a pracoval v Rusku a poté pracoval v Moskvě pro ruskou státní propagandu, zjistil Deník N."
+          },
+          {
+            "en": "The head teacher told the paper that this was new information to him and that he does not mind it.",
+            "cs": "Ředitel školy podle deníku uvedl, že je to pro něj nová informace a nevadí mu to."
+          },
+          {
+            "en": "The Plzeň Region, run by the ANO movement, sees no problem in the teacher's work and the man is to go on teaching.",
+            "cs": "Plzeňský kraj vedený hnutím ANO v učitelově působení problém nevidí a muž má vyučovat dál."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "propaganda",
+            "definition": "information spread to make people support a government or an idea"
+          },
+          {
+            "term": "head teacher",
+            "definition": "the person in charge of a school"
+          },
+          {
+            "term": "secondary school",
+            "definition": "a school for students roughly between 11 and 19 years old"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:24",
+      "headline": "Česká televize chystá škrty, zruší živé noční vysílání",
+      "body": "Plánované škrty v České televizi se mají od příštího roku týkat utlumení některých pořadů i produkce z regionů a zrušit se má živé noční vysílání, napsal Deník N s odvoláním na své informace. Ředitel ČT Hynek Chudárek úspory na konci srpna vyčíslil na 350 milionů korun.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2181112/ceska-televize-chysta-rozsahle-skrty-zrusi-nocni-zive-vysilani-omezi-regionalni-tvrobu/"
+        }
+      ],
+      "en": {
+        "headline": "Czech Television is preparing cuts and will scrap live night broadcasting",
+        "sentences": [
+          {
+            "en": "The planned cuts at Czech Television are to affect the scaling back of some programmes and of regional production from next year, and live night broadcasting is to be dropped, Deník N wrote, citing its own information.",
+            "cs": "Plánované škrty v České televizi se mají od příštího roku týkat utlumení některých pořadů i produkce z regionů a zrušit se má živé noční vysílání, napsal Deník N s odvoláním na své informace."
+          },
+          {
+            "en": "At the end of August, Czech Television's director Hynek Chudárek put the savings at 350 million crowns.",
+            "cs": "Ředitel ČT Hynek Chudárek úspory na konci srpna vyčíslil na 350 milionů korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "scrap",
+            "definition": "to get rid of something that is no longer used"
+          },
+          {
+            "term": "scaling back",
+            "definition": "reducing the size or amount of something"
+          },
+          {
+            "term": "citing",
+            "definition": "mentioning something as the source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "08:52",
+      "headline": "Policie navrhla obžalobu bývalého soudce Kafky, podle ní připravil lidi o 20 milionů",
+      "body": "Policie uzavřela vyšetřování případu exsoudce Romana Kafky a navrhla obžalobu. Podle vyšetřovatelů připravil desítky lidí o více než 20 milionů korun, při uznání viny mu hrozí až deset let vězení. O obžalobě má do konce září rozhodnout dozorová státní zástupkyně, řekl Radiožurnálu vedoucí ostravských žalobců Libor Malý. Kafka tvrdí, že si peníze půjčoval kvůli údajným vyděračům; k posunu v případu se odmítl vyjádřit s tím, že se chystá na jednání o možné dohodě o vině a trestu.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/policie-navrhuje-pro-byvaleho-soudce-kafku-obzalobu-377479"
+        }
+      ],
+      "en": {
+        "headline": "Police have proposed charging former judge Kafka, who they say cheated people out of 20 million",
+        "sentences": [
+          {
+            "en": "The police have closed the investigation into former judge Roman Kafka and proposed that he be charged.",
+            "cs": "Policie uzavřela vyšetřování případu exsoudce Romana Kafky a navrhla obžalobu."
+          },
+          {
+            "en": "According to investigators, he cheated dozens of people out of more than 20 million crowns, and if convicted he faces up to ten years in prison.",
+            "cs": "Podle vyšetřovatelů připravil desítky lidí o více než 20 milionů korun, při uznání viny mu hrozí až deset let vězení."
+          },
+          {
+            "en": "The supervising prosecutor is to decide on the charges by the end of September, the head of the Ostrava prosecutors, Libor Malý, told Radiožurnál.",
+            "cs": "O obžalobě má do konce září rozhodnout dozorová státní zástupkyně, řekl Radiožurnálu vedoucí ostravských žalobců Libor Malý."
+          },
+          {
+            "en": "Kafka says he was borrowing the money because of alleged blackmailers; he declined to comment on the development in the case, saying he is preparing for talks on a possible plea bargain.",
+            "cs": "Kafka tvrdí, že si peníze půjčoval kvůli údajným vyděračům; k posunu v případu se odmítl vyjádřit s tím, že se chystá na jednání o možné dohodě o vině a trestu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "convicted",
+            "definition": "officially found guilty of a crime by a court"
+          },
+          {
+            "term": "alleged",
+            "definition": "said to be true but not yet proven"
+          },
+          {
+            "term": "plea bargain",
+            "definition": "a deal in which someone admits guilt in return for a lighter punishment"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:16",
+      "headline": "Ministr obrany Zůna nakonec nepojede do Číny, náčelník Hlaváč vynechal Kyjev",
+      "body": "Ministr obrany Jaromír Zůna nepojede na bezpečnostní konferenci do Číny, aby nechyběl při závěrečných jednáních o rozpočtu; místo něj pojede pracovník ministerstva, řekl Tomio Okamura (SPD). Zůna zároveň uvedl, že náčelník generálního štábu Miroslav Hlaváč se nezúčastnil bezpečnostní konference v Kyjevě kvůli povinnostem, které má v Česku — zmínil mimo jiné závěrečnou přípravu rozpočtu na rok 2027.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zuna-hlavac-na-konferenci-v-kyjeve-nejel-kvuli-pracovnim-povinnostem-v-cesku-315187"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2181667/"
+        }
+      ],
+      "en": {
+        "headline": "Defence Minister Zůna will not travel to China after all, and chief of staff Hlaváč skipped Kyiv",
+        "sentences": [
+          {
+            "en": "Defence Minister Jaromír Zůna will not travel to a security conference in China so that he is not missing from the final talks on the budget; a ministry official will go instead, said Tomio Okamura (SPD).",
+            "cs": "Ministr obrany Jaromír Zůna nepojede na bezpečnostní konferenci do Číny, aby nechyběl při závěrečných jednáních o rozpočtu; místo něj pojede pracovník ministerstva, řekl Tomio Okamura (SPD)."
+          },
+          {
+            "en": "Zůna also said that the chief of the general staff, Miroslav Hlaváč, did not attend the security conference in Kyiv because of duties he has in the Czech Republic — he mentioned, among other things, the final preparation of the 2027 budget.",
+            "cs": "Zůna zároveň uvedl, že náčelník generálního štábu Miroslav Hlaváč se nezúčastnil bezpečnostní konference v Kyjevě kvůli povinnostem, které má v Česku — zmínil mimo jiné závěrečnou přípravu rozpočtu na rok 2027."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "chief of staff",
+            "definition": "the most senior officer in an army"
+          },
+          {
+            "term": "after all",
+            "definition": "used to say that something different happened from what was expected"
+          },
+          {
+            "term": "duties",
+            "definition": "tasks that are part of someone's job"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:05",
+      "headline": "Hradec plánuje novou hokejovou arénu Na Soutoku, hotová by mohla být do roku 2033",
+      "body": "Hradecká radnice spolu s vedením Mountfieldu HK představila vizi nové hokejové arény, která by mohla vyrůst do roku 2033 v areálu Na Soutoku. Projekt počítá se dvěma halami, hlavní a tréninkovou, s kapacitou srovnatelnou se současným stadionem. Podle primátorky i manažera klubu je novostavba výhodnější než vleklá rekonstrukce.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/899798-hokejovy-hradec-kralove-by-do-sedmi-let-mohl-mit-novou-arenu.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec plans a new hockey arena at Na Soutoku that could be finished by 2033",
+        "sentences": [
+          {
+            "en": "Hradec city hall, together with the management of Mountfield HK, has presented a vision for a new hockey arena that could rise by 2033 in the Na Soutoku grounds.",
+            "cs": "Hradecká radnice spolu s vedením Mountfieldu HK představila vizi nové hokejové arény, která by mohla vyrůst do roku 2033 v areálu Na Soutoku."
+          },
+          {
+            "en": "The project envisages two halls, a main one and a training one, with a capacity comparable to the current stadium.",
+            "cs": "Projekt počítá se dvěma halami, hlavní a tréninkovou, s kapacitou srovnatelnou se současným stadionem."
+          },
+          {
+            "en": "According to the mayor and the club's manager, a new building is more advantageous than a drawn-out reconstruction.",
+            "cs": "Podle primátorky i manažera klubu je novostavba výhodnější než vleklá rekonstrukce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "city hall",
+            "definition": "the local government of a town or city"
+          },
+          {
+            "term": "envisages",
+            "definition": "imagines or plans something for the future"
+          },
+          {
+            "term": "drawn-out",
+            "definition": "lasting longer than is necessary"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:45",
+      "headline": "Ve Svobodných Dvorech se bude týden měřit hluk z dálnice D11",
+      "body": "Radnice investuje téměř 310 tisíc korun do týdenního monitoringu hluku na sedmi vybraných místech ve Svobodných Dvorech, které sousedí s dálnicí D11. Získaná data mají posloužit jako hlavní argument pro dostavbu protihlukových stěn.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/svobodne-dvory-mereni-hluku-dalnice-d11-protihlukove-steny-rsd/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Noise from the D11 motorway will be measured for a week in Svobodné Dvory",
+        "sentences": [
+          {
+            "en": "The city hall is investing almost 310,000 crowns in a week-long monitoring of noise at seven selected spots in Svobodné Dvory, which borders the D11 motorway.",
+            "cs": "Radnice investuje téměř 310 tisíc korun do týdenního monitoringu hluku na sedmi vybraných místech ve Svobodných Dvorech, které sousedí s dálnicí D11."
+          },
+          {
+            "en": "The data gathered is meant to serve as the main argument for completing the noise barriers.",
+            "cs": "Získaná data mají posloužit jako hlavní argument pro dostavbu protihlukových stěn."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "motorway",
+            "definition": "a wide road built for fast traffic between cities"
+          },
+          {
+            "term": "noise barriers",
+            "definition": "walls built along a road to reduce noise"
+          },
+          {
+            "term": "borders",
+            "definition": "is next to something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:52",
+      "headline": "V Královéhradeckém kraji ubylo za pololetí téměř 1500 obyvatel",
+      "body": "Za první pololetí v Královéhradeckém kraji zemřelo a odstěhovalo se téměř o 1500 lidí více, než kolik se jich narodilo nebo do kraje přistěhovalo. Vyplývá to z předběžných údajů Českého statistického úřadu.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/kralovejradecky-kraj-pocet-obyvatel-pololeti-2026-pokles/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec Králové Region lost almost 1,500 residents in the first half of the year",
+        "sentences": [
+          {
+            "en": "In the first half of the year, almost 1,500 more people died or moved out of the Hradec Králové Region than were born in it or moved into it.",
+            "cs": "Za první pololetí v Královéhradeckém kraji zemřelo a odstěhovalo se téměř o 1500 lidí více, než kolik se jich narodilo nebo do kraje přistěhovalo."
+          },
+          {
+            "en": "This follows from preliminary figures from the Czech Statistical Office.",
+            "cs": "Vyplývá to z předběžných údajů Českého statistického úřadu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "residents",
+            "definition": "people who live in a place"
+          },
+          {
+            "term": "preliminary",
+            "definition": "early and possibly not final"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:19",
+      "headline": "Na konci září se v Hradci uzavřou dva železniční přejezdy",
+      "body": "Poslední zářijový den se mají uzavřít přejezdy v ulicích Maxe Malého a U Náhona. Jeden projde rekonstrukcí a povede k němu nová komunikace, druhý se zruší. Změny jsou součástí rozsáhlé přestavby železniční stanice.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/na-konci-zari-se-uzavrou-dva-prejezdy-v-hradci-jeden-se-zrusi-druhy-opravi/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Two level crossings in Hradec will close at the end of September",
+        "sentences": [
+          {
+            "en": "The railway crossings in Maxe Malého and U Náhona streets are due to close on the last day of September.",
+            "cs": "Poslední zářijový den se mají uzavřít přejezdy v ulicích Maxe Malého a U Náhona."
+          },
+          {
+            "en": "One will be rebuilt and a new road will lead to it, while the other will be removed.",
+            "cs": "Jeden projde rekonstrukcí a povede k němu nová komunikace, druhý se zruší."
+          },
+          {
+            "en": "The changes are part of an extensive reconstruction of the railway station.",
+            "cs": "Změny jsou součástí rozsáhlé přestavby železniční stanice."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "level crossings",
+            "definition": "places where a road crosses a railway at the same height"
+          },
+          {
+            "term": "extensive",
+            "definition": "large in amount or size"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:45",
+      "headline": "Spojené státy si připomněly 25 let od útoků z 11. září",
+      "body": "Od teroristických útoků z 11. září 2001, při nichž zemřely bezmála tři tisíce lidí, uplynulo 25 let. Hlavní pieta se konala u památníku Dvojčat na dolním Manhattanu a zúčastnili se jí viceprezident JD Vance, starosta New Yorku Zohran Mamdani a všichni žijící exprezidenti — Clinton, Bush, Obama i Biden. Organizátor v New Yorku kvůli pietě nepovolil projevy. Prezident Donald Trump do New Yorku nejel a promluvil u Pentagonu, který byl před čtvrtstoletím rovněž cílem útoku. „11. září nám připomnělo strašlivou sílu nenávisti,“ řekl s tím, že uplynulé čtvrtstoletí ukázalo ještě větší sílu amerického ducha. Podle ČT24 dodal, že USA na 11. září nikdy nezapomenou, a proto dnes bojují.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/prijeli-biden-obama-bush-i-clinton-v-new-yorku-zacala-pieta-za-obeti-11-zari_2609111556_vdv"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/new-york-si-pripomina-utoky-11-zari-377484"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-projev-ve-washingtonu-protoze-v-new-yorku-nemohl-trump-uctiva-obeti-11-zari-315191"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2182082/"
+        }
+      ],
+      "en": {
+        "headline": "The United States marked 25 years since the 11 September attacks",
+        "sentences": [
+          {
+            "en": "Twenty-five years have passed since the terrorist attacks of 11 September 2001, in which almost three thousand people died.",
+            "cs": "Od teroristických útoků z 11. září 2001, při nichž zemřely bezmála tři tisíce lidí, uplynulo 25 let."
+          },
+          {
+            "en": "The main memorial ceremony was held at the Twin Towers memorial in Lower Manhattan and was attended by Vice President JD Vance, New York Mayor Zohran Mamdani and all the living former presidents — Clinton, Bush, Obama and Biden.",
+            "cs": "Hlavní pieta se konala u památníku Dvojčat na dolním Manhattanu a zúčastnili se jí viceprezident JD Vance, starosta New Yorku Zohran Mamdani a všichni žijící exprezidenti — Clinton, Bush, Obama i Biden."
+          },
+          {
+            "en": "In New York the organiser did not allow speeches out of respect for the ceremony.",
+            "cs": "Organizátor v New Yorku kvůli pietě nepovolil projevy."
+          },
+          {
+            "en": "President Donald Trump did not go to New York and spoke at the Pentagon, which was also a target of the attack a quarter of a century ago.",
+            "cs": "Prezident Donald Trump do New Yorku nejel a promluvil u Pentagonu, který byl před čtvrtstoletím rovněž cílem útoku."
+          },
+          {
+            "en": "“The 11th of September reminded us of the terrible power of hatred,” he said, adding that the past quarter of a century had shown an even greater power of the American spirit.",
+            "cs": "„11. září nám připomnělo strašlivou sílu nenávisti,“ řekl s tím, že uplynulé čtvrtstoletí ukázalo ještě větší sílu amerického ducha."
+          },
+          {
+            "en": "According to ČT24, he added that the United States will never forget 11 September and that this is why it is fighting today.",
+            "cs": "Podle ČT24 dodal, že USA na 11. září nikdy nezapomenou, a proto dnes bojují."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "marked",
+            "definition": "officially remembered an important event"
+          },
+          {
+            "term": "memorial",
+            "definition": "something built to remind people of a person or an event"
+          },
+          {
+            "term": "hatred",
+            "definition": "a very strong feeling of dislike"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:18",
+      "headline": "Húthíové ovládli ostrov Perim u průlivu Báb al-Mandab",
+      "body": "Jemenští povstalci Húthíové převzali kontrolu nad pobřežním městem Zúbáb a ostrovem Perim, které leží přímo u strategického průlivu Báb al-Mandab. Tudy se vstupuje do Rudého moře a vede tam klíčová lodní trasa z Evropy do Asie. Podle Deníku N Húthíové postupují s podporou Íránu podél pobřeží Rudého moře a po několikadenních bojích s provládními silami obsadili i přístavní město Mocha. Sami tvrdí, že plavba průlivem je bezpečná pro všechny kromě Saúdské Arábie; jejich spojenec Írán to uvítal. Húthíjská televize al-Masíra podle ČT24 oznámila, že Saúdská Arábie zasáhla letiště ve městě Muchá, kterého se povstalci zmocnili ve čtvrtek; škody zatím hlášeny nebyly.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/jemensti-hutiove-ovladli-ostrov-v-klicovem-prulivu-377483"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2181627/nova-fronta-na-blizkem-vychode-huthiove-dobyvaji-zapad-jemenu-a-priblizuji-se-klicovemu-prulivu/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-jemensti-husiove-ovladli-klicovy-ostrov-u-prulivu-bab-al-mandab-315167"
+        }
+      ],
+      "en": {
+        "headline": "The Houthis have taken control of Perim island by the Bab al-Mandab strait",
+        "sentences": [
+          {
+            "en": "Yemen's Houthi rebels have taken control of the coastal town of Zúbáb and the island of Perim, which lie right by the strategic Bab al-Mandab strait.",
+            "cs": "Jemenští povstalci Húthíové převzali kontrolu nad pobřežním městem Zúbáb a ostrovem Perim, které leží přímo u strategického průlivu Báb al-Mandab."
+          },
+          {
+            "en": "This is the entrance to the Red Sea and a key shipping route from Europe to Asia runs through it.",
+            "cs": "Tudy se vstupuje do Rudého moře a vede tam klíčová lodní trasa z Evropy do Asie."
+          },
+          {
+            "en": "According to Deník N, the Houthis are advancing with Iranian support along the Red Sea coast and, after several days of fighting with pro-government forces, they have also seized the port of Mocha.",
+            "cs": "Podle Deníku N Húthíové postupují s podporou Íránu podél pobřeží Rudého moře a po několikadenních bojích s provládními silami obsadili i přístavní město Mocha."
+          },
+          {
+            "en": "They themselves claim that passage through the strait is safe for everyone except Saudi Arabia; their ally Iran welcomed this.",
+            "cs": "Sami tvrdí, že plavba průlivem je bezpečná pro všechny kromě Saúdské Arábie; jejich spojenec Írán to uvítal."
+          },
+          {
+            "en": "The Houthi television station al-Masirah reported, according to ČT24, that Saudi Arabia had hit the airport in the town of Muchá, which the rebels captured on Thursday; no damage has been reported so far.",
+            "cs": "Húthíjská televize al-Masíra podle ČT24 oznámila, že Saúdská Arábie zasáhla letiště ve městě Muchá, kterého se povstalci zmocnili ve čtvrtek; škody zatím hlášeny nebyly."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "strait",
+            "definition": "a narrow area of sea between two areas of land"
+          },
+          {
+            "term": "rebels",
+            "definition": "people who fight against their own government"
+          },
+          {
+            "term": "seized",
+            "definition": "took control of something by force"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:24",
+      "headline": "Evropská komise schválila 6,1 miliardy eur na obranný materiál pro Ukrajinu",
+      "body": "Peníze, tedy zhruba 147,6 miliardy korun, jsou určené na protivzdušnou a protiraketovou obranu, munici a drony. Kyjev je může využít mimo jiné na nákup raket PAC-3 pro americké systémy Patriot. Jde o další prostředky z půjčky pro Ukrajinu v celkovém objemu 90 miliard eur. Podle E15 tím Evropská unie plně alokovala letošních 28,3 miliardy eur určených na podporu ukrajinské obrany.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ek-schvalila-61-miliardy-eur-na-nakup-obranneho-materialu-pro-ukrajinu-377490"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/brusel-schvalil-dalsi-miliardy-na-obranu-ukrajiny-vyjimka-umozni-nakup-americkych-raket-1435722"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-komise-schvalila-61-miliardy-eur-na-nakup-obranneho-materialu-pro-ukrajinu-315176"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission has approved 6.1 billion euros for defence material for Ukraine",
+        "sentences": [
+          {
+            "en": "The money, roughly 147.6 billion crowns, is intended for air and missile defence, ammunition and drones.",
+            "cs": "Peníze, tedy zhruba 147,6 miliardy korun, jsou určené na protivzdušnou a protiraketovou obranu, munici a drony."
+          },
+          {
+            "en": "Kyiv can use it, among other things, to buy PAC-3 missiles for American Patriot systems.",
+            "cs": "Kyjev je může využít mimo jiné na nákup raket PAC-3 pro americké systémy Patriot."
+          },
+          {
+            "en": "It is further money from a loan to Ukraine totalling 90 billion euros.",
+            "cs": "Jde o další prostředky z půjčky pro Ukrajinu v celkovém objemu 90 miliard eur."
+          },
+          {
+            "en": "According to E15, the European Union has thereby fully allocated this year's 28.3 billion euros earmarked for supporting Ukraine's defence.",
+            "cs": "Podle E15 tím Evropská unie plně alokovala letošních 28,3 miliardy eur určených na podporu ukrajinské obrany."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ammunition",
+            "definition": "bullets and shells that are fired from weapons"
+          },
+          {
+            "term": "allocated",
+            "definition": "given out for a particular purpose"
+          },
+          {
+            "term": "earmarked",
+            "definition": "set aside for a particular purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:38",
+      "headline": "Ruské drony zasáhly v Kyjevě dvě čerpací stanice, dva lidé zemřeli",
+      "body": "Kyjev a další ukrajinská města čelily v noci na pátek dalšímu náletu ruských dronů včetně bezpilotních letounů s proudovým pohonem. V metropoli drony zasáhly dvě benzinky, dva lidé zahynuli a osm bylo zraněno; podle společnosti Ukrnafta byla jedna z nich zasažena dvakrát za sebou, podruhé ve chvíli, kdy už na místě byli záchranáři. Údery směřovaly i na ruské území — úřady v Bělgorodské a Tulské oblasti hlásí mrtvé a zraněné a v Saratově podle firmy Ozon způsobil dronový útok požár v jejím logistickém centru. ČT24 upozorňuje, že tvrzení o útoku v Saratově nelze bezprostředně nezávisle ověřit.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2181575/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/kyjev-celil-ruskemu-dronovemu-utoku-ukrajina-uderila-v-belgorodske-oblasti-377475"
+        }
+      ],
+      "en": {
+        "headline": "Russian drones hit two petrol stations in Kyiv and two people died",
+        "sentences": [
+          {
+            "en": "Kyiv and other Ukrainian cities faced another raid by Russian drones overnight into Friday, including jet-powered unmanned aircraft.",
+            "cs": "Kyjev a další ukrajinská města čelily v noci na pátek dalšímu náletu ruských dronů včetně bezpilotních letounů s proudovým pohonem."
+          },
+          {
+            "en": "In the capital, drones hit two petrol stations, two people died and eight were injured; according to the company Ukrnafta, one of them was hit twice in a row, the second time when rescuers were already on the scene.",
+            "cs": "V metropoli drony zasáhly dvě benzinky, dva lidé zahynuli a osm bylo zraněno; podle společnosti Ukrnafta byla jedna z nich zasažena dvakrát za sebou, podruhé ve chvíli, kdy už na místě byli záchranáři."
+          },
+          {
+            "en": "The strikes also targeted Russian territory — authorities in the Belgorod and Tula regions report dead and injured, and in Saratov, according to the company Ozon, a drone attack caused a fire at its logistics centre.",
+            "cs": "Údery směřovaly i na ruské území — úřady v Bělgorodské a Tulské oblasti hlásí mrtvé a zraněné a v Saratově podle firmy Ozon způsobil dronový útok požár v jejím logistickém centru."
+          },
+          {
+            "en": "ČT24 points out that the claim about the attack in Saratov cannot be immediately independently verified.",
+            "cs": "ČT24 upozorňuje, že tvrzení o útoku v Saratově nelze bezprostředně nezávisle ověřit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "raid",
+            "definition": "a sudden attack on a place"
+          },
+          {
+            "term": "petrol stations",
+            "definition": "places where drivers buy fuel"
+          },
+          {
+            "term": "strikes",
+            "definition": "military attacks, usually from the air"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:28",
+      "headline": "Hongkongský soud poslal tři organizátory pietních akcí na pět až sedm let do vězení",
+      "body": "Trest dostali tři aktivisté, kteří řadu let organizovali vzpomínkové akce připomínající masakr na pekingském náměstí Nebeského klidu z roku 1989; odsouzeni byli za podněcování ke svržení čínského režimu. Případ je podle ČT24 všeobecně považován za barometr svobod v Hongkongu v době, kdy Peking tvrdě potlačuje jakoukoli opozici. Evropská unie verdikt odsoudila a označila ho za politicky motivovaný.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/za-vzpominkove-akce-na-masakr-na-namesti-nebeskeho-klidu-dostali-aktiviste-trest-vezeni-377476"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-tri-hongkongsti-aktiviste-dostali-pet-az-sedm-let-vezeni-za-vzpominkove-akce-315133"
+        }
+      ],
+      "en": {
+        "headline": "A Hong Kong court has jailed three organisers of memorial events for five to seven years",
+        "sentences": [
+          {
+            "en": "The sentences went to three activists who for years organised commemorative events marking the 1989 massacre in Beijing's Tiananmen Square; they were found guilty of inciting subversion of the Chinese regime.",
+            "cs": "Trest dostali tři aktivisté, kteří řadu let organizovali vzpomínkové akce připomínající masakr na pekingském náměstí Nebeského klidu z roku 1989; odsouzeni byli za podněcování ke svržení čínského režimu."
+          },
+          {
+            "en": "According to ČT24, the case is widely seen as a barometer of freedoms in Hong Kong at a time when Beijing is harshly suppressing any opposition.",
+            "cs": "Případ je podle ČT24 všeobecně považován za barometr svobod v Hongkongu v době, kdy Peking tvrdě potlačuje jakoukoli opozici."
+          },
+          {
+            "en": "The European Union condemned the verdict and called it politically motivated.",
+            "cs": "Evropská unie verdikt odsoudila a označila ho za politicky motivovaný."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "commemorative",
+            "definition": "done to remember an important event or person"
+          },
+          {
+            "term": "inciting",
+            "definition": "encouraging people to do something violent or illegal"
+          },
+          {
+            "term": "suppressing",
+            "definition": "stopping something by force"
+          },
+          {
+            "term": "verdict",
+            "definition": "a court's official decision"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:24",
+      "headline": "Německá prokuratura obžalovala sedm členů Hamásu, jeden z nich přijel z Česka",
+      "body": "Podle obžaloby členové palestinské teroristické organizace obstarávali zbraně pro útoky na izraelské nebo židovské cíle na území Německa či Rakouska. Mezi obžalovanými je Burhán K., kterého německá policie zadržela loni v listopadu po příjezdu z Česka.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/nemecka-prokuratura-obzalovala-sedm-clenu-hamasu-shaneli-pry-zbrane-pro-utok_2609111424_med"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2181833/"
+        }
+      ],
+      "en": {
+        "headline": "German prosecutors have charged seven Hamas members, one of whom arrived from the Czech Republic",
+        "sentences": [
+          {
+            "en": "According to the indictment, members of the Palestinian terrorist organisation were obtaining weapons for attacks on Israeli or Jewish targets in Germany and Austria.",
+            "cs": "Podle obžaloby členové palestinské teroristické organizace obstarávali zbraně pro útoky na izraelské nebo židovské cíle na území Německa či Rakouska."
+          },
+          {
+            "en": "Among those charged is Burhán K., whom German police detained last November after he arrived from the Czech Republic.",
+            "cs": "Mezi obžalovanými je Burhán K., kterého německá policie zadržela loni v listopadu po příjezdu z Česka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prosecutors",
+            "definition": "lawyers who accuse someone of a crime in court"
+          },
+          {
+            "term": "indictment",
+            "definition": "a formal written accusation of a crime"
+          },
+          {
+            "term": "detained",
+            "definition": "kept someone in official custody"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:10",
+      "headline": "Antimonopolní úřad povolil prodej ČSA a Smartwings turecké skupině Pegasus",
+      "body": "Podmínkou spojení je, že se Pegasus vzdá části letních slotů na lince Praha–Antalya ve prospěch jiného dopravce. Rozhodnutí zatím není pravomocné, protože neuplynula lhůta pro podání rozkladu. Podle E15 transakci, kterou prodávají miliardáři Šimáně a Vik, ještě posuzují evropské úřady a jejich schválení není pouhou formalitou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pegasus-muze-prevzit-csa-a-smartwings-povolil-antimonopolni-urad-377482"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/doprava-a-logistika/miliardari-simane-s-vikem-se-priblizili-prodeji-smartwings-odskrtli-si-dulezite-razitko-z-brna-1435713"
+        }
+      ],
+      "en": {
+        "headline": "The antitrust office has cleared the sale of ČSA and Smartwings to the Turkish group Pegasus",
+        "sentences": [
+          {
+            "en": "A condition of the merger is that Pegasus gives up part of its summer slots on the Prague–Antalya route in favour of another carrier.",
+            "cs": "Podmínkou spojení je, že se Pegasus vzdá části letních slotů na lince Praha–Antalya ve prospěch jiného dopravce."
+          },
+          {
+            "en": "The decision is not yet final, because the deadline for filing an appeal has not passed.",
+            "cs": "Rozhodnutí zatím není pravomocné, protože neuplynula lhůta pro podání rozkladu."
+          },
+          {
+            "en": "According to E15, the transaction, in which the billionaires Šimáně and Vik are the sellers, is still being assessed by European authorities, and their approval is not a mere formality.",
+            "cs": "Podle E15 transakci, kterou prodávají miliardáři Šimáně a Vik, ještě posuzují evropské úřady a jejich schválení není pouhou formalitou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "antitrust",
+            "definition": "relating to laws that stop companies from limiting competition"
+          },
+          {
+            "term": "merger",
+            "definition": "the joining of two companies into one"
+          },
+          {
+            "term": "carrier",
+            "definition": "a company that transports people or goods"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:06",
+      "headline": "Firemních bankrotů je letos nejvíc za sedm let",
+      "body": "Soudy v Česku od ledna do konce srpna vyhlásily 538 firemních bankrotů, o čtyři procenta více než za stejné období loni. Návrhů na bankrot přijaly 895, meziročně o pětinu více. Vyplývá to z analýzy společnosti CRIF – Czech Credit Bureau.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2181707/"
+        }
+      ],
+      "en": {
+        "headline": "There have been more corporate bankruptcies this year than at any time in seven years",
+        "sentences": [
+          {
+            "en": "Between January and the end of August, courts in the Czech Republic declared 538 corporate bankruptcies, four percent more than in the same period last year.",
+            "cs": "Soudy v Česku od ledna do konce srpna vyhlásily 538 firemních bankrotů, o čtyři procenta více než za stejné období loni."
+          },
+          {
+            "en": "They received 895 bankruptcy petitions, a fifth more year on year.",
+            "cs": "Návrhů na bankrot přijaly 895, meziročně o pětinu více."
+          },
+          {
+            "en": "This follows from an analysis by the company CRIF – Czech Credit Bureau.",
+            "cs": "Vyplývá to z analýzy společnosti CRIF – Czech Credit Bureau."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bankruptcies",
+            "definition": "situations in which a company cannot pay its debts and is closed down"
+          },
+          {
+            "term": "petitions",
+            "definition": "formal written requests made to a court"
+          },
+          {
+            "term": "year on year",
+            "definition": "compared with the same period a year earlier"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:00",
+      "headline": "Emirates budou létat do Berlína, Lufthansa spor o linku prohrála",
+      "body": "Letecká společnost Emirates podle Seznam Zpráv vyhrála vleklý boj s německými politiky a firmami a nově může létat i do Berlína. Tamní letiště trápí nedostatek spojů i pasažérů, příchodu nového hráče ale dlouho bránila Lufthansa.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-politikum-odborarum-i-konkurenci-navzdory-emirates-miri-do-berlina-315145"
+        }
+      ],
+      "en": {
+        "headline": "Emirates will fly to Berlin after Lufthansa lost the fight over the route",
+        "sentences": [
+          {
+            "en": "According to Seznam Zprávy, the airline Emirates has won a long-running battle with German politicians and companies and can now also fly to Berlin.",
+            "cs": "Letecká společnost Emirates podle Seznam Zpráv vyhrála vleklý boj s německými politiky a firmami a nově může létat i do Berlína."
+          },
+          {
+            "en": "The airport there is struggling with a shortage of connections and passengers, but Lufthansa long blocked the arrival of a new player.",
+            "cs": "Tamní letiště trápí nedostatek spojů i pasažérů, příchodu nového hráče ale dlouho bránila Lufthansa."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "long-running",
+            "definition": "continuing for a long time"
+          },
+          {
+            "term": "struggling",
+            "definition": "having difficulty dealing with something"
+          },
+          {
+            "term": "shortage",
+            "definition": "a situation in which there is not enough of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:55",
+      "headline": "Anthropic popsal zmařené pokusy zneužít jeho modely k vývoji biologických zbraní",
+      "body": "Americká společnost uvedla, že odhalila a zmařila několik pokusů využít její modely Claude k vývoji biologických zbraní. Popsala to ve 154stránkové zprávě shrnující nejzávažnější letošní incidenty; iROZHLAS mluví o šesti případech. Podle Deníku N firma překazila také kybernetickou špionážní kampaň proti Ukrajině s pravděpodobným napojením na Rusko. E15 dodává, že mezi zmařenými operacemi byla snaha Ruska vyvinout autonomní roje vojenských robotů a že Rusko využívá umělou inteligenci i k tvorbě dezinformačních kampaní, webů a falešných profilů. Další pokusy se podle E15 objevily v Číně, Íránu i v Evropě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/firma-anthropic-tvrdi-ze-zmarila-pokusy-zneuzit-ai-pro-vyvoj-biologickych-zbrani-377493"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/technologie/anthropic-tvrdi-ze-zmaril-pokusy-zneuzit-ai-pro-vyvoj-biologickych-zbrani-mluvi_2609111457_cen"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/biologicke-zbrane-roje-vojenskych-robotu-propaganda-firma-odhalila-pokusy-o-zneuziti-ai-1435731"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2181842/"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has described foiled attempts to misuse its models to develop biological weapons",
+        "sentences": [
+          {
+            "en": "The American company said it had detected and foiled several attempts to use its Claude models to develop biological weapons.",
+            "cs": "Americká společnost uvedla, že odhalila a zmařila několik pokusů využít její modely Claude k vývoji biologických zbraní."
+          },
+          {
+            "en": "It described this in a 154-page report summarising the most serious incidents of this year; iROZHLAS speaks of six cases.",
+            "cs": "Popsala to ve 154stránkové zprávě shrnující nejzávažnější letošní incidenty; iROZHLAS mluví o šesti případech."
+          },
+          {
+            "en": "According to Deník N, the company also thwarted a cyber espionage campaign against Ukraine with a probable link to Russia.",
+            "cs": "Podle Deníku N firma překazila také kybernetickou špionážní kampaň proti Ukrajině s pravděpodobným napojením na Rusko."
+          },
+          {
+            "en": "E15 adds that among the operations that were stopped was a Russian effort to develop autonomous swarms of military robots, and that Russia is also using artificial intelligence to create disinformation campaigns, websites and fake profiles.",
+            "cs": "E15 dodává, že mezi zmařenými operacemi byla snaha Ruska vyvinout autonomní roje vojenských robotů a že Rusko využívá umělou inteligenci i k tvorbě dezinformačních kampaní, webů a falešných profilů."
+          },
+          {
+            "en": "Further attempts appeared, according to E15, in China, Iran and Europe.",
+            "cs": "Další pokusy se podle E15 objevily v Číně, Íránu i v Evropě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "foiled",
+            "definition": "stopped something bad from succeeding"
+          },
+          {
+            "term": "thwarted",
+            "definition": "prevented someone from doing what they planned"
+          },
+          {
+            "term": "espionage",
+            "definition": "the activity of secretly getting information about another country or company"
+          },
+          {
+            "term": "swarms",
+            "definition": "large groups of things moving together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:50",
+      "headline": "OpenAI podle Bloombergu zvažuje zpomalení vývoje nejpokročilejších modelů",
+      "body": "Důvodem mají být rostoucí bezpečnostní rizika. Sam Altman chce podle E15 o koordinovaném zpomalení jednat i s dalšími významnými firmami v oboru. Obavy podle serveru zesílily po incidentech s autonomními agenty a po odchodech výzkumníků, kteří varují před ztrátou kontroly nad umělou inteligencí.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/openai-zvazuje-zpomaleni-vyvoje-obavy-z-nejpokrocilejsich-modelu-umele-inteligence-rychle-rostou-1435712"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI is considering slowing down the development of its most advanced models, Bloomberg reports",
+        "sentences": [
+          {
+            "en": "The reason is said to be growing safety risks.",
+            "cs": "Důvodem mají být rostoucí bezpečnostní rizika."
+          },
+          {
+            "en": "According to E15, Sam Altman wants to discuss a coordinated slowdown with other major firms in the field as well.",
+            "cs": "Sam Altman chce podle E15 o koordinovaném zpomalení jednat i s dalšími významnými firmami v oboru."
+          },
+          {
+            "en": "Concerns have grown, the site says, after incidents with autonomous agents and after the departure of researchers who warn of a loss of control over artificial intelligence.",
+            "cs": "Obavy podle serveru zesílily po incidentech s autonomními agenty a po odchodech výzkumníků, kteří varují před ztrátou kontroly nad umělou inteligencí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "slowdown",
+            "definition": "a reduction in speed or activity"
+          },
+          {
+            "term": "concerns",
+            "definition": "worries about something"
+          },
+          {
+            "term": "departure",
+            "definition": "the act of leaving a job or a place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:51",
+      "headline": "Spolutvůrce WordPressu Mullenweg byl odvolán z čela Automatticu",
+      "body": "Matta Mullenwega, spolutvůrce redakčního systému WordPress a šéfa společnosti Automattic, odvolalo představenstvo z pozice výkonného ředitele a Mullenweg nastupuje na placenou dovolenou. Dočasným generálním ředitelem se stane finanční ředitel Mark Davies.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/matt-mullenweg-konci-jako-vykonny-reditel-ve-spolecnosti-automattic/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "WordPress co-creator Mullenweg has been removed as head of Automattic",
+        "sentences": [
+          {
+            "en": "The board has removed Matt Mullenweg, co-creator of the WordPress publishing system and head of the company Automattic, from the post of chief executive, and Mullenweg is going on paid leave.",
+            "cs": "Matta Mullenwega, spolutvůrce redakčního systému WordPress a šéfa společnosti Automattic, odvolalo představenstvo z pozice výkonného ředitele a Mullenweg nastupuje na placenou dovolenou."
+          },
+          {
+            "en": "Chief financial officer Mark Davies becomes interim chief executive.",
+            "cs": "Dočasným generálním ředitelem se stane finanční ředitel Mark Davies."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "board",
+            "definition": "the group of people who control a company"
+          },
+          {
+            "term": "paid leave",
+            "definition": "time away from work for which someone is still paid"
+          },
+          {
+            "term": "interim",
+            "definition": "temporary, until a permanent replacement is found"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:00",
+      "day": "prev",
+      "headline": "Slavia v úvodu Ligy mistrů padla s Lens 2:3 po kolapsu v nastavení",
+      "body": "Pražané sahali po třech bodech, ale v deseti lidech po vyloučení Mikuláše Konečného ve 49. minutě vedení neudrželi. Oba góly Slavie dal Danijel Šturm. Trenér Jindřich Trpišovský považoval porážku za nezaslouženou a přemítal, zda červené kartě nepředcházel neodpískaný faul.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sesivany-kolaps-v-nastaveni-slavia-neudrzela-v-deseti-vedeni-a-s-lens-nebere-ani-bod-158878"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/v-jedenacti-bychom-vyhrali-hodne-mi-to-pripomina-zapas-s-bodo-rekl-trpisovsky-158880"
+        }
+      ],
+      "en": {
+        "headline": "Slavia lost 2:3 to Lens at the start of the Champions League after a collapse in stoppage time",
+        "sentences": [
+          {
+            "en": "The Prague side were reaching for three points, but down to ten men after Mikuláš Konečný was sent off in the 49th minute they failed to hold on to the lead.",
+            "cs": "Pražané sahali po třech bodech, ale v deseti lidech po vyloučení Mikuláše Konečného ve 49. minutě vedení neudrželi."
+          },
+          {
+            "en": "Both of Slavia's goals were scored by Danijel Šturm.",
+            "cs": "Oba góly Slavie dal Danijel Šturm."
+          },
+          {
+            "en": "Coach Jindřich Trpišovský considered the defeat undeserved and wondered whether the red card had not been preceded by an unpunished foul.",
+            "cs": "Trenér Jindřich Trpišovský považoval porážku za nezaslouženou a přemítal, zda červené kartě nepředcházel neodpískaný faul."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stoppage time",
+            "definition": "extra minutes added at the end of a football match"
+          },
+          {
+            "term": "sent off",
+            "definition": "ordered by the referee to leave the field"
+          },
+          {
+            "term": "undeserved",
+            "definition": "not fair or not earned"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:54",
+      "day": "prev",
+      "headline": "Bayern deklasoval v Lize mistrů Bodö/Glimt 5:0, Como porazilo Lipsko",
+      "body": "Manchester United přehrál Sabah Baku 4:0 a Como při premiéře v soutěži zvítězilo nad Lipskem 4:1. PSV Eindhoven s brankářem Matějem Kovářem remizoval se Šachtarem Doněck 1:1, stejným výsledkem skončil i duel Fenerbahce Istanbul s AS Řím.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/psv-eindhoven-s-kovarem-zahajil-ligu-mistru-remizou-se-sachtarem-doneck-158877"
+        }
+      ],
+      "en": {
+        "headline": "Bayern crushed Bodö/Glimt 5:0 in the Champions League and Como beat Leipzig",
+        "sentences": [
+          {
+            "en": "Manchester United beat Sabah Baku 4:0 and Como, on their debut in the competition, won 4:1 against Leipzig.",
+            "cs": "Manchester United přehrál Sabah Baku 4:0 a Como při premiéře v soutěži zvítězilo nad Lipskem 4:1."
+          },
+          {
+            "en": "PSV Eindhoven with goalkeeper Matěj Kovář drew 1:1 with Shakhtar Donetsk, and the match between Fenerbahçe Istanbul and AS Roma ended with the same score.",
+            "cs": "PSV Eindhoven s brankářem Matějem Kovářem remizoval se Šachtarem Doněck 1:1, stejným výsledkem skončil i duel Fenerbahce Istanbul s AS Řím."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crushed",
+            "definition": "defeated someone completely"
+          },
+          {
+            "term": "debut",
+            "definition": "a first appearance"
+          },
+          {
+            "term": "drew",
+            "definition": "finished a match with the same score as the opponent"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:20",
+      "day": "prev",
+      "headline": "Soupeř Plzně z Evropské ligy je namočený v korupčním skandálu",
+      "body": "Polským fotbalem hýbe aféra kolem Jagiellonie Białystok, která se má v Evropské lize utkat s Viktorií Plzeň. Podle polských médií se klub v závěru minulého ročníku snažil ovlivnit rozhodčí, aby v zápase proti Katowicím nedávali žluté karty hráčům ohroženým stopkou pro závěrečné kolo Ekstraklasy. Tamní svaz podle nich celou kauzu chtěl ututlat.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-evropske-ligy-rano-dopo-korupcni-skandal-v-polskem-fotbale-je-do-nej-namoceny-souper-plzne-v-evropske-lize-5532477"
+        }
+      ],
+      "en": {
+        "headline": "Plzeň's Europa League opponent is caught up in a corruption scandal",
+        "sentences": [
+          {
+            "en": "Polish football is being shaken by an affair around Jagiellonia Białystok, who are due to face Viktoria Plzeň in the Europa League.",
+            "cs": "Polským fotbalem hýbe aféra kolem Jagiellonie Białystok, která se má v Evropské lize utkat s Viktorií Plzeň."
+          },
+          {
+            "en": "According to Polish media, at the end of last season the club tried to influence referees not to give yellow cards, in the match against Katowice, to players at risk of a ban for the final round of the Ekstraklasa.",
+            "cs": "Podle polských médií se klub v závěru minulého ročníku snažil ovlivnit rozhodčí, aby v zápase proti Katowicím nedávali žluté karty hráčům ohroženým stopkou pro závěrečné kolo Ekstraklasy."
+          },
+          {
+            "en": "The Polish association wanted to hush the whole case up, the media say.",
+            "cs": "Tamní svaz podle nich celou kauzu chtěl ututlat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "caught up in",
+            "definition": "involved in a situation, often without wanting to be"
+          },
+          {
+            "term": "ban",
+            "definition": "an official order that stops someone from doing something"
+          },
+          {
+            "term": "hush",
+            "definition": "to stop something from becoming publicly known"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:38",
+      "headline": "Ve finále US Open se utkají Sabalenková s Rybakinovou, Siniaková hraje o kariérní Grand Slam",
+      "body": "Světová jednička Aryna Sabalenková zdolala v semifinále Jessicu Pegulaovou 7:5, 6:2, Jelena Rybakinová vyřadila Coco Gauffovou 3:6, 6:4, 6:4. Kazaška Sabalenkovou od příštího týdne v čele žebříčku nahradí. Kateřina Siniaková s Taylor Townsendovou hrají v pátek finále čtyřhry; titul by jim zkompletoval společný kariérní Grand Slam.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/zajimave-finale-na-us-open-soucasna-svetova-jednicka-sabalenkova-vyzve-tu-budouci-rybakinovou-158879"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-us-open-2026-ctyrhra-zeny-finale-siniakova-townsendova-montgomeryova-kruegerova-online-5532622"
+        }
+      ],
+      "en": {
+        "headline": "Sabalenka will meet Rybakina in the US Open final, and Siniaková is playing for a career Grand Slam",
+        "sentences": [
+          {
+            "en": "World number one Aryna Sabalenka beat Jessica Pegula 7:5, 6:2 in the semi-final, and Jelena Rybakina knocked out Coco Gauff 3:6, 6:4, 6:4.",
+            "cs": "Světová jednička Aryna Sabalenková zdolala v semifinále Jessicu Pegulaovou 7:5, 6:2, Jelena Rybakinová vyřadila Coco Gauffovou 3:6, 6:4, 6:4."
+          },
+          {
+            "en": "The Kazakh will replace Sabalenka at the top of the rankings from next week.",
+            "cs": "Kazaška Sabalenkovou od příštího týdne v čele žebříčku nahradí."
+          },
+          {
+            "en": "Kateřina Siniaková and Taylor Townsend play the doubles final on Friday; the title would complete their joint career Grand Slam.",
+            "cs": "Kateřina Siniaková s Taylor Townsendovou hrají v pátek finále čtyřhry; titul by jim zkompletoval společný kariérní Grand Slam."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "knocked out",
+            "definition": "beat someone so that they leave a competition"
+          },
+          {
+            "term": "rankings",
+            "definition": "a list showing who is best in a sport"
+          },
+          {
+            "term": "doubles",
+            "definition": "a tennis match with two players on each side"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:30",
+      "headline": "Volejbalisté vstoupili na mistrovství Evropy zápasem s Řeckem",
+      "body": "Ve skupině A čekají české volejbalisty ještě Švédsko, Slovensko, obhájci stříbra Italové a Slovinsko; do osmifinále postoupí nejlepší čtyři týmy. Šampionát začal ve čtvrtek pod širým nebem na náměstí Piazza del Plebiscito v Neapoli, kde domácí Itálie před zraky prezidenta Sergia Mattarelly porazila Švédsko 3:0 i přes dvě přestávky kvůli dešti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/volejbal/me-volejbalistu-cesko-recko-158886"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/volejbal-unikatni-start-me-volejbalisty-pod-sirym-nebem-v-neapoli-pribrzdil-dvakrat-dest-5532628"
+        }
+      ],
+      "en": {
+        "headline": "The volleyball team opened the European Championship with a match against Greece",
+        "sentences": [
+          {
+            "en": "In Group A the Czech volleyball players still face Sweden, Slovakia, Italy, who are defending silver, and Slovenia; the best four teams advance to the round of 16.",
+            "cs": "Ve skupině A čekají české volejbalisty ještě Švédsko, Slovensko, obhájci stříbra Italové a Slovinsko; do osmifinále postoupí nejlepší čtyři týmy."
+          },
+          {
+            "en": "The championship began on Thursday in the open air on Piazza del Plebiscito in Naples, where the hosts Italy beat Sweden 3:0 in front of President Sergio Mattarella, despite two breaks caused by rain.",
+            "cs": "Šampionát začal ve čtvrtek pod širým nebem na náměstí Piazza del Plebiscito v Neapoli, kde domácí Itálie před zraky prezidenta Sergia Mattarelly porazila Švédsko 3:0 i přes dvě přestávky kvůli dešti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advance",
+            "definition": "to move forward to the next stage of a competition"
+          },
+          {
+            "term": "hosts",
+            "definition": "the country or team that organises an event"
+          },
+          {
+            "term": "in the open air",
+            "definition": "outside, not inside a building"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:29",
+      "day": "prev",
+      "headline": "Paraplavec Kratochvíl získal na mistrovství Evropy už čtvrté zlato",
+      "body": "David Kratochvíl vyhrál v tureckém Gebze polohový závod na 200 metrů třídy SM11 v českém rekordu 2:18,59 a za světovým rekordem zaostal o 58 setin sekundy.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sport-handicapovanych/kratochvil-dosahl-na-nejcennejsi-zlato-a-na-me-uz-ma-ctvrty-triumf-158875"
+        }
+      ],
+      "en": {
+        "headline": "Para-swimmer Kratochvíl has won his fourth gold at the European Championship",
+        "sentences": [
+          {
+            "en": "David Kratochvíl won the 200-metre individual medley in the SM11 class in Gebze, Turkey, in a Czech record of 2:18.59, finishing 58 hundredths of a second short of the world record.",
+            "cs": "David Kratochvíl vyhrál v tureckém Gebze polohový závod na 200 metrů třídy SM11 v českém rekordu 2:18,59 a za světovým rekordem zaostal o 58 setin sekundy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "individual medley",
+            "definition": "a swimming race in which one swimmer uses four different strokes"
+          },
+          {
+            "term": "hundredths",
+            "definition": "very small parts of a second, each one part in a hundred"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "In a 154-page report, Anthropic described how it foiled attempts to misuse its Claude models to develop biological weapons, as well as a cyber espionage campaign against Ukraine.",
+    "The United States marked 25 years since the 11 September attacks. All the living former presidents attended the ceremony in New York, and Donald Trump spoke at the Pentagon.",
+    "Yemen's Houthis have taken control of the town of Zúbáb and the island of Perim by the Bab al-Mandab strait, through which a key shipping route from Europe to Asia runs.",
+    "The Chamber of Deputies approved stricter rules for consumer loans, and the European Commission released 6.1 billion euros to buy defence material for Ukraine."
+  ]
+}
