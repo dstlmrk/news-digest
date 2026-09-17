@@ -1,0 +1,1522 @@
+{
+  "date": "2026-09-17",
+  "covers": "2026-09-17",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra bude mlhavo, přes den až 21 °C a beze srážek. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-09-18",
+        "icon": "fog",
+        "temp_max_c": 21.2,
+        "temp_min_c": 9.1
+      },
+      {
+        "date": "2026-09-19",
+        "icon": "fog",
+        "temp_max_c": 20.5,
+        "temp_min_c": 11.2
+      },
+      {
+        "date": "2026-09-20",
+        "icon": "cloudy",
+        "temp_max_c": 22.4,
+        "temp_min_c": 11.9
+      },
+      {
+        "date": "2026-09-21",
+        "icon": "cloudy",
+        "temp_max_c": 16.4,
+        "temp_min_c": 10.8
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy, up to 21 °C during the day and with no rain. Air quality should be acceptable."
+  },
+  "highlights": [
+    "Prezident Petr Pavel vetoval zákon o státních zaměstnancích, koalice slibuje, že ho v říjnu přehlasuje.",
+    "Koaliční strany se dohodly na rozpočtu s obřím schodkem, škrty za desítky miliard do něj neprošly.",
+    "Švédský premiér Ulf Kristersson po potvrzeném vítězství opozice oznámil rezignaci.",
+    "Česká národní banka nechala úrokovou sazbu na 3,75 procenta, rizika podle ní míří k vyšší inflaci."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:29",
+      "headline": "Pavel vetoval zákon o státních zaměstnancích, novou EET a stavební zákon podepsal",
+      "body": "Prezident Petr Pavel vetoval návrh nového zákona o státních zaměstnancích, který má podle koaličních tvůrců usnadnit výměnu státních úředníků a přiblížit pravidla jejich zaměstnávání zákoníku práce. Podle prezidenta jde předpis proti doporučení Evropské komise lépe chránit vedoucí úředníky před politickými zásahy a zároveň hlavě státu odnímá část pravomocí, konkrétně jmenování vedoucích stálých misí při mezinárodních organizacích. „Mým úkolem je chránit pravomoci prezidenta,“ vysvětlil Pavel své rozhodnutí. Je to druhý zákon vládní koalice, který nepodepsal. Ve stejný den naopak podepsal zavedení nové EET, která se bude vztahovat i na platby kartou, ale nebude už vyžadovat tisk účtenek, a s výhradami i změnu stavebního zákona. Předseda Pirátů Zdeněk Hřib uvedl, že novela rozbíjí pojistky chránící státní správu před politickými zásahy, a dodal, že se i kvůli tomu připravuje podání k Ústavnímu soudu. Koalice počítá s tím, že veto přehlasuje: ministr zahraničí a předseda Motoristů Petr Macinka řekl Deníku N, že se tak stane na říjnové schůzi Sněmovny, předseda Sněmovny Tomio Okamura zmínil řádnou schůzi 13. října nebo mimořádné jednání.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2187561/mym-ukolem-je-chranit-pravomoci-prezidenta-pavel-vlade-vetoval-dalsi-zakon/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/pavel-podepsal-zavedeni-eet-i-zmenu-stavebniho-zakona-dve-sporne-novely-vetoval-1435852"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187935/"
+        }
+      ],
+      "en": {
+        "headline": "Pavel vetoed the law on civil servants but signed the new sales registration and the building act",
+        "sentences": [
+          {
+            "en": "President Petr Pavel has vetoed the draft of a new law on civil servants which, according to its authors in the coalition, is meant to make it easier to replace state officials and to bring the rules of their employment closer to the Labour Code.",
+            "cs": "Prezident Petr Pavel vetoval návrh nového zákona o státních zaměstnancích, který má podle koaličních tvůrců usnadnit výměnu státních úředníků a přiblížit pravidla jejich zaměstnávání zákoníku práce."
+          },
+          {
+            "en": "In the president's view the law goes against the European Commission's recommendation to give senior officials better protection from political interference, and it also strips the head of state of some powers, specifically the appointment of the heads of permanent missions to international organisations.",
+            "cs": "Podle prezidenta jde předpis proti doporučení Evropské komise lépe chránit vedoucí úředníky před politickými zásahy a zároveň hlavě státu odnímá část pravomocí, konkrétně jmenování vedoucích stálých misí při mezinárodních organizacích."
+          },
+          {
+            "en": "“My task is to protect the powers of the president,” Pavel said of his decision.",
+            "cs": "„Mým úkolem je chránit pravomoci prezidenta,“ vysvětlil Pavel své rozhodnutí."
+          },
+          {
+            "en": "It is the second bill from the governing coalition that he has refused to sign.",
+            "cs": "Je to druhý zákon vládní koalice, který nepodepsal."
+          },
+          {
+            "en": "On the same day he did sign the introduction of the new electronic sales registration, which will also cover card payments but will no longer require receipts to be printed, and, with reservations, an amendment to the building act.",
+            "cs": "Ve stejný den naopak podepsal zavedení nové EET, která se bude vztahovat i na platby kartou, ale nebude už vyžadovat tisk účtenek, a s výhradami i změnu stavebního zákona."
+          },
+          {
+            "en": "The leader of the Pirates, Zdeněk Hřib, said the amendment dismantles the safeguards protecting the civil service from political interference, adding that a submission to the Constitutional Court is being prepared partly because of it.",
+            "cs": "Předseda Pirátů Zdeněk Hřib uvedl, že novela rozbíjí pojistky chránící státní správu před politickými zásahy, a dodal, že se i kvůli tomu připravuje podání k Ústavnímu soudu."
+          },
+          {
+            "en": "The coalition expects to override the veto: the foreign minister and leader of Motoristé, Petr Macinka, told Deník N it would happen at the October session of the Chamber of Deputies, while its speaker, Tomio Okamura, mentioned the regular session on 13 October or an extraordinary sitting.",
+            "cs": "Koalice počítá s tím, že veto přehlasuje: ministr zahraničí a předseda Motoristů Petr Macinka řekl Deníku N, že se tak stane na říjnové schůzi Sněmovny, předseda Sněmovny Tomio Okamura zmínil řádnou schůzi 13. října nebo mimořádné jednání."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reservations",
+            "definition": "doubts about something that stop you from fully agreeing with it"
+          },
+          {
+            "term": "dismantles",
+            "definition": "takes a system apart so that it stops working"
+          },
+          {
+            "term": "safeguards",
+            "definition": "rules that protect someone or something from harm"
+          },
+          {
+            "term": "override",
+            "definition": "to use your power to cancel someone else's decision"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:04",
+      "headline": "Koalice se dohodla na rozpočtu, škrty za desítky miliard do něj neprošly",
+      "body": "Zástupci koaličních stran se dnes naposledy sešli nad rozpočtem na příští rok a dohodli se na finální podobě schodku, vláda by ho měla schválit v pondělí. Dramatické škrty za desítky miliard přes hnutí ANO neprošly, ANO ale partnerům úspory přesto slíbilo. Motoristé neuspěli s návrhem neplatit zaměstnancům první tři dny nemoci, SPD zase se škrty ve výdajích na obranu; shodu strany našly na růstu důchodů. Saldo rozpočtu se má podle dohody změnit o několik miliard a místopředseda vlády Petr Macinka tvrdí, že další snížení deficitu přinesou legislativní návrhy, se kterými kabinet přijde do konce roku. „ANO však svým partnerům dovolilo jen kosmetické úpravy,“ řekl k tomu Radiožurnálu politolog Josef Mlejnek. „Je to spíš palivo pro marketing,“ dodal.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/koalice-se-dohodla-na-rozpoctu-na-skrtech-ne-obri-schodek-klesne-jen-nepatrne-1435839"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2187622/babis-to-spd-jasne-odmitl-rozpocet-s-obrim-schodkem-se-jiz-neotrese-zmeny-budou-jen-symbolicke/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zruseni-poplatku-bude-koalice-dal-odsouvat-mini-politolog-mlejnek-upravy_2609171404_elev"
+        }
+      ],
+      "en": {
+        "headline": "The coalition agreed on the budget, but cuts worth tens of billions did not get into it",
+        "sentences": [
+          {
+            "en": "Representatives of the coalition parties met over next year's budget for the last time today and agreed on the final shape of the deficit, which the government should approve on Monday.",
+            "cs": "Zástupci koaličních stran se dnes naposledy sešli nad rozpočtem na příští rok a dohodli se na finální podobě schodku, vláda by ho měla schválit v pondělí."
+          },
+          {
+            "en": "Dramatic cuts worth tens of billions did not get through because of ANO, though ANO did nonetheless promise its partners savings.",
+            "cs": "Dramatické škrty za desítky miliard přes hnutí ANO neprošly, ANO ale partnerům úspory přesto slíbilo."
+          },
+          {
+            "en": "Motoristé failed with a proposal not to pay employees for the first three days of sick leave, and SPD with cuts to defence spending; the parties did agree on a rise in pensions.",
+            "cs": "Motoristé neuspěli s návrhem neplatit zaměstnancům první tři dny nemoci, SPD zase se škrty ve výdajích na obranu; shodu strany našly na růstu důchodů."
+          },
+          {
+            "en": "Under the deal the budget balance is to change by a few billion, and Deputy Prime Minister Petr Macinka claims that a further reduction of the deficit will come from legislative proposals the cabinet will put forward by the end of the year.",
+            "cs": "Saldo rozpočtu se má podle dohody změnit o několik miliard a místopředseda vlády Petr Macinka tvrdí, že další snížení deficitu přinesou legislativní návrhy, se kterými kabinet přijde do konce roku."
+          },
+          {
+            "en": "“But ANO allowed its partners only cosmetic adjustments,” political scientist Josef Mlejnek told Radiožurnál.",
+            "cs": "„ANO však svým partnerům dovolilo jen kosmetické úpravy,“ řekl k tomu Radiožurnálu politolog Josef Mlejnek."
+          },
+          {
+            "en": "“It is more like fuel for marketing,” he added.",
+            "cs": "„Je to spíš palivo pro marketing,“ dodal."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sick leave",
+            "definition": "time when you do not work because you are ill"
+          },
+          {
+            "term": "cabinet",
+            "definition": "the group of top ministers who run a government"
+          },
+          {
+            "term": "cosmetic",
+            "definition": "changing only the surface of something, not how it really works"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:04",
+      "headline": "Česko bude příští rok poprvé předsedat Radě OECD",
+      "body": "Česko bude příští rok poprvé ve své historii předsedat na ministerské úrovni Radě Organizace pro ekonomickou spolupráci a rozvoj, oznámilo ministerstvo zahraničí. Vláda kandidaturu schválila minulý týden, prioritou předsednictví má být podle ministerstva technologický rozvoj a podpora svobody. Organizace sídlí v Paříži a Česko se jejím členem stalo v prosinci 1995.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/vyznamne-potvrzeni-duvery-v-nasi-zemi-cesko-bude-poprve-v-historii-predsedat_2609171404_dns"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-cesko-bude-pristi-rok-predsedat-rade-oecd-oznamilo-ministerstvo-zahranici-315594"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187725/"
+        }
+      ],
+      "en": {
+        "headline": "The Czech Republic will chair the OECD Council for the first time next year",
+        "sentences": [
+          {
+            "en": "Next year the Czech Republic will chair the Council of the Organisation for Economic Co-operation and Development at ministerial level for the first time in its history, the Foreign Ministry announced.",
+            "cs": "Česko bude příští rok poprvé ve své historii předsedat na ministerské úrovni Radě Organizace pro ekonomickou spolupráci a rozvoj, oznámilo ministerstvo zahraničí."
+          },
+          {
+            "en": "The government approved the candidacy last week, and according to the ministry the priorities of the presidency are to be technological development and support for freedom.",
+            "cs": "Vláda kandidaturu schválila minulý týden, prioritou předsednictví má být podle ministerstva technologický rozvoj a podpora svobody."
+          },
+          {
+            "en": "The organisation is based in Paris and the Czech Republic joined it in December 1995.",
+            "cs": "Organizace sídlí v Paříži a Česko se jejím členem stalo v prosinci 1995."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "chair",
+            "definition": "to lead a meeting or an organisation"
+          },
+          {
+            "term": "candidacy",
+            "definition": "the fact of putting yourself forward for a position"
+          },
+          {
+            "term": "presidency",
+            "definition": "the period when someone leads an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:26",
+      "headline": "Volební model Ipsos dává ANO 31,4 procenta, Motoristé by se podle dalšího průzkumu do Sněmovny nedostali",
+      "body": "Sněmovní volby by v září vyhrálo vládní hnutí ANO se ziskem 31,4 procenta hlasů, vyplývá z volebního modelu agentury Ipsos. Druhé by skončilo hnutí STAN se 16,6 procenta, třetí ODS se čtrnácti procenty; STAN si podle Ipsos oproti květnovému modelu polepšilo zhruba o dva procentní body. Růst STAN potvrdil podle Seznam Zpráv i další průzkum, podle kterého by se Motoristé se 4,5 procenta do Sněmovny nedostali a strany vládní koalice od loňských voleb ztratily šest procentních bodů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187821/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-rust-stan-potvrdil-dalsi-pruzkum-motoriste-by-zustali-mimo-snemovnu-315607"
+        }
+      ],
+      "en": {
+        "headline": "An Ipsos model gives ANO 31.4 percent, and another survey puts Motoristé outside parliament",
+        "sentences": [
+          {
+            "en": "Parliamentary elections in September would have been won by the governing ANO movement with 31.4 percent of the vote, according to a polling model by the Ipsos agency.",
+            "cs": "Sněmovní volby by v září vyhrálo vládní hnutí ANO se ziskem 31,4 procenta hlasů, vyplývá z volebního modelu agentury Ipsos."
+          },
+          {
+            "en": "STAN would have come second with 16.6 percent and ODS third with fourteen percent; according to Ipsos, STAN has gained roughly two percentage points compared with the May model.",
+            "cs": "Druhé by skončilo hnutí STAN se 16,6 procenta, třetí ODS se čtrnácti procenty; STAN si podle Ipsos oproti květnovému modelu polepšilo zhruba o dva procentní body."
+          },
+          {
+            "en": "Seznam Zprávy reports that another survey confirmed STAN's rise and suggested that Motoristé, on 4.5 percent, would fall short of the Chamber of Deputies, while the coalition parties have lost six percentage points since last year's elections.",
+            "cs": "Růst STAN potvrdil podle Seznam Zpráv i další průzkum, podle kterého by se Motoristé se 4,5 procenta do Sněmovny nedostali a strany vládní koalice od loňských voleb ztratily šest procentních bodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "polling",
+            "definition": "the work of asking people what they think or how they will vote"
+          },
+          {
+            "term": "survey",
+            "definition": "a study in which many people are asked the same questions"
+          },
+          {
+            "term": "fall short of",
+            "definition": "to not reach a level that is needed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:26",
+      "headline": "Babiš na pražském obranném summitu navrhl evropský protiraketový štít",
+      "body": "Premiér Andrej Babiš na Pražském obranném summitu prohlásil, že svět míří k branám pekla, a vyzval Evropu, aby se poučila z války na Ukrajině a hledala řešení zejména v obraně proti balistickým raketám. Podle něj by společný protiraketový štít pomohl i českému zbrojnímu průmyslu; globální nestabilita podle premiéra zdražuje Evropě energie, zvyšuje inflaci a oslabuje průmysl. Deník N upozorňuje, že Babiš tím oživil svou červencovou tezi o „evropském patriotovi“, a namítá, že Evropa už řadu iniciativ k protibalistické obraně má a Babiš do nich Česko jen nezapojil.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/svet-miri-k-branam-pekla-rekl-babis-navrhl-evropsky-protiraketovy-stit-1435842"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187569/"
+        }
+      ],
+      "en": {
+        "headline": "At a Prague defence summit Babiš proposed a European anti-missile shield",
+        "sentences": [
+          {
+            "en": "At the Prague Defence Summit, Prime Minister Andrej Babiš declared that the world is heading for the gates of hell and called on Europe to learn from the war in Ukraine and to look for solutions above all in defence against ballistic missiles.",
+            "cs": "Premiér Andrej Babiš na Pražském obranném summitu prohlásil, že svět míří k branám pekla, a vyzval Evropu, aby se poučila z války na Ukrajině a hledala řešení zejména v obraně proti balistickým raketám."
+          },
+          {
+            "en": "A joint anti-missile shield would in his view also help the Czech arms industry; global instability, the prime minister said, is making energy more expensive for Europe, pushing up inflation and weakening industry.",
+            "cs": "Podle něj by společný protiraketový štít pomohl i českému zbrojnímu průmyslu; globální nestabilita podle premiéra zdražuje Evropě energie, zvyšuje inflaci a oslabuje průmysl."
+          },
+          {
+            "en": "Deník N points out that Babiš was reviving his July thesis about a “European patriot”, and objects that Europe already has a number of anti-ballistic defence initiatives which Babiš has simply failed to sign the country up to.",
+            "cs": "Deník N upozorňuje, že Babiš tím oživil svou červencovou tezi o „evropském patriotovi“, a namítá, že Evropa už řadu iniciativ k protibalistické obraně má a Babiš do nich Česko jen nezapojil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that flies high and then falls onto its target"
+          },
+          {
+            "term": "instability",
+            "definition": "a situation that can change suddenly and dangerously"
+          },
+          {
+            "term": "reviving",
+            "definition": "bringing something back after it was forgotten"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "21:33",
+      "day": "prev",
+      "headline": "Hokejisté Hradce vyhráli úvodní derby na ledě mistrovských Pardubic 5:3",
+      "body": "Mountfield HK vstoupil do extraligy výhrou 5:3 v Pardubicích, kde domácí Dynamo před zápasem slavnostně vyvěsilo mistrovskou vlajku. Po dvou třetinách byl stav 2:2, pak hosté skórovali třikrát za sebou; gól a dvě asistence zaznamenal obránce Anders Koch.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hokej/extraliga/1-kolo-online-zpravodajstvi.A260916_140519_hokej_luji#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/hokej/mountfield-hk-pardubice-derby-extraliga-vyhra-5-3/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/900399-hradec-otevrel-extraligu-vyhrou-v-derby-pardubice-porazil-5-3.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec's hockey players won the opening derby 5:3 on the ice of the champions from Pardubice",
+        "sentences": [
+          {
+            "en": "Mountfield HK opened the extraliga with a 5:3 win in Pardubice, where the home side Dynamo had ceremonially raised its championship banner before the game.",
+            "cs": "Mountfield HK vstoupil do extraligy výhrou 5:3 v Pardubicích, kde domácí Dynamo před zápasem slavnostně vyvěsilo mistrovskou vlajku."
+          },
+          {
+            "en": "After two periods the score was 2:2, then the visitors scored three times in a row; defenceman Anders Koch recorded a goal and two assists.",
+            "cs": "Po dvou třetinách byl stav 2:2, pak hosté skórovali třikrát za sebou; gól a dvě asistence zaznamenal obránce Anders Koch."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceremonially",
+            "definition": "as part of a formal public event"
+          },
+          {
+            "term": "defenceman",
+            "definition": "a hockey player whose job is to stop the other team scoring"
+          },
+          {
+            "term": "assists",
+            "definition": "passes that directly help a team-mate to score"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:25",
+      "headline": "V budově kraje u Pivovarského náměstí vznikne coworkingové centrum za zhruba 30 milionů",
+      "body": "Studenti, začínající podnikatelé a lidé s vlastními projekty dostanou v Hradci Králové nové zázemí. Coworkingové centrum vznikne v přízemí budovy kraje u Pivovarského náměstí, kde dřív sídlila Univerzita Hradec Králové, a nabídne pracovní místa, zasedací prostor, místo pro školení a přednášky i konzultace s odborníky. Úpravy a vybavení vyjdou přibližně na 30 milionů korun, stavební práce by mohly začít na přelomu roku.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/900316-hradec-chysta-misto-pro-nove-napady-na-kraji-vznikne-coworkingove-centrum.html"
+        }
+      ],
+      "en": {
+        "headline": "A co-working centre costing about 30 million will open in the regional building by Pivovarské náměstí",
+        "sentences": [
+          {
+            "en": "Students, budding entrepreneurs and people with projects of their own will get a new base in Hradec Králové.",
+            "cs": "Studenti, začínající podnikatelé a lidé s vlastními projekty dostanou v Hradci Králové nové zázemí."
+          },
+          {
+            "en": "The co-working centre will be created on the ground floor of the regional authority's building by Pivovarské náměstí, where the University of Hradec Králové used to be, and will offer work spaces, a meeting room, a venue for training and lectures, and consultations with experts.",
+            "cs": "Coworkingové centrum vznikne v přízemí budovy kraje u Pivovarského náměstí, kde dřív sídlila Univerzita Hradec Králové, a nabídne pracovní místa, zasedací prostor, místo pro školení a přednášky i konzultace s odborníky."
+          },
+          {
+            "en": "The alterations and equipment will cost roughly 30 million crowns, and construction work could begin around the turn of the year.",
+            "cs": "Úpravy a vybavení vyjdou přibližně na 30 milionů korun, stavební práce by mohly začít na přelomu roku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "budding",
+            "definition": "starting to develop or just beginning a career"
+          },
+          {
+            "term": "entrepreneurs",
+            "definition": "people who start their own businesses"
+          },
+          {
+            "term": "venue",
+            "definition": "a place where an event is held"
+          },
+          {
+            "term": "alterations",
+            "definition": "changes made to something that already exists"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:10",
+      "headline": "O senátní křeslo za Hradec Králové se uchází sedm kandidátů",
+      "body": "V senátním obvodu Hradec Králové kandiduje sedm lidí a podle iDNES.cz se dá dramatický souboj čekat už v prvním kole. Mandát obhajuje Jan Holásek, proti němu jdou mimo jiné podnikatelky Zuzana Ceralová Petrofová a Monika Nebeská nebo bývalý ministr a někdejší hradecký primátor Martin Dvořák.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/senat-volby-rijen-2026-holasek-petrofova-dvorak-hulkova.A260914_968118_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Seven candidates are running for the Senate seat for Hradec Králové",
+        "sentences": [
+          {
+            "en": "Seven people are standing in the Hradec Králové Senate constituency and, according to iDNES.cz, a dramatic contest can be expected as early as the first round.",
+            "cs": "V senátním obvodu Hradec Králové kandiduje sedm lidí a podle iDNES.cz se dá dramatický souboj čekat už v prvním kole."
+          },
+          {
+            "en": "Jan Holásek is defending the seat, and among those running against him are the businesswomen Zuzana Ceralová Petrofová and Monika Nebeská and the former minister and one-time mayor of Hradec Králové Martin Dvořák.",
+            "cs": "Mandát obhajuje Jan Holásek, proti němu jdou mimo jiné podnikatelky Zuzana Ceralová Petrofová a Monika Nebeská nebo bývalý ministr a někdejší hradecký primátor Martin Dvořák."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "constituency",
+            "definition": "an area whose voters elect one representative"
+          },
+          {
+            "term": "contest",
+            "definition": "a competition in which people try to win something"
+          },
+          {
+            "term": "one-time",
+            "definition": "used to say that someone had a job or role in the past"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "18:02",
+      "day": "prev",
+      "headline": "Nové sídlo Lesů ČR na Novém Hradci dostalo souhlas, vyžádá si rozsáhlé kácení",
+      "body": "Hradecký odbor životního prostředí udělil souhlas k výstavbě nového administrativního centra Lesů ČR na Novém Hradci Králové, které nahradí nevyhovující sídlo ze sedmdesátých let. Stavba si podle Hradeckého deníku vyžádá rozsáhlé kácení stromů včetně zásahu do lesního porostu. Začít by se mohlo stavět už příští rok.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/nove-sidlo-lesy-cr-hradec-odbor-zivotniho-prostredi-souhlasne-stanovisko/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The new Lesy ČR headquarters in Nový Hradec has been approved and will require extensive felling",
+        "sentences": [
+          {
+            "en": "The Hradec environment department has given its approval for the construction of a new administrative centre for Lesy ČR in Nový Hradec Králové, replacing an unsuitable headquarters from the 1970s.",
+            "cs": "Hradecký odbor životního prostředí udělil souhlas k výstavbě nového administrativního centra Lesů ČR na Novém Hradci Králové, které nahradí nevyhovující sídlo ze sedmdesátých let."
+          },
+          {
+            "en": "According to Hradecký deník the building will require extensive felling of trees, including an intervention in woodland.",
+            "cs": "Stavba si podle Hradeckého deníku vyžádá rozsáhlé kácení stromů včetně zásahu do lesního porostu."
+          },
+          {
+            "en": "Construction could begin as early as next year.",
+            "cs": "Začít by se mohlo stavět už příští rok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "felling",
+            "definition": "the cutting down of trees"
+          },
+          {
+            "term": "unsuitable",
+            "definition": "not right or good enough for a purpose"
+          },
+          {
+            "term": "woodland",
+            "definition": "land covered with trees"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:23",
+      "headline": "Švédský premiér Kristersson po potvrzeném vítězství opozice oznámil rezignaci",
+      "body": "Konečné výsledky nedělních švédských parlamentních voleb potvrdily těsné vítězství středolevé opozice, napsala agentura AP. Premiér Ulf Kristersson na to reagoval oznámením rezignace. Vítězný blok vede Magdalena Anderssonová; strany dosud vládního pravicového bloku přicházejí o většinu v parlamentu. Vítězství opozice ohlásila už ve středu veřejnoprávní televize SVT na základě propočtu po sečtení 99 procent hlasů. Nového premiéra může parlament jmenovat nejdříve 29. září, samotné sestavování kabinetu pak podle E15 může trvat týdny až měsíce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ve-svedskych-volbach-zvitezila-opozice-premier-oznamil-rezignaci-315596"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/parlamentni-volby-ve-svedsku-vyhrala-stredoleva-opozice-uvadi-svt-377688"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/volby-ve-svedsku-ovladla-stredoleva-opozice-vlada-ulfa-kristerssona-v-parlamentu-prichazi-o-vetsinu-1435831"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187800/"
+        }
+      ],
+      "en": {
+        "headline": "Swedish Prime Minister Kristersson announced his resignation after the opposition's victory was confirmed",
+        "sentences": [
+          {
+            "en": "The final results of Sunday's Swedish parliamentary elections confirmed a narrow victory for the centre-left opposition, the AP agency wrote.",
+            "cs": "Konečné výsledky nedělních švédských parlamentních voleb potvrdily těsné vítězství středolevé opozice, napsala agentura AP."
+          },
+          {
+            "en": "Prime Minister Ulf Kristersson responded by announcing his resignation.",
+            "cs": "Premiér Ulf Kristersson na to reagoval oznámením rezignace."
+          },
+          {
+            "en": "The winning bloc is led by Magdalena Andersson; the parties of the right-wing bloc that has governed until now are losing their majority in parliament.",
+            "cs": "Vítězný blok vede Magdalena Anderssonová; strany dosud vládního pravicového bloku přicházejí o většinu v parlamentu."
+          },
+          {
+            "en": "The opposition's victory was already announced on Wednesday by the public broadcaster SVT on the basis of its projection after 99 percent of the votes had been counted.",
+            "cs": "Vítězství opozice ohlásila už ve středu veřejnoprávní televize SVT na základě propočtu po sečtení 99 procent hlasů."
+          },
+          {
+            "en": "Parliament can appoint a new prime minister no earlier than 29 September, and according to E15 the formation of the cabinet itself may take weeks or months.",
+            "cs": "Nového premiéra může parlament jmenovat nejdříve 29. září, samotné sestavování kabinetu pak podle E15 může trvat týdny až měsíce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bloc",
+            "definition": "a group of parties or countries that act together"
+          },
+          {
+            "term": "broadcaster",
+            "definition": "a company that makes and shows television or radio programmes"
+          },
+          {
+            "term": "projection",
+            "definition": "a calculation of what the final result will probably be"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:43",
+      "headline": "Německá policie zadržela muže, který podle vyšetřovatelů chystal útok na kostel v Brémách",
+      "body": "Německá policie dnes zadržela čtyřiadvacetiletého Iráčana, který podle vyšetřovatelů plánoval útok na kostel v Brémách na severu země. Oznámilo to spolkové státní zastupitelství s tím, že se muž hlásil k ideologii teroristické organizace Islámský stát a chtěl zabíjet „nevěřící“. Útok podle prohlášení chystal už na jaře 2025 společně s další neupřesněnou osobou a obstaral si pro něj střelnou zbraň.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-chtel-zabijet-neverici-v-kostele-policie-v-nemecku-dopadla-radikala-z-is-315616"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-zadrzela-iracana-chtel-podle-ni-zautocit-na-kostel-377721"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/nemecka-policie-zadrzela-utocnika-chtel-podle-ni-zautocit-na-kostel-v-bremach_2609171539_med"
+        }
+      ],
+      "en": {
+        "headline": "German police detained a man who according to investigators was preparing an attack on a church in Bremen",
+        "sentences": [
+          {
+            "en": "German police today detained a 24-year-old Iraqi who, according to investigators, was preparing an attack on a church in Bremen in the north of the country.",
+            "cs": "Německá policie dnes zadržela čtyřiadvacetiletého Iráčana, který podle vyšetřovatelů plánoval útok na kostel v Brémách na severu země."
+          },
+          {
+            "en": "The federal prosecutor's office announced this, saying the man subscribed to the ideology of the terrorist organisation Islamic State and wanted to kill “unbelievers”.",
+            "cs": "Oznámilo to spolkové státní zastupitelství s tím, že se muž hlásil k ideologii teroristické organizace Islámský stát a chtěl zabíjet „nevěřící“."
+          },
+          {
+            "en": "According to the statement he had been planning the attack as early as the spring of 2025 together with another unnamed person and had obtained a firearm for it.",
+            "cs": "Útok podle prohlášení chystal už na jaře 2025 společně s další neupřesněnou osobou a obstaral si pro něj střelnou zbraň."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "held by the police so that someone cannot leave"
+          },
+          {
+            "term": "subscribed to",
+            "definition": "agreed with and followed a set of ideas"
+          },
+          {
+            "term": "firearm",
+            "definition": "a gun that you can carry"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:21",
+      "headline": "Evropská komise navrhla zákaz sociálních sítí pro děti do třinácti let, vlastní účet až od patnácti",
+      "body": "Evropská komise představila návrh takzvaného EU KIDS Act, který má posílit bezpečnost dětí na internetu v celé unii. Pro děti mladší třinácti let by měl platit zákaz sociálních sítí a vlastní účet by si mohli založit až patnáctiletí; obrysy předpisu nastínila šéfka Komise Ursula von der Leyenová už ve středečním projevu ve Štrasburku. Podle E15 budou mít mladší děti k dispozici jen speciální platformy pro videa a návrh počítá i se zákazem návykových funkcí; omezení se má dotknout také videoher, umělé inteligence a chatbotů, které nebudou smět napodobovat mezilidské vztahy. „Sociální sítě nejsou špatné, ale musíme je jednoznačně regulovat,“ řekla Radiožurnálu psychoterapeutka Michaela Štáfková, která směr návrhu vítá, byť ne bez výhrad.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/zakaz-socialnich-siti-do-13-let-vlastni-ucet-az-od-patnacti-navrhuje-komise-377702"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/zakaz-pro-deti-i-konec-nekonecneho-scrollovani-brusel-vyrazil-proti-socialnim-sitim-1435848"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/technologie/vitam-ten-smer-ale-ne-bez-vyhrad-rika-stafkova-o-planu-evropske-komise-na-zakaz_2609171421_eml"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission proposed banning social networks for children under thirteen, with an own account only from fifteen",
+        "sentences": [
+          {
+            "en": "The European Commission has presented the draft of the so-called EU KIDS Act, which is meant to strengthen the safety of children online across the union.",
+            "cs": "Evropská komise představila návrh takzvaného EU KIDS Act, který má posílit bezpečnost dětí na internetu v celé unii."
+          },
+          {
+            "en": "Children under thirteen would be banned from social networks and only fifteen-year-olds could set up an account of their own; the outlines of the rules were sketched out by Commission president Ursula von der Leyen in her speech in Strasbourg on Wednesday.",
+            "cs": "Pro děti mladší třinácti let by měl platit zákaz sociálních sítí a vlastní účet by si mohli založit až patnáctiletí; obrysy předpisu nastínila šéfka Komise Ursula von der Leyenová už ve středečním projevu ve Štrasburku."
+          },
+          {
+            "en": "According to E15, younger children will have access only to special video platforms and the proposal also envisages a ban on addictive features; the restrictions are to apply to video games, artificial intelligence and chatbots as well, which will not be allowed to imitate human relationships.",
+            "cs": "Podle E15 budou mít mladší děti k dispozici jen speciální platformy pro videa a návrh počítá i se zákazem návykových funkcí; omezení se má dotknout také videoher, umělé inteligence a chatbotů, které nebudou smět napodobovat mezilidské vztahy."
+          },
+          {
+            "en": "“Social networks are not bad, but we clearly have to regulate them,” psychotherapist Michaela Štáfková, who welcomes the direction of the proposal though not without reservations, told Radiožurnál.",
+            "cs": "„Sociální sítě nejsou špatné, ale musíme je jednoznačně regulovat,“ řekla Radiožurnálu psychoterapeutka Michaela Štáfková, která směr návrhu vítá, byť ne bez výhrad."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outlines",
+            "definition": "the main points of a plan, without the details"
+          },
+          {
+            "term": "envisages",
+            "definition": "expects or plans that something will happen"
+          },
+          {
+            "term": "addictive",
+            "definition": "so enjoyable that it is hard to stop using it"
+          },
+          {
+            "term": "imitate",
+            "definition": "to copy the way something behaves"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:15",
+      "headline": "Carney v Evropském parlamentu uvítal nabídku přidruženého členství Kanady v EU",
+      "body": "Kanadský premiér Mark Carney v projevu k europoslancům prohlásil, že Kanada a Evropa jsou silnější, když spolupracují, a uvítal návrh na přidružené členství své země v unii. „Silná ekonomika není sama o sobě cílem, ale prostředkem k vytvoření spravedlivé společnosti,“ dodal. Předsedkyně Evropské komise Ursula von der Leyenová ve středu navrhla, aby se Kanada stala prvním přidruženým členem EU a součástí nové Aliance pro budoucnost.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/kanadsky-premier-mark-carney-promlouva-k-europoslancum-377701"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187604/"
+        }
+      ],
+      "en": {
+        "headline": "Carney welcomed the offer of associate membership for Canada in the European Parliament",
+        "sentences": [
+          {
+            "en": "In a speech to MEPs, Canadian Prime Minister Mark Carney declared that Canada and Europe are stronger when they work together, and welcomed the proposal for his country's associate membership of the union.",
+            "cs": "Kanadský premiér Mark Carney v projevu k europoslancům prohlásil, že Kanada a Evropa jsou silnější, když spolupracují, a uvítal návrh na přidružené členství své země v unii."
+          },
+          {
+            "en": "“A strong economy is not an end in itself, but a means of creating a fair society,” he added.",
+            "cs": "„Silná ekonomika není sama o sobě cílem, ale prostředkem k vytvoření spravedlivé společnosti,“ dodal."
+          },
+          {
+            "en": "European Commission president Ursula von der Leyen proposed on Wednesday that Canada become the first associate member of the EU and part of a new Alliance for the Future.",
+            "cs": "Předsedkyně Evropské komise Ursula von der Leyenová ve středu navrhla, aby se Kanada stala prvním přidruženým členem EU a součástí nové Aliance pro budoucnost."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "associate membership",
+            "definition": "a partial form of belonging to an organisation"
+          },
+          {
+            "term": "an end in itself",
+            "definition": "a goal that matters on its own, not because it leads to something else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "06:44",
+      "headline": "Sněmovna reprezentantů USA schválila balík protiruských sankcí",
+      "body": "Americká Sněmovna reprezentantů schválila rozsáhlý balík sankčních opatření, který Spojeným státům umožní uvalit vysoká cla na odběratele ruských pohonných hmot. Aby zákon vstoupil v platnost, musí ho podepsat prezident Donald Trump.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-snemovna-reprezentantu-usa-schvalila-balik-protiruskych-sankcnich-opatreni-315545"
+        }
+      ],
+      "en": {
+        "headline": "The US House of Representatives approved a package of sanctions against Russia",
+        "sentences": [
+          {
+            "en": "The US House of Representatives has approved an extensive package of sanctions that will allow the United States to impose high tariffs on buyers of Russian fuels.",
+            "cs": "Americká Sněmovna reprezentantů schválila rozsáhlý balík sankčních opatření, který Spojeným státům umožní uvalit vysoká cla na odběratele ruských pohonných hmot."
+          },
+          {
+            "en": "For the law to take effect, President Donald Trump must sign it.",
+            "cs": "Aby zákon vstoupil v platnost, musí ho podepsat prezident Donald Trump."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "impose",
+            "definition": "to officially force a rule or a payment on someone"
+          },
+          {
+            "term": "tariffs",
+            "definition": "taxes on goods coming into a country"
+          },
+          {
+            "term": "take effect",
+            "definition": "to start being valid"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:52",
+      "headline": "Nad americkou základnou v Saúdské Arábii proletěly před íránským útokem ruské družice, píše CNN",
+      "body": "Dva dny před velkým útokem na americkou vojenskou základnu v Saúdské Arábii, který Írán podnikl 27. března, nad ní proletělo čtrnáct ruských satelitů. Informovala o tom CNN s odkazem na americké úředníky a mezinárodní zpravodajské zdroje, podle nichž Rusko získané informace předalo Teheránu a ten je použil při plánování útoku.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/ruske-druzice-proletely-nad-zakladnou-usa-pote-na-ni-uderil-iran-zdroje-mluvi-o_2609171452_zko"
+        }
+      ],
+      "en": {
+        "headline": "Russian satellites passed over the American base in Saudi Arabia before the Iranian attack, CNN writes",
+        "sentences": [
+          {
+            "en": "Two days before the major attack on the American military base in Saudi Arabia that Iran carried out on 27 March, fourteen Russian satellites passed over it.",
+            "cs": "Dva dny před velkým útokem na americkou vojenskou základnu v Saúdské Arábii, který Írán podnikl 27. března, nad ní proletělo čtrnáct ruských satelitů."
+          },
+          {
+            "en": "CNN reported this, citing US officials and international intelligence sources, according to whom Russia passed the information it had obtained to Tehran, which used it when planning the attack.",
+            "cs": "Informovala o tom CNN s odkazem na americké úředníky a mezinárodní zpravodajské zdroje, podle nichž Rusko získané informace předalo Teheránu a ten je použil při plánování útoku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "carried out",
+            "definition": "did something that was planned"
+          },
+          {
+            "term": "citing",
+            "definition": "naming something as the source of information"
+          },
+          {
+            "term": "intelligence",
+            "definition": "secret information collected about other countries"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:07",
+      "headline": "Česká národní banka nechala úrokovou sazbu na 3,75 procenta",
+      "body": "Bankovní rada ČNB dnes podle očekávání ponechala základní úrokovou sazbu na 3,75 procenta, kde je od června, a rozhodla se jednomyslně. Shodla se přitom, že v české ekonomice nyní převažují rizika ve směru vyšší inflace. „Relativně přísná měnová politika je nadále zapotřebí,“ řekl po jednání guvernér Aleš Michl s tím, že cílem je držet inflaci dlouhodobě blízko dvouprocentního cíle. Trh stabilitu sazeb čekal, přestože centrální banky eurozóny i Spojených států v září ke zpřísnění měnové politiky přistoupily; podle Seznam Zpráv sílí argumenty pro to, aby čeští bankéři byli dalšímu zpřísnění otevření.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/bankovni-rada-ceske-narodni-banky-podle-ocekavani-nechala-zakladni-urokovou_2609171443_med"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187897/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-cnb-zatim-v-klidu-na-uroky-ale-tlaci-hrozba-vyssi-inflace-315576"
+        }
+      ],
+      "en": {
+        "headline": "The Czech National Bank left its interest rate at 3.75 percent",
+        "sentences": [
+          {
+            "en": "The ČNB board today left the base interest rate at 3.75 percent, where it has been since June, as expected and by a unanimous decision.",
+            "cs": "Bankovní rada ČNB dnes podle očekávání ponechala základní úrokovou sazbu na 3,75 procenta, kde je od června, a rozhodla se jednomyslně."
+          },
+          {
+            "en": "It agreed that risks in the Czech economy now point towards higher inflation.",
+            "cs": "Shodla se přitom, že v české ekonomice nyní převažují rizika ve směru vyšší inflace."
+          },
+          {
+            "en": "“A relatively tight monetary policy is still needed,” governor Aleš Michl said after the meeting, adding that the aim is to keep inflation close to the two-percent target in the long run.",
+            "cs": "„Relativně přísná měnová politika je nadále zapotřebí,“ řekl po jednání guvernér Aleš Michl s tím, že cílem je držet inflaci dlouhodobě blízko dvouprocentního cíle."
+          },
+          {
+            "en": "The market expected rates to hold, even though the central banks of the eurozone and the United States tightened monetary policy in September; according to Seznam Zprávy, the arguments for Czech bankers to stay open to further tightening are growing stronger.",
+            "cs": "Trh stabilitu sazeb čekal, přestože centrální banky eurozóny i Spojených států v září ke zpřísnění měnové politiky přistoupily; podle Seznam Zpráv sílí argumenty pro to, aby čeští bankéři byli dalšímu zpřísnění otevření."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unanimous",
+            "definition": "agreed by everyone in a group"
+          },
+          {
+            "term": "monetary policy",
+            "definition": "the way a central bank controls interest rates and the money supply"
+          },
+          {
+            "term": "tightening",
+            "definition": "making the rules or conditions stricter"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:00",
+      "headline": "Fed zvýšil sazby poprvé od roku 2023, výnos amerických dluhopisů překročil pět procent",
+      "body": "Americký Fed zvýšil základní úrokovou sazbu o čtvrt procentního bodu do pásma 3,75 až 4,00 procenta a naznačil, že v růstu bude pokračovat. Krok trh čekal jako reakci na proinflační rizika, která podle E15 tlačí vzhůru válka na Blízkém východě; americká ekonomika podle centrální banky vykazuje solidní tempo růstu, odolné výdaje domácností i stabilní trh práce. Výnosy amerických desetiletých dluhopisů poprvé překročily psychologickou hranici pěti procent. Rostoucí sazby podle E15 dráždí politiky od Donalda Trumpa po Andreje Babiše, na nezávislost centrálních bank to ale nemá vliv.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/burzy-a-trhy/usa-i-evropa-ocekavaji-dalsi-rust-uroku-politici-v-cele-s-trumpem-zuri-1435835"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/valka-na-blizkem-vychode-tlaci-na-inflaci-americky-fed-reaguje-zvysenim-sazeb-1435830"
+        }
+      ],
+      "en": {
+        "headline": "The Fed raised rates for the first time since 2023 and the yield on American bonds passed five percent",
+        "sentences": [
+          {
+            "en": "The US Federal Reserve raised its base interest rate by a quarter of a percentage point to a range of 3.75 to 4.00 percent and signalled that it will keep raising it.",
+            "cs": "Americký Fed zvýšil základní úrokovou sazbu o čtvrt procentního bodu do pásma 3,75 až 4,00 procenta a naznačil, že v růstu bude pokračovat."
+          },
+          {
+            "en": "The market had expected the move as a response to inflationary risks which, according to E15, are being pushed up by the war in the Middle East; the American economy, the central bank says, is showing solid growth, resilient household spending and a stable labour market.",
+            "cs": "Krok trh čekal jako reakci na proinflační rizika, která podle E15 tlačí vzhůru válka na Blízkém východě; americká ekonomika podle centrální banky vykazuje solidní tempo růstu, odolné výdaje domácností i stabilní trh práce."
+          },
+          {
+            "en": "Yields on ten-year American bonds crossed the psychological threshold of five percent for the first time.",
+            "cs": "Výnosy amerických desetiletých dluhopisů poprvé překročily psychologickou hranici pěti procent."
+          },
+          {
+            "en": "Rising rates are irritating politicians from Donald Trump to Andrej Babiš, E15 writes, but this has no effect on the independence of central banks.",
+            "cs": "Rostoucí sazby podle E15 dráždí politiky od Donalda Trumpa po Andreje Babiše, na nezávislost centrálních bank to ale nemá vliv."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resilient",
+            "definition": "able to stay strong when conditions get worse"
+          },
+          {
+            "term": "yields",
+            "definition": "the money an investment pays back each year"
+          },
+          {
+            "term": "threshold",
+            "definition": "a level at which something changes"
+          },
+          {
+            "term": "irritating",
+            "definition": "making people annoyed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:46",
+      "headline": "Tankování v Česku může být brzy nejdražší v historii",
+      "body": "Blokáda Hormuzského průlivu, dronové útoky na ropovody a poškozené rafinerie v Perském zálivu i v Rusku ženou světové ceny ropy vzhůru. Podle Deníku N se to promítá i do českých čerpacích stanic a tankování tu může být brzy nejdražší v historii.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2186609/krize-na-blizkem-vychode-tlaci-ceske-pumpy-k-rekordnim-cenam/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2188043/"
+        }
+      ],
+      "en": {
+        "headline": "Filling up in the Czech Republic could soon be the most expensive in history",
+        "sentences": [
+          {
+            "en": "The blockade of the Strait of Hormuz, drone attacks on oil pipelines and damaged refineries in the Persian Gulf and in Russia are driving world oil prices up.",
+            "cs": "Blokáda Hormuzského průlivu, dronové útoky na ropovody a poškozené rafinerie v Perském zálivu i v Rusku ženou světové ceny ropy vzhůru."
+          },
+          {
+            "en": "According to Deník N this is feeding through to Czech filling stations as well, and filling up here could soon be the most expensive in history.",
+            "cs": "Podle Deníku N se to promítá i do českých čerpacích stanic a tankování tu může být brzy nejdražší v historii."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "blockade",
+            "definition": "the closing of a place so that nothing can go in or out"
+          },
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          },
+          {
+            "term": "feeding through",
+            "definition": "gradually having an effect somewhere else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:45",
+      "headline": "České dráhy mají nejlepší pololetí v historii, do zisku se vrátilo i ČD Cargo",
+      "body": "Skupina České dráhy vykázala za první pololetí zisk před zdaněním dvě miliardy korun, zatímco loni ve stejném období měla 444 milionů. Jde o nejlepší pololetní výsledek v historii skupiny a v zisku skončily všechny její firmy včetně poslední roky ztrátového ČD Cargo. Hospodaření podle tiskové zprávy táhla především osobní doprava.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/doprava-a-logistika/ceske-drahy-maji-nejlepsi-pololeti-v-historii-do-zisku-se-vratilo-i-cd-cargo-1435847"
+        }
+      ],
+      "en": {
+        "headline": "České dráhy had its best half-year ever and ČD Cargo returned to profit",
+        "sentences": [
+          {
+            "en": "The České dráhy group posted a pre-tax profit of two billion crowns for the first half of the year, against 444 million in the same period last year.",
+            "cs": "Skupina České dráhy vykázala za první pololetí zisk před zdaněním dvě miliardy korun, zatímco loni ve stejném období měla 444 milionů."
+          },
+          {
+            "en": "It is the best half-year result in the group's history and all of its companies ended in profit, including ČD Cargo, which had been loss-making in recent years.",
+            "cs": "Jde o nejlepší pololetní výsledek v historii skupiny a v zisku skončily všechny její firmy včetně poslední roky ztrátového ČD Cargo."
+          },
+          {
+            "en": "According to the press release, the results were driven above all by passenger transport.",
+            "cs": "Hospodaření podle tiskové zprávy táhla především osobní doprava."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "posted",
+            "definition": "officially reported a financial result"
+          },
+          {
+            "term": "pre-tax",
+            "definition": "counted before tax is taken away"
+          },
+          {
+            "term": "loss-making",
+            "definition": "spending more money than it earns"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Anthropic spojil Claude Cowork a chat do jedné aplikace",
+      "body": "Anthropic oznámil, že Claude Cowork a chat splývají v jednoho Clauda: uživatel už nemusí rozhodovat, kam který úkol patří, a určuje to sám model. Součástí konverzací se stávají nové funkce Claude Docs a Claude Slides pro tvorbu dokumentů a prezentací a také Claude Design, který dosud fungoval samostatně. Výsledky lze v Claudovi upravovat, exportovat do PowerPointu nebo PDF, případně rovnou prezentovat. Přibývá i volba, jestli má Claude před akcí žádat o svolení, nebo pokračovat a ozvat se jen v případě potřeby. Změna se od 16. září postupně zavádí ve webové, desktopové i mobilní verzi nejdřív pro tarify Pro a Max, později pro Team a Free; správci firemních účtů mají být informováni nejméně 30 dní předem.",
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/cowork-is-now-claude"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has merged Claude Cowork and chat into one app",
+        "sentences": [
+          {
+            "en": "Anthropic has announced that Claude Cowork and chat are merging into one Claude: users no longer have to decide where a given task belongs, and the model works it out itself.",
+            "cs": "Anthropic oznámil, že Claude Cowork a chat splývají v jednoho Clauda: uživatel už nemusí rozhodovat, kam který úkol patří, a určuje to sám model."
+          },
+          {
+            "en": "Conversations now include the new Claude Docs and Claude Slides features for creating documents and presentations, as well as Claude Design, which had been a separate tool until now.",
+            "cs": "Součástí konverzací se stávají nové funkce Claude Docs a Claude Slides pro tvorbu dokumentů a prezentací a také Claude Design, který dosud fungoval samostatně."
+          },
+          {
+            "en": "The results can be edited inside Claude, exported to PowerPoint or PDF, or presented straight away.",
+            "cs": "Výsledky lze v Claudovi upravovat, exportovat do PowerPointu nebo PDF, případně rovnou prezentovat."
+          },
+          {
+            "en": "There is also a new choice of whether Claude should ask for permission before acting, or carry on and speak up only when needed.",
+            "cs": "Přibývá i volba, jestli má Claude před akcí žádat o svolení, nebo pokračovat a ozvat se jen v případě potřeby."
+          },
+          {
+            "en": "From 16 September the change is being rolled out gradually in the web, desktop and mobile versions, first for the Pro and Max plans and later for Team and Free; administrators of company accounts are to be informed at least 30 days in advance.",
+            "cs": "Změna se od 16. září postupně zavádí ve webové, desktopové i mobilní verzi nejdřív pro tarify Pro a Max, později pro Team a Free; správci firemních účtů mají být informováni nejméně 30 dní předem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "merging",
+            "definition": "joining two things into one"
+          },
+          {
+            "term": "rolled out",
+            "definition": "made available to users step by step"
+          },
+          {
+            "term": "speak up",
+            "definition": "to say something when you have been quiet"
+          },
+          {
+            "term": "in advance",
+            "definition": "before something happens"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "06:36",
+      "headline": "Cloudflare zveřejnil skill, který nechá programovacího agenta provést bezpečnostní audit kódu",
+      "body": "Cloudflare dal na GitHub takzvaný skill, který programovacímu agentovi předepisuje šestifázový postup hledání zranitelností: zmapování architektury, hledání chyb oddělenými agenty, nezávislé ověření nálezů, strojově čitelný výstup v JSONu, kontrolu záznamů dalšími agenty a závěrečnou zprávu v Markdownu. Nálezy se dělí na potvrzené s úplnou stopou do zdrojového kódu, nálezy čekající na ověření a zamítnuté. Opakované běhy podle popisu cílí na dosud nepokryté části kódu a znovu ověřují změněná místa. Skill vyžaduje agenta s modelem, který zvládá volání nástrojů a paralelní podagenty.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        }
+      ],
+      "en": {
+        "headline": "Cloudflare has published a skill that lets a coding agent run a security audit of code",
+        "sentences": [
+          {
+            "en": "Cloudflare has put on GitHub a so-called skill that prescribes a six-phase procedure for hunting vulnerabilities to a coding agent: mapping the architecture, hunting for flaws with separate agents, independently verifying the findings, a machine-readable output in JSON, a check of the records by further agents and a final report in Markdown.",
+            "cs": "Cloudflare dal na GitHub takzvaný skill, který programovacímu agentovi předepisuje šestifázový postup hledání zranitelností: zmapování architektury, hledání chyb oddělenými agenty, nezávislé ověření nálezů, strojově čitelný výstup v JSONu, kontrolu záznamů dalšími agenty a závěrečnou zprávu v Markdownu."
+          },
+          {
+            "en": "Findings are divided into confirmed ones with a complete trace into the source code, findings awaiting verification and rejected ones.",
+            "cs": "Nálezy se dělí na potvrzené s úplnou stopou do zdrojového kódu, nálezy čekající na ověření a zamítnuté."
+          },
+          {
+            "en": "According to the description, repeated runs target parts of the code not yet covered and re-check places that have changed.",
+            "cs": "Opakované běhy podle popisu cílí na dosud nepokryté části kódu a znovu ověřují změněná místa."
+          },
+          {
+            "en": "The skill requires an agent with a model that can handle tool calls and parallel sub-agents.",
+            "cs": "Skill vyžaduje agenta s modelem, který zvládá volání nástrojů a paralelní podagenty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prescribes",
+            "definition": "says exactly what has to be done"
+          },
+          {
+            "term": "vulnerabilities",
+            "definition": "weak points that an attacker could use"
+          },
+          {
+            "term": "machine-readable",
+            "definition": "in a form that a computer can process directly"
+          },
+          {
+            "term": "trace",
+            "definition": "a record showing where something came from"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:02",
+      "headline": "Chyba v Emacsu umožňuje spuštění libovolného kódu, původní oprava nestačila",
+      "body": "Před dvěma lety byla v editoru Emacs objevena závažná chyba, která při zpracování zdrojového kódu v režimu Lisp způsobila nechtěnou expanzi makra a mohla vést ke spuštění libovolného kódu. Bas Alberts z GitHub Security Lab nyní zjistil, že původní oprava není kompletní a uživatelé Emacsu jsou stále v ohrožení.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/chyba-v-emacsu-umoznuje-spusteni-libovolneho-kodu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "A bug in Emacs allows arbitrary code execution and the original fix was not enough",
+        "sentences": [
+          {
+            "en": "Two years ago a serious bug was discovered in the Emacs editor which, when processing source code in Lisp mode, caused an unintended macro expansion and could lead to arbitrary code execution.",
+            "cs": "Před dvěma lety byla v editoru Emacs objevena závažná chyba, která při zpracování zdrojového kódu v režimu Lisp způsobila nechtěnou expanzi makra a mohla vést ke spuštění libovolného kódu."
+          },
+          {
+            "en": "Bas Alberts of GitHub Security Lab has now found that the original fix is not complete and Emacs users are still at risk.",
+            "cs": "Bas Alberts z GitHub Security Lab nyní zjistil, že původní oprava není kompletní a uživatelé Emacsu jsou stále v ohrožení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unintended",
+            "definition": "happening without anyone wanting it to"
+          },
+          {
+            "term": "arbitrary",
+            "definition": "any at all, chosen freely by the attacker"
+          },
+          {
+            "term": "at risk",
+            "definition": "in a situation where something bad could happen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:43",
+      "headline": "WordPress zavádí automatickou bezpečnostní kontrolu každé nové verze pluginu",
+      "body": "WordPress oznámil, že každou novou verzi pluginu podrobí automatické bezpečnostní kontrole ještě předtím, než ji rozešle přes aktualizační API WordPress.org. Cílem je analýza z hlediska potenciálních bezpečnostních problémů a odhalení případných rizik.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/wordpress-zavadi-automaticke-kontroly-pred-aktualizaci-pluginu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "WordPress is introducing an automatic security check of every new plugin version",
+        "sentences": [
+          {
+            "en": "WordPress has announced that it will put every new version of a plugin through an automatic security check before distributing it via the WordPress.org update API.",
+            "cs": "WordPress oznámil, že každou novou verzi pluginu podrobí automatické bezpečnostní kontrole ještě předtím, než ji rozešle přes aktualizační API WordPress.org."
+          },
+          {
+            "en": "The aim is to analyse it for potential security problems and to uncover any risks.",
+            "cs": "Cílem je analýza z hlediska potenciálních bezpečnostních problémů a odhalení případných rizik."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "distributing",
+            "definition": "sending something out to many users"
+          },
+          {
+            "term": "uncover",
+            "definition": "to find something that was hidden"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:43",
+      "headline": "Thálii za celoživotní mistrovství dostanou Zdena Herfortová a Petr Nárožný",
+      "body": "Herecká asociace předala Cenu Thálie pro umělkyni do 33 let Simoně Lewandowské a oznámila nominace na letošní ceny. Thálii za celoživotní umělecké mistrovství obdrží brněnská herečka a pedagožka Zdena Herfortová a dlouholetý herec pražského Činoherního klubu Petr Nárožný, ceny za celoživotní mistrovství se týkají i dalších oborů. Dalších dvacet cen asociace slavnostně udělí 3. října v Národním divadle. V kategorii nejlepší ženský výkon v opeře jsou podle Seznam Zpráv nominovány tři pěvkyně z inscenací brněnského Národního divadla, mezi muži naopak samí účinkující z pražského Národního divadla.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2187883/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-ceny-thalie-2026-nominace-315612"
+        }
+      ],
+      "en": {
+        "headline": "Zdena Herfortová and Petr Nárožný will receive the Thálie for lifetime mastery",
+        "sentences": [
+          {
+            "en": "The Actors' Association has presented the Thálie Award for an artist under 33 to Simona Lewandowská and announced this year's nominations.",
+            "cs": "Herecká asociace předala Cenu Thálie pro umělkyni do 33 let Simoně Lewandowské a oznámila nominace na letošní ceny."
+          },
+          {
+            "en": "The Thálie for lifetime artistic mastery will go to the Brno actress and teacher Zdena Herfortová and to Petr Nárožný, a long-standing actor at Prague's Činoherní klub; the lifetime mastery awards also cover other fields.",
+            "cs": "Thálii za celoživotní umělecké mistrovství obdrží brněnská herečka a pedagožka Zdena Herfortová a dlouholetý herec pražského Činoherního klubu Petr Nárožný, ceny za celoživotní mistrovství se týkají i dalších oborů."
+          },
+          {
+            "en": "The association will present another twenty awards at a ceremony at the National Theatre on 3 October.",
+            "cs": "Dalších dvacet cen asociace slavnostně udělí 3. října v Národním divadle."
+          },
+          {
+            "en": "In the category of best female performance in opera, Seznam Zprávy reports, three singers from productions of the Brno National Theatre have been nominated, while among the men there are only performers from the National Theatre in Prague.",
+            "cs": "V kategorii nejlepší ženský výkon v opeře jsou podle Seznam Zpráv nominovány tři pěvkyně z inscenací brněnského Národního divadla, mezi muži naopak samí účinkující z pražského Národního divadla."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "mastery",
+            "definition": "great skill in an art or a subject"
+          },
+          {
+            "term": "long-standing",
+            "definition": "having existed for a long time"
+          },
+          {
+            "term": "productions",
+            "definition": "plays or operas as they are staged in a theatre"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "12:00",
+      "headline": "Voxpot popisuje, kdo je miliardář, který zrušil Macklemorovy koncerty",
+      "body": "V půlce září oznámil promotér turné Eda Sheerana, že z programu mizí rapper Macklemore. Za zrušením jeho vystoupení stojí podle Voxpotu jeden z nejmocnějších mužů amerického sportu Robert Kraft, kterému vadí Macklemorova podpora Palestiny a otevřená kritika Izraele. Text mapuje, kdo Kraft je a jaké je pozadí celého sporu.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/prostitutky-smradlavy-byznys-a-izrael-kdo-je-miliardar-ktery-zrusil-koncerty-macklemora/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot describes the billionaire who cancelled Macklemore's concerts",
+        "sentences": [
+          {
+            "en": "In mid-September the promoter of Ed Sheeran's tour announced that the rapper Macklemore was disappearing from the line-up.",
+            "cs": "V půlce září oznámil promotér turné Eda Sheerana, že z programu mizí rapper Macklemore."
+          },
+          {
+            "en": "Behind the cancellation of his performance stands, according to Voxpot, one of the most powerful men in American sport, Robert Kraft, who objects to Macklemore's support for Palestine and his open criticism of Israel.",
+            "cs": "Za zrušením jeho vystoupení stojí podle Voxpotu jeden z nejmocnějších mužů amerického sportu Robert Kraft, kterému vadí Macklemorova podpora Palestiny a otevřená kritika Izraele."
+          },
+          {
+            "en": "The piece maps out who Kraft is and what lies behind the whole dispute.",
+            "cs": "Text mapuje, kdo Kraft je a jaké je pozadí celého sporu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "promoter",
+            "definition": "a person who organises concerts or sports events"
+          },
+          {
+            "term": "line-up",
+            "definition": "the list of artists performing at an event"
+          },
+          {
+            "term": "objects to",
+            "definition": "says that he does not agree with something"
+          },
+          {
+            "term": "dispute",
+            "definition": "a serious disagreement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:36",
+      "day": "prev",
+      "headline": "Sparta vstoupila do Evropské ligy výhrou 4:1 v Jerevanu",
+      "body": "Sparta zahájila ligovou fázi Evropské ligy vítězstvím 4:1 nad Araratem-Armenia, dvakrát skóroval norský stoper Tobias Guddal, přidali John Mercado a Patrik Vydra. Byla to třetí výhra Pražanů v řadě. Uspěli i čeští legionáři: Patrik Schick vyhrál s Leverkusenem 2:0 nad Celje a střídající Pavel Šulc s Lyonem 2:1 na hřišti Anderlechtu Brusel.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-veze-z-jerevanu-jasnou-vyhru-souperi-dala-ctyri-goly-158983"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/evropska-liga-zacala-vitezne-pro-schickuv-leverkusen-i-sulcuv-lyon-158985"
+        }
+      ],
+      "en": {
+        "headline": "Sparta began the Europa League with a 4:1 win in Yerevan",
+        "sentences": [
+          {
+            "en": "Sparta opened the league phase of the Europa League with a 4:1 win over Ararat-Armenia; Norwegian centre-back Tobias Guddal scored twice, with John Mercado and Patrik Vydra adding the others.",
+            "cs": "Sparta zahájila ligovou fázi Evropské ligy vítězstvím 4:1 nad Araratem-Armenia, dvakrát skóroval norský stoper Tobias Guddal, přidali John Mercado a Patrik Vydra."
+          },
+          {
+            "en": "It was the Prague side's third win in a row.",
+            "cs": "Byla to třetí výhra Pražanů v řadě."
+          },
+          {
+            "en": "Czech players abroad did well too: Patrik Schick won 2:0 against Celje with Leverkusen and substitute Pavel Šulc won 2:1 with Lyon at Anderlecht Brussels.",
+            "cs": "Uspěli i čeští legionáři: Patrik Schick vyhrál s Leverkusenem 2:0 nad Celje a střídající Pavel Šulc s Lyonem 2:1 na hřišti Anderlechtu Brusel."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "centre-back",
+            "definition": "a defender who plays in the middle of the defence"
+          },
+          {
+            "term": "substitute",
+            "definition": "a player who comes on during the game to replace another"
+          },
+          {
+            "term": "in a row",
+            "definition": "one after another without a break"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:25",
+      "day": "prev",
+      "headline": "Ve třetím kole domácího poháru postoupilo do osmifinále všech osm prvoligistů",
+      "body": "Slavia vyhrála na hřišti třetiligového Varnsdorfu 5:1, hattrick si připsal její kapitán Ivan Schranz. Hradec Králové zdolal Příbram 2:1 a Teplice rozdrtily druholigové Táborsko 5:0.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/za-slavii-v-poharu-zaril-schranz-postupuji-i-hradec-teplice-a-dalsi-prvoligiste-158981"
+        }
+      ],
+      "en": {
+        "headline": "All eight top-flight clubs went through to the last sixteen of the domestic cup",
+        "sentences": [
+          {
+            "en": "Slavia won 5:1 away at third-division Varnsdorf, with a hat-trick from their captain Ivan Schranz.",
+            "cs": "Slavia vyhrála na hřišti třetiligového Varnsdorfu 5:1, hattrick si připsal její kapitán Ivan Schranz."
+          },
+          {
+            "en": "Hradec Králové beat Příbram 2:1 and Teplice crushed second-division Táborsko 5:0.",
+            "cs": "Hradec Králové zdolal Příbram 2:1 a Teplice rozdrtily druholigové Táborsko 5:0."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hat-trick",
+            "definition": "three goals scored by one player in a single match"
+          },
+          {
+            "term": "crushed",
+            "definition": "beat an opponent very easily"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:32",
+      "headline": "Davis Cup v Praze otevřou Menšík s Tienem, pak nastoupí Lehečka proti Sheltonovi",
+      "body": "Kvalifikační utkání Česka se Spojenými státy začne v pátek v 15:00 v pražské O2 areně, kam se Davis Cup vrací po třinácti letech. Los určil, že úvodní dvouhru odehrají Jakub Menšík a Learner Tien, po nich se střetnou Jiří Lehečka a světová čtyřka Ben Shelton. Sobotní program začne o hodinu dříve. Zvláštností americké sestavy jsou podle iROZHLASu čtyři levorucí tenisté.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/los-davis-cupu-cesko-usa-158993"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-davis-cup-mensik-zahaji-kvalifikaci-davis-cupu-proti-tienovi-pote-lehecka-vyzve-sheltona-5536865"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/je-o-pocitu-co-vidi-naproti-sobe-berdychovi-se-proti-americanum-hodili-levaci_2609171532_mim"
+        }
+      ],
+      "en": {
+        "headline": "Menšík and Tien will open the Davis Cup in Prague, then Lehečka faces Shelton",
+        "sentences": [
+          {
+            "en": "The qualifying tie between the Czech Republic and the United States begins on Friday at 3 p.m. in Prague's O2 arena, where the Davis Cup returns after thirteen years.",
+            "cs": "Kvalifikační utkání Česka se Spojenými státy začne v pátek v 15:00 v pražské O2 areně, kam se Davis Cup vrací po třinácti letech."
+          },
+          {
+            "en": "The draw decided that the opening singles will be played by Jakub Menšík and Learner Tien, followed by Jiří Lehečka against world number four Ben Shelton.",
+            "cs": "Los určil, že úvodní dvouhru odehrají Jakub Menšík a Learner Tien, po nich se střetnou Jiří Lehečka a světová čtyřka Ben Shelton."
+          },
+          {
+            "en": "Saturday's programme starts an hour earlier.",
+            "cs": "Sobotní program začne o hodinu dříve."
+          },
+          {
+            "en": "According to iROZHLAS, a peculiarity of the American line-up is its four left-handed players.",
+            "cs": "Zvláštností americké sestavy jsou podle iROZHLASu čtyři levorucí tenisté."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tie",
+            "definition": "a match between two teams in a knockout competition"
+          },
+          {
+            "term": "draw",
+            "definition": "the random choosing of who plays whom"
+          },
+          {
+            "term": "singles",
+            "definition": "a tennis match between two individual players"
+          },
+          {
+            "term": "peculiarity",
+            "definition": "an unusual feature of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:01",
+      "headline": "Messi dal stý soutěžní gól za Miami a získal s klubem Campeones Cup",
+      "body": "Lionel Messi završil stovku soutěžních gólů v dresu Interu Miami, který na Floridě porazil Cruz Azul 2:0 a získal Campeones Cup pro vítěze duelu mezi mistry MLS a mexické Ligy MX.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-messi-dal-100-gol-za-miami-a-s-tymem-slavi-dalsi-trofej-5536843"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/messi-vstrelil-100-gol-za-miami-a-prispel-k-zisku-campeones-cupu-158989"
+        }
+      ],
+      "en": {
+        "headline": "Messi scored his hundredth competitive goal for Miami and won the Campeones Cup with the club",
+        "sentences": [
+          {
+            "en": "Lionel Messi completed a hundred competitive goals for Inter Miami, which beat Cruz Azul 2:0 in Florida and won the Campeones Cup for the winner of the match between the champions of MLS and Mexico's Liga MX.",
+            "cs": "Lionel Messi završil stovku soutěžních gólů v dresu Interu Miami, který na Floridě porazil Cruz Azul 2:0 a získal Campeones Cup pro vítěze duelu mezi mistry MLS a mexické Ligy MX."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "competitive",
+            "definition": "played in an official competition, not in a friendly game"
+          },
+          {
+            "term": "completed",
+            "definition": "brought something to a full number or finished it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:45",
+      "day": "prev",
+      "headline": "Čeští volejbalisté prohráli na mistrovství Evropy se Slovinskem 1:3",
+      "body": "V závěrečném utkání skupiny podlehli čeští volejbalisté Slovinsku 1:3 a mají na turnaji druhou porážku. Hrozí jim čtvrté místo ve skupině, které je pro osmifinále nejméně výhodné.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/volejbal/me-volejbalistu-cesko-slovinsko-158977"
+        }
+      ],
+      "en": {
+        "headline": "The Czech volleyball players lost 1:3 to Slovenia at the European Championship",
+        "sentences": [
+          {
+            "en": "In their final group match the Czech volleyball players lost 1:3 to Slovenia and have now suffered their second defeat at the tournament.",
+            "cs": "V závěrečném utkání skupiny podlehli čeští volejbalisté Slovinsku 1:3 a mají na turnaji druhou porážku."
+          },
+          {
+            "en": "They are at risk of finishing fourth in the group, which is the least favourable position for the round of sixteen.",
+            "cs": "Hrozí jim čtvrté místo ve skupině, které je pro osmifinále nejméně výhodné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "at risk",
+            "definition": "in a situation where something bad could happen"
+          },
+          {
+            "term": "favourable",
+            "definition": "giving you an advantage"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "President Petr Pavel has vetoed the law on civil servants, and the coalition promises to override him in October.",
+    "The coalition parties have agreed on a budget with a huge deficit; cuts worth tens of billions did not make it in.",
+    "Swedish Prime Minister Ulf Kristersson announced his resignation after the opposition's victory was confirmed.",
+    "The Czech National Bank left its interest rate at 3.75 percent, saying the risks point towards higher inflation."
+  ]
+}
