@@ -1,0 +1,1337 @@
+{
+  "date": "2026-09-19",
+  "covers": "2026-09-19",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "ČT Sport",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude pršet, spadnout může kolem šesti milimetrů srážek a denní teplota vystoupí až na 22 °C.",
+    "days": [
+      {
+        "date": "2026-09-20",
+        "icon": "rain",
+        "temp_max_c": 22.0,
+        "temp_min_c": 11.6
+      },
+      {
+        "date": "2026-09-21",
+        "icon": "rain",
+        "temp_max_c": 14.9,
+        "temp_min_c": 8.4
+      },
+      {
+        "date": "2026-09-22",
+        "icon": "cloudy",
+        "temp_max_c": 16.2,
+        "temp_min_c": 7.9
+      },
+      {
+        "date": "2026-09-23",
+        "icon": "fog",
+        "temp_max_c": 16.5,
+        "temp_min_c": 4.7
+      }
+    ],
+    "summary_en": "Tomorrow it will rain, with around six millimetres of precipitation possible, and the daytime temperature will climb to 22 °C."
+  },
+  "highlights": [
+    "Donald Trump podepsal balík protiruských sankcí a americké ministerstvo zahraničí schválilo možný prodej protivzdušné obrany Ukrajině za 2,68 miliardy dolarů.",
+    "Na letišti v Mošnově začaly Dny NATO, kde prezident Petr Pavel prohlásil, že bezpečná může být jen země, která svou bezpečnost bere jako úkol všech.",
+    "Opoziční ODS navrhne ve Sněmovně obnovit karenční dobu, předseda Motoristů Petr Macinka proti hlasovat nebude.",
+    "Čeští tenisté v Davis Cupu po čtyřhře prohrávají s USA 1:2, večer je čekají rozhodující dvouhry."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "12:34",
+      "headline": "Na letišti v Mošnově začaly Dny NATO, Pavel mluvil o bezpečnosti jako úkolu všech",
+      "body": "Na letišti v Mošnově na Novojičínsku dnes začaly dvoudenní Dny NATO v Ostravě a Dny Vzdušných sil Armády ČR, které jsou podle ČT24 největší bezpečnostní přehlídkou v Evropě. Svou techniku tam ukazují vojáci ze 14 zemí a poprvé se veřejnosti představuje nový přepravní letoun C-390 Millennium v českých barvách. Při zahájení promluvil prezident Petr Pavel, podle kterého „jenom taková země, která bude vnímat svoji bezpečnost jako úkol všech, může být bezpečná a žít v míru“. Pavel také řekl, že výdaje na obranu nejsou oddělenou kapitolou, ale budou se promítat do vstřícnosti partnerů v jiných oblastech, například u migrace nebo povolenek. Deník N s odkazem na ČTK upozornil, že se ze všech stran k areálu tvořily kolony aut, v nichž lidé čekali i dvě hodiny; nejdelší, zhruba devítikilometrová byla od Studénky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/u-ostravy-se-konaji-dny-nato-kolem-mosnovskeho-letiste-se-kvuli-akci-tvori_2609191208_kch"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/na-letisti-v-mosnove-zacaly-dny-nato-v-kolone-mohou-lide-cekat-i-dve-hodiny-377766"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189613/"
+        }
+      ],
+      "en": {
+        "headline": "NATO Days have begun at Mošnov airport and Pavel spoke of security as everyone's task",
+        "sentences": [
+          {
+            "en": "The two-day NATO Days in Ostrava and the Czech Air Force Days, which according to ČT24 are the largest security display in Europe, began today at the Mošnov airport in the Nový Jičín area.",
+            "cs": "Na letišti v Mošnově na Novojičínsku dnes začaly dvoudenní Dny NATO v Ostravě a Dny Vzdušných sil Armády ČR, které jsou podle ČT24 největší bezpečnostní přehlídkou v Evropě."
+          },
+          {
+            "en": "Soldiers from 14 countries are showing their equipment there and the new C-390 Millennium transport aircraft in Czech colours is being presented to the public for the first time.",
+            "cs": "Svou techniku tam ukazují vojáci ze 14 zemí a poprvé se veřejnosti představuje nový přepravní letoun C-390 Millennium v českých barvách."
+          },
+          {
+            "en": "President Petr Pavel spoke at the opening, saying that “only a country that sees its security as everyone's task can be safe and live in peace”.",
+            "cs": "Při zahájení promluvil prezident Petr Pavel, podle kterého „jenom taková země, která bude vnímat svoji bezpečnost jako úkol všech, může být bezpečná a žít v míru“."
+          },
+          {
+            "en": "Pavel also said that defence spending is not a separate chapter but will be reflected in how accommodating partners are in other areas, for example migration or emission allowances.",
+            "cs": "Pavel také řekl, že výdaje na obranu nejsou oddělenou kapitolou, ale budou se promítat do vstřícnosti partnerů v jiných oblastech, například u migrace nebo povolenek."
+          },
+          {
+            "en": "Deník N, citing ČTK, pointed out that queues of cars formed towards the site from all directions and that people waited up to two hours; the longest queue, about nine kilometres, came from Studénka.",
+            "cs": "Deník N s odkazem na ČTK upozornil, že se ze všech stran k areálu tvořily kolony aut, v nichž lidé čekali i dvě hodiny; nejdelší, zhruba devítikilometrová byla od Studénky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "accommodating",
+            "definition": "willing to help other people or to agree with them"
+          },
+          {
+            "term": "allowances",
+            "definition": "official permits to do a limited amount of something, such as polluting"
+          },
+          {
+            "term": "queues",
+            "definition": "lines of people or vehicles waiting for their turn"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:46",
+      "headline": "ODS navrhne ve Sněmovně obnovení karenční doby, Macinka proti hlasovat nebude",
+      "body": "Opoziční ODS navrhne při projednávání rozpočtu v Poslanecké sněmovně obnovit první tři dny nemoci bez nemocenské. Uvedl to předseda strany Martin Kupka v diskusi televize Nova s ministrem zahraničí a předsedou Motoristů Petrem Macinkou. Ten obnovení takzvané karenční doby neprosadil v uplynulém týdnu při jednáních v koalici, podle Seznam Zpráv byla proti část hnutí ANO a SPD. Macinka podle svých slov proti návrhu ODS hlasovat nebude.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/ods-navrhne-v-rozpoctu-znovuzavedeni-karencni-doby-sef-motoristu-macinka-nebude_2609191346_ape"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-ods-navrhne-zavedeni-karencni-doby-macinka-hlasovat-proti-nebude-315731"
+        }
+      ],
+      "en": {
+        "headline": "ODS will propose restoring the waiting period for sick pay and Macinka will not vote against it",
+        "sentences": [
+          {
+            "en": "The opposition ODS will propose during the budget debate in the Chamber of Deputies that the first three days of sick leave again go unpaid.",
+            "cs": "Opoziční ODS navrhne při projednávání rozpočtu v Poslanecké sněmovně obnovit první tři dny nemoci bez nemocenské."
+          },
+          {
+            "en": "Party leader Martin Kupka said so in a discussion on Nova television with Foreign Minister and Motoristé leader Petr Macinka.",
+            "cs": "Uvedl to předseda strany Martin Kupka v diskusi televize Nova s ministrem zahraničí a předsedou Motoristů Petrem Macinkou."
+          },
+          {
+            "en": "Macinka failed to push through the so-called waiting period in coalition talks over the past week; according to Seznam Zprávy, part of ANO and SPD were against it.",
+            "cs": "Ten obnovení takzvané karenční doby neprosadil v uplynulém týdnu při jednáních v koalici, podle Seznam Zpráv byla proti část hnutí ANO a SPD."
+          },
+          {
+            "en": "Macinka says he will not vote against the ODS proposal.",
+            "cs": "Macinka podle svých slov proti návrhu ODS hlasovat nebude."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sick leave",
+            "definition": "time away from work because you are ill"
+          },
+          {
+            "term": "push through",
+            "definition": "to succeed in getting something officially accepted"
+          },
+          {
+            "term": "coalition",
+            "definition": "a group of parties that govern together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:01",
+      "headline": "Protivzdušný systém Spyder prošel vojskovými zkouškami a armáda ho zavádí",
+      "body": "Systém protivzdušné obrany Spyder, který Česko koupilo od Izraele, prošel vojskovými zkouškami a armáda ho zavádí. Oznámil to ministr obrany Jaromír Zůna (za SPD) s tím, že čeká výrazné zlepšení kapacit proti hrozbám ze vzduchu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-system-protivzdusne-obrany-spyder-prosel-vojskovymi-zkouskami-uvedl-zuna-315732"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189644/"
+        }
+      ],
+      "en": {
+        "headline": "The Spyder air defence system has passed military trials and the army is introducing it",
+        "sentences": [
+          {
+            "en": "The Spyder air defence system, which the Czech Republic bought from Israel, has passed military trials and the army is putting it into service.",
+            "cs": "Systém protivzdušné obrany Spyder, který Česko koupilo od Izraele, prošel vojskovými zkouškami a armáda ho zavádí."
+          },
+          {
+            "en": "Defence Minister Jaromír Zůna (for SPD) announced this, saying he expects a marked improvement in capabilities against airborne threats.",
+            "cs": "Oznámil to ministr obrany Jaromír Zůna (za SPD) s tím, že čeká výrazné zlepšení kapacit proti hrozbám ze vzduchu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trials",
+            "definition": "official tests to check whether something works"
+          },
+          {
+            "term": "marked",
+            "definition": "clear and easy to notice"
+          },
+          {
+            "term": "airborne",
+            "definition": "carried or moving through the air"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:52",
+      "day": "prev",
+      "headline": "Kancelář exministra Němce vyfakturovala Pojišťovně VZP skoro 30 milionů, popisuje forenzní audit",
+      "body": "Kancelář bývalého ministra spravedlnosti Pavla Němce patřila k hlavním dodavatelům právních služeb Pojišťovny VZP a podle výstupů forenzního auditu, které popsal Deník N, jí vyfakturovala skoro 30 milionů korun. Audit mimo jiné popisuje ztrátové vymáhání pohledávek. Lidé z vedení pojišťovny podle Deníku N získali od Němce šifrované telefony a bývalý politik se zasazoval o zachování monopolu PVZP v pojištění pro cizince. Navazuje to na včerejší zjištění o ročních konkurenčních doložkách, které si sjednalo bývalé vedení pojišťovny.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2188744/vymahani-se-ztratou-a-faktury-za-skoro-30-milionu-auditori-spocitali-kolik-vydelala-kancelar-byvaleho-ministra-nemce-v-pojistovne-vzp/"
+        }
+      ],
+      "en": {
+        "headline": "A forensic audit says the office of former minister Němec billed Pojišťovna VZP almost 30 million",
+        "sentences": [
+          {
+            "en": "The law office of former Justice Minister Pavel Němec was one of the main suppliers of legal services to the insurer Pojišťovna VZP and, according to the findings of a forensic audit described by Deník N, billed it almost 30 million crowns.",
+            "cs": "Kancelář bývalého ministra spravedlnosti Pavla Němce patřila k hlavním dodavatelům právních služeb Pojišťovny VZP a podle výstupů forenzního auditu, které popsal Deník N, jí vyfakturovala skoro 30 milionů korun."
+          },
+          {
+            "en": "Among other things, the audit describes debt collection that ended at a loss.",
+            "cs": "Audit mimo jiné popisuje ztrátové vymáhání pohledávek."
+          },
+          {
+            "en": "According to Deník N, people from the insurer's management received encrypted phones from Němec, and the former politician pushed for keeping PVZP's monopoly on insurance for foreigners.",
+            "cs": "Lidé z vedení pojišťovny podle Deníku N získali od Němce šifrované telefony a bývalý politik se zasazoval o zachování monopolu PVZP v pojištění pro cizince."
+          },
+          {
+            "en": "This follows on from yesterday's findings about the one-year non-compete clauses that the insurer's former management arranged for itself.",
+            "cs": "Navazuje to na včerejší zjištění o ročních konkurenčních doložkách, které si sjednalo bývalé vedení pojišťovny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forensic",
+            "definition": "using careful examination to find out what really happened"
+          },
+          {
+            "term": "debt collection",
+            "definition": "the work of getting back money that people owe"
+          },
+          {
+            "term": "non-compete",
+            "definition": "stopping someone from working for a rival firm for a period of time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "23:07",
+      "day": "prev",
+      "headline": "Hokejisté Hradce prohráli domácí premiéru s Motorem 0:2",
+      "body": "Mountfield HK v prvním domácím utkání extraligové sezony podlehl Českým Budějovicím 0:2. Vítěznou branku dal Jakub Pour, který do Motoru přestoupil v létě právě z Hradce, za 132 sekund přidal druhý gól Nick Olesen. Trenér Tomáš Martinec po zápase řekl, že už od prvního střídání cítil, že jeho tým nevyhraje.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/900632-dva-goly-behem-132-sekund-stacily-hokejistum-ceskych-budejovic-k-vyhre-v.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/hokej/extraliga-mountfield-hk-motor-ceske-budejovice-martinec-reakce/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej"
+        }
+      ],
+      "en": {
+        "headline": "Hradec's hockey players lost their home opener with Motor 0:2",
+        "sentences": [
+          {
+            "en": "Mountfield HK lost 0:2 to České Budějovice in its first home game of the Extraliga season.",
+            "cs": "Mountfield HK v prvním domácím utkání extraligové sezony podlehl Českým Budějovicím 0:2."
+          },
+          {
+            "en": "The winning goal was scored by Jakub Pour, who moved to Motor from Hradec in the summer, and Nick Olesen added the second 132 seconds later.",
+            "cs": "Vítěznou branku dal Jakub Pour, který do Motoru přestoupil v létě právě z Hradce, za 132 sekund přidal druhý gól Nick Olesen."
+          },
+          {
+            "en": "After the game coach Tomáš Martinec said that from the very first shift he had felt his team would not win.",
+            "cs": "Trenér Tomáš Martinec po zápase řekl, že už od prvního střídání cítil, že jeho tým nevyhraje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "home opener",
+            "definition": "the first game a team plays at its own stadium in a season"
+          },
+          {
+            "term": "shift",
+            "definition": "a short spell on the ice before the players change"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:21",
+      "headline": "Kraj dá tři miliony na úpravu běžeckých tras v Krkonoších a Orlických horách",
+      "body": "Královéhradecký kraj podpoří třemi miliony korun úpravu lyžařských běžeckých tras v Krkonoších, Orlických horách a v Kladském pomezí. Chce tím podpořit zimní aktivity v celém regionu.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/900650-kraj-podpori-upravu-lyzarskych-tras-krkonosich-orlickych-horach-a-na-kladsku.html"
+        }
+      ],
+      "en": {
+        "headline": "The region will give three million for grooming ski trails in the Krkonoše and Orlické Mountains",
+        "sentences": [
+          {
+            "en": "The Hradec Králové Region will give three million crowns for the grooming of cross-country ski trails in the Krkonoše, the Orlické Mountains and the Kladsko borderland.",
+            "cs": "Královéhradecký kraj podpoří třemi miliony korun úpravu lyžařských běžeckých tras v Krkonoších, Orlických horách a v Kladském pomezí."
+          },
+          {
+            "en": "It wants to support winter activities across the whole region.",
+            "cs": "Chce tím podpořit zimní aktivity v celém regionu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "grooming",
+            "definition": "preparing snow tracks so that they are smooth for skiing"
+          },
+          {
+            "term": "borderland",
+            "definition": "an area lying close to the border between two countries"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:16",
+      "headline": "Havlovy nedožité devadesátiny připomene vycházka na Hrádeček",
+      "body": "Nedožité devadesátiny Václava Havla si lidé v kraji připomenou divadelními představeními jeho her, besedami i koncertem. Na sobotu 3. října je připravena vycházka na chalupu v Hrádečku u Trutnova, kde Havel v prosinci 2011 ve věku 75 let zemřel.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/900664-havlovy-nedozite-devadesatiny-v-hradeckem-kraji-pripomene-koncert-ci.html"
+        }
+      ],
+      "en": {
+        "headline": "A walk to Hrádeček will mark what would have been Havel's ninetieth birthday",
+        "sentences": [
+          {
+            "en": "People in the region will mark what would have been Václav Havel's ninetieth birthday with stagings of his plays, with discussions and with a concert.",
+            "cs": "Nedožité devadesátiny Václava Havla si lidé v kraji připomenou divadelními představeními jeho her, besedami i koncertem."
+          },
+          {
+            "en": "A walk to the cottage in Hrádeček near Trutnov, where Havel died in December 2011 at the age of 75, is planned for Saturday 3 October.",
+            "cs": "Na sobotu 3. října je připravena vycházka na chalupu v Hrádečku u Trutnova, kde Havel v prosinci 2011 ve věku 75 let zemřel."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stagings",
+            "definition": "performances of a play in a theatre"
+          },
+          {
+            "term": "cottage",
+            "definition": "a small simple house in the countryside"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:54",
+      "headline": "Trump podepsal rozsáhlé protiruské sankce, Zelenskyj mu poděkoval",
+      "body": "Americký prezident Donald Trump v pátek podepsal zákon zavádějící rozsáhlé sankce, které mají dostat Rusko pod větší tlak a pomoci ukončit válku na Ukrajině. Sankční balík je odkazem republikánského senátora Lindseyho Grahama, který zemřel v červenci krátce po své poslední návštěvě Ukrajiny. Podle E15 opatření cílí na stínovou flotilu a odběratele ruské ropy a jde o nejambicióznější americký sankční krok od začátku roku 2025. Ukrajinský prezident Volodymyr Zelenskyj Trumpovi za podpis poděkoval a prohlásil, že nejlepší poctou senátorově památce bude úplné a rychlé uplatnění zákona.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-podepsal-rozsahle-protiruske-sankce-iniciovane-senatorem-grahamem-377762"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/trump-podepsal-pekelne-sankce-proti-rusku-byly-iniciovane-zesnulym-senatorem-grahamem-1435911"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189544/"
+        }
+      ],
+      "en": {
+        "headline": "Trump signed sweeping sanctions against Russia and Zelenskyj thanked him",
+        "sentences": [
+          {
+            "en": "US President Donald Trump signed a law on Friday introducing sweeping sanctions that are meant to put Russia under greater pressure and help end the war in Ukraine.",
+            "cs": "Americký prezident Donald Trump v pátek podepsal zákon zavádějící rozsáhlé sankce, které mají dostat Rusko pod větší tlak a pomoci ukončit válku na Ukrajině."
+          },
+          {
+            "en": "The sanctions package is the legacy of Republican senator Lindsey Graham, who died in July shortly after his last visit to Ukraine.",
+            "cs": "Sankční balík je odkazem republikánského senátora Lindseyho Grahama, který zemřel v červenci krátce po své poslední návštěvě Ukrajiny."
+          },
+          {
+            "en": "According to E15, the measures target the shadow fleet and the buyers of Russian oil, and they are the most ambitious American sanctions step since the start of 2025.",
+            "cs": "Podle E15 opatření cílí na stínovou flotilu a odběratele ruské ropy a jde o nejambicióznější americký sankční krok od začátku roku 2025."
+          },
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyj thanked Trump for signing it and said that the best tribute to the senator's memory would be the full and swift enforcement of the law.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj Trumpovi za podpis poděkoval a prohlásil, že nejlepší poctou senátorově památce bude úplné a rychlé uplatnění zákona."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sweeping",
+            "definition": "wide in range and having a big effect"
+          },
+          {
+            "term": "legacy",
+            "definition": "something that is left behind by a person who has died"
+          },
+          {
+            "term": "tribute",
+            "definition": "something said or done to show respect for someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:35",
+      "headline": "Ministerstvo zahraničí USA schválilo možný prodej protivzdušné obrany Ukrajině za 2,68 miliardy dolarů",
+      "body": "Americké ministerstvo zahraničí schválilo možný prodej zbraní protivzdušné obrany na Ukrajinu v objemu 2,68 miliardy dolarů, tedy zhruba 57 miliard korun. Nákup by Ukrajina podle diplomacie financovala s pomocí evropských příspěvků a amerického grantového a půjčkového programu FMF. Obchod ještě musí odsouhlasit Kongres.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ministerstvo-zahranici-usa-schvalilo-prodej-protivzdusnych-zbrani-na-ukrajinu-315734"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-americke-ministerstvo-podporilo-prodej-strel-protivzdusne-obrany-ukrajine_2609191624_ako"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189671/"
+        }
+      ],
+      "en": {
+        "headline": "The US State Department has approved a possible sale of air defence to Ukraine worth 2.68 billion dollars",
+        "sentences": [
+          {
+            "en": "The US State Department has approved a possible sale of air defence weapons to Ukraine worth 2.68 billion dollars, roughly 57 billion crowns.",
+            "cs": "Americké ministerstvo zahraničí schválilo možný prodej zbraní protivzdušné obrany na Ukrajinu v objemu 2,68 miliardy dolarů, tedy zhruba 57 miliard korun."
+          },
+          {
+            "en": "According to the diplomats, Ukraine would finance the purchase with the help of European contributions and the American FMF grant and loan programme.",
+            "cs": "Nákup by Ukrajina podle diplomacie financovala s pomocí evropských příspěvků a amerického grantového a půjčkového programu FMF."
+          },
+          {
+            "en": "The deal still has to be approved by Congress.",
+            "cs": "Obchod ještě musí odsouhlasit Kongres."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "contributions",
+            "definition": "sums of money given to help pay for something"
+          },
+          {
+            "term": "grant",
+            "definition": "money given for a purpose that does not have to be paid back"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:42",
+      "headline": "USA a Dánsko se dohodly na Grónsku, k výstavbě základny tam bude potřeba americký souhlas",
+      "body": "Donald Trump oznámil, že se s Dánskem dohodl na urovnání vztahů kolem Grónska. Spojené státy tam budou kontrolovat své bezpečnostní zájmy a podle Trumpa si tam žádná nepřátelská země nebude moci vybudovat základnu bez amerického souhlasu. „Zcela řeší naše obavy,“ řekl o dohodě americký prezident. Úřad dánské premiérky Mette Frederiksenové oznámil, že dohoda bude podepsána příští týden; podle E15 k tomu má dojít v OSN a Washington má získat právo blokovat základny rivalů, jako je Čína nebo Rusko.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-usa-a-dansko-podepisou-dohodu-o-gronsku-zcela-resi-nase-obavy-rekl-trump-315720"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/trump-oznamil-dohodu-o-gronsku-spojene-staty-tam-budou-kontrolovat-sve-zajmy-uvedl-1435912"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189460/"
+        }
+      ],
+      "en": {
+        "headline": "The US and Denmark have agreed on Greenland and building a base there will need American consent",
+        "sentences": [
+          {
+            "en": "Donald Trump announced that he had agreed with Denmark on settling relations over Greenland.",
+            "cs": "Donald Trump oznámil, že se s Dánskem dohodl na urovnání vztahů kolem Grónska."
+          },
+          {
+            "en": "The United States will look after its security interests there and, according to Trump, no hostile country will be able to build a base there without American consent.",
+            "cs": "Spojené státy tam budou kontrolovat své bezpečnostní zájmy a podle Trumpa si tam žádná nepřátelská země nebude moci vybudovat základnu bez amerického souhlasu."
+          },
+          {
+            "en": "“It completely addresses our concerns,” the American president said of the deal.",
+            "cs": "„Zcela řeší naše obavy,“ řekl o dohodě americký prezident."
+          },
+          {
+            "en": "The office of Danish Prime Minister Mette Frederiksen announced that the deal will be signed next week; according to E15 this is to happen at the UN and Washington is to gain the right to block bases of rivals such as China or Russia.",
+            "cs": "Úřad dánské premiérky Mette Frederiksenové oznámil, že dohoda bude podepsána příští týden; podle E15 k tomu má dojít v OSN a Washington má získat právo blokovat základny rivalů, jako je Čína nebo Rusko."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "consent",
+            "definition": "permission for something to happen"
+          },
+          {
+            "term": "hostile",
+            "definition": "unfriendly and ready to fight"
+          },
+          {
+            "term": "addresses",
+            "definition": "deals with a problem or a question"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:04",
+      "headline": "Policie nepustila novináře CNN a MSNOW do areálu Bílého domu",
+      "body": "Americká policie dnes zabránila reportérům stanic CNN a MSNOW ve vstupu do areálu Bílého domu a podle Seznam Zpráv jim zabavila novinářské akreditace. Trump v pátek večer oznámil, že s okamžitou platností ruší akreditace těchto dvou médií i serveru Politico, a to kvůli „falešným zprávám“. CNN uvedla, že plně stojí za svým týmem v Bílém domě a že má podle ústavy právo vykonávat zpravodajství bez překážek či zásahů ze strany vlády; podobně reagoval i Politico.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/policie-zabranila-novinarum-cnn-a-msnow-vstoupit-do-arealu-bileho-domu-377774"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-policie-nepustila-novinare-ze-cnn-a-msnow-do-arealu-bileho-domu-315736"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189457/"
+        }
+      ],
+      "en": {
+        "headline": "Police did not let CNN and MSNOW journalists into the White House grounds",
+        "sentences": [
+          {
+            "en": "American police today stopped reporters from CNN and MSNOW from entering the White House grounds and, according to Seznam Zprávy, confiscated their press credentials.",
+            "cs": "Americká policie dnes zabránila reportérům stanic CNN a MSNOW ve vstupu do areálu Bílého domu a podle Seznam Zpráv jim zabavila novinářské akreditace."
+          },
+          {
+            "en": "On Friday evening Trump announced that he was revoking the accreditation of these two outlets and of the Politico website with immediate effect, because of “fake news”.",
+            "cs": "Trump v pátek večer oznámil, že s okamžitou platností ruší akreditace těchto dvou médií i serveru Politico, a to kvůli „falešným zprávám“."
+          },
+          {
+            "en": "CNN said that it fully stands behind its team at the White House and that under the constitution it has the right to do this reporting without obstruction or interference from the government; Politico reacted in a similar way.",
+            "cs": "CNN uvedla, že plně stojí za svým týmem v Bílém domě a že má podle ústavy právo vykonávat zpravodajství bez překážek či zásahů ze strany vlády; podobně reagoval i Politico."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "confiscated",
+            "definition": "officially took something away from someone"
+          },
+          {
+            "term": "revoking",
+            "definition": "officially cancelling something that was given"
+          },
+          {
+            "term": "credentials",
+            "definition": "documents showing who someone is and what they may do"
+          },
+          {
+            "term": "obstruction",
+            "definition": "the act of blocking something or getting in the way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:29",
+      "headline": "Moskevský systém online hlasování čelí při volbách do Dumy masivnímu útoku",
+      "body": "Systém online hlasování v Moskvě je od noci pod masivním vnějším útokem, oznámila šéfka ruské volební komise Ella Pamfilova. „Moskevský systém čelil neustále po celou noc velmi silnému útoku,“ řekla s tím, že situace je pod kontrolou a snaha pokračuje; neupřesnila, kdo za útokem stojí. Rusové hlasují ve volbách do Státní dumy od pátečního odpoledne do nedělního večera. E15 v analýze píše, že se předem rozhodnuté volby pro Vladimira Putina stávají referendem o válce i o něm samotném a že vyřazení protiválečné strany Jabloko i nervózní zásahy úřadů ukazují na sílící únavu ruské veřejnosti z konfliktu a zdražování.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189588/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/predem-jasne-ruske-volby-kreml-ma-vysledek-v-kapse-ale-neskryje-unavu-z-valky-1435915"
+        }
+      ],
+      "en": {
+        "headline": "Moscow's online voting system is facing a massive attack during the Duma elections",
+        "sentences": [
+          {
+            "en": "The online voting system in Moscow has been under a massive external attack since the night, the head of the Russian election commission Ella Pamfilova announced.",
+            "cs": "Systém online hlasování v Moskvě je od noci pod masivním vnějším útokem, oznámila šéfka ruské volební komise Ella Pamfilova."
+          },
+          {
+            "en": "“The Moscow system faced a very strong attack constantly throughout the night,” she said, adding that the situation is under control and that the effort is continuing; she did not specify who is behind the attack.",
+            "cs": "„Moskevský systém čelil neustále po celou noc velmi silnému útoku,“ řekla s tím, že situace je pod kontrolou a snaha pokračuje; neupřesnila, kdo za útokem stojí."
+          },
+          {
+            "en": "Russians are voting in the State Duma elections from Friday afternoon until Sunday evening.",
+            "cs": "Rusové hlasují ve volbách do Státní dumy od pátečního odpoledne do nedělního večera."
+          },
+          {
+            "en": "E15 writes in an analysis that the elections, decided in advance, are becoming a referendum for Vladimir Putin on the war and on himself, and that the exclusion of the anti-war party Jabloko and nervous interventions by the authorities point to growing fatigue in the Russian public with the conflict and with rising prices.",
+            "cs": "E15 v analýze píše, že se předem rozhodnuté volby pro Vladimira Putina stávají referendem o válce i o něm samotném a že vyřazení protiválečné strany Jabloko i nervózní zásahy úřadů ukazují na sílící únavu ruské veřejnosti z konfliktu a zdražování."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "in advance",
+            "definition": "before something happens"
+          },
+          {
+            "term": "interventions",
+            "definition": "actions taken to change what is happening"
+          },
+          {
+            "term": "fatigue",
+            "definition": "a feeling of being very tired of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:20",
+      "headline": "Ruské útoky na Ukrajinu si vyžádaly čtyři mrtvé, Polsko kvůli nim vyslalo do vzduchu letouny",
+      "body": "Při ruských útocích na Ukrajinu včera večer a v noci na dnešek zemřeli dva lidé v Chersonské oblasti a další dva v Sumách, kde naváděná vzdušná puma zasáhla obytný dům. Podle vojenské správy Sum bylo při úderu na město zraněno osm lidí včetně dvou dětí. Polsko kvůli ruským dronovým útokům vyslalo do vzduchu své vojenské letouny a uvedlo do pohotovosti protivzdušnou obranu; šlo o preventivní opatření a armáda později nasazení ukončila s tím, že polský vzdušný prostor narušen nebyl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189525/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-polsko-kvuli-ruskemu-utoku-na-ukrajinu-vyslalo-do-vzduchu-vojenske-letouny-315724"
+        }
+      ],
+      "en": {
+        "headline": "Russian attacks on Ukraine killed four people and Poland scrambled jets because of them",
+        "sentences": [
+          {
+            "en": "Two people died in the Kherson region and two more in Sumy, where a guided aerial bomb hit a block of flats, in Russian attacks on Ukraine yesterday evening and overnight.",
+            "cs": "Při ruských útocích na Ukrajinu včera večer a v noci na dnešek zemřeli dva lidé v Chersonské oblasti a další dva v Sumách, kde naváděná vzdušná puma zasáhla obytný dům."
+          },
+          {
+            "en": "According to the city's military administration, eight people including two children were injured in the strike on Sumy.",
+            "cs": "Podle vojenské správy Sum bylo při úderu na město zraněno osm lidí včetně dvou dětí."
+          },
+          {
+            "en": "Because of the Russian drone attacks, Poland sent its military aircraft into the air and put its air defence on alert; it was a precautionary step and the army later ended the deployment, saying that Polish airspace had not been violated.",
+            "cs": "Polsko kvůli ruským dronovým útokům vyslalo do vzduchu své vojenské letouny a uvedlo do pohotovosti protivzdušnou obranu; šlo o preventivní opatření a armáda později nasazení ukončila s tím, že polský vzdušný prostor narušen nebyl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "scrambled",
+            "definition": "sent aircraft into the air very quickly"
+          },
+          {
+            "term": "precautionary",
+            "definition": "done in order to prevent possible harm"
+          },
+          {
+            "term": "deployment",
+            "definition": "the moving of soldiers or equipment into position"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "07:17",
+      "headline": "Zásobníky plynu jsou před zimou nezvykle prázdné",
+      "body": "Naplněnost zásobníků plynu včetně českých je před zimou na nejnižší úrovni za poslední roky. Velkoobchodní cena plynu je podle Deníku N nejvýše od energetické krize a dodávky zkapalněného plynu z Kataru či Spojených arabských emirátů stále váznou.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2187521/zasobniky-plynu-jsou-pred-zimou-nezvykle-prazdne-od-ruske-invaze-se-ale-situace-zasadne-zmenila/"
+        }
+      ],
+      "en": {
+        "headline": "Gas storage sites are unusually empty ahead of winter",
+        "sentences": [
+          {
+            "en": "Gas storage levels, including the Czech ones, are at their lowest in recent years ahead of winter.",
+            "cs": "Naplněnost zásobníků plynu včetně českých je před zimou na nejnižší úrovni za poslední roky."
+          },
+          {
+            "en": "According to Deník N, the wholesale price of gas is the highest since the energy crisis and deliveries of liquefied gas from Qatar or the United Arab Emirates are still held up.",
+            "cs": "Velkoobchodní cena plynu je podle Deníku N nejvýše od energetické krize a dodávky zkapalněného plynu z Kataru či Spojených arabských emirátů stále váznou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wholesale",
+            "definition": "connected with selling goods in large amounts to businesses"
+          },
+          {
+            "term": "liquefied",
+            "definition": "turned into a liquid"
+          },
+          {
+            "term": "held up",
+            "definition": "delayed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:19",
+      "headline": "Dopravci kvůli drahým palivům volají po snížení spotřební daně",
+      "body": "Čeští automobiloví dopravci očekávají kvůli drahým palivům brzké kroky vlády a obávají se o svou konkurenceschopnost. Volají po snížení spotřební daně. Podle hlavního ekonoma investiční skupiny Natland Petra Bartoně by stát pro zlevnění nafty a benzinu musel skutečně snížit daň, zásadní další zdražování ale podle něj zatím nehrozí. Ceny ropy v pátek zpočátku klesaly a později mírně vzrostly, investoři se obávají o dodávky ze Saúdské Arábie a o rozšiřování konfliktu na Blízkém východě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/barton-pro-zlevneni-nafty-a-benzinu-stat-musel-snizit-dan-zasadni-zdrazovani-ale_2609191419_elev"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189634/"
+        }
+      ],
+      "en": {
+        "headline": "Hauliers are calling for a cut in excise duty because of expensive fuel",
+        "sentences": [
+          {
+            "en": "Czech road hauliers expect the government to act soon because of expensive fuel and they fear for their competitiveness.",
+            "cs": "Čeští automobiloví dopravci očekávají kvůli drahým palivům brzké kroky vlády a obávají se o svou konkurenceschopnost."
+          },
+          {
+            "en": "They are calling for a cut in excise duty.",
+            "cs": "Volají po snížení spotřební daně."
+          },
+          {
+            "en": "According to Petr Bartoň, chief economist of the investment group Natland, the state would have to cut the tax for diesel and petrol to get cheaper, but he says no major further rise in prices is looming.",
+            "cs": "Podle hlavního ekonoma investiční skupiny Natland Petra Bartoně by stát pro zlevnění nafty a benzinu musel skutečně snížit daň, zásadní další zdražování ale podle něj zatím nehrozí."
+          },
+          {
+            "en": "Oil prices fell at first on Friday and later rose slightly, as investors worry about supplies from Saudi Arabia and about the widening conflict in the Middle East.",
+            "cs": "Ceny ropy v pátek zpočátku klesaly a později mírně vzrostly, investoři se obávají o dodávky ze Saúdské Arábie a o rozšiřování konfliktu na Blízkém východě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hauliers",
+            "definition": "companies that carry goods by road"
+          },
+          {
+            "term": "excise duty",
+            "definition": "a tax on certain goods such as fuel, alcohol or tobacco"
+          },
+          {
+            "term": "looming",
+            "definition": "likely to happen soon and causing worry"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "18:48",
+      "day": "prev",
+      "headline": "Volkswagen srazil odhad letošní marže na jedno procento, akcie prudce klesly",
+      "body": "Volkswagen výrazně snížil odhad letošní ziskové marže na maximálně jedno procento, a to kvůli miliardovým odpisům u Porsche a propadu v Číně. Varování poslalo akcie mateřské společnosti Škody Auto k prudkému poklesu, podle E15 největšímu v celém indexu DAX.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/volkswagen-varuje-pred-zhorsenim-trhu-letosni-marze-nepresahne-jedno-procento-1435908"
+        }
+      ],
+      "en": {
+        "headline": "Volkswagen has cut its margin forecast for this year to one percent and its shares fell sharply",
+        "sentences": [
+          {
+            "en": "Volkswagen has sharply cut its profit margin forecast for this year to a maximum of one percent, because of write-downs worth billions at Porsche and a slump in China.",
+            "cs": "Volkswagen výrazně snížil odhad letošní ziskové marže na maximálně jedno procento, a to kvůli miliardovým odpisům u Porsche a propadu v Číně."
+          },
+          {
+            "en": "The warning sent shares in the parent company of Škoda Auto sharply lower, according to E15 the biggest fall in the whole DAX index.",
+            "cs": "Varování poslalo akcie mateřské společnosti Škody Auto k prudkému poklesu, podle E15 největšímu v celém indexu DAX."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "margin",
+            "definition": "the difference between what something costs and what it is sold for"
+          },
+          {
+            "term": "write-downs",
+            "definition": "official cuts in the recorded value of something a company owns"
+          },
+          {
+            "term": "slump",
+            "definition": "a sudden large fall in sales or activity"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:38",
+      "headline": "Chybná zpravodajská zpráva od AI málem zatáhla USA do dalšího konfliktu",
+      "body": "Umělá inteligence mylně identifikovala náklad čínské lodi na Blízkém východě a zpráva, se kterou pomáhala, podle Seznam Zpráv málem přivedla Spojené státy do dalšího konfliktu. Američané už chystali vojenský zásah. Využití umělé inteligence v americké armádě navzdory podobným chybám sílí.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zprava-vystrasila-americany-chystali-vojenskou-operaci-ai-ale-chybovala-315722"
+        }
+      ],
+      "en": {
+        "headline": "A faulty intelligence report produced with AI nearly drew the US into another conflict",
+        "sentences": [
+          {
+            "en": "Artificial intelligence wrongly identified the cargo of a Chinese ship in the Middle East, and the report it helped to produce nearly brought the United States into another conflict, according to Seznam Zprávy.",
+            "cs": "Umělá inteligence mylně identifikovala náklad čínské lodi na Blízkém východě a zpráva, se kterou pomáhala, podle Seznam Zpráv málem přivedla Spojené státy do dalšího konfliktu."
+          },
+          {
+            "en": "The Americans were already preparing a military operation.",
+            "cs": "Američané už chystali vojenský zásah."
+          },
+          {
+            "en": "The use of artificial intelligence in the American military is growing despite such mistakes.",
+            "cs": "Využití umělé inteligence v americké armádě navzdory podobným chybám sílí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "faulty",
+            "definition": "not correct or not working properly"
+          },
+          {
+            "term": "cargo",
+            "definition": "goods carried by a ship, plane or lorry"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:45",
+      "headline": "Odborníci varují, že umělá inteligence může pomoci navrhnout nové patogeny",
+      "body": "Odborníci varují před použitím umělé inteligence k vývoji biologických zbraní, tedy bakterií a virů, které se šíří mezi lidmi a způsobují těžké nemoci a smrt. Podle Seznam Zpráv už dnes AI dokáže navrhnout i kompletně nové patogeny a rizikové jsou v tomto ohledu čínské modely.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-hrozi-vznik-novych-chorob-kvuli-ai-rizikove-jsou-cinske-modely-315680"
+        }
+      ],
+      "en": {
+        "headline": "Experts warn that artificial intelligence may help to design new pathogens",
+        "sentences": [
+          {
+            "en": "Experts warn against using artificial intelligence to develop biological weapons, that is bacteria and viruses that spread between people and cause serious illness and death.",
+            "cs": "Odborníci varují před použitím umělé inteligence k vývoji biologických zbraní, tedy bakterií a virů, které se šíří mezi lidmi a způsobují těžké nemoci a smrt."
+          },
+          {
+            "en": "According to Seznam Zprávy, AI can already design completely new pathogens, and Chinese models are risky in this respect.",
+            "cs": "Podle Seznam Zpráv už dnes AI dokáže navrhnout i kompletně nové patogeny a rizikové jsou v tomto ohledu čínské modely."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pathogens",
+            "definition": "tiny living things that cause disease"
+          },
+          {
+            "term": "in this respect",
+            "definition": "when you consider this particular point"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:03",
+      "day": "prev",
+      "headline": "Android 17 přidává nová rozhraní, aniž by vyšel v otevřeném AOSP",
+      "body": "Podle příspěvku vývojářů GrapheneOS, který se dostal na přední místa Hacker News, je Android 17 první verzí systému od řady 3.x, která přidává nová programová rozhraní, aniž by byla vydána do otevřeného Android Open Source Projectu.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://grapheneos.social/@GrapheneOS/117282080803799576"
+        }
+      ],
+      "en": {
+        "headline": "Android 17 adds new interfaces without being released in the open AOSP",
+        "sentences": [
+          {
+            "en": "According to a post by the GrapheneOS developers that reached the top of Hacker News, Android 17 is the first version of the system since the 3.x line to add new programming interfaces without being released into the open Android Open Source Project.",
+            "cs": "Podle příspěvku vývojářů GrapheneOS, který se dostal na přední místa Hacker News, je Android 17 první verzí systému od řady 3.x, která přidává nová programová rozhraní, aniž by byla vydána do otevřeného Android Open Source Projectu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "interfaces",
+            "definition": "the parts of a program that let other programs work with it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "10:35",
+      "headline": "Korunovační klenoty se vrátily před veřejnost, na Hrad kvůli nim přišly stovky lidí",
+      "body": "České korunovační klenoty jsou ode dneška znovu k vidění na Pražském hradě, a to na výstavě, která připomíná jejich osudy i období vlády Habsburků na českém trůnu. Při zahájení přilákaly stovky lidí, fronta se podle Deníku N táhla téměř přes celé Jižní zahrady a mnozí přišli ještě před otevřením.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189571/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-zemanova-tajna-akce-mela-rozlustit-staletou-zahadu-ceske-koruny-315682"
+        }
+      ],
+      "en": {
+        "headline": "The crown jewels are back on public view and hundreds of people came to the Castle for them",
+        "sentences": [
+          {
+            "en": "The Czech crown jewels can be seen again at Prague Castle from today, at an exhibition that recalls their fate and the period of Habsburg rule on the Czech throne.",
+            "cs": "České korunovační klenoty jsou ode dneška znovu k vidění na Pražském hradě, a to na výstavě, která připomíná jejich osudy i období vlády Habsburků na českém trůnu."
+          },
+          {
+            "en": "At the opening they attracted hundreds of people; according to Deník N the queue stretched almost across the whole of the South Gardens and many came even before opening time.",
+            "cs": "Při zahájení přilákaly stovky lidí, fronta se podle Deníku N táhla téměř přes celé Jižní zahrady a mnozí přišli ještě před otevřením."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crown jewels",
+            "definition": "the crown and other precious objects used by kings and queens"
+          },
+          {
+            "term": "recalls",
+            "definition": "brings something back to people's minds"
+          },
+          {
+            "term": "stretched",
+            "definition": "reached over a long distance"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:30",
+      "headline": "Vesnicí roku 2026 se staly Boršice ze Zlínského kraje",
+      "body": "Titul Vesnice roku 2026 získaly Boršice ze Zlínského kraje. Obec s více než dvěma tisíci obyvateli zaujala porotu komplexní péčí o obec a obyvatele, bohatým spolkovým životem, prací s mládeží i školním stravováním. Druhá skončila Vraclav z Pardubického kraje a třetí Všeruby z Plzeňského kraje, výsledky organizátoři vyhlásili v Písečné na Orlickoústecku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/borsice-ziskaly-titul-vesnice-roku-2026-mohou-byt-inspiraci-pro-celou-ceskou_2609191630_kma"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189674/"
+        }
+      ],
+      "en": {
+        "headline": "Boršice from the Zlín Region have been named Village of the Year 2026",
+        "sentences": [
+          {
+            "en": "The title Village of the Year 2026 went to Boršice in the Zlín Region.",
+            "cs": "Titul Vesnice roku 2026 získaly Boršice ze Zlínského kraje."
+          },
+          {
+            "en": "The village of more than two thousand inhabitants impressed the jury with its all-round care for the village and its people, with a rich club life, with work with young people and with school catering.",
+            "cs": "Obec s více než dvěma tisíci obyvateli zaujala porotu komplexní péčí o obec a obyvatele, bohatým spolkovým životem, prací s mládeží i školním stravováním."
+          },
+          {
+            "en": "Vraclav from the Pardubice Region came second and Všeruby from the Plzeň Region third; the organisers announced the results in Písečná in the Ústí nad Orlicí area.",
+            "cs": "Druhá skončila Vraclav z Pardubického kraje a třetí Všeruby z Plzeňského kraje, výsledky organizátoři vyhlásili v Písečné na Orlickoústecku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "jury",
+            "definition": "a group of people who judge a competition"
+          },
+          {
+            "term": "all-round",
+            "definition": "covering many different areas"
+          },
+          {
+            "term": "catering",
+            "definition": "the work of providing food and drink"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "06:00",
+      "headline": "Komentář: sázka na umělou inteligenci je tak velká, že selhání je nevyhnutelné",
+      "body": "Ekonom David Roche v komentáři pro Deník N píše, že technologie tak obrovského rozsahu, financovaná tak agresivně a tak těsně provázaná s investičními portfolii, úvěrovými trhy a firemními strategiemi, skýtá jen minimální prostor pro hladké přistání, pokud její ekonomické základy neobstojí. Americký sektor AI je podle něj nejspíš tak velký, že prostě musí zkrachovat; neznamená to, že umělá inteligence vyšumí do ztracena, ale že cesta k jejímu plnému prosazení možná nejdřív povede přes finanční a hospodářskou krizi.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2188057/sazka-na-umelou-inteligenci-je-tak-velka-ze-selhani-je-nevyhnutelne/"
+        }
+      ],
+      "en": {
+        "headline": "Commentary: the bet on artificial intelligence is so big that failure is inevitable",
+        "sentences": [
+          {
+            "en": "Economist David Roche writes in a commentary for Deník N that a technology of such vast scale, financed so aggressively and tied so closely to investment portfolios, credit markets and corporate strategies, leaves only minimal room for a soft landing if its economic foundations do not hold.",
+            "cs": "Ekonom David Roche v komentáři pro Deník N píše, že technologie tak obrovského rozsahu, financovaná tak agresivně a tak těsně provázaná s investičními portfolii, úvěrovými trhy a firemními strategiemi, skýtá jen minimální prostor pro hladké přistání, pokud její ekonomické základy neobstojí."
+          },
+          {
+            "en": "The American AI sector is, in his view, probably so big that it simply has to go bust; that does not mean that artificial intelligence will fizzle out, but that the road to its full adoption may first lead through a financial and economic crisis.",
+            "cs": "Americký sektor AI je podle něj nejspíš tak velký, že prostě musí zkrachovat; neznamená to, že umělá inteligence vyšumí do ztracena, ale že cesta k jejímu plnému prosazení možná nejdřív povede přes finanční a hospodářskou krizi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "inevitable",
+            "definition": "certain to happen and impossible to avoid"
+          },
+          {
+            "term": "soft landing",
+            "definition": "a gentle end to a period of growth, without a crash"
+          },
+          {
+            "term": "go bust",
+            "definition": "to fail financially and stop doing business"
+          },
+          {
+            "term": "fizzle out",
+            "definition": "to end weakly after a strong start"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:59",
+      "headline": "Čeští tenisté v Davis Cupu po čtyřhře prohrávají s USA 1:2",
+      "body": "Adam Pavlásek s Patrikem Riklem podlehli v pražské O2 areně americkému páru Christian Harrison, Austin Krajicek 7:5, 3:6, 6:7 a nevyužili čtyři mečboly. USA tak v kvalifikaci o finálový turnaj vedou 2:1 a následují rozhodující dvouhry.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189691/"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/v-daviscupovem-duelu-cesko-usa-se-hraji-rozhodujici-zapasy-159020"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-davis-cup-2026-cesko-usa-druhy-den-online-5538237"
+        }
+      ],
+      "en": {
+        "headline": "Czech tennis players trail the US 1:2 in the Davis Cup after the doubles",
+        "sentences": [
+          {
+            "en": "Adam Pavlásek and Patrik Rikl lost 7:5, 3:6, 6:7 to the American pair Christian Harrison and Austin Krajicek in Prague's O2 arena and failed to convert four match points.",
+            "cs": "Adam Pavlásek s Patrikem Riklem podlehli v pražské O2 areně americkému páru Christian Harrison, Austin Krajicek 7:5, 3:6, 6:7 a nevyužili čtyři mečboly."
+          },
+          {
+            "en": "The US therefore lead the qualifier for the final tournament 2:1, and the decisive singles matches follow.",
+            "cs": "USA tak v kvalifikaci o finálový turnaj vedou 2:1 a následují rozhodující dvouhry."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trail",
+            "definition": "to be behind the other side in a contest"
+          },
+          {
+            "term": "convert",
+            "definition": "to turn a chance into a winning point"
+          },
+          {
+            "term": "decisive",
+            "definition": "settling the final result"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:07",
+      "headline": "Liberec v Brně jen remizoval a na čelo ligy se nedostal",
+      "body": "V sobotních zápasech devátého kola fotbalové ligy Liberec remizoval na hřišti Artisu Brno 0:0 a je druhý o skóre za Slavií, která hraje v neděli s Plzní. Mladá Boleslav doma porazila Zbrojovku Brno 2:0 a je třetí, Pardubice zdolaly Bohemians 2:1 a vyhrály podruhé v řadě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/artis-nepustil-liberec-do-vedeni-v-lize-boleslav-odzbrojila-zbrojovku-159029"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-mlada-boleslav-prehrala-zbrojovku-5538770"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/zive-artis-hosti-rozjety-liberec-pardubice-vyzvou-bohemians-radiozurnal-sport_2609191430_rej"
+        }
+      ],
+      "en": {
+        "headline": "Liberec only drew in Brno and did not reach the top of the league",
+        "sentences": [
+          {
+            "en": "In Saturday's matches of the ninth round of the football league, Liberec drew 0:0 away at Artis Brno and is second on goal difference behind Slavia, which plays Plzeň on Sunday.",
+            "cs": "V sobotních zápasech devátého kola fotbalové ligy Liberec remizoval na hřišti Artisu Brno 0:0 a je druhý o skóre za Slavií, která hraje v neděli s Plzní."
+          },
+          {
+            "en": "Mladá Boleslav beat Zbrojovka Brno 2:0 at home and is third, and Pardubice saw off Bohemians 2:1 for their second win in a row.",
+            "cs": "Mladá Boleslav doma porazila Zbrojovku Brno 2:0 a je třetí, Pardubice zdolaly Bohemians 2:1 a vyhrály podruhé v řadě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drew",
+            "definition": "finished a match with the same score on both sides"
+          },
+          {
+            "term": "goal difference",
+            "definition": "goals scored minus goals let in"
+          },
+          {
+            "term": "saw off",
+            "definition": "beat an opponent in a contest"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:32",
+      "headline": "Salač vyhrál v rekordu okruhu kvalifikaci Moto2 v Rakousku",
+      "body": "Filip Salač vyhrál v rekordu okruhu kvalifikaci na Velkou cenu Rakouska třídy Moto2 a do nedělního závodu vystartuje potřetí v kariéře a poprvé po třech a půl letech z pole position. Na Red Bull Ringu vylepšil svůj vlastní rekord z pátečního tréninku na 1:32,381.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/po-vice-jak-trech-letech-si-salac-vyjel-pole-position-v-rakousku-si-pripsal-rekord-okruhu-159026"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-motocykly-paradni-vykon-salac-prekonal-v-rakousku-rekord-a-zajistil-si-pole-position-5538288"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/motorposrt-motocykl-moto2-rakousko-kvalifikace-salac-rekord-trati-pole-position_2609191450_rej"
+        }
+      ],
+      "en": {
+        "headline": "Salač won Moto2 qualifying in Austria with a lap record",
+        "sentences": [
+          {
+            "en": "Filip Salač won qualifying for the Austrian Grand Prix in the Moto2 class with a lap record and will start Sunday's race from pole position for the third time in his career and the first time in three and a half years.",
+            "cs": "Filip Salač vyhrál v rekordu okruhu kvalifikaci na Velkou cenu Rakouska třídy Moto2 a do nedělního závodu vystartuje potřetí v kariéře a poprvé po třech a půl letech z pole position."
+          },
+          {
+            "en": "At the Red Bull Ring he improved his own record from Friday's practice to 1:32.381.",
+            "cs": "Na Red Bull Ringu vylepšil svůj vlastní rekord z pátečního tréninku na 1:32,381."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lap",
+            "definition": "one complete circuit of a race track"
+          },
+          {
+            "term": "pole position",
+            "definition": "the first place on the starting grid of a race"
+          },
+          {
+            "term": "practice",
+            "definition": "a session before a race in which riders try out the track"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:52",
+      "day": "prev",
+      "headline": "Třinec otočil divokou přestřelku s Kometou, Voženílek dal hattrick",
+      "body": "Ve druhém kole hokejové extraligy Třinec doma otočil zápas s Kometou Brno z 2:5 na konečných 6:5, třemi góly se pod obrat podepsal Daniel Voženílek. Mistrovské Pardubice získaly první body v sezoně výhrou 3:1 v Litvínově a Karlovy Vary zvítězily v Mladé Boleslavi 4:1.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/kometa-ztratila-dobre-rozehrany-duel-s-vyjimecnymi-zapisy-trinec-tezil-i-z-hattricku-vozenilka-159016"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/hokej/tipsport-extraliga-vysledky-souhrn-trinec-kometa-brno-litvinov-pardubice-kladno-sparta/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej"
+        }
+      ],
+      "en": {
+        "headline": "Třinec turned around a wild high-scoring game with Kometa and Voženílek scored a hat-trick",
+        "sentences": [
+          {
+            "en": "In the second round of the hockey Extraliga, Třinec turned the home game against Kometa Brno around from 2:5 to a final 6:5, with Daniel Voženílek contributing three goals to the comeback.",
+            "cs": "Ve druhém kole hokejové extraligy Třinec doma otočil zápas s Kometou Brno z 2:5 na konečných 6:5, třemi góly se pod obrat podepsal Daniel Voženílek."
+          },
+          {
+            "en": "The champions Pardubice took their first points of the season with a 3:1 win in Litvínov, and Karlovy Vary won 4:1 in Mladá Boleslav.",
+            "cs": "Mistrovské Pardubice získaly první body v sezoně výhrou 3:1 v Litvínově a Karlovy Vary zvítězily v Mladé Boleslavi 4:1."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hat-trick",
+            "definition": "three goals scored by one player in a single game"
+          },
+          {
+            "term": "comeback",
+            "definition": "a return to winning after being behind"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:46",
+      "day": "prev",
+      "headline": "Kane se dostal na sto bundesligových gólů nejrychleji v historii",
+      "body": "Bayern Mnichov v předehrávce čtvrtého kola německé ligy deklasoval Union Berlín 7:0 a Harry Kane při tom jako nejrychlejší hráč historie bundesligy dosáhl na hranici sta gólů, povedlo se mu to v 98. utkání. Hattrickem se na výhře podílel Michael Olise.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/kane-se-pri-kanonade-bayernu-dostal-rekordne-rychle-na-100-bundesligovych-golu-159018"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-bundesliga-bayern-si-strelecky-zaradil-proti-unionu-5538231"
+        }
+      ],
+      "en": {
+        "headline": "Kane reached a hundred Bundesliga goals faster than anyone in history",
+        "sentences": [
+          {
+            "en": "Bayern Munich thrashed Union Berlin 7:0 in a match brought forward from the fourth round of the German league, and Harry Kane reached the hundred-goal mark as the fastest player in Bundesliga history, doing it in his 98th game.",
+            "cs": "Bayern Mnichov v předehrávce čtvrtého kola německé ligy deklasoval Union Berlín 7:0 a Harry Kane při tom jako nejrychlejší hráč historie bundesligy dosáhl na hranici sta gólů, povedlo se mu to v 98. utkání."
+          },
+          {
+            "en": "Michael Olise contributed to the win with a hat-trick.",
+            "cs": "Hattrickem se na výhře podílel Michael Olise."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "thrashed",
+            "definition": "beat very easily by a large score"
+          },
+          {
+            "term": "brought forward",
+            "definition": "moved to an earlier date or time"
+          },
+          {
+            "term": "mark",
+            "definition": "a level or number that is reached"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:36",
+      "headline": "Zemřela legenda Interu Milán Sandro Mazzola",
+      "body": "Ve věku 83 let zemřel italský fotbalista Sandro Mazzola, klubová legenda Interu Milán. V Interu strávil celou sedmnáctiletou kariéru, získal s ním čtyři ligové tituly a dva Poháry mistrů evropských zemí, s reprezentací vybojoval zlato na mistrovství Evropy 1968.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/zemrela-legenda-interu-sandro-mazzola-159021"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-serie-a-zemrela-legenda-fotbaloveho-interu-milan-mazzola-bylo-mu-83-let-5538239"
+        }
+      ],
+      "en": {
+        "headline": "Inter Milan legend Sandro Mazzola has died",
+        "sentences": [
+          {
+            "en": "The Italian footballer Sandro Mazzola, a club legend of Inter Milan, has died at the age of 83.",
+            "cs": "Ve věku 83 let zemřel italský fotbalista Sandro Mazzola, klubová legenda Interu Milán."
+          },
+          {
+            "en": "He spent his whole seventeen-year career at Inter, winning four league titles and two European Cups with the club, and he claimed gold with the national team at the 1968 European Championship.",
+            "cs": "V Interu strávil celou sedmnáctiletou kariéru, získal s ním čtyři ligové tituly a dva Poháry mistrů evropských zemí, s reprezentací vybojoval zlato na mistrovství Evropy 1968."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "legend",
+            "definition": "a person who is very famous and admired in a field"
+          },
+          {
+            "term": "claimed",
+            "definition": "won or gained something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Donald Trump signed a package of sanctions against Russia and the US State Department approved a possible sale of air defence to Ukraine worth 2.68 billion dollars.",
+    "NATO Days began at Mošnov airport, where President Petr Pavel said that only a country that treats its security as everyone's task can be safe.",
+    "The opposition ODS will propose restoring the waiting period for sick pay in the Chamber of Deputies, and Motoristé leader Petr Macinka will not vote against it.",
+    "Czech tennis players trail the US 1:2 in the Davis Cup after the doubles, and the decisive singles matches follow in the evening."
+  ]
+}
