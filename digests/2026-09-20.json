@@ -1,0 +1,1463 @@
+{
+  "date": "2026-09-20",
+  "covers": "2026-09-20",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra přijdou slabé přeháňky a přes den bude jen 15 °C. K tomu se opře vítr s nárazy přes 40 kilometrů v hodině.",
+    "days": [
+      {
+        "date": "2026-09-21",
+        "icon": "rain",
+        "temp_max_c": 15.4,
+        "temp_min_c": 9.8
+      },
+      {
+        "date": "2026-09-22",
+        "icon": "cloudy",
+        "temp_max_c": 15.9,
+        "temp_min_c": 8.2
+      },
+      {
+        "date": "2026-09-23",
+        "icon": "cloudy",
+        "temp_max_c": 16.7,
+        "temp_min_c": 6.9
+      },
+      {
+        "date": "2026-09-24",
+        "icon": "rain",
+        "temp_max_c": 16.1,
+        "temp_min_c": 7.6
+      }
+    ],
+    "summary_en": "Tomorrow will bring light showers and only 15 °C during the day, with wind gusting to more than 40 kilometres an hour."
+  },
+  "highlights": [
+    "Ministři Motoristů i SPD v pondělí podpoří vládní návrh rozpočtu, který má mít druhý největší schodek v historii Česka.",
+    "Premiér Andrej Babiš si stojí za kritikou justice a soudce ze Soudcovské unie pozval na Úřad vlády.",
+    "Ukrajina podnikla podle moskevského starosty dosud největší dronový útok na ruskou metropoli, Zelenskyj hlásí zásah rafinerie.",
+    "Čeští tenisté porazili v Davis Cupu USA 3:2 a postoupili na listopadový finálový turnaj do Boloně."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:11",
+      "headline": "Ministři Motoristů i SPD v pondělí podpoří vládní návrh rozpočtu",
+      "body": "Předseda Motoristů Petr Macinka po jednání s premiérem Andrejem Babišem sdělil, že ministři za jeho stranu v pondělí návrh státního rozpočtu podpoří a že se na čtvrteční dohodě nic nezměnilo. Totéž oznámil předseda SPD Tomio Okamura, takže pro budou ministři obou koaličních partnerů ANO. Vláda tak podle Seznam Zpráv v pondělí schválí druhý největší schodek rozpočtu v historii Česka. Okamura zároveň řekl, že u některých poslanců SPD budí nespokojenost, že koaliční partneři vyšli návrhům jeho strany na snížení schodku vstříc jen částečně.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-motoriste-na-vlade-rozpocet-podpori-oznamil-macinka-315760"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190206/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190184/"
+        }
+      ],
+      "en": {
+        "headline": "Ministers for the Motoristé and SPD will back the government's draft budget on Monday",
+        "sentences": [
+          {
+            "en": "Motoristé leader Petr Macinka said after talks with Prime Minister Andrej Babiš that ministers for his party will back the draft state budget on Monday and that nothing has changed about Thursday's agreement.",
+            "cs": "Předseda Motoristů Petr Macinka po jednání s premiérem Andrejem Babišem sdělil, že ministři za jeho stranu v pondělí návrh státního rozpočtu podpoří a že se na čtvrteční dohodě nic nezměnilo."
+          },
+          {
+            "en": "SPD leader Tomio Okamura announced the same, so ministers from both of ANO's coalition partners will be in favour.",
+            "cs": "Totéž oznámil předseda SPD Tomio Okamura, takže pro budou ministři obou koaličních partnerů ANO."
+          },
+          {
+            "en": "According to Seznam Zprávy, the government will therefore approve the second largest budget deficit in Czech history on Monday.",
+            "cs": "Vláda tak podle Seznam Zpráv v pondělí schválí druhý největší schodek rozpočtu v historii Česka."
+          },
+          {
+            "en": "Okamura also said that some SPD deputies are unhappy that the coalition partners met his party's proposals to cut the deficit only halfway.",
+            "cs": "Okamura zároveň řekl, že u některých poslanců SPD budí nespokojenost, že koaliční partneři vyšli návrhům jeho strany na snížení schodku vstříc jen částečně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deficit",
+            "definition": "the amount by which the money spent is more than the money received"
+          },
+          {
+            "term": "coalition",
+            "definition": "a group of parties that agree to govern together"
+          },
+          {
+            "term": "deputies",
+            "definition": "elected members of parliament in some countries"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:53",
+      "headline": "Babiš si stojí za kritikou justice a pozval soudce na Úřad vlády",
+      "body": "Premiér Andrej Babiš (ANO) si stojí za svou kritikou justice. Soudce ze Soudcovské unie, kteří komentovali jeho postoje k justici spojené s kauzou Čapí hnízdo, pozval na Úřad vlády. „Může vám vysvětlit můj právník, co je to Čapí hnízdo. Politický proces,“ uvedl ve videu na Facebooku. Seznam Zprávám premiér vzkázal, že kritika justice je zcela legitimní, a odmítl nařčení, že podkopává soudní moc.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190019/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-babis-pozval-soudce-do-sidla-vlady-aby-jim-jeho-pravnik-vysvetlil-capi-hnizdo-315753"
+        }
+      ],
+      "en": {
+        "headline": "Babiš stands by his criticism of the judiciary and has invited judges to the Government Office",
+        "sentences": [
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) stands by his criticism of the judiciary.",
+            "cs": "Premiér Andrej Babiš (ANO) si stojí za svou kritikou justice."
+          },
+          {
+            "en": "He has invited judges from the Judges' Union who commented on his views of the judiciary linked to the Čapí hnízdo case to the Government Office.",
+            "cs": "Soudce ze Soudcovské unie, kteří komentovali jeho postoje k justici spojené s kauzou Čapí hnízdo, pozval na Úřad vlády."
+          },
+          {
+            "en": "“My lawyer can explain to you what Čapí hnízdo is. A political trial,” he said in a video on Facebook.",
+            "cs": "„Může vám vysvětlit můj právník, co je to Čapí hnízdo. Politický proces,“ uvedl ve videu na Facebooku."
+          },
+          {
+            "en": "The prime minister told Seznam Zprávy that criticism of the judiciary is entirely legitimate and rejected the accusation that he is undermining judicial power.",
+            "cs": "Seznam Zprávám premiér vzkázal, že kritika justice je zcela legitimní, a odmítl nařčení, že podkopává soudní moc."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "judiciary",
+            "definition": "all the judges of a country, taken together"
+          },
+          {
+            "term": "legitimate",
+            "definition": "fair and reasonable, or allowed by law"
+          },
+          {
+            "term": "undermining",
+            "definition": "slowly making something weaker or less effective"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:43",
+      "headline": "Pavel označil Ficova slova o článku 5 za závažná",
+      "body": "Prezident Petr Pavel bere za závažné sdělení slovenského premiéra Roberta Fica, že nechce, aby se Slovensko „stalo součástí nějakého vojenského konfliktu kvůli nějakému článku 5“. „Závažné sdělení, které bychom měli brát vážně a ze kterého bychom si rozhodně neměli brát příklad,“ řekl Pavel o výrocích slovenského premiéra. Fico tento týden vyjádřil obavy, že válka na Ukrajině by mohla přerůst v celoevropský ozbrojený konflikt, do něhož by Slovensko vtáhl článek 5 Severoatlantické smlouvy, podle kterého se útok na jednoho člena NATO považuje za útok proti všem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-prezident-pavel-oznacil-ficova-slova-o-kolektivni-obrane-nato-za-zavazna-315767"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190200/"
+        }
+      ],
+      "en": {
+        "headline": "Pavel called Fico's words about Article 5 serious",
+        "sentences": [
+          {
+            "en": "President Petr Pavel takes seriously the statement by Slovak Prime Minister Robert Fico that he does not want Slovakia to “become part of some military conflict because of some Article 5”.",
+            "cs": "Prezident Petr Pavel bere za závažné sdělení slovenského premiéra Roberta Fica, že nechce, aby se Slovensko „stalo součástí nějakého vojenského konfliktu kvůli nějakému článku 5“."
+          },
+          {
+            "en": "“A serious statement that we should take seriously and that we should certainly not follow as an example,” Pavel said about the Slovak prime minister's remarks.",
+            "cs": "„Závažné sdělení, které bychom měli brát vážně a ze kterého bychom si rozhodně neměli brát příklad,“ řekl Pavel o výrocích slovenského premiéra."
+          },
+          {
+            "en": "This week Fico voiced fears that the war in Ukraine could grow into a Europe-wide armed conflict, into which Slovakia would be drawn by Article 5 of the North Atlantic Treaty, under which an attack on one NATO member is treated as an attack on all.",
+            "cs": "Fico tento týden vyjádřil obavy, že válka na Ukrajině by mohla přerůst v celoevropský ozbrojený konflikt, do něhož by Slovensko vtáhl článek 5 Severoatlantické smlouvy, podle kterého se útok na jednoho člena NATO považuje za útok proti všem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "voiced",
+            "definition": "said in words what you think or feel"
+          },
+          {
+            "term": "remarks",
+            "definition": "things that someone says about a subject"
+          },
+          {
+            "term": "drawn",
+            "definition": "pulled into a situation that you did not choose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:05",
+      "headline": "Při nehodě lodi v Norsku zemřel Čech, další tři lidé se pohřešují",
+      "body": "Při nehodě lodi v Norsku zemřel Čech a další tři lidé se pohřešují, sdělilo ministerstvo zahraničí. Norská policie podle něj nepředpokládá, že by někdo přežil. Záchranáři podle Deníku N pátrali od pátku u ostrova Averøya nedaleko města Kristiansund na západě Norska po rybářské lodi se čtyřmi zahraničními turisty na palubě; v sobotu ji našli, ale bez posádky. Podle Seznam Zpráv byli na palubě čtyři čeští turisté.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-nehode-lodi-v-norsku-zahynul-cech-dalsi-tri-se-pohresuji-315759"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pri-nehode-lodi-v-norsku-zemrel-cech-dalsi-tri-se-pohresuji-377783"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190088/"
+        }
+      ],
+      "en": {
+        "headline": "A Czech died in a boat accident in Norway and three more people are missing",
+        "sentences": [
+          {
+            "en": "A Czech died in a boat accident in Norway and three more people are missing, the Ministry of Foreign Affairs said.",
+            "cs": "Při nehodě lodi v Norsku zemřel Čech a další tři lidé se pohřešují, sdělilo ministerstvo zahraničí."
+          },
+          {
+            "en": "Norwegian police do not expect anyone to have survived, according to the ministry.",
+            "cs": "Norská policie podle něj nepředpokládá, že by někdo přežil."
+          },
+          {
+            "en": "Rescuers had been searching since Friday near the island of Averøya, not far from the town of Kristiansund in western Norway, for a fishing boat with four foreign tourists on board, Deník N reports; they found it on Saturday, but with no crew.",
+            "cs": "Záchranáři podle Deníku N pátrali od pátku u ostrova Averøya nedaleko města Kristiansund na západě Norska po rybářské lodi se čtyřmi zahraničními turisty na palubě; v sobotu ji našli, ale bez posádky."
+          },
+          {
+            "en": "According to Seznam Zprávy, there were four Czech tourists on board.",
+            "cs": "Podle Seznam Zpráv byli na palubě čtyři čeští turisté."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rescuers",
+            "definition": "people who save others from danger"
+          },
+          {
+            "term": "crew",
+            "definition": "the people who work on a boat, a plane or a train"
+          },
+          {
+            "term": "on board",
+            "definition": "inside a ship, a plane or another vehicle"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:08",
+      "headline": "Babišův poradce parkuje s čínským autem vedle vládních limuzín",
+      "body": "Národní úřad pro kybernetickou a informační bezpečnost už před rokem varoval před „chytrými“ čínskými automobily. Jeden z blízkých spolupracovníků premiéra Andreje Babiše přitom podle zjištění Deníku N s jedním takovým vozem parkuje na vyhrazeném místě vedle vládních automobilů.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2188853/babisuv-poradce-parkuje-s-cinskym-autem-vedle-vladnich-limuzin-varovani-expertu-navzdory/"
+        }
+      ],
+      "en": {
+        "headline": "Babiš's adviser parks a Chinese car next to government limousines",
+        "sentences": [
+          {
+            "en": "The National Cyber and Information Security Agency warned a year ago against “smart” Chinese cars.",
+            "cs": "Národní úřad pro kybernetickou a informační bezpečnost už před rokem varoval před „chytrými“ čínskými automobily."
+          },
+          {
+            "en": "Yet one of Prime Minister Andrej Babiš's close aides parks such a car in a reserved space next to government vehicles, Deník N has found.",
+            "cs": "Jeden z blízkých spolupracovníků premiéra Andreje Babiše přitom podle zjištění Deníku N s jedním takovým vozem parkuje na vyhrazeném místě vedle vládních automobilů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "aides",
+            "definition": "people whose job is to help an important person"
+          },
+          {
+            "term": "limousines",
+            "definition": "large comfortable cars, often used by officials"
+          },
+          {
+            "term": "reserved",
+            "definition": "kept for one particular person or purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:07",
+      "headline": "Fotbalisty Hradce Králové doma porazily Teplice 2:0",
+      "body": "Hradečtí fotbalisté v 9. kole první ligy doma podlehli Teplicím 0:2. Ve 43. minutě si vstřelil vlastní gól Filip Čihák, druhou branku přidal v závěru střídající Jakub Jakubko. Hosté se posunuli na páté místo neúplné tabulky, Hradec je sedmý.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/fotbal/900746-teplicti-fotbaliste-po-golech-v-zaverech-polocasu-vyhrali-2-0-v-hradci.html"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-9-kolo-hradec-kralove-teplice-online-vysledek.A260918_154113_fotbal_tals#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-teplice-vezou-z-hradce-tri-body-domaci-srazil-vlastni-gol-5539581"
+        }
+      ],
+      "en": {
+        "headline": "Hradec Králové's footballers were beaten at home by Teplice 2:0",
+        "sentences": [
+          {
+            "en": "Hradec's footballers lost 0:2 at home in the 9th round of the top league.",
+            "cs": "Hradečtí fotbalisté v 9. kole první ligy doma podlehli Teplicím 0:2."
+          },
+          {
+            "en": "Filip Čihák scored an own goal in the 43rd minute and substitute Jakub Jakubko added the second goal late on.",
+            "cs": "Ve 43. minutě si vstřelil vlastní gól Filip Čihák, druhou branku přidal v závěru střídající Jakub Jakubko."
+          },
+          {
+            "en": "The visitors moved up to fifth place in the incomplete table, while Hradec are seventh.",
+            "cs": "Hosté se posunuli na páté místo neúplné tabulky, Hradec je sedmý."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "own goal",
+            "definition": "a goal a player scores by mistake against their own team"
+          },
+          {
+            "term": "substitute",
+            "definition": "a player who comes on during a match to replace another"
+          },
+          {
+            "term": "visitors",
+            "definition": "in sport, the team playing away from its own ground"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:50",
+      "headline": "Kraj za 21 milionů upraví pavilon chirurgie v Rychnově pro klienty Domova U Biřičky",
+      "body": "Stavební úpravy pavilonu chirurgie v nemocnici v Rychnově nad Kněžnou mají stát zhruba 21 milionů korun. Kraj do objektu plánuje umístit klienty z hradeckého Domova U Biřičky, který čeká rozsáhlá rekonstrukce. Příslib financování schválili krajští zastupitelé.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zdravi/900711-kraj-upravi-pavilon-chirurgie-najdou-zde-zazemi-klienti-domova-u-biricky.html"
+        }
+      ],
+      "en": {
+        "headline": "The region will spend 21 million to adapt the surgery pavilion in Rychnov for residents of the U Biřičky home",
+        "sentences": [
+          {
+            "en": "Building work on the surgery pavilion at the hospital in Rychnov nad Kněžnou is expected to cost about 21 million crowns.",
+            "cs": "Stavební úpravy pavilonu chirurgie v nemocnici v Rychnově nad Kněžnou mají stát zhruba 21 milionů korun."
+          },
+          {
+            "en": "The region plans to move residents of the U Biřičky home in Hradec Králové into the building, as that home faces a major renovation.",
+            "cs": "Kraj do objektu plánuje umístit klienty z hradeckého Domova U Biřičky, který čeká rozsáhlá rekonstrukce."
+          },
+          {
+            "en": "Regional councillors approved the funding pledge.",
+            "cs": "Příslib financování schválili krajští zastupitelé."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "renovation",
+            "definition": "the work of repairing and improving a building"
+          },
+          {
+            "term": "councillors",
+            "definition": "elected members of a local or regional council"
+          },
+          {
+            "term": "pledge",
+            "definition": "a serious promise to do something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:09",
+      "headline": "Trutnov chce u historického centra postavit novou čtvrť s byty a knihovnou",
+      "body": "Bytová zástavba, městská knihovna, prostor pro setkávání a přístupné nábřeží Úpy. Tak by podle vítězného návrhu urbanistické soutěže mohla vypadat lokalita Nový Křižík nedaleko historického centra Trutnova.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/900731-trutnov-planuje-novou-ctvrt-u-historickeho-centra-s-byty-i-knihovnou.html"
+        }
+      ],
+      "en": {
+        "headline": "Trutnov wants to build a new district with flats and a library near its historic centre",
+        "sentences": [
+          {
+            "en": "Housing, a municipal library, a space for people to meet and an accessible embankment along the Úpa river.",
+            "cs": "Bytová zástavba, městská knihovna, prostor pro setkávání a přístupné nábřeží Úpy."
+          },
+          {
+            "en": "That is how the Nový Křižík site near the historic centre of Trutnov could look under the winning entry in an urban planning competition.",
+            "cs": "Tak by podle vítězného návrhu urbanistické soutěže mohla vypadat lokalita Nový Křižík nedaleko historického centra Trutnova."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "municipal",
+            "definition": "connected with a town or city and its government"
+          },
+          {
+            "term": "embankment",
+            "definition": "a raised bank of earth or stone along a river or road"
+          },
+          {
+            "term": "entry",
+            "definition": "something that is sent in to a competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:19",
+      "headline": "Do rychnovského muzea se vrátil vak legionáře Františka Kynycha",
+      "body": "Do Muzea a galerie Orlických hor v Rychnově nad Kněžnou se vrátil vojenský vak československého legionáře a důstojníka Františka Kynycha. Před lety ho na bleším trhu v Buštěhradu koupil americký sběratel a měl ho doma téměř dvacet let, než na něm objevil Kynychovo jméno.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/historie/vak-legionare-frantiska-kynycha-se-vratil-do-rychnovskeho-muzea-z-usa-ho-poslal_2609201419_ntu"
+        }
+      ],
+      "en": {
+        "headline": "The kit bag of legionnaire František Kynych has returned to the museum in Rychnov",
+        "sentences": [
+          {
+            "en": "The military kit bag of the Czechoslovak legionnaire and officer František Kynych has returned to the Museum and Gallery of the Orlické Mountains in Rychnov nad Kněžnou.",
+            "cs": "Do Muzea a galerie Orlických hor v Rychnově nad Kněžnou se vrátil vojenský vak československého legionáře a důstojníka Františka Kynycha."
+          },
+          {
+            "en": "Years ago an American collector bought it at a flea market in Buštěhrad and kept it at home for almost twenty years, until he discovered Kynych's name on it.",
+            "cs": "Před lety ho na bleším trhu v Buštěhradu koupil americký sběratel a měl ho doma téměř dvacet let, než na něm objevil Kynychovo jméno."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "legionnaire",
+            "definition": "a soldier serving in a legion"
+          },
+          {
+            "term": "flea market",
+            "definition": "an outdoor market where old and used things are sold"
+          },
+          {
+            "term": "collector",
+            "definition": "someone who gathers objects of one kind as a hobby"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:39",
+      "headline": "V Berlíně a v Meklenbursku se konají zemské volby",
+      "body": "V německém hlavním městě Berlíně a ve spolkové zemi Meklenbursko – Přední Pomořansko se konají zemské volby, volební místnosti se uzavřou v šest hodin večer. V Berlíně rozhoduje zhruba 2,5 milionu voličů o složení tamní sněmovny i o tom, kdo povede město z Červené radnice; favority jsou podle průzkumů krajně levicová Levice a Křesťanskodemokratická unie kancléře Friedricha Merze. Podle ČT24 mohou výsledky otřást Merzovou pozicí. Volební účast v Berlíně se ve dvanáct hodin pohybovala kolem 28 procent, tedy o 4,5 procentního bodu výše než při volbách v roce 2023.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-berline-a-meklenbursku-se-konaji-zemske-volby-mohou-otrast-merzovou-pozici-377779"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190139/"
+        }
+      ],
+      "en": {
+        "headline": "State elections are being held in Berlin and in Mecklenburg",
+        "sentences": [
+          {
+            "en": "State elections are being held in the German capital Berlin and in the federal state of Mecklenburg-Western Pomerania, and polling stations will close at six in the evening.",
+            "cs": "V německém hlavním městě Berlíně a ve spolkové zemi Meklenbursko – Přední Pomořansko se konají zemské volby, volební místnosti se uzavřou v šest hodin večer."
+          },
+          {
+            "en": "In Berlin around 2.5 million voters are deciding the makeup of the city assembly and who will run the city from the Red Town Hall; according to polls the favourites are the far-left Levice and Chancellor Friedrich Merz's Christian Democratic Union.",
+            "cs": "V Berlíně rozhoduje zhruba 2,5 milionu voličů o složení tamní sněmovny i o tom, kdo povede město z Červené radnice; favority jsou podle průzkumů krajně levicová Levice a Křesťanskodemokratická unie kancléře Friedricha Merze."
+          },
+          {
+            "en": "According to ČT24 the results could shake Merz's position.",
+            "cs": "Podle ČT24 mohou výsledky otřást Merzovou pozicí."
+          },
+          {
+            "en": "Turnout in Berlin was around 28 percent at noon, 4.5 percentage points higher than in the 2023 elections.",
+            "cs": "Volební účast v Berlíně se ve dvanáct hodin pohybovala kolem 28 procent, tedy o 4,5 procentního bodu výše než při volbách v roce 2023."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "polling stations",
+            "definition": "the places where people go to vote"
+          },
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to vote"
+          },
+          {
+            "term": "far-left",
+            "definition": "holding very extreme left-wing political views"
+          },
+          {
+            "term": "assembly",
+            "definition": "a group of elected people who make laws for a region"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:05",
+      "headline": "Ukrajina podnikla podle moskevského starosty dosud největší dronový útok na ruskou metropoli",
+      "body": "Ukrajina od soboty vypustila na Rusko více než 1600 dronů, z toho 450 na Moskvu, řekl starosta metropole Sergej Sobjanin. Podle ruskojazyčné verze BBC jde o vůbec největší ohlášený ukrajinský útok na Moskvu. V hlavním městě se podle Sobjanina obešel bez zranění, v Moskevské oblasti ale podle gubernátora Andreje Vorobjova zemřeli dva lidé a šest jich bylo zraněno. Ukrajinský prezident Volodymyr Zelenskyj na síti X oznámil, že Ukrajina v moskevském regionu zasáhla rafinerii, která patří ke klíčovým zařízením tamního ropného průmyslu. Při nočním ruském dronovém útoku na Kyjevskou oblast zemřela matka se dvěma dětmi a ještě jedno další dítě, v Chersonské oblasti zabil dron pravoslavného kněze.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/starosta-moskvy-tvrdi-ze-mesto-celilo-dosud-nejvetsimu-dronovemu-utoku-377780"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajinci-podnikli-nejvetsi-dronovy-utok-na-moskvu-rusove-cilili-na-kyjev-315748"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189926/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189969/"
+        }
+      ],
+      "en": {
+        "headline": "Ukraine has carried out what Moscow's mayor calls the largest drone attack yet on the Russian capital",
+        "sentences": [
+          {
+            "en": "Since Saturday Ukraine has launched more than 1,600 drones at Russia, 450 of them at Moscow, the city's mayor Sergei Sobyanin said.",
+            "cs": "Ukrajina od soboty vypustila na Rusko více než 1600 dronů, z toho 450 na Moskvu, řekl starosta metropole Sergej Sobjanin."
+          },
+          {
+            "en": "According to the Russian-language service of the BBC, this is the largest Ukrainian attack on Moscow ever reported.",
+            "cs": "Podle ruskojazyčné verze BBC jde o vůbec největší ohlášený ukrajinský útok na Moskvu."
+          },
+          {
+            "en": "In the capital it passed without any injuries, Sobyanin said, but in the Moscow region two people died and six were injured, according to governor Andrei Vorobyov.",
+            "cs": "V hlavním městě se podle Sobjanina obešel bez zranění, v Moskevské oblasti ale podle gubernátora Andreje Vorobjova zemřeli dva lidé a šest jich bylo zraněno."
+          },
+          {
+            "en": "Ukrainian President Volodymyr Zelensky announced on X that Ukraine had hit a refinery in the Moscow region that is one of the key facilities of the local oil industry.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj na síti X oznámil, že Ukrajina v moskevském regionu zasáhla rafinerii, která patří ke klíčovým zařízením tamního ropného průmyslu."
+          },
+          {
+            "en": "In a Russian drone attack on the Kyiv region overnight, a mother and her two children were killed along with one more child, and in the Kherson region a drone killed an Orthodox priest.",
+            "cs": "Při nočním ruském dronovém útoku na Kyjevskou oblast zemřela matka se dvěma dětmi a ještě jedno další dítě, v Chersonské oblasti zabil dron pravoslavného kněze."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refinery",
+            "definition": "a factory where crude oil is made into fuel"
+          },
+          {
+            "term": "facilities",
+            "definition": "buildings or equipment used for a particular purpose"
+          },
+          {
+            "term": "governor",
+            "definition": "the person in charge of a region or state"
+          },
+          {
+            "term": "overnight",
+            "definition": "during the night"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:31",
+      "headline": "V Rusku vrcholí volby do Státní dumy, hlasovat přišli i Rusové v Praze",
+      "body": "V Rusku dnes končí třídenní hlasování do Státní dumy, dolní komory parlamentu. Poslední den mohli k urnám přijít i ruští emigranti ve 152 zemích; podle Deníku N se největší fronty tvořily v arménském Jerevanu a v gruzínském Tbilisi, kam se uchýlil největší počet Rusů. Ve volebních místnostech v Moskvě úřady kvůli poruše přestaly vydávat papírové hlasovací lístky, napsal server Meduza. Rusové žijící v Česku volili na velvyslanectví v Praze 6, kde policisté na žádost ruského ministerstva zahraničí posílili hlídky kvůli obavám z demonstrací. Podle Seznam Zpráv někteří z nich přišli vyjádřit nesouhlas s Putinovou diktaturou. Jde o první parlamentní volby od invaze na Ukrajinu v únoru 2022.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/pro-ten-pocit-ze-neco-zkusis-udelat-rusove-dorazili-na-velvyslanectvi-v-praze_2609201631_ako"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/obrazem-fotky-rusove-voli-poslance-statni-dumy-hlasuji-i-v-cesku-315764"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190039/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190156/"
+        }
+      ],
+      "en": {
+        "headline": "Voting for the State Duma is ending in Russia, and Russians in Prague came to vote too",
+        "sentences": [
+          {
+            "en": "Three days of voting for the State Duma, the lower house of parliament, end in Russia today.",
+            "cs": "V Rusku dnes končí třídenní hlasování do Státní dumy, dolní komory parlamentu."
+          },
+          {
+            "en": "On the last day Russian emigrants in 152 countries could also come to the ballot boxes; according to Deník N the longest queues formed in Yerevan in Armenia and in Tbilisi in Georgia, where the largest number of Russians have settled.",
+            "cs": "Poslední den mohli k urnám přijít i ruští emigranti ve 152 zemích; podle Deníku N se největší fronty tvořily v arménském Jerevanu a v gruzínském Tbilisi, kam se uchýlil největší počet Rusů."
+          },
+          {
+            "en": "At polling stations in Moscow the authorities stopped handing out paper ballots because of a fault, the Meduza website wrote.",
+            "cs": "Ve volebních místnostech v Moskvě úřady kvůli poruše přestaly vydávat papírové hlasovací lístky, napsal server Meduza."
+          },
+          {
+            "en": "Russians living in Czechia voted at the embassy in Prague 6, where police stepped up patrols at the request of the Russian foreign ministry, which feared demonstrations.",
+            "cs": "Rusové žijící v Česku volili na velvyslanectví v Praze 6, kde policisté na žádost ruského ministerstva zahraničí posílili hlídky kvůli obavám z demonstrací."
+          },
+          {
+            "en": "According to Seznam Zprávy, some of them came to express their disagreement with Putin's dictatorship.",
+            "cs": "Podle Seznam Zpráv někteří z nich přišli vyjádřit nesouhlas s Putinovou diktaturou."
+          },
+          {
+            "en": "These are the first parliamentary elections since the invasion of Ukraine in February 2022.",
+            "cs": "Jde o první parlamentní volby od invaze na Ukrajinu v únoru 2022."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ballots",
+            "definition": "the papers people use to vote"
+          },
+          {
+            "term": "queues",
+            "definition": "lines of people waiting for something"
+          },
+          {
+            "term": "stepped up",
+            "definition": "increased something or made it stronger"
+          },
+          {
+            "term": "settled",
+            "definition": "started to live in a place permanently"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:52",
+      "headline": "Pellegrini doufá, že Ficova slova o článku 5 byla jen apelem",
+      "body": "Slovenský prezident Peter Pellegrini doufá, že slova tamního premiéra Roberta Fica o článku 5 smlouvy NATO byla jen apelem, aby členské země „nedráždily Rusko“ a aby nedošlo k útoku na aliančního partnera. Slovensko má podle něj jako členská země NATO i povinnosti a nemůže vysílat signály, že se v případě konfliktu bude držet stranou. Fico podle Seznam Zpráv varoval, že selhání podpory Kyjeva vede některé západní lídry k vyvolání války mezi NATO a Ruskem, a odmítá, aby byli slovenští vojáci zataženi do bojů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190075/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nekteri-zapadni-politici-usiluji-o-konflikt-mezi-nato-a-ruskem-rekl-fico-315747"
+        }
+      ],
+      "en": {
+        "headline": "Pellegrini hopes Fico's words about Article 5 were only an appeal",
+        "sentences": [
+          {
+            "en": "Slovak President Peter Pellegrini hopes that the words of Prime Minister Robert Fico about Article 5 of the NATO treaty were only an appeal for member states not to “provoke Russia” and to prevent an attack on an allied partner.",
+            "cs": "Slovenský prezident Peter Pellegrini doufá, že slova tamního premiéra Roberta Fica o článku 5 smlouvy NATO byla jen apelem, aby členské země „nedráždily Rusko“ a aby nedošlo k útoku na aliančního partnera."
+          },
+          {
+            "en": "As a NATO member state, he said, Slovakia also has obligations and cannot send signals that it will stand aside in the event of a conflict.",
+            "cs": "Slovensko má podle něj jako členská země NATO i povinnosti a nemůže vysílat signály, že se v případě konfliktu bude držet stranou."
+          },
+          {
+            "en": "According to Seznam Zprávy, Fico warned that the failure to support Kyiv is leading some Western politicians to push for a war between NATO and Russia, and he rejects Slovak soldiers being dragged into the fighting.",
+            "cs": "Fico podle Seznam Zpráv varoval, že selhání podpory Kyjeva vede některé západní lídry k vyvolání války mezi NATO a Ruskem, a odmítá, aby byli slovenští vojáci zataženi do bojů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "obligations",
+            "definition": "things you must do because of a law or a promise"
+          },
+          {
+            "term": "stand aside",
+            "definition": "to take no part in something that is happening"
+          },
+          {
+            "term": "dragged into",
+            "definition": "forced to take part in something you wanted to avoid"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:04",
+      "headline": "Severní Korea odpálila do moře balistickou střelu",
+      "body": "Severní Korea v neděli odpálila do moře východně od Korejského poloostrova raketu. Podle japonského ministerstva obrany šlo o balistickou střelu, jihokorejské ministerstvo obrany mluvilo o neidentifikovaném projektilu. Japonská televize NHK informovala, že střela dopadla mimo japonskou výlučnou ekonomickou zónu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189972/"
+        }
+      ],
+      "en": {
+        "headline": "North Korea fired a ballistic missile into the sea",
+        "sentences": [
+          {
+            "en": "North Korea fired a missile into the sea east of the Korean Peninsula on Sunday.",
+            "cs": "Severní Korea v neděli odpálila do moře východně od Korejského poloostrova raketu."
+          },
+          {
+            "en": "According to Japan's defence ministry it was a ballistic missile, while South Korea's defence ministry spoke of an unidentified projectile.",
+            "cs": "Podle japonského ministerstva obrany šlo o balistickou střelu, jihokorejské ministerstvo obrany mluvilo o neidentifikovaném projektilu."
+          },
+          {
+            "en": "Japanese television NHK reported that the missile fell outside Japan's exclusive economic zone.",
+            "cs": "Japonská televize NHK informovala, že střela dopadla mimo japonskou výlučnou ekonomickou zónu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that flies high and then falls on its target"
+          },
+          {
+            "term": "projectile",
+            "definition": "an object that is fired or thrown through the air"
+          },
+          {
+            "term": "unidentified",
+            "definition": "not recognised or named"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:53",
+      "headline": "Vláda v pondělí oznámí opatření proti drahé naftě a benzinu",
+      "body": "Vláda už má připravená opatření proti vysokým cenám pohonných hmot a konkrétní kroky oznámí po pondělním jednání kabinetu. V pořadu Partie televize Prima News to řekl ministr průmyslu a obchodu Karel Havlíček (ANO). Nafta i benzin podle iROZHLASU v posledních týdnech prudce zdražují kvůli další eskalaci konfliktu na Blízkém východě i kvůli nedostatečným kapacitám rafinerií. Kabinet letos podle Seznam Zpráv už jednou zavedl cenové stropy a dočasně snížil spotřební daň z nafty. Havlíček dodal, že zásobníky plynu v Česku jsou plné ze 74 procent, zhruba o pětinu méně než před rokem, nedostatek ale podle něj nehrozí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/vlada-pripravila-kroky-proti-drahym-palivum-uvedl-havlicek-predstavi-je-v_2609201253_lhv"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-vlada-pripravila-opatreni-proti-drahym-palivum-oznami-je-zitra-rekl-havlicek-315758"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190084/"
+        }
+      ],
+      "en": {
+        "headline": "The government will announce measures against expensive diesel and petrol on Monday",
+        "sentences": [
+          {
+            "en": "The government already has measures against high fuel prices ready and will announce the specific steps after Monday's cabinet meeting.",
+            "cs": "Vláda už má připravená opatření proti vysokým cenám pohonných hmot a konkrétní kroky oznámí po pondělním jednání kabinetu."
+          },
+          {
+            "en": "Minister of Industry and Trade Karel Havlíček (ANO) said so on the programme Partie on Prima News television.",
+            "cs": "V pořadu Partie televize Prima News to řekl ministr průmyslu a obchodu Karel Havlíček (ANO)."
+          },
+          {
+            "en": "According to iROZHLAS, diesel and petrol have risen sharply in recent weeks because of further escalation of the conflict in the Middle East and because of insufficient refinery capacity.",
+            "cs": "Nafta i benzin podle iROZHLASU v posledních týdnech prudce zdražují kvůli další eskalaci konfliktu na Blízkém východě i kvůli nedostatečným kapacitám rafinerií."
+          },
+          {
+            "en": "According to Seznam Zprávy, the cabinet has already introduced price caps once this year and temporarily cut the excise duty on diesel.",
+            "cs": "Kabinet letos podle Seznam Zpráv už jednou zavedl cenové stropy a dočasně snížil spotřební daň z nafty."
+          },
+          {
+            "en": "Havlíček added that gas storage in Czechia is 74 percent full, about a fifth less than a year ago, but that in his view no shortage is looming.",
+            "cs": "Havlíček dodal, že zásobníky plynu v Česku jsou plné ze 74 procent, zhruba o pětinu méně než před rokem, nedostatek ale podle něj nehrozí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "escalation",
+            "definition": "a situation becoming more serious or more intense"
+          },
+          {
+            "term": "price caps",
+            "definition": "limits on how high a price is allowed to go"
+          },
+          {
+            "term": "excise duty",
+            "definition": "a tax on certain goods sold inside a country"
+          },
+          {
+            "term": "looming",
+            "definition": "likely to happen soon and worrying"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:48",
+      "headline": "Šéf Škody Auto Klaus Zellmer odchází do čela Volva",
+      "body": "Generální ředitel Škody Auto Klaus Zellmer v nejbližších měsících končí a odejde i z koncernu Volkswagen. Povede automobilku Volvo Cars, která patří čínské skupině Geely. V čele Škody stál od července 2022, podle E15 se značce pod jeho vedením dařilo a s jeho odchodem se nepočítalo, koncern mu nedávno prodloužil smlouvu. Volvo Cars podle agentury Reuters uvedlo, že Zellmer nastoupí do funkce prezidenta a generálního ředitele do konce měsíce; Seznam Zprávy naproti tomu píší, že značku začne vést nejpozději za rok.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/sef-skody-auto-konci-jde-pomoci-cinanum-ozivit-slavnou-svedskou-znacku-1435921"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-sef-skody-skonci-klaus-zellmer-bude-reditelem-volva-315766"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2190108/"
+        }
+      ],
+      "en": {
+        "headline": "Škoda Auto boss Klaus Zellmer is leaving to head Volvo",
+        "sentences": [
+          {
+            "en": "Škoda Auto chief executive Klaus Zellmer will leave in the coming months and will also leave the Volkswagen group.",
+            "cs": "Generální ředitel Škody Auto Klaus Zellmer v nejbližších měsících končí a odejde i z koncernu Volkswagen."
+          },
+          {
+            "en": "He will run the carmaker Volvo Cars, which belongs to the Chinese group Geely.",
+            "cs": "Povede automobilku Volvo Cars, která patří čínské skupině Geely."
+          },
+          {
+            "en": "He had led Škoda since July 2022; according to E15 the brand did well under him and his departure was not expected, as the group recently extended his contract.",
+            "cs": "V čele Škody stál od července 2022, podle E15 se značce pod jeho vedením dařilo a s jeho odchodem se nepočítalo, koncern mu nedávno prodloužil smlouvu."
+          },
+          {
+            "en": "According to the Reuters agency, Volvo Cars said that Zellmer would take up the post of president and chief executive by the end of the month; Seznam Zprávy, on the other hand, writes that he will start running the brand within a year at the latest.",
+            "cs": "Volvo Cars podle agentury Reuters uvedlo, že Zellmer nastoupí do funkce prezidenta a generálního ředitele do konce měsíce; Seznam Zprávy naproti tomu píší, že značku začne vést nejpozději za rok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "carmaker",
+            "definition": "a company that makes cars"
+          },
+          {
+            "term": "departure",
+            "definition": "the act of leaving a job or a place"
+          },
+          {
+            "term": "take up",
+            "definition": "to start doing a job or an activity"
+          },
+          {
+            "term": "at the latest",
+            "definition": "no later than the time mentioned"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:05",
+      "headline": "Vláda v pondělí rozhodne o valorizaci důchodů, může být nejnižší za deset let",
+      "body": "Vláda by měla v pondělí rozhodnout o výši lednového zvýšení důchodů. Podle zveřejněného návrhu ministerstva práce a sociálních věcí by valorizace neměla výrazně překročit minimální výši stanovenou zákonem. V takovém případě by šlo o nejnižší valorizaci za posledních deset let, píše Deník.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/ekonomika/valorizace-duchodu-duchod-zvyseni-o-kolik-korun/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika"
+        }
+      ],
+      "en": {
+        "headline": "The government will decide on Monday about the pension increase, which may be the lowest in ten years",
+        "sentences": [
+          {
+            "en": "The government is due to decide on Monday how much pensions will go up in January.",
+            "cs": "Vláda by měla v pondělí rozhodnout o výši lednového zvýšení důchodů."
+          },
+          {
+            "en": "Under the published proposal from the Ministry of Labour and Social Affairs, the increase should not go much above the minimum set by law.",
+            "cs": "Podle zveřejněného návrhu ministerstva práce a sociálních věcí by valorizace neměla výrazně překročit minimální výši stanovenou zákonem."
+          },
+          {
+            "en": "In that case it would be the lowest pension increase in the past ten years, Deník writes.",
+            "cs": "V takovém případě by šlo o nejnižší valorizaci za posledních deset let, píše Deník."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pensions",
+            "definition": "money paid regularly to people who have stopped working because of age"
+          },
+          {
+            "term": "due to",
+            "definition": "expected to happen at a particular time"
+          },
+          {
+            "term": "proposal",
+            "definition": "a plan or suggestion put forward officially"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:00",
+      "headline": "Šéfové předních AI firem se shodli, že je třeba zastavit bezhlavý závod",
+      "body": "„Musíme zastavit bezhlavý AI závod,“ shodli se podle Seznam Zpráv šéfové předních firem, které vyvíjejí umělou inteligenci. Na stole je návrh nezávislých dozorců, není ale jasné, co se z něj nakonec podaří prosadit.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ai-se-utrhla-ze-retezu-firmy-slibuji-zpomalit-draky-vsak-krmi-dal-315447"
+        }
+      ],
+      "en": {
+        "headline": "The heads of leading AI firms agreed that the headlong race has to stop",
+        "sentences": [
+          {
+            "en": "“We have to stop the headlong AI race,” the heads of the leading companies developing artificial intelligence agreed, according to Seznam Zprávy.",
+            "cs": "„Musíme zastavit bezhlavý AI závod,“ shodli se podle Seznam Zpráv šéfové předních firem, které vyvíjejí umělou inteligenci."
+          },
+          {
+            "en": "A proposal from independent watchdogs is on the table, but it is not clear how much of it will actually be pushed through.",
+            "cs": "Na stole je návrh nezávislých dozorců, není ale jasné, co se z něj nakonec podaří prosadit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "headlong",
+            "definition": "done very fast and without careful thought"
+          },
+          {
+            "term": "watchdogs",
+            "definition": "people or groups that check whether companies behave properly"
+          },
+          {
+            "term": "pushed through",
+            "definition": "made officially accepted despite difficulties"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "05:00",
+      "headline": "Vývoj léků se opírá o AI od hrstky technologických firem, varuje newsletter 11am",
+      "body": "Na vývoji léčiv se stále více podílejí technologické firmy, které farmaceutickým společnostem poskytují specializované AI modely a výpočetní kapacitu. Umělá inteligence tak vývoj léků zrychluje a snižuje jeho náklady. Koncentrace této nové infrastruktury v rukou jen několika velkých technologických společností ale podle businessového newsletteru 11am nese riziko, že se výrobci léků dostanou do područí svých dodavatelů.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/ai-zrychluje-vyvoj-leku-a-snizuje-naklady-jejich-vyrobcum-ale-hrozi-velka-rizika-1435917"
+        }
+      ],
+      "en": {
+        "headline": "Drug development relies on AI from a handful of technology firms, the 11am newsletter warns",
+        "sentences": [
+          {
+            "en": "Technology companies are playing an ever larger part in drug development, supplying pharmaceutical firms with specialised AI models and computing capacity.",
+            "cs": "Na vývoji léčiv se stále více podílejí technologické firmy, které farmaceutickým společnostem poskytují specializované AI modely a výpočetní kapacitu."
+          },
+          {
+            "en": "Artificial intelligence is thus speeding up the development of medicines and cutting its cost.",
+            "cs": "Umělá inteligence tak vývoj léků zrychluje a snižuje jeho náklady."
+          },
+          {
+            "en": "But the concentration of this new infrastructure in the hands of only a few big technology companies carries the risk that drug makers will end up dependent on their suppliers, according to the business newsletter 11am.",
+            "cs": "Koncentrace této nové infrastruktury v rukou jen několika velkých technologických společností ale podle businessového newsletteru 11am nese riziko, že se výrobci léků dostanou do područí svých dodavatelů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "a handful of",
+            "definition": "a small number of"
+          },
+          {
+            "term": "pharmaceutical",
+            "definition": "connected with making and selling medicines"
+          },
+          {
+            "term": "suppliers",
+            "definition": "companies that provide goods or services to others"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:09",
+      "headline": "Qwen představil nový model pro tvorbu obrázků Qwen-Image-2.1",
+      "body": "Qwen zveřejnil model Qwen-Image-2.1 pro tvorbu obrázků. Popisuje ho jako kompaktní, efektivní a sjednocený nástroj.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1"
+        }
+      ],
+      "en": {
+        "headline": "Qwen has presented a new image-making model, Qwen-Image-2.1",
+        "sentences": [
+          {
+            "en": "Qwen has released the Qwen-Image-2.1 model for creating images.",
+            "cs": "Qwen zveřejnil model Qwen-Image-2.1 pro tvorbu obrázků."
+          },
+          {
+            "en": "It describes the model as compact, efficient and unified.",
+            "cs": "Popisuje ho jako kompaktní, efektivní a sjednocený nástroj."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compact",
+            "definition": "small, but containing everything that is needed"
+          },
+          {
+            "term": "unified",
+            "definition": "joined together into a single system"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "10:26",
+      "headline": "Ed Sheeran se omluvil za to, jak řešil odvolání Macklemora z turné",
+      "body": "Britský zpěvák Ed Sheeran se omluvil za to, jak se postavil k odvolání předskokana Macklemora ze svého turné kvůli propalestinským komentářům. Chování Izraele vůči Palestincům v Gaze označil za „neospravedlnitelné“. „Musel jsem udělat těžká rozhodnutí a dělám chyby. Moc se omlouvám,“ řekl Sheeran na sobotním koncertě v americké Filadelfii, kde vystoupil poprvé od doby, co byl Macklemore z programu turné vyřazen.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-ed-sheeran-gaza-omluva-315751"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2189913/"
+        }
+      ],
+      "en": {
+        "headline": "Ed Sheeran has apologised for the way he handled Macklemore's removal from his tour",
+        "sentences": [
+          {
+            "en": "British singer Ed Sheeran has apologised for the way he handled the removal of his support act Macklemore from his tour over pro-Palestinian comments.",
+            "cs": "Britský zpěvák Ed Sheeran se omluvil za to, jak se postavil k odvolání předskokana Macklemora ze svého turné kvůli propalestinským komentářům."
+          },
+          {
+            "en": "He called Israel's behaviour towards Palestinians in Gaza “unjustifiable”.",
+            "cs": "Chování Izraele vůči Palestincům v Gaze označil za „neospravedlnitelné“."
+          },
+          {
+            "en": "“I have had to make hard decisions and I make mistakes. I am very sorry,” Sheeran said at Saturday's concert in Philadelphia in the United States, where he performed for the first time since Macklemore was dropped from the tour programme.",
+            "cs": "„Musel jsem udělat těžká rozhodnutí a dělám chyby. Moc se omlouvám,“ řekl Sheeran na sobotním koncertě v americké Filadelfii, kde vystoupil poprvé od doby, co byl Macklemore z programu turné vyřazen."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "support act",
+            "definition": "a performer who plays before the main act at a concert"
+          },
+          {
+            "term": "unjustifiable",
+            "definition": "impossible to defend or excuse"
+          },
+          {
+            "term": "dropped",
+            "definition": "removed from a team, a programme or a plan"
+          },
+          {
+            "term": "removal",
+            "definition": "the act of taking someone or something away"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:05",
+      "headline": "Rusko nasadilo novou generaci proudových dronů, píše Info.cz",
+      "body": "Pomalé ruské drony, které šlo s trochou cviku sestřelit kulometem z korby pick-upu, jsou podle webu Info.cz minulostí. Rusko nasadilo novou generaci proudových strojů: typy jako Geran-5 létají vysoko, extrémně rychle a nesou masivní nálože. Technologický skok podle textu nutí Kyjev od základu překopat protivzdušnou obranu.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/nazory-a-analyzy/rusove-presli-z-vysmivanych-mopedu-na-smrtici-mix-dronu-ukrajina-musela-reagovat-1435902"
+        }
+      ],
+      "en": {
+        "headline": "Russia has deployed a new generation of jet-powered drones, Info.cz writes",
+        "sentences": [
+          {
+            "en": "The slow Russian drones that could, with a bit of practice, be shot down by a machine gun from the back of a pick-up are a thing of the past, according to the Info.cz website.",
+            "cs": "Pomalé ruské drony, které šlo s trochou cviku sestřelit kulometem z korby pick-upu, jsou podle webu Info.cz minulostí."
+          },
+          {
+            "en": "Russia has deployed a new generation of jet-powered machines: types such as the Geran-5 fly high, extremely fast, and carry massive warheads.",
+            "cs": "Rusko nasadilo novou generaci proudových strojů: typy jako Geran-5 létají vysoko, extrémně rychle a nesou masivní nálože."
+          },
+          {
+            "en": "That technological leap is forcing Kyiv to rebuild its air defence from the ground up, the article says.",
+            "cs": "Technologický skok podle textu nutí Kyjev od základu překopat protivzdušnou obranu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "a thing of the past",
+            "definition": "something that no longer exists or happens"
+          },
+          {
+            "term": "warheads",
+            "definition": "the explosive parts at the front of missiles"
+          },
+          {
+            "term": "deployed",
+            "definition": "put into use, especially by an army"
+          },
+          {
+            "term": "from the ground up",
+            "definition": "completely, starting again from the beginning"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:24",
+      "headline": "Tenisté porazili v Davis Cupu USA 3:2 a postoupili na finálový turnaj do Boloně",
+      "body": "Čeští tenisté vyhráli v Praze nad USA 3:2 a postoupili na finálový turnaj Davisova poháru, který se hraje v listopadu v Boloni. Postup stvrdil sobotní výhrou nad Learnerem Tienem Jiří Lehečka, jenž zápas označil za jeden z emočně nejtěžších v kariéře. Kapitán Tomáš Berdych řekl, že největší odměnou pro něj byl pocit euforie před zaplněnou O2 arenou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/emocne-jeden-z-nejtezsich-zapasu-v-kariere-hodnoti-lehecka-159042"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/berdych-kluci-maji-na-cem-stavet-a-ja-se-jim-to-budu-snazit-co-nejvic-ulehcit-159039"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-davis-cup-jedno-tema-uz-bylo-tabu-taky-nekomentujeme-veci-do-kterych-nevidime-ozval-se-berdych-5539469"
+        }
+      ],
+      "en": {
+        "headline": "The tennis players beat the USA 3:2 in the Davis Cup and advanced to the final tournament in Bologna",
+        "sentences": [
+          {
+            "en": "The Czech tennis players beat the USA 3:2 in Prague and advanced to the final tournament of the Davis Cup, which will be played in Bologna in November.",
+            "cs": "Čeští tenisté vyhráli v Praze nad USA 3:2 a postoupili na finálový turnaj Davisova poháru, který se hraje v listopadu v Boloni."
+          },
+          {
+            "en": "Jiří Lehečka sealed the advance with Saturday's win over Learner Tien, a match he described as one of the emotionally hardest of his career.",
+            "cs": "Postup stvrdil sobotní výhrou nad Learnerem Tienem Jiří Lehečka, jenž zápas označil za jeden z emočně nejtěžších v kariéře."
+          },
+          {
+            "en": "Captain Tomáš Berdych said the greatest reward for him was the feeling of euphoria in front of a packed O2 arena.",
+            "cs": "Kapitán Tomáš Berdych řekl, že největší odměnou pro něj byl pocit euforie před zaplněnou O2 arenou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sealed",
+            "definition": "made something certain or final"
+          },
+          {
+            "term": "euphoria",
+            "definition": "a feeling of great happiness and excitement"
+          },
+          {
+            "term": "packed",
+            "definition": "completely full of people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:59",
+      "headline": "Sparta vyhrála v Olomouci 3:0, Jablonec se Zlínem remizoval",
+      "body": "Fotbalisté Sparty zvítězili v 9. kole první ligy na hřišti Olomouce 3:0 a posunuli se na sedmé místo, na čtvrtou Sigmu ztrácejí jediný bod. V první půli je poslal do vedení parádní střelou John Mercado, po přestávce přidali gól po vlastní trefě domácích a výhru stvrdila letní posila Ebrima Singhateh. Jablonec remizoval se Zlínem 1:1; hosty poslal ve třetí minutě do vedení Daniel Šmiga, bod domácím zachránil v 90. minutě Garang Kuol. Kolo uzavře večerní zápas Slavie s Plzní.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-uspela-v-olomouci-mercado-ji-nastartoval-paradni-trefou-5539717"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-kuol-zachranil-jablonec-zlin-se-dockal-prvniho-bodu-5539737"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/teplice-uloupily-body-v-hradci-kralove-159052"
+        }
+      ],
+      "en": {
+        "headline": "Sparta won 3:0 in Olomouc and Jablonec drew with Zlín",
+        "sentences": [
+          {
+            "en": "Sparta's footballers won 3:0 away at Olomouc in the 9th round of the top league and moved up to seventh place, one point behind fourth-placed Sigma.",
+            "cs": "Fotbalisté Sparty zvítězili v 9. kole první ligy na hřišti Olomouce 3:0 a posunuli se na sedmé místo, na čtvrtou Sigmu ztrácejí jediný bod."
+          },
+          {
+            "en": "John Mercado put them ahead in the first half with a superb shot, after the break they added a goal from an own goal by the home side, and summer signing Ebrima Singhateh sealed the win.",
+            "cs": "V první půli je poslal do vedení parádní střelou John Mercado, po přestávce přidali gól po vlastní trefě domácích a výhru stvrdila letní posila Ebrima Singhateh."
+          },
+          {
+            "en": "Jablonec drew 1:1 with Zlín; Daniel Šmiga put the visitors ahead in the third minute and Garang Kuol saved a point for the hosts in the 90th minute.",
+            "cs": "Jablonec remizoval se Zlínem 1:1; hosty poslal ve třetí minutě do vedení Daniel Šmiga, bod domácím zachránil v 90. minutě Garang Kuol."
+          },
+          {
+            "en": "The round will close with the evening match between Slavia and Plzeň.",
+            "cs": "Kolo uzavře večerní zápas Slavie s Plzní."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "signing",
+            "definition": "a player who has just joined a club"
+          },
+          {
+            "term": "own goal",
+            "definition": "a goal a player scores by mistake against their own team"
+          },
+          {
+            "term": "hosts",
+            "definition": "in sport, the team playing at its own ground"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:45",
+      "headline": "Salač dojel v Moto2 na Velké ceně Rakouska druhý",
+      "body": "Filip Salač obsadil v motocyklové Velké ceně Rakouska druhé místo. Po sobotním vítězství v kvalifikaci nestačil v závodě Moto2 jen na Španěla Izana Guevaru, za nímž zaostal o 1,728 sekundy, a počtvrté v sezoně se dostal na stupně vítězů. V královské třídě MotoGP se premiérového triumfu dočkal Španěl Pedro Acosta.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/salac-dojel-na-velke-cene-rakouska-druhy-cesky-motocyklista-nestacil-ve-tride_2609201309_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/salac-v-rakousku-vybojoval-druhe-misto-na-guevaru-nestacil-159048"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-motocykly-zlaty-hattrick-v-rakousku-nezavrsil-presto-si-salac-vyjel-stupne-vitezu-5539439"
+        }
+      ],
+      "en": {
+        "headline": "Salač finished second in Moto2 at the Austrian Grand Prix",
+        "sentences": [
+          {
+            "en": "Filip Salač took second place at the Austrian motorcycling Grand Prix.",
+            "cs": "Filip Salač obsadil v motocyklové Velké ceně Rakouska druhé místo."
+          },
+          {
+            "en": "After winning qualifying on Saturday, the only rider he could not match in the Moto2 race was Spain's Izan Guevara, finishing 1.728 seconds behind him, and he reached the podium for the fourth time this season.",
+            "cs": "Po sobotním vítězství v kvalifikaci nestačil v závodě Moto2 jen na Španěla Izana Guevaru, za nímž zaostal o 1,728 sekundy, a počtvrté v sezoně se dostal na stupně vítězů."
+          },
+          {
+            "en": "In the premier MotoGP class, Spain's Pedro Acosta took his first ever win.",
+            "cs": "V královské třídě MotoGP se premiérového triumfu dočkal Španěl Pedro Acosta."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "qualifying",
+            "definition": "the session that decides the starting order of a race"
+          },
+          {
+            "term": "podium",
+            "definition": "the platform where the first three finishers stand"
+          },
+          {
+            "term": "premier",
+            "definition": "best or most important"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:09",
+      "headline": "Stříteský vyhrál Rallye Pačejov a získal druhý mistrovský titul",
+      "body": "Dominik Stříteský ovládl závěrečnou Rallye Pačejov a podruhé v kariéře se stal mistrem České republiky v automobilových soutěžích. Druhý dojel s odstupem 2,4 sekundy Filip Mareš, jenž je druhý i celkově, třetí místo obsadil Jan Kopecký. Stříteský letos musel po vážné nehodě na Polské rallye vynechat nejlépe bodovanou soutěž seriálu, Barum rallye Zlín.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-rallye-stritesky-ovladl-rallye-pacejov-a-podruhe-slavi-domaci-mistrovsky-titul-5539487"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/druhy-titul-v-kariere-stritesky-si-pomohl-triumfem-v-rallye-pacejov-159050"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-rallye-nezastavilo-ho-ani-vazne-zraneni-kvuli-nemu-byl-zisk-druheho-titulu-slozitejsi-rekl-stritesky-5539716"
+        }
+      ],
+      "en": {
+        "headline": "Stříteský won the Rallye Pačejov and took his second championship title",
+        "sentences": [
+          {
+            "en": "Dominik Stříteský won the closing Rallye Pačejov and became Czech champion in rallying for the second time in his career.",
+            "cs": "Dominik Stříteský ovládl závěrečnou Rallye Pačejov a podruhé v kariéře se stal mistrem České republiky v automobilových soutěžích."
+          },
+          {
+            "en": "Filip Mareš finished second, 2.4 seconds behind, and is second overall as well, while Jan Kopecký took third place.",
+            "cs": "Druhý dojel s odstupem 2,4 sekundy Filip Mareš, jenž je druhý i celkově, třetí místo obsadil Jan Kopecký."
+          },
+          {
+            "en": "After a serious crash at the Polish rally this year, Stříteský had to miss the highest-scoring event of the series, the Barum rally in Zlín.",
+            "cs": "Stříteský letos musel po vážné nehodě na Polské rallye vynechat nejlépe bodovanou soutěž seriálu, Barum rallye Zlín."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rallying",
+            "definition": "the sport of racing cars on public roads or rough tracks"
+          },
+          {
+            "term": "overall",
+            "definition": "counting everything together"
+          },
+          {
+            "term": "crash",
+            "definition": "an accident in which a vehicle hits something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:59",
+      "headline": "Glasgowské derby rozhodl Ryan Naderi, možná budoucí český reprezentant",
+      "body": "Rangers zvítězili v glasgowském derby nad Celtikem 1:0 jediným gólem třiadvacetiletého Ryana Naderiho. Vedoucí tým skotské ligy tak v 7. kole poprvé v sezoně ztratil body. Na Naderiho, který se narodil v Německu, čeká česká reprezentace, až se vyřídí všechny náležitosti, aby mohl obléknout český dres.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/budouci-cesky-reprezentant-naderi-rozhodl-glasgowske-derby-159055"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-evropska-liga-potencialni-cesky-reprezentant-rozhodl-slavne-derby-5539699"
+        }
+      ],
+      "en": {
+        "headline": "The Glasgow derby was decided by Ryan Naderi, a possible future Czech international",
+        "sentences": [
+          {
+            "en": "Rangers won the Glasgow derby 1:0 against Celtic thanks to a single goal by the 23-year-old Ryan Naderi.",
+            "cs": "Rangers zvítězili v glasgowském derby nad Celtikem 1:0 jediným gólem třiadvacetiletého Ryana Naderiho."
+          },
+          {
+            "en": "The leaders of the Scottish league thus lost points for the first time this season, in the 7th round.",
+            "cs": "Vedoucí tým skotské ligy tak v 7. kole poprvé v sezoně ztratil body."
+          },
+          {
+            "en": "The Czech national team is waiting for Naderi, who was born in Germany, until all the formalities are settled so that he can wear the Czech shirt.",
+            "cs": "Na Naderiho, který se narodil v Německu, čeká česká reprezentace, až se vyřídí všechny náležitosti, aby mohl obléknout český dres."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "derby",
+            "definition": "a match between two teams from the same city"
+          },
+          {
+            "term": "formalities",
+            "definition": "official steps that have to be completed"
+          },
+          {
+            "term": "international",
+            "definition": "a player who plays for their national team"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:05",
+      "headline": "Švéd Almgren vyhrál mistrovství světa v půlmaratonu v evropském rekordu",
+      "body": "Andreas Almgren se v Kodani stal časem 58:06 mistrem světa v půlmaratonu. Jednatřicetiletý švédský vytrvalec vylepšil o 35 sekund vlastní kontinentální maximum z loňského roku a na šampionátu ukončil po třiceti letech nadvládu afrických běžců.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/atletika-sved-almgren-se-v-evropskem-rekordu-stal-mistrem-sveta-v-pulmaratonu-5539434"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/atletika/sved-almgren-ukoncil-na-ms-v-pulmaratonu-nadvladu-africanu-159046"
+        }
+      ],
+      "en": {
+        "headline": "Sweden's Almgren won the world half marathon title in a European record",
+        "sentences": [
+          {
+            "en": "Andreas Almgren became world half marathon champion in Copenhagen with a time of 58:06.",
+            "cs": "Andreas Almgren se v Kodani stal časem 58:06 mistrem světa v půlmaratonu."
+          },
+          {
+            "en": "The 31-year-old Swedish distance runner improved his own continental best from last year by 35 seconds and ended thirty years of African dominance at the championships.",
+            "cs": "Jednatřicetiletý švédský vytrvalec vylepšil o 35 sekund vlastní kontinentální maximum z loňského roku a na šampionátu ukončil po třiceti letech nadvládu afrických běžců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "distance runner",
+            "definition": "an athlete who races over long distances"
+          },
+          {
+            "term": "dominance",
+            "definition": "being stronger or more successful than everyone else"
+          },
+          {
+            "term": "continental",
+            "definition": "relating to a whole continent"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Ministers for the Motoristé and SPD will back the government's draft budget on Monday, which is set to carry the second largest deficit in Czech history.",
+    "Prime Minister Andrej Babiš stands by his criticism of the judiciary and has invited judges from the Judges' Union to the Government Office.",
+    "According to Moscow's mayor, Ukraine has carried out the largest drone attack yet on the Russian capital, and Zelensky says a refinery was hit.",
+    "The Czech tennis players beat the USA 3:2 in the Davis Cup and advanced to November's final tournament in Bologna."
+  ]
+}
