@@ -1,0 +1,1346 @@
+{
+  "date": "2026-09-22",
+  "covers": "2026-09-22",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "ČT24"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra bude mlhavo, přes den až 16 °C a beze srážek. Ráno klesne teplota k šesti stupňům, kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-09-23",
+        "icon": "fog",
+        "temp_max_c": 16.1,
+        "temp_min_c": 5.8
+      },
+      {
+        "date": "2026-09-24",
+        "icon": "rain",
+        "temp_max_c": 13.8,
+        "temp_min_c": 7.9
+      },
+      {
+        "date": "2026-09-25",
+        "icon": "rain",
+        "temp_max_c": 14.3,
+        "temp_min_c": 10.8
+      },
+      {
+        "date": "2026-09-26",
+        "icon": "cloudy",
+        "temp_max_c": 17.5,
+        "temp_min_c": 9.7
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy, up to 16 °C during the day and with no rain. In the morning the temperature will drop to around six degrees, and air quality should be acceptable."
+  },
+  "highlights": [
+    "Ke kritice výroků premiéra Andreje Babiše o justici se přidala Česká advokátní komora.",
+    "Kriminalisté zasahovali v sídle Akademie věd kvůli podezření z fiktivních dohod o provedení práce.",
+    "Nafta v Česku podle Eurostatu zdražila v srpnu o 14,3 procenta, nejvíce ze všech zemí Evropské unie."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:04",
+      "headline": "Česká advokátní komora se přidala ke kritice Babišových výroků o justici",
+      "body": "Česká advokátní komora se v úterý připojila ke kritice výroků premiéra Andreje Babiše (ANO) o justici a podpořila tím Soudcovskou unii. Premiérova slova označila za nepatřičná a nevhodná. V tiskové zprávě uvedla, že podle principů dělby moci nemá výkonná moc vstupovat do rozhodování moci soudní a že kritizovat justici je namístě pouze tehdy, když je konstruktivní a zakládá se na doložitelných datech. Podle Seznam Zpráv komora odmítla zejména premiérova slova o mafii a o rozhodování bez důkazů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/nevhodne-a-nepatricne-ceska-advokatni-komora-podporila-soudcovskou-unii-proti_2609221350_raf"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-jsou-nepatricne-zkritizovala-babisovy-vyroky-o-justici-ceska-advokatni-komora-315925"
+        }
+      ],
+      "en": {
+        "headline": "The Czech Bar Association has joined the criticism of Babiš's remarks about the judiciary",
+        "sentences": [
+          {
+            "en": "The Czech Bar Association joined the criticism of Prime Minister Andrej Babiš's (ANO) remarks about the judiciary on Tuesday, and in doing so backed the Judges' Union.",
+            "cs": "Česká advokátní komora se v úterý připojila ke kritice výroků premiéra Andreje Babiše (ANO) o justici a podpořila tím Soudcovskou unii."
+          },
+          {
+            "en": "It called the prime minister's words unbecoming and inappropriate.",
+            "cs": "Premiérova slova označila za nepatřičná a nevhodná."
+          },
+          {
+            "en": "In a press release it said that under the principles of the separation of powers the executive must not intervene in the decision-making of the courts, and that criticising the judiciary is warranted only when it is constructive and rests on verifiable data.",
+            "cs": "V tiskové zprávě uvedla, že podle principů dělby moci nemá výkonná moc vstupovat do rozhodování moci soudní a že kritizovat justici je namístě pouze tehdy, když je konstruktivní a zakládá se na doložitelných datech."
+          },
+          {
+            "en": "According to Seznam Zprávy, the association objected above all to the prime minister's words about a mafia and about rulings handed down without evidence.",
+            "cs": "Podle Seznam Zpráv komora odmítla zejména premiérova slova o mafii a o rozhodování bez důkazů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "judiciary",
+            "definition": "the system of courts and judges in a country"
+          },
+          {
+            "term": "unbecoming",
+            "definition": "not suitable or proper for someone in an important position"
+          },
+          {
+            "term": "warranted",
+            "definition": "justified, with a good reason behind it"
+          },
+          {
+            "term": "handed down",
+            "definition": "officially given, usually about a court decision"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:04",
+      "headline": "Policie zasahovala v sídle Akademie věd kvůli podezření z fiktivních faktur",
+      "body": "Kriminalisté od rána zasahovali v sídle Akademie věd v centru Prahy, kde shromažďovali dokumenty a faktury. Podle zdrojů Deníku N jde o podezření z fiktivních dohod o provedení práce v podpůrném středisku akademie.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2191894/policie-zasahuje-v-sidle-akademie-ved-jde-po-fiktivnich-fakturach/"
+        }
+      ],
+      "en": {
+        "headline": "Police searched the headquarters of the Academy of Sciences over suspected fictitious invoices",
+        "sentences": [
+          {
+            "en": "Detectives spent the morning at the headquarters of the Academy of Sciences in central Prague, where they collected documents and invoices.",
+            "cs": "Kriminalisté od rána zasahovali v sídle Akademie věd v centru Prahy, kde shromažďovali dokumenty a faktury."
+          },
+          {
+            "en": "According to Deník N's sources, the case involves suspected fictitious work-performance agreements at one of the academy's support centres.",
+            "cs": "Podle zdrojů Deníku N jde o podezření z fiktivních dohod o provedení práce v podpůrném středisku akademie."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "invoices",
+            "definition": "papers that list goods or work done and the money owed for them"
+          },
+          {
+            "term": "fictitious",
+            "definition": "invented and not real"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:32",
+      "headline": "Ministerstvo spravedlnosti omylem zpřístupnilo rodná čísla v testovací verzi obchodního rejstříku",
+      "body": "Ministerstvo spravedlnosti minulý týden vypnulo testovací verzi nového obchodního rejstříku poté, co ho redakce iROZHLASU upozornila na podnět uživatele, že systém umožňuje přístup k rodným číslům lidí zapsaných u některých právnických osob. Podle Seznam Zpráv byly omylem dostupné i neveřejné listiny. Advokát Jan Vobořil k tomu pro Radiožurnál řekl, že citlivost osobních údajů dnes není ani tak v jednom konkrétním údaji, ale v možné propojitelnosti a v možnosti spojit různé údaje o téže osobě k sobě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/obchodni-rejstrik-unik-osobni-udaje-pravnik-voboril_2609221532_elev"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-ministerstvo-omylem-zpristupnilo-nektere-udaje-z-obchodniho-rejstriku-315896"
+        }
+      ],
+      "en": {
+        "headline": "The Ministry of Justice accidentally exposed personal identification numbers in the test version of the commercial register",
+        "sentences": [
+          {
+            "en": "The Ministry of Justice shut down the test version of the new commercial register last week after the iROZHLAS newsroom alerted it to a user's report that the system gave access to the personal identification numbers of people listed with some legal entities.",
+            "cs": "Ministerstvo spravedlnosti minulý týden vypnulo testovací verzi nového obchodního rejstříku poté, co ho redakce iROZHLASU upozornila na podnět uživatele, že systém umožňuje přístup k rodným číslům lidí zapsaných u některých právnických osob."
+          },
+          {
+            "en": "According to Seznam Zprávy, non-public documents were accidentally available as well.",
+            "cs": "Podle Seznam Zpráv byly omylem dostupné i neveřejné listiny."
+          },
+          {
+            "en": "The lawyer Jan Vobořil told Radiožurnál that the sensitivity of personal data today lies not so much in one particular item as in the fact that it can be linked, that different pieces of information about the same person can be put together.",
+            "cs": "Advokát Jan Vobořil k tomu pro Radiožurnál řekl, že citlivost osobních údajů dnes není ani tak v jednom konkrétním údaji, ale v možné propojitelnosti a v možnosti spojit různé údaje o téže osobě k sobě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "alerted",
+            "definition": "warned someone that there was a problem"
+          },
+          {
+            "term": "legal entities",
+            "definition": "organisations such as companies that the law treats as having their own rights"
+          },
+          {
+            "term": "sensitivity",
+            "definition": "the quality of needing careful handling because harm could follow"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:52",
+      "headline": "Žalobce navrhl podmíněné tresty v kauze vydírání kardiochirurgů z IKEM",
+      "body": "Státní zástupce navrhl bývalému náměstkovi pražského IKEM Jiřímu Malému dvouletý podmíněný trest se zkušební dobou tři roky a bývalému šéfovi IT oddělení IKEM Petru Raškovi roční podmínku s dvouletou zkušební dobou. Navrhl jim také peněžité tresty a tresty propadnutí věci, obhájci naopak žádají zproštění obžaloby. Obvodní soud pro Prahu 4 v úterý ukončil dokazování a rozsudek by měl vyhlásit 7. října.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-zalobce-navrhl-v-kauze-vydirani-kardiochirurgu-ikem-podminene-tresty-315954"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2192508/"
+        }
+      ],
+      "en": {
+        "headline": "The prosecutor proposed suspended sentences in the case of the blackmailing of IKEM heart surgeons",
+        "sentences": [
+          {
+            "en": "The state prosecutor proposed a two-year suspended sentence with a three-year probationary period for Jiří Malý, the former deputy director of Prague's IKEM, and a one-year suspended sentence with a two-year probationary period for Petr Raška, the former head of IKEM's IT department.",
+            "cs": "Státní zástupce navrhl bývalému náměstkovi pražského IKEM Jiřímu Malému dvouletý podmíněný trest se zkušební dobou tři roky a bývalému šéfovi IT oddělení IKEM Petru Raškovi roční podmínku s dvouletou zkušební dobou."
+          },
+          {
+            "en": "He also proposed fines and the forfeiture of property, while the defence lawyers are asking for an acquittal.",
+            "cs": "Navrhl jim také peněžité tresty a tresty propadnutí věci, obhájci naopak žádají zproštění obžaloby."
+          },
+          {
+            "en": "The District Court for Prague 4 closed the taking of evidence on Tuesday and should deliver its verdict on 7 October.",
+            "cs": "Obvodní soud pro Prahu 4 v úterý ukončil dokazování a rozsudek by měl vyhlásit 7. října."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "suspended sentence",
+            "definition": "a prison punishment that is not carried out unless the person commits another crime"
+          },
+          {
+            "term": "probationary",
+            "definition": "describing a period in which someone is watched and must not break the rules"
+          },
+          {
+            "term": "forfeiture",
+            "definition": "the loss of property or money as a punishment"
+          },
+          {
+            "term": "acquittal",
+            "definition": "a court decision that a person is not guilty"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:10",
+      "headline": "Nový kampus Univerzity Karlovy v Hradci se v pátek poprvé otevře veřejnosti",
+      "body": "Kampus Univerzity Karlovy v Hradci Králové, který dva roky rostl vedle fakultní nemocnice, je hotový a v pátek 25. září se poprvé podívá dovnitř veřejnost. Připravené jsou prohlídky a večerní Noc vědy. Hradecká drbna uvádí, že stavba přišla na sedm miliard korun.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/900782-50-2104083n-15-8328000e.html"
+        }
+      ],
+      "en": {
+        "headline": "Charles University's new campus in Hradec will open to the public for the first time on Friday",
+        "sentences": [
+          {
+            "en": "The Charles University campus in Hradec Králové, which spent two years going up next to the university hospital, is finished, and the public will get its first look inside on Friday 25 September.",
+            "cs": "Kampus Univerzity Karlovy v Hradci Králové, který dva roky rostl vedle fakultní nemocnice, je hotový a v pátek 25. září se poprvé podívá dovnitř veřejnost."
+          },
+          {
+            "en": "Guided tours and an evening Night of Science are lined up.",
+            "cs": "Připravené jsou prohlídky a večerní Noc vědy."
+          },
+          {
+            "en": "Hradecká drbna reports that the building cost seven billion crowns.",
+            "cs": "Hradecká drbna uvádí, že stavba přišla na sedm miliard korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "going up",
+            "definition": "being built"
+          },
+          {
+            "term": "lined up",
+            "definition": "arranged and ready to happen"
+          },
+          {
+            "term": "Guided tours",
+            "definition": "walks around a place with someone who explains what you see"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:02",
+      "headline": "Přestavba hradeckého nádraží přinese od října výluky na třech tratích",
+      "body": "Kvůli přestavbě hlavního nádraží v Hradci Králové budou od 1. října do 12. prosince výluky na třech tratích v Královéhradeckém kraji. České dráhy nahradí vlaky v době výluk autobusy, ne všechny spoje ale budou mít zajištěné návazné přípoje.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/900904-kvuli-prestavbe-nadrazi-v-h-kralove-budou-od-1-rijna-na-trech-tratich.html"
+        }
+      ],
+      "en": {
+        "headline": "The rebuilding of Hradec's railway station will bring closures on three lines from October",
+        "sentences": [
+          {
+            "en": "Because of the rebuilding of the main railway station in Hradec Králové, three lines in the Hradec Králové Region will be closed from 1 October to 12 December.",
+            "cs": "Kvůli přestavbě hlavního nádraží v Hradci Králové budou od 1. října do 12. prosince výluky na třech tratích v Královéhradeckém kraji."
+          },
+          {
+            "en": "České dráhy will replace the trains with buses while the closures last, but not every service will have a guaranteed connection at the other end.",
+            "cs": "České dráhy nahradí vlaky v době výluk autobusy, ne všechny spoje ale budou mít zajištěné návazné přípoje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "closures",
+            "definition": "periods when a road or railway line is shut and cannot be used"
+          },
+          {
+            "term": "guaranteed",
+            "definition": "promised for certain"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:49",
+      "headline": "O senátora za Rychnovsko bude jasno už po prvním kole voleb",
+      "body": "Ve volebním obvodu Rychnov nad Kněžnou se o senátorský mandát ucházejí jen dva kandidáti, senátor Jan Grulich (TOP 09) a poslanec Petr Sadovský (ANO). Bude to tak jediný obvod v zemi, kde padne rozhodnutí už v prvním kole, zatímco jinde se voliči vrátí k urnám ještě o týden později. Podle iDNES je tak malý zájem o Senát v Česku raritou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://rychnovsky.denik.cz/zpravy-region/volby-do-senatu-2026-volebni-obvod-rychnov-nad-kneznou/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/rychnovsko-senat-kandidati-grulich-sadovsky-volby-rijen-2026.A260921_084606_hradec-volby_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The Rychnov Senate seat will be settled in the first round of voting",
+        "sentences": [
+          {
+            "en": "Only two candidates are standing for the Senate seat in the Rychnov nad Kněžnou constituency: the sitting senator Jan Grulich (TOP 09) and the MP Petr Sadovský (ANO).",
+            "cs": "Ve volebním obvodu Rychnov nad Kněžnou se o senátorský mandát ucházejí jen dva kandidáti, senátor Jan Grulich (TOP 09) a poslanec Petr Sadovský (ANO)."
+          },
+          {
+            "en": "It will therefore be the only constituency in the country where the outcome is settled in the first round, while elsewhere voters will return to the ballot boxes a week later.",
+            "cs": "Bude to tak jediný obvod v zemi, kde padne rozhodnutí už v prvním kole, zatímco jinde se voliči vrátí k urnám ještě o týden později."
+          },
+          {
+            "en": "According to iDNES, such weak interest in the Senate is a rarity in the Czech Republic.",
+            "cs": "Podle iDNES je tak malý zájem o Senát v Česku raritou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "constituency",
+            "definition": "an area whose voters elect one representative"
+          },
+          {
+            "term": "sitting",
+            "definition": "currently holding an office or a seat"
+          },
+          {
+            "term": "rarity",
+            "definition": "something that almost never happens"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:00",
+      "headline": "Miliardář Tomek se stal většinovým vlastníkem fotbalového Hradce Králové",
+      "body": "Podnikatel Ondřej Tomek, jehož majetek Forbes odhaduje na 34 miliard korun, přešel během několika měsíců z pozice jednoho z pěti rovnocenných investorů FC Hradec Králové do role většinového vlastníka. Podle Hradeckého deníku má s Votroky velké plány a chce z Hradce posílat hráče do reprezentace.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/fotbal-okres/financni-motor-votroku-miliardar-tomek-chce-z-hradce-posilat-hrace-do-repre/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-okres"
+        }
+      ],
+      "en": {
+        "headline": "The billionaire Tomek has become the majority owner of the Hradec Králové football club",
+        "sentences": [
+          {
+            "en": "The businessman Ondřej Tomek, whose wealth Forbes puts at 34 billion crowns, has moved within a few months from being one of five equal investors in FC Hradec Králové to the role of majority owner.",
+            "cs": "Podnikatel Ondřej Tomek, jehož majetek Forbes odhaduje na 34 miliard korun, přešel během několika měsíců z pozice jednoho z pěti rovnocenných investorů FC Hradec Králové do role většinového vlastníka."
+          },
+          {
+            "en": "According to Hradecký deník he has big plans for the Votroci and wants Hradec to send players up to the national team.",
+            "cs": "Podle Hradeckého deníku má s Votroky velké plány a chce z Hradce posílat hráče do reprezentace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "majority owner",
+            "definition": "the person who owns more than half of a company"
+          },
+          {
+            "term": "puts at",
+            "definition": "estimates as being a certain amount"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:57",
+      "headline": "Ruský soud poslal Čecha na 13 dní do vězení za protest na Rudém náměstí",
+      "body": "Moskevský soud poslal na třináct dní do vězení českého občana, který uspořádal protest u Leninova mauzolea na Rudém náměstí. Uložil mu současně dvě pokuty v celkové výši 60 tisíc rublů, tedy asi 15 tisíc korun, za spáchání správních deliktů. Podle agentur Interfax a TASS držel muž transparent, jehož cílem bylo diskreditovat ruskou armádu. K mauzoleu se měl podle soudu dostavit 20. září odpoledne.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/za-protest-na-rudem-namesti-poslal-rusky-soud-cecha-na-13-dni-do-vezeni-mel_2609221657_jho"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2192579/"
+        }
+      ],
+      "en": {
+        "headline": "A Russian court sent a Czech man to prison for 13 days over a protest on Red Square",
+        "sentences": [
+          {
+            "en": "A Moscow court has sent a Czech citizen to prison for thirteen days for staging a protest at Lenin's Mausoleum on Red Square.",
+            "cs": "Moskevský soud poslal na třináct dní do vězení českého občana, který uspořádal protest u Leninova mauzolea na Rudém náměstí."
+          },
+          {
+            "en": "It also imposed two fines totalling 60,000 roubles, roughly 15,000 crowns, for administrative offences.",
+            "cs": "Uložil mu současně dvě pokuty v celkové výši 60 tisíc rublů, tedy asi 15 tisíc korun, za spáchání správních deliktů."
+          },
+          {
+            "en": "According to the Interfax and TASS agencies, the man was holding a banner intended to discredit the Russian army.",
+            "cs": "Podle agentur Interfax a TASS držel muž transparent, jehož cílem bylo diskreditovat ruskou armádu."
+          },
+          {
+            "en": "The court said he had come to the mausoleum on the afternoon of 20 September.",
+            "cs": "K mauzoleu se měl podle soudu dostavit 20. září odpoledne."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "staging",
+            "definition": "organising and carrying out a public event such as a protest"
+          },
+          {
+            "term": "imposed",
+            "definition": "officially ordered a punishment or a rule"
+          },
+          {
+            "term": "offences",
+            "definition": "acts that break the law"
+          },
+          {
+            "term": "discredit",
+            "definition": "to make people stop trusting or respecting someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:54",
+      "headline": "Na americké základně v západním Německu se zřítil vojenský letoun",
+      "body": "Na americké letecké základně ve Spangdahlemu na západě Německa se v úterý zřítil vojenský letoun. Podle prvních informací agentury DPA utrpěl zranění jeden člověk. Veřejnoprávní společnost SWR uvedla, že na základně jsou rozmístěny stíhačky F-16, a právě tento stroj se podle listu Bild zřítil. iROZHLAS dodává, že pilot se úspěšně katapultoval.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-na-americke-zakladne-na-zapade-nemecka-se-zritil-vojensky-letoun-315963"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/na-americke-zakladne-na-zapade-nemecka-se-zritil-vojensky-letoun-pilot-se_2609221649_ntu"
+        }
+      ],
+      "en": {
+        "headline": "A military aircraft crashed at a US air base in western Germany",
+        "sentences": [
+          {
+            "en": "A military aircraft crashed on Tuesday at the American air base in Spangdahlem in western Germany.",
+            "cs": "Na americké letecké základně ve Spangdahlemu na západě Německa se v úterý zřítil vojenský letoun."
+          },
+          {
+            "en": "According to first reports from the DPA agency, one person was injured.",
+            "cs": "Podle prvních informací agentury DPA utrpěl zranění jeden člověk."
+          },
+          {
+            "en": "The public broadcaster SWR said F-16 fighter jets are stationed at the base, and according to the newspaper Bild it was one of these that crashed. iROZHLAS adds that the pilot ejected successfully.",
+            "cs": "Veřejnoprávní společnost SWR uvedla, že na základně jsou rozmístěny stíhačky F-16, a právě tento stroj se podle listu Bild zřítil. iROZHLAS dodává, že pilot se úspěšně katapultoval."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stationed",
+            "definition": "placed somewhere for military service"
+          },
+          {
+            "term": "ejected",
+            "definition": "got out of an aircraft quickly using a seat that is fired out"
+          },
+          {
+            "term": "broadcaster",
+            "definition": "a company that makes radio or television programmes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:00",
+      "headline": "Jednotné Rusko bude mít po volbách do Dumy ústavní většinu",
+      "body": "V Rusku v neděli skončily volby do Státní dumy. Šlo o první takové volební klání od začátku celoplošné invaze na Ukrajinu, o první volby na Ruskem okupovaných ukrajinských územích a vůbec poprvé ruské úřady před hlasováním vyškrtly už registrovanou stranu, opoziční Jabloko. To by se nakonec mělo dostat alespoň do jednoho regionálního parlamentu. Jednotné Rusko bude mít podle iROZHLASU ústavní většinu a Kreml si podle odborníků výsledky utužuje moc. Do hlasování Vladimir Putin zapojil i válečné veterány.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/rusko-volby-vysledky-duma-putin_2609221600_ula"
+        }
+      ],
+      "en": {
+        "headline": "United Russia will hold a constitutional majority after the Duma elections",
+        "sentences": [
+          {
+            "en": "Elections to the State Duma ended in Russia on Sunday.",
+            "cs": "V Rusku v neděli skončily volby do Státní dumy."
+          },
+          {
+            "en": "It was the first such contest since the start of the full-scale invasion of Ukraine, the first vote in the Ukrainian territories occupied by Russia, and the first time ever that the Russian authorities struck an already registered party, the opposition Yabloko, off the ballot before polling day.",
+            "cs": "Šlo o první takové volební klání od začátku celoplošné invaze na Ukrajinu, o první volby na Ruskem okupovaných ukrajinských územích a vůbec poprvé ruské úřady před hlasováním vyškrtly už registrovanou stranu, opoziční Jabloko."
+          },
+          {
+            "en": "Yabloko should nonetheless make it into at least one regional parliament.",
+            "cs": "To by se nakonec mělo dostat alespoň do jednoho regionálního parlamentu."
+          },
+          {
+            "en": "According to iROZHLAS, United Russia will hold a constitutional majority, and experts say the Kremlin is using the results to tighten its grip.",
+            "cs": "Jednotné Rusko bude mít podle iROZHLASU ústavní většinu a Kreml si podle odborníků výsledky utužuje moc."
+          },
+          {
+            "en": "Vladimir Putin also brought war veterans into the vote.",
+            "cs": "Do hlasování Vladimir Putin zapojil i válečné veterány."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "struck",
+            "definition": "removed something from a list"
+          },
+          {
+            "term": "ballot",
+            "definition": "the official list or paper used for voting"
+          },
+          {
+            "term": "tighten its grip",
+            "definition": "to take even firmer control of something"
+          },
+          {
+            "term": "nonetheless",
+            "definition": "in spite of what has just been said"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:20",
+      "headline": "Zelenskyj je podle ukrajinského diplomata ochoten zastavit útoky na ruské rafinerie výměnou za energetické příměří",
+      "body": "Volodymyr Zelenskyj je podle ukrajinského diplomata ochoten zastavit útoky na ruské rafinerie, ale jen pokud Rusko přistoupí na takzvané energetické příměří. Téma nafty mají podle Seznam Zpráv na programu Zelenskyj s Donaldem Trumpem, kteří se setkají na okraj Valného shromáždění OSN.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-trump-a-zelenskyj-resi-naftu-prst-miri-na-nas-rika-ukrajinsky-diplomat-315895"
+        }
+      ],
+      "en": {
+        "headline": "Zelensky is ready to stop the strikes on Russian refineries in exchange for an energy truce, a Ukrainian diplomat says",
+        "sentences": [
+          {
+            "en": "Volodymyr Zelensky is ready to stop the strikes on Russian refineries, according to a Ukrainian diplomat, but only if Russia agrees to what is called an energy truce.",
+            "cs": "Volodymyr Zelenskyj je podle ukrajinského diplomata ochoten zastavit útoky na ruské rafinerie, ale jen pokud Rusko přistoupí na takzvané energetické příměří."
+          },
+          {
+            "en": "Seznam Zprávy reports that diesel is on the agenda for Zelensky and Donald Trump, who are meeting on the sidelines of the UN General Assembly.",
+            "cs": "Téma nafty mají podle Seznam Zpráv na programu Zelenskyj s Donaldem Trumpem, kteří se setkají na okraj Valného shromáždění OSN."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          },
+          {
+            "term": "truce",
+            "definition": "an agreement to stop fighting for a time"
+          },
+          {
+            "term": "on the sidelines",
+            "definition": "alongside a bigger event, rather than as part of it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:22",
+      "headline": "Bílý dům spustil nepřetržité vysílání Trump TV",
+      "body": "Oficiální YouTube účet Bílého domu v noci na úterý spustil státní přenos s názvem Trump TV, který nepřetržitě vysílá projevy a akce amerického prezidenta a dalších členů jeho vlády. Stalo se tak poté, co televizní stanice včetně Fox News přerušily pokrývání dění z Bílého domu v rámci bojkotu proti zákazu účasti některých médií na tiskových konferencích.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/trumpovy-projevy-24-hodin-denne-sedm-dni-v-tydnu-bily-dum-reaguje-na-bojkot_2609221422_raf"
+        }
+      ],
+      "en": {
+        "headline": "The White House has launched a round-the-clock Trump TV feed",
+        "sentences": [
+          {
+            "en": "The official White House YouTube account launched a state feed called Trump TV overnight into Tuesday, broadcasting the speeches and events of the American president and other members of his administration around the clock.",
+            "cs": "Oficiální YouTube účet Bílého domu v noci na úterý spustil státní přenos s názvem Trump TV, který nepřetržitě vysílá projevy a akce amerického prezidenta a dalších členů jeho vlády."
+          },
+          {
+            "en": "It did so after television stations including Fox News stopped covering the White House as part of a boycott against the ban on some media attending press conferences.",
+            "cs": "Stalo se tak poté, co televizní stanice včetně Fox News přerušily pokrývání dění z Bílého domu v rámci bojkotu proti zákazu účasti některých médií na tiskových konferencích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "feed",
+            "definition": "a continuous stream of video or news sent out to viewers"
+          },
+          {
+            "term": "boycott",
+            "definition": "a refusal to take part in something as a protest"
+          },
+          {
+            "term": "around the clock",
+            "definition": "all day and all night without stopping"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:05",
+      "headline": "Nafta v Česku zdražila v srpnu nejvíce z celé Evropské unie",
+      "body": "Cena nafty pro spotřebitele se v srpnu v Česku zvýšila nejvíce ze všech zemí Evropské unie, proti červenci o 14,3 procenta, zatímco průměr za celou unii činil 8,3 procenta. Uvedl to v úterý unijní statistický úřad Eurostat. Benzin v Česku zdražil o 2,7 procenta, průměrný růst za EU byl 3,3 procenta. Deník N dodává, že druhý nejvyšší růst ceny nafty zaznamenalo Bulharsko.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-eurostat-nafta-v-srpnu-v-cesku-zdrazila-o-143-procenta-nejvice-z-cele-eu-315955"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/v-cesku-za-srpen-zdrazila-nafta-nejvice-z-cele-unie-a-o-143-procenta-evropsky_2609221554_jho"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2192269/"
+        }
+      ],
+      "en": {
+        "headline": "Diesel in the Czech Republic rose the most in the whole European Union in August",
+        "sentences": [
+          {
+            "en": "The consumer price of diesel rose more in the Czech Republic in August than in any other European Union country, by 14.3 percent against July, while the average for the whole union was 8.3 percent.",
+            "cs": "Cena nafty pro spotřebitele se v srpnu v Česku zvýšila nejvíce ze všech zemí Evropské unie, proti červenci o 14,3 procenta, zatímco průměr za celou unii činil 8,3 procenta."
+          },
+          {
+            "en": "The EU statistical office Eurostat said so on Tuesday.",
+            "cs": "Uvedl to v úterý unijní statistický úřad Eurostat."
+          },
+          {
+            "en": "Petrol in the Czech Republic rose by 2.7 percent, against an average rise of 3.3 percent across the EU.",
+            "cs": "Benzin v Česku zdražil o 2,7 procenta, průměrný růst za EU byl 3,3 procenta."
+          },
+          {
+            "en": "Deník N adds that the second-steepest rise in the price of diesel was recorded in Bulgaria.",
+            "cs": "Deník N dodává, že druhý nejvyšší růst ceny nafty zaznamenalo Bulharsko."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "consumer price",
+            "definition": "the price ordinary people pay in shops or at the pump"
+          },
+          {
+            "term": "statistical",
+            "definition": "connected with collecting and studying numbers about a country"
+          },
+          {
+            "term": "steepest",
+            "definition": "the largest and fastest, about a rise or fall"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:03",
+      "headline": "Mercedes-Benz varoval, že může zavřít dva německé závody",
+      "body": "Výroba automobilky Mercedes-Benz v Německu není podle firmy z mezinárodního hlediska konkurenceschopná, a to zejména kvůli vysokým nákladům na pracovní sílu. Výrobní ředitel Michael Schiebe při pondělním setkání se zaměstnanci varoval, že dva německé závody by mohly ukončit provoz, informovala agentura Reuters. Podle Seznam Zpráv chce automobilka výrobu i pracovní místa v zemi zachovat, potřebuje ale zvýšit produktivitu. E15 dodává, že pozici firmy zhoršuje sílící čínská konkurence a americká cla a že odboráři pohrozili odporem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-automobilka-mercedes-varovala-ze-by-mohla-uzavrit-dve-nemecke-tovarny-315962"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/mercedes-benz-varoval-ze-mohl-uzavrit-dva-zavody-v-nemecku-vyroba-pry-neni_2609221640_jho"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/nejsme-konkurenceschopni-priznal-mercedes-hrozi-zavrenim-dvou-tovaren-1435976"
+        }
+      ],
+      "en": {
+        "headline": "Mercedes-Benz has warned that it may close two German plants",
+        "sentences": [
+          {
+            "en": "Mercedes-Benz production in Germany is not internationally competitive, the carmaker says, chiefly because of high labour costs.",
+            "cs": "Výroba automobilky Mercedes-Benz v Německu není podle firmy z mezinárodního hlediska konkurenceschopná, a to zejména kvůli vysokým nákladům na pracovní sílu."
+          },
+          {
+            "en": "At a Monday meeting with employees, production director Michael Schiebe warned that two German plants could stop operating, the Reuters agency reported.",
+            "cs": "Výrobní ředitel Michael Schiebe při pondělním setkání se zaměstnanci varoval, že dva německé závody by mohly ukončit provoz, informovala agentura Reuters."
+          },
+          {
+            "en": "According to Seznam Zprávy the carmaker wants to keep both production and jobs in the country, but needs to raise productivity.",
+            "cs": "Podle Seznam Zpráv chce automobilka výrobu i pracovní místa v zemi zachovat, potřebuje ale zvýšit produktivitu."
+          },
+          {
+            "en": "E15 adds that the company's position is being worsened by growing Chinese competition and American tariffs, and that the unions have threatened to resist.",
+            "cs": "E15 dodává, že pozici firmy zhoršuje sílící čínská konkurence a americká cla a že odboráři pohrozili odporem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "plants",
+            "definition": "large factories"
+          },
+          {
+            "term": "labour costs",
+            "definition": "the money a company spends on paying its workers"
+          },
+          {
+            "term": "tariffs",
+            "definition": "taxes a country puts on goods coming in from abroad"
+          },
+          {
+            "term": "productivity",
+            "definition": "how much work is produced for the time and money put in"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:22",
+      "headline": "Bankám v Česku stoupl pololetní čistý zisk na 71 miliard korun",
+      "body": "Tuzemské banky a spořitelny vydělaly za první polovinu letošního roku přes 71 miliard korun. E15 uvádí růst čistého zisku o 5,5 procenta na 71,1 miliardy a bilanční sumu sektoru 12,1 bilionu korun, Seznam Zprávy mluví o růstu o pět procent. K výsledku podle analytiků přispěly vyšší vklady klientů, zájem o investice a hypotéky i příznivá ekonomická situace. Hlavním tahounem ziskovosti zůstaly podle E15 úrokové výnosy, dařilo se České spořitelně či ČSOB.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/banky-v-cesku-vydelaly-za-pul-roku-pres-71-miliard-rust-tahnou-hypoteky-i-zajem-o-investice-1435967"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-bankam-v-1-pololeti-stoupl-cisty-zisk-o-pet-procent-315912"
+        }
+      ],
+      "en": {
+        "headline": "Czech banks' half-year net profit rose to 71 billion crowns",
+        "sentences": [
+          {
+            "en": "Czech banks and savings banks earned more than 71 billion crowns in the first half of this year.",
+            "cs": "Tuzemské banky a spořitelny vydělaly za první polovinu letošního roku přes 71 miliard korun."
+          },
+          {
+            "en": "E15 reports net profit up 5.5 percent to 71.1 billion and total assets in the sector at 12.1 trillion crowns, while Seznam Zprávy speaks of a rise of five percent.",
+            "cs": "E15 uvádí růst čistého zisku o 5,5 procenta na 71,1 miliardy a bilanční sumu sektoru 12,1 bilionu korun, Seznam Zprávy mluví o růstu o pět procent."
+          },
+          {
+            "en": "Analysts say the result was helped by higher client deposits, appetite for investments and mortgages, and a favourable economic situation.",
+            "cs": "K výsledku podle analytiků přispěly vyšší vklady klientů, zájem o investice a hypotéky i příznivá ekonomická situace."
+          },
+          {
+            "en": "According to E15 the main driver of profitability remained interest income, with Česká spořitelna and ČSOB doing well.",
+            "cs": "Hlavním tahounem ziskovosti zůstaly podle E15 úrokové výnosy, dařilo se České spořitelně či ČSOB."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deposits",
+            "definition": "money that clients put into a bank account"
+          },
+          {
+            "term": "mortgages",
+            "definition": "long-term loans used to buy a home"
+          },
+          {
+            "term": "favourable",
+            "definition": "helpful and likely to bring a good result"
+          },
+          {
+            "term": "profitability",
+            "definition": "how much money a business is able to make"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:01",
+      "headline": "ČNB vydala výroční pětitisícovku, lidé na ni stáli fronty a hned ji nabízejí v aukcích",
+      "body": "Česká národní banka v úterý vydala výroční pětitisícikorunu s holografickým přítiskem, která připomíná sto let od zahájení činnosti Národní banky československé. Náklad je omezený na dvě stě tisíc kusů a zájemci si ji mohou vyměnit v běžné nominální hodnotě na vybraných pobočkách. Před hradeckou pobočkou se tvořila stovky metrů dlouhá fronta, první zájemci tam podle Hradecké drbny čekali už od pondělní noci a přivezli si improvizovaný přístřešek, stoleček se židlemi i mobilní toaletu. Jen několik hodin po zahájení výměny se bankovky objevily na aukčních portálech, kde je podle Seznam Zpráv lidé nabízejí za částky i o polovinu vyšší.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/900931-na-petitisicovku-cekali-s-pristreskem-i-zachodem-uz-je-na-aukru.html"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-trendy-analyzy-z-peti-na-sedm-tisic-behem-par-minut-aukcni-portaly-zaplavily-nove-bankovky-315950"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/finexpert/servis/do-obehu-miri-specialni-petitisicovka-vyda-se-jich-malo-a-plati-prisny-limit-na-osobu-1435808"
+        }
+      ],
+      "en": {
+        "headline": "The central bank issued an anniversary 5,000-crown note; people queued for it and are already reselling it at auction",
+        "sentences": [
+          {
+            "en": "The Czech National Bank issued an anniversary 5,000-crown note with a holographic overprint on Tuesday, marking a hundred years since the National Bank of Czechoslovakia began operating.",
+            "cs": "Česká národní banka v úterý vydala výroční pětitisícikorunu s holografickým přítiskem, která připomíná sto let od zahájení činnosti Národní banky československé."
+          },
+          {
+            "en": "The print run is limited to two hundred thousand pieces, and people can exchange it at its ordinary face value at selected branches.",
+            "cs": "Náklad je omezený na dvě stě tisíc kusů a zájemci si ji mohou vyměnit v běžné nominální hodnotě na vybraných pobočkách."
+          },
+          {
+            "en": "A queue hundreds of metres long formed outside the Hradec branch; according to Hradecká drbna the first people in it had been waiting since Monday night and had brought along a makeshift shelter, a small table with chairs and a portable toilet.",
+            "cs": "Před hradeckou pobočkou se tvořila stovky metrů dlouhá fronta, první zájemci tam podle Hradecké drbny čekali už od pondělní noci a přivezli si improvizovaný přístřešek, stoleček se židlemi i mobilní toaletu."
+          },
+          {
+            "en": "Only a few hours after the exchange opened, the notes turned up on auction sites, where Seznam Zprávy says people are offering them for as much as half as much again.",
+            "cs": "Jen několik hodin po zahájení výměny se bankovky objevily na aukčních portálech, kde je podle Seznam Zpráv lidé nabízejí za částky i o polovinu vyšší."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overprint",
+            "definition": "an extra design printed on top of an already printed note or stamp"
+          },
+          {
+            "term": "print run",
+            "definition": "the number of copies produced at one time"
+          },
+          {
+            "term": "face value",
+            "definition": "the amount written on a note or coin"
+          },
+          {
+            "term": "makeshift",
+            "definition": "put together quickly out of whatever is at hand"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "06:02",
+      "headline": "Nový model MiMo v2.6 ovládl žebříček Hacker News",
+      "body": "Odkaz na stránku modelu MiMo v2.6 na webu Xiaomi získal na Hacker News přes tisíc bodů a více než 450 komentářů, nejvíce ze všech příspěvků za poslední den. Samostatně se do výběru dostala i analýza varianty MiMo-v2.6-Pro na serveru Artificial Analysis, která se věnuje schopnostem, výkonu a ceně modelu.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
+        }
+      ],
+      "en": {
+        "headline": "The new MiMo v2.6 model topped the Hacker News ranking",
+        "sentences": [
+          {
+            "en": "The link to the MiMo v2.6 model page on Xiaomi's website collected more than a thousand points and over 450 comments on Hacker News, more than any other post of the past day.",
+            "cs": "Odkaz na stránku modelu MiMo v2.6 na webu Xiaomi získal na Hacker News přes tisíc bodů a více než 450 komentářů, nejvíce ze všech příspěvků za poslední den."
+          },
+          {
+            "en": "An analysis of the MiMo-v2.6-Pro variant on the Artificial Analysis site, covering the model's capabilities, performance and price, made the selection separately.",
+            "cs": "Samostatně se do výběru dostala i analýza varianty MiMo-v2.6-Pro na serveru Artificial Analysis, která se věnuje schopnostem, výkonu a ceně modelu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "variant",
+            "definition": "a slightly different version of something"
+          },
+          {
+            "term": "capabilities",
+            "definition": "the things something is able to do"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:52",
+      "headline": "Model GPT-6 Astra podle serveru CryptoCellar rozluštil zprávu z Enigmy, která odolávala od roku 2005",
+      "body": "Na přední místa Hacker News se v úterý dostal text serveru CryptoCellar, podle kterého model OpenAI GPT-6 Astra rozluštil zprávu zašifrovanou Enigmou, jež odolávala pokusům o rozluštění od roku 2005.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+        }
+      ],
+      "en": {
+        "headline": "The GPT-6 Astra model has cracked an Enigma message that had resisted solution since 2005, CryptoCellar says",
+        "sentences": [
+          {
+            "en": "A piece on the CryptoCellar site reached the top of Hacker News on Tuesday, reporting that OpenAI's GPT-6 Astra model cracked a message encrypted with Enigma that had resisted attempts at a solution since 2005.",
+            "cs": "Na přední místa Hacker News se v úterý dostal text serveru CryptoCellar, podle kterého model OpenAI GPT-6 Astra rozluštil zprávu zašifrovanou Enigmou, jež odolávala pokusům o rozluštění od roku 2005."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cracked",
+            "definition": "worked out the secret of a code or a puzzle"
+          },
+          {
+            "term": "encrypted",
+            "definition": "changed into a secret code so others cannot read it"
+          },
+          {
+            "term": "resisted",
+            "definition": "successfully stood against something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:10",
+      "headline": "Evropa podle experta nehraje v umělé inteligenci ani třetí housle",
+      "body": "Svět volá po větší regulaci umělé inteligence. Obavy z jejího překotného vývoje podle Seznam Zpráv v uplynulých týdnech zvýšila série zpráv o možné ztrátě kontroly nad AI a o tom, že by mohla do konce dekády ohrozit lidstvo. V podcastu Seznam Zpráv k tomu expert říká, že Evropa v oboru nehraje ani třetí housle.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-ptam-se-ja-strasidelna-varovani-pred-ai-realita-nebo-klicka-technologickych-firem-315876"
+        }
+      ],
+      "en": {
+        "headline": "Europe is not even playing third fiddle in artificial intelligence, an expert says",
+        "sentences": [
+          {
+            "en": "The world is calling for tighter regulation of artificial intelligence.",
+            "cs": "Svět volá po větší regulaci umělé inteligence."
+          },
+          {
+            "en": "Seznam Zprávy reports that fears about its headlong development were heightened in recent weeks by a series of reports about a possible loss of control over AI and about the risk that it could endanger humanity by the end of the decade.",
+            "cs": "Obavy z jejího překotného vývoje podle Seznam Zpráv v uplynulých týdnech zvýšila série zpráv o možné ztrátě kontroly nad AI a o tom, že by mohla do konce dekády ohrozit lidstvo."
+          },
+          {
+            "en": "In a Seznam Zprávy podcast, an expert says that Europe is not even playing third fiddle in the field.",
+            "cs": "V podcastu Seznam Zpráv k tomu expert říká, že Evropa v oboru nehraje ani třetí housle."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "third fiddle",
+            "definition": "a much less important role than the leading one"
+          },
+          {
+            "term": "headlong",
+            "definition": "very fast and without enough care"
+          },
+          {
+            "term": "heightened",
+            "definition": "made stronger or greater"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:49",
+      "headline": "Lanovka na Petřín po dvou letech rekonstrukce znovu jezdí",
+      "body": "Ode dneška je po dvouleté rekonstrukci znovu v provozu lanovka na pražský Petřín. Jezdí od rána do večera ve zhruba desetiminutových intervalech a v jedné kabině sveze až sto cestujících, kterým nabízí i výhled na Prahu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2192192/obrazem-na-kopci-za-par-minut-po-dvou-letech-opet-jezdi-lanovka-na-petrin/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-video-projedte-se-lanovkou-na-petrin-natocili-jsme-jizdu-v-360-stupnich-315819"
+        }
+      ],
+      "en": {
+        "headline": "The Petřín funicular is running again after two years of reconstruction",
+        "sentences": [
+          {
+            "en": "The funicular up Prague's Petřín hill is running again from today after two years of reconstruction.",
+            "cs": "Ode dneška je po dvouleté rekonstrukci znovu v provozu lanovka na pražský Petřín."
+          },
+          {
+            "en": "It operates from morning until evening at intervals of roughly ten minutes and carries up to a hundred passengers in a single cabin, offering them a view over Prague as well.",
+            "cs": "Jezdí od rána do večera ve zhruba desetiminutových intervalech a v jedné kabině sveze až sto cestujících, kterým nabízí i výhled na Prahu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "funicular",
+            "definition": "a railway on a steep slope where a cable pulls the cars up and down"
+          },
+          {
+            "term": "intervals",
+            "definition": "the periods of time between one thing and the next"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:00",
+      "headline": "Brněnští vědci vyvinuli kostní lepidlo na tříštivé zlomeniny",
+      "body": "Tříštivé a další komplikované zlomeniny by mohlo v budoucnu pomoci léčit speciální kostní lepidlo brněnských vědců. Vyvinuli ho na CEITEC VUT společně s chirurgy z Fakultní nemocnice Brno a Lékařské fakulty Masarykovy univerzity. Na Výzkumném ústavu veterinárního lékařství teď experti zjišťují, jak se lepidlo chová v živém organismu.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/veda/kostni-lepidlo-vedcu-z-brna-slepi-i-tristive-zlomeniny-mohlo-usnadnit-operace-a_2609221500_ntu"
+        }
+      ],
+      "en": {
+        "headline": "Brno scientists have developed a bone glue for shattered fractures",
+        "sentences": [
+          {
+            "en": "Shattered and other complicated fractures could in future be treated with a special bone glue made by scientists from Brno.",
+            "cs": "Tříštivé a další komplikované zlomeniny by mohlo v budoucnu pomoci léčit speciální kostní lepidlo brněnských vědců."
+          },
+          {
+            "en": "They developed it at CEITEC VUT together with surgeons from Brno University Hospital and the Faculty of Medicine of Masaryk University.",
+            "cs": "Vyvinuli ho na CEITEC VUT společně s chirurgy z Fakultní nemocnice Brno a Lékařské fakulty Masarykovy univerzity."
+          },
+          {
+            "en": "Experts at the Veterinary Research Institute are now finding out how the glue behaves in a living organism.",
+            "cs": "Na Výzkumném ústavu veterinárního lékařství teď experti zjišťují, jak se lepidlo chová v živém organismu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fractures",
+            "definition": "breaks in a bone"
+          },
+          {
+            "term": "Shattered",
+            "definition": "broken into many small pieces"
+          },
+          {
+            "term": "organism",
+            "definition": "any living thing, such as an animal or a person"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "08:54",
+      "headline": "Voxpot se ptá, jestli končí doba válečné reportáže",
+      "body": "Válka se v posledních letech mění stále víc na souboj strojů a pro lidi v přední linii přestává být místo. Podle Voxpotu se to kromě vojáků týká i válečných reportérů a reportérek, pro které je čím dál obtížnější se na taková místa dostat.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/konci-doba-valecne-reportaze/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot asks whether the age of war reporting is over",
+        "sentences": [
+          {
+            "en": "War has in recent years turned more and more into a contest between machines, and there is less and less room for people on the front line.",
+            "cs": "Válka se v posledních letech mění stále víc na souboj strojů a pro lidi v přední linii přestává být místo."
+          },
+          {
+            "en": "According to Voxpot this applies not only to soldiers but also to war reporters, for whom getting to such places is ever harder.",
+            "cs": "Podle Voxpotu se to kromě vojáků týká i válečných reportérů a reportérek, pro které je čím dál obtížnější se na taková místa dostat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "contest",
+            "definition": "a struggle in which sides try to beat each other"
+          },
+          {
+            "term": "front line",
+            "definition": "the place where opposing armies meet and fight"
+          },
+          {
+            "term": "ever harder",
+            "definition": "harder all the time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:39",
+      "headline": "Tenistky postoupily v Poháru Billie Jean Kingové do semifinále",
+      "body": "České tenistky porazily na finálovém turnaji Poháru Billie Jean Kingové v Šen-čenu Velkou Británii 2:0 a jsou v semifinále. První bod vybojovala po tříhodinové bitvě Marie Bouzková proti Sonay Kartalové 7:6, 4:6, 6:4, druhý přidala Linda Nosková výhrou nad Katie Boulterovou 6:2, 7:6. Soupeřkami týmu kapitánky Barbory Strýcové budou Španělky, nebo Kazašky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/tenis-pohar-billie-jean-kingove-linda-noskova-ctvrtfinale-semifinale_2609221639_kri"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/cesko-velka-britanie-159076"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-billie-jean-king-cup-cesky-dream-team-jde-do-akce-prvni-prekazkou-jsou-britky-5540854"
+        }
+      ],
+      "en": {
+        "headline": "The tennis women have reached the semi-finals of the Billie Jean King Cup",
+        "sentences": [
+          {
+            "en": "The Czech women beat Great Britain 2:0 at the Billie Jean King Cup finals in Shenzhen and are in the semi-finals.",
+            "cs": "České tenistky porazily na finálovém turnaji Poháru Billie Jean Kingové v Šen-čenu Velkou Británii 2:0 a jsou v semifinále."
+          },
+          {
+            "en": "The first point was ground out over three hours by Marie Bouzková against Sonay Kartal 7:6, 4:6, 6:4, and the second was added by Linda Nosková, who beat Katie Boulter 6:2, 7:6.",
+            "cs": "První bod vybojovala po tříhodinové bitvě Marie Bouzková proti Sonay Kartalové 7:6, 4:6, 6:4, druhý přidala Linda Nosková výhrou nad Katie Boulterovou 6:2, 7:6."
+          },
+          {
+            "en": "The team of captain Barbora Strýcová will next face either Spain or Kazakhstan.",
+            "cs": "Soupeřkami týmu kapitánky Barbory Strýcové budou Španělky, nebo Kazašky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ground out",
+            "definition": "won with great effort over a long time"
+          },
+          {
+            "term": "semi-finals",
+            "definition": "the round of matches before the final"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:12",
+      "headline": "Tenisty čeká na finálovém turnaji Davis Cupu čtvrtfinále s Kanadou",
+      "body": "Českým tenistům přisoudil úterní los ve čtvrtfinále finálového turnaje Davis Cupu Kanadu. Hrát se bude v Boloni od 24. do 29. listopadu. Sport.cz označil los za nepříjemný, výběr Tomáše Berdycha postoupil do Boloně po kvalifikační výhře nad Američany v pražské O2 areně.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/tenisty-v-davis-cupu-ceka-silna-kanada-159077"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-davis-cup-cesi-poznali-dalsiho-soupere-v-davis-cupu-5540957"
+        }
+      ],
+      "en": {
+        "headline": "Canada awaits the Czech tennis players in the Davis Cup quarter-finals",
+        "sentences": [
+          {
+            "en": "Tuesday's draw handed the Czech tennis players Canada in the quarter-finals of the Davis Cup finals.",
+            "cs": "Českým tenistům přisoudil úterní los ve čtvrtfinále finálového turnaje Davis Cupu Kanadu."
+          },
+          {
+            "en": "The tie will be played in Bologna from 24 to 29 November.",
+            "cs": "Hrát se bude v Boloni od 24. do 29. listopadu."
+          },
+          {
+            "en": "Sport.cz called the draw an unwelcome one; Tomáš Berdych's team reached Bologna by beating the Americans in qualifying at Prague's O2 arena.",
+            "cs": "Sport.cz označil los za nepříjemný, výběr Tomáše Berdycha postoupil do Boloně po kvalifikační výhře nad Američany v pražské O2 areně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "draw",
+            "definition": "the act of deciding by chance which teams will play each other"
+          },
+          {
+            "term": "tie",
+            "definition": "a match or contest between two teams in a knockout competition"
+          },
+          {
+            "term": "unwelcome",
+            "definition": "not wanted or not pleasant"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:14",
+      "headline": "Slávistický spolek má dluhy přes 200 milionů a chystá prodej majetku",
+      "body": "Slávistický spolek má podle nového vedení dluhy přes 200 milionů korun a zachránit ho může jen prodej části majetku. Zpráva kritizuje éru předchozího šéfa, od pronájmu horského hotelu po milionové galavečery. Bývalý šéf kritiku odmítá.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-slavia-v-dluhove-pasti-sesivany-spolek-chysta-prodej-majetku-315900"
+        }
+      ],
+      "en": {
+        "headline": "The Slavia members' association is more than 200 million in debt and is preparing to sell assets",
+        "sentences": [
+          {
+            "en": "The Slavia members' association is more than 200 million crowns in debt and, according to its new leadership, only selling part of its assets can save it.",
+            "cs": "Slávistický spolek má podle nového vedení dluhy přes 200 milionů korun a zachránit ho může jen prodej části majetku."
+          },
+          {
+            "en": "The report criticises the era of the previous chairman, from the lease of a mountain hotel to gala evenings costing millions.",
+            "cs": "Zpráva kritizuje éru předchozího šéfa, od pronájmu horského hotelu po milionové galavečery."
+          },
+          {
+            "en": "The former chairman rejects the criticism.",
+            "cs": "Bývalý šéf kritiku odmítá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assets",
+            "definition": "property and money that an organisation owns"
+          },
+          {
+            "term": "lease",
+            "definition": "a contract to rent a building or land for a set time"
+          },
+          {
+            "term": "era",
+            "definition": "a period of time marked by a particular person or event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:58",
+      "headline": "Chorvatský fotbalový svaz, soupeře Česka, prověřuje protikorupční úřad",
+      "body": "Chorvatský fotbalový svaz vyšetřuje v souvislosti s novou sponzorskou smlouvou se společností adidas tamní úřad pro boj proti korupci USKOK, píší podle Sport.cz chorvatská média. S Chorvatskem se čeští fotbalisté utkají v sobotu v pražském Edenu v úvodním zápase Ligy národů.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-dusno-u-soupere-ceska-protikorupcni-urad-proveruje-svaz-5541109"
+        }
+      ],
+      "en": {
+        "headline": "The Croatian football federation, the Czechs' opponent, is under investigation by the anti-corruption office",
+        "sentences": [
+          {
+            "en": "The Croatian football federation is being investigated by the country's anti-corruption office USKOK over a new sponsorship contract with adidas, Croatian media report according to Sport.cz.",
+            "cs": "Chorvatský fotbalový svaz vyšetřuje v souvislosti s novou sponzorskou smlouvou se společností adidas tamní úřad pro boj proti korupci USKOK, píší podle Sport.cz chorvatská média."
+          },
+          {
+            "en": "The Czech footballers meet Croatia on Saturday at Prague's Eden in their opening Nations League match.",
+            "cs": "S Chorvatskem se čeští fotbalisté utkají v sobotu v pražském Edenu v úvodním zápase Ligy národů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "federation",
+            "definition": "an organisation that governs a sport in a country"
+          },
+          {
+            "term": "anti-corruption",
+            "definition": "aimed at stopping dishonest use of power for money"
+          },
+          {
+            "term": "sponsorship",
+            "definition": "an arrangement in which a company pays to support a team or event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:20",
+      "headline": "Arka Gdyně odvolala po devíti zápasech trenéra Marka Jarolíma",
+      "body": "Polská Arka Gdyně odvolala po devíti zápasech druhé ligy českého trenéra Marka Jarolíma. Důvodem byly podle Sport.cz neuspokojivé výsledky týmu. Dvaačtyřicetiletý kouč na jaře dovedl Karvinou k triumfu v MOL Cupu.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-rychly-konec-jarolim-dostal-v-polsku-necekaneho-padaka-5541195"
+        }
+      ],
+      "en": {
+        "headline": "Arka Gdynia has sacked the coach Marek Jarolím after nine matches",
+        "sentences": [
+          {
+            "en": "The Polish club Arka Gdynia has sacked the Czech coach Marek Jarolím after nine matches in the second division.",
+            "cs": "Polská Arka Gdyně odvolala po devíti zápasech druhé ligy českého trenéra Marka Jarolíma."
+          },
+          {
+            "en": "Sport.cz says the reason was the team's unsatisfactory results.",
+            "cs": "Důvodem byly podle Sport.cz neuspokojivé výsledky týmu."
+          },
+          {
+            "en": "The 42-year-old coach led Karviná to victory in the MOL Cup in the spring.",
+            "cs": "Dvaačtyřicetiletý kouč na jaře dovedl Karvinou k triumfu v MOL Cupu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sacked",
+            "definition": "dismissed from a job"
+          },
+          {
+            "term": "unsatisfactory",
+            "definition": "not good enough"
+          },
+          {
+            "term": "division",
+            "definition": "one of the levels a football league is split into"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Czech Bar Association has joined the criticism of Prime Minister Andrej Babiš's remarks about the judiciary.",
+    "Detectives searched the headquarters of the Academy of Sciences over suspected fictitious work-performance agreements.",
+    "According to Eurostat, diesel in the Czech Republic went up by 14.3 percent in August, the steepest rise in the whole European Union."
+  ]
+}
