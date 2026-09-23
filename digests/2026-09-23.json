@@ -1,0 +1,1479 @@
+{
+  "date": "2026-09-23",
+  "covers": "2026-09-23",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Seznam Zprávy",
+    "Deník N",
+    "iROZHLAS",
+    "E15",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "iDNES Hradec",
+    "Root.cz",
+    "Hacker News",
+    "Claude Blog",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra přijdou slabé přeháňky a přes den bude jen 14 °C. Zafouká, nárazy větru mají dosáhnout téměř 45 kilometrů v hodině.",
+    "days": [
+      {
+        "date": "2026-09-24",
+        "icon": "rain",
+        "temp_max_c": 14.4,
+        "temp_min_c": 8.1
+      },
+      {
+        "date": "2026-09-25",
+        "icon": "fog",
+        "temp_max_c": 15.2,
+        "temp_min_c": 6.8
+      },
+      {
+        "date": "2026-09-26",
+        "icon": "cloudy",
+        "temp_max_c": 19.6,
+        "temp_min_c": 8.1
+      },
+      {
+        "date": "2026-09-27",
+        "icon": "cloudy",
+        "temp_max_c": 20.1,
+        "temp_min_c": 9.0
+      }
+    ],
+    "summary_en": "Tomorrow will bring light showers and only 14 °C during the day. It will be windy, with gusts expected to reach almost 45 kilometres per hour."
+  },
+  "highlights": [
+    "Sněmovna zrušila každoroční zdražování dálničních známek, novelu teď dostane Senát.",
+    "Americký ministr zahraničí Rubio se v New Yorku setkal s Lavrovem a podle Reuters řekl, že Rusko i Ukrajina mají zájem o omezené příměří v energetice a při vývozu obilí.",
+    "Univerzita Karlova otevřela v Hradci Králové kampus Mephared 2 za 7,2 miliardy korun.",
+    "Anthropic vydal nový model Claude Opus 5.5, který je podle firmy o 40 procent levnější než Opus 5."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:30",
+      "headline": "Sněmovna zrušila každoroční zdražování dálničních známek",
+      "body": "Sněmovna dnes hlasy koalice schválila vládní novelu, která ruší každoroční valorizaci cen dálničních známek. Poslanci předlohu zároveň doplnili o úpravu, podle níž má jednodenní známka platit 24 hodin od zakoupení, a ne do půlnoci daného dne; podle ČT24 se na tom shodli zástupci koalice i opozice. Ministr dopravy Ivan Bednárik (za SPD) návrh v úvodu projednávání podpořil, opozice mluvila o populismu. Novelu teď dostane k posouzení Senát. Sněmovna dnes také odsouhlasila novelu zákona o silničním provozu s pozměňovacím návrhem pražských poslanců ANO Patrika Nachera a Roberta Králíčka, podle kterého budou moci města a obce vyhláškou požadovat po řidičích taxislužby zkoušku z češtiny nebo místopisu; podle iROZHLAS pro něj hlasovali i Piráti. ČT24 dodává, že novela veřejnosti zpřístupní více údajů o dopravě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/dalnicni-znamky-nebudou-muset-zdrazovat-snemovna-schvalila-novelu-populismus_2609231314_med"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslance-ceka-schvalovani-konce-zdrazovani-dalnicnich-znamek-377863"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2193503/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-mesta-by-mohla-pozadovat-po-ridicich-taxi-zkousku-z-cestiny-schvalila-snemovna-316033"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/finexpert/servis/konec-pravidelneho-zdrazovani-dalnicnich-znamek-snemovna-schvalila-vladni-novelu-1435996"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies has scrapped the annual price rises for motorway vignettes",
+        "sentences": [
+          {
+            "en": "With the votes of the governing coalition, the Chamber of Deputies today approved a government bill that abolishes the annual indexation of motorway vignette prices.",
+            "cs": "Sněmovna dnes hlasy koalice schválila vládní novelu, která ruší každoroční valorizaci cen dálničních známek."
+          },
+          {
+            "en": "Deputies also added an amendment under which a one-day vignette is to be valid for 24 hours from the moment of purchase rather than until midnight of that day; according to ČT24, coalition and opposition representatives agreed on this.",
+            "cs": "Poslanci předlohu zároveň doplnili o úpravu, podle níž má jednodenní známka platit 24 hodin od zakoupení, a ne do půlnoci daného dne; podle ČT24 se na tom shodli zástupci koalice i opozice."
+          },
+          {
+            "en": "Transport Minister Ivan Bednárik (for SPD) backed the proposal at the opening of the debate, while the opposition called it populism.",
+            "cs": "Ministr dopravy Ivan Bednárik (za SPD) návrh v úvodu projednávání podpořil, opozice mluvila o populismu."
+          },
+          {
+            "en": "The bill will now go to the Senate for consideration.",
+            "cs": "Novelu teď dostane k posouzení Senát."
+          },
+          {
+            "en": "The Chamber also passed an amendment to the road traffic act carrying a proposal by the Prague ANO deputies Patrik Nacher and Robert Králíček, under which towns and municipalities will be able to require taxi drivers by decree to pass a test in Czech or in local geography; according to iROZHLAS, the Pirates voted for it as well.",
+            "cs": "Sněmovna dnes také odsouhlasila novelu zákona o silničním provozu s pozměňovacím návrhem pražských poslanců ANO Patrika Nachera a Roberta Králíčka, podle kterého budou moci města a obce vyhláškou požadovat po řidičích taxislužby zkoušku z češtiny nebo místopisu; podle iROZHLAS pro něj hlasovali i Piráti."
+          },
+          {
+            "en": "ČT24 adds that the amendment will give the public access to more transport data.",
+            "cs": "ČT24 dodává, že novela veřejnosti zpřístupní více údajů o dopravě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "indexation",
+            "definition": "a system that raises prices or payments automatically each year"
+          },
+          {
+            "term": "decree",
+            "definition": "an official rule issued by a government or a local authority"
+          },
+          {
+            "term": "populism",
+            "definition": "politics that promises people what they want to hear rather than what works"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:06",
+      "headline": "Poslanec ANO Richter si pronajímal levný městský byt od firmy, na kterou dohlížel",
+      "body": "Poslanec ANO Jan Richter, do loňska hlavní manažer hnutí, si pronajímal byt v Chomutově od městské společnosti, ve které je předsedou dozorčí rady. Napsal to Deník N, podle kterého politik za pět let užívání bytu zaplatil na nájemném jen 35 tisíc korun; podle smlouvy si totiž mohl do nájmu započítat opravy a investice. Seznam Zprávy mluví o více než šesti letech nájmu a uvádějí, že šlo o „sociální“ nájemné okolo 60 korun za metr čtvereční.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2192979/poslanec-ano-si-pronajal-mestsky-byt-od-spolecnosti-na-kterou-dohlizel-najemne-mu-kryly-opravy/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/ustecky-kraj/poslanec-ano-richter-si-pronajimal-levny-mestsky-byt-od-spolecnosti-na-kterou-dohlizel-pise-denik-377871"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-plat-poslance-170-tisic-ale-najem-pro-chude-politik-ano-uzival-obecni-byt-315666"
+        }
+      ],
+      "en": {
+        "headline": "ANO deputy Richter rented a cheap municipal flat from a company he supervised",
+        "sentences": [
+          {
+            "en": "ANO deputy Jan Richter, who until last year was the movement's chief manager, rented a flat in Chomutov from a municipal company in which he chairs the supervisory board.",
+            "cs": "Poslanec ANO Jan Richter, do loňska hlavní manažer hnutí, si pronajímal byt v Chomutově od městské společnosti, ve které je předsedou dozorčí rady."
+          },
+          {
+            "en": "This was reported by Deník N, according to which the politician paid only 35 thousand crowns in rent over five years of using the flat, because the contract allowed him to offset repairs and investments against it.",
+            "cs": "Napsal to Deník N, podle kterého politik za pět let užívání bytu zaplatil na nájemném jen 35 tisíc korun; podle smlouvy si totiž mohl do nájmu započítat opravy a investice."
+          },
+          {
+            "en": "Seznam Zprávy speaks of more than six years of tenancy and says the rent was a “social” one of around 60 crowns per square metre.",
+            "cs": "Seznam Zprávy mluví o více než šesti letech nájmu a uvádějí, že šlo o „sociální“ nájemné okolo 60 korun za metr čtvereční."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "supervisory board",
+            "definition": "a group of people who watch over how a company is run"
+          },
+          {
+            "term": "offset",
+            "definition": "to use one cost to reduce another amount you have to pay"
+          },
+          {
+            "term": "tenancy",
+            "definition": "the period during which someone rents a home"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:20",
+      "headline": "Ruští diplomaté musí v Česku nově hlásit svůj pohyb",
+      "body": "Česko od dneška upravilo pravidla systému notifikací ruských diplomatů. S jednodenním předstihem musí hlásit plán překročit hranice a oznamovat i účel cesty, její trasu a dobu nebo místo pobytu. Zpřísnění, o kterém podle ČT24 informoval web Parlamentní listy, potvrdil mluvčí ministerstva zahraničí Adam Čörgö. Ministr zahraničí Petr Macinka podle Seznam Zpráv označil krok za reakci na pravidla, která pro české diplomaty platí v Rusku. Prezident Petr Pavel změny považuje za správný krok: „Neměly by vyvolat nečekané reakce, protože jsou reciproční,“ řekl. Deník N připomíná, že premiér Andrej Babiš (ANO) v únoru po výtkách opozice sliboval přísnější režim, v němž by stát u ruských diplomatů přijíždějících z jiných zemí vyžadoval předchozí schválení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/rusti-diplomate-v-cesku-musi-nove-hlasit-svuj-pohyb-377881"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2193558/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-cesko-upravilo-pravidla-pro-ruske-diplomaty-316027"
+        }
+      ],
+      "en": {
+        "headline": "Russian diplomats in Czechia must now report their movements",
+        "sentences": [
+          {
+            "en": "As of today, Czechia has changed the rules of the notification system for Russian diplomats.",
+            "cs": "Česko od dneška upravilo pravidla systému notifikací ruských diplomatů."
+          },
+          {
+            "en": "They must report a plan to cross the border one day in advance and also give the purpose of the trip, its route and duration, or the place where they will stay.",
+            "cs": "S jednodenním předstihem musí hlásit plán překročit hranice a oznamovat i účel cesty, její trasu a dobu nebo místo pobytu."
+          },
+          {
+            "en": "The tightening, first reported by the Parlamentní listy website according to ČT24, was confirmed by Foreign Ministry spokesman Adam Čörgö.",
+            "cs": "Zpřísnění, o kterém podle ČT24 informoval web Parlamentní listy, potvrdil mluvčí ministerstva zahraničí Adam Čörgö."
+          },
+          {
+            "en": "Foreign Minister Petr Macinka described the step, according to Seznam Zprávy, as a response to the rules that apply to Czech diplomats in Russia.",
+            "cs": "Ministr zahraničí Petr Macinka podle Seznam Zpráv označil krok za reakci na pravidla, která pro české diplomaty platí v Rusku."
+          },
+          {
+            "en": "President Petr Pavel considers the changes a correct step: “They should not provoke any unexpected reactions, because they are reciprocal,” he said.",
+            "cs": "Prezident Petr Pavel změny považuje za správný krok: „Neměly by vyvolat nečekané reakce, protože jsou reciproční,“ řekl."
+          },
+          {
+            "en": "Deník N recalls that Prime Minister Andrej Babiš (ANO) promised in February, after criticism from the opposition, a stricter regime in which the state would require prior approval for Russian diplomats arriving from other countries.",
+            "cs": "Deník N připomíná, že premiér Andrej Babiš (ANO) v únoru po výtkách opozice sliboval přísnější režim, v němž by stát u ruských diplomatů přijíždějících z jiných zemí vyžadoval předchozí schválení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tightening",
+            "definition": "making rules stricter than before"
+          },
+          {
+            "term": "reciprocal",
+            "definition": "done by both sides to each other in the same way"
+          },
+          {
+            "term": "prior approval",
+            "definition": "permission that must be given before something can happen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:53",
+      "headline": "Ke kritice Babišových výroků o justici se přidali státní zástupci",
+      "body": "Unie státních zástupců se ohradila vůči výrokům premiéra Andreje Babiše (ANO) o české justici, které pronesl v souvislosti s kauzou Čapí hnízdo, kde čelí stíhání. Výroky předsedy vlády o vedení politického procesu jsou podle žalobců nepodložené a ohrožují důvěru v právní stát; uvedli to na síti X. Babiše v této věci už dříve kritizovaly Soudcovská unie a Česká advokátní komora.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zalobci-kritizuji-babise-kvuli-vyrokum-o-justici-377872"
+        }
+      ],
+      "en": {
+        "headline": "Public prosecutors have joined the criticism of Babiš's remarks about the judiciary",
+        "sentences": [
+          {
+            "en": "The Union of Public Prosecutors has objected to remarks made by Prime Minister Andrej Babiš (ANO) about the Czech judiciary in connection with the Stork Nest case, in which he is being prosecuted.",
+            "cs": "Unie státních zástupců se ohradila vůči výrokům premiéra Andreje Babiše (ANO) o české justici, které pronesl v souvislosti s kauzou Čapí hnízdo, kde čelí stíhání."
+          },
+          {
+            "en": "The prime minister's claims that a political trial is being conducted are unsubstantiated and undermine trust in the rule of law, the prosecutors said on the social network X.",
+            "cs": "Výroky předsedy vlády o vedení politického procesu jsou podle žalobců nepodložené a ohrožují důvěru v právní stát; uvedli to na síti X."
+          },
+          {
+            "en": "Babiš had already been criticised over the matter by the Judicial Union and the Czech Bar Association.",
+            "cs": "Babiše v této věci už dříve kritizovaly Soudcovská unie a Česká advokátní komora."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "judiciary",
+            "definition": "the courts and judges of a country taken together"
+          },
+          {
+            "term": "unsubstantiated",
+            "definition": "not supported by any proof"
+          },
+          {
+            "term": "undermine",
+            "definition": "to slowly weaken something"
+          },
+          {
+            "term": "rule of law",
+            "definition": "the idea that everyone, including the government, must obey the law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:23",
+      "headline": "Zrušení koncesionářských poplatků se odkládá",
+      "body": "Státní rozpočet pro příští rok nepočítá se zrušením mediálních poplatků od 1. ledna, sdělila ministryně financí Alena Schillerová (ANO). Ministr kultury Oto Klempíř (za Motoristy) podle Deníku N připouští účinnost zákona až od července 2027, nebo dokonce od ledna 2028. Vládní koalice přitom už od začátku letošního roku avizovala, že lidé přestanou poplatky hradit od ledna 2027; první verzi zákona ministr předložil v dubnu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2193710/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-ruseni-koncesionarskych-poplatku-se-odklada-315603"
+        }
+      ],
+      "en": {
+        "headline": "The abolition of broadcasting licence fees is being postponed",
+        "sentences": [
+          {
+            "en": "The state budget for next year does not assume that media fees will be abolished as of 1 January, Finance Minister Alena Schillerová (ANO) said.",
+            "cs": "Státní rozpočet pro příští rok nepočítá se zrušením mediálních poplatků od 1. ledna, sdělila ministryně financí Alena Schillerová (ANO)."
+          },
+          {
+            "en": "Culture Minister Oto Klempíř (for Motoristé) concedes, according to Deník N, that the law may not take effect until July 2027 or even January 2028.",
+            "cs": "Ministr kultury Oto Klempíř (za Motoristy) podle Deníku N připouští účinnost zákona až od července 2027, nebo dokonce od ledna 2028."
+          },
+          {
+            "en": "Yet since the start of this year the governing coalition had been announcing that people would stop paying the fees from January 2027; the minister submitted the first version of the law in April.",
+            "cs": "Vládní koalice přitom už od začátku letošního roku avizovala, že lidé přestanou poplatky hradit od ledna 2027; první verzi zákona ministr předložil v dubnu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "abolition",
+            "definition": "the act of ending a law, a payment or a system"
+          },
+          {
+            "term": "concedes",
+            "definition": "admits that something is true, often unwillingly"
+          },
+          {
+            "term": "take effect",
+            "definition": "to start being valid or to start working"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:54",
+      "headline": "Univerzita Karlova otevřela v Hradci kampus za 7,2 miliardy korun",
+      "body": "Univerzita Karlova dnes otevřela v sousedství Fakultní nemocnice Hradec Králové nový kampus Mephared 2, který podle iROZHLAS a Hradecké drbny patří k nejmodernějším vysokoškolským areálům v Evropě. Areál stál 7,2 miliardy korun, je propojený s nemocnicí a soustřeďuje na jednom místě výuku i výzkum medicíny a farmacie. Hradecký deník uvádí přes 70 tisíc metrů čtverečních užitné plochy, 3500 skříněk pro studenty a zázemí pro celkem 4500 lidí; podle iDNES studenti ocení posluchárny, laboratoře i simulační centra.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/kampus-univerzita-karlova-hradec-kralove-farmacie-lekari-fakulta-medici-nemocnice.A260922_151703_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/901072-univerzita-karlova-otevrela-v-hradci-kralove-kampus-za-7-2-miliardy-kc.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/mephared-2-kampus-hradec-kralove-otevreni-andrej-babis-medicina-univerzita-karlova/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/univerzita-karlova-otevrela-v-hradci-kralove-kampus-za-72-miliardy-korun_2609231256_mkm"
+        }
+      ],
+      "en": {
+        "headline": "Charles University has opened a campus in Hradec worth 7.2 billion crowns",
+        "sentences": [
+          {
+            "en": "Charles University today opened the new Mephared 2 campus next to the University Hospital in Hradec Králové, which according to iROZHLAS and Hradecká drbna ranks among the most modern university complexes in Europe.",
+            "cs": "Univerzita Karlova dnes otevřela v sousedství Fakultní nemocnice Hradec Králové nový kampus Mephared 2, který podle iROZHLAS a Hradecké drbny patří k nejmodernějším vysokoškolským areálům v Evropě."
+          },
+          {
+            "en": "The complex cost 7.2 billion crowns, is connected to the hospital and brings teaching and research in medicine and pharmacy together in one place.",
+            "cs": "Areál stál 7,2 miliardy korun, je propojený s nemocnicí a soustřeďuje na jednom místě výuku i výzkum medicíny a farmacie."
+          },
+          {
+            "en": "Hradecký deník reports more than 70 thousand square metres of usable floor space, 3,500 lockers for students and facilities for a total of 4,500 people; according to iDNES, students will appreciate the lecture halls, laboratories and simulation centres.",
+            "cs": "Hradecký deník uvádí přes 70 tisíc metrů čtverečních užitné plochy, 3500 skříněk pro studenty a zázemí pro celkem 4500 lidí; podle iDNES studenti ocení posluchárny, laboratoře i simulační centra."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "complex",
+            "definition": "a group of buildings that belong together"
+          },
+          {
+            "term": "usable floor space",
+            "definition": "the area inside a building that people can actually use"
+          },
+          {
+            "term": "lecture halls",
+            "definition": "large rooms where a teacher speaks to many students"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:00",
+      "headline": "Soud osvobodil všechny obžalované v kauze falešné závěti po továrníkovi Řípovi",
+      "body": "Krajský soud v Hradci Králové dnes osvobodil všechny čtyři ženy obžalované kvůli údajně zfalšované závěti po továrníkovi Františku Řípovi. Hlavní obžalovanou byla vdova po podnikateli Alena Řípová. Zásadní pro rozhodnutí soudu bylo to, že rodinní příslušníci vzali zpět svůj souhlas s jejím trestním stíháním. Podle Seznam Zpráv měla obžaloba mluvit o škodě přes 100 milionů korun. Hradecký deník připomíná, že původní odsuzující rozsudek zrušil už loni Vrchní soud v Praze. Verdikt není pravomocný, státní zástupce si pro odvolání ponechal lhůtu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/soud-osvobodil-falesna-zavet-karsit-group-dedictvi-vdova.A260923_132149_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-soud-v-kauze-falesne-zaveti-po-tovarnikovi-ripovi-vsechny-stihane-osvobodil-316028"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/karsit-falesna-zavet-alena-ripova-soud-osvobozeni/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2193528/"
+        }
+      ],
+      "en": {
+        "headline": "The court acquitted everyone charged in the forged will case of the factory owner Řípa",
+        "sentences": [
+          {
+            "en": "The Regional Court in Hradec Králové today acquitted all four women charged over the allegedly forged will of the factory owner František Řípa.",
+            "cs": "Krajský soud v Hradci Králové dnes osvobodil všechny čtyři ženy obžalované kvůli údajně zfalšované závěti po továrníkovi Františku Řípovi."
+          },
+          {
+            "en": "The main defendant was the businessman's widow, Alena Řípová.",
+            "cs": "Hlavní obžalovanou byla vdova po podnikateli Alena Řípová."
+          },
+          {
+            "en": "What proved decisive for the court's ruling was that family members withdrew their consent to her prosecution.",
+            "cs": "Zásadní pro rozhodnutí soudu bylo to, že rodinní příslušníci vzali zpět svůj souhlas s jejím trestním stíháním."
+          },
+          {
+            "en": "According to Seznam Zprávy, the indictment had put the damage at more than 100 million crowns.",
+            "cs": "Podle Seznam Zpráv měla obžaloba mluvit o škodě přes 100 milionů korun."
+          },
+          {
+            "en": "Hradecký deník recalls that the original guilty verdict was already overturned last year by the High Court in Prague.",
+            "cs": "Hradecký deník připomíná, že původní odsuzující rozsudek zrušil už loni Vrchní soud v Praze."
+          },
+          {
+            "en": "The ruling is not final, and the prosecutor has reserved the deadline for an appeal.",
+            "cs": "Verdikt není pravomocný, státní zástupce si pro odvolání ponechal lhůtu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "acquitted",
+            "definition": "found not guilty by a court"
+          },
+          {
+            "term": "forged",
+            "definition": "made as a false copy in order to deceive people"
+          },
+          {
+            "term": "indictment",
+            "definition": "an official document that formally accuses someone of a crime"
+          },
+          {
+            "term": "overturned",
+            "definition": "cancelled by a higher court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:20",
+      "headline": "Hradec se přiblížil k opravě zanedbaných Severních teras",
+      "body": "Oprava Severních teras, které lidé dlouhodobě kritizují a někteří je označují za ostudu města, se přiblížila. Průzkumy podle Hradecké drbny potvrdily, že svah není nestabilní a problémem jsou poškozené konstrukce a kanalizace. První práce by mohly začít na konci roku 2027.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/901052-lide-jim-rikaji-ostuda-mesta-hradec-chysta-opravu-severnich-teras.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec has moved closer to repairing the run-down Severní terasy",
+        "sentences": [
+          {
+            "en": "The repair of Severní terasy, which residents have long criticised and some call a disgrace to the city, has moved closer.",
+            "cs": "Oprava Severních teras, které lidé dlouhodobě kritizují a někteří je označují za ostudu města, se přiblížila."
+          },
+          {
+            "en": "Surveys have confirmed, according to Hradecká drbna, that the slope is not unstable and that the problem lies in damaged structures and sewers.",
+            "cs": "Průzkumy podle Hradecké drbny potvrdily, že svah není nestabilní a problémem jsou poškozené konstrukce a kanalizace."
+          },
+          {
+            "en": "The first works could begin at the end of 2027.",
+            "cs": "První práce by mohly začít na konci roku 2027."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "run-down",
+            "definition": "in bad condition because nobody has looked after it"
+          },
+          {
+            "term": "disgrace",
+            "definition": "something that makes people feel ashamed"
+          },
+          {
+            "term": "sewers",
+            "definition": "underground pipes that carry away waste water"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:15",
+      "headline": "Nepovedená socha starosty Ulricha zamíří do muzea",
+      "body": "Kritizovaná socha hradeckého starosty Františka Ulricha, za jehož působení město získalo přízvisko Salon republiky, zamíří do Muzea východních Čech. To o ni podle Hradeckého deníku projevilo zájem, město ji věnuje a muzeum ji uloží ve svém depozitáři v Josefově. Radnice sochu pořídila v roce 2010 a stála na náměstí Svobody; podle iDNES na svém místě vydržela jen osm měsíců, Hradecký deník mluví o roce. Potom putovala do veřejnosti nepřístupného areálu technických služeb na letišti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/socha-frantiska-ulricha-depozitar-muzeum-vychodnich-cech-josefov.A260923_121519_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/ulrich-nepovedena-socha-hradec-kralove-muzeum/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The unsuccessful statue of mayor Ulrich is heading for a museum",
+        "sentences": [
+          {
+            "en": "The much-criticised statue of the Hradec mayor František Ulrich, under whose leadership the city earned the nickname Salon of the Republic, is heading for the Museum of Eastern Bohemia.",
+            "cs": "Kritizovaná socha hradeckého starosty Františka Ulricha, za jehož působení město získalo přízvisko Salon republiky, zamíří do Muzea východních Čech."
+          },
+          {
+            "en": "The museum expressed interest in it according to Hradecký deník, the city is donating it, and the museum will keep it in its storage facility in Josefov.",
+            "cs": "To o ni podle Hradeckého deníku projevilo zájem, město ji věnuje a muzeum ji uloží ve svém depozitáři v Josefově."
+          },
+          {
+            "en": "The city hall acquired the statue in 2010 and it stood on náměstí Svobody; according to iDNES it lasted only eight months in place, while Hradecký deník speaks of a year.",
+            "cs": "Radnice sochu pořídila v roce 2010 a stála na náměstí Svobody; podle iDNES na svém místě vydržela jen osm měsíců, Hradecký deník mluví o roce."
+          },
+          {
+            "en": "It then ended up in the technical services depot at the airfield, which is closed to the public.",
+            "cs": "Potom putovala do veřejnosti nepřístupného areálu technických služeb na letišti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "nickname",
+            "definition": "an informal extra name given to a person or a place"
+          },
+          {
+            "term": "storage facility",
+            "definition": "a place where things are kept when they are not on show"
+          },
+          {
+            "term": "depot",
+            "definition": "a place where vehicles or equipment are kept"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:45",
+      "headline": "Pavel na summitu Krymské platformy vyzval, aby svět dál neuznával anexi poloostrova",
+      "body": "Mezinárodní společenství musí podle prezidenta Petra Pavla pokračovat v politice neuznávání anexe Krymu. Ruská okupace poloostrova podle něj zůstává flagrantním porušením Charty OSN a základních principů suverenity a územní celistvosti, navíc je páchána stálým členem Rady bezpečnosti OSN. Řekl to v projevu na summitu Krymské platformy, který se konal na okraji Valného shromáždění OSN v New Yorku. Na plénu Valného shromáždění měl Pavel podle Deníku N vyzvat k reformě organizace včetně Rady bezpečnosti a mluvit o odpovědnosti velmocí za ukončení konfliktů i o globální koordinaci v oblasti umělé inteligence. Seznam Zprávy uvádějí, že vyzval Čínu, aby pomohla ukončit válku na Ukrajině. Podle Deníku N prezident na úterní recepci pořádané Donaldem Trumpem hovořil zhruba s dvacítkou zahraničních lídrů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2193872/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/zkouska-dodrzovani-zasad-pavel-vyzval-mezinarodni-spolecenstvi-aby-dal_2609231629_cen"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-pavluv-program-v-new-yorku-vrcholi-vystoupi-s-projevem-v-osn-315990"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/pokracuje-rozprava-valneho-shromazdeni-osn-s-projevem-vystoupi-i-prezident-pavel-377882"
+        }
+      ],
+      "en": {
+        "headline": "At the Crimea Platform summit Pavel called on the world not to recognise the annexation of the peninsula",
+        "sentences": [
+          {
+            "en": "The international community must, according to President Petr Pavel, continue its policy of not recognising the annexation of Crimea.",
+            "cs": "Mezinárodní společenství musí podle prezidenta Petra Pavla pokračovat v politice neuznávání anexe Krymu."
+          },
+          {
+            "en": "Russia's occupation of the peninsula remains in his view a flagrant breach of the UN Charter and of the basic principles of sovereignty and territorial integrity, and on top of that it is committed by a permanent member of the UN Security Council.",
+            "cs": "Ruská okupace poloostrova podle něj zůstává flagrantním porušením Charty OSN a základních principů suverenity a územní celistvosti, navíc je páchána stálým členem Rady bezpečnosti OSN."
+          },
+          {
+            "en": "He said this in a speech at the Crimea Platform summit, held on the margins of the UN General Assembly in New York.",
+            "cs": "Řekl to v projevu na summitu Krymské platformy, který se konal na okraji Valného shromáždění OSN v New Yorku."
+          },
+          {
+            "en": "In the General Assembly plenary, Pavel was expected, according to Deník N, to call for a reform of the organisation including the Security Council and to speak about the responsibility of great powers for ending conflicts and about global coordination on artificial intelligence.",
+            "cs": "Na plénu Valného shromáždění měl Pavel podle Deníku N vyzvat k reformě organizace včetně Rady bezpečnosti a mluvit o odpovědnosti velmocí za ukončení konfliktů i o globální koordinaci v oblasti umělé inteligence."
+          },
+          {
+            "en": "Seznam Zprávy reports that he called on China to help end the war in Ukraine.",
+            "cs": "Seznam Zprávy uvádějí, že vyzval Čínu, aby pomohla ukončit válku na Ukrajině."
+          },
+          {
+            "en": "According to Deník N, the president spoke with some twenty foreign leaders at Tuesday's reception hosted by Donald Trump.",
+            "cs": "Podle Deníku N prezident na úterní recepci pořádané Donaldem Trumpem hovořil zhruba s dvacítkou zahraničních lídrů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "annexation",
+            "definition": "the taking of another country's land and making it your own"
+          },
+          {
+            "term": "flagrant",
+            "definition": "openly and obviously wrong"
+          },
+          {
+            "term": "sovereignty",
+            "definition": "a country's right to govern itself"
+          },
+          {
+            "term": "on the margins",
+            "definition": "alongside a big meeting rather than as part of its main programme"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:09",
+      "headline": "Rubio po schůzce s Lavrovem mluví o zájmu obou stran o omezené příměří",
+      "body": "Rusko i Ukrajina projevují zájem o omezené příměří týkající se energetiky a obilí. Podle agentury Reuters to dnes prohlásil americký ministr zahraničí Marco Rubio, který se na okraj všeobecné rozpravy Valného shromáždění OSN setkal s ruskou delegací vedenou šéfem diplomacie Sergejem Lavrovem. Navazuje to na včerejší informaci ukrajinského diplomata, podle níž je Volodymyr Zelenskyj ochoten zastavit útoky na ruské rafinerie výměnou za energetické příměří.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-rusko-i-ukrajina-maji-zajem-o-omezene-primeri-tykajici-se-energetiky-a_2609231709_jar"
+        }
+      ],
+      "en": {
+        "headline": "After meeting Lavrov, Rubio speaks of both sides being interested in a limited ceasefire",
+        "sentences": [
+          {
+            "en": "Both Russia and Ukraine are showing interest in a limited ceasefire covering energy and grain.",
+            "cs": "Rusko i Ukrajina projevují zájem o omezené příměří týkající se energetiky a obilí."
+          },
+          {
+            "en": "According to the Reuters agency, this was stated today by US Secretary of State Marco Rubio, who met a Russian delegation led by Foreign Minister Sergei Lavrov on the margins of the general debate of the UN General Assembly.",
+            "cs": "Podle agentury Reuters to dnes prohlásil americký ministr zahraničí Marco Rubio, který se na okraj všeobecné rozpravy Valného shromáždění OSN setkal s ruskou delegací vedenou šéfem diplomacie Sergejem Lavrovem."
+          },
+          {
+            "en": "It follows on from yesterday's information from a Ukrainian diplomat, according to which Volodymyr Zelensky is willing to stop attacks on Russian refineries in exchange for an energy ceasefire.",
+            "cs": "Navazuje to na včerejší informaci ukrajinského diplomata, podle níž je Volodymyr Zelenskyj ochoten zastavit útoky na ruské rafinerie výměnou za energetické příměří."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting for a time"
+          },
+          {
+            "term": "delegation",
+            "definition": "a group of people sent to represent a country at talks"
+          },
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "18:51",
+      "day": "prev",
+      "headline": "Grónsko má podle nové dohody zůstat v NATO i po případné nezávislosti",
+      "body": "Americký prezident Donald Trump, dánská premiérka Mette Frederiksenová a předseda grónské vlády podepsali včera v New Yorku dohodu o Grónsku. Podle částí dokumentu, které cituje agentura Reuters, uznává dohoda územní suverenitu Dánského království nad ostrovem; pokud by Grónsko vyhlásilo nezávislost, musí zůstat součástí Severoatlantické aliance a dohodu plnit. Spojené státy zároveň získávají právo umístit na ostrově části svého plánovaného systému protiraketové obrany Golden Dome. Trump označil ujednání za milník pro bezpečnost Spojených států, Arktidy i Evropy. Deník N, který dohodu dnes rozebíral, píše, že krize, kterou Trump v NATO svou touhou vlastnit ostrov rozpoutal, fakticky končí dánským a grónským vítězstvím.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/trump-podepsal-dohodu-s-danskem-a-gronskem-ostrov-by-zustal-v-nato-i-po-ziskani-nezavislosti-1435977"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/usa-podepsaly-s-danskem-a-gronskem-dohodu-o-bezpecnosti-377858"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2193504/co-je-v-nove-dohode-o-gronsku-ulitba-trumpovi-to-co-dansku-nevadi-a-ohled-na-gronany/"
+        }
+      ],
+      "en": {
+        "headline": "Under the new agreement Greenland is to stay in NATO even if it becomes independent",
+        "sentences": [
+          {
+            "en": "US President Donald Trump, Danish Prime Minister Mette Frederiksen and the head of the Greenlandic government signed an agreement on Greenland in New York yesterday.",
+            "cs": "Americký prezident Donald Trump, dánská premiérka Mette Frederiksenová a předseda grónské vlády podepsali včera v New Yorku dohodu o Grónsku."
+          },
+          {
+            "en": "According to parts of the document quoted by the Reuters agency, the agreement recognises the territorial sovereignty of the Kingdom of Denmark over the island; should Greenland declare independence, it must remain part of the North Atlantic Alliance and comply with the agreement.",
+            "cs": "Podle částí dokumentu, které cituje agentura Reuters, uznává dohoda územní suverenitu Dánského království nad ostrovem; pokud by Grónsko vyhlásilo nezávislost, musí zůstat součástí Severoatlantické aliance a dohodu plnit."
+          },
+          {
+            "en": "At the same time, the United States gains the right to place parts of its planned Golden Dome missile defence system on the island.",
+            "cs": "Spojené státy zároveň získávají právo umístit na ostrově části svého plánovaného systému protiraketové obrany Golden Dome."
+          },
+          {
+            "en": "Trump called the arrangement a milestone for the security of the United States, the Arctic and Europe as well.",
+            "cs": "Trump označil ujednání za milník pro bezpečnost Spojených států, Arktidy i Evropy."
+          },
+          {
+            "en": "Deník N, which examined the agreement today, writes that the crisis Trump set off within NATO through his desire to own the island effectively ends in a Danish and Greenlandic victory.",
+            "cs": "Deník N, který dohodu dnes rozebíral, píše, že krize, kterou Trump v NATO svou touhou vlastnit ostrov rozpoutal, fakticky končí dánským a grónským vítězstvím."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "comply with",
+            "definition": "to do what a rule or an agreement requires"
+          },
+          {
+            "term": "milestone",
+            "definition": "an important point in the development of something"
+          },
+          {
+            "term": "set off",
+            "definition": "to cause something to start, usually something bad"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:35",
+      "headline": "Ruský vojenský vrtulník na 42 sekund narušil polský vzdušný prostor",
+      "body": "Do polského vzdušného prostoru dnes dopoledne vletěl z Kaliningradské oblasti ruský vojenský vrtulník Mi-8. Oznámilo to polské velitelství operačních sil s tím, že stroj se dostal do vzdálenosti přibližně 300 metrů od hranic a po 42 sekundách prostor opustil. Do vzduchu šly polské stíhačky. Podle polské strany charakter incidentu naznačuje, že Rusko opět testuje pohotovost polské protivzdušné obrany.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-polsky-vzdusny-prostor-narusil-rusky-vojensky-vrtulnik-uvedla-armada-316030"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/rusky-vojensky-vrtulnik-pronikl-nad-polsko-do-vzduchu-sly-stihacky-1435999"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2193574/"
+        }
+      ],
+      "en": {
+        "headline": "A Russian military helicopter breached Polish airspace for 42 seconds",
+        "sentences": [
+          {
+            "en": "A Russian Mi-8 military helicopter flew into Polish airspace from the Kaliningrad region this morning.",
+            "cs": "Do polského vzdušného prostoru dnes dopoledne vletěl z Kaliningradské oblasti ruský vojenský vrtulník Mi-8."
+          },
+          {
+            "en": "This was announced by the Polish operational forces command, which said the aircraft came within roughly 300 metres of the border and left the airspace after 42 seconds.",
+            "cs": "Oznámilo to polské velitelství operačních sil s tím, že stroj se dostal do vzdálenosti přibližně 300 metrů od hranic a po 42 sekundách prostor opustil."
+          },
+          {
+            "en": "Polish fighter jets were scrambled.",
+            "cs": "Do vzduchu šly polské stíhačky."
+          },
+          {
+            "en": "According to the Polish side, the nature of the incident suggests that Russia is once again testing the readiness of Polish air defences.",
+            "cs": "Podle polské strany charakter incidentu naznačuje, že Rusko opět testuje pohotovost polské protivzdušné obrany."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "breached",
+            "definition": "broke through or went into a place without permission"
+          },
+          {
+            "term": "airspace",
+            "definition": "the sky above a country that belongs to that country"
+          },
+          {
+            "term": "scrambled",
+            "definition": "sent into the air very quickly in an emergency"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:29",
+      "headline": "Slovensko od října omezí marže u paliv a zlevní vlaky",
+      "body": "Slovensko v reakci na rostoucí ceny pohonných hmot od října omezí maloobchodní marži při prodeji paliv na deset eurocentů (2,43 koruny) za litr a o polovinu zlevní jízdné na železnici. Oznámil to premiér Robert Fico (Smer). Z jeho vyjádření podle ČT24 vyplynulo, že kabinet nepočítá se snížením daní na benzin či naftu. Tamní opozice označila ohlášená opatření za nedostatečná.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovensko-omezi-marze-pri-prodeji-paliv-a-zlevni-jizdne-na-zeleznici-316017"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensko-omezi-marze-pri-prodeji-paliv-a-zlevni-jizdne-na-zeleznici-377875"
+        }
+      ],
+      "en": {
+        "headline": "From October Slovakia will cap fuel margins and cut train fares",
+        "sentences": [
+          {
+            "en": "In response to rising fuel prices, Slovakia will from October cap the retail margin on fuel sales at ten euro cents (2.43 crowns) per litre and halve rail fares.",
+            "cs": "Slovensko v reakci na rostoucí ceny pohonných hmot od října omezí maloobchodní marži při prodeji paliv na deset eurocentů (2,43 koruny) za litr a o polovinu zlevní jízdné na železnici."
+          },
+          {
+            "en": "This was announced by Prime Minister Robert Fico (Smer).",
+            "cs": "Oznámil to premiér Robert Fico (Smer)."
+          },
+          {
+            "en": "It followed from his remarks, according to ČT24, that the cabinet is not considering cutting taxes on petrol or diesel.",
+            "cs": "Z jeho vyjádření podle ČT24 vyplynulo, že kabinet nepočítá se snížením daní na benzin či naftu."
+          },
+          {
+            "en": "The Slovak opposition called the announced measures insufficient.",
+            "cs": "Tamní opozice označila ohlášená opatření za nedostatečná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cap",
+            "definition": "to set an upper limit that cannot be passed"
+          },
+          {
+            "term": "retail margin",
+            "definition": "the money a shop adds on top of what it paid for goods"
+          },
+          {
+            "term": "fares",
+            "definition": "the money you pay to travel by train, bus or plane"
+          },
+          {
+            "term": "insufficient",
+            "definition": "not enough"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:00",
+      "headline": "E.ON a Pražská plynárenská zdražily fixace energií pro nové zákazníky",
+      "body": "Energetické společnosti E.ON a Pražská plynárenská v minulých dnech zdražily některé své fixované produkty elektřiny a plynu. Zvýšení cen většinou v řádu stovek korun za megawatthodinu se týká nových zákazníků. Firmy tak podle ČT24 reagují na současný růst cen energií na velkoobchodním trhu. E15 dodává, že kvůli krizi na Blízkém východě zdražovali v minulých měsících i další dodavatelé.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/eon-a-prazska-plynarenska-zdrazily-fixace-energii-pro-nove-zakazniky-377865"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/elektrina-a-plyn-zdrazuji-ceny-u-novych-fixaci-zvysuji-dalsi-dva-velci-dodavatele-1435979"
+        }
+      ],
+      "en": {
+        "headline": "E.ON and Pražská plynárenská have raised fixed-price energy deals for new customers",
+        "sentences": [
+          {
+            "en": "The energy companies E.ON and Pražská plynárenská have in recent days raised the prices of some of their fixed electricity and gas products.",
+            "cs": "Energetické společnosti E.ON a Pražská plynárenská v minulých dnech zdražily některé své fixované produkty elektřiny a plynu."
+          },
+          {
+            "en": "The increases, mostly in the order of hundreds of crowns per megawatt hour, apply to new customers.",
+            "cs": "Zvýšení cen většinou v řádu stovek korun za megawatthodinu se týká nových zákazníků."
+          },
+          {
+            "en": "The firms are thus responding, according to ČT24, to the current rise in energy prices on the wholesale market.",
+            "cs": "Firmy tak podle ČT24 reagují na současný růst cen energií na velkoobchodním trhu."
+          },
+          {
+            "en": "E15 adds that other suppliers also raised their prices in recent months because of the crisis in the Middle East.",
+            "cs": "E15 dodává, že kvůli krizi na Blízkém východě zdražovali v minulých měsících i další dodavatelé."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wholesale",
+            "definition": "buying and selling in large amounts between businesses"
+          },
+          {
+            "term": "suppliers",
+            "definition": "companies that provide goods or services to customers"
+          },
+          {
+            "term": "in the order of",
+            "definition": "roughly at the level of"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:50",
+      "headline": "Škoda JS bude dodávat pohony pro modulární reaktory Rolls-Royce",
+      "body": "Plzeňská společnost Škoda JS ze skupiny ČEZ uzavřela s britskou firmou Rolls-Royce SMR smlouvu na dodávku pohonů pro malé modulární reaktory. Smlouva zajišťuje, že Škoda JS bude jejich výhradním projektantem a dodavatelem; v jednotlivých případech půjde o dodávku v hodnotě kolem jedné miliardy korun. Oznámil to ministr průmyslu a obchodu Karel Havlíček (ANO). První reaktor tohoto typu má v Česku podle E15 vzniknout v polovině 30. let v Temelíně.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/skoda-js-bude-dodavat-pohony-pro-modularni-reaktory-rolls-royce-smr-377866"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/skoda-js-doda-firme-rolls-royce-smr-pohony-pro-male-modularni-reaktory-prvni-vznikne-v-temeline-1435982"
+        }
+      ],
+      "en": {
+        "headline": "Škoda JS will supply drives for Rolls-Royce modular reactors",
+        "sentences": [
+          {
+            "en": "The Plzeň-based company Škoda JS, part of the ČEZ group, has signed a contract with the British firm Rolls-Royce SMR to supply drives for small modular reactors.",
+            "cs": "Plzeňská společnost Škoda JS ze skupiny ČEZ uzavřela s britskou firmou Rolls-Royce SMR smlouvu na dodávku pohonů pro malé modulární reaktory."
+          },
+          {
+            "en": "The contract makes Škoda JS their sole designer and supplier; each individual delivery will be worth around one billion crowns.",
+            "cs": "Smlouva zajišťuje, že Škoda JS bude jejich výhradním projektantem a dodavatelem; v jednotlivých případech půjde o dodávku v hodnotě kolem jedné miliardy korun."
+          },
+          {
+            "en": "This was announced by Industry and Trade Minister Karel Havlíček (ANO).",
+            "cs": "Oznámil to ministr průmyslu a obchodu Karel Havlíček (ANO)."
+          },
+          {
+            "en": "The first reactor of this type in Czechia is, according to E15, to be built in Temelín in the middle of the 2030s.",
+            "cs": "První reaktor tohoto typu má v Česku podle E15 vzniknout v polovině 30. let v Temelíně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drives",
+            "definition": "the machinery that moves a part of a bigger machine"
+          },
+          {
+            "term": "sole",
+            "definition": "being the only one"
+          },
+          {
+            "term": "modular",
+            "definition": "built from standard parts that can be put together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:50",
+      "headline": "Křetínského EPH podal nabídku na převzetí německého Uniperu",
+      "body": "Skupina EPH Daniela Křetínského podala nabídku na převzetí německé energetické firmy Uniper, která zásobuje plynem zhruba 500 průmyslových podniků. Po ruské invazi na Ukrajinu firmu zachránila německá vláda, která ji nyní chce prodat. Zaměstnanci Uniperu s prodejem nesouhlasí a chystají se na odpor.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/kretinskeho-eph-podal-nabidku-na-prevzeti-nemecke-energeticke-firmy-uniper-1435992"
+        }
+      ],
+      "en": {
+        "headline": "Křetínský's EPH has made a bid to take over Germany's Uniper",
+        "sentences": [
+          {
+            "en": "Daniel Křetínský's EPH group has made a bid to take over the German energy company Uniper, which supplies gas to roughly 500 industrial plants.",
+            "cs": "Skupina EPH Daniela Křetínského podala nabídku na převzetí německé energetické firmy Uniper, která zásobuje plynem zhruba 500 průmyslových podniků."
+          },
+          {
+            "en": "After the Russian invasion of Ukraine the firm was rescued by the German government, which now wants to sell it.",
+            "cs": "Po ruské invazi na Ukrajinu firmu zachránila německá vláda, která ji nyní chce prodat."
+          },
+          {
+            "en": "Uniper employees disagree with the sale and are preparing to resist it.",
+            "cs": "Zaměstnanci Uniperu s prodejem nesouhlasí a chystají se na odpor."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bid",
+            "definition": "an offer to buy something at a stated price"
+          },
+          {
+            "term": "take over",
+            "definition": "to gain control of a company"
+          },
+          {
+            "term": "plants",
+            "definition": "factories or industrial sites"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "18:29",
+      "day": "prev",
+      "headline": "Anthropic vydal Claude Opus 5.5",
+      "body": "Anthropic včera představil nový špičkový model Claude Opus 5.5. Podle firmy dosahuje na většině úkolů úrovně modelu Fable 5.1, běží o 40 procent levněji než Opus 5 a generuje výstup o 30 procent rychleji. V testu Terminal-Bench 4.0 Anthropic uvádí 66,4 procenta oproti 52,3 procenta u Opus 5, v OSWorld 2.0 pak 81,8 procenta proti 74 procentům. Cena za milion vstupních tokenů klesla z pěti na čtyři dolary, za milion výstupních z 25 na 20 dolarů a za čtení z cache z 50 na 20 centů. Model je dostupný na platformě Anthropicu pod označením claude-opus-5-5 i u AWS, Google Cloudu a Microsoft Azure. Na Hacker News posbíralo oznámení přes 1600 bodů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has released Claude Opus 5.5",
+        "sentences": [
+          {
+            "en": "Anthropic yesterday presented a new flagship model, Claude Opus 5.5.",
+            "cs": "Anthropic včera představil nový špičkový model Claude Opus 5.5."
+          },
+          {
+            "en": "According to the company it matches the Fable 5.1 model on most tasks, runs 40 percent cheaper than Opus 5 and generates output 30 percent faster.",
+            "cs": "Podle firmy dosahuje na většině úkolů úrovně modelu Fable 5.1, běží o 40 procent levněji než Opus 5 a generuje výstup o 30 procent rychleji."
+          },
+          {
+            "en": "In the Terminal-Bench 4.0 test Anthropic reports 66.4 percent against 52.3 percent for Opus 5, and in OSWorld 2.0 81.8 percent against 74 percent.",
+            "cs": "V testu Terminal-Bench 4.0 Anthropic uvádí 66,4 procenta oproti 52,3 procenta u Opus 5, v OSWorld 2.0 pak 81,8 procenta proti 74 procentům."
+          },
+          {
+            "en": "The price per million input tokens has fallen from five to four dollars, per million output tokens from 25 to 20 dollars, and for cache reads from 50 to 20 cents.",
+            "cs": "Cena za milion vstupních tokenů klesla z pěti na čtyři dolary, za milion výstupních z 25 na 20 dolarů a za čtení z cache z 50 na 20 centů."
+          },
+          {
+            "en": "The model is available on Anthropic's platform under the label claude-opus-5-5 as well as on AWS, Google Cloud and Microsoft Azure.",
+            "cs": "Model je dostupný na platformě Anthropicu pod označením claude-opus-5-5 i u AWS, Google Cloudu a Microsoft Azure."
+          },
+          {
+            "en": "On Hacker News the announcement collected more than 1,600 points.",
+            "cs": "Na Hacker News posbíralo oznámení přes 1600 bodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "flagship",
+            "definition": "the best and most important product of a company"
+          },
+          {
+            "term": "matches",
+            "definition": "is as good as something else"
+          },
+          {
+            "term": "cache reads",
+            "definition": "reusing text the system has already processed, instead of paying for it again"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "20:00",
+      "day": "prev",
+      "headline": "OpenAI oznámila GPT-6 pod názvy Sol a Luna",
+      "body": "OpenAI včera večer na svém webu představila novou generaci modelů GPT-6 s označením Sol a Luna. Oznámení se stalo nejsledovanější položkou dne na Hacker News s více než 1600 body a bezmála osmi sty komentáři.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI has announced GPT-6 under the names Sol and Luna",
+        "sentences": [
+          {
+            "en": "OpenAI yesterday evening presented on its website a new generation of models, GPT-6, under the labels Sol and Luna.",
+            "cs": "OpenAI včera večer na svém webu představila novou generaci modelů GPT-6 s označením Sol a Luna."
+          },
+          {
+            "en": "The announcement became the most watched item of the day on Hacker News, with more than 1,600 points and nearly eight hundred comments.",
+            "cs": "Oznámení se stalo nejsledovanější položkou dne na Hacker News s více než 1600 body a bezmála osmi sty komentáři."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "generation",
+            "definition": "one stage in the development of a product"
+          },
+          {
+            "term": "labels",
+            "definition": "names used to identify something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:03",
+      "day": "prev",
+      "headline": "Pentagon podle Bloombergu připustil, že k úderu na školu v Íránu přispělo spoléhání na umělou inteligenci",
+      "body": "K raketovému úderu na školu v Íránu přispělo přílišné spoléhání na umělou inteligenci. Podle materiálu agentury Bloomberg, který se včera večer dostal na první příčky Hacker News, to uvedl Pentagon.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+        }
+      ],
+      "en": {
+        "headline": "The Pentagon has conceded, Bloomberg reports, that overreliance on artificial intelligence contributed to a strike on a school in Iran",
+        "sentences": [
+          {
+            "en": "Overreliance on artificial intelligence contributed to a missile strike on a school in Iran.",
+            "cs": "K raketovému úderu na školu v Íránu přispělo přílišné spoléhání na umělou inteligenci."
+          },
+          {
+            "en": "According to a piece by the Bloomberg agency that reached the top of Hacker News yesterday evening, this was stated by the Pentagon.",
+            "cs": "Podle materiálu agentury Bloomberg, který se včera večer dostal na první příčky Hacker News, to uvedl Pentagon."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conceded",
+            "definition": "admitted that something is true"
+          },
+          {
+            "term": "overreliance",
+            "definition": "depending on something too much"
+          },
+          {
+            "term": "strike",
+            "definition": "a military attack on a target"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:37",
+      "headline": "WordPress opravil kritickou chybu, která může vést ke spuštění cizího kódu",
+      "body": "WordPress opravil kritickou zranitelnost v jádru svého softwaru, která útočníkovi bez účtu umožňuje přimět web, aby načetl soubor PHP mimo adresář šablony. Na některých serverech to podle Rootu.cz může jít ještě dál a umožnit spuštění vlastního kódu. Oprava vyšla 22. září ve verzi 7.1.2 a ve všech dalších podporovaných větvích, tedy až zpět k verzi 4.7.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/wordpress-opravuje-kritickou-chybu-ktera-muze-umoznit-spusteni-ciziho-kodu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp"
+        }
+      ],
+      "en": {
+        "headline": "WordPress has fixed a critical flaw that can lead to remote code execution",
+        "sentences": [
+          {
+            "en": "WordPress has fixed a critical vulnerability in the core of its software that lets an attacker without an account make a site load a PHP file outside the template directory.",
+            "cs": "WordPress opravil kritickou zranitelnost v jádru svého softwaru, která útočníkovi bez účtu umožňuje přimět web, aby načetl soubor PHP mimo adresář šablony."
+          },
+          {
+            "en": "On some servers this can go further, according to Root.cz, and allow the attacker's own code to be run.",
+            "cs": "Na některých serverech to podle Rootu.cz může jít ještě dál a umožnit spuštění vlastního kódu."
+          },
+          {
+            "en": "The fix was released on 22 September in version 7.1.2 and in all other supported branches, that is all the way back to version 4.7.",
+            "cs": "Oprava vyšla 22. září ve verzi 7.1.2 a ve všech dalších podporovaných větvích, tedy až zpět k verzi 4.7."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vulnerability",
+            "definition": "a weak point in software that an attacker can use"
+          },
+          {
+            "term": "core",
+            "definition": "the central part of a piece of software"
+          },
+          {
+            "term": "branches",
+            "definition": "separate versions of software kept up to date in parallel"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "18:04",
+      "day": "prev",
+      "headline": "Objevitelé altermagnetismu získali prestižní evropskou cenu za fyziku",
+      "body": "Letošní EPS Europhysics Prize získala trojice objevitelů altermagnetismu: Libor Šmejkal, Jairo Sinova a Tomáš Jungwirth. Ocenění podle Deníku N potvrzuje, že dva roky starý objev nového fyzikálního jevu patří k vědeckým úspěchům mimořádného významu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2191629/predstupen-nobelovy-ceny-prestizni-oceneni-fyzikalniho-vyzkumu-putuje-do-prahy/"
+        }
+      ],
+      "en": {
+        "headline": "The discoverers of altermagnetism have won a prestigious European physics prize",
+        "sentences": [
+          {
+            "en": "This year's EPS Europhysics Prize has gone to the three discoverers of altermagnetism: Libor Šmejkal, Jairo Sinova and Tomáš Jungwirth.",
+            "cs": "Letošní EPS Europhysics Prize získala trojice objevitelů altermagnetismu: Libor Šmejkal, Jairo Sinova a Tomáš Jungwirth."
+          },
+          {
+            "en": "The award confirms, according to Deník N, that the two-year-old discovery of a new physical phenomenon belongs among scientific achievements of exceptional importance.",
+            "cs": "Ocenění podle Deníku N potvrzuje, že dva roky starý objev nového fyzikálního jevu patří k vědeckým úspěchům mimořádného významu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prestigious",
+            "definition": "widely respected and admired"
+          },
+          {
+            "term": "phenomenon",
+            "definition": "something that happens in nature and can be observed"
+          },
+          {
+            "term": "achievements",
+            "definition": "things done successfully after effort"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:37",
+      "headline": "Pardubický kraj jako první v Česku zrušil velké dětské domovy",
+      "body": "Pardubickému kraji se jako prvnímu v Česku podařilo dokončit proměnu ústavní péče o děti. Místo velkých dětských domovů bydlí děti po maximálně šestičlenných skupinách v samostatných domácnostech jako běžné rodiny.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2186569/konec-neosobnich-ustavu-pardubicky-kraj-jako-prvni-zrusil-velke-detske-domovy/"
+        }
+      ],
+      "en": {
+        "headline": "The Pardubice Region is the first in Czechia to close down its large children's homes",
+        "sentences": [
+          {
+            "en": "The Pardubice Region has become the first in Czechia to complete the transformation of institutional care for children.",
+            "cs": "Pardubickému kraji se jako prvnímu v Česku podařilo dokončit proměnu ústavní péče o děti."
+          },
+          {
+            "en": "Instead of large children's homes, the children live in groups of no more than six in separate households, like ordinary families.",
+            "cs": "Místo velkých dětských domovů bydlí děti po maximálně šestičlenných skupinách v samostatných domácnostech jako běžné rodiny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "transformation",
+            "definition": "a complete change in the way something works"
+          },
+          {
+            "term": "institutional care",
+            "definition": "looking after people in a large state-run building rather than a family home"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "17:26",
+      "day": "prev",
+      "headline": "Spojenci v NATO počítají se scénářem ruského vpádu do Pobaltí",
+      "body": "Spojenci v NATO se podle Deníku N připravují na scénář, podle něhož by se Rusko mohlo pokusit o omezenou provokaci nebo vpád na území některé z pobaltských zemí. Scénář z tajných jednání podle listu potvrzuje i prezident Petr Pavel.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2192472/rusove-mohou-zkusit-zabrat-uzemi-na-vychode-pobalti-scenar-z-tajnych-jednani-potvrzuje-i-prezident-pavel/"
+        }
+      ],
+      "en": {
+        "headline": "NATO allies are working with a scenario of a Russian incursion into the Baltics",
+        "sentences": [
+          {
+            "en": "NATO allies are, according to Deník N, preparing for a scenario in which Russia might attempt a limited provocation or an incursion into the territory of one of the Baltic states.",
+            "cs": "Spojenci v NATO se podle Deníku N připravují na scénář, podle něhož by se Rusko mohlo pokusit o omezenou provokaci nebo vpád na území některé z pobaltských zemí."
+          },
+          {
+            "en": "The scenario, drawn from secret talks, is confirmed by President Petr Pavel as well, the paper says.",
+            "cs": "Scénář z tajných jednání podle listu potvrzuje i prezident Petr Pavel."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "incursion",
+            "definition": "a short attack into another country's territory"
+          },
+          {
+            "term": "provocation",
+            "definition": "an action meant to make someone angry or to test their reaction"
+          },
+          {
+            "term": "scenario",
+            "definition": "a description of how a situation might develop"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:31",
+      "headline": "Češky mají z mistrovství Evropy v boxu jisté dvě medaile",
+      "body": "Lenka Bernardová porazila ve čtvrtfinále kategorie do 54 kilogramů Angličanku Lauren Mackieovou poměrem všech pěti bodových rozhodčích a má v Sofii jistý nejméně bronz. Druhou medaili zajistila už včera Stella Blažková, která v kategorii do 80 kilogramů zdolala 3:2 Polku Emilii Koterskou. Barbora Maxová v šedesátce nestačila na Turkyni Gizem Özerovou a obsadila páté místo.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/box/cesky-box-ma-druhou-jistou-medaili-z-me-ve-ctvrtfinale-uspela-bernardova-159091"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/bojove-sporty-ceska-si-na-me-v-boxu-zajistila-nejmene-bronzovou-medaili-5541601"
+        }
+      ],
+      "en": {
+        "headline": "Czech women are sure of two medals from the European boxing championships",
+        "sentences": [
+          {
+            "en": "Lenka Bernardová beat England's Lauren Mackie in the quarter-final of the 54-kilogram category on the cards of all five judges and is sure of at least bronze in Sofia.",
+            "cs": "Lenka Bernardová porazila ve čtvrtfinále kategorie do 54 kilogramů Angličanku Lauren Mackieovou poměrem všech pěti bodových rozhodčích a má v Sofii jistý nejméně bronz."
+          },
+          {
+            "en": "A second medal was secured yesterday by Stella Blažková, who beat Poland's Emilia Koterska 3:2 in the 80-kilogram category.",
+            "cs": "Druhou medaili zajistila už včera Stella Blažková, která v kategorii do 80 kilogramů zdolala 3:2 Polku Emilii Koterskou."
+          },
+          {
+            "en": "In the sixty-kilogram class Barbora Maxová was no match for the Turkish fighter Gizem Özer and finished fifth.",
+            "cs": "Barbora Maxová v šedesátce nestačila na Turkyni Gizem Özerovou a obsadila páté místo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "quarter-final",
+            "definition": "one of the four matches that decide who reaches the semi-finals"
+          },
+          {
+            "term": "was no match for",
+            "definition": "was much weaker than the opponent"
+          },
+          {
+            "term": "secured",
+            "definition": "made certain of getting something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:39",
+      "day": "prev",
+      "headline": "Sparta i Pardubice prohrály doma, Sparta poprvé od roku 2021 nezvládla domácí vstup do extraligy",
+      "body": "Hokejisté Sparty podlehli ve 3. kole Tipsport extraligy Mladé Boleslavi 3:5 a jejich vítězná série při vstupu do soutěže před vlastními fanoušky skončila. Pardubice v předehrávce 11. kola prohrály s Libercem 4:5.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/liberec-zvladl-prestrelku-v-pardubicich-i-diky-trefe-kachlire-159083"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/hokej-tipsport-extraliga-mlada-boleslav-sparta-praha-patrik-augusta-jiri-sekac_2609231526_kri"
+        }
+      ],
+      "en": {
+        "headline": "Sparta and Pardubice both lost at home, with Sparta failing to win its home opener for the first time since 2021",
+        "sentences": [
+          {
+            "en": "Sparta's ice hockey players lost 3:5 to Mladá Boleslav in the third round of the Tipsport Extraliga, ending their winning run in season openers in front of their own fans.",
+            "cs": "Hokejisté Sparty podlehli ve 3. kole Tipsport extraligy Mladé Boleslavi 3:5 a jejich vítězná série při vstupu do soutěže před vlastními fanoušky skončila."
+          },
+          {
+            "en": "Pardubice lost 4:5 to Liberec in an early game of the eleventh round.",
+            "cs": "Pardubice v předehrávce 11. kola prohrály s Libercem 4:5."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "home opener",
+            "definition": "a team's first match of the season on its own ground"
+          },
+          {
+            "term": "winning run",
+            "definition": "a series of matches won one after another"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:34",
+      "headline": "Eriksen ukončil angažmá ve Wolfsburgu a vrací se do Dánska",
+      "body": "Dánský fotbalista Christian Eriksen se dohodl na předčasném ukončení angažmá ve Wolfsburgu. Čtyřiatřicetiletý záložník, který má od srdeční zástavy na hřišti během mistrovství Evropy 2021 voperovaný kardioverter-defibrilátor, se chce vrátit do vlasti a být s rodinou, zatímco bude pokračovat v rehabilitaci po svém druhém kolapsu na hřišti v červnovém přípravném zápase Dánska s Ukrajinou.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-bundesliga-eriksen-pokracuje-v-rehabilitaci-po-druhem-kolapsu-skoncil-ve-wolfsburgu-5541631"
+        }
+      ],
+      "en": {
+        "headline": "Eriksen has ended his spell at Wolfsburg and is returning to Denmark",
+        "sentences": [
+          {
+            "en": "The Danish footballer Christian Eriksen has agreed to end his spell at Wolfsburg early.",
+            "cs": "Dánský fotbalista Christian Eriksen se dohodl na předčasném ukončení angažmá ve Wolfsburgu."
+          },
+          {
+            "en": "The 34-year-old midfielder, who has had an implanted cardioverter-defibrillator since his cardiac arrest on the pitch during the 2021 European Championship, wants to return home and be with his family while he continues his rehabilitation after his second collapse on the pitch, in Denmark's June friendly against Ukraine.",
+            "cs": "Čtyřiatřicetiletý záložník, který má od srdeční zástavy na hřišti během mistrovství Evropy 2021 voperovaný kardioverter-defibrilátor, se chce vrátit do vlasti a být s rodinou, zatímco bude pokračovat v rehabilitaci po svém druhém kolapsu na hřišti v červnovém přípravném zápase Dánska s Ukrajinou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "spell",
+            "definition": "a period of time spent working somewhere"
+          },
+          {
+            "term": "cardiac arrest",
+            "definition": "a sudden stopping of the heart"
+          },
+          {
+            "term": "rehabilitation",
+            "definition": "treatment that helps someone recover after an illness or injury"
+          },
+          {
+            "term": "friendly",
+            "definition": "a match played for practice and not for a competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:49",
+      "headline": "Brankáře Juventusu Grabaru čeká po operaci kolena až sedmiměsíční pauza",
+      "body": "Brankář Kamil Grabara z Juventusu Turín podstoupil operaci zpřetrhaných vazů v pravém koleně. Polský reprezentant o tom informoval na Instagramu, podle médií ho čeká až sedmiměsíční přestávka.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-serie-a-brankare-juventusu-ceka-dlouha-pauza-5541609"
+        }
+      ],
+      "en": {
+        "headline": "Juventus goalkeeper Grabara faces a break of up to seven months after knee surgery",
+        "sentences": [
+          {
+            "en": "Juventus goalkeeper Kamil Grabara has undergone surgery on torn ligaments in his right knee.",
+            "cs": "Brankář Kamil Grabara z Juventusu Turín podstoupil operaci zpřetrhaných vazů v pravém koleně."
+          },
+          {
+            "en": "The Polish international announced it on Instagram; according to media reports he faces a break of up to seven months.",
+            "cs": "Polský reprezentant o tom informoval na Instagramu, podle médií ho čeká až sedmiměsíční přestávka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ligaments",
+            "definition": "strong bands of tissue that hold bones together at a joint"
+          },
+          {
+            "term": "undergone",
+            "definition": "had something done to you, usually medical treatment"
+          },
+          {
+            "term": "international",
+            "definition": "a player who has played for their national team"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Chamber of Deputies has scrapped the annual price rises for motorway vignettes, and the bill now goes to the Senate.",
+    "US Secretary of State Rubio met Lavrov in New York and, according to Reuters, said that both Russia and Ukraine are interested in a limited ceasefire covering energy and grain exports.",
+    "Charles University has opened the Mephared 2 campus in Hradec Králové at a cost of 7.2 billion crowns.",
+    "Anthropic has released a new model, Claude Opus 5.5, which the company says is 40 percent cheaper to run than Opus 5."
+  ]
+}
