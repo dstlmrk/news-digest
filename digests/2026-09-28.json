@@ -1,0 +1,1434 @@
+{
+  "date": "2026-09-28",
+  "covers": "2026-09-28",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "iROZHLAS",
+    "E15",
+    "Root.cz",
+    "Hradecká drbna",
+    "iDNES Hradec",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "Deník N Sport"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, denní teplota vystoupí až k 23 °C. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-09-29",
+        "icon": "cloudy",
+        "temp_max_c": 22.9,
+        "temp_min_c": 7.6
+      },
+      {
+        "date": "2026-09-30",
+        "icon": "cloudy",
+        "temp_max_c": 22.6,
+        "temp_min_c": 9.7
+      },
+      {
+        "date": "2026-10-01",
+        "icon": "cloudy",
+        "temp_max_c": 22.3,
+        "temp_min_c": 12.6
+      },
+      {
+        "date": "2026-10-02",
+        "icon": "cloudy",
+        "temp_max_c": 21.6,
+        "temp_min_c": 11.2
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast with no rain, and daytime temperatures will climb to around 23 °C. Air quality should be acceptable."
+  },
+  "highlights": [
+    "Maďarský parlament zbavil imunity premiéra Pétera Magyara, kterého státní zástupce vyšetřuje kvůli údajné krádeži mobilního telefonu.",
+    "Na pražském Staroměstském náměstí demonstroval spolek Milion chvilek za účast v říjnových komunálních a senátních volbách.",
+    "Kosmická loď Starship se poprvé dostala na oběžnou dráhu Země a vypustila satelity Starlink."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:56",
+      "headline": "Milion chvilek demonstroval na Staroměstském náměstí za účast v říjnových volbách",
+      "body": "Na pražském Staroměstském náměstí začala v pondělí odpoledne demonstrace spolku Milion chvilek pro demokracii. Organizátoři chtěli účastníky vyzvat k účasti v nadcházejících komunálních a senátních volbách a upozornit na význam Senátu jako protiváhy vládní moci. Podle Deníku N má akce zároveň varovat před tím, aby vládní strany získaly většinu v Senátu, i před hlasováním pro populisty a extremisty v komunálních volbách. Seznam Zprávy uvedly, že demonstranti zaplnili velkou část náměstí a přišli s transparenty i s vlajkami Evropské unie a Ukrajiny.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/milion-chvilek-v-praze-demonstruje-za-ucast-ve-volbach-a-proti-populistum-378031"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-milion-chvilek-v-praze-demonstruje-za-ucast-ve-volbach-a-proti-volbe-populistu-316335"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197750/"
+        }
+      ],
+      "en": {
+        "headline": "Milion chvilek rallied on Prague's Old Town Square for turnout in the October elections",
+        "sentences": [
+          {
+            "en": "A demonstration by the Milion chvilek pro demokracii association began on Prague's Old Town Square on Monday afternoon.",
+            "cs": "Na pražském Staroměstském náměstí začala v pondělí odpoledne demonstrace spolku Milion chvilek pro demokracii."
+          },
+          {
+            "en": "The organisers wanted to urge those attending to vote in the upcoming municipal and Senate elections and to point out the importance of the Senate as a counterweight to government power.",
+            "cs": "Organizátoři chtěli účastníky vyzvat k účasti v nadcházejících komunálních a senátních volbách a upozornit na význam Senátu jako protiváhy vládní moci."
+          },
+          {
+            "en": "According to Deník N, the event is also meant to warn against the governing parties winning a majority in the Senate, and against voting for populists and extremists in the municipal elections.",
+            "cs": "Podle Deníku N má akce zároveň varovat před tím, aby vládní strany získaly většinu v Senátu, i před hlasováním pro populisty a extremisty v komunálních volbách."
+          },
+          {
+            "en": "Seznam Zprávy reported that the demonstrators filled a large part of the square and came with banners as well as European Union and Ukrainian flags.",
+            "cs": "Seznam Zprávy uvedly, že demonstranti zaplnili velkou část náměstí a přišli s transparenty i s vlajkami Evropské unie a Ukrajiny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "urge",
+            "definition": "to strongly advise someone to do something"
+          },
+          {
+            "term": "counterweight",
+            "definition": "something that balances an opposing force"
+          },
+          {
+            "term": "banners",
+            "definition": "large pieces of cloth with writing on them, carried at a protest"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:00",
+      "headline": "Ke schválení zákona o celostátním referendu chybí vládě hlasy opozice",
+      "body": "Zákon o celostátním referendu míří na vládu a ministr spravedlnosti Jeroným Tejc (za ANO) ho chce předložit ještě na přelomu září a října. Šance na schválení ve Sněmovně jsou ale podle ČT24 mizivé: ke změně ústavy potřebují koaliční strany podporu i od části opozice, která kabinetu svými hlasy pomoct nechce. Podporu vylučují i Piráti, kteří jinak všelidové hlasování dlouhodobě prosazují.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ke-schvaleni-zakona-o-celostatnim-referendu-chybi-vlade-hlasy-opozice-378013"
+        }
+      ],
+      "en": {
+        "headline": "The government lacks opposition votes to pass the law on a nationwide referendum",
+        "sentences": [
+          {
+            "en": "The law on a nationwide referendum is heading to the government and Justice Minister Jeroným Tejc (for ANO) wants to submit it at the turn of September and October.",
+            "cs": "Zákon o celostátním referendu míří na vládu a ministr spravedlnosti Jeroným Tejc (za ANO) ho chce předložit ještě na přelomu září a října."
+          },
+          {
+            "en": "But according to ČT24 the chances of it passing the Chamber of Deputies are slim: to amend the constitution the coalition parties need support from part of the opposition as well, and the opposition does not want to help the cabinet with its votes.",
+            "cs": "Šance na schválení ve Sněmovně jsou ale podle ČT24 mizivé: ke změně ústavy potřebují koaliční strany podporu i od části opozice, která kabinetu svými hlasy pomoct nechce."
+          },
+          {
+            "en": "Support is ruled out even by the Pirates, who otherwise have long pushed for popular votes.",
+            "cs": "Podporu vylučují i Piráti, kteří jinak všelidové hlasování dlouhodobě prosazují."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "slim",
+            "definition": "very small or unlikely"
+          },
+          {
+            "term": "amend",
+            "definition": "to make a small change to a law or document"
+          },
+          {
+            "term": "cabinet",
+            "definition": "the group of senior ministers who run a government"
+          },
+          {
+            "term": "ruled out",
+            "definition": "decided that something will not happen or is impossible"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:09",
+      "day": "prev",
+      "headline": "Opozice kritizuje postup finanční správy proti firmě FAU z doby, kdy byl Babiš ministrem",
+      "body": "Úřady firmě FAU zajistily majetek kvůli údajnému stamilionovému daňovému podvodu a podaly na ni obžalobu, soud ale společnost i jejího jednatele osvobodil. Firma po zásahu skončila v insolvenci. Opoziční politici označují postup celníků a finanční správy za nezákonný a spojují ho se zájmy holdingu Agrofert, v jehož areálu měla FAU sklad. Premiér Andrej Babiš (ANO), který byl v době zásahu ministrem financí, i ministryně financí Alena Schillerová (ANO) to odmítají.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/kauza-fau-opozice-tepe-postup-uradu-z-doby-kdy-byl-babis-ministrem-378012"
+        }
+      ],
+      "en": {
+        "headline": "The opposition criticises the tax authorities' action against the FAU company from the time Babiš was minister",
+        "sentences": [
+          {
+            "en": "The authorities seized the assets of the company FAU over an alleged tax fraud worth hundreds of millions and brought charges against it, but the court acquitted both the company and its managing director.",
+            "cs": "Úřady firmě FAU zajistily majetek kvůli údajnému stamilionovému daňovému podvodu a podaly na ni obžalobu, soud ale společnost i jejího jednatele osvobodil."
+          },
+          {
+            "en": "After the raid the company ended up in insolvency.",
+            "cs": "Firma po zásahu skončila v insolvenci."
+          },
+          {
+            "en": "Opposition politicians call the actions of the customs and tax administration unlawful and link them to the interests of the Agrofert holding, on whose premises FAU had a warehouse.",
+            "cs": "Opoziční politici označují postup celníků a finanční správy za nezákonný a spojují ho se zájmy holdingu Agrofert, v jehož areálu měla FAU sklad."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš (ANO), who was finance minister at the time of the raid, and Finance Minister Alena Schillerová (ANO) both reject this.",
+            "cs": "Premiér Andrej Babiš (ANO), který byl v době zásahu ministrem financí, i ministryně financí Alena Schillerová (ANO) to odmítají."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "seized",
+            "definition": "took something away using official power"
+          },
+          {
+            "term": "acquitted",
+            "definition": "decided in court that someone is not guilty"
+          },
+          {
+            "term": "insolvency",
+            "definition": "the state of not having enough money to pay your debts"
+          },
+          {
+            "term": "premises",
+            "definition": "the land and buildings used by a business"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:00",
+      "headline": "Pavel odletěl na Valné shromáždění OSN podpořit českou kandidaturu do Rady bezpečnosti",
+      "body": "Prezident Petr Pavel odletěl do USA na Valné shromáždění OSN a za hlavní cíl své cesty označil podporu české kandidatury na nestálého člena Rady bezpečnosti v letech 2032 až 2033. Rada bezpečnosti podle vedoucího pražské kanceláře OSN Michala Broži zůstává funkční, přestože při řešení největších světových konfliktů naráží na své limity. „Je mnoho situací ve světě, kde Rada bezpečnosti dokáže spolupracovat,“ řekl Broža serveru iROZHLAS.cz.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/rada-bezpecnosti-je-v-nejvetsich-problemech-sveta-zjevne-paralyzovana-zustava_2609281200_jho"
+        }
+      ],
+      "en": {
+        "headline": "Pavel has flown to the UN General Assembly to back the Czech bid for a Security Council seat",
+        "sentences": [
+          {
+            "en": "President Petr Pavel has flown to the United States for the UN General Assembly and described the main aim of his trip as support for the Czech candidacy for a non-permanent seat on the Security Council in 2032 and 2033.",
+            "cs": "Prezident Petr Pavel odletěl do USA na Valné shromáždění OSN a za hlavní cíl své cesty označil podporu české kandidatury na nestálého člena Rady bezpečnosti v letech 2032 až 2033."
+          },
+          {
+            "en": "According to Michal Broža, head of the UN office in Prague, the Security Council remains functional even though it runs up against its limits when dealing with the world's biggest conflicts.",
+            "cs": "Rada bezpečnosti podle vedoucího pražské kanceláře OSN Michala Broži zůstává funkční, přestože při řešení největších světových konfliktů naráží na své limity."
+          },
+          {
+            "en": "“There are many situations in the world where the Security Council is able to cooperate,” Broža told the iROZHLAS.cz website.",
+            "cs": "„Je mnoho situací ve světě, kde Rada bezpečnosti dokáže spolupracovat,“ řekl Broža serveru iROZHLAS.cz."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "candidacy",
+            "definition": "the fact of being one of the people or countries competing for a position"
+          },
+          {
+            "term": "non-permanent",
+            "definition": "lasting only for a limited time"
+          },
+          {
+            "term": "runs up against",
+            "definition": "meets a problem or limit that is hard to deal with"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:15",
+      "headline": "Hradec má podle Hlídače státu nejhorší hodnocení rizikovosti hospodaření z krajských měst",
+      "body": "Hradec Králové měl podle nevládní organizace Hlídač státu v nyní končícím volebním období nadále nejhorší hodnocení transparentnosti a rizikovosti hospodaření z krajských měst a Prahy. Proti minulému volebnímu období se ale město podle organizace výrazně zlepšilo.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/901394-h-kralove-je-podle-hlidace-statu-v-riziku-hospodareni-nejhorsi-z-krajskych.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec has the worst rating for risky finances among the regional capitals, says Hlídač státu",
+        "sentences": [
+          {
+            "en": "According to the non-governmental organisation Hlídač státu, Hradec Králové again had the worst rating for transparency and financial risk among the regional capitals and Prague in the term that is now ending.",
+            "cs": "Hradec Králové měl podle nevládní organizace Hlídač státu v nyní končícím volebním období nadále nejhorší hodnocení transparentnosti a rizikovosti hospodaření z krajských měst a Prahy."
+          },
+          {
+            "en": "Compared with the previous term, however, the city has improved significantly according to the organisation.",
+            "cs": "Proti minulému volebnímu období se ale město podle organizace výrazně zlepšilo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "transparency",
+            "definition": "being open, so that people can see what is being done"
+          },
+          {
+            "term": "term",
+            "definition": "a fixed period during which someone holds a political office"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:09",
+      "headline": "Fakultní nemocnice staví vedle nové chirurgie také parkoviště",
+      "body": "Největší stavební akce hradecké fakultní nemocnice za poslední desítky let pokračuje podle plánu. Kromě nového chirurgického pavilonu se teď pracuje i na parkování, do konce roku má přibýt téměř 400 míst.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/901295-nova-chirurgie-meni-hradeckou-nemocnici-ted-prichazi-na-radu-parkoviste.html"
+        }
+      ],
+      "en": {
+        "headline": "The teaching hospital is building a car park alongside the new surgical wing",
+        "sentences": [
+          {
+            "en": "The biggest construction project at the Hradec teaching hospital in decades is going according to plan.",
+            "cs": "Největší stavební akce hradecké fakultní nemocnice za poslední desítky let pokračuje podle plánu."
+          },
+          {
+            "en": "Besides the new surgical pavilion, work is now also under way on parking, with almost 400 spaces due to be added by the end of the year.",
+            "cs": "Kromě nového chirurgického pavilonu se teď pracuje i na parkování, do konce roku má přibýt téměř 400 míst."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pavilion",
+            "definition": "a separate building that is part of a larger complex, such as a hospital"
+          },
+          {
+            "term": "under way",
+            "definition": "having started and now in progress"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:29",
+      "headline": "Senátor Holásek chce v říjnu obhájit mandát a zároveň se dostat do vedení Hradce",
+      "body": "Jan Holásek si pro letošní říjen zvolil volební dvojboj: kromě obhajoby senátorského mandátu usiluje i o hradeckou radnici. Do opozice odešel půl roku po volbách v roce 2022 po konci původní koalice a spokojit se s touto rolí už podle rozhovoru pro iDNES.cz nechce.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/komunalni-volby-2026-jan-holasek-nas-hradec-rozhovor-senatni.A260924_971501_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Senator Holásek wants to defend his seat in October and get into the leadership of Hradec at the same time",
+        "sentences": [
+          {
+            "en": "Jan Holásek has chosen a double contest for this October: besides defending his Senate seat he is also going after the Hradec city hall.",
+            "cs": "Jan Holásek si pro letošní říjen zvolil volební dvojboj: kromě obhajoby senátorského mandátu usiluje i o hradeckou radnici."
+          },
+          {
+            "en": "He moved into opposition six months after the 2022 elections when the original coalition collapsed, and according to an interview for iDNES.cz he no longer wants to settle for that role.",
+            "cs": "Do opozice odešel půl roku po volbách v roce 2022 po konci původní koalice a spokojit se s touto rolí už podle rozhovoru pro iDNES.cz nechce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "city hall",
+            "definition": "the local government of a town or city"
+          },
+          {
+            "term": "collapsed",
+            "definition": "suddenly failed or fell apart"
+          },
+          {
+            "term": "settle for",
+            "definition": "to accept something that is not what you really wanted"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:30",
+      "headline": "Maďarský parlament zbavil imunity premiéra Magyara i dva exministry Orbánovy vlády",
+      "body": "Maďarský parlament v pondělí zbavil poslanecké imunity premiéra Pétera Magyara a dva zákonodárce, bývalé ministry z někdejší vlády Viktora Orbána, kvůli odlišným kauzám. Magyar je podle agentur vyšetřován kvůli údajné krádeži mobilního telefonu, dvojice exministrů mimo jiné kvůli podezření z korupce. Sám Magyar poslance ke svému vydání vyzval, aby mohl očistit své jméno, napsala agentura AFP. Deník N s odkazem na AP doplňuje, že jde o přestupek: Magyar měl v červnu 2024 při hádce v nočním klubu vzít muži telefon a hodit ho do Dunaje, tedy dva roky předtím, než jeho strana drtivě vyhrála volby a sesadila Orbána.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/madarsky-parlament-zbavil-imunity-premiera-magyara-378022"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/premier-magyar-prisel-o-imunitu-kvuli-podezreni-z-kradeze-madarsky-parlament_2609281530_ape"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197621/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-parlament-zbavil-magyara-imunity-je-vysetrovan-kvuli-udajne-kradezi-316328"
+        }
+      ],
+      "en": {
+        "headline": "The Hungarian parliament stripped Prime Minister Magyar and two of Orbán's former ministers of their immunity",
+        "sentences": [
+          {
+            "en": "On Monday the Hungarian parliament stripped Prime Minister Péter Magyar and two lawmakers, former ministers from Viktor Orbán's earlier government, of their parliamentary immunity in separate cases.",
+            "cs": "Maďarský parlament v pondělí zbavil poslanecké imunity premiéra Pétera Magyara a dva zákonodárce, bývalé ministry z někdejší vlády Viktora Orbána, kvůli odlišným kauzám."
+          },
+          {
+            "en": "According to news agencies, Magyar is being investigated over an alleged theft of a mobile phone, while the two former ministers face suspicion of corruption among other things.",
+            "cs": "Magyar je podle agentur vyšetřován kvůli údajné krádeži mobilního telefonu, dvojice exministrů mimo jiné kvůli podezření z korupce."
+          },
+          {
+            "en": "Magyar himself called on the deputies to lift his immunity so that he could clear his name, the AFP news agency wrote.",
+            "cs": "Sám Magyar poslance ke svému vydání vyzval, aby mohl očistit své jméno, napsala agentura AFP."
+          },
+          {
+            "en": "Deník N, citing AP, adds that the case is only a misdemeanour: during an argument in a nightclub in June 2024 Magyar allegedly took a man's phone and threw it into the Danube, two years before his party won the elections by a landslide and ousted Orbán.",
+            "cs": "Deník N s odkazem na AP doplňuje, že jde o přestupek: Magyar měl v červnu 2024 při hádce v nočním klubu vzít muži telefon a hodit ho do Dunaje, tedy dva roky předtím, než jeho strana drtivě vyhrála volby a sesadila Orbána."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "immunity",
+            "definition": "legal protection that stops someone from being prosecuted"
+          },
+          {
+            "term": "misdemeanour",
+            "definition": "a minor crime that is not very serious"
+          },
+          {
+            "term": "landslide",
+            "definition": "an election victory won by a very large number of votes"
+          },
+          {
+            "term": "ousted",
+            "definition": "forced someone out of a position of power"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:34",
+      "headline": "Všech pět zadržených u britské základny Fairford jsou Britové, Írán podíl popírá",
+      "body": "Pětice mužů zadržená v neděli u západoanglické základny RAF Fairford, kterou využívá americké letectvo, jsou britští občané žijící v Londýně, oznámila podle agentur britská policie. Íránské velvyslanectví v Londýně kategoricky odmítlo spekulace, že by s nimi měl Teherán cokoli společného. Britští vyšetřovatelé podle Seznam Zpráv prověřují možnou spojitost s Íránem či Ruskem a zadržení mohou zůstat ve vazbě až 14 dní; podle zdrojů agentury Reuters, na které se odvolává iROZHLAS, je v popředí motiv spojený s Íránem. K zatčení významně přispěla místní farmářka, která zavolala policii poté, co si všimla tří bílých dodávek a maskovaných mužů v kapucích.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/zadrzeni-u-letecke-zakladny-v-anglii-byli-britove-iran-popira-jakykoli-podil-378029"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/tri-podezrele-dodavky-a-maskovane-muze-u-britske-zakladny-nahlasila-mistni_2609281220_vdv"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zadrzeni-u-letecke-zakladny-v-anglii-byli-britove-iran-popira-jakykoli-podil-316334"
+        }
+      ],
+      "en": {
+        "headline": "All five men detained near the British base at Fairford are Britons, and Iran denies any involvement",
+        "sentences": [
+          {
+            "en": "The five men detained on Sunday near the RAF Fairford base in western England, which is used by the American air force, are British citizens living in London, British police announced according to news agencies.",
+            "cs": "Pětice mužů zadržená v neděli u západoanglické základny RAF Fairford, kterou využívá americké letectvo, jsou britští občané žijící v Londýně, oznámila podle agentur britská policie."
+          },
+          {
+            "en": "The Iranian embassy in London categorically rejected speculation that Tehran had anything to do with them.",
+            "cs": "Íránské velvyslanectví v Londýně kategoricky odmítlo spekulace, že by s nimi měl Teherán cokoli společného."
+          },
+          {
+            "en": "According to Seznam Zprávy, British investigators are looking into a possible link to Iran or Russia and the men can be held in custody for up to 14 days; according to Reuters sources cited by iROZHLAS, a motive connected with Iran is at the forefront.",
+            "cs": "Britští vyšetřovatelé podle Seznam Zpráv prověřují možnou spojitost s Íránem či Ruskem a zadržení mohou zůstat ve vazbě až 14 dní; podle zdrojů agentury Reuters, na které se odvolává iROZHLAS, je v popředí motiv spojený s Íránem."
+          },
+          {
+            "en": "A local farmer contributed significantly to the arrests by calling the police after noticing three white vans and masked men in hoods.",
+            "cs": "K zatčení významně přispěla místní farmářka, která zavolala policii poté, co si všimla tří bílých dodávek a maskovaných mužů v kapucích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "kept by the police and not allowed to leave"
+          },
+          {
+            "term": "custody",
+            "definition": "being kept in prison by the police while waiting for a trial"
+          },
+          {
+            "term": "at the forefront",
+            "definition": "in the most important position"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:41",
+      "headline": "Kallas varovala před dalšími ruskými sabotážemi v Evropě, EU zvažuje rakety pro Patrioty",
+      "body": "Zpravodajské informace ukazují, že Rusko plánuje v Evropě další sabotáže, řekla před pondělním jednáním ministrů obrany v Bruselu šéfka unijní diplomacie Kaja Kallas. Moskva se podle ní snaží zastrašit společnost, aby přestala pomáhat Kyjevu. Po jednání zdůraznila, že Evropská unie musí rychleji a efektivněji posilovat svou obranyschopnost, aby splnila cíle stanovené pro rok 2030. Kallas zároveň oznámila, že členské státy by Ukrajině mohly poskytnout rakety pro americké systémy protivzdušné obrany Patriot ze svých zásob a později si je nechat nahradit z peněz unijní půjčky. Protivzdušná obrana je pro Ukrajinu prioritou, zopakoval v Bruselu ukrajinský ministr obrany Jevhenij Chmara.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-chysta-dalsi-sabotaze-v-evrope-varovala-kallasova-378020"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197684/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/rusko-chysta-dalsi-sabotaze-v-evrope-varuje-kallasova-eu-ma-mezery-v-obrane-1436100"
+        }
+      ],
+      "en": {
+        "headline": "Kallas warned of further Russian sabotage in Europe, and the EU is considering missiles for Patriots",
+        "sentences": [
+          {
+            "en": "Intelligence information shows that Russia is planning further sabotage in Europe, EU foreign policy chief Kaja Kallas said ahead of Monday's meeting of defence ministers in Brussels.",
+            "cs": "Zpravodajské informace ukazují, že Rusko plánuje v Evropě další sabotáže, řekla před pondělním jednáním ministrů obrany v Bruselu šéfka unijní diplomacie Kaja Kallas."
+          },
+          {
+            "en": "In her view, Moscow is trying to intimidate society into stopping its help for Kyiv.",
+            "cs": "Moskva se podle ní snaží zastrašit společnost, aby přestala pomáhat Kyjevu."
+          },
+          {
+            "en": "After the meeting she stressed that the European Union must strengthen its defence capability faster and more effectively in order to meet the targets set for 2030.",
+            "cs": "Po jednání zdůraznila, že Evropská unie musí rychleji a efektivněji posilovat svou obranyschopnost, aby splnila cíle stanovené pro rok 2030."
+          },
+          {
+            "en": "Kallas also announced that member states could supply Ukraine with missiles for the American Patriot air defence systems from their own stocks and later have them replaced with money from an EU loan.",
+            "cs": "Kallas zároveň oznámila, že členské státy by Ukrajině mohly poskytnout rakety pro americké systémy protivzdušné obrany Patriot ze svých zásob a později si je nechat nahradit z peněz unijní půjčky."
+          },
+          {
+            "en": "Air defence is a priority for Ukraine, Ukrainian Defence Minister Jevhenij Chmara repeated in Brussels.",
+            "cs": "Protivzdušná obrana je pro Ukrajinu prioritou, zopakoval v Bruselu ukrajinský ministr obrany Jevhenij Chmara."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sabotage",
+            "definition": "deliberate damage done to equipment or systems to stop them working"
+          },
+          {
+            "term": "intimidate",
+            "definition": "to frighten someone so that they do what you want"
+          },
+          {
+            "term": "stocks",
+            "definition": "supplies of something kept ready to be used"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:01",
+      "headline": "Ruský dron zasáhl v Kyjevě budovu Národní akademie věd, v Charkově puma zranila přes dvacet lidí",
+      "body": "Ruský dronový útok na Kyjev v pondělí zasáhl budovu Národní akademie věd v centru města. Zemřela při něm žena a dalších pět lidí utrpělo zranění, píše agentura Ukrinform. Během noci podle starosty Vitalije Klyčka zasáhly ruské drony v Kyjevě také čerpací stanici a kavárnu. Útokům čelilo i Dnipro, kde podle šéfa oblastní správy zemřeli tři lidé a dvanáct se zranilo, a Charkov, kde ruská řízená letecká puma zasáhla bytový dům a zranila nejméně 25 lidí včetně několika dětí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ruska-puma-zasahla-bytovy-dum-v-charkove-zranila-pres-dvacet-lidi-vcetne-deti-378018"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197675/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197636/"
+        }
+      ],
+      "en": {
+        "headline": "A Russian drone hit the National Academy of Sciences building in Kyiv, and a bomb injured more than twenty people in Kharkiv",
+        "sentences": [
+          {
+            "en": "A Russian drone attack on Kyiv on Monday hit the building of the National Academy of Sciences in the centre of the city.",
+            "cs": "Ruský dronový útok na Kyjev v pondělí zasáhl budovu Národní akademie věd v centru města."
+          },
+          {
+            "en": "A woman was killed and five more people were injured, the Ukrinform agency writes.",
+            "cs": "Zemřela při něm žena a dalších pět lidí utrpělo zranění, píše agentura Ukrinform."
+          },
+          {
+            "en": "During the night, according to Mayor Vitalij Klyčko, Russian drones in Kyiv also hit a petrol station and a café.",
+            "cs": "Během noci podle starosty Vitalije Klyčka zasáhly ruské drony v Kyjevě také čerpací stanici a kavárnu."
+          },
+          {
+            "en": "Dnipro was attacked as well, where according to the head of the regional administration three people died and twelve were injured, and Kharkiv, where a Russian guided aerial bomb struck a block of flats and injured at least 25 people, including several children.",
+            "cs": "Útokům čelilo i Dnipro, kde podle šéfa oblastní správy zemřeli tři lidé a dvanáct se zranilo, a Charkov, kde ruská řízená letecká puma zasáhla bytový dům a zranila nejméně 25 lidí včetně několika dětí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "guided",
+            "definition": "controlled and directed towards a target"
+          },
+          {
+            "term": "struck",
+            "definition": "hit something with force"
+          },
+          {
+            "term": "block of flats",
+            "definition": "a large building divided into separate homes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "20:37",
+      "day": "prev",
+      "headline": "Srbský prezident Vučić rezignoval a chce se stát premiérem",
+      "body": "Aleksandar Vučić v neděli rezignoval na funkci srbského prezidenta a otevřel tím cestu k předčasným prezidentským volbám, uvedla agentura Reuters. Šestapadesátiletý Vučić zastával úřad od května 2017 a na konci října bude kandidovat v parlamentních volbách s ambicí stát se premiérem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/srbsky-prezident-rezignoval-bude-kandidovat-v-parlamentnich-volbach-378014"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/srbsky-prezident-vucic-udelal-necekany-tah-rezignoval-a-miri-do-vlady-1436096"
+        }
+      ],
+      "en": {
+        "headline": "Serbian President Vučić has resigned and wants to become prime minister",
+        "sentences": [
+          {
+            "en": "Aleksandar Vučić resigned as Serbian president on Sunday, opening the way to an early presidential election, the Reuters agency reported.",
+            "cs": "Aleksandar Vučić v neděli rezignoval na funkci srbského prezidenta a otevřel tím cestu k předčasným prezidentským volbám, uvedla agentura Reuters."
+          },
+          {
+            "en": "The 56-year-old Vučić had held the office since May 2017 and at the end of October will run in the parliamentary elections with the ambition of becoming prime minister.",
+            "cs": "Šestapadesátiletý Vučić zastával úřad od května 2017 a na konci října bude kandidovat v parlamentních volbách s ambicí stát se premiérem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resigned",
+            "definition": "officially left a job or position"
+          },
+          {
+            "term": "run in",
+            "definition": "to take part as a candidate in an election"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:51",
+      "headline": "Slovenské vládě hrozí podle Fica kvůli sporu o ministra Tarabu ztráta většiny",
+      "body": "Slovenské vládě podle jejího předsedy Roberta Fica (Smer) hrozí ztráta parlamentní většiny, případně předčasné volby. Důvodem je plánovaná výměna ministra životního prostředí Tomáše Taraby, jehož konec požaduje nejmenší koaliční partner, pravicová Slovenská národná strana, za niž se Taraba do vlády dostal. Fico v pondělí informoval prezidenta Petera Pellegriniho, že bere zpět svůj zářijový návrh na Tarabovo odvolání.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/spor-ve-slovenske-vladni-koalici-by-mohl-vyustit-v-predcasne-volby-378024"
+        }
+      ],
+      "en": {
+        "headline": "Fico says the Slovak government risks losing its majority over the dispute about Minister Taraba",
+        "sentences": [
+          {
+            "en": "According to its head Robert Fico (Smer), the Slovak government risks losing its parliamentary majority, or even facing an early election.",
+            "cs": "Slovenské vládě podle jejího předsedy Roberta Fica (Smer) hrozí ztráta parlamentní většiny, případně předčasné volby."
+          },
+          {
+            "en": "The reason is the planned replacement of Environment Minister Tomáš Taraba, whose departure is demanded by the smallest coalition partner, the right-wing Slovenská národná strana, the party that brought Taraba into the government.",
+            "cs": "Důvodem je plánovaná výměna ministra životního prostředí Tomáše Taraby, jehož konec požaduje nejmenší koaliční partner, pravicová Slovenská národná strana, za niž se Taraba do vlády dostal."
+          },
+          {
+            "en": "On Monday Fico informed President Peter Pellegrini that he was withdrawing his September proposal to dismiss Taraba.",
+            "cs": "Fico v pondělí informoval prezidenta Petera Pellegriniho, že bere zpět svůj zářijový návrh na Tarabovo odvolání."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "departure",
+            "definition": "the act of leaving a job or a place"
+          },
+          {
+            "term": "withdrawing",
+            "definition": "taking back something you had offered or proposed"
+          },
+          {
+            "term": "dismiss",
+            "definition": "to officially remove someone from a job"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:03",
+      "headline": "Polští piloti budou moci sestřelovat ruské objekty na základě údajů z radaru",
+      "body": "Polská armáda v nejbližších dnech změní pravidla pro své piloty: objekty pronikající do polského vzdušného prostoru ze strany Ruska budou moci sestřelovat na základě údajů z radarů, nikoli až po vizuální identifikaci. Podle rádia RMF24 to uvedl náměstek ministra obrany Cezary Tomczyk. Polské letouny tak budou moci případné drony nebo střely likvidovat rychleji.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197763/"
+        }
+      ],
+      "en": {
+        "headline": "Polish pilots will be allowed to shoot down Russian objects on the basis of radar data",
+        "sentences": [
+          {
+            "en": "In the coming days the Polish army will change the rules for its pilots: they will be able to shoot down objects entering Polish airspace from the Russian side on the basis of radar data, rather than only after visual identification.",
+            "cs": "Polská armáda v nejbližších dnech změní pravidla pro své piloty: objekty pronikající do polského vzdušného prostoru ze strany Ruska budou moci sestřelovat na základě údajů z radarů, nikoli až po vizuální identifikaci."
+          },
+          {
+            "en": "Deputy Defence Minister Cezary Tomczyk said so according to RMF24 radio.",
+            "cs": "Podle rádia RMF24 to uvedl náměstek ministra obrany Cezary Tomczyk."
+          },
+          {
+            "en": "Polish aircraft will therefore be able to destroy any drones or missiles more quickly.",
+            "cs": "Polské letouny tak budou moci případné drony nebo střely likvidovat rychleji."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shoot down",
+            "definition": "to make an aircraft or missile fall from the sky by hitting it"
+          },
+          {
+            "term": "airspace",
+            "definition": "the sky above a country, which that country controls"
+          },
+          {
+            "term": "deputy",
+            "definition": "a person who is second in rank and can act for their superior"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:50",
+      "headline": "Zbrojařské STV Group stoupl zisk o 40 procent na 7,5 miliardy korun",
+      "body": "České zbrojařské skupině STV Group loni stoupl čistý zisk o téměř 40 procent na 7,5 miliardy korun, vyplývá z výroční zprávy zveřejněné ve Sbírce listin. Tržby se více než zdvojnásobily na 24,4 miliardy korun z předloňských 11,6 miliardy a firma označila loňský rok za nejúspěšnější ve své historii. E15 dodává, že STV Group vyplatila dividendy v celkové výši 4,5 miliardy korun. Podle Seznam Zpráv má na hospodaření zcela zásadní vliv válka na Ukrajině, kam firma dodává vojenský materiál.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/ceskemu-vyrobci-munice-vystrelil-zisk-stv-ma-za-sebou-nejlepsi-rok-v-historii-1436097"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-zbrojarska-stv-group-loni-vydelala-75-miliardy-korun-316322"
+        }
+      ],
+      "en": {
+        "headline": "Arms maker STV Group's profit rose by 40 percent to 7.5 billion crowns",
+        "sentences": [
+          {
+            "en": "The Czech arms group STV Group saw its net profit rise by almost 40 percent last year to 7.5 billion crowns, according to an annual report published in the Collection of Deeds.",
+            "cs": "České zbrojařské skupině STV Group loni stoupl čistý zisk o téměř 40 procent na 7,5 miliardy korun, vyplývá z výroční zprávy zveřejněné ve Sbírce listin."
+          },
+          {
+            "en": "Revenue more than doubled to 24.4 billion crowns from 11.6 billion the year before, and the company called last year the most successful in its history.",
+            "cs": "Tržby se více než zdvojnásobily na 24,4 miliardy korun z předloňských 11,6 miliardy a firma označila loňský rok za nejúspěšnější ve své historii."
+          },
+          {
+            "en": "E15 adds that STV Group paid out dividends totalling 4.5 billion crowns.",
+            "cs": "E15 dodává, že STV Group vyplatila dividendy v celkové výši 4,5 miliardy korun."
+          },
+          {
+            "en": "According to Seznam Zprávy, the war in Ukraine, where the company supplies military equipment, has an absolutely decisive influence on its results.",
+            "cs": "Podle Seznam Zpráv má na hospodaření zcela zásadní vliv válka na Ukrajině, kam firma dodává vojenský materiál."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "net profit",
+            "definition": "the money a company keeps after all costs and taxes are paid"
+          },
+          {
+            "term": "revenue",
+            "definition": "the total money a company receives from its business"
+          },
+          {
+            "term": "dividends",
+            "definition": "payments a company makes to the people who own its shares"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:55",
+      "headline": "První dodavatelé energií před zimou zdražují, obavy domácností z cen rostou",
+      "body": "Ceny energií na burzách před zimou výrazně rostou a reagují na to i dodavatelé plynu a elektřiny. Už koncem srpna zdražil některé fixované smlouvy největší dodavatel elektřiny ČEZ, v polovině září i další dodavatelé. „Výhodné fixace ještě určitě nezmizely. I v současné době najdeme dodavatele, kteří nabízejí stále zajímavé ceny na jeden, dva, popřípadě tři roky,“ připomíná energetický analytik portálu Ušetřeno.cz Tomáš Vrňák. Podle Deníku N zároveň rostou obavy českých domácností z dalšího vývoje cen: jejich zvýšení nyní očekává šedesát procent Čechů, nejvíce za poslední dva roky.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/prvni-dodavatele-energii-pred-zimou-zdrazuji-dalsi-nebudou-s-reakci-dlouho-cekat_2609281455_ntu"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197506/"
+        }
+      ],
+      "en": {
+        "headline": "The first energy suppliers are raising prices before winter, and households are more worried about costs",
+        "sentences": [
+          {
+            "en": "Energy prices on the exchanges are rising sharply ahead of winter and gas and electricity suppliers are responding to that.",
+            "cs": "Ceny energií na burzách před zimou výrazně rostou a reagují na to i dodavatelé plynu a elektřiny."
+          },
+          {
+            "en": "The largest electricity supplier ČEZ raised the price of some fixed contracts back at the end of August, and other suppliers followed in mid-September.",
+            "cs": "Už koncem srpna zdražil některé fixované smlouvy největší dodavatel elektřiny ČEZ, v polovině září i další dodavatelé."
+          },
+          {
+            "en": "“Good fixed deals certainly have not disappeared yet.",
+            "cs": "„Výhodné fixace ještě určitě nezmizely."
+          },
+          {
+            "en": "Even now we can find suppliers offering attractive prices for one, two or possibly three years,” notes Tomáš Vrňák, an energy analyst at the Ušetřeno.cz website.",
+            "cs": "I v současné době najdeme dodavatele, kteří nabízejí stále zajímavé ceny na jeden, dva, popřípadě tři roky,“ připomíná energetický analytik portálu Ušetřeno.cz Tomáš Vrňák."
+          },
+          {
+            "en": "According to Deník N, Czech households' worries about further price developments are growing at the same time: sixty percent of Czechs now expect an increase, the most in the past two years.",
+            "cs": "Podle Deníku N zároveň rostou obavy českých domácností z dalšího vývoje cen: jejich zvýšení nyní očekává šedesát procent Čechů, nejvíce za poslední dva roky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "exchanges",
+            "definition": "markets where things such as energy or shares are bought and sold"
+          },
+          {
+            "term": "fixed contracts",
+            "definition": "agreements in which the price stays the same for an agreed period"
+          },
+          {
+            "term": "sharply",
+            "definition": "by a large amount and very quickly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "05:00",
+      "headline": "Útok na saúdský ropovod může zvednout ceny pohonných hmot i v Česku",
+      "body": "Saúdská ropa Arab Light letos tvořila zhruba třetinu dodávek do českých rafinerií a dronový útok poškodil ropovod East-West, který umožňuje obejít Hormuzský průliv. Podle vlády Česku nedostatek ropy nehrozí, rizikem jsou ale vyšší ceny a dražší náhradní dodávky, píše E15.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/valka-se-priblizila-ceskym-pumpam-utok-na-saudsky-ropovod-muze-jeste-vic-zvednout-ceny-1436083"
+        }
+      ],
+      "en": {
+        "headline": "An attack on a Saudi pipeline could push up fuel prices in Czechia too",
+        "sentences": [
+          {
+            "en": "Saudi Arab Light crude made up roughly a third of deliveries to Czech refineries this year, and a drone attack damaged the East-West pipeline, which makes it possible to bypass the Strait of Hormuz.",
+            "cs": "Saúdská ropa Arab Light letos tvořila zhruba třetinu dodávek do českých rafinerií a dronový útok poškodil ropovod East-West, který umožňuje obejít Hormuzský průliv."
+          },
+          {
+            "en": "According to the government, Czechia is not at risk of an oil shortage, but higher prices and more expensive replacement deliveries are a risk, E15 writes.",
+            "cs": "Podle vlády Česku nedostatek ropy nehrozí, rizikem jsou ale vyšší ceny a dražší náhradní dodávky, píše E15."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crude",
+            "definition": "oil in its natural state, before it is processed"
+          },
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          },
+          {
+            "term": "bypass",
+            "definition": "to go around something instead of through it"
+          },
+          {
+            "term": "shortage",
+            "definition": "a situation in which there is not enough of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:20",
+      "headline": "Nvidia spouští platformu, která má vývojářům pomoci s bezpečností AI",
+      "body": "Bezpečnost umělé inteligence je podle ředitele společnosti Nvidia potřeba rozvíjet stejně rychle jako její možnosti. Firma proto spouští platformu, která má vývojářům pomoci předcházet rizikům.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-nvidia-spousti-platformu-pro-bezpecnejsi-ai-316333"
+        }
+      ],
+      "en": {
+        "headline": "Nvidia is launching a platform to help developers with AI safety",
+        "sentences": [
+          {
+            "en": "According to the head of Nvidia, the safety of artificial intelligence needs to be developed just as fast as its capabilities.",
+            "cs": "Bezpečnost umělé inteligence je podle ředitele společnosti Nvidia potřeba rozvíjet stejně rychle jako její možnosti."
+          },
+          {
+            "en": "The company is therefore launching a platform that is meant to help developers prevent risks.",
+            "cs": "Firma proto spouští platformu, která má vývojářům pomoci předcházet rizikům."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "capabilities",
+            "definition": "the things that something is able to do"
+          },
+          {
+            "term": "launching",
+            "definition": "starting or introducing something new"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "00:00",
+      "headline": "Únik personálních dat FBI měl zasáhnout pět tisíc agentů i uchazečů o práci",
+      "body": "Root.cz v pondělním bezpečnostním přehledu popisuje únik personálních dat FBI, který měl zasáhnout asi pět tisíc agentů a uchazečů o práci. Ve stejném díle rozebírá také kritickou zranitelnost ve WordPressu, obejití autentizace na zařízeních MikroTik a neautorizovaný přístup agenta OpenAI k datům programu Medicare.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/clanky/masivni-unik-osobnich-dat-fbi-pry-zasahl-5000-agentu-i-uchazecu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "A leak of FBI personnel data is said to have affected five thousand agents and job applicants",
+        "sentences": [
+          {
+            "en": "In its Monday security round-up, Root.cz describes a leak of FBI personnel data that is said to have affected about five thousand agents and job applicants.",
+            "cs": "Root.cz v pondělním bezpečnostním přehledu popisuje únik personálních dat FBI, který měl zasáhnout asi pět tisíc agentů a uchazečů o práci."
+          },
+          {
+            "en": "The same instalment also covers a critical vulnerability in WordPress, an authentication bypass on MikroTik devices and an OpenAI agent's unauthorised access to data from the Medicare programme.",
+            "cs": "Ve stejném díle rozebírá také kritickou zranitelnost ve WordPressu, obejití autentizace na zařízeních MikroTik a neautorizovaný přístup agenta OpenAI k datům programu Medicare."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "leak",
+            "definition": "the release of secret information to people who should not have it"
+          },
+          {
+            "term": "vulnerability",
+            "definition": "a weakness in a system that attackers can use"
+          },
+          {
+            "term": "authentication",
+            "definition": "the process of checking that someone is who they claim to be"
+          },
+          {
+            "term": "round-up",
+            "definition": "a short summary of several news items"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "00:00",
+      "headline": "Nizozemská vláda staví pro státní správu vlastní pracovní prostředí na NixOS",
+      "body": "Nizozemská vláda vyvíjí otevřené pracovní prostředí založené na distribuci NixOS. Cílem je podle Root.cz digitálně autonomní infrastruktura pro státní správu.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/clanky/nizozemsko-pracuje-na-digitalni-suverenite-beta-ubuntu-26-10-odlozena-o-tyden/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "The Dutch government is building its own work environment for the civil service on NixOS",
+        "sentences": [
+          {
+            "en": "The Dutch government is developing an open work environment based on the NixOS distribution.",
+            "cs": "Nizozemská vláda vyvíjí otevřené pracovní prostředí založené na distribuci NixOS."
+          },
+          {
+            "en": "According to Root.cz, the aim is digitally autonomous infrastructure for the civil service.",
+            "cs": "Cílem je podle Root.cz digitálně autonomní infrastruktura pro státní správu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "civil service",
+            "definition": "the government departments and the people who work in them"
+          },
+          {
+            "term": "autonomous",
+            "definition": "able to work independently, without outside control"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "17:10",
+      "headline": "Loď Starship se poprvé dostala na oběžnou dráhu a vypustila satelity Starlink",
+      "body": "SpaceX vypustila kosmickou loď Starship z Texasu a loď se při svém čtrnáctém zkušebním letu poprvé dostala na oběžnou dráhu Země. Firma to oznámila na síti X. Loď měla problém s jedním motorem, kvůli čemuž bylo podle agentury Reuters nejisté, zda se jí to podaří; poté začala vypouštět náklad 26 satelitů Starlink V3. Během téměř desetihodinového letu měla Zemi šestkrát obletět a přistát na hladině Tichého oceánu západně od Chile, podle ČT24 ale mise po diskusi týmu SpaceX skončí předčasně.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/lod-starship-poprve-dosahla-obezne-drahy-firma-spacex-hlasi-i-uspesne-vypusteni_2609281710_ape"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/kosmicka-lod-starship-se-uspesne-dostala-na-obeznou-drahu-378028"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2197737/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-divejte-se-raketa-starship-vyrazi-na-prelomovy-let-316327"
+        }
+      ],
+      "en": {
+        "headline": "Starship reached orbit for the first time and released Starlink satellites",
+        "sentences": [
+          {
+            "en": "SpaceX launched the Starship spacecraft from Texas and on its fourteenth test flight the vehicle reached Earth orbit for the first time.",
+            "cs": "SpaceX vypustila kosmickou loď Starship z Texasu a loď se při svém čtrnáctém zkušebním letu poprvé dostala na oběžnou dráhu Země."
+          },
+          {
+            "en": "The company announced this on the X network.",
+            "cs": "Firma to oznámila na síti X."
+          },
+          {
+            "en": "The ship had a problem with one engine, which according to the Reuters agency made it uncertain whether it would manage it; it then began releasing its payload of 26 Starlink V3 satellites.",
+            "cs": "Loď měla problém s jedním motorem, kvůli čemuž bylo podle agentury Reuters nejisté, zda se jí to podaří; poté začala vypouštět náklad 26 satelitů Starlink V3."
+          },
+          {
+            "en": "During the almost ten-hour flight it was to circle the Earth six times and come down on the surface of the Pacific Ocean west of Chile, but according to ČT24 the mission will end early after a discussion by the SpaceX team.",
+            "cs": "Během téměř desetihodinového letu měla Zemi šestkrát obletět a přistát na hladině Tichého oceánu západně od Chile, podle ČT24 ale mise po diskusi týmu SpaceX skončí předčasně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "orbit",
+            "definition": "the curved path an object takes around a planet"
+          },
+          {
+            "term": "payload",
+            "definition": "the cargo or equipment carried by a spacecraft"
+          },
+          {
+            "term": "circle",
+            "definition": "to move all the way around something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:33",
+      "headline": "Cenu Václava Havla získala íránská právnička Nasrín Sotudíová",
+      "body": "Laureátkou letošní Ceny Václava Havla je íránská právnička a obhájkyně lidských práv Nasrín Sotudíová, oznámila Rada Evropy, jejíž Parlamentní shromáždění je garantem ocenění. Dalšími finalistkami byly íránsko-americká novinářka Masíh Alínežádová a maďarská právnička Márta Pardaviová. Sotudíová byla podle Seznam Zpráv kvůli své činnosti v minulosti opakovaně zatčena.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/cenu-vaclava-havla-ziskala-iranska-pravnicka-nasrin-sotudiova-378023"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/cenu-vaclava-havla-ziskala-iranska-pravnicka-nasrin-sotudiova-oznamila-rada_2609281325_ntu"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-cenu-vaclava-havla-ziskala-iranska-pravnicka-nasrin-sotudiova-316332"
+        }
+      ],
+      "en": {
+        "headline": "The Václav Havel Prize went to the Iranian lawyer Nasrín Sotudíová",
+        "sentences": [
+          {
+            "en": "This year's laureate of the Václav Havel Prize is the Iranian lawyer and human rights defender Nasrín Sotudíová, announced the Council of Europe, whose Parliamentary Assembly guarantees the award.",
+            "cs": "Laureátkou letošní Ceny Václava Havla je íránská právnička a obhájkyně lidských práv Nasrín Sotudíová, oznámila Rada Evropy, jejíž Parlamentní shromáždění je garantem ocenění."
+          },
+          {
+            "en": "The other finalists were the Iranian-American journalist Masíh Alínežádová and the Hungarian lawyer Márta Pardaviová.",
+            "cs": "Dalšími finalistkami byly íránsko-americká novinářka Masíh Alínežádová a maďarská právnička Márta Pardaviová."
+          },
+          {
+            "en": "According to Seznam Zprávy, Sotudíová has been arrested repeatedly in the past because of her work.",
+            "cs": "Sotudíová byla podle Seznam Zpráv kvůli své činnosti v minulosti opakovaně zatčena."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "laureate",
+            "definition": "a person who has been given an important prize or honour"
+          },
+          {
+            "term": "defender",
+            "definition": "someone who works to protect people or their rights"
+          },
+          {
+            "term": "repeatedly",
+            "definition": "again and again, many times"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:05",
+      "headline": "Do Staré Boleslavi se na svatováclavskou pouť sjely tisíce poutníků",
+      "body": "Lidé v Česku si v pondělí připomněli svatého Václava, národního světce a patrona české země. Do Staré Boleslavi u Prahy, kde byl zavražděn, se na Národní svatováclavskou pouť sjely tisíce poutníků; mši pod širým nebem na Mariánském náměstí sloužil pražský arcibiskup Stanislav Přibyl. Poutníci letos poprvé uviděli novou stříbrnou hermu se svatováclavským ostatkem. U příležitosti státního svátku předával předseda Senátu Miloš Vystrčil (ODS) stříbrné pamětní medaile osobnostem, které vynikly ve svém oboru nebo přispěly k dobré pověsti Česka v zahraničí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/stredocesky-kraj/lide-si-ve-stare-boleslavi-pripomenou-sv-vaclava-patrona-ceske-zeme-378016"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/historie/svaty-vaclav-je-dodnes-nas-ochrance-nemame-jiny-zakladni-kamen-naseho-statu-mini_2609281605_vdv"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/predseda-senatu-predava-stribrne-pametni-medaile-378026"
+        }
+      ],
+      "en": {
+        "headline": "Thousands of pilgrims came to Stará Boleslav for the Saint Wenceslas pilgrimage",
+        "sentences": [
+          {
+            "en": "On Monday people in Czechia commemorated Saint Wenceslas, the national saint and patron of the Czech lands.",
+            "cs": "Lidé v Česku si v pondělí připomněli svatého Václava, národního světce a patrona české země."
+          },
+          {
+            "en": "Thousands of pilgrims came to Stará Boleslav near Prague, where he was murdered, for the National Saint Wenceslas Pilgrimage; the open-air mass on Mariánské náměstí was celebrated by the Archbishop of Prague Stanislav Přibyl.",
+            "cs": "Do Staré Boleslavi u Prahy, kde byl zavražděn, se na Národní svatováclavskou pouť sjely tisíce poutníků; mši pod širým nebem na Mariánském náměstí sloužil pražský arcibiskup Stanislav Přibyl."
+          },
+          {
+            "en": "This year the pilgrims saw for the first time a new silver bust-shaped reliquary holding a relic of Saint Wenceslas.",
+            "cs": "Poutníci letos poprvé uviděli novou stříbrnou hermu se svatováclavským ostatkem."
+          },
+          {
+            "en": "To mark the state holiday, Senate President Miloš Vystrčil (ODS) presented silver commemorative medals to figures who have excelled in their field or contributed to Czechia's good name abroad.",
+            "cs": "U příležitosti státního svátku předával předseda Senátu Miloš Vystrčil (ODS) stříbrné pamětní medaile osobnostem, které vynikly ve svém oboru nebo přispěly k dobré pověsti Česka v zahraničí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pilgrims",
+            "definition": "people who travel to a holy place for religious reasons"
+          },
+          {
+            "term": "commemorated",
+            "definition": "remembered and showed respect for someone important"
+          },
+          {
+            "term": "reliquary",
+            "definition": "a container in which the remains of a saint are kept"
+          },
+          {
+            "term": "excelled",
+            "definition": "been extremely good at something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:00",
+      "headline": "Fotbalisté hostí v úterý v Edenu Anglii, je to jejich druhý zápas pod trenérem Deniou",
+      "body": "Čeští fotbaloví reprezentanti odehrají v úterý doma proti Anglii druhý zápas nového ročníku Ligy národů. V sobotu v premiéře pod španělským trenérem Santim Deniou podlehli v Praze Chorvatsku 1:2 a proti bronzovým medailistům z letního mistrovství světa budou podle ČT Sport ještě větším outsiderem.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/tiskova-konference-pred-utkanim-s-anglii-159172"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/anglie-bude-velky-test-sanci-mame-ale-neni-velka-predpovida-expert-horvat-pred_2609281323_mim"
+        }
+      ],
+      "en": {
+        "headline": "The footballers host England at Eden on Tuesday, their second match under coach Denia",
+        "sentences": [
+          {
+            "en": "The Czech footballers will play at home against England on Tuesday in their second match of the new Nations League season.",
+            "cs": "Čeští fotbaloví reprezentanti odehrají v úterý doma proti Anglii druhý zápas nového ročníku Ligy národů."
+          },
+          {
+            "en": "On Saturday, in his debut as coach, the Spaniard Santi Denia saw them lose 1:2 to Croatia in Prague, and against the bronze medallists from the summer World Cup they will be even bigger underdogs, according to ČT Sport.",
+            "cs": "V sobotu v premiéře pod španělským trenérem Santim Deniou podlehli v Praze Chorvatsku 1:2 a proti bronzovým medailistům z letního mistrovství světa budou podle ČT Sport ještě větším outsiderem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "debut",
+            "definition": "someone's first public appearance in a new role"
+          },
+          {
+            "term": "underdogs",
+            "definition": "a team or person expected to lose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:22",
+      "headline": "Německo pod Kloppem doma prohrálo v Lize národů s Řeckem 0:1",
+      "body": "Němečtí fotbalisté v neděli v Lize národů doma překvapivě podlehli Řecku 0:1 a pod trenérem Jürgenem Kloppem dál čekají na výhru. Portugalci i bez Cristiana Ronalda, který zůstal na lavičce, zvítězili v Norsku 2:1, Nizozemci vyhráli stejným výsledkem v Srbsku a Dánsko doma zdolalo Wales 2:0.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-kde-je-kloppuv-heavy-metal-nemecka-media-po-sokujici-porazce-s-reckem-tepou-narodni-tym-5544582"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/nizozemci-vyhrali-v-srbsku-21-oba-goly-dal-meerdink-159169"
+        }
+      ],
+      "en": {
+        "headline": "Germany under Klopp lost 0:1 at home to Greece in the Nations League",
+        "sentences": [
+          {
+            "en": "The German footballers surprisingly lost 0:1 at home to Greece in the Nations League on Sunday and are still awaiting a win under coach Jürgen Klopp.",
+            "cs": "Němečtí fotbalisté v neděli v Lize národů doma překvapivě podlehli Řecku 0:1 a pod trenérem Jürgenem Kloppem dál čekají na výhru."
+          },
+          {
+            "en": "Portugal, even without Cristiano Ronaldo, who stayed on the bench, won 2:1 in Norway, the Netherlands won by the same score in Serbia and Denmark beat Wales 2:0 at home.",
+            "cs": "Portugalci i bez Cristiana Ronalda, který zůstal na lavičce, zvítězili v Norsku 2:1, Nizozemci vyhráli stejným výsledkem v Srbsku a Dánsko doma zdolalo Wales 2:0."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "awaiting",
+            "definition": "waiting for something to happen"
+          },
+          {
+            "term": "on the bench",
+            "definition": "not playing, sitting with the substitutes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:18",
+      "headline": "Pardubice otočily šlágr v Brně, hokejisté Hradce prohráli v Plzni",
+      "body": "V nedělním 5. kole extraligy porazily Pardubice Kometu 5:3, vítěznou branku dal v oslabení Mandát a Brno prohrálo se soupeřem podeváté v řadě. Třinec vyhrál v Liberci 3:1 a zůstal bez ztráty bodu, Vítkovice braly první body po výhře 6:2 nad Mladou Boleslaví. Hradec Králové odjel z Plzně bez bodu po porážce 1:2, kdy na rychlé vedení domácích odpověděl Markus Nenonen a krátce po začátku druhé třetiny rozhodl Dylan MacPherson.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/hokej-extraliga-pardubice-brno-mandat_2609281628_lbk"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/trinec-vyhral-v-liberci-a-zustal-stoprocentni-vitkovice-maji-prvni-body-159167"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/901454-prvni-tribodova-vyhra-je-doma-plzen-zdolala-hradec-2-1.html"
+        }
+      ],
+      "en": {
+        "headline": "Pardubice turned the big match in Brno around, and Hradec's hockey players lost in Plzeň",
+        "sentences": [
+          {
+            "en": "In Sunday's fifth round of the extraliga, Pardubice beat Kometa 5:3, with Mandát scoring the winning goal while short-handed, and Brno lost to the same opponent for the ninth time in a row.",
+            "cs": "V nedělním 5. kole extraligy porazily Pardubice Kometu 5:3, vítěznou branku dal v oslabení Mandát a Brno prohrálo se soupeřem podeváté v řadě."
+          },
+          {
+            "en": "Třinec won 3:1 in Liberec and have still not dropped a single point, while Vítkovice took their first points after a 6:2 win over Mladá Boleslav.",
+            "cs": "Třinec vyhrál v Liberci 3:1 a zůstal bez ztráty bodu, Vítkovice braly první body po výhře 6:2 nad Mladou Boleslaví."
+          },
+          {
+            "en": "Hradec Králové left Plzeň empty-handed after a 1:2 defeat, in which Markus Nenonen answered the hosts' quick lead and Dylan MacPherson settled it shortly after the start of the second period.",
+            "cs": "Hradec Králové odjel z Plzně bez bodu po porážce 1:2, kdy na rychlé vedení domácích odpověděl Markus Nenonen a krátce po začátku druhé třetiny rozhodl Dylan MacPherson."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "short-handed",
+            "definition": "playing with fewer players because of a penalty"
+          },
+          {
+            "term": "in a row",
+            "definition": "one after another, without a break"
+          },
+          {
+            "term": "empty-handed",
+            "definition": "without getting anything at all"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:33",
+      "headline": "Do nové sezony NHL vstoupí 21 českých hokejistů",
+      "body": "Jednadvacet Čechů zůstává v kádrech klubů NHL den před úterním startem nového ročníku, jsou mezi nimi čtyři brankáři, sedm obránců a deset útočníků. V posledních dvou sezonách se v lize představilo shodně 29 Čechů. Sezona začne v úterý ve 23:00 SELČ duelem obhájce Stanleyova poháru Caroliny s Floridou. Nejlépe placeným Čechem bude Martin Nečas z Colorada, který se 14 miliony dolarů bude dvanáctý v celé lize a překoná dosavadní české maximum Davida Pastrňáka.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-v-kadrech-klubu-nhl-zustava-pred-startem-sezony-21-cechu-5544591"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-necas-bude-dvanactym-nejlepe-placenym-hracem-nhl-bookmakeri-maji-jasno-o-nejvetsim-favoritovi-5544588"
+        }
+      ],
+      "en": {
+        "headline": "Twenty-one Czech players will start the new NHL season",
+        "sentences": [
+          {
+            "en": "Twenty-one Czechs remain on NHL club rosters the day before Tuesday's start of the new season, among them four goaltenders, seven defencemen and ten forwards.",
+            "cs": "Jednadvacet Čechů zůstává v kádrech klubů NHL den před úterním startem nového ročníku, jsou mezi nimi čtyři brankáři, sedm obránců a deset útočníků."
+          },
+          {
+            "en": "In each of the last two seasons 29 Czechs appeared in the league.",
+            "cs": "V posledních dvou sezonách se v lize představilo shodně 29 Čechů."
+          },
+          {
+            "en": "The season opens on Tuesday at 23:00 Central European Summer Time with a game between Stanley Cup holders Carolina and Florida.",
+            "cs": "Sezona začne v úterý ve 23:00 SELČ duelem obhájce Stanleyova poháru Caroliny s Floridou."
+          },
+          {
+            "en": "The best paid Czech will be Martin Nečas of Colorado, whose 14 million dollars put him twelfth in the whole league and beat David Pastrňák's previous Czech record.",
+            "cs": "Nejlépe placeným Čechem bude Martin Nečas z Colorada, který se 14 miliony dolarů bude dvanáctý v celé lize a překoná dosavadní české maximum Davida Pastrňáka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rosters",
+            "definition": "official lists of the players in a team"
+          },
+          {
+            "term": "goaltenders",
+            "definition": "the players who defend the goal in ice hockey"
+          },
+          {
+            "term": "holders",
+            "definition": "the team or person who currently has a title or trophy"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:20",
+      "headline": "Mistrem světa v silničním závodě se stal Američan McNulty, Vacek si zlomil nos",
+      "body": "Silniční závod mužů na cyklistickém mistrovství světa v Montrealu vyhrál Američan Brandon McNulty, který zaútočil 33 kilometrů před cílem a vybojoval pro USA první medaili po 33 letech. Stříbro bral Australan Michael Matthews, bronz Nizozemec Mathieu van der Poel. Všichni tři Češi závod nedokončili; Mathias Vacek si při pádu zlomil nos a zranění ho může připravit o start na evropském šampionátu v Lublani.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/vacek-si-pri-padu-zlomil-nos-a-muze-prijit-o-me-159171"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/cyklistika-novy-mistr-sveta-v-cyklistice-vypalil-rybnik-nejvetsim-favoritum-vacek-po-padu-skoncil-v-nemocnici-5544566"
+        }
+      ],
+      "en": {
+        "headline": "The American Brandon McNulty became road race world champion, and Vacek broke his nose",
+        "sentences": [
+          {
+            "en": "The men's road race at the cycling world championships in Montreal was won by the American Brandon McNulty, who attacked 33 kilometres from the finish and took the first medal for the United States in 33 years.",
+            "cs": "Silniční závod mužů na cyklistickém mistrovství světa v Montrealu vyhrál Američan Brandon McNulty, který zaútočil 33 kilometrů před cílem a vybojoval pro USA první medaili po 33 letech."
+          },
+          {
+            "en": "Silver went to the Australian Michael Matthews and bronze to the Dutchman Mathieu van der Poel.",
+            "cs": "Stříbro bral Australan Michael Matthews, bronz Nizozemec Mathieu van der Poel."
+          },
+          {
+            "en": "All three Czechs failed to finish; Mathias Vacek broke his nose in a crash and the injury may cost him a start at the European championships in Ljubljana.",
+            "cs": "Všichni tři Češi závod nedokončili; Mathias Vacek si při pádu zlomil nos a zranění ho může připravit o start na evropském šampionátu v Lublani."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crash",
+            "definition": "an accident in which a rider or vehicle falls or hits something"
+          },
+          {
+            "term": "failed to finish",
+            "definition": "did not complete the race"
+          },
+          {
+            "term": "cost him a start",
+            "definition": "make him lose the chance to take part"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:22",
+      "headline": "Vémola a Kozma vyhráli na turnaji Oktagonu ve Frankfurtu",
+      "body": "Na turnaji Oktagonu na fotbalovém stadionu Eintrachtu Frankfurt, na který dorazilo zhruba 58 tisíc diváků, dominantně zvítězili Karlos Vémola a David Kozma. Oba porazili miláčky domácího publika.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/bojove-sporty-mma-snovy-cesky-vecer-v-nemecku-na-tohle-do-smrti-nezapomenu-raduje-se-trener-5544587"
+        }
+      ],
+      "en": {
+        "headline": "Vémola and Kozma won at the Oktagon event in Frankfurt",
+        "sentences": [
+          {
+            "en": "At the Oktagon event at Eintracht Frankfurt's football stadium, which drew around 58 thousand spectators, Karlos Vémola and David Kozma both won dominantly.",
+            "cs": "Na turnaji Oktagonu na fotbalovém stadionu Eintrachtu Frankfurt, na který dorazilo zhruba 58 tisíc diváků, dominantně zvítězili Karlos Vémola a David Kozma."
+          },
+          {
+            "en": "Both beat the darlings of the home crowd.",
+            "cs": "Oba porazili miláčky domácího publika."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drew",
+            "definition": "attracted a number of people to a place or event"
+          },
+          {
+            "term": "darlings",
+            "definition": "people who are very popular with a particular group"
+          },
+          {
+            "term": "dominantly",
+            "definition": "in a way that shows complete control"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Hungarian parliament stripped Prime Minister Péter Magyar of his immunity; a prosecutor is investigating him over an alleged theft of a mobile phone.",
+    "The Milion chvilek association demonstrated on Prague's Old Town Square for turnout in October's municipal and Senate elections.",
+    "The Starship spacecraft reached Earth orbit for the first time and released Starlink satellites."
+  ]
+}
