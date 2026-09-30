@@ -1,0 +1,1661 @@
+{
+  "date": "2026-09-30",
+  "covers": "2026-09-30",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo, přes den až 23 °C a beze srážek. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-10-01",
+        "icon": "cloudy",
+        "temp_max_c": 23.3,
+        "temp_min_c": 12.4
+      },
+      {
+        "date": "2026-10-02",
+        "icon": "cloudy",
+        "temp_max_c": 21.7,
+        "temp_min_c": 10.4
+      },
+      {
+        "date": "2026-10-03",
+        "icon": "cloudy",
+        "temp_max_c": 22.9,
+        "temp_min_c": 8.3
+      },
+      {
+        "date": "2026-10-04",
+        "icon": "rain",
+        "temp_max_c": 19.6,
+        "temp_min_c": 7.0
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast, with daytime temperatures of up to 23 °C and no rain. Air quality is expected to be acceptable."
+  },
+  "highlights": [
+    "Let společnosti Flydubai z Dubaje do Tel Avivu nouzově přistál v Saúdské Arábii poté, co se podle izraelských představitelů jeden z pilotů pokusil se strojem havarovat.",
+    "Sněmovna druhý den jednala o opozičním návrhu na vyslovení nedůvěry vládě, odpoledne se ke slovu dostali opoziční lídři.",
+    "Ministerstvo financí obnovilo regulaci cen pohonných hmot a na čtvrtek stanovilo strop 48,72 koruny za litr nafty a 46,14 koruny u benzinu."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:17",
+      "headline": "Ve Sněmovně se k návrhu na nedůvěru vládě dostali opoziční lídři",
+      "body": "Sněmovna dnes druhým dnem pokračovala v jednání o opozičním návrhu na vyslovení nedůvěry vládě ANO, SPD a Motoristů. Úterní sedmihodinovou debatu podle ČT24 ovládli členové kabinetu v čele s premiérem Andrejem Babišem (ANO), k běžné debatě se zákonodárci dostali až dnes odpoledne, kdy se do ní hlásilo téměř šest desítek poslanců. Předseda opozičního hnutí STAN Vít Rakušan řekl, že nynější vláda Česko k prosperitě nedovede, a vzkázal premiérovi: „Vaše vize Česka je zadlužená země, a to bez jakéhokoli pohledu do budoucnosti.“ Babiše vinil z toho, že zanedbává bezpečnost státu. Šéf Pirátů Zdeněk Hřib mluvil o nesplněných slibech, k nimž zařadil levnější hypotéky a dostupnost bydlení, a k plánovanému schodku 386 miliard korun na příští rok uvedl: „Není žádný důvod k tak masivnímu zadlužování, které chystáte.“ Vyzval také voliče, aby postoj k vládě vyjádřili v nadcházejících obecních a senátních volbách. Předseda TOP 09 Matěj Ondřej Havel vinil kabinet z nedemokratických záměrů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-budou-pokracovat-v-jednani-o-vysloveni-neduvery-vlade-378086"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200099/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200196/"
+        }
+      ],
+      "en": {
+        "headline": "Opposition leaders finally got their turn in the no-confidence debate",
+        "sentences": [
+          {
+            "en": "The Chamber of Deputies spent a second day debating the opposition motion of no confidence in the government of ANO, SPD and the Motorists.",
+            "cs": "Sněmovna dnes druhým dnem pokračovala v jednání o opozičním návrhu na vyslovení nedůvěry vládě ANO, SPD a Motoristů."
+          },
+          {
+            "en": "According to ČT24, Tuesday's seven-hour debate was dominated by cabinet members led by Prime Minister Andrej Babiš (ANO), and the ordinary debate only began this afternoon, with nearly sixty MPs signed up to speak.",
+            "cs": "Úterní sedmihodinovou debatu podle ČT24 ovládli členové kabinetu v čele s premiérem Andrejem Babišem (ANO), k běžné debatě se zákonodárci dostali až dnes odpoledne, kdy se do ní hlásilo téměř šest desítek poslanců."
+          },
+          {
+            "en": "Vít Rakušan, leader of the opposition STAN movement, said the current government will not lead Czechia to prosperity, telling the prime minister: “Your vision of Czechia is an indebted country, with no view of the future whatsoever.”",
+            "cs": "Předseda opozičního hnutí STAN Vít Rakušan řekl, že nynější vláda Česko k prosperitě nedovede, a vzkázal premiérovi: „Vaše vize Česka je zadlužená země, a to bez jakéhokoli pohledu do budoucnosti.“"
+          },
+          {
+            "en": "He accused Babiš of neglecting the country's security.",
+            "cs": "Babiše vinil z toho, že zanedbává bezpečnost státu."
+          },
+          {
+            "en": "Pirate Party leader Zdeněk Hřib spoke of unfulfilled promises, among them cheaper mortgages and affordable housing, and said of the planned 386-billion-crown deficit for next year: “There is no reason at all for the massive borrowing you are preparing.”",
+            "cs": "Šéf Pirátů Zdeněk Hřib mluvil o nesplněných slibech, k nimž zařadil levnější hypotéky a dostupnost bydlení, a k plánovanému schodku 386 miliard korun na příští rok uvedl: „Není žádný důvod k tak masivnímu zadlužování, které chystáte.“"
+          },
+          {
+            "en": "He also urged voters to express their view of the government in the upcoming municipal and Senate elections.",
+            "cs": "Vyzval také voliče, aby postoj k vládě vyjádřili v nadcházejících obecních a senátních volbách."
+          },
+          {
+            "en": "TOP 09 leader Matěj Ondřej Havel accused the cabinet of undemocratic intentions.",
+            "cs": "Předseda TOP 09 Matěj Ondřej Havel vinil kabinet z nedemokratických záměrů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "indebted",
+            "definition": "owing a lot of money"
+          },
+          {
+            "term": "neglecting",
+            "definition": "not giving enough care or attention to something"
+          },
+          {
+            "term": "deficit",
+            "definition": "the amount by which spending is larger than income"
+          },
+          {
+            "term": "borrowing",
+            "definition": "taking money that must be paid back later"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:54",
+      "headline": "Vláda v rozpočtu na rok 2027 přidala vnitru, práci, školství i průmyslu",
+      "body": "Vláda při projednávání státního rozpočtu na příští rok zvýšila proti původnímu návrhu ministerstva financí výdaje zejména u ministerstev vnitra, práce a sociálních věcí, školství a průmyslu a obchodu. Snížily se naopak výdaje v kapitole všeobecná pokladní správa, která zahrnuje mimo jiné vládní rozpočtovou rezervu. Rozpočet vláda schválila minulý týden, podrobnosti dnes zveřejnila v knihovně legislativních materiálů a odpoledne návrh obdrželi poslanci. Ministerstvo vnitra má podle návrhu hospodařit se 128,8 miliardy korun, tedy o necelých sedm miliard více než letos a o 5,6 miliardy více, než počítal srpnový návrh; víc peněz má jít na platy policistů a hasičů. Ministerstvo práce a sociálních věcí by mělo vydat o 21,1 miliardy korun víc než letos, o pět miliard nad srpnový návrh, a to hlavně na penze a platy. Ministerstvo průmyslu a obchodu dostalo proti srpnu o 3,5 miliardy navíc, celkem 71,4 miliardy. Rozpočet ministerstva obrany je naopak o 100 milionů nižší než v srpnovém návrhu, celkem 190,9 miliardy korun. Ministerstvo kultury si podle Deníku N polepšilo asi o 670 milionů na 19,26 miliardy, nejvíc mají posílit příspěvkové organizace.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-v-rozpoctu-na-rok-2027-zvysila-vydaje-pro-vnitro-ci-skolstvi-378106"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/vlada-v-rozpoctu-zvysila-vydaje-ministerstev-vnitra-prace-skolstvi-ci-prumyslu_2609301403_mst"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200323/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200180/"
+        }
+      ],
+      "en": {
+        "headline": "In the 2027 budget the government gave more to the interior, labour, education and industry ministries",
+        "sentences": [
+          {
+            "en": "While discussing next year's state budget, the government raised spending above the Finance Ministry's original proposal, above all for the ministries of the interior, labour and social affairs, education, and industry and trade.",
+            "cs": "Vláda při projednávání státního rozpočtu na příští rok zvýšila proti původnímu návrhu ministerstva financí výdaje zejména u ministerstev vnitra, práce a sociálních věcí, školství a průmyslu a obchodu."
+          },
+          {
+            "en": "Spending was cut mainly in the general treasury chapter, which includes the government's budget reserve, among other things.",
+            "cs": "Snížily se naopak výdaje v kapitole všeobecná pokladní správa, která zahrnuje mimo jiné vládní rozpočtovou rezervu."
+          },
+          {
+            "en": "The government approved the budget last week, published the details today in the library of legislative documents, and MPs received the proposal in the afternoon.",
+            "cs": "Rozpočet vláda schválila minulý týden, podrobnosti dnes zveřejnila v knihovně legislativních materiálů a odpoledne návrh obdrželi poslanci."
+          },
+          {
+            "en": "Under the proposal the Interior Ministry is to manage 128.8 billion crowns, just under seven billion more than this year and 5.6 billion more than the August draft assumed; more of the money is to go to police and firefighter salaries.",
+            "cs": "Ministerstvo vnitra má podle návrhu hospodařit se 128,8 miliardy korun, tedy o necelých sedm miliard více než letos a o 5,6 miliardy více, než počítal srpnový návrh; víc peněz má jít na platy policistů a hasičů."
+          },
+          {
+            "en": "The Ministry of Labour and Social Affairs would spend 21.1 billion crowns more than this year, five billion above the August draft, mainly on pensions and salaries.",
+            "cs": "Ministerstvo práce a sociálních věcí by mělo vydat o 21,1 miliardy korun víc než letos, o pět miliard nad srpnový návrh, a to hlavně na penze a platy."
+          },
+          {
+            "en": "The Ministry of Industry and Trade received 3.5 billion more than in August, 71.4 billion in total.",
+            "cs": "Ministerstvo průmyslu a obchodu dostalo proti srpnu o 3,5 miliardy navíc, celkem 71,4 miliardy."
+          },
+          {
+            "en": "The Defence Ministry's budget is by contrast 100 million lower than in the August draft, at 190.9 billion crowns in total.",
+            "cs": "Rozpočet ministerstva obrany je naopak o 100 milionů nižší než v srpnovém návrhu, celkem 190,9 miliardy korun."
+          },
+          {
+            "en": "According to Deník N the Culture Ministry gained about 670 million, reaching 19.26 billion, with state-funded organisations set to benefit most.",
+            "cs": "Ministerstvo kultury si podle Deníku N polepšilo asi o 670 milionů na 19,26 miliardy, nejvíc mají posílit příspěvkové organizace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "treasury",
+            "definition": "the part of a government that manages public money"
+          },
+          {
+            "term": "reserve",
+            "definition": "money kept aside to be used if it is needed"
+          },
+          {
+            "term": "draft",
+            "definition": "an early version of a document that may still be changed"
+          },
+          {
+            "term": "pensions",
+            "definition": "money paid regularly to people who have stopped working because of age"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:08",
+      "headline": "Policie zakázala aktualizace forenzního softwaru s ruským pozadím",
+      "body": "Česká policie, celníci i ministerstvo obrany používají software na prolomení telefonů od společnosti Oxygen Forensics. Ta podle amerických úřadů zatajovala ruské vlastníky i to, že se produkt vyvíjel v Rusku. Policejní prezidium po těchto zjištěních nakázalo, aby systém nikdo neaktualizoval. Seznam Zprávy dodávají, že v USA byli zadrženi manažeři firmy a že spřízněný produkt využívala i ruská FSB; rizika podle nich prověřuje úřad.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2199531/policie-pouziva-software-ktery-muze-byt-ovladan-z-ruska-po-zjisteni-ho-zakazala-aktualizovat/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ceske-bezpecnostni-slozky-maji-software-z-ruska-urad-proveruje-rizika-316493"
+        }
+      ],
+      "en": {
+        "headline": "Police have banned updates to forensic software with Russian links",
+        "sentences": [
+          {
+            "en": "The Czech police, customs officers and the Defence Ministry all use phone-cracking software from the company Oxygen Forensics.",
+            "cs": "Česká policie, celníci i ministerstvo obrany používají software na prolomení telefonů od společnosti Oxygen Forensics."
+          },
+          {
+            "en": "According to US authorities, the company concealed its Russian owners and the fact that the product was developed in Russia.",
+            "cs": "Ta podle amerických úřadů zatajovala ruské vlastníky i to, že se produkt vyvíjel v Rusku."
+          },
+          {
+            "en": "After these findings the police presidium ordered that nobody update the system.",
+            "cs": "Policejní prezidium po těchto zjištěních nakázalo, aby systém nikdo neaktualizoval."
+          },
+          {
+            "en": "Seznam Zprávy adds that managers of the firm were detained in the United States and that a related product was also used by Russia's FSB; an office is reviewing the risks, the outlet says.",
+            "cs": "Seznam Zprávy dodávají, že v USA byli zadrženi manažeři firmy a že spřízněný produkt využívala i ruská FSB; rizika podle nich prověřuje úřad."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forensic",
+            "definition": "using scientific methods to help solve crimes"
+          },
+          {
+            "term": "concealed",
+            "definition": "kept something hidden or secret"
+          },
+          {
+            "term": "detained",
+            "definition": "kept somewhere by the police and not allowed to leave"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:41",
+      "headline": "Ministerstvo zdravotnictví podá trestní oznámení kvůli odměnám ve Zdravotní pojišťovně ministerstva vnitra",
+      "body": "Ministerstvo zdravotnictví oznámilo, že v nejbližších dnech podá trestní oznámení v souvislosti se zjištěními z kontroly Zdravotní pojišťovny ministerstva vnitra. Zjištění, která se týkají odměn, odchodného, konkurenčních doložek a dalšího finančního plnění, prověřovalo společně s ministerstvem financí a považuje je za mimořádně závažná. Podle iROZHLASu dostávali tamní manažeři nadstandardní odměny i konkurenční doložky, často bez zdůvodnění; kontrola proběhla ve všech sedmi zdravotních pojišťovnách.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/za-zlate-padaky-ministerstvo-poda-trestni-oznameni-na-zdravotni-pojistovnu_2609301641_cen"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200332/"
+        }
+      ],
+      "en": {
+        "headline": "The Health Ministry will file a criminal complaint over bonuses at the Interior Ministry's health insurer",
+        "sentences": [
+          {
+            "en": "The Health Ministry announced that in the coming days it will file a criminal complaint over findings from an inspection of the Interior Ministry's health insurance company.",
+            "cs": "Ministerstvo zdravotnictví oznámilo, že v nejbližších dnech podá trestní oznámení v souvislosti se zjištěními z kontroly Zdravotní pojišťovny ministerstva vnitra."
+          },
+          {
+            "en": "The findings, which concern bonuses, severance pay, non-compete clauses and other financial payments, were examined jointly with the Finance Ministry, which considers them extremely serious.",
+            "cs": "Zjištění, která se týkají odměn, odchodného, konkurenčních doložek a dalšího finančního plnění, prověřovalo společně s ministerstvem financí a považuje je za mimořádně závažná."
+          },
+          {
+            "en": "According to iROZHLAS, managers there received above-standard bonuses and non-compete clauses, often without justification; the inspection covered all seven health insurers.",
+            "cs": "Podle iROZHLASu dostávali tamní manažeři nadstandardní odměny i konkurenční doložky, často bez zdůvodnění; kontrola proběhla ve všech sedmi zdravotních pojišťovnách."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "criminal complaint",
+            "definition": "a formal report to the authorities that a crime may have happened"
+          },
+          {
+            "term": "severance pay",
+            "definition": "money given to a worker when their job ends"
+          },
+          {
+            "term": "non-compete clauses",
+            "definition": "parts of a contract that stop someone working for a rival company"
+          },
+          {
+            "term": "justification",
+            "definition": "a good reason given for doing something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:14",
+      "headline": "Senát schválil snížení počtu českých vojáků na východním křídle NATO",
+      "body": "Na obranu východního křídla NATO bude moci být v příštích dvou letech vysláno nejvýše 1600 českých vojáků, tedy o 400 méně než dosud. V uplynulých letech se přitom počet kvůli ruské agresi proti Ukrajině zvyšoval. Se snížením počítá návrh zahraničních armádních misí, který dnes schválil Senát. Ministr obrany Jaromír Zuna (za SPD) pokles podle Deníku N zdůvodnil úsporami a tím, že jde o maximální počet. Horní komora dnes také vyslovila souhlas s ratifikací Úmluvy o zřízení Mezinárodní komise pro posuzování nároků Ukrajiny.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/mene-vojaku-na-obranu-vychodniho-kridla-nato-senat-schvalil-navrh-zahranicnich_2609301414_jkd"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/senat-ma-na-programu-navrh-na-nepromlcitelnost-trestneho-cinu-vrazdy-378091"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2199933/"
+        }
+      ],
+      "en": {
+        "headline": "The Senate approved a smaller Czech troop presence on NATO's eastern flank",
+        "sentences": [
+          {
+            "en": "Over the next two years at most 1,600 Czech soldiers may be sent to defend NATO's eastern flank, 400 fewer than until now.",
+            "cs": "Na obranu východního křídla NATO bude moci být v příštích dvou letech vysláno nejvýše 1600 českých vojáků, tedy o 400 méně než dosud."
+          },
+          {
+            "en": "In recent years the number had been rising because of Russian aggression against Ukraine.",
+            "cs": "V uplynulých letech se přitom počet kvůli ruské agresi proti Ukrajině zvyšoval."
+          },
+          {
+            "en": "The cut is part of the plan for the army's foreign missions, which the Senate approved today.",
+            "cs": "Se snížením počítá návrh zahraničních armádních misí, který dnes schválil Senát."
+          },
+          {
+            "en": "Defence Minister Jaromír Zuna (for SPD) explained the drop by savings and by the fact that this is a maximum figure, Deník N reports.",
+            "cs": "Ministr obrany Jaromír Zuna (za SPD) pokles podle Deníku N zdůvodnil úsporami a tím, že jde o maximální počet."
+          },
+          {
+            "en": "The upper house also gave its consent today to ratifying the Convention establishing the International Claims Commission for Ukraine.",
+            "cs": "Horní komora dnes také vyslovila souhlas s ratifikací Úmluvy o zřízení Mezinárodní komise pro posuzování nároků Ukrajiny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "flank",
+            "definition": "the side of an army or of a defended area"
+          },
+          {
+            "term": "aggression",
+            "definition": "violent behaviour or an attack against another country"
+          },
+          {
+            "term": "consent",
+            "definition": "official agreement or permission"
+          },
+          {
+            "term": "ratifying",
+            "definition": "formally approving an agreement so that it becomes valid"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:05",
+      "headline": "Všem šesti lidskoprávním radám vlády bude nově předsedat Babiš",
+      "body": "Vládní poradní orgány pro lidská práva čekají zásadní změny: všech šest rad povede nově sám premiér Andrej Babiš a řídit se budou vládním programovým prohlášením. Kvůli změnám ve fungování rad už z nich podle Seznam Zpráv odešlo pět desítek expertů. Deník N k tomu píše, že členy rady vlády pro lidská práva sice formálně jmenuje premiér, o jejím nynějším složení ale rozhodovali jiní a klíčovou roli měla Babišova poradkyně Vachatová.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-vsem-sesti-lidskopravnim-radam-vlady-bude-nove-predsedat-andrej-babis-316507"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2198756/babis-vyber-clenu-rady-pro-lidska-prava-neresil-klicovou-roli-mela-jeho-poradkyne-vachatova/"
+        }
+      ],
+      "en": {
+        "headline": "Babiš will now chair all six of the government's human rights councils",
+        "sentences": [
+          {
+            "en": "Major changes await the government's advisory bodies on human rights: all six councils will now be led by Prime Minister Andrej Babiš himself and will follow the government's policy statement.",
+            "cs": "Vládní poradní orgány pro lidská práva čekají zásadní změny: všech šest rad povede nově sám premiér Andrej Babiš a řídit se budou vládním programovým prohlášením."
+          },
+          {
+            "en": "Because of the changes to how the councils work, fifty experts have already left them, according to Seznam Zprávy.",
+            "cs": "Kvůli změnám ve fungování rad už z nich podle Seznam Zpráv odešlo pět desítek expertů."
+          },
+          {
+            "en": "Deník N writes that although the prime minister formally appoints the members of the government's human rights council, its current composition was decided by others, with Babiš's adviser Vachatová playing the key role.",
+            "cs": "Deník N k tomu píše, že členy rady vlády pro lidská práva sice formálně jmenuje premiér, o jejím nynějším složení ale rozhodovali jiní a klíčovou roli měla Babišova poradkyně Vachatová."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advisory",
+            "definition": "giving advice rather than making decisions"
+          },
+          {
+            "term": "appoints",
+            "definition": "officially chooses someone for a job or position"
+          },
+          {
+            "term": "composition",
+            "definition": "the way something is made up of different parts or people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:27",
+      "headline": "U Odoleny Vody se objevil další nadlimitní nález olova, voda dál není pitná",
+      "body": "Při kontrole distribuční sítě se nadlimitní množství olova objevilo v Postřižíně, kde laboratoř v úterním vzorku z Datlové ulice naměřila 28,9 mikrogramu na litr, téměř trojnásobek hygienického limitu. Středočeské vodárny přitom v úterý odpoledne zveřejnily výsledky 33 jiných úterních odběrů, z nichž žádný limit nepřekročil. Voda v oblasti Odolena Voda tak nadále není pitná a všechna dosavadní opatření zůstávají v platnosti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-omezeni-kvuli-olovu-u-odoleny-vody-trva-nadlimitni-hodnota-byla-v-postrizine-316518"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ve-vodovodni-siti-u-odoleny-vody-se-objevil-dalsi-nadlimitni-nalez-olova-378109"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200367/"
+        }
+      ],
+      "en": {
+        "headline": "Another lead reading above the limit near Odolena Voda, the water is still not drinkable",
+        "sentences": [
+          {
+            "en": "During a check of the distribution network, an amount of lead above the limit turned up in Postřižín, where a laboratory measured 28.9 micrograms per litre in Tuesday's sample from Datlová Street, almost three times the health limit.",
+            "cs": "Při kontrole distribuční sítě se nadlimitní množství olova objevilo v Postřižíně, kde laboratoř v úterním vzorku z Datlové ulice naměřila 28,9 mikrogramu na litr, téměř trojnásobek hygienického limitu."
+          },
+          {
+            "en": "On Tuesday afternoon the Central Bohemian waterworks had published the results of 33 other samples taken that day, none of which exceeded the limit.",
+            "cs": "Středočeské vodárny přitom v úterý odpoledne zveřejnily výsledky 33 jiných úterních odběrů, z nichž žádný limit nepřekročil."
+          },
+          {
+            "en": "The water in the Odolena Voda area therefore remains undrinkable and all the measures taken so far stay in force.",
+            "cs": "Voda v oblasti Odolena Voda tak nadále není pitná a všechna dosavadní opatření zůstávají v platnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lead",
+            "definition": "a heavy grey metal that is poisonous to people"
+          },
+          {
+            "term": "micrograms",
+            "definition": "very small units of weight, each one millionth of a gram"
+          },
+          {
+            "term": "exceeded",
+            "definition": "went above an allowed amount"
+          },
+          {
+            "term": "undrinkable",
+            "definition": "not safe or not possible to drink"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:56",
+      "headline": "Hradec zatím nekoupí budovu bývalé lékařské fakulty, rozhodne až nové zastupitelstvo",
+      "body": "Město Hradec Králové rozsáhlý objekt bývalé lékařské fakulty v Šimkově ulici od Univerzity Karlovy zatím nekoupí. Koalice neměla při úterním jednání zastupitelů dost hlasů, a vedení města proto bod po téměř dvouhodinové diskusi stáhlo. Podle iDNES.cz se koalice neshodne na využití budovy a opozici chybějí ekonomické ukazatele transakce; problematický je i termín hlasování necelé dva týdny před volbami. Radnice přitom může podle serveru získat za 99 milionů korun budovu v hodnotě asi 750 milionů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/lekarska-fakulta-budova-stehovani-magistrat-prodej-volby.A260930_131310_hradec-zpravy_tuu"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/hradec-byvalou-lekarskou-fakultu-zatim-nekoupi-rozhodne-nove-zastupitelstvo/"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/901605-h-kralove-byvalou-lekarskou-fakultu-zatim-nekoupi-rozhodne-nove.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec will not buy the former medical faculty building yet; the new council will decide",
+        "sentences": [
+          {
+            "en": "The city of Hradec Králové will not yet buy the large former medical faculty building in Šimkova Street from Charles University.",
+            "cs": "Město Hradec Králové rozsáhlý objekt bývalé lékařské fakulty v Šimkově ulici od Univerzity Karlovy zatím nekoupí."
+          },
+          {
+            "en": "The coalition did not have enough votes at Tuesday's council meeting, so the city leadership withdrew the item after almost two hours of discussion.",
+            "cs": "Koalice neměla při úterním jednání zastupitelů dost hlasů, a vedení města proto bod po téměř dvouhodinové diskusi stáhlo."
+          },
+          {
+            "en": "According to iDNES.cz the coalition cannot agree on how to use the building and the opposition says it lacks the financial figures for the deal; the timing of the vote, less than two weeks before the elections, is also seen as a problem.",
+            "cs": "Podle iDNES.cz se koalice neshodne na využití budovy a opozici chybějí ekonomické ukazatele transakce; problematický je i termín hlasování necelé dva týdny před volbami."
+          },
+          {
+            "en": "The city could, the outlet says, acquire a building worth about 750 million crowns for 99 million.",
+            "cs": "Radnice přitom může podle serveru získat za 99 milionů korun budovu v hodnotě asi 750 milionů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "coalition",
+            "definition": "a group of parties that work together to govern"
+          },
+          {
+            "term": "withdrew",
+            "definition": "took something back or removed it"
+          },
+          {
+            "term": "acquire",
+            "definition": "to get or buy something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:07",
+      "headline": "Stavba severní tangenty se odkládá o rok, zprovoznit se má v roce 2033",
+      "body": "Severní obchvat Hradce Králové se začne stavět až v roce 2030, ještě letos v březnu se přitom mluvilo o termínu o rok dřívějším. Zprovoznění tangenty se posouvá na rok 2033. Posunula se i stavba nadjezdu nad tratí v Plotištích.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/severni-tangenta-zahajeni-stavby-smlouva-geotechnicky-pruzkum/"
+        }
+      ],
+      "en": {
+        "headline": "Work on the northern bypass is delayed by a year and it should open in 2033",
+        "sentences": [
+          {
+            "en": "Construction of the northern bypass of Hradec Králové will not begin until 2030, although as recently as March this year a date a year earlier was being mentioned.",
+            "cs": "Severní obchvat Hradce Králové se začne stavět až v roce 2030, ještě letos v březnu se přitom mluvilo o termínu o rok dřívějším."
+          },
+          {
+            "en": "The opening of the bypass is being pushed back to 2033.",
+            "cs": "Zprovoznění tangenty se posouvá na rok 2033."
+          },
+          {
+            "en": "The building of the flyover over the railway line in Plotiště has also been delayed.",
+            "cs": "Posunula se i stavba nadjezdu nad tratí v Plotištích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bypass",
+            "definition": "a road built around a town so traffic does not go through it"
+          },
+          {
+            "term": "flyover",
+            "definition": "a bridge that carries a road over another road or railway"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:40",
+      "headline": "Přestavba hradeckého hlavního nádraží od čtvrtka omezí provoz na třech tratích",
+      "body": "Přestavba hlavního nádraží v Hradci Králové zkomplikuje od čtvrtka cestování na třech železničních tratích. Vlaky nahradí autobusy, nejdelší výluka mezi Hradcem a Jaroměří potrvá až do 12. prosince. České dráhy upozorňují, že ne všechny spoje budou mít zajištěné přípoje.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/901539-prestavba-nadrazi-zastavi-vlaky-vyluky-zasahnou-tri-trate.html"
+        }
+      ],
+      "en": {
+        "headline": "The rebuilding of Hradec's main station will disrupt three railway lines from Thursday",
+        "sentences": [
+          {
+            "en": "The rebuilding of the main railway station in Hradec Králové will complicate travel on three railway lines from Thursday.",
+            "cs": "Přestavba hlavního nádraží v Hradci Králové zkomplikuje od čtvrtka cestování na třech železničních tratích."
+          },
+          {
+            "en": "Buses will replace trains, and the longest closure, between Hradec and Jaroměř, will last until 12 December.",
+            "cs": "Vlaky nahradí autobusy, nejdelší výluka mezi Hradcem a Jaroměří potrvá až do 12. prosince."
+          },
+          {
+            "en": "Czech Railways warns that not all services will have guaranteed connections.",
+            "cs": "České dráhy upozorňují, že ne všechny spoje budou mít zajištěné přípoje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "disrupt",
+            "definition": "to stop something from continuing in the normal way"
+          },
+          {
+            "term": "closure",
+            "definition": "a period when a route or place is shut"
+          },
+          {
+            "term": "connections",
+            "definition": "trains or buses that let you continue a journey"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:00",
+      "headline": "Kvůli ztrátě 46 milionů odsouvá Správa nemovitostí opravy, bývalé úřednici soud obstavil majetek",
+      "body": "Ztrátu 46 milionů korun, o kterou v červenci podvodem přišla Správa nemovitostí Hradec Králové, bude nejspíš muset sanovat město. Společnost sice do konce roku vydrží s rezervami, velké projekty oprav ale nemůže odkládat donekonečna. Městská firma uspěla s žalobou na bývalou zaměstnankyni, která peníze odesílala; soud jí předběžně zakázal nakládat s nemovitým majetkem.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/sprava-nemovitosti-odsunute-projekty-podovd-46-milionu-hradec-kralove.A260930_111219_hradec-zpravy_the"
+        }
+      ],
+      "en": {
+        "headline": "After a 46-million loss the property management firm is postponing repairs, and a court has frozen a former clerk's assets",
+        "sentences": [
+          {
+            "en": "The city will most likely have to cover the 46-million-crown loss that the Hradec Králové property management company suffered through fraud in July.",
+            "cs": "Ztrátu 46 milionů korun, o kterou v červenci podvodem přišla Správa nemovitostí Hradec Králové, bude nejspíš muset sanovat město."
+          },
+          {
+            "en": "The company will manage until the end of the year on its reserves, but it cannot put off major repair projects indefinitely.",
+            "cs": "Společnost sice do konce roku vydrží s rezervami, velké projekty oprav ale nemůže odkládat donekonečna."
+          },
+          {
+            "en": "The municipal firm won its lawsuit against the former employee who sent the money out; the court has provisionally barred her from disposing of her real estate.",
+            "cs": "Městská firma uspěla s žalobou na bývalou zaměstnankyni, která peníze odesílala; soud jí předběžně zakázal nakládat s nemovitým majetkem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fraud",
+            "definition": "the crime of getting money by tricking people"
+          },
+          {
+            "term": "indefinitely",
+            "definition": "for a period of time with no fixed end"
+          },
+          {
+            "term": "lawsuit",
+            "definition": "a case brought to a court against a person or company"
+          },
+          {
+            "term": "disposing of",
+            "definition": "getting rid of something, for example by selling it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:01",
+      "headline": "Pilot letu Flydubai do Tel Avivu se podle Izraele pokusil se strojem havarovat",
+      "body": "Letadlo společnosti Flydubai mířící z Dubaje do Tel Avivu dnes vyslalo nouzový signál, změnilo kurz na Saúdskou Arábii a přistálo na letišti v Tabúku. Podle izraelských představitelů a svědků se jeden z pilotů pokusil úmyslně způsobit pád stroje, druhý pilot a další lidé na palubě mu v tom zabránili. Izraelský ministr obrany Jisrael Kac podle médií řekl, že podle prvních informací šlo o pokus o džihádistický teroristický čin, jehož cílem bylo zřítit se s letounem a usmrtit všechny na palubě. Premiér Benjamin Netanjahu podle agentury AP uvedl, že Saúdská Arábie pilota, který pobodal svého kolegu, zadržela, a že cestující a posádka útočníka zpacifikovali, čímž zabránili „obrovské katastrofě“. Letecká společnost Flydubai uvedla, že motivy incidentu nejsou známé. Deník N upozorňuje, že se nepotvrzují původní informace o národnosti pilotů a že se případ už stává tématem extremistických ministrů v napjaté izraelské volební kampani.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/dzihadisticky-teroristicky-utok-tvrdi-o-incidentu-pri-letu-flydubai-izraelsky_2609301701_kch"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/pilot-se-zrejme-pokusil-havarovat-s-letadlem-z-dubaje-do-tel-avivu-378095"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/pilot-flydubai-chtel-pri-letu-do-tel-avivu-havarovat-izrael-mluvi-o-terorismus-1436151"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200090/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200396/"
+        }
+      ],
+      "en": {
+        "headline": "A Flydubai pilot on the Tel Aviv flight tried to crash the plane, Israel says",
+        "sentences": [
+          {
+            "en": "A Flydubai aircraft flying from Dubai to Tel Aviv sent an emergency signal today, changed course for Saudi Arabia and landed at the airport in Tabuk.",
+            "cs": "Letadlo společnosti Flydubai mířící z Dubaje do Tel Avivu dnes vyslalo nouzový signál, změnilo kurz na Saúdskou Arábii a přistálo na letišti v Tabúku."
+          },
+          {
+            "en": "According to Israeli officials and witnesses, one of the pilots tried to bring the plane down deliberately, and the other pilot and other people on board stopped him.",
+            "cs": "Podle izraelských představitelů a svědků se jeden z pilotů pokusil úmyslně způsobit pád stroje, druhý pilot a další lidé na palubě mu v tom zabránili."
+          },
+          {
+            "en": "Israeli Defence Minister Yisrael Katz said, according to media reports, that on first information this was an attempted jihadist terrorist act intended to crash the plane and kill everyone on board.",
+            "cs": "Izraelský ministr obrany Jisrael Kac podle médií řekl, že podle prvních informací šlo o pokus o džihádistický teroristický čin, jehož cílem bylo zřítit se s letounem a usmrtit všechny na palubě."
+          },
+          {
+            "en": "Prime Minister Benjamin Netanyahu said, according to the AP agency, that Saudi Arabia had detained the pilot who stabbed his colleague, and that passengers and crew overpowered the attacker, preventing “a huge disaster”.",
+            "cs": "Premiér Benjamin Netanjahu podle agentury AP uvedl, že Saúdská Arábie pilota, který pobodal svého kolegu, zadržela, a že cestující a posádka útočníka zpacifikovali, čímž zabránili „obrovské katastrofě“."
+          },
+          {
+            "en": "Flydubai said the motives for the incident are not known.",
+            "cs": "Letecká společnost Flydubai uvedla, že motivy incidentu nejsou známé."
+          },
+          {
+            "en": "Deník N points out that the original reports about the pilots' nationality are not being confirmed and that the case is already becoming a theme for extremist ministers in a tense Israeli election campaign.",
+            "cs": "Deník N upozorňuje, že se nepotvrzují původní informace o národnosti pilotů a že se případ už stává tématem extremistických ministrů v napjaté izraelské volební kampani."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deliberately",
+            "definition": "on purpose, not by accident"
+          },
+          {
+            "term": "overpowered",
+            "definition": "defeated someone by being stronger"
+          },
+          {
+            "term": "motives",
+            "definition": "the reasons why someone does something"
+          },
+          {
+            "term": "tense",
+            "definition": "full of nervousness, when trouble may start"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:00",
+      "headline": "Rusko obnovilo masivní útoky na ukrajinskou energetiku, Polsko a Rumunsko vyslala do vzduchu letouny",
+      "body": "Ukrajinský premiér Serhij Koreckyj prohlásil, že Rusko obnovilo masivní údery na ukrajinskou energetiku a že noční útok byl největší od konce minulé topné sezóny. Ruské síly zasáhly Kyjevskou oblast, kde podle tamních představitelů zabily dítě a další dvě osoby. Polsko a Rumunsko kvůli útokům vyslaly do vzduchu své vojenské letouny, Poláci rovněž dočasně uzavřeli dvě letiště, jejichž provoz byl ráno obnoven. Prezident Petr Pavel po jednání se svým rumunským protějškem Nicuşorem Danem řekl, že státy NATO musí dát jasně na vědomí, že jsou odhodlány s naprostou rozhodností bránit svůj vzdušný prostor i pobřežní vody, a že se bude muset zvýšit akceschopnost jednotlivých států v reakci na incidenty.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-zabilo-dite-v-kyjevske-oblasti-polsko-vyslalo-do-vzduchu-letadla-378089"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200031/"
+        }
+      ],
+      "en": {
+        "headline": "Russia has resumed massive strikes on Ukraine's energy system, and Poland and Romania scrambled jets",
+        "sentences": [
+          {
+            "en": "Ukrainian Prime Minister Serhiy Koretskyi said Russia had resumed massive strikes on Ukraine's energy system and that the overnight attack was the largest since the end of the last heating season.",
+            "cs": "Ukrajinský premiér Serhij Koreckyj prohlásil, že Rusko obnovilo masivní údery na ukrajinskou energetiku a že noční útok byl největší od konce minulé topné sezóny."
+          },
+          {
+            "en": "Russian forces hit the Kyiv region, where, local officials said, they killed a child and two other people.",
+            "cs": "Ruské síly zasáhly Kyjevskou oblast, kde podle tamních představitelů zabily dítě a další dvě osoby."
+          },
+          {
+            "en": "Poland and Romania sent up their military aircraft because of the attacks, and the Poles also temporarily closed two airports, which reopened in the morning.",
+            "cs": "Polsko a Rumunsko kvůli útokům vyslaly do vzduchu své vojenské letouny, Poláci rovněž dočasně uzavřeli dvě letiště, jejichž provoz byl ráno obnoven."
+          },
+          {
+            "en": "After talks with his Romanian counterpart Nicuşor Dan, President Petr Pavel said NATO states must make it clear that they are determined to defend their airspace and coastal waters with complete resolve, and that individual states will have to become quicker to act on incidents.",
+            "cs": "Prezident Petr Pavel po jednání se svým rumunským protějškem Nicuşorem Danem řekl, že státy NATO musí dát jasně na vědomí, že jsou odhodlány s naprostou rozhodností bránit svůj vzdušný prostor i pobřežní vody, a že se bude muset zvýšit akceschopnost jednotlivých států v reakci na incidenty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resumed",
+            "definition": "started again after stopping"
+          },
+          {
+            "term": "counterpart",
+            "definition": "a person with the same job in another country or organisation"
+          },
+          {
+            "term": "resolve",
+            "definition": "strong determination to do something"
+          },
+          {
+            "term": "airspace",
+            "definition": "the sky above a country, which that country controls"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:05",
+      "headline": "USA a jejich spojenci po dvanácti letech oficiálně ukončili vojenskou misi v Iráku",
+      "body": "Americkým jednotkám dnes vypršela lhůta pro stažení posledních vojáků ze základen v Iráku a Pentagon oznámil, že vojenská mise USA a jejich koaličních partnerů v zemi oficiálně skončila. Uvedl to mluvčí Pentagonu Sean Parnell. Mise se dvanáct let zaměřovala na boj proti Islámskému státu, který od roku 2014 po určitou dobu ovládal rozsáhlá území v Iráku a Sýrii. Podle iráckých bezpečnostních expertů může konec americké vojenské přítomnosti poskytnout volné pole působnosti Teheránu a umožnit návrat dalších odpůrců USA včetně Islámského státu. Seznam Zprávy dodávají, že stažení znepokojuje Kurdy, podle nichž se Islámský stát dal do pohybu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-usa-oficialne-ukoncily-vojenskou-misi-v-iraku-316459"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/spojenym-statum-konci-lhuta-pro-definitivni-stazeni-ze-zakladen-v-iraku-378088"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/americane-po-12-letech-konci-vojenskou-misi-v-iraku-zeme-se-obava-mocenskeho-vakua-1436145"
+        }
+      ],
+      "en": {
+        "headline": "After twelve years the United States and its allies have officially ended their military mission in Iraq",
+        "sentences": [
+          {
+            "en": "The deadline for American troops to pull the last soldiers out of bases in Iraq expired today, and the Pentagon announced that the military mission of the United States and its coalition partners in the country has officially ended.",
+            "cs": "Americkým jednotkám dnes vypršela lhůta pro stažení posledních vojáků ze základen v Iráku a Pentagon oznámil, že vojenská mise USA a jejich koaličních partnerů v zemi oficiálně skončila."
+          },
+          {
+            "en": "Pentagon spokesman Sean Parnell said so.",
+            "cs": "Uvedl to mluvčí Pentagonu Sean Parnell."
+          },
+          {
+            "en": "For twelve years the mission focused on fighting Islamic State, which from 2014 controlled large areas of Iraq and Syria for a time.",
+            "cs": "Mise se dvanáct let zaměřovala na boj proti Islámskému státu, který od roku 2014 po určitou dobu ovládal rozsáhlá území v Iráku a Sýrii."
+          },
+          {
+            "en": "According to Iraqi security experts, the end of the American military presence may give Tehran a free hand and allow other opponents of the US, including Islamic State, to return.",
+            "cs": "Podle iráckých bezpečnostních expertů může konec americké vojenské přítomnosti poskytnout volné pole působnosti Teheránu a umožnit návrat dalších odpůrců USA včetně Islámského státu."
+          },
+          {
+            "en": "Seznam Zprávy adds that the withdrawal is worrying the Kurds, who say Islamic State is on the move.",
+            "cs": "Seznam Zprávy dodávají, že stažení znepokojuje Kurdy, podle nichž se Islámský stát dal do pohybu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deadline",
+            "definition": "the latest time by which something must be done"
+          },
+          {
+            "term": "expired",
+            "definition": "came to an end, stopped being valid"
+          },
+          {
+            "term": "free hand",
+            "definition": "the freedom to act as you wish"
+          },
+          {
+            "term": "withdrawal",
+            "definition": "the act of taking soldiers out of an area"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:35",
+      "headline": "Slovenský soud poslal mladíka na 25 let do vězení za loňský útok nožem na gymnáziu",
+      "body": "Specializovaný trestní soud na Slovensku dnes vyměřil trest 25 let vězení mladíkovi, kterého uznal vinným z útoku nožem na gymnáziu na východě země loni v lednu; při útoku zemřeli dva lidé. Podle Seznam Zpráv student gymnázia ve Spišské Staré Vsi zabil zástupkyni ředitele a studentku kvůli přeřazení na individuální studium. Rozsudek není pravomocný. Žalobce, který ve své závěrečné řeči navrhoval doživotí, ohlásil odvolání, případem se tak bude zabývat slovenský nejvyšší soud. Soud rozhodl jen den po jiné podobné tragédii na Slovensku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/mladik-ma-jit-za-vrazdu-spoluzacky-a-pedagozky-gymnazia-na-25-let-za-mrize_2609301535_kch"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensky-soud-odsoudil-mladika-na-25-let-vezeni-za-lonsky-smrtelny-utok-na-skole-378103"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-mladik-za-lonsky-utok-na-slovenske-skole-dostal-25-let-vezeni-316479"
+        }
+      ],
+      "en": {
+        "headline": "A Slovak court sent a young man to prison for 25 years over last year's knife attack at a grammar school",
+        "sentences": [
+          {
+            "en": "The Specialised Criminal Court in Slovakia today handed down a 25-year prison sentence to a young man it found guilty of a knife attack last January at a grammar school in the east of the country; two people died in the attack.",
+            "cs": "Specializovaný trestní soud na Slovensku dnes vyměřil trest 25 let vězení mladíkovi, kterého uznal vinným z útoku nožem na gymnáziu na východě země loni v lednu; při útoku zemřeli dva lidé."
+          },
+          {
+            "en": "According to Seznam Zprávy, the student at the grammar school in Spišská Stará Ves killed the deputy head teacher and a fellow student because he had been moved to individual study.",
+            "cs": "Podle Seznam Zpráv student gymnázia ve Spišské Staré Vsi zabil zástupkyni ředitele a studentku kvůli přeřazení na individuální studium."
+          },
+          {
+            "en": "The verdict is not final.",
+            "cs": "Rozsudek není pravomocný."
+          },
+          {
+            "en": "The prosecutor, who had asked for a life sentence in his closing speech, announced an appeal, so the case will go to Slovakia's supreme court.",
+            "cs": "Žalobce, který ve své závěrečné řeči navrhoval doživotí, ohlásil odvolání, případem se tak bude zabývat slovenský nejvyšší soud."
+          },
+          {
+            "en": "The court ruled just one day after another similar tragedy in Slovakia.",
+            "cs": "Soud rozhodl jen den po jiné podobné tragédii na Slovensku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "handed down",
+            "definition": "officially gave a decision or punishment in court"
+          },
+          {
+            "term": "verdict",
+            "definition": "the decision of a court about whether someone is guilty"
+          },
+          {
+            "term": "prosecutor",
+            "definition": "the lawyer who tries to prove in court that someone is guilty"
+          },
+          {
+            "term": "appeal",
+            "definition": "a request for a higher court to change a decision"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:15",
+      "headline": "Nová rumunská vláda nezískala důvěru, politická krize v zemi pokračuje",
+      "body": "Vláda designovaného premiéra Siegfrieda Murešana dnes v hlasování rumunského parlamentu nezískala důvěru. Kabinet dostal jen 182 z 233 hlasů nutných k nástupu do funkce, v zemi tak pokračuje politická krize. Na tahu je znovu prezident Nicuşor Dan, který je dnes na návštěvě v České republice a mohl by i vyhlásit předčasné volby.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200234/"
+        }
+      ],
+      "en": {
+        "headline": "Romania's new government failed to win confidence and the political crisis continues",
+        "sentences": [
+          {
+            "en": "The government of prime minister designate Siegfried Mureşan failed to win a vote of confidence in the Romanian parliament today.",
+            "cs": "Vláda designovaného premiéra Siegfrieda Murešana dnes v hlasování rumunského parlamentu nezískala důvěru."
+          },
+          {
+            "en": "The cabinet received only 182 of the 233 votes needed to take office, so the country's political crisis continues.",
+            "cs": "Kabinet dostal jen 182 z 233 hlasů nutných k nástupu do funkce, v zemi tak pokračuje politická krize."
+          },
+          {
+            "en": "It is again up to President Nicuşor Dan, who is visiting the Czech Republic today and could even call an early election.",
+            "cs": "Na tahu je znovu prezident Nicuşor Dan, který je dnes na návštěvě v České republice a mohl by i vyhlásit předčasné volby."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "designate",
+            "definition": "chosen for a job but not yet officially in it"
+          },
+          {
+            "term": "take office",
+            "definition": "to start an official job or position"
+          },
+          {
+            "term": "call an early election",
+            "definition": "to arrange a vote sooner than planned"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:53",
+      "headline": "Vláda obnovila regulaci cen pohonných hmot, nafta bude ve čtvrtek nejvýš za 48,72 koruny",
+      "body": "Maximální prodejní cena nafty bude ve čtvrtek 48,72 koruny za litr, u benzinu 46,14 koruny za litr. V cenovém věstníku to dnes nařídilo ministerstvo financí. Vláda k regulaci přistoupila kvůli výraznému zdražení pohonných hmot v posledních týdnech a cenové stropy na jednotlivé dny bude ministerstvo určovat zatím do konce října. Podle E15 začne omezení platit od 1. října a na jaře vyšla regulace cen zhruba na miliardu korun měsíčně. Seznam Zprávy uvádějí, že vláda kvůli vysokým cenám sáhne také na spotřební daň u nafty.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/ministerstvo-financi-urcilo-ctvrtecni-cenove-stropy-u-nafty-je-4872-a-u-benzinu_2609301453_cen"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-stanovila-maximalni-ceny-pohonnych-hmot-na-ctvrtek-378104"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/cena-nafty-a-benzinu-dostala-limity-vlada-tyden-pred-volbami-obnovila-regulaci-1436157"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-skok-az-o-19-kc-podivejte-se-jak-u-vas-behem-roku-zdrazily-benzin-a-nafta-316474"
+        }
+      ],
+      "en": {
+        "headline": "The government has reinstated fuel price controls, with diesel capped at 48.72 crowns on Thursday",
+        "sentences": [
+          {
+            "en": "The maximum retail price of diesel on Thursday will be 48.72 crowns per litre and 46.14 crowns per litre for petrol.",
+            "cs": "Maximální prodejní cena nafty bude ve čtvrtek 48,72 koruny za litr, u benzinu 46,14 koruny za litr."
+          },
+          {
+            "en": "The Finance Ministry ordered this today in the price bulletin.",
+            "cs": "V cenovém věstníku to dnes nařídilo ministerstvo financí."
+          },
+          {
+            "en": "The government turned to regulation because of the sharp rise in fuel prices in recent weeks, and for now the ministry will set daily price caps until the end of October.",
+            "cs": "Vláda k regulaci přistoupila kvůli výraznému zdražení pohonných hmot v posledních týdnech a cenové stropy na jednotlivé dny bude ministerstvo určovat zatím do konce října."
+          },
+          {
+            "en": "According to E15 the limits take effect on 1 October, and in the spring the price controls cost roughly one billion crowns a month.",
+            "cs": "Podle E15 začne omezení platit od 1. října a na jaře vyšla regulace cen zhruba na miliardu korun měsíčně."
+          },
+          {
+            "en": "Seznam Zprávy reports that because of the high prices the government will also touch the excise duty on diesel.",
+            "cs": "Seznam Zprávy uvádějí, že vláda kvůli vysokým cenám sáhne také na spotřební daň u nafty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "retail",
+            "definition": "connected with selling goods to ordinary customers"
+          },
+          {
+            "term": "caps",
+            "definition": "upper limits that cannot be passed"
+          },
+          {
+            "term": "excise duty",
+            "definition": "a tax on certain goods such as fuel, alcohol or tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:15",
+      "headline": "Volkswagen vypoví většinu kolektivních smluv, odbory hrozí stávkami od ledna",
+      "body": "Volkswagen kvůli škrtům přezkoumá mzdovou dohodu s odbory IG Metall a vypoví většinu kolektivních smluv s německými odbory. Firma tím podle Seznam Zpráv bude mít volnější ruce na zavádění úspor, odboráři jí ale hrozí stávkami, které by mohly začít 1. ledna. Dozorčí rada koncernu přijala začátkem měsíce plán na výhledové zrušení desítek tisíc pracovních míst a možná také zavření několika továren v Německu; o tom dnes Volkswagen s odbory jedná.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-volkswagen-jde-do-bitvy-s-odbory-v-nemecku-s-nimi-vypovi-vetsinu-dohod-316510"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zivotni-styl/auto/volkswagen-jedna-s-odbory-zvazuje-zavreni-tovaren-knap-sazi-na-promenu-tovaren_2609301517_cen"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200277/"
+        }
+      ],
+      "en": {
+        "headline": "Volkswagen will cancel most of its collective agreements and unions are threatening strikes from January",
+        "sentences": [
+          {
+            "en": "Because of its cuts, Volkswagen will review its pay deal with the IG Metall union and cancel most of its collective agreements with German unions.",
+            "cs": "Volkswagen kvůli škrtům přezkoumá mzdovou dohodu s odbory IG Metall a vypoví většinu kolektivních smluv s německými odbory."
+          },
+          {
+            "en": "According to Seznam Zprávy this will give the company a freer hand in making savings, but the unions are threatening strikes that could begin on 1 January.",
+            "cs": "Firma tím podle Seznam Zpráv bude mít volnější ruce na zavádění úspor, odboráři jí ale hrozí stávkami, které by mohly začít 1. ledna."
+          },
+          {
+            "en": "At the start of the month the group's supervisory board adopted a plan to cut tens of thousands of jobs in the longer term and possibly close several factories in Germany; Volkswagen is discussing that with the unions today.",
+            "cs": "Dozorčí rada koncernu přijala začátkem měsíce plán na výhledové zrušení desítek tisíc pracovních míst a možná také zavření několika továren v Německu; o tom dnes Volkswagen s odbory jedná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "collective agreements",
+            "definition": "deals between an employer and workers' unions about pay and conditions"
+          },
+          {
+            "term": "unions",
+            "definition": "organisations that represent workers"
+          },
+          {
+            "term": "supervisory board",
+            "definition": "a group that watches over how a company is run"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:21",
+      "headline": "Inflace v Německu vyskočila na 3,3 procenta, v Polsku na čtyři procenta",
+      "body": "Míra inflace v Německu v září vzrostla na 3,3 procenta ze srpnových 2,9 procenta, oznámil v předběžné zprávě Spolkový statistický úřad. Tříprocentní hranici překonala poprvé od konce roku 2023, meziměsíčně ceny vzrostly o 0,6 procenta. Inflace v Polsku v září vystoupila na 4,0 procenta, dostala se tak nejvýše za patnáct měsíců a překročila horní hranici cílového rozpětí tamní centrální banky.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2200093/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2199875/"
+        }
+      ],
+      "en": {
+        "headline": "Inflation jumped to 3.3 percent in Germany and to four percent in Poland",
+        "sentences": [
+          {
+            "en": "Germany's inflation rate rose in September to 3.3 percent from 2.9 percent in August, the Federal Statistical Office said in a preliminary report.",
+            "cs": "Míra inflace v Německu v září vzrostla na 3,3 procenta ze srpnových 2,9 procenta, oznámil v předběžné zprávě Spolkový statistický úřad."
+          },
+          {
+            "en": "It passed the three percent mark for the first time since the end of 2023, and month on month prices rose by 0.6 percent.",
+            "cs": "Tříprocentní hranici překonala poprvé od konce roku 2023, meziměsíčně ceny vzrostly o 0,6 procenta."
+          },
+          {
+            "en": "Inflation in Poland climbed in September to 4.0 percent, its highest in fifteen months, above the upper edge of the central bank's target range.",
+            "cs": "Inflace v Polsku v září vystoupila na 4,0 procenta, dostala se tak nejvýše za patnáct měsíců a překročila horní hranici cílového rozpětí tamní centrální banky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "preliminary",
+            "definition": "early and possibly not final"
+          },
+          {
+            "term": "month on month",
+            "definition": "compared with the month before"
+          },
+          {
+            "term": "target range",
+            "definition": "the band of values an institution is trying to stay within"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:16",
+      "headline": "Trump podepsal se šéfy AI firem dobrovolný závazek k samoregulaci",
+      "body": "Americký prezident Donald Trump podepsal s představiteli firem v oboru umělé inteligence dohodu o regulaci sektoru, kterou označil za „morálně závaznou“. Podle agentury Reuters chce Trump ještě tento týden jmenovat zmocněnce pro AI. Deník N upozorňuje, že závazek se zakládá na dobrovolnosti a morálce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-podepsal-s-lidry-ai-spolecnosti-dohodu-o-regulaci-378084"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2199919/"
+        }
+      ],
+      "en": {
+        "headline": "Trump has signed a voluntary self-regulation pledge with the heads of AI companies",
+        "sentences": [
+          {
+            "en": "US President Donald Trump signed an agreement on regulating the sector with the heads of artificial intelligence companies, calling it “morally binding”.",
+            "cs": "Americký prezident Donald Trump podepsal s představiteli firem v oboru umělé inteligence dohodu o regulaci sektoru, kterou označil za „morálně závaznou“."
+          },
+          {
+            "en": "According to the Reuters agency, Trump wants to appoint an AI envoy as soon as this week.",
+            "cs": "Podle agentury Reuters chce Trump ještě tento týden jmenovat zmocněnce pro AI."
+          },
+          {
+            "en": "Deník N points out that the pledge rests on goodwill and morality.",
+            "cs": "Deník N upozorňuje, že závazek se zakládá na dobrovolnosti a morálce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "self-regulation",
+            "definition": "when an industry sets and follows its own rules instead of laws"
+          },
+          {
+            "term": "pledge",
+            "definition": "a serious promise to do something"
+          },
+          {
+            "term": "binding",
+            "definition": "something you must follow because you have agreed to it"
+          },
+          {
+            "term": "envoy",
+            "definition": "a person sent to represent someone in official matters"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "19:07",
+      "day": "prev",
+      "headline": "OpenAI představilo levnější model GPT-6.1 Sol a trvale běžící agenty Dots",
+      "body": "OpenAI včera večer oznámilo model GPT-6.1 Sol, který podle firmy nabízí inteligenci blízkou modelu Astra za pětinu ceny. Spolu s ním představilo Dots, agenty popisované jako trvale běžící.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/introducing-dots/"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI has unveiled the cheaper GPT-6.1 Sol model and always-on Dots agents",
+        "sentences": [
+          {
+            "en": "OpenAI announced the GPT-6.1 Sol model yesterday evening, which the company says offers intelligence close to the Astra model at a fifth of the price.",
+            "cs": "OpenAI včera večer oznámilo model GPT-6.1 Sol, který podle firmy nabízí inteligenci blízkou modelu Astra za pětinu ceny."
+          },
+          {
+            "en": "Alongside it, the firm unveiled Dots, agents described as always-on.",
+            "cs": "Spolu s ním představilo Dots, agenty popisované jako trvale běžící."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unveiled",
+            "definition": "showed or announced something new to the public"
+          },
+          {
+            "term": "always-on",
+            "definition": "running all the time without being switched off"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:25",
+      "headline": "McDonald’s nechává ve Spojených státech navrhovat ceny umělou inteligenci",
+      "body": "McDonald’s v USA využívá umělou inteligenci, která franšízantům doporučuje ceny jednotlivých položek. Algoritmus podle E15 pracuje mimo jiné s odhadem, kolik jsou zákazníci v konkrétní oblasti ochotni zaplatit. Ani v Česku nejsou ceny ve všech pobočkách stejné.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/potraviny/mcdonald-s-nechava-ai-navrhovat-ceny-lisi-se-podle-ochoty-lidi-platit-rozdily-jsou-i-v-cesku-1436158"
+        }
+      ],
+      "en": {
+        "headline": "McDonald's is letting artificial intelligence suggest prices in the United States",
+        "sentences": [
+          {
+            "en": "McDonald's in the US uses artificial intelligence that recommends prices for individual items to its franchisees.",
+            "cs": "McDonald’s v USA využívá umělou inteligenci, která franšízantům doporučuje ceny jednotlivých položek."
+          },
+          {
+            "en": "According to E15 the algorithm works partly with an estimate of how much customers in a particular area are willing to pay.",
+            "cs": "Algoritmus podle E15 pracuje mimo jiné s odhadem, kolik jsou zákazníci v konkrétní oblasti ochotni zaplatit."
+          },
+          {
+            "en": "Even in Czechia prices are not the same at every branch.",
+            "cs": "Ani v Česku nejsou ceny ve všech pobočkách stejné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "franchisees",
+            "definition": "people who pay to run a business using a big company's name"
+          },
+          {
+            "term": "algorithm",
+            "definition": "a set of steps a computer follows to work something out"
+          },
+          {
+            "term": "branch",
+            "definition": "one of the shops or offices of a larger company"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:58",
+      "headline": "Česká televize zvažuje, že se přestane účastnit Eurovize",
+      "body": "Česká televize řeší svou budoucí účast v hudební soutěži Eurovize, kterou považuje za drahou a málo sledovanou. Ředitel ČT Hynek Chudárek v souvislosti s chystanými úsporami oznámil omezení vysílání dalších pořadů, mimo jiné Třinácté komnaty.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2199748/ceska-televize-zvazuje-zruseni-ucasti-v-eurovizi-kvuli-skrtum-omezi-trinactou-komnatu/"
+        }
+      ],
+      "en": {
+        "headline": "Czech Television is considering pulling out of Eurovision",
+        "sentences": [
+          {
+            "en": "Czech Television is reviewing its future participation in the Eurovision Song Contest, which it regards as expensive and little watched.",
+            "cs": "Česká televize řeší svou budoucí účast v hudební soutěži Eurovize, kterou považuje za drahou a málo sledovanou."
+          },
+          {
+            "en": "In connection with the planned savings, Czech Television's director Hynek Chudárek announced cuts to other programmes as well, among them Třináctá komnata.",
+            "cs": "Ředitel ČT Hynek Chudárek v souvislosti s chystanými úsporami oznámil omezení vysílání dalších pořadů, mimo jiné Třinácté komnaty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "participation",
+            "definition": "the act of taking part in something"
+          },
+          {
+            "term": "regards",
+            "definition": "thinks of something in a particular way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "13:58",
+      "headline": "Voxpot popisuje, jak se Etiopie blíží návratu nejsmrtelnější války tohoto století",
+      "body": "V Etiopii propukly boje a podle Voxpotu hrozí návrat nejsmrtelnější války tohoto století. Povstalci zformovali alianci a chtějí svrhnout premiéra Abiye Ahmeda, laureát Nobelovy ceny míru se ale moci vzdát nechce. Situaci přibližuje nový díl podcastu Afrika.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/vraci-se-nejkrvavejsi-valka-stoleti-etiopie-je-na-hrane-katastrofy/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot describes how Ethiopia is edging towards a return of this century's deadliest war",
+        "sentences": [
+          {
+            "en": "Fighting has broken out in Ethiopia and, according to Voxpot, the deadliest war of this century may be about to return.",
+            "cs": "V Etiopii propukly boje a podle Voxpotu hrozí návrat nejsmrtelnější války tohoto století."
+          },
+          {
+            "en": "Rebels have formed an alliance and want to topple Prime Minister Abiy Ahmed, but the Nobel Peace Prize laureate does not want to give up power.",
+            "cs": "Povstalci zformovali alianci a chtějí svrhnout premiéra Abiye Ahmeda, laureát Nobelovy ceny míru se ale moci vzdát nechce."
+          },
+          {
+            "en": "A new episode of the Afrika podcast sets out the situation.",
+            "cs": "Situaci přibližuje nový díl podcastu Afrika."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "broken out",
+            "definition": "started suddenly, usually something bad like a war"
+          },
+          {
+            "term": "topple",
+            "definition": "to remove a leader from power"
+          },
+          {
+            "term": "laureate",
+            "definition": "a person who has been given an important prize"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:30",
+      "day": "prev",
+      "headline": "Fotbalisté podlehli v Lize národů Anglii 0:2, od 25. minuty hráli v deseti",
+      "body": "Česká fotbalová reprezentace nezvládla ani druhý zápas skupiny A3 Ligy národů a v Edenu podlehla Anglii 0:2 poté, co od 25. minuty po vyloučení Pavla Šulce dohrávala v deseti. Ve 47. minutě poslal Angličany do vedení hlavičkou Anthony Gordon, druhý gól přidal v 69. minutě Harry Kane. Češi nemají po dvou zápasech pod trenérem Santim Deniou ani bod a v dalším utkání nastoupí v sobotu v Oviedu proti Španělsku.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/liga-narodu-uefa-cesko-anglie-159184"
+        }
+      ],
+      "en": {
+        "headline": "The footballers lost 0:2 to England in the Nations League and played with ten men from the 25th minute",
+        "sentences": [
+          {
+            "en": "The Czech football team failed in its second Group A3 match in the Nations League too, losing 0:2 to England at Eden after playing with ten men from the 25th minute following Pavel Šulc's sending-off.",
+            "cs": "Česká fotbalová reprezentace nezvládla ani druhý zápas skupiny A3 Ligy národů a v Edenu podlehla Anglii 0:2 poté, co od 25. minuty po vyloučení Pavla Šulce dohrávala v deseti."
+          },
+          {
+            "en": "Anthony Gordon put England ahead with a header in the 47th minute and Harry Kane added the second goal in the 69th.",
+            "cs": "Ve 47. minutě poslal Angličany do vedení hlavičkou Anthony Gordon, druhý gól přidal v 69. minutě Harry Kane."
+          },
+          {
+            "en": "The Czechs have no points after two matches under coach Santi Denia and will play next on Saturday in Oviedo against Spain.",
+            "cs": "Češi nemají po dvou zápasech pod trenérem Santim Deniou ani bod a v dalším utkání nastoupí v sobotu v Oviedu proti Španělsku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sending-off",
+            "definition": "when a referee orders a player to leave the pitch"
+          },
+          {
+            "term": "header",
+            "definition": "a shot or pass made with the head"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:05",
+      "headline": "Fotbalová jednadvacítka hraje dnes v Hradci s Bulharskem o baráž o Euro",
+      "body": "Čeští fotbalisté do 21 let dnes od 18:00 přivítají v Hradci Králové Bulharsko v kvalifikaci o mistrovství Evropy. Pokud soupeře porazí, zajistí si účast v baráži.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/901531-fotbalovou-jednadvacitku-ceka-s-bulhary-klicovy-zapas-v-kvalifikaci-o-me.html"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jednadvacitku-cekaji-bulhari-vyhra-znamena-ucast-v-barazi-o-euro-159178"
+        }
+      ],
+      "en": {
+        "headline": "The under-21 footballers play Bulgaria in Hradec today for a Euro play-off place",
+        "sentences": [
+          {
+            "en": "The Czech under-21 footballers host Bulgaria in Hradec Králové today at 18:00 in qualifying for the European Championship.",
+            "cs": "Čeští fotbalisté do 21 let dnes od 18:00 přivítají v Hradci Králové Bulharsko v kvalifikaci o mistrovství Evropy."
+          },
+          {
+            "en": "If they beat their opponents, they will secure a place in the play-off.",
+            "cs": "Pokud soupeře porazí, zajistí si účast v baráži."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "qualifying",
+            "definition": "the early matches that decide who reaches a tournament"
+          },
+          {
+            "term": "play-off",
+            "definition": "an extra match or matches that decide who goes through"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:11",
+      "headline": "Guardiola se po verdiktu o porušení finančních pravidel postavil za Manchester City",
+      "body": "Bývalý trenér Manchesteru City Pep Guardiola v emotivním příspěvku na sociálních sítích uvedl, že za klubem a všemi jeho členy plně stojí. Vyjádřil se den poté, co vedení Premier League potvrdilo, že nezávislá komise shledala City vinným ve všech bodech kauzy porušení finančních pravidel mezi lety 2009 až 2018. Podle komise se desetinásobní mistři Anglie provinili také tím, že narušovali vyšetřování a nespolupracovali s vedením soutěže. Klubu podle ČT Sport hrozí postih.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/dostaneme-se-z-toho-spolecne-vzkazal-guardiola-svemu-manchesteru-city-159204"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-vzdy-budu-stat-za-svym-klubem-uvedl-byvaly-kouc-manchesteru-city-guardiola-5545795"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/premier-league-potvrdila-vinu-manchesteru-city-klub-porusil-financni-pravidla-159188"
+        }
+      ],
+      "en": {
+        "headline": "After the verdict on breaching financial rules, Guardiola stood up for Manchester City",
+        "sentences": [
+          {
+            "en": "Manchester City's former manager Pep Guardiola said in an emotional post on social media that he fully stands behind the club and everyone in it.",
+            "cs": "Bývalý trenér Manchesteru City Pep Guardiola v emotivním příspěvku na sociálních sítích uvedl, že za klubem a všemi jeho členy plně stojí."
+          },
+          {
+            "en": "He spoke a day after the Premier League confirmed that an independent commission had found City guilty on every count in the case of breaching financial rules between 2009 and 2018.",
+            "cs": "Vyjádřil se den poté, co vedení Premier League potvrdilo, že nezávislá komise shledala City vinným ve všech bodech kauzy porušení finančních pravidel mezi lety 2009 až 2018."
+          },
+          {
+            "en": "According to the commission, the ten-time English champions also obstructed the investigation and failed to cooperate with the league's leadership.",
+            "cs": "Podle komise se desetinásobní mistři Anglie provinili také tím, že narušovali vyšetřování a nespolupracovali s vedením soutěže."
+          },
+          {
+            "en": "The club faces a penalty, ČT Sport reports.",
+            "cs": "Klubu podle ČT Sport hrozí postih."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "breaching",
+            "definition": "breaking a rule or an agreement"
+          },
+          {
+            "term": "count",
+            "definition": "one of the separate charges made against someone"
+          },
+          {
+            "term": "obstructed",
+            "definition": "got in the way of something so it could not go ahead"
+          },
+          {
+            "term": "penalty",
+            "definition": "a punishment for breaking a rule"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:52",
+      "headline": "NHL začala výhrou Bostonu s kapitánem Pastrňákem 3:0 nad Rangers",
+      "body": "Nový ročník NHL odstartoval. David Pastrňák má za sebou vítěznou premiéru s kapitánským céčkem, Boston porazil New York Rangers 3:0 a gólem se uvedla jeho německá posila JJ Peterka. Montreal s Jakubem Dobešem v brance vyhrál v Torontu 3:2, český gólman zaznamenal 25 zákroků. Florida zvítězila 1:0 v prodloužení nad obhájci Stanley Cupu z Caroliny.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/pastrnak-zazil-v-roli-kapitana-bostonu-vitezny-debut-prvni-ceske-body-bere-hronek-159195"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-boston-okouzlila-nemecka-posila-pro-kapitana-pastrnaka-sejk-peterka-se-uvedl-fantastickou-akci-5545773"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-hvezde-ukradl-hokejku-montrealu-zaridil-vyhru-dobes-se-vratil-ve-velkem-stylu-5545763"
+        }
+      ],
+      "en": {
+        "headline": "The NHL opened with Boston, captained by Pastrňák, beating the Rangers 3:0",
+        "sentences": [
+          {
+            "en": "The new NHL season is under way.",
+            "cs": "Nový ročník NHL odstartoval."
+          },
+          {
+            "en": "David Pastrňák has a winning debut with the captain's C behind him, as Boston beat the New York Rangers 3:0 and his German signing JJ Peterka marked the night with a goal.",
+            "cs": "David Pastrňák má za sebou vítěznou premiéru s kapitánským céčkem, Boston porazil New York Rangers 3:0 a gólem se uvedla jeho německá posila JJ Peterka."
+          },
+          {
+            "en": "Montreal, with Jakub Dobeš in goal, won 3:2 in Toronto, the Czech goalkeeper making 25 saves.",
+            "cs": "Montreal s Jakubem Dobešem v brance vyhrál v Torontu 3:2, český gólman zaznamenal 25 zákroků."
+          },
+          {
+            "en": "Florida won 1:0 in overtime against the Stanley Cup holders from Carolina.",
+            "cs": "Florida zvítězila 1:0 v prodloužení nad obhájci Stanley Cupu z Caroliny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "under way",
+            "definition": "already started and happening"
+          },
+          {
+            "term": "debut",
+            "definition": "a person's first appearance in a role or team"
+          },
+          {
+            "term": "signing",
+            "definition": "a player who has just joined a team"
+          },
+          {
+            "term": "overtime",
+            "definition": "extra playing time added when the score is level"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:52",
+      "day": "prev",
+      "headline": "Hokejisté Hradce porazili doma Spartu 4:3, Třinec zůstává po šesti kolech bez ztráty bodu",
+      "body": "Mountfield Hradec Králové vstřelil Spartě tři góly za necelých pět minut a doma vyhrál 4:3, dvě asistence a gól přidal obránce Anders Koch. Pražané prohráli čtvrté z posledních pěti utkání extraligy. Třinec otočil zápas s Kladnem z 1:3 na 6:4 a jako jediný zůstává po šesti kolech se stoprocentní bilancí. Pardubice zdolaly České Budějovice, Plzeň vyhrála v Mladé Boleslavi, Litvínov udolal na nájezdy Liberec a Vítkovice zvítězily v Olomouci.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/901607-hradec-kralove-diky-fantastickemu-uvodu-prodlouzil-mizerii-sparty.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/hokej/hradec-skolil-spartu-tri-goly-za-necelych-pet-minut-pak-se-trasl-o-vyhru/"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hokej/extraliga/6-kolo-online-zpravodajstvi-souhrny-vysledky.A260929_150017_hokej_drev"
+        }
+      ],
+      "en": {
+        "headline": "Hradec's hockey players beat Sparta 4:3 at home, and Třinec are still unbeaten after six rounds",
+        "sentences": [
+          {
+            "en": "Mountfield Hradec Králové scored three goals against Sparta in under five minutes and won 4:3 at home, with defenceman Anders Koch adding a goal and two assists.",
+            "cs": "Mountfield Hradec Králové vstřelil Spartě tři góly za necelých pět minut a doma vyhrál 4:3, dvě asistence a gól přidal obránce Anders Koch."
+          },
+          {
+            "en": "The Prague side have lost four of their last five extraliga matches.",
+            "cs": "Pražané prohráli čtvrté z posledních pěti utkání extraligy."
+          },
+          {
+            "en": "Třinec turned their game with Kladno around from 1:3 to 6:4 and are the only team still with a perfect record after six rounds.",
+            "cs": "Třinec otočil zápas s Kladnem z 1:3 na 6:4 a jako jediný zůstává po šesti kolech se stoprocentní bilancí."
+          },
+          {
+            "en": "Pardubice beat České Budějovice, Plzeň won in Mladá Boleslav, Litvínov edged Liberec in a shootout and Vítkovice won in Olomouc.",
+            "cs": "Pardubice zdolaly České Budějovice, Plzeň vyhrála v Mladé Boleslavi, Litvínov udolal na nájezdy Liberec a Vítkovice zvítězily v Olomouci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "defenceman",
+            "definition": "an ice hockey player whose job is to stop the other team scoring"
+          },
+          {
+            "term": "assists",
+            "definition": "passes that directly lead to a goal"
+          },
+          {
+            "term": "edged",
+            "definition": "won by a very small margin"
+          },
+          {
+            "term": "shootout",
+            "definition": "a series of single shots used to decide a drawn game"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:52",
+      "headline": "Karolína Plíšková předčasně ukončila sezonu",
+      "body": "Bývalá světová jednička Karolína Plíšková předčasně ukončila tenisovou sezonu a v Asii si už nezahraje. Na sociálních sítích uvedla, že potřebuje doléčit drobná zranění: „Po tom všem, čím si moje tělo v posledních měsících prošlo, mám několik drobných problémů, které potřebují čas, aby se pořádně zahojily.“ Naznačila, že bude v kariéře pokračovat.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/pliskova-pro-letosek-skoncila-v-asii-si-nezahraje-159198"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-pliskova-predcasne-ukoncila-sezonu-5545761"
+        }
+      ],
+      "en": {
+        "headline": "Karolína Plíšková has ended her season early",
+        "sentences": [
+          {
+            "en": "Former world number one Karolína Plíšková has ended her tennis season early and will not play in Asia.",
+            "cs": "Bývalá světová jednička Karolína Plíšková předčasně ukončila tenisovou sezonu a v Asii si už nezahraje."
+          },
+          {
+            "en": "On social media she said she needs to finish treating minor injuries: “After everything my body has been through in recent months, I have several small problems that need time to heal properly.”",
+            "cs": "Na sociálních sítích uvedla, že potřebuje doléčit drobná zranění: „Po tom všem, čím si moje tělo v posledních měsících prošlo, mám několik drobných problémů, které potřebují čas, aby se pořádně zahojily.“"
+          },
+          {
+            "en": "She suggested she will carry on with her career.",
+            "cs": "Naznačila, že bude v kariéře pokračovat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "minor",
+            "definition": "small and not serious"
+          },
+          {
+            "term": "heal",
+            "definition": "to get better after an injury"
+          },
+          {
+            "term": "carry on",
+            "definition": "to continue doing something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "A Flydubai flight from Dubai to Tel Aviv made an emergency landing in Saudi Arabia after one of the pilots, according to Israeli officials, tried to crash the aircraft.",
+    "The Chamber of Deputies spent a second day debating the opposition motion of no confidence in the government, and opposition leaders took the floor in the afternoon.",
+    "The Finance Ministry has reinstated price controls on motor fuel and set a Thursday cap of 48.72 crowns per litre of diesel and 46.14 crowns for petrol."
+  ]
+}
