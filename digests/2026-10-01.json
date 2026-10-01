@@ -1,0 +1,1438 @@
+{
+  "date": "2026-10-01",
+  "covers": "2026-10-01",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Hacker News",
+    "Claude Blog",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, přes den až 22 °C.",
+    "days": [
+      {
+        "date": "2026-10-02",
+        "icon": "cloudy",
+        "temp_max_c": 22.4,
+        "temp_min_c": 10.9
+      },
+      {
+        "date": "2026-10-03",
+        "icon": "partly",
+        "temp_max_c": 22.9,
+        "temp_min_c": 7.4
+      },
+      {
+        "date": "2026-10-04",
+        "icon": "cloudy",
+        "temp_max_c": 19.0,
+        "temp_min_c": 8.1
+      },
+      {
+        "date": "2026-10-05",
+        "icon": "cloudy",
+        "temp_max_c": 17.3,
+        "temp_min_c": 10.1
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast and dry, reaching up to 22 °C during the day."
+  },
+  "highlights": [
+    "Policie uzavřela prověřování červencové nehody Filipa Turka s tím, že se nestal trestný čin, a případ postoupila do přestupkového řízení.",
+    "Schodek státního rozpočtu na konci září vzrostl na 194,5 miliardy korun a je čtvrtý nejhlubší od vzniku Česka.",
+    "V americkém státě Tennessee se nezdařila poprava Christy Pikeové, guvernér nařídil vyšetřování a pozastavil popravy."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:38",
+      "headline": "Policie uzavřela Turkovu nehodu, trestný čin se podle ní nestal",
+      "body": "Policie uzavřela prověřování červencové nehody poslance a vládního zmocněnce Filipa Turka (za Motoristy) s nemocničním vozem v centru Prahy s tím, že se nestal trestný čin. Věc postoupila k projednání možného přestupku obou účastníků srážky; podle mluvčí pražských policistů Evy Kropáčové zjištěné skutečnosti nasvědčují tomu, že pravidla mohli porušit oba řidiči. Turek dříve slíbil, že na funkci vládního zmocněnce rezignuje, pokud bude označen za viníka nehody. Na dotaz novinářů, zda se k práci zmocněnce vrátí, dnes řekl, že je připraven dál pracovat pro Česko a jeho občany v souladu s mandátem, který získal v loňských volbách. Premiér Andrej Babiš České televizi řekl, že zatím není jasné, kdo incident zavinil, a Turkova slova o rezignaci připomněl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pri-turkove-nehode-se-nestal-trestny-cin-uvedla-policie-mohlo-jit-o-prestupek-378140"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/jsem-pripraven-dal-pracovat-pro-ceskou-republiku-reagoval-turek-na-rozhodnuti_2610011540_cen"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/policie-rozhodla-o-nehode-filipa-turka-trestny-cin-se-nestal-pripad-ale-nekonci-1436183"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2201273/turek-pri-nehode-v-praze-podle-policie-nespachal-trestny-cin-hrozi-mu-pouze-pokuta/"
+        }
+      ],
+      "en": {
+        "headline": "The police have closed Turek's crash case and say no crime was committed",
+        "sentences": [
+          {
+            "en": "The police have closed their inquiry into the July crash between MP and government envoy Filip Turek (for the Motorists) and a hospital vehicle in central Prague, concluding that no crime was committed.",
+            "cs": "Policie uzavřela prověřování červencové nehody poslance a vládního zmocněnce Filipa Turka (za Motoristy) s nemocničním vozem v centru Prahy s tím, že se nestal trestný čin."
+          },
+          {
+            "en": "They have referred the matter for assessment as a possible misdemeanour by both parties to the collision; according to Prague police spokeswoman Eva Kropáčová, the findings suggest that both drivers may have broken the rules.",
+            "cs": "Věc postoupila k projednání možného přestupku obou účastníků srážky; podle mluvčí pražských policistů Evy Kropáčové zjištěné skutečnosti nasvědčují tomu, že pravidla mohli porušit oba řidiči."
+          },
+          {
+            "en": "Turek had earlier promised to resign as government envoy if he were named as the one at fault for the crash.",
+            "cs": "Turek dříve slíbil, že na funkci vládního zmocněnce rezignuje, pokud bude označen za viníka nehody."
+          },
+          {
+            "en": "Asked by reporters today whether he would return to his work as envoy, he said he was ready to go on working for the Czech Republic and its citizens in line with the mandate he won in last year's elections.",
+            "cs": "Na dotaz novinářů, zda se k práci zmocněnce vrátí, dnes řekl, že je připraven dál pracovat pro Česko a jeho občany v souladu s mandátem, který získal v loňských volbách."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš told Czech Television that it was not yet clear who had caused the incident, and he recalled Turek's words about resigning.",
+            "cs": "Premiér Andrej Babiš České televizi řekl, že zatím není jasné, kdo incident zavinil, a Turkova slova o rezignaci připomněl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "envoy",
+            "definition": "a person sent by a government to do a special job"
+          },
+          {
+            "term": "misdemeanour",
+            "definition": "a crime that is not very serious"
+          },
+          {
+            "term": "collision",
+            "definition": "an accident in which two things crash into each other"
+          },
+          {
+            "term": "mandate",
+            "definition": "the power given to a politician by the people who voted for them"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:31",
+      "headline": "Ministerstvo chystá reformu, o VZP by nově rozhodovaly i velké firmy",
+      "body": "Ministerstvo zdravotnictví pod vedením Adama Vojtěcha (za ANO) chystá podle Deníku N novelu, která by výrazně oslabila vliv státu na zdravotní péči. Předloha počítá se zapojením velkých firem do rozhodování o více než 600 miliardách korun ve zdravotnictví. Deník N mluví o největší reformě zdravotnictví v Česku za desítky let.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2199773/vojtech-chce-omezit-vliv-statu-na-zdravotnictvi-rozhodovat-o-vzp-maji-nove-i-velke-firmy/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nejvetsi-reforma-za-desitky-let-o-vzp-maji-nove-rozhodovat-i-velke-firmy-pise-denik-n-378137"
+        }
+      ],
+      "en": {
+        "headline": "The ministry is preparing a reform under which large companies would also decide about the VZP health insurer",
+        "sentences": [
+          {
+            "en": "The Health Ministry under Adam Vojtěch (for ANO) is preparing a bill that would significantly weaken the state's influence over health care, Deník N reports.",
+            "cs": "Ministerstvo zdravotnictví pod vedením Adama Vojtěcha (za ANO) chystá podle Deníku N novelu, která by výrazně oslabila vliv státu na zdravotní péči."
+          },
+          {
+            "en": "The draft envisages involving large companies in decisions about more than 600 billion crowns in the health system.",
+            "cs": "Předloha počítá se zapojením velkých firem do rozhodování o více než 600 miliardách korun ve zdravotnictví."
+          },
+          {
+            "en": "Deník N calls it the biggest health care reform in the Czech Republic in decades.",
+            "cs": "Deník N mluví o největší reformě zdravotnictví v Česku za desítky let."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bill",
+            "definition": "a written plan for a new law"
+          },
+          {
+            "term": "draft",
+            "definition": "an early version of a document that may still be changed"
+          },
+          {
+            "term": "envisages",
+            "definition": "imagines or plans something as a future possibility"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:14",
+      "headline": "Schodek státního rozpočtu vzrostl na konci září na 194,5 miliardy korun",
+      "body": "Schodek státního rozpočtu na konci září vzrostl na 194,5 miliardy korun ze srpnových 186,1 miliardy, informovalo ministerstvo financí. Deficit na konci třetího čtvrtletí je čtvrtý nejhlubší od vzniku Česka. Loni ve stejném období hospodařil stát se schodkem 153,9 miliardy korun.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/ctvrty-nejhlubsi-od-vzniku-ceska-schodek-rozpoctu-v-zari-vzrostl-na-1945_2610011414_med"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201252/"
+        }
+      ],
+      "en": {
+        "headline": "The state budget deficit rose to 194.5 billion crowns at the end of September",
+        "sentences": [
+          {
+            "en": "The state budget deficit rose at the end of September to 194.5 billion crowns from 186.1 billion in August, the Finance Ministry said.",
+            "cs": "Schodek státního rozpočtu na konci září vzrostl na 194,5 miliardy korun ze srpnových 186,1 miliardy, informovalo ministerstvo financí."
+          },
+          {
+            "en": "The deficit at the end of the third quarter is the fourth deepest since the Czech Republic came into being.",
+            "cs": "Deficit na konci třetího čtvrtletí je čtvrtý nejhlubší od vzniku Česka."
+          },
+          {
+            "en": "In the same period last year the state ran a deficit of 153.9 billion crowns.",
+            "cs": "Loni ve stejném období hospodařil stát se schodkem 153,9 miliardy korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deficit",
+            "definition": "the amount by which spending is greater than income"
+          },
+          {
+            "term": "quarter",
+            "definition": "a period of three months used in business and finance"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "07:43",
+      "headline": "Ministerstvo obrany zrušilo zakázku na obrněná vozidla za 24,7 miliardy",
+      "body": "Ministerstvo obrany zrušilo zakázku na 185 obrněných čtyřkolových vozidel za 24,7 miliardy korun a vysvětlilo to mimo jiné ekonomickými důvody; vyplývá to z informací v rejstříku zakázek. Vozidla měla sloužit hlavně jako sanitky. Na zrušení zakázky upozornily servery Aktuálně.cz a Ekonomický deník.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/resort-obrany-zrusil-zakazku-na-obrnena-vozidla-za-temer-25-miliard-378128"
+        }
+      ],
+      "en": {
+        "headline": "The Defence Ministry has cancelled a 24.7-billion contract for armoured vehicles",
+        "sentences": [
+          {
+            "en": "The Defence Ministry has cancelled a contract for 185 four-wheeled armoured vehicles worth 24.7 billion crowns, citing economic reasons among others; this follows from information in the public procurement register.",
+            "cs": "Ministerstvo obrany zrušilo zakázku na 185 obrněných čtyřkolových vozidel za 24,7 miliardy korun a vysvětlilo to mimo jiné ekonomickými důvody; vyplývá to z informací v rejstříku zakázek."
+          },
+          {
+            "en": "The vehicles were to serve mainly as ambulances.",
+            "cs": "Vozidla měla sloužit hlavně jako sanitky."
+          },
+          {
+            "en": "The cancellation was first noticed by the servers Aktuálně.cz and Ekonomický deník.",
+            "cs": "Na zrušení zakázky upozornily servery Aktuálně.cz a Ekonomický deník."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "armoured",
+            "definition": "covered with strong metal to protect against attack"
+          },
+          {
+            "term": "procurement",
+            "definition": "the process by which an organisation buys goods or services"
+          },
+          {
+            "term": "citing",
+            "definition": "giving something as a reason or an example"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:45",
+      "headline": "Honěk skončil v čele příbramské nemocnice, jeho žena zmizela z kandidátky ODS",
+      "body": "Někdejší manažer Všeobecné zdravotní pojišťovny Petr Honěk, prověřovaný v souvislosti se zásahem ve VZP a farmaceutických firmách, končí v čele Oblastní nemocnice Příbram. O jeho odvolání z představenstva rozhodli středočeští radní v působnosti valné hromady. Seznam Zprávy uvádějí jako důvod podezření z praní špinavých peněz — policie podle nich prověřuje, jak s manželkou vkládali miliony do bankomatů. Jeho žena, kterou policie podezírá ze stejného jednání, podle Seznam Zpráv nebude za ODS kandidovat do zastupitelstva ve středočeských Líbeznicích.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-dopad-skandalu-ve-vzp-podezrela-skoncila-na-kandidatce-v-kupkove-obci-316605"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/sef-pribramske-nemocnice-konci-kvuli-kauze-vzp-ve-funkci-378136"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-kraj-odvolal-reditele-pribramske-nemocnice-policie-ho-podezriva-z-prani-penez-316569"
+        }
+      ],
+      "en": {
+        "headline": "Honěk has left the top job at the Příbram hospital and his wife has disappeared from the ODS candidate list",
+        "sentences": [
+          {
+            "en": "Petr Honěk, a former manager at the VZP health insurer who is under investigation in connection with the raid on the insurer and on pharmaceutical companies, is leaving the top job at the Příbram regional hospital.",
+            "cs": "Někdejší manažer Všeobecné zdravotní pojišťovny Petr Honěk, prověřovaný v souvislosti se zásahem ve VZP a farmaceutických firmách, končí v čele Oblastní nemocnice Příbram."
+          },
+          {
+            "en": "Central Bohemian regional councillors, acting as the general meeting, decided to remove him from the board.",
+            "cs": "O jeho odvolání z představenstva rozhodli středočeští radní v působnosti valné hromady."
+          },
+          {
+            "en": "Seznam Zprávy gives the reason as suspicion of money laundering — according to the outlet, the police are looking into how he and his wife paid millions into cash machines.",
+            "cs": "Seznam Zprávy uvádějí jako důvod podezření z praní špinavých peněz — policie podle nich prověřuje, jak s manželkou vkládali miliony do bankomatů."
+          },
+          {
+            "en": "His wife, whom the police suspect of the same conduct, will not stand for ODS in the council elections in Líbeznice in Central Bohemia, Seznam Zprávy reports.",
+            "cs": "Jeho žena, kterou policie podezírá ze stejného jednání, podle Seznam Zpráv nebude za ODS kandidovat do zastupitelstva ve středočeských Líbeznicích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "raid",
+            "definition": "a sudden visit by the police to search a place"
+          },
+          {
+            "term": "money laundering",
+            "definition": "hiding where illegal money came from by moving it through legal business"
+          },
+          {
+            "term": "conduct",
+            "definition": "the way a person behaves"
+          },
+          {
+            "term": "stand",
+            "definition": "to be a candidate in an election"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:30",
+      "headline": "Pavel označil schodek rozpočtu za velké riziko a vytkl vládě rychlé přijímání zákonů",
+      "body": "Prezident Petr Pavel označil v pořadu 15 minut Kateřiny Perknerové na Deníku.cz vládou schválený deficit státního rozpočtu na příští rok za mimořádně vysoký a za velké riziko. Je ale podle něj především na vládě, aby obhájila, nebo neobhájila jeho strukturu. Ne všechny legislativní kroky kabinetu hodnotí jako úspěšné a vytkl mu, že zákony chystá rychle na úkor kvality. O tom, zda přijatá opatření přinesou kýžený efekt, se podle něj ukáže až s odstupem.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/cesko/debata-denik-prezident-petr-pavel-statni-rozpocet-kritika/"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/cesko/prezident-petr-pavel-hodnoceni-vlada-andrej-babis/"
+        }
+      ],
+      "en": {
+        "headline": "Pavel called the budget deficit a big risk and criticised the government for rushing laws through",
+        "sentences": [
+          {
+            "en": "In the programme 15 minut Kateřiny Perknerové on Deník.cz, President Petr Pavel called the deficit of next year's state budget, as approved by the government, extraordinarily high and a big risk.",
+            "cs": "Prezident Petr Pavel označil v pořadu 15 minut Kateřiny Perknerové na Deníku.cz vládou schválený deficit státního rozpočtu na příští rok za mimořádně vysoký a za velké riziko."
+          },
+          {
+            "en": "It is, however, mainly up to the government to defend, or fail to defend, its structure, he said.",
+            "cs": "Je ale podle něj především na vládě, aby obhájila, nebo neobhájila jeho strukturu."
+          },
+          {
+            "en": "He does not regard all of the cabinet's legislative steps as successful, and he criticised it for drawing up laws quickly at the expense of quality.",
+            "cs": "Ne všechny legislativní kroky kabinetu hodnotí jako úspěšné a vytkl mu, že zákony chystá rychle na úkor kvality."
+          },
+          {
+            "en": "Whether the measures that have been adopted will bring the desired effect will only become clear with time, he said.",
+            "cs": "O tom, zda přijatá opatření přinesou kýžený efekt, se podle něj ukáže až s odstupem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cabinet",
+            "definition": "the group of senior ministers who run a government"
+          },
+          {
+            "term": "legislative",
+            "definition": "connected with making laws"
+          },
+          {
+            "term": "at the expense of",
+            "definition": "causing harm to something else in order to gain something"
+          },
+          {
+            "term": "adopted",
+            "definition": "formally accepted and put into use"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:36",
+      "headline": "Po obědě ve škole v Újezdu nad Lesy onemocnělo 399 strávníků",
+      "body": "Pražská hygienická stanice eviduje mezi strávníky Masarykovy základní školy v Újezdu nad Lesy, kde vypukla epidemie salmonelózy, 399 nemocných — 364 dětí a 35 dospělých. U 72 z nich je salmonelóza potvrzená, v nemocnicích je 19 osob. Všichni nemocní snědli minulé pondělí oběd ze školní jídelny.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201180/"
+        }
+      ],
+      "en": {
+        "headline": "399 diners fell ill after lunch at a school in Újezd nad Lesy",
+        "sentences": [
+          {
+            "en": "The Prague public health authority is recording 399 sick people — 364 children and 35 adults — among those who ate at the Masaryk primary school in Újezd nad Lesy, where an outbreak of salmonella has occurred.",
+            "cs": "Pražská hygienická stanice eviduje mezi strávníky Masarykovy základní školy v Újezdu nad Lesy, kde vypukla epidemie salmonelózy, 399 nemocných — 364 dětí a 35 dospělých."
+          },
+          {
+            "en": "In 72 of them salmonella has been confirmed, and 19 people are in hospital.",
+            "cs": "U 72 z nich je salmonelóza potvrzená, v nemocnicích je 19 osob."
+          },
+          {
+            "en": "All of those who fell ill ate a lunch from the school canteen last Monday.",
+            "cs": "Všichni nemocní snědli minulé pondělí oběd ze školní jídelny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outbreak",
+            "definition": "a sudden start of a disease in a place"
+          },
+          {
+            "term": "canteen",
+            "definition": "a place in a school or workplace where meals are served"
+          },
+          {
+            "term": "fell ill",
+            "definition": "became sick"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:26",
+      "headline": "Hradečané začali hlasovat o projektech z participativního rozpočtu",
+      "body": "V Hradci Králové dnes začalo hlasování v participativním rozpočtu Pro(buď) Hradec, ve kterém lidé vybírají projekty navržené samotnými obyvateli. Ve hře jsou podle Hradecké drbny dětská hřiště, zahrady i antistresový box.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/901655-detska-hriste-zahrady-i-antistresovy-box-hradecane-ode-dneska-rozhoduji-co-bude.html"
+        }
+      ],
+      "en": {
+        "headline": "People in Hradec have begun voting on projects from the participatory budget",
+        "sentences": [
+          {
+            "en": "Voting began today in Hradec Králové in the Pro(buď) Hradec participatory budget, in which people choose between projects proposed by residents themselves.",
+            "cs": "V Hradci Králové dnes začalo hlasování v participativním rozpočtu Pro(buď) Hradec, ve kterém lidé vybírají projekty navržené samotnými obyvateli."
+          },
+          {
+            "en": "According to Hradecká drbna, the options include children's playgrounds, gardens and an anti-stress box.",
+            "cs": "Ve hře jsou podle Hradecké drbny dětská hřiště, zahrady i antistresový box."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "participatory",
+            "definition": "allowing ordinary people to take part in deciding something"
+          },
+          {
+            "term": "residents",
+            "definition": "people who live in a particular place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:05",
+      "headline": "V Krchlebech na Rychnovsku se komunální volby neuskuteční",
+      "body": "V Krchlebech na Rychnovsku, kde žije 107 obyvatel, nevznikla platná kandidátní listina — přihlásil se jediný zájemce, což nestačilo. V říjnových komunálních volbách tak nebude koho volit a po skončení mandátu současného zastupitelstva převezme obec správce. Podle Hradecké drbny obec rozdělily spory.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/901664-spory-rozdelily-obec-v-krchlebech-se-komunalni-volby-neuskutecni.html"
+        }
+      ],
+      "en": {
+        "headline": "There will be no municipal elections in Krchleby in the Rychnov area",
+        "sentences": [
+          {
+            "en": "In Krchleby in the Rychnov area, home to 107 people, no valid candidate list was put together — only a single person came forward, which was not enough.",
+            "cs": "V Krchlebech na Rychnovsku, kde žije 107 obyvatel, nevznikla platná kandidátní listina — přihlásil se jediný zájemce, což nestačilo."
+          },
+          {
+            "en": "There will therefore be nobody to vote for in October's municipal elections, and once the current council's term ends the village will be taken over by an administrator.",
+            "cs": "V říjnových komunálních volbách tak nebude koho volit a po skončení mandátu současného zastupitelstva převezme obec správce."
+          },
+          {
+            "en": "According to Hradecká drbna, the village has been divided by disputes.",
+            "cs": "Podle Hradecké drbny obec rozdělily spory."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "municipal",
+            "definition": "connected with a town or city and its local government"
+          },
+          {
+            "term": "term",
+            "definition": "the fixed period for which someone holds a position"
+          },
+          {
+            "term": "administrator",
+            "definition": "a person officially put in charge of running something"
+          },
+          {
+            "term": "disputes",
+            "definition": "serious disagreements between people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:56",
+      "headline": "Lesníci v hradeckých městských lesích čelí nadávkám i fyzickému útoku",
+      "body": "Agresivita a hrubost části návštěvníků Hradeckých lesů dosáhla podle Hradeckého deníku alarmující úrovně. Lesníci i zaměstnanci dodavatelských firem se čím dál častěji setkávají se sprostými nadávkami, vyhrožováním i nebezpečným chováním a poslední incident přerostl ve fyzický útok.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/mestske-lesy-hradec-kralove-napadeni-agresivita-navstevniku/"
+        }
+      ],
+      "en": {
+        "headline": "Foresters in Hradec's municipal woods face abuse and even a physical attack",
+        "sentences": [
+          {
+            "en": "The aggression and rudeness of some visitors to the Hradec woods have reached an alarming level, Hradecký deník reports.",
+            "cs": "Agresivita a hrubost části návštěvníků Hradeckých lesů dosáhla podle Hradeckého deníku alarmující úrovně."
+          },
+          {
+            "en": "Foresters and employees of contractors are increasingly met with foul abuse, threats and dangerous behaviour, and the latest incident escalated into a physical attack.",
+            "cs": "Lesníci i zaměstnanci dodavatelských firem se čím dál častěji setkávají se sprostými nadávkami, vyhrožováním i nebezpečným chováním a poslední incident přerostl ve fyzický útok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "foresters",
+            "definition": "people whose job is to take care of a forest"
+          },
+          {
+            "term": "contractors",
+            "definition": "companies hired to do a particular job for someone else"
+          },
+          {
+            "term": "abuse",
+            "definition": "rude and offensive words said to someone"
+          },
+          {
+            "term": "escalated",
+            "definition": "became more serious or violent"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:15",
+      "headline": "Poprava v Tennessee se nezdařila, odsouzená přežila dvě smrtící injekce",
+      "body": "Christa Pikeová, která ve středu šla v americkém státě Tennessee na popravu smrtící injekcí, zůstala naživu. Podle zástupců médií, kteří byli pokusu o popravu přítomni v oddělené místnosti, jí byly do žil aplikovány dvě dávky pentobarbitalu; následně byla převezena do nemocnice. Guvernér Tennessee nařídil vyšetřování a pozastavil popravy. Podle odborníků, které cituje E15, jde o bezprecedentní případ — po podání smrtící injekce dosud nikdo nepřežil. iROZHLAS dodává, že šlo o první popravu ženy v Tennessee po více než 200 letech a že podle Pikeové právního zástupce je nyní v nemocnici.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/nezdarena-poprava-pikeove-hraje-jejim-advokatum-do-karet-budou-tvrdit-ze-trpela_2610011515_elev"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/pikeova-prezila-vlastni-popravu-guverner-tennessee-naridil-vysetrovani-378129"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/poprava-v-usa-se-nezdarila-odsouzena-dostala-dve-smrtici-injekce-presto-prezila-1436175"
+        }
+      ],
+      "en": {
+        "headline": "An execution in Tennessee failed and the condemned woman survived two lethal injections",
+        "sentences": [
+          {
+            "en": "Christa Pike, who went to her execution by lethal injection in the U.S. state of Tennessee on Wednesday, is still alive.",
+            "cs": "Christa Pikeová, která ve středu šla v americkém státě Tennessee na popravu smrtící injekcí, zůstala naživu."
+          },
+          {
+            "en": "According to media representatives who watched the attempted execution from a separate room, two doses of pentobarbital were administered into her veins; she was then taken to hospital.",
+            "cs": "Podle zástupců médií, kteří byli pokusu o popravu přítomni v oddělené místnosti, jí byly do žil aplikovány dvě dávky pentobarbitalu; následně byla převezena do nemocnice."
+          },
+          {
+            "en": "The governor of Tennessee has ordered an investigation and suspended executions.",
+            "cs": "Guvernér Tennessee nařídil vyšetřování a pozastavil popravy."
+          },
+          {
+            "en": "Experts quoted by E15 say the case is unprecedented — nobody has ever survived after being given a lethal injection. iROZHLAS adds that this was the first execution of a woman in Tennessee in more than 200 years and that, according to Pike's lawyer, she is now in hospital.",
+            "cs": "Podle odborníků, které cituje E15, jde o bezprecedentní případ — po podání smrtící injekce dosud nikdo nepřežil. iROZHLAS dodává, že šlo o první popravu ženy v Tennessee po více než 200 letech a že podle Pikeové právního zástupce je nyní v nemocnici."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "condemned",
+            "definition": "sentenced to death"
+          },
+          {
+            "term": "lethal",
+            "definition": "able to cause death"
+          },
+          {
+            "term": "administered",
+            "definition": "given, especially a medicine or a drug"
+          },
+          {
+            "term": "unprecedented",
+            "definition": "never having happened before"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:20",
+      "headline": "Francií se šíří protesty středoškoláků, policie zadržela přes 600 lidí",
+      "body": "Po Francii se šíří protesty středoškoláků, kteří kritizují špatný stav budov, nedostatek učitelů, velikost tříd, dlouhou výuku i rušení hodin. Na některých místech přerostly v potyčky s policií, která už zadržela přes 600 demonstrujících, a přes sto lidí skončilo v péči lékařů. Podle Deníku N bylo poškozeno několik středních škol, narušena veřejná doprava a napadeno několik lidí; úřady mluví o škodách v řádech statisíců eur a politici z nepokojů viní radikály. Protesty vypukly minulý týden v Paříži a od té doby se rozšířily do dalších měst.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-francii-otrasaji-protesty-studentu-zranenych-i-zadrzenych-jsou-stovky-316604"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/zapalena-budova-skoly-i-potycky-s-policii-studenti-ve-francii-protestuji-proti_2610011604_adn"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201746/"
+        }
+      ],
+      "en": {
+        "headline": "Protests by secondary school students are spreading across France and the police have detained more than 600 people",
+        "sentences": [
+          {
+            "en": "Protests by secondary school students are spreading across France, with the students criticising the poor state of buildings, a shortage of teachers, class sizes, long teaching hours and cancelled lessons.",
+            "cs": "Po Francii se šíří protesty středoškoláků, kteří kritizují špatný stav budov, nedostatek učitelů, velikost tříd, dlouhou výuku i rušení hodin."
+          },
+          {
+            "en": "In some places the protests have grown into clashes with the police, who have already detained more than 600 demonstrators, and more than a hundred people have needed medical care.",
+            "cs": "Na některých místech přerostly v potyčky s policií, která už zadržela přes 600 demonstrujících, a přes sto lidí skončilo v péči lékařů."
+          },
+          {
+            "en": "According to Deník N, several secondary schools have been damaged, public transport disrupted and several people assaulted; the authorities speak of damage running into hundreds of thousands of euros, and politicians blame radicals for the unrest.",
+            "cs": "Podle Deníku N bylo poškozeno několik středních škol, narušena veřejná doprava a napadeno několik lidí; úřady mluví o škodách v řádech statisíců eur a politici z nepokojů viní radikály."
+          },
+          {
+            "en": "The protests broke out in Paris last week and have since spread to other cities.",
+            "cs": "Protesty vypukly minulý týden v Paříži a od té doby se rozšířily do dalších měst."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "kept somewhere by the police and not allowed to leave"
+          },
+          {
+            "term": "clashes",
+            "definition": "short fights between two groups"
+          },
+          {
+            "term": "disrupted",
+            "definition": "stopped from working in the normal way"
+          },
+          {
+            "term": "unrest",
+            "definition": "angry and sometimes violent behaviour by many people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:28",
+      "headline": "Státy EU finálně schválily přísnější pravidla pro návraty migrantů",
+      "body": "Členské státy Evropské unie oficiálně schválily zpřísnění migrační politiky EU včetně možnosti zřizovat návratová centra v takzvaných třetích zemích pro migranty, kteří ve státech Unie pobývají nelegálně. Nové návratové nařízení doplňuje migrační a azylový pakt a má zajistit rychlejší a efektivnější návraty.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/eu-zprisnuje-migracni-politiku-378144"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/staty-eu-finalne-schvalily-prisnejsi-pravidla-pro-navraty-migrantu_2610011323_med"
+        }
+      ],
+      "en": {
+        "headline": "EU states have given final approval to stricter rules on returning migrants",
+        "sentences": [
+          {
+            "en": "The member states of the European Union have formally approved a tightening of EU migration policy, including the option of setting up return centres in so-called third countries for migrants staying illegally in Union states.",
+            "cs": "Členské státy Evropské unie oficiálně schválily zpřísnění migrační politiky EU včetně možnosti zřizovat návratová centra v takzvaných třetích zemích pro migranty, kteří ve státech Unie pobývají nelegálně."
+          },
+          {
+            "en": "The new return regulation supplements the migration and asylum pact and is meant to make returns faster and more effective.",
+            "cs": "Nové návratové nařízení doplňuje migrační a azylový pakt a má zajistit rychlejší a efektivnější návraty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tightening",
+            "definition": "making rules stricter"
+          },
+          {
+            "term": "regulation",
+            "definition": "an official rule made by an authority"
+          },
+          {
+            "term": "supplements",
+            "definition": "adds something extra to make a thing complete"
+          },
+          {
+            "term": "asylum",
+            "definition": "protection given by a country to someone who had to leave their own"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:50",
+      "headline": "Rusové zasáhli v Kyjevě Institut jaderných výzkumů, drony narazily u Jižního mostu",
+      "body": "Rusové zasáhli v Kyjevě Institut jaderných výzkumů, kde se nachází malý reaktor. Útok podle Státního inspektorátu jaderného dozoru Ukrajiny způsobil požár, který byl rychle uhašen, nikdo nebyl zraněn a vyšetřování i odhad škod stále probíhají. Dva drony podle starosty Vitalije Klička narazily poblíž nosné části Jižního mostu; provoz metra a pozemní veřejné dopravy na mostě byl zastaven a konstrukci zkoumají odborníci.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201412/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201196/"
+        }
+      ],
+      "en": {
+        "headline": "Russian forces hit the Institute for Nuclear Research in Kyiv and drones struck near the Southern Bridge",
+        "sentences": [
+          {
+            "en": "Russian forces hit the Institute for Nuclear Research in Kyiv, which houses a small reactor.",
+            "cs": "Rusové zasáhli v Kyjevě Institut jaderných výzkumů, kde se nachází malý reaktor."
+          },
+          {
+            "en": "According to Ukraine's State Nuclear Regulatory Inspectorate, the attack caused a fire that was quickly put out, nobody was injured, and the investigation and damage assessment are still under way.",
+            "cs": "Útok podle Státního inspektorátu jaderného dozoru Ukrajiny způsobil požár, který byl rychle uhašen, nikdo nebyl zraněn a vyšetřování i odhad škod stále probíhají."
+          },
+          {
+            "en": "Two drones struck close to a load-bearing part of the Southern Bridge, Mayor Vitalij Kličko said; metro and surface public transport over the bridge was halted and experts are examining the structure.",
+            "cs": "Dva drony podle starosty Vitalije Klička narazily poblíž nosné části Jižního mostu; provoz metra a pozemní veřejné dopravy na mostě byl zastaven a konstrukci zkoumají odborníci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "houses",
+            "definition": "contains something inside a building"
+          },
+          {
+            "term": "inspectorate",
+            "definition": "an official body that checks that rules are being followed"
+          },
+          {
+            "term": "load-bearing",
+            "definition": "holding up the weight of a structure"
+          },
+          {
+            "term": "halted",
+            "definition": "stopped"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:11",
+      "headline": "Pentagon nepozval některé evropské spojence na jednání o budoucnosti NATO",
+      "body": "Některé evropské země, které patří mezi americké spojence a zároveň mezi státy s nejvyššími výdaji na obranu, nebyly pozvány na zasedání vedené Pentagonem, na němž se má rozebírat budoucnost Severoatlantické aliance. Informoval o tom podle ČT24 server Politico. Děje se tak po předchozích hrozbách americké administrativy.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/pentagon-vyradil-nektere-evropske-zeme-z-planovaneho-setkani-nato-378148"
+        }
+      ],
+      "en": {
+        "headline": "The Pentagon did not invite some European allies to talks on the future of NATO",
+        "sentences": [
+          {
+            "en": "Some European countries that are among the United States' allies and at the same time among the states with the highest defence spending were not invited to a meeting led by the Pentagon at which the future of the North Atlantic Alliance is to be discussed.",
+            "cs": "Některé evropské země, které patří mezi americké spojence a zároveň mezi státy s nejvyššími výdaji na obranu, nebyly pozvány na zasedání vedené Pentagonem, na němž se má rozebírat budoucnost Severoatlantické aliance."
+          },
+          {
+            "en": "The server Politico reported this, according to ČT24.",
+            "cs": "Informoval o tom podle ČT24 server Politico."
+          },
+          {
+            "en": "It comes after earlier threats from the American administration.",
+            "cs": "Děje se tak po předchozích hrozbách americké administrativy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "allies",
+            "definition": "countries that agree to help and support each other"
+          },
+          {
+            "term": "administration",
+            "definition": "the government of a country, especially in the United States"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:00",
+      "headline": "Cenový strop srazil naftu až o tři koruny, v pátek maximální ceny ještě klesnou",
+      "body": "Po zavedení cenové regulace ministerstva financí klesly ceny nafty u českých čerpacích stanic často až o tři koruny na litr. Většina velkých sítí i dálničních stanic podle E15 upravila ceníky těsně k vyhlášeným stropům 48,72 koruny za litr nafty a 46,14 koruny za litr benzinu, benzin ale reaguje pomaleji a část pumpařů sčítá ztráty. Od pátku maximální cena nafty klesne o 14 haléřů na 48,58 koruny a benzinu o 22 haléřů na 45,92 koruny, stanovilo ministerstvo v cenovém věstníku. Vláda ceny pohonných hmot reguluje od čtvrtka. Nezávislí prodejci podle Seznam Zpráv tvrdí, že kvůli výpočtu maximálních cen musejí zásoby prodávat levněji, než za kolik je nakoupili.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-vlada-nas-znovu-nuti-prodavat-pod-cenou-rikaji-mali-cerpadlari-316607"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/cenovy-strop-srazil-ceny-nafty-az-o-tri-koruny-benzin-reaguje-pomaleji-cast-pumparu-scita-ztraty-1436179"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/maximalni-cena-pohonnych-hmot-v-patek-klesne-o-halere-nafta-na-4858-a-benzin-na_2610011448_cen"
+        }
+      ],
+      "en": {
+        "headline": "The price cap cut diesel by up to three crowns and the maximum prices will fall again on Friday",
+        "sentences": [
+          {
+            "en": "After the Finance Ministry's price regulation came in, diesel prices at Czech filling stations often fell by as much as three crowns a litre.",
+            "cs": "Po zavedení cenové regulace ministerstva financí klesly ceny nafty u českých čerpacích stanic často až o tři koruny na litr."
+          },
+          {
+            "en": "Most large chains and motorway stations adjusted their price lists to sit just below the announced caps of 48.72 crowns a litre for diesel and 46.14 crowns a litre for petrol, E15 reports, but petrol is responding more slowly and some station operators are counting their losses.",
+            "cs": "Většina velkých sítí i dálničních stanic podle E15 upravila ceníky těsně k vyhlášeným stropům 48,72 koruny za litr nafty a 46,14 koruny za litr benzinu, benzin ale reaguje pomaleji a část pumpařů sčítá ztráty."
+          },
+          {
+            "en": "From Friday the maximum price of diesel will fall by 14 hellers to 48.58 crowns and that of petrol by 22 hellers to 45.92 crowns, the ministry set out in its price bulletin.",
+            "cs": "Od pátku maximální cena nafty klesne o 14 haléřů na 48,58 koruny a benzinu o 22 haléřů na 45,92 koruny, stanovilo ministerstvo v cenovém věstníku."
+          },
+          {
+            "en": "The government has been regulating fuel prices since Thursday.",
+            "cs": "Vláda ceny pohonných hmot reguluje od čtvrtka."
+          },
+          {
+            "en": "Independent sellers told Seznam Zprávy that the way the maximum prices are calculated forces them to sell stock for less than they paid for it.",
+            "cs": "Nezávislí prodejci podle Seznam Zpráv tvrdí, že kvůli výpočtu maximálních cen musejí zásoby prodávat levněji, než za kolik je nakoupili."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cap",
+            "definition": "the highest level that something is allowed to reach"
+          },
+          {
+            "term": "filling stations",
+            "definition": "places where drivers buy fuel for their cars"
+          },
+          {
+            "term": "bulletin",
+            "definition": "an official short report with news or information"
+          },
+          {
+            "term": "stock",
+            "definition": "goods that a shop or business has ready to sell"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:37",
+      "headline": "Škoda Auto omezila výrobu, ruské útoky poškodily jejího ukrajinského dodavatele",
+      "body": "Automobilka Škoda Auto omezila kvůli problémům u jednoho ze svých dodavatelů komponent výrobu a v dotčených provozech částečně redukuje počet směn podle dostupnosti dílů pro jednotlivé modely. Firma neupřesnila, o jakého dodavatele ani komponenty jde a kterých provozů a modelů se omezení týká. Podle Seznam Zpráv, které se odvolávají na Boleslavský deník, přišla automobilka o dodávky kabelových svazků z Ukrajiny a omezila produkci elektroaut včetně modelu Elroq. Deník N uvádí, že továrna ukrajinského dodavatele se stala cílem ruských útoků.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201777/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-skoda-auto-udajne-omezila-vyrobu-rusove-ji-vybombardovali-dodavatele-316097"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2201234/"
+        }
+      ],
+      "en": {
+        "headline": "Škoda Auto has cut production after Russian attacks damaged its Ukrainian supplier",
+        "sentences": [
+          {
+            "en": "The carmaker Škoda Auto has cut production because of problems at one of its component suppliers and is partly reducing the number of shifts in the affected plants according to the availability of parts for individual models.",
+            "cs": "Automobilka Škoda Auto omezila kvůli problémům u jednoho ze svých dodavatelů komponent výrobu a v dotčených provozech částečně redukuje počet směn podle dostupnosti dílů pro jednotlivé modely."
+          },
+          {
+            "en": "The company did not specify which supplier or components are involved, or which plants and models are affected.",
+            "cs": "Firma neupřesnila, o jakého dodavatele ani komponenty jde a kterých provozů a modelů se omezení týká."
+          },
+          {
+            "en": "According to Seznam Zprávy, which cites Boleslavský deník, the carmaker has lost deliveries of wiring harnesses from Ukraine and has cut production of electric cars including the Elroq model.",
+            "cs": "Podle Seznam Zpráv, které se odvolávají na Boleslavský deník, přišla automobilka o dodávky kabelových svazků z Ukrajiny a omezila produkci elektroaut včetně modelu Elroq."
+          },
+          {
+            "en": "Deník N reports that the Ukrainian supplier's factory became a target of Russian attacks.",
+            "cs": "Deník N uvádí, že továrna ukrajinského dodavatele se stala cílem ruských útoků."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "component",
+            "definition": "one of the parts that something is made of"
+          },
+          {
+            "term": "shifts",
+            "definition": "periods of time during which one group of workers works"
+          },
+          {
+            "term": "plants",
+            "definition": "factories where goods are produced"
+          },
+          {
+            "term": "wiring harnesses",
+            "definition": "bundles of electrical cables that connect parts of a machine"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:12",
+      "headline": "Výrobci kabelů dostali za kartelovou dohodu pokutu 1,94 miliardy korun",
+      "body": "Úřad pro ochranu hospodářské soutěže potrestal čtyři výrobce a prodejce kabelů pokutou v souhrnné výši 1,94 miliardy korun za kartelovou dohodu. Pátá firma, která se kartelu účastnila, vyvázla bez pokuty, šestá je v insolvenci. Pokutu 955 milionů korun dostala podle ČT24 společnost Prysmian z Velkého Meziříčí.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/antimonopolni-urad-potrestal-kartelovou-dohodu-vyrobcu-kabelu-temer-dvoumiliardovou-pokutou-378131"
+        }
+      ],
+      "en": {
+        "headline": "Cable makers have been fined 1.94 billion crowns over a cartel agreement",
+        "sentences": [
+          {
+            "en": "The Office for the Protection of Competition has punished four makers and sellers of cables with fines totalling 1.94 billion crowns over a cartel agreement.",
+            "cs": "Úřad pro ochranu hospodářské soutěže potrestal čtyři výrobce a prodejce kabelů pokutou v souhrnné výši 1,94 miliardy korun za kartelovou dohodu."
+          },
+          {
+            "en": "A fifth company that took part in the cartel escaped without a fine, and a sixth is insolvent.",
+            "cs": "Pátá firma, která se kartelu účastnila, vyvázla bez pokuty, šestá je v insolvenci."
+          },
+          {
+            "en": "A fine of 955 million crowns went to the company Prysmian of Velké Meziříčí, according to ČT24.",
+            "cs": "Pokutu 955 milionů korun dostala podle ČT24 společnost Prysmian z Velkého Meziříčí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cartel",
+            "definition": "a group of companies that secretly agree to control prices"
+          },
+          {
+            "term": "fines",
+            "definition": "sums of money that must be paid as a punishment"
+          },
+          {
+            "term": "insolvent",
+            "definition": "not having enough money to pay what is owed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "22:04",
+      "day": "prev",
+      "headline": "Google představil nový model Gemini 4 Argon",
+      "body": "Google na svém blogu představil nový model Gemini 4 Argon. Na Hacker News získalo oznámení přes 1500 bodů a víc než tisíc komentářů a samostatnou diskusi tam má i analýza schopností, výkonu a ceny varianty Gemini 4 Argon (High).",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        }
+      ],
+      "en": {
+        "headline": "Google has presented a new model, Gemini 4 Argon",
+        "sentences": [
+          {
+            "en": "Google has presented a new model, Gemini 4 Argon, on its blog.",
+            "cs": "Google na svém blogu představil nový model Gemini 4 Argon."
+          },
+          {
+            "en": "On Hacker News the announcement drew more than 1,500 points and over a thousand comments, and an analysis of the capabilities, performance and price of the Gemini 4 Argon (High) variant has a thread of its own there.",
+            "cs": "Na Hacker News získalo oznámení přes 1500 bodů a víc než tisíc komentářů a samostatnou diskusi tam má i analýza schopností, výkonu a ceny varianty Gemini 4 Argon (High)."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "capabilities",
+            "definition": "the things that something is able to do"
+          },
+          {
+            "term": "variant",
+            "definition": "a version of something that is slightly different from others"
+          },
+          {
+            "term": "thread",
+            "definition": "a series of messages on the internet about one topic"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:59",
+      "day": "prev",
+      "headline": "Anthropic zpřístupnil Claude for Government všem federálním i státním úřadům",
+      "body": "Anthropic oznámil, že jeho nabídka Claude for Government přešla z veřejné beta verze do obecné dostupnosti pro federální a státní úřady ve Spojených státech. Prostředí má autorizaci FedRAMP High a úřady k němu podle firmy nepotřebují samostatný vztah s poskytovatelem cloudu. Součástí je nově i raný přístup ke Claude Code CLI a ke Claude pro Microsoft 365. Anthropic zmiňuje správu na úrovni jednotlivých resortů, integraci SCIM pro správu identit, audit logy, schvalování citlivých operací dvěma lidmi a historii konverzací, která zůstává na zařízeních úřadu. Účtuje se bez poplatků za uživatele, s pevnými přírůstky využití a stropem, který nelze překročit.",
+      "sources": [
+        {
+          "name": "Claude Blog",
+          "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has opened Claude for Government to all federal and state agencies",
+        "sentences": [
+          {
+            "en": "Anthropic has announced that its Claude for Government offering has moved from public beta to general availability for federal and state agencies in the United States.",
+            "cs": "Anthropic oznámil, že jeho nabídka Claude for Government přešla z veřejné beta verze do obecné dostupnosti pro federální a státní úřady ve Spojených státech."
+          },
+          {
+            "en": "The environment holds FedRAMP High authorisation and, according to the company, agencies do not need a separate relationship with a cloud provider to use it.",
+            "cs": "Prostředí má autorizaci FedRAMP High a úřady k němu podle firmy nepotřebují samostatný vztah s poskytovatelem cloudu."
+          },
+          {
+            "en": "It now also includes early access to the Claude Code CLI and to Claude for Microsoft 365.",
+            "cs": "Součástí je nově i raný přístup ke Claude Code CLI a ke Claude pro Microsoft 365."
+          },
+          {
+            "en": "Anthropic mentions department-level administration, SCIM integration for identity management, audit logs, two-person approval for sensitive operations and conversation history that stays on the agency's devices.",
+            "cs": "Anthropic zmiňuje správu na úrovni jednotlivých resortů, integraci SCIM pro správu identit, audit logy, schvalování citlivých operací dvěma lidmi a historii konverzací, která zůstává na zařízeních úřadu."
+          },
+          {
+            "en": "Billing involves no per-user fees, with fixed usage increments and a cap that cannot be exceeded.",
+            "cs": "Účtuje se bez poplatků za uživatele, s pevnými přírůstky využití a stropem, který nelze překročit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "agencies",
+            "definition": "government offices that do a particular kind of work"
+          },
+          {
+            "term": "authorisation",
+            "definition": "official permission for something"
+          },
+          {
+            "term": "audit logs",
+            "definition": "records that show who did what in a computer system"
+          },
+          {
+            "term": "increments",
+            "definition": "fixed amounts by which something goes up step by step"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:21",
+      "headline": "OpenAI a Synopsys představily GPT-Synopsys pro návrh čipů",
+      "body": "OpenAI a společnost Synopsys oznámily GPT-Synopsys, který má podle nich přinést do návrhu čipů špičkovou umělou inteligenci a tuto oblast zásadně proměnit. Podrobnosti firmy zveřejnily v tiskové zprávě Synopsysu, na kterou upozornila komunita Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI and Synopsys have presented GPT-Synopsys for chip design",
+        "sentences": [
+          {
+            "en": "OpenAI and the company Synopsys have announced GPT-Synopsys, which they say will bring frontier artificial intelligence to chip design and transform the field.",
+            "cs": "OpenAI a společnost Synopsys oznámily GPT-Synopsys, který má podle nich přinést do návrhu čipů špičkovou umělou inteligenci a tuto oblast zásadně proměnit."
+          },
+          {
+            "en": "The companies published the details in a Synopsys press release that was picked up by the Hacker News community.",
+            "cs": "Podrobnosti firmy zveřejnily v tiskové zprávě Synopsysu, na kterou upozornila komunita Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "frontier",
+            "definition": "at the furthest edge of what is known or possible"
+          },
+          {
+            "term": "transform",
+            "definition": "to change something completely"
+          },
+          {
+            "term": "picked up",
+            "definition": "noticed and passed on by others"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "11:27",
+      "headline": "Jiří Suchý se dožil 95 let",
+      "body": "Divadelník, herec a hudebník Jiří Suchý se ve čtvrtek 1. října dožil 95 let. Narozeniny podle Seznam Zpráv neoslaví v divadle — v Semaforu bude za týden — ale připomínají ho televize, kniha i nově vydaná nahrávka. Deník N píše, že neztrácí kontakt se současným světem a z jeviště Semaforu stále promlouvá k publiku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-jiri-suchy-95-let-semafor-316565"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2199770/bylo-ohromny-jak-jirik-touzil-po-divadle-jak-se-jiri-suchy-uz-95-let-smeje-mocnym-tohoto-sveta/"
+        }
+      ],
+      "en": {
+        "headline": "Jiří Suchý has turned 95",
+        "sentences": [
+          {
+            "en": "The theatre-maker, actor and musician Jiří Suchý turned 95 on Thursday 1 October.",
+            "cs": "Divadelník, herec a hudebník Jiří Suchý se ve čtvrtek 1. října dožil 95 let."
+          },
+          {
+            "en": "According to Seznam Zprávy he will not celebrate his birthday at the theatre — he will be at the Semafor in a week's time — but television, a book and a newly released recording are marking the occasion.",
+            "cs": "Narozeniny podle Seznam Zpráv neoslaví v divadle — v Semaforu bude za týden — ale připomínají ho televize, kniha i nově vydaná nahrávka."
+          },
+          {
+            "en": "Deník N writes that he has not lost touch with the present-day world and still speaks to audiences from the Semafor stage.",
+            "cs": "Deník N píše, že neztrácí kontakt se současným světem a z jeviště Semaforu stále promlouvá k publiku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "marking",
+            "definition": "celebrating or remembering an important event"
+          },
+          {
+            "term": "lost touch with",
+            "definition": "stopped being familiar with something"
+          },
+          {
+            "term": "audiences",
+            "definition": "groups of people watching or listening to a performance"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Bývalá šéfka ACLU v rozhovoru pro Voxpot varuje, že cancel culture neskončila",
+      "body": "Donald Trump nastupoval s příslibem boje proti cenzuře. Podle někdejší šéfky Amerického svazu pro občanské svobody Nadine Strossen ale rychle ukázal, že svobodu projevu zastává jen do okamžiku, než zazní kritika jeho samotného. Strossen v rozhovoru varuje také před společenským tlakem mimo stát.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/cancel-culture-neskoncila-jen-se-zmenilo-za-jaky-nazor-se-plati-rika-nadine-strossen/"
+        }
+      ],
+      "en": {
+        "headline": "A former head of the ACLU warns in an interview for Voxpot that cancel culture is not over",
+        "sentences": [
+          {
+            "en": "Donald Trump came to office promising to fight censorship.",
+            "cs": "Donald Trump nastupoval s příslibem boje proti cenzuře."
+          },
+          {
+            "en": "But according to Nadine Strossen, a former head of the American Civil Liberties Union, he quickly showed that he defends free speech only up to the moment criticism of him is voiced.",
+            "cs": "Podle někdejší šéfky Amerického svazu pro občanské svobody Nadine Strossen ale rychle ukázal, že svobodu projevu zastává jen do okamžiku, než zazní kritika jeho samotného."
+          },
+          {
+            "en": "In the interview Strossen also warns against social pressure coming from outside the state.",
+            "cs": "Strossen v rozhovoru varuje také před společenským tlakem mimo stát."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "censorship",
+            "definition": "the removing of parts of books, films or speech that an authority does not allow"
+          },
+          {
+            "term": "voiced",
+            "definition": "said out loud so that others can hear"
+          },
+          {
+            "term": "came to office",
+            "definition": "started an important official job"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "21:06",
+      "day": "prev",
+      "headline": "Fotbalová jednadvacítka porazila v Hradci Bulharsko 1:0 a zajistila si baráž o Euro",
+      "body": "Čeští fotbalisté do 21 let porazili v kvalifikaci v Hradci Králové Bulharsko 1:0 a zajistili si účast v baráži o postup na příští mistrovství Evropy. Jediný gól dal v 55. minutě útočník Lukáš Mašek. Úspěch kalí zranění záložníka Pavla Kačora, který si v závěru po soupeřově faulu vykloubil rameno.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/fotbal/901700-fotbalova-jednadvacitka-zdolala-bulharsko-a-zajistila-si-baraz-o-postup-na.html"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/cesko-bulharsko-159203"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/horka-dohra-utkani-jednadvacitky-kacor-je-s-vykloubenym-ramenem-mimo-hru-159213"
+        }
+      ],
+      "en": {
+        "headline": "The under-21 footballers beat Bulgaria 1:0 in Hradec and secured a play-off for the Euros",
+        "sentences": [
+          {
+            "en": "The Czech under-21 footballers beat Bulgaria 1:0 in a qualifier in Hradec Králové and secured a place in the play-off for a spot at next year's European Championship.",
+            "cs": "Čeští fotbalisté do 21 let porazili v kvalifikaci v Hradci Králové Bulharsko 1:0 a zajistili si účast v baráži o postup na příští mistrovství Evropy."
+          },
+          {
+            "en": "The only goal was scored in the 55th minute by the forward Lukáš Mašek.",
+            "cs": "Jediný gól dal v 55. minutě útočník Lukáš Mašek."
+          },
+          {
+            "en": "The success is overshadowed by an injury to the midfielder Pavel Kačor, who dislocated his shoulder near the end after a foul by an opponent.",
+            "cs": "Úspěch kalí zranění záložníka Pavla Kačora, který si v závěru po soupeřově faulu vykloubil rameno."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "qualifier",
+            "definition": "a match that decides who gets into a bigger competition"
+          },
+          {
+            "term": "overshadowed",
+            "definition": "made less enjoyable by something bad"
+          },
+          {
+            "term": "dislocated",
+            "definition": "moved a bone out of its normal position"
+          },
+          {
+            "term": "foul",
+            "definition": "an action in sport that breaks the rules"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:55",
+      "headline": "Karabec kvůli zranění kotníku opustil reprezentaci před zápasy ve Španělsku a v Anglii",
+      "body": "Záložník Adam Karabec se ve čtvrtek odpojil od české fotbalové reprezentace a trenér Santi Denia ho nebude mít k dispozici pro zápasy Ligy národů ve Španělsku a ve Wembley proti Anglii. Třiadvacetiletý kapitán Sparty musel kvůli zranění kotníku střídat už v úterním domácím utkání s Anglií a podle Sparty jde o vážnější zranění.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/z-reprezentace-vypadl-pred-spanelskem-zraneny-karabec-159217"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-karabec-se-odpojil-od-narodniho-tymu-5546120"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/dalsi-zraneni-v-reprezentaci-pred-zapasem-se-spanelskem-vypadl-karabec_2610011350_vsn"
+        }
+      ],
+      "en": {
+        "headline": "An ankle injury has taken Karabec out of the national team before the games in Spain and England",
+        "sentences": [
+          {
+            "en": "The midfielder Adam Karabec left the Czech national football team on Thursday, and the coach Santi Denia will not have him available for the Nations League games in Spain and at Wembley against England.",
+            "cs": "Záložník Adam Karabec se ve čtvrtek odpojil od české fotbalové reprezentace a trenér Santi Denia ho nebude mít k dispozici pro zápasy Ligy národů ve Španělsku a ve Wembley proti Anglii."
+          },
+          {
+            "en": "The 23-year-old Sparta captain had to be substituted because of an ankle injury in Tuesday's home game against England, and Sparta says the injury is more serious.",
+            "cs": "Třiadvacetiletý kapitán Sparty musel kvůli zranění kotníku střídat už v úterním domácím utkání s Anglií a podle Sparty jde o vážnější zranění."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "midfielder",
+            "definition": "a football player who plays in the middle part of the pitch"
+          },
+          {
+            "term": "substituted",
+            "definition": "replaced by another player during a game"
+          },
+          {
+            "term": "ankle",
+            "definition": "the joint between the foot and the leg"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:50",
+      "headline": "Ronaldo opustil portugalskou reprezentaci, hrozí mu pokuta i zákaz startu",
+      "body": "Cristiano Ronaldo den před zápasem Ligy národů v Dánsku opustil portugalskou reprezentaci a bez dalších podrobností oznámil, že jí přeje hodně štěstí; spekuluje se o jeho konfliktu s trenérem Jesusem. Podle webu A Bola, na který upozornil iROZHLAS, mu za opuštění reprezentačního kempu podle pravidel portugalského národního týmu hrozí pokuta i zákaz dalšího startu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/co-bude-s-ronaldem-za-opusteni-narodniho-tymu-mu-hrozi-pokuta-ale-i-zakaz_2610011650_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/ronaldo-nahle-opustil-portugalskou-reprezentaci-preji-ji-hodne-stesti-oznamil-159210"
+        }
+      ],
+      "en": {
+        "headline": "Ronaldo has left the Portuguese national team and faces a fine and a ban",
+        "sentences": [
+          {
+            "en": "Cristiano Ronaldo left the Portuguese national team the day before a Nations League game in Denmark and announced, without further detail, that he wished the team good luck; there is speculation about a conflict with the coach, Jesus.",
+            "cs": "Cristiano Ronaldo den před zápasem Ligy národů v Dánsku opustil portugalskou reprezentaci a bez dalších podrobností oznámil, že jí přeje hodně štěstí; spekuluje se o jeho konfliktu s trenérem Jesusem."
+          },
+          {
+            "en": "According to the website A Bola, cited by iROZHLAS, the rules of the Portuguese national team mean that leaving the camp exposes him to a fine and a ban from playing again.",
+            "cs": "Podle webu A Bola, na který upozornil iROZHLAS, mu za opuštění reprezentačního kempu podle pravidel portugalského národního týmu hrozí pokuta i zákaz dalšího startu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "speculation",
+            "definition": "guessing about something without knowing the facts"
+          },
+          {
+            "term": "cited",
+            "definition": "mentioned as the source of information"
+          },
+          {
+            "term": "ban",
+            "definition": "an official order saying someone may not do something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:03",
+      "headline": "Vladař dostal v úvodu sezony NHL v derby s Pittsburghem sedm gólů",
+      "body": "Brankáři Danielu Vladařovi se vstup do nové sezony NHL nevydařil — v derby s Pittsburghem inkasoval sedm branek a Philadelphia prohrála 0:7. Lépe se vedlo Martinu Nečasovi, který jednou přihrávkou přispěl k výhře Colorada nad Los Angeles 8:4; jeho spoluhráč z první lajny Nathan MacKinnon k tomu podle Sport.cz přidal dva góly a vyhranou bitku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/hruzostrasny-start-pro-philadelphii-vladar-dostal-v-derby-sedm-golu-159212"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-nejlepsi-strelec-nhl-se-promenil-v-bestii-necasova-partaka-velebi-klub-i-fanousci-5546153"
+        }
+      ],
+      "en": {
+        "headline": "Vladař let in seven goals in the derby with Pittsburgh at the start of the NHL season",
+        "sentences": [
+          {
+            "en": "The goaltender Daniel Vladař made a poor start to the new NHL season — he let in seven goals in the derby with Pittsburgh and Philadelphia lost 0:7.",
+            "cs": "Brankáři Danielu Vladařovi se vstup do nové sezony NHL nevydařil — v derby s Pittsburghem inkasoval sedm branek a Philadelphia prohrála 0:7."
+          },
+          {
+            "en": "Martin Nečas fared better, contributing an assist to Colorado's 8:4 win over Los Angeles; his first-line teammate Nathan MacKinnon added two goals and a won fight, Sport.cz reports.",
+            "cs": "Lépe se vedlo Martinu Nečasovi, který jednou přihrávkou přispěl k výhře Colorada nad Los Angeles 8:4; jeho spoluhráč z první lajny Nathan MacKinnon k tomu podle Sport.cz přidal dva góly a vyhranou bitku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "goaltender",
+            "definition": "the ice hockey player who guards the goal"
+          },
+          {
+            "term": "fared",
+            "definition": "managed or did in a particular situation"
+          },
+          {
+            "term": "assist",
+            "definition": "a pass that leads directly to a goal"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:22",
+      "headline": "Vacek vynechá kvůli zlomenému nosu mistrovství Evropy v cyklistice",
+      "body": "Mathias Vacek nebude startovat na nadcházejícím mistrovství Evropy silničních cyklistů v Lublani. Plány mu zmařilo zranění nosu, který si zlomil při nedělním pádu během silničního závodu na mistrovství světa v Montrealu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/vacek-na-mistrovstvi-evropy-startovat-nebude-ceskeho-cyklistu-nepusti-na_2610011522_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/vacek-prijde-kvuli-zlomenine-nosu-o-me-159219"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/cyklistika-rana-pro-vacka-cesky-cyklista-nebude-startovat-na-mistrovstvi-evropy-5546140"
+        }
+      ],
+      "en": {
+        "headline": "A broken nose will keep Vacek out of the European road cycling championship",
+        "sentences": [
+          {
+            "en": "Mathias Vacek will not start at the upcoming European road cycling championship in Ljubljana.",
+            "cs": "Mathias Vacek nebude startovat na nadcházejícím mistrovství Evropy silničních cyklistů v Lublani."
+          },
+          {
+            "en": "His plans were wrecked by an injury to his nose, which he broke in a crash on Sunday during the road race at the world championship in Montreal.",
+            "cs": "Plány mu zmařilo zranění nosu, který si zlomil při nedělním pádu během silničního závodu na mistrovství světa v Montrealu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wrecked",
+            "definition": "completely ruined or destroyed"
+          },
+          {
+            "term": "crash",
+            "definition": "an accident in which a rider falls, often hitting something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The police have closed their inquiry into Filip Turek's July car crash, concluding that no crime was committed, and have referred the case to misdemeanour proceedings.",
+    "The state budget deficit rose to 194.5 billion crowns at the end of September, the fourth deepest since the Czech Republic came into being.",
+    "An execution failed in the U.S. state of Tennessee, and the governor has ordered an investigation and suspended executions."
+  ]
+}
