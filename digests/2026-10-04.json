@@ -1,0 +1,1367 @@
+{
+  "date": "2026-10-04",
+  "covers": "2026-10-04",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra bude mlhavo, přes den až 19 °C a beze srážek.",
+    "days": [
+      {
+        "date": "2026-10-05",
+        "icon": "fog",
+        "temp_max_c": 19.4,
+        "temp_min_c": 6.1
+      },
+      {
+        "date": "2026-10-06",
+        "icon": "fog",
+        "temp_max_c": 21.3,
+        "temp_min_c": 5.6
+      },
+      {
+        "date": "2026-10-07",
+        "icon": "cloudy",
+        "temp_max_c": 22.6,
+        "temp_min_c": 8.3
+      },
+      {
+        "date": "2026-10-08",
+        "icon": "rain",
+        "temp_max_c": 20.1,
+        "temp_min_c": 10.7
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy, with daytime temperatures reaching 19 °C and no rain."
+  },
+  "highlights": [
+    "Německý kancléř Friedrich Merz přijel na neohlášenou návštěvu Kyjeva se zbrojní pomocí za miliardu eur, Rusko během jeho pobytu znovu zasáhlo most přes Dněpr.",
+    "Koaliční i opoziční politici kritizují prezidenta Petra Pavla za to, že kvůli soukromé cestě nepůjde k obecním volbám.",
+    "Státní zastupitelství poprvé zastavilo stíhání Čecha, který odešel bojovat do ukrajinské armády."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:36",
+      "headline": "Politici koalice i opozice kritizují Pavla za to, že kvůli cestě nepůjde k volbám",
+      "body": "Koaliční i opoziční politici se pozastavují nad tím, že se prezident Petr Pavel nezúčastní obecních voleb, které se konají příští týden, kvůli soukromé zahraniční cestě. Mluví o chybě s tím, že političtí představitelé by měli jít příkladem. Zaznělo to v Nedělní debatě České televize a v Partii Terezie Tománkové na CNN Prima News. Pavel má bydliště v Černoučku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/koalicni-i-opozicni-politici-se-pozastavuji-nad-pavlovou-neucasti-u-voleb-378224"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/prezidentova-neucast-u-voleb-vyvolava-emoce-nemame-pro-pochopeni-zazniva-z-rad_2610041436_bod"
+        }
+      ],
+      "en": {
+        "headline": "Coalition and opposition politicians criticise Pavel for skipping the elections because of a trip",
+        "sentences": [
+          {
+            "en": "Politicians from both the governing coalition and the opposition are taken aback that President Petr Pavel will not take part in next week's municipal elections because of a private trip abroad.",
+            "cs": "Koaliční i opoziční politici se pozastavují nad tím, že se prezident Petr Pavel nezúčastní obecních voleb, které se konají příští týden, kvůli soukromé zahraniční cestě."
+          },
+          {
+            "en": "They call it a mistake, saying that political leaders ought to lead by example.",
+            "cs": "Mluví o chybě s tím, že političtí představitelé by měli jít příkladem."
+          },
+          {
+            "en": "The remarks were made on Czech Television's Sunday Debate and on Terezie Tománková's Partie on CNN Prima News.",
+            "cs": "Zaznělo to v Nedělní debatě České televize a v Partii Terezie Tománkové na CNN Prima News."
+          },
+          {
+            "en": "Pavel's official residence is in Černouček.",
+            "cs": "Pavel má bydliště v Černoučku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "taken aback",
+            "definition": "surprised and a little shocked by something"
+          },
+          {
+            "term": "lead by example",
+            "definition": "to behave in the way you want other people to behave"
+          },
+          {
+            "term": "municipal",
+            "definition": "connected with the government of a town or city"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:05",
+      "headline": "Žalobce poprvé zastavil stíhání Čecha, který odešel bojovat za Ukrajinu",
+      "body": "Státní zastupitelství zastavilo trestní stíhání muže, který navzdory nesouhlasu tehdejšího prezidenta Miloše Zemana vstoupil do ukrajinské armády a bojoval proti Rusku. Kriminalisté ho vinili z nedovolené služby v cizích ozbrojených silách. Žalobce ale uvedl, že muž riskoval život bojem za správnou věc; podle Seznam Zpráv dodal, že obranu Ukrajiny lze určitým způsobem vnímat jako předsunutou obranu Česka. Informoval o tom server iRozhlas.cz, podle kterého jde o první takové rozhodnutí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zalobce-zastavil-stihani-muze-ktery-vstoupil-do-ukrajinske-armady-pise-irozhlas-378231"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zalobce-zastavil-stihani-muze-ktery-vstoupil-do-ukrajinske-armady-316749"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204401/"
+        }
+      ],
+      "en": {
+        "headline": "Prosecutors drop the case against a Czech man who went to fight for Ukraine, the first such decision",
+        "sentences": [
+          {
+            "en": "The public prosecutor's office has dropped the criminal case against a man who joined the Ukrainian army and fought against Russia despite the objections of then-president Miloš Zeman.",
+            "cs": "Státní zastupitelství zastavilo trestní stíhání muže, který navzdory nesouhlasu tehdejšího prezidenta Miloše Zemana vstoupil do ukrajinské armády a bojoval proti Rusku."
+          },
+          {
+            "en": "Detectives had accused him of unlawful service in foreign armed forces.",
+            "cs": "Kriminalisté ho vinili z nedovolené služby v cizích ozbrojených silách."
+          },
+          {
+            "en": "The prosecutor said, however, that the man had risked his life fighting for the right cause; according to Seznam Zprávy, he added that the defence of Ukraine can in a sense be seen as a forward defence of Czechia.",
+            "cs": "Žalobce ale uvedl, že muž riskoval život bojem za správnou věc; podle Seznam Zpráv dodal, že obranu Ukrajiny lze určitým způsobem vnímat jako předsunutou obranu Česka."
+          },
+          {
+            "en": "The story was reported by the iRozhlas.cz website, which says it is the first decision of its kind.",
+            "cs": "Informoval o tom server iRozhlas.cz, podle kterého jde o první takové rozhodnutí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drop",
+            "definition": "to stop dealing with a legal case"
+          },
+          {
+            "term": "unlawful",
+            "definition": "not allowed by law"
+          },
+          {
+            "term": "cause",
+            "definition": "an aim or idea that people support and work for"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:04",
+      "headline": "Ministerstvo zemědělství zrušilo dotaci firmě z holdingu Agrofert",
+      "body": "Ministerstvo zemědělství zrušilo dohodu o poskytnutí dotace společnosti Výkrm Tagrea, která spadá do holdingu Agrofert. Správní orgány dospěly k závěru, že Andrej Babiš v době svého prvního premiérského působení v letech 2017 až 2021 holding nepřímo ovládal prostřednictvím svěřenských fondů, a odkázaly se přitom na rozhodnutí Nejvyššího správního soudu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204308/"
+        }
+      ],
+      "en": {
+        "headline": "The Agriculture Ministry has cancelled a subsidy for a company from the Agrofert holding",
+        "sentences": [
+          {
+            "en": "The Ministry of Agriculture has cancelled the agreement granting a subsidy to Výkrm Tagrea, a company belonging to the Agrofert holding.",
+            "cs": "Ministerstvo zemědělství zrušilo dohodu o poskytnutí dotace společnosti Výkrm Tagrea, která spadá do holdingu Agrofert."
+          },
+          {
+            "en": "Administrative bodies concluded that during his first term as prime minister between 2017 and 2021, Andrej Babiš indirectly controlled the holding through trust funds, and they referred to a ruling by the Supreme Administrative Court.",
+            "cs": "Správní orgány dospěly k závěru, že Andrej Babiš v době svého prvního premiérského působení v letech 2017 až 2021 holding nepřímo ovládal prostřednictvím svěřenských fondů, a odkázaly se přitom na rozhodnutí Nejvyššího správního soudu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subsidy",
+            "definition": "money given by a government to help a business or lower a price"
+          },
+          {
+            "term": "holding",
+            "definition": "a company that owns and controls other companies"
+          },
+          {
+            "term": "trust funds",
+            "definition": "money or property held and managed by someone for another person"
+          },
+          {
+            "term": "ruling",
+            "definition": "an official decision made by a court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "06:00",
+      "headline": "Vojtěchův návrh na umělé oplodnění žen bez partnera nemá podporu v koalici",
+      "body": "Ministr zdravotnictví Adam Vojtěch (za ANO) chce v říjnu předložit vládě návrh, aby umělé oplodnění mohly podstoupit i ženy bez partnera. Podporu v koalici pro něj ale nemá. Ministr práce a sociálních věcí Aleš Juchelka (ANO) by asistovanou reprodukci umožnil jen manželům.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/na-umelem-oplodneni-zen-bez-partnera-se-koalice-neshodne-378205"
+        }
+      ],
+      "en": {
+        "headline": "Vojtěch's proposal on fertility treatment for single women has no support in the coalition",
+        "sentences": [
+          {
+            "en": "Health Minister Adam Vojtěch (for ANO) wants to put a proposal to the government in October allowing women without a partner to undergo fertility treatment.",
+            "cs": "Ministr zdravotnictví Adam Vojtěch (za ANO) chce v říjnu předložit vládě návrh, aby umělé oplodnění mohly podstoupit i ženy bez partnera."
+          },
+          {
+            "en": "He does not, however, have the coalition's backing for it.",
+            "cs": "Podporu v koalici pro něj ale nemá."
+          },
+          {
+            "en": "Labour and Social Affairs Minister Aleš Juchelka (ANO) would allow assisted reproduction only for married couples.",
+            "cs": "Ministr práce a sociálních věcí Aleš Juchelka (ANO) by asistovanou reprodukci umožnil jen manželům."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fertility treatment",
+            "definition": "medical help given to a woman so that she can have a baby"
+          },
+          {
+            "term": "undergo",
+            "definition": "to have something done to you, often medical"
+          },
+          {
+            "term": "backing",
+            "definition": "support or help, often official"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:52",
+      "headline": "Oprava dálnice D11 u Chlumce nad Cidlinou skončila, omezení zmizela",
+      "body": "Silničáři v neděli odpoledne otevřeli po měsíc trvající opravě sedm kilometrů dálnice D11 u Chlumce nad Cidlinou na Hradecku. Mezi 55. a 62. kilometrem vyměnili vozovku v obou pruzích ve směrech do Prahy i do Hradce Králové, náklady byly 125 milionů korun bez DPH. Řekla to regionální mluvčí Ředitelství silnic a dálnic Petra Drkulová.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/otevreni-dalnice-d11-opravy-konec-omezeni.A261004_164652_hradec-zpravy_zdo#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Work on the D11 motorway near Chlumec nad Cidlinou is over and the restrictions are gone",
+        "sentences": [
+          {
+            "en": "On Sunday afternoon road crews reopened seven kilometres of the D11 motorway near Chlumec nad Cidlinou in the Hradec Králové area after a month of repairs.",
+            "cs": "Silničáři v neděli odpoledne otevřeli po měsíc trvající opravě sedm kilometrů dálnice D11 u Chlumce nad Cidlinou na Hradecku."
+          },
+          {
+            "en": "Between kilometres 55 and 62 they replaced the road surface in both lanes in the directions of Prague and Hradec Králové, at a cost of 125 million crowns before VAT.",
+            "cs": "Mezi 55. a 62. kilometrem vyměnili vozovku v obou pruzích ve směrech do Prahy i do Hradce Králové, náklady byly 125 milionů korun bez DPH."
+          },
+          {
+            "en": "This was stated by Petra Drkulová, the regional spokesperson for the Road and Motorway Directorate.",
+            "cs": "Řekla to regionální mluvčí Ředitelství silnic a dálnic Petra Drkulová."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "road crews",
+            "definition": "groups of workers who build or repair roads"
+          },
+          {
+            "term": "lanes",
+            "definition": "the separate strips a wide road is divided into"
+          },
+          {
+            "term": "spokesperson",
+            "definition": "a person who speaks officially for an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:00",
+      "headline": "Hradečtí archeologové se zapojili do evropského výzkumu nástrojů z doby bronzové",
+      "body": "Filozofická fakulta Univerzity Hradec Králové se zapojila do prestižního evropského výzkumu. Tamní archeologové budou zkoumat kamenné nástroje z doby bronzové a hledat v nich stopy po fungování prvních evropských státních společností.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/vzdelani/901965-hradecti-archeologove-budou-zkoumat-nastroje-stare-tisice-let.html"
+        }
+      ],
+      "en": {
+        "headline": "Archaeologists from Hradec Králové have joined a European study of Bronze Age tools",
+        "sentences": [
+          {
+            "en": "The Faculty of Arts at the University of Hradec Králové has joined a prestigious European research project.",
+            "cs": "Filozofická fakulta Univerzity Hradec Králové se zapojila do prestižního evropského výzkumu."
+          },
+          {
+            "en": "Its archaeologists will examine stone tools from the Bronze Age and look in them for traces of how the first European state societies worked.",
+            "cs": "Tamní archeologové budou zkoumat kamenné nástroje z doby bronzové a hledat v nich stopy po fungování prvních evropských státních společností."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prestigious",
+            "definition": "respected and admired by many people"
+          },
+          {
+            "term": "traces",
+            "definition": "small signs that something existed or happened"
+          },
+          {
+            "term": "Bronze Age",
+            "definition": "the long period in history when people made tools out of bronze"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:35",
+      "day": "prev",
+      "headline": "Africké safari ve Dvoře Králové má za sebou poslední letošní jízdy",
+      "body": "Africkým safari Josefa Vágnera ve Dvoře Králové se v neděli jezdilo letos naposledy. Vyjížďky mezi africkými zvířaty teď vystřídá zimní režim a vrátí se až na jaře 2027.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/901961-safari-ve-dvore-kralove-letos-konci-posledni-jizdy-probehnou-zitra.html"
+        }
+      ],
+      "en": {
+        "headline": "The African safari in Dvůr Králové has had its last rides of the year",
+        "sentences": [
+          {
+            "en": "Josef Vágner's African Safari in Dvůr Králové ran its last rides of the year on Sunday.",
+            "cs": "Africkým safari Josefa Vágnera ve Dvoře Králové se v neděli jezdilo letos naposledy."
+          },
+          {
+            "en": "The drives among African animals will now give way to the winter schedule and will return only in the spring of 2027.",
+            "cs": "Vyjížďky mezi africkými zvířaty teď vystřídá zimní režim a vrátí se až na jaře 2027."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "give way to",
+            "definition": "to be replaced by something else"
+          },
+          {
+            "term": "drives",
+            "definition": "trips made in a vehicle, usually for pleasure"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:11",
+      "headline": "Merz přijel do Kyjeva se zbrojní pomocí za miliardu eur, Rusko během návštěvy znovu udeřilo",
+      "body": "Německý kancléř Friedrich Merz dorazil v neděli na neohlášenou návštěvu Kyjeva a oznámil, že Berlín poskytne Ukrajině zbrojní balíček v hodnotě jedné miliardy eur a energetickou pomoc za 350 milionů eur. Sešel se s prezidentem Volodymyrem Zelenským a vyzval Rusko k mírovým jednáním. „Pokud Rusko nebude zastaveno, jeho válečný stroj se dříve či později obrátí proti nám,“ řekl podle E15. Ruská armáda během jeho pobytu znovu zasáhla Severní most přes Dněpr; podle starosty Vitalije Klyčka útok zranil dva lidi a poškodil také teplovodní potrubí v Desňanském obvodu, což přerušilo dodávky teplé vody. Merz přicestoval den poté, co Moskva vyzvala diplomaty a cizince k opuštění města s tím, že se na něj chystá masivně útočit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecky-kancler-merz-prijel-do-kyjeva-378220"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-rusko-behem-navstevy-merze-v-kyjeve-znovu-zautocilo-na-dulezity-most-pres_2610041211_bod"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nemecky-kancler-merz-pricestoval-na-neohlasenou-navstevu-kyjeva-316738"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/nemecko-posle-ukrajine-zbrojni-pomoc-za-25-miliard-rekl-kancler-na-neohlasene-navsteve-kyjeva-1436251"
+        }
+      ],
+      "en": {
+        "headline": "Merz arrived in Kyiv with one billion euros in military aid, and Russia struck again during the visit",
+        "sentences": [
+          {
+            "en": "German Chancellor Friedrich Merz arrived in Kyiv on an unannounced visit on Sunday and announced that Berlin would provide Ukraine with a weapons package worth one billion euros and energy aid worth 350 million euros.",
+            "cs": "Německý kancléř Friedrich Merz dorazil v neděli na neohlášenou návštěvu Kyjeva a oznámil, že Berlín poskytne Ukrajině zbrojní balíček v hodnotě jedné miliardy eur a energetickou pomoc za 350 milionů eur."
+          },
+          {
+            "en": "He met President Volodymyr Zelenskyy and called on Russia to hold peace talks.",
+            "cs": "Sešel se s prezidentem Volodymyrem Zelenským a vyzval Rusko k mírovým jednáním."
+          },
+          {
+            "en": "“If Russia is not stopped, sooner or later its war machine will turn against us,” he said, according to E15.",
+            "cs": "„Pokud Rusko nebude zastaveno, jeho válečný stroj se dříve či později obrátí proti nám,“ řekl podle E15."
+          },
+          {
+            "en": "During his stay the Russian army again hit the Northern Bridge over the Dnipro; according to Mayor Vitalij Klyčko the strike injured two people and also damaged a hot-water pipeline in the Desnianskyi district, cutting off hot water supplies.",
+            "cs": "Ruská armáda během jeho pobytu znovu zasáhla Severní most přes Dněpr; podle starosty Vitalije Klyčka útok zranil dva lidi a poškodil také teplovodní potrubí v Desňanském obvodu, což přerušilo dodávky teplé vody."
+          },
+          {
+            "en": "Merz travelled there a day after Moscow urged diplomats and foreigners to leave the city, saying it was preparing a massive attack on it.",
+            "cs": "Merz přicestoval den poté, co Moskva vyzvala diplomaty a cizince k opuštění města s tím, že se na něj chystá masivně útočit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unannounced",
+            "definition": "happening without being said in advance"
+          },
+          {
+            "term": "called on",
+            "definition": "publicly asked someone to do something"
+          },
+          {
+            "term": "strike",
+            "definition": "a military attack on a target"
+          },
+          {
+            "term": "urged",
+            "definition": "strongly advised someone to do something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:41",
+      "headline": "Zelenskyj říká, že Spojené státy chtějí do konce října třístranné jednání s Ukrajinou a Ruskem",
+      "body": "Spojené státy chtějí do konce října uspořádat na technické úrovni třístranné jednání s Ukrajinou a Ruskem o možnostech ukončení války, prohlásil podle agentury AFP ukrajinský prezident Volodymyr Zelenskyj. Příležitostí k jednání na nejvyšší úrovni by podle něj mohl být prosincový summit G20 v Miami na Floridě, kam je pozván i ruský prezident Vladimir Putin.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-usa-chteji-koncem-rijna-tristranne-jednani-s-ukrajinou-a-ruskem-316754"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204405/"
+        }
+      ],
+      "en": {
+        "headline": "Zelenskyy says the United States wants three-way talks with Ukraine and Russia by the end of October",
+        "sentences": [
+          {
+            "en": "The United States wants to hold technical-level three-way talks with Ukraine and Russia on ways to end the war before the end of October, Ukrainian President Volodymyr Zelenskyy said according to the AFP news agency.",
+            "cs": "Spojené státy chtějí do konce října uspořádat na technické úrovni třístranné jednání s Ukrajinou a Ruskem o možnostech ukončení války, prohlásil podle agentury AFP ukrajinský prezident Volodymyr Zelenskyj."
+          },
+          {
+            "en": "He said an opportunity for talks at the highest level could be December's G20 summit in Miami, Florida, to which Russian President Vladimir Putin has also been invited.",
+            "cs": "Příležitostí k jednání na nejvyšší úrovni by podle něj mohl být prosincový summit G20 v Miami na Floridě, kam je pozván i ruský prezident Vladimir Putin."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "three-way",
+            "definition": "involving three people, groups or countries"
+          },
+          {
+            "term": "summit",
+            "definition": "an important meeting between leaders of countries"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:09",
+      "headline": "Na Ukrajině podle OSN přibývá týdně v průměru 400 civilních obětí ruských útoků",
+      "body": "Za prvních osm měsíců letošního roku na Ukrajině v důsledku ruských útoků utrpělo zranění nebo zemřelo průměrně 400 civilistů týdně, zjistil Úřad vysokého komisaře OSN pro lidská práva. Jde o pětapadesátiprocentní nárůst oproti stejnému období před rokem. Úřad letos dokumentuje celkem 15 280 civilistů zasažených ruskými útoky.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204193/"
+        }
+      ],
+      "en": {
+        "headline": "An average of 400 civilians a week are killed or wounded by Russian attacks in Ukraine, the UN says",
+        "sentences": [
+          {
+            "en": "In the first eight months of this year an average of 400 civilians a week were wounded or killed in Ukraine as a result of Russian attacks, the Office of the UN High Commissioner for Human Rights has found.",
+            "cs": "Za prvních osm měsíců letošního roku na Ukrajině v důsledku ruských útoků utrpělo zranění nebo zemřelo průměrně 400 civilistů týdně, zjistil Úřad vysokého komisaře OSN pro lidská práva."
+          },
+          {
+            "en": "That is a 55 percent increase compared with the same period a year earlier.",
+            "cs": "Jde o pětapadesátiprocentní nárůst oproti stejnému období před rokem."
+          },
+          {
+            "en": "This year the office has documented a total of 15,280 civilians hit by Russian attacks.",
+            "cs": "Úřad letos dokumentuje celkem 15 280 civilistů zasažených ruskými útoky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "civilians",
+            "definition": "people who are not members of the armed forces"
+          },
+          {
+            "term": "High Commissioner",
+            "definition": "a senior official who leads an international office"
+          },
+          {
+            "term": "documented",
+            "definition": "recorded something officially, with evidence"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:36",
+      "headline": "Ve Francii zůstane v pondělí kvůli studentským protestům zavřených až 500 škol",
+      "body": "Kvůli bouřlivým studentským protestům bude v pondělí částečně či zcela zrušena výuka na 400 až 500 středních škol ve Francii, oznámil podle agentury AFP ministr školství Édouard Geffray. Od vypuknutí demonstrací bylo podle něj vypáleno či vypleněno celkem 24 školních zařízení. Blokády a pochody kvůli podfinancovanému školství zasáhly asi čtvrtinu škol; většina akcí je pokojná, místy ale propuklo násilí, například v Nantes a Lyonu hořely školy a barikády. Vláda z eskalace viní krajní levici.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/sirily-se-po-cele-francii-po-hrubych-studentskych-protestech-zustane-v-pondeli_2610041636_brz"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2204349/spolecny-zpev-i-zapalene-skoly-studentsky-hnev-ovladl-francouzske-ulice/"
+        }
+      ],
+      "en": {
+        "headline": "Up to 500 schools in France will stay closed on Monday because of student protests",
+        "sentences": [
+          {
+            "en": "Because of turbulent student protests, lessons will be cancelled in part or in full at 400 to 500 secondary schools in France on Monday, Education Minister Édouard Geffray announced according to the AFP news agency.",
+            "cs": "Kvůli bouřlivým studentským protestům bude v pondělí částečně či zcela zrušena výuka na 400 až 500 středních škol ve Francii, oznámil podle agentury AFP ministr školství Édouard Geffray."
+          },
+          {
+            "en": "Since the demonstrations broke out, he said, a total of 24 school buildings have been burned down or ransacked.",
+            "cs": "Od vypuknutí demonstrací bylo podle něj vypáleno či vypleněno celkem 24 školních zařízení."
+          },
+          {
+            "en": "Blockades and marches over underfunded education have affected about a quarter of schools; most of the events are peaceful, but violence has flared up in places, with schools and barricades burning in Nantes and Lyon, for example.",
+            "cs": "Blokády a pochody kvůli podfinancovanému školství zasáhly asi čtvrtinu škol; většina akcí je pokojná, místy ale propuklo násilí, například v Nantes a Lyonu hořely školy a barikády."
+          },
+          {
+            "en": "The government blames the far left for the escalation.",
+            "cs": "Vláda z eskalace viní krajní levici."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turbulent",
+            "definition": "full of sudden change, trouble or violence"
+          },
+          {
+            "term": "broke out",
+            "definition": "started suddenly, usually something unpleasant"
+          },
+          {
+            "term": "ransacked",
+            "definition": "searched and damaged a place, often stealing things"
+          },
+          {
+            "term": "underfunded",
+            "definition": "not given enough money to work properly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:15",
+      "headline": "V Brazílii začaly prezidentské volby, favority jsou Lula a Flávio Bolsonaro",
+      "body": "V Brazílii v neděli začaly volby prezidenta, který největší latinskoamerickou zemi povede příští čtyři roky; voliči zároveň rozhodují o složení parlamentu. Šanci na vítězství mají mezi více než desítkou kandidátů současný levicový prezident Luiz Inácio Lula da Silva a jeho ideologický protějšek, pravicový senátor Flávio Bolsonaro, syn odsouzeného exprezidenta. K urnám může jít na 160 milionů voličů. Deník N píše, že vysoce polarizované brazilské volby v posledních letech v mnohém připomínají ty americké.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-brazilii-zacaly-volby-prezidenta-volici-rozhoduji-mezi-levicovym-lulou-a-pravicovym-bolsonarem-378229"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/zda-brazilii-povede-lula-nebo-bolsonar-rozhoduji-lide-uz-ted-v-zemi-zacaly_2610041603_brz"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2204019/spatna-nebo-spatna-volba-vyhrocene-brazilske-volby-jeste-priostril-skandal/"
+        }
+      ],
+      "en": {
+        "headline": "Brazil's presidential election has begun, with Lula and Flávio Bolsonaro the favourites",
+        "sentences": [
+          {
+            "en": "Voting began in Brazil on Sunday to elect the president who will lead the largest Latin American country for the next four years; voters are also choosing the make-up of parliament.",
+            "cs": "V Brazílii v neděli začaly volby prezidenta, který největší latinskoamerickou zemi povede příští čtyři roky; voliči zároveň rozhodují o složení parlamentu."
+          },
+          {
+            "en": "Among more than ten candidates, the ones with a chance of winning are the current left-wing president Luiz Inácio Lula da Silva and his ideological opposite, the right-wing senator Flávio Bolsonaro, son of the convicted former president.",
+            "cs": "Šanci na vítězství mají mezi více než desítkou kandidátů současný levicový prezident Luiz Inácio Lula da Silva a jeho ideologický protějšek, pravicový senátor Flávio Bolsonaro, syn odsouzeného exprezidenta."
+          },
+          {
+            "en": "Around 160 million voters are eligible to take part.",
+            "cs": "K urnám může jít na 160 milionů voličů."
+          },
+          {
+            "en": "Deník N writes that Brazil's highly polarised elections have in recent years come to resemble American ones in many ways.",
+            "cs": "Deník N píše, že vysoce polarizované brazilské volby v posledních letech v mnohém připomínají ty americké."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "make-up",
+            "definition": "the way the different parts of something are put together"
+          },
+          {
+            "term": "convicted",
+            "definition": "found guilty of a crime by a court"
+          },
+          {
+            "term": "eligible",
+            "definition": "allowed to do something by the rules"
+          },
+          {
+            "term": "polarised",
+            "definition": "divided into two groups with opposite opinions"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "03:38",
+      "headline": "Lotyšské volby vyhrála Sjednocená kandidátka premiéra Kulbergse",
+      "body": "Podle téměř konečných výsledků je vítězem lotyšských parlamentních voleb středopravicová Sjednocená kandidátka premiéra Andrise Kulbergse s 35,3 procenta hlasů, píše web veřejnoprávní stanice LSM. Na druhé pozici skončilo s 13,1 procenta populistické uskupení Lotyšsko na prvním místě, třetí je s 11,7 procenta strana Suverénní moc.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-lotysskych-parlamentnich-volbach-vede-premierova-sjednocena-kandidatka-378219"
+        }
+      ],
+      "en": {
+        "headline": "Prime Minister Kulbergs's United List has won the Latvian election",
+        "sentences": [
+          {
+            "en": "According to almost final results, the winner of the Latvian parliamentary election is the centre-right United List of Prime Minister Andris Kulbergs with 35.3 percent of the vote, the website of the public broadcaster LSM writes.",
+            "cs": "Podle téměř konečných výsledků je vítězem lotyšských parlamentních voleb středopravicová Sjednocená kandidátka premiéra Andrise Kulbergse s 35,3 procenta hlasů, píše web veřejnoprávní stanice LSM."
+          },
+          {
+            "en": "Second with 13.1 percent came the populist grouping Latvia First, and third with 11.7 percent is the Sovereign Power party.",
+            "cs": "Na druhé pozici skončilo s 13,1 procenta populistické uskupení Lotyšsko na prvním místě, třetí je s 11,7 procenta strana Suverénní moc."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "centre-right",
+            "definition": "slightly to the right in politics, but not extreme"
+          },
+          {
+            "term": "broadcaster",
+            "definition": "a company that makes radio or television programmes"
+          },
+          {
+            "term": "grouping",
+            "definition": "a set of people or parties joined together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "19:33",
+      "day": "prev",
+      "headline": "Volkswagen svolá čtyři miliony aut, v Česku se to dotkne dvou set tisíc vozů",
+      "body": "Koncern Volkswagen svolá po celém světě k nutné výměně jediné součástky zhruba čtyři miliony aut. V Česku bude muset na svolávací akci asi dvě stě tisíc vozidel, většinou z produkce Škody Auto; E15 odhaduje, že škodovek bude kolem 150 tisíc. Důvodem jsou podle E15 možné problémy s řízením. Informovala o tom Česká televize na základě vyjádření automobilky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/volkswagen-svola-miliony-aut-v-cesku-se-akce-dotkne-dvou-set-tisic-vozu-378212"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/ostuda-koncernu-volkswagen-statisice-vozu-musi-na-kontrolu-i-v-cesku-1436250"
+        }
+      ],
+      "en": {
+        "headline": "Volkswagen is recalling four million cars, and two hundred thousand of them are in Czechia",
+        "sentences": [
+          {
+            "en": "The Volkswagen group will recall roughly four million cars worldwide to have a single part replaced.",
+            "cs": "Koncern Volkswagen svolá po celém světě k nutné výměně jediné součástky zhruba čtyři miliony aut."
+          },
+          {
+            "en": "In Czechia some two hundred thousand vehicles will have to go in for the recall, most of them made by Škoda Auto; E15 estimates that around 150,000 will be Škodas.",
+            "cs": "V Česku bude muset na svolávací akci asi dvě stě tisíc vozidel, většinou z produkce Škody Auto; E15 odhaduje, že škodovek bude kolem 150 tisíc."
+          },
+          {
+            "en": "The reason, according to E15, is possible problems with the steering.",
+            "cs": "Důvodem jsou podle E15 možné problémy s řízením."
+          },
+          {
+            "en": "Czech Television reported the story on the basis of a statement from the carmaker.",
+            "cs": "Informovala o tom Česká televize na základě vyjádření automobilky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "recall",
+            "definition": "an order from a company for customers to bring back a faulty product"
+          },
+          {
+            "term": "steering",
+            "definition": "the parts of a car that make it turn left or right"
+          },
+          {
+            "term": "carmaker",
+            "definition": "a company that produces cars"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:06",
+      "headline": "OPEC+ ponechá v listopadu těžební limity beze změny",
+      "body": "Skupina OPEC+ se v neděli dohodla, že v listopadu ponechá své těžební limity beze změny. Skupinu tvoří Organizace zemí vyvážejících ropu a její spojenci v čele s Ruskem.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204408/"
+        }
+      ],
+      "en": {
+        "headline": "OPEC+ will leave its production limits unchanged in November",
+        "sentences": [
+          {
+            "en": "The OPEC+ group agreed on Sunday to leave its production limits unchanged in November.",
+            "cs": "Skupina OPEC+ se v neděli dohodla, že v listopadu ponechá své těžební limity beze změny."
+          },
+          {
+            "en": "The group is made up of the Organization of the Petroleum Exporting Countries and its allies, led by Russia.",
+            "cs": "Skupinu tvoří Organizace zemí vyvážejících ropu a její spojenci v čele s Ruskem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "production limits",
+            "definition": "rules on how much of something may be produced"
+          },
+          {
+            "term": "allies",
+            "definition": "countries that work together and support each other"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:05",
+      "headline": "Česko se brání snaze Bruselu seškrtat dotace velkým zemědělským podnikům",
+      "body": "Evropa se pře o to, kolik peněz posílat velkým farmám. Brusel chce jejich podporu s rostoucí velikostí postupně seškrtat, Česko se ale brání, píší Seznam Zprávy.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-trendy-analyzy-spor-o-dotace-vrcholi-cesko-haji-velke-zemedelske-podniky-316528"
+        }
+      ],
+      "en": {
+        "headline": "Czechia is resisting Brussels's push to cut subsidies for large farming businesses",
+        "sentences": [
+          {
+            "en": "Europe is arguing about how much money to send to large farms.",
+            "cs": "Evropa se pře o to, kolik peněz posílat velkým farmám."
+          },
+          {
+            "en": "Brussels wants to taper their support gradually as they get bigger, but Czechia is pushing back, Seznam Zprávy writes.",
+            "cs": "Brusel chce jejich podporu s rostoucí velikostí postupně seškrtat, Česko se ale brání, píší Seznam Zprávy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "taper",
+            "definition": "to reduce something gradually"
+          },
+          {
+            "term": "pushing back",
+            "definition": "resisting or disagreeing with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:44",
+      "headline": "Trump zřídil Jednotku pro super inteligenci, povede ji šéf tajných služeb Clayton",
+      "body": "Americký prezident Donald Trump ohlásil na své sociální síti Truth Social vytvoření Jednotky pro super inteligenci (SIF) pod vedením šéfa amerických tajných služeb Jaye Claytona. Super inteligencí Trump označuje umělou inteligenci. Stanice CNN už v pátek informovala, že si Trump Claytona vybral jako zmocněnce pro AI.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-vytvoril-skupinu-pro-ai-povede-ji-sef-tajnych-sluzeb-clayton-378230"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204425/"
+        }
+      ],
+      "en": {
+        "headline": "Trump has set up a Superintelligence Force to be led by intelligence chief Clayton",
+        "sentences": [
+          {
+            "en": "US President Donald Trump announced on his social network Truth Social the creation of a Superintelligence Force (SIF) led by the head of the American intelligence services, Jay Clayton.",
+            "cs": "Americký prezident Donald Trump ohlásil na své sociální síti Truth Social vytvoření Jednotky pro super inteligenci (SIF) pod vedením šéfa amerických tajných služeb Jaye Claytona."
+          },
+          {
+            "en": "By superintelligence Trump means artificial intelligence.",
+            "cs": "Super inteligencí Trump označuje umělou inteligenci."
+          },
+          {
+            "en": "CNN had already reported on Friday that Trump had picked Clayton as his AI envoy.",
+            "cs": "Stanice CNN už v pátek informovala, že si Trump Claytona vybral jako zmocněnce pro AI."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "intelligence services",
+            "definition": "government organisations that collect secret information"
+          },
+          {
+            "term": "envoy",
+            "definition": "a person sent to represent a government on a particular issue"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "19:44",
+      "day": "prev",
+      "headline": "LeCun říká, že z vyhlazení lidstva umělou inteligencí nemá žádné obavy",
+      "body": "Yann LeCun má podle článku serveru Fortune „nulové obavy“ z toho, že by umělá inteligence vyhladila lidstvo, a stejně tak z nedávných případů, kdy se modely vymkly kontrole. Text patřil o víkendu k nejdiskutovanějším na Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+        }
+      ],
+      "en": {
+        "headline": "LeCun says he has no concerns about AI wiping out humanity",
+        "sentences": [
+          {
+            "en": "Yann LeCun has “zero concerns” that artificial intelligence would wipe out humanity, and none either about recent cases in which models went out of control, according to an article on the Fortune website.",
+            "cs": "Yann LeCun má podle článku serveru Fortune „nulové obavy“ z toho, že by umělá inteligence vyhladila lidstvo, a stejně tak z nedávných případů, kdy se modely vymkly kontrole."
+          },
+          {
+            "en": "The piece was among the most discussed on Hacker News over the weekend.",
+            "cs": "Text patřil o víkendu k nejdiskutovanějším na Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wipe out",
+            "definition": "to destroy something completely"
+          },
+          {
+            "term": "went out of control",
+            "definition": "stopped behaving in the way they were supposed to"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "02:20",
+      "headline": "Simon Willison volá po tvrdých stropech útraty ve výchozím nastavení",
+      "body": "Vývojář Simon Willison na svém blogu píše, že tvrdé stropy útraty by měly být ve výchozím nastavení prakticky u všeho. Jeho text se stal nejvýše hodnoceným příspěvkem víkendu na Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+        }
+      ],
+      "en": {
+        "headline": "Simon Willison calls for hard spending caps to be the default",
+        "sentences": [
+          {
+            "en": "The developer Simon Willison writes on his blog that hard spending caps should be the default on pretty much everything.",
+            "cs": "Vývojář Simon Willison na svém blogu píše, že tvrdé stropy útraty by měly být ve výchozím nastavení prakticky u všeho."
+          },
+          {
+            "en": "His piece became the highest-rated post of the weekend on Hacker News.",
+            "cs": "Jeho text se stal nejvýše hodnoceným příspěvkem víkendu na Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "caps",
+            "definition": "upper limits on an amount of money"
+          },
+          {
+            "term": "default",
+            "definition": "the setting that is used unless you change it"
+          },
+          {
+            "term": "pretty much",
+            "definition": "almost completely"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:05",
+      "headline": "Ceny Thálie si rozdělili Majer, Kožená i brněnští umělci",
+      "body": "V Národním divadle se v sobotu předávaly divadelní ceny Thálie za jevištní výkony v činohře, opeře, baletu, tanci a pohybovém divadle i v muzikálu a operetě. Mezi oceněnými jsou podle České televize Majer a Kožená, čestné ceny dostali herci z Ypsilonky. Podle iROZHLAS zamířila do Brna hned čtyři ocenění a ceny za celoživotní mistrovství dostali Petr Nárožný a herečka Zdena Herfortová.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/kultura/divadlo/ctyri-thalie-miri-k-umelcum-do-brna-cenu-za-celozivotni-mistrovstvi-ziskal-petr_2610041305_bva"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/thalie-rozdava-ceny-vyrocni-majerovi-ci-kozene-cestne-hercum-z-ypsilonky-378215"
+        }
+      ],
+      "en": {
+        "headline": "Majer, Kožená and artists from Brno shared out the Thálie awards",
+        "sentences": [
+          {
+            "en": "The Thálie theatre awards for stage performances in drama, opera, ballet, dance and physical theatre, and in musicals and operetta, were handed out at the National Theatre on Saturday.",
+            "cs": "V Národním divadle se v sobotu předávaly divadelní ceny Thálie za jevištní výkony v činohře, opeře, baletu, tanci a pohybovém divadle i v muzikálu a operetě."
+          },
+          {
+            "en": "According to Czech Television, Majer and Kožená are among the winners, and honorary awards went to actors from the Ypsilonka theatre.",
+            "cs": "Mezi oceněnými jsou podle České televize Majer a Kožená, čestné ceny dostali herci z Ypsilonky."
+          },
+          {
+            "en": "According to iROZHLAS, four awards went to Brno, and the prizes for lifetime mastery were given to Petr Nárožný and the actress Zdena Herfortová.",
+            "cs": "Podle iROZHLAS zamířila do Brna hned čtyři ocenění a ceny za celoživotní mistrovství dostali Petr Nárožný a herečka Zdena Herfortová."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "handed out",
+            "definition": "given to people, one after another"
+          },
+          {
+            "term": "honorary",
+            "definition": "given as an honour, without the usual requirements"
+          },
+          {
+            "term": "lifetime mastery",
+            "definition": "great skill shown over a whole career"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:12",
+      "headline": "Praha si připomíná nedožité devadesátiny Václava Havla",
+      "body": "Nedožité 90. narozeniny Václava Havla připomenou kulturní akce, debaty i slavnostní odhalení pamětní desky v Senátu a na domě v pražských Dejvicích, kde Havel žil v 70. letech. Vzpomínkové akce se konají po celé republice už od víkendu, většina z nich připadne na pondělí 5. října, tedy na den narození prvního polistopadového prezidenta.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/praha-oslavuje-havla-vyroci-prezidentova-narozeni-ucti-senat-divadla-i-umeni-ve_2610041412_mkm"
+        }
+      ],
+      "en": {
+        "headline": "Prague is marking what would have been Václav Havel's ninetieth birthday",
+        "sentences": [
+          {
+            "en": "Václav Havel's ninetieth birthday will be marked by cultural events, debates and the ceremonial unveiling of a plaque in the Senate and on the house in Prague's Dejvice district where Havel lived in the 1970s.",
+            "cs": "Nedožité 90. narozeniny Václava Havla připomenou kulturní akce, debaty i slavnostní odhalení pamětní desky v Senátu a na domě v pražských Dejvicích, kde Havel žil v 70. letech."
+          },
+          {
+            "en": "Commemorative events have been taking place across the country since the weekend, and most of them fall on Monday 5 October, the birthday of the first post-communist president.",
+            "cs": "Vzpomínkové akce se konají po celé republice už od víkendu, většina z nich připadne na pondělí 5. října, tedy na den narození prvního polistopadového prezidenta."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unveiling",
+            "definition": "the act of showing something new to the public for the first time"
+          },
+          {
+            "term": "plaque",
+            "definition": "a flat piece of metal or stone on a wall with writing on it"
+          },
+          {
+            "term": "commemorative",
+            "definition": "done in order to remember a person or an event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "15:30",
+      "headline": "Padělatel přezdívaný akademik zaplavil trh stovkami falešných Lhotáků",
+      "body": "Padělatel přezdívaný „akademik“ vytvořil několik set falešných kreseb Kamila Lhotáka a vydělal miliony. Policie se k němu podle Seznam Zpráv dostala až po třinácti letech. Spolek přátel malíře dohledal jen zlomek padělků a jejich příběh teď připomíná výstava v Muzeu Policie ČR.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zaplavil-trh-stovkami-padelku-a-vydelal-miliony-trestu-akademik-unikl-316603"
+        }
+      ],
+      "en": {
+        "headline": "A forger nicknamed the academic flooded the market with hundreds of fake Lhoták drawings",
+        "sentences": [
+          {
+            "en": "A forger nicknamed “the academic” produced several hundred fake drawings by Kamil Lhoták and made millions.",
+            "cs": "Padělatel přezdívaný „akademik“ vytvořil několik set falešných kreseb Kamila Lhotáka a vydělal miliony."
+          },
+          {
+            "en": "According to Seznam Zprávy, the police only caught up with him after thirteen years.",
+            "cs": "Policie se k němu podle Seznam Zpráv dostala až po třinácti letech."
+          },
+          {
+            "en": "An association of the painter's admirers has tracked down only a fraction of the fakes, and their story is now the subject of an exhibition at the Police Museum.",
+            "cs": "Spolek přátel malíře dohledal jen zlomek padělků a jejich příběh teď připomíná výstava v Muzeu Policie ČR."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forger",
+            "definition": "a person who makes illegal copies of art, money or documents"
+          },
+          {
+            "term": "caught up with",
+            "definition": "finally found or reached someone who was escaping"
+          },
+          {
+            "term": "tracked down",
+            "definition": "found something after a long search"
+          },
+          {
+            "term": "fraction",
+            "definition": "a very small part of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:15",
+      "headline": "Čeští fotbalisté prohráli v Lize národů se Španělskem 1:3",
+      "body": "Česká reprezentace prohrála v elitní skupině A3 Ligy národů v Oviedu se Španěly 1:3 a pod novým trenérem Santim Deniou nezískala bod ani ve třetím zápase. Úřadující mistry světa a Evropy poslal v šesté minutě do vedení Lamine Yamal, ve 35. minutě přidal druhý gól Rodri. Ve druhém poločase snížil jablonecký obránce Jiří Sláma a Češi sahali po vyrovnání. V národním týmu debutovali brankář Antonín Kinský a útočník Ryan Naderi, který přišel na hřiště v 56. minutě. Sport.cz k zápasu připomíná i neuznaný gól a červenou kartu pro kapitána Ladislava Krejčího.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/pohledem-statistik-lepsi-druhy-polocas-debut-naderiho-a-slamuv-uspesny-vecer-159266"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/podcasty-bodlo-u-krejciho-se-secetla-frustrace-a-krivda-je-podle-experta-spravnym-kapitanem-5547990"
+        }
+      ],
+      "en": {
+        "headline": "The Czech footballers lost 1:3 to Spain in the Nations League",
+        "sentences": [
+          {
+            "en": "The Czech team lost 1:3 to Spain in Oviedo in the elite group A3 of the Nations League and has failed to take a point in a third match under its new coach Santi Denia.",
+            "cs": "Česká reprezentace prohrála v elitní skupině A3 Ligy národů v Oviedu se Španěly 1:3 a pod novým trenérem Santim Deniou nezískala bod ani ve třetím zápase."
+          },
+          {
+            "en": "Lamine Yamal put the reigning world and European champions ahead in the sixth minute, and Rodri added a second goal in the 35th.",
+            "cs": "Úřadující mistry světa a Evropy poslal v šesté minutě do vedení Lamine Yamal, ve 35. minutě přidal druhý gól Rodri."
+          },
+          {
+            "en": "In the second half the Jablonec defender Jiří Sláma pulled one back and the Czechs came close to equalising.",
+            "cs": "Ve druhém poločase snížil jablonecký obránce Jiří Sláma a Češi sahali po vyrovnání."
+          },
+          {
+            "en": "Goalkeeper Antonín Kinský and forward Ryan Naderi, who came on in the 56th minute, both made their debuts for the national team.",
+            "cs": "V národním týmu debutovali brankář Antonín Kinský a útočník Ryan Naderi, který přišel na hřiště v 56. minutě."
+          },
+          {
+            "en": "Sport.cz also points to a disallowed goal and a red card for captain Ladislav Krejčí.",
+            "cs": "Sport.cz k zápasu připomíná i neuznaný gól a červenou kartu pro kapitána Ladislava Krejčího."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reigning",
+            "definition": "currently holding a title won in the last competition"
+          },
+          {
+            "term": "pulled one back",
+            "definition": "scored a goal when your team is losing"
+          },
+          {
+            "term": "equalising",
+            "definition": "scoring so that both teams have the same number of goals"
+          },
+          {
+            "term": "disallowed",
+            "definition": "not accepted by the referee as valid"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:51",
+      "headline": "Sparta přijde na dva měsíce o Karabce, v Oviedu se zranil i Chaloupek",
+      "body": "Kapitán fotbalové Sparty Adam Karabec, který se zranil v reprezentačním zápase, by podle informací Sport.cz měl být mimo hru přibližně dva měsíce; třiadvacetiletý záložník má mít problémy s vazy v kotníku. Zranění si v sobotu ve Španělsku přivodil také slávistický stoper Štěpán Chaloupek, který v úterý proti Anglii nenastoupí.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-rana-pro-spartu-karabec-by-si-uz-na-podzim-nemusel-zahrat-5548122"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-problem-pro-reprezentaci-i-slavii-proti-spanelsku-se-zranila-jedna-z-opor-5548199"
+        }
+      ],
+      "en": {
+        "headline": "Sparta will be without Karabec for two months, and Chaloupek was injured in Oviedo too",
+        "sentences": [
+          {
+            "en": "Sparta's football captain Adam Karabec, who was injured in an international match, should be out of action for about two months according to information from Sport.cz; the 23-year-old midfielder is said to have problems with the ligaments in his ankle.",
+            "cs": "Kapitán fotbalové Sparty Adam Karabec, který se zranil v reprezentačním zápase, by podle informací Sport.cz měl být mimo hru přibližně dva měsíce; třiadvacetiletý záložník má mít problémy s vazy v kotníku."
+          },
+          {
+            "en": "The Slavia centre-back Štěpán Chaloupek also picked up an injury in Spain on Saturday and will not play against England on Tuesday.",
+            "cs": "Zranění si v sobotu ve Španělsku přivodil také slávistický stoper Štěpán Chaloupek, který v úterý proti Anglii nenastoupí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "out of action",
+            "definition": "unable to play or work because of injury"
+          },
+          {
+            "term": "ligaments",
+            "definition": "strong bands of tissue that hold bones together at a joint"
+          },
+          {
+            "term": "centre-back",
+            "definition": "a defender who plays in the middle of the defence"
+          },
+          {
+            "term": "picked up",
+            "definition": "got an injury or an illness"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:00",
+      "headline": "Verstappen vyhrál v Malajsii Velkou cenu Bahrajnu a slaví první výhru sezony",
+      "body": "Max Verstappen z Red Bullu vyhrál Velkou cenu Bahrajnu formule 1, která se jela na okruhu v Sepangu v Malajsii, a zaznamenal premiérové vítězství v sezoně. O 2,307 sekundy porazil Itala Andreu Kimiho Antonelliho z Mercedesu, třetí dojel sedminásobný mistr světa Lewis Hamilton z Ferrari. Antonelli navýšil náskok v čele šampionátu na 84 bodů před týmovým kolegou Georgem Russellem, který závod nedokončil. Startu předcházel chaos, při němž několik monopostů přišlo o výkon; FIA k tomu podle Sport.cz vydala oficiální vyjádření.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/max-verstappen-velka-cena-banhrajnu-formule-1-red-bull_2610041400_ssi"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/verstappen-triumfoval-v-chaoticke-vc-bahrajnu-v-malajsii-antonelli-tezil-z-vypadku-russella-159273"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-formule-1-fia-se-vyjadrila-k-chaosu-pred-startem-velke-ceny-bahrajnu-5548236"
+        }
+      ],
+      "en": {
+        "headline": "Verstappen won the Bahrain Grand Prix in Malaysia and celebrates his first win of the season",
+        "sentences": [
+          {
+            "en": "Max Verstappen of Red Bull won the Bahrain Grand Prix of Formula 1, which was held at the Sepang circuit in Malaysia, and recorded his first win of the season.",
+            "cs": "Max Verstappen z Red Bullu vyhrál Velkou cenu Bahrajnu formule 1, která se jela na okruhu v Sepangu v Malajsii, a zaznamenal premiérové vítězství v sezoně."
+          },
+          {
+            "en": "He beat Italy's Andrea Kimi Antonelli of Mercedes by 2.307 seconds, with seven-time world champion Lewis Hamilton of Ferrari third.",
+            "cs": "O 2,307 sekundy porazil Itala Andreu Kimiho Antonelliho z Mercedesu, třetí dojel sedminásobný mistr světa Lewis Hamilton z Ferrari."
+          },
+          {
+            "en": "Antonelli stretched his lead at the top of the championship to 84 points over his teammate George Russell, who failed to finish the race.",
+            "cs": "Antonelli navýšil náskok v čele šampionátu na 84 bodů před týmovým kolegou Georgem Russellem, který závod nedokončil."
+          },
+          {
+            "en": "The start was preceded by chaos in which several cars lost all power; according to Sport.cz, the FIA issued an official statement on the matter.",
+            "cs": "Startu předcházel chaos, při němž několik monopostů přišlo o výkon; FIA k tomu podle Sport.cz vydala oficiální vyjádření."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "circuit",
+            "definition": "a closed track used for motor racing"
+          },
+          {
+            "term": "stretched",
+            "definition": "made something larger or wider"
+          },
+          {
+            "term": "preceded",
+            "definition": "came before something else in time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:52",
+      "headline": "Elfyn Evans se stal mistrem světa v rallye, Solberg chyboval před cílem",
+      "body": "Elfyn Evans se stal třetím britským mistrem světa v automobilových soutěžích. Za titulem na Sardinii mířil jiný jezdec Toyoty Švéd Oliver Solberg, těsně před cílem Italské rallye ale vyjel mimo trať. V konečném hodnocení seriálu prohrál s Evansem o pět bodů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/patym-mistem-na-italske-rallye-stvrdil-evans-triumf-jako-treti-britsky-jezdec_2610041652_rej"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-rallye-evans-je-jako-treti-brit-mistrem-sveta-v-rallye-5548238"
+        }
+      ],
+      "en": {
+        "headline": "Elfyn Evans has become the world rally champion after Solberg's mistake before the finish",
+        "sentences": [
+          {
+            "en": "Elfyn Evans has become the third British world champion in rallying.",
+            "cs": "Elfyn Evans se stal třetím britským mistrem světa v automobilových soutěžích."
+          },
+          {
+            "en": "Another Toyota driver, the Swede Oliver Solberg, was heading for the title in Sardinia but went off the road just before the finish of the Rally Italia.",
+            "cs": "Za titulem na Sardinii mířil jiný jezdec Toyoty Švéd Oliver Solberg, těsně před cílem Italské rallye ale vyjel mimo trať."
+          },
+          {
+            "en": "In the final standings of the series he lost out to Evans by five points.",
+            "cs": "V konečném hodnocení seriálu prohrál s Evansem o pět bodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rallying",
+            "definition": "the sport of racing cars over long courses on ordinary roads"
+          },
+          {
+            "term": "heading for",
+            "definition": "moving towards or likely to get something"
+          },
+          {
+            "term": "standings",
+            "definition": "the list showing the positions of competitors"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:01",
+      "headline": "Bartůňková vyřadila v Pekingu světovou dvojku Sabalenkovou, Lehečka je v Tokiu v semifinále",
+      "body": "Dvacetiletá Nikola Bartůňková porazila ve třetím kole turnaje v Pekingu Arynu Sabalenkovou z Běloruska 6:4 a 6:3 a postoupila do osmifinále. Dál jde i Linda Nosková, která přehrála Švýcarku Viktoriji Golubicovou 6:2 a 6:1, naopak Sára Bejlek prohrála s Naomi Ósakou 6:7 a 4:6. Jiří Lehečka v Tokiu zdolal Paraguayce Adolfa Daniela Valleja dvakrát 6:1 a v semifinále ho čeká Valentin Vacherot z Monaka.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/bartunkova-v-pekingu-vyradila-sabalenkovou-a-je-v-osmifinale-159270"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2204436/"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/lehecka-postoupil-v-tokiu-do-semifinale-159275"
+        }
+      ],
+      "en": {
+        "headline": "Bartůňková knocked world number two Sabalenka out in Beijing, and Lehečka is in the semi-final in Tokyo",
+        "sentences": [
+          {
+            "en": "Twenty-year-old Nikola Bartůňková beat Aryna Sabalenka of Belarus 6:4 and 6:3 in the third round of the tournament in Beijing and went through to the last sixteen.",
+            "cs": "Dvacetiletá Nikola Bartůňková porazila ve třetím kole turnaje v Pekingu Arynu Sabalenkovou z Běloruska 6:4 a 6:3 a postoupila do osmifinále."
+          },
+          {
+            "en": "Linda Nosková is also through after seeing off the Swiss player Viktorija Golubicová 6:2 and 6:1, while Sára Bejlek lost to Naomi Ósaka 6:7 and 4:6.",
+            "cs": "Dál jde i Linda Nosková, která přehrála Švýcarku Viktoriji Golubicovou 6:2 a 6:1, naopak Sára Bejlek prohrála s Naomi Ósakou 6:7 a 4:6."
+          },
+          {
+            "en": "In Tokyo, Jiří Lehečka beat Paraguay's Adolfo Daniel Vallejo 6:1 twice and will face Valentin Vacherot of Monaco in the semi-final.",
+            "cs": "Jiří Lehečka v Tokiu zdolal Paraguayce Adolfa Daniela Valleja dvakrát 6:1 a v semifinále ho čeká Valentin Vacherot z Monaka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "knocked",
+            "definition": "removed an opponent from a competition by beating them"
+          },
+          {
+            "term": "went through",
+            "definition": "qualified for the next round of a competition"
+          },
+          {
+            "term": "seeing off",
+            "definition": "defeating an opponent"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:33",
+      "headline": "Zlatou přilbu vyhrál po devíti letech český jezdec Jan Kvěch",
+      "body": "Jan Kvěch vyhrál 78. ročník plochodrážního závodu o Zlatou přilbu města Pardubic a ukončil devítileté čekání na vítězství domácího jezdce. Ve finále předjel dlouho vedoucího Lotyše Andžejse Lebeděvse, třetí skončil Němec Kai Huckenbeck. Dosud posledním českým vítězem byl v roce 2017 Václav Milík.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-motocykly-kvech-fantasticky-triumfoval-5548371"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/v-pardubicich-bojuji-plochodrazni-jezdci-o-zlatou-prilbu-159274"
+        }
+      ],
+      "en": {
+        "headline": "Jan Kvěch is the first Czech rider to win the Golden Helmet in nine years",
+        "sentences": [
+          {
+            "en": "Jan Kvěch won the 78th edition of the Golden Helmet speedway race in Pardubice, ending a nine-year wait for a home winner.",
+            "cs": "Jan Kvěch vyhrál 78. ročník plochodrážního závodu o Zlatou přilbu města Pardubic a ukončil devítileté čekání na vítězství domácího jezdce."
+          },
+          {
+            "en": "In the final he overtook the long-time leader Andžejs Lebeděvs of Latvia, with Germany's Kai Huckenbeck third.",
+            "cs": "Ve finále předjel dlouho vedoucího Lotyše Andžejse Lebeděvse, třetí skončil Němec Kai Huckenbeck."
+          },
+          {
+            "en": "The last Czech winner until now was Václav Milík in 2017.",
+            "cs": "Dosud posledním českým vítězem byl v roce 2017 Václav Milík."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "speedway",
+            "definition": "a sport in which motorcycles race on an oval dirt track"
+          },
+          {
+            "term": "edition",
+            "definition": "one occasion when a regular event is held"
+          },
+          {
+            "term": "overtook",
+            "definition": "passed someone who was moving in front of you"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "German Chancellor Friedrich Merz arrived in Kyiv on an unannounced visit bringing one billion euros in military aid, and Russia struck a bridge over the Dnipro again during his stay.",
+    "Politicians from both the governing coalition and the opposition are criticising President Petr Pavel for skipping the municipal elections because of a private trip.",
+    "For the first time, prosecutors have dropped the case against a Czech man who went to fight in the Ukrainian army."
+  ]
+}
