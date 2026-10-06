@@ -1,0 +1,1417 @@
+{
+  "date": "2026-10-06",
+  "covers": "2026-10-06",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, přes den až 20,5 °C. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-07",
+        "icon": "cloudy",
+        "temp_max_c": 20.5,
+        "temp_min_c": 7.8
+      },
+      {
+        "date": "2026-10-08",
+        "icon": "rain",
+        "temp_max_c": 22.0,
+        "temp_min_c": 8.2
+      },
+      {
+        "date": "2026-10-09",
+        "icon": "rain",
+        "temp_max_c": 14.3,
+        "temp_min_c": 6.5
+      },
+      {
+        "date": "2026-10-10",
+        "icon": "rain",
+        "temp_max_c": 16.9,
+        "temp_min_c": 10.9
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast and dry, up to 20.5 °C during the day. Air quality is expected to be poor."
+  },
+  "highlights": [
+    "Česko dostalo prvních 309 milionů eur z unijního obranného nástroje SAFE, peníze mají jít na tanky, Tatry i dálnici D11.",
+    "Zemský sněm v Sasku-Anhaltsku poprvé povede politik Alternativy pro Německo.",
+    "Drony zasáhly u bulharského pobřeží dvě obchodní lodě, jedna se potopila a její posádka je nezvěstná."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:55",
+      "headline": "Česko dostalo první platbu z unijního obranného nástroje SAFE",
+      "body": "Česká republika v úterý obdržela 309 milionů eur, tedy přes 7,5 miliardy korun. Jde o patnáct procent z celkově přidělených dvou miliard eur, oznámila Evropská komise. Peníze z obranného úvěru mají směřovat na tanky Leopard 2A8 a vozy Tatra T-815. Z půjčky má být financována také možnost vojenského využití dálnice D11.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/cesko-ziskalo-prvni-penize-z-obranneho-nastroje-safe-konkretne-75-miliardy-korun_2610061647_lar"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cesko-dostalo-prvni-platbu-z-obranneho-nastroje-safe-jde-o-stamiliony-eur-378307"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206993/"
+        }
+      ],
+      "en": {
+        "headline": "Czechia has received its first payment from the EU defence instrument SAFE",
+        "sentences": [
+          {
+            "en": "The Czech Republic received 309 million euros, more than 7.5 billion crowns, on Tuesday.",
+            "cs": "Česká republika v úterý obdržela 309 milionů eur, tedy přes 7,5 miliardy korun."
+          },
+          {
+            "en": "That is fifteen percent of the two billion euros allocated to it in total, the European Commission announced.",
+            "cs": "Jde o patnáct procent z celkově přidělených dvou miliard eur, oznámila Evropská komise."
+          },
+          {
+            "en": "The money from the defence loan is to go towards Leopard 2A8 tanks and Tatra T-815 vehicles.",
+            "cs": "Peníze z obranného úvěru mají směřovat na tanky Leopard 2A8 a vozy Tatra T-815."
+          },
+          {
+            "en": "The loan is also to finance the option of putting the D11 motorway to military use.",
+            "cs": "Z půjčky má být financována také možnost vojenského využití dálnice D11."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "instrument",
+            "definition": "an official scheme or document that an organisation uses to do something"
+          },
+          {
+            "term": "allocated",
+            "definition": "given to someone for a particular purpose"
+          },
+          {
+            "term": "loan",
+            "definition": "an amount of money that is borrowed and must be paid back"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:20",
+      "headline": "Jihočeský kraj vyhlásil stav sucha, Husinecká nádrž je téměř prázdná",
+      "body": "Vyhlášení stavu sucha umožní kraji snazší manipulaci s odtokem z nádrží, občany zároveň žádá, aby s vodou neplýtvali. Husinecká nádrž na Prachaticku jako první česká přehrada téměř vyschla, v zásobním prostoru má jen 1,3 procenta vody a nově bude vypouštět pouze přítok. Povodí Vltavy kvůli suchu sníží také odtok z nádrže Římov na Českobudějovicku, která zásobuje pitnou vodou velkou část kraje; podle podniku jde o preventivní krok.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206886/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2207005/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206732/"
+        }
+      ],
+      "en": {
+        "headline": "The South Bohemian Region has declared a state of drought and the Husinec reservoir is almost empty",
+        "sentences": [
+          {
+            "en": "Declaring a state of drought will let the region manage outflows from its reservoirs more easily, and it is also asking residents not to waste water.",
+            "cs": "Vyhlášení stavu sucha umožní kraji snazší manipulaci s odtokem z nádrží, občany zároveň žádá, aby s vodou neplýtvali."
+          },
+          {
+            "en": "The Husinec reservoir in the Prachatice area is the first Czech dam to have almost dried up; only 1.3 percent of water is left in its storage space and from now on it will release only the inflow.",
+            "cs": "Husinecká nádrž na Prachaticku jako první česká přehrada téměř vyschla, v zásobním prostoru má jen 1,3 procenta vody a nově bude vypouštět pouze přítok."
+          },
+          {
+            "en": "Because of the drought, the Vltava River Authority will also reduce the outflow from the Římov reservoir in the České Budějovice area, which supplies drinking water to a large part of the region; according to the authority this is a precautionary step.",
+            "cs": "Povodí Vltavy kvůli suchu sníží také odtok z nádrže Římov na Českobudějovicku, která zásobuje pitnou vodou velkou část kraje; podle podniku jde o preventivní krok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drought",
+            "definition": "a long period when there is little or no rain"
+          },
+          {
+            "term": "reservoir",
+            "definition": "a lake, often artificial, where water is stored"
+          },
+          {
+            "term": "outflows",
+            "definition": "the amounts of water that flow out of a place"
+          },
+          {
+            "term": "precautionary",
+            "definition": "done to stop something bad from happening later"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:04",
+      "headline": "Stát od roku 2027 přestane zajišťovat vakcínu proti covidu",
+      "body": "Řekl to ministr zdravotnictví Adam Vojtěch (ANO). Státní ústav pro kontrolu léčiv posoudí přínos vakcíny a stanoví případnou úhradu z veřejného zdravotního pojištění, nebo výši doplatku, uvedl na tiskové konferenci ministerstva zástupce hlavního hygienika Matyáš Fošum. Na téže konferenci Vojtěch podle Deníku N uvedl, že proti chřipce se v minulé sezoně nechalo očkovat necelých 25 procent nemocničních lékařů a méně než osm procent sester; nemocnice s lepší proočkovaností by od příštího roku mohly získat bonus od zdravotních pojišťoven.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206274/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206859/"
+        }
+      ],
+      "en": {
+        "headline": "From 2027 the state will stop providing the covid vaccine",
+        "sentences": [
+          {
+            "en": "Health Minister Adam Vojtěch (ANO) said so.",
+            "cs": "Řekl to ministr zdravotnictví Adam Vojtěch (ANO)."
+          },
+          {
+            "en": "The State Institute for Drug Control will assess the benefit of the vaccine and set any reimbursement from public health insurance, or the size of the co-payment, deputy chief hygienist Matyáš Fošum said at the ministry's press conference.",
+            "cs": "Státní ústav pro kontrolu léčiv posoudí přínos vakcíny a stanoví případnou úhradu z veřejného zdravotního pojištění, nebo výši doplatku, uvedl na tiskové konferenci ministerstva zástupce hlavního hygienika Matyáš Fošum."
+          },
+          {
+            "en": "At the same conference, according to Deník N, Vojtěch said that in the past season just under 25 percent of hospital doctors and fewer than eight percent of nurses were vaccinated against flu; hospitals with better vaccination rates could receive a bonus from health insurers from next year.",
+            "cs": "Na téže konferenci Vojtěch podle Deníku N uvedl, že proti chřipce se v minulé sezoně nechalo očkovat necelých 25 procent nemocničních lékařů a méně než osm procent sester; nemocnice s lepší proočkovaností by od příštího roku mohly získat bonus od zdravotních pojišťoven."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assess",
+            "definition": "to judge how good, big or important something is"
+          },
+          {
+            "term": "reimbursement",
+            "definition": "money paid back to cover a cost"
+          },
+          {
+            "term": "co-payment",
+            "definition": "the part of a medical cost that the patient pays"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "19:53",
+      "day": "prev",
+      "headline": "Ministr Tejc hájí snížení hranice trestní odpovědnosti na třináct let",
+      "body": "Podle návrhu koalice by za nejzávažnější zločiny měly být trestně odpovědné už děti od třinácti let. Ministr spravedlnosti Jeroným Tejc (za ANO) v pondělním Interview ČT24 řekl, že v tomto věku už děti vědí, že se vraždit nemá, a mohou tedy nést následky svých činů. Změnu zdůvodnil tím, že se zhoršuje duševní zdraví a roste agresivita u dětí. „Ti, kteří budou zcela deviantní a opravdu nebezpeční společnosti, budou moci být odsouzeni soudem a bude jim moci být uložena detence,“ shrnul.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ve-trinacti-uz-vedi-ze-vrazdit-se-nema-rika-tejc-ke-snizeni-trestni-odpovednosti-378274"
+        }
+      ],
+      "en": {
+        "headline": "Minister Tejc defends lowering the age of criminal responsibility to thirteen",
+        "sentences": [
+          {
+            "en": "Under the coalition's proposal, children from the age of thirteen would be criminally responsible for the most serious crimes.",
+            "cs": "Podle návrhu koalice by za nejzávažnější zločiny měly být trestně odpovědné už děti od třinácti let."
+          },
+          {
+            "en": "Justice Minister Jeroným Tejc (for ANO) said in Monday's Interview ČT24 that at this age children already know that killing is wrong and can therefore bear the consequences of their actions.",
+            "cs": "Ministr spravedlnosti Jeroným Tejc (za ANO) v pondělním Interview ČT24 řekl, že v tomto věku už děti vědí, že se vraždit nemá, a mohou tedy nést následky svých činů."
+          },
+          {
+            "en": "He justified the change by saying that mental health is getting worse and aggression among children is growing.",
+            "cs": "Změnu zdůvodnil tím, že se zhoršuje duševní zdraví a roste agresivita u dětí."
+          },
+          {
+            "en": "“Those who are completely deviant and truly dangerous to society will be able to be sentenced by a court and placed in secure detention,” he summed up.",
+            "cs": "„Ti, kteří budou zcela deviantní a opravdu nebezpeční společnosti, budou moci být odsouzeni soudem a bude jim moci být uložena detence,“ shrnul."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "criminal responsibility",
+            "definition": "being old enough to be punished by law for a crime"
+          },
+          {
+            "term": "bear the consequences",
+            "definition": "to accept what happens as a result of what you did"
+          },
+          {
+            "term": "deviant",
+            "definition": "behaving in a way that is very different from what is normal or accepted"
+          },
+          {
+            "term": "detention",
+            "definition": "being kept in a closed institution by official order"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:09",
+      "headline": "ANO pořádá na Chebsku koncerty Michala Davida pro svou senátní kandidátku",
+      "body": "Hnutí ANO rozjelo v senátní kampani na Chebsku sérii sedmi koncertů zpěváka Michala Davida. Podle Deníku N může kandidátce pomoci k výhře, jeho pomoc se ale musí vejít do zákonného limitu kampaně. Kdyby si zpěvák za vystoupení účtoval standardní sazby, mohla by se jedna z favoritek klání dostat na hranici limitu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2206290/sedm-koncertu-michala-davida-pro-kandidatku-ano-klicka-muze-ohnout-pravidla-pro-limit-kampane/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206717/"
+        }
+      ],
+      "en": {
+        "headline": "ANO is holding Michal David concerts in the Cheb area for its Senate candidate",
+        "sentences": [
+          {
+            "en": "In its Senate campaign in the Cheb area, the ANO movement has launched a series of seven concerts by the singer Michal David.",
+            "cs": "Hnutí ANO rozjelo v senátní kampani na Chebsku sérii sedmi koncertů zpěváka Michala Davida."
+          },
+          {
+            "en": "According to Deník N this may help the candidate to win, but his help has to fit within the legal campaign spending limit.",
+            "cs": "Podle Deníku N může kandidátce pomoci k výhře, jeho pomoc se ale musí vejít do zákonného limitu kampaně."
+          },
+          {
+            "en": "If the singer charged his standard rates for the performances, one of the favourites in the contest could end up right at the limit.",
+            "cs": "Kdyby si zpěvák za vystoupení účtoval standardní sazby, mohla by se jedna z favoritek klání dostat na hranici limitu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fit within",
+            "definition": "to stay inside the limits of something"
+          },
+          {
+            "term": "charged",
+            "definition": "asked for an amount of money for a service"
+          },
+          {
+            "term": "contest",
+            "definition": "a competition in which people try to win"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:05",
+      "headline": "Oprava silničního okruhu v Hradci Králové skončila",
+      "body": "Silničáři dokončili dva a půl měsíce trvající opravu kilometrového úseku čtyřproudého okruhu mezi mostem přes Orlici a kruhovým objezdem Brněnská. V noci na úterý tam skončila dopravní omezení. Opraveným úsekem denně projede přes třicet tisíc vozidel.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/gocaruv-okruh-hradec-kralove-oprava-dokonceni/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/902163-oprava-silnicniho-okruhu-v-hradci-kralove-je-hotova-omezeni-skoncila.html"
+        }
+      ],
+      "en": {
+        "headline": "The repair of the Hradec Králové ring road is finished",
+        "sentences": [
+          {
+            "en": "Road crews have completed a two-and-a-half-month repair of a kilometre-long stretch of the four-lane ring road between the bridge over the Orlice and the Brněnská roundabout.",
+            "cs": "Silničáři dokončili dva a půl měsíce trvající opravu kilometrového úseku čtyřproudého okruhu mezi mostem přes Orlici a kruhovým objezdem Brněnská."
+          },
+          {
+            "en": "Traffic restrictions there ended overnight into Tuesday.",
+            "cs": "V noci na úterý tam skončila dopravní omezení."
+          },
+          {
+            "en": "More than thirty thousand vehicles a day pass through the repaired stretch.",
+            "cs": "Opraveným úsekem denně projede přes třicet tisíc vozidel."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ring road",
+            "definition": "a road that goes around the edge of a town"
+          },
+          {
+            "term": "stretch",
+            "definition": "a part of a road or river of a certain length"
+          },
+          {
+            "term": "roundabout",
+            "definition": "a circular place where several roads meet and traffic goes around"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:31",
+      "headline": "V Hradci se znovu objevily krabičky kritizující primátorku Springerovou",
+      "body": "Papírové krabičky namířené proti primátorce Pavlíně Springerové se v ulicích objevily podruhé během několika dnů. Vedení města na antikampaň zareagovalo po svém: primátorka s kolegy vyrazila krabičky sbírat, z čehož se podle Hradecké drbny stala improvizovaná kontaktní kampaň.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/902177-v-hradci-kralove-se-znovu-objevily-krabicky-proti-primatorce.html"
+        }
+      ],
+      "en": {
+        "headline": "Boxes criticising Mayor Springerová have appeared in Hradec again",
+        "sentences": [
+          {
+            "en": "Paper boxes aimed at Mayor Pavlína Springerová appeared in the streets for the second time within a few days.",
+            "cs": "Papírové krabičky namířené proti primátorce Pavlíně Springerové se v ulicích objevily podruhé během několika dnů."
+          },
+          {
+            "en": "The city leadership responded to the negative campaign in its own way: the mayor and her colleagues went out to collect the boxes, which, according to Hradecká drbna, turned into an improvised doorstep campaign.",
+            "cs": "Vedení města na antikampaň zareagovalo po svém: primátorka s kolegy vyrazila krabičky sbírat, z čehož se podle Hradecké drbny stala improvizovaná kontaktní kampaň."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "aimed at",
+            "definition": "directed towards a particular person or group"
+          },
+          {
+            "term": "improvised",
+            "definition": "made or done without planning, using what is available"
+          },
+          {
+            "term": "doorstep campaign",
+            "definition": "campaigning by meeting voters in person in the street or at their homes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:12",
+      "headline": "Do jediného bytu ve Špindlerově Mlýně se těsně před volbami přihlásilo jedenáct lidí",
+      "body": "Radnice prověřuje náhlý nárůst trvale bydlících obyvatel, od začátku roku jde o čtyřicet nových voličů. Starosta Martin Jandura (Špindlerův Mlýn – Město s vizí) to považuje za snahu ovlivnit komunální volby a ovládnout radnici a podnikl proti tomu právní kroky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/komunalni-volby-novi-obyvatele-spindleruv-mlyn-starosta-jandura.A261006_081822_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/902129-starosta-sp-mlyna-ma-prihlaseni-novych-lidi-k-pobytu-pred-volbami-za.html"
+        }
+      ],
+      "en": {
+        "headline": "Eleven people registered at a single flat in Špindlerův Mlýn just before the elections",
+        "sentences": [
+          {
+            "en": "The town hall is checking a sudden rise in the number of permanent residents; since the start of the year it amounts to forty new voters.",
+            "cs": "Radnice prověřuje náhlý nárůst trvale bydlících obyvatel, od začátku roku jde o čtyřicet nových voličů."
+          },
+          {
+            "en": "Mayor Martin Jandura (Špindlerův Mlýn – Město s vizí) regards it as an attempt to influence the municipal elections and take over the town hall, and he has taken legal action against it.",
+            "cs": "Starosta Martin Jandura (Špindlerův Mlýn – Město s vizí) to považuje za snahu ovlivnit komunální volby a ovládnout radnici a podnikl proti tomu právní kroky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "permanent residents",
+            "definition": "people officially registered as living in a place"
+          },
+          {
+            "term": "take over",
+            "definition": "to get control of something"
+          },
+          {
+            "term": "legal action",
+            "definition": "the use of courts or lawyers to deal with a problem"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:05",
+      "headline": "Náchodská nemocnice začala naostro operovat s robotem za 37 milionů",
+      "body": "Robotický systém přešel z fáze trénování do ostrého provozu. Pomáhá při operacích prostaty, kýly a žaludku i při gynekologických zákrocích.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/902139-robot-uz-operuje-i-v-nachode-lekarum-pridava-presnost-pacientum-setri-sily.html"
+        }
+      ],
+      "en": {
+        "headline": "The Náchod hospital has started operating for real with a robot costing 37 million",
+        "sentences": [
+          {
+            "en": "The robotic system has moved from the training phase into full operation.",
+            "cs": "Robotický systém přešel z fáze trénování do ostrého provozu."
+          },
+          {
+            "en": "It helps with prostate, hernia and stomach surgery and with gynaecological procedures.",
+            "cs": "Pomáhá při operacích prostaty, kýly a žaludku i při gynekologických zákrocích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "full operation",
+            "definition": "normal everyday use, not testing"
+          },
+          {
+            "term": "hernia",
+            "definition": "a medical condition in which an organ pushes through the muscle around it"
+          },
+          {
+            "term": "procedures",
+            "definition": "medical operations or treatments"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:18",
+      "headline": "Zemský sněm v Sasku-Anhaltsku poprvé povede politik AfD",
+      "body": "Poslanci zvolili předsedou zemského sněmu dlouholetého člena Alternativy pro Německo Tobiase Rausche. Je prvním politikem této protiimigrační a pravicově populistické strany v čele německého regionálního parlamentu. Podle agentury DPA ho podpořilo 48 poslanců, 29 hlasovalo proti němu a pět se zdrželo; k absolutní většině bylo potřeba 42 hlasů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/poprve-politik-z-alternativy-pro-nemecko-zemsky-snem-v-sasku-anhaltsku-zvolil-predsedu-378295"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zemsky-snem-saska-anhaltska-poprve-povede-politik-z-alternativy-pro-nemecko-316894"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206555/"
+        }
+      ],
+      "en": {
+        "headline": "The state assembly in Saxony-Anhalt will be led by an AfD politician for the first time",
+        "sentences": [
+          {
+            "en": "Deputies elected Tobias Rausch, a long-standing member of Alternative for Germany, as speaker of the state assembly.",
+            "cs": "Poslanci zvolili předsedou zemského sněmu dlouholetého člena Alternativy pro Německo Tobiase Rausche."
+          },
+          {
+            "en": "He is the first politician of this anti-immigration and right-wing populist party to head a German regional parliament.",
+            "cs": "Je prvním politikem této protiimigrační a pravicově populistické strany v čele německého regionálního parlamentu."
+          },
+          {
+            "en": "According to the DPA agency he was backed by 48 deputies, 29 voted against him and five abstained; 42 votes were needed for an absolute majority.",
+            "cs": "Podle agentury DPA ho podpořilo 48 poslanců, 29 hlasovalo proti němu a pět se zdrželo; k absolutní většině bylo potřeba 42 hlasů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "speaker",
+            "definition": "the person who leads the meetings of a parliament"
+          },
+          {
+            "term": "long-standing",
+            "definition": "having existed for a long time"
+          },
+          {
+            "term": "populist",
+            "definition": "appealing to ordinary people by promising simple answers"
+          },
+          {
+            "term": "abstained",
+            "definition": "chose not to vote either for or against"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:15",
+      "headline": "Drony zasáhly u bulharského pobřeží dvě obchodní lodě, jedna se potopila",
+      "body": "Jedno plavidlo se potopilo a jeho posádka je nezvěstná, druhou loď zachvátil požár, námořníky se ale podařilo evakuovat. ČT24 informaci připisuje premiéru Rumenu Radevovi, E15 s odvoláním na Reuters kanceláři prezidentky Ilijany Jotovové. Bulharská média píší o bezprecedentním koordinovaném útoku na obchodní plavidla v Černém moři. Situace je podle předsedkyně Evropské komise Ursuly von der Leyenové stále znepokojivější a útoky na civilní plavidla jsou podle ní nepřijatelné.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zasahly-dve-lodi-v-ekonomicke-zone-bulharska-uvedla-prezidentka-378282"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/drony-zautocily-na-obchodni-lode-u-bulharska-jedna-se-potopila-druhou-zachvatil-pozar-1436306"
+        }
+      ],
+      "en": {
+        "headline": "Drones hit two merchant ships off the Bulgarian coast and one of them sank",
+        "sentences": [
+          {
+            "en": "One vessel sank and its crew is missing, the second ship caught fire, but the sailors were evacuated.",
+            "cs": "Jedno plavidlo se potopilo a jeho posádka je nezvěstná, druhou loď zachvátil požár, námořníky se ale podařilo evakuovat."
+          },
+          {
+            "en": "ČT24 attributes the information to Prime Minister Rumen Radev, while E15, citing Reuters, attributes it to the office of President Ilijana Jotova.",
+            "cs": "ČT24 informaci připisuje premiéru Rumenu Radevovi, E15 s odvoláním na Reuters kanceláři prezidentky Ilijany Jotovové."
+          },
+          {
+            "en": "Bulgarian media write about an unprecedented coordinated attack on merchant vessels in the Black Sea.",
+            "cs": "Bulharská média píší o bezprecedentním koordinovaném útoku na obchodní plavidla v Černém moři."
+          },
+          {
+            "en": "According to European Commission President Ursula von der Leyen the situation is increasingly worrying and attacks on civilian vessels are, in her words, unacceptable.",
+            "cs": "Situace je podle předsedkyně Evropské komise Ursuly von der Leyenové stále znepokojivější a útoky na civilní plavidla jsou podle ní nepřijatelné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "merchant ships",
+            "definition": "ships that carry goods for trade"
+          },
+          {
+            "term": "vessel",
+            "definition": "a ship or large boat"
+          },
+          {
+            "term": "attributes",
+            "definition": "says that something came from a particular person or source"
+          },
+          {
+            "term": "unprecedented",
+            "definition": "never having happened before"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:53",
+      "headline": "Bombardéry z Fairfordu se stáhly kvůli hrozbě íránského dronového útoku",
+      "body": "Spojené státy podle listu The New York Times stáhly o víkendu z britské základny RAF Fairford bombardéry B-1 kvůli konkrétním varováním před útokem nařízeným íránskými revolučními gardami; deník se odvolává na americké a britské činitele. Letouny podle NYT odlétaly tak naléhavě, že některé vzlétly ještě před plnou přípravou tankovacích strojů. Británie v souvislosti s přípravou teroristického útoku u základny zadržela už sedmého muže, uvedl podle Deníku N list Financial Times. Šest britských mužů ve věku kolem dvaceti let bylo zadrženo dříve, později však byli propuštěni na kauci.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/usa-stahly-bombardery-z-fairfordu-kvuli-hrozbe-iranskeho-dronoveho-utoku-pise-nyt-378280"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206305/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206636/"
+        }
+      ],
+      "en": {
+        "headline": "Bombers left Fairford because of the threat of an Iranian drone attack",
+        "sentences": [
+          {
+            "en": "According to The New York Times, the United States withdrew B-1 bombers from the British base RAF Fairford at the weekend because of specific warnings of an attack ordered by Iran's Revolutionary Guards; the paper cites American and British officials.",
+            "cs": "Spojené státy podle listu The New York Times stáhly o víkendu z britské základny RAF Fairford bombardéry B-1 kvůli konkrétním varováním před útokem nařízeným íránskými revolučními gardami; deník se odvolává na americké a britské činitele."
+          },
+          {
+            "en": "According to the NYT the aircraft left so urgently that some took off before the refuelling planes were fully prepared.",
+            "cs": "Letouny podle NYT odlétaly tak naléhavě, že některé vzlétly ještě před plnou přípravou tankovacích strojů."
+          },
+          {
+            "en": "Britain has detained a seventh man in connection with the preparation of a terrorist attack near the base, the Financial Times reported according to Deník N.",
+            "cs": "Británie v souvislosti s přípravou teroristického útoku u základny zadržela už sedmého muže, uvedl podle Deníku N list Financial Times."
+          },
+          {
+            "en": "Six British men in their early twenties had been detained earlier, but were later released on bail.",
+            "cs": "Šest britských mužů ve věku kolem dvaceti let bylo zadrženo dříve, později však byli propuštěni na kauci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "withdrew",
+            "definition": "moved people or equipment away from a place"
+          },
+          {
+            "term": "refuelling",
+            "definition": "putting more fuel into a vehicle or aircraft"
+          },
+          {
+            "term": "detained",
+            "definition": "kept by the police and not allowed to leave"
+          },
+          {
+            "term": "released on bail",
+            "definition": "allowed to leave police custody while waiting for a trial"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:20",
+      "headline": "Kyjev dostává protidronové sítě na mosty, Zelenskyj varuje před dalším masivním úderem",
+      "body": "Ukrajina začala podle agentury AFP instalovat protidronové sítě na mosty v Kyjevě. Jde o první opatření tohoto druhu od zahájení ruské invaze v roce 2022, podobně dosud Ukrajina chránila klíčové dopravní trasy jen poblíž frontové linie na východě a jihu země. Rusko v uplynulých dnech začalo útočit na některé mosty přes Dněpr, které spojují obě části metropole. Prezident Volodymyr Zelenskyj dnes uvedl, že podle informací ukrajinské rozvědky Rusko připravuje další masivní útok. „Dnes jsme obdrželi aktualizované informace od rozvědky týkající se příprav Rusů na masivní úder. Chystáme protiopatření,“ napsal na Telegramu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-ukrajinci-instaluji-protidronove-site-na-mosty-v-kyjeve-kvuli-nedavnym_2610061620_lar"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206898/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206835/"
+        }
+      ],
+      "en": {
+        "headline": "Kyiv is getting anti-drone nets on its bridges and Zelenskyj warns of another massive strike",
+        "sentences": [
+          {
+            "en": "According to the AFP agency, Ukraine has begun installing anti-drone nets on bridges in Kyiv.",
+            "cs": "Ukrajina začala podle agentury AFP instalovat protidronové sítě na mosty v Kyjevě."
+          },
+          {
+            "en": "It is the first measure of this kind since the start of the Russian invasion in 2022; until now Ukraine has protected key transport routes this way only near the front line in the east and south of the country.",
+            "cs": "Jde o první opatření tohoto druhu od zahájení ruské invaze v roce 2022, podobně dosud Ukrajina chránila klíčové dopravní trasy jen poblíž frontové linie na východě a jihu země."
+          },
+          {
+            "en": "In recent days Russia has started attacking some of the bridges across the Dnieper that link the two halves of the capital.",
+            "cs": "Rusko v uplynulých dnech začalo útočit na některé mosty přes Dněpr, které spojují obě části metropole."
+          },
+          {
+            "en": "President Volodymyr Zelenskyj said today that, according to Ukrainian intelligence, Russia is preparing another massive attack.",
+            "cs": "Prezident Volodymyr Zelenskyj dnes uvedl, že podle informací ukrajinské rozvědky Rusko připravuje další masivní útok."
+          },
+          {
+            "en": "“Today we received updated information from intelligence concerning Russian preparations for a massive strike. We are preparing countermeasures,” he wrote on Telegram.",
+            "cs": "„Dnes jsme obdrželi aktualizované informace od rozvědky týkající se příprav Rusů na masivní úder. Chystáme protiopatření,“ napsal na Telegramu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "measure",
+            "definition": "an action taken to deal with a problem"
+          },
+          {
+            "term": "front line",
+            "definition": "the place where two armies are fighting each other"
+          },
+          {
+            "term": "intelligence",
+            "definition": "secret information collected about an enemy"
+          },
+          {
+            "term": "countermeasures",
+            "definition": "actions taken to stop or weaken an attack"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:35",
+      "headline": "Německo zadrželo bývalého šéfa rozvědky BND pro podezření ze špionáže",
+      "body": "Policie zadržela Augusta Hanninga pro podezření ze špionáže a pokus o vlastizradu, informaci potvrdilo generální státní zastupitelství. Kromě něj zadržela i jeho bývalého spolupracovníka. Ve stejný den tři ředitelé německých tajných služeb varovali, že Rusko je „nejnebezpečnější protivník“, útoků bude přibývat a je třeba se připravovat. Německo podle nich neakceptuje „revizionisticko-expanzivní politiku Ruska“, a proto ho Kreml považuje za „hlavní překážku ruské hegemonní projekce moci v Evropě“.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecka-policie-zadrzela-byvaleho-sefa-rozvedky-bnd-pro-podezreni-ze-spionaze-378286"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206586/"
+        }
+      ],
+      "en": {
+        "headline": "Germany has detained the former head of the BND intelligence service on suspicion of spying",
+        "sentences": [
+          {
+            "en": "Police detained August Hanning on suspicion of espionage and attempted treason; the information was confirmed by the prosecutor general's office.",
+            "cs": "Policie zadržela Augusta Hanninga pro podezření ze špionáže a pokus o vlastizradu, informaci potvrdilo generální státní zastupitelství."
+          },
+          {
+            "en": "Besides him, they also detained his former collaborator.",
+            "cs": "Kromě něj zadržela i jeho bývalého spolupracovníka."
+          },
+          {
+            "en": "On the same day, three directors of the German intelligence services warned that Russia is the “most dangerous adversary”, that attacks will increase and that the country needs to prepare.",
+            "cs": "Ve stejný den tři ředitelé německých tajných služeb varovali, že Rusko je „nejnebezpečnější protivník“, útoků bude přibývat a je třeba se připravovat."
+          },
+          {
+            "en": "Germany, they say, does not accept “Russia's revisionist and expansionist policy”, and the Kremlin therefore regards it as the “main obstacle to Russian hegemonic projection of power in Europe”.",
+            "cs": "Německo podle nich neakceptuje „revizionisticko-expanzivní politiku Ruska“, a proto ho Kreml považuje za „hlavní překážku ruské hegemonní projekce moci v Evropě“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "espionage",
+            "definition": "the act of spying to get secret information"
+          },
+          {
+            "term": "treason",
+            "definition": "the crime of betraying your own country"
+          },
+          {
+            "term": "adversary",
+            "definition": "an enemy or opponent"
+          },
+          {
+            "term": "obstacle",
+            "definition": "something that blocks the way or makes progress hard"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:15",
+      "headline": "Volby v kanadském Québecu vyhráli separatisté a chtějí referendum o nezávislosti",
+      "body": "Québecká strana podle agentury AP zvítězila v pondělních volbách ve frankofonní provincii, nezískala však dost křesel, aby mohla vládnout sama. Po více než deseti letech se vrací k moci se slibem, že uspořádá další referendum o nezávislosti na Kanadě. Kanadská televize CBC v této souvislosti mluví o velké zkoušce pro premiéra Marka Carneyho.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/volby-v-quebecu-vyhrali-separatiste-chteji-referendum-o-nezavislosti-na-kanade-378283"
+        }
+      ],
+      "en": {
+        "headline": "Separatists won the elections in Canada's Québec and want a referendum on independence",
+        "sentences": [
+          {
+            "en": "According to the AP agency, the Québec Party won Monday's elections in the francophone province, but did not gain enough seats to govern on its own.",
+            "cs": "Québecká strana podle agentury AP zvítězila v pondělních volbách ve frankofonní provincii, nezískala však dost křesel, aby mohla vládnout sama."
+          },
+          {
+            "en": "After more than ten years it is returning to power with a promise to hold another referendum on independence from Canada.",
+            "cs": "Po více než deseti letech se vrací k moci se slibem, že uspořádá další referendum o nezávislosti na Kanadě."
+          },
+          {
+            "en": "In this context the Canadian broadcaster CBC speaks of a major test for Prime Minister Mark Carney.",
+            "cs": "Kanadská televize CBC v této souvislosti mluví o velké zkoušce pro premiéra Marka Carneyho."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "Separatists",
+            "definition": "people who want their region to become a separate country"
+          },
+          {
+            "term": "francophone",
+            "definition": "French-speaking"
+          },
+          {
+            "term": "seats",
+            "definition": "places won by a party in a parliament"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:35",
+      "headline": "Paramount dokončil převzetí Warner Bros. Discovery, vznikla skupina Skydance",
+      "body": "Americký mediální konglomerát Paramount Skydance v úterý dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů, tedy 2,4 bilionu korun. Šéf skupiny David Ellison už minulý týden uvedl, že účelem názvu Skydance je zachovat samostatnou identitu studií Paramount a Warner Bros. Akcie sloučené společnosti se přesunuly z trhu Nasdaq na newyorskou burzu. Podle BBC může spojení zásadně změnit tvář Hollywoodu i mediálního prostředí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/paramount-dokoncil-prevzeti-warner-bros-discovery-378302"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-paramount-dokoncil-prevzeti-warner-bros-discovery-vznikla-skupina-skydance-316916"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206656/"
+        }
+      ],
+      "en": {
+        "headline": "Paramount has completed its takeover of Warner Bros. Discovery and the Skydance group was born",
+        "sentences": [
+          {
+            "en": "The American media conglomerate Paramount Skydance completed its takeover of its rival Warner Bros. Discovery on Tuesday in a deal worth roughly 110 billion dollars, or 2.4 trillion crowns.",
+            "cs": "Americký mediální konglomerát Paramount Skydance v úterý dokončil převzetí konkurenční společnosti Warner Bros. Discovery v hodnotě přibližně 110 miliard dolarů, tedy 2,4 bilionu korun."
+          },
+          {
+            "en": "Group head David Ellison already said last week that the purpose of the Skydance name is to preserve the separate identity of the Paramount and Warner Bros. studios.",
+            "cs": "Šéf skupiny David Ellison už minulý týden uvedl, že účelem názvu Skydance je zachovat samostatnou identitu studií Paramount a Warner Bros."
+          },
+          {
+            "en": "Shares in the merged company have moved from the Nasdaq market to the New York Stock Exchange.",
+            "cs": "Akcie sloučené společnosti se přesunuly z trhu Nasdaq na newyorskou burzu."
+          },
+          {
+            "en": "According to the BBC the merger could fundamentally change the face of Hollywood and of the media environment.",
+            "cs": "Podle BBC může spojení zásadně změnit tvář Hollywoodu i mediálního prostředí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "takeover",
+            "definition": "the act of one company gaining control of another"
+          },
+          {
+            "term": "conglomerate",
+            "definition": "a large company made up of several different businesses"
+          },
+          {
+            "term": "merged",
+            "definition": "joined together into one"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:22",
+      "headline": "Baťa ukončí výrobu obuvi ve své poslední továrně ve střední Evropě",
+      "body": "Krok se dotkne téměř stovky zaměstnanců. Podle odborů mohla firma udělat víc, aby se situace zvrátila. Zaměstnanci podle E15 šli jednat o vyšší mzdě a odcházeli s výpovědí.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/bata-dolni-nemci-tovarna-konec-zamestnanci-odbory-1436327"
+        }
+      ],
+      "en": {
+        "headline": "Baťa will end shoe production at its last factory in Central Europe",
+        "sentences": [
+          {
+            "en": "The move will affect almost a hundred employees.",
+            "cs": "Krok se dotkne téměř stovky zaměstnanců."
+          },
+          {
+            "en": "According to the trade unions the company could have done more to turn the situation around.",
+            "cs": "Podle odborů mohla firma udělat víc, aby se situace zvrátila."
+          },
+          {
+            "en": "E15 reports that employees went in to negotiate a higher wage and left with a notice of dismissal.",
+            "cs": "Zaměstnanci podle E15 šli jednat o vyšší mzdě a odcházeli s výpovědí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trade unions",
+            "definition": "organisations that protect workers' rights"
+          },
+          {
+            "term": "turn the situation around",
+            "definition": "to change a bad situation into a better one"
+          },
+          {
+            "term": "notice of dismissal",
+            "definition": "an official letter telling someone their job is ending"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:25",
+      "headline": "Mistral představil nový jazykový model Mistral Large 4",
+      "body": "Společnost Mistral oznámila model Mistral Large 4, příspěvek na jejím blogu nese podtitul „Le Chonk“. Oznámení i dokumentace modelu patřily v úterý k nejbodovanějším příspěvkům na Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://docs.mistral.ai/models/mistral-large-4-0"
+        }
+      ],
+      "en": {
+        "headline": "Mistral has introduced a new language model, Mistral Large 4",
+        "sentences": [
+          {
+            "en": "The company Mistral announced the Mistral Large 4 model; the post on its blog carries the subtitle “Le Chonk”.",
+            "cs": "Společnost Mistral oznámila model Mistral Large 4, příspěvek na jejím blogu nese podtitul „Le Chonk“."
+          },
+          {
+            "en": "The announcement and the model's documentation were among the highest-scoring posts on Hacker News on Tuesday.",
+            "cs": "Oznámení i dokumentace modelu patřily v úterý k nejbodovanějším příspěvkům na Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subtitle",
+            "definition": "a second, extra title that comes after the main one"
+          },
+          {
+            "term": "documentation",
+            "definition": "written instructions explaining how something works"
+          },
+          {
+            "term": "highest-scoring",
+            "definition": "receiving the most points or votes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:16",
+      "day": "prev",
+      "headline": "Reflection zveřejnil model Beam s 501 miliardami parametrů a otevřenými vahami",
+      "body": "Firma Reflection ho představila na svém blogu. Příspěvek se včera večer dostal na přední místa Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://reflection.ai/blog/introducing-beam"
+        }
+      ],
+      "en": {
+        "headline": "Reflection has released Beam, a model with 501 billion parameters and open weights",
+        "sentences": [
+          {
+            "en": "The company Reflection introduced it on its blog.",
+            "cs": "Firma Reflection ho představila na svém blogu."
+          },
+          {
+            "en": "The post reached the top of Hacker News yesterday evening.",
+            "cs": "Příspěvek se včera večer dostal na přední místa Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "open weights",
+            "definition": "the trained numbers inside an AI model, made available for anyone to download"
+          },
+          {
+            "term": "released",
+            "definition": "made available to the public"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:50",
+      "headline": "Z dánského registru obyvatel unikly údaje o 8,8 milionu lidí",
+      "body": "Útočníkům se podle Rootu podařilo získat přístup k databázi, která obsahuje prakticky všechny identifikační údaje o každé osobě spojené s Dánskem, ať už živé, zemřelé, nebo dávno odstěhované. Nenapadli přitom přímo vládní systémy, ale soukromou společnost, která měla do registru oprávněný přístup; její jméno není známé. Dánská ministryně pro digitální záležitosti Christina Egelundová označila incident jako „velmi závažný“. Přesný rozsah úniku se stále zjišťuje.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/unik-dat-z-danskeho-registru-obyvatel-se-tyka-8-8-milionu-lidi/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Data on 8.8 million people has leaked from the Danish population register",
+        "sentences": [
+          {
+            "en": "According to Root, attackers managed to gain access to a database that contains practically all identifying details about every person connected with Denmark, whether alive, dead or long since emigrated.",
+            "cs": "Útočníkům se podle Rootu podařilo získat přístup k databázi, která obsahuje prakticky všechny identifikační údaje o každé osobě spojené s Dánskem, ať už živé, zemřelé, nebo dávno odstěhované."
+          },
+          {
+            "en": "They did not attack government systems directly, but a private company that had legitimate access to the register; its name is not known.",
+            "cs": "Nenapadli přitom přímo vládní systémy, ale soukromou společnost, která měla do registru oprávněný přístup; její jméno není známé."
+          },
+          {
+            "en": "Danish Minister for Digital Affairs Christina Egelund described the incident as “very serious”.",
+            "cs": "Dánská ministryně pro digitální záležitosti Christina Egelundová označila incident jako „velmi závažný“."
+          },
+          {
+            "en": "The exact extent of the leak is still being established.",
+            "cs": "Přesný rozsah úniku se stále zjišťuje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "leaked",
+            "definition": "became known or got out without permission"
+          },
+          {
+            "term": "legitimate",
+            "definition": "allowed by law or by the rules"
+          },
+          {
+            "term": "extent",
+            "definition": "how large or serious something is"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "12:05",
+      "headline": "Nobelovu cenu za fyziku dostal Francis Halzen za výzkum neutrin",
+      "body": "Švédská akademie věd ocenila belgicko-amerického vědce „za zásadní přínos k neutrinové observatoři IceCube a k objevu vysokoenergetických neutrin astrofyzikálního původu“. Halzen se věnuje výzkumu neutrin, tedy kosmických částic, které dopadají na Zemi.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/veda/nobelovu-cenu-za-fyziku-dostal-francis-halzen-za-vyzkum-neutrin-378284"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2206244/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nobelovu-cenu-za-fyziku-ziskal-belgicky-astrofyzik-halzen-316888"
+        }
+      ],
+      "en": {
+        "headline": "The Nobel Prize in Physics went to Francis Halzen for his research on neutrinos",
+        "sentences": [
+          {
+            "en": "The Royal Swedish Academy of Sciences honoured the Belgian-American scientist “for fundamental contributions to the IceCube neutrino observatory and to the discovery of high-energy neutrinos of astrophysical origin”.",
+            "cs": "Švédská akademie věd ocenila belgicko-amerického vědce „za zásadní přínos k neutrinové observatoři IceCube a k objevu vysokoenergetických neutrin astrofyzikálního původu“."
+          },
+          {
+            "en": "Halzen studies neutrinos, cosmic particles that reach the Earth.",
+            "cs": "Halzen se věnuje výzkumu neutrin, tedy kosmických částic, které dopadají na Zemi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "neutrinos",
+            "definition": "very small particles that pass through almost everything"
+          },
+          {
+            "term": "observatory",
+            "definition": "a building with equipment for watching and studying space"
+          },
+          {
+            "term": "astrophysical",
+            "definition": "connected with the physics of stars and space"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:53",
+      "headline": "Česká televize se příští rok nezúčastní Eurovize",
+      "body": "Důvodem jsou podle ČT aktuální úpravy rozpočtu, oznámila to na síti X. Potvrdila tak dřívější informace médií, že kvůli úsporám a nejistotě ohledně budoucího financování zruší některé pořady. Chybět má i přenos soutěže. Televize nevyloučila, že se v dalších letech do soutěže vrátí. Příští ročník Eurovize se bude konat v květnu 2027 v bulharském Burgasu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/ceska-televize-se-pristi-rok-nezucastni-eurovize-378292"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/kultura/hudba/eurovize-2027-cesko-na-eurovizi-nebude-ceska-televize_2610061353_ako"
+        }
+      ],
+      "en": {
+        "headline": "Czech Television will not take part in the Eurovision Song Contest next year",
+        "sentences": [
+          {
+            "en": "The reason, according to ČT, is current budget adjustments; it announced this on the X network.",
+            "cs": "Důvodem jsou podle ČT aktuální úpravy rozpočtu, oznámila to na síti X."
+          },
+          {
+            "en": "It thereby confirmed earlier media reports that it will cancel some programmes because of savings and uncertainty about future funding.",
+            "cs": "Potvrdila tak dřívější informace médií, že kvůli úsporám a nejistotě ohledně budoucího financování zruší některé pořady."
+          },
+          {
+            "en": "The broadcast of the contest is also to be missing.",
+            "cs": "Chybět má i přenos soutěže."
+          },
+          {
+            "en": "The broadcaster did not rule out returning to the contest in later years.",
+            "cs": "Televize nevyloučila, že se v dalších letech do soutěže vrátí."
+          },
+          {
+            "en": "The next edition of Eurovision will take place in May 2027 in Burgas, Bulgaria.",
+            "cs": "Příští ročník Eurovize se bude konat v květnu 2027 v bulharském Burgasu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "adjustments",
+            "definition": "small changes made to something"
+          },
+          {
+            "term": "rule out",
+            "definition": "to say that something will definitely not happen"
+          },
+          {
+            "term": "broadcaster",
+            "definition": "a company that makes and sends out radio or TV programmes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Voxpot se ptá, čeho se bojí saúdský korunní princ",
+      "body": "Saúdská Arábie se podle Voxpotu ocitá pod tlakem sílících útoků Húsíů i měnící se geopolitické situace na Blízkém východě. Rozhovor se Simonem Mabonem z Lancaster University hledá odpověď na to, jaké plány má Rijád s Jemenem a kde shání nové spojence.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/chaos-a-bolehlav-v-rijadu-ceho-se-boji-saudsky-korunni-princ/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot asks what the Saudi crown prince is afraid of",
+        "sentences": [
+          {
+            "en": "According to Voxpot, Saudi Arabia is coming under pressure from intensifying Houthi attacks and from the changing geopolitical situation in the Middle East.",
+            "cs": "Saúdská Arábie se podle Voxpotu ocitá pod tlakem sílících útoků Húsíů i měnící se geopolitické situace na Blízkém východě."
+          },
+          {
+            "en": "An interview with Simon Mabon of Lancaster University looks for an answer to what plans Riyadh has for Yemen and where it is looking for new allies.",
+            "cs": "Rozhovor se Simonem Mabonem z Lancaster University hledá odpověď na to, jaké plány má Rijád s Jemenem a kde shání nové spojence."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crown prince",
+            "definition": "the son of a king who will become the next ruler"
+          },
+          {
+            "term": "intensifying",
+            "definition": "becoming stronger or more serious"
+          },
+          {
+            "term": "allies",
+            "definition": "countries that support each other"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:22",
+      "headline": "Lehečka prohrál finále v Tokiu s Alcarazem",
+      "body": "Jiří Lehečka ve svém osmém finále na okruhu ATP třetí titul nepřidal. Se Španělem Carlosem Alcarazem prohrál 6:7 a 4:6 za hodinu a 36 minut.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-lehecka-hraje-o-titul-v-tokiu-ho-ceka-sedminasobny-grandslamovy-sampion-5549520"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/lehecka-na-titul-v-tokiu-nedosahl-ve-finale-byl-lepsi-alcaraz-159305"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/jiri-lehecka-atp-tokio-tenis-carlos-alcaraz_2610061310_kri"
+        }
+      ],
+      "en": {
+        "headline": "Lehečka lost the final in Tokyo to Alcaraz",
+        "sentences": [
+          {
+            "en": "Jiří Lehečka did not add a third title in his eighth final on the ATP tour.",
+            "cs": "Jiří Lehečka ve svém osmém finále na okruhu ATP třetí titul nepřidal."
+          },
+          {
+            "en": "He lost to Spain's Carlos Alcaraz 6:7 and 4:6 in an hour and 36 minutes.",
+            "cs": "Se Španělem Carlosem Alcarazem prohrál 6:7 a 4:6 za hodinu a 36 minut."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ATP tour",
+            "definition": "the worldwide series of men's professional tennis tournaments"
+          },
+          {
+            "term": "title",
+            "definition": "the position of winner of an important competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:22",
+      "headline": "Sinner kvůli koleni předčasně ukončil sezonu a přijde o post světové jedničky",
+      "body": "Ital od červencového triumfu ve Wimbledonu neodehrál jediný zápas a dá přednost léčbě zánětu kolene. „Musím myslet na svou dlouhodobou kariéru,“ uvedl. Na tenisovém trůnu ho vystřídá Němec Alexander Zverev.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-svetova-jednicka-predcasne-ukoncila-sezonu-5549885"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/sinner-uz-koleno-zatezovat-nebude-sezonu-predcasne-ukoncil-159303"
+        }
+      ],
+      "en": {
+        "headline": "Sinner has ended his season early because of his knee and will lose the world number one spot",
+        "sentences": [
+          {
+            "en": "The Italian has not played a single match since his triumph at Wimbledon in July and will give priority to treating the inflammation in his knee.",
+            "cs": "Ital od červencového triumfu ve Wimbledonu neodehrál jediný zápas a dá přednost léčbě zánětu kolene."
+          },
+          {
+            "en": "“I have to think about my long-term career,” he said.",
+            "cs": "„Musím myslet na svou dlouhodobou kariéru,“ uvedl."
+          },
+          {
+            "en": "He will be replaced on the tennis throne by Germany's Alexander Zverev.",
+            "cs": "Na tenisovém trůnu ho vystřídá Němec Alexander Zverev."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "give priority to",
+            "definition": "to treat something as more important than other things"
+          },
+          {
+            "term": "inflammation",
+            "definition": "a painful red swelling in a part of the body"
+          },
+          {
+            "term": "throne",
+            "definition": "here, the top position in a sport"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:05",
+      "headline": "Muchová a Bartůňková postoupily v Pekingu do čtvrtfinále, kde se utkají spolu",
+      "body": "Karolína Muchová udolala bývalou světovou jedničku Naomi Ósakaovou 7:5, 1:6 a 7:6 po bezmála tříhodinové bitvě a devíti mečbolech. Nikola Bartůňková zdolala Rakušanku Sinju Krausovou 6:0, 4:6 a 6:3. Linda Nosková prohrála s Ruskou Jekatěrinou Alexandrovovou 2:6 a 2:6 a loňské finále neobhájí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-infarktovy-zaver-devet-mecbolu-muchova-posilala-diky-do-nebe-trasla-jsem-se-priznala-5550341"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/noskova-konci-v-pekingu-v-osmifinale-stopku-ji-vystavila-alexandrovova-159301"
+        }
+      ],
+      "en": {
+        "headline": "Muchová and Bartůňková have reached the quarter-finals in Beijing, where they will face each other",
+        "sentences": [
+          {
+            "en": "Karolína Muchová wore down the former world number one Naomi Ósaka 7:5, 1:6 and 7:6 after a battle of almost three hours and nine match points.",
+            "cs": "Karolína Muchová udolala bývalou světovou jedničku Naomi Ósakaovou 7:5, 1:6 a 7:6 po bezmála tříhodinové bitvě a devíti mečbolech."
+          },
+          {
+            "en": "Nikola Bartůňková beat Austria's Sinja Kraus 6:0, 4:6 and 6:3.",
+            "cs": "Nikola Bartůňková zdolala Rakušanku Sinju Krausovou 6:0, 4:6 a 6:3."
+          },
+          {
+            "en": "Linda Nosková lost to Russia's Jekatěrina Alexandrova 2:6 and 2:6 and will not defend last year's final.",
+            "cs": "Linda Nosková prohrála s Ruskou Jekatěrinou Alexandrovovou 2:6 a 2:6 a loňské finále neobhájí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "quarter-finals",
+            "definition": "the round of a competition with eight players left"
+          },
+          {
+            "term": "wore down",
+            "definition": "slowly made an opponent weaker until they lost"
+          },
+          {
+            "term": "match points",
+            "definition": "chances to win the whole match with one more point"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:45",
+      "headline": "FIFA podle NYT a Le Monde nezakročila proti nastupování brankáře Konga",
+      "body": "Deníky The New York Times a Le Monde s odkazem na interní dokumenty uvedly, že federace nezasáhla proti tomu, aby brankář Lionel Mpasi nastupoval v kvalifikaci i na letním mistrovství světa v Severní Americe za Kongo. Jde o další skandál spojený se šampionátem a s prezidentem Giannim Infantinem po případu Folarina Baloguna. Norský fotbalový svaz zároveň podal u komisí FIFA dva oficiální podněty k prošetření Infantinových kroků: jeden kvůli jeho vztahům s americkým prezidentem Donaldem Trumpem, druhý kvůli plánu prodat soukromým investorům část práv z mistrovství světa.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ms-dalsi-skandal-kolem-fotbaloveho-ms-brankar-nemel-vubec-nastoupit-fifa-udajne-pripad-ututlala-5550345"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-norove-podali-komisim-fifa-oficialni-podnety-k-prosetreni-infantinovych-kroku-5550339"
+        }
+      ],
+      "en": {
+        "headline": "FIFA did not act against Congo's goalkeeper playing, according to the NYT and Le Monde",
+        "sentences": [
+          {
+            "en": "The New York Times and Le Monde, citing internal documents, reported that the federation did not step in to stop goalkeeper Lionel Mpasi from playing for Congo in qualifying and at the summer World Cup in North America.",
+            "cs": "Deníky The New York Times a Le Monde s odkazem na interní dokumenty uvedly, že federace nezasáhla proti tomu, aby brankář Lionel Mpasi nastupoval v kvalifikaci i na letním mistrovství světa v Severní Americe za Kongo."
+          },
+          {
+            "en": "It is another scandal linked to the tournament and to president Gianni Infantino after the Folarin Balogun case.",
+            "cs": "Jde o další skandál spojený se šampionátem a s prezidentem Giannim Infantinem po případu Folarina Baloguna."
+          },
+          {
+            "en": "At the same time the Norwegian football association has filed two official complaints with FIFA's committees asking for Infantino's actions to be investigated: one over his relations with American President Donald Trump, the other over his plan to sell part of the World Cup rights to private investors.",
+            "cs": "Norský fotbalový svaz zároveň podal u komisí FIFA dva oficiální podněty k prošetření Infantinových kroků: jeden kvůli jeho vztahům s americkým prezidentem Donaldem Trumpem, druhý kvůli plánu prodat soukromým investorům část práv z mistrovství světa."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "step in",
+            "definition": "to get involved in order to stop a problem"
+          },
+          {
+            "term": "qualifying",
+            "definition": "the matches played to decide who reaches a tournament"
+          },
+          {
+            "term": "filed",
+            "definition": "officially submitted a document or complaint"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:02",
+      "headline": "Son Hung-min se stal nejlepším střelcem v historii korejské reprezentace",
+      "body": "Čtyřiatřicetiletý kapitán vstřelil v přípravném utkání proti Uzbekistánu 59. gól a pomohl k výhře 2:0. Překonal tím Čcha Pum-kuna, s nímž se dosud o první příčku dělil.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-hvezdny-son-prepsal-fotbalovou-historii-rekordni-trefou-prekonal-legendu-5550347"
+        }
+      ],
+      "en": {
+        "headline": "Son Hung-min has become the highest scorer in the history of the Korean national team",
+        "sentences": [
+          {
+            "en": "The 34-year-old captain scored his 59th goal in a friendly against Uzbekistan and helped his team to a 2:0 win.",
+            "cs": "Čtyřiatřicetiletý kapitán vstřelil v přípravném utkání proti Uzbekistánu 59. gól a pomohl k výhře 2:0."
+          },
+          {
+            "en": "He thereby overtook Čcha Pum-kun, with whom he had so far shared first place.",
+            "cs": "Překonal tím Čcha Pum-kuna, s nímž se dosud o první příčku dělil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "friendly",
+            "definition": "a match played for practice, not in a competition"
+          },
+          {
+            "term": "overtook",
+            "definition": "went past someone to be ahead of them"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Czechia has received the first 309 million euros from the EU defence instrument SAFE; the money is to go towards tanks, Tatra vehicles and the D11 motorway.",
+    "The state assembly in Saxony-Anhalt will be led by a politician of Alternative for Germany for the first time.",
+    "Drones hit two merchant ships off the Bulgarian coast; one of them sank and its crew is missing."
+  ]
+}
