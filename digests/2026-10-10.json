@@ -1,0 +1,1470 @@
+{
+  "date": "2026-10-10",
+  "covers": "2026-10-10",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "ČT24",
+    "Hacker News"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra budou slabé přeháňky a denní teplota do 12,6 °C, k tomu nárazový vítr až 36,7 kilometru v hodině. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-10-11",
+        "icon": "rain",
+        "temp_max_c": 12.6,
+        "temp_min_c": 6.4
+      },
+      {
+        "date": "2026-10-12",
+        "icon": "cloudy",
+        "temp_max_c": 13.2,
+        "temp_min_c": 4.6
+      },
+      {
+        "date": "2026-10-13",
+        "icon": "fog",
+        "temp_max_c": 14.0,
+        "temp_min_c": 2.1
+      },
+      {
+        "date": "2026-10-14",
+        "icon": "rain",
+        "temp_max_c": 15.1,
+        "temp_min_c": 8.0
+      }
+    ],
+    "summary_en": "Tomorrow will bring light showers and a daytime temperature of up to 12.6 °C, along with wind gusts of up to 36.7 kilometres per hour. Air quality is expected to be acceptable."
+  },
+  "highlights": [
+    "Komunální a senátní volby skončily, sčítání hlasů odpoledne pokročilo zhruba k polovině okrsků a účast v senátních volbách je nadprůměrná.",
+    "Donald Trump se po nočním telefonátu s Vladimirem Putinem dohodl na dočasném zrušení části ropných sankcí a na dodávkách ruské nafty; Putin mu podle Deníku N sdělil, že válku ukončit nehodlá.",
+    "Při ruském bombardování Záporoží zemřelo nejméně patnáct lidí včetně tří dětí."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:56",
+      "headline": "Volební místnosti se zavřely, ve sčítání obecních voleb vedou nezávislí a lidovci",
+      "body": "Volební místnosti se v sobotu ve 14:00 uzavřely a začalo sčítání hlasů do obecních zastupitelstev. První výsledky zveřejnil Český statistický úřad ve 14:30, o minutu dříve než před čtyřmi lety; nejrychleji dodala čísla komise z jednoho z okrsků v Miskovicích na Kutnohorsku, která hlasy spočítala za 28 minut, následovaly Lovčovice na Třebíčsku a Hvožďany na Domažlicku. Nejvíce zastupitelských křesel tradičně získávala různá místní sdružení nezávislých kandidátů. Ze stran, které kandidovaly samostatně, vedla po sečtení čtvrtiny i třetiny okrsků podle počtu mandátů KDU-ČSL před hnutím STAN a ODS, čtvrté bylo hnutí ANO. Po sečtení čtvrtiny okrsků bylo zvoleno 20 708 zastupitelů. Odpoledne bylo podle Deníku N sečteno 45 procent okrsků; data z 25 procent okrsků statistický úřad zpracoval v 16.09, tedy o pět minut později než v roce 2022.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/prvni-sectenou-obci-byly-miskovice-na-kutnohorsku-komise-spocitala-hlasy-za-28_2610101501_kvr"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2213093/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2213014/"
+        }
+      ],
+      "en": {
+        "headline": "Polling stations have closed and independents and the Christian Democrats lead the municipal count",
+        "sentences": [
+          {
+            "en": "Polling stations closed on Saturday at 2 p.m. and the counting of votes for municipal councils began.",
+            "cs": "Volební místnosti se v sobotu ve 14:00 uzavřely a začalo sčítání hlasů do obecních zastupitelstev."
+          },
+          {
+            "en": "The Czech Statistical Office published the first results at 2.30 p.m., a minute earlier than four years ago; the fastest returns came from one of the polling districts in Miskovice in the Kutná Hora area, where the commission counted the votes in 28 minutes, followed by Lovčovice near Třebíč and Hvožďany near Domažlice.",
+            "cs": "První výsledky zveřejnil Český statistický úřad ve 14:30, o minutu dříve než před čtyřmi lety; nejrychleji dodala čísla komise z jednoho z okrsků v Miskovicích na Kutnohorsku, která hlasy spočítala za 28 minut, následovaly Lovčovice na Třebíčsku a Hvožďany na Domažlicku."
+          },
+          {
+            "en": "As usual, the largest number of council seats went to various local associations of independent candidates.",
+            "cs": "Nejvíce zastupitelských křesel tradičně získávala různá místní sdružení nezávislých kandidátů."
+          },
+          {
+            "en": "Among the parties running on their own, KDU-ČSL led on the number of seats after both a quarter and a third of the districts had been counted, ahead of STAN and ODS, with ANO in fourth place.",
+            "cs": "Ze stran, které kandidovaly samostatně, vedla po sečtení čtvrtiny i třetiny okrsků podle počtu mandátů KDU-ČSL před hnutím STAN a ODS, čtvrté bylo hnutí ANO."
+          },
+          {
+            "en": "After a quarter of the districts had been counted, 20,708 councillors had been elected.",
+            "cs": "Po sečtení čtvrtiny okrsků bylo zvoleno 20 708 zastupitelů."
+          },
+          {
+            "en": "By the afternoon, according to Deník N, 45 percent of the districts had been counted; the statistical office processed the data from 25 percent of districts at 4.09 p.m., five minutes later than in 2022.",
+            "cs": "Odpoledne bylo podle Deníku N sečteno 45 procent okrsků; data z 25 procent okrsků statistický úřad zpracoval v 16.09, tedy o pět minut později než v roce 2022."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "polling",
+            "definition": "connected with the place or act of voting in an election"
+          },
+          {
+            "term": "returns",
+            "definition": "the counted results sent in from a voting place"
+          },
+          {
+            "term": "councillors",
+            "definition": "people elected to govern a town or city"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:31",
+      "headline": "Účast v senátních volbách je nadprůměrná, čtyři kandidáti míří k mandátu už v prvním kole",
+      "body": "Souběžně s obecními volbami se hlasovalo také ve 27 senátních obvodech. Účast je podle předběžných čísel nadprůměrná, překračuje 44 procent a podle Deníku N může být dokonce rekordní; vyšší bývá právě v letech, kdy se konají i komunální volby. Přes polovinu hlasů měli odpoledne čtyři kandidáti: Tomáš Fiala za hnutí Naše Česko na Strakonicku, Jan Sobotka (STAN) na Trutnovsku, Jan Grulich (TOP 09) na Rychnovsku a Jan Grolich (KDU-ČSL) na Vyškovsku. Pokud si zisk nad 50 procent udrží, získají křeslo bez druhého kola. Fiala, lékař a ředitel strakonické nemocnice, byl před šesti lety zvolen jako nestraník za ODS, letos ale přestoupil k nově vzniklému hnutí Naše Česko jihočeského hejtmana Martina Kuby, pro které by to byl první volební úspěch.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/kubovo-hnuti-nase-cesko-vyhlizi-prvni-volebni-uspech-jeho-senator-fiala-dominuje_2610101631_mst"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2212960/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2212971/"
+        }
+      ],
+      "en": {
+        "headline": "Turnout in the Senate election is above average and four candidates are heading for a seat in the first round",
+        "sentences": [
+          {
+            "en": "Voting also took place in 27 Senate constituencies alongside the municipal elections.",
+            "cs": "Souběžně s obecními volbami se hlasovalo také ve 27 senátních obvodech."
+          },
+          {
+            "en": "According to preliminary figures, turnout is above average, exceeding 44 percent, and Deník N says it may even be a record; it tends to be higher in years when municipal elections are held as well.",
+            "cs": "Účast je podle předběžných čísel nadprůměrná, překračuje 44 procent a podle Deníku N může být dokonce rekordní; vyšší bývá právě v letech, kdy se konají i komunální volby."
+          },
+          {
+            "en": "By the afternoon four candidates had more than half of the votes: Tomáš Fiala for the Naše Česko movement in the Strakonice area, Jan Sobotka (STAN) in the Trutnov area, Jan Grulich (TOP 09) in the Rychnov area and Jan Grolich (KDU-ČSL) in the Vyškov area.",
+            "cs": "Přes polovinu hlasů měli odpoledne čtyři kandidáti: Tomáš Fiala za hnutí Naše Česko na Strakonicku, Jan Sobotka (STAN) na Trutnovsku, Jan Grulich (TOP 09) na Rychnovsku a Jan Grolich (KDU-ČSL) na Vyškovsku."
+          },
+          {
+            "en": "If they hold on to more than 50 percent, they will take the seat without a run-off.",
+            "cs": "Pokud si zisk nad 50 procent udrží, získají křeslo bez druhého kola."
+          },
+          {
+            "en": "Fiala, a doctor and the director of the Strakonice hospital, was elected six years ago as an independent on the ODS ticket, but this year he moved to Naše Česko, the newly founded movement of South Bohemian governor Martin Kuba, for which this would be a first electoral success.",
+            "cs": "Fiala, lékař a ředitel strakonické nemocnice, byl před šesti lety zvolen jako nestraník za ODS, letos ale přestoupil k nově vzniklému hnutí Naše Česko jihočeského hejtmana Martina Kuby, pro které by to byl první volební úspěch."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to vote in an election"
+          },
+          {
+            "term": "constituencies",
+            "definition": "areas that elect their own representative"
+          },
+          {
+            "term": "run-off",
+            "definition": "a second round of voting between the two best candidates"
+          },
+          {
+            "term": "ticket",
+            "definition": "the list of candidates that a party puts forward"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:43",
+      "headline": "Loňská korespondenční volba zabránila části lidí hlasovat do Senátu",
+      "body": "Někteří voliči, kteří přišli hlasovat v senátních volbách, svůj hlas odevzdat nemohli. Zůstali totiž od loňska zapsaní ve zvláštním seznamu voličů na zastupitelských úřadech v zahraničí kvůli korespondenční volbě do Poslanecké sněmovny, a hlasovat tak mohli jen v obecních volbách. Podle ministerstva vnitra byli všichni lidé zapsaní pro volbu ze zahraničí na tuto skutečnost upozorněni. Jedna z voliček ale Seznam Zprávám řekla: „Bohužel mě nikdo neupozornil, že se mám vymazat.“",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/korespondencni-volba-mohli-volit_2610101543_mst"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-do-senatu-chteli-volit-ale-nemohli-senatni-volby-zkomplikovaly-ty-lonske-korespondencni-317297"
+        }
+      ],
+      "en": {
+        "headline": "Last year's postal vote stopped some people from voting for the Senate",
+        "sentences": [
+          {
+            "en": "Some voters who came to cast a ballot in the Senate election were unable to do so.",
+            "cs": "Někteří voliči, kteří přišli hlasovat v senátních volbách, svůj hlas odevzdat nemohli."
+          },
+          {
+            "en": "Since last year they had remained on the special voters' register at embassies abroad because of the postal vote for the Chamber of Deputies, so they could only vote in the municipal elections.",
+            "cs": "Zůstali totiž od loňska zapsaní ve zvláštním seznamu voličů na zastupitelských úřadech v zahraničí kvůli korespondenční volbě do Poslanecké sněmovny, a hlasovat tak mohli jen v obecních volbách."
+          },
+          {
+            "en": "According to the Interior Ministry, everyone registered to vote from abroad was warned about this.",
+            "cs": "Podle ministerstva vnitra byli všichni lidé zapsaní pro volbu ze zahraničí na tuto skutečnost upozorněni."
+          },
+          {
+            "en": "One voter nevertheless told Seznam Zprávy: “Unfortunately nobody warned me that I had to remove myself from the register.”",
+            "cs": "Jedna z voliček ale Seznam Zprávám řekla: „Bohužel mě nikdo neupozornil, že se mám vymazat.“"
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cast a ballot",
+            "definition": "to vote in an election"
+          },
+          {
+            "term": "register",
+            "definition": "an official list of names"
+          },
+          {
+            "term": "embassies",
+            "definition": "offices that represent a country in another country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:14",
+      "headline": "Starosta Moldavy vyškrtl 22 lidí ze seznamu voličů, průběh voleb posoudí krajský soud",
+      "body": "Průběh voleb v Moldavě na Teplicku bude řešit Krajský soud v Ústí nad Labem. Starosta David Leitermann (ODS) vyškrtl ze seznamu voličů 22 lidí s tím, že se v obci zdržují jen před volbami. Někteří z nich s postupem nesouhlasili a přišli hlasovat, volební komise jim to ale nedovolila. Takzvaná předvolební turistika a zištné přihlašování k trvalému pobytu trápí starosty i jinde: podle Seznam Zpráv ministerstvo vnitra radí obcím počkat a nedělat nic, zatímco soudy doporučují takzvané černé duše ze seznamu voličů vyškrtnout.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/nikde-jinde-nas-volit-nenechali-starosta-vyskrtl-z-volicskeho-seznamu-v-moldave_2610101614_jos"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-co-s-volebnimi-turisty-obce-jsou-bezradne-ministerstvo-radi-nedelat-nic-317120"
+        }
+      ],
+      "en": {
+        "headline": "The mayor of Moldava removed 22 people from the voters' register and a regional court will examine the vote",
+        "sentences": [
+          {
+            "en": "The conduct of the election in Moldava in the Teplice area will be examined by the Regional Court in Ústí nad Labem.",
+            "cs": "Průběh voleb v Moldavě na Teplicku bude řešit Krajský soud v Ústí nad Labem."
+          },
+          {
+            "en": "Mayor David Leitermann (ODS) removed 22 people from the voters' register, saying they only stay in the village before elections.",
+            "cs": "Starosta David Leitermann (ODS) vyškrtl ze seznamu voličů 22 lidí s tím, že se v obci zdržují jen před volbami."
+          },
+          {
+            "en": "Some of them disagreed with the move and came to vote, but the election commission did not let them.",
+            "cs": "Někteří z nich s postupem nesouhlasili a přišli hlasovat, volební komise jim to ale nedovolila."
+          },
+          {
+            "en": "So-called pre-election tourism and self-serving registration of permanent residence is a headache for mayors elsewhere too: according to Seznam Zprávy, the Interior Ministry advises municipalities to wait and do nothing, while the courts recommend striking the so-called dead souls off the voters' register.",
+            "cs": "Takzvaná předvolební turistika a zištné přihlašování k trvalému pobytu trápí starosty i jinde: podle Seznam Zpráv ministerstvo vnitra radí obcím počkat a nedělat nic, zatímco soudy doporučují takzvané černé duše ze seznamu voličů vyškrtnout."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conduct",
+            "definition": "the way something is organised and carried out"
+          },
+          {
+            "term": "self-serving",
+            "definition": "done only to get an advantage for yourself"
+          },
+          {
+            "term": "headache",
+            "definition": "a problem that is difficult to deal with"
+          },
+          {
+            "term": "striking",
+            "definition": "removing a name from a list"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:25",
+      "headline": "Motoristé nevpustili do svého volebního štábu Deník N a Respekt",
+      "body": "Motoristé sobě nevpustili některé redakce do svého volebního štábu v centru Prahy. Vedle Deníku N nedostal akreditaci ani týdeník Respekt, oficiálně z kapacitních důvodů.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2212656/denik-n-tak-to-asi-neklapne-motoriste-nevpustili-nektere-redakce-do-volebniho-stabu/"
+        }
+      ],
+      "en": {
+        "headline": "The Motoristé party barred Deník N and Respekt from its election headquarters",
+        "sentences": [
+          {
+            "en": "Motoristé sobě did not let some newsrooms into its election headquarters in central Prague.",
+            "cs": "Motoristé sobě nevpustili některé redakce do svého volebního štábu v centru Prahy."
+          },
+          {
+            "en": "Besides Deník N, the weekly Respekt was also refused accreditation, officially on grounds of limited capacity.",
+            "cs": "Vedle Deníku N nedostal akreditaci ani týdeník Respekt, oficiálně z kapacitních důvodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "barred",
+            "definition": "not allowed to enter a place"
+          },
+          {
+            "term": "newsrooms",
+            "definition": "the teams of people who produce the news"
+          },
+          {
+            "term": "accreditation",
+            "definition": "official permission to attend an event as a journalist"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:07",
+      "headline": "Výbor OSN rozhodl, že Česko musí odškodnit afghánské dívky zavřené v detenčním zařízení",
+      "body": "Výbor OSN vyčetl Česku, že afghánské dívky strávily 34 dní v detenčním zařízení jen kvůli tomu, že měly status migrantů. Stát jim teď má zaplatit odškodnění. Podle právničky, kterou cituje Seznam Zprávy, může mít rozhodnutí dopad na přístup k migrantům celosvětově.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-afghanske-divky-skoncily-v-detencnim-zarizeni-cesko-je-ma-odskodnit-317215"
+        }
+      ],
+      "en": {
+        "headline": "A UN committee has ruled that Czechia must compensate Afghan girls held in a detention centre",
+        "sentences": [
+          {
+            "en": "A UN committee criticised Czechia because Afghan girls spent 34 days in a detention centre solely because they had the status of migrants.",
+            "cs": "Výbor OSN vyčetl Česku, že afghánské dívky strávily 34 dní v detenčním zařízení jen kvůli tomu, že měly status migrantů."
+          },
+          {
+            "en": "The state must now pay them compensation.",
+            "cs": "Stát jim teď má zaplatit odškodnění."
+          },
+          {
+            "en": "According to a lawyer quoted by Seznam Zprávy, the ruling could affect the treatment of migrants worldwide.",
+            "cs": "Podle právničky, kterou cituje Seznam Zprávy, může mít rozhodnutí dopad na přístup k migrantům celosvětově."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compensate",
+            "definition": "to pay someone money because they were harmed"
+          },
+          {
+            "term": "detention centre",
+            "definition": "a place where people are kept locked up by the state"
+          },
+          {
+            "term": "ruling",
+            "definition": "an official decision made by a court or committee"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:00",
+      "headline": "Obce budou moci po taxikářích vyžadovat základy češtiny, novelu schválila Sněmovna",
+      "body": "Poslanecká sněmovna schválila novelu, která dává obcím pravomoc rozhodnout, zda taxikáři v jejich ulicích musí zvládat základy češtiny. Předloha teď míří do Senátu.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/cesko/cesko-taxikari-budou-muset-umet-cesky-schvaleno/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=cesko"
+        }
+      ],
+      "en": {
+        "headline": "Municipalities will be able to require basic Czech from taxi drivers after a bill passed the Chamber of Deputies",
+        "sentences": [
+          {
+            "en": "The Chamber of Deputies approved an amendment giving municipalities the power to decide whether taxi drivers on their streets must have a basic command of Czech.",
+            "cs": "Poslanecká sněmovna schválila novelu, která dává obcím pravomoc rozhodnout, zda taxikáři v jejich ulicích musí zvládat základy češtiny."
+          },
+          {
+            "en": "The bill now goes to the Senate.",
+            "cs": "Předloha teď míří do Senátu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "amendment",
+            "definition": "a change made to a law"
+          },
+          {
+            "term": "command",
+            "definition": "the ability to use a language well"
+          },
+          {
+            "term": "bill",
+            "definition": "a written plan for a new law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:57",
+      "headline": "V prvních sečtených okrscích v Hradci vede strana současné primátorky",
+      "body": "Hradec Králové hlásí první výsledky obecních voleb. Po sečtení pěti volebních okrsků v nich podle Hradecké drbny zvítězila strana současné primátorky. Volební účast se podle serveru pohybovala kolem padesáti procent. Na Hradecku byla první sečtenou obcí Vrchovnice, dvě hodiny po uzavření volebních místností bylo podle Hradeckého deníku v regionu sečteno 30 procent okrsků.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/902589-je-secteno-20-procent.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/komunalni-volby/komunalni-volby-skoncily-hradecko-scitani-hlasu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=komunalni-volby"
+        }
+      ],
+      "en": {
+        "headline": "The current mayor's party leads in the first counted districts in Hradec Králové",
+        "sentences": [
+          {
+            "en": "Hradec Králové is reporting its first municipal election results.",
+            "cs": "Hradec Králové hlásí první výsledky obecních voleb."
+          },
+          {
+            "en": "After five polling districts had been counted, the party of the current mayor came first in them, according to Hradecká drbna.",
+            "cs": "Po sečtení pěti volebních okrsků v nich podle Hradecké drbny zvítězila strana současné primátorky."
+          },
+          {
+            "en": "Turnout was around fifty percent, the site reports.",
+            "cs": "Volební účast se podle serveru pohybovala kolem padesáti procent."
+          },
+          {
+            "en": "In the Hradec Králové area the first village to finish counting was Vrchovnice, and two hours after the polling stations closed 30 percent of the region's districts had been counted, according to Hradecký deník.",
+            "cs": "Na Hradecku byla první sečtenou obcí Vrchovnice, dvě hodiny po uzavření volebních místností bylo podle Hradeckého deníku v regionu sečteno 30 procent okrsků."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "polling districts",
+            "definition": "small areas where people go to vote and votes are counted"
+          },
+          {
+            "term": "Turnout",
+            "definition": "the number of people who come to vote in an election"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:47",
+      "headline": "Grulich obhájí křeslo na Rychnovsku, v hradeckém obvodu vedou po prvních okrscích ženy",
+      "body": "Senátor Jan Grulich míří k obhajobě mandátu za Rychnovsko a měl by region zastupovat další šestileté období. Zvolení už v prvním kole bylo na Rychnovsku a v části Pardubicka jisté, protože proti sobě stáli jen dva kandidáti — Grulicha vyzval poslanec a radní Dobrušky Petr Sadovský (ANO). V hradeckém obvodu číslo 45 se o křeslo uchází sedm kandidátů a po sečtení prvních okrsků vedly podle Hradecké drbny ženy v čele s Janou Hůlkovou; Hradecký deník psal o napínavém boji žen, v němž byl Martin Dvořák zatím čtvrtý. Přes polovinu hlasů měl odpoledne i Jan Sobotka (STAN) na Trutnovsku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/senatni-volby-2026-grulich-rychnovsko-vysledky.A261010_151344_hradec-volby_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/902603-senatni-volby-v-hradci-kralove-po-secteni-prvnich-okrsku-vede-jana-hulkova.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/senatni-volby-obvod-hradec-kralove-prvni-kolo/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Grulich will keep his seat in the Rychnov area and women lead in the Hradec constituency after the first districts",
+        "sentences": [
+          {
+            "en": "Senator Jan Grulich is on course to keep his seat for the Rychnov area and should represent the region for another six-year term.",
+            "cs": "Senátor Jan Grulich míří k obhajobě mandátu za Rychnovsko a měl by region zastupovat další šestileté období."
+          },
+          {
+            "en": "Being elected in the first round was certain in the Rychnov area and part of the Pardubice region, because only two candidates stood against each other — Grulich was challenged by MP and Dobruška councillor Petr Sadovský (ANO).",
+            "cs": "Zvolení už v prvním kole bylo na Rychnovsku a v části Pardubicka jisté, protože proti sobě stáli jen dva kandidáti — Grulicha vyzval poslanec a radní Dobrušky Petr Sadovský (ANO)."
+          },
+          {
+            "en": "Seven candidates are competing for the seat in Hradec constituency number 45, and after the first districts were counted women were in front, led by Jana Hůlková, according to Hradecká drbna; Hradecký deník wrote of a tense contest among the women, in which Martin Dvořák was fourth so far.",
+            "cs": "V hradeckém obvodu číslo 45 se o křeslo uchází sedm kandidátů a po sečtení prvních okrsků vedly podle Hradecké drbny ženy v čele s Janou Hůlkovou; Hradecký deník psal o napínavém boji žen, v němž byl Martin Dvořák zatím čtvrtý."
+          },
+          {
+            "en": "Jan Sobotka (STAN) in the Trutnov area also had more than half of the votes in the afternoon.",
+            "cs": "Přes polovinu hlasů měl odpoledne i Jan Sobotka (STAN) na Trutnovsku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "on course",
+            "definition": "likely to achieve something if things continue this way"
+          },
+          {
+            "term": "term",
+            "definition": "a fixed period for which someone holds a position"
+          },
+          {
+            "term": "challenged",
+            "definition": "competed against someone for a position"
+          },
+          {
+            "term": "tense",
+            "definition": "causing a nervous, uncertain feeling"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:50",
+      "headline": "Ve dvou obcích kraje se spolu s volbami hlasovalo i v místních referendech",
+      "body": "Ve dvou obcích Královéhradeckého kraje lidé spolu s komunálními a senátními volbami rozhodovali také v místních referendech. V Hrádku u Nechanic hlasovali o budoucnosti kostela svatého Jiří, v Maršově u Úpice o větrných elektrárnách. Podle Hradecké drbny provázejí jedno z referend pochybnosti.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/902583-hlasuje-se-o-kostele-i-vetrnicich-jedno-referendum-provazeji-pochybnosti.html"
+        }
+      ],
+      "en": {
+        "headline": "Two villages in the region held local referendums alongside the elections",
+        "sentences": [
+          {
+            "en": "In two villages in the Hradec Králové region, people also decided local referendums alongside the municipal and Senate elections.",
+            "cs": "Ve dvou obcích Královéhradeckého kraje lidé spolu s komunálními a senátními volbami rozhodovali také v místních referendech."
+          },
+          {
+            "en": "In Hrádek near Nechanice they voted on the future of the church of St George, and in Maršov near Úpice on wind turbines.",
+            "cs": "V Hrádku u Nechanic hlasovali o budoucnosti kostela svatého Jiří, v Maršově u Úpice o větrných elektrárnách."
+          },
+          {
+            "en": "According to Hradecká drbna, one of the referendums is clouded by doubts.",
+            "cs": "Podle Hradecké drbny provázejí jedno z referend pochybnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "referendums",
+            "definition": "votes in which everyone decides a single question"
+          },
+          {
+            "term": "wind turbines",
+            "definition": "tall machines that make electricity from wind"
+          },
+          {
+            "term": "clouded by",
+            "definition": "spoiled or made less clear by something bad"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:02",
+      "headline": "Hradečtí fotbalisté doma prohráli s nováčkem Artisem Brno 2:4",
+      "body": "Fotbalisté Hradce Králové podruhé za sebou doma prohráli, tentokrát s ligovým nováčkem. Artis Brno, který měl před zápasem v sezoně jedinou výhru, otočil v desátém kole vývoj utkání a v FINEP Areně vyhrál 4:2. Votroci dohrávali více než půlhodinu bez vyloučeného Jakuba Kučery, zápas sledovalo 4716 diváků.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-10-kolo-hradec-kralove-artis-brno-online-vysledek.A261008_145230_fotbal_tals#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/fotbal-prvni-liga/dalsi-domaci-rana-pro-votroky-hradec-po-pauze-prekvapive-padl-s-novackem/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga"
+        }
+      ],
+      "en": {
+        "headline": "Hradec footballers lost 2:4 at home to newly promoted Artis Brno",
+        "sentences": [
+          {
+            "en": "The footballers of Hradec Králové lost at home for the second time in a row, this time to a newly promoted side.",
+            "cs": "Fotbalisté Hradce Králové podruhé za sebou doma prohráli, tentokrát s ligovým nováčkem."
+          },
+          {
+            "en": "Artis Brno, which had only one win this season before the match, turned the game around in the tenth round and won 4:2 at the FINEP Arena.",
+            "cs": "Artis Brno, který měl před zápasem v sezoně jedinou výhru, otočil v desátém kole vývoj utkání a v FINEP Areně vyhrál 4:2."
+          },
+          {
+            "en": "Hradec played more than half an hour without Jakub Kučera, who was sent off, and 4,716 spectators watched the match.",
+            "cs": "Votroci dohrávali více než půlhodinu bez vyloučeného Jakuba Kučery, zápas sledovalo 4716 diváků."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "newly promoted",
+            "definition": "having just moved up into a higher league"
+          },
+          {
+            "term": "turned the game around",
+            "definition": "changed a losing position into a winning one"
+          },
+          {
+            "term": "sent off",
+            "definition": "ordered by the referee to leave the field for a foul"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:00",
+      "headline": "Hradečtí hokejisté padli v Třinci 2:5, v extralize debutoval patnáctiletý Domkář",
+      "body": "Hradec Králové v pátek prohrál v devátém kole hokejové extraligy na ledě Třince 2:5 a Oceláři devátou výhrou v řadě vylepšili vlastní rekord v úvodu sezony. V dresu Hradce si premiéru v nejvyšší soutěži odbyl útočník Marek Domkář, kterému bylo v pátek 15 let a 312 dnů, a patří tak k nejmladším hokejistům, kteří do extraligy zasáhli.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hokej/extraliga/marek-domkar-hradec-kralove-ocelari-trinec.A261009_205851_hokej_jsl#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/ocelare-nezastavil-ani-hradec-trinec-posunul-extraligovy-rekord-159359"
+        }
+      ],
+      "en": {
+        "headline": "Hradec ice hockey players lost 2:5 in Třinec and fifteen-year-old Domkář made his debut",
+        "sentences": [
+          {
+            "en": "Hradec Králové lost 2:5 on Friday on the ice in Třinec in the ninth round of the ice hockey top league, and the Oceláři improved their own record for the start of a season with a ninth win in a row.",
+            "cs": "Hradec Králové v pátek prohrál v devátém kole hokejové extraligy na ledě Třince 2:5 a Oceláři devátou výhrou v řadě vylepšili vlastní rekord v úvodu sezony."
+          },
+          {
+            "en": "Forward Marek Domkář made his debut in the top competition in a Hradec shirt at the age of 15 years and 312 days on Friday, which puts him among the youngest players ever to appear in the league.",
+            "cs": "V dresu Hradce si premiéru v nejvyšší soutěži odbyl útočník Marek Domkář, kterému bylo v pátek 15 let a 312 dnů, a patří tak k nejmladším hokejistům, kteří do extraligy zasáhli."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "Forward",
+            "definition": "a player whose main job is to attack and score"
+          },
+          {
+            "term": "debut",
+            "definition": "a first appearance in something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:38",
+      "headline": "Trump se s Putinem dohodl na dodávkách ruské nafty a dočasně zrušil část ropných sankcí",
+      "body": "V noci na sobotu si americký a ruský prezident hodinu a půl telefonovali. Donald Trump podle Deníku N Vladimiru Putinovi osobně oznámil, že dočasně ruší část ropných sankcí, a Putin mu na oplátku sdělil, že válku ukončit nehodlá; ukrajinská delegace po hovoru předčasně ukončila rozhovory v Miami. Podle E15 se oba dohodli na okamžitých dodávkách více než 300 tisíc tun nafty na americký a světový trh, další miliony tun mají následovat, a Trump očekává rychlý pokles cen pohonných hmot. Oznámení přichází krátce po zavedení nových amerických sankcí proti Rusku a před listopadovými volbami do Kongresu. Krok kritizovali demokratičtí lídři v Senátu jako zradu Ukrajiny, evropských spojenců i americké bezpečnosti, ozvali se ale i republikáni. Volodymyr Zelenskyj uvedl, že mír nikdy nevzejde ze slabosti a že zmírňování sankcí umožní Moskvě pokračovat v zabíjení a ničení. Německo podle Seznam Zpráv rušit protiruské sankce neplánuje a Polsko zpochybnilo, zda má Moskva vůbec dost paliva na vývoz. Český ministr zahraničí Petr Macinka (Motoristé) řekl ČTK, že by rád věřil, že pokud chce ruský prezident prodávat naftu, bude chtít také jednat o míru.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2212447/trump-a-putin-se-dohodli-valka-pokracuje-sankce-nikoliv-americane-drzi-ukrajince-v-sachu/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/trump-se-dohodl-s-putinem-zradil-ukrajinu-kvuli-nafte-kritizuji-demokrate-1436436"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/mir-nikdy-nevzejde-ze-slabosti-zelenskyj-tvrde-kritizuje-trumpovu-dohodu-s-putinem-1436433"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-polsky-ministr-zpochybnil-ze-by-rusko-melo-nafty-nazbyt-317289"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-macinka-rad-bych-veril-ze-rusko-po-dohode-s-usa-bude-chtit-jednat-o-miru-317345"
+        }
+      ],
+      "en": {
+        "headline": "Trump agreed with Putin on deliveries of Russian diesel and temporarily lifted part of the oil sanctions",
+        "sentences": [
+          {
+            "en": "The American and Russian presidents spoke on the phone for an hour and a half during Friday night.",
+            "cs": "V noci na sobotu si americký a ruský prezident hodinu a půl telefonovali."
+          },
+          {
+            "en": "According to Deník N, Donald Trump personally told Vladimir Putin that he was temporarily lifting part of the oil sanctions, and Putin told him in return that he has no intention of ending the war; after the call the Ukrainian delegation broke off its talks in Miami early.",
+            "cs": "Donald Trump podle Deníku N Vladimiru Putinovi osobně oznámil, že dočasně ruší část ropných sankcí, a Putin mu na oplátku sdělil, že válku ukončit nehodlá; ukrajinská delegace po hovoru předčasně ukončila rozhovory v Miami."
+          },
+          {
+            "en": "According to E15, the two agreed on immediate deliveries of more than 300,000 tonnes of diesel to the American and world markets, with millions more tonnes to follow, and Trump expects a rapid fall in fuel prices.",
+            "cs": "Podle E15 se oba dohodli na okamžitých dodávkách více než 300 tisíc tun nafty na americký a světový trh, další miliony tun mají následovat, a Trump očekává rychlý pokles cen pohonných hmot."
+          },
+          {
+            "en": "The announcement comes shortly after new American sanctions against Russia were imposed and ahead of November's congressional elections.",
+            "cs": "Oznámení přichází krátce po zavedení nových amerických sankcí proti Rusku a před listopadovými volbami do Kongresu."
+          },
+          {
+            "en": "Democratic leaders in the Senate criticised the move as a betrayal of Ukraine, of European allies and of American security, but Republicans spoke out as well.",
+            "cs": "Krok kritizovali demokratičtí lídři v Senátu jako zradu Ukrajiny, evropských spojenců i americké bezpečnosti, ozvali se ale i republikáni."
+          },
+          {
+            "en": "Volodymyr Zelensky said that peace never comes out of weakness and that easing the sanctions will allow Moscow to keep killing and destroying.",
+            "cs": "Volodymyr Zelenskyj uvedl, že mír nikdy nevzejde ze slabosti a že zmírňování sankcí umožní Moskvě pokračovat v zabíjení a ničení."
+          },
+          {
+            "en": "According to Seznam Zprávy, Germany does not plan to lift its anti-Russian sanctions and Poland questioned whether Moscow even has enough fuel to export.",
+            "cs": "Německo podle Seznam Zpráv rušit protiruské sankce neplánuje a Polsko zpochybnilo, zda má Moskva vůbec dost paliva na vývoz."
+          },
+          {
+            "en": "Czech Foreign Minister Petr Macinka (Motoristé) told the ČTK agency that he would like to believe that if the Russian president wants to sell diesel, he will also want to negotiate peace.",
+            "cs": "Český ministr zahraničí Petr Macinka (Motoristé) řekl ČTK, že by rád věřil, že pokud chce ruský prezident prodávat naftu, bude chtít také jednat o míru."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lifting",
+            "definition": "ending a rule or restriction"
+          },
+          {
+            "term": "broke off",
+            "definition": "stopped something suddenly before it was finished"
+          },
+          {
+            "term": "betrayal",
+            "definition": "the act of harming people who trusted you"
+          },
+          {
+            "term": "easing",
+            "definition": "making a rule or pressure less strict"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:02",
+      "headline": "Při ruském bombardování Záporoží zemřelo nejméně patnáct lidí včetně tří dětí",
+      "body": "Nejméně patnáct lidí přišlo o život při ruském bombardování Záporoží na jihovýchodě Ukrajiny, oznámil ministr vnitra Ivan Vyhivskyj; dříve prezident Volodymyr Zelenskyj mluvil o dvanácti obětech a slíbil odvetu. Mezi mrtvými jsou podle Seznam Zpráv tři děti. Záchranáři po osmi hodinách vyprostili z trosek živou ženu. V Kyjevě úřady kvůli vypínání elektřiny zaviněnému ruskými útoky na energetiku načas přerušily provoz metra a jsou potíže i s dodávkami vody, v Charkově hoří zdravotnické zařízení. K útoku došlo několik hodin poté, co se Trump s Putinem dohodli na zrušení sankcí na ruskou naftu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2213146/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ze-zaporozi-hlasi-osm-mrtvych-vcetne-tri-deti-z-ruskeho-rostova-sest-zranenych-317278"
+        }
+      ],
+      "en": {
+        "headline": "At least fifteen people including three children died in the Russian bombardment of Zaporizhzhia",
+        "sentences": [
+          {
+            "en": "At least fifteen people lost their lives in the Russian bombardment of Zaporizhzhia in south-eastern Ukraine, Interior Minister Ivan Vyhivskyi announced; earlier President Volodymyr Zelensky had spoken of twelve victims and promised retaliation.",
+            "cs": "Nejméně patnáct lidí přišlo o život při ruském bombardování Záporoží na jihovýchodě Ukrajiny, oznámil ministr vnitra Ivan Vyhivskyj; dříve prezident Volodymyr Zelenskyj mluvil o dvanácti obětech a slíbil odvetu."
+          },
+          {
+            "en": "Three children are among the dead, according to Seznam Zprávy.",
+            "cs": "Mezi mrtvými jsou podle Seznam Zpráv tři děti."
+          },
+          {
+            "en": "After eight hours, rescuers pulled a woman out of the rubble alive.",
+            "cs": "Záchranáři po osmi hodinách vyprostili z trosek živou ženu."
+          },
+          {
+            "en": "In Kyiv the authorities temporarily suspended the metro because of power cuts caused by Russian attacks on the energy system, and there are problems with water supplies too, while a medical facility is on fire in Kharkiv.",
+            "cs": "V Kyjevě úřady kvůli vypínání elektřiny zaviněnému ruskými útoky na energetiku načas přerušily provoz metra a jsou potíže i s dodávkami vody, v Charkově hoří zdravotnické zařízení."
+          },
+          {
+            "en": "The attack came a few hours after Trump and Putin agreed to lift the sanctions on Russian diesel.",
+            "cs": "K útoku došlo několik hodin poté, co se Trump s Putinem dohodli na zrušení sankcí na ruskou naftu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bombardment",
+            "definition": "a long attack with bombs or shells"
+          },
+          {
+            "term": "retaliation",
+            "definition": "harming someone because they harmed you first"
+          },
+          {
+            "term": "rubble",
+            "definition": "broken pieces of a destroyed building"
+          },
+          {
+            "term": "suspended",
+            "definition": "stopped for a period of time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:04",
+      "headline": "Letiště v Rijádu bylo po výbuchu evakuováno, podle agentur se znovu stalo terčem útoku",
+      "body": "Na letišti v saúdskoarabském Rijádu se ozval hlasitý výbuch a letiště bylo evakuováno, napsaly s odvoláním na svědky agentury Reuters a AFP. Saúdské úřady se oficiálně nevyjádřily, agentura AP ale podle iROZHLASu s odvoláním na dva regionální činitele uvedla, že se letiště znovu stalo terčem útoku, je uzavřené a letecký provoz byl zastaven. Mezinárodní letiště krále Chálida bylo tento týden napadeno už několikrát, ve čtvrtek při útoku zemřeli tři saúdští civilisté. Seznam Zprávy uvádějí, že na letiště útočili jemenští povstalci; oběti zatím úřady nehlásí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/na-letisti-v-rijadu-se-ozval-vybuch-pisi-agentury-kvuli-utoku-letiste-evakuovali_2610101648_lhv"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-letiste-v-rijadu-bylo-evakuovano-stalo-se-tercem-utoku-317353"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2212939/"
+        }
+      ],
+      "en": {
+        "headline": "Riyadh airport was evacuated after an explosion and agencies say it was attacked again",
+        "sentences": [
+          {
+            "en": "A loud explosion was heard at the airport in the Saudi capital Riyadh and the airport was evacuated, the Reuters and AFP agencies wrote, citing witnesses.",
+            "cs": "Na letišti v saúdskoarabském Rijádu se ozval hlasitý výbuch a letiště bylo evakuováno, napsaly s odvoláním na svědky agentury Reuters a AFP."
+          },
+          {
+            "en": "The Saudi authorities have not commented officially, but according to iROZHLAS the AP agency, citing two regional officials, said the airport had become the target of an attack again, is closed and air traffic has been stopped.",
+            "cs": "Saúdské úřady se oficiálně nevyjádřily, agentura AP ale podle iROZHLASu s odvoláním na dva regionální činitele uvedla, že se letiště znovu stalo terčem útoku, je uzavřené a letecký provoz byl zastaven."
+          },
+          {
+            "en": "King Khalid International Airport has been attacked several times this week, and three Saudi civilians died in an attack on Thursday.",
+            "cs": "Mezinárodní letiště krále Chálida bylo tento týden napadeno už několikrát, ve čtvrtek při útoku zemřeli tři saúdští civilisté."
+          },
+          {
+            "en": "Seznam Zprávy reports that Yemeni rebels attacked the airport; the authorities have not reported any casualties so far.",
+            "cs": "Seznam Zprávy uvádějí, že na letiště útočili jemenští povstalci; oběti zatím úřady nehlásí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "evacuated",
+            "definition": "emptied of people because of danger"
+          },
+          {
+            "term": "citing",
+            "definition": "naming something as the source of information"
+          },
+          {
+            "term": "rebels",
+            "definition": "people fighting against their own government"
+          },
+          {
+            "term": "casualties",
+            "definition": "people killed or injured in an event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:59",
+      "headline": "Eritrea označila etiopská obvinění z invaze za vyhlášení války",
+      "body": "Eritrea označila obvinění Etiopie z plnohodnotné invaze za vyhlášení války a požádala Radu bezpečnosti OSN, aby chování vlády v Addis Abebě odsoudila.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2213020/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-eritrea-obvinila-etiopii-z-vyhlaseni-valky-317356"
+        }
+      ],
+      "en": {
+        "headline": "Eritrea called Ethiopia's accusations of an invasion a declaration of war",
+        "sentences": [
+          {
+            "en": "Eritrea called Ethiopia's accusation of a full-scale invasion a declaration of war and asked the UN Security Council to condemn the conduct of the government in Addis Ababa.",
+            "cs": "Eritrea označila obvinění Etiopie z plnohodnotné invaze za vyhlášení války a požádala Radu bezpečnosti OSN, aby chování vlády v Addis Abebě odsoudila."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "full-scale",
+            "definition": "complete and using all available force"
+          },
+          {
+            "term": "condemn",
+            "definition": "to say publicly that something is very wrong"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:30",
+      "headline": "OSN varuje před plánovaným živým přenosem popravy amerického vojáka",
+      "body": "Pentagon plánuje živě přenášet prosincovou popravu bývalého armádního psychiatra Nidala Hasana, který v roce 2009 zastřelil třináct lidí. OSN varuje, že televizní přenos popravy by mohl porušovat zákaz mučení. Hasan má být zastřelen popravčí četou jako první americký voják od roku 1961, tedy po více než 65 letech, a neobvyklé je i to, že se tak má stát před zraky veřejnosti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/osn-durazne-varuje-pred-mucenim-usa-chystaji-historicky-vyjimecny-trest-1436434"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-usa-chystaji-verejnou-popravu-jako-ve-stredoveku-hodnoti-marek-orko-vacha-317190"
+        }
+      ],
+      "en": {
+        "headline": "The UN warns against a planned live broadcast of an American soldier's execution",
+        "sentences": [
+          {
+            "en": "The Pentagon plans to broadcast live the December execution of former army psychiatrist Nidal Hasan, who shot thirteen people in 2009.",
+            "cs": "Pentagon plánuje živě přenášet prosincovou popravu bývalého armádního psychiatra Nidala Hasana, který v roce 2009 zastřelil třináct lidí."
+          },
+          {
+            "en": "The UN warns that televising an execution could breach the ban on torture.",
+            "cs": "OSN varuje, že televizní přenos popravy by mohl porušovat zákaz mučení."
+          },
+          {
+            "en": "Hasan is to be shot by a firing squad as the first American soldier since 1961, that is after more than 65 years, and it is also unusual that this is to happen in front of the public.",
+            "cs": "Hasan má být zastřelen popravčí četou jako první americký voják od roku 1961, tedy po více než 65 letech, a neobvyklé je i to, že se tak má stát před zraky veřejnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "execution",
+            "definition": "the killing of someone as a legal punishment"
+          },
+          {
+            "term": "breach",
+            "definition": "to break a rule or law"
+          },
+          {
+            "term": "firing squad",
+            "definition": "a group of soldiers ordered to shoot a prisoner"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:54",
+      "headline": "Dohoda o ruské naftě podle ekonomů v Česku ceny paliv výrazně nesrazí",
+      "body": "Dohoda Donalda Trumpa s Vladimirem Putinem o dodávkách ruské nafty může podle Deníku ovlivnit ceny i v Česku, zásadní zlevnění ale ekonomové nečekají. „Efekt na cenu nafty v Evropě i ve většině světa bude prakticky nulový,“ řekl Seznam Zprávám jeden z nich. Opačným směrem navíc může zapůsobit hurikán Isaias, který ohrožuje těžbu a zpracování ropy v USA.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/ekonomika/dohoda-nafta-donald-trump-vladimir-putin-klesne-cena-paliv-i-v-cesku/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ekonomika"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-spojence-ukrajiny-prekvapila-naftova-dohoda-paliva-nezlevni-rikaji-ekonomove-317354"
+        }
+      ],
+      "en": {
+        "headline": "Economists say the Russian diesel deal will not cut fuel prices much in Czechia",
+        "sentences": [
+          {
+            "en": "The deal between Donald Trump and Vladimir Putin on deliveries of Russian diesel could affect prices in Czechia too, according to Deník, but economists do not expect a major drop.",
+            "cs": "Dohoda Donalda Trumpa s Vladimirem Putinem o dodávkách ruské nafty může podle Deníku ovlivnit ceny i v Česku, zásadní zlevnění ale ekonomové nečekají."
+          },
+          {
+            "en": "“The effect on the price of diesel in Europe and in most of the world will be practically zero,” one of them told Seznam Zprávy.",
+            "cs": "„Efekt na cenu nafty v Evropě i ve většině světa bude prakticky nulový,“ řekl Seznam Zprávám jeden z nich."
+          },
+          {
+            "en": "Hurricane Isaias, which is threatening oil extraction and refining in the United States, could also push in the opposite direction.",
+            "cs": "Opačným směrem navíc může zapůsobit hurikán Isaias, který ohrožuje těžbu a zpracování ropy v USA."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drop",
+            "definition": "a fall in the level or amount of something"
+          },
+          {
+            "term": "extraction",
+            "definition": "the process of taking something out of the ground"
+          },
+          {
+            "term": "refining",
+            "definition": "making a raw material pure and usable"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "06:00",
+      "headline": "Evropské zásobníky plynu jsou před zimou poloprázdné, nákupy brzdí vysoká cena",
+      "body": "Evropa vstupuje do zimy s nejmenší zásobou plynu od roku 2011. Země doplňují zásobníky jen pomalu, protože ceny plynu jsou vysoké i kvůli válkám na Ukrajině a na Blízkém východě. Evropská unie přitom na zimu vyžaduje naplněnost alespoň 90 procent, řadě zemí se to podle businessového newsletteru 11am nedaří plnit.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/zima-na-dohled-a-evropske-zasobniky-plynu-poloprazdne-nakupy-brzdi-vysoka-cena-1436411"
+        }
+      ],
+      "en": {
+        "headline": "Europe's gas storage sites are half empty before winter and high prices are slowing purchases",
+        "sentences": [
+          {
+            "en": "Europe is entering winter with the smallest gas reserves since 2011.",
+            "cs": "Evropa vstupuje do zimy s nejmenší zásobou plynu od roku 2011."
+          },
+          {
+            "en": "Countries are refilling their storage sites only slowly, because gas prices are high partly because of the wars in Ukraine and the Middle East.",
+            "cs": "Země doplňují zásobníky jen pomalu, protože ceny plynu jsou vysoké i kvůli válkám na Ukrajině a na Blízkém východě."
+          },
+          {
+            "en": "The European Union requires storage to be at least 90 percent full for winter, yet a number of countries are failing to meet that, according to the business newsletter 11am.",
+            "cs": "Evropská unie přitom na zimu vyžaduje naplněnost alespoň 90 procent, řadě zemí se to podle businessového newsletteru 11am nedaří plnit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "storage sites",
+            "definition": "places where something is kept until it is needed"
+          },
+          {
+            "term": "reserves",
+            "definition": "supplies kept for future use"
+          },
+          {
+            "term": "refilling",
+            "definition": "filling something again"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:36",
+      "day": "prev",
+      "headline": "Anthropic nabídl open source projektům bezplatné hledání zranitelností",
+      "body": "Anthropic ve čtvrtek oznámil službu OSS Scanner, která pomocí svého nejsilnějšího modelu periodicky testuje open source aplikace a hledá v nich zranitelnosti. Zdarma je pro projekty, které jsou často používané a u nichž je potenciálně možné nějakou zranitelnost zneužít.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/anthropic-ma-bezplatny-test-zranitelnosti-pro-open-source-software/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has offered open source projects free vulnerability scanning",
+        "sentences": [
+          {
+            "en": "On Thursday Anthropic announced a service called OSS Scanner, which uses its most powerful model to test open source applications periodically and look for vulnerabilities in them.",
+            "cs": "Anthropic ve čtvrtek oznámil službu OSS Scanner, která pomocí svého nejsilnějšího modelu periodicky testuje open source aplikace a hledá v nich zranitelnosti."
+          },
+          {
+            "en": "It is free for projects that are widely used and in which a vulnerability could potentially be exploited.",
+            "cs": "Zdarma je pro projekty, které jsou často používané a u nichž je potenciálně možné nějakou zranitelnost zneužít."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vulnerabilities",
+            "definition": "weak points that an attacker could use"
+          },
+          {
+            "term": "periodically",
+            "definition": "repeatedly, at regular times"
+          },
+          {
+            "term": "exploited",
+            "definition": "used unfairly or for an attack"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:15",
+      "headline": "Nobelovu cenu za fyziku dostal Francis Halzen za detektor částic ukrytý v ledu",
+      "body": "Nobelovu cenu za fyziku letos po dlouhé době získal jediný vědec, Belgičan Francis Halzen. Vybudoval zařízení, které zachycuje částice přilétající k nám z vesmíru s obrovskými energiemi.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/tech-technologie-veda-nobelovku-z-ledu-vynesl-fascinujici-vyzkum-ktery-lidem-mozna-nijak-nepomuze-317014"
+        }
+      ],
+      "en": {
+        "headline": "Francis Halzen won the Nobel Prize in Physics for a particle detector buried in ice",
+        "sentences": [
+          {
+            "en": "For the first time in a long while, the Nobel Prize in Physics went to a single scientist, the Belgian Francis Halzen.",
+            "cs": "Nobelovu cenu za fyziku letos po dlouhé době získal jediný vědec, Belgičan Francis Halzen."
+          },
+          {
+            "en": "He built a device that captures particles reaching us from space with enormous energies.",
+            "cs": "Vybudoval zařízení, které zachycuje částice přilétající k nám z vesmíru s obrovskými energiemi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "particle",
+            "definition": "an extremely small piece of matter"
+          },
+          {
+            "term": "captures",
+            "definition": "catches and holds something"
+          },
+          {
+            "term": "enormous",
+            "definition": "extremely large"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "18:39",
+      "day": "prev",
+      "headline": "Novináři odhalili, kdo připravoval ruský dronový útok na letiště v Lipsku",
+      "body": "Ruské tajné služby chtěly zničit největší ukrajinské letadlo, které stálo na letišti Lipsko/Halle v Německu, a vyrobily si kvůli tomu miniaturní drony. Ty ale nevybuchly a operace zkrachovala. Investigativci webů Insider a Spiegel nyní zjistili, kdo konkrétně ji připravoval a jak tito Rusové a Bělorusové postupovali.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2211256/jak-presne-rusove-chystali-dronovy-utok-na-letiste-v-lipsku-novinari-odhalili-detaily-i-obliceje/"
+        }
+      ],
+      "en": {
+        "headline": "Journalists have revealed who prepared the Russian drone attack on Leipzig airport",
+        "sentences": [
+          {
+            "en": "The Russian secret services wanted to destroy the largest Ukrainian aircraft, which was standing at the Leipzig/Halle airport in Germany, and built miniature drones for the purpose.",
+            "cs": "Ruské tajné služby chtěly zničit největší ukrajinské letadlo, které stálo na letišti Lipsko/Halle v Německu, a vyrobily si kvůli tomu miniaturní drony."
+          },
+          {
+            "en": "The drones did not explode, however, and the operation fell through.",
+            "cs": "Ty ale nevybuchly a operace zkrachovala."
+          },
+          {
+            "en": "Investigative reporters from the Insider and Spiegel websites have now found out exactly who prepared it and how these Russians and Belarusians went about it.",
+            "cs": "Investigativci webů Insider a Spiegel nyní zjistili, kdo konkrétně ji připravoval a jak tito Rusové a Bělorusové postupovali."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "miniature",
+            "definition": "very small compared with the usual size"
+          },
+          {
+            "term": "fell through",
+            "definition": "failed to happen as planned"
+          },
+          {
+            "term": "went about it",
+            "definition": "did something in a particular way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:56",
+      "headline": "Plzeň přehrála Mladou Boleslav 3:0, Slavia drží v lize neporazitelnost",
+      "body": "V desátém kole fotbalové ligy zvítězila Plzeň doma nad Mladou Boleslaví 3:0 a Jablonec vyhrál na hřišti Zbrojovky Brno 1:0 gólem Antonína Růska z 85. minuty. V páteční předehrávce zvítězila Slavia ve Zlíně 1:0 a jako jediný neporažený tým vede tabulku s náskokem šesti bodů na druhý Liberec.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-plzen-dala-boleslavi-lekci-z-efektivity-a-slavi-druhou-domaci-ligovou-vyhru-5552487"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-zbrojovka-prohrala-s-jabloncem-golem-v-zaveru-5552498"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavie-ve-zline-udrzela-ligovou-neporazitelnost-159360"
+        }
+      ],
+      "en": {
+        "headline": "Plzeň beat Mladá Boleslav 3:0 and Slavia stay unbeaten in the league",
+        "sentences": [
+          {
+            "en": "In the tenth round of the football league Plzeň won 3:0 at home against Mladá Boleslav, and Jablonec won 1:0 away at Zbrojovka Brno with a goal by Antonín Růsek in the 85th minute.",
+            "cs": "V desátém kole fotbalové ligy zvítězila Plzeň doma nad Mladou Boleslaví 3:0 a Jablonec vyhrál na hřišti Zbrojovky Brno 1:0 gólem Antonína Růska z 85. minuty."
+          },
+          {
+            "en": "In Friday's early match Slavia won 1:0 in Zlín and, as the only unbeaten team, lead the table six points ahead of second-placed Liberec.",
+            "cs": "V páteční předehrávce zvítězila Slavia ve Zlíně 1:0 a jako jediný neporažený tým vede tabulku s náskokem šesti bodů na druhý Liberec."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unbeaten",
+            "definition": "having not lost any match"
+          },
+          {
+            "term": "table",
+            "definition": "the ranked list of teams in a league"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:40",
+      "day": "prev",
+      "headline": "České fotbalistky prohrály první zápas baráže o mistrovství světa se Skotskem 0:2",
+      "body": "Fotbalistky zahájily barážový boj o vůbec první postup na mistrovství světa, které příští rok pořádá Brazílie, domácí porážkou 0:2 se Skotskem. Odveta se hraje v úterý na hřišti soupeřek a vítěz dvojzápasu se o postup utká s lepším z dvojice Litva – Švédsko, kde první zápas vyhrály Švédky 5:0.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/baraz-o-postup-na-ms-fotbalistek-cesko-skotsko-159358"
+        }
+      ],
+      "en": {
+        "headline": "The Czech women footballers lost the first play-off match for the World Cup 0:2 to Scotland",
+        "sentences": [
+          {
+            "en": "The women's team began its play-off bid for a first ever place at the World Cup, which Brazil hosts next year, with a 0:2 home defeat to Scotland.",
+            "cs": "Fotbalistky zahájily barážový boj o vůbec první postup na mistrovství světa, které příští rok pořádá Brazílie, domácí porážkou 0:2 se Skotskem."
+          },
+          {
+            "en": "The return match is on Tuesday on the opponents' pitch, and the winner of the two-legged tie will face the better of Lithuania and Sweden, where the Swedes won the first match 5:0.",
+            "cs": "Odveta se hraje v úterý na hřišti soupeřek a vítěz dvojzápasu se o postup utká s lepším z dvojice Litva – Švédsko, kde první zápas vyhrály Švédky 5:0."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bid",
+            "definition": "an attempt to achieve something"
+          },
+          {
+            "term": "two-legged tie",
+            "definition": "a contest decided over two matches"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:03",
+      "headline": "Portugalská federace zahájila s Ronaldem disciplinární řízení a suspendovala ho",
+      "body": "Portugalská fotbalová federace předběžně suspendovala kapitána Cristiana Ronalda a zahájila s ním disciplinární řízení za to, že minulý týden během Ligy národů opustil národní tým. Hráč se v úterý omluvil a uvedl, že počítá s trestem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-cristiano-ronaldo-portugalska-fotbalova-federace-reprezentace-liga-narodu_2610101603_ssi"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-ronaldo-byl-po-skandalu-v-reprezentaci-suspendovan-5552161"
+        }
+      ],
+      "en": {
+        "headline": "The Portuguese federation opened disciplinary proceedings against Ronaldo and suspended him",
+        "sentences": [
+          {
+            "en": "The Portuguese football federation provisionally suspended captain Cristiano Ronaldo and opened disciplinary proceedings against him for leaving the national team during the Nations League last week.",
+            "cs": "Portugalská fotbalová federace předběžně suspendovala kapitána Cristiana Ronalda a zahájila s ním disciplinární řízení za to, že minulý týden během Ligy národů opustil národní tým."
+          },
+          {
+            "en": "The player apologised on Tuesday and said he expects to be punished.",
+            "cs": "Hráč se v úterý omluvil a uvedl, že počítá s trestem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "disciplinary proceedings",
+            "definition": "an official process to decide on a punishment"
+          },
+          {
+            "term": "provisionally",
+            "definition": "for now, until a final decision is made"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:29",
+      "headline": "Krpálek získal v Baku bronz a už šestou medaili z mistrovství světa v judu",
+      "body": "Dvojnásobný olympijský vítěz Lukáš Krpálek vybojoval na mistrovství světa v judu v Baku bronz v kategorii nad 100 kilogramů a připsal si už šestou světovou medaili. Ve čtvrtfinále prohrál se světovou jedničkou Tasojevem z Ruska, v repasáži pak zdolal Nizozemce Spijkerse a v souboji o třetí místo Fina Marttiho Puumalainena dvěma wazari před časovým limitem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/judo-lukas-krpalek-ms-v-judu-mistrovstvi-sveta-ceske-judo_2610101629_ssi"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/bojove-sporty-krpalek-uz-na-ms-porazil-dva-soupere-a-bude-se-prat-o-medaili-5552099"
+        }
+      ],
+      "en": {
+        "headline": "Krpálek took bronze in Baku and his sixth medal from the judo world championships",
+        "sentences": [
+          {
+            "en": "Double Olympic champion Lukáš Krpálek won bronze in the over-100-kilogram category at the judo world championships in Baku and claimed his sixth world medal.",
+            "cs": "Dvojnásobný olympijský vítěz Lukáš Krpálek vybojoval na mistrovství světa v judu v Baku bronz v kategorii nad 100 kilogramů a připsal si už šestou světovou medaili."
+          },
+          {
+            "en": "He lost in the quarter-final to the world number one Tasoyev of Russia, then beat the Dutchman Spijkers in the repechage and the Finn Martti Puumalainen in the bout for third place with two waza-ari before the time limit.",
+            "cs": "Ve čtvrtfinále prohrál se světovou jedničkou Tasojevem z Ruska, v repasáži pak zdolal Nizozemce Spijkerse a v souboji o třetí místo Fina Marttiho Puumalainena dvěma wazari před časovým limitem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "repechage",
+            "definition": "an extra contest giving losers another chance to win a medal"
+          },
+          {
+            "term": "bout",
+            "definition": "a single fight or contest"
+          },
+          {
+            "term": "claimed",
+            "definition": "won or gained something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:25",
+      "headline": "Siniaková si zahraje v Pekingu o čtyřicátý deblový titul, Lehečka postoupil v Šanghaji",
+      "body": "Světová jednička ve čtyřhře Kateřina Siniaková s Číňankou Čang Šuaj postoupily v Pekingu do finále, kde budou hrát o jubilejní čtyřicátý deblový titul v Siniakové kariéře; v semifinále zvítězily 6:4, 6:2. Nikola Bartůňková svou cestu životním turnajem nedotáhla a v semifinále dvouhry podlehla Mirře Andrejevové 2:6, 2:6. V Šanghaji porazil Jiří Lehečka po dvouhodinové bitvě Portugalce Nuna Borgese 6:3, 3:6, 6:3 a do třetího kola prošel i Dalibor Svrčina, pro něhož je to první postup do této fáze na turnaji Masters.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/svetova-jednicka-siniakova-bude-hrat-v-pekingu-o-ctyricaty-deblovy-titul-159368"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-lehecka-ovladl-bitvu-v-sanghaji-5551922"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/lehecka-udolal-po-dvou-hodinach-borgese-v-sanghaji-postoupil-do-tretiho-kola-159367"
+        }
+      ],
+      "en": {
+        "headline": "Siniaková will play for her fortieth doubles title in Beijing and Lehečka advanced in Shanghai",
+        "sentences": [
+          {
+            "en": "The doubles world number one Kateřina Siniaková and China's Zhang Shuai reached the final in Beijing, where they will play for the fortieth doubles title of Siniaková's career; they won their semi-final 6:4, 6:2.",
+            "cs": "Světová jednička ve čtyřhře Kateřina Siniaková s Číňankou Čang Šuaj postoupily v Pekingu do finále, kde budou hrát o jubilejní čtyřicátý deblový titul v Siniakové kariéře; v semifinále zvítězily 6:4, 6:2."
+          },
+          {
+            "en": "Nikola Bartůňková could not complete her run at the tournament of her life and lost her singles semi-final to Mirra Andreeva 2:6, 2:6.",
+            "cs": "Nikola Bartůňková svou cestu životním turnajem nedotáhla a v semifinále dvouhry podlehla Mirře Andrejevové 2:6, 2:6."
+          },
+          {
+            "en": "In Shanghai, Jiří Lehečka beat Portugal's Nuno Borges 6:3, 3:6, 6:3 after a two-hour battle, and Dalibor Svrčina also reached the third round, his first time that far at a Masters tournament.",
+            "cs": "V Šanghaji porazil Jiří Lehečka po dvouhodinové bitvě Portugalce Nuna Borgese 6:3, 3:6, 6:3 a do třetího kola prošel i Dalibor Svrčina, pro něhož je to první postup do této fáze na turnaji Masters."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "doubles",
+            "definition": "a tennis match played by two pairs of players"
+          },
+          {
+            "term": "run",
+            "definition": "a series of successful matches in a competition"
+          },
+          {
+            "term": "singles",
+            "definition": "a tennis match played by one player against another"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:38",
+      "headline": "Verstappen vyhrál v Singapuru sprint i kvalifikaci a má padesátou pole position",
+      "body": "Max Verstappen z Red Bullu ovládl ve Velké ceně Singapuru sprint i kvalifikaci na hlavní závod a vyjel si jubilejní padesátou pole position v kariéře. V první řadě ho doplní Charles Leclerc z Ferrari, třetí nejlepší čas zajel Lewis Hamilton. Start sprintu se kvůli hustému lijáku posunul o půl hodiny a v těžkých podmínkách do cíle nedojelo devět jezdců.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-formule-1-verstappen-byl-nejrychlejsi-i-v-kvalifikaci-na-velkou-cenu-singapuru-5552449"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-formule-1-v-singapuru-se-bude-poprve-v-historii-zavodit-za-denniho-svetla-5551919"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/verstappen-vyhral-v-singapuru-sprint-159371"
+        }
+      ],
+      "en": {
+        "headline": "Verstappen won the sprint and qualifying in Singapore and took his fiftieth pole position",
+        "sentences": [
+          {
+            "en": "Max Verstappen of Red Bull won both the sprint and qualifying for the main race at the Singapore Grand Prix and took the fiftieth pole position of his career.",
+            "cs": "Max Verstappen z Red Bullu ovládl ve Velké ceně Singapuru sprint i kvalifikaci na hlavní závod a vyjel si jubilejní padesátou pole position v kariéře."
+          },
+          {
+            "en": "He will be joined on the front row by Charles Leclerc of Ferrari, while Lewis Hamilton set the third-fastest time.",
+            "cs": "V první řadě ho doplní Charles Leclerc z Ferrari, třetí nejlepší čas zajel Lewis Hamilton."
+          },
+          {
+            "en": "The start of the sprint was delayed by half an hour because of heavy rain, and nine drivers failed to finish in the difficult conditions.",
+            "cs": "Start sprintu se kvůli hustému lijáku posunul o půl hodiny a v těžkých podmínkách do cíle nedojelo devět jezdců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "qualifying",
+            "definition": "the timed session that decides the starting order of a race"
+          },
+          {
+            "term": "pole position",
+            "definition": "the first place on the starting grid of a race"
+          },
+          {
+            "term": "front row",
+            "definition": "the first two starting places in a motor race"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:23",
+      "headline": "Zápas Rayo Vallecano s Bilbaem se kvůli protestům fanoušků nedohrál",
+      "body": "Utkání španělské ligy mezi Rayem Vallecano a Athleticem Bilbao bylo po půlhodině ukončeno kvůli protestům domácích fanoušků proti majiteli klubu. Diváci opakovaně zasypávali hrací plochu papírovými vlaštovkami a dalšími předměty, rozhodčí hru třikrát přerušil, dvakrát poslal hráče do kabin a po poradě s policií zápas předčasně ukončil.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-la-liga-zapas-vallecana-s-bilbaem-se-kvuli-protestum-nedohral-5552389"
+        }
+      ],
+      "en": {
+        "headline": "The match between Rayo Vallecano and Bilbao was abandoned because of fan protests",
+        "sentences": [
+          {
+            "en": "The Spanish league match between Rayo Vallecano and Athletic Bilbao was called off after half an hour because of protests by home fans against the club's owner.",
+            "cs": "Utkání španělské ligy mezi Rayem Vallecano a Athleticem Bilbao bylo po půlhodině ukončeno kvůli protestům domácích fanoušků proti majiteli klubu."
+          },
+          {
+            "en": "Spectators repeatedly showered the pitch with paper planes and other objects, the referee stopped play three times, twice sent the players to the dressing rooms and, after consulting the police, ended the match early.",
+            "cs": "Diváci opakovaně zasypávali hrací plochu papírovými vlaštovkami a dalšími předměty, rozhodčí hru třikrát přerušil, dvakrát poslal hráče do kabin a po poradě s policií zápas předčasně ukončil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "abandoned",
+            "definition": "stopped before the end and not finished"
+          },
+          {
+            "term": "called off",
+            "definition": "cancelled or stopped"
+          },
+          {
+            "term": "showered",
+            "definition": "threw a large number of things onto something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The municipal and Senate elections are over; by the afternoon the count had reached roughly half of the polling districts, and turnout in the Senate election is above average.",
+    "After a night-time phone call with Vladimir Putin, Donald Trump agreed to temporarily lift part of the oil sanctions and to take deliveries of Russian diesel; according to Deník N, Putin told him he has no intention of ending the war.",
+    "At least fifteen people, including three children, were killed in the Russian bombardment of Zaporizhzhia."
+  ]
+}
