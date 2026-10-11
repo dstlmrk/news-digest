@@ -1,0 +1,1564 @@
+{
+  "date": "2026-10-11",
+  "covers": "2026-10-11",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Deník N",
+    "iROZHLAS",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo, přes den až 13 °C a beze srážek. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-10-12",
+        "icon": "cloudy",
+        "temp_max_c": 13.2,
+        "temp_min_c": 6.4
+      },
+      {
+        "date": "2026-10-13",
+        "icon": "fog",
+        "temp_max_c": 13.5,
+        "temp_min_c": 0.0
+      },
+      {
+        "date": "2026-10-14",
+        "icon": "rain",
+        "temp_max_c": 15.4,
+        "temp_min_c": 8.0
+      },
+      {
+        "date": "2026-10-15",
+        "icon": "fog",
+        "temp_max_c": 13.9,
+        "temp_min_c": 2.9
+      }
+    ],
+    "summary_en": "Tomorrow will be cloudy, up to 13 °C during the day and with no rain. Air quality should be acceptable."
+  },
+  "highlights": [
+    "Komunální volby získaly nejvíc zastupitelů lidovcům, hnutí STAN posílilo ve všech krajských městech a v Praze těsně porazilo koalici SPOLU.",
+    "Hnutí ANO skončilo v Praze až čtvrté a do druhého kola senátních voleb míří ve slabé pozici, premiér Babiš přesto označil výsledek za velmi dobrý.",
+    "Donald Trump oznámil okamžité energetické příměří mezi Ukrajinou a Ruskem, pro Volodymyra Zelenského je to ale novinka.",
+    "V Hradci Králové obhájila vítězství koalice primátorky Pavlíny Springerové a má na stole vyjednávací blok s většinou v zastupitelstvu."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:02",
+      "headline": "Nejvíce zastupitelů získali v obecních volbách lidovci, Starostové posílili ve všech krajských městech",
+      "body": "Nejvíce zastupitelů získala v letošních obecních volbách stejně jako před čtyřmi lety KDU-ČSL. Druhé je podle počtu mandátů hnutí STAN a třetí ODS, obě si tím oproti roku 2022 vyměnily pozice. Na čtvrté příčce opět skončilo hnutí ANO. Všechny čtyři strany si přitom pohoršily, stejně jako SPD, Piráti a TOP 09. Při srovnání krajských měst Deník N uvádí, že Starostové posílili ve všech, naopak ANO, ODS a Piráti v řadě z nich oslabili.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nejvice-zastupitelu-maji-lidovci-stan-ods-a-ano-378458"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215295/"
+        }
+      ],
+      "en": {
+        "headline": "KDU-ČSL won the most council seats in the municipal elections and STAN gained ground in every regional capital",
+        "sentences": [
+          {
+            "en": "KDU-ČSL won the most council seats in this year's municipal elections, just as it did four years ago.",
+            "cs": "Nejvíce zastupitelů získala v letošních obecních volbách stejně jako před čtyřmi lety KDU-ČSL."
+          },
+          {
+            "en": "STAN is second by number of seats and ODS third, which means the two have swapped positions compared with 2022.",
+            "cs": "Druhé je podle počtu mandátů hnutí STAN a třetí ODS, obě si tím oproti roku 2022 vyměnily pozice."
+          },
+          {
+            "en": "ANO again finished in fourth place.",
+            "cs": "Na čtvrté příčce opět skončilo hnutí ANO."
+          },
+          {
+            "en": "All four parties nevertheless lost ground, as did SPD, the Pirates and TOP 09.",
+            "cs": "Všechny čtyři strany si přitom pohoršily, stejně jako SPD, Piráti a TOP 09."
+          },
+          {
+            "en": "Comparing the regional capitals, Deník N reports that STAN gained in all of them, while ANO, ODS and the Pirates weakened in a number of them.",
+            "cs": "Při srovnání krajských měst Deník N uvádí, že Starostové posílili ve všech, naopak ANO, ODS a Piráti v řadě z nich oslabili."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "municipal",
+            "definition": "connected with a town or city and its local government"
+          },
+          {
+            "term": "gained ground",
+            "definition": "became more popular or successful"
+          },
+          {
+            "term": "lost ground",
+            "definition": "became less popular or successful than before"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:04",
+      "headline": "Obecní volby v Praze vyhrál STAN, Hlaváček chce mít koalici dohodnutou v listopadu",
+      "body": "Obecní volby v Praze vyhrálo hnutí STAN s 23,17 procenta hlasů před koalicí SPOLU pro Prahu s 22,05 procenta. Třetí je Praha sobě se 17,91 procenta, čtvrté ANO se 14,36 procenta a páté Piráti s 9,38 procenta, nikdo další se do zastupitelstva nedostal. Hlasy se v metropoli dopočítávaly jako v poslední části republiky až do nedělního rána, účast dosáhla 46,04 procenta. Lídr Starostů Petr Hlaváček chce mít dohodu o koalici hotovou v listopadu, v pondělí začne jednat s lídrem SPOLU pro Prahu Tomášem Portlíkem a poté se sejde i se zástupci Prahy sobě a Pirátů. Portlík v neděli uznal, že STAN má jako vítěz voleb právo na primátora. Podle iROZHLAS jde na mandáty o remízu a Starostové drží Spolu v šachu, protože mají v záloze alternativní variantu s pohodlnou většinou. Hlaváček zároveň řekl, že chce v tomto volebním období zdražit časové kupony na MHD i parkování.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/v-praze-vede-stan-druhe-je-spolu-pro-prahu-378045"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/stan-ma-pravo-na-primatora-v-praze-rekl-druhy-portlik-378459"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/vitezni-starostove-drzi-v-praze-vsechny-trumfy-hlavacek-s-portlikem-zacali_2610111404_jgr"
+        }
+      ],
+      "en": {
+        "headline": "STAN won the municipal elections in Prague and Hlaváček wants the coalition agreed in November",
+        "sentences": [
+          {
+            "en": "STAN won the municipal elections in Prague with 23.17 percent of the vote, ahead of the SPOLU pro Prahu coalition with 22.05 percent.",
+            "cs": "Obecní volby v Praze vyhrálo hnutí STAN s 23,17 procenta hlasů před koalicí SPOLU pro Prahu s 22,05 procenta."
+          },
+          {
+            "en": "Praha sobě is third with 17.91 percent, ANO fourth with 14.36 percent and the Pirates fifth with 9.38 percent; nobody else made it into the council.",
+            "cs": "Třetí je Praha sobě se 17,91 procenta, čtvrté ANO se 14,36 procenta a páté Piráti s 9,38 procenta, nikdo další se do zastupitelstva nedostal."
+          },
+          {
+            "en": "The votes in the capital were counted until Sunday morning, as the last part of the country to finish, and turnout reached 46.04 percent.",
+            "cs": "Hlasy se v metropoli dopočítávaly jako v poslední části republiky až do nedělního rána, účast dosáhla 46,04 procenta."
+          },
+          {
+            "en": "The STAN leader Petr Hlaváček wants the coalition deal done in November; on Monday he will start talks with the SPOLU pro Prahu leader Tomáš Portlík and will then also meet representatives of Praha sobě and the Pirates.",
+            "cs": "Lídr Starostů Petr Hlaváček chce mít dohodu o koalici hotovou v listopadu, v pondělí začne jednat s lídrem SPOLU pro Prahu Tomášem Portlíkem a poté se sejde i se zástupci Prahy sobě a Pirátů."
+          },
+          {
+            "en": "Portlík acknowledged on Sunday that STAN, as the winner of the election, has the right to the mayor's post.",
+            "cs": "Portlík v neděli uznal, že STAN má jako vítěz voleb právo na primátora."
+          },
+          {
+            "en": "According to iROZHLAS the seat count is a tie and STAN is holding Spolu in check, because it has an alternative option with a comfortable majority in reserve.",
+            "cs": "Podle iROZHLAS jde na mandáty o remízu a Starostové drží Spolu v šachu, protože mají v záloze alternativní variantu s pohodlnou většinou."
+          },
+          {
+            "en": "Hlaváček also said that during this term he wants to raise the price of season tickets for public transport and of parking.",
+            "cs": "Hlaváček zároveň řekl, že chce v tomto volebním období zdražit časové kupony na MHD i parkování."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to vote"
+          },
+          {
+            "term": "acknowledged",
+            "definition": "admitted that something is true"
+          },
+          {
+            "term": "in check",
+            "definition": "under control, so it cannot do what it wants"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:30",
+      "headline": "Babiš označil výsledek obecních voleb za velmi dobrý, vítězům v Praze vzkázal, že mění zákony a má rozpočet",
+      "body": "Premiér Andrej Babiš považuje výsledek obecních voleb za velmi dobrý. Podle něj potvrdily, že ANO je nejsilnější politickou silou v zemi na všech úrovních kromě Senátu, a hnutí se přiblížilo výsledku z roku 2022, kdy přitom jeho politici měli z opoziční role víc času na kampaň. Za úspěšné označil i senátní volby, očekává ale, že se před druhým kolem ostatní strany proti kandidátům ANO spojí. V Praze skončilo hnutí až čtvrté s necelými patnácti procenty a jedenácti mandáty, takže podle Seznam Zpráv může zapomenout na post primátora i na účast v koalici; server shrnul Babišův vzkaz vítězům slovy „Já měním zákony, já mám rozpočet“.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/babis-povazuje-vysledek-obecnich-voleb-za-velmi-dobry-378447"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-vlevo-dole-ja-menim-zakony-ja-mam-rozpocet-babis-vyhrozuje-vitezum-v-praze-317513"
+        }
+      ],
+      "en": {
+        "headline": "Babiš called the municipal election result very good and told the winners in Prague that he changes laws and holds the budget",
+        "sentences": [
+          {
+            "en": "Prime Minister Andrej Babiš considers the result of the municipal elections very good.",
+            "cs": "Premiér Andrej Babiš považuje výsledek obecních voleb za velmi dobrý."
+          },
+          {
+            "en": "In his view they confirmed that ANO is the strongest political force in the country at every level except the Senate, and that the movement came close to its 2022 result, even though back then its politicians had more time to campaign from opposition.",
+            "cs": "Podle něj potvrdily, že ANO je nejsilnější politickou silou v zemi na všech úrovních kromě Senátu, a hnutí se přiblížilo výsledku z roku 2022, kdy přitom jeho politici měli z opoziční role víc času na kampaň."
+          },
+          {
+            "en": "He also called the Senate elections a success, but expects the other parties to join forces against ANO candidates before the second round.",
+            "cs": "Za úspěšné označil i senátní volby, očekává ale, že se před druhým kolem ostatní strany proti kandidátům ANO spojí."
+          },
+          {
+            "en": "In Prague the movement finished only fourth with just under fifteen percent and eleven seats, so according to Seznam Zprávy it can forget about the mayor's post and probably about a place in the coalition too; the outlet summed up Babiš's message to the winners as “I change the laws, I have the budget”.",
+            "cs": "V Praze skončilo hnutí až čtvrté s necelými patnácti procenty a jedenácti mandáty, takže podle Seznam Zpráv může zapomenout na post primátora i na účast v koalici; server shrnul Babišův vzkaz vítězům slovy „Já měním zákony, já mám rozpočet“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "join forces",
+            "definition": "work together to achieve something"
+          },
+          {
+            "term": "outlet",
+            "definition": "a newspaper, TV station or website that publishes news"
+          },
+          {
+            "term": "summed up",
+            "definition": "described something in a short way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:13",
+      "headline": "V prvním kole senátních voleb uspělo pět kandidátů, ANO míří do druhého kola oslabené",
+      "body": "V prvním kole senátních voleb získalo mandát rovnou pět kandidátů a další tři skončili těsně pod padesáti procenty; podle Deníku N volby zjednodušila nízká účast. Pro hnutí ANO, pro které měly být senátní volby odrazovým bodem k případnému získání většiny v horní komoře za dva roky, znamenal výsledek prvního kola neúspěch a do druhého kola míří v mimořádně slabé pozici. Nejtěsnější souboj se odehrál na Žďársku: nejvíc hlasů dostal nestraník a starosta Nového Města na Moravě Michal Šmarda s necelými 27,5 procenta, shodných 25,5 procenta pak získali lidovec Josef Klement a občanský demokrat Radek Černý, kterého nakonec od postupu dělil jediný hlas. Podle Seznam Zpráv zvažují tři neúspěšní kandidáti, kteří nepostoupili jen o několik hlasů, že výsledek napadnou u soudu. Druhé kolo se koná za týden.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2213791/tvrdy-naraz-ano-od-senatnich-voleb-cekalo-vic-do-druheho-kola-miri-v-mimoradne-slabe-pozici/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/nechavam-si-tyden-na-rozmyslenou-cerny-tesne-prohral-souboj-o-postup-do-2-kola_2610111427_aru"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-do-senatu-pri-scitani-zhaslo-svetlo-smolar-senatnich-voleb-zvazuje-stiznost-k-soudu-317572"
+        }
+      ],
+      "en": {
+        "headline": "Five candidates won Senate seats in the first round and ANO goes into the second round weakened",
+        "sentences": [
+          {
+            "en": "Five candidates won a seat outright in the first round of the Senate elections and three more finished just under fifty percent; according to Deník N the low turnout made the vote simpler.",
+            "cs": "V prvním kole senátních voleb získalo mandát rovnou pět kandidátů a další tři skončili těsně pod padesáti procenty; podle Deníku N volby zjednodušila nízká účast."
+          },
+          {
+            "en": "For ANO, which had seen the Senate elections as a springboard towards a possible majority in the upper house in two years' time, the first round was a failure and the movement goes into the second round in an exceptionally weak position.",
+            "cs": "Pro hnutí ANO, pro které měly být senátní volby odrazovým bodem k případnému získání většiny v horní komoře za dva roky, znamenal výsledek prvního kola neúspěch a do druhého kola míří v mimořádně slabé pozici."
+          },
+          {
+            "en": "The closest contest was in the Žďár district: the independent Michal Šmarda, mayor of Nové Město na Moravě, got the most votes with just under 27.5 percent, while Josef Klement of KDU-ČSL and Radek Černý of ODS both took 25.5 percent, and in the end a single vote kept Černý out of the run-off.",
+            "cs": "Nejtěsnější souboj se odehrál na Žďársku: nejvíc hlasů dostal nestraník a starosta Nového Města na Moravě Michal Šmarda s necelými 27,5 procenta, shodných 25,5 procenta pak získali lidovec Josef Klement a občanský demokrat Radek Černý, kterého nakonec od postupu dělil jediný hlas."
+          },
+          {
+            "en": "According to Seznam Zprávy, three unsuccessful candidates who missed out by only a few votes are considering challenging the result in court.",
+            "cs": "Podle Seznam Zpráv zvažují tři neúspěšní kandidáti, kteří nepostoupili jen o několik hlasů, že výsledek napadnou u soudu."
+          },
+          {
+            "en": "The second round takes place in a week.",
+            "cs": "Druhé kolo se koná za týden."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outright",
+            "definition": "completely, in a single step"
+          },
+          {
+            "term": "springboard",
+            "definition": "something that helps you start a bigger success"
+          },
+          {
+            "term": "run-off",
+            "definition": "an extra round of voting between the two best candidates"
+          },
+          {
+            "term": "challenging",
+            "definition": "formally saying that something is wrong and asking for it to be changed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:56",
+      "headline": "Volby v Brně vyhrála kandidátka lidovců a Starostů, vzniká koalice bez ANO",
+      "body": "Komunální volby v Brně vyhrála s 27,38 procenta hlasů kandidátka KDU-ČSL a STAN, která získala osmnáct zastupitelských křesel. Druhá skončila s 18,89 procenta a třinácti mandáty vítězka minulých voleb ODS s TOP 09 a nezávislými, třetí je hnutí ANO se 17,14 procenta a jedenácti mandáty. Pětiprocentní hranici překonaly ještě Zelené Brno, Piráti a hnutí Za Lužánky, hlasování se zúčastnilo 44,08 procenta voličů. Podle iROZHLAS se na vedení města shoduje široká koalice v čele s lidovci a Starosty, do které patří mimo jiné i ODS a TOP 09 a která na post primátora navrhuje Jakuba Hrušku z KDU-ČSL. Deník N píše, že tah ODS se Zlatuškovou stranu nespasil a ANO je v Brně na historickém minimu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/jihomoravsky-kraj/v-brne-po-secteni-dvou-petin-okrsku-vede-uskupeni-lidovcu-a-starostu-378049"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/lide-chteji-zmenu-mame-velkou-chut-pracovat-pro-mesto-rika-hruska-v-brne-sklada_2610111356_jho"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2214712/tah-se-zlatuskovou-ods-nespasil-ano-na-historickem-minimu-vitezove-a-porazeni-voleb-v-brne/"
+        }
+      ],
+      "en": {
+        "headline": "The KDU-ČSL and STAN list won the election in Brno and a coalition without ANO is taking shape",
+        "sentences": [
+          {
+            "en": "The joint list of KDU-ČSL and STAN won the municipal elections in Brno with 27.38 percent of the vote and took eighteen council seats.",
+            "cs": "Komunální volby v Brně vyhrála s 27,38 procenta hlasů kandidátka KDU-ČSL a STAN, která získala osmnáct zastupitelských křesel."
+          },
+          {
+            "en": "Second, with 18.89 percent and thirteen seats, came the winner of the previous election, ODS with TOP 09 and independents, and third is ANO with 17.14 percent and eleven seats.",
+            "cs": "Druhá skončila s 18,89 procenta a třinácti mandáty vítězka minulých voleb ODS s TOP 09 a nezávislými, třetí je hnutí ANO se 17,14 procenta a jedenácti mandáty."
+          },
+          {
+            "en": "Zelené Brno, the Pirates and the Za Lužánky movement also cleared the five percent threshold, and 44.08 percent of voters took part.",
+            "cs": "Pětiprocentní hranici překonaly ještě Zelené Brno, Piráti a hnutí Za Lužánky, hlasování se zúčastnilo 44,08 procenta voličů."
+          },
+          {
+            "en": "According to iROZHLAS, a broad coalition led by KDU-ČSL and STAN, which also includes ODS and TOP 09, agrees on running the city and is proposing Jakub Hruška of KDU-ČSL for mayor.",
+            "cs": "Podle iROZHLAS se na vedení města shoduje široká koalice v čele s lidovci a Starosty, do které patří mimo jiné i ODS a TOP 09 a která na post primátora navrhuje Jakuba Hrušku z KDU-ČSL."
+          },
+          {
+            "en": "Deník N writes that the ODS move with Zlatuška did not save the party and that ANO is at an all-time low in Brno.",
+            "cs": "Deník N píše, že tah ODS se Zlatuškovou stranu nespasil a ANO je v Brně na historickém minimu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "threshold",
+            "definition": "the level you must reach to get something"
+          },
+          {
+            "term": "all-time low",
+            "definition": "the lowest level ever reached"
+          },
+          {
+            "term": "taking shape",
+            "definition": "starting to develop into a clear form"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:01",
+      "headline": "Sněmovní volby by podle modelu STEM vyhrálo ANO, druhý je posilující STAN",
+      "body": "Sněmovní volby by podle říjnového modelu agentury STEM vyhrálo hnutí ANO s 31,3 procenta před posilujícím hnutím STAN s 16,6 procenta. Do Sněmovny by se dostaly ještě ODS s 11,3 procenta, SPD se 7,5 procenta a Piráti se 7,2 procenta. Motoristé sobě by se ziskem 4,6 procenta zůstali na hraně vstupu. Za růstem Starostů může podle Seznam Zpráv stát i jejich úspěch v komunálních a senátních volbách, ODS naopak v modelu ztrácí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215209/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-stem-snemovni-volby-by-vyhralo-ano-druhou-pozici-drzi-posilujici-stan-317575"
+        }
+      ],
+      "en": {
+        "headline": "ANO would win a general election according to the STEM model, with a strengthening STAN second",
+        "sentences": [
+          {
+            "en": "ANO would win a general election with 31.3 percent, ahead of the strengthening STAN movement with 16.6 percent, according to STEM's October model.",
+            "cs": "Sněmovní volby by podle říjnového modelu agentury STEM vyhrálo hnutí ANO s 31,3 procenta před posilujícím hnutím STAN s 16,6 procenta."
+          },
+          {
+            "en": "ODS with 11.3 percent, SPD with 7.5 percent and the Pirates with 7.2 percent would also make it into the Chamber of Deputies.",
+            "cs": "Do Sněmovny by se dostaly ještě ODS s 11,3 procenta, SPD se 7,5 procenta a Piráti se 7,2 procenta."
+          },
+          {
+            "en": "Motoristé sobě, on 4.6 percent, would stay on the edge of getting in.",
+            "cs": "Motoristé sobě by se ziskem 4,6 procenta zůstali na hraně vstupu."
+          },
+          {
+            "en": "According to Seznam Zprávy, the rise of STAN may also be driven by its success in the municipal and Senate elections, while ODS is losing support in the model.",
+            "cs": "Za růstem Starostů může podle Seznam Zpráv stát i jejich úspěch v komunálních a senátních volbách, ODS naopak v modelu ztrácí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "make it into",
+            "definition": "succeed in getting into a place or group"
+          },
+          {
+            "term": "on the edge of",
+            "definition": "very close to a limit"
+          },
+          {
+            "term": "driven by",
+            "definition": "caused by something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "23:36",
+      "day": "prev",
+      "headline": "Volby v Hradci vyhrála koalice primátorky Springerové, vyjednávací blok má 20 z 37 mandátů",
+      "body": "V Hradci Králové vyhrála komunální volby koalice HDK, TOP 09 a Hradeckých kantorů současné primátorky Pavlíny Springerové. Druhé skončilo hnutí ANO s lídrem Lukášem Fiedlerem, třetí je koalice Pirátů a Starostů. Jednání o koalici začala hned v sobotu večer: vítězové se podle Hradecké drbny spojili s Piráty a Starosty a se Změnou pro Hradec, Zelenými a KDU-ČSL do společného vyjednávacího bloku, který má dohromady 20 z 37 mandátů. Springerová řekla Hradeckému deníku, že volební výsledek vnímá jako obrovské zadostiučinění a skvělou zprávu o Hradci.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/komunalni-volby-2026-hradec-kralove-vysledky.A261010_100633_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/pavlina-springerova-rozhovor-vitez-voleb-komunalni-volby-radnice/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/902657-prvni-dohoda-v-hradci-tri-uskupeni-vytvorila-blok-s-20-zastupiteli.html"
+        }
+      ],
+      "en": {
+        "headline": "The coalition of mayor Springerová won the election in Hradec and its negotiating bloc holds 20 of the 37 seats",
+        "sentences": [
+          {
+            "en": "In Hradec Králové the municipal elections were won by the coalition of HDK, TOP 09 and Hradečtí kantoři led by the current mayor Pavlína Springerová.",
+            "cs": "V Hradci Králové vyhrála komunální volby koalice HDK, TOP 09 a Hradeckých kantorů současné primátorky Pavlíny Springerové."
+          },
+          {
+            "en": "ANO, with its leader Lukáš Fiedler, finished second and the coalition of the Pirates and STAN third.",
+            "cs": "Druhé skončilo hnutí ANO s lídrem Lukášem Fiedlerem, třetí je koalice Pirátů a Starostů."
+          },
+          {
+            "en": "Coalition talks began on Saturday evening: according to Hradecká drbna the winners joined with the Pirates and STAN and with Změna pro Hradec, the Greens and KDU-ČSL into a joint negotiating bloc that holds 20 of the 37 seats.",
+            "cs": "Jednání o koalici začala hned v sobotu večer: vítězové se podle Hradecké drbny spojili s Piráty a Starosty a se Změnou pro Hradec, Zelenými a KDU-ČSL do společného vyjednávacího bloku, který má dohromady 20 z 37 mandátů."
+          },
+          {
+            "en": "Springerová told Hradecký deník that she sees the election result as enormous vindication and great news about Hradec.",
+            "cs": "Springerová řekla Hradeckému deníku, že volební výsledek vnímá jako obrovské zadostiučinění a skvělou zprávu o Hradci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bloc",
+            "definition": "a group of parties that work together"
+          },
+          {
+            "term": "vindication",
+            "definition": "proof that you were right after all"
+          },
+          {
+            "term": "talks",
+            "definition": "formal discussions between groups"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:21",
+      "headline": "Na Královéhradecku se o senátní mandát utkají ve druhém kole Dvořák a Ceralová Petrofová",
+      "body": "Senátor Jan Sobotka, nestraník za STAN, obhájil mandát na Trutnovsku už v prvním kole, po sečtení všech okrsků má 58,42 procenta hlasů. Na Rychnovsku obhájil křeslo Jan Grulich s 62,19 procenta hlasů; zvolení už v prvním kole tu bylo jisté, protože proti sobě stáli jen dva kandidáti a Grulicha vyzval poslanec a radní Dobrušky Petr Sadovský z ANO, který dostal 37,8 procenta. V královéhradeckém obvodu se o mandát utkají ve druhém kole bývalý ministr pro evropské záležitosti Martin Dvořák ze STAN s 25,13 procenta hlasů a podnikatelka Zuzana Ceralová Petrofová, nestranička za ODS, s 21,94 procenta.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/senatni-volby-senat-2026-trutnov-hradec-prvni-kolo-vysledky.A261010_111957_hradec-volby_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/senatni-volby-2026-grulich-rychnovsko-vysledky.A261010_151344_hradec-volby_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Dvořák and Ceralová Petrofová will fight for the Senate seat in the Hradec Králové district in the second round",
+        "sentences": [
+          {
+            "en": "Senator Jan Sobotka, an independent running for STAN, defended his seat in the Trutnov district already in the first round and holds 58.42 percent of the vote after all precincts were counted.",
+            "cs": "Senátor Jan Sobotka, nestraník za STAN, obhájil mandát na Trutnovsku už v prvním kole, po sečtení všech okrsků má 58,42 procenta hlasů."
+          },
+          {
+            "en": "In the Rychnov district Jan Grulich defended his seat with 62.19 percent; being elected in the first round was certain there, because only two candidates stood against each other, and Grulich was challenged by the MP and Dobruška councillor Petr Sadovský of ANO, who got 37.8 percent.",
+            "cs": "Na Rychnovsku obhájil křeslo Jan Grulich s 62,19 procenta hlasů; zvolení už v prvním kole tu bylo jisté, protože proti sobě stáli jen dva kandidáti a Grulicha vyzval poslanec a radní Dobrušky Petr Sadovský z ANO, který dostal 37,8 procenta."
+          },
+          {
+            "en": "In the Hradec Králové district the seat will be contested in the second round by the former minister for European affairs Martin Dvořák of STAN with 25.13 percent of the vote and the entrepreneur Zuzana Ceralová Petrofová, an independent running for ODS, with 21.94 percent.",
+            "cs": "V královéhradeckém obvodu se o mandát utkají ve druhém kole bývalý ministr pro evropské záležitosti Martin Dvořák ze STAN s 25,13 procenta hlasů a podnikatelka Zuzana Ceralová Petrofová, nestranička za ODS, s 21,94 procenta."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "precincts",
+            "definition": "small areas that a town is divided into for voting"
+          },
+          {
+            "term": "contested",
+            "definition": "fought over by people who all want to win it"
+          },
+          {
+            "term": "entrepreneur",
+            "definition": "a person who starts and runs a business"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:39",
+      "headline": "V Hrádku lidé v referendu podpořili převzetí kostela obcí, Maršov odmítl větrné elektrárny",
+      "body": "Ve dvou obcích Královéhradeckého kraje rozhodli lidé v referendech, která se konala spolu s obecními a senátními volbami. V Hrádku na Hradecku se vyslovili pro to, aby kostel svatého Jiří bezúplatně přešel z majetku římskokatolické církve do rukou obce; ta věří, že snáz získá peníze na péči o památku, kde by vedle bohoslužeb chtěla pořádat také koncerty, výstavy nebo svatby. V Maršově u Úpice na Trutnovsku naopak voliči obec zavázali ke krokům proti stavbě větrných elektráren v katastru obce, podnětem k vyhlášení referenda byla petice. Obě referenda jsou platná i závazná.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/902616-lide-v-hradku-na-hradecku-se-v-referendu-vyslovili-pro-prevzeti-kostela.html"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/referendum-2026-hradek-kostel-marsov-vetrniky.A261010_155145_hradec-volby_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/lide-v-hradku-na-hradecku-se-v-referendu-vyslovili-pro-prevzeti-kostela-obci/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "People in Hrádek backed taking over the church in a referendum, while Maršov rejected wind turbines",
+        "sentences": [
+          {
+            "en": "In two villages in the Hradec Králové region, people decided in referendums held alongside the municipal and Senate elections.",
+            "cs": "Ve dvou obcích Královéhradeckého kraje rozhodli lidé v referendech, která se konala spolu s obecními a senátními volbami."
+          },
+          {
+            "en": "In Hrádek in the Hradec district they voted in favour of the church of St George passing free of charge from the property of the Roman Catholic Church into the hands of the village, which believes it will find it easier to get money to look after the monument, where alongside services it would like to hold concerts, exhibitions or weddings.",
+            "cs": "V Hrádku na Hradecku se vyslovili pro to, aby kostel svatého Jiří bezúplatně přešel z majetku římskokatolické církve do rukou obce; ta věří, že snáz získá peníze na péči o památku, kde by vedle bohoslužeb chtěla pořádat také koncerty, výstavy nebo svatby."
+          },
+          {
+            "en": "In Maršov u Úpice in the Trutnov district, by contrast, voters obliged the village to take steps against the construction of wind turbines on its land, and the referendum was prompted by a petition.",
+            "cs": "V Maršově u Úpice na Trutnovsku naopak voliči obec zavázali ke krokům proti stavbě větrných elektráren v katastru obce, podnětem k vyhlášení referenda byla petice."
+          },
+          {
+            "en": "Both referendums are valid and binding.",
+            "cs": "Obě referenda jsou platná i závazná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "free of charge",
+            "definition": "without paying any money"
+          },
+          {
+            "term": "obliged",
+            "definition": "forced someone to do something"
+          },
+          {
+            "term": "prompted by",
+            "definition": "started because of something"
+          },
+          {
+            "term": "binding",
+            "definition": "that must be obeyed by law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:44",
+      "headline": "Strana PRO s předsedou Rajchlem se do hradeckého zastupitelstva nedostala",
+      "body": "Sázka na známé jméno v Hradci Králové nevyšla. Na kandidátce strany PRO, která šla do voleb se Svobodnými a Přísahou, figuroval i předseda strany Jindřich Rajchl, u voličů ale propadl. Uskupení skončilo mezi čtyřmi formacemi, které kvůli nízkému volebnímu zisku do zastupitelstva vůbec neprošly. Podle iDNES některé voliče Rajchl znechutil svým vystupováním na sociálních sítích.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/komunalni-volby-2026-hradec-pro-rajchl-patek-neuspech.A261011_132935_hradec-volby_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The PRO party with its leader Rajchl failed to get into the Hradec council",
+        "sentences": [
+          {
+            "en": "Betting on a well-known name did not work out in Hradec Králové.",
+            "cs": "Sázka na známé jméno v Hradci Králové nevyšla."
+          },
+          {
+            "en": "The list of the PRO party, which ran with Svobodní and Přísaha, also featured the party's leader Jindřich Rajchl, but he flopped with voters.",
+            "cs": "Na kandidátce strany PRO, která šla do voleb se Svobodnými a Přísahou, figuroval i předseda strany Jindřich Rajchl, u voličů ale propadl."
+          },
+          {
+            "en": "The grouping ended up among four formations that did not get into the council at all because of their low share of the vote.",
+            "cs": "Uskupení skončilo mezi čtyřmi formacemi, které kvůli nízkému volebnímu zisku do zastupitelstva vůbec neprošly."
+          },
+          {
+            "en": "According to iDNES, some voters were put off by Rajchl's conduct on social media.",
+            "cs": "Podle iDNES některé voliče Rajchl znechutil svým vystupováním na sociálních sítích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "work out",
+            "definition": "to happen in a successful way"
+          },
+          {
+            "term": "flopped",
+            "definition": "failed completely"
+          },
+          {
+            "term": "put off",
+            "definition": "made someone dislike something"
+          },
+          {
+            "term": "conduct",
+            "definition": "the way a person behaves"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:38",
+      "headline": "Trump vyhlásil okamžité energetické příměří mezi Ukrajinou a Ruskem, pro Zelenského je to novinka",
+      "body": "Americký prezident Donald Trump na síti Truth Social oznámil, že mezi Ukrajinou a Ruskem začíná s okamžitou platností platit energetické příměří. Tvrdí, že s ním obě strany souhlasily, a vyzval, aby ho nikdo neporušil. Ukrajinský prezident Volodymyr Zelenskyj ale americkému serveru Axios řekl, že zpráva o částečném přerušení bojů je pro něj novinkou. Trump včera večer Zelenského kritizoval za útoky na ruské rafinerie a prohlásil, že je na čase, aby Ukrajina měla nového prezidenta; podle Trumpa mohl Zelenskyj válku „už mnohokrát ukončit dohodou“ a může si dělat, co chce, jen ne zasahovat ruské rafinerie. Zelenskyj na to v televizi ABC reagoval slovy: „Prosím, řekněte Putinovi, ať nám dá dva měsíce, 60 dní úplného příměří, 60 dní, a my uspořádáme volby.“",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-tvrdi-ze-mezi-ukrajinou-a-ruskem-zacina-platit-energeticke-primeri-378466"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-mezi-ukrajinou-a-ruskem-podle-trumpa-zacina-okamzite-platit-energeticke_2610111638_dci"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/je-na-case-aby-ukrajina-mela-noveho-prezidenta-prohlasil-trump-378440"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215472/"
+        }
+      ],
+      "en": {
+        "headline": "Trump has declared an immediate energy ceasefire between Ukraine and Russia, but it is news to Zelenskyj",
+        "sentences": [
+          {
+            "en": "US President Donald Trump announced on Truth Social that an energy ceasefire between Ukraine and Russia takes effect immediately.",
+            "cs": "Americký prezident Donald Trump na síti Truth Social oznámil, že mezi Ukrajinou a Ruskem začíná s okamžitou platností platit energetické příměří."
+          },
+          {
+            "en": "He claims both sides have agreed to it and called on everyone not to break it.",
+            "cs": "Tvrdí, že s ním obě strany souhlasily, a vyzval, aby ho nikdo neporušil."
+          },
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyj, however, told the American outlet Axios that the news of a partial halt to the fighting came as a surprise to him.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj ale americkému serveru Axios řekl, že zpráva o částečném přerušení bojů je pro něj novinkou."
+          },
+          {
+            "en": "Yesterday evening Trump criticised Zelenskyj for the strikes on Russian refineries and declared that it is time for Ukraine to have a new president; according to Trump, Zelenskyj could have “ended the war many times over with a deal” and can do whatever he likes, except hitting Russian refineries.",
+            "cs": "Trump včera večer Zelenského kritizoval za útoky na ruské rafinerie a prohlásil, že je na čase, aby Ukrajina měla nového prezidenta; podle Trumpa mohl Zelenskyj válku „už mnohokrát ukončit dohodou“ a může si dělat, co chce, jen ne zasahovat ruské rafinerie."
+          },
+          {
+            "en": "Zelenskyj responded on ABC television with the words: “Please tell Putin to give us two months, 60 days of a complete ceasefire, 60 days, and we will hold elections.”",
+            "cs": "Zelenskyj na to v televizi ABC reagoval slovy: „Prosím, řekněte Putinovi, ať nám dá dva měsíce, 60 dní úplného příměří, 60 dní, a my uspořádáme volby.“"
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting for a time"
+          },
+          {
+            "term": "takes effect",
+            "definition": "starts to apply"
+          },
+          {
+            "term": "halt",
+            "definition": "a stop to something"
+          },
+          {
+            "term": "refineries",
+            "definition": "factories where oil is turned into fuel"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:12",
+      "headline": "Rusko podle Financial Times zesiluje snahy zabíjet šéfy evropských zbrojovek",
+      "body": "Západní zpravodajské služby varovaly šéfy evropských zbrojních firem, že Rusko zesiluje snahy o jejich zabití, napsal deník Financial Times. Firmy to vedlo ke zpřísnění osobní ochrany svých nejvyšších vedoucích pracovníků. Kreml podle listu kvůli patové situaci na bojišti na Ukrajině a potížím ruské ekonomiky nařídil rozšíření sabotážních a hybridních operací v Evropě, kterými se snaží v nadcházejících měsících fatálně oslabit podporu Kyjeva. Podle iROZHLAS se hrozba týká i menších zbrojovek.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-zesiluje-snahy-zabijet-sefy-evropskeho-obranneho-prumyslu-pisi-ft-378465"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-zesiluje-snahy-zabijet-sefy-evropskeho-obranneho-prumyslu-317563"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-rusko-podle-zpravodajskych-sluzeb-chysta-utoky-na-sefy-evropskych_2610111512_dci"
+        }
+      ],
+      "en": {
+        "headline": "Russia is stepping up efforts to kill the heads of European arms makers, according to the Financial Times",
+        "sentences": [
+          {
+            "en": "Western intelligence services have warned the heads of European arms companies that Russia is stepping up its efforts to kill them, the Financial Times wrote.",
+            "cs": "Západní zpravodajské služby varovaly šéfy evropských zbrojních firem, že Rusko zesiluje snahy o jejich zabití, napsal deník Financial Times."
+          },
+          {
+            "en": "This has led the companies to tighten the personal protection of their most senior executives.",
+            "cs": "Firmy to vedlo ke zpřísnění osobní ochrany svých nejvyšších vedoucích pracovníků."
+          },
+          {
+            "en": "Because of the stalemate on the battlefield in Ukraine and the problems of the Russian economy, the Kremlin has according to the paper ordered an expansion of sabotage and hybrid operations in Europe, through which it is trying to fatally weaken support for Kyiv in the coming months.",
+            "cs": "Kreml podle listu kvůli patové situaci na bojišti na Ukrajině a potížím ruské ekonomiky nařídil rozšíření sabotážních a hybridních operací v Evropě, kterými se snaží v nadcházejících měsících fatálně oslabit podporu Kyjeva."
+          },
+          {
+            "en": "According to iROZHLAS, the threat also concerns smaller arms makers.",
+            "cs": "Podle iROZHLAS se hrozba týká i menších zbrojovek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stepping up",
+            "definition": "increasing something"
+          },
+          {
+            "term": "stalemate",
+            "definition": "a situation where neither side can win"
+          },
+          {
+            "term": "executives",
+            "definition": "senior managers in a company"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:52",
+      "headline": "Polská policie zadržela muže, který měl plánovat atentát na premiéra Tuska",
+      "body": "Polská policie zadržela muže, který měl plánovat atentát na premiéra Donalda Tuska a vicepremiéra a ministra obrany Władysława Kosiniaka-Kamysze. „Muž, který vyhrožoval atentátem, byl zatčen. Děkuji policistům za rychlé a rozhodné jednání,“ napsal Tusk na síti X. Oznámení o hrozbě dostali oba politici v neděli v sedm hodin ráno, vláda kvůli němu nařídila okamžitá bezpečnostní opatření a v protiteroristické centrále zasedli zástupci kabinetu s bezpečnostními složkami; situaci bere podle Deníku N „smrtelně vážně“. Polská televize TVN uvedla, že zná obsah hlášení: údajný oznamovatel měl přes sociální sítě navázat kontakt s blíže nespecifikovanou radikální organizací a hledat dobrovolníky k provedení útoku se střelnými zbraněmi. České bezpečnostní a zpravodajské služby jsou kvůli případu v kontaktu se svými polskými partnery a ministerstvo zahraničí uvedlo, že Česko je připraveno poskytnout Polsku veškerou součinnost. Ministr zahraničí Petr Macinka za Motoristy ujistil svého polského protějška Radosława Sikorského o plné české solidaritě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215593/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/polska-policie-proveruje-informace-o-moznem-atentatu-na-premiera-tuska-378461"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-hrozby-vuci-polskym-politikum-resi-i-ceske-bezpecnostni-sluzby-317580"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215525/"
+        }
+      ],
+      "en": {
+        "headline": "Polish police have detained a man who was allegedly planning to assassinate Prime Minister Tusk",
+        "sentences": [
+          {
+            "en": "Polish police have detained a man who was allegedly planning to assassinate Prime Minister Donald Tusk and Deputy Prime Minister and Defence Minister Władysław Kosiniak-Kamysz.",
+            "cs": "Polská policie zadržela muže, který měl plánovat atentát na premiéra Donalda Tuska a vicepremiéra a ministra obrany Władysława Kosiniaka-Kamysze."
+          },
+          {
+            "en": "“The man who threatened an assassination has been arrested. I thank the officers for their swift and decisive action,” Tusk wrote on X.",
+            "cs": "„Muž, který vyhrožoval atentátem, byl zatčen. Děkuji policistům za rychlé a rozhodné jednání,“ napsal Tusk na síti X."
+          },
+          {
+            "en": "Both politicians received the warning about the threat at seven o'clock on Sunday morning; because of it the government ordered immediate security measures and representatives of the cabinet sat down with the security services at the counter-terrorism centre, and according to Deník N it is taking the situation “deadly seriously”.",
+            "cs": "Oznámení o hrozbě dostali oba politici v neděli v sedm hodin ráno, vláda kvůli němu nařídila okamžitá bezpečnostní opatření a v protiteroristické centrále zasedli zástupci kabinetu s bezpečnostními složkami; situaci bere podle Deníku N „smrtelně vážně“."
+          },
+          {
+            "en": "Polish television TVN said it knows the content of the report: the alleged informant was said to have made contact through social media with an unspecified radical organisation and to have looked for volunteers to carry out an attack with firearms.",
+            "cs": "Polská televize TVN uvedla, že zná obsah hlášení: údajný oznamovatel měl přes sociální sítě navázat kontakt s blíže nespecifikovanou radikální organizací a hledat dobrovolníky k provedení útoku se střelnými zbraněmi."
+          },
+          {
+            "en": "Czech security and intelligence services are in contact with their Polish partners over the case and the foreign ministry said that the Czech Republic is ready to give Poland every assistance.",
+            "cs": "České bezpečnostní a zpravodajské služby jsou kvůli případu v kontaktu se svými polskými partnery a ministerstvo zahraničí uvedlo, že Česko je připraveno poskytnout Polsku veškerou součinnost."
+          },
+          {
+            "en": "Foreign Minister Petr Macinka of Motoristé assured his Polish counterpart Radosław Sikorski of the Czech Republic's full solidarity.",
+            "cs": "Ministr zahraničí Petr Macinka za Motoristy ujistil svého polského protějška Radosława Sikorského o plné české solidaritě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "allegedly",
+            "definition": "said by some people, but not proved"
+          },
+          {
+            "term": "swift",
+            "definition": "happening very quickly"
+          },
+          {
+            "term": "counterpart",
+            "definition": "a person with the same job in another country or organisation"
+          },
+          {
+            "term": "firearms",
+            "definition": "guns"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:25",
+      "headline": "Ruské údery na Ukrajině si vyžádaly dvě oběti, ukrajinské drony vyřadily další datové centrum Yandexu",
+      "body": "Ruské útoky si v neděli na Ukrajině vyžádaly nejméně dvě oběti, hlásí je úřady v Charkovské oblasti. Úderům čelila i další města a regiony včetně Dnipra. Ukrajinské drony podle médií napadly a vyřadily z provozu další datové centrum ruské společnosti Yandex, tentokrát ve Vladimiru; zprávy vycházejí z vyjádření samotné firmy, které citovala i ruská státní agentura TASS. Ukrajina je podle Zelenského připravena zastavit útoky na ruské ropné rafinerie, pokud Rusko přestane cílit na ukrajinskou energetiku.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/utok-v-dnipru-si-vyzadal-ctyri-zranene-rusky-yandex-hlasi-utok-na-datove-centrum-378457"
+        }
+      ],
+      "en": {
+        "headline": "Russian strikes in Ukraine killed two people and Ukrainian drones knocked out another Yandex data centre",
+        "sentences": [
+          {
+            "en": "Russian attacks in Ukraine claimed at least two lives on Sunday, according to the authorities in the Kharkiv region.",
+            "cs": "Ruské útoky si v neděli na Ukrajině vyžádaly nejméně dvě oběti, hlásí je úřady v Charkovské oblasti."
+          },
+          {
+            "en": "Other cities and regions, including Dnipro, were hit as well.",
+            "cs": "Úderům čelila i další města a regiony včetně Dnipra."
+          },
+          {
+            "en": "Ukrainian drones reportedly attacked and knocked out another data centre of the Russian company Yandex, this time in Vladimir; the reports are based on a statement by the company itself, which was also quoted by the Russian state agency TASS.",
+            "cs": "Ukrajinské drony podle médií napadly a vyřadily z provozu další datové centrum ruské společnosti Yandex, tentokrát ve Vladimiru; zprávy vycházejí z vyjádření samotné firmy, které citovala i ruská státní agentura TASS."
+          },
+          {
+            "en": "According to Zelenskyj, Ukraine is ready to stop strikes on Russian oil refineries if Russia stops targeting Ukrainian energy infrastructure.",
+            "cs": "Ukrajina je podle Zelenského připravena zastavit útoky na ruské ropné rafinerie, pokud Rusko přestane cílit na ukrajinskou energetiku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "knocked out",
+            "definition": "damaged something so that it stops working"
+          },
+          {
+            "term": "claimed",
+            "definition": "caused the death of someone"
+          },
+          {
+            "term": "targeting",
+            "definition": "choosing something as the aim of an attack"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "03:51",
+      "headline": "V Hormuzském průlivu zasáhly za 24 hodin neznámé projektily nejméně dva tankery",
+      "body": "Nejméně dva tankery v Hormuzském průlivu zasáhly za posledních 24 hodin neznámé projektily, obě posádky jsou podle britské agentury pro námořní bezpečnost UKMTO v bezpečí. Americké oblastní velitelství CENTCOM oznámilo, že v Ománském zálivu zasáhlo nákladní loď plující z íránského přístavu poté, co posádka ignorovala varování. Írán se v rámci války se Spojenými státy snaží Hormuzský průliv blokovat, zatímco Washington uplatňuje námořní blokádu íránských přístavů.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/neznamy-projektil-zasahl-tanker-v-hormuzskem-prulivu-posadka-je-v-bezpeci-378451"
+        }
+      ],
+      "en": {
+        "headline": "Unidentified projectiles have hit at least two tankers in the Strait of Hormuz within 24 hours",
+        "sentences": [
+          {
+            "en": "At least two tankers in the Strait of Hormuz have been hit by unidentified projectiles in the past 24 hours, and both crews are safe, according to the British maritime security agency UKMTO.",
+            "cs": "Nejméně dva tankery v Hormuzském průlivu zasáhly za posledních 24 hodin neznámé projektily, obě posádky jsou podle britské agentury pro námořní bezpečnost UKMTO v bezpečí."
+          },
+          {
+            "en": "The US regional command CENTCOM announced that it had hit a cargo ship sailing from an Iranian port in the Gulf of Oman after the crew ignored warnings.",
+            "cs": "Americké oblastní velitelství CENTCOM oznámilo, že v Ománském zálivu zasáhlo nákladní loď plující z íránského přístavu poté, co posádka ignorovala varování."
+          },
+          {
+            "en": "As part of its war with the United States, Iran is trying to block the Strait of Hormuz, while Washington is enforcing a naval blockade of Iranian ports.",
+            "cs": "Írán se v rámci války se Spojenými státy snaží Hormuzský průliv blokovat, zatímco Washington uplatňuje námořní blokádu íránských přístavů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "projectiles",
+            "definition": "objects fired or thrown as weapons"
+          },
+          {
+            "term": "maritime",
+            "definition": "connected with the sea and ships"
+          },
+          {
+            "term": "blockade",
+            "definition": "an action that stops ships from entering or leaving a place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:32",
+      "headline": "Počet obětí ztroskotání lodi u Džibutska stoupl na 139, dalších 84 lidí se pohřešuje",
+      "body": "Počet obětí po ztroskotání lodi u břehů Džibutska stoupl ze 109 na nejméně 139 osob, dalších zhruba 84 lidí se stále pohřešuje. Uvedla to OSN, na jejíž oznámení se odvolala agentura AFP. Loď převážející asi 350 migrantů ztroskotala na trase mezi Džibutskem a Jemenem v noci z 8. na 9. října. Mezi 109 obětmi, o nichž OSN informovala dříve, bylo patnáct dětí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/pri-lodnim-nestesti-u-dzibutska-zemrelo-139-lidi-dalsich-84-se-stale-pohresuje_2610111632_dci"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ztroskotani-lodi-u-dzibutska-si-vyzadalo-109-mrtvych-317545"
+        }
+      ],
+      "en": {
+        "headline": "The death toll from the shipwreck off Djibouti has risen to 139 and another 84 people are missing",
+        "sentences": [
+          {
+            "en": "The death toll from the shipwreck off the coast of Djibouti has risen from 109 to at least 139 people, and roughly 84 more are still missing.",
+            "cs": "Počet obětí po ztroskotání lodi u břehů Džibutska stoupl ze 109 na nejméně 139 osob, dalších zhruba 84 lidí se stále pohřešuje."
+          },
+          {
+            "en": "This was stated by the UN, whose announcement was cited by the AFP agency.",
+            "cs": "Uvedla to OSN, na jejíž oznámení se odvolala agentura AFP."
+          },
+          {
+            "en": "The boat, which was carrying about 350 migrants, sank on the route between Djibouti and Yemen on the night of 8 to 9 October.",
+            "cs": "Loď převážející asi 350 migrantů ztroskotala na trase mezi Džibutskem a Jemenem v noci z 8. na 9. října."
+          },
+          {
+            "en": "Among the 109 victims the UN had reported earlier were fifteen children.",
+            "cs": "Mezi 109 obětmi, o nichž OSN informovala dříve, bylo patnáct dětí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "death toll",
+            "definition": "the number of people who died in an event"
+          },
+          {
+            "term": "shipwreck",
+            "definition": "the destruction of a ship at sea"
+          },
+          {
+            "term": "cited",
+            "definition": "mentioned as a source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:38",
+      "headline": "Trumpova dohoda o ruské naftě podle Havlíčka ceny pohonných hmot nesníží",
+      "body": "Dohoda amerického prezidenta Donalda Trumpa s Vladimirem Putinem o dodávkách ruské nafty na americký a světový trh nebude mít podle ministra průmyslu Karla Havlíčka z ANO vliv na ceny pohonných hmot. V pořadu Partie na CNN Prima News se Havlíček shodl s předsedou ODS Martinem Kupkou a místopředsedou STAN Lukášem Vlčkem na tom, že je do budoucna nutné pracovat na soběstačnosti Evropy tak, aby nebyla závislá na jednom zdroji fosilních paliv. E15 dodává, že Kupka označil Trumpův krok za chybu, zatímco Fiala očekává mírné zlevnění pohonných hmot.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/trumpova-dohoda-o-ruske-nafte-podle-havlicka-ceny-nesnizi-378464"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/trumpova-dohoda-s-putinem-levnejsi-naftu-neprinese-tvrdi-havlicek-ma-i-dalsi-pochybnosti-1436450"
+        }
+      ],
+      "en": {
+        "headline": "Trump's deal on Russian diesel will not bring down fuel prices, Havlíček says",
+        "sentences": [
+          {
+            "en": "The deal between US President Donald Trump and Vladimir Putin on supplies of Russian diesel to the American and world market will, according to Industry Minister Karel Havlíček of ANO, have no effect on fuel prices.",
+            "cs": "Dohoda amerického prezidenta Donalda Trumpa s Vladimirem Putinem o dodávkách ruské nafty na americký a světový trh nebude mít podle ministra průmyslu Karla Havlíčka z ANO vliv na ceny pohonných hmot."
+          },
+          {
+            "en": "On the programme Partie on CNN Prima News, Havlíček agreed with ODS leader Martin Kupka and STAN deputy leader Lukáš Vlček that Europe needs to work towards self-sufficiency in future, so that it is not dependent on a single source of fossil fuels.",
+            "cs": "V pořadu Partie na CNN Prima News se Havlíček shodl s předsedou ODS Martinem Kupkou a místopředsedou STAN Lukášem Vlčkem na tom, že je do budoucna nutné pracovat na soběstačnosti Evropy tak, aby nebyla závislá na jednom zdroji fosilních paliv."
+          },
+          {
+            "en": "E15 adds that Kupka called Trump's move a mistake, while Fiala expects a slight drop in fuel prices.",
+            "cs": "E15 dodává, že Kupka označil Trumpův krok za chybu, zatímco Fiala očekává mírné zlevnění pohonných hmot."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bring down",
+            "definition": "to make something lower"
+          },
+          {
+            "term": "self-sufficiency",
+            "definition": "being able to provide everything you need yourself"
+          },
+          {
+            "term": "fossil fuels",
+            "definition": "fuels such as coal, oil and gas formed from ancient plants and animals"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:15",
+      "headline": "Starší byt v Praze zdražil za rok o 810 tisíc korun",
+      "body": "Růst cen starších bytů v Česku zpomalil, meziročně jsou ale stále o desetinu dražší. Za běžný byt v Praze zaplatí kupující téměř o milion korun víc než před rokem, konkrétně o 810 tisíc. Nejrychleji ceny rostou v některých levnějších regionech a další vývoj mohou podle E15 ovlivnit dražší hypotéky.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/starsi-byt-v-praze-zdrazil-za-rok-o-810-tisic-v-dalsich-mestech-ceny-rostou-jeste-rychleji-1436444"
+        }
+      ],
+      "en": {
+        "headline": "An older flat in Prague has become 810,000 crowns more expensive in a year",
+        "sentences": [
+          {
+            "en": "Growth in the prices of older flats in the Czech Republic has slowed, but year on year they are still a tenth more expensive.",
+            "cs": "Růst cen starších bytů v Česku zpomalil, meziročně jsou ale stále o desetinu dražší."
+          },
+          {
+            "en": "For an ordinary flat in Prague a buyer will pay almost a million crowns more than a year ago, to be precise 810,000.",
+            "cs": "Za běžný byt v Praze zaplatí kupující téměř o milion korun víc než před rokem, konkrétně o 810 tisíc."
+          },
+          {
+            "en": "Prices are rising fastest in some cheaper regions, and further developments may be influenced by more expensive mortgages, E15 says.",
+            "cs": "Nejrychleji ceny rostou v některých levnějších regionech a další vývoj mohou podle E15 ovlivnit dražší hypotéky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "year on year",
+            "definition": "compared with the same time one year earlier"
+          },
+          {
+            "term": "a tenth",
+            "definition": "one part out of ten"
+          },
+          {
+            "term": "mortgages",
+            "definition": "loans you take in order to buy a home"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:36",
+      "headline": "Internetovému prodejci Rohlík unikla osobní data zákazníků",
+      "body": "Internetovému prodejci Rohlík unikla osobní data zákazníků. Jde o jména, e-mailové adresy a někdy i o telefonní čísla. E-shop podle ČTK předal případ úřadům.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215536/"
+        }
+      ],
+      "en": {
+        "headline": "The online retailer Rohlík has leaked customers' personal data",
+        "sentences": [
+          {
+            "en": "The online retailer Rohlík has leaked customers' personal data.",
+            "cs": "Internetovému prodejci Rohlík unikla osobní data zákazníků."
+          },
+          {
+            "en": "It involves names, email addresses and sometimes also phone numbers.",
+            "cs": "Jde o jména, e-mailové adresy a někdy i o telefonní čísla."
+          },
+          {
+            "en": "According to ČTK the e-shop has handed over the case to the authorities.",
+            "cs": "E-shop podle ČTK předal případ úřadům."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "retailer",
+            "definition": "a company that sells goods to customers"
+          },
+          {
+            "term": "leaked",
+            "definition": "let secret information escape"
+          },
+          {
+            "term": "handed over",
+            "definition": "gave something to someone else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:49",
+      "headline": "Uživatelé hardwarových peněženek Ledger přišli o více než 90 milionů dolarů",
+      "body": "Někteří uživatelé hardwarové peněženky Ledger v jihovýchodní Asii přišli v pátek o 90 milionů dolarů poté, co jim byla odposlechnuta hesla. Podle Root.cz se problém týká lidí, kteří si peněženku koupili v posledních třech měsících od dodavatele CryptoBillis.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/uzivatelum-hw-penezenky-ledger-byla-odposlechnuta-hesla-ukradeno-pres-90-milionu-dolaru/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Users of Ledger hardware wallets have lost more than 90 million dollars",
+        "sentences": [
+          {
+            "en": "Some users of the Ledger hardware wallet in Southeast Asia lost 90 million dollars on Friday after their passwords were intercepted.",
+            "cs": "Někteří uživatelé hardwarové peněženky Ledger v jihovýchodní Asii přišli v pátek o 90 milionů dolarů poté, co jim byla odposlechnuta hesla."
+          },
+          {
+            "en": "According to Root.cz the problem affects people who bought the wallet in the past three months from the supplier CryptoBillis.",
+            "cs": "Podle Root.cz se problém týká lidí, kteří si peněženku koupili v posledních třech měsících od dodavatele CryptoBillis."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hardware wallet",
+            "definition": "a small device that keeps the keys to someone's cryptocurrency"
+          },
+          {
+            "term": "intercepted",
+            "definition": "secretly caught on the way to someone else"
+          },
+          {
+            "term": "supplier",
+            "definition": "a company that provides goods to others"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:00",
+      "headline": "Reklamy v ChatGPT si v prvních týdnech rozebraly hlavně menší firmy",
+      "body": "Firmy mají od srpna k dispozici nový inzertní kanál v podobě reklam v ChatGPT. Inzerce se zobrazí u většiny dotazů, které se týkají potenciálního nákupu zboží či služeb. V prvních týdnech si podle E15 reklamní prostor rozebraly hlavně menší firmy, efektivitu inzerce ale snižuje rozkol mezi odpověďmi chatbota a zobrazovanými inzeráty.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/reklamy-v-chatgpt-si-v-prvnich-tydnech-rozebraly-hlavne-mensi-firmy-efektivita-inzerce-ale-pokulhava-1436339"
+        }
+      ],
+      "en": {
+        "headline": "Ads in ChatGPT were taken up mainly by smaller companies in the first weeks",
+        "sentences": [
+          {
+            "en": "Since August companies have had a new advertising channel in the form of ads in ChatGPT.",
+            "cs": "Firmy mají od srpna k dispozici nový inzertní kanál v podobě reklam v ChatGPT."
+          },
+          {
+            "en": "The ads appear with most queries that relate to a potential purchase of goods or services.",
+            "cs": "Inzerce se zobrazí u většiny dotazů, které se týkají potenciálního nákupu zboží či služeb."
+          },
+          {
+            "en": "In the first weeks the advertising space was taken up mainly by smaller companies, according to E15, but the effectiveness of the advertising is reduced by the mismatch between the chatbot's answers and the ads that are shown.",
+            "cs": "V prvních týdnech si podle E15 reklamní prostor rozebraly hlavně menší firmy, efektivitu inzerce ale snižuje rozkol mezi odpověďmi chatbota a zobrazovanými inzeráty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "queries",
+            "definition": "questions typed in order to get information"
+          },
+          {
+            "term": "taken up",
+            "definition": "used or bought by someone"
+          },
+          {
+            "term": "mismatch",
+            "definition": "a situation where two things do not fit together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:19",
+      "headline": "Ve věku 79 let zemřel herec a dabér Jiří Štěpnička",
+      "body": "Ve věku 79 let zemřel filmový a divadelní herec Jiří Štěpnička, informovalo o tom Národní divadlo. V jeho souboru působil od roku 1975, tedy 51 let, a ztvárnil skoro stovku rolí. Televizní diváci ho znali jako Radka Krásu ze seriálu Vyprávěj, ve filmu Ve stínu hrál plukovníka tajné policie. V dabingu propůjčoval hlas mimo jiné Harrisonu Fordovi, Michaelu Douglasovi, Stevenu Seagalovi nebo Gerardu Depardieuovi. Za svou práci získal cenu Františka Filipovského i cenu Thálie.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/kultura/divadlo/ve-veku-79-let-zemrel-herec-jiri-stepnicka-radek-krasa-z-vypravej-nebo-hlas_2610111319_cen"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/zemrel-herec-jiri-stepnicka-378463"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-zemrel-herec-a-daber-jiri-stepnicka-317549"
+        }
+      ],
+      "en": {
+        "headline": "The actor and dubbing artist Jiří Štěpnička has died at the age of 79",
+        "sentences": [
+          {
+            "en": "The film and theatre actor Jiří Štěpnička has died at the age of 79, as announced by the National Theatre.",
+            "cs": "Ve věku 79 let zemřel filmový a divadelní herec Jiří Štěpnička, informovalo o tom Národní divadlo."
+          },
+          {
+            "en": "He was a member of its company from 1975, that is for 51 years, and played almost a hundred roles.",
+            "cs": "V jeho souboru působil od roku 1975, tedy 51 let, a ztvárnil skoro stovku rolí."
+          },
+          {
+            "en": "Television viewers knew him as Radek Krása from the series Vyprávěj, and in the film Ve stínu he played a secret police colonel.",
+            "cs": "Televizní diváci ho znali jako Radka Krásu ze seriálu Vyprávěj, ve filmu Ve stínu hrál plukovníka tajné policie."
+          },
+          {
+            "en": "In dubbing he lent his voice to Harrison Ford, Michael Douglas, Steven Seagal and Gerard Depardieu, among others.",
+            "cs": "V dabingu propůjčoval hlas mimo jiné Harrisonu Fordovi, Michaelu Douglasovi, Stevenu Seagalovi nebo Gerardu Depardieuovi."
+          },
+          {
+            "en": "For his work he received both the František Filipovský Award and the Thálie Award.",
+            "cs": "Za svou práci získal cenu Františka Filipovského i cenu Thálie."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dubbing",
+            "definition": "replacing the voices in a film with voices in another language"
+          },
+          {
+            "term": "company",
+            "definition": "a group of actors who work together in a theatre"
+          },
+          {
+            "term": "lent his voice",
+            "definition": "spoke the words for a character"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "14:08",
+      "headline": "Sociolog Prokop vysvětluje, proč se od ANO odvracejí voliči v chudších regionech",
+      "body": "ANO ztrácí podporu v chudších regionech, které dlouhodobě patřily k jeho nejsilnějším baštám. Podle sociologa Daniela Prokopa za to může i to, že vláda tyto oblasti a nižší střední třídu zanedbává. „Mám pocit, že politiku pro tyto lidi v Česku téměř nikdo nedělá,“ říká v rozhovoru pro Deník N.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2214979/takovy-propad-ano-jsem-necekal-vlada-pro-chudsi-regiony-nic-nedela-rika-sociolog-prokop/"
+        }
+      ],
+      "en": {
+        "headline": "The sociologist Prokop explains why voters in poorer regions are turning away from ANO",
+        "sentences": [
+          {
+            "en": "ANO is losing support in poorer regions, which were long among its strongest bastions.",
+            "cs": "ANO ztrácí podporu v chudších regionech, které dlouhodobě patřily k jeho nejsilnějším baštám."
+          },
+          {
+            "en": "According to the sociologist Daniel Prokop, one reason is that the government neglects these areas and the lower middle class.",
+            "cs": "Podle sociologa Daniela Prokopa za to může i to, že vláda tyto oblasti a nižší střední třídu zanedbává."
+          },
+          {
+            "en": "“I have the feeling that almost nobody in the Czech Republic does politics for these people,” he says in an interview for Deník N.",
+            "cs": "„Mám pocit, že politiku pro tyto lidi v Česku téměř nikdo nedělá,“ říká v rozhovoru pro Deník N."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turning away from",
+            "definition": "stopping supporting someone"
+          },
+          {
+            "term": "bastions",
+            "definition": "places where a group has always been strong"
+          },
+          {
+            "term": "neglects",
+            "definition": "does not give enough care or attention to something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:57",
+      "headline": "Velkou pardubickou vyhrál podruhé za sebou irský kůň, zvítězil Final Orders",
+      "body": "Překážkový dostih Velká pardubická vyhrál podruhé za sebou irský kůň. Na loňský triumf Stumptownu navázal desetiletý valach Final Orders se žokejem Keithem Michaelem Donoghuem, který obhájil loňské prvenství. Druhé místo obsadil Godfrey s Janem Faltejskem, třetí doběhl Angor Wat s Janem Odložilem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-irska-era-pokracuje-velkou-pardubickou-ovladl-opet-donoghue-5552751"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/vitezem-170-rocniku-velke-pardubicke-se-stal-kun-final-orders-do-cile-ho-dovedl_2610111552_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/dostihy/136-velka-pardubicka-159389"
+        }
+      ],
+      "en": {
+        "headline": "An Irish horse won the Velká pardubická for the second year in a row, with Final Orders taking victory",
+        "sentences": [
+          {
+            "en": "The Velká pardubická steeplechase was won by an Irish horse for the second year running.",
+            "cs": "Překážkový dostih Velká pardubická vyhrál podruhé za sebou irský kůň."
+          },
+          {
+            "en": "Following last year's triumph by Stumptown, the ten-year-old gelding Final Orders took the win with jockey Keith Michael Donoghue, who defended last year's victory.",
+            "cs": "Na loňský triumf Stumptownu navázal desetiletý valach Final Orders se žokejem Keithem Michaelem Donoghuem, který obhájil loňské prvenství."
+          },
+          {
+            "en": "Godfrey with Jan Faltejsek finished second and Angor Wat with Jan Odložil came third.",
+            "cs": "Druhé místo obsadil Godfrey s Janem Faltejskem, třetí doběhl Angor Wat s Janem Odložilem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "steeplechase",
+            "definition": "a horse race with fences and other obstacles"
+          },
+          {
+            "term": "gelding",
+            "definition": "a male horse that cannot breed"
+          },
+          {
+            "term": "jockey",
+            "definition": "a person who rides horses in races"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:17",
+      "headline": "Velkou cenu Singapuru formule 1 vyhrál Max Verstappen",
+      "body": "Max Verstappen vyhrál Velkou cenu Singapuru formule 1 způsobem start-cíl z pole position a na tomto okruhu zvítězil poprvé v kariéře. Druhý dojel Charles Leclerc z Ferrari, třetí průběžný lídr šampionátu Kimi Antonelli z Mercedesu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/f1/v-singapuru-vladl-formuli-1-verstappen-159398"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-formule-1-verstappen-pojede-o-sve-prvni-vitezstvi-v-singapuru-5552684"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215464/"
+        }
+      ],
+      "en": {
+        "headline": "Max Verstappen won the Formula 1 Singapore Grand Prix",
+        "sentences": [
+          {
+            "en": "Max Verstappen won the Formula 1 Singapore Grand Prix from lights to flag after starting from pole position, and it was his first win on this circuit in his career.",
+            "cs": "Max Verstappen vyhrál Velkou cenu Singapuru formule 1 způsobem start-cíl z pole position a na tomto okruhu zvítězil poprvé v kariéře."
+          },
+          {
+            "en": "Charles Leclerc of Ferrari came second and the championship leader Kimi Antonelli of Mercedes third.",
+            "cs": "Druhý dojel Charles Leclerc z Ferrari, třetí průběžný lídr šampionátu Kimi Antonelli z Mercedesu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "from lights to flag",
+            "definition": "leading a race from the start all the way to the end"
+          },
+          {
+            "term": "pole position",
+            "definition": "the first place on the starting grid of a race"
+          },
+          {
+            "term": "circuit",
+            "definition": "a track where races are held"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:55",
+      "headline": "Slovácko vyhrálo v deseti v Liberci 2:0, Teplice remizovaly s Olomoucí",
+      "body": "Fotbalisté Slovácka v desátém ligovém kole překvapivě zvítězili v Liberci 2:0 a připsali si první vítězství v sezoně, přestože od 60. minuty hráli po vyloučení Davida Puškáče v deseti. Góly dali Havlík a Juroška. Teplice doma remizovaly 1:1 s Olomoucí, která hrála od 40. minuty bez vyloučeného Lurvinka.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-teplice-remizovaly-s-olomouci-5553194"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slovacko-sokovalo-v-liberci-domu-veze-tri-body-i-kdyz-hralo-v-deseti-159396"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2215270/"
+        }
+      ],
+      "en": {
+        "headline": "Slovácko won 2:0 in Liberec with ten men and Teplice drew with Olomouc",
+        "sentences": [
+          {
+            "en": "In the tenth league round Slovácko's footballers surprisingly won 2:0 in Liberec and recorded their first victory of the season, even though from the 60th minute they played with ten men after David Puškáč was sent off.",
+            "cs": "Fotbalisté Slovácka v desátém ligovém kole překvapivě zvítězili v Liberci 2:0 a připsali si první vítězství v sezoně, přestože od 60. minuty hráli po vyloučení Davida Puškáče v deseti."
+          },
+          {
+            "en": "Havlík and Juroška scored the goals.",
+            "cs": "Góly dali Havlík a Juroška."
+          },
+          {
+            "en": "Teplice drew 1:1 at home with Olomouc, who played from the 40th minute without the dismissed Lurvink.",
+            "cs": "Teplice doma remizovaly 1:1 s Olomoucí, která hrála od 40. minuty bez vyloučeného Lurvinka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sent off",
+            "definition": "ordered to leave the pitch for breaking the rules"
+          },
+          {
+            "term": "dismissed",
+            "definition": "sent away from the game by the referee"
+          },
+          {
+            "term": "round",
+            "definition": "one set of matches in a competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:53",
+      "day": "prev",
+      "headline": "Schick pátým gólem sezony pomohl Leverkusenu k výhře v Mohuči a vede kanonýry bundesligy",
+      "body": "Patrik Schick se prosadil pátou brankou v sezoně a pomohl Leverkusenu k vítězství 4:3 v Mohuči. Vede tak pořadí kanonýrů německé ligy. Bayern Mnichov v Augsburgu pouze remizoval 2:2.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/schick-prispel-k-vyhre-leverkusenu-patou-trefou-v-sezone-bayern-pouze-remizoval-159380"
+        }
+      ],
+      "en": {
+        "headline": "Schick's fifth goal of the season helped Leverkusen to a win in Mainz and he leads the Bundesliga scorers",
+        "sentences": [
+          {
+            "en": "Patrik Schick scored his fifth goal of the season and helped Leverkusen to a 4:3 win in Mainz.",
+            "cs": "Patrik Schick se prosadil pátou brankou v sezoně a pomohl Leverkusenu k vítězství 4:3 v Mohuči."
+          },
+          {
+            "en": "He therefore leads the list of scorers in the German league.",
+            "cs": "Vede tak pořadí kanonýrů německé ligy."
+          },
+          {
+            "en": "Bayern Munich only drew 2:2 in Augsburg.",
+            "cs": "Bayern Mnichov v Augsburgu pouze remizoval 2:2."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "scorers",
+            "definition": "players who score goals"
+          },
+          {
+            "term": "drew",
+            "definition": "ended a match with the same score as the other team"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:30",
+      "headline": "Menšík postoupil v Šanghaji do osmifinále",
+      "body": "Tenista Jakub Menšík porazil na turnaji Masters v Šanghaji na čtvrtý pokus poprvé v kariéře Argentince Francisca Cerúndola 6:3, 3:6 a 6:2 a postoupil do osmifinále. V něm se třináctý nasazený Čech střetne s Francouzem Arthurem Geou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-poprve-v-kariere-porazil-cerundola-a-je-v-sanghaji-v-osmifinale-159395"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-mensik-v-sanghaji-postoupil-do-osmifinale-5552717"
+        }
+      ],
+      "en": {
+        "headline": "Menšík has reached the last sixteen in Shanghai",
+        "sentences": [
+          {
+            "en": "The tennis player Jakub Menšík beat the Argentine Francisco Cerúndolo 6:3, 3:6 and 6:2 at the Masters tournament in Shanghai, defeating him for the first time in his career at the fourth attempt, and advanced to the last sixteen.",
+            "cs": "Tenista Jakub Menšík porazil na turnaji Masters v Šanghaji na čtvrtý pokus poprvé v kariéře Argentince Francisca Cerúndola 6:3, 3:6 a 6:2 a postoupil do osmifinále."
+          },
+          {
+            "en": "There the thirteenth seed from the Czech Republic will meet the Frenchman Arthur Gea.",
+            "cs": "V něm se třináctý nasazený Čech střetne s Francouzem Arthurem Geou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advanced",
+            "definition": "moved forward to the next round"
+          },
+          {
+            "term": "seed",
+            "definition": "a player ranked by the organisers before a tournament"
+          },
+          {
+            "term": "the last sixteen",
+            "definition": "the round of a tournament with sixteen players left"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:02",
+      "headline": "Siniaková na čtyřicátý deblový titul nedosáhla, finále v Pekingu prohrála",
+      "body": "Kateřina Siniaková si musí na čtyřicátý titul ve čtyřhře ještě počkat. Světová deblová jednička podlehla s čínskou spoluhráčkou Čang Šuaj ve finále turnaje v Pekingu kanadsko-brazilskému páru Gabriela Dabrowská a Luisa Stefaniová 1:6 a 2:6.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-v-pekingu-na-40-deblovy-titul-v-kariere-nedosahla-159394"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-siniakova-na-jubilejni-titul-ve-ctyrhre-nedosahla-5552716"
+        }
+      ],
+      "en": {
+        "headline": "Siniaková missed out on her fortieth doubles title and lost the final in Beijing",
+        "sentences": [
+          {
+            "en": "Kateřina Siniaková will have to wait longer for her fortieth doubles title.",
+            "cs": "Kateřina Siniaková si musí na čtyřicátý titul ve čtyřhře ještě počkat."
+          },
+          {
+            "en": "The world doubles number one and her Chinese partner Čang Šuaj lost the final of the tournament in Beijing to the Canadian-Brazilian pair Gabriela Dabrowská and Luisa Stefaniová 1:6 and 2:6.",
+            "cs": "Světová deblová jednička podlehla s čínskou spoluhráčkou Čang Šuaj ve finále turnaje v Pekingu kanadsko-brazilskému páru Gabriela Dabrowská a Luisa Stefaniová 1:6 a 2:6."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "missed out on",
+            "definition": "failed to get something you wanted"
+          },
+          {
+            "term": "doubles",
+            "definition": "a tennis match with two players on each side"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The municipal elections gave KDU-ČSL the most council seats, STAN gained ground in every regional capital and in Prague it narrowly beat the SPOLU coalition.",
+    "ANO finished only fourth in Prague and goes into the second round of the Senate elections in a weak position, yet Prime Minister Babiš called the result very good.",
+    "Donald Trump announced an immediate energy ceasefire between Ukraine and Russia, but it is news to Volodymyr Zelenskyj.",
+    "In Hradec Králové the coalition of mayor Pavlína Springerová defended its win and has a negotiating bloc with a majority on the council."
+  ]
+}
