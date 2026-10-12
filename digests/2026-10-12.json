@@ -1,0 +1,1516 @@
+{
+  "date": "2026-10-12",
+  "covers": "2026-10-12",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra mlhavo a beze srážek, přes den až 12 °C, ráno jen kolem tří stupňů. Kvalita ovzduší bude zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-13",
+        "icon": "fog",
+        "temp_max_c": 12.4,
+        "temp_min_c": 3.1
+      },
+      {
+        "date": "2026-10-14",
+        "icon": "rain",
+        "temp_max_c": 15.3,
+        "temp_min_c": 7.9
+      },
+      {
+        "date": "2026-10-15",
+        "icon": "cloudy",
+        "temp_max_c": 13.1,
+        "temp_min_c": 6.5
+      },
+      {
+        "date": "2026-10-16",
+        "icon": "cloudy",
+        "temp_max_c": 13.8,
+        "temp_min_c": 1.8
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy and dry, up to 12 °C during the day and only around three degrees in the morning. Air quality will be poor."
+  },
+  "highlights": [
+    "Šéf BIS Michal Koudelka varoval, že Rusko může v příštích měsících přistoupit k sabotážím nebo k omezené vojenské akci vůči zemi NATO; premiér Andrej Babiš mu vzkázal, že zpravodajské informace patří vládě.",
+    "Volodymyr Zelenskyj prohlásil, že Rusko porušilo energetické příměří ohlášené Donaldem Trumpem, a vyzval Spojené státy, aby Moskvu donutily ho dodržovat.",
+    "V Liberci vznikla koalice bez hnutí ANO, které z vedení města odchází po dvanácti letech. V Hradci Králové se tři uskupení shodla na programu a v úterý budou dělit posty."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:19",
+      "headline": "Šéf BIS varoval před ruskou eskalací, Babiš mu vzkázal, ať si přečte heslo služby",
+      "body": "Ředitel Bezpečnostní informační služby Michal Koudelka na konferenci o aktuálních bezpečnostních hrozbách ve Sněmovně řekl, že Rusko by v příštích měsících mohlo v Česku nebo v jiné demokratické zemi přistoupit k rizikovějším a závažnějším operacím. Jmenoval sabotážní útoky na objekty, které pomáhají Ukrajině, útok dronem či raketou na sklad zbraní určených pro Kyjev nebo omezenou vojenskou akci vůči některé členské zemi NATO. Podle Koudelky není důvod k panice, Česko je dost silné, aby hrozbám čelilo, musí na ně ale být připravené. Rusko podle něj zůstane na dlouhou dobu největší zahraniční bezpečnostní hrozbou pro Česko; Moskva ho nemůže porazit vojensky ani ekonomicky, a snaží se proto západní státy rozdělit. Premiér Andrej Babiš po jednání vlády reagoval, že by si Koudelka měl přečíst heslo BIS „audi, vide, tace“ a že zpravodajské informace jsou určené vládě. Deník N upozorňuje, že Koudelka jen zopakoval to, co už řekli šéfové evropských tajných služeb.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/rusko-muze-pristoupit-k-zavaznejsim-operacim-varuje-sef-bis-378502"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-koudelka-rusko-v-pristich-mesicich-muze-pristoupit-k-zavaznejsim-operacim-317644"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2216703/at-si-precte-heslo-bis-babise-popudilo-koudelkovo-varovani-pred-ruskou-hrozbou/"
+        }
+      ],
+      "en": {
+        "headline": "The head of BIS warned of Russian escalation and Babiš told him to reread the service's motto",
+        "sentences": [
+          {
+            "en": "Michal Koudelka, the director of the Security Information Service, said at a conference on current security threats in the Chamber of Deputies that in the coming months Russia could move to riskier and more serious operations in Czechia or in another democratic country.",
+            "cs": "Ředitel Bezpečnostní informační služby Michal Koudelka na konferenci o aktuálních bezpečnostních hrozbách ve Sněmovně řekl, že Rusko by v příštích měsících mohlo v Česku nebo v jiné demokratické zemi přistoupit k rizikovějším a závažnějším operacím."
+          },
+          {
+            "en": "He named sabotage attacks on facilities that help Ukraine, a drone or missile strike on a depot of weapons intended for Kyiv, or a limited military action against one of the NATO member states.",
+            "cs": "Jmenoval sabotážní útoky na objekty, které pomáhají Ukrajině, útok dronem či raketou na sklad zbraní určených pro Kyjev nebo omezenou vojenskou akci vůči některé členské zemi NATO."
+          },
+          {
+            "en": "According to Koudelka there is no reason to panic, as Czechia is strong enough to face the threats, but it must be prepared for them.",
+            "cs": "Podle Koudelky není důvod k panice, Česko je dost silné, aby hrozbám čelilo, musí na ně ale být připravené."
+          },
+          {
+            "en": "In his view Russia will remain the biggest foreign security threat to Czechia for a long time; Moscow cannot defeat it militarily or economically, and therefore tries to divide the Western states.",
+            "cs": "Rusko podle něj zůstane na dlouhou dobu největší zahraniční bezpečnostní hrozbou pro Česko; Moskva ho nemůže porazit vojensky ani ekonomicky, a snaží se proto západní státy rozdělit."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš responded after the government meeting that Koudelka should read the BIS motto “audi, vide, tace” and that intelligence information is meant for the government.",
+            "cs": "Premiér Andrej Babiš po jednání vlády reagoval, že by si Koudelka měl přečíst heslo BIS „audi, vide, tace“ a že zpravodajské informace jsou určené vládě."
+          },
+          {
+            "en": "Deník N points out that Koudelka merely repeated what the heads of European intelligence services have already said.",
+            "cs": "Deník N upozorňuje, že Koudelka jen zopakoval to, co už řekli šéfové evropských tajných služeb."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sabotage",
+            "definition": "damage done on purpose to stop something from working"
+          },
+          {
+            "term": "depot",
+            "definition": "a place where supplies such as weapons are stored"
+          },
+          {
+            "term": "motto",
+            "definition": "a short sentence that expresses the beliefs or rules of a group"
+          },
+          {
+            "term": "intelligence",
+            "definition": "secret information about other countries or enemies"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:38",
+      "headline": "V Liberci vznikla koalice bez ANO, hnutí končí ve vedení města po dvanácti letech",
+      "body": "Na koalici se v Liberci dohodli vítězní Starostové pro Liberecký kraj s hnutím Lepší Liberec a s uskupením Liberec otevřený lidem a Piráti. V devětatřicetičlenném zastupitelstvu budou mít 31 hlasů. V opozici tak nejspíš zůstane jen ANO, které bylo součástí radniční koalice posledních dvanáct let; jeho lídr Tomáš Rec označil neúčast ve vedení města za zklamání a řekl, že hnutí jednalo s několika stranami, ale nevyšlo to. Kdo bude primátorem, zatím jasné není. Dosavadní primátor Jaroslav Zámečník o obhajobu neusiloval a lídr Starostů Lukáš Hájek se k postu nechtěl vyjádřit. ODS se podle ČT24 nedostala přes pětiprocentní hranici poprvé od roku 1994 a ze zastupitelstva vypadla.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/v-liberci-se-domluvili-na-koalici-povedou-ji-starostove-pro-liberecky-kraj-378485"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/v-liberci-vznikla-koalice-bez-ano-z-vedeni-mesta-mizi-po-12-letech-1436472"
+        }
+      ],
+      "en": {
+        "headline": "A coalition without ANO has been formed in Liberec and the movement is leaving the city leadership after twelve years",
+        "sentences": [
+          {
+            "en": "The winning Starostové pro Liberecký kraj agreed on a coalition in Liberec with the Lepší Liberec movement and with the grouping Liberec otevřený lidem and Piráti.",
+            "cs": "Na koalici se v Liberci dohodli vítězní Starostové pro Liberecký kraj s hnutím Lepší Liberec a s uskupením Liberec otevřený lidem a Piráti."
+          },
+          {
+            "en": "In the 39-member council they will hold 31 votes.",
+            "cs": "V devětatřicetičlenném zastupitelstvu budou mít 31 hlasů."
+          },
+          {
+            "en": "ANO, which had been part of the city coalition for the past twelve years, will therefore probably be the only opposition party; its leader Tomáš Rec called being left out of the city leadership a disappointment and said the movement had negotiated with several parties, but it did not work out.",
+            "cs": "V opozici tak nejspíš zůstane jen ANO, které bylo součástí radniční koalice posledních dvanáct let; jeho lídr Tomáš Rec označil neúčast ve vedení města za zklamání a řekl, že hnutí jednalo s několika stranami, ale nevyšlo to."
+          },
+          {
+            "en": "Who will be mayor is not yet clear.",
+            "cs": "Kdo bude primátorem, zatím jasné není."
+          },
+          {
+            "en": "The outgoing mayor Jaroslav Zámečník did not seek re-election and the Starostové leader Lukáš Hájek did not want to comment on the post.",
+            "cs": "Dosavadní primátor Jaroslav Zámečník o obhajobu neusiloval a lídr Starostů Lukáš Hájek se k postu nechtěl vyjádřit."
+          },
+          {
+            "en": "According to ČT24, ODS failed to pass the five percent threshold for the first time since 1994 and dropped out of the council.",
+            "cs": "ODS se podle ČT24 nedostala přes pětiprocentní hranici poprvé od roku 1994 a ze zastupitelstva vypadla."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "threshold",
+            "definition": "the level at which something starts to happen or change"
+          },
+          {
+            "term": "outgoing",
+            "definition": "leaving a job or position"
+          },
+          {
+            "term": "re-election",
+            "definition": "the act of being voted into the same position again"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:39",
+      "headline": "Starostové a Spolu pro Prahu jednají o koalici, ODS uznává nárok STAN na primátora",
+      "body": "V Praze měli v pondělí večer jednat zástupci vítězných Starostů a nezávislých se Spolu pro Prahu. Obě uskupení mají shodně sedmnáct mandátů z pětašedesáti, hnutí STAN ale získalo vyšší podíl hlasů. Lídr Spolu pro Prahu a první místopředseda ODS Tomáš Portlík pro Radiožurnál řekl, že doby, kdy se v Praze zpochybňoval vítěz voleb, by měly být pryč a že jeho uskupení uznává nárok Starostů na post primátora. Dodal, že by si od Pirátů rád odpočinul.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/portlik-od-piratu-bych-si-rad-odpocinul-je-jedno-kdo-za-hnuti-stan-bude-primator_2610121639_ntu"
+        }
+      ],
+      "en": {
+        "headline": "Starostové and Spolu pro Prahu are negotiating a coalition and ODS acknowledges STAN's claim to the mayor's post",
+        "sentences": [
+          {
+            "en": "Representatives of the winning Starostové a nezávislí were due to meet Spolu pro Prahu in Prague on Monday evening.",
+            "cs": "V Praze měli v pondělí večer jednat zástupci vítězných Starostů a nezávislých se Spolu pro Prahu."
+          },
+          {
+            "en": "Both groupings hold seventeen seats out of sixty-five, but STAN won a higher share of the vote.",
+            "cs": "Obě uskupení mají shodně sedmnáct mandátů z pětašedesáti, hnutí STAN ale získalo vyšší podíl hlasů."
+          },
+          {
+            "en": "Tomáš Portlík, the leader of Spolu pro Prahu and first deputy chairman of ODS, told Radiožurnál that the days when the winner of an election was questioned in Prague should be over, and that his grouping acknowledges the claim of the Starostové to the post of mayor.",
+            "cs": "Lídr Spolu pro Prahu a první místopředseda ODS Tomáš Portlík pro Radiožurnál řekl, že doby, kdy se v Praze zpochybňoval vítěz voleb, by měly být pryč a že jeho uskupení uznává nárok Starostů na post primátora."
+          },
+          {
+            "en": "He added that he would be glad to take a break from the Piráti.",
+            "cs": "Dodal, že by si od Pirátů rád odpočinul."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "groupings",
+            "definition": "sets of people or parties joined together"
+          },
+          {
+            "term": "share",
+            "definition": "a part of a total amount"
+          },
+          {
+            "term": "acknowledges",
+            "definition": "accepts that something is true"
+          },
+          {
+            "term": "deputy",
+            "definition": "a person who is second in rank"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:08",
+      "headline": "Soud nařídil doplnit dva lidi do seznamu voličů v Moldavě, návrhy sedmnácti dalších zamítl",
+      "body": "Krajský soud v Ústí nad Labem rozhodl, že obec Moldava na Teplicku vyškrtla dva lidi ze stálého seznamu voličů nezákonně, a nařídil jejich doplnění. Návrhy dalších sedmnácti lidí na opravu nebo doplnění seznamu naopak zamítl. Starosta Moldavy vyškrtl před volbami ze seznamu dvaadvacet lidí, kteří pak nemohli hlasovat. Volby v obci by se opakovaly, pokud někdo podá návrh na jejich opakování a soud mu vyhoví.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/ustecky-soud-rozhodl-o-doplneni-dvou-lidi-do-seznamu-volicu-na-moldave-navrhy_2610121608_vaa"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-v-moldave-cast-lidi-nepustili-k-volbam-nezakonne-rozhodl-soud-317646"
+        }
+      ],
+      "en": {
+        "headline": "A court ordered two people to be added to the electoral roll in Moldava and rejected the applications of seventeen others",
+        "sentences": [
+          {
+            "en": "The regional court in Ústí nad Labem ruled that the village of Moldava in the Teplice district had unlawfully struck two people from the permanent electoral roll, and it ordered them to be added back.",
+            "cs": "Krajský soud v Ústí nad Labem rozhodl, že obec Moldava na Teplicku vyškrtla dva lidi ze stálého seznamu voličů nezákonně, a nařídil jejich doplnění."
+          },
+          {
+            "en": "It rejected the applications of another seventeen people to correct or complete the roll.",
+            "cs": "Návrhy dalších sedmnácti lidí na opravu nebo doplnění seznamu naopak zamítl."
+          },
+          {
+            "en": "Before the election the mayor of Moldava struck twenty-two people from the roll, and they were then unable to vote.",
+            "cs": "Starosta Moldavy vyškrtl před volbami ze seznamu dvaadvacet lidí, kteří pak nemohli hlasovat."
+          },
+          {
+            "en": "The election in the village would be repeated if somebody filed a motion for it and the court granted that motion.",
+            "cs": "Volby v obci by se opakovaly, pokud někdo podá návrh na jejich opakování a soud mu vyhoví."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "electoral roll",
+            "definition": "the official list of people who are allowed to vote"
+          },
+          {
+            "term": "unlawfully",
+            "definition": "in a way that breaks the law"
+          },
+          {
+            "term": "struck",
+            "definition": "removed a name from a list"
+          },
+          {
+            "term": "motion",
+            "definition": "a formal request made to a court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:16",
+      "headline": "Okamura chce z nelegálního překročení hranice udělat trestný čin, s Babišem se střetl o mandát na summit",
+      "body": "Po pondělním jednání vládní koalice ANO, SPD a Motoristů oznámil předseda SPD Tomio Okamura, že nelegální překročení české hranice občanem ze zemí mimo Evropskou unii by mělo být hodnoceno jako závažnější protiprávní jednání než dosud. Ministr spravedlnosti Jeroným Tejc (za ANO) má připravit návrh změny z přestupku na trestný čin. „Netýká se to houbařů, myslivců ani občanů EU,“ řekl Okamura. Zároveň prohlásil, že Česko by mělo na unijním summitu na konci tohoto pracovního týdne prosazovat, aby špičky Evropské unie jednaly s Ruskem o míru na Ukrajině; podle něj takové stanovisko na koaličním jednání nikdo nerozporoval. Premiér Andrej Babiš na to reagoval, že Okamura nemá co mluvit do Evropské rady a že o mandátu rozhoduje vláda.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/okamura-chce-zprisnit-tresty-za-prekroceni-hranice-netyka-se-houbaru-myslivcu_2610121355_mst"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2216412/"
+        }
+      ],
+      "en": {
+        "headline": "Okamura wants to make illegal border crossing a criminal offence and clashed with Babiš over the summit mandate",
+        "sentences": [
+          {
+            "en": "After Monday's meeting of the governing coalition of ANO, SPD and the Motoristé, SPD chairman Tomio Okamura announced that illegal crossing of the Czech border by a citizen from countries outside the European Union should be treated as a more serious unlawful act than it is now.",
+            "cs": "Po pondělním jednání vládní koalice ANO, SPD a Motoristů oznámil předseda SPD Tomio Okamura, že nelegální překročení české hranice občanem ze zemí mimo Evropskou unii by mělo být hodnoceno jako závažnější protiprávní jednání než dosud."
+          },
+          {
+            "en": "Justice Minister Jeroným Tejc (for ANO) is to prepare a proposal to change it from an administrative offence into a criminal offence.",
+            "cs": "Ministr spravedlnosti Jeroným Tejc (za ANO) má připravit návrh změny z přestupku na trestný čin."
+          },
+          {
+            "en": "“It does not concern mushroom pickers, hunters or EU citizens,” Okamura said.",
+            "cs": "„Netýká se to houbařů, myslivců ani občanů EU,“ řekl Okamura."
+          },
+          {
+            "en": "He also stated that at the EU summit at the end of this working week Czechia should push for the European Union leadership to negotiate with Russia on peace in Ukraine; according to him nobody at the coalition meeting objected to such a position.",
+            "cs": "Zároveň prohlásil, že Česko by mělo na unijním summitu na konci tohoto pracovního týdne prosazovat, aby špičky Evropské unie jednaly s Ruskem o míru na Ukrajině; podle něj takové stanovisko na koaličním jednání nikdo nerozporoval."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš responded that Okamura has no business speaking into the European Council and that it is the government that decides on the mandate.",
+            "cs": "Premiér Andrej Babiš na to reagoval, že Okamura nemá co mluvit do Evropské rady a že o mandátu rozhoduje vláda."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "offence",
+            "definition": "an illegal act"
+          },
+          {
+            "term": "mandate",
+            "definition": "the authority given to someone to act in a particular way"
+          },
+          {
+            "term": "push for",
+            "definition": "to try hard to get something"
+          },
+          {
+            "term": "objected",
+            "definition": "said that you disagree with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:10",
+      "headline": "Vláda schválila definici zájmu dítěte, soudy mají zohlednit jeho bezpečí i názor",
+      "body": "Vláda v rámci novely občanského zákoníku schválila definici, podle níž mají soudy při posouzení zájmu dítěte zohledňovat mimo jiné jeho bezpečí a názor. Ministr spravedlnosti Jeroným Tejc (za ANO) na tiskové konferenci prohlásil, že kdyby taková úprava existovala dříve, mohla předejít některým tragickým událostem. Návrh vyjasňuje i další pojmy a postupy z rodinného práva. Podle Seznam Zpráv novela reaguje na tragický případ Viktorky a počítá s tím, že soudy budou moci rodiče, který se dopustí domácího násilí, zbavit rodičovské zodpovědnosti.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-stat-reaguje-na-tragicky-pripad-viktorky-novela-ma-zlepsit-bezpecnost-deti-317683"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2216643/"
+        }
+      ],
+      "en": {
+        "headline": "The government approved a definition of the child's interest and courts are to take safety and opinion into account",
+        "sentences": [
+          {
+            "en": "As part of an amendment to the civil code, the government approved a definition under which courts are to take into account, among other things, a child's safety and opinion when assessing the child's interest.",
+            "cs": "Vláda v rámci novely občanského zákoníku schválila definici, podle níž mají soudy při posouzení zájmu dítěte zohledňovat mimo jiné jeho bezpečí a názor."
+          },
+          {
+            "en": "Justice Minister Jeroným Tejc (for ANO) said at a press conference that if such a rule had existed earlier, it could have prevented some tragic events.",
+            "cs": "Ministr spravedlnosti Jeroným Tejc (za ANO) na tiskové konferenci prohlásil, že kdyby taková úprava existovala dříve, mohla předejít některým tragickým událostem."
+          },
+          {
+            "en": "The proposal also clarifies other terms and procedures in family law.",
+            "cs": "Návrh vyjasňuje i další pojmy a postupy z rodinného práva."
+          },
+          {
+            "en": "According to Seznam Zprávy the amendment responds to the tragic case of Viktorka and envisages that courts will be able to strip a parent who commits domestic violence of parental responsibility.",
+            "cs": "Podle Seznam Zpráv novela reaguje na tragický případ Viktorky a počítá s tím, že soudy budou moci rodiče, který se dopustí domácího násilí, zbavit rodičovské zodpovědnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "amendment",
+            "definition": "a change made to a law"
+          },
+          {
+            "term": "clarifies",
+            "definition": "makes something easier to understand"
+          },
+          {
+            "term": "envisages",
+            "definition": "expects that something will happen in the future"
+          },
+          {
+            "term": "strip",
+            "definition": "to take something away from someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:27",
+      "headline": "Tři uskupení v Hradci Králové se shodla na programu, v úterý budou dělit posty",
+      "body": "Vyjednavači možné hradecké trojkoalice mají za sebou klíčové schůzky o programu. Město by měla vést vítězná koalice Hradeckého demokratického klubu a TOP 09 primátorky Pavlíny Springerové, dále Piráti se Starosty a uskupení Změny pro Hradec, Zelených a KDU-ČSL; dohromady mají 20 z 37 mandátů. Podle Hradeckého deníku se partneři shodli na prioritách v hospodaření, bezpečnosti, dostupném bydlení a dopravě. Springerová na Facebooku uvedla, že koalice má navázat na práci posledních čtyř let. Další kolo rozhovorů se plánuje na úterní večer, kdy přijdou na řadu konkrétní jména a rozdělení míst v radě. Podle iDNES.cz se v úterý rozhodne i to, jestli koalice přibere ODS.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/v-hradci-se-rysuje-nova-koalice-vsechna-tri-uskupeni-hlasi-shodu-na-programu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/komunalni-volby-2026-hdk-springerova-koalice-vyjednavani.A261012_122740_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/902745-strany-mozne-koalice-v-h-kralove-v-cele-s-hdk-a-top-09-zacaly-jednat-o-programu.html"
+        }
+      ],
+      "en": {
+        "headline": "Three groupings in Hradec Králové have agreed on a programme and will divide the posts on Tuesday",
+        "sentences": [
+          {
+            "en": "The negotiators of a possible three-party coalition in Hradec Králové have the key meetings on the programme behind them.",
+            "cs": "Vyjednavači možné hradecké trojkoalice mají za sebou klíčové schůzky o programu."
+          },
+          {
+            "en": "The city should be led by the winning coalition of the Hradecký demokratický klub and TOP 09 of mayor Pavlína Springerová, together with the Piráti and Starostové and the grouping of Změna pro Hradec, the Zelení and KDU-ČSL; together they hold 20 of the 37 seats.",
+            "cs": "Město by měla vést vítězná koalice Hradeckého demokratického klubu a TOP 09 primátorky Pavlíny Springerové, dále Piráti se Starosty a uskupení Změny pro Hradec, Zelených a KDU-ČSL; dohromady mají 20 z 37 mandátů."
+          },
+          {
+            "en": "According to Hradecký deník the partners agreed on priorities in budgeting, security, affordable housing and transport.",
+            "cs": "Podle Hradeckého deníku se partneři shodli na prioritách v hospodaření, bezpečnosti, dostupném bydlení a dopravě."
+          },
+          {
+            "en": "Springerová said on Facebook that the coalition should build on the work of the past four years.",
+            "cs": "Springerová na Facebooku uvedla, že koalice má navázat na práci posledních čtyř let."
+          },
+          {
+            "en": "The next round of talks is planned for Tuesday evening, when specific names and the division of seats on the city board will come up.",
+            "cs": "Další kolo rozhovorů se plánuje na úterní večer, kdy přijdou na řadu konkrétní jména a rozdělení míst v radě."
+          },
+          {
+            "en": "According to iDNES.cz, Tuesday will also decide whether the coalition takes ODS on board.",
+            "cs": "Podle iDNES.cz se v úterý rozhodne i to, jestli koalice přibere ODS."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "negotiators",
+            "definition": "people who discuss something in order to reach an agreement"
+          },
+          {
+            "term": "affordable",
+            "definition": "cheap enough that most people can pay for it"
+          },
+          {
+            "term": "build on",
+            "definition": "to use something as a base for further work"
+          },
+          {
+            "term": "board",
+            "definition": "a group of people who manage an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:46",
+      "headline": "Ve Dvoře Králové skončila dvanáctiletá dominance ANO, starostou bude Vít Zlámal z ODS",
+      "body": "Sdružení Máme rádi Dvůr, tvořené ODS a nezávislými kandidáty, ukončilo ve Dvoře Králové nad Labem po dvanácti letech dominanci hnutí ANO. Vytvoří koalici se Sportovci pro Dvůr a starostou bude jednatřicetiletý právník a podnikatel Vít Zlámal z ODS. iDNES.cz označil výsledek za dost možná největší překvapení komunálních voleb v kraji.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/dvur-kralove-komunalni-volby-2026-ano-jarolim-ods-zlamal.A261012_150845_hradec-volby_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "ANO's twelve-year dominance in Dvůr Králové has ended and Vít Zlámal of ODS will be mayor",
+        "sentences": [
+          {
+            "en": "The association Máme rádi Dvůr, made up of ODS and independent candidates, has ended twelve years of dominance by the ANO movement in Dvůr Králové nad Labem.",
+            "cs": "Sdružení Máme rádi Dvůr, tvořené ODS a nezávislými kandidáty, ukončilo ve Dvoře Králové nad Labem po dvanácti letech dominanci hnutí ANO."
+          },
+          {
+            "en": "It will form a coalition with Sportovci pro Dvůr and the mayor will be Vít Zlámal of ODS, a thirty-one-year-old lawyer and entrepreneur. iDNES.cz called the result quite possibly the biggest surprise of the municipal elections in the region.",
+            "cs": "Vytvoří koalici se Sportovci pro Dvůr a starostou bude jednatřicetiletý právník a podnikatel Vít Zlámal z ODS. iDNES.cz označil výsledek za dost možná největší překvapení komunálních voleb v kraji."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dominance",
+            "definition": "the state of being more powerful than others"
+          },
+          {
+            "term": "entrepreneur",
+            "definition": "a person who starts their own business"
+          },
+          {
+            "term": "municipal",
+            "definition": "relating to a town or city and its local government"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:40",
+      "headline": "Na Sněžce napadl první sníh letošní zimy",
+      "body": "Na Sněžce vytvořil první sníh letošní zimy slabou souvislou vrstvu. Podle meteorologů jde o první den letošní zimy, kdy některá ze stanic Českého hydrometeorologického ústavu ohlásila souvislou sněhovou pokrývku. Hradecká drbna uvádí, že pocitová teplota klesla na minus sedm stupňů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/902818-chmu-na-snezce-napadl-prvni-snih-letosni-zimy-ktery-vytvoril-slabou.html"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/snezka-pocasi-snih-krkonose-meteorologove-souvisla-vrstva.A261012_133409_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The first snow of this winter has fallen on Sněžka",
+        "sentences": [
+          {
+            "en": "The first snow of this winter formed a thin continuous layer on Sněžka.",
+            "cs": "Na Sněžce vytvořil první sníh letošní zimy slabou souvislou vrstvu."
+          },
+          {
+            "en": "According to meteorologists it is the first day of this winter on which one of the stations of the Czech Hydrometeorological Institute has reported continuous snow cover.",
+            "cs": "Podle meteorologů jde o první den letošní zimy, kdy některá ze stanic Českého hydrometeorologického ústavu ohlásila souvislou sněhovou pokrývku."
+          },
+          {
+            "en": "Hradecká drbna reports that the wind chill dropped to minus seven degrees.",
+            "cs": "Hradecká drbna uvádí, že pocitová teplota klesla na minus sedm stupňů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "continuous",
+            "definition": "without any gaps or breaks"
+          },
+          {
+            "term": "layer",
+            "definition": "a thin sheet of something covering a surface"
+          },
+          {
+            "term": "wind chill",
+            "definition": "how cold the air feels because of the wind"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "20:43",
+      "day": "prev",
+      "headline": "Hradečtí hokejisté porazili Olomouc 3:1 a vyhráli doma počtvrté za sebou",
+      "body": "Hokejisté Hradce Králové zvládli v desátém kole extraligy zápas s poslední Olomoucí a vyhráli 3:1. Dva body za gól a asistenci zaznamenal Kevin Klíma, důležitou roli v utkání sehrálo video. Hanáci prohráli popáté v řadě.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/902729-hokejiste-hradce-kralove-pripravili-olomouci-patou-porazku-za-sebou.html"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec Králové ice hockey players beat Olomouc 3:1 and won at home for the fourth time in a row",
+        "sentences": [
+          {
+            "en": "The Hradec Králové ice hockey players handled their tenth-round extraliga match against bottom-placed Olomouc and won 3:1.",
+            "cs": "Hokejisté Hradce Králové zvládli v desátém kole extraligy zápas s poslední Olomoucí a vyhráli 3:1."
+          },
+          {
+            "en": "Kevin Klíma took two points for a goal and an assist, and video review played an important role in the match.",
+            "cs": "Dva body za gól a asistenci zaznamenal Kevin Klíma, důležitou roli v utkání sehrálo video."
+          },
+          {
+            "en": "Olomouc have now lost five times in a row.",
+            "cs": "Hanáci prohráli popáté v řadě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assist",
+            "definition": "a pass that helps a teammate to score"
+          },
+          {
+            "term": "bottom-placed",
+            "definition": "in last position in a league"
+          },
+          {
+            "term": "in a row",
+            "definition": "one after another without a break"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:32",
+      "headline": "Zelenskyj tvrdí, že Rusko porušilo energetické příměří ohlášené Trumpem",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj ve videoprojevu na bezpečnostní konferenci ve Varšavě řekl, že Rusko porušilo energetické příměří, které v neděli ohlásil americký prezident Donald Trump. Ukrajina podle něj v noci na ruské rafinerie neútočila a ty nehořely. Vyzval Spojené státy, aby Moskvu donutily příměří dodržovat; pokud ho Rusko bude respektovat, může jít podle Zelenského o významný krok k ukončení války, jinak Ukrajina odpoví. O Trumpově návrhu se prý dozvěděl až z médií. Ukrajinské úřady v neděli večer uvedly, že ruský dron zasáhl elektrárnu v Kyjevě a další energetické objekty na Charkovsku. Mluvčí Kremlu Dmitrij Peskov řekl, že Moskva zatím nemá k Trumpovu oznámení co říci a že kontakty pokračují; dříve uvedl, že Rusko neusiluje o příměří, ale o dlouhodobý mír.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-porusilo-primeri-vyhlasene-trumpem-rekl-zelenskyj-378492"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/ukrajina-prerusila-udery-na-rafinerie-rusko-porusilo-primeri-a-utoci-dal-rekl-zelenskyj-1436475"
+        }
+      ],
+      "en": {
+        "headline": "Zelenskyj says Russia has broken the energy ceasefire announced by Trump",
+        "sentences": [
+          {
+            "en": "In a video address to a security conference in Warsaw, Ukrainian President Volodymyr Zelenskyj said that Russia had broken the energy ceasefire that US President Donald Trump announced on Sunday.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj ve videoprojevu na bezpečnostní konferenci ve Varšavě řekl, že Rusko porušilo energetické příměří, které v neděli ohlásil americký prezident Donald Trump."
+          },
+          {
+            "en": "According to him, Ukraine did not strike Russian refineries overnight and they were not on fire.",
+            "cs": "Ukrajina podle něj v noci na ruské rafinerie neútočila a ty nehořely."
+          },
+          {
+            "en": "He called on the United States to force Moscow to observe the truce; if Russia respects it, it could be a significant step towards ending the war, and if not, Ukraine will respond.",
+            "cs": "Vyzval Spojené státy, aby Moskvu donutily příměří dodržovat; pokud ho Rusko bude respektovat, může jít podle Zelenského o významný krok k ukončení války, jinak Ukrajina odpoví."
+          },
+          {
+            "en": "He reportedly learned of Trump's proposal only from the media.",
+            "cs": "O Trumpově návrhu se prý dozvěděl až z médií."
+          },
+          {
+            "en": "Ukrainian authorities said on Sunday evening that a Russian drone had hit a power plant in Kyiv and other energy facilities in the Kharkiv region.",
+            "cs": "Ukrajinské úřady v neděli večer uvedly, že ruský dron zasáhl elektrárnu v Kyjevě a další energetické objekty na Charkovsku."
+          },
+          {
+            "en": "Kremlin spokesman Dmitry Peskov said that Moscow has nothing to say about Trump's announcement for now and that contacts continue; he earlier said that Russia is not seeking a ceasefire but a long-term peace.",
+            "cs": "Mluvčí Kremlu Dmitrij Peskov řekl, že Moskva zatím nemá k Trumpovu oznámení co říci a že kontakty pokračují; dříve uvedl, že Rusko neusiluje o příměří, ale o dlouhodobý mír."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting"
+          },
+          {
+            "term": "refineries",
+            "definition": "factories where oil is made into fuel"
+          },
+          {
+            "term": "truce",
+            "definition": "an agreement to stop fighting for a period of time"
+          },
+          {
+            "term": "observe",
+            "definition": "to obey a rule or an agreement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:51",
+      "headline": "Trumpova dohoda o nákupu ruské nafty naráží v Kongresu i u republikánů",
+      "body": "Snaha Donalda Trumpa snížit v závěru americké předvolební kampaně ceny nafty nemusí projít Kongresem. Podle Deníku N rozhořčila dohoda s Vladimirem Putinem o nákupu ruské nafty nejen Ukrajinu a evropské spojence, ale i část amerických zákonodárců včetně republikánů. V Kongresu proto vzniká zákon pojmenovaný po Ronaldu Reaganovi.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2216689/trumpuv-nakup-ruske-nafty-narazil-na-problem-bouri-se-i-republikansti-senatori/"
+        }
+      ],
+      "en": {
+        "headline": "Trump's deal to buy Russian diesel is running into trouble in Congress, including among Republicans",
+        "sentences": [
+          {
+            "en": "Donald Trump's effort to lower diesel prices at the end of the American election campaign may not get through Congress.",
+            "cs": "Snaha Donalda Trumpa snížit v závěru americké předvolební kampaně ceny nafty nemusí projít Kongresem."
+          },
+          {
+            "en": "According to Deník N, the deal with Vladimir Putin to buy Russian diesel has angered not only Ukraine and the European allies, but also part of the American lawmakers, Republicans among them.",
+            "cs": "Podle Deníku N rozhořčila dohoda s Vladimirem Putinem o nákupu ruské nafty nejen Ukrajinu a evropské spojence, ale i část amerických zákonodárců včetně republikánů."
+          },
+          {
+            "en": "A bill named after Ronald Reagan is therefore taking shape in Congress.",
+            "cs": "V Kongresu proto vzniká zákon pojmenovaný po Ronaldu Reaganovi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lawmakers",
+            "definition": "politicians whose job is to make laws"
+          },
+          {
+            "term": "bill",
+            "definition": "a written plan for a new law"
+          },
+          {
+            "term": "taking shape",
+            "definition": "starting to develop into something clear"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:20",
+      "headline": "Evropská unie rekordně rozšířila protiruské sankce o téměř 1600 osob a firem",
+      "body": "Ministři zahraničí Evropské unie schválili největší rozšíření sankčního seznamu vůči ruským subjektům. Přibylo na něj téměř 1600 lidí a firem a více než polovina z nich má vazby na výrobní řetězec balistických střel. Unie zároveň uvalila sankce na 77 lidí v souvislosti s volbami do ruské dumy na okupovaných územích Ukrajiny.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ministri-zahranici-eu-schvalili-nejvetsi-rozsireni-sankci-vuci-ruskym-subjektum-317633"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/e15-cz/eu-rekordne-rozsirila-protiruske-sankce-postihne-i-nelegalni-volby-na-okupovanych-uzemich-1436479"
+        }
+      ],
+      "en": {
+        "headline": "The European Union has expanded its anti-Russian sanctions by a record of almost 1,600 people and companies",
+        "sentences": [
+          {
+            "en": "The foreign ministers of the European Union approved the largest expansion of the sanctions list against Russian entities.",
+            "cs": "Ministři zahraničí Evropské unie schválili největší rozšíření sankčního seznamu vůči ruským subjektům."
+          },
+          {
+            "en": "Almost 1,600 people and companies were added to it and more than half of them have ties to the production chain for ballistic missiles.",
+            "cs": "Přibylo na něj téměř 1600 lidí a firem a více než polovina z nich má vazby na výrobní řetězec balistických střel."
+          },
+          {
+            "en": "The Union also imposed sanctions on 77 people in connection with the elections to the Russian Duma in the occupied territories of Ukraine.",
+            "cs": "Unie zároveň uvalila sankce na 77 lidí v souvislosti s volbami do ruské dumy na okupovaných územích Ukrajiny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "entities",
+            "definition": "organisations or people treated as single units in law"
+          },
+          {
+            "term": "ties",
+            "definition": "connections or links between people or groups"
+          },
+          {
+            "term": "imposed",
+            "definition": "officially forced a rule or a punishment on someone"
+          },
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that flies high and then falls onto its target"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:47",
+      "headline": "Letiště v Rijádu zůstává po útocích Húthíů uzavřené, Trump zvažuje přímé údery",
+      "body": "Saúdská Arábie prodloužila uzavření mezinárodního letiště v Rijádu, které zasáhly údery jemenských húthíjských povstalců; podle Seznam Zpráv má být zavřené do sobotního večera. Deník N uvedl, že při úderech zemřelo čtrnáct lidí a že Húthíové zasáhli letiště o víkendu potřetí během týdne. Donald Trump podle Deníku N zvažuje přímé údery proti Húthíům, Spojené státy poskytují Saúdské Arábii zpravodajskou podporu a Rijádu docházejí střely protivzdušné obrany. Trump proto požádal o pomoc Francii, Británii, Pákistán a Egypt. Boje se podle Deníku N vyostřují i u průlivu důležitého pro přepravu ropy.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2216226/letiste-v-rijadu-zasahli-huthiove-potreti-za-tyden-trump-zvazuje-udery-saudum-ubyvaji-obranne-strely/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-letiste-v-rijadu-zustava-po-hutijskych-utocich-uzavrene-317687"
+        }
+      ],
+      "en": {
+        "headline": "Riyadh airport remains closed after the Houthi attacks and Trump is considering direct strikes",
+        "sentences": [
+          {
+            "en": "Saudi Arabia has extended the closure of the international airport in Riyadh, which was hit by strikes by the Yemeni Houthi rebels; according to Seznam Zprávy it is to stay closed until Saturday evening.",
+            "cs": "Saúdská Arábie prodloužila uzavření mezinárodního letiště v Rijádu, které zasáhly údery jemenských húthíjských povstalců; podle Seznam Zpráv má být zavřené do sobotního večera."
+          },
+          {
+            "en": "Deník N reported that fourteen people died in the strikes and that the Houthis hit the airport over the weekend for the third time in a week.",
+            "cs": "Deník N uvedl, že při úderech zemřelo čtrnáct lidí a že Húthíové zasáhli letiště o víkendu potřetí během týdne."
+          },
+          {
+            "en": "According to Deník N, Donald Trump is considering direct strikes against the Houthis, the United States is providing Saudi Arabia with intelligence support and Riyadh is running out of air-defence missiles.",
+            "cs": "Donald Trump podle Deníku N zvažuje přímé údery proti Húthíům, Spojené státy poskytují Saúdské Arábii zpravodajskou podporu a Rijádu docházejí střely protivzdušné obrany."
+          },
+          {
+            "en": "Trump therefore asked France, Britain, Pakistan and Egypt for help.",
+            "cs": "Trump proto požádal o pomoc Francii, Británii, Pákistán a Egypt."
+          },
+          {
+            "en": "According to Deník N the fighting is also escalating near a strait that is important for oil transport.",
+            "cs": "Boje se podle Deníku N vyostřují i u průlivu důležitého pro přepravu ropy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rebels",
+            "definition": "people who fight against their own government"
+          },
+          {
+            "term": "running out of",
+            "definition": "having almost none of something left"
+          },
+          {
+            "term": "escalating",
+            "definition": "becoming more serious or intense"
+          },
+          {
+            "term": "strait",
+            "definition": "a narrow area of sea between two pieces of land"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:05",
+      "headline": "Kyberútok vyřadil chlazení ve 150 francouzských supermarketech",
+      "body": "V desítkách francouzských supermarketů přestala fungovat chladicí zařízení a řada čerstvých nebo mražených potravin se zkazila, informoval francouzský deník Ouest-France. Podle šéfa maloobchodního řetězce Coopérative U Dominiqua Schelchera šlo o kybernetický útok. Incident se týká zhruba 150 prodejen řetězců U, Intermarché a E.Leclerc a škody jsou podle francouzských médií velké. Seznam Zprávy uvádějí, že chladicí systémy ještě nikdy nebyly takovému útoku vystaveny. Podle Deníku N jsou týmy řetězce plně mobilizovány a ve spolupráci s odborníky na chladicí techniku se snaží situaci co nejrychleji vyřešit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/kyberutok-vyradil-chlazeni-ve-150-francouzskych-obchodech-skody-jsou-podle-medii_2610121405_ntu"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-kyberneticky-utok-na-francouzske-supermarkety-skody-budou-velke-317649"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2216510/"
+        }
+      ],
+      "en": {
+        "headline": "A cyberattack knocked out refrigeration in 150 French supermarkets",
+        "sentences": [
+          {
+            "en": "Refrigeration equipment stopped working in dozens of French supermarkets and a lot of fresh and frozen food spoiled, the French daily Ouest-France reported.",
+            "cs": "V desítkách francouzských supermarketů přestala fungovat chladicí zařízení a řada čerstvých nebo mražených potravin se zkazila, informoval francouzský deník Ouest-France."
+          },
+          {
+            "en": "According to Dominique Schelcher, the head of the retail chain Coopérative U, it was a cyberattack.",
+            "cs": "Podle šéfa maloobchodního řetězce Coopérative U Dominiqua Schelchera šlo o kybernetický útok."
+          },
+          {
+            "en": "The incident concerns around 150 stores of the U, Intermarché and E.Leclerc chains and, according to the French media, the damage is large.",
+            "cs": "Incident se týká zhruba 150 prodejen řetězců U, Intermarché a E.Leclerc a škody jsou podle francouzských médií velké."
+          },
+          {
+            "en": "Seznam Zprávy reports that refrigeration systems have never been exposed to such an attack before.",
+            "cs": "Seznam Zprávy uvádějí, že chladicí systémy ještě nikdy nebyly takovému útoku vystaveny."
+          },
+          {
+            "en": "According to Deník N the chain's teams are fully mobilised and are working with refrigeration specialists to resolve the situation as quickly as possible.",
+            "cs": "Podle Deníku N jsou týmy řetězce plně mobilizovány a ve spolupráci s odborníky na chladicí techniku se snaží situaci co nejrychleji vyřešit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refrigeration",
+            "definition": "the process of keeping things cold"
+          },
+          {
+            "term": "spoiled",
+            "definition": "became bad and no longer safe to eat"
+          },
+          {
+            "term": "retail",
+            "definition": "the business of selling goods to the public"
+          },
+          {
+            "term": "mobilised",
+            "definition": "brought together and made ready for action"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:59",
+      "headline": "Velitel spojeneckých sil NATO představil ve Varšavě teorii vítězství nad Ruskem",
+      "body": "Vrchní velitel spojeneckých sil NATO v Evropě, Američan Alexus Grynkewich, přednesl na konferenci ve Varšavě projev o „teorii vítězství“ aliance. Podle ní by NATO ruský útok nejprve zastavilo, pak oslabilo nepřátelské jednotky a v krajním případě rozdrtilo nepřátelské síly i operační systém vedení války, podle Deníku N případně i na ruském území. Na nejzásadnější otázku ale podle Deníku N vojenský velitel odpověď nenabídl.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2216881/nato-porazi-rusko-mozna-i-na-jeho-uzemi-nastinil-americky-velitel-spojeneckych-sil/"
+        }
+      ],
+      "en": {
+        "headline": "The commander of NATO's allied forces presented a theory of victory over Russia in Warsaw",
+        "sentences": [
+          {
+            "en": "Alexus Grynkewich, the American Supreme Allied Commander Europe, delivered a speech at a conference in Warsaw about the alliance's “theory of victory”.",
+            "cs": "Vrchní velitel spojeneckých sil NATO v Evropě, Američan Alexus Grynkewich, přednesl na konferenci ve Varšavě projev o „teorii vítězství“ aliance."
+          },
+          {
+            "en": "Under it, NATO would first stop a Russian attack, then weaken the enemy units and in an extreme case crush the enemy forces and the operational system of waging war, according to Deník N possibly even on Russian territory.",
+            "cs": "Podle ní by NATO ruský útok nejprve zastavilo, pak oslabilo nepřátelské jednotky a v krajním případě rozdrtilo nepřátelské síly i operační systém vedení války, podle Deníku N případně i na ruském území."
+          },
+          {
+            "en": "On the most fundamental question, however, the military commander offered no answer, according to Deník N.",
+            "cs": "Na nejzásadnější otázku ale podle Deníku N vojenský velitel odpověď nenabídl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "alliance",
+            "definition": "a group of countries that agree to help each other"
+          },
+          {
+            "term": "crush",
+            "definition": "to defeat someone completely"
+          },
+          {
+            "term": "waging",
+            "definition": "carrying on a war or a campaign"
+          },
+          {
+            "term": "fundamental",
+            "definition": "basic and most important"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:10",
+      "headline": "Nobelovu cenu za ekonomii získali Robert Hall a Michael Woodford",
+      "body": "Letošní Nobelovu cenu za ekonomii dostali američtí vědci Robert Hall a Michael Woodford za výzkum mikroekonomických základů makroekonomické stabilizace, oznámila Švédská královská akademie věd. Podle E15 Hall ukázal, že lidé mění chování až po změně očekávání, a ekonomové je proto musejí modelovat; Woodfordův model ze tří rovnic je jádrem predikcí centrálních bank v mnoha zemích. Vyhlášením ceny za ekonomii skončilo letošní oznamování laureátů, po cenách za lékařství, fyziku, chemii, literaturu a mír.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/nobelovu-cenu-za-ekonomii-ziskali-hall-a-woodford-vyvinuli-modely-pro-mirneni_2610121223_ntu"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/za-letosni-nobelovou-cenou-za-ekonomii-stoji-otazka-jak-predvidat-chovani-domacnosti-1436486"
+        }
+      ],
+      "en": {
+        "headline": "Robert Hall and Michael Woodford have won the Nobel Prize in economics",
+        "sentences": [
+          {
+            "en": "This year's Nobel Prize in economics went to the American scholars Robert Hall and Michael Woodford for research into the microeconomic foundations of macroeconomic stabilisation, the Royal Swedish Academy of Sciences announced.",
+            "cs": "Letošní Nobelovu cenu za ekonomii dostali američtí vědci Robert Hall a Michael Woodford za výzkum mikroekonomických základů makroekonomické stabilizace, oznámila Švédská královská akademie věd."
+          },
+          {
+            "en": "According to E15, Hall showed that people change their behaviour only after their expectations change and economists therefore have to model them; Woodford's three-equation model is at the core of the forecasts of central banks in many countries.",
+            "cs": "Podle E15 Hall ukázal, že lidé mění chování až po změně očekávání, a ekonomové je proto musejí modelovat; Woodfordův model ze tří rovnic je jádrem predikcí centrálních bank v mnoha zemích."
+          },
+          {
+            "en": "With the announcement of the economics prize, this year's naming of laureates came to an end, after the prizes for medicine, physics, chemistry, literature and peace.",
+            "cs": "Vyhlášením ceny za ekonomii skončilo letošní oznamování laureátů, po cenách za lékařství, fyziku, chemii, literaturu a mír."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "foundations",
+            "definition": "the basic ideas on which something is built"
+          },
+          {
+            "term": "forecasts",
+            "definition": "statements about what will probably happen"
+          },
+          {
+            "term": "laureates",
+            "definition": "people who have won an important prize"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:06",
+      "headline": "Evropská unie se s Čínou dohodla na stropu 350 tisíc dovezených hybridů ročně",
+      "body": "Čína souhlasila s tím, že na evropský trh zamíří nejvýše 350 tisíc hybridních a plug-in hybridních vozů ročně. Dohodu po dvoudenních jednáních v Pekingu oznámil eurokomisař pro obchod Maroš Šefčovič, uzavřená je na čtyři roky. Jen letos by podle Evropské komise mělo do Evropy přijít kolem 800 tisíc těchto aut, dohoda tedy objem sníží zhruba na polovinu. První opatření se očekávají od začátku prosince. Peking kompromis uvítal s tím, že pomohl vyhnout se eskalaci.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/nejvyse-350-tisic-hybridu-rocne-eu-se-s-cinou-dohodla-na-omezeni-dovozu-aut-1436474"
+        }
+      ],
+      "en": {
+        "headline": "The European Union has agreed with China on a cap of 350,000 imported hybrids a year",
+        "sentences": [
+          {
+            "en": "China agreed that no more than 350,000 hybrid and plug-in hybrid vehicles a year will go to the European market.",
+            "cs": "Čína souhlasila s tím, že na evropský trh zamíří nejvýše 350 tisíc hybridních a plug-in hybridních vozů ročně."
+          },
+          {
+            "en": "The deal was announced after two days of talks in Beijing by Trade Commissioner Maroš Šefčovič and it runs for four years.",
+            "cs": "Dohodu po dvoudenních jednáních v Pekingu oznámil eurokomisař pro obchod Maroš Šefčovič, uzavřená je na čtyři roky."
+          },
+          {
+            "en": "According to the European Commission around 800,000 of these cars should arrive in Europe this year alone, so the deal will cut the volume roughly by half.",
+            "cs": "Jen letos by podle Evropské komise mělo do Evropy přijít kolem 800 tisíc těchto aut, dohoda tedy objem sníží zhruba na polovinu."
+          },
+          {
+            "en": "The first measures are expected from the beginning of December.",
+            "cs": "První opatření se očekávají od začátku prosince."
+          },
+          {
+            "en": "Beijing welcomed the compromise, saying that it helped to avoid escalation.",
+            "cs": "Peking kompromis uvítal s tím, že pomohl vyhnout se eskalaci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cap",
+            "definition": "an upper limit on an amount"
+          },
+          {
+            "term": "volume",
+            "definition": "the total amount of something"
+          },
+          {
+            "term": "compromise",
+            "definition": "an agreement in which each side gives up something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:23",
+      "headline": "ČEZ odevzdal dokumenty k posouzení vlivů modulárního reaktoru v Temelíně",
+      "body": "ČEZ posunul přípravu malého modulárního reaktoru v Temelíně a odevzdal dokumenty k posouzení vlivů na životní prostředí. Posoudí je ministerstvo životního prostředí a výsledek ČEZ očekává do konce příštího roku. Výhodou modulárních reaktorů je podle E15 rychlejší a jednodušší stavba; po Temelínu by mohly vzniknout ještě na dalších dvou místech v Česku.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/dalsi-posun-v-priprave-modularniho-reaktoru-v-temeline-cez-odevzdal-dokumenty-k-eia-1436471"
+        }
+      ],
+      "en": {
+        "headline": "ČEZ has submitted documents for the environmental assessment of the modular reactor in Temelín",
+        "sentences": [
+          {
+            "en": "ČEZ has moved the preparation of a small modular reactor in Temelín forward and submitted documents for the assessment of its effects on the environment.",
+            "cs": "ČEZ posunul přípravu malého modulárního reaktoru v Temelíně a odevzdal dokumenty k posouzení vlivů na životní prostředí."
+          },
+          {
+            "en": "The Ministry of the Environment will assess them and ČEZ expects the result by the end of next year.",
+            "cs": "Posoudí je ministerstvo životního prostředí a výsledek ČEZ očekává do konce příštího roku."
+          },
+          {
+            "en": "According to E15 the advantage of modular reactors is faster and simpler construction; after Temelín they could also be built at two further sites in Czechia.",
+            "cs": "Výhodou modulárních reaktorů je podle E15 rychlejší a jednodušší stavba; po Temelínu by mohly vzniknout ještě na dalších dvou místech v Česku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "submitted",
+            "definition": "officially sent in for consideration"
+          },
+          {
+            "term": "assessment",
+            "definition": "the process of judging the quality or the effect of something"
+          },
+          {
+            "term": "sites",
+            "definition": "places where something is built"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:22",
+      "headline": "Projekt QGIS zakázal příspěvky kódu vytvořené s pomocí umělé inteligence",
+      "body": "Open source projekt QGIS přijal pravidlo, podle kterého nejsou v jeho hlavním repozitáři povoleny žádné příspěvky kódu vytvořené s pomocí velkých jazykových modelů, umělé inteligence nebo agentů. Přispěvatelům, u nichž se použití AI prokáže, hrozí vrácení kódu a omezení práv. Návrh vysvětluje, že objem příspěvků generovaných AI přesahuje kapacitu dobrovolných správců na jejich kontrolu, takže se do projektu dostává nedostatečně prověřený kód. Autor návrhu Nyall Dawson popisuje zákaz jako dočasně zavřené dveře, ne jako trvalé pravidlo; předchozí politika, která použití AI s lidskou kontrolou povolovala, podle něj nefungovala a projekt kvůli ní přišel nejméně o jednoho cenného přispěvatele. Návrh byl schválen 7. října. V diskusi zazněly námitky, že pojem umělá inteligence je příliš široký a mohl by pokrýt i našeptávače nebo překladače; podle odpovědí je rozhodující to, jestli kód napsal sám přispěvatel.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+        }
+      ],
+      "en": {
+        "headline": "The QGIS project has banned code contributions made with the help of artificial intelligence",
+        "sentences": [
+          {
+            "en": "The open source project QGIS has adopted a rule under which no code contributions created with the help of large language models, artificial intelligence or agents are allowed in its main repository.",
+            "cs": "Open source projekt QGIS přijal pravidlo, podle kterého nejsou v jeho hlavním repozitáři povoleny žádné příspěvky kódu vytvořené s pomocí velkých jazykových modelů, umělé inteligence nebo agentů."
+          },
+          {
+            "en": "Contributors who are found to have used AI face having their code reverted and their rights restricted.",
+            "cs": "Přispěvatelům, u nichž se použití AI prokáže, hrozí vrácení kódu a omezení práv."
+          },
+          {
+            "en": "The proposal explains that the volume of AI-generated contributions exceeds the capacity of volunteer maintainers to review them, so insufficiently checked code gets into the project.",
+            "cs": "Návrh vysvětluje, že objem příspěvků generovaných AI přesahuje kapacitu dobrovolných správců na jejich kontrolu, takže se do projektu dostává nedostatečně prověřený kód."
+          },
+          {
+            "en": "The author of the proposal, Nyall Dawson, describes the ban as a temporarily closed door rather than a permanent rule; the previous policy, which allowed the use of AI with human review, did not work in his view and cost the project at least one valuable contributor.",
+            "cs": "Autor návrhu Nyall Dawson popisuje zákaz jako dočasně zavřené dveře, ne jako trvalé pravidlo; předchozí politika, která použití AI s lidskou kontrolou povolovala, podle něj nefungovala a projekt kvůli ní přišel nejméně o jednoho cenného přispěvatele."
+          },
+          {
+            "en": "The proposal was approved on 7 October.",
+            "cs": "Návrh byl schválen 7. října."
+          },
+          {
+            "en": "Objections were raised in the discussion that the term artificial intelligence is too broad and could cover autocomplete or translation tools; according to the replies, what matters is whether the contributor wrote the code themselves.",
+            "cs": "V diskusi zazněly námitky, že pojem umělá inteligence je příliš široký a mohl by pokrýt i našeptávače nebo překladače; podle odpovědí je rozhodující to, jestli kód napsal sám přispěvatel."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "repository",
+            "definition": "an online place where the files of a software project are stored"
+          },
+          {
+            "term": "reverted",
+            "definition": "changed back to an earlier state"
+          },
+          {
+            "term": "maintainers",
+            "definition": "people who look after and update a software project"
+          },
+          {
+            "term": "broad",
+            "definition": "covering a wide range of things"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "00:00",
+      "headline": "Útočníci ovládli registry domén .gh, .sl a .as a nechali si vystavit certifikáty pro Google i YouTube",
+      "body": "Podle Googlu útočníci kompromitovali registry národních domén nejvyšší úrovně Ghany, Sierry Leone a Americké Samoy: ovládli autoritativní jmenné servery a přepsali DNS záznamy, které provozovatelé registrů spravují. U certifikačních autorit Let's Encrypt a ZeroSSL si pak nechali vystavit dvanáct certifikátů pro sedm domén, mezi nimi google.as, google.com.gh a youtube.sl. Platné byly od 22. září do 1. října a část z nich byla odvolána den po vydání. S platným certifikátem mohli útočníci vystupovat jako majitelé domén a číst data posílaná po zdánlivě šifrovaném spojení. Certifikační autority vydání zabránit nemohly, protože proces je automatický a útočníci ovládali DNS dotčených domén. Vlastní infrastruktura Googlu napadena nebyla a technické detaily samotné kompromitace zatím nejsou známé.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/clanky/postrehy-z-bezpecnosti-dusledky-kompromitace-registru-gh-sl-a-as/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Attackers took over the .gh, .sl and .as domain registries and had certificates issued for Google and YouTube",
+        "sentences": [
+          {
+            "en": "According to Google, attackers compromised the registries of the national top-level domains of Ghana, Sierra Leone and American Samoa: they took control of the authoritative name servers and rewrote the DNS records that the registry operators manage.",
+            "cs": "Podle Googlu útočníci kompromitovali registry národních domén nejvyšší úrovně Ghany, Sierry Leone a Americké Samoy: ovládli autoritativní jmenné servery a přepsali DNS záznamy, které provozovatelé registrů spravují."
+          },
+          {
+            "en": "They then had twelve certificates issued for seven domains by the certificate authorities Let's Encrypt and ZeroSSL, among them google.as, google.com.gh and youtube.sl.",
+            "cs": "U certifikačních autorit Let's Encrypt a ZeroSSL si pak nechali vystavit dvanáct certifikátů pro sedm domén, mezi nimi google.as, google.com.gh a youtube.sl."
+          },
+          {
+            "en": "The certificates were valid from 22 September to 1 October and some of them were revoked the day after they were issued.",
+            "cs": "Platné byly od 22. září do 1. října a část z nich byla odvolána den po vydání."
+          },
+          {
+            "en": "With a valid certificate the attackers could pose as the owners of the domains and read data sent over a seemingly encrypted connection.",
+            "cs": "S platným certifikátem mohli útočníci vystupovat jako majitelé domén a číst data posílaná po zdánlivě šifrovaném spojení."
+          },
+          {
+            "en": "The certificate authorities could not prevent the issuance, because the process is automated and the attackers controlled the DNS of the domains concerned.",
+            "cs": "Certifikační autority vydání zabránit nemohly, protože proces je automatický a útočníci ovládali DNS dotčených domén."
+          },
+          {
+            "en": "Google's own infrastructure was not breached and the technical details of the compromise itself are not yet known.",
+            "cs": "Vlastní infrastruktura Googlu napadena nebyla a technické detaily samotné kompromitace zatím nejsou známé."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compromised",
+            "definition": "broke into a system and gained control of it"
+          },
+          {
+            "term": "revoked",
+            "definition": "officially cancelled"
+          },
+          {
+            "term": "pose as",
+            "definition": "to pretend to be someone else"
+          },
+          {
+            "term": "breached",
+            "definition": "broken into without permission"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:35",
+      "headline": "V Paříži vyhořela historická tržnice Marché des Enfants Rouges",
+      "body": "V Paříži zničil požár historickou tržnici Marché des Enfants Rouges ze 17. století. Plameny podle Seznam Zpráv zničily celé tržiště a způsobily částečné zřícení konstrukce. Příčina požáru zatím není známá.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pet-set-let-starou-parizskou-trznici-znicil-pozar-317651"
+        }
+      ],
+      "en": {
+        "headline": "A fire destroyed the historic Marché des Enfants Rouges market in Paris",
+        "sentences": [
+          {
+            "en": "A fire destroyed the historic seventeenth-century Marché des Enfants Rouges market in Paris.",
+            "cs": "V Paříži zničil požár historickou tržnici Marché des Enfants Rouges ze 17. století."
+          },
+          {
+            "en": "According to Seznam Zprávy the flames destroyed the entire market and caused a partial collapse of the structure.",
+            "cs": "Plameny podle Seznam Zpráv zničily celé tržiště a způsobily částečné zřícení konstrukce."
+          },
+          {
+            "en": "The cause of the fire is not yet known.",
+            "cs": "Příčina požáru zatím není známá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "flames",
+            "definition": "the bright burning parts of a fire"
+          },
+          {
+            "term": "collapse",
+            "definition": "a sudden falling down of a building"
+          },
+          {
+            "term": "structure",
+            "definition": "a building or something that has been built"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "13:40",
+      "headline": "Český student v Paříži popisuje, proč Francouzi protestují kvůli školám",
+      "body": "Francouzské protesty vypadají při pohledu z Česka podle mnohých spíš jako řádění výtržníků, realita je ale podle komentáře na Voxpotu jiná: studenti bojují proti kolabujícímu systému v chátrajících školách. Stát podle textu nechce vést dialog a těží z toho političtí extremisté. Komentář napsal Maxim Fanta, který studuje na pařížské univerzitě Sciences Po.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/chceme-lepsi-skoly-ne-jejich-trosky-cech-studujici-ve-francii-pise-o-protestech/"
+        }
+      ],
+      "en": {
+        "headline": "A Czech student in Paris explains why the French are protesting over schools",
+        "sentences": [
+          {
+            "en": "Seen from Czechia, the French protests look to many people more like rioting, but according to a commentary on Voxpot the reality is different: students are fighting against a collapsing system in dilapidated schools.",
+            "cs": "Francouzské protesty vypadají při pohledu z Česka podle mnohých spíš jako řádění výtržníků, realita je ale podle komentáře na Voxpotu jiná: studenti bojují proti kolabujícímu systému v chátrajících školách."
+          },
+          {
+            "en": "According to the text, the state does not want to hold a dialogue and political extremists are profiting from that.",
+            "cs": "Stát podle textu nechce vést dialog a těží z toho političtí extremisté."
+          },
+          {
+            "en": "The commentary was written by Maxim Fanta, who studies at the Sciences Po university in Paris.",
+            "cs": "Komentář napsal Maxim Fanta, který studuje na pařížské univerzitě Sciences Po."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rioting",
+            "definition": "violent public disorder caused by a crowd"
+          },
+          {
+            "term": "dilapidated",
+            "definition": "in very bad condition because of age or neglect"
+          },
+          {
+            "term": "profiting from",
+            "definition": "getting an advantage from something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:32",
+      "headline": "Alcaraz vypadl v Šanghaji ve třetím kole, světovou jedničkou bude Zverev",
+      "body": "Carlos Alcaraz prohrál ve třetím kole turnaje Masters v Šanghaji s Belgičanem Zizouem Bergsem 5:7 a 6:7 a jeho vyřazení potvrdilo Alexandera Zvereva jako novou světovou jedničku. Ve stejném kole skončili i dva čeští tenisté: Jiří Lehečka podlehl Španělovi Rafaelu Jódarovi 6:4, 6:7 a 4:6 a Dalibor Svrčina prohrál s Rusem Daniilem Medvěděvem 2:6 a 3:6. Z Čechů zůstává v turnaji jen Jakub Menšík.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/treti-kolo-v-sanghaji-bylo-konecnou-pro-dva-ceske-tenisty-vypadl-lehecka-i-svrcina-159405"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-sokujici-prohra-alcaraze-svetovy-zebricek-bude-mit-noveho-lidra-5554408"
+        }
+      ],
+      "en": {
+        "headline": "Alcaraz went out in the third round in Shanghai and Zverev will be the world number one",
+        "sentences": [
+          {
+            "en": "Carlos Alcaraz lost in the third round of the Masters tournament in Shanghai to the Belgian Zizou Bergs 5:7 and 6:7, and his exit confirmed Alexander Zverev as the new world number one.",
+            "cs": "Carlos Alcaraz prohrál ve třetím kole turnaje Masters v Šanghaji s Belgičanem Zizouem Bergsem 5:7 a 6:7 a jeho vyřazení potvrdilo Alexandera Zvereva jako novou světovou jedničku."
+          },
+          {
+            "en": "Two Czech players went out in the same round: Jiří Lehečka lost to the Spaniard Rafael Jódar 6:4, 6:7 and 4:6 and Dalibor Svrčina lost to the Russian Daniil Medvedev 2:6 and 3:6.",
+            "cs": "Ve stejném kole skončili i dva čeští tenisté: Jiří Lehečka podlehl Španělovi Rafaelu Jódarovi 6:4, 6:7 a 4:6 a Dalibor Svrčina prohrál s Rusem Daniilem Medvěděvem 2:6 a 3:6."
+          },
+          {
+            "en": "Of the Czechs, only Jakub Menšík is left in the tournament.",
+            "cs": "Z Čechů zůstává v turnaji jen Jakub Menšík."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "went out",
+            "definition": "stopped taking part in a competition after losing"
+          },
+          {
+            "term": "exit",
+            "definition": "the act of leaving a competition"
+          },
+          {
+            "term": "confirmed",
+            "definition": "made something certain"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:54",
+      "headline": "Pardubice ukončily stoprocentní sérii Třince výhrou 5:4 v prodloužení",
+      "body": "V desátém kole hokejové extraligy porazily Pardubice vedoucí Třinec 5:4 v prodloužení a ukončily jeho devítizápasovou vítěznou sérii od začátku sezony. Vítězný gól vstřelil útočník Jan Mandát. Druhé Dynamo se tím přiblížilo Ocelářům na rozdíl dvou bodů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/mandat-rozhodl-slagr-s-trincem-gol-jsem-potreboval-i-pro-svou-osobni-pohodu-rekl-159402"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/potreboval-jsem-pro-svoji-pohodu-tesil-mandata-vitezny-gol-pardubic-kacetlovi_2610121254_mim"
+        }
+      ],
+      "en": {
+        "headline": "Pardubice ended Třinec's perfect run with a 5:4 win in overtime",
+        "sentences": [
+          {
+            "en": "In the tenth round of the ice hockey extraliga, Pardubice beat the leaders Třinec 5:4 in overtime and ended their nine-game winning streak from the start of the season.",
+            "cs": "V desátém kole hokejové extraligy porazily Pardubice vedoucí Třinec 5:4 v prodloužení a ukončily jeho devítizápasovou vítěznou sérii od začátku sezony."
+          },
+          {
+            "en": "The winning goal was scored by the forward Jan Mandát.",
+            "cs": "Vítězný gól vstřelil útočník Jan Mandát."
+          },
+          {
+            "en": "Second-placed Dynamo thereby came to within two points of the Oceláři.",
+            "cs": "Druhé Dynamo se tím přiblížilo Ocelářům na rozdíl dvou bodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overtime",
+            "definition": "extra time played when the score is level"
+          },
+          {
+            "term": "streak",
+            "definition": "a series of wins or losses one after another"
+          },
+          {
+            "term": "forward",
+            "definition": "a player whose main job is to attack and score"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:20",
+      "headline": "Sparta zaplatila za dva útočníky přes 250 milionů, ani jeden zatím neskóroval",
+      "body": "Sparta letos koupila dva fotbalové útočníky, za které podle Seznam Zpráv vysázela přes 250 milionů korun, oba jsou ale zatím bez gólů. Matyáš Vojta sedí mezi náhradníky, Jonatan Brunes se podle serveru týmu vyplácí alespoň tím, jak pro něj sveřepě maká.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/sport-fotbal-sparta-ma-problem-za-ctvrt-miliardy-si-koupila-proklete-strelce-317620"
+        }
+      ],
+      "en": {
+        "headline": "Sparta paid more than 250 million for two forwards and neither of them has scored yet",
+        "sentences": [
+          {
+            "en": "Sparta bought two football forwards this year, for whom, according to Seznam Zprávy, it laid out more than 250 million crowns, but both are still without a goal.",
+            "cs": "Sparta letos koupila dva fotbalové útočníky, za které podle Seznam Zpráv vysázela přes 250 milionů korun, oba jsou ale zatím bez gólů."
+          },
+          {
+            "en": "Matyáš Vojta sits among the substitutes, while Jonatan Brunes, according to the server, at least pays the team back with how doggedly he works.",
+            "cs": "Matyáš Vojta sedí mezi náhradníky, Jonatan Brunes se podle serveru týmu vyplácí alespoň tím, jak pro něj sveřepě maká."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "laid out",
+            "definition": "spent a large amount of money"
+          },
+          {
+            "term": "substitutes",
+            "definition": "players who wait to replace others during a match"
+          },
+          {
+            "term": "doggedly",
+            "definition": "with great determination and effort"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:10",
+      "headline": "Brankář Kalina potrestaný za korupci vystoupil z fotbalové asociace",
+      "body": "Brankář Marek Kalina, kterému etická komise za účast v korupční kauze zakázala činnost na dvacet let a uložila pokutu 500 tisíc korun, vystoupil z Fotbalové asociace ČR. Odvolací komise proto s devětadvacetiletým gólmanem, bývalým hráčem Zlínska, přerušila řízení; oznámila to v komuniké na webu asociace.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-rizeni-preruseno-brankar-kalina-kteremu-za-korupci-zakazali-cinnost-na-20-let-vystoupil-z-fotbalove-asociace-5554697"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/potrestany-brankar-kalina-uz-neni-clenem-facr-odvolaci-komise-s-nim-prerusila-rizeni-159409"
+        }
+      ],
+      "en": {
+        "headline": "Goalkeeper Kalina, punished for corruption, has left the football association",
+        "sentences": [
+          {
+            "en": "Goalkeeper Marek Kalina, whom the ethics committee banned from activity for twenty years and fined 500,000 crowns for taking part in a corruption case, has left the Football Association of the Czech Republic.",
+            "cs": "Brankář Marek Kalina, kterému etická komise za účast v korupční kauze zakázala činnost na dvacet let a uložila pokutu 500 tisíc korun, vystoupil z Fotbalové asociace ČR."
+          },
+          {
+            "en": "The appeals committee therefore suspended the proceedings with the twenty-nine-year-old goalkeeper, a former Zlínsko player; it announced this in a communiqué on the association's website.",
+            "cs": "Odvolací komise proto s devětadvacetiletým gólmanem, bývalým hráčem Zlínska, přerušila řízení; oznámila to v komuniké na webu asociace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fined",
+            "definition": "made to pay money as a punishment"
+          },
+          {
+            "term": "appeals",
+            "definition": "requests to a higher body to change a decision"
+          },
+          {
+            "term": "proceedings",
+            "definition": "the official or legal process of a case"
+          },
+          {
+            "term": "communiqué",
+            "definition": "an official announcement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:08",
+      "headline": "Přívratský vyhrál na Světovém poháru v Káhiře střelbu ze vzduchové pušky",
+      "body": "Jiří Přívratský vyhrál na Světovém poháru v Káhiře střelbu ze vzduchové pušky a dočkal se prvního letošního triumfu v seriálu. Ve sportovní pistoli se poprvé v kariéře probojovala do finále Viktorie Šindlerová a skončila sedmá.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-privratsky-vyhral-na-svetovem-poharu-v-kahire-strelbu-ze-vzduchove-pusky-5554557"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/privratsky-si-na-svetovem-poharu-v-kahire-vystrilel-ve-vzduchove-pusce-zlato-159408"
+        }
+      ],
+      "en": {
+        "headline": "Přívratský won the air rifle event at the World Cup in Cairo",
+        "sentences": [
+          {
+            "en": "Jiří Přívratský won the air rifle shooting event at the World Cup in Cairo and claimed his first triumph of this year in the series.",
+            "cs": "Jiří Přívratský vyhrál na Světovém poháru v Káhiře střelbu ze vzduchové pušky a dočkal se prvního letošního triumfu v seriálu."
+          },
+          {
+            "en": "In the sport pistol, Viktorie Šindlerová reached a final for the first time in her career and finished seventh.",
+            "cs": "Ve sportovní pistoli se poprvé v kariéře probojovala do finále Viktorie Šindlerová a skončila sedmá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rifle",
+            "definition": "a long gun that is fired from the shoulder"
+          },
+          {
+            "term": "triumph",
+            "definition": "a great victory or success"
+          },
+          {
+            "term": "series",
+            "definition": "a set of connected events or competitions"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Michal Koudelka, the head of BIS, warned that in the coming months Russia may turn to sabotage or to a limited military action against a NATO country; Prime Minister Andrej Babiš told him that intelligence information belongs to the government.",
+    "Volodymyr Zelenskyj declared that Russia had broken the energy ceasefire announced by Donald Trump, and called on the United States to force Moscow to observe it.",
+    "A coalition without the ANO movement has been formed in Liberec, which is leaving the city leadership after twelve years. In Hradec Králové three groupings have agreed on a programme and will divide the posts on Tuesday."
+  ]
+}
