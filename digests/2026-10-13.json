@@ -1,0 +1,1465 @@
+{
+  "date": "2026-10-13",
+  "covers": "2026-10-13",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "iROZHLAS",
+    "E15",
+    "Hradecký deník",
+    "Root.cz",
+    "Hacker News",
+    "Sport.cz",
+    "ČT Sport"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude slabě pršet, přes den až 15,7 °C. Kvalita ovzduší zůstane zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-14",
+        "icon": "rain",
+        "temp_max_c": 15.7,
+        "temp_min_c": 5.4
+      },
+      {
+        "date": "2026-10-15",
+        "icon": "fog",
+        "temp_max_c": 12.8,
+        "temp_min_c": 3.0
+      },
+      {
+        "date": "2026-10-16",
+        "icon": "cloudy",
+        "temp_max_c": 15.8,
+        "temp_min_c": 4.9
+      },
+      {
+        "date": "2026-10-17",
+        "icon": "cloudy",
+        "temp_max_c": 15.3,
+        "temp_min_c": 4.7
+      }
+    ],
+    "summary_en": "Tomorrow will bring light rain, with up to 15.7 °C during the day. Air quality will remain poor."
+  },
+  "highlights": [
+    "Druhé kolo senátních voleb rozhodne v pátek a v sobotu o 22 mandátech a vládní hnutí ANO do něj jde oslabené.",
+    "Zářijová inflace zrychlila na 2,5 procenta, nejvíc k tomu přispělo zdražení pohonných hmot.",
+    "Drony u bulharského pobřeží potopily v Černém moři nákladní loď a Sofie si předvolala ruskou velvyslankyni.",
+    "Maďarský parlament zrušil ustanovení namířená proti LGBT+ lidem a unijní státy zemi uvolní zmrazené miliardy eur."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:20",
+      "headline": "Druhé kolo senátních voleb rozhodne v pátek a v sobotu o 22 mandátech",
+      "body": "Už v prvním kole lidé zvolili pět z 27 senátorů, o zbývajících 22 mandátů se bude hlasovat v pátek a v sobotu. Vládní hnutí ANO jde do druhého kola v mimořádně slabé pozici a podle Deníku N mu hrozí drtivá porážka, naopak Starostové mohou podle serveru završit úspěšný týden. Deník N k druhému kolu zveřejnil i přehled toho, o jaké zisky kdo hraje, k čemu je to důležité a jak podle jeho predikce hlasování dopadne.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2217474/ano-hrozi-drtiva-porazka-starostove-mohou-zavrsit-tyden-snu-predikce-druheho-kola-senatnich-voleb/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2218125/"
+        }
+      ],
+      "en": {
+        "headline": "The Senate runoff on Friday and Saturday will decide 22 seats",
+        "sentences": [
+          {
+            "en": "Voters already elected five of the 27 senators in the first round, and the remaining 22 seats will be decided in voting on Friday and Saturday.",
+            "cs": "Už v prvním kole lidé zvolili pět z 27 senátorů, o zbývajících 22 mandátů se bude hlasovat v pátek a v sobotu."
+          },
+          {
+            "en": "The governing ANO movement enters the runoff in an exceptionally weak position and, according to Deník N, faces a crushing defeat, while Starostové could cap off a successful week.",
+            "cs": "Vládní hnutí ANO jde do druhého kola v mimořádně slabé pozici a podle Deníku N mu hrozí drtivá porážka, naopak Starostové mohou podle serveru završit úspěšný týden."
+          },
+          {
+            "en": "Deník N has also published an overview of what each side is playing for, why it matters and how it predicts the vote will turn out.",
+            "cs": "Deník N k druhému kolu zveřejnil i přehled toho, o jaké zisky kdo hraje, k čemu je to důležité a jak podle jeho predikce hlasování dopadne."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "runoff",
+            "definition": "a second round of voting between the best candidates from the first round"
+          },
+          {
+            "term": "crushing",
+            "definition": "very big and complete, used about a defeat"
+          },
+          {
+            "term": "cap off",
+            "definition": "to finish something in a good way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:55",
+      "headline": "ANO se v Ostravě dohodlo se Starosty, v Karlových Varech bude vládnout s Karlovaráky a ODS",
+      "body": "Vítězné hnutí ANO se v Ostravě dohodlo na spolupráci se Starosty pro Ostravu a hledá ještě třetího partnera do trojkoalice, oznámili v úterý lídři obou uskupení. Podle Seznam Zpráv Starostové odmítli post primátora i to, aby koalice obcházela vládu, a zároveň se vyhrocují jejich vztahy s uskupením SrdcOVA. Předseda Starostů Vít Rakušan z dohody radost nemá, do jednání ale zasahovat nebude. V Karlových Varech podepsaly ANO, Karlovaráci a ODS memorandum o spolupráci; primátorkou zůstane Andrea Pfeffer Ferklová z ANO a koalice bude mít v 35členném zastupitelstvu osmnáct mandátů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-odmitli-post-primatora-i-obejit-vladu-starostove-se-v-ostrave-spojili-s-ano-317719"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217986/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/karlovarsky-kraj/karlovy-vary-povede-koalice-ano-karlovaraku-a-ods-378514"
+        }
+      ],
+      "en": {
+        "headline": "ANO has agreed with Starostové in Ostrava and will govern Karlovy Vary with Karlovaráci and ODS",
+        "sentences": [
+          {
+            "en": "The winning ANO movement has agreed to cooperate with Starostové pro Ostravu in Ostrava and is still looking for a third partner for a three-way coalition, the leaders of both groups announced on Tuesday.",
+            "cs": "Vítězné hnutí ANO se v Ostravě dohodlo na spolupráci se Starosty pro Ostravu a hledá ještě třetího partnera do trojkoalice, oznámili v úterý lídři obou uskupení."
+          },
+          {
+            "en": "According to Seznam Zprávy, Starostové rejected the post of mayor as well as the idea of bypassing the government, and their relations with the SrdcOVA group are becoming more tense.",
+            "cs": "Podle Seznam Zpráv Starostové odmítli post primátora i to, aby koalice obcházela vládu, a zároveň se vyhrocují jejich vztahy s uskupením SrdcOVA."
+          },
+          {
+            "en": "Starostové leader Vít Rakušan is not pleased with the deal, but he will not intervene in the talks.",
+            "cs": "Předseda Starostů Vít Rakušan z dohody radost nemá, do jednání ale zasahovat nebude."
+          },
+          {
+            "en": "In Karlovy Vary, ANO, Karlovaráci and ODS have signed a memorandum of cooperation; Andrea Pfeffer Ferklová of ANO will remain mayor and the coalition will hold eighteen seats in the 35-member council.",
+            "cs": "V Karlových Varech podepsaly ANO, Karlovaráci a ODS memorandum o spolupráci; primátorkou zůstane Andrea Pfeffer Ferklová z ANO a koalice bude mít v 35členném zastupitelstvu osmnáct mandátů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bypassing",
+            "definition": "going around someone instead of dealing with them"
+          },
+          {
+            "term": "tense",
+            "definition": "full of nervous worry and not relaxed"
+          },
+          {
+            "term": "memorandum",
+            "definition": "a short written record of an agreement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:39",
+      "headline": "Zemědělský fond poslal Evropské komisi podklady k možnému střetu zájmů Babiše",
+      "body": "Státní zemědělský intervenční fond odpověděl na dopis Evropské komise a poskytl požadované informace k potenciálnímu střetu zájmů premiéra Andreje Babiše. V úterý to řekla mluvčí fondu Eva Češpiva. Fond je podle ní přesvědčen, že předložil veškeré relevantní podklady potřebné pro řádné posouzení věci, a bude dál spolupracovat.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/predlozili-jsme-relevantni-informace-zemedelsky-fond-poslal-materialy-k-moznemu_2610131639_mst"
+        }
+      ],
+      "en": {
+        "headline": "The agricultural fund has sent the European Commission documents on Babiš's possible conflict of interest",
+        "sentences": [
+          {
+            "en": "The State Agricultural Intervention Fund has replied to a letter from the European Commission and provided the requested information on a potential conflict of interest of Prime Minister Andrej Babiš.",
+            "cs": "Státní zemědělský intervenční fond odpověděl na dopis Evropské komise a poskytl požadované informace k potenciálnímu střetu zájmů premiéra Andreje Babiše."
+          },
+          {
+            "en": "Fund spokesperson Eva Češpiva said so on Tuesday.",
+            "cs": "V úterý to řekla mluvčí fondu Eva Češpiva."
+          },
+          {
+            "en": "The fund believes it has submitted all the relevant documents needed for a proper assessment of the matter and will continue to cooperate, she said.",
+            "cs": "Fond je podle ní přesvědčen, že předložil veškeré relevantní podklady potřebné pro řádné posouzení věci, a bude dál spolupracovat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conflict of interest",
+            "definition": "a situation where someone's private gain could affect their public duties"
+          },
+          {
+            "term": "submitted",
+            "definition": "formally given to someone for a decision"
+          },
+          {
+            "term": "assessment",
+            "definition": "the act of judging or deciding about something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:17",
+      "headline": "Krajský soud zrušil verdikt v restituční kauze Walderode a žádá přesnější údaje o pozemcích",
+      "body": "Odvolací Krajský soud v Hradci Králové zrušil rozhodnutí Okresního soudu v Semilech v restituční kauze Walderode. Žádá přesnější identifikaci více než tisícovky pozemků, o které usiluje Johanna Kammerlanderová, vdova po Karlovi des Fours Walderode. Z vyjádření krajského soudu vyplynulo, že restituci považuje za důvodnou a tím se už zabývat nebude.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/soud-zrusil-verdikt-v-kauze-walderode-postrada-presnejsi-identifikaci-pozemku-378528"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-soud-kvuli-restitucim-s-rodem-walderode-pokracuje-317732"
+        }
+      ],
+      "en": {
+        "headline": "The regional court has overturned the verdict in the Walderode restitution case and wants more precise details about the land",
+        "sentences": [
+          {
+            "en": "The Regional Court in Hradec Králové, acting as the appeal court, has overturned the ruling of the District Court in Semily in the Walderode restitution case.",
+            "cs": "Odvolací Krajský soud v Hradci Králové zrušil rozhodnutí Okresního soudu v Semilech v restituční kauze Walderode."
+          },
+          {
+            "en": "It is asking for a more precise identification of the more than a thousand plots of land sought by Johanna Kammerlanderová, the widow of Karel des Fours Walderode.",
+            "cs": "Žádá přesnější identifikaci více než tisícovky pozemků, o které usiluje Johanna Kammerlanderová, vdova po Karlovi des Fours Walderode."
+          },
+          {
+            "en": "From the regional court's statement it emerged that it considers the restitution justified and will not return to that question.",
+            "cs": "Z vyjádření krajského soudu vyplynulo, že restituci považuje za důvodnou a tím se už zabývat nebude."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overturned",
+            "definition": "officially decided that an earlier decision was wrong"
+          },
+          {
+            "term": "restitution",
+            "definition": "giving back property that was taken away"
+          },
+          {
+            "term": "plots",
+            "definition": "small pieces of land"
+          },
+          {
+            "term": "justified",
+            "definition": "having a good and fair reason"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "03:15",
+      "headline": "Sněmovna měla v úvodním kole projednat mimořádnou daň na rafinerie",
+      "body": "Poslanci měli během úterní schůze projednat v prvním čtení zavedení mimořádné daně na rafinerie, která by se týkala letošního a příštího roku. Vláda návrh zdůvodňuje růstem marží rafinerií kvůli situaci na světovém trhu s ropou. Letos by daň podle odhadu kabinetu mohla přinést 5,5 miliardy až devět miliard korun. Sněmovna bude moci opět jednat až do noci, což vládní koalice ANO, SPD a Motoristů prosadila až na druhý pokus.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-by-meli-zahajit-jednani-o-zavedeni-mimoradne-dane-na-rafinerie-378520"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies was due to hold a first reading of a special tax on refineries",
+        "sentences": [
+          {
+            "en": "Deputies were due to debate in a first reading at Tuesday's sitting the introduction of a special tax on refineries, which would apply to this year and next.",
+            "cs": "Poslanci měli během úterní schůze projednat v prvním čtení zavedení mimořádné daně na rafinerie, která by se týkala letošního a příštího roku."
+          },
+          {
+            "en": "The government justifies the proposal by the growth in refinery margins caused by the situation on the world oil market.",
+            "cs": "Vláda návrh zdůvodňuje růstem marží rafinerií kvůli situaci na světovém trhu s ropou."
+          },
+          {
+            "en": "This year the tax could bring in between 5.5 billion and nine billion crowns, according to the cabinet's estimate.",
+            "cs": "Letos by daň podle odhadu kabinetu mohla přinést 5,5 miliardy až devět miliard korun."
+          },
+          {
+            "en": "The Chamber will again be able to sit into the night, something the governing coalition of ANO, SPD and Motoristé pushed through only at the second attempt.",
+            "cs": "Sněmovna bude moci opět jednat až do noci, což vládní koalice ANO, SPD a Motoristů prosadila až na druhý pokus."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refineries",
+            "definition": "factories where oil is turned into fuel"
+          },
+          {
+            "term": "margins",
+            "definition": "the difference between what something costs and what it sells for"
+          },
+          {
+            "term": "sitting",
+            "definition": "an official meeting of a parliament or a court"
+          },
+          {
+            "term": "pushed through",
+            "definition": "succeeded in getting something accepted"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:30",
+      "headline": "Šéfka advokátní komory odmítá snížení hranice trestní odpovědnosti na třináct let",
+      "body": "„Selháváme v prevenci, a koalice to chce řešit represí,“ kritizuje předsedkyně advokátní komory Monika Novotná návrh, aby u nejzávažnějších skutků klesla hranice trestní odpovědnosti z patnácti na třináct let. Dětská vězení mají být podle ní až poslední možností.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2204912/detska-vezeni-to-ma-byt-az-posledni-moznost-kritizuje-sefka-advokatni-komory-tejcuv-navrh-trestat-i-trinactilete/"
+        }
+      ],
+      "en": {
+        "headline": "The head of the bar association rejects lowering the age of criminal responsibility to thirteen",
+        "sentences": [
+          {
+            "en": "“We are failing at prevention, and the coalition wants to deal with it through repression,” says Monika Novotná, chair of the bar association, criticising a proposal to lower the age of criminal responsibility from fifteen to thirteen for the most serious offences.",
+            "cs": "„Selháváme v prevenci, a koalice to chce řešit represí,“ kritizuje předsedkyně advokátní komory Monika Novotná návrh, aby u nejzávažnějších skutků klesla hranice trestní odpovědnosti z patnácti na třináct let."
+          },
+          {
+            "en": "Prisons for children should be a last resort, she says.",
+            "cs": "Dětská vězení mají být podle ní až poslední možností."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bar association",
+            "definition": "an official organisation of lawyers"
+          },
+          {
+            "term": "repression",
+            "definition": "controlling people by force"
+          },
+          {
+            "term": "offences",
+            "definition": "actions that break the law"
+          },
+          {
+            "term": "last resort",
+            "definition": "the final choice when nothing else is possible"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:00",
+      "headline": "Škoda Auto omezuje výrobu v Kvasinách i Mladé Boleslavi kvůli chybějícím dílům",
+      "body": "Automobilka Škoda Auto částečně redukuje počet směn a upravuje výrobu, protože jí kvůli výpadku u jednoho z dodavatelů chybějí kabelové svazky. Omezení se týká i modelu Kodiaq, který se vyrábí v Kvasinách.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/skoda-auto-omezeni-vyroby-kvasiny-hradecko-rychnovsko/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Škoda Auto is cutting production in Kvasiny and Mladá Boleslav because of missing parts",
+        "sentences": [
+          {
+            "en": "The carmaker Škoda Auto is partly reducing the number of shifts and adjusting production because it is short of wiring harnesses after an outage at one of its suppliers.",
+            "cs": "Automobilka Škoda Auto částečně redukuje počet směn a upravuje výrobu, protože jí kvůli výpadku u jednoho z dodavatelů chybějí kabelové svazky."
+          },
+          {
+            "en": "The cuts also affect the Kodiaq model, which is made in Kvasiny.",
+            "cs": "Omezení se týká i modelu Kodiaq, který se vyrábí v Kvasinách."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shifts",
+            "definition": "periods of work in a factory, for example day or night"
+          },
+          {
+            "term": "wiring harnesses",
+            "definition": "bundles of electrical cables used inside a car"
+          },
+          {
+            "term": "outage",
+            "definition": "a time when something stops working or is not supplied"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:59",
+      "headline": "V Jičíně vzniká koalice bez ANO, Rychnov nad Kněžnou povede čtveřice uskupení",
+      "body": "V Jičíně skládají velkou koalici Patrioti a JDK, sdružení Aktivní Jičín a hnutí STAN a ODS, ANO tak v čele města končí. Strany už v tomto složení mají většinu, v jednání ale chtějí pokračovat a případně přizvat i ostatní uskupení. Jedenáctitisícový Rychnov nad Kněžnou povede koalice čtyř subjektů s většinou 13 hlasů v 21členném zastupitelstvu: vítězných Nezávislých za Rychnov, druhého uskupení Rychnov plus, pátého uskupení 21 pro město a sedmé Volby pro město. Uvedla to dosavadní místostarostka a jednička kandidátky Nezávislí za Rychnov Dana Spejchalová.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-koalici-v-jicine-maji-patrioti-a-jdk-s-tremi-stranami-ano-v-cele-mesta-konci-317782"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2218220/"
+        }
+      ],
+      "en": {
+        "headline": "A coalition without ANO is taking shape in Jičín, and Rychnov nad Kněžnou will be run by four groups",
+        "sentences": [
+          {
+            "en": "In Jičín, Patrioti and JDK, the Aktivní Jičín association and the STAN and ODS movements are putting together a broad coalition, which means ANO is leaving the city's leadership.",
+            "cs": "V Jičíně skládají velkou koalici Patrioti a JDK, sdružení Aktivní Jičín a hnutí STAN a ODS, ANO tak v čele města končí."
+          },
+          {
+            "en": "The parties already have a majority in this combination, but they want to continue the talks and possibly invite the remaining groups as well.",
+            "cs": "Strany už v tomto složení mají většinu, v jednání ale chtějí pokračovat a případně přizvat i ostatní uskupení."
+          },
+          {
+            "en": "Rychnov nad Kněžnou, a town of eleven thousand, will be run by a coalition of four groups with a majority of 13 votes in the 21-member council: the winning Nezávislí za Rychnov, the second-placed Rychnov plus, the fifth-placed 21 pro město and the seventh-placed Volba pro město.",
+            "cs": "Jedenáctitisícový Rychnov nad Kněžnou povede koalice čtyř subjektů s většinou 13 hlasů v 21členném zastupitelstvu: vítězných Nezávislých za Rychnov, druhého uskupení Rychnov plus, pátého uskupení 21 pro město a sedmé Volby pro město."
+          },
+          {
+            "en": "This was stated by the outgoing deputy mayor and head of the Nezávislí za Rychnov slate, Dana Spejchalová.",
+            "cs": "Uvedla to dosavadní místostarostka a jednička kandidátky Nezávislí za Rychnov Dana Spejchalová."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "taking shape",
+            "definition": "starting to exist in a clear form"
+          },
+          {
+            "term": "slate",
+            "definition": "a list of candidates standing together in an election"
+          },
+          {
+            "term": "outgoing",
+            "definition": "leaving a job or a position"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:32",
+      "headline": "Hradecký Marius Pedersen kupuje francouzská skupina Paprec",
+      "body": "Veškeré aktivity společnosti Marius Pedersen v nakládání s odpady v Česku a na Slovensku kupuje od dánské skupiny Marius Pedersen A/S francouzská společnost Paprec; česká firma sídlí v Hradci Králové. Cenu obchodu firmy nezveřejnily, podle dřívějších odhadů odborníků by podle serveru HN.cz mohla dosahovat zhruba 15 miliard korun. Transakci ještě musí schválit antimonopolní úřady.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/francouzska-paprec-kupuje-od-danu-marius-pedersen-spolecnost-sidli-v-hradci/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/e15-cz/obri-obchod-na-ceskem-trhu-s-odpady-francouzi-kupuji-marius-pedersen-za-miliardy-1436498"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec-based Marius Pedersen is being bought by the French group Paprec",
+        "sentences": [
+          {
+            "en": "All of Marius Pedersen's waste business in the Czech Republic and Slovakia is being bought from the Danish group Marius Pedersen A/S by the French company Paprec; the Czech firm is based in Hradec Králové.",
+            "cs": "Veškeré aktivity společnosti Marius Pedersen v nakládání s odpady v Česku a na Slovensku kupuje od dánské skupiny Marius Pedersen A/S francouzská společnost Paprec; česká firma sídlí v Hradci Králové."
+          },
+          {
+            "en": "The companies did not disclose the price of the deal; according to earlier estimates by experts quoted by the HN.cz website, it could reach roughly 15 billion crowns.",
+            "cs": "Cenu obchodu firmy nezveřejnily, podle dřívějších odhadů odborníků by podle serveru HN.cz mohla dosahovat zhruba 15 miliard korun."
+          },
+          {
+            "en": "The transaction still has to be approved by the antitrust authorities.",
+            "cs": "Transakci ještě musí schválit antimonopolní úřady."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "disclose",
+            "definition": "to make information public"
+          },
+          {
+            "term": "estimates",
+            "definition": "guesses about a number based on what is known"
+          },
+          {
+            "term": "antitrust",
+            "definition": "about laws that stop companies from limiting competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:22",
+      "headline": "Hradečtí basketbalisté porazili Děčín 99:93 po prodloužení",
+      "body": "Basketbalisté BK GAPA Hradec Králové zvládli domácí přestřelku s Děčínem, přestože ve třetí čtvrtině vedli už o 23 bodů a hosté manko smazali. Hlavní postavou zápasu byl srbský rozehrávač Marco Šinik, který při svém debutu nasázel 29 bodů.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/basketbal/hradec-ztratil-naskok-23-bodu-presto-slavi-nova-posila-zarila-proti-decinu/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=basketbal"
+        }
+      ],
+      "en": {
+        "headline": "Hradec basketball players beat Děčín 99:93 in overtime",
+        "sentences": [
+          {
+            "en": "The basketball players of BK GAPA Hradec Králové came through a home shoot-out with Děčín, even though they led by 23 points in the third quarter and the visitors wiped out the gap.",
+            "cs": "Basketbalisté BK GAPA Hradec Králové zvládli domácí přestřelku s Děčínem, přestože ve třetí čtvrtině vedli už o 23 bodů a hosté manko smazali."
+          },
+          {
+            "en": "The main figure of the game was the Serbian point guard Marco Šinik, who scored 29 points on his debut.",
+            "cs": "Hlavní postavou zápasu byl srbský rozehrávač Marco Šinik, který při svém debutu nasázel 29 bodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overtime",
+            "definition": "extra time played when the score is equal at the end"
+          },
+          {
+            "term": "wiped out",
+            "definition": "completely removed"
+          },
+          {
+            "term": "point guard",
+            "definition": "the basketball player who directs the team's attack"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:04",
+      "headline": "Drony u bulharského pobřeží potopily nákladní loď, Sofie předvolala ruskou velvyslankyni",
+      "body": "Bulharsko v úterý ráno oznámilo nový dronový útok na dvě obchodní lodě v Černém moři u svého pobřeží. Jedna z nich se potopila a podle bulharského tisku se pohřešuje jedenáct lidí; druhé plavidlo pluje pod maltskou vlajkou, bylo poškozeno a jeho posádku se podařilo zachránit. Premiér Rumen Radev požádal o asistenci Evropskou unii a Severoatlantickou alianci a nechal povolat ruskou velvyslankyni Eleonoru Mitrofanovovou. „Logika napovídá, že výsledek hraje ve prospěch Ruské federace,“ vysvětlil Radev, proč si Sofie ambasadorku předvolává. Podobný útok zaznamenalo Bulharsko ve své námořní ekonomické zóně i minulý týden.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zasahly-u-pobrezi-bulharska-dve-lode-jedna-se-potopila-oznamil-premier-radev-378524"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-mori-u-bulharska-drony-opet-utocily-na-lode-jednu-potopily-317726"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2217510/ruska-ambasadorka-musela-u-bulharu-na-koberecek-vinit-rusko-z-utoku-v-cernem-mori-je-podle-sofie-logicke/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/drony-znovu-uderily-v-cernem-mori-dalsi-lod-sla-ke-dnu-bulharsko-zada-o-pomoc-nato-1436502"
+        }
+      ],
+      "en": {
+        "headline": "Drones sank a cargo ship off the Bulgarian coast and Sofia summoned the Russian ambassador",
+        "sentences": [
+          {
+            "en": "On Tuesday morning Bulgaria reported a new drone attack on two merchant ships in the Black Sea off its coast.",
+            "cs": "Bulharsko v úterý ráno oznámilo nový dronový útok na dvě obchodní lodě v Černém moři u svého pobřeží."
+          },
+          {
+            "en": "One of them sank and, according to the Bulgarian press, eleven people are missing; the other vessel sails under the Maltese flag, was damaged and its crew was rescued.",
+            "cs": "Jedna z nich se potopila a podle bulharského tisku se pohřešuje jedenáct lidí; druhé plavidlo pluje pod maltskou vlajkou, bylo poškozeno a jeho posádku se podařilo zachránit."
+          },
+          {
+            "en": "Prime Minister Rumen Radev asked the European Union and the North Atlantic Alliance for assistance and had the Russian ambassador Eleonora Mitrofanova summoned.",
+            "cs": "Premiér Rumen Radev požádal o asistenci Evropskou unii a Severoatlantickou alianci a nechal povolat ruskou velvyslankyni Eleonoru Mitrofanovovou."
+          },
+          {
+            "en": "“Logic suggests that the outcome plays into the hands of the Russian Federation,” Radev explained, giving the reason why Sofia is summoning the ambassador.",
+            "cs": "„Logika napovídá, že výsledek hraje ve prospěch Ruské federace,“ vysvětlil Radev, proč si Sofie ambasadorku předvolává."
+          },
+          {
+            "en": "Bulgaria recorded a similar attack in its maritime economic zone last week as well.",
+            "cs": "Podobný útok zaznamenalo Bulharsko ve své námořní ekonomické zóně i minulý týden."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "summoned",
+            "definition": "officially ordered someone to come"
+          },
+          {
+            "term": "merchant ships",
+            "definition": "ships that carry goods for trade"
+          },
+          {
+            "term": "vessel",
+            "definition": "a ship or a large boat"
+          },
+          {
+            "term": "plays into the hands of",
+            "definition": "gives an advantage to someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:47",
+      "headline": "Zelenskyj tvrdí, že spojenci Ukrajinu před raketovým útokem na Kyjev nevarovali",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj v úterý uvedl, že Ukrajina nedostala od partnerů varování před ruským úderem pěti balistických raket na Kyjev, který zasáhl civilní infrastrukturu; neupřesnil, proč varování nepřišlo ani od kterých partnerů je čekal. Krátce předtím podle agentury Reuters ukrajinský ministr zahraničí Andrij Sybiha řekl, že Ukrajina od spojenců zpravodajské informace dál dostává. Po dalších ruských útocích zahynuli v Charkově čtyři lidé, v Rivne zasáhl dron budovu univerzity a je tam 25 zraněných a drony poškodily i nákladní terminál v přístavním Mykolajivu. Ukrajina naopak cílila na ruský Stavropolský kraj, kde podle tamního gubernátora trosky sestřeleného dronu poškodily průmyslovou zónu v Něvinnomyssku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/spojenci-nas-nevarovali-pred-poslednim-utokem-na-kyjev-uvedl-zelenskyj-378562"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-spojenci-nas-nevarovali-pred-utokem-na-kyjev-uvedl-zelenskyj-317754"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-na-ukrajine-opet-zabijeli-v-charkove-je-vice-mrtvych-378536"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217750/"
+        }
+      ],
+      "en": {
+        "headline": "Zelenskyj says allies did not warn Ukraine about the missile attack on Kyiv",
+        "sentences": [
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyj said on Tuesday that Ukraine had received no warning from its partners about a Russian strike by five ballistic missiles on Kyiv that hit civilian infrastructure; he did not specify why the warning did not come or which partners he had expected it from.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj v úterý uvedl, že Ukrajina nedostala od partnerů varování před ruským úderem pěti balistických raket na Kyjev, který zasáhl civilní infrastrukturu; neupřesnil, proč varování nepřišlo ani od kterých partnerů je čekal."
+          },
+          {
+            "en": "Shortly before that, according to the Reuters agency, Ukrainian Foreign Minister Andrij Sybiha said that Ukraine was still receiving intelligence from its allies.",
+            "cs": "Krátce předtím podle agentury Reuters ukrajinský ministr zahraničí Andrij Sybiha řekl, že Ukrajina od spojenců zpravodajské informace dál dostává."
+          },
+          {
+            "en": "After further Russian attacks four people died in Kharkiv, a drone hit a university building in Rivne where 25 people were injured, and drones also damaged a freight terminal in the port city of Mykolaiv.",
+            "cs": "Po dalších ruských útocích zahynuli v Charkově čtyři lidé, v Rivne zasáhl dron budovu univerzity a je tam 25 zraněných a drony poškodily i nákladní terminál v přístavním Mykolajivu."
+          },
+          {
+            "en": "Ukraine, in turn, targeted Russia's Stavropol region, where, according to the local governor, debris from a shot-down drone damaged an industrial zone in Nevinnomyssk.",
+            "cs": "Ukrajina naopak cílila na ruský Stavropolský kraj, kde podle tamního gubernátora trosky sestřeleného dronu poškodily průmyslovou zónu v Něvinnomyssku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that flies high and then falls on its target"
+          },
+          {
+            "term": "intelligence",
+            "definition": "secret information collected about an enemy"
+          },
+          {
+            "term": "freight",
+            "definition": "goods carried by ship, train or plane"
+          },
+          {
+            "term": "debris",
+            "definition": "broken pieces left after something is destroyed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:16",
+      "headline": "Kreml tvrdí, že naftová dohoda s USA nesouvisí s jeho postojem k Ukrajině",
+      "body": "Mluvčí Kremlu Dmitrij Peskov podle agentury TASS uvedl, že dohoda o 300 tisících tunách nafty mezi Ruskem a Spojenými státy nesouvisí s postojem Ruska vůči Ukrajině. „Žádnou přímou souvislost tady nevidím,“ řekl. Podle Peskova Moskva o „mírovém plánu“ Evropské unie a USA pro Ukrajinu nic neví. Americký prezident Donald Trump v pondělí k jím vyhlášenému energetickému příměří řekl, že o dohodu má větší zájem Putin než Zelenskyj.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-dohoda-s-usa-o-nafte-podle-peskova-nesouvisi-s-postojem-ruska-vuci-ukrajine-317750"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217744/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-putin-ma-podle-trumpa-vetsi-zajem-se-dohodnout-nez-zelenskyj-317712"
+        }
+      ],
+      "en": {
+        "headline": "The Kremlin says the diesel deal with the US is unrelated to its stance on Ukraine",
+        "sentences": [
+          {
+            "en": "Kremlin spokesman Dmitrij Peskov said, according to the TASS agency, that the deal on 300,000 tonnes of diesel between Russia and the United States has nothing to do with Russia's stance towards Ukraine.",
+            "cs": "Mluvčí Kremlu Dmitrij Peskov podle agentury TASS uvedl, že dohoda o 300 tisících tunách nafty mezi Ruskem a Spojenými státy nesouvisí s postojem Ruska vůči Ukrajině."
+          },
+          {
+            "en": "“I see no direct link here,” he said.",
+            "cs": "„Žádnou přímou souvislost tady nevidím,“ řekl."
+          },
+          {
+            "en": "According to Peskov, Moscow knows nothing about the “peace plan” of the European Union and the US for Ukraine.",
+            "cs": "Podle Peskova Moskva o „mírovém plánu“ Evropské unie a USA pro Ukrajinu nic neví."
+          },
+          {
+            "en": "On Monday, American President Donald Trump said of the energy ceasefire he had declared that Putin is more interested in a deal than Zelenskyj.",
+            "cs": "Americký prezident Donald Trump v pondělí k jím vyhlášenému energetickému příměří řekl, že o dohodu má větší zájem Putin než Zelenskyj."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stance",
+            "definition": "the opinion someone has about an issue"
+          },
+          {
+            "term": "tonnes",
+            "definition": "units of weight equal to 1,000 kilograms"
+          },
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:10",
+      "headline": "Maďarský parlament zrušil ustanovení namířená proti LGBT+ lidem, unie zemi uvolní zmrazené miliardy",
+      "body": "Maďarští poslanci v úterý odhlasovali zrušení právních ustanovení proti LGBT+ komunitě, pro bylo 139 z nich a 59 hlasovalo proti. Ustanovení byla součástí zákona o ochraně dětí, který v roce 2021 přijala předchozí vláda Viktora Orbána, a zakazovala jakékoli vyobrazení homosexuality a transgenderových lidí v obsahu pro děti. E15 dodává, že vláda zákon zneužívala i k zákazům pochodů hrdosti a že představitelé Evropské unie rozhodnutí maďarského parlamentu uvítali. Státy unie zároveň schválily ukončení mechanismu podmíněnosti vůči Maďarsku a uvolnění 4,2 miliardy eur, které byly zmrazené kvůli obavám o dodržování právního státu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/madarsky-parlament-zrusil-pravni-ustanoveni-namirena-proti-lgbt-378537"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-madarsky-parlament-zrusil-pravni-ustanoveni-namirena-proti-lgbt-317746"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/madarsko-rusi-zakony-namirene-proti-lgbt-vlada-je-zneuzivala-i-k-zakazum-pochodu-1436515"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2218007/"
+        }
+      ],
+      "en": {
+        "headline": "The Hungarian parliament has repealed provisions aimed against LGBT+ people and the EU will release frozen billions",
+        "sentences": [
+          {
+            "en": "Hungarian MPs voted on Tuesday to repeal legal provisions directed against the LGBT+ community, with 139 of them in favour and 59 against.",
+            "cs": "Maďarští poslanci v úterý odhlasovali zrušení právních ustanovení proti LGBT+ komunitě, pro bylo 139 z nich a 59 hlasovalo proti."
+          },
+          {
+            "en": "The provisions were part of a child protection law passed in 2021 by Viktor Orbán's previous government, and they banned any depiction of homosexuality and transgender people in content for children.",
+            "cs": "Ustanovení byla součástí zákona o ochraně dětí, který v roce 2021 přijala předchozí vláda Viktora Orbána, a zakazovala jakékoli vyobrazení homosexuality a transgenderových lidí v obsahu pro děti."
+          },
+          {
+            "en": "E15 adds that the government also misused the law to ban pride marches and that European Union representatives welcomed the Hungarian parliament's decision.",
+            "cs": "E15 dodává, že vláda zákon zneužívala i k zákazům pochodů hrdosti a že představitelé Evropské unie rozhodnutí maďarského parlamentu uvítali."
+          },
+          {
+            "en": "At the same time, EU states approved ending the conditionality mechanism against Hungary and releasing 4.2 billion euros that had been frozen over concerns about the rule of law.",
+            "cs": "Státy unie zároveň schválily ukončení mechanismu podmíněnosti vůči Maďarsku a uvolnění 4,2 miliardy eur, které byly zmrazené kvůli obavám o dodržování právního státu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "repeal",
+            "definition": "to officially end a law"
+          },
+          {
+            "term": "provisions",
+            "definition": "parts of a law or an agreement"
+          },
+          {
+            "term": "depiction",
+            "definition": "showing something in a picture, a film or writing"
+          },
+          {
+            "term": "conditionality",
+            "definition": "the rule that help is given only if certain conditions are met"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:20",
+      "headline": "Epidemie eboly v Kongu překonala devět tisíc případů",
+      "body": "Počet potvrzených případů eboly v Kongu vzrostl na 9066 a zemřelo 4381 nakažených. Vyplývá to z údajů konžského institutu veřejného zdraví zveřejněných v úterý. Nynější epidemie, která byla vyhlášena v polovině května v provincii Ituri, svým rozsahem i počtem obětí přesahuje tu, jež zemi zasáhla v letech 2018 až 2020.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/ebolou-uz-se-v-kongu-nakazilo-pres-9000-lidi-temer-polovina-pacientu-zemrela_2610131620_mst"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2218043/"
+        }
+      ],
+      "en": {
+        "headline": "The Ebola epidemic in Congo has passed nine thousand cases",
+        "sentences": [
+          {
+            "en": "The number of confirmed Ebola cases in Congo has risen to 9,066 and 4,381 infected people have died.",
+            "cs": "Počet potvrzených případů eboly v Kongu vzrostl na 9066 a zemřelo 4381 nakažených."
+          },
+          {
+            "en": "This follows from figures published on Tuesday by the Congolese public health institute.",
+            "cs": "Vyplývá to z údajů konžského institutu veřejného zdraví zveřejněných v úterý."
+          },
+          {
+            "en": "The current epidemic, declared in mid-May in Ituri province, exceeds in scale and in the number of victims the one that hit the country between 2018 and 2020.",
+            "cs": "Nynější epidemie, která byla vyhlášena v polovině května v provincii Ituri, svým rozsahem i počtem obětí přesahuje tu, jež zemi zasáhla v letech 2018 až 2020."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "confirmed",
+            "definition": "proved to be true or certain"
+          },
+          {
+            "term": "infected",
+            "definition": "having a disease inside the body"
+          },
+          {
+            "term": "exceeds",
+            "definition": "is greater than something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:51",
+      "headline": "Papež Lev XIV. podstoupí operaci plicního uzlu",
+      "body": "Papež Lev XIV. odjel do římské Gemelliho nemocnice, kde mu má být odstraněn plicní uzel. Podle listu Washington Post měl být operován ještě v úterý.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217826/"
+        }
+      ],
+      "en": {
+        "headline": "Pope Leo XIV will undergo surgery for a lung nodule",
+        "sentences": [
+          {
+            "en": "Pope Leo XIV has travelled to the Gemelli hospital in Rome, where a lung nodule is to be removed.",
+            "cs": "Papež Lev XIV. odjel do římské Gemelliho nemocnice, kde mu má být odstraněn plicní uzel."
+          },
+          {
+            "en": "According to the Washington Post, he was to be operated on later on Tuesday.",
+            "cs": "Podle listu Washington Post měl být operován ještě v úterý."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "undergo",
+            "definition": "to experience something, especially medical treatment"
+          },
+          {
+            "term": "nodule",
+            "definition": "a small round lump inside the body"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:06",
+      "headline": "Zářijová inflace zrychlila na 2,5 procenta, hlavně kvůli dražším pohonným hmotám",
+      "body": "Meziroční inflace dosáhla v září 2,5 procenta, což je o 0,3 procentního bodu víc, než čekala ve své prognóze Česká národní banka. Důvodem bylo zejména výraznější zdražení pohonných hmot, uvedl v komentáři k vývoji spotřebitelských cen zástupce ředitele sekce měnové ČNB Jakub Matějů; upozornil také, že proti srpnu zrychlila jádrová inflace, která nezahrnuje položky s výrazným kolísáním cen. Podle Seznam Zpráv centrální banka čeká, že na začátku příštího roku může růst cen přechodně přesáhnout tři procenta, a hrozí i vyšší sazby.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/zarijova-inflace-byla-vyssi-nez-se-ocekavalo-duvodem-bylo-hlavne-zdrazeni_2610131406_adn"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-cnb-dostala-spatne-zpravy-inflace-muze-jeste-rust-a-hrozi-i-vyssi-sazby-317749"
+        }
+      ],
+      "en": {
+        "headline": "September inflation accelerated to 2.5 percent, mainly because of more expensive fuel",
+        "sentences": [
+          {
+            "en": "Inflation reached 2.5 percent in September compared with a year earlier, 0.3 of a percentage point more than the Czech National Bank had expected in its forecast.",
+            "cs": "Meziroční inflace dosáhla v září 2,5 procenta, což je o 0,3 procentního bodu víc, než čekala ve své prognóze Česká národní banka."
+          },
+          {
+            "en": "The reason was mainly a sharper rise in fuel prices, said Jakub Matějů, deputy director of the central bank's monetary section, in a commentary on consumer price developments; he also pointed out that core inflation, which excludes items with strongly fluctuating prices, sped up compared with August.",
+            "cs": "Důvodem bylo zejména výraznější zdražení pohonných hmot, uvedl v komentáři k vývoji spotřebitelských cen zástupce ředitele sekce měnové ČNB Jakub Matějů; upozornil také, že proti srpnu zrychlila jádrová inflace, která nezahrnuje položky s výrazným kolísáním cen."
+          },
+          {
+            "en": "According to Seznam Zprávy, the central bank expects that at the start of next year price growth may temporarily exceed three percent, and higher interest rates are a risk as well.",
+            "cs": "Podle Seznam Zpráv centrální banka čeká, že na začátku příštího roku může růst cen přechodně přesáhnout tři procenta, a hrozí i vyšší sazby."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forecast",
+            "definition": "a statement about what will probably happen"
+          },
+          {
+            "term": "core inflation",
+            "definition": "price growth measured without items whose prices change a lot"
+          },
+          {
+            "term": "fluctuating",
+            "definition": "going up and down"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:24",
+      "headline": "Cenové stropy pohonných hmot dál rostou, plyn je nejdražší za čtyři roky",
+      "body": "Maximální prodejní cena nafty se ve středu zvýší o 25 haléřů na 48,61 koruny za litr a benzin budou moct čerpací stanice prodávat nanejvýš za 47,21 koruny, o 36 haléřů dráž. Vyplývá to z cenového věstníku ministerstva financí, stropy nepřetržitě rostou od pátku. Cena plynu v Evropě zároveň přesáhla 86 eur za megawatthodinu a je nejvyšší za čtyři roky. Evropské zásobníky jsou podle E15 plné ze tří čtvrtin, v Německu výrazně méně, a silné a déletrvající mrazy by cenu vyhnaly ještě výrazně výš.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217923/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/plyn-je-nejdrazsi-za-ctyri-roky-se-silnymi-mrazy-muze-cena-vystrelit-az-o-desitky-procent-1436514"
+        }
+      ],
+      "en": {
+        "headline": "Price caps on fuel keep rising and gas is the most expensive in four years",
+        "sentences": [
+          {
+            "en": "The maximum selling price of diesel will go up by 25 hellers on Wednesday to 48.61 crowns per litre, and filling stations will be able to sell petrol for no more than 47.21 crowns, 36 hellers more.",
+            "cs": "Maximální prodejní cena nafty se ve středu zvýší o 25 haléřů na 48,61 koruny za litr a benzin budou moct čerpací stanice prodávat nanejvýš za 47,21 koruny, o 36 haléřů dráž."
+          },
+          {
+            "en": "This follows from the price bulletin of the Ministry of Finance; the caps have been rising continuously since Friday.",
+            "cs": "Vyplývá to z cenového věstníku ministerstva financí, stropy nepřetržitě rostou od pátku."
+          },
+          {
+            "en": "At the same time, the price of gas in Europe has exceeded 86 euros per megawatt hour and is the highest in four years.",
+            "cs": "Cena plynu v Evropě zároveň přesáhla 86 eur za megawatthodinu a je nejvyšší za čtyři roky."
+          },
+          {
+            "en": "European storage sites are three quarters full, and significantly less so in Germany, according to E15, and strong, longer-lasting frosts would push the price considerably higher still.",
+            "cs": "Evropské zásobníky jsou podle E15 plné ze tří čtvrtin, v Německu výrazně méně, a silné a déletrvající mrazy by cenu vyhnaly ještě výrazně výš."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "caps",
+            "definition": "upper limits that cannot be passed"
+          },
+          {
+            "term": "hellers",
+            "definition": "small Czech coins worth one hundredth of a crown"
+          },
+          {
+            "term": "bulletin",
+            "definition": "an official short report"
+          },
+          {
+            "term": "frosts",
+            "definition": "periods of very cold weather below zero"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:36",
+      "headline": "Lucemburský soud zablokoval podíly ČEZ kvůli kauze Diag Human",
+      "body": "Lucemburský soud zablokoval kvůli kauze Diag Human podíly polostátního ČEZ v tamních firmách, přes které energetická skupina vlastní distributora plynu GasNet. ČEZ to oznámil na svém webu a krok lucemburských úřadů označil za nezákonný a šikanózní s tím, že se zmíněnou kauzou neměl nic společného. Česko-švýcarský podnikatel Josef Šťáva se v ní domáhá od státu odškodnění asi 17 miliard korun. ČEZ se bude nařízení bránit u lucemburského soudu a je přesvědčen, že uspěje, řekl premiér Andrej Babiš; aktivit ani zákazníků v Česku se to podle něj nedotkne. Advokát Diag Humanu Kalvoda podle iROZHLASu říká, že o žádnou šikanu nejde a že stát měl dávno jednat. E15 dodává, že část akcionářů se obává zpomalení plánovaného rozdělení ČEZ.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/cez-se-bude-branit-narizeni-k-diag-human-u-lucemburskeho-soudu-uvedl-babis-378540"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cez-dal-chysta-historicke-rozdeleni-do-cesty-se-mu-postavil-35-let-stary-spor-o-miliardy-1436507"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/zadna-sikana-cez-stat-mel-davno-jednat-rika-advokat-diag-humanu-kalvoda-babis_2610131336_jaf"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217699/"
+        }
+      ],
+      "en": {
+        "headline": "A Luxembourg court has frozen ČEZ's shareholdings over the Diag Human case",
+        "sentences": [
+          {
+            "en": "A Luxembourg court has frozen, because of the Diag Human case, the shareholdings of the part-state-owned ČEZ in local companies through which the energy group owns the gas distributor GasNet.",
+            "cs": "Lucemburský soud zablokoval kvůli kauze Diag Human podíly polostátního ČEZ v tamních firmách, přes které energetická skupina vlastní distributora plynu GasNet."
+          },
+          {
+            "en": "ČEZ announced this on its website and called the step by the Luxembourg authorities unlawful and vexatious, saying it had nothing to do with the case in question.",
+            "cs": "ČEZ to oznámil na svém webu a krok lucemburských úřadů označil za nezákonný a šikanózní s tím, že se zmíněnou kauzou neměl nic společného."
+          },
+          {
+            "en": "The Czech-Swiss businessman Josef Šťáva is seeking around 17 billion crowns in compensation from the state in that case.",
+            "cs": "Česko-švýcarský podnikatel Josef Šťáva se v ní domáhá od státu odškodnění asi 17 miliard korun."
+          },
+          {
+            "en": "ČEZ will challenge the order before the Luxembourg court and is convinced it will succeed, Prime Minister Andrej Babiš said; according to him this will not affect its operations or customers in the Czech Republic.",
+            "cs": "ČEZ se bude nařízení bránit u lucemburského soudu a je přesvědčen, že uspěje, řekl premiér Andrej Babiš; aktivit ani zákazníků v Česku se to podle něj nedotkne."
+          },
+          {
+            "en": "Diag Human's lawyer Kalvoda says, according to iROZHLAS, that there is no harassment involved and that the state should have acted long ago.",
+            "cs": "Advokát Diag Humanu Kalvoda podle iROZHLASu říká, že o žádnou šikanu nejde a že stát měl dávno jednat."
+          },
+          {
+            "en": "E15 adds that some shareholders fear a slowdown in the planned break-up of ČEZ.",
+            "cs": "E15 dodává, že část akcionářů se obává zpomalení plánovaného rozdělení ČEZ."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shareholdings",
+            "definition": "parts of a company that someone owns"
+          },
+          {
+            "term": "vexatious",
+            "definition": "done only to annoy or trouble someone"
+          },
+          {
+            "term": "compensation",
+            "definition": "money paid to someone for harm or loss"
+          },
+          {
+            "term": "harassment",
+            "definition": "behaviour that repeatedly troubles or upsets someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:30",
+      "headline": "MMF zhoršil výhled české ekonomiky, letos čeká růst o 1,8 procenta",
+      "body": "Mezinárodní měnový fond zhoršil výhled české ekonomiky na letošní i příští rok. Hrubý domácí produkt se letos podle nové prognózy zvýší o 1,8 procenta a napřesrok o 1,9 procenta, zatímco na jaře fond pro oba roky předpokládal tempo 2,2 procenta; loni česká ekonomika rostla o 2,6 procenta. U světové ekonomiky naopak MMF odhad letošního růstu mírně zlepšil na 3,1 procenta ze tří procent, která předpovídal v červenci, i tak ale globální růst proti loňským 3,5 procenta zpomalí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/mmf-zhorsil-vyhled-ceske-ekonomiky-letosni-rust-odhaduje-na-18-procenta-378522"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/svetova-ekonomika-roste-rychleji-nez-se-cekalo-cesko-dostalo-horsi-prognozu-1436501"
+        }
+      ],
+      "en": {
+        "headline": "The IMF has downgraded its outlook for the Czech economy and expects 1.8 percent growth this year",
+        "sentences": [
+          {
+            "en": "The International Monetary Fund has worsened its outlook for the Czech economy for this year and the next one.",
+            "cs": "Mezinárodní měnový fond zhoršil výhled české ekonomiky na letošní i příští rok."
+          },
+          {
+            "en": "Gross domestic product will rise by 1.8 percent this year and by 1.9 percent next year under the new forecast, while in the spring the fund assumed a pace of 2.2 percent for both years; last year the Czech economy grew by 2.6 percent.",
+            "cs": "Hrubý domácí produkt se letos podle nové prognózy zvýší o 1,8 procenta a napřesrok o 1,9 procenta, zatímco na jaře fond pro oba roky předpokládal tempo 2,2 procenta; loni česká ekonomika rostla o 2,6 procenta."
+          },
+          {
+            "en": "For the world economy, by contrast, the IMF slightly improved its estimate of this year's growth to 3.1 percent from the three percent it had predicted in July, although global growth will still slow from last year's 3.5 percent.",
+            "cs": "U světové ekonomiky naopak MMF odhad letošního růstu mírně zlepšil na 3,1 procenta ze tří procent, která předpovídal v červenci, i tak ale globální růst proti loňským 3,5 procenta zpomalí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outlook",
+            "definition": "what is expected to happen in the future"
+          },
+          {
+            "term": "gross domestic product",
+            "definition": "the total value of the goods and services a country produces"
+          },
+          {
+            "term": "by contrast",
+            "definition": "used to show a difference from what was just said"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:24",
+      "headline": "Character.AI požádala o ochranu před věřiteli podle kapitoly 11",
+      "body": "Společnost Character.AI oznámila na svém blogu, že podala návrh na bankrot podle kapitoly 11 amerického insolvenčního práva. Informoval o tom i server The Verge.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://blog.character.ai/an-update-on-character-ai/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
+        }
+      ],
+      "en": {
+        "headline": "Character.AI has filed for creditor protection under Chapter 11",
+        "sentences": [
+          {
+            "en": "The company Character.AI announced on its blog that it had filed for bankruptcy under Chapter 11 of American insolvency law.",
+            "cs": "Společnost Character.AI oznámila na svém blogu, že podala návrh na bankrot podle kapitoly 11 amerického insolvenčního práva."
+          },
+          {
+            "en": "The Verge website reported on it as well.",
+            "cs": "Informoval o tom i server The Verge."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "creditor",
+            "definition": "a person or a company that is owed money"
+          },
+          {
+            "term": "bankruptcy",
+            "definition": "the state of not being able to pay what you owe"
+          },
+          {
+            "term": "insolvency",
+            "definition": "not having enough money to pay debts"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:12",
+      "headline": "Ahold Delhaize řeší kybernetický incident, problémy hlásí i Albert",
+      "body": "Nadnárodní maloobchodní skupina Ahold Delhaize, která v Česku provozuje síť supermarketů Albert, oznámila kybernetický incident ve své síti. Firma preventivně odpojila část systémů a zahájila šetření, kamenné prodejny zůstávají v provozu.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/ahold-delhaize-resi-kyberneticky-incident-problemy-hlasi-i-albert/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Ahold Delhaize is dealing with a cyber incident and Albert is reporting problems too",
+        "sentences": [
+          {
+            "en": "The multinational retail group Ahold Delhaize, which runs the Albert supermarket chain in the Czech Republic, has reported a cyber incident on its network.",
+            "cs": "Nadnárodní maloobchodní skupina Ahold Delhaize, která v Česku provozuje síť supermarketů Albert, oznámila kybernetický incident ve své síti."
+          },
+          {
+            "en": "The company has preventively disconnected part of its systems and launched an investigation; its physical stores remain open.",
+            "cs": "Firma preventivně odpojila část systémů a zahájila šetření, kamenné prodejny zůstávají v provozu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "retail",
+            "definition": "the business of selling goods to the public"
+          },
+          {
+            "term": "preventively",
+            "definition": "done in order to stop something bad from happening"
+          },
+          {
+            "term": "disconnected",
+            "definition": "cut off from a network or a power supply"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:56",
+      "headline": "Šéfové AI firem podle Axiosu počítají s katastrofickou událostí a hněvem veřejnosti",
+      "body": "Ředitelé společností Anthropic, OpenAI a dalších firem zabývajících se umělou inteligencí podle webu Axios v soukromí zvažují scénáře veřejné a politické vzpoury, k níž by mohlo dojít po katastrofické události spojené s AI; ta se někdy označuje jako AIpokalypsa. Očekávají rozsáhlou událost, pravděpodobně kybernetický útok, který znemožní přístup k finančním službám, k připojení k internetu, nebo dokonce k dodávkám elektřiny a vody.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/veda/lidri-v-oblasti-ai-cekaji-na-aipokalypsu-obavaji-se-hnevu-verejnosti-378527"
+        }
+      ],
+      "en": {
+        "headline": "AI company bosses are bracing for a catastrophic event and public anger, Axios reports",
+        "sentences": [
+          {
+            "en": "The chief executives of Anthropic, OpenAI and other artificial intelligence companies are privately weighing scenarios of a public and political revolt that could follow a catastrophic event linked to AI, according to the Axios website; such an event is sometimes called an AIpocalypse.",
+            "cs": "Ředitelé společností Anthropic, OpenAI a dalších firem zabývajících se umělou inteligencí podle webu Axios v soukromí zvažují scénáře veřejné a politické vzpoury, k níž by mohlo dojít po katastrofické události spojené s AI; ta se někdy označuje jako AIpokalypsa."
+          },
+          {
+            "en": "They expect an event on a huge scale, probably a cyberattack that would block access to financial services, to internet connectivity, or even to supplies of electricity and water.",
+            "cs": "Očekávají rozsáhlou událost, pravděpodobně kybernetický útok, který znemožní přístup k finančním službám, k připojení k internetu, nebo dokonce k dodávkám elektřiny a vody."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bracing",
+            "definition": "getting ready for something unpleasant"
+          },
+          {
+            "term": "weighing",
+            "definition": "thinking carefully about something before deciding"
+          },
+          {
+            "term": "revolt",
+            "definition": "an action taken against people in power"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:34",
+      "headline": "Vozítko Perseverance drží rekord v ujeté vzdálenosti mimo Zemi",
+      "body": "Americké vozítko Perseverance, které od února 2021 zkoumá Mars, urazilo na povrchu rudé planety už 45,2 kilometru a stalo se vozidlem s nejdelší ujetou vzdáleností na jiném vesmírném tělese než na Zemi. Překonalo dosavadní rekord svého předchůdce Opportunity, který po Marsu jezdil v letech 2004 až 2018.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2218168/"
+        }
+      ],
+      "en": {
+        "headline": "The Perseverance rover holds the record for distance driven beyond Earth",
+        "sentences": [
+          {
+            "en": "The American Perseverance rover, which has been exploring Mars since February 2021, has covered 45.2 kilometres on the surface of the red planet and has become the vehicle with the longest distance driven on a celestial body other than Earth.",
+            "cs": "Americké vozítko Perseverance, které od února 2021 zkoumá Mars, urazilo na povrchu rudé planety už 45,2 kilometru a stalo se vozidlem s nejdelší ujetou vzdáleností na jiném vesmírném tělese než na Zemi."
+          },
+          {
+            "en": "It has beaten the previous record of its predecessor Opportunity, which drove on Mars between 2004 and 2018.",
+            "cs": "Překonalo dosavadní rekord svého předchůdce Opportunity, který po Marsu jezdil v letech 2004 až 2018."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rover",
+            "definition": "a vehicle that moves around and explores another planet"
+          },
+          {
+            "term": "celestial body",
+            "definition": "a natural object in space, such as a planet or a moon"
+          },
+          {
+            "term": "predecessor",
+            "definition": "the one that came before"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:13",
+      "headline": "Horníček zavinil penaltu a Newcastle prohrál v Coventry 1:4",
+      "body": "Newcastle s českým brankářem Lukášem Horníčkem utrpěl na hřišti nováčka anglické ligy Coventry debakl 1:4; Horníček zavinil penaltu, z níž v šesté minutě otevřel skóre Jack Rudoni. Britská média mu podle Sport.cz udělila v pozápasovém hodnocení velmi nízké známky, Newcastle se propadl na jedenácté místo tabulky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/newcastle-v-coventry-pohorel-hornicek-zavinil-penaltu-159418"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-hornicek-v-anglii-schytava-kritiku-5554897"
+        }
+      ],
+      "en": {
+        "headline": "Horníček conceded a penalty and Newcastle lost 1:4 at Coventry",
+        "sentences": [
+          {
+            "en": "Newcastle, with Czech goalkeeper Lukáš Horníček, suffered a 1:4 thrashing at the ground of English league newcomers Coventry; Horníček gave away the penalty from which Jack Rudoni opened the scoring in the sixth minute.",
+            "cs": "Newcastle s českým brankářem Lukášem Horníčkem utrpěl na hřišti nováčka anglické ligy Coventry debakl 1:4; Horníček zavinil penaltu, z níž v šesté minutě otevřel skóre Jack Rudoni."
+          },
+          {
+            "en": "British media gave him very low marks in their post-match ratings, according to Sport.cz, and Newcastle dropped to eleventh place in the table.",
+            "cs": "Britská média mu podle Sport.cz udělila v pozápasovém hodnocení velmi nízké známky, Newcastle se propadl na jedenácté místo tabulky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conceded",
+            "definition": "allowed the other team to score"
+          },
+          {
+            "term": "thrashing",
+            "definition": "a very heavy defeat"
+          },
+          {
+            "term": "gave away",
+            "definition": "lost something carelessly"
+          },
+          {
+            "term": "ratings",
+            "definition": "scores showing how well someone did"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:57",
+      "headline": "Fotbalisté Slavie vyhráli i druhý zápas v UEFA Youth League",
+      "body": "Slavia zvítězila v mládežnické obdobě Ligy mistrů i podruhé, na půdě ázerbájdžánského Sabahu vyhrála 3:0 a je na nejlepší cestě do vyřazovací fáze.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-dalsi-parada-slavistickych-mladiku-postup-v-lize-mistru-se-blizi-5554999"
+        }
+      ],
+      "en": {
+        "headline": "Slavia's footballers have won their second match in the UEFA Youth League too",
+        "sentences": [
+          {
+            "en": "Slavia won for the second time in the youth version of the Champions League, beating Sabah of Azerbaijan 3:0 away from home, and are well on course to reach the knockout stage.",
+            "cs": "Slavia zvítězila v mládežnické obdobě Ligy mistrů i podruhé, na půdě ázerbájdžánského Sabahu vyhrála 3:0 a je na nejlepší cestě do vyřazovací fáze."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "knockout stage",
+            "definition": "the part of a competition where the loser goes out"
+          },
+          {
+            "term": "on course",
+            "definition": "likely to achieve something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:41",
+      "headline": "Menšík vypadl v Šanghaji, ve Wu-chanu postoupila Bartůňková a skončila Siniaková",
+      "body": "Jakub Menšík prohrál v osmifinále Masters v Šanghaji s Francouzem Arthurem Géou 6:7 a 4:6 a ve dvouhře už v turnaji nezůstal žádný český zástupce. Ve Wu-chanu naopak postoupila po téměř tříhodinové bitvě do druhého kola dvacetiletá Nikola Bartůňková, která zdolala osmnáctiletou Rakušanku Lilli Taggerovou 7:6, 2:6 a 6:1. Kateřina Siniaková skončila hned v prvním kole, světová deblová jednička podlehla Rusce Ljudmile Samsonovové 1:6, 7:5 a 2:6.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/mensik-na-masters-v-sanghaji-konci-v-osmifinale-159422"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-siniakova-ve-wu-chanu-konci-uz-v-prvnim-kole-5554798"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-ve-wu-chanu-padla-se-samsonovovou-a-ctvrtfinale-nezopakuje-159421"
+        }
+      ],
+      "en": {
+        "headline": "Menšík is out in Shanghai, while Bartůňková advanced in Wuhan and Siniaková went out",
+        "sentences": [
+          {
+            "en": "Jakub Menšík lost in the round of sixteen at the Shanghai Masters to Frenchman Arthur Géa 6:7 and 4:6, leaving no Czech player in the singles draw.",
+            "cs": "Jakub Menšík prohrál v osmifinále Masters v Šanghaji s Francouzem Arthurem Géou 6:7 a 4:6 a ve dvouhře už v turnaji nezůstal žádný český zástupce."
+          },
+          {
+            "en": "In Wuhan, by contrast, twenty-year-old Nikola Bartůňková advanced to the second round after an almost three-hour battle, beating eighteen-year-old Austrian Lilli Tagger 7:6, 2:6 and 6:1.",
+            "cs": "Ve Wu-chanu naopak postoupila po téměř tříhodinové bitvě do druhého kola dvacetiletá Nikola Bartůňková, která zdolala osmnáctiletou Rakušanku Lilli Taggerovou 7:6, 2:6 a 6:1."
+          },
+          {
+            "en": "Kateřina Siniaková went out in the very first round, with the world's number one in doubles losing to Russia's Lyudmila Samsonova 1:6, 7:5 and 2:6.",
+            "cs": "Kateřina Siniaková skončila hned v prvním kole, světová deblová jednička podlehla Rusce Ljudmile Samsonovové 1:6, 7:5 a 2:6."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advanced",
+            "definition": "moved forward to the next round"
+          },
+          {
+            "term": "draw",
+            "definition": "the list showing who plays whom in a tournament"
+          },
+          {
+            "term": "doubles",
+            "definition": "a tennis match with two players on each side"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:16",
+      "headline": "Formule 1 se po více než třiceti letech vrátí do Afriky, pojede se ve Rwandě",
+      "body": "Seriál formule 1 se vrátí na africký kontinent poprvé od roku 1993, závody mistrovství světa bude deset let hostit Rwanda. ČT Sport a Sport.cz uvádějí, že půjde o období po roce 2030 a přesný termín první Velké ceny zatím není znám; Deník N s odvoláním na F1 píše, že první závod se má uskutečnit začátkem příštího roku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/formule-1-se-vraci-do-afriky-zavodit-se-bude-ve-rwande-159424"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-formule-1-potvrzeno-formule-1-se-vrati-do-afriky-5554985"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2217706/"
+        }
+      ],
+      "en": {
+        "headline": "Formula 1 will return to Africa after more than thirty years and will race in Rwanda",
+        "sentences": [
+          {
+            "en": "The Formula 1 series will return to the African continent for the first time since 1993, with Rwanda hosting world championship races for ten years.",
+            "cs": "Seriál formule 1 se vrátí na africký kontinent poprvé od roku 1993, závody mistrovství světa bude deset let hostit Rwanda."
+          },
+          {
+            "en": "ČT Sport and Sport.cz state that this will be the period after 2030 and that the exact date of the first Grand Prix is not yet known; Deník N, citing F1, writes that the first race is due to take place early next year.",
+            "cs": "ČT Sport a Sport.cz uvádějí, že půjde o období po roce 2030 a přesný termín první Velké ceny zatím není znám; Deník N s odvoláním na F1 píše, že první závod se má uskutečnit začátkem příštího roku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hosting",
+            "definition": "organising an event and having it in your country"
+          },
+          {
+            "term": "citing",
+            "definition": "mentioning something as the source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:04",
+      "headline": "Střelkyně Blažíčková získala v Káhiře první medaili ze Světového poháru",
+      "body": "Veronika Blažíčková vybojovala na Světovém poháru v Káhiře stříbro v třípolohové malorážce a na stupně vítězů se v elitním seriálu prosadila poprvé v kariéře.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/strelkyne-blazickova-vybojovala-na-svetovem-poharu-v-kahire-stribro-159426"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-blazickova-vybojovala-v-kahire-zivotni-druhe-misto-5554989"
+        }
+      ],
+      "en": {
+        "headline": "Shooter Blažíčková has won her first World Cup medal in Cairo",
+        "sentences": [
+          {
+            "en": "Veronika Blažíčková won silver in the three-position rifle event at the World Cup in Cairo and reached the podium in the elite series for the first time in her career.",
+            "cs": "Veronika Blažíčková vybojovala na Světovém poháru v Káhiře stříbro v třípolohové malorážce a na stupně vítězů se v elitním seriálu prosadila poprvé v kariéře."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "podium",
+            "definition": "the stand where the best three competitors receive their medals"
+          },
+          {
+            "term": "elite",
+            "definition": "among the very best"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Senate runoff on Friday and Saturday will decide 22 seats, and the governing ANO movement goes into it weakened.",
+    "September inflation accelerated to 2.5 percent, with more expensive fuel contributing the most.",
+    "Drones sank a cargo ship in the Black Sea off the Bulgarian coast and Sofia summoned the Russian ambassador.",
+    "The Hungarian parliament repealed provisions aimed against LGBT+ people and EU states will release the billions of euros frozen for the country."
+  ]
+}
