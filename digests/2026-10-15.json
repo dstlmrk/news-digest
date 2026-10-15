@@ -1,0 +1,1454 @@
+{
+  "date": "2026-10-15",
+  "covers": "2026-10-15",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "iROZHLAS",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra bude mlhavo a beze srážek, přes den až 16 °C. Ráno ale klesne teplota na necelé tři stupně a kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-16",
+        "icon": "fog",
+        "temp_max_c": 15.9,
+        "temp_min_c": 2.9
+      },
+      {
+        "date": "2026-10-17",
+        "icon": "cloudy",
+        "temp_max_c": 14.9,
+        "temp_min_c": 5.2
+      },
+      {
+        "date": "2026-10-18",
+        "icon": "rain",
+        "temp_max_c": 14.0,
+        "temp_min_c": 8.7
+      },
+      {
+        "date": "2026-10-19",
+        "icon": "partly",
+        "temp_max_c": 15.7,
+        "temp_min_c": 6.0
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy and dry, with up to 16 °C during the day. In the morning, though, the temperature will drop to just under three degrees and air quality is expected to be poor."
+  },
+  "highlights": [
+    "Sněmovna v prvním čtení schválila novelu, která omezí přístup do evidence skutečných majitelů firem jen na ty, kdo prokážou oprávněný zájem.",
+    "Izrael oznámil, že do Pásma Gazy už nebude dováženo komerční zboží; humanitární organizace varují před prohloubením potravinové krize před zimou.",
+    "Zelenskyj v rozhovoru pro Financial Times oznámil, že Ukrajina obnoví útoky na ruské rafinerie, a přiletěl na summit Evropské unie do Bruselu.",
+    "Nejvyšší kontrolní úřad podle Seznam Zpráv viní ministerstvo práce ze střetu zájmů bývalé poradkyně Alexandry Semancové a hovoří o porušení rozpočtové kázně."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:43",
+      "headline": "Sněmovna podpořila omezení přístupu do evidence skutečných majitelů firem",
+      "body": "Do evidence skutečných majitelů firem mají mít přístup jen ti, kdo ministerstvu spravedlnosti prokážou oprávněný zájem. Sněmovna novelu podpořila v prvním kole. Evidence vznikla jako nástroj proti praní špinavých peněz a financování terorismu a Seznam Zprávy připomínají, že bývala veřejně přístupná.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220827/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-snemovna-schvalila-omezeny-pristup-do-evidence-skutecnych-majitelu-firem-317954"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies backed limiting access to the register of companies' beneficial owners",
+        "sentences": [
+          {
+            "en": "Only those who prove a legitimate interest to the Ministry of Justice should have access to the register of companies' beneficial owners.",
+            "cs": "Do evidence skutečných majitelů firem mají mít přístup jen ti, kdo ministerstvu spravedlnosti prokážou oprávněný zájem."
+          },
+          {
+            "en": "The Chamber of Deputies backed the amendment in the first round.",
+            "cs": "Sněmovna novelu podpořila v prvním kole."
+          },
+          {
+            "en": "The register was created as a tool against money laundering and the financing of terrorism, and Seznam Zprávy recalls that it used to be publicly accessible.",
+            "cs": "Evidence vznikla jako nástroj proti praní špinavých peněz a financování terorismu a Seznam Zprávy připomínají, že bývala veřejně přístupná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "legitimate",
+            "definition": "allowed by law, or fair and reasonable"
+          },
+          {
+            "term": "amendment",
+            "definition": "a change made to a law or a document"
+          },
+          {
+            "term": "money laundering",
+            "definition": "hiding where illegally earned money came from"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:50",
+      "headline": "NKÚ viní ministerstvo práce ze střetu zájmů bývalé poradkyně Juchelky",
+      "body": "Nejvyšší kontrolní úřad kritizuje ministerstvo práce a sociálních věcí kvůli střetu zájmů bývalé poradkyně Alexandry Semancové, které ministr Aleš Juchelka (ANO) svěřil vliv na miliardové dotace. Návrh protokolu NKÚ podle Seznam Zpráv hovoří o neoprávněně vyplacených milionech a o porušení rozpočtové kázně.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nku-soudi-ze-juchelkova-poradkyne-zpusobila-rozpoctu-naklady-za-desitky-milionu-pisi-seznam-zpravy-378634"
+        }
+      ],
+      "en": {
+        "headline": "The Supreme Audit Office accuses the Labour Ministry over a conflict of interest involving Juchelka's former adviser",
+        "sentences": [
+          {
+            "en": "The Supreme Audit Office is criticising the Ministry of Labour and Social Affairs over a conflict of interest involving former adviser Alexandra Semancová, to whom Minister Aleš Juchelka (ANO) entrusted influence over billions in subsidies.",
+            "cs": "Nejvyšší kontrolní úřad kritizuje ministerstvo práce a sociálních věcí kvůli střetu zájmů bývalé poradkyně Alexandry Semancové, které ministr Aleš Juchelka (ANO) svěřil vliv na miliardové dotace."
+          },
+          {
+            "en": "According to Seznam Zprávy, the draft audit report speaks of millions paid out without entitlement and of a breach of budgetary discipline.",
+            "cs": "Návrh protokolu NKÚ podle Seznam Zpráv hovoří o neoprávněně vyplacených milionech a o porušení rozpočtové kázně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "entrusted",
+            "definition": "gave someone responsibility for something important"
+          },
+          {
+            "term": "subsidies",
+            "definition": "money given by a government to support an activity"
+          },
+          {
+            "term": "breach",
+            "definition": "an act of breaking a rule or a law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:04",
+      "headline": "Pražské STAN a Spolu se shodly na programu, spor zůstává o finance a třetího partnera",
+      "body": "Vyjednávací týmy pražského STAN a Spolu se po druhém kole jednání shodly v otázkách dopravy, školství a bydlení. Neshodly se naopak na tom, kdo získá gesci financí. Druhým sporným bodem je takzvaná trojkolka, tedy přibrání třetí strany do rady města: STAN se v pondělí sejde se zástupci Prahy sobě a Pirátů, Spolu se s nimi scházet nehodlá. Lídr Spolu pro Prahu Tomáš Portlík po čtvrtečním jednání prohlásil, že už mu nedává smysl s Prahou sobě a Piráty dál jednat a že preferuje koalici pouze se STAN; Starostové by podle něj chtěli koalici širší.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/prazske-stan-a-spolu-se-shodly-na-doprave-bydleni-i-skolstvi-378648"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-portlik-po-jednani-se-stan-nevidime-duvod-potkavat-se-s-piraty-a-prahou-sobe-317945"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2220946/obava-z-trojkolky-i-ods-na-financich-svizna-vyjednavani-v-praze-komplikuji-dva-sporne-body/"
+        }
+      ],
+      "en": {
+        "headline": "Prague's STAN and Spolu agree on the programme but still differ over finances and a third partner",
+        "sentences": [
+          {
+            "en": "The negotiating teams of Prague's STAN and Spolu agreed on transport, education and housing after the second round of talks.",
+            "cs": "Vyjednávací týmy pražského STAN a Spolu se po druhém kole jednání shodly v otázkách dopravy, školství a bydlení."
+          },
+          {
+            "en": "They did not agree on who will get the finance portfolio.",
+            "cs": "Neshodly se naopak na tom, kdo získá gesci financí."
+          },
+          {
+            "en": "The second sticking point is the so-called tricycle, that is, bringing a third party into the city council: STAN will meet representatives of Praha sobě and the Pirates on Monday, while Spolu does not intend to meet them.",
+            "cs": "Druhým sporným bodem je takzvaná trojkolka, tedy přibrání třetí strany do rady města: STAN se v pondělí sejde se zástupci Prahy sobě a Pirátů, Spolu se s nimi scházet nehodlá."
+          },
+          {
+            "en": "Tomáš Portlík, the leader of Spolu pro Prahu, said after Thursday's talks that it no longer makes sense to him to keep negotiating with Praha sobě and the Pirates and that he prefers a coalition with STAN alone; the Mayors would, according to him, like a broader coalition.",
+            "cs": "Lídr Spolu pro Prahu Tomáš Portlík po čtvrtečním jednání prohlásil, že už mu nedává smysl s Prahou sobě a Piráty dál jednat a že preferuje koalici pouze se STAN; Starostové by podle něj chtěli koalici širší."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "portfolio",
+            "definition": "the area of work a minister or councillor is responsible for"
+          },
+          {
+            "term": "sticking point",
+            "definition": "a problem that stops people from reaching an agreement"
+          },
+          {
+            "term": "broader",
+            "definition": "including more things or more people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:25",
+      "headline": "Vláda chce zvýšit kvóty pro pracovníky z Filipín a Indie",
+      "body": "Vláda plánuje navýšit kvóty pro nábor zahraničních pracovníků z Filipín, o které mají české firmy velký zájem. V pořadu Sorry jako to řekl ministr průmyslu a obchodu Karel Havlíček (ANO). Společně s ministrem práce a sociálních věcí Alešem Juchelkou (ANO) kvůli tomu plánují začátkem příštího roku pracovní cestu na Filipíny. Navýšení by se podle Havlíčka mělo týkat i pracovníků z Indie.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-zvysi-kvoty-pro-pracovniky-z-filipin-a-indie-uvedl-havlicek-378627"
+        }
+      ],
+      "en": {
+        "headline": "The government wants to raise quotas for workers from the Philippines and India",
+        "sentences": [
+          {
+            "en": "The government plans to raise quotas for recruiting foreign workers from the Philippines, in whom Czech firms are very interested.",
+            "cs": "Vláda plánuje navýšit kvóty pro nábor zahraničních pracovníků z Filipín, o které mají české firmy velký zájem."
+          },
+          {
+            "en": "Minister of Industry and Trade Karel Havlíček (ANO) said so on the programme Sorry jako.",
+            "cs": "V pořadu Sorry jako to řekl ministr průmyslu a obchodu Karel Havlíček (ANO)."
+          },
+          {
+            "en": "Together with Minister of Labour and Social Affairs Aleš Juchelka (ANO) he is planning a working trip to the Philippines early next year because of it.",
+            "cs": "Společně s ministrem práce a sociálních věcí Alešem Juchelkou (ANO) kvůli tomu plánují začátkem příštího roku pracovní cestu na Filipíny."
+          },
+          {
+            "en": "According to Havlíček, the increase should also cover workers from India.",
+            "cs": "Navýšení by se podle Havlíčka mělo týkat i pracovníků z Indie."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "quotas",
+            "definition": "fixed numbers or amounts that are officially allowed"
+          },
+          {
+            "term": "recruiting",
+            "definition": "finding and hiring new people to work somewhere"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:14",
+      "headline": "SPD po volebním debaklu svolá grémium, řešit se může i pozice Okamury",
+      "body": "Volební neúspěch SPD spustil uvnitř hnutí vlnu sebereflexe. „Svoláme politické grémium, kde budou zástupci všech krajů,“ řekl Deníku N místopředseda Radim Fiala. Podle něj se na něm může řešit i pozice předsedy Tomia Okamury.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2220419/ohrozuje-neuspech-spd-okamurovu-pozici-budeme-se-s-cleny-bavit-uplne-o-vsem-rika-mistopredseda-fiala/"
+        }
+      ],
+      "en": {
+        "headline": "SPD will convene a board after its election defeat, and Okamura's position may be discussed",
+        "sentences": [
+          {
+            "en": "SPD's election failure has triggered a wave of soul-searching inside the movement.",
+            "cs": "Volební neúspěch SPD spustil uvnitř hnutí vlnu sebereflexe."
+          },
+          {
+            "en": "“We will convene a political board with representatives from all regions,” deputy chairman Radim Fiala told Deník N.",
+            "cs": "„Svoláme politické grémium, kde budou zástupci všech krajů,“ řekl Deníku N místopředseda Radim Fiala."
+          },
+          {
+            "en": "According to him, the position of chairman Tomio Okamura may also be discussed there.",
+            "cs": "Podle něj se na něm může řešit i pozice předsedy Tomia Okamury."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "convene",
+            "definition": "to bring people together for a meeting"
+          },
+          {
+            "term": "soul-searching",
+            "definition": "careful thinking about your own actions and mistakes"
+          },
+          {
+            "term": "triggered",
+            "definition": "caused something to start happening"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:26",
+      "headline": "Soudy budou řešit výsledky komunálních voleb, první návrh dorazil kvůli Zlínu",
+      "body": "Krajský soud v Brně obdržel návrh na přezkum výsledků komunálních voleb ve Zlíně. Stěžovatel Jiří Cielecký míní, že byl při volbách porušen zákon a že vítězem mělo být hnutí STAN, nikoli ANO, které podle zveřejněných výsledků vyhrálo. Výsledky je možné napadnout od středy. Česká televize ve středu uvedla, že anomálií v součtech hlasů je letos poměrně hodně a že na řadě míst panují pochyby o správném sečtení; jinde podle ní kandidáti hlásí, že jim v některých okrscích komise nezapočítaly žádné hlasy.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220903/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/anomalii-v-souctech-hlasu-je-letos-pomerne-hodne-zjistila-ct-378611"
+        }
+      ],
+      "en": {
+        "headline": "Courts will deal with the municipal election results, the first petition concerns Zlín",
+        "sentences": [
+          {
+            "en": "The Regional Court in Brno has received a petition to review the results of the municipal elections in Zlín.",
+            "cs": "Krajský soud v Brně obdržel návrh na přezkum výsledků komunálních voleb ve Zlíně."
+          },
+          {
+            "en": "The complainant, Jiří Cielecký, argues that the law was broken during the voting and that the winner should have been the STAN movement, not ANO, which won according to the published results.",
+            "cs": "Stěžovatel Jiří Cielecký míní, že byl při volbách porušen zákon a že vítězem mělo být hnutí STAN, nikoli ANO, které podle zveřejněných výsledků vyhrálo."
+          },
+          {
+            "en": "The results can be challenged from Wednesday.",
+            "cs": "Výsledky je možné napadnout od středy."
+          },
+          {
+            "en": "Czech Television said on Wednesday that there are quite a lot of anomalies in the vote counts this year and that in many places there are doubts about whether the counting was correct; elsewhere, it said, candidates report that commissions credited them with no votes at all in some districts.",
+            "cs": "Česká televize ve středu uvedla, že anomálií v součtech hlasů je letos poměrně hodně a že na řadě míst panují pochyby o správném sečtení; jinde podle ní kandidáti hlásí, že jim v některých okrscích komise nezapočítaly žádné hlasy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "petition",
+            "definition": "a formal written request made to a court or an authority"
+          },
+          {
+            "term": "complainant",
+            "definition": "the person who makes an official complaint"
+          },
+          {
+            "term": "challenged",
+            "definition": "officially questioned as being wrong"
+          },
+          {
+            "term": "anomalies",
+            "definition": "things that are different from what is normal or expected"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:50",
+      "headline": "O senátní mandát za Hradec Králové se v druhém kole utkají Dvořák a Ceralová Petrofová",
+      "body": "V senátním obvodu číslo 45 Hradec Králové postoupil do druhého kola z prvního místa Martin Dvořák (STAN) s podporou 25,1 procenta hlasů. Jeho vyzyvatelkou je Zuzana Ceralová Petrofová (ODS), kterou v prvním kole volilo 21,9 procenta voličů. Jejich předvolební debatu zveřejnil iROZHLAS.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/poslechnete-si-senatni-duel-z-obvodu-45-hradec-kralove-martin-dvorak-vs-zuzana_2610151650_jkd"
+        }
+      ],
+      "en": {
+        "headline": "Dvořák and Ceralová Petrofová will meet in the second round for the Hradec Králové Senate seat",
+        "sentences": [
+          {
+            "en": "In Senate district number 45, Hradec Králové, Martin Dvořák (STAN) came first and advanced to the second round with the support of 25.1 percent of the votes.",
+            "cs": "V senátním obvodu číslo 45 Hradec Králové postoupil do druhého kola z prvního místa Martin Dvořák (STAN) s podporou 25,1 procenta hlasů."
+          },
+          {
+            "en": "His challenger is Zuzana Ceralová Petrofová (ODS), who was chosen by 21.9 percent of voters in the first round.",
+            "cs": "Jeho vyzyvatelkou je Zuzana Ceralová Petrofová (ODS), kterou v prvním kole volilo 21,9 procenta voličů."
+          },
+          {
+            "en": "iROZHLAS has published their pre-election debate.",
+            "cs": "Jejich předvolební debatu zveřejnil iROZHLAS."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advanced",
+            "definition": "moved forward to the next stage of a competition"
+          },
+          {
+            "term": "challenger",
+            "definition": "someone who competes against the person currently holding a position"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:39",
+      "headline": "RegioJet uhájil rychlíky z Prahy přes Hradec do Trutnova, námitky Českých drah ministerstvo odmítlo",
+      "body": "Ministerstvo dopravy odmítlo námitky Českých drah proti vítězství RegioJetu v soutěži na provoz linky R10 Praha – Hradec Králové – Trutnov. České dráhy zpochybnily výsledek kvůli ceně, kterou RegioJet nabídl, a ještě se mohou obrátit na Úřad pro ochranu hospodářské soutěže. Žluté vlaky mají linku převzít v prosinci 2028, smlouva ale zatím podepsaná být nemůže. Hradecká drbna dodává, že petici za zachování Českých drah na lince podepsaly téměř tři tisíce lidí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/903113-rychliky-pres-hradec-maji-prevzit-zlute-vlaky-ceske-drahy-s-namitkami-neuspely.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/regiojet-ceske-drahy-rychlik-trutnov-hradec-kralove-praha-namitky/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "RegioJet keeps the fast trains from Prague through Hradec to Trutnov as the ministry dismisses the Czech Railways objections",
+        "sentences": [
+          {
+            "en": "The Ministry of Transport dismissed the objections of Czech Railways against RegioJet's victory in the tender to operate the R10 Prague – Hradec Králové – Trutnov line.",
+            "cs": "Ministerstvo dopravy odmítlo námitky Českých drah proti vítězství RegioJetu v soutěži na provoz linky R10 Praha – Hradec Králové – Trutnov."
+          },
+          {
+            "en": "Czech Railways questioned the result over the price RegioJet offered, and they can still turn to the Office for the Protection of Competition.",
+            "cs": "České dráhy zpochybnily výsledek kvůli ceně, kterou RegioJet nabídl, a ještě se mohou obrátit na Úřad pro ochranu hospodářské soutěže."
+          },
+          {
+            "en": "The yellow trains are due to take over the line in December 2028, but the contract cannot be signed yet.",
+            "cs": "Žluté vlaky mají linku převzít v prosinci 2028, smlouva ale zatím podepsaná být nemůže."
+          },
+          {
+            "en": "Hradecká drbna adds that nearly three thousand people have signed a petition to keep Czech Railways on the line.",
+            "cs": "Hradecká drbna dodává, že petici za zachování Českých drah na lince podepsaly téměř tři tisíce lidí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dismissed",
+            "definition": "officially refused to accept something"
+          },
+          {
+            "term": "objections",
+            "definition": "reasons given for being against something"
+          },
+          {
+            "term": "tender",
+            "definition": "an official process in which companies offer to do a job for a price"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:21",
+      "headline": "Starostkou Rychnova nad Kněžnou bude Jana Drejslová, koalice přibírá TOP 09",
+      "body": "Rychnov nad Kněžnou po volbách povede dosavadní koalice doplněná o uskupení 21 pro město, které tvoří nestraníci a TOP 09. V čele radnice stane dosavadní první místostarostka Jana Drejslová (Rychnov PLUS). Na její pozici se posune druhá místostarostka Dana Spejchalová (Nezávislí za Rychnov) a uvolněné místo obsadí lídr 21 pro město Oldřich Bittner (TOP 09).",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/komunalni-volby-2026-rychnov-nad-kneznou-starostka-jana-drejslova-koalice.A261015_124643_hradec-volby_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Jana Drejslová will be mayor of Rychnov nad Kněžnou and the coalition is adding TOP 09",
+        "sentences": [
+          {
+            "en": "After the elections, Rychnov nad Kněžnou will be run by the existing coalition supplemented by the 21 pro město grouping, which is made up of non-party figures and TOP 09.",
+            "cs": "Rychnov nad Kněžnou po volbách povede dosavadní koalice doplněná o uskupení 21 pro město, které tvoří nestraníci a TOP 09."
+          },
+          {
+            "en": "The current first deputy mayor Jana Drejslová (Rychnov PLUS) will head the town hall.",
+            "cs": "V čele radnice stane dosavadní první místostarostka Jana Drejslová (Rychnov PLUS)."
+          },
+          {
+            "en": "The second deputy mayor Dana Spejchalová (Nezávislí za Rychnov) will move up to that post, and the vacated seat will be taken by the leader of 21 pro město, Oldřich Bittner (TOP 09).",
+            "cs": "Na její pozici se posune druhá místostarostka Dana Spejchalová (Nezávislí za Rychnov) a uvolněné místo obsadí lídr 21 pro město Oldřich Bittner (TOP 09)."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "supplemented",
+            "definition": "added to in order to make something complete"
+          },
+          {
+            "term": "grouping",
+            "definition": "a set of people or parties joined together"
+          },
+          {
+            "term": "vacated",
+            "definition": "left empty after someone moved away from it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:02",
+      "headline": "Izrael zastavil dovoz komerčního zboží do Pásma Gazy",
+      "body": "Izrael oznámil, že do Pásma Gazy již nebude dováženo komerční zboží. S odvoláním na středeční prohlášení úřadu izraelského ministerstva obrany pro palestinské civilní záležitosti COGAT o tom ve čtvrtek napsala agentura AP. Hladem ohrožení Palestinci tak před přicházející zimou ztrácejí klíčový zdroj dodávek potravin a materiálů potřebných pro provizorní přístřešky v oblasti zničené válkou. E15 dodává, že izraelské úřady a palestinští obchodníci se přou o to, kdo za pozastavením dodávek stojí, a že humanitární organizace varují před nedostatkem zboží a růstem cen, které mohou potravinovou krizi před zimou prohloubit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/izrael-oznamil-pozastaveni-dodavek-komercniho-zbozi-do-gazy-378661"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-konec-komercniho-zbozi-v-gaze-izrael-zarazil-import-potravin-317974"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/izrael-zastavuje-komercni-dodavky-do-gazy-dva-miliony-lidi-celi-pred-zimou-dalsi-hrozbe-1436585"
+        }
+      ],
+      "en": {
+        "headline": "Israel has stopped commercial goods from entering the Gaza Strip",
+        "sentences": [
+          {
+            "en": "Israel announced that commercial goods will no longer be imported into the Gaza Strip.",
+            "cs": "Izrael oznámil, že do Pásma Gazy již nebude dováženo komerční zboží."
+          },
+          {
+            "en": "The AP news agency wrote this on Thursday, citing a Wednesday statement by COGAT, the Israeli Defence Ministry body for Palestinian civilian affairs.",
+            "cs": "S odvoláním na středeční prohlášení úřadu izraelského ministerstva obrany pro palestinské civilní záležitosti COGAT o tom ve čtvrtek napsala agentura AP."
+          },
+          {
+            "en": "Palestinians at risk of hunger are thus losing a key source of food and of the materials needed for makeshift shelters in an area destroyed by war, just before the coming winter.",
+            "cs": "Hladem ohrožení Palestinci tak před přicházející zimou ztrácejí klíčový zdroj dodávek potravin a materiálů potřebných pro provizorní přístřešky v oblasti zničené válkou."
+          },
+          {
+            "en": "E15 adds that the Israeli authorities and Palestinian traders are arguing over who is behind the suspension of the deliveries, and that humanitarian organisations warn of shortages of goods and of rising prices, which could deepen the food crisis before winter.",
+            "cs": "E15 dodává, že izraelské úřady a palestinští obchodníci se přou o to, kdo za pozastavením dodávek stojí, a že humanitární organizace varují před nedostatkem zboží a růstem cen, které mohou potravinovou krizi před zimou prohloubit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "makeshift",
+            "definition": "made quickly from whatever is available, as something temporary"
+          },
+          {
+            "term": "shelters",
+            "definition": "places that protect people from the weather or from danger"
+          },
+          {
+            "term": "suspension",
+            "definition": "the stopping of something for a period of time"
+          },
+          {
+            "term": "shortages",
+            "definition": "situations in which there is not enough of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:20",
+      "headline": "Summit Evropské unie jedná o rozpočtu a drahých energiích, Babiš chce další změny emisních povolenek",
+      "body": "V Bruselu začal ve čtvrtek summit Evropské unie. Klíčovým tématem jednání premiérů a prezidentů je návrh víceletého rozpočtu na roky 2028 až 2034, jehož upravenou podobu představilo irské předsednictví. Premiér Andrej Babiš (ANO) před začátkem uvedl, že návrhy Evropské komise na nové vlastní zdroje rozpočtu jsou pro Česko naprosto nepřijatelné. Jednat se má také o vysokých cenách energií; Babiš už dříve uvedl, že bude prosazovat další změny systému emisních povolenek ETS, v čemž ho podle ČT24 podporují mimo jiné Itálie a Polsko. „Od současného summitu bych dohodu neočekával,“ řekl Radiožurnálu výzkumný spolupracovník Filip Křenek. Babiš v Bruselu také zopakoval, že není ve střetu zájmů v souvislosti se společností Agrofert; podle něj jde o nesmysl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/navrh-rozpoctu-evropske-unie-je-pod-vahou-kritiky-shoda-na-summitu-je_2610151620_brz"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/navrhy-na-nove-zdroje-unijniho-rozpoctu-jsou-neprijatelne-rekl-babis-378622"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220722/"
+        }
+      ],
+      "en": {
+        "headline": "The European Union summit is discussing the budget and expensive energy, and Babiš wants further changes to emission allowances",
+        "sentences": [
+          {
+            "en": "The European Union summit began in Brussels on Thursday.",
+            "cs": "V Bruselu začal ve čtvrtek summit Evropské unie."
+          },
+          {
+            "en": "The key topic for the prime ministers and presidents is the proposal for the multiannual budget for 2028 to 2034, whose revised form was presented by the Irish presidency.",
+            "cs": "Klíčovým tématem jednání premiérů a prezidentů je návrh víceletého rozpočtu na roky 2028 až 2034, jehož upravenou podobu představilo irské předsednictví."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) said before it started that the European Commission's proposals for new own resources for the budget are absolutely unacceptable for Czechia.",
+            "cs": "Premiér Andrej Babiš (ANO) před začátkem uvedl, že návrhy Evropské komise na nové vlastní zdroje rozpočtu jsou pro Česko naprosto nepřijatelné."
+          },
+          {
+            "en": "Energy prices are also on the agenda; Babiš has said before that he will push for further changes to the ETS system of emission allowances, and according to ČT24 he is supported in this by Italy and Poland, among others.",
+            "cs": "Jednat se má také o vysokých cenách energií; Babiš už dříve uvedl, že bude prosazovat další změny systému emisních povolenek ETS, v čemž ho podle ČT24 podporují mimo jiné Itálie a Polsko."
+          },
+          {
+            "en": "“I would not expect an agreement from this summit,” research associate Filip Křenek told Radiožurnál.",
+            "cs": "„Od současného summitu bych dohodu neočekával,“ řekl Radiožurnálu výzkumný spolupracovník Filip Křenek."
+          },
+          {
+            "en": "In Brussels, Babiš also repeated that he is not in a conflict of interest in connection with the Agrofert company; in his view the claim is nonsense.",
+            "cs": "Babiš v Bruselu také zopakoval, že není ve střetu zájmů v souvislosti se společností Agrofert; podle něj jde o nesmysl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "multiannual",
+            "definition": "covering a period of several years"
+          },
+          {
+            "term": "allowances",
+            "definition": "permitted amounts, here of pollution a company may produce"
+          },
+          {
+            "term": "agenda",
+            "definition": "the list of things to be discussed at a meeting"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:44",
+      "headline": "Zelenskyj oznámil obnovení útoků na ruské rafinerie, Ukrajina zasáhla šest bombardérů",
+      "body": "Ukrajina začne znovu útočit na rafinerie v Rusku, uvedl ukrajinský prezident Volodymyr Zelenskyj v rozhovoru, který ve čtvrtek ráno zveřejnil deník Financial Times. Kyjev tyto údery na několik dnů přerušil kvůli energetickému příměří, které v neděli ohlásil americký prezident Donald Trump; Ukrajina přitom poukazovala na to, že Rusko i nadále útočilo na její energetickou infrastrukturu. V noci na čtvrtek Ukrajina zaútočila na vojenské letiště Borisoglebsk ve Voroněžské oblasti a zasáhla šest bombardérů Suchoj Su-34M, oznámilo ukrajinské námořnictvo. Podle Deníku N k útoku nebyly použity drony, ale pobřežní protilodní raketový systém Neptun a satelitní snímky ukazují, že čtyři letadla byla zničena hned po úderu a dvě poté shořela. Po útoku ukrajinských dronů vypukl také požár v rafinerii v Rjazaňské oblasti. Ruská armáda v noci podle ukrajinských úřadů zabila několik civilistů v Kirovohradské a Dněpropetrovské oblasti. Zelenskyj ve čtvrtek přiletěl do Bruselu na summit Evropské unie, kde má jednat mimo jiné s generálním tajemníkem NATO Ruttem a francouzským prezidentem Macronem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-zacne-znovu-utocit-na-rafinerie-v-rusku-oznamil-zelenskyj-378618"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2221044/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-hlasi-zasah-ruskych-bombarderu-moskva-zabila-nekolik-civilistu-378642"
+        }
+      ],
+      "en": {
+        "headline": "Zelenskyj announced a return to strikes on Russian refineries, and Ukraine hit six bombers",
+        "sentences": [
+          {
+            "en": "Ukraine will start attacking refineries in Russia again, Ukrainian President Volodymyr Zelenskyj said in an interview published on Thursday morning by the Financial Times.",
+            "cs": "Ukrajina začne znovu útočit na rafinerie v Rusku, uvedl ukrajinský prezident Volodymyr Zelenskyj v rozhovoru, který ve čtvrtek ráno zveřejnil deník Financial Times."
+          },
+          {
+            "en": "Kyiv had paused these strikes for several days because of the energy truce announced on Sunday by US President Donald Trump; Ukraine pointed out, however, that Russia kept attacking its energy infrastructure.",
+            "cs": "Kyjev tyto údery na několik dnů přerušil kvůli energetickému příměří, které v neděli ohlásil americký prezident Donald Trump; Ukrajina přitom poukazovala na to, že Rusko i nadále útočilo na její energetickou infrastrukturu."
+          },
+          {
+            "en": "Overnight into Thursday, Ukraine attacked the Borisoglebsk military airfield in the Voronezh region and hit six Sukhoi Su-34M bombers, the Ukrainian navy announced.",
+            "cs": "V noci na čtvrtek Ukrajina zaútočila na vojenské letiště Borisoglebsk ve Voroněžské oblasti a zasáhla šest bombardérů Suchoj Su-34M, oznámilo ukrajinské námořnictvo."
+          },
+          {
+            "en": "According to Deník N, drones were not used in the attack but a Neptun coastal anti-ship missile system, and satellite images show that four aircraft were destroyed right after the strike and two burned down afterwards.",
+            "cs": "Podle Deníku N k útoku nebyly použity drony, ale pobřežní protilodní raketový systém Neptun a satelitní snímky ukazují, že čtyři letadla byla zničena hned po úderu a dvě poté shořela."
+          },
+          {
+            "en": "A fire also broke out at a refinery in Russia's Ryazan region after an attack by Ukrainian drones.",
+            "cs": "Po útoku ukrajinských dronů vypukl také požár v rafinerii v Rjazaňské oblasti."
+          },
+          {
+            "en": "During the night the Russian army killed several civilians in the Kirovohrad and Dnipropetrovsk regions, Ukrainian authorities said.",
+            "cs": "Ruská armáda v noci podle ukrajinských úřadů zabila několik civilistů v Kirovohradské a Dněpropetrovské oblasti."
+          },
+          {
+            "en": "On Thursday Zelenskyj flew to Brussels for the European Union summit, where he is due to meet NATO Secretary General Rutte and French President Macron, among others.",
+            "cs": "Zelenskyj ve čtvrtek přiletěl do Bruselu na summit Evropské unie, kde má jednat mimo jiné s generálním tajemníkem NATO Ruttem a francouzským prezidentem Macronem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          },
+          {
+            "term": "truce",
+            "definition": "an agreement to stop fighting for a period of time"
+          },
+          {
+            "term": "broke out",
+            "definition": "started suddenly, as of a fire or a war"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:26",
+      "headline": "Družicový systém Starshield na Ukrajině opět funguje",
+      "body": "Družicový systém Starshield, který podporuje ukrajinskou armádu, je znovu plně funkční. Vyplývá to ze zpráv agentury Reuters a serveru RBK-Ukrajina, odvolávajících se na zdroje z ukrajinského ministerstva obrany. „V tuto chvíli je služba obnovena a zůstává funkční. Potvrdili jsme to na základě hlášení od našich jednotek,“ řekl Kyiv Independentu anonymní zdroj z resortu. Poradce ukrajinského prezidenta Serhij Beskrestnov o den dříve uvedl, že SpaceX omezila některé služby Starlinku, konkrétně právě Starshield, což podle něj omezilo bojové operace, protože armáda o omezení dopředu nevěděla. Elon Musk uvedl, že systém Starshield vlastní a kontroluje vláda Spojených států, a na své síti X napsal, že za omezením může být administrativa Donalda Trumpa; o provozu systému rozhoduje velení amerických ozbrojených sil.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/system-starshield-na-ukrajine-opet-plne-funguje-pisi-media-378653"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220639/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/docekal-musk-stoji-omezenim-starshieldu-na-trumpove-strane-je-otazka-kde-bude-za_2610151526_raf"
+        }
+      ],
+      "en": {
+        "headline": "The Starshield satellite system is working again in Ukraine",
+        "sentences": [
+          {
+            "en": "The Starshield satellite system, which supports the Ukrainian army, is fully working again.",
+            "cs": "Družicový systém Starshield, který podporuje ukrajinskou armádu, je znovu plně funkční."
+          },
+          {
+            "en": "This follows from reports by the Reuters agency and the RBK-Ukrajina website, which cite sources at the Ukrainian Ministry of Defence.",
+            "cs": "Vyplývá to ze zpráv agentury Reuters a serveru RBK-Ukrajina, odvolávajících se na zdroje z ukrajinského ministerstva obrany."
+          },
+          {
+            "en": "“The service has been restored at this moment and remains functional. We confirmed it on the basis of reports from our units,” an anonymous source at the ministry told Kyiv Independent.",
+            "cs": "„V tuto chvíli je služba obnovena a zůstává funkční. Potvrdili jsme to na základě hlášení od našich jednotek,“ řekl Kyiv Independentu anonymní zdroj z resortu."
+          },
+          {
+            "en": "A day earlier the Ukrainian president's adviser Serhij Beskrestnov said that SpaceX had limited some Starlink services, specifically Starshield, which in his view restricted combat operations because the army had not known about the limitation in advance.",
+            "cs": "Poradce ukrajinského prezidenta Serhij Beskrestnov o den dříve uvedl, že SpaceX omezila některé služby Starlinku, konkrétně právě Starshield, což podle něj omezilo bojové operace, protože armáda o omezení dopředu nevěděla."
+          },
+          {
+            "en": "Elon Musk said that the Starshield system is owned and controlled by the United States government, and wrote on his X network that Donald Trump's administration may be behind the limitation; the running of the system is decided by the US armed forces command.",
+            "cs": "Elon Musk uvedl, že systém Starshield vlastní a kontroluje vláda Spojených států, a na své síti X napsal, že za omezením může být administrativa Donalda Trumpa; o provozu systému rozhoduje velení amerických ozbrojených sil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "restored",
+            "definition": "brought back to the state it was in before"
+          },
+          {
+            "term": "restricted",
+            "definition": "limited what someone is able to do"
+          },
+          {
+            "term": "in advance",
+            "definition": "before something happens"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:05",
+      "headline": "Spojené státy podle CNN zvažují v Íránu použití „matky všech bomb“",
+      "body": "Ozbrojené síly USA vypracovaly nové plány úderů na Írán, které zahrnují možné použití jejich nejsilnější nejaderné bomby GBU-43/B přezdívané „matka všech bomb“. S odvoláním na informované zdroje to ve čtvrtek napsal web stanice CNN. Plány jsou připravené pro případné rozhodnutí prezidenta Donalda Trumpa obnovit vojenské operace před listopadovými volbami do Kongresu, nebo po nich, a mezi cíli jsou jaderná zařízení a energetická infrastruktura. Podle Seznam Zpráv panují pochyby, zda bomba dokáže zničit cíle hluboko v podzemí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/spojene-staty-zvazuji-v-iranu-pouziti-matky-vsech-bomb-pise-cnn-378655"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-cnn-spojene-staty-zvazuji-v-iranu-pouzit-matku-vsech-bomb-317940"
+        }
+      ],
+      "en": {
+        "headline": "The United States is considering using the “mother of all bombs” in Iran, CNN writes",
+        "sentences": [
+          {
+            "en": "The US armed forces have drawn up new plans for strikes on Iran that include the possible use of their most powerful non-nuclear bomb, the GBU-43/B, nicknamed the “mother of all bombs”.",
+            "cs": "Ozbrojené síly USA vypracovaly nové plány úderů na Írán, které zahrnují možné použití jejich nejsilnější nejaderné bomby GBU-43/B přezdívané „matka všech bomb“."
+          },
+          {
+            "en": "The website of the CNN channel wrote this on Thursday, citing informed sources.",
+            "cs": "S odvoláním na informované zdroje to ve čtvrtek napsal web stanice CNN."
+          },
+          {
+            "en": "The plans are ready for a possible decision by President Donald Trump to resume military operations before or after November's congressional elections, and the targets include nuclear facilities and energy infrastructure.",
+            "cs": "Plány jsou připravené pro případné rozhodnutí prezidenta Donalda Trumpa obnovit vojenské operace před listopadovými volbami do Kongresu, nebo po nich, a mezi cíli jsou jaderná zařízení a energetická infrastruktura."
+          },
+          {
+            "en": "According to Seznam Zprávy, there are doubts about whether the bomb can destroy targets deep underground.",
+            "cs": "Podle Seznam Zpráv panují pochyby, zda bomba dokáže zničit cíle hluboko v podzemí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drawn up",
+            "definition": "prepared or written, as of a plan or a document"
+          },
+          {
+            "term": "resume",
+            "definition": "to start something again after a pause"
+          },
+          {
+            "term": "facilities",
+            "definition": "buildings or equipment built for a particular purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:32",
+      "headline": "Fico chystá jednání s ruskou vládou o spolupráci v energetice, sportu i životním prostředí",
+      "body": "Slovenský premiér Robert Fico ve středu za svou vládu oznámil, že pětadvacátého se sejde společná hospodářská komise s Ruskou federací. Země si už vyměnily vojenské atašé a chtějí jednat o spolupráci v energetice, sportu i životním prostředí; v Bratislavě může vzniknout ruské centrum pro vědu a kulturu. Bruselský web Politico se v den začátku summitu Evropské unie podíval na Ficovo působení a popsal ho jako nejvýraznějšího spojence Kremlu v Unii. Podle Seznam Zpráv Fico zároveň stále hlasitěji zpochybňuje NATO a mluví o neutralitě Slovenska.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220662/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovensko-mimo-nato-fico-dela-radost-putinovi-317852"
+        }
+      ],
+      "en": {
+        "headline": "Fico is preparing talks with the Russian government on cooperation in energy, sport and the environment",
+        "sentences": [
+          {
+            "en": "Slovak Prime Minister Robert Fico announced on Wednesday on behalf of his government that a joint economic commission with the Russian Federation will meet on the twenty-fifth.",
+            "cs": "Slovenský premiér Robert Fico ve středu za svou vládu oznámil, že pětadvacátého se sejde společná hospodářská komise s Ruskou federací."
+          },
+          {
+            "en": "The two countries have already exchanged military attachés and want to discuss cooperation in energy, sport and the environment; a Russian centre for science and culture may be built in Bratislava.",
+            "cs": "Země si už vyměnily vojenské atašé a chtějí jednat o spolupráci v energetice, sportu i životním prostředí; v Bratislavě může vzniknout ruské centrum pro vědu a kulturu."
+          },
+          {
+            "en": "On the day the European Union summit opened, the Brussels website Politico looked at Fico's record and described him as the Kremlin's most prominent ally in the Union.",
+            "cs": "Bruselský web Politico se v den začátku summitu Evropské unie podíval na Ficovo působení a popsal ho jako nejvýraznějšího spojence Kremlu v Unii."
+          },
+          {
+            "en": "According to Seznam Zprávy, Fico is at the same time questioning NATO ever more loudly and talking about Slovak neutrality.",
+            "cs": "Podle Seznam Zpráv Fico zároveň stále hlasitěji zpochybňuje NATO a mluví o neutralitě Slovenska."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "attachés",
+            "definition": "officials attached to an embassy to cover a special field"
+          },
+          {
+            "term": "prominent",
+            "definition": "important and well known"
+          },
+          {
+            "term": "neutrality",
+            "definition": "not supporting any side in a conflict"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:00",
+      "headline": "Zřícení střechy školy v Pákistánu zabilo nejméně 27 žáků a učitele",
+      "body": "Nejméně dvacet sedm žáků, většina z nich mladší třinácti let, a jeden učitel přišli ve čtvrtek o život, když se zřítila střecha školy v Péšávaru na severozápadě Pákistánu. Informovaly o tom agentury Reuters a AP s odvoláním na mluvčího nemocnice, která podle něj přijala také více než desítku zraněných. Podle agentury AFP bylo šest osob hospitalizováno v kritickém stavu.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nejmene-27-zaku-a-ucitel-zahynuli-po-zriceni-strechy-skoly-v-pakistanu-378624"
+        }
+      ],
+      "en": {
+        "headline": "A school roof collapse in Pakistan killed at least 27 pupils and a teacher",
+        "sentences": [
+          {
+            "en": "At least twenty-seven pupils, most of them under thirteen, and one teacher lost their lives on Thursday when the roof of a school collapsed in Peshawar in north-west Pakistan.",
+            "cs": "Nejméně dvacet sedm žáků, většina z nich mladší třinácti let, a jeden učitel přišli ve čtvrtek o život, když se zřítila střecha školy v Péšávaru na severozápadě Pákistánu."
+          },
+          {
+            "en": "The Reuters and AP agencies reported this, citing a hospital spokesperson who said the hospital had also taken in more than a dozen injured people.",
+            "cs": "Informovaly o tom agentury Reuters a AP s odvoláním na mluvčího nemocnice, která podle něj přijala také více než desítku zraněných."
+          },
+          {
+            "en": "According to the AFP agency, six people were hospitalised in a critical condition.",
+            "cs": "Podle agentury AFP bylo šest osob hospitalizováno v kritickém stavu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "collapsed",
+            "definition": "fell down suddenly"
+          },
+          {
+            "term": "spokesperson",
+            "definition": "a person who speaks officially for an organisation"
+          },
+          {
+            "term": "hospitalised",
+            "definition": "taken into hospital for treatment"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:05",
+      "headline": "Rusko podle Kremlu obnovilo vývoz nafty na světové trhy",
+      "body": "Ruská nafta začala v návaznosti na dohodu s americkým prezidentem Donaldem Trumpem proudit na světové trhy. Podle agentury Reuters to ve čtvrtek řekl mluvčí Kremlu Dmitrij Peskov; naloženo bylo asi 40 tisíc tun. Trump minulý týden po rozhovoru s Vladimirem Putinem překvapivě oznámil, že Rusko okamžitě dodá na americký a světový trh přes 300 tisíc tun nafty a v dalších měsících mají následovat ještě vyšší dodávky. Deník N upozorňuje, že už v říjnu by Rusko mimo jiné i díky prodeji milionů tun nafty do USA mohlo zvýšit ropné zisky do státního rozpočtu zhruba o deset procent proti stejnému období loňského roku a o 36 procent proti letošnímu září.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/rusko-podle-peskova-po-dohode-s-trumpem-obnovilo-vyvoz-nafty-na-svetove-trhy_2610151705_vsn"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2221021/"
+        }
+      ],
+      "en": {
+        "headline": "Russia has resumed diesel exports to world markets, the Kremlin says",
+        "sentences": [
+          {
+            "en": "Russian diesel has started flowing to world markets following the agreement with US President Donald Trump.",
+            "cs": "Ruská nafta začala v návaznosti na dohodu s americkým prezidentem Donaldem Trumpem proudit na světové trhy."
+          },
+          {
+            "en": "Kremlin spokesperson Dmitrij Peskov said so on Thursday, according to the Reuters agency; about 40 thousand tonnes were loaded.",
+            "cs": "Podle agentury Reuters to ve čtvrtek řekl mluvčí Kremlu Dmitrij Peskov; naloženo bylo asi 40 tisíc tun."
+          },
+          {
+            "en": "Last week, after a conversation with Vladimir Putin, Trump surprisingly announced that Russia would immediately deliver more than 300 thousand tonnes of diesel to the American and world markets, with even larger deliveries to follow in the coming months.",
+            "cs": "Trump minulý týden po rozhovoru s Vladimirem Putinem překvapivě oznámil, že Rusko okamžitě dodá na americký a světový trh přes 300 tisíc tun nafty a v dalších měsících mají následovat ještě vyšší dodávky."
+          },
+          {
+            "en": "Deník N points out that as early as October, thanks in part to selling millions of tonnes of diesel to the US, Russia could raise the oil revenue going into its state budget by roughly ten percent compared with the same period last year and by 36 percent compared with this September.",
+            "cs": "Deník N upozorňuje, že už v říjnu by Rusko mimo jiné i díky prodeji milionů tun nafty do USA mohlo zvýšit ropné zisky do státního rozpočtu zhruba o deset procent proti stejnému období loňského roku a o 36 procent proti letošnímu září."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resumed",
+            "definition": "started again after a period of stopping"
+          },
+          {
+            "term": "revenue",
+            "definition": "money that a government or a company receives"
+          },
+          {
+            "term": "roughly",
+            "definition": "approximately, not exactly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:12",
+      "headline": "Firemních bankrotů je letos nejvíc za deset let",
+      "body": "Soudy v Česku letos za tři čtvrtletí vyhlásily bankrot 618 společností, což je meziročně o sedm procent více a nejvyšší počet firemních bankrotů za tři čtvrtletí od roku 2016. Za prvních devět měsíců soudy přijaly 986 návrhů na bankrot společností, meziročně o 19 procent více. Vyplývá to z analýzy společnosti CRIF – Czech Credit Bureau.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/cesko-zaziva-nejvetsi-vlnu-firemnich-bankrotu-za-deset-let-nejhur-je-v-nekolika-krajich-1436577"
+        }
+      ],
+      "en": {
+        "headline": "Corporate bankruptcies are at their highest level in ten years",
+        "sentences": [
+          {
+            "en": "Courts in Czechia declared the bankruptcy of 618 companies in the first three quarters of this year, seven percent more than a year earlier and the highest number of corporate bankruptcies for three quarters since 2016.",
+            "cs": "Soudy v Česku letos za tři čtvrtletí vyhlásily bankrot 618 společností, což je meziročně o sedm procent více a nejvyšší počet firemních bankrotů za tři čtvrtletí od roku 2016."
+          },
+          {
+            "en": "In the first nine months courts received 986 petitions for corporate bankruptcy, 19 percent more year on year.",
+            "cs": "Za prvních devět měsíců soudy přijaly 986 návrhů na bankrot společností, meziročně o 19 procent více."
+          },
+          {
+            "en": "This follows from an analysis by the company CRIF – Czech Credit Bureau.",
+            "cs": "Vyplývá to z analýzy společnosti CRIF – Czech Credit Bureau."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bankruptcy",
+            "definition": "the state of being officially unable to pay your debts"
+          },
+          {
+            "term": "quarters",
+            "definition": "three-month periods into which a business year is divided"
+          },
+          {
+            "term": "year on year",
+            "definition": "compared with the same period in the previous year"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:35",
+      "headline": "Antimonopolní úřad zamítl stížnost Stadleru, Škoda Group se přiblížila zakázce za 84 miliard",
+      "body": "Úřad pro ochranu hospodářské soutěže zamítl stížnost výrobce vlaků Stadler na soutěž Českých drah na nové vlaky za 84 miliard korun pro regionální linky v Praze a ve Středočeském kraji. V tendru zvítězila společnost Škoda Group z portfolia skupiny PPF.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-uohs-zamitl-stiznost-stadleru-skoda-se-tak-priblizila-obri-zakazce-317962"
+        }
+      ],
+      "en": {
+        "headline": "The antitrust office rejected Stadler's complaint and Škoda Group moved closer to an 84-billion contract",
+        "sentences": [
+          {
+            "en": "The Office for the Protection of Competition rejected a complaint by the train maker Stadler about the Czech Railways tender for new trains worth 84 billion crowns for regional lines in Prague and the Central Bohemian Region.",
+            "cs": "Úřad pro ochranu hospodářské soutěže zamítl stížnost výrobce vlaků Stadler na soutěž Českých drah na nové vlaky za 84 miliard korun pro regionální linky v Praze a ve Středočeském kraji."
+          },
+          {
+            "en": "The tender was won by Škoda Group, a company from the PPF group's portfolio.",
+            "cs": "V tendru zvítězila společnost Škoda Group z portfolia skupiny PPF."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "antitrust",
+            "definition": "relating to laws that stop companies from limiting competition"
+          },
+          {
+            "term": "tender",
+            "definition": "an official process in which companies offer to do a job for a price"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:45",
+      "headline": "Americká FTC poslala předvolání firmám Anthropic a OpenAI kvůli bezpečnostním incidentům",
+      "body": "Americká Federální obchodní komise zaslala civilní předvolání firmám Anthropic a OpenAI, které se zabývají umělou inteligencí. Úřad od nich požaduje dokumenty týkající se medializovaných bezpečnostních incidentů. Obě společnosti v minulých dnech a měsících informovaly o případech, kdy se jejich modely nabouraly do webových stránek či externích systémů a kdy se při testování chovaly klamavě či agresivně.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220725/"
+        }
+      ],
+      "en": {
+        "headline": "The US FTC has sent subpoenas to Anthropic and OpenAI over safety incidents",
+        "sentences": [
+          {
+            "en": "The US Federal Trade Commission has sent civil subpoenas to Anthropic and OpenAI, firms that work on artificial intelligence.",
+            "cs": "Americká Federální obchodní komise zaslala civilní předvolání firmám Anthropic a OpenAI, které se zabývají umělou inteligencí."
+          },
+          {
+            "en": "The authority is requesting documents relating to safety incidents that have been reported in the media.",
+            "cs": "Úřad od nich požaduje dokumenty týkající se medializovaných bezpečnostních incidentů."
+          },
+          {
+            "en": "In recent days and months both companies have reported cases in which their models broke into websites or external systems and behaved deceptively or aggressively during testing.",
+            "cs": "Obě společnosti v minulých dnech a měsících informovaly o případech, kdy se jejich modely nabouraly do webových stránek či externích systémů a kdy se při testování chovaly klamavě či agresivně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subpoenas",
+            "definition": "official orders to hand over documents or give evidence"
+          },
+          {
+            "term": "broke into",
+            "definition": "entered a place or a system without permission"
+          },
+          {
+            "term": "deceptively",
+            "definition": "in a way that is meant to mislead people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:06",
+      "headline": "Kanadská Cohere kupuje český startup AISLE Ondřeje Vlčka",
+      "body": "Kanadská společnost Cohere oznámila podpis předběžné dohody o převzetí startupu AISLE. Ten v roce 2025 založil bývalý šéf Avastu Ondřej Vlček společně s odborníky z Google DeepMind a Anthropicu.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-kanadska-laborator-cohere-kupuje-cesky-aisle-zalozeny-ondrejem-vlckem-317956"
+        }
+      ],
+      "en": {
+        "headline": "Canada's Cohere is buying the Czech start-up AISLE founded by Ondřej Vlček",
+        "sentences": [
+          {
+            "en": "The Canadian company Cohere has announced the signing of a preliminary agreement to take over the start-up AISLE.",
+            "cs": "Kanadská společnost Cohere oznámila podpis předběžné dohody o převzetí startupu AISLE."
+          },
+          {
+            "en": "It was founded in 2025 by the former head of Avast, Ondřej Vlček, together with experts from Google DeepMind and Anthropic.",
+            "cs": "Ten v roce 2025 založil bývalý šéf Avastu Ondřej Vlček společně s odborníky z Google DeepMind a Anthropicu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "preliminary",
+            "definition": "coming before the final or main one"
+          },
+          {
+            "term": "take over",
+            "definition": "to gain control of a company"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:39",
+      "headline": "Levné telefony s Androidem mají malware přímo ve firmwaru",
+      "body": "Bezpečnostní výzkumníci ze společnosti Bitdefender popsali kampaň Midnight Mimosa, která zasáhla levné telefony s Androidem od různých výrobců s čipy MediaTek. Škodlivý software je součástí firmwaru, takže se v telefonu nachází ještě před prvním zapnutím a běžným způsobem jej není možné odinstalovat. Výzkumníci jej zaznamenali na tisících zařízení ve více než 150 zemích.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/midnight-mimosa-levne-telefony-s-androidem-maji-ve-firmwaru-malware/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Cheap Android phones carry malware right in their firmware",
+        "sentences": [
+          {
+            "en": "Security researchers from the company Bitdefender have described the Midnight Mimosa campaign, which has hit cheap Android phones from various makers using MediaTek chips.",
+            "cs": "Bezpečnostní výzkumníci ze společnosti Bitdefender popsali kampaň Midnight Mimosa, která zasáhla levné telefony s Androidem od různých výrobců s čipy MediaTek."
+          },
+          {
+            "en": "The malicious software is part of the firmware, so it is in the phone even before it is first switched on and it cannot be uninstalled in the usual way.",
+            "cs": "Škodlivý software je součástí firmwaru, takže se v telefonu nachází ještě před prvním zapnutím a běžným způsobem jej není možné odinstalovat."
+          },
+          {
+            "en": "The researchers have recorded it on thousands of devices in more than 150 countries.",
+            "cs": "Výzkumníci jej zaznamenali na tisících zařízení ve více než 150 zemích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "malicious",
+            "definition": "intended to cause harm or damage"
+          },
+          {
+            "term": "firmware",
+            "definition": "software built into a device that controls its basic functions"
+          },
+          {
+            "term": "uninstalled",
+            "definition": "removed from a computer or a phone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:06",
+      "headline": "Zemřel fejetonista Rudolf Křesťan",
+      "body": "Ve věku 83 let zemřel spisovatel a publicista Rudolf Křesťan. Nejvíc ho proslavily fejetony, kterých napsal přes tři tisíce; krátké humorné texty založené na nadsázce, recesi a slovních hříčkách psal pro časopisy a vydával je i knižně. První fejeton napsal v šestnácti letech a dlouhá léta působil také v Českém rozhlase, mimo jiné jako moderátor nedělního ranního vysílání na Dvojce. Přestože byl nazýván králem fejetonů, sám říkával: „Nejsem králem fejetonu, protože to je čtenář.“",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/zemrel-spisovatel-a-publicista-rudolf-krestan-378632"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/kultura/literatura/zemrel-spisovatel-a-publicista-rudolf-krestan-nejsem-kralem-fejetonu-protoze-je_2610151606_vsn"
+        }
+      ],
+      "en": {
+        "headline": "The feuilleton writer Rudolf Křesťan has died",
+        "sentences": [
+          {
+            "en": "The writer and journalist Rudolf Křesťan has died at the age of 83.",
+            "cs": "Ve věku 83 let zemřel spisovatel a publicista Rudolf Křesťan."
+          },
+          {
+            "en": "He was best known for his feuilletons, of which he wrote more than three thousand; he published these short humorous texts, built on exaggeration, spoofing and wordplay, in magazines and also brought them out in books.",
+            "cs": "Nejvíc ho proslavily fejetony, kterých napsal přes tři tisíce; krátké humorné texty založené na nadsázce, recesi a slovních hříčkách psal pro časopisy a vydával je i knižně."
+          },
+          {
+            "en": "He wrote his first feuilleton at sixteen and for many years also worked at Czech Radio, among other things as the presenter of the Sunday morning broadcast on Dvojka.",
+            "cs": "První fejeton napsal v šestnácti letech a dlouhá léta působil také v Českém rozhlase, mimo jiné jako moderátor nedělního ranního vysílání na Dvojce."
+          },
+          {
+            "en": "Although he was called the king of feuilletons, he used to say: “I am not the king of the feuilleton, because the reader is.”",
+            "cs": "Přestože byl nazýván králem fejetonů, sám říkával: „Nejsem králem fejetonu, protože to je čtenář.“"
+          }
+        ],
+        "glossary": [
+          {
+            "term": "feuilletons",
+            "definition": "short light newspaper columns, often humorous"
+          },
+          {
+            "term": "exaggeration",
+            "definition": "describing something as bigger or better than it really is"
+          },
+          {
+            "term": "wordplay",
+            "definition": "clever and funny use of words and their meanings"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Voxpot popisuje, jak krize bydlení hýbe předčasnými volbami ve Španělsku",
+      "body": "Španělsko čekají předčasné volby, ve kterých obhajuje úřad jeden z posledních levicových premiérů v Evropské unii Pedro Sánchez. Vystěhování bezmála devadesátileté seniorky podle Voxpotu přineslo jedno ze stěžejních témat voleb, totiž nedostupné bydlení, a Sánchez toho chce využít.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/krize-bydleni-zapalila-spanelsko-muze-z-toho-tezit-krajni-pravice/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot describes how the housing crisis is shaping Spain's snap election",
+        "sentences": [
+          {
+            "en": "Spain faces a snap election in which one of the last left-wing prime ministers in the European Union, Pedro Sánchez, is defending the office.",
+            "cs": "Španělsko čekají předčasné volby, ve kterých obhajuje úřad jeden z posledních levicových premiérů v Evropské unii Pedro Sánchez."
+          },
+          {
+            "en": "According to Voxpot, the eviction of a woman almost ninety years old brought up one of the key themes of the election, namely unaffordable housing, and Sánchez wants to make use of it.",
+            "cs": "Vystěhování bezmála devadesátileté seniorky podle Voxpotu přineslo jedno ze stěžejních témat voleb, totiž nedostupné bydlení, a Sánchez toho chce využít."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "snap election",
+            "definition": "an election called suddenly, earlier than planned"
+          },
+          {
+            "term": "eviction",
+            "definition": "the act of forcing someone to leave their home"
+          },
+          {
+            "term": "unaffordable",
+            "definition": "too expensive for people to be able to pay for"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:33",
+      "headline": "Rozhodčí Vejtasa dostal za korupci zákaz činnosti na patnáct let",
+      "body": "Bývalý ligový rozhodčí Simon Vejtasa dostal od etické komise Fotbalové asociace ČR za korupční jednání zákaz činnosti ve fotbale na patnáct let a pokutu 150 tisíc korun. Podle komise se provinil v letech 2021 až 2023 v souvislosti se třemi zápasy. Vejtasa s trestem nesouhlasí a hodlá se odvolat, řekl serveru iSport.cz.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sudi-vejtasa-dostal-od-eticke-komise-trest-na-15-let-a-pokutu-150-000-korun-chce-se-odvolat-159455"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2220690/"
+        }
+      ],
+      "en": {
+        "headline": "Referee Vejtasa has been banned from football for fifteen years for corruption",
+        "sentences": [
+          {
+            "en": "The former league referee Simon Vejtasa was given a fifteen-year ban from activity in football and a fine of 150 thousand crowns by the ethics committee of the Football Association of the Czech Republic for corrupt conduct.",
+            "cs": "Bývalý ligový rozhodčí Simon Vejtasa dostal od etické komise Fotbalové asociace ČR za korupční jednání zákaz činnosti ve fotbale na patnáct let a pokutu 150 tisíc korun."
+          },
+          {
+            "en": "According to the committee, the offence was committed between 2021 and 2023 in connection with three matches.",
+            "cs": "Podle komise se provinil v letech 2021 až 2023 v souvislosti se třemi zápasy."
+          },
+          {
+            "en": "Vejtasa disagrees with the punishment and intends to appeal, he told the iSport.cz website.",
+            "cs": "Vejtasa s trestem nesouhlasí a hodlá se odvolat, řekl serveru iSport.cz."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ban",
+            "definition": "an official order not to do something"
+          },
+          {
+            "term": "conduct",
+            "definition": "the way a person behaves"
+          },
+          {
+            "term": "appeal",
+            "definition": "to formally ask for a decision to be changed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:01",
+      "headline": "Puškáč nezahraje tři zápasy, hradecký Kučera dva",
+      "body": "Útočník Slovácka David Puškáč dostal od disciplinární komise Ligové fotbalové asociace trest na tři soutěžní zápasy za vyloučení ve víkendovém ligovém utkání v Liberci. Královéhradecký Jakub Kučera si po červené kartě proti Artisu Brno nezahraje nejbližší dva duely Chance Ligy.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/za-surovou-hru-si-puskac-nezahraje-tri-zapasy-kucera-dva-159460"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-puskac-dostal-za-vylouceni-v-liberci-trest-na-tri-zapasy-5555834"
+        }
+      ],
+      "en": {
+        "headline": "Puškáč will miss three matches and Hradec's Kučera two",
+        "sentences": [
+          {
+            "en": "Slovácko striker David Puškáč was given a three-match ban by the disciplinary committee of the Football League Association for a sending-off in the weekend top-flight game in Liberec.",
+            "cs": "Útočník Slovácka David Puškáč dostal od disciplinární komise Ligové fotbalové asociace trest na tři soutěžní zápasy za vyloučení ve víkendovém ligovém utkání v Liberci."
+          },
+          {
+            "en": "Hradec Králové's Jakub Kučera will miss the next two Chance Liga games after a red card against Artis Brno.",
+            "cs": "Královéhradecký Jakub Kučera si po červené kartě proti Artisu Brno nezahraje nejbližší dva duely Chance Ligy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "striker",
+            "definition": "an attacking player whose job is to score goals"
+          },
+          {
+            "term": "sending-off",
+            "definition": "being ordered to leave the field for a serious foul"
+          },
+          {
+            "term": "disciplinary",
+            "definition": "relating to punishment for breaking rules"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:52",
+      "headline": "Část českých sportovců nepojede na zimní univerziádu kvůli startu Rusů",
+      "body": "Na zimní univerziádu do Číny nepojedou čeští sportovci v odvětvích, jejichž mezinárodní federace zakazují start Rusů a Bělorusů. Na akci, kterou organizuje Mezinárodní federace univerzitního sportu FISU, totiž sportovci z Ruska a Běloruska budou závodit jako neutrální. Podle komentáře Sport.cz tak lyžaři, snowboardisté či krasobruslařky v lednu startovat mohou, zatímco reprezentanti v lyžařském orientačním běhu a běžeckém krosu musí zůstat doma.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/ostatni/cast-ceskych-sportovcu-nepojede-kvuli-ucasti-rusu-na-zimni-univerziadu-159456"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/nazory-komentare-glosa-spatny-signal-rozhodnuti-univerzitniho-sportu-poskozuje-ty-zasadove-5555249"
+        }
+      ],
+      "en": {
+        "headline": "Some Czech athletes will not go to the Winter Universiade because Russians are taking part",
+        "sentences": [
+          {
+            "en": "Czech athletes in sports whose international federations ban Russians and Belarusians from competing will not travel to the Winter Universiade in China.",
+            "cs": "Na zimní univerziádu do Číny nepojedou čeští sportovci v odvětvích, jejichž mezinárodní federace zakazují start Rusů a Bělorusů."
+          },
+          {
+            "en": "At the event, which is organised by the International University Sports Federation FISU, athletes from Russia and Belarus will compete as neutrals.",
+            "cs": "Na akci, kterou organizuje Mezinárodní federace univerzitního sportu FISU, totiž sportovci z Ruska a Běloruska budou závodit jako neutrální."
+          },
+          {
+            "en": "According to a commentary in Sport.cz, skiers, snowboarders and figure skaters may therefore start in January, while competitors in ski orienteering and cross-country running have to stay at home.",
+            "cs": "Podle komentáře Sport.cz tak lyžaři, snowboardisté či krasobruslařky v lednu startovat mohou, zatímco reprezentanti v lyžařském orientačním běhu a běžeckém krosu musí zůstat doma."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "federations",
+            "definition": "organisations that govern a sport internationally"
+          },
+          {
+            "term": "neutrals",
+            "definition": "competitors taking part without representing a country"
+          },
+          {
+            "term": "commentary",
+            "definition": "a piece of writing that gives opinions on events"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:06",
+      "headline": "Střelec Přívratský má z Káhiry bronz v třípolohové malorážce",
+      "body": "Jiří Přívratský získal na Světovém poháru v Káhiře další medaili, ve třípolohové malorážce skončil třetí. V souboji o bronz porazil o dvě desetiny bodu reprezentačního kolegu Filipa Nepejchala. Soutěž vyhrál Francouz Lucas Kryzs.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/privratsky-ziskal-na-svetovem-poharu-dalsi-medaili-v-kahire-bere-bronz-159457"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-privratsky-ziskal-na-svetovem-poharu-v-kahire-bronz-v-tripolohove-malorazce-5555823"
+        }
+      ],
+      "en": {
+        "headline": "Shooter Přívratský takes bronze in the three-position small-bore event in Cairo",
+        "sentences": [
+          {
+            "en": "Jiří Přívratský won another medal at the World Cup in Cairo, finishing third in the three-position small-bore rifle.",
+            "cs": "Jiří Přívratský získal na Světovém poháru v Káhiře další medaili, ve třípolohové malorážce skončil třetí."
+          },
+          {
+            "en": "In the contest for bronze he beat his team-mate Filip Nepejchal by two tenths of a point.",
+            "cs": "V souboji o bronz porazil o dvě desetiny bodu reprezentačního kolegu Filipa Nepejchala."
+          },
+          {
+            "en": "The event was won by the Frenchman Lucas Kryzs.",
+            "cs": "Soutěž vyhrál Francouz Lucas Kryzs."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "small-bore",
+            "definition": "using a rifle that fires small bullets"
+          },
+          {
+            "term": "team-mate",
+            "definition": "another member of the same team"
+          },
+          {
+            "term": "tenths",
+            "definition": "parts you get when something is divided into ten"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:36",
+      "headline": "Muchová do čtvrtfinále ve Wu-chanu nepostoupila",
+      "body": "Tenistka Karolína Muchová prohrála ve Wu-chanu s Ruskou Dianou Šnajderovou 5:7 a 3:6 a do čtvrtfinále nepostoupila. Sedmá hráčka světa si podle Sport.cz trochu zkomplikovala cestu na listopadový Turnaj mistryň.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/muchova-konci-ve-wu-chanu-na-snajderove-159454"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-tenis-online-muchova-na-turnaji-ve-wu-chanu-celi-rozjete-rusce-ktere-ma-co-vracet-5555239"
+        }
+      ],
+      "en": {
+        "headline": "Muchová failed to reach the quarter-finals in Wuhan",
+        "sentences": [
+          {
+            "en": "Tennis player Karolína Muchová lost to Russia's Diana Šnajderová 5:7 and 3:6 in Wuhan and did not advance to the quarter-finals.",
+            "cs": "Tenistka Karolína Muchová prohrála ve Wu-chanu s Ruskou Dianou Šnajderovou 5:7 a 3:6 a do čtvrtfinále nepostoupila."
+          },
+          {
+            "en": "According to Sport.cz, the world number seven has made her path to November's WTA Finals a little more complicated.",
+            "cs": "Sedmá hráčka světa si podle Sport.cz trochu zkomplikovala cestu na listopadový Turnaj mistryň."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advance",
+            "definition": "to go through to the next round of a competition"
+          },
+          {
+            "term": "quarter-finals",
+            "definition": "the round of eight players or teams before the semi-finals"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Chamber of Deputies approved in first reading an amendment that will limit access to the register of companies' beneficial owners to those who prove a legitimate interest.",
+    "Israel announced that commercial goods will no longer be imported into the Gaza Strip; humanitarian organisations warn that the food crisis will deepen before winter.",
+    "In an interview with the Financial Times, Zelenskyj announced that Ukraine will resume strikes on Russian refineries, and he flew to Brussels for the European Union summit.",
+    "According to Seznam Zprávy, the Supreme Audit Office accuses the Ministry of Labour of a conflict of interest involving former adviser Alexandra Semancová and speaks of a breach of budgetary discipline."
+  ]
+}
