@@ -1,0 +1,1463 @@
+{
+  "date": "2026-10-16",
+  "covers": "2026-10-16",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz",
+    "Hacker News"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a beze srážek, přes den necelých 16 °C. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-17",
+        "icon": "cloudy",
+        "temp_max_c": 15.7,
+        "temp_min_c": 4.6
+      },
+      {
+        "date": "2026-10-18",
+        "icon": "fog",
+        "temp_max_c": 14.3,
+        "temp_min_c": 8.7
+      },
+      {
+        "date": "2026-10-19",
+        "icon": "cloudy",
+        "temp_max_c": 10.6,
+        "temp_min_c": 5.3
+      },
+      {
+        "date": "2026-10-20",
+        "icon": "cloudy",
+        "temp_max_c": 15.3,
+        "temp_min_c": 3.7
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast and dry, with just under 16 °C during the day. Air quality is expected to be poor."
+  },
+  "highlights": [
+    "Ve dvaadvaceti obvodech začalo druhé kolo senátních voleb, v prvních hodinách si senátory přišlo vybrat méně než deset procent voličů.",
+    "Trump tlačí na Kyjev, aby přestal útočit na ruské rafinerie, a Zelenskyj otevřeně přiznává zklamání z Bílého domu.",
+    "Lídři Evropské unie odmítli irský návrh unijního rozpočtu na roky 2028 až 2034, nový kompromis má přijít do prosincového summitu.",
+    "Český státní dluh stoupl na rekordních 3,882 bilionu korun, na každého obyvatele tak teoreticky připadá 356 046 korun."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:51",
+      "headline": "Druhé kolo senátních voleb začalo, v prvních hodinách přišlo pod deset procent voličů",
+      "body": "Ve dvaadvaceti senátních obvodech začalo v pátek ve 14 hodin druhé kolo voleb, volební místnosti budou otevřené do 22 hodin a pak ještě v sobotu od 8 do 14 hodin. O obsazení zbývajících křesel může rozhodnout přibližně 2,25 milionu voličů. Hlasovací lístky lidé tentokrát nedostali do poštovních schránek, vyzvednou si je až ve volební místnosti. V prvních hodinách si senátory přišlo vybrat méně než deset procent voličů, podobně jako v předchozích letech; hlas odevzdali Rakušan i šéf TOP 09 Matěj Ondřej Havel, který volil v Hradci Králové. Podle ČT24 si sněmovní opozice udrží v horní komoře většinu bez ohledu na výsledek druhého kola, protože v prvním kole získala pět z 27 letos obsazovaných křesel. Havel míní, že dosavadní průběh senátních voleb naznačuje klesající popularitu vlády.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/online-zacalo-druhe-kolo-senatnich-voleb-lide-mohou-hlasovat-do-sobotnich-14_2610161400_vdv"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cesko-ceka-druhe-kolo-senatnich-voleb-378633"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2221988/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222203/"
+        }
+      ],
+      "en": {
+        "headline": "The second round of the Senate elections has begun, with under ten percent of voters turning out in the first hours",
+        "sentences": [
+          {
+            "en": "The second round of voting began at 2 p.m. on Friday in twenty-two Senate districts, with polling stations open until 10 p.m. and then again on Saturday from 8 a.m. to 2 p.m.",
+            "cs": "Ve dvaadvaceti senátních obvodech začalo v pátek ve 14 hodin druhé kolo voleb, volební místnosti budou otevřené do 22 hodin a pak ještě v sobotu od 8 do 14 hodin."
+          },
+          {
+            "en": "Roughly 2.25 million voters can decide who fills the remaining seats.",
+            "cs": "O obsazení zbývajících křesel může rozhodnout přibližně 2,25 milionu voličů."
+          },
+          {
+            "en": "This time ballot papers were not delivered to people's letterboxes; voters will pick them up only at the polling station.",
+            "cs": "Hlasovací lístky lidé tentokrát nedostali do poštovních schránek, vyzvednou si je až ve volební místnosti."
+          },
+          {
+            "en": "In the first hours, fewer than ten percent of voters came to choose their senators, much as in previous years; Rakušan and TOP 09 leader Matěj Ondřej Havel, who voted in Hradec Králové, cast their ballots.",
+            "cs": "V prvních hodinách si senátory přišlo vybrat méně než deset procent voličů, podobně jako v předchozích letech; hlas odevzdali Rakušan i šéf TOP 09 Matěj Ondřej Havel, který volil v Hradci Králové."
+          },
+          {
+            "en": "According to ČT24, the parliamentary opposition will keep its majority in the upper chamber regardless of the second round's outcome, because it won five of the 27 seats being filled this year in the first round.",
+            "cs": "Podle ČT24 si sněmovní opozice udrží v horní komoře většinu bez ohledu na výsledek druhého kola, protože v prvním kole získala pět z 27 letos obsazovaných křesel."
+          },
+          {
+            "en": "Havel believes the course of the Senate elections so far suggests the government's popularity is declining.",
+            "cs": "Havel míní, že dosavadní průběh senátních voleb naznačuje klesající popularitu vlády."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "polling stations",
+            "definition": "the places where people go to vote"
+          },
+          {
+            "term": "letterboxes",
+            "definition": "boxes or slots where post is delivered to a home"
+          },
+          {
+            "term": "upper chamber",
+            "definition": "the smaller of the two parts of a parliament"
+          },
+          {
+            "term": "ballots",
+            "definition": "the papers people mark to vote"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:37",
+      "headline": "Pavel zveřejnil náklady na dovolenou v Maroku, zaplatil si ji ze svého",
+      "body": "Prezidenta Petra Pavla přišla soukromá cesta do Maroka na zhruba 450 tisíc korun a zaplatil ji z vlastních peněz. Kancelář prezidenta republiky podle něj cestu ani neplatila, ani neorganizovala. Za zpáteční let na komunální volby, k němuž využil stroj soukromé marocké přepravní společnosti, zaplatil podle svého prohlášení 365 tisíc korun. Z dovolené se vrátil ve čtvrtek běžnou linkou. Pavel zároveň kritizoval zásah do svého soukromí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-kancelar-prezidenta-jeho-cestu-do-maroka-neplatila-ani-neorganizovala-318001"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/prezident-pavel-rekl-kolik-stala-cesta-do-maroka-i-navrat-na-volby-kritizoval-zasah-do-soukromi-1436596"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/na-vyjadreni-evy-pavlove-k-volbam-nebylo-spravne-vubec-nic-hodnoti-expertka-na_2610161537_kch"
+        }
+      ],
+      "en": {
+        "headline": "Pavel disclosed the cost of his holiday in Morocco and paid for it himself",
+        "sentences": [
+          {
+            "en": "President Petr Pavel's private trip to Morocco cost roughly 450,000 crowns and he paid for it out of his own pocket.",
+            "cs": "Prezidenta Petra Pavla přišla soukromá cesta do Maroka na zhruba 450 tisíc korun a zaplatil ji z vlastních peněz."
+          },
+          {
+            "en": "The Office of the President of the Republic, he says, neither paid for nor organised the trip.",
+            "cs": "Kancelář prezidenta republiky podle něj cestu ani neplatila, ani neorganizovala."
+          },
+          {
+            "en": "For the return flight to the municipal elections, for which he used an aircraft belonging to a private Moroccan transport company, he paid 365,000 crowns according to his own statement.",
+            "cs": "Za zpáteční let na komunální volby, k němuž využil stroj soukromé marocké přepravní společnosti, zaplatil podle svého prohlášení 365 tisíc korun."
+          },
+          {
+            "en": "He came back from the holiday on Thursday on a regular scheduled flight.",
+            "cs": "Z dovolené se vrátil ve čtvrtek běžnou linkou."
+          },
+          {
+            "en": "Pavel also criticised the intrusion into his privacy.",
+            "cs": "Pavel zároveň kritizoval zásah do svého soukromí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "out of his own pocket",
+            "definition": "using your own money, not someone else's"
+          },
+          {
+            "term": "scheduled flight",
+            "definition": "a normal flight that anyone can buy a ticket for"
+          },
+          {
+            "term": "intrusion",
+            "definition": "going into a place or area where you are not wanted"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:20",
+      "headline": "Evropská komise potvrdila, že Babiš může být ve střetu zájmů",
+      "body": "Premiér Andrej Babiš se podle Evropské komise nachází v potenciální situaci střetu zájmů v souvislosti se správou kohezních a zemědělských fondů. Komise po důkladném posouzení dospěla k témuž, co oznámila už v září; svěřenský fond podle ní situaci dostatečně neřeší. Babiš možný střet zájmů opět odmítl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-evropska-komise-zopakovala-ze-cesky-premier-muze-byt-ve-stretu-zajmu-318021"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/babis-je-v-moznem-stretu-zajmu-jeho-fond-to-nevyresil-potvrdila-evropska-komise-1436605"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission confirmed that Babiš may be in a conflict of interest",
+        "sentences": [
+          {
+            "en": "According to the European Commission, Prime Minister Andrej Babiš is in a potential conflict-of-interest situation in connection with the management of cohesion and agricultural funds.",
+            "cs": "Premiér Andrej Babiš se podle Evropské komise nachází v potenciální situaci střetu zájmů v souvislosti se správou kohezních a zemědělských fondů."
+          },
+          {
+            "en": "After a thorough assessment the Commission reached the same conclusion it had announced back in September; in its view the trust fund does not sufficiently resolve the situation.",
+            "cs": "Komise po důkladném posouzení dospěla k témuž, co oznámila už v září; svěřenský fond podle ní situaci dostatečně neřeší."
+          },
+          {
+            "en": "Babiš again rejected the possible conflict of interest.",
+            "cs": "Babiš možný střet zájmů opět odmítl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cohesion",
+            "definition": "the state of sticking together as one whole"
+          },
+          {
+            "term": "assessment",
+            "definition": "a careful judgement about something"
+          },
+          {
+            "term": "trust fund",
+            "definition": "money or property that someone else manages for an owner"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:42",
+      "headline": "Neúspěšný kandidát Přísahy chtěl podle Deníku N za podporu padesát tisíc",
+      "body": "Neúspěšný senátní kandidát Přísahy Pavel Černý podle Deníku N nabízel, že ve druhém kole podpoří svého úspěšnějšího soupeře z ANO Jiřího Kyněru. K nabídce připojil žádost o padesát tisíc korun a číslo účtu. Když peníze nedostal, vyjádřil podporu Tomáši Třetinovi z TOP 09.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2222182/podporu-si-cenim-na-padesat-tisic-politik-prisahy-chtel-penize-po-senatnim-kandidatovi-ano/"
+        }
+      ],
+      "en": {
+        "headline": "An unsuccessful Přísaha candidate asked fifty thousand for his backing, Deník N reports",
+        "sentences": [
+          {
+            "en": "The unsuccessful Senate candidate for Přísaha, Pavel Černý, offered to endorse his more successful rival Jiří Kyněra of ANO in the second round, according to Deník N.",
+            "cs": "Neúspěšný senátní kandidát Přísahy Pavel Černý podle Deníku N nabízel, že ve druhém kole podpoří svého úspěšnějšího soupeře z ANO Jiřího Kyněru."
+          },
+          {
+            "en": "Along with the offer he enclosed a request for fifty thousand crowns and an account number.",
+            "cs": "K nabídce připojil žádost o padesát tisíc korun a číslo účtu."
+          },
+          {
+            "en": "When he did not get the money, he declared his support for Tomáš Třetina of TOP 09.",
+            "cs": "Když peníze nedostal, vyjádřil podporu Tomáši Třetinovi z TOP 09."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "endorse",
+            "definition": "to say publicly that you support someone"
+          },
+          {
+            "term": "enclosed",
+            "definition": "put something inside a letter or message"
+          },
+          {
+            "term": "rival",
+            "definition": "someone who competes against you"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:46",
+      "headline": "Deník N odmítl výhrůžky novinářce, k nimž se podle něj přidal poslanec SPD",
+      "body": "Šéfredaktor Deníku N Pavel Tomášek reagoval na informace, že se poslanec SPD Josef Nerušil připojil k výhrůžkám smrtí, které vůči redaktorce Novinek Karolině Brodníčkové adresoval anonym. „Deník N zásadně odmítá další případ vyhrožování novinářce násilím, k němuž se přidal i poslanec vládní koalice,“ uvedl Tomášek a dodal, že agrese vůči médiím se stupňuje.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222420/"
+        }
+      ],
+      "en": {
+        "headline": "Deník N rejected threats against a journalist that it says an SPD MP joined in on",
+        "sentences": [
+          {
+            "en": "Deník N editor-in-chief Pavel Tomášek responded to information that SPD MP Josef Nerušil had joined death threats sent anonymously to Novinky reporter Karolina Brodníčková.",
+            "cs": "Šéfredaktor Deníku N Pavel Tomášek reagoval na informace, že se poslanec SPD Josef Nerušil připojil k výhrůžkám smrtí, které vůči redaktorce Novinek Karolině Brodníčkové adresoval anonym."
+          },
+          {
+            "en": "“Deník N fundamentally rejects another case of a journalist being threatened with violence, one that a member of parliament from the governing coalition has joined in on,” Tomášek said, adding that aggression towards the media is escalating.",
+            "cs": "„Deník N zásadně odmítá další případ vyhrožování novinářce násilím, k němuž se přidal i poslanec vládní koalice,“ uvedl Tomášek a dodal, že agrese vůči médiím se stupňuje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "editor-in-chief",
+            "definition": "the person in charge of a newspaper or magazine"
+          },
+          {
+            "term": "governing coalition",
+            "definition": "the group of parties that run a government together"
+          },
+          {
+            "term": "escalating",
+            "definition": "becoming worse or more serious"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:00",
+      "headline": "Bývalý soudce Kafka čelí obžalobě z podvodů za 32 milionů korun",
+      "body": "Žalobkyně Krajského státního zastupitelství v Ostravě podala obžalobu na bývalého soudce Krajského soudu v Brně Romana Kafku. Podle obžaloby se dopustil 70 podvodů, při nichž vylákal 32,3 milionu korun, a škoda poškozeným přesahuje 23 milionů. Hrozí mu deset let vězení. Krajský státní zástupce Libor Malý to v pátek sdělil ČTK.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/statni-zastupkyne-obzalovala-byvaleho-soudce-kafku-z-podvodu-za-32-milionu-hrozi_2610161600_kma"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-byvaleho-soudce-kafku-obzalovali-z-podvodu-318056"
+        }
+      ],
+      "en": {
+        "headline": "Former judge Kafka faces charges of fraud worth 32 million crowns",
+        "sentences": [
+          {
+            "en": "A prosecutor from the Regional Public Prosecutor's Office in Ostrava has filed charges against Roman Kafka, a former judge of the Regional Court in Brno.",
+            "cs": "Žalobkyně Krajského státního zastupitelství v Ostravě podala obžalobu na bývalého soudce Krajského soudu v Brně Romana Kafku."
+          },
+          {
+            "en": "According to the indictment he committed 70 frauds in which he extracted 32.3 million crowns, and the damage to the victims exceeds 23 million.",
+            "cs": "Podle obžaloby se dopustil 70 podvodů, při nichž vylákal 32,3 milionu korun, a škoda poškozeným přesahuje 23 milionů."
+          },
+          {
+            "en": "He faces ten years in prison.",
+            "cs": "Hrozí mu deset let vězení."
+          },
+          {
+            "en": "Regional public prosecutor Libor Malý told ČTK this on Friday.",
+            "cs": "Krajský státní zástupce Libor Malý to v pátek sdělil ČTK."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "filed charges",
+            "definition": "officially started a court case against someone"
+          },
+          {
+            "term": "indictment",
+            "definition": "an official written accusation of a crime"
+          },
+          {
+            "term": "extracted",
+            "definition": "took something out, often with effort or pressure"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "19:09",
+      "day": "prev",
+      "headline": "Zůna nařídil odvolat velitele kybernetických sil, armáda ho ve funkci ponechala",
+      "body": "Ministr obrany Jaromír Zůna nařídil šéfovi armády Miroslavu Hlaváčovi, aby odvolal velitele informačních a kybernetických sil Radka Haratka. Armáda to podle Deníku N neudělala; podle mluvčí generálního štábu má Haratek Hlaváčovu důvěru a ve funkci zůstává.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2221268/odvolejte-sefa-kybernetickych-sil-naridil-zuna-podle-sefa-armady-ma-general-duveru-a-zustava/"
+        }
+      ],
+      "en": {
+        "headline": "Zůna ordered the commander of the cyber forces to be dismissed, but the army kept him in post",
+        "sentences": [
+          {
+            "en": "Defence Minister Jaromír Zůna ordered army chief Miroslav Hlaváč to dismiss Radek Haratek, the commander of the information and cyber forces.",
+            "cs": "Ministr obrany Jaromír Zůna nařídil šéfovi armády Miroslavu Hlaváčovi, aby odvolal velitele informačních a kybernetických sil Radka Haratka."
+          },
+          {
+            "en": "According to Deník N the army did not do so; a general staff spokesperson says Haratek has Hlaváč's confidence and is staying in the post.",
+            "cs": "Armáda to podle Deníku N neudělala; podle mluvčí generálního štábu má Haratek Hlaváčovu důvěru a ve funkci zůstává."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dismiss",
+            "definition": "to remove someone from their job"
+          },
+          {
+            "term": "general staff",
+            "definition": "the group of senior officers who lead an army"
+          },
+          {
+            "term": "confidence",
+            "definition": "the belief that someone can be trusted"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:05",
+      "headline": "O senátora za Hradecko se utkají Dvořák a Ceralová Petrofová, souboj má být vyrovnaný",
+      "body": "Ve druhém kole senátních voleb na Hradecku se střetnou bývalý hradecký primátor Martin Dvořák a prezidentka firmy Petrof Zuzana Ceralová Petrofová. Podle politologa Jana Květiny bude souboj vyrovnaný a rozhodne v něm především volební účast; vyrovnanost podle Hradeckého deníku potvrzují i kurzy sázkové kanceláře, které se během týdne výrazně přiblížily. Hlasovat mohou lidé v pátek od 14 hodin a ještě v sobotu, lístky dostanou až ve volební místnosti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/903126-byvaly-primator-nebo-sefka-petrofu-hradecko-rozhodne-o-senatorovi.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/senat-volby-hradecko-2-kolo-dvorak-ceralova-petrofova-politolog-analyta/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Dvořák and Ceralová Petrofová will fight for the Hradecko Senate seat in a contest expected to be close",
+        "sentences": [
+          {
+            "en": "In the second round of the Senate elections in the Hradec Králové district, former Hradec mayor Martin Dvořák will face Zuzana Ceralová Petrofová, president of the Petrof company.",
+            "cs": "Ve druhém kole senátních voleb na Hradecku se střetnou bývalý hradecký primátor Martin Dvořák a prezidentka firmy Petrof Zuzana Ceralová Petrofová."
+          },
+          {
+            "en": "Political scientist Jan Květina expects a close contest that will be decided above all by turnout; Hradecký deník adds that the betting odds on the two candidates, which moved markedly closer over the week, point the same way.",
+            "cs": "Podle politologa Jana Květiny bude souboj vyrovnaný a rozhodne v něm především volební účast; vyrovnanost podle Hradeckého deníku potvrzují i kurzy sázkové kanceláře, které se během týdne výrazně přiblížily."
+          },
+          {
+            "en": "People can vote on Friday from 2 p.m. and again on Saturday, and they will get their ballot papers only at the polling station.",
+            "cs": "Hlasovat mohou lidé v pátek od 14 hodin a ještě v sobotu, lístky dostanou až ve volební místnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to vote"
+          },
+          {
+            "term": "betting odds",
+            "definition": "numbers that show how likely a result is thought to be"
+          },
+          {
+            "term": "markedly",
+            "definition": "in a way that is easy to notice"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:42",
+      "headline": "Povodí Labe začalo obnovovat mrtvé rameno Orlice v Hradci Králové",
+      "body": "Státní podnik Povodí Labe zahájil obnovu mrtvého ramene řeky Orlice zvaného Holštejn na hradeckém Slezském Předměstí. Jde o evropsky významnou lokalitu a přírodní památku Orlice. Stavbaři odtud odtěží čtyři tisíce kubíků sedimentů, upraví vegetaci a vytvoří dvě nové tůně, bagry přitom pracují z vojenských pontonů. Práce za osm milionů korun mají skončit na jaře roku 2028. Část stromů v okolí podle iDNES pokáceli místní bobři.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/priroda/povodi-labe-obnovuje-mrtve-rameno-reky-orlice-s-pracemi-pomuzou-vojenske-pontony_2610161526_tez"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/slepe-rameno-orlice-hradec-holstejn-povodi-labe-ponton-revitalizace.A261016_102059_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/obnova-mrtve-rameno-orlice-reka-povodi-labe-revitalizace-bobr/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Povodí Labe has begun restoring an oxbow of the Orlice in Hradec Králové",
+        "sentences": [
+          {
+            "en": "The state enterprise Povodí Labe has begun restoring the oxbow of the river Orlice known as Holštejn in Hradec Králové's Slezské Předměstí district.",
+            "cs": "Státní podnik Povodí Labe zahájil obnovu mrtvého ramene řeky Orlice zvaného Holštejn na hradeckém Slezském Předměstí."
+          },
+          {
+            "en": "It is a site of European importance and the Orlice nature monument.",
+            "cs": "Jde o evropsky významnou lokalitu a přírodní památku Orlice."
+          },
+          {
+            "en": "Crews will remove four thousand cubic metres of sediment, adjust the vegetation and create two new pools, with the excavators working from military pontoons.",
+            "cs": "Stavbaři odtud odtěží čtyři tisíce kubíků sedimentů, upraví vegetaci a vytvoří dvě nové tůně, bagry přitom pracují z vojenských pontonů."
+          },
+          {
+            "en": "The eight-million-crown works are due to finish in the spring of 2028.",
+            "cs": "Práce za osm milionů korun mají skončit na jaře roku 2028."
+          },
+          {
+            "en": "Some of the trees in the area were felled by local beavers, iDNES reports.",
+            "cs": "Část stromů v okolí podle iDNES pokáceli místní bobři."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "oxbow",
+            "definition": "a curved lake left behind when a river changes its path"
+          },
+          {
+            "term": "sediment",
+            "definition": "sand and mud that settles at the bottom of water"
+          },
+          {
+            "term": "excavators",
+            "definition": "big machines used for digging"
+          },
+          {
+            "term": "felled",
+            "definition": "cut down, said of trees"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:50",
+      "headline": "ANO po dvanácti letech končí v čele Jičína, okresní města kraje mají dohodnuté koalice",
+      "body": "Týden po komunálních volbách mají všechna okresní města Královéhradeckého kraje dohodnuté koalice. V Hradci Králové, Trutnově a Náchodě mají pokračovat dosavadní lídři, Rychnov nad Kněžnou povede nová starostka. Největší změna čeká Jičín, kde ANO po dvanácti letech končí v čele radnice; podle Hradecké drbny hnutí přichází i o Dvůr Králové.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/903215-v-okresnich-mestech-hradeckeho-kraje-koalice-dohodnute-nove-vedeni-jen-v.html"
+        }
+      ],
+      "en": {
+        "headline": "ANO is leaving the helm of Jičín after twelve years as the region's district towns settle their coalitions",
+        "sentences": [
+          {
+            "en": "A week after the municipal elections, every district town in the Hradec Králové Region has a coalition agreed.",
+            "cs": "Týden po komunálních volbách mají všechna okresní města Královéhradeckého kraje dohodnuté koalice."
+          },
+          {
+            "en": "In Hradec Králové, Trutnov and Náchod the current leaders are set to continue, while Rychnov nad Kněžnou will be run by a new mayor.",
+            "cs": "V Hradci Králové, Trutnově a Náchodě mají pokračovat dosavadní lídři, Rychnov nad Kněžnou povede nová starostka."
+          },
+          {
+            "en": "The biggest change awaits Jičín, where ANO is ending twelve years at the head of the town hall; according to Hradecká drbna the movement is also losing Dvůr Králové.",
+            "cs": "Největší změna čeká Jičín, kde ANO po dvanácti letech končí v čele radnice; podle Hradecké drbny hnutí přichází i o Dvůr Králové."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "district town",
+            "definition": "the main town of an administrative area"
+          },
+          {
+            "term": "town hall",
+            "definition": "the building and offices of a town's government"
+          },
+          {
+            "term": "awaits",
+            "definition": "is coming to someone or something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:05",
+      "headline": "Stavba dálničního obchvatu Úlibic začne ještě letos",
+      "body": "Ještě letos začne stavba dálničního obchvatu Úlibic na trase mezi Hradcem Králové a Jičínem. Odvede dopravu mimo obec a naváže na budovanou D35 od Hořic. Smlouva se stavbaři je podepsaná, hotovo má být v roce 2029.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/903099-stavba-obchvatu-ulibic-na-jicinsku-zacne-letos-rsd-uzavrelo-smlouvu-se.html"
+        }
+      ],
+      "en": {
+        "headline": "Construction of the Úlibice motorway bypass will start this year",
+        "sentences": [
+          {
+            "en": "Construction of the Úlibice motorway bypass on the route between Hradec Králové and Jičín will start this year.",
+            "cs": "Ještě letos začne stavba dálničního obchvatu Úlibic na trase mezi Hradcem Králové a Jičínem."
+          },
+          {
+            "en": "It will take traffic away from the village and link up with the D35 motorway being built from Hořice.",
+            "cs": "Odvede dopravu mimo obec a naváže na budovanou D35 od Hořic."
+          },
+          {
+            "en": "The contract with the builders has been signed and the road is due to be finished in 2029.",
+            "cs": "Smlouva se stavbaři je podepsaná, hotovo má být v roce 2029."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bypass",
+            "definition": "a road built around a town so traffic avoids it"
+          },
+          {
+            "term": "link up",
+            "definition": "to join with something else"
+          },
+          {
+            "term": "due to",
+            "definition": "expected to happen at a certain time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:30",
+      "headline": "Trump tlačí na Kyjev, aby přestal útočit na ruské rafinerie, Zelenskyj mluví o zklamání",
+      "body": "Americký prezident Trump se podle Deníku N v posledním týdnu rozhodl otočit naplno proti Ukrajině, obvinit ji z růstu cen nafty a nátlakem ji donutit, aby přestala útočit na ruské rafinerie. Na stanici Newsmax podle Deníku N útočil na Ukrajinu sérií lživých tvrzení, například že předchozí vláda poskytla Kyjevu „masivní počet“ střel Tomahawk; USA přitom neposkytly ani jednu. Na otázku, zda Ukrajina na rafinerie znovu útočí, Zelenskyj odpověděl: „Obvykle neposkytuji podrobnosti o našich operacích. Hlavním pravidlem našich operací je reagovat.“ Podle Seznam Zpráv ukrajinský prezident otevřeně přiznává zklamání ze šéfa Bílého domu, který znovu tlačí na Kyjev a nabízí ústupky Moskvě. Deník N zároveň píše, že Trump možná rozvolní sankce na takzvanou ruskou stínovou flotilu tankerů, a to ve snaze dosáhnout zlevnění paliv na amerických benzinkách před volbami do Kongresu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-mluvi-o-zrade-trumpuv-novy-obrat-stavi-ukrajinu-pred-dilema-318062"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2221989/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222137/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2221131/trump-zvazuje-ze-rusum-dale-uvolni-sankce-ceho-muze-se-svou-naftovou-dohodou-realne-dosahnout/"
+        }
+      ],
+      "en": {
+        "headline": "Trump is pressing Kyiv to stop attacking Russian refineries, while Zelenskyj speaks of disappointment",
+        "sentences": [
+          {
+            "en": "According to Deník N, the American president Trump decided over the past week to turn fully against Ukraine, to blame it for the rise in diesel prices and to force it under pressure to stop attacking Russian refineries.",
+            "cs": "Americký prezident Trump se podle Deníku N v posledním týdnu rozhodl otočit naplno proti Ukrajině, obvinit ji z růstu cen nafty a nátlakem ji donutit, aby přestala útočit na ruské rafinerie."
+          },
+          {
+            "en": "On the Newsmax channel he attacked Ukraine with a series of false claims, Deník N writes, for example that the previous government had given Kyiv a “massive number” of Tomahawk missiles; in fact the United States supplied none at all.",
+            "cs": "Na stanici Newsmax podle Deníku N útočil na Ukrajinu sérií lživých tvrzení, například že předchozí vláda poskytla Kyjevu „masivní počet“ střel Tomahawk; USA přitom neposkytly ani jednu."
+          },
+          {
+            "en": "Asked whether Ukraine is attacking the refineries again, Zelenskyj replied: “I usually do not give details of our operations. The main rule of our operations is to respond.”",
+            "cs": "Na otázku, zda Ukrajina na rafinerie znovu útočí, Zelenskyj odpověděl: „Obvykle neposkytuji podrobnosti o našich operacích. Hlavním pravidlem našich operací je reagovat.“"
+          },
+          {
+            "en": "According to Seznam Zprávy the Ukrainian president openly admits his disappointment with the head of the White House, who is once again pressing Kyiv and offering concessions to Moscow.",
+            "cs": "Podle Seznam Zpráv ukrajinský prezident otevřeně přiznává zklamání ze šéfa Bílého domu, který znovu tlačí na Kyjev a nabízí ústupky Moskvě."
+          },
+          {
+            "en": "Deník N also writes that Trump may loosen sanctions on Russia's so-called shadow fleet of tankers, in an effort to bring down fuel prices at American petrol stations ahead of the Congressional elections.",
+            "cs": "Deník N zároveň píše, že Trump možná rozvolní sankce na takzvanou ruskou stínovou flotilu tankerů, a to ve snaze dosáhnout zlevnění paliv na amerických benzinkách před volbami do Kongresu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is made into fuel"
+          },
+          {
+            "term": "concessions",
+            "definition": "things you give up to settle an argument"
+          },
+          {
+            "term": "shadow fleet",
+            "definition": "ships used secretly to get around trade bans"
+          },
+          {
+            "term": "loosen",
+            "definition": "to make a rule or control less strict"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:17",
+      "headline": "Lídři EU odmítli irský návrh rozpočtu, nový kompromis má přijít do prosince",
+      "body": "Lídři Evropské unie v Bruselu odmítli irský návrh úprav unijního rozpočtu na roky 2028 až 2034. Předseda Evropské rady António Costa dostal za úkol předložit nový kompromisní návrh ještě předtím, než se lídři znovu sejdou 26. listopadu, s cílem dosáhnout dohody na prosincovém summitu. Premiér Babiš mluví o únoru nebo březnu, prezident Macron naopak varoval, že po Novém roce už kvůli blížícím se francouzským volbám dohoda možná nebude. Šéfka Evropské komise von der Leyenová na summitu řekla, že unie nezruší sankce vůči Rusku, dokud Moskva neukončí válku na Ukrajině. Zelenskyj podle E15 řekl, že Rusko válku ukončit nechce, a Evropské unii poděkoval za podporu; po jednání dodal, že ruskému prezidentu Vladimiru Putinovi nebude žádné území dost a chce Ukrajinu zničit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/eu-nezrusi-sankce-vuci-rusku-dokud-moskva-neukonci-valku-na-ukrajine-rekla-von-der-leyenova-1436609"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2221807/na-lidry-eu-roste-tlak-aby-se-na-rozpoctu-dohodli-do-prosince-babis-nejdrive-v-unoru/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2221956/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222128/"
+        }
+      ],
+      "en": {
+        "headline": "EU leaders rejected the Irish budget proposal and a new compromise is to come by December",
+        "sentences": [
+          {
+            "en": "European Union leaders in Brussels rejected the Irish proposal for changes to the Union budget for 2028 to 2034.",
+            "cs": "Lídři Evropské unie v Bruselu odmítli irský návrh úprav unijního rozpočtu na roky 2028 až 2034."
+          },
+          {
+            "en": "European Council President António Costa was tasked with putting forward a new compromise proposal before the leaders meet again on 26 November, with the aim of reaching a deal at the December summit.",
+            "cs": "Předseda Evropské rady António Costa dostal za úkol předložit nový kompromisní návrh ještě předtím, než se lídři znovu sejdou 26. listopadu, s cílem dosáhnout dohody na prosincovém summitu."
+          },
+          {
+            "en": "Prime Minister Babiš talks about February or March, while President Macron warned that after the New Year a deal will no longer be possible because of the approaching French elections.",
+            "cs": "Premiér Babiš mluví o únoru nebo březnu, prezident Macron naopak varoval, že po Novém roce už kvůli blížícím se francouzským volbám dohoda možná nebude."
+          },
+          {
+            "en": "European Commission head von der Leyenová said at the summit that the Union will not lift sanctions against Russia until Moscow ends the war in Ukraine.",
+            "cs": "Šéfka Evropské komise von der Leyenová na summitu řekla, že unie nezruší sankce vůči Rusku, dokud Moskva neukončí válku na Ukrajině."
+          },
+          {
+            "en": "Zelenskyj said, according to E15, that Russia does not want to end the war, and thanked the European Union for its support; after the talks he added that no amount of territory will be enough for Russian President Vladimir Putin, who wants to destroy Ukraine.",
+            "cs": "Zelenskyj podle E15 řekl, že Rusko válku ukončit nechce, a Evropské unii poděkoval za podporu; po jednání dodal, že ruskému prezidentu Vladimiru Putinovi nebude žádné území dost a chce Ukrajinu zničit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tasked with",
+            "definition": "given a job to do"
+          },
+          {
+            "term": "putting forward",
+            "definition": "offering an idea or plan for others to consider"
+          },
+          {
+            "term": "lift sanctions",
+            "definition": "to end official punishments against a country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:41",
+      "headline": "Summit EU na tlak Česka a dalších zemí žádá nové vyhodnocení povolenek ETS2",
+      "body": "Několika členským státům Evropské unie včetně Česka se podařilo dostat do závěrů summitu novou výzvu Evropské komisi, aby znovu vyhodnotila dopady systému emisních povolenek ETS2. Evropská rada podle závěrů prvního dne jednání také výslovně zdůraznila, že v rámci přezkumu systému ETS je třeba omezit kolísání cen povolenek a zmírnit jejich dopad na ceny elektřiny. Podle iROZHLAS premiér Babiš na summitu vzkázal, že kdo prosazuje ETS2, prohraje volby.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/kdo-prosazuje-ets2-prohraje-volby-vzkazal-babis-na-summitu-v4-zada-nove_2610161241_kch"
+        }
+      ],
+      "en": {
+        "headline": "Under pressure from Czechia and other countries, the EU summit is calling for a fresh assessment of ETS2 allowances",
+        "sentences": [
+          {
+            "en": "Several European Union member states, Czechia among them, managed to get a new call on the European Commission into the summit conclusions, asking it to reassess the impact of the ETS2 emission allowance system.",
+            "cs": "Několika členským státům Evropské unie včetně Česka se podařilo dostat do závěrů summitu novou výzvu Evropské komisi, aby znovu vyhodnotila dopady systému emisních povolenek ETS2."
+          },
+          {
+            "en": "According to the conclusions of the first day of talks, the European Council also explicitly stressed that the review of the ETS system must limit the volatility of allowance prices and soften their impact on electricity prices.",
+            "cs": "Evropská rada podle závěrů prvního dne jednání také výslovně zdůraznila, že v rámci přezkumu systému ETS je třeba omezit kolísání cen povolenek a zmírnit jejich dopad na ceny elektřiny."
+          },
+          {
+            "en": "According to iROZHLAS, Prime Minister Babiš told the summit that whoever pushes ETS2 will lose elections.",
+            "cs": "Podle iROZHLAS premiér Babiš na summitu vzkázal, že kdo prosazuje ETS2, prohraje volby."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "emission allowance",
+            "definition": "a permit that lets a company release a set amount of pollution"
+          },
+          {
+            "term": "reassess",
+            "definition": "to judge something again"
+          },
+          {
+            "term": "volatility",
+            "definition": "the tendency to change quickly and unpredictably"
+          },
+          {
+            "term": "soften",
+            "definition": "to make something less strong or harsh"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:36",
+      "headline": "Bulharsko požádalo NATO o letadla a protidronové systémy",
+      "body": "Bulharsko po útocích na lodě v Černém moři oficiálně požádalo NATO o nasazení letadel a protidronových systémů. V úterý byla zasažena dvě plavidla, jedno z nich se potopilo. Bulharské ministerstvo zahraničí si předvolalo ruského velvyslance.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222001/"
+        }
+      ],
+      "en": {
+        "headline": "Bulgaria has asked NATO for aircraft and counter-drone systems",
+        "sentences": [
+          {
+            "en": "After the attacks on ships in the Black Sea, Bulgaria has officially asked NATO to deploy aircraft and counter-drone systems.",
+            "cs": "Bulharsko po útocích na lodě v Černém moři oficiálně požádalo NATO o nasazení letadel a protidronových systémů."
+          },
+          {
+            "en": "Two vessels were hit on Tuesday and one of them sank.",
+            "cs": "V úterý byla zasažena dvě plavidla, jedno z nich se potopilo."
+          },
+          {
+            "en": "The Bulgarian foreign ministry summoned the Russian ambassador.",
+            "cs": "Bulharské ministerstvo zahraničí si předvolalo ruského velvyslance."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deploy",
+            "definition": "to move forces or equipment into position for use"
+          },
+          {
+            "term": "vessels",
+            "definition": "ships or large boats"
+          },
+          {
+            "term": "summoned",
+            "definition": "officially ordered someone to come"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:44",
+      "headline": "Záplavy v Istanbulu si vyžádaly čtyři životy",
+      "body": "Počet obětí rozsáhlých záplav v Istanbulu stoupl na čtyři. Podle tureckého ministra vnitra šlo o nejhorší povodně za více než 80 let.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222179/"
+        }
+      ],
+      "en": {
+        "headline": "The floods in Istanbul have claimed four lives",
+        "sentences": [
+          {
+            "en": "The death toll from the extensive floods in Istanbul has risen to four.",
+            "cs": "Počet obětí rozsáhlých záplav v Istanbulu stoupl na čtyři."
+          },
+          {
+            "en": "According to the Turkish interior minister, these were the worst floods in more than 80 years.",
+            "cs": "Podle tureckého ministra vnitra šlo o nejhorší povodně za více než 80 let."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "death toll",
+            "definition": "the number of people killed in an event"
+          },
+          {
+            "term": "extensive",
+            "definition": "covering a large area or amount"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:52",
+      "headline": "Český státní dluh stoupl na rekordních 3,882 bilionu korun",
+      "body": "Český státní dluh za první tři čtvrtletí letošního roku vzrostl o 204,6 miliardy korun na rekordních 3,882 bilionu. Na každého obyvatele tak teoreticky připadá dluh 356 046 korun. Míra zadlužení dosáhla na konci třetího čtvrtletí 43,9 procenta hrubého domácího produktu, na počátku roku to bylo 42,9 procenta. Ministerstvo financí uvedlo, že za růstem stojí prodej státních dluhopisů; jen na obsluhu dluhu má podle E15 letos padnout 110 miliard korun.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-cesky-statni-dluh-vzrostl-je-na-rekordnich-39-bilionech-korun-318075"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/kazdy-cech-dluzi-v-prepoctu-356-tisic-korun-statni-dluh-vystoupal-na-novy-rekord-1436621"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222383/"
+        }
+      ],
+      "en": {
+        "headline": "The Czech state debt has risen to a record 3.882 trillion crowns",
+        "sentences": [
+          {
+            "en": "In the first three quarters of this year the Czech state debt grew by 204.6 billion crowns to a record 3.882 trillion.",
+            "cs": "Český státní dluh za první tři čtvrtletí letošního roku vzrostl o 204,6 miliardy korun na rekordních 3,882 bilionu."
+          },
+          {
+            "en": "In theory that is a debt of 356,046 crowns for every inhabitant.",
+            "cs": "Na každého obyvatele tak teoreticky připadá dluh 356 046 korun."
+          },
+          {
+            "en": "At the end of the third quarter the debt ratio reached 43.9 percent of gross domestic product, compared with 42.9 percent at the start of the year.",
+            "cs": "Míra zadlužení dosáhla na konci třetího čtvrtletí 43,9 procenta hrubého domácího produktu, na počátku roku to bylo 42,9 procenta."
+          },
+          {
+            "en": "The Ministry of Finance said the growth is down to sales of government bonds; servicing the debt alone is set to cost 110 billion crowns this year, according to E15.",
+            "cs": "Ministerstvo financí uvedlo, že za růstem stojí prodej státních dluhopisů; jen na obsluhu dluhu má podle E15 letos padnout 110 miliard korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "debt ratio",
+            "definition": "how big a debt is compared with income or output"
+          },
+          {
+            "term": "government bonds",
+            "definition": "loans that people give the state in return for interest"
+          },
+          {
+            "term": "servicing",
+            "definition": "paying the interest and costs on a debt"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:24",
+      "headline": "Inflace v EU v září zrychlila na 3,8 procenta, Česko mělo čtvrtou nejnižší",
+      "body": "Míra inflace v Evropské unii v září vzrostla na 3,8 procenta ze srpnového tempa 3,2 procenta, potvrdil Eurostat. V Česku dosáhla 2,2 procenta a byla čtvrtá nejnižší v unii.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2221930/"
+        }
+      ],
+      "en": {
+        "headline": "EU inflation accelerated to 3.8 percent in September and Czechia had the fourth lowest rate",
+        "sentences": [
+          {
+            "en": "The inflation rate in the European Union picked up in September to 3.8 percent from 3.2 percent in August, Eurostat confirmed.",
+            "cs": "Míra inflace v Evropské unii v září vzrostla na 3,8 procenta ze srpnového tempa 3,2 procenta, potvrdil Eurostat."
+          },
+          {
+            "en": "In Czechia it reached 2.2 percent, the fourth lowest in the Union.",
+            "cs": "V Česku dosáhla 2,2 procenta a byla čtvrtá nejnižší v unii."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "inflation rate",
+            "definition": "how fast prices are going up"
+          },
+          {
+            "term": "picked up",
+            "definition": "increased or got faster"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:00",
+      "headline": "Po vojácích má přidat i policii, příslušníci sborů mají brát přes 65 tisíc",
+      "body": "Příslušníci bezpečnostních sborů mají podle E15 do tří let brát v průměru přes 65 tisíc korun. Chystá se také další růst platů v armádě, o jeho konkrétní výši má ještě letos rozhodnout vláda. Cílem ministra obrany Zůny je nabírat až čtyři tisíce nových vojákyň a vojáků ročně.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/vojaci-dostali-pridano-ted-je-na-rade-policie-armada-uz-planuje-dalsi-krok-1436604"
+        }
+      ],
+      "en": {
+        "headline": "After soldiers it is the police's turn, with security corps members set to earn over 65 thousand",
+        "sentences": [
+          {
+            "en": "Members of the security corps are set to earn an average of over 65 thousand crowns within three years, according to E15.",
+            "cs": "Příslušníci bezpečnostních sborů mají podle E15 do tří let brát v průměru přes 65 tisíc korun."
+          },
+          {
+            "en": "A further pay rise in the army is also being prepared, and the government is to decide on the exact amount this year.",
+            "cs": "Chystá se také další růst platů v armádě, o jeho konkrétní výši má ještě letos rozhodnout vláda."
+          },
+          {
+            "en": "Defence Minister Zůna's goal is to recruit up to four thousand new soldiers a year.",
+            "cs": "Cílem ministra obrany Zůny je nabírat až čtyři tisíce nových vojákyň a vojáků ročně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "security corps",
+            "definition": "the armed services such as police and firefighters"
+          },
+          {
+            "term": "pay rise",
+            "definition": "an increase in how much someone is paid"
+          },
+          {
+            "term": "recruit",
+            "definition": "to get new people to join an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:55",
+      "headline": "Čína plánuje omezit vývoz technologií spojených s umělou inteligencí",
+      "body": "Vývoz produktů čínských firem, které se zabývají umělou inteligencí, zřejmě omezí vláda v Pekingu. Podle Seznam Zpráv chce mít větší dohled nad tím, kam a ke komu se jejich technologie dostanou.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-cina-planuje-omezit-vyvoz-technologii-spojenych-s-umelou-inteligenci-318067"
+        }
+      ],
+      "en": {
+        "headline": "China plans to restrict exports of technology linked to artificial intelligence",
+        "sentences": [
+          {
+            "en": "Exports of products from Chinese firms working on artificial intelligence are likely to be restricted by the government in Beijing.",
+            "cs": "Vývoz produktů čínských firem, které se zabývají umělou inteligencí, zřejmě omezí vláda v Pekingu."
+          },
+          {
+            "en": "According to Seznam Zprávy it wants greater oversight of where and to whom their technology ends up.",
+            "cs": "Podle Seznam Zpráv chce mít větší dohled nad tím, kam a ke komu se jejich technologie dostanou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "restricted",
+            "definition": "limited or controlled by rules"
+          },
+          {
+            "term": "oversight",
+            "definition": "the job of watching something to check it is done properly"
+          },
+          {
+            "term": "ends up",
+            "definition": "finally arrives somewhere"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "19:47",
+      "day": "prev",
+      "headline": "Meta představila otevřený model Muse Spark Open",
+      "body": "Meta představila nový otevřený model Muse Spark Open. Podrobnosti firma zveřejnila na svém výzkumném blogu, samotný model je ke stažení na Hugging Face.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
+        }
+      ],
+      "en": {
+        "headline": "Meta has unveiled the open model Muse Spark Open",
+        "sentences": [
+          {
+            "en": "Meta has unveiled a new open model called Muse Spark Open.",
+            "cs": "Meta představila nový otevřený model Muse Spark Open."
+          },
+          {
+            "en": "The company set out the details on its research blog, and the model itself is available to download on Hugging Face.",
+            "cs": "Podrobnosti firma zveřejnila na svém výzkumném blogu, samotný model je ke stažení na Hugging Face."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unveiled",
+            "definition": "showed something to the public for the first time"
+          },
+          {
+            "term": "set out",
+            "definition": "explained something in an organised way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:30",
+      "headline": "ChatGPT začal k odpovědím zobrazovat reklamu a e-shopům otevírá nový kanál",
+      "body": "Dotazy uživatelů začal ChatGPT doprovázet reklamou, která se podle Seznam Zpráv často neshoduje s doporučením chatbotu. Pro e-shopy se sice otevírá nový kanál, jak oslovit zákazníky, inzerce ale nezaručuje, že chatbot daný obchod doporučí.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-chatgpt-otevira-e-shopum-novy-reklamni-kanal-muze-ovsem-nahrat-konkurenci-317935"
+        }
+      ],
+      "en": {
+        "headline": "ChatGPT has started showing ads alongside its answers, opening a new channel for e-shops",
+        "sentences": [
+          {
+            "en": "ChatGPT has begun accompanying users' queries with advertising which, according to Seznam Zprávy, often does not match the chatbot's own recommendation.",
+            "cs": "Dotazy uživatelů začal ChatGPT doprovázet reklamou, která se podle Seznam Zpráv často neshoduje s doporučením chatbotu."
+          },
+          {
+            "en": "A new channel for reaching customers is opening up for e-shops, but the advertising does not guarantee that the chatbot will recommend the shop in question.",
+            "cs": "Pro e-shopy se sice otevírá nový kanál, jak oslovit zákazníky, inzerce ale nezaručuje, že chatbot daný obchod doporučí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "queries",
+            "definition": "questions, especially ones typed into a computer"
+          },
+          {
+            "term": "accompanying",
+            "definition": "going together with something else"
+          },
+          {
+            "term": "in question",
+            "definition": "the one being talked about"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "18:16",
+      "day": "prev",
+      "headline": "V Hamburku začal proces s Ukrajincem obviněným ze zničení Nord Streamu",
+      "body": "Po čtyřech letech stanul před soudem v německém Hamburku Ukrajinec Serhij Kuzněcov, kterého německé úřady obviňují ze zničení plynovodu Nord Stream v roce 2022. Podle obžaloby vedl padesátiletý muž sabotážní tým, který vyhodil do vzduchu oba plynovody přepravující ruský plyn do Německa. Deník N píše, že jde o největší sabotáž v poválečném Německu, a ptá se, zda šlo o válečný zločin, nebo legitimní protiútok.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2219376/proces-s-nicitelem-nord-streamu-zacal-byl-to-valecny-zlocin-nebo-legitimni-protiutok/"
+        }
+      ],
+      "en": {
+        "headline": "The trial of the Ukrainian accused of destroying Nord Stream has opened in Hamburg",
+        "sentences": [
+          {
+            "en": "After four years, the Ukrainian Serhij Kuzněcov, whom the German authorities accuse of destroying the Nord Stream pipeline in 2022, has gone on trial in Hamburg, Germany.",
+            "cs": "Po čtyřech letech stanul před soudem v německém Hamburku Ukrajinec Serhij Kuzněcov, kterého německé úřady obviňují ze zničení plynovodu Nord Stream v roce 2022."
+          },
+          {
+            "en": "According to the indictment the fifty-year-old man led a sabotage team that blew up both pipelines carrying Russian gas to Germany.",
+            "cs": "Podle obžaloby vedl padesátiletý muž sabotážní tým, který vyhodil do vzduchu oba plynovody přepravující ruský plyn do Německa."
+          },
+          {
+            "en": "Deník N writes that this is the biggest act of sabotage in post-war Germany and asks whether it was a war crime or a legitimate counter-attack.",
+            "cs": "Deník N píše, že jde o největší sabotáž v poválečném Německu, a ptá se, zda šlo o válečný zločin, nebo legitimní protiútok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "indictment",
+            "definition": "an official written accusation of a crime"
+          },
+          {
+            "term": "blew up",
+            "definition": "destroyed something with an explosion"
+          },
+          {
+            "term": "legitimate",
+            "definition": "allowed by law, or fair and reasonable"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:02",
+      "day": "prev",
+      "headline": "Sparta v Evropské lize remizovala, Plzeň i Jablonec prohrály",
+      "body": "Sparta vedla na Letné nad norským Lillströmem 1:0, hosté ale v nastaveném čase vyrovnali na konečných 1:1. Plzeň prohrála v Budapešti s Ferencvárosem a po dvou zápasech ligové fáze Evropské ligy je stále bez bodu. Jablonec vstoupil do Konferenční ligy porážkou 2:3 na hřišti Freiburgu.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sparta-v-evropske-lize-prisla-o-vyhru-v-nastavenem-case-159462"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/plzen-bojovala-v-budapesti-s-ferencvarosem-aspon-o-bod-marne-159466"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-bojoval-ale-na-freiburg-to-nestacilo-159467"
+        }
+      ],
+      "en": {
+        "headline": "Sparta drew in the Europa League while Plzeň and Jablonec both lost",
+        "sentences": [
+          {
+            "en": "Sparta led the Norwegian side Lillström 1-0 at Letná, but the visitors equalised in stoppage time for a final score of 1-1.",
+            "cs": "Sparta vedla na Letné nad norským Lillströmem 1:0, hosté ale v nastaveném čase vyrovnali na konečných 1:1."
+          },
+          {
+            "en": "Plzeň lost in Budapest to Ferencváros and after two matches of the Europa League's league phase is still without a point.",
+            "cs": "Plzeň prohrála v Budapešti s Ferencvárosem a po dvou zápasech ligové fáze Evropské ligy je stále bez bodu."
+          },
+          {
+            "en": "Jablonec opened its Conference League campaign with a 2-3 defeat at Freiburg.",
+            "cs": "Jablonec vstoupil do Konferenční ligy porážkou 2:3 na hřišti Freiburgu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "equalised",
+            "definition": "scored to make the scores level"
+          },
+          {
+            "term": "stoppage time",
+            "definition": "extra minutes added at the end of a half"
+          },
+          {
+            "term": "campaign",
+            "definition": "a team's run of matches in one competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:43",
+      "day": "prev",
+      "headline": "Schick dvěma penaltami pomohl Leverkusenu k výhře 4:0 v Poznani",
+      "body": "Patrik Schick proměnil v Poznani do poločasu dvě penalty a Leverkusen vyhrál v ligové fázi Evropské ligy 4:0. Podle Sport.cz se stal prvním fotbalistou v historii soutěže, který přišel do zápasu jako střídající hráč, vstřelil dvě branky a ještě byl z preventivních důvodů vystřídán. Pavel Šulc nastoupil za Lyon v 70. minutě a o šest minut později rozhodl gólem o výhře 3:2 nad Crystal Palace.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/schickovy-penalty-srazily-poznan-sulc-dal-vitezny-gol-lyonu-159463"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-evropska-liga-schick-napodobil-legendu-manchesteru-united-zapsal-do-historie-evropske-ligy-5556331"
+        }
+      ],
+      "en": {
+        "headline": "Schick's two penalties helped Leverkusen to a 4-0 win in Poznań",
+        "sentences": [
+          {
+            "en": "Patrik Schick converted two penalties before half-time in Poznań and Leverkusen won 4-0 in the league phase of the Europa League.",
+            "cs": "Patrik Schick proměnil v Poznani do poločasu dvě penalty a Leverkusen vyhrál v ligové fázi Evropské ligy 4:0."
+          },
+          {
+            "en": "According to Sport.cz he became the first footballer in the competition's history to come on as a substitute, score two goals and then be taken off as a precaution.",
+            "cs": "Podle Sport.cz se stal prvním fotbalistou v historii soutěže, který přišel do zápasu jako střídající hráč, vstřelil dvě branky a ještě byl z preventivních důvodů vystřídán."
+          },
+          {
+            "en": "Pavel Šulc came on for Lyon in the 70th minute and six minutes later his goal settled a 3-2 win over Crystal Palace.",
+            "cs": "Pavel Šulc nastoupil za Lyon v 70. minutě a o šest minut později rozhodl gólem o výhře 3:2 nad Crystal Palace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "converted",
+            "definition": "successfully scored from a penalty or chance"
+          },
+          {
+            "term": "substitute",
+            "definition": "a player who comes on to replace another"
+          },
+          {
+            "term": "as a precaution",
+            "definition": "done to stop something bad from happening"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:48",
+      "day": "prev",
+      "headline": "Hokejisté Hradce vyhráli v Litvínově 4:1 a posunuli se na třetí místo",
+      "body": "Mountfield otočil v předehrávce 11. kola extraligy duel v Litvínově na 4:1, dvěma góly se o to postaral Lukáš Radil. Domácí poslal do vedení premiérovou trefou obránce Stanislav Svozil, čerstvá posila z Komety, pak ale skóre otočili Radil a Tamáši. Východočeši vyhráli pátý z posledních šesti zápasů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hokej/extraliga/11-kolo-predehravka-online-zpravodajstvi.A261015_123803_hokej_ivt#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/903161-hradec-uz-je-treti-v-litvinove-otocil-zapas-a-vyhral-4-1.html"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/vitezstvi-hradce-ridil-dvougolovy-radil-litvinovu-nestacil-trefa-posily-svozila-159461"
+        }
+      ],
+      "en": {
+        "headline": "Hradec's hockey players won 4-1 in Litvínov and moved up to third place",
+        "sentences": [
+          {
+            "en": "Mountfield turned the game in Litvínov around to win 4-1 in the early match of the 11th round of the extraliga, with Lukáš Radil scoring twice.",
+            "cs": "Mountfield otočil v předehrávce 11. kola extraligy duel v Litvínově na 4:1, dvěma góly se o to postaral Lukáš Radil."
+          },
+          {
+            "en": "Defenceman Stanislav Svozil, a fresh signing from Kometa, put the hosts ahead with his first goal for the club, but Radil and Tamáši then turned the score around.",
+            "cs": "Domácí poslal do vedení premiérovou trefou obránce Stanislav Svozil, čerstvá posila z Komety, pak ale skóre otočili Radil a Tamáši."
+          },
+          {
+            "en": "The East Bohemians have won five of their last six matches.",
+            "cs": "Východočeši vyhráli pátý z posledních šesti zápasů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "Defenceman",
+            "definition": "a player whose main job is to stop the other team scoring"
+          },
+          {
+            "term": "signing",
+            "definition": "a player a club has just brought in"
+          },
+          {
+            "term": "hosts",
+            "definition": "the team playing at its own ground"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:23",
+      "headline": "Chytil bodoval při prvním startu v sezoně, Vejmelka vychytal výhru v Edmontonu",
+      "body": "Filip Chytil se poprvé v sezoně objevil v sestavě Vancouveru a u druhého gólu si připsal asistenci, Canucks ale prohráli na ledě Floridy 2:3 v prodloužení. Hattrickem se o to postaral Brady Tkachuk, který nastřílel tři góly ve druhém utkání za sebou. Brankář Utahu Karel Vejmelka si připsal 22 zákroků proti Edmontonu a po výhře 4:2 byl zvolen třetí hvězdou zápasu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/chytil-pri-prvnim-startu-v-sezone-bodoval-tkachuk-nastrilel-podruhe-v-rade-hattrick-159468"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-navrat-chytila-do-nhl-s-prihravkou-a-porazkou-v-prodlouzeni-5556320"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-vamos-karlos-mcdavid-ostrouhal-vejmelka-se-znovu-dere-na-spici-nhl-5556342"
+        }
+      ],
+      "en": {
+        "headline": "Chytil picked up a point on his first start of the season and Vejmelka's goaltending secured a win in Edmonton",
+        "sentences": [
+          {
+            "en": "Filip Chytil appeared in Vancouver's line-up for the first time this season and picked up an assist on the second goal, but the Canucks lost 2-3 in overtime on Florida's ice.",
+            "cs": "Filip Chytil se poprvé v sezoně objevil v sestavě Vancouveru a u druhého gólu si připsal asistenci, Canucks ale prohráli na ledě Floridy 2:3 v prodloužení."
+          },
+          {
+            "en": "Brady Tkachuk saw to that with a hat-trick, scoring three goals in his second game in a row.",
+            "cs": "Hattrickem se o to postaral Brady Tkachuk, který nastřílel tři góly ve druhém utkání za sebou."
+          },
+          {
+            "en": "Utah goalie Karel Vejmelka made 22 saves against Edmonton and after the 4-2 win was named the game's third star.",
+            "cs": "Brankář Utahu Karel Vejmelka si připsal 22 zákroků proti Edmontonu a po výhře 4:2 byl zvolen třetí hvězdou zápasu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "line-up",
+            "definition": "the list of players chosen for a game"
+          },
+          {
+            "term": "overtime",
+            "definition": "extra playing time used to decide a tied game"
+          },
+          {
+            "term": "hat-trick",
+            "definition": "three goals scored by one player in a game"
+          },
+          {
+            "term": "saves",
+            "definition": "stops made by a goalkeeper"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:40",
+      "headline": "Ševčíková byla na mistrovství světa dráhařů devátá v omniu, Němcovou vyřadil otřes mozku",
+      "body": "Petra Ševčíková obsadila na mistrovství světa dráhových cyklistů v Šanghaji deváté místo v omniu a vyrovnala tím své maximum v této disciplíně. Vyhrála Britka Anna Morrisová. Barbora Němcová musela šampionát předčasně ukončit kvůli otřesu mozku, který utrpěla ve čtvrtek při pádu ve vylučovacím závodě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/kilometr-opet-neumi-nikdo-tak-jako-hoogland-devate-misto-z-omnia-zopakovala-sevcikova-159475"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/cyklistika-sevcikova-na-ms-zopakovala-devate-misto-nizozemec-prepsal-historii-5556367"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/cyklistika-pohroma-pro-ceskou-cyklistku-na-ms-pri-padu-utrpela-otres-mozku-na-sampionatu-konci-5556338"
+        }
+      ],
+      "en": {
+        "headline": "Ševčíková finished ninth in the omnium at the track cycling world championships and a concussion ruled Němcová out",
+        "sentences": [
+          {
+            "en": "Petra Ševčíková took ninth place in the omnium at the track cycling world championships in Shanghai, matching her best result in the discipline.",
+            "cs": "Petra Ševčíková obsadila na mistrovství světa dráhových cyklistů v Šanghaji deváté místo v omniu a vyrovnala tím své maximum v této disciplíně."
+          },
+          {
+            "en": "Britain's Anna Morrisová won.",
+            "cs": "Vyhrála Britka Anna Morrisová."
+          },
+          {
+            "en": "Barbora Němcová had to end her championships early because of a concussion she suffered on Thursday in a fall during the elimination race.",
+            "cs": "Barbora Němcová musela šampionát předčasně ukončit kvůli otřesu mozku, který utrpěla ve čtvrtek při pádu ve vylučovacím závodě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "omnium",
+            "definition": "a track cycling event made up of several races"
+          },
+          {
+            "term": "concussion",
+            "definition": "a brain injury caused by a blow to the head"
+          },
+          {
+            "term": "elimination race",
+            "definition": "a race where the last rider is removed after each lap"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:57",
+      "headline": "Košárková získala na mistrovství světa v pump tracku stříbro",
+      "body": "Sabina Košárková nedokázala po dvou titulech mistryně světa v cyklistické disciplíně pump track završit vítězný hattrick. Na šampionátu v Pekingu ji ve finálovém kole těsně předčila Švýcarka Nadine Aeberhardová.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/cyklistika-kosarkova-zlaty-hattrick-nezavrsila-na-ms-v-pump-tracku-byla-druha-5556371"
+        }
+      ],
+      "en": {
+        "headline": "Košárková took silver at the pump track world championships",
+        "sentences": [
+          {
+            "en": "Sabina Košárková could not complete a winning hat-trick after two world titles in the cycling discipline of pump track.",
+            "cs": "Sabina Košárková nedokázala po dvou titulech mistryně světa v cyklistické disciplíně pump track završit vítězný hattrick."
+          },
+          {
+            "en": "At the championships in Beijing she was narrowly beaten in the final round by Switzerland's Nadine Aeberhardová.",
+            "cs": "Na šampionátu v Pekingu ji ve finálovém kole těsně předčila Švýcarka Nadine Aeberhardová."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hat-trick",
+            "definition": "three wins or goals in a row by the same person"
+          },
+          {
+            "term": "narrowly",
+            "definition": "by only a very small amount"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The second round of the Senate elections has begun in twenty-two districts, and in the first hours fewer than ten percent of voters came to choose their senators.",
+    "Trump is pressing Kyiv to stop attacking Russian refineries, and Zelenskyj openly admits his disappointment with the White House.",
+    "European Union leaders rejected the Irish proposal for the Union budget for 2028 to 2034, and a new compromise is to come before the December summit.",
+    "The Czech state debt has risen to a record 3.882 trillion crowns, which in theory means 356,046 crowns for every inhabitant."
+  ]
+}
