@@ -1,0 +1,1430 @@
+{
+  "date": "2026-10-17",
+  "covers": "2026-10-17",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "iROZHLAS",
+    "E15",
+    "Seznam Zprávy",
+    "Deník N",
+    "Hradecká drbna",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hacker News",
+    "Sport.cz",
+    "ČT Sport"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra se bude držet mlha, přes den bude až 15,7 °C a srážky nečekejte. Kvalita ovzduší zůstane zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-18",
+        "icon": "fog",
+        "temp_max_c": 15.7,
+        "temp_min_c": 8.8
+      },
+      {
+        "date": "2026-10-19",
+        "icon": "cloudy",
+        "temp_max_c": 11.4,
+        "temp_min_c": 3.4
+      },
+      {
+        "date": "2026-10-20",
+        "icon": "cloudy",
+        "temp_max_c": 11.9,
+        "temp_min_c": 3.0
+      },
+      {
+        "date": "2026-10-21",
+        "icon": "rain",
+        "temp_max_c": 13.2,
+        "temp_min_c": 8.4
+      }
+    ],
+    "summary_en": "Fog will linger tomorrow, the daytime temperature will reach 15.7 °C and no rain is expected. Air quality will remain poor."
+  },
+  "highlights": [
+    "Druhé kolo senátních voleb vyhráli Starostové s deseti mandáty, vládní hnutí ANO nezískalo ani jeden.",
+    "Senátorkou za Hradec Králové bude Zuzana Ceralová Petrofová, která porazila Martina Dvořáka.",
+    "Francií se prohnaly protesty proti zdražování, policie zadržela stovky lidí.",
+    "Donald Trump pozastavil nový balík protiruských sankcí krátce předtím, než měl začít platit."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:57",
+      "headline": "Senátní volby vyhrál STAN, hnutí ANO nezískalo ani jeden mandát",
+      "body": "Druhé kolo senátních voleb skončilo v sobotu ve 14 hodin a pro vládní hnutí ANO dopadlo nejhůř v jeho historii: ze třinácti finalistů neuspěl ani jeden a hnutí v horní komoře dokonce o křeslo přišlo, protože jedno obhajovalo. Vítězem jsou Starostové a nezávislí, kteří spolu se Starosty pro Liberecký kraj ovládli senátní volby po šesti letech, zvoleno bylo deset z jejich čtrnácti kandidátů a dva z nich už v prvním kole. ODS získala sedm mandátů, z toho pět obhajovala, lidovci mají tři a TOP 09 dva. Senát tak zůstává baštou opozice vůči vládě ANO, SPD a Motoristů. Nejcitelnější porážku utrpělo ANO na Karvinsku, kde jeho kandidátku Lenku Brzyszkowskou porazil nezávislý ředitel Slezského divadla Petr Kazík. První místopředseda ANO Karel Havlíček označil v České televizi výsledek za neúspěch slovy „Nula je špatně“, zároveň ale míní, že se v Senátu příliš nezmění a všechny kluby zůstanou zhruba na svých pozicích. Předseda STAN Vít Rakušan mluvil o zisku, který je absolutně nad očekávání. Podle ČTK je Andrej Babiš po Stanislavu Grossovi druhým premiérem, jehož politickému uskupení se v senátních volbách nepodařilo získat jediný mandát.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/skoncilo-druhe-kolo-senatnich-voleb-komise-zacinaji-scitat-hlasy-378705"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/nejhorsi-senatni-volby-v-historii-ano-babisovo-hnuti-bylo-v-nejlepsi-pozici-ale_2610171657_mst"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/vitezem-senatnich-voleb-jsou-starostove-ano-neziskalo-jediny-mandat-pirati-zcela-vypadli-1436629"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-do-senatu-hnuti-ano-zklamala-basta-starostove-mohou-slavit-uspech-318111"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2223074/sef-divadla-porazil-favoritku-z-ano-uspech-je-slabe-slovo-hodnoti-svou-vyhru/"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "STAN won the Senate elections and ANO did not take a single seat",
+        "sentences": [
+          {
+            "en": "The second round of the Senate elections closed at 2 p.m. on Saturday and it was the worst result in the history of the governing ANO movement: not one of its thirteen finalists succeeded, and the movement even lost a seat in the upper house, because it was defending one.",
+            "cs": "Druhé kolo senátních voleb skončilo v sobotu ve 14 hodin a pro vládní hnutí ANO dopadlo nejhůř v jeho historii: ze třinácti finalistů neuspěl ani jeden a hnutí v horní komoře dokonce o křeslo přišlo, protože jedno obhajovalo."
+          },
+          {
+            "en": "The winners are the Mayors and Independents, who together with the Mayors for the Liberec Region took the Senate elections for the first time in six years; ten of their fourteen candidates were elected, two of them already in the first round.",
+            "cs": "Vítězem jsou Starostové a nezávislí, kteří spolu se Starosty pro Liberecký kraj ovládli senátní volby po šesti letech, zvoleno bylo deset z jejich čtrnácti kandidátů a dva z nich už v prvním kole."
+          },
+          {
+            "en": "ODS won seven seats, five of which it was defending, the Christian Democrats have three and TOP 09 two.",
+            "cs": "ODS získala sedm mandátů, z toho pět obhajovala, lidovci mají tři a TOP 09 dva."
+          },
+          {
+            "en": "The Senate therefore remains a stronghold of the opposition to the government of ANO, SPD and the Motorists.",
+            "cs": "Senát tak zůstává baštou opozice vůči vládě ANO, SPD a Motoristů."
+          },
+          {
+            "en": "ANO suffered its most painful defeat in the Karviná district, where its candidate Lenka Brzyszkowská was beaten by Petr Kazík, the independent director of the Silesian Theatre.",
+            "cs": "Nejcitelnější porážku utrpělo ANO na Karvinsku, kde jeho kandidátku Lenku Brzyszkowskou porazil nezávislý ředitel Slezského divadla Petr Kazík."
+          },
+          {
+            "en": "ANO's first deputy chair Karel Havlíček called the result a failure on Czech Television, saying “Zero is bad”, while also arguing that little will change in the Senate and that all the caucuses will stay roughly where they were.",
+            "cs": "První místopředseda ANO Karel Havlíček označil v České televizi výsledek za neúspěch slovy „Nula je špatně“, zároveň ale míní, že se v Senátu příliš nezmění a všechny kluby zůstanou zhruba na svých pozicích."
+          },
+          {
+            "en": "STAN chair Vít Rakušan spoke of a result that was absolutely beyond expectations.",
+            "cs": "Předseda STAN Vít Rakušan mluvil o zisku, který je absolutně nad očekávání."
+          },
+          {
+            "en": "According to the ČTK news agency, Andrej Babiš is, after Stanislav Gross, the second prime minister whose political grouping failed to win a single seat in a Senate election.",
+            "cs": "Podle ČTK je Andrej Babiš po Stanislavu Grossovi druhým premiérem, jehož politickému uskupení se v senátních volbách nepodařilo získat jediný mandát."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stronghold",
+            "definition": "a place or group that strongly supports and protects an idea or party"
+          },
+          {
+            "term": "defending",
+            "definition": "trying to keep a position or title that you already hold"
+          },
+          {
+            "term": "caucuses",
+            "definition": "groups of politicians from the same party who work together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:23",
+      "headline": "Piráti přišli o jediné křeslo v Senátu",
+      "body": "Jediná pirátská finalistka Adéla Sucharda Šípová neobhájila mandát v obvodu Kladno, kde o 723 hlasů zvítězil kandidát ODS Petr Paták. Šlo o nejtěsnější souboj celého druhého kola. Šípová vidí příčinu v nízké účasti: „Spousta mých voličů, kteří mi dali svůj hlas před týdnem, už k urnám nedorazila,“ řekla Radiožurnálu. Předseda Pirátů Zdeněk Hřib porážky lituje, zároveň ale uvítal, že v horní komoře zůstává jasná převaha opozičních stran.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223042/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/konec-v-senatu-me-mrzi-spousta-mych-volicu-nevedela-o-druhem-kole-a-k-urnam_2610171623_mst"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2222946/"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "The Pirates lost their only seat in the Senate",
+        "sentences": [
+          {
+            "en": "The Pirates' only finalist, Adéla Sucharda Šípová, failed to defend her seat in the Kladno district, where the ODS candidate Petr Paták won by 723 votes.",
+            "cs": "Jediná pirátská finalistka Adéla Sucharda Šípová neobhájila mandát v obvodu Kladno, kde o 723 hlasů zvítězil kandidát ODS Petr Paták."
+          },
+          {
+            "en": "It was the closest contest of the whole second round.",
+            "cs": "Šlo o nejtěsnější souboj celého druhého kola."
+          },
+          {
+            "en": "Šípová blames the low turnout: “A lot of my voters who gave me their vote a week ago simply did not come to the polls,” she told Radiožurnál.",
+            "cs": "Šípová vidí příčinu v nízké účasti: „Spousta mých voličů, kteří mi dali svůj hlas před týdnem, už k urnám nedorazila,“ řekla Radiožurnálu."
+          },
+          {
+            "en": "Pirate leader Zdeněk Hřib regrets the defeat, but welcomed the fact that opposition parties keep a clear majority in the upper house.",
+            "cs": "Předseda Pirátů Zdeněk Hřib porážky lituje, zároveň ale uvítal, že v horní komoře zůstává jasná převaha opozičních stran."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to vote in an election"
+          },
+          {
+            "term": "polls",
+            "definition": "the places where people go to vote"
+          },
+          {
+            "term": "contest",
+            "definition": "a competition between two or more people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:35",
+      "headline": "Půta se po zvolení do Senátu vzdá funkce hejtmana i imunity",
+      "body": "Hejtman Libereckého kraje Martin Půta (Starostové pro Liberecký kraj) zvítězil v obvodu Česká Lípa s 55,80 procenta hlasů nad Jitkou Volfovou z ANO a oznámil, že opustí čelo kraje, které vede od roku 2012. Vzdá se také senátorské imunity. Půta je nepravomocně odsouzen v korupční kauze, vinu v ní odmítá. Předsedu Senátu podle Deníku N informoval už před druhým kolem, že v případě zvolení sám požádá o vydání k trestnímu stíhání. „Nechci tu kauzu zdržovat,“ řekl Radiožurnálu.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/liberecky-kraj/puta-se-vzda-funkce-hejtmana-378734"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/nove-zvoleny-senator-puta-pokud-policie-pozada-o-me-vydani-podporim-ho-nechci_2610171615_pik"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223136/"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "After being elected to the Senate, Půta will give up both the regional governor's post and his immunity",
+        "sentences": [
+          {
+            "en": "The governor of the Liberec Region, Martin Půta (Mayors for the Liberec Region), won the Česká Lípa district with 55.80 percent of the vote against Jitka Volfová of ANO and announced that he will leave the head of the region, which he has led since 2012.",
+            "cs": "Hejtman Libereckého kraje Martin Půta (Starostové pro Liberecký kraj) zvítězil v obvodu Česká Lípa s 55,80 procenta hlasů nad Jitkou Volfovou z ANO a oznámil, že opustí čelo kraje, které vede od roku 2012."
+          },
+          {
+            "en": "He will also give up his senatorial immunity.",
+            "cs": "Vzdá se také senátorské imunity."
+          },
+          {
+            "en": "Půta has been convicted in a corruption case in a judgment that is not final, and he denies the charges.",
+            "cs": "Půta je nepravomocně odsouzen v korupční kauze, vinu v ní odmítá."
+          },
+          {
+            "en": "According to Deník N, he informed the Senate chair before the second round that if elected he would himself ask to be handed over for prosecution.",
+            "cs": "Předsedu Senátu podle Deníku N informoval už před druhým kolem, že v případě zvolení sám požádá o vydání k trestnímu stíhání."
+          },
+          {
+            "en": "“I don't want to delay the case,” he told Radiožurnál.",
+            "cs": "„Nechci tu kauzu zdržovat,“ řekl Radiožurnálu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "immunity",
+            "definition": "legal protection that stops someone from being prosecuted"
+          },
+          {
+            "term": "convicted",
+            "definition": "found guilty of a crime by a court"
+          },
+          {
+            "term": "prosecution",
+            "definition": "the process of charging someone with a crime in court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:35",
+      "headline": "Podpora ANO klesla podle Medianu na nejnižší úroveň od května",
+      "body": "Sněmovní volby by v září vyhrálo hnutí ANO s 29,5 procenta hlasů, což je jeho nejslabší výsledek v modelu agentury Median od letošního května. Druhý STAN si polepšil na 17 procent, ODS by získala 12,5 procenta. Do Sněmovny by se podle průzkumu dostaly také SPD, Piráti a těsně Motoristé. Šetření proběhlo ještě před komunálními a senátními volbami, agentura ho zveřejnila ve středu.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/median-snemovni-volby-v-zari-vyhralo-ano-jeho-podpora-je-nejnizsi-od-kvetna_2610171635_kma"
+        }
+      ],
+      "en": {
+        "headline": "Support for ANO has fallen to its lowest level since May, according to Median",
+        "sentences": [
+          {
+            "en": "A parliamentary election in September would have been won by ANO with 29.5 percent of the vote, its weakest showing in the Median agency's model since this May.",
+            "cs": "Sněmovní volby by v září vyhrálo hnutí ANO s 29,5 procenta hlasů, což je jeho nejslabší výsledek v modelu agentury Median od letošního května."
+          },
+          {
+            "en": "STAN came second and improved to 17 percent, while ODS would get 12.5 percent.",
+            "cs": "Druhý STAN si polepšil na 17 procent, ODS by získala 12,5 procenta."
+          },
+          {
+            "en": "According to the survey, SPD, the Pirates and, narrowly, the Motorists would also make it into the Chamber of Deputies.",
+            "cs": "Do Sněmovny by se podle průzkumu dostaly také SPD, Piráti a těsně Motoristé."
+          },
+          {
+            "en": "The polling was carried out before the municipal and Senate elections and the agency published it on Wednesday.",
+            "cs": "Šetření proběhlo ještě před komunálními a senátními volbami, agentura ho zveřejnila ve středu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "showing",
+            "definition": "how well or badly someone performs in a competition or vote"
+          },
+          {
+            "term": "narrowly",
+            "definition": "by only a very small amount"
+          },
+          {
+            "term": "polling",
+            "definition": "the work of asking people about their opinions, especially before an election"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "19:55",
+      "headline": "Babiš odmítl ručit za nové unijní půjčky Ukrajině",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj požádal evropské lídry o dalších sedmdesát miliard eur pro svou napadenou zemi. Premiér Andrej Babiš podle Deníku N za žádné nové peníze pro Ukrajinu ručit nechce.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2222205/nechceme-rucit-za-pujcky-ukrajine-rekl-babis-na-novou-zadost-zelenskeho-o-unijni-miliardy-na-tezky-pristi-rok/"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Babiš refused to guarantee new EU loans to Ukraine",
+        "sentences": [
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyy has asked European leaders for another seventy billion euros for his invaded country.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj požádal evropské lídry o dalších sedmdesát miliard eur pro svou napadenou zemi."
+          },
+          {
+            "en": "According to Deník N, Prime Minister Andrej Babiš does not want to guarantee any new money for Ukraine.",
+            "cs": "Premiér Andrej Babiš podle Deníku N za žádné nové peníze pro Ukrajinu ručit nechce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "guarantee",
+            "definition": "to promise to pay a debt if someone else cannot pay it"
+          },
+          {
+            "term": "invaded",
+            "definition": "entered by force by an enemy army"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:54",
+      "headline": "Senátorkou za Hradec Králové bude Zuzana Ceralová Petrofová",
+      "body": "Manažerka a představitelka společnosti Petrof, která kandidovala jako nestranička s podporou ODS a KDU-ČSL, získala v hradeckém obvodu 60,15 procenta hlasů, tedy 15 002 voličů. Jejího soupeře, bývalého primátora města a exministra Martina Dvořáka (STAN), volilo 39,84 procenta lidí. Účast ve druhém kole byla 24,01 procenta. „Myslím si, že to byla slušnost, s kterou jsem vedla svoji kampaň,“ řekla vítězka Hradeckému deníku. Dvořák podle svých slov s možnou porážkou počítal od začátku, intenzivní kampaně ale nelituje a teď se chce víc věnovat rodině.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/903297-je-rozhodnuto-dvoraka-porazila-ceralova-petrofova.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/nova-senatorka-zuzana-ceralova-petrofova-v-hradci-rozhodla-slusnost/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/senatni-volby-2026-hradecko-vysledky-druhe-kolo-petrofova-dvorak.A261017_150431_hradec-volby_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/volby-martin-dvorak-stan-hradec-kralove-vysledek.A261017_161111_volby_fohl#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "The senator for Hradec Králové will be Zuzana Ceralová Petrofová",
+        "sentences": [
+          {
+            "en": "The manager and figurehead of the Petrof company, who ran as a non-party candidate with the backing of ODS and KDU-ČSL, took 60.15 percent of the vote in the Hradec district, that is 15,002 voters.",
+            "cs": "Manažerka a představitelka společnosti Petrof, která kandidovala jako nestranička s podporou ODS a KDU-ČSL, získala v hradeckém obvodu 60,15 procenta hlasů, tedy 15 002 voličů."
+          },
+          {
+            "en": "Her rival, the city's former mayor and former government minister Martin Dvořák (STAN), was chosen by 39.84 percent of people.",
+            "cs": "Jejího soupeře, bývalého primátora města a exministra Martina Dvořáka (STAN), volilo 39,84 procenta lidí."
+          },
+          {
+            "en": "Turnout in the second round was 24.01 percent.",
+            "cs": "Účast ve druhém kole byla 24,01 procenta."
+          },
+          {
+            "en": "“I think it was the decency with which I ran my campaign,” the winner told Hradecký deník.",
+            "cs": "„Myslím si, že to byla slušnost, s kterou jsem vedla svoji kampaň,“ řekla vítězka Hradeckému deníku."
+          },
+          {
+            "en": "Dvořák says he had reckoned with a possible defeat from the start, but does not regret the intensive campaign and now wants to devote more time to his family.",
+            "cs": "Dvořák podle svých slov s možnou porážkou počítal od začátku, intenzivní kampaně ale nelituje a teď se chce víc věnovat rodině."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "figurehead",
+            "definition": "a person who publicly represents a company or group"
+          },
+          {
+            "term": "backing",
+            "definition": "support, especially public or financial support"
+          },
+          {
+            "term": "decency",
+            "definition": "honest and polite behaviour towards other people"
+          },
+          {
+            "term": "reckoned with",
+            "definition": "expected something and prepared for it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:35",
+      "headline": "Hradecké zastupitelstvo čeká velká obměna, odchází 24 z 37 členů",
+      "body": "Po komunálních volbách se zastupitelstvo Hradce Králové z velké části promění. Ze 37 členů jich odchází 24 a mezi nimi jsou podle iDNES i výrazné osobnosti, jejichž nadhled a zkušenosti budou scházet. Někteří končí sami, pro jiné jde o nedobrovolný odchod.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/zastupitelstvo-hradec-obmena-komunalni-volby-2026.A261016_130721_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "A big turnover awaits the Hradec council, with 24 of its 37 members leaving",
+        "sentences": [
+          {
+            "en": "After the municipal elections, the city council of Hradec Králové will change to a large extent.",
+            "cs": "Po komunálních volbách se zastupitelstvo Hradce Králové z velké části promění."
+          },
+          {
+            "en": "Of its 37 members, 24 are leaving, and according to iDNES they include strong personalities whose perspective and experience will be missed.",
+            "cs": "Ze 37 členů jich odchází 24 a mezi nimi jsou podle iDNES i výrazné osobnosti, jejichž nadhled a zkušenosti budou scházet."
+          },
+          {
+            "en": "Some are stepping down of their own accord, for others the departure is involuntary.",
+            "cs": "Někteří končí sami, pro jiné jde o nedobrovolný odchod."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turnover",
+            "definition": "the rate at which people leave a group and are replaced"
+          },
+          {
+            "term": "stepping down",
+            "definition": "leaving an important job or position"
+          },
+          {
+            "term": "involuntary",
+            "definition": "not done by your own choice"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:17",
+      "headline": "Hradec chystá ve školkách logopedické třídy",
+      "body": "Děti, kterým závažné vady řeči komplikují učení i běžný den, by měly dostat pomoc už v mateřské škole. Město plánuje postupně otevřít logopedické třídy, které jim mají usnadnit komunikaci i pozdější nástup do školy.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/903008-mluveni-jim-dava-zabrat-hradec-chysta-pro-deti-specialni-skolky.html"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Hradec is preparing speech therapy classes in its nursery schools",
+        "sentences": [
+          {
+            "en": "Children whose serious speech defects complicate their learning and their ordinary day should get help as early as nursery school.",
+            "cs": "Děti, kterým závažné vady řeči komplikují učení i běžný den, by měly dostat pomoc už v mateřské škole."
+          },
+          {
+            "en": "The city plans to gradually open speech therapy classes that should make communication easier for them, as well as their later start at school.",
+            "cs": "Město plánuje postupně otevřít logopedické třídy, které jim mají usnadnit komunikaci i pozdější nástup do školy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "speech therapy",
+            "definition": "treatment that helps people to speak more clearly"
+          },
+          {
+            "term": "defects",
+            "definition": "faults or problems that make something not work properly"
+          },
+          {
+            "term": "nursery school",
+            "definition": "a school for children who are too young for primary school"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:00",
+      "headline": "Francií se prohnaly protesty proti zdražování, policie zadržela stovky lidí",
+      "body": "V sobotu se po celé Francii konalo více než sto demonstrací proti vysokým životním nákladům. Ke studentům, kteří protestují už několik týdnů, se přidala krajní levice, odbory, zemědělci i žluté vesty a úřady podle iROZHLASU očekávaly až 200 tisíc účastníků, z toho 40 tisíc v Paříži. V Paříži, Marseille a Lyonu se protestující střetli s policií, která použila slzný plyn i obušky. V Marseille a Lille demonstranti vnikli na radnici, v Lyonu vyrabovali a zapálili turistické informační centrum na náměstí Bellecour. Údaje o zadržených se liší: ČT24 psala o téměř třech stech, iROZHLAS uváděl 166 zatčených. Prezident Emmanuel Macron vyzval „ke klidu a respektu“.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ve-francii-se-bude-demonstrovat-proti-zdrazovani-urady-se-pripravuji-na-strety-378728"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/obrazem-ke-studentum-ve-francii-se-pridaly-zlute-vesty-vyzyvam-ke-klidu-a_2610171306_bva"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ve-francii-zacaly-protesty-kvuli-zdrazovani-policie-pouzila-slzny-plyn-318093"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223168/"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "Protests against rising prices swept across France and police detained hundreds of people",
+        "sentences": [
+          {
+            "en": "On Saturday more than a hundred demonstrations against high living costs took place across France.",
+            "cs": "V sobotu se po celé Francii konalo více než sto demonstrací proti vysokým životním nákladům."
+          },
+          {
+            "en": "The students, who have been protesting for several weeks, were joined by the far left, trade unions, farmers and the yellow vests, and according to iROZHLAS the authorities expected up to 200,000 participants, 40,000 of them in Paris.",
+            "cs": "Ke studentům, kteří protestují už několik týdnů, se přidala krajní levice, odbory, zemědělci i žluté vesty a úřady podle iROZHLASU očekávaly až 200 tisíc účastníků, z toho 40 tisíc v Paříži."
+          },
+          {
+            "en": "In Paris, Marseille and Lyon the protesters clashed with police, who used tear gas and batons.",
+            "cs": "V Paříži, Marseille a Lyonu se protestující střetli s policií, která použila slzný plyn i obušky."
+          },
+          {
+            "en": "In Marseille and Lille demonstrators broke into the town hall, and in Lyon they looted and set fire to the tourist information centre on Place Bellecour.",
+            "cs": "V Marseille a Lille demonstranti vnikli na radnici, v Lyonu vyrabovali a zapálili turistické informační centrum na náměstí Bellecour."
+          },
+          {
+            "en": "The figures on detentions differ: ČT24 wrote of almost three hundred, while iROZHLAS reported 166 arrests.",
+            "cs": "Údaje o zadržených se liší: ČT24 psala o téměř třech stech, iROZHLAS uváděl 166 zatčených."
+          },
+          {
+            "en": "President Emmanuel Macron called for “calm and respect”.",
+            "cs": "Prezident Emmanuel Macron vyzval „ke klidu a respektu“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "clashed",
+            "definition": "fought or argued violently with someone"
+          },
+          {
+            "term": "batons",
+            "definition": "short heavy sticks used by police"
+          },
+          {
+            "term": "looted",
+            "definition": "stole things from a shop or building, usually during a riot"
+          },
+          {
+            "term": "detentions",
+            "definition": "cases of being held by the police"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:41",
+      "headline": "Trump pozastavil nový balík protiruských sankcí",
+      "body": "Americký prezident Donald Trump podepsal v pátek exekutivní příkaz, kterým pozastavil uplatňování nového rozsáhlého balíku sankcí proti ruské ekonomice, a to jen krátce předtím, než měl vejít v platnost. Kongresu podle agentury AP sdělil, že je to v „národním zájmu Spojených států“. Balík mu umožňoval uvalit až stoprocentní cla na hlavní odběratele ruské ropy nebo zemního plynu. Krok přišel poté, co se Trump dohodl s Vladimirem Putinem na dodávkách ruské nafty na americký a světový trh. Ukrajinský prezident Volodymyr Zelenskyj napsal na síti X, že americký výpadek v sankcích Putina jen povzbuzuje k dalším útokům, a v sobotu dodal, že rušení sankcí bude podle jeho očekávání pokračovat a nafta byla jen prvním krokem. Rozhodnutí kritizovali i někteří američtí politici.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-pozastavil-novy-balik-protiruskych-sankci-378724"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-trump-podepsal-prikaz-kterym-pozastavuje-novy-balik-protiruskych-sankci-318087"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-ruseni-sankci-proti-rusku-bude-pokracovat-nafta-byla-jen-prvnim-krokem_2610171541_brz"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "Trump has suspended a new package of anti-Russian sanctions",
+        "sentences": [
+          {
+            "en": "On Friday, US President Donald Trump signed an executive order suspending the application of a broad new package of sanctions against the Russian economy, only shortly before it was due to take effect.",
+            "cs": "Americký prezident Donald Trump podepsal v pátek exekutivní příkaz, kterým pozastavil uplatňování nového rozsáhlého balíku sankcí proti ruské ekonomice, a to jen krátce předtím, než měl vejít v platnost."
+          },
+          {
+            "en": "According to the AP news agency, he told Congress that this was in the “national interest of the United States”.",
+            "cs": "Kongresu podle agentury AP sdělil, že je to v „národním zájmu Spojených států“."
+          },
+          {
+            "en": "The package would have allowed him to impose tariffs of up to one hundred percent on the main buyers of Russian oil or natural gas.",
+            "cs": "Balík mu umožňoval uvalit až stoprocentní cla na hlavní odběratele ruské ropy nebo zemního plynu."
+          },
+          {
+            "en": "The move came after Trump agreed with Vladimir Putin on supplies of Russian diesel to the American and world markets.",
+            "cs": "Krok přišel poté, co se Trump dohodl s Vladimirem Putinem na dodávkách ruské nafty na americký a světový trh."
+          },
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyy wrote on X that the American lapse on sanctions only encourages Putin to launch further attacks, and on Saturday he added that he expects the lifting of sanctions to continue and that diesel was only the first step.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj napsal na síti X, že americký výpadek v sankcích Putina jen povzbuzuje k dalším útokům, a v sobotu dodal, že rušení sankcí bude podle jeho očekávání pokračovat a nafta byla jen prvním krokem."
+          },
+          {
+            "en": "Some American politicians also criticised the decision.",
+            "cs": "Rozhodnutí kritizovali i někteří američtí politici."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "executive order",
+            "definition": "an official instruction given by a president that works like a law"
+          },
+          {
+            "term": "take effect",
+            "definition": "to start to apply or to start working"
+          },
+          {
+            "term": "tariffs",
+            "definition": "taxes that a country charges on goods coming from abroad"
+          },
+          {
+            "term": "lapse",
+            "definition": "a short period when a rule or standard is not kept up"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:40",
+      "headline": "Kyjev i Institut pro studium války zpochybňují ruské údaje o dobytém území",
+      "body": "Ukrajinský generální štáb popřel tvrzení náčelníka ruského generálního štábu Valerije Gerasimova o dobytí města Dobropillja i o rozsahu území obsazeného od začátku září. Rusko mluví o více než 1800 kilometrech čtverečních, Kyjev to popírá a tvrdí, že část dobytého území Rusové naopak zase ztratili. Americký Institut pro studium války zpochybnil také prohlášení Vladimira Putina, že ruské síly od začátku roku získaly 6500 kilometrů čtverečních a 310 obcí.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223102/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rozsah-dobyteho-ukrajinskeho-uzemi-je-podle-kyjeva-daleko-mensi-nez-rusko-tvrdi-318125"
+        }
+      ],
+      "en": {
+        "headline": "Kyiv and the Institute for the Study of War question Russian figures on captured territory",
+        "sentences": [
+          {
+            "en": "The Ukrainian general staff denied the claims of the Russian chief of the general staff Valery Gerasimov about the capture of the town of Dobropillia and about the extent of the territory occupied since the beginning of September.",
+            "cs": "Ukrajinský generální štáb popřel tvrzení náčelníka ruského generálního štábu Valerije Gerasimova o dobytí města Dobropillja i o rozsahu území obsazeného od začátku září."
+          },
+          {
+            "en": "Russia speaks of more than 1,800 square kilometres, Kyiv denies this and says that the Russians have in fact lost part of the captured territory again.",
+            "cs": "Rusko mluví o více než 1800 kilometrech čtverečních, Kyjev to popírá a tvrdí, že část dobytého území Rusové naopak zase ztratili."
+          },
+          {
+            "en": "The American Institute for the Study of War has also questioned Vladimir Putin's statement that Russian forces have taken 6,500 square kilometres and 310 settlements since the start of the year.",
+            "cs": "Americký Institut pro studium války zpochybnil také prohlášení Vladimira Putina, že ruské síly od začátku roku získaly 6500 kilometrů čtverečních a 310 obcí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "general staff",
+            "definition": "the group of senior officers who plan an army's operations"
+          },
+          {
+            "term": "extent",
+            "definition": "the size or area of something"
+          },
+          {
+            "term": "settlements",
+            "definition": "villages or small towns where people live"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:32",
+      "headline": "Omezení Starshieldu na Ukrajině navrhl podle zdrojů sám Musk",
+      "body": "Elon Musk měl podle zdrojů deníku The Telegraph navrhnout Donaldu Trumpovi omezení satelitního systému Starshield na Ukrajině. Opatření narušilo ukrajinské operace. Musk i Trump svůj podíl na rozhodnutí popírali.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-za-omezeni-starlinku-nemuzu-tvrdil-musk-podle-zdroju-jej-vsak-sam-navrhl-318108"
+        }
+      ],
+      "en": {
+        "headline": "Sources say Musk himself proposed the restriction of Starshield over Ukraine",
+        "sentences": [
+          {
+            "en": "According to sources of the newspaper The Telegraph, Elon Musk proposed to Donald Trump that the Starshield satellite system be restricted over Ukraine.",
+            "cs": "Elon Musk měl podle zdrojů deníku The Telegraph navrhnout Donaldu Trumpovi omezení satelitního systému Starshield na Ukrajině."
+          },
+          {
+            "en": "The measure disrupted Ukrainian operations.",
+            "cs": "Opatření narušilo ukrajinské operace."
+          },
+          {
+            "en": "Both Musk and Trump have denied any part in the decision.",
+            "cs": "Musk i Trump svůj podíl na rozhodnutí popírali."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "restricted",
+            "definition": "limited in what it can do or where it can be used"
+          },
+          {
+            "term": "disrupted",
+            "definition": "stopped something from continuing in the normal way"
+          },
+          {
+            "term": "measure",
+            "definition": "an official action taken to deal with a problem"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:38",
+      "headline": "Studentské protesty v Albánii pokračují pátý den a přerostly v násilnosti",
+      "body": "Tisíce mladých lidí se v sobotu shromáždily v centru Tirany před ministerstvem školství s cílem přimět premiéra Ediho Ramu k rezignaci. Skupina maskovaných mladíků začala házet kamení na těžkooděnce a ti odpověděli zábleskovými granáty, slzným plynem a vodním dělem. Demonstrace míří proti korupci a nedostatku pracovních míst.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223114/"
+        }
+      ],
+      "en": {
+        "headline": "Student protests in Albania continue for a fifth day and have turned violent",
+        "sentences": [
+          {
+            "en": "Thousands of young people gathered on Saturday in the centre of Tirana in front of the education ministry, aiming to force Prime Minister Edi Rama to resign.",
+            "cs": "Tisíce mladých lidí se v sobotu shromáždily v centru Tirany před ministerstvem školství s cílem přimět premiéra Ediho Ramu k rezignaci."
+          },
+          {
+            "en": "A group of masked young men began throwing stones at riot police, who responded with stun grenades, tear gas and a water cannon.",
+            "cs": "Skupina maskovaných mladíků začala házet kamení na těžkooděnce a ti odpověděli zábleskovými granáty, slzným plynem a vodním dělem."
+          },
+          {
+            "en": "The demonstrations are directed against corruption and a lack of jobs.",
+            "cs": "Demonstrace míří proti korupci a nedostatku pracovních míst."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "riot police",
+            "definition": "police who are trained and equipped to control violent crowds"
+          },
+          {
+            "term": "stun grenades",
+            "definition": "devices that explode with a loud bang and bright light to shock people"
+          },
+          {
+            "term": "water cannon",
+            "definition": "a machine that shoots a strong jet of water to push crowds back"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "19:20",
+      "headline": "ČEZ podal v Lucembursku žaloby kvůli blokaci firem ve sporu s Diag Human",
+      "body": "Polostátní ČEZ se u lucemburských soudů brání blokaci tamních společností, přes které drží majoritní podíl v plynárenské distribuční firmě GasNet. Potvrdil to Českému rozhlasu mluvčí ČEZu Ladislav Kříž. Za blokací stojí společnost Diag Human podnikatele Josefa Šťávy, která podle E15 požaduje po českém státu zhruba 17 miliard korun. Energetická skupina označuje zásah za nezákonný a očekává jeho zrušení v řádu měsíců.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/cez-podal-v-lucembursku-zaloby-proti-blokaci-tamnich-firem-kvuli-diag-human-378719"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/cez-presel-do-protiutoku-kvuli-tricetiletemu-sporu-o-miliardy-podal-zaloby-1436624"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "ČEZ has filed lawsuits in Luxembourg over the freezing of companies in its dispute with Diag Human",
+        "sentences": [
+          {
+            "en": "The partly state-owned ČEZ is fighting back in Luxembourg courts against the freezing of local companies through which it holds a majority stake in the gas distribution firm GasNet.",
+            "cs": "Polostátní ČEZ se u lucemburských soudů brání blokaci tamních společností, přes které drží majoritní podíl v plynárenské distribuční firmě GasNet."
+          },
+          {
+            "en": "ČEZ spokesman Ladislav Kříž confirmed this to Czech Radio.",
+            "cs": "Potvrdil to Českému rozhlasu mluvčí ČEZu Ladislav Kříž."
+          },
+          {
+            "en": "Behind the freeze is Diag Human, a company owned by the businessman Josef Šťáva, which according to E15 is demanding roughly 17 billion crowns from the Czech state.",
+            "cs": "Za blokací stojí společnost Diag Human podnikatele Josefa Šťávy, která podle E15 požaduje po českém státu zhruba 17 miliard korun."
+          },
+          {
+            "en": "The energy group calls the intervention unlawful and expects it to be overturned within months.",
+            "cs": "Energetická skupina označuje zásah za nezákonný a očekává jeho zrušení v řádu měsíců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lawsuits",
+            "definition": "legal cases brought against someone in a court"
+          },
+          {
+            "term": "freezing",
+            "definition": "officially stopping money or property from being used or sold"
+          },
+          {
+            "term": "stake",
+            "definition": "a share of ownership in a company"
+          },
+          {
+            "term": "overturned",
+            "definition": "cancelled by an official decision"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "19:55",
+      "headline": "Německo a Francie se dohodly na dalších úlevách pro spalovací motory",
+      "body": "Obě země předložily společný návrh, který má posílit evropský automobilový průmysl a zároveň podpořit výrobu elektromobilů. Kompromis počítá s dalšími úlevami pro spalovací motory i s přísnějšími pravidly pro využívání evropských součástek. Dohodu přivítaly automobilky Volkswagen a Stellantis a má posloužit jako základ pro další jednání v Evropské unii.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/spalovaci-motory-dostaly-dalsi-sanci-nemecko-a-francie-se-dohodly-na-budoucnosti-aut-v-evrope-1436625"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Germany and France have agreed on further concessions for combustion engines",
+        "sentences": [
+          {
+            "en": "The two countries have put forward a joint proposal meant to strengthen the European car industry and at the same time support the production of electric cars.",
+            "cs": "Obě země předložily společný návrh, který má posílit evropský automobilový průmysl a zároveň podpořit výrobu elektromobilů."
+          },
+          {
+            "en": "The compromise foresees further concessions for combustion engines as well as stricter rules on the use of European components.",
+            "cs": "Kompromis počítá s dalšími úlevami pro spalovací motory i s přísnějšími pravidly pro využívání evropských součástek."
+          },
+          {
+            "en": "Carmakers Volkswagen and Stellantis welcomed the deal, which is to serve as the basis for further negotiations in the European Union.",
+            "cs": "Dohodu přivítaly automobilky Volkswagen a Stellantis a má posloužit jako základ pro další jednání v Evropské unii."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "concessions",
+            "definition": "things allowed as an exception to make an agreement possible"
+          },
+          {
+            "term": "combustion engines",
+            "definition": "engines that burn petrol or diesel to make power"
+          },
+          {
+            "term": "foresees",
+            "definition": "includes or expects something as part of a plan"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "18:04",
+      "headline": "Rusko svěřilo majetek dalších evropských firem veteránovi z Ukrajiny",
+      "body": "Pod dočasnou správu přešla aktiva dalších evropských společností včetně francouzského Tarkettu a německého Menshenu. Majetek firem s celkovými tržbami zhruba 13,7 miliardy korun získal bývalý ruský regionální politik, který čtyři měsíce bojoval na Ukrajině. Kreml opatření označuje za odvetu za evropskou podporu Ukrajiny a tvrdí, že převzetí správy je vratné.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/ctyri-mesice-bojoval-na-ukrajine-ted-mu-putin-sveril-majetek-evropskych-firem-1436623"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Russia has handed the assets of more European firms to a veteran of the war in Ukraine",
+        "sentences": [
+          {
+            "en": "The assets of further European companies, including the French firm Tarkett and the German firm Menshen, have been placed under temporary administration.",
+            "cs": "Pod dočasnou správu přešla aktiva dalších evropských společností včetně francouzského Tarkettu a německého Menshenu."
+          },
+          {
+            "en": "Property of companies with combined revenues of roughly 13.7 billion crowns went to a former Russian regional politician who fought in Ukraine for four months.",
+            "cs": "Majetek firem s celkovými tržbami zhruba 13,7 miliardy korun získal bývalý ruský regionální politik, který čtyři měsíce bojoval na Ukrajině."
+          },
+          {
+            "en": "The Kremlin describes the step as retaliation for European support of Ukraine and claims that the takeover of the administration can be reversed.",
+            "cs": "Kreml opatření označuje za odvetu za evropskou podporu Ukrajiny a tvrdí, že převzetí správy je vratné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assets",
+            "definition": "things of value that a company or person owns"
+          },
+          {
+            "term": "temporary administration",
+            "definition": "control of a company by an outside manager for a limited time"
+          },
+          {
+            "term": "retaliation",
+            "definition": "action taken to harm someone because they harmed you first"
+          },
+          {
+            "term": "revenues",
+            "definition": "the money a company receives from its sales"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "20:55",
+      "headline": "Claude rozluštil původ záhadných parametrů kryptografického standardu ECDSA",
+      "body": "Léta nebylo jasné, odkud se vzaly takzvané seedy, z nichž jsou odvozeny eliptické křivky standardu ECDSA, který institut NIST přijal v roce 2000 a který parametry dostal od NSA bez jakéhokoli vysvětlení. Podle Anthropicu jeho interní výzkumný model Claude za méně než půl hodiny zjistil, že za nimi nestojí žádná hashovací funkce: jde o výstup generátoru pseudonáhodných čísel lrand48 z knihovny jazyka C inicializovaného unixovým časovým razítkem. U křivky P-256 si standardizovaný seed vyžádal 1842 iterací. Claude si nejdřív všiml, že čtyři z deseti seedů mají ve všech dvaceti dvaatřicetibitových slovech nulový nejvyšší bit, což je podpis generátoru lrand48, a vnitřní stav pak dopočítal jako úlohu o redukci mřížky algoritmem LLL. Nejde o prolomení šifry ani o novou slabinu. Firma naopak píše, že zjištění činí dlouholeté podezření na záměrná zadní vrátka v křivkách mnohem méně pravděpodobným, protože seedy vznikly jednoduchým a dnes reprodukovatelným postupem.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Claude has solved the puzzle of the mysterious parameters of the ECDSA cryptographic standard",
+        "sentences": [
+          {
+            "en": "For years it was unclear where the so-called seeds came from, the values from which the elliptic curves of the ECDSA standard are derived; NIST adopted the standard in 2000 and received the parameters from the NSA without any explanation.",
+            "cs": "Léta nebylo jasné, odkud se vzaly takzvané seedy, z nichž jsou odvozeny eliptické křivky standardu ECDSA, který institut NIST přijal v roce 2000 a který parametry dostal od NSA bez jakéhokoli vysvětlení."
+          },
+          {
+            "en": "According to Anthropic, its internal research model Claude found out in less than half an hour that no hash function is behind them at all: they are the output of the lrand48 pseudorandom number generator from the C library, seeded with a Unix timestamp.",
+            "cs": "Podle Anthropicu jeho interní výzkumný model Claude za méně než půl hodiny zjistil, že za nimi nestojí žádná hashovací funkce: jde o výstup generátoru pseudonáhodných čísel lrand48 z knihovny jazyka C inicializovaného unixovým časovým razítkem."
+          },
+          {
+            "en": "For the P-256 curve the standardised seed took 1,842 iterations.",
+            "cs": "U křivky P-256 si standardizovaný seed vyžádal 1842 iterací."
+          },
+          {
+            "en": "Claude first noticed that four of the ten seeds have a zero in the top bit of all twenty 32-bit words, which is the signature of the lrand48 generator, and then recovered the internal state as a lattice reduction problem solved with the LLL algorithm.",
+            "cs": "Claude si nejdřív všiml, že čtyři z deseti seedů mají ve všech dvaceti dvaatřicetibitových slovech nulový nejvyšší bit, což je podpis generátoru lrand48, a vnitřní stav pak dopočítal jako úlohu o redukci mřížky algoritmem LLL."
+          },
+          {
+            "en": "This is not a break of the cipher, nor a new weakness.",
+            "cs": "Nejde o prolomení šifry ani o novou slabinu."
+          },
+          {
+            "en": "On the contrary, the company writes that the finding makes the long-standing suspicion of deliberate backdoors in the curves far less plausible, because the seeds were produced by a simple procedure that anyone can now reproduce.",
+            "cs": "Firma naopak píše, že zjištění činí dlouholeté podezření na záměrná zadní vrátka v křivkách mnohem méně pravděpodobným, protože seedy vznikly jednoduchým a dnes reprodukovatelným postupem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "derived",
+            "definition": "obtained or calculated from something else"
+          },
+          {
+            "term": "seeded",
+            "definition": "given a starting value that decides the numbers produced"
+          },
+          {
+            "term": "backdoors",
+            "definition": "hidden ways of getting into a system without permission"
+          },
+          {
+            "term": "plausible",
+            "definition": "seeming likely to be true"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "20:00",
+      "headline": "Claude navrhl efektivnější kvantové obvody, některé zlepšil o celý řád",
+      "body": "Anthropic zadal modelu Claude běžným jazykem specifikace osmi kvantových obvodů z chemie, optimalizace, simulací fyziky a teorie čísel a dal mu k ruce automatický hodnotitel, který návrhy kontroluje a boduje. Claude pracoval převážně sám a našel řešení, která překonávají nejlepší publikované obvody, v některých případech o řád i více. Podle firmy to výrazně snižuje nároky užitečných aplikací na kvantové zdroje, takže praktické kvantové počítače mohou přijít dřív, než se čekalo. Práci vedl Andi Gu v rámci programu STEM Fellows ve spolupráci s Harvardovou univerzitou a firmou QuEra Computing.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Claude has designed more efficient quantum circuits, improving some by a whole order of magnitude",
+        "sentences": [
+          {
+            "en": "Anthropic gave the Claude model plain-language specifications for eight quantum circuits drawn from chemistry, optimisation, physics simulation and number theory, and provided an automated evaluator that checks and scores the designs.",
+            "cs": "Anthropic zadal modelu Claude běžným jazykem specifikace osmi kvantových obvodů z chemie, optimalizace, simulací fyziky a teorie čísel a dal mu k ruce automatický hodnotitel, který návrhy kontroluje a boduje."
+          },
+          {
+            "en": "Claude worked largely on its own and found solutions that beat the best published circuits, in some cases by an order of magnitude or more.",
+            "cs": "Claude pracoval převážně sám a našel řešení, která překonávají nejlepší publikované obvody, v některých případech o řád i více."
+          },
+          {
+            "en": "According to the company this substantially reduces the quantum resources that useful applications require, so practical quantum computers could arrive sooner than expected.",
+            "cs": "Podle firmy to výrazně snižuje nároky užitečných aplikací na kvantové zdroje, takže praktické kvantové počítače mohou přijít dřív, než se čekalo."
+          },
+          {
+            "en": "The work was led by Andi Gu as part of the STEM Fellows programme, in collaboration with Harvard University and the firm QuEra Computing.",
+            "cs": "Práci vedl Andi Gu v rámci programu STEM Fellows ve spolupráci s Harvardovou univerzitou a firmou QuEra Computing."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "order of magnitude",
+            "definition": "a difference of about ten times in size or amount"
+          },
+          {
+            "term": "specifications",
+            "definition": "detailed descriptions of what something must do"
+          },
+          {
+            "term": "evaluator",
+            "definition": "a tool or person that judges how good something is"
+          },
+          {
+            "term": "substantially",
+            "definition": "by a large amount"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "22:54",
+      "headline": "Osm amerických států podalo žaloby na OpenAI kvůli ChatGPT",
+      "body": "Žaloby podané tento týden tvrdí, že chatbot porušil státní zákony o ochraně spotřebitelů tím, že způsobuje újmu dětem a klame dospělé, informovala agentura AP. Podle žalob ChatGPT poskytuje nebezpečné lékařské rady, podněcuje paranoiu a navádí lidi k sebevraždě. Zmiňují i nabádání k ublížení jiným osobám nebo k jejich zabití.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/osm-statu-usa-zaluje-openai-chatgpt-podle-nich-skodi-detem-a-klame-dospele-378721"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "Eight US states have filed lawsuits against OpenAI over ChatGPT",
+        "sentences": [
+          {
+            "en": "The lawsuits filed this week claim that the chatbot broke state consumer protection laws by causing harm to children and deceiving adults, the AP news agency reported.",
+            "cs": "Žaloby podané tento týden tvrdí, že chatbot porušil státní zákony o ochraně spotřebitelů tím, že způsobuje újmu dětem a klame dospělé, informovala agentura AP."
+          },
+          {
+            "en": "According to the lawsuits, ChatGPT gives dangerous medical advice, fuels paranoia and pushes people towards suicide.",
+            "cs": "Podle žalob ChatGPT poskytuje nebezpečné lékařské rady, podněcuje paranoiu a navádí lidi k sebevraždě."
+          },
+          {
+            "en": "They also mention encouragement to hurt other people or even to kill them.",
+            "cs": "Zmiňují i nabádání k ublížení jiným osobám nebo k jejich zabití."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deceiving",
+            "definition": "making someone believe something that is not true"
+          },
+          {
+            "term": "fuels",
+            "definition": "makes a feeling or situation stronger"
+          },
+          {
+            "term": "encouragement",
+            "definition": "words or actions that make someone more likely to do something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:37",
+      "headline": "DeepSeek vydal model V4.1 Flash",
+      "body": "Čínská laboratoř DeepSeek zveřejnila nový model DeepSeek V4.1 Flash. K dispozici je na platformě Hugging Face a nabízí ho i služba OpenRouter.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+        }
+      ],
+      "en": {
+        "headline": "DeepSeek has released the V4.1 Flash model",
+        "sentences": [
+          {
+            "en": "The Chinese lab DeepSeek has published a new model, DeepSeek V4.1 Flash.",
+            "cs": "Čínská laboratoř DeepSeek zveřejnila nový model DeepSeek V4.1 Flash."
+          },
+          {
+            "en": "It is available on the Hugging Face platform and is also offered by the OpenRouter service.",
+            "cs": "K dispozici je na platformě Hugging Face a nabízí ho i služba OpenRouter."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lab",
+            "definition": "a team or company doing scientific research"
+          },
+          {
+            "term": "platform",
+            "definition": "a website or system where people share and use software"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "06:30",
+      "headline": "Pavel Kohout vydává v 98 letech novou knihu",
+      "body": "Sbírka (ne)povídek Parta charty mastí karty nabízí dvacet drsných příběhů z dvaceti zemí světa. K nim spisovatel přidal jeden text, který je podle anotace pravdivou reportáží o „největší prohře československé Státní bezpečnosti a největší ostudě tehdejší kulturní elity“.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2206186/pavel-kohout-v-98-letech-vydava-novou-knihu-slibuje-nejvetsi-ostudu-nekdejsi-kulturni-elity/"
+        }
+      ],
+      "en": {
+        "headline": "Pavel Kohout is publishing a new book at the age of 98",
+        "sentences": [
+          {
+            "en": "The collection of (non-)stories Parta charty mastí karty offers twenty harsh tales from twenty countries around the world.",
+            "cs": "Sbírka (ne)povídek Parta charty mastí karty nabízí dvacet drsných příběhů z dvaceti zemí světa."
+          },
+          {
+            "en": "To them the writer has added one text which, according to the blurb, is a true piece of reporting about “the greatest defeat of the Czechoslovak State Security and the greatest disgrace of the cultural elite of the time”.",
+            "cs": "K nim spisovatel přidal jeden text, který je podle anotace pravdivou reportáží o „největší prohře československé Státní bezpečnosti a největší ostudě tehdejší kulturní elity“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "harsh",
+            "definition": "unpleasant and difficult to accept"
+          },
+          {
+            "term": "blurb",
+            "definition": "a short description of a book used to advertise it"
+          },
+          {
+            "term": "disgrace",
+            "definition": "a loss of respect caused by shameful behaviour"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "18:58",
+      "headline": "Černé Hoře stojí v cestě do Evropské unie chorvatské ultimátum",
+      "body": "Deník N popisuje přímo z místa, jak se balkánská země s ambicí vstoupit do Unie už za rok a půl vyrovnává s poválečným ultimátem z Chorvatska i se stíny srbského a ruského vlivu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2221827/do-eu-vas-pustime-az-zaplatite-za-valku-cerne-hore-stoji-v-ceste-do-unie-chorvatsko/"
+        }
+      ],
+      "day": "prev",
+      "en": {
+        "headline": "A Croatian ultimatum stands in Montenegro's way into the European Union",
+        "sentences": [
+          {
+            "en": "Deník N describes from the ground how the Balkan country, which hopes to join the Union in just a year and a half, is coping with a post-war ultimatum from Croatia and with the shadows of Serbian and Russian influence.",
+            "cs": "Deník N popisuje přímo z místa, jak se balkánská země s ambicí vstoupit do Unie už za rok a půl vyrovnává s poválečným ultimátem z Chorvatska i se stíny srbského a ruského vlivu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ultimatum",
+            "definition": "a final demand that must be accepted or there will be consequences"
+          },
+          {
+            "term": "coping with",
+            "definition": "dealing successfully with a difficult situation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:08",
+      "headline": "Slavia doma remizovala s Hradcem 0:0, Chorý dostal červenou za prostředníček",
+      "body": "Vedoucí tým ligy ztratil body potřetí v sezoně a Hradec Králové neporazil počtvrté za sebou. Útočník Tomáš Chorý byl vyloučen za vztyčený prostředníček směrem k rozhodčímu Janu Všetečkovi a Slavia zápas dohrávala v deseti. Východočeši jsou v neúplné tabulce desátí.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-mlada-boleslav-teplicep-pardubice-zlin-slavia-hradec-kralove_2610171430_lbk"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-dalsi-exces-choreho-proti-hradci-byl-vyloucen-5557376"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/fotbal/903306-votroci-se-ubranili-slavii-z-edenu-vezou-cenny-bod.html"
+        }
+      ],
+      "cross_source": true,
+      "en": {
+        "headline": "Slavia drew 0:0 at home with Hradec and Chorý was sent off for a middle finger",
+        "sentences": [
+          {
+            "en": "The league leaders dropped points for the third time this season and failed to beat Hradec Králové for the fourth time in a row.",
+            "cs": "Vedoucí tým ligy ztratil body potřetí v sezoně a Hradec Králové neporazil počtvrté za sebou."
+          },
+          {
+            "en": "Striker Tomáš Chorý was sent off for raising his middle finger towards referee Jan Všetečka and Slavia finished the match with ten men.",
+            "cs": "Útočník Tomáš Chorý byl vyloučen za vztyčený prostředníček směrem k rozhodčímu Janu Všetečkovi a Slavia zápas dohrávala v deseti."
+          },
+          {
+            "en": "The East Bohemians are tenth in the incomplete table.",
+            "cs": "Východočeši jsou v neúplné tabulce desátí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sent off",
+            "definition": "ordered by the referee to leave the field for breaking the rules"
+          },
+          {
+            "term": "dropped points",
+            "definition": "failed to win all the points available from a match"
+          },
+          {
+            "term": "striker",
+            "definition": "a football player whose job is to score goals"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:07",
+      "headline": "Pardubice přehrály Zlín 3:0, Mladá Boleslav zdolala Teplice",
+      "body": "Pardubice rozhodly o výhře nad posledním Zlínem už dvěma góly v prvním poločase. Mladé Boleslavi stačila k vítězství 1:0 nad Teplicemi branka Jana Zíky z první půle.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-pardubice-nasazely-zlinu-tri-goly-a-s-prehledem-zvitezily-5557334"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-mlade-boleslavi-stacil-k-vyhre-jediny-gol-5557303"
+        }
+      ],
+      "en": {
+        "headline": "Pardubice beat Zlín 3:0 and Mladá Boleslav saw off Teplice",
+        "sentences": [
+          {
+            "en": "Pardubice settled their win over bottom-placed Zlín with two goals in the first half.",
+            "cs": "Pardubice rozhodly o výhře nad posledním Zlínem už dvěma góly v prvním poločase."
+          },
+          {
+            "en": "A first-half goal by Jan Zíka was enough for Mladá Boleslav to win 1:0 against Teplice.",
+            "cs": "Mladé Boleslavi stačila k vítězství 1:0 nad Teplicemi branka Jana Zíky z první půle."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "saw off",
+            "definition": "defeated an opponent"
+          },
+          {
+            "term": "bottom-placed",
+            "definition": "last in the league table"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:26",
+      "headline": "Chelsea vyhrála na Evertonu, Atlético zdolalo Espaňol gólem v závěru",
+      "body": "Chelsea zvítězila 2:0 dvěma góly Pedra Neta, v 75. minutě ale musela po tvrdém střetu s domácím obráncem střídat brankáře Emiliana Martíneze. Atlético Madrid vyhrálo 1:0 brankou střídajícího Baeny v 89. minutě a na vedoucí Barcelonu ztrácí dva body.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-chelsea-diky-golum-neta-porazila-everton-ale-zranil-se-ji-martinez-5557220"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-la-liga-atletico-madrid-po-golu-stridajiciho-baeny-udolalo-espanol-5557280"
+        }
+      ],
+      "en": {
+        "headline": "Chelsea won at Everton and Atlético edged out Espanyol with a late goal",
+        "sentences": [
+          {
+            "en": "Chelsea won 2:0 with two goals by Pedro Neto, but in the 75th minute had to substitute goalkeeper Emiliano Martínez after a heavy collision with a home defender.",
+            "cs": "Chelsea zvítězila 2:0 dvěma góly Pedra Neta, v 75. minutě ale musela po tvrdém střetu s domácím obráncem střídat brankáře Emiliana Martíneze."
+          },
+          {
+            "en": "Atlético Madrid won 1:0 through a goal by substitute Baena in the 89th minute and trail leaders Barcelona by two points.",
+            "cs": "Atlético Madrid vyhrálo 1:0 brankou střídajícího Baeny v 89. minutě a na vedoucí Barcelonu ztrácí dva body."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "edged out",
+            "definition": "beat an opponent by a very small margin"
+          },
+          {
+            "term": "collision",
+            "definition": "an accident in which two people or things hit each other hard"
+          },
+          {
+            "term": "trail",
+            "definition": "to be behind someone in a competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:40",
+      "headline": "Nečas třemi asistencemi pomohl Coloradu, bodovali i Pastrňák a Zacha",
+      "body": "Colorado vyhrálo v NHL 5:2 nad Pittsburghem a Martin Nečas se stal prvním Čechem, který v sezoně nasbíral deset bodů. Boston zvítězil 4:2 v Anaheimu, David Pastrňák dal gól a na jeden přihrál, Pavel Zacha si připsal dvě asistence.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/necas-prihraval-na-tri-goly-colorada-bodovali-i-pastrnak-se-zachou-159477"
+        }
+      ],
+      "en": {
+        "headline": "Nečas helped Colorado with three assists, and Pastrňák and Zacha also scored points",
+        "sentences": [
+          {
+            "en": "Colorado won 5:2 against Pittsburgh in the NHL and Martin Nečas became the first Czech to collect ten points this season.",
+            "cs": "Colorado vyhrálo v NHL 5:2 nad Pittsburghem a Martin Nečas se stal prvním Čechem, který v sezoně nasbíral deset bodů."
+          },
+          {
+            "en": "Boston won 4:2 in Anaheim, David Pastrňák scored a goal and set up another, while Pavel Zacha recorded two assists.",
+            "cs": "Boston zvítězil 4:2 v Anaheimu, David Pastrňák dal gól a na jeden přihrál, Pavel Zacha si připsal dvě asistence."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assists",
+            "definition": "passes that directly lead to a team-mate scoring"
+          },
+          {
+            "term": "set up",
+            "definition": "created a chance for a team-mate to score"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:04",
+      "headline": "Zverev vypadl v Šanghaji v semifinále a na první místo žebříčku si počká",
+      "body": "Nejvýše nasazený Němec podlehl Španělovi Alejandru Davidovichovi 7:5, 4:6, 3:6. Finále turnaje Masters tak bude ryze španělské.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/zverev-si-na-tenisovy-trun-musi-pockat-v-sanghaji-vypadl-v-semifinale-159480"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-zverev-se-zatim-svetovou-jednickou-nestane-v-sanghaji-vypadl-v-semifinale-5557061"
+        }
+      ],
+      "en": {
+        "headline": "Zverev went out in the Shanghai semi-final and will have to wait for the top ranking",
+        "sentences": [
+          {
+            "en": "The top seed lost to Spain's Alejandro Davidovich 7:5, 4:6, 3:6.",
+            "cs": "Nejvýše nasazený Němec podlehl Španělovi Alejandru Davidovichovi 7:5, 4:6, 3:6."
+          },
+          {
+            "en": "The final of the Masters tournament will therefore be an all-Spanish affair.",
+            "cs": "Finále turnaje Masters tak bude ryze španělské."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "top seed",
+            "definition": "the player ranked highest in a tournament draw"
+          },
+          {
+            "term": "all-Spanish",
+            "definition": "involving only people from Spain"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:11",
+      "headline": "Choupenitch vyhrál úvodní turnaj Světového poháru v šermu",
+      "body": "Mistr světa ve fleretu Alexander Choupenitch si v japonském Takamacu poradil se všemi šesti soupeři a ve finále porazil Francouze Maxima Pautyho 15:4. Pro dvaatřicetiletého Čecha jde o druhý pohárový triumf v kariéře.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/ostatni/choupenitch-zahajil-sezonu-triumfem-na-svetovem-poharu-v-japonsku-159479"
+        }
+      ],
+      "en": {
+        "headline": "Choupenitch won the opening World Cup event in fencing",
+        "sentences": [
+          {
+            "en": "The world champion in foil, Alexander Choupenitch, got the better of all six of his opponents in Takamatsu, Japan, and beat Frenchman Maxime Pauty 15:4 in the final.",
+            "cs": "Mistr světa ve fleretu Alexander Choupenitch si v japonském Takamacu poradil se všemi šesti soupeři a ve finále porazil Francouze Maxima Pautyho 15:4."
+          },
+          {
+            "en": "For the 32-year-old Czech it is the second World Cup triumph of his career.",
+            "cs": "Pro dvaatřicetiletého Čecha jde o druhý pohárový triumf v kariéře."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "foil",
+            "definition": "a light sword used in the sport of fencing"
+          },
+          {
+            "term": "got the better of",
+            "definition": "defeated someone in a contest"
+          },
+          {
+            "term": "triumph",
+            "definition": "an important victory or success"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The second round of the Senate elections was won by STAN with ten seats, while the governing ANO movement did not win a single one.",
+    "The senator for Hradec Králové will be Zuzana Ceralová Petrofová, who defeated Martin Dvořák.",
+    "Protests against rising prices swept across France and police detained hundreds of people.",
+    "Donald Trump suspended a new package of anti-Russian sanctions shortly before it was due to take effect."
+  ]
+}
