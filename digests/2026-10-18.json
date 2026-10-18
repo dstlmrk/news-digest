@@ -1,0 +1,1464 @@
+{
+  "date": "2026-10-18",
+  "covers": "2026-10-18",
+  "window_hours": 24,
+  "sources_used": [
+    "Deník N",
+    "iROZHLAS",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "ČT24"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra budou padat slabé přeháňky a denní teplota vystoupí jen k 11 °C. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-19",
+        "icon": "rain",
+        "temp_max_c": 11.5,
+        "temp_min_c": 7.0
+      },
+      {
+        "date": "2026-10-20",
+        "icon": "rain",
+        "temp_max_c": 16.1,
+        "temp_min_c": 4.9
+      },
+      {
+        "date": "2026-10-21",
+        "icon": "rain",
+        "temp_max_c": 15.6,
+        "temp_min_c": 9.6
+      },
+      {
+        "date": "2026-10-22",
+        "icon": "rain",
+        "temp_max_c": 12.7,
+        "temp_min_c": 6.4
+      }
+    ],
+    "summary_en": "Tomorrow will bring light showers and the daytime temperature will climb only to around 11 °C. Air quality is expected to be poor."
+  },
+  "highlights": [
+    "Andrej Babiš označil výsledek senátních voleb za katastrofální a chystá restart hnutí ANO.",
+    "Francouzská policie po sobotních protestech zadržela přes 1800 lidí, zraněno bylo více než 500 policistů a hasičů.",
+    "Ukrajinské drony zasáhly v noci ropný terminál u Petrohradu, Rusko hlásí přes tisíc sestřelených strojů.",
+    "Ostravu povede koalice ANO, Starostů pro Ostravu a hnutí Ostravak, primátorem bude Richard Vereš."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:30",
+      "headline": "Babiš označil výsledek senátních voleb za katastrofální a chystá restart ANO",
+      "body": "Premiér Andrej Babiš na tiskové konferenci označil výsledek senátních voleb, v nichž hnutí ANO nezískalo ani jedno křeslo, za katastrofální a naznačil, že bude chtít měnit vedení krajských organizací hnutí. Podle analýzy Seznam Zpráv ANO pohořelo především v tom, že k druhému kolu nepřivedlo své voliče z kola prvního: jeho kandidáti dostali ve finálovém klání výrazně méně hlasů než v prvním kole, s jedinou výjimkou. Místopředseda Senátu Ladislav Václavec (ANO) v rozhovoru pro Radiožurnál připustil, že hnutí usnulo na vavřínech a že někteří kandidáti spoléhali na úspěch v parlamentních volbách a nedokázali zmobilizovat své voliče. Personální důsledky ale vyvozovat nechce: „Není to na vyhazov, ale na poučení,“ řekl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2223241/babis-vysledek-voleb-je-pro-ano-katastrofalni-hnuti-ceka-restart/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-do-senatu-proc-ano-dostalo-vyprask-neprisli-mu-volici-z-prvniho-kola-krom-jedne-vyjimky-318138"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/videa-na-sitich-jsou-saskarna-ale-lide-chteji-rika-vaclavec-ano-podle-nej-musi_2610181402_med"
+        }
+      ],
+      "en": {
+        "headline": "Babiš has called the Senate election result catastrophic and is planning a restart of ANO",
+        "sentences": [
+          {
+            "en": "At a press conference, Prime Minister Andrej Babiš called the result of the Senate elections, in which ANO did not win a single seat, catastrophic, and hinted that he will want to change the leadership of the movement's regional organisations.",
+            "cs": "Premiér Andrej Babiš na tiskové konferenci označil výsledek senátních voleb, v nichž hnutí ANO nezískalo ani jedno křeslo, za katastrofální a naznačil, že bude chtít měnit vedení krajských organizací hnutí."
+          },
+          {
+            "en": "According to an analysis by Seznam Zprávy, ANO failed above all because it did not bring its first-round voters back for the second round: its candidates received markedly fewer votes in the run-off than in the first round, with a single exception.",
+            "cs": "Podle analýzy Seznam Zpráv ANO pohořelo především v tom, že k druhému kolu nepřivedlo své voliče z kola prvního: jeho kandidáti dostali ve finálovém klání výrazně méně hlasů než v prvním kole, s jedinou výjimkou."
+          },
+          {
+            "en": "Senate Vice-President Ladislav Václavec (ANO) admitted in an interview for Radiožurnál that the movement had rested on its laurels and that some candidates had counted on its success in the parliamentary elections and failed to mobilise their voters.",
+            "cs": "Místopředseda Senátu Ladislav Václavec (ANO) v rozhovoru pro Radiožurnál připustil, že hnutí usnulo na vavřínech a že někteří kandidáti spoléhali na úspěch v parlamentních volbách a nedokázali zmobilizovat své voliče."
+          },
+          {
+            "en": "He does not want to draw personnel consequences, however: “It is not a matter for sacking, but for learning,” he said.",
+            "cs": "Personální důsledky ale vyvozovat nechce: „Není to na vyhazov, ale na poučení,“ řekl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hinted",
+            "definition": "said something indirectly rather than openly"
+          },
+          {
+            "term": "run-off",
+            "definition": "a second, final round of voting between the best candidates"
+          },
+          {
+            "term": "rested on its laurels",
+            "definition": "stopped trying because of being happy with past success"
+          },
+          {
+            "term": "sacking",
+            "definition": "the act of making someone leave their job"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:30",
+      "headline": "Ostravu povede koalice ANO, Starostů pro Ostravu a hnutí Ostravak",
+      "body": "Vítězné hnutí ANO se v Ostravě dohodlo na koalici se Starosty pro Ostravu a hnutím Ostravak. V pětapadesátičlenném zastupitelstvu obsadí dohromady 37 křesel a koaliční smlouvu chtějí strany podepsat do pátku. Primátorem se stane lídr ostravského ANO Richard Vereš, jeho prvním náměstkem šéf ostravských starostů Aleš Boháč. Podle Seznam Zpráv se původně jednalo i s Motoristy, podle stran ale měli přehnané požadavky. E15 dodává, že z vedení města vypadli zástupci Spolu a Pirátů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223569/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/vitezne-ano-se-domluvilo-na-koalici-v-ostrave-utvori-ji-se-starosty-a-hnutim_2610181227_lar"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-koalici-v-ostrave-utvori-vitezne-ano-starostove-pro-ostravu-a-ostravak-318164"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/ostrava-ma-novou-koalici-pod-vedenim-ano-motoriste-dojeli-na-touhu-po-funkcich-1436631"
+        }
+      ],
+      "en": {
+        "headline": "Ostrava will be run by a coalition of ANO, Starostové pro Ostravu and Ostravak",
+        "sentences": [
+          {
+            "en": "The winning ANO movement has agreed on a coalition in Ostrava with Starostové pro Ostravu and the Ostravak movement.",
+            "cs": "Vítězné hnutí ANO se v Ostravě dohodlo na koalici se Starosty pro Ostravu a hnutím Ostravak."
+          },
+          {
+            "en": "Together they will hold 37 seats in the 55-member city council, and the parties want to sign the coalition agreement by Friday.",
+            "cs": "V pětapadesátičlenném zastupitelstvu obsadí dohromady 37 křesel a koaliční smlouvu chtějí strany podepsat do pátku."
+          },
+          {
+            "en": "The mayor will be the leader of Ostrava's ANO, Richard Vereš, and his first deputy will be the head of the Ostrava Starostové, Aleš Boháč.",
+            "cs": "Primátorem se stane lídr ostravského ANO Richard Vereš, jeho prvním náměstkem šéf ostravských starostů Aleš Boháč."
+          },
+          {
+            "en": "According to Seznam Zprávy, talks were originally held with Motoristé as well, but the parties said their demands were excessive.",
+            "cs": "Podle Seznam Zpráv se původně jednalo i s Motoristy, podle stran ale měli přehnané požadavky."
+          },
+          {
+            "en": "E15 adds that representatives of Spolu and Piráti have dropped out of the city leadership.",
+            "cs": "E15 dodává, že z vedení města vypadli zástupci Spolu a Pirátů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deputy",
+            "definition": "a person who is directly below someone in rank and acts for them"
+          },
+          {
+            "term": "excessive",
+            "definition": "much more than is necessary or reasonable"
+          },
+          {
+            "term": "dropped out",
+            "definition": "stopped being part of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:29",
+      "headline": "Šlachta zvažuje odchod ze senátorského klubu ANO",
+      "body": "Předseda Přísahy Robert Šlachta zvažuje přestup ze senátorského klubu ANO do jiné frakce. Zdůvodnil to kampaní vládního hnutí proti němu na jižní Moravě. Podle Seznam Zpráv ho rozčílil spor kolem senátních voleb na Znojemsku, kde neúspěšný kandidát Přísahy nabídl podporu kandidátovi ANO za 50 tisíc korun.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223591/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-do-senatu-slachta-zvazuje-odchod-z-klubu-ano-rozcilily-ho-udalosti-na-znojemsku-318165"
+        }
+      ],
+      "en": {
+        "headline": "Šlachta is considering leaving the ANO Senate caucus",
+        "sentences": [
+          {
+            "en": "The chairman of Přísaha, Robert Šlachta, is considering moving from the ANO Senate caucus to another group.",
+            "cs": "Předseda Přísahy Robert Šlachta zvažuje přestup ze senátorského klubu ANO do jiné frakce."
+          },
+          {
+            "en": "He explained this by the governing movement's campaign against him in South Moravia.",
+            "cs": "Zdůvodnil to kampaní vládního hnutí proti němu na jižní Moravě."
+          },
+          {
+            "en": "According to Seznam Zprávy, he was angered by the dispute around the Senate elections in the Znojmo district, where Přísaha's unsuccessful candidate offered his support to the ANO candidate for 50,000 crowns.",
+            "cs": "Podle Seznam Zpráv ho rozčílil spor kolem senátních voleb na Znojemsku, kde neúspěšný kandidát Přísahy nabídl podporu kandidátovi ANO za 50 tisíc korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "caucus",
+            "definition": "a group of politicians from the same party who work together"
+          },
+          {
+            "term": "angered",
+            "definition": "made very annoyed or upset"
+          },
+          {
+            "term": "dispute",
+            "definition": "a serious disagreement between people or groups"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:44",
+      "headline": "Senát připraví ústavní stížnost na služební zákon a pozve Babiše na svou schůzi",
+      "body": "Senátoři připraví návrh k Ústavnímu soudu na zrušení některých částí služebního zákona, který přijala Sněmovna. Uvedl to předseda Senátu Miloš Vystrčil (ODS). Ten by zároveň chtěl, aby se premiér Andrej Babiš (ANO) účastnil schůzí horní komory, a pozve ho na ustavující schůzi po volbách, která se uskuteční 19. listopadu. V pořadu Poledne s Moravcem Vystrčil také řekl, že kandidát ODS Radek Černý zvažuje stížnost k Nejvyššímu správnímu soudu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223602/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223612/"
+        }
+      ],
+      "en": {
+        "headline": "The Senate will prepare a constitutional challenge to the civil service act and will invite Babiš to its session",
+        "sentences": [
+          {
+            "en": "Senators will prepare a motion to the Constitutional Court to strike down some parts of the civil service act passed by the Chamber of Deputies.",
+            "cs": "Senátoři připraví návrh k Ústavnímu soudu na zrušení některých částí služebního zákona, který přijala Sněmovna."
+          },
+          {
+            "en": "Senate President Miloš Vystrčil (ODS) said so.",
+            "cs": "Uvedl to předseda Senátu Miloš Vystrčil (ODS)."
+          },
+          {
+            "en": "He would also like Prime Minister Andrej Babiš (ANO) to attend sessions of the upper house, and he will invite him to the opening session after the elections, which will take place on 19 November.",
+            "cs": "Ten by zároveň chtěl, aby se premiér Andrej Babiš (ANO) účastnil schůzí horní komory, a pozve ho na ustavující schůzi po volbách, která se uskuteční 19. listopadu."
+          },
+          {
+            "en": "On the programme Poledne s Moravcem, Vystrčil also said that the ODS candidate Radek Černý is considering a complaint to the Supreme Administrative Court.",
+            "cs": "V pořadu Poledne s Moravcem Vystrčil také řekl, že kandidát ODS Radek Černý zvažuje stížnost k Nejvyššímu správnímu soudu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "motion",
+            "definition": "a formal proposal put to a meeting or a court"
+          },
+          {
+            "term": "strike down",
+            "definition": "to cancel a law or part of it, said of a court"
+          },
+          {
+            "term": "upper house",
+            "definition": "the smaller of the two parts of a parliament"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "08:47",
+      "headline": "Vláda se v pondělí vrátí k financování asistentů pedagoga",
+      "body": "Vláda by se v pondělí měla po dvou týdnech vrátit k novele, která má mimo jiné zajistit změnu financování asistentů pedagoga. Na kompromisním znění se tento týden shodli koaliční experti a promítnou se do něj připomínky Motoristů. Kabinet zároveň podle ČTK pravděpodobně odmítne návrh opozičního hnutí STAN na snížení věkové hranice prvovoličů v obecních volbách na 16 let; obdobně jako u dřívější novely poslanců TOP 09 zřejmě uvede, že by taková změna vyžadovala odbornou i politickou diskuzi.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223488/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223490/"
+        }
+      ],
+      "en": {
+        "headline": "The government will return to the financing of teaching assistants on Monday",
+        "sentences": [
+          {
+            "en": "On Monday, after two weeks, the government should return to an amendment that is meant, among other things, to change the way teaching assistants are financed.",
+            "cs": "Vláda by se v pondělí měla po dvou týdnech vrátit k novele, která má mimo jiné zajistit změnu financování asistentů pedagoga."
+          },
+          {
+            "en": "Coalition experts agreed on a compromise wording this week, and comments from Motoristé will be reflected in it.",
+            "cs": "Na kompromisním znění se tento týden shodli koaliční experti a promítnou se do něj připomínky Motoristů."
+          },
+          {
+            "en": "According to ČTK, the cabinet will at the same time probably reject the opposition STAN movement's proposal to lower the voting age in municipal elections to 16; as with an earlier bill from TOP 09 members, it will likely say that such a change would require expert and political debate.",
+            "cs": "Kabinet zároveň podle ČTK pravděpodobně odmítne návrh opozičního hnutí STAN na snížení věkové hranice prvovoličů v obecních volbách na 16 let; obdobně jako u dřívější novely poslanců TOP 09 zřejmě uvede, že by taková změna vyžadovala odbornou i politickou diskuzi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "amendment",
+            "definition": "a change made to a law or a document"
+          },
+          {
+            "term": "wording",
+            "definition": "the exact words chosen to express something"
+          },
+          {
+            "term": "cabinet",
+            "definition": "the group of ministers who run a government"
+          },
+          {
+            "term": "bill",
+            "definition": "a written plan for a new law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:55",
+      "headline": "Kraj chce z bývalého školního areálu v Opočně udělat čtvrť s desítkami bytů",
+      "body": "Bývalý školní areál nedaleko centra Opočna by měl ožít. Královéhradecký kraj plánuje proměnu rozsáhlého území v městskou čtvrť s novými byty, sociálními službami i sportovišti. Zatím jde o studii, o konkrétní podobě projektu se teprve rozhodne.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/903287-byvaly-skolni-areal-v-opocne-ma-ozit-plan-pocita-s-desitkami-novych-bytu.html"
+        }
+      ],
+      "en": {
+        "headline": "The region wants to turn the former school grounds in Opočno into a district with dozens of flats",
+        "sentences": [
+          {
+            "en": "The former school grounds near the centre of Opočno should come back to life.",
+            "cs": "Bývalý školní areál nedaleko centra Opočna by měl ožít."
+          },
+          {
+            "en": "The Hradec Králové Region plans to turn the large site into an urban district with new flats, social services and sports facilities.",
+            "cs": "Královéhradecký kraj plánuje proměnu rozsáhlého území v městskou čtvrť s novými byty, sociálními službami i sportovišti."
+          },
+          {
+            "en": "So far it is only a study, and the concrete shape of the project has yet to be decided.",
+            "cs": "Zatím jde o studii, o konkrétní podobě projektu se teprve rozhodne."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "grounds",
+            "definition": "the land and buildings that belong to one place"
+          },
+          {
+            "term": "site",
+            "definition": "a piece of land where something is built or happens"
+          },
+          {
+            "term": "urban",
+            "definition": "belonging to a town or a city"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:28",
+      "headline": "Silnice na Zlaté návrší v Krkonoších se po opravě za 20 milionů znovu otevřela",
+      "body": "Závěrečný pětikilometrový úsek Masarykovy horské silnice z Horních Míseček na Zlaté návrší v Krkonoších se po rekonstrukci za víc než 20 milionů korun znovu otevřel. V celé délce dostal nový asfaltový koberec, který nahradil starý povrch a překryl původní dlážděné kostky. Podle iDNES Hradec změna těší cyklisty, jiné naopak zlobí.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/silnice-asfalt-oprava-zlate-navrsi-krkonose-turiste-cykliste.A261013_092823_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The road to Zlaté návrší in the Krkonoše mountains has reopened after a 20-million repair",
+        "sentences": [
+          {
+            "en": "The final five-kilometre stretch of the Masaryk mountain road from Horní Mísečky to Zlaté návrší in the Krkonoše mountains has reopened after a reconstruction costing more than 20 million crowns.",
+            "cs": "Závěrečný pětikilometrový úsek Masarykovy horské silnice z Horních Míseček na Zlaté návrší v Krkonoších se po rekonstrukci za víc než 20 milionů korun znovu otevřel."
+          },
+          {
+            "en": "Along its whole length it has a new asphalt surface, which replaced the old one and covered the original stone setts.",
+            "cs": "V celé délce dostal nový asfaltový koberec, který nahradil starý povrch a překryl původní dlážděné kostky."
+          },
+          {
+            "en": "According to iDNES Hradec the change pleases cyclists, while it annoys others.",
+            "cs": "Podle iDNES Hradec změna těší cyklisty, jiné naopak zlobí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stretch",
+            "definition": "a continuous part of a road, river or area"
+          },
+          {
+            "term": "setts",
+            "definition": "small square stones used to pave a road"
+          },
+          {
+            "term": "annoys",
+            "definition": "makes someone slightly angry"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:15",
+      "headline": "Po sobotních protestech ve Francii skončilo v rukou policie přes 1800 lidí",
+      "body": "Francouzská policie zadržela v souvislosti s násilím při sobotních demonstracích přes 1800 lidí, oznámil ministr vnitra Laurent Nuňez. Na síti X informoval také o více než 500 zraněných policistech a hasičích a o značných materiálních škodách; jen v Paříži bylo podle policie zadrženo rekordních 855 lidí. V zemi v sobotu protestovaly proti vysokým životním nákladům stovky tisíc lidí, na řadě míst se ale demonstrace zvrhly ve střety s policií, rabování luxusních obchodů i supermarketů a útoky na radnice. Protestující zapálili historickou radnici ve městě Limoges, podle ministra šlo o úmyslný čin maskovaných demonstrantů, kteří se do budovy vloupali. Vláda podle E15 přičetla výtržnosti krajní levici. Nuňez teď čelí kritice a výzvám k demisi od opozičních představitelů a někteří starostové se domnívají, že nebyl nasazen dostatečný počet policistů. Prezident Emmanuel Macron chtěl nepokoje projednat s premiérem a členy vlády a večer promluvit k národu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223651/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223512/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-video-behem-protestu-ve-francii-vzplala-historicka-radnice-v-limoges-318159"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/nasili-rabovani-horici-urady-ve-francii-to-vre-macron-promluvi-k-narodu-1436632"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223622/"
+        }
+      ],
+      "en": {
+        "headline": "More than 1,800 people were taken into police custody after Saturday's protests in France",
+        "sentences": [
+          {
+            "en": "French police detained more than 1,800 people in connection with the violence during Saturday's demonstrations, Interior Minister Laurent Nuňez announced.",
+            "cs": "Francouzská policie zadržela v souvislosti s násilím při sobotních demonstracích přes 1800 lidí, oznámil ministr vnitra Laurent Nuňez."
+          },
+          {
+            "en": "On X he also reported more than 500 injured police officers and firefighters and considerable material damage; in Paris alone, police said a record 855 people had been detained.",
+            "cs": "Na síti X informoval také o více než 500 zraněných policistech a hasičích a o značných materiálních škodách; jen v Paříži bylo podle policie zadrženo rekordních 855 lidí."
+          },
+          {
+            "en": "Hundreds of thousands of people protested across the country on Saturday against high living costs, but in many places the demonstrations turned into clashes with police, the looting of luxury shops and supermarkets, and attacks on town halls.",
+            "cs": "V zemi v sobotu protestovaly proti vysokým životním nákladům stovky tisíc lidí, na řadě míst se ale demonstrace zvrhly ve střety s policií, rabování luxusních obchodů i supermarketů a útoky na radnice."
+          },
+          {
+            "en": "Protesters set fire to the historic town hall in Limoges; according to the minister it was a deliberate act by masked demonstrators who had broken into the building.",
+            "cs": "Protestující zapálili historickou radnici ve městě Limoges, podle ministra šlo o úmyslný čin maskovaných demonstrantů, kteří se do budovy vloupali."
+          },
+          {
+            "en": "According to E15, the government blamed the rioting on the far left.",
+            "cs": "Vláda podle E15 přičetla výtržnosti krajní levici."
+          },
+          {
+            "en": "Nuňez is now facing criticism and calls to resign from opposition figures, and some mayors believe that too few police officers were deployed.",
+            "cs": "Nuňez teď čelí kritice a výzvám k demisi od opozičních představitelů a někteří starostové se domnívají, že nebyl nasazen dostatečný počet policistů."
+          },
+          {
+            "en": "President Emmanuel Macron intended to discuss the unrest with the prime minister and members of the government and to address the nation in the evening.",
+            "cs": "Prezident Emmanuel Macron chtěl nepokoje projednat s premiérem a členy vlády a večer promluvit k národu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "looting",
+            "definition": "stealing from shops or homes during a riot or a war"
+          },
+          {
+            "term": "deliberate",
+            "definition": "done on purpose, not by accident"
+          },
+          {
+            "term": "deployed",
+            "definition": "sent somewhere to be used, especially police or soldiers"
+          },
+          {
+            "term": "unrest",
+            "definition": "angry protests by many people in a country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:03",
+      "headline": "Ukrajinské drony zasáhly ropný terminál u Petrohradu, Rusko hlásí přes tisíc sestřelených strojů",
+      "body": "Ukrajinské drony zaútočily v noci na dnešek na Moskvu, Leningradskou oblast a Petrohrad. Podle Deníku N tam hoří ropný terminál, přes který ročně proteče 12 milionů tun ropných produktů, poškozeno bylo také další datové centrum a nedaleká elektrická rozvodna. Obyvatelé obou největších ruských měst v evropské části země hlásili nálet velkého počtu dronů a intenzivní činnost protivzdušné obrany. Rusko podle Seznam Zpráv informovalo o sestřelení 1015 ukrajinských dronů, což je neobvykle vysoký počet.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223486/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-temer-200-ukrajinskych-dronu-miricich-na-moskvu-zniceno-hlasi-starosta-318157"
+        }
+      ],
+      "en": {
+        "headline": "Ukrainian drones hit an oil terminal near St Petersburg, Russia reports more than a thousand shot down",
+        "sentences": [
+          {
+            "en": "Ukrainian drones attacked Moscow, the Leningrad region and St Petersburg overnight.",
+            "cs": "Ukrajinské drony zaútočily v noci na dnešek na Moskvu, Leningradskou oblast a Petrohrad."
+          },
+          {
+            "en": "According to Deník N, an oil terminal through which 12 million tonnes of oil products flow every year is burning there, and another data centre and a nearby electrical substation were damaged as well.",
+            "cs": "Podle Deníku N tam hoří ropný terminál, přes který ročně proteče 12 milionů tun ropných produktů, poškozeno bylo také další datové centrum a nedaleká elektrická rozvodna."
+          },
+          {
+            "en": "Residents of Russia's two largest cities in the European part of the country reported a raid by a large number of drones and intense activity by air defences.",
+            "cs": "Obyvatelé obou největších ruských měst v evropské části země hlásili nálet velkého počtu dronů a intenzivní činnost protivzdušné obrany."
+          },
+          {
+            "en": "According to Seznam Zprávy, Russia said it had shot down 1,015 Ukrainian drones, an unusually high number.",
+            "cs": "Rusko podle Seznam Zpráv informovalo o sestřelení 1015 ukrajinských dronů, což je neobvykle vysoký počet."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "substation",
+            "definition": "a place where the voltage of electricity is changed before it is sent on"
+          },
+          {
+            "term": "raid",
+            "definition": "a short sudden attack on a place"
+          },
+          {
+            "term": "air defences",
+            "definition": "the weapons and systems used to shoot down aircraft or missiles"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:42",
+      "headline": "Ruský útok zasáhl energetické objekty v Rovně, na Ukrajině zemřeli dva lidé",
+      "body": "Cílem ruského útoku se v noci na dnešek stalo mimo jiné opět ukrajinské město Rovno, kde byly zasaženy objekty energetické infrastruktury. Rusové podle Deníku N odpálili od sobotního večera na ukrajinské území 16 balistických raket Iskander M a 180 dronů. Vedení Volyňské oblasti vyzvalo obyvatele obce Manevyči, aby opustili své domy, po útoku tam hoří průmyslové sklady. Noční útoky si podle Seznam Zpráv vyžádaly nejméně dvě oběti a několik zraněných.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223500/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-vyslalo-na-ukrajinu-180-dronu-a-strelu-zahynula-zena-uvedly-urady-318161"
+        }
+      ],
+      "en": {
+        "headline": "A Russian strike hit energy facilities in Rivne, two people died in Ukraine",
+        "sentences": [
+          {
+            "en": "The Russian strike overnight again targeted, among other places, the Ukrainian city of Rivne, where energy infrastructure facilities were hit.",
+            "cs": "Cílem ruského útoku se v noci na dnešek stalo mimo jiné opět ukrajinské město Rovno, kde byly zasaženy objekty energetické infrastruktury."
+          },
+          {
+            "en": "According to Deník N, the Russians launched 16 Iskander M ballistic missiles and 180 drones at Ukrainian territory from Saturday evening onwards.",
+            "cs": "Rusové podle Deníku N odpálili od sobotního večera na ukrajinské území 16 balistických raket Iskander M a 180 dronů."
+          },
+          {
+            "en": "The leadership of the Volyn region called on the residents of the village of Manevychi to leave their homes, as industrial warehouses are burning there after the attack.",
+            "cs": "Vedení Volyňské oblasti vyzvalo obyvatele obce Manevyči, aby opustili své domy, po útoku tam hoří průmyslové sklady."
+          },
+          {
+            "en": "According to Seznam Zprávy, the night attacks claimed at least two lives and left several people injured.",
+            "cs": "Noční útoky si podle Seznam Zpráv vyžádaly nejméně dvě oběti a několik zraněných."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "facilities",
+            "definition": "buildings or equipment used for a particular purpose"
+          },
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that is fired high into the air and then falls on its target"
+          },
+          {
+            "term": "warehouses",
+            "definition": "large buildings where goods are stored"
+          },
+          {
+            "term": "claimed",
+            "definition": "caused the death of, when talking about an attack or a disaster"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:47",
+      "headline": "Spojené státy obnovily sdílení informací o ruských raketách s Ukrajinou",
+      "body": "Spojené státy obnovily poskytování klíčových zpravodajských informací, které mají Ukrajině pomoci bránit se proti ruským raketovým útokům. Uvedl to ukrajinský prezident Volodymyr Zelenskyj. Ten dříve tvrdil, že Washington Kyjevu před ruským útokem tajné informace neposkytl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223708/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajina-znovu-dostava-od-usa-informace-o-ruskych-raketach-rekl-zelenskyj-318170"
+        }
+      ],
+      "en": {
+        "headline": "The United States has resumed sharing information about Russian missiles with Ukraine",
+        "sentences": [
+          {
+            "en": "The United States has resumed providing key intelligence meant to help Ukraine defend itself against Russian missile attacks.",
+            "cs": "Spojené státy obnovily poskytování klíčových zpravodajských informací, které mají Ukrajině pomoci bránit se proti ruským raketovým útokům."
+          },
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyj said so.",
+            "cs": "Uvedl to ukrajinský prezident Volodymyr Zelenskyj."
+          },
+          {
+            "en": "He had earlier claimed that Washington had not given Kyiv classified information before a Russian attack.",
+            "cs": "Ten dříve tvrdil, že Washington Kyjevu před ruským útokem tajné informace neposkytl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resumed",
+            "definition": "started again after a break"
+          },
+          {
+            "term": "intelligence",
+            "definition": "secret information collected about an enemy"
+          },
+          {
+            "term": "classified",
+            "definition": "officially kept secret by a government"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:57",
+      "headline": "Rumunsko sestřelilo dva drony, Ukrajina se omluvila za stroje, které zabloudily nad Litvu",
+      "body": "Ukrajinské ministerstvo zahraničí vyjádřilo lítost nad možným odkloněním svých dronů do litevského vzdušného prostoru. Podle něj k němu mohlo dojít v důsledku ruské elektronické války, která drony odklonila během operace proti vojenským cílům v Rusku. Rumunské stíhačky F-16 v sobotu sestřelily nad teritoriálními vodami země dva drony; podle ministra obrany Radu Miruty šlo pravděpodobně o ruské stroje nejnovější generace. Polské letectvo zase v neděli podniklo preventivní operace související s ruskými raketovými útoky na Ukrajinu — mají podle Ozbrojených sil Polské republiky ochránit polský vzdušný prostor, zejména v regionech sousedících s ohroženými oblastmi.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223674/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223720/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223534/"
+        }
+      ],
+      "en": {
+        "headline": "Romania shot down two drones and Ukraine apologised for machines that strayed over Lithuania",
+        "sentences": [
+          {
+            "en": "The Ukrainian Ministry of Foreign Affairs expressed regret over the possible diversion of its drones into Lithuanian airspace.",
+            "cs": "Ukrajinské ministerstvo zahraničí vyjádřilo lítost nad možným odkloněním svých dronů do litevského vzdušného prostoru."
+          },
+          {
+            "en": "According to the ministry, this could have happened as a result of Russian electronic warfare, which diverted the drones during an operation against military targets in Russia.",
+            "cs": "Podle něj k němu mohlo dojít v důsledku ruské elektronické války, která drony odklonila během operace proti vojenským cílům v Rusku."
+          },
+          {
+            "en": "Romanian F-16 fighter jets shot down two drones over the country's territorial waters on Saturday; according to Defence Minister Radu Miruta they were probably Russian machines of the newest generation.",
+            "cs": "Rumunské stíhačky F-16 v sobotu sestřelily nad teritoriálními vodami země dva drony; podle ministra obrany Radu Miruty šlo pravděpodobně o ruské stroje nejnovější generace."
+          },
+          {
+            "en": "The Polish air force, in turn, carried out preventive operations on Sunday in connection with Russian missile attacks on Ukraine — according to the Polish Armed Forces they are meant to protect Polish airspace, especially in regions bordering the areas at risk.",
+            "cs": "Polské letectvo zase v neděli podniklo preventivní operace související s ruskými raketovými útoky na Ukrajinu — mají podle Ozbrojených sil Polské republiky ochránit polský vzdušný prostor, zejména v regionech sousedících s ohroženými oblastmi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "diversion",
+            "definition": "a change of direction away from the planned route"
+          },
+          {
+            "term": "warfare",
+            "definition": "the activity of fighting a war"
+          },
+          {
+            "term": "territorial waters",
+            "definition": "the sea near a country's coast that belongs to that country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:27",
+      "headline": "Egypt nabídl Saúdské Arábii podporu kvůli stupňujícím se útokům Hútíů",
+      "body": "Egypt je připraven poskytnout Saúdské Arábii podporu, kterou potřebuje k obraně své bezpečnosti a stability, uvedl v neděli egyptský prezidentský úřad. Děje se tak v době, kdy jemenští Hútíové spojení s Íránem stupňují útoky na největšího světového vývozce ropy. Prezident Abdal Fattáh Sísí požádal o mimořádné zasedání parlamentu, aby schválilo zmocnění pro armádu, jednu z největších a nejsilnějších v regionu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223576/"
+        }
+      ],
+      "en": {
+        "headline": "Egypt has offered Saudi Arabia support over escalating Houthi attacks",
+        "sentences": [
+          {
+            "en": "Egypt is ready to give Saudi Arabia the support it needs to defend its security and stability, the Egyptian presidential office said on Sunday.",
+            "cs": "Egypt je připraven poskytnout Saúdské Arábii podporu, kterou potřebuje k obraně své bezpečnosti a stability, uvedl v neděli egyptský prezidentský úřad."
+          },
+          {
+            "en": "This comes at a time when the Iran-aligned Yemeni Houthis are stepping up attacks on the world's largest oil exporter.",
+            "cs": "Děje se tak v době, kdy jemenští Hútíové spojení s Íránem stupňují útoky na největšího světového vývozce ropy."
+          },
+          {
+            "en": "President Abdel Fattah el-Sisi has asked for an extraordinary session of parliament to approve a mandate for the army, one of the largest and strongest in the region.",
+            "cs": "Prezident Abdal Fattáh Sísí požádal o mimořádné zasedání parlamentu, aby schválilo zmocnění pro armádu, jednu z největších a nejsilnějších v regionu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stepping up",
+            "definition": "increasing something or making it stronger"
+          },
+          {
+            "term": "mandate",
+            "definition": "official permission to do something"
+          },
+          {
+            "term": "extraordinary",
+            "definition": "arranged specially, outside the usual programme"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:00",
+      "headline": "Čínským tržištím klesly v Německu po zavedení cla tržby o více než třetinu",
+      "body": "Čínská tržiště v Evropě ztrácejí sílu. V Německu jim po zavedení nového cla klesly tržby o více než třetinu a ve Francii se perou s úbytkem návštěvníků. Seznam Zprávy to popisují na datech o platformě Temu.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-data-z-nemecka-ukazuji-jak-se-priskrtilo-temu-trzby-klesly-o-tretinu-318166"
+        }
+      ],
+      "en": {
+        "headline": "Chinese marketplaces' revenues in Germany fell by more than a third after a new duty",
+        "sentences": [
+          {
+            "en": "Chinese marketplaces in Europe are losing strength.",
+            "cs": "Čínská tržiště v Evropě ztrácejí sílu."
+          },
+          {
+            "en": "In Germany their revenues fell by more than a third after a new customs duty was introduced, and in France they are struggling with a drop in visitors.",
+            "cs": "V Německu jim po zavedení nového cla klesly tržby o více než třetinu a ve Francii se perou s úbytkem návštěvníků."
+          },
+          {
+            "en": "Seznam Zprávy describes this using data on the Temu platform.",
+            "cs": "Seznam Zprávy to popisují na datech o platformě Temu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revenues",
+            "definition": "the money a company receives from selling things"
+          },
+          {
+            "term": "customs duty",
+            "definition": "a tax paid on goods brought into a country"
+          },
+          {
+            "term": "struggling",
+            "definition": "having a lot of difficulty with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:00",
+      "headline": "Toyota začne v Kolíně vyrábět svůj první čistě elektrický model",
+      "body": "Japonská automobilka Toyota vidí podle E15 v Kolíně strategickou bránu do Evropy. V tamním závodě začne vyrábět svůj první čistě elektrický model a nemusí zůstat jen u jediného. Náplň výroby kolínského megahubu podle E15 zásadně ovlivní také změna regulace, která směřuje do finální fáze.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/z-kolina-bude-megacentrum-toyota-v-nem-vidi-stroj-na-elektromobily-1436626"
+        }
+      ],
+      "en": {
+        "headline": "Toyota will start making its first all-electric model in Kolín",
+        "sentences": [
+          {
+            "en": "The Japanese carmaker Toyota sees Kolín as a strategic gateway to Europe, according to E15.",
+            "cs": "Japonská automobilka Toyota vidí podle E15 v Kolíně strategickou bránu do Evropy."
+          },
+          {
+            "en": "At the plant there it will start producing its first purely electric model, and it may not stop at one.",
+            "cs": "V tamním závodě začne vyrábět svůj první čistě elektrický model a nemusí zůstat jen u jediného."
+          },
+          {
+            "en": "According to E15, what the Kolín megahub will build will also be strongly affected by a change in regulation that is heading into its final phase.",
+            "cs": "Náplň výroby kolínského megahubu podle E15 zásadně ovlivní také změna regulace, která směřuje do finální fáze."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "carmaker",
+            "definition": "a company that makes cars"
+          },
+          {
+            "term": "gateway",
+            "definition": "a place through which you can enter a larger area"
+          },
+          {
+            "term": "plant",
+            "definition": "a factory where goods are produced"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:32",
+      "headline": "Firemních bankrotů je nejvíc od roku 2016, bankrotů podnikatelů naopak ubylo",
+      "body": "V Česku zbankrotovalo za prvních devět měsíců letošního roku 618 obchodních společností, meziročně o sedm procent více. Jde o nejvyšší počet za toto období od roku 2016. Roste i počet návrhů na bankrot, kterých soudy od ledna do září přijaly 986, tedy o 19 procent více než loni. U podnikatelů je trend opačný: soudy za stejné období vyhlásily 4703 bankrotů, o dvě procenta méně než loni, a přijaly 4790 návrhů, meziročně o pět procent méně. Údaje o bankrotech podnikatelů pocházejí z analýzy společnosti CRIF – Czech Credit Bureau.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/903342-pocet-firemnich-bankrotu-v-cesku-je-nejvyssi-od-roku-2016.html"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223492/"
+        }
+      ],
+      "en": {
+        "headline": "Corporate bankruptcies are at their highest since 2016, while bankruptcies of sole traders have fallen",
+        "sentences": [
+          {
+            "en": "In the first nine months of this year, 618 companies went bankrupt in the Czech Republic, seven percent more than a year earlier.",
+            "cs": "V Česku zbankrotovalo za prvních devět měsíců letošního roku 618 obchodních společností, meziročně o sedm procent více."
+          },
+          {
+            "en": "That is the highest number for this period since 2016.",
+            "cs": "Jde o nejvyšší počet za toto období od roku 2016."
+          },
+          {
+            "en": "The number of bankruptcy petitions is rising too; courts received 986 of them from January to September, 19 percent more than last year.",
+            "cs": "Roste i počet návrhů na bankrot, kterých soudy od ledna do září přijaly 986, tedy o 19 procent více než loni."
+          },
+          {
+            "en": "Among sole traders the trend is the opposite: over the same period the courts declared 4,703 bankruptcies, two percent fewer than last year, and received 4,790 petitions, five percent fewer year on year.",
+            "cs": "U podnikatelů je trend opačný: soudy za stejné období vyhlásily 4703 bankrotů, o dvě procenta méně než loni, a přijaly 4790 návrhů, meziročně o pět procent méně."
+          },
+          {
+            "en": "The data on bankruptcies of sole traders come from an analysis by the company CRIF – Czech Credit Bureau.",
+            "cs": "Údaje o bankrotech podnikatelů pocházejí z analýzy společnosti CRIF – Czech Credit Bureau."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bankrupt",
+            "definition": "unable to pay the money you owe"
+          },
+          {
+            "term": "petitions",
+            "definition": "formal written requests made to a court"
+          },
+          {
+            "term": "sole traders",
+            "definition": "people who run their own small business alone"
+          },
+          {
+            "term": "year on year",
+            "definition": "compared with the same period one year earlier"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "06:30",
+      "headline": "Investoři se zbavují dluhopisů firem, které financují datová centra pro AI",
+      "body": "Investoři začínají pochybovat o návratnosti obřích investic do umělé inteligence a zbavují se dluhopisů firem financujících datová centra, píše E15 s odkazem na businessový newsletter 11am. Dluhopisy společnosti CoreWeave prudce ztrácejí hodnotu a trh podle ukazatele CDS počítá s více než šedesátiprocentní pravděpodobností jejího selhání během pěti let. Podle analýzy Gartneru hrozí odvětví bilionové ztráty.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/ai-horecka-narazi-na-tvrdou-realitu-investori-se-boji-bankrotu-a-zbavuji-se-dluhopisu-1436614"
+        }
+      ],
+      "en": {
+        "headline": "Investors are dumping the bonds of companies that finance AI data centres",
+        "sentences": [
+          {
+            "en": "Investors are beginning to doubt the returns on huge investments in artificial intelligence and are getting rid of the bonds of companies financing data centres, E15 writes, citing the business newsletter 11am.",
+            "cs": "Investoři začínají pochybovat o návratnosti obřích investic do umělé inteligence a zbavují se dluhopisů firem financujících datová centra, píše E15 s odkazem na businessový newsletter 11am."
+          },
+          {
+            "en": "The bonds of CoreWeave are falling sharply in value and, judging by the CDS indicator, the market puts the probability of its default within five years at more than sixty percent.",
+            "cs": "Dluhopisy společnosti CoreWeave prudce ztrácejí hodnotu a trh podle ukazatele CDS počítá s více než šedesátiprocentní pravděpodobností jejího selhání během pěti let."
+          },
+          {
+            "en": "According to a Gartner analysis, the sector faces losses in the trillions.",
+            "cs": "Podle analýzy Gartneru hrozí odvětví bilionové ztráty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "returns",
+            "definition": "the profit you get from money you have invested"
+          },
+          {
+            "term": "bonds",
+            "definition": "documents in which a company promises to repay money it has borrowed"
+          },
+          {
+            "term": "default",
+            "definition": "a failure to pay back a debt"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:49",
+      "headline": "OpenAI zveřejnila stovky nových matematických důkazů, část matematiků bije na poplach",
+      "body": "Umělá inteligence se pustila do matematiky. OpenAI podle Seznam Zpráv zveřejnila stovky nových důkazů a vyřešila problémy, které zatím žádný člověk vyřešit nedokázal. Mnozí experti ale místo oslav varují: podle nich může takový postup obor vážně poškodit.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-plakal-jsem-rozprasili-mou-oblast-vyzkumu-zacala-revoluce-v-matematice-317710"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI has published hundreds of new mathematical proofs and some mathematicians are sounding the alarm",
+        "sentences": [
+          {
+            "en": "Artificial intelligence has taken on mathematics.",
+            "cs": "Umělá inteligence se pustila do matematiky."
+          },
+          {
+            "en": "According to Seznam Zprávy, OpenAI has published hundreds of new proofs and solved problems that no human has been able to solve so far.",
+            "cs": "OpenAI podle Seznam Zpráv zveřejnila stovky nových důkazů a vyřešila problémy, které zatím žádný člověk vyřešit nedokázal."
+          },
+          {
+            "en": "Instead of celebrating, however, many experts are warning that such a development could seriously damage the field.",
+            "cs": "Mnozí experti ale místo oslav varují: podle nich může takový postup obor vážně poškodit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "proofs",
+            "definition": "arguments that show that something is definitely true"
+          },
+          {
+            "term": "taken on",
+            "definition": "started to deal with something difficult"
+          },
+          {
+            "term": "field",
+            "definition": "an area of study or work"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:50",
+      "headline": "DeepSeek nabídl vývojářům vyhledávání na webu za 0,75 dolaru za tisíc požadavků",
+      "body": "Čínská firma DeepSeek přidala do svého API vyhledávání a stahování webových stránek. Podle její dokumentace stojí služba 0,75 dolaru za tisíc úspěšných požadavků. Odkaz na Hacker News získal přes 370 bodů a necelé dvě stovky komentářů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://api-docs.deepseek.com/guides/search/"
+        }
+      ],
+      "en": {
+        "headline": "DeepSeek has offered developers web search for 0.75 dollars per thousand requests",
+        "sentences": [
+          {
+            "en": "The Chinese company DeepSeek has added web search and page fetching to its API.",
+            "cs": "Čínská firma DeepSeek přidala do svého API vyhledávání a stahování webových stránek."
+          },
+          {
+            "en": "According to its documentation, the service costs 0.75 dollars per thousand successful requests.",
+            "cs": "Podle její dokumentace stojí služba 0,75 dolaru za tisíc úspěšných požadavků."
+          },
+          {
+            "en": "On Hacker News the link received more than 370 points and almost two hundred comments.",
+            "cs": "Odkaz na Hacker News získal přes 370 bodů a necelé dvě stovky komentářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fetching",
+            "definition": "getting something from somewhere and bringing it back"
+          },
+          {
+            "term": "documentation",
+            "definition": "written information that explains how something works"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:45",
+      "headline": "Aplikace Reader PDF z Google Play šíří virus mířící na bankovní účty",
+      "body": "Aplikace Reader PDF, kterou si z Google Play nainstalovalo přes deset tisíc uživatelů Androidu, šíří nebezpečný virus. Ten může ohrozit jejich přihlašovací údaje k bankovním účtům. Na problém upozornili výzkumníci ze společnosti Zscaler.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/krimi/aplikace-reader-pdf-hrozba-virus-android/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=krimi"
+        }
+      ],
+      "en": {
+        "headline": "The Reader PDF app from Google Play spreads a virus aimed at bank accounts",
+        "sentences": [
+          {
+            "en": "The Reader PDF app, which more than ten thousand Android users have installed from Google Play, is spreading a dangerous virus.",
+            "cs": "Aplikace Reader PDF, kterou si z Google Play nainstalovalo přes deset tisíc uživatelů Androidu, šíří nebezpečný virus."
+          },
+          {
+            "en": "It can compromise their login details for bank accounts.",
+            "cs": "Ten může ohrozit jejich přihlašovací údaje k bankovním účtům."
+          },
+          {
+            "en": "Researchers from the company Zscaler drew attention to the problem.",
+            "cs": "Na problém upozornili výzkumníci ze společnosti Zscaler."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compromise",
+            "definition": "to make something less safe or secure"
+          },
+          {
+            "term": "login details",
+            "definition": "the name and password used to enter an account"
+          },
+          {
+            "term": "drew attention to",
+            "definition": "made people notice something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "12:02",
+      "headline": "Denemarkové chodí po vystoupení ve Frankfurtu výhrůžky smrtí",
+      "body": "Spisovatelce Radce Denemarkové chodí po kritickém projevu na knižním veletrhu ve Frankfurtu výhrůžky smrtí i mučením, popsala pro Deník N. Další čeští autoři a autorky se své kolegyně zastávají a hodnotí tamní střety i význam akce.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2222848/po-frankfurtu-celim-vyhruzkam-smrti-rika-denemarkova-nejsme-vyzirky-kritizuji-klempire-literati/"
+        }
+      ],
+      "en": {
+        "headline": "Denemarková has been receiving death threats after her appearance in Frankfurt",
+        "sentences": [
+          {
+            "en": "The writer Radka Denemarková has been receiving threats of death and torture after a critical speech at the Frankfurt Book Fair, she told Deník N.",
+            "cs": "Spisovatelce Radce Denemarkové chodí po kritickém projevu na knižním veletrhu ve Frankfurtu výhrůžky smrtí i mučením, popsala pro Deník N."
+          },
+          {
+            "en": "Other Czech authors are standing up for their colleague and are assessing both the clashes there and the importance of the event.",
+            "cs": "Další čeští autoři a autorky se své kolegyně zastávají a hodnotí tamní střety i význam akce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "torture",
+            "definition": "causing someone severe pain on purpose"
+          },
+          {
+            "term": "standing up for",
+            "definition": "defending someone who is being attacked or criticised"
+          },
+          {
+            "term": "assessing",
+            "definition": "judging the quality or importance of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "06:00",
+      "headline": "Z některých českých regionů zmizela za čtvrtstoletí až pětina obyvatel",
+      "body": "Jedno Česko roste, druhé se vylidňuje, píše E15. Některé oblasti ztratily za posledních pětadvacet let až pětinu obyvatel, jinde už lidé tolik neodcházejí, populace přesto dál klesá kvůli stárnutí. Analýza ukazuje, jakou roli hrají práce, bydlení, stárnutí i poloha regionu.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/jedno-cesko-roste-druhe-se-vylidnuje-deset-oblasti-odkud-zmizela-az-petina-lidi-1436548"
+        }
+      ],
+      "en": {
+        "headline": "Up to a fifth of the population has disappeared from some Czech regions in a quarter of a century",
+        "sentences": [
+          {
+            "en": "One Czech Republic is growing, the other is emptying out, E15 writes.",
+            "cs": "Jedno Česko roste, druhé se vylidňuje, píše E15."
+          },
+          {
+            "en": "Some areas have lost up to a fifth of their inhabitants over the past twenty-five years; elsewhere people are no longer leaving as much, yet the population keeps falling because of ageing.",
+            "cs": "Některé oblasti ztratily za posledních pětadvacet let až pětinu obyvatel, jinde už lidé tolik neodcházejí, populace přesto dál klesá kvůli stárnutí."
+          },
+          {
+            "en": "The analysis shows what role work, housing, ageing and the location of a region play.",
+            "cs": "Analýza ukazuje, jakou roli hrají práce, bydlení, stárnutí i poloha regionu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "emptying out",
+            "definition": "losing the people who were inside or living there"
+          },
+          {
+            "term": "inhabitants",
+            "definition": "the people who live in a place"
+          },
+          {
+            "term": "ageing",
+            "definition": "the process of becoming older"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:04",
+      "headline": "Sparta poprvé v sezoně remizovala, Zbrojovka vyhrála na Slovácku",
+      "body": "Sparta v 11. kole nesplnila roli favorita na půdě Baníku Ostrava, po bezbrankové remíze si poprvé v této sezoně rozdělila body a na vedoucí Slavii dál ztrácí osm bodů. Zbrojovka Brno zvítězila na Slovácku 2:1 brankami Vašulína z penalty a Vachouška a posunula se na páté místo; domácí doma prohráli s Brnem poprvé po 14 letech. Olomouc porazila Liberec 1:0, hostům přitom sudí neuznali tři branky, dvakrát kvůli ofsajdu a jednou pro faul na brankáře.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-poprve-v-sezone-remizovala-5558047"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slovacko-doma-poprve-po-14-letech-nestacilo-na-zbrojovku-159501"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-chance-liga-sigma-olomouc-fk-liberec-cesky-fotbal-matej-hadas_2610181249_ssi"
+        }
+      ],
+      "en": {
+        "headline": "Sparta drew for the first time this season, Zbrojovka won at Slovácko",
+        "sentences": [
+          {
+            "en": "In the 11th round Sparta failed to live up to its role as favourite at Baník Ostrava; after a goalless draw it shared the points for the first time this season and still trails the leaders Slavia by eight points.",
+            "cs": "Sparta v 11. kole nesplnila roli favorita na půdě Baníku Ostrava, po bezbrankové remíze si poprvé v této sezoně rozdělila body a na vedoucí Slavii dál ztrácí osm bodů."
+          },
+          {
+            "en": "Zbrojovka Brno won 2:1 at Slovácko with goals by Vašulín from a penalty and Vachoušek and moved up to fifth place; the hosts lost at home to Brno for the first time in 14 years.",
+            "cs": "Zbrojovka Brno zvítězila na Slovácku 2:1 brankami Vašulína z penalty a Vachouška a posunula se na páté místo; domácí doma prohráli s Brnem poprvé po 14 letech."
+          },
+          {
+            "en": "Olomouc beat Liberec 1:0, with the referees disallowing three of the visitors' goals, twice for offside and once for a foul on the goalkeeper.",
+            "cs": "Olomouc porazila Liberec 1:0, hostům přitom sudí neuznali tři branky, dvakrát kvůli ofsajdu a jednou pro faul na brankáře."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "live up to",
+            "definition": "to be as good as people expected"
+          },
+          {
+            "term": "trails",
+            "definition": "is behind the leader in a competition"
+          },
+          {
+            "term": "disallowing",
+            "definition": "officially refusing to accept something"
+          },
+          {
+            "term": "offside",
+            "definition": "a position in football in which a player may not play the ball"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:42",
+      "headline": "Slavia odletěla do Istanbulu bez vyloučeného Chorého",
+      "body": "Fotbalisté Slavie odcestovali k úternímu utkání hlavní fáze Ligy mistrů proti Fenerbahce bez útočníka Tomáše Chorého. Ten dostal v sobotním ligovém duelu s Hradcem Králové červenou kartu za vztyčený prostředníček směrem k rozhodčímu; šlo o jeho čtvrté vyloučení za poslední dvě sezony. Trenér Jindřich Trpišovský označil červenou kartu za naprosto stupidní a oznámil, že Chorého do Turecka nevezme. Slavia v Istanbulu bojuje o ukončení čekání na vítězství v hlavní části Ligy mistrů, které trvá už 21 utkání.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-ve-slavii-dodrzeli-slib-v-letadle-do-istanbulu-chybel-chory-5558005"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/choreho-vylouceni-stupidni-rekl-trpisovsky-utocnika-odmita-vzit-do-istanbulu-159488"
+        }
+      ],
+      "en": {
+        "headline": "Slavia flew to Istanbul without the sent-off Chorý",
+        "sentences": [
+          {
+            "en": "Slavia's footballers travelled to Tuesday's main-stage Champions League match against Fenerbahce without striker Tomáš Chorý.",
+            "cs": "Fotbalisté Slavie odcestovali k úternímu utkání hlavní fáze Ligy mistrů proti Fenerbahce bez útočníka Tomáše Chorého."
+          },
+          {
+            "en": "He was shown a red card in Saturday's league game with Hradec Králové for raising his middle finger at the referee; it was his fourth sending-off in the past two seasons.",
+            "cs": "Ten dostal v sobotním ligovém duelu s Hradcem Králové červenou kartu za vztyčený prostředníček směrem k rozhodčímu; šlo o jeho čtvrté vyloučení za poslední dvě sezony."
+          },
+          {
+            "en": "Coach Jindřich Trpišovský called the red card utterly stupid and announced that he would not take Chorý to Turkey.",
+            "cs": "Trenér Jindřich Trpišovský označil červenou kartu za naprosto stupidní a oznámil, že Chorého do Turecka nevezme."
+          },
+          {
+            "en": "In Istanbul Slavia is fighting to end a wait for a win in the main stage of the Champions League that has already lasted 21 matches.",
+            "cs": "Slavia v Istanbulu bojuje o ukončení čekání na vítězství v hlavní části Ligy mistrů, které trvá už 21 utkání."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "striker",
+            "definition": "a football player whose main job is to score goals"
+          },
+          {
+            "term": "sending-off",
+            "definition": "being ordered by the referee to leave the field"
+          },
+          {
+            "term": "utterly",
+            "definition": "completely, in every way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:17",
+      "headline": "Siniaková s Hunterovou prohrály finále čtyřhry ve Wu-chanu",
+      "body": "Kateřina Siniaková s Australankou Storm Hunterovou neobhájily titul ve čtyřhře na turnaji ve Wu-chanu. Ve finále s kanadsko-brazilskou dvojicí Gabriela Dabrowská, Luisa Stefaniová odvrátily tři mečboly, ale prohrály 5:7 a 4:6. Siniaková tak přišla o šanci získat jubilejní čtyřicátou trofej kariéry.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-s-hunterovou-na-titul-ve-wu-chanu-nedosahly-159499"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-siniakova-zautoci-ve-wu-chanu-na-jubilejni-titul-ve-finale-ma-souperkam-co-vracet-5557553"
+        }
+      ],
+      "en": {
+        "headline": "Siniaková and Hunter lost the doubles final in Wuhan",
+        "sentences": [
+          {
+            "en": "Kateřina Siniaková and her Australian partner Storm Hunter failed to defend their doubles title at the tournament in Wuhan.",
+            "cs": "Kateřina Siniaková s Australankou Storm Hunterovou neobhájily titul ve čtyřhře na turnaji ve Wu-chanu."
+          },
+          {
+            "en": "In the final against the Canadian-Brazilian pair Gabriela Dabrowski and Luisa Stefani they saved three match points but lost 5:7 and 4:6.",
+            "cs": "Ve finále s kanadsko-brazilskou dvojicí Gabriela Dabrowská, Luisa Stefaniová odvrátily tři mečboly, ale prohrály 5:7 a 4:6."
+          },
+          {
+            "en": "Siniaková thus missed the chance to win the milestone fortieth trophy of her career.",
+            "cs": "Siniaková tak přišla o šanci získat jubilejní čtyřicátou trofej kariéry."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "defend",
+            "definition": "to try to keep a title you have already won"
+          },
+          {
+            "term": "match points",
+            "definition": "points that would win the whole match for a player"
+          },
+          {
+            "term": "milestone",
+            "definition": "an important moment or achievement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:36",
+      "headline": "Davidovich vyhrál tenisový Masters v Šanghaji",
+      "body": "Španělský tenista Alejandro Davidovich vyhrál turnaj série Masters v Šanghaji. Ve finále porazil krajana Rafaela Jódara 1:6, 7:6, 6:4 a zaznamenal největší úspěch dosavadní kariéry.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-tenista-davidovich-vyhral-masters-v-sanghaji-a-ziskal-nejvetsi-titul-kariery-5557809"
+        }
+      ],
+      "en": {
+        "headline": "Davidovich has won the tennis Masters in Shanghai",
+        "sentences": [
+          {
+            "en": "The Spanish tennis player Alejandro Davidovich has won the Masters series tournament in Shanghai.",
+            "cs": "Španělský tenista Alejandro Davidovich vyhrál turnaj série Masters v Šanghaji."
+          },
+          {
+            "en": "In the final he beat his compatriot Rafael Jódar 1:6, 7:6, 6:4 and recorded the greatest success of his career so far.",
+            "cs": "Ve finále porazil krajana Rafaela Jódara 1:6, 7:6, 6:4 a zaznamenal největší úspěch dosavadní kariéry."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compatriot",
+            "definition": "a person from the same country as someone else"
+          },
+          {
+            "term": "so far",
+            "definition": "up to this moment"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:10",
+      "headline": "Pastrňák gólem a asistencí pomohl Bostonu k výhře v Los Angeles",
+      "body": "David Pastrňák přispěl v NHL gólem a asistencí k vítězství Bostonu 4:1 na ledě Los Angeles. Dan Vladař 25 zákroky pomohl Philadelphii k první výhře sezony, Flyers doma porazili Ottawu 3:1. Karel Vejmelka při prohře Utahu 2:6 s Edmontonem inkasoval pět branek ze 17 střel a ve 34. minutě střídal.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/pastrnak-proti-los-angeles-pridal-dalsi-gol-a-prihravku-vejmelka-proti-edmontonu-stridal-159497"
+        }
+      ],
+      "en": {
+        "headline": "Pastrňák helped Boston to a win in Los Angeles with a goal and an assist",
+        "sentences": [
+          {
+            "en": "David Pastrňák contributed a goal and an assist to Boston's 4:1 victory on the ice in Los Angeles in the NHL.",
+            "cs": "David Pastrňák přispěl v NHL gólem a asistencí k vítězství Bostonu 4:1 na ledě Los Angeles."
+          },
+          {
+            "en": "Dan Vladař made 25 saves to help Philadelphia to its first win of the season, as the Flyers beat Ottawa 3:1 at home.",
+            "cs": "Dan Vladař 25 zákroky pomohl Philadelphii k první výhře sezony, Flyers doma porazili Ottawu 3:1."
+          },
+          {
+            "en": "Karel Vejmelka conceded five goals from 17 shots in Utah's 2:6 defeat by Edmonton and was substituted in the 34th minute.",
+            "cs": "Karel Vejmelka při prohře Utahu 2:6 s Edmontonem inkasoval pět branek ze 17 střel a ve 34. minutě střídal."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assist",
+            "definition": "a pass that leads directly to a goal"
+          },
+          {
+            "term": "saves",
+            "definition": "actions in which a goalkeeper stops the puck or the ball"
+          },
+          {
+            "term": "conceded",
+            "definition": "let the other team score a goal"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:37",
+      "headline": "Taschlerovi ovládli Budapešťskou trofej",
+      "body": "Krasobruslařský taneční pár Natálie a Filip Taschlerovi vyhrál Budapešťskou trofej. Čeští reprezentanti zvítězili ve volném tanci.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2223665/"
+        }
+      ],
+      "en": {
+        "headline": "The Taschlers have won the Budapest Trophy",
+        "sentences": [
+          {
+            "en": "The figure-skating ice dance pair Natálie and Filip Taschler have won the Budapest Trophy.",
+            "cs": "Krasobruslařský taneční pár Natálie a Filip Taschlerovi vyhrál Budapešťskou trofej."
+          },
+          {
+            "en": "The Czech representatives came first in the free dance.",
+            "cs": "Čeští reprezentanti zvítězili ve volném tanci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "figure-skating",
+            "definition": "a sport in which skaters perform jumps and turns on ice"
+          },
+          {
+            "term": "representatives",
+            "definition": "people chosen to compete for their country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:02",
+      "headline": "Křenek byl na závěr mistrovství světa dráhařů pátý ve vylučovacím závodě",
+      "body": "Cyklista Adam Křenek obsadil na mistrovství světa dráhařů v Šanghaji páté místo ve vylučovacím závodě a postaral se o nejlepší výsledek české výpravy; v desítce skončil i v sobotním omniu. Závod vyhrál Němec Tim Torn Teutenberg.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/cyklistika/krenek-obsadil-na-ms-ve-vylucovacim-zavode-pate-misto-159498"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/cyklistika-krenek-byl-na-zaver-ms-drahovych-cyklistu-paty-ve-vylucovacim-zavode-5557706"
+        }
+      ],
+      "en": {
+        "headline": "Křenek finished fifth in the elimination race at the end of the track cycling world championships",
+        "sentences": [
+          {
+            "en": "Cyclist Adam Křenek took fifth place in the elimination race at the track cycling world championships in Shanghai and produced the best result of the Czech team; he also finished in the top ten in Saturday's omnium.",
+            "cs": "Cyklista Adam Křenek obsadil na mistrovství světa dráhařů v Šanghaji páté místo ve vylučovacím závodě a postaral se o nejlepší výsledek české výpravy; v desítce skončil i v sobotním omniu."
+          },
+          {
+            "en": "The race was won by Germany's Tim Torn Teutenberg.",
+            "cs": "Závod vyhrál Němec Tim Torn Teutenberg."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "track cycling",
+            "definition": "cycling races held on a special oval track, not on roads"
+          },
+          {
+            "term": "omnium",
+            "definition": "a cycling competition made up of several different races"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Andrej Babiš has called the result of the Senate elections catastrophic and is planning a restart of the ANO movement.",
+    "French police detained more than 1,800 people after Saturday's protests, and more than 500 police officers and firefighters were injured.",
+    "Ukrainian drones hit an oil terminal near St Petersburg overnight, and Russia reports more than a thousand drones shot down.",
+    "Ostrava will be run by a coalition of ANO, Starostové pro Ostravu and the Ostravak movement, with Richard Vereš as mayor."
+  ]
+}
