@@ -1,0 +1,1513 @@
+{
+  "date": "2026-10-20",
+  "covers": "2026-10-20",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "iROZHLAS Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "Hacker News"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude převládat slabý déšť, přes den až 18 °C. Kvalita ovzduší bude zhoršená.",
+    "outlook": "Ve čtvrtek má spadnout nejvíc srážek, pravděpodobnost deště je téměř stoprocentní.",
+    "days": [
+      {
+        "date": "2026-10-21",
+        "icon": "rain",
+        "temp_max_c": 18.1,
+        "temp_min_c": 8.9
+      },
+      {
+        "date": "2026-10-22",
+        "icon": "rain",
+        "temp_max_c": 11.3,
+        "temp_min_c": 7.0
+      },
+      {
+        "date": "2026-10-23",
+        "icon": "cloudy",
+        "temp_max_c": 14.4,
+        "temp_min_c": 5.0
+      },
+      {
+        "date": "2026-10-24",
+        "icon": "cloudy",
+        "temp_max_c": 12.2,
+        "temp_min_c": 7.0
+      }
+    ],
+    "summary_en": "Light rain will prevail tomorrow, with temperatures reaching 18 °C during the day. Air quality will be poor.",
+    "outlook_en": "Thursday is set to bring the heaviest rainfall, with the probability of rain close to one hundred percent."
+  },
+  "highlights": [
+    "V Brně se dohodlo pět uskupení na koalici bez hnutí ANO, primátorem se má stát lidovec Jakub Hruška.",
+    "Končí generální ředitel Státního zemědělského intervenčního fondu Petr Dlouhý, podle svých slov z osobních důvodů.",
+    "Vláda, odbory a zaměstnavatelé se dohodli na nových platových tabulkách pro veřejný sektor od ledna.",
+    "Donald Trump prohlásil, že se Rusko vůči Ukrajině chová v pořádku."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "14:26",
+      "headline": "V Brně se dohodlo pět uskupení na koalici bez hnutí ANO",
+      "body": "Na koalici v Brně se dohodli vítězní KDU-ČSL a STAN, koalice ODS, TOP 09 a nezávislých, Zelené Brno, Piráti a hnutí Za Lužánky. V pětapadesátičlenném zastupitelstvu by měli mít 44 hlasů, hnutí ANO skončí s 11 mandáty v opozici. Primátorem se má stát lídr koalice Jakub Hruška z KDU-ČSL, podle kterého došlo k stoprocentní dohodě na programu i obsazení míst v radě. Konkrétní jména strany zatím nesdělily. „Konkrétní jména zatím nebudeme sdělovat, jsou předmětem interních diskuzí uvnitř politických subjektů,“ řekl Hruška novinářům s tím, že rozdělení gescí zazní v závěru týdne, kdy chtějí koaliční smlouvu podepsat. Podle Seznam Zpráv by v radě města měl zasednout rekordní počet žen.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/jihomoravsky-kraj/v-brne-se-domluvilo-na-koalici-pet-subjektu-378821"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-v-brne-je-hotovo-gesce-jsou-rozdelene-v-koalici-nebude-jen-hnuti-ano-317795"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/v-brne-vznikne-siroka-koalice-bez-ano-primatorem-se-ma-stat-hruska_2610201323_nob"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225444/"
+        }
+      ],
+      "en": {
+        "headline": "Five groupings in Brno have agreed on a coalition without the ANO movement",
+        "sentences": [
+          {
+            "en": "The coalition in Brno was agreed by the election winners KDU-ČSL and STAN, the alliance of ODS, TOP 09 and independents, Zelené Brno, the Pirates and the Za Lužánky movement.",
+            "cs": "Na koalici v Brně se dohodli vítězní KDU-ČSL a STAN, koalice ODS, TOP 09 a nezávislých, Zelené Brno, Piráti a hnutí Za Lužánky."
+          },
+          {
+            "en": "They should hold 44 votes on the fifty-five-member council, while ANO will end up in opposition with 11 seats.",
+            "cs": "V pětapadesátičlenném zastupitelstvu by měli mít 44 hlasů, hnutí ANO skončí s 11 mandáty v opozici."
+          },
+          {
+            "en": "The coalition leader Jakub Hruška of KDU-ČSL is set to become mayor; according to him the parties reached a one-hundred-percent agreement on the programme and on the allocation of seats in the city board.",
+            "cs": "Primátorem se má stát lídr koalice Jakub Hruška z KDU-ČSL, podle kterého došlo k stoprocentní dohodě na programu i obsazení míst v radě."
+          },
+          {
+            "en": "The parties have not yet disclosed specific names.",
+            "cs": "Konkrétní jména strany zatím nesdělily."
+          },
+          {
+            "en": "“We will not be disclosing specific names for now, they are the subject of internal discussions inside the political groupings,” Hruška told reporters, adding that the division of portfolios will be announced at the end of the week, when they intend to sign the coalition agreement.",
+            "cs": "„Konkrétní jména zatím nebudeme sdělovat, jsou předmětem interních diskuzí uvnitř politických subjektů,“ řekl Hruška novinářům s tím, že rozdělení gescí zazní v závěru týdne, kdy chtějí koaliční smlouvu podepsat."
+          },
+          {
+            "en": "According to Seznam Zprávy, a record number of women should sit on the city board.",
+            "cs": "Podle Seznam Zpráv by v radě města měl zasednout rekordní počet žen."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "coalition",
+            "definition": "a group of political parties that agree to govern together"
+          },
+          {
+            "term": "disclosing",
+            "definition": "making information public that was secret before"
+          },
+          {
+            "term": "portfolios",
+            "definition": "the areas of government that each minister or official is responsible for"
+          },
+          {
+            "term": "allocation",
+            "definition": "the way something is divided and given out to different people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:45",
+      "headline": "Generální ředitel zemědělského intervenčního fondu Dlouhý končí ve funkci",
+      "body": "Ve funkci končí generální ředitel Státního zemědělského intervenčního fondu Petr Dlouhý, který ve fondu působil přes 14 let a od roku 2022 ho vedl. Fond to uvedl v tiskové zprávě, která Dlouhého cituje. Končící ředitel zdůrazňuje, že jde o „výhradně osobní rozhodnutí“, které „není výsledkem politických tlaků“. Nástupce má vzejít z výběrového řízení. E15 připomíná, že odchod přichází v době, kdy fond řeší dotace pro Agrofert a možný střet zájmů premiéra Andreje Babiše; Evropská komise část dotací Agrofertu pozastavila a fond zároveň řeší otázku případného vymáhání miliard korun.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/konci-sef-zemedelskeho-intervencniho-fondu-dlouhy-jedna-se-o-ciste-osobni_2610201405_vdv"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/konci-muz-ktery-rozhodoval-o-dotacich-pro-agrofert-sef-fondu-odmita-politicke-tlaky-1436695"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-konci-sef-zemedelskeho-fondu-ktery-resi-babisuv-stret-zajmu-318317"
+        }
+      ],
+      "en": {
+        "headline": "Dlouhý, director general of the agricultural intervention fund, is leaving his post",
+        "sentences": [
+          {
+            "en": "Petr Dlouhý, director general of the State Agricultural Intervention Fund, is leaving his post after more than 14 years at the fund, which he had led since 2022.",
+            "cs": "Ve funkci končí generální ředitel Státního zemědělského intervenčního fondu Petr Dlouhý, který ve fondu působil přes 14 let a od roku 2022 ho vedl."
+          },
+          {
+            "en": "The fund announced this in a press release that quotes Dlouhý.",
+            "cs": "Fond to uvedl v tiskové zprávě, která Dlouhého cituje."
+          },
+          {
+            "en": "The departing director stresses that this is a “purely personal decision” that “is not the result of political pressure”.",
+            "cs": "Končící ředitel zdůrazňuje, že jde o „výhradně osobní rozhodnutí“, které „není výsledkem politických tlaků“."
+          },
+          {
+            "en": "A successor is to be chosen in a selection procedure.",
+            "cs": "Nástupce má vzejít z výběrového řízení."
+          },
+          {
+            "en": "E15 points out that the departure comes at a time when the fund is dealing with subsidies for Agrofert and the possible conflict of interest of Prime Minister Andrej Babiš; the European Commission has suspended part of Agrofert's subsidies and the fund is also considering whether to recover billions of crowns.",
+            "cs": "E15 připomíná, že odchod přichází v době, kdy fond řeší dotace pro Agrofert a možný střet zájmů premiéra Andreje Babiše; Evropská komise část dotací Agrofertu pozastavila a fond zároveň řeší otázku případného vymáhání miliard korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subsidies",
+            "definition": "money given by the state to help a company or an industry"
+          },
+          {
+            "term": "conflict of interest",
+            "definition": "a situation where someone's private gain could affect their public duties"
+          },
+          {
+            "term": "suspended",
+            "definition": "stopped for a period of time"
+          },
+          {
+            "term": "recover",
+            "definition": "to get back money that is owed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:40",
+      "headline": "Praha sobě nabídla vítěznému STAN většinu v radě hlavního města",
+      "body": "Uskupení Praha sobě nabídlo vítěznému hnutí STAN šest míst v radě hlavního města a pozici primátora. STAN by tak v radě získal většinu. Jako třetího partnera by Praha sobě přizvala Piráty, uvedl lídr kandidátky Adam Scheinherr.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-scheinherr-nabidl-stan-vetsinu-v-rade-preferuje-trojkoalici-s-piraty-318336"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225791/"
+        }
+      ],
+      "en": {
+        "headline": "Praha sobě has offered the election winner STAN a majority on the city board",
+        "sentences": [
+          {
+            "en": "The Praha sobě grouping has offered the winning STAN movement six seats on the board of the capital and the post of mayor.",
+            "cs": "Uskupení Praha sobě nabídlo vítěznému hnutí STAN šest míst v radě hlavního města a pozici primátora."
+          },
+          {
+            "en": "STAN would thus gain a majority on the board.",
+            "cs": "STAN by tak v radě získal většinu."
+          },
+          {
+            "en": "Praha sobě would invite the Pirates as a third partner, said the leader of its slate, Adam Scheinherr.",
+            "cs": "Jako třetího partnera by Praha sobě přizvala Piráty, uvedl lídr kandidátky Adam Scheinherr."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "slate",
+            "definition": "a list of candidates standing in an election together"
+          },
+          {
+            "term": "majority",
+            "definition": "more than half of the people in a group"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:57",
+      "headline": "Z jihomoravské TOP 09 odcházejí desítky členů k lidovcům",
+      "body": "Předseda jihomoravské TOP 09 Marek Sovka a další členové strany oznámili, že TOP 09 opouštějí a přidávají se ke KDU-ČSL. Podle Sovky stranu opustí asi třicet lidí, z nichž se někteří plánují přidat k lidovcům; Deník N píše o dvaceti členech. Předseda TOP 09 Matěj Ondřej Havel označil odchod za koordinovanou akci šéfa lidovců Jana Grolicha. „Máme SMS zprávy a e-maily o tom, jak se pokouší KDU-ČSL lanařit nejenom naše členy a nejenom v Jihomoravském kraji,“ prohlásil Havel s tím, že Grolich neříká pravdu. Podle Havla odchod rozbije jednotu opozice proti hnutí ANO. Grolich jakékoli přetahování lidí odmítá.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/sef-jihomoravske-top-09-a-dalsi-clenove-strany-odesli-k-lidovcum-378816"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-mysli-si-ze-je-hvezda-grolich-nastval-top-09-ve-strane-se-mluvi-o-zrade-318315"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2225302/nebezpecna-hra-jana-grolicha-lidovci-na-jihu-moravy-pretahli-dvacet-clenu-top-09/"
+        }
+      ],
+      "en": {
+        "headline": "Dozens of members are leaving the South Moravian branch of TOP 09 for the Christian Democrats",
+        "sentences": [
+          {
+            "en": "The chairman of the South Moravian TOP 09, Marek Sovka, and other members of the party have announced that they are leaving TOP 09 and joining KDU-ČSL.",
+            "cs": "Předseda jihomoravské TOP 09 Marek Sovka a další členové strany oznámili, že TOP 09 opouštějí a přidávají se ke KDU-ČSL."
+          },
+          {
+            "en": "According to Sovka about thirty people will leave the party, some of whom plan to join the Christian Democrats; Deník N writes of twenty members.",
+            "cs": "Podle Sovky stranu opustí asi třicet lidí, z nichž se někteří plánují přidat k lidovcům; Deník N píše o dvaceti členech."
+          },
+          {
+            "en": "TOP 09 chairman Matěj Ondřej Havel called the departure a coordinated operation by KDU-ČSL leader Jan Grolich.",
+            "cs": "Předseda TOP 09 Matěj Ondřej Havel označil odchod za koordinovanou akci šéfa lidovců Jana Grolicha."
+          },
+          {
+            "en": "“We have text messages and emails showing how KDU-ČSL is trying to poach not only our members and not only in the South Moravian Region,” Havel declared, adding that Grolich is not telling the truth.",
+            "cs": "„Máme SMS zprávy a e-maily o tom, jak se pokouší KDU-ČSL lanařit nejenom naše členy a nejenom v Jihomoravském kraji,“ prohlásil Havel s tím, že Grolich neříká pravdu."
+          },
+          {
+            "en": "According to Havel, the departure will break the unity of the opposition against the ANO movement.",
+            "cs": "Podle Havla odchod rozbije jednotu opozice proti hnutí ANO."
+          },
+          {
+            "en": "Grolich rejects any poaching of people.",
+            "cs": "Grolich jakékoli přetahování lidí odmítá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "poach",
+            "definition": "to persuade someone to leave a group and join yours"
+          },
+          {
+            "term": "departure",
+            "definition": "the act of leaving a place or an organisation"
+          },
+          {
+            "term": "unity",
+            "definition": "the state of being joined together and acting as one"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:39",
+      "headline": "Státní zdravotní ústav nemá peníze na materiál pro laboratoře, které odhalují nebezpečné infekce",
+      "body": "Laboratořím Státního zdravotního ústavu chybějí peníze na základní materiál. Jejich pracovníci varují, že zastavení nákupů by mohlo ohrozit vyšetřování nebezpečných infekcí. Ministerstvo to odmítá a avizuje, že do konce roku ústavu pošle desítky milionů korun.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2225523/muzeme-prakticky-zavrit-statni-zdravotni-ustav-nema-dost-penez-na-laboratore-ktere-odhaluji-nebezpecne-infekce/"
+        }
+      ],
+      "en": {
+        "headline": "The National Institute of Public Health has no money for supplies for the laboratories that detect dangerous infections",
+        "sentences": [
+          {
+            "en": "The laboratories of the National Institute of Public Health lack the money for basic supplies.",
+            "cs": "Laboratořím Státního zdravotního ústavu chybějí peníze na základní materiál."
+          },
+          {
+            "en": "Their staff warn that halting purchases could jeopardise the testing of dangerous infections.",
+            "cs": "Jejich pracovníci varují, že zastavení nákupů by mohlo ohrozit vyšetřování nebezpečných infekcí."
+          },
+          {
+            "en": "The ministry rejects this and says it will send the institute tens of millions of crowns by the end of the year.",
+            "cs": "Ministerstvo to odmítá a avizuje, že do konce roku ústavu pošle desítky milionů korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "halting",
+            "definition": "stopping something from continuing"
+          },
+          {
+            "term": "jeopardise",
+            "definition": "to put something at risk of being harmed or failing"
+          },
+          {
+            "term": "supplies",
+            "definition": "the materials that are needed for a particular kind of work"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:10",
+      "headline": "Tejc podal stížnost pro porušení zákona kvůli podmíněnému trestu za zneužití dvou chlapců",
+      "body": "Ministr spravedlnosti Jeroným Tejc (za ANO) podal stížnost pro porušení zákona proti rozhodnutí ústeckého krajského soudu, který muži obviněnému ze zneužívání dvou nezletilých chlapců udělil pouze podmíněný trest. Oznámil to na síti X. K podání stížnosti ho už dříve vyzvalo Nejvyšší státní zastupitelství.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/muz-zneuzil-dve-deti-a-dostal-pouze-podminku-tejc-podal-proti-rozsudku-stiznost_2610201710_dns"
+        }
+      ],
+      "en": {
+        "headline": "Tejc has filed a complaint about a breach of the law over a suspended sentence for the abuse of two boys",
+        "sentences": [
+          {
+            "en": "Justice Minister Jeroným Tejc (for ANO) has filed a complaint about a breach of the law against a ruling of the Ústí regional court, which gave a man accused of abusing two underage boys only a suspended sentence.",
+            "cs": "Ministr spravedlnosti Jeroným Tejc (za ANO) podal stížnost pro porušení zákona proti rozhodnutí ústeckého krajského soudu, který muži obviněnému ze zneužívání dvou nezletilých chlapců udělil pouze podmíněný trest."
+          },
+          {
+            "en": "He announced this on the social network X.",
+            "cs": "Oznámil to na síti X."
+          },
+          {
+            "en": "The Supreme Public Prosecutor's Office had already called on him earlier to file the complaint.",
+            "cs": "K podání stížnosti ho už dříve vyzvalo Nejvyšší státní zastupitelství."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "suspended sentence",
+            "definition": "a punishment in prison that a person does not have to serve unless they commit another crime"
+          },
+          {
+            "term": "breach",
+            "definition": "an act of breaking a law or a rule"
+          },
+          {
+            "term": "ruling",
+            "definition": "an official decision made by a court"
+          },
+          {
+            "term": "underage",
+            "definition": "younger than the age at which the law allows something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:15",
+      "headline": "Hradecká ODS poslala vznikající trojkoalici výhrady k Aldisu i rondelům",
+      "body": "Hradecká ODS poslala vznikající trojkoalici své připomínky k programovým prioritám. Požaduje v nich jasné záruky ohledně ochrany archeologicky vzácných rondelů, pozemků u Aldisu a projektu Nová Zelená. Lídr občanských demokratů Martin Soukup zároveň potvrdil, že dodrží slovo a do vedení města nekandiduje.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/ods-trojkoalice-jednani-zastupitelstvo-hradec-kralove-martin-soukup/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Hradec Králové's ODS has sent the emerging three-party coalition objections over Aldis and the roundels",
+        "sentences": [
+          {
+            "en": "The Hradec Králové branch of ODS has sent the emerging three-party coalition its comments on the programme priorities.",
+            "cs": "Hradecká ODS poslala vznikající trojkoalici své připomínky k programovým prioritám."
+          },
+          {
+            "en": "In them it demands clear guarantees on protecting the archaeologically valuable roundels, the land near Aldis and the Nová Zelená project.",
+            "cs": "Požaduje v nich jasné záruky ohledně ochrany archeologicky vzácných rondelů, pozemků u Aldisu a projektu Nová Zelená."
+          },
+          {
+            "en": "The leader of the Civic Democrats, Martin Soukup, also confirmed that he will keep his word and will not run for the city leadership.",
+            "cs": "Lídr občanských demokratů Martin Soukup zároveň potvrdil, že dodrží slovo a do vedení města nekandiduje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "emerging",
+            "definition": "starting to exist or becoming known"
+          },
+          {
+            "term": "objections",
+            "definition": "reasons why someone disagrees with a plan"
+          },
+          {
+            "term": "guarantees",
+            "definition": "firm promises that something will be done"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:45",
+      "headline": "Starosta Vrchlabí Sobotka žádá odvolání ředitele KRNAP",
+      "body": "Starosta Vrchlabí a senátor Jan Sobotka (nestraník za STAN), který je zároveň předsedou Svazku měst a obcí Krkonoše, vyzval k odvolání ředitele Správy Krkonošského národního parku Petra Moravce. Jako důvody uvedl špatnou komunikaci s obcemi, ztrátu důvěry zaměstnanců a personální a organizační změny, které nedávno jmenovaný ředitel připravuje. Podle Sobotky mohou nevratně poškodit fungování celé instituce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/senator-sobotka-zada-odvolani-reditel-krnap-moravec-obce.A261020_113251_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/903515-sobotka-vyzval-k-odvolani-reditele-krnap-ohrozuje-podle-nej-chod-spravy.html"
+        }
+      ],
+      "en": {
+        "headline": "Vrchlabí mayor Sobotka is calling for the dismissal of the KRNAP director",
+        "sentences": [
+          {
+            "en": "Jan Sobotka, the mayor of Vrchlabí and a senator (independent for STAN) who also chairs the Association of Towns and Municipalities of the Krkonoše, has called for the dismissal of Petr Moravec, the director of the Krkonoše National Park Administration.",
+            "cs": "Starosta Vrchlabí a senátor Jan Sobotka (nestraník za STAN), který je zároveň předsedou Svazku měst a obcí Krkonoše, vyzval k odvolání ředitele Správy Krkonošského národního parku Petra Moravce."
+          },
+          {
+            "en": "As his reasons he cited poor communication with the municipalities, a loss of trust among staff, and the personnel and organisational changes the recently appointed director is preparing.",
+            "cs": "Jako důvody uvedl špatnou komunikaci s obcemi, ztrátu důvěry zaměstnanců a personální a organizační změny, které nedávno jmenovaný ředitel připravuje."
+          },
+          {
+            "en": "According to Sobotka, these could irreversibly damage the functioning of the whole institution.",
+            "cs": "Podle Sobotky mohou nevratně poškodit fungování celé instituce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dismissal",
+            "definition": "the act of removing someone from their job"
+          },
+          {
+            "term": "municipalities",
+            "definition": "towns or villages with their own local government"
+          },
+          {
+            "term": "irreversibly",
+            "definition": "in a way that cannot be changed back"
+          },
+          {
+            "term": "cited",
+            "definition": "mentioned something as a reason or an example"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:50",
+      "headline": "Hradec má hotovou studii budoucí podoby Central Parku",
+      "body": "Urbanisticko-krajinářská studie, která určuje budoucí podobu a rozvoj Central Parku mezi Moravským Předměstím, Třebší a Novým Hradcem, je hotová. Navrhuje úpravy cest, rekreačního zázemí, zeleně a vodního režimu s důrazem na zachování přírodního charakteru území. Město chce úpravy dělat postupně, podle Hradecké drbny přibude i několik nových herních prvků a míst k odpočinku a schodiště Zámeček je už opravené.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/mesto-zna-podobu-noveho-central-parku-promena-bude-postupna/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/903485-kam-na-prochazku-mezi-sidlisti-hradec-chce-postupne-vylepsit-central-park.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec Králové has completed the study of the future shape of Central Park",
+        "sentences": [
+          {
+            "en": "The urban and landscape study setting out the future shape and development of Central Park between Moravské Předměstí, Třebeš and Nový Hradec has been completed.",
+            "cs": "Urbanisticko-krajinářská studie, která určuje budoucí podobu a rozvoj Central Parku mezi Moravským Předměstím, Třebší a Novým Hradcem, je hotová."
+          },
+          {
+            "en": "It proposes changes to paths, recreational facilities, greenery and the water regime, with an emphasis on preserving the natural character of the area.",
+            "cs": "Navrhuje úpravy cest, rekreačního zázemí, zeleně a vodního režimu s důrazem na zachování přírodního charakteru území."
+          },
+          {
+            "en": "The city wants to carry out the changes gradually; according to Hradecká drbna, several new play features and resting places will be added, and the Zámeček staircase has already been repaired.",
+            "cs": "Město chce úpravy dělat postupně, podle Hradecké drbny přibude i několik nových herních prvků a míst k odpočinku a schodiště Zámeček je už opravené."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "landscape",
+            "definition": "the way an area of land looks, including its hills, plants and water"
+          },
+          {
+            "term": "greenery",
+            "definition": "trees, grass and other plants growing in a place"
+          },
+          {
+            "term": "emphasis",
+            "definition": "special importance given to something"
+          },
+          {
+            "term": "preserving",
+            "definition": "keeping something in its original state"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:36",
+      "headline": "Královéhradecký kraj dá šest milionů na stipendia pro mediky",
+      "body": "Královéhradecký kraj uvolnil na stipendia pro studenty lékařských fakult šest milionů korun, stejně jako loni. Studenti posledních ročníků mohou podle specializace získat až 300 tisíc korun výměnou za slib, že budou léčit v kraji. Cílem je udržet budoucí lékaře v regionu, v některých oborech jich je nedostatek.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/903480-hradecky-kraj-da-sest-milionu-na-stipendia-pro-mediky-chce-je-udrzet-v.html"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec Králové Region will give six million for scholarships for medical students",
+        "sentences": [
+          {
+            "en": "The Hradec Králové Region has released six million crowns for scholarships for students of medical faculties, the same amount as last year.",
+            "cs": "Královéhradecký kraj uvolnil na stipendia pro studenty lékařských fakult šest milionů korun, stejně jako loni."
+          },
+          {
+            "en": "Students in their final years can receive up to 300 thousand crowns depending on their specialisation, in return for a promise that they will practise medicine in the region.",
+            "cs": "Studenti posledních ročníků mohou podle specializace získat až 300 tisíc korun výměnou za slib, že budou léčit v kraji."
+          },
+          {
+            "en": "The aim is to keep future doctors in the region, as there is a shortage of them in some fields.",
+            "cs": "Cílem je udržet budoucí lékaře v regionu, v některých oborech jich je nedostatek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "scholarships",
+            "definition": "money given to a student to help pay for their studies"
+          },
+          {
+            "term": "specialisation",
+            "definition": "the particular field that someone is trained in"
+          },
+          {
+            "term": "shortage",
+            "definition": "a situation in which there is not enough of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:39",
+      "headline": "Trump prohlásil, že se Rusko vůči Ukrajině chová v pořádku",
+      "body": "„Upřímně řečeno, Rusko se vůči Ukrajině chová v pořádku. Moc toho nedělá,“ prohlásil podle médií americký prezident Donald Trump v pondělí v komentáři k případnému setkání lídrů USA, Ruska a Číny. Takové setkání by se podle něj ovšem nekonalo kvůli Ukrajině, ale spíš kvůli jaderným zbraním. Řekl to ve stejný den, kdy ruský útok v Charkovské oblasti zabil šest lidí, z toho dvě děti. Kreml mezitím podle agentury EFE souhlasil s obnovením jednání o jaderném odzbrojení s Trumpem, avšak bez Číny.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-na-ukrajine-opet-zabijeli-trump-ten-samy-den-chovani-invaznich-sil-zlehcil-378817"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225477/"
+        }
+      ],
+      "en": {
+        "headline": "Trump said that Russia is behaving fine towards Ukraine",
+        "sentences": [
+          {
+            "en": "“Frankly speaking, Russia is behaving fine towards Ukraine. It is not doing much,” US President Donald Trump said on Monday, according to media reports, commenting on a possible meeting of the leaders of the United States, Russia and China.",
+            "cs": "„Upřímně řečeno, Rusko se vůči Ukrajině chová v pořádku. Moc toho nedělá,“ prohlásil podle médií americký prezident Donald Trump v pondělí v komentáři k případnému setkání lídrů USA, Ruska a Číny."
+          },
+          {
+            "en": "Such a meeting would, in his words, not be about Ukraine but rather about nuclear weapons.",
+            "cs": "Takové setkání by se podle něj ovšem nekonalo kvůli Ukrajině, ale spíš kvůli jaderným zbraním."
+          },
+          {
+            "en": "He said this on the same day that a Russian attack in the Kharkiv region killed six people, two of them children.",
+            "cs": "Řekl to ve stejný den, kdy ruský útok v Charkovské oblasti zabil šest lidí, z toho dvě děti."
+          },
+          {
+            "en": "Meanwhile, according to the EFE agency, the Kremlin has agreed to resume talks on nuclear disarmament with Trump, but without China.",
+            "cs": "Kreml mezitím podle agentury EFE souhlasil s obnovením jednání o jaderném odzbrojení s Trumpem, avšak bez Číny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "frankly",
+            "definition": "in an honest and direct way"
+          },
+          {
+            "term": "disarmament",
+            "definition": "the reduction or removal of weapons held by a country"
+          },
+          {
+            "term": "resume",
+            "definition": "to start again after a break"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:38",
+      "headline": "Noční zákaz vycházení ve Francii podle premiéra zajistil klid a bude pokračovat",
+      "body": "Noční zákaz vycházení, který francouzské úřady po několika dnech násilných demonstrací vyhlásily v částech Paříže i v jiných městech, pomohl v noci na úterý zajistit klid, prohlásil podle agentury Reuters premiér Sébastien Lecornu. Policie v uplynulých dnech zadržela přes 2500 lidí. Lecornu podle agentury AFP řekl, že zákazy budou pokračovat, pokud se osvědčí; v noci na středu bude opět platit v centru Lyonu. Francouzská policie také zadržela muže podezřelého z podpálení historické radnice v Limoges během sobotních násilností.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nocni-zakaz-vychazeni-zajistil-ve-francii-klid-prohlasil-lecornu-378809"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225956/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ve-francii-byl-zatcen-muz-podezrely-z-podpaleni-radnice-v-limoges-318313"
+        }
+      ],
+      "en": {
+        "headline": "The night curfew in France brought calm, the prime minister says, and will continue",
+        "sentences": [
+          {
+            "en": "The night curfew that the French authorities imposed in parts of Paris and in other cities after several days of violent demonstrations helped to ensure calm on Monday night, Prime Minister Sébastien Lecornu said according to the Reuters agency.",
+            "cs": "Noční zákaz vycházení, který francouzské úřady po několika dnech násilných demonstrací vyhlásily v částech Paříže i v jiných městech, pomohl v noci na úterý zajistit klid, prohlásil podle agentury Reuters premiér Sébastien Lecornu."
+          },
+          {
+            "en": "The police have detained more than 2,500 people in recent days.",
+            "cs": "Policie v uplynulých dnech zadržela přes 2500 lidí."
+          },
+          {
+            "en": "According to the AFP agency, Lecornu said the curfews will continue if they prove effective; one will again be in force in the centre of Lyon on Tuesday night.",
+            "cs": "Lecornu podle agentury AFP řekl, že zákazy budou pokračovat, pokud se osvědčí; v noci na středu bude opět platit v centru Lyonu."
+          },
+          {
+            "en": "French police have also detained a man suspected of setting fire to the historic town hall in Limoges during Saturday's violence.",
+            "cs": "Francouzská policie také zadržela muže podezřelého z podpálení historické radnice v Limoges během sobotních násilností."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "curfew",
+            "definition": "a rule that people must stay indoors at certain hours"
+          },
+          {
+            "term": "imposed",
+            "definition": "officially forced a rule on people"
+          },
+          {
+            "term": "detained",
+            "definition": "kept someone in custody by the police"
+          },
+          {
+            "term": "in force",
+            "definition": "being officially applied and having to be obeyed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "07:53",
+      "headline": "Drony zabily na tržišti v oblasti Abyei přes 150 lidí",
+      "body": "Nejméně 153 lidí zabily v pondělí drony na tržišti v oblasti Abyei mezi Súdánem a Jižním Súdánem. Agentuře Reuters to řekl místní dočasný ministr informací Yohana Akol Ngor, který původně mluvil o 73 obětech. Podle něj za útokem stála súdánská armáda, tvrzení ale podle agentury ničím nedoložil. Další lidé utrpěli zranění a byli převezeni do blízké nemocnice, kde operují Lékaři bez hranic. Region Abyei si nárokují Súdán i Jižní Súdán; násilí v Súdánu a jeho dopady na civilisty kritizoval generální tajemník OSN António Guterres.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/drony-zabily-v-oblasti-abyei-mezi-sudanem-a-jiznim-sudanem-desitky-lidi-pise-reuters-378807"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-desitky-lidi-zabily-drony-v-oblasti-abyei-mezi-sudanem-a-jiznim-sudanem-318275"
+        }
+      ],
+      "en": {
+        "headline": "Drones killed more than 150 people at a market in the Abyei region",
+        "sentences": [
+          {
+            "en": "At least 153 people were killed on Monday by drones at a market in the Abyei region between Sudan and South Sudan.",
+            "cs": "Nejméně 153 lidí zabily v pondělí drony na tržišti v oblasti Abyei mezi Súdánem a Jižním Súdánem."
+          },
+          {
+            "en": "Yohana Akol Ngor, the local acting information minister, told the Reuters agency this, having originally spoken of 73 victims.",
+            "cs": "Agentuře Reuters to řekl místní dočasný ministr informací Yohana Akol Ngor, který původně mluvil o 73 obětech."
+          },
+          {
+            "en": "According to him the Sudanese army was behind the attack, but the agency says he gave no evidence for the claim.",
+            "cs": "Podle něj za útokem stála súdánská armáda, tvrzení ale podle agentury ničím nedoložil."
+          },
+          {
+            "en": "Other people were injured and taken to a nearby hospital where Doctors Without Borders operate.",
+            "cs": "Další lidé utrpěli zranění a byli převezeni do blízké nemocnice, kde operují Lékaři bez hranic."
+          },
+          {
+            "en": "Both Sudan and South Sudan claim the Abyei region; UN Secretary-General António Guterres has criticised the violence in Sudan and its impact on civilians.",
+            "cs": "Region Abyei si nárokují Súdán i Jižní Súdán; násilí v Súdánu a jeho dopady na civilisty kritizoval generální tajemník OSN António Guterres."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "acting",
+            "definition": "doing a job temporarily until someone is appointed to it"
+          },
+          {
+            "term": "evidence",
+            "definition": "facts or signs that show something is true"
+          },
+          {
+            "term": "claim",
+            "definition": "to say that something belongs to you"
+          },
+          {
+            "term": "civilians",
+            "definition": "people who are not members of the armed forces"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:18",
+      "headline": "Útok Húthíů na jemenský vojenský tábor si vyžádal 73 obětí, Británie pošle na obranu Saúdské Arábie stíhačky",
+      "body": "Počet obětí pondělního útoku jemenských povstalců Húthíů na vládní vojenský výcvikový tábor v provincii Šabva stoupl na 73, informoval vysoce postavený představitel jemenské vlády. Obětmi jsou podle Seznam Zpráv mladí rekruti. Británie zároveň nasadí stíhačky na obranu Saúdské Arábie před Húthíi. Mezinárodní letiště v Rijádu bylo od začátku tohoto měsíce terčem jejich útoků už dvacetkrát, při nejnovějším úderu zahynulo třináct lidí a více než 300 jich bylo zraněno.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225753/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pocet-obeti-utoku-huthiu-na-vladni-vojensky-tabor-v-jiznim-jemenu-stoupl-na-73-318322"
+        }
+      ],
+      "en": {
+        "headline": "The Houthi attack on a Yemeni military camp has killed 73 people, and Britain will send fighter jets to defend Saudi Arabia",
+        "sentences": [
+          {
+            "en": "The death toll from Monday's attack by the Yemeni Houthi rebels on a government military training camp in Shabwa province has risen to 73, a senior Yemeni government official said.",
+            "cs": "Počet obětí pondělního útoku jemenských povstalců Húthíů na vládní vojenský výcvikový tábor v provincii Šabva stoupl na 73, informoval vysoce postavený představitel jemenské vlády."
+          },
+          {
+            "en": "According to Seznam Zprávy, the victims are young recruits.",
+            "cs": "Obětmi jsou podle Seznam Zpráv mladí rekruti."
+          },
+          {
+            "en": "At the same time, Britain will deploy fighter jets to defend Saudi Arabia against the Houthis.",
+            "cs": "Británie zároveň nasadí stíhačky na obranu Saúdské Arábie před Húthíi."
+          },
+          {
+            "en": "The international airport in Riyadh has been targeted by their attacks twenty times since the beginning of this month; the latest strike killed thirteen people and injured more than 300.",
+            "cs": "Mezinárodní letiště v Rijádu bylo od začátku tohoto měsíce terčem jejich útoků už dvacetkrát, při nejnovějším úderu zahynulo třináct lidí a více než 300 jich bylo zraněno."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "death toll",
+            "definition": "the number of people who died in an event"
+          },
+          {
+            "term": "recruits",
+            "definition": "people who have recently joined an army"
+          },
+          {
+            "term": "deploy",
+            "definition": "to move soldiers or equipment into position for action"
+          },
+          {
+            "term": "targeted",
+            "definition": "chosen as the thing to be attacked"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:40",
+      "headline": "Ruská vojenská družice se přiblížila k satelitu, který pomáhá Ukrajině",
+      "body": "Ruský vojenský satelit Kosmos 2612 prováděl manévry v bezprostřední blízkosti družice ICEYE-X36. Mimořádného chování ruského stroje si v sobotu všiml nizozemský vědec. Komerční satelit podle Seznam Zpráv umožňuje pořizovat snímky s vysokým rozlišením ve dne i v noci bez ohledu na povětrnostní podmínky. Deník N píše, že hvězdné války to sice ještě nejsou, ale možná se blížíme prvnímu zničení nepřátelského satelitu ve vesmíru.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-video-ruska-druzice-se-nebezpecne-priblizila-k-jinemu-satelitu-318292"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2224490/vyvoj-boju-1698-den-predobraz-valky-ve-vesmiru-ruska-vojenska-druzice-pronasleduje-spionazni-satelit/"
+        }
+      ],
+      "en": {
+        "headline": "A Russian military satellite has approached a satellite that helps Ukraine",
+        "sentences": [
+          {
+            "en": "The Russian military satellite Kosmos 2612 carried out manoeuvres in the immediate vicinity of the ICEYE-X36 satellite.",
+            "cs": "Ruský vojenský satelit Kosmos 2612 prováděl manévry v bezprostřední blízkosti družice ICEYE-X36."
+          },
+          {
+            "en": "A Dutch scientist noticed the Russian craft's unusual behaviour on Saturday.",
+            "cs": "Mimořádného chování ruského stroje si v sobotu všiml nizozemský vědec."
+          },
+          {
+            "en": "According to Seznam Zprávy, the commercial satellite can take high-resolution images by day and night, regardless of weather conditions.",
+            "cs": "Komerční satelit podle Seznam Zpráv umožňuje pořizovat snímky s vysokým rozlišením ve dne i v noci bez ohledu na povětrnostní podmínky."
+          },
+          {
+            "en": "Deník N writes that this is not star wars yet, but we may be approaching the first destruction of an enemy satellite in space.",
+            "cs": "Deník N píše, že hvězdné války to sice ještě nejsou, ale možná se blížíme prvnímu zničení nepřátelského satelitu ve vesmíru."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "manoeuvres",
+            "definition": "carefully planned movements of a vehicle or a craft"
+          },
+          {
+            "term": "vicinity",
+            "definition": "the area near a particular place"
+          },
+          {
+            "term": "craft",
+            "definition": "a vehicle that travels in the air or in space"
+          },
+          {
+            "term": "regardless of",
+            "definition": "without being affected by something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:41",
+      "headline": "Vláda, odbory a zaměstnavatelé se dohodli na nových platových tabulkách pro veřejný sektor",
+      "body": "Zástupci vlády, odborů a zaměstnavatelů se v pondělí na tripartitě dohodli na změně odměňování ve veřejných a státních službách od ledna. Většině pracovníků se v nových tabulkách tarify zvýší, nikomu se nesníží, řekli po jednání ministryně financí Alena Schillerová a ministr práce Aleš Juchelka (oba ANO). Podle E15 se změna týká téměř 600 tisíc lidí, místo dvanácti platových stupňů jich bude osm a někteří si polepší až o 9000 korun. Žádný tarif nově neklesne pod úroveň minimální mzdy, která dosáhne 24 900 korun. „Znamená to, že zaměstnanec bude mít jistotu v tarifní části svého platu, kde bylo přes 450 tisíc lidí pod úrovní minimální mzdy,“ řekl Českému rozhlasu Plus předseda Českomoravské konfederace odborových svazů Josef Středula.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/zastupci-vlady-odboru-a-zamestnavatelu-se-shodli-na-zmene-nastaveni-platu-378800"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/tarify-pro-statni-zamestnance-porostou-navyseni-se-projevi-u-nizkoprijmovych_2610201641_nob"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/shoda-na-reforme-platu-nekdo-si-polepsi-az-o-9000-korun-jini-zustanou-na-svem-1436672"
+        }
+      ],
+      "en": {
+        "headline": "The government, trade unions and employers have agreed on new pay scales for the public sector",
+        "sentences": [
+          {
+            "en": "Representatives of the government, the trade unions and employers agreed on Monday at the tripartite council on a change to pay in public and state services from January.",
+            "cs": "Zástupci vlády, odborů a zaměstnavatelů se v pondělí na tripartitě dohodli na změně odměňování ve veřejných a státních službách od ledna."
+          },
+          {
+            "en": "Most employees will see their rates rise in the new scales and nobody's will fall, Finance Minister Alena Schillerová and Labour Minister Aleš Juchelka (both ANO) said after the talks.",
+            "cs": "Většině pracovníků se v nových tabulkách tarify zvýší, nikomu se nesníží, řekli po jednání ministryně financí Alena Schillerová a ministr práce Aleš Juchelka (oba ANO)."
+          },
+          {
+            "en": "According to E15 the change affects almost 600 thousand people, there will be eight pay grades instead of twelve, and some will gain as much as 9,000 crowns.",
+            "cs": "Podle E15 se změna týká téměř 600 tisíc lidí, místo dvanácti platových stupňů jich bude osm a někteří si polepší až o 9000 korun."
+          },
+          {
+            "en": "No rate will now fall below the minimum wage, which will reach 24,900 crowns.",
+            "cs": "Žádný tarif nově neklesne pod úroveň minimální mzdy, která dosáhne 24 900 korun."
+          },
+          {
+            "en": "“It means that employees will have certainty in the rate part of their pay, where more than 450 thousand people were below the minimum wage,” Josef Středula, the chairman of the Czech-Moravian Confederation of Trade Unions, told Český rozhlas Plus.",
+            "cs": "„Znamená to, že zaměstnanec bude mít jistotu v tarifní části svého platu, kde bylo přes 450 tisíc lidí pod úrovní minimální mzdy,“ řekl Českému rozhlasu Plus předseda Českomoravské konfederace odborových svazů Josef Středula."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pay scales",
+            "definition": "official tables showing how much people in different jobs are paid"
+          },
+          {
+            "term": "tripartite",
+            "definition": "involving three sides or groups"
+          },
+          {
+            "term": "grades",
+            "definition": "levels in a system that ranks jobs or pay"
+          },
+          {
+            "term": "minimum wage",
+            "definition": "the lowest pay an employer is allowed by law to give"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:05",
+      "headline": "Cena plynu v Evropě poprvé za téměř čtyři roky překročila 90 eur za megawatthodinu",
+      "body": "Cena plynu v Evropě poprvé za téměř čtyři roky překročila 90 eur za megawatthodinu. Od začátku války s Íránem se podle E15 ceny zhruba ztrojnásobily, zejména kvůli výpadkům dodávek z Blízkého východu. Evropě hrozí během zimy další zdražování, zásobníky jsou navíc naplněné méně než ze tří čtvrtin.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/plyn-prolomil-hranici-kterou-evropa-nevidela-temer-ctyri-roky-zima-muze-prinest-dalsi-sok-1436704"
+        }
+      ],
+      "en": {
+        "headline": "The price of gas in Europe has passed 90 euros per megawatt hour for the first time in almost four years",
+        "sentences": [
+          {
+            "en": "The price of gas in Europe has passed 90 euros per megawatt hour for the first time in almost four years.",
+            "cs": "Cena plynu v Evropě poprvé za téměř čtyři roky překročila 90 eur za megawatthodinu."
+          },
+          {
+            "en": "According to E15, prices have roughly tripled since the start of the war with Iran, mainly because of disruptions to supplies from the Middle East.",
+            "cs": "Od začátku války s Íránem se podle E15 ceny zhruba ztrojnásobily, zejména kvůli výpadkům dodávek z Blízkého východu."
+          },
+          {
+            "en": "Europe faces further price rises during the winter, and its storage facilities are less than three quarters full.",
+            "cs": "Evropě hrozí během zimy další zdražování, zásobníky jsou navíc naplněné méně než ze tří čtvrtin."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tripled",
+            "definition": "became three times as large"
+          },
+          {
+            "term": "disruptions",
+            "definition": "interruptions that stop something working normally"
+          },
+          {
+            "term": "storage facilities",
+            "definition": "places built to keep large amounts of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:00",
+      "headline": "Evropská komise schválila Křetínského většinový podíl ve Fnac Darty",
+      "body": "Skupina EP Group Daniela Křetínského smí získat většinový podíl ve francouzském prodejci elektroniky Fnac Darty. Akvizici schválila Evropská komise, která na unijním trhu plní funkci antimonopolního úřadu. Podle E15 čeká obchod už jen na rozhodnutí akcionářů a EP Group potřebuje k ovládnutí řetězce přidat ještě zhruba 21,5 procentního bodu akcií; klíčovou roli může sehrát německý Ceconomy, o jehož převzetí usiluje čínská společnost JD.com.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/kretinskeho-epg-muze-ziskat-vetsinovy-podil-ve-fnac-darty-schvalila-evropska_2610201345_ako"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obchod-a-sluzby/kretinskeho-deli-tydny-od-mozneho-ovladnuti-maloobchodniho-obra-velke-slovo-mohou-mit-i-cinane-1436691"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission has approved a majority stake in Fnac Darty for Křetínský",
+        "sentences": [
+          {
+            "en": "Daniel Křetínský's EP Group may acquire a majority stake in the French electronics retailer Fnac Darty.",
+            "cs": "Skupina EP Group Daniela Křetínského smí získat většinový podíl ve francouzském prodejci elektroniky Fnac Darty."
+          },
+          {
+            "en": "The acquisition was approved by the European Commission, which acts as the competition authority on the EU market.",
+            "cs": "Akvizici schválila Evropská komise, která na unijním trhu plní funkci antimonopolního úřadu."
+          },
+          {
+            "en": "According to E15 the deal now awaits only a decision by shareholders, and EP Group still needs to add around 21.5 percentage points of shares to take control of the chain; the German company Ceconomy, which the Chinese firm JD.com is trying to take over, may play a key role.",
+            "cs": "Podle E15 čeká obchod už jen na rozhodnutí akcionářů a EP Group potřebuje k ovládnutí řetězce přidat ještě zhruba 21,5 procentního bodu akcií; klíčovou roli může sehrát německý Ceconomy, o jehož převzetí usiluje čínská společnost JD.com."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stake",
+            "definition": "a share of ownership in a company"
+          },
+          {
+            "term": "retailer",
+            "definition": "a company that sells goods directly to customers"
+          },
+          {
+            "term": "acquisition",
+            "definition": "the act of buying another company"
+          },
+          {
+            "term": "shareholders",
+            "definition": "people who own shares in a company"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:34",
+      "headline": "Výpadek Google Cloudu ochromil britské banky, problémy s platbami měl i Revolut",
+      "body": "Výpadek sítě zasáhl několik cloudových služeb Googlu a ochromil britské banky i weby veřejného sektoru. Tisíce klientů Revolutu hlásily problémy s prováděním plateb a přístupem k financím, firma uvedla, že o výpadku ví a snaží se jej vyřešit. Podle Seznam Zpráv už cloudové služby Googlu v Británii opět fungují a incident oživil obavy regulátorů z vysoké závislosti finančního trhu na technologických gigantech.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-vypadek-google-cloudu-ochromil-britske-banky-problemy-s-platbami-ma-i-revolut-318341"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/revolut-postihl-rozsahly-vypadek-klienti-nemohou-platit-ani-posilat-penize-1436683"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225446/"
+        }
+      ],
+      "en": {
+        "headline": "A Google Cloud outage crippled British banks, and Revolut also had payment problems",
+        "sentences": [
+          {
+            "en": "A network outage affected several of Google's cloud services and crippled British banks as well as public sector websites.",
+            "cs": "Výpadek sítě zasáhl několik cloudových služeb Googlu a ochromil britské banky i weby veřejného sektoru."
+          },
+          {
+            "en": "Thousands of Revolut customers reported problems making payments and accessing their money, and the company said it was aware of the outage and was trying to fix it.",
+            "cs": "Tisíce klientů Revolutu hlásily problémy s prováděním plateb a přístupem k financím, firma uvedla, že o výpadku ví a snaží se jej vyřešit."
+          },
+          {
+            "en": "According to Seznam Zprávy, Google's cloud services in Britain are working again and the incident has revived regulators' concerns about the financial market's heavy dependence on technology giants.",
+            "cs": "Podle Seznam Zpráv už cloudové služby Googlu v Británii opět fungují a incident oživil obavy regulátorů z vysoké závislosti finančního trhu na technologických gigantech."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outage",
+            "definition": "a period when a service stops working"
+          },
+          {
+            "term": "crippled",
+            "definition": "damaged something so badly that it cannot work properly"
+          },
+          {
+            "term": "revived",
+            "definition": "brought something back after it had faded away"
+          },
+          {
+            "term": "dependence",
+            "definition": "the state of needing something else in order to work"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:00",
+      "headline": "Certifikační autoritě eMudhra unikly soukromé klíče, prohlížeče je urychleně revokují",
+      "body": "Došlo k úniku soukromých klíčů osmi mezilehlých certifikátů certifikační autority eMudhra. Důvěřují jim kořenové programy Mozilly, Microsoftu a Applu i prohlížeč Chrome. Tvůrci prohlížečů se podle Rootu snaží problém rychle řešit.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/clanky/certifikacni-autorite-emudhra-unikly-klice-prohlizece-urychlene-revokuji-certifikaty/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Private keys have leaked from the certificate authority eMudhra and browsers are revoking them urgently",
+        "sentences": [
+          {
+            "en": "The private keys of eight intermediate certificates of the certificate authority eMudhra have leaked.",
+            "cs": "Došlo k úniku soukromých klíčů osmi mezilehlých certifikátů certifikační autority eMudhra."
+          },
+          {
+            "en": "They are trusted by the root programmes of Mozilla, Microsoft and Apple and by the Chrome browser.",
+            "cs": "Důvěřují jim kořenové programy Mozilly, Microsoftu a Applu i prohlížeč Chrome."
+          },
+          {
+            "en": "According to Root, browser makers are trying to resolve the problem quickly.",
+            "cs": "Tvůrci prohlížečů se podle Rootu snaží problém rychle řešit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revoking",
+            "definition": "officially cancelling something that was given before"
+          },
+          {
+            "term": "intermediate",
+            "definition": "placed in the middle between two other things"
+          },
+          {
+            "term": "leaked",
+            "definition": "escaped to people who should not have it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:07",
+      "headline": "Ministr kultury Klempíř se stal předsedou správní rady festivalu Pražské jaro",
+      "body": "Správní rada festivalu Pražské jaro jednomyslně zvolila ministra kultury Otu Klempíře (za Motoristy) svým novým předsedou. Informoval o tom člen správní rady Roman Bělor. Volba podle iROZHLASU vychází z trendu posledních let, kdy od roku 2021 stojí v čele rady zástupce ministerstva kultury. Předtím funkci zastával Baxa z ODS.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/kultura/hudba/odvolal-baxu-a-neni-se-ministr-kultury-klempir-se-stal-predsedou-spravni-rady_2610201507_cen"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2225480/"
+        }
+      ],
+      "en": {
+        "headline": "Culture Minister Klempíř has become chairman of the board of trustees of the Pražské jaro festival",
+        "sentences": [
+          {
+            "en": "The board of trustees of the Pražské jaro festival has unanimously elected Culture Minister Ota Klempíř (for Motoristé) as its new chairman.",
+            "cs": "Správní rada festivalu Pražské jaro jednomyslně zvolila ministra kultury Otu Klempíře (za Motoristy) svým novým předsedou."
+          },
+          {
+            "en": "Roman Bělor, a member of the board, announced this.",
+            "cs": "Informoval o tom člen správní rady Roman Bělor."
+          },
+          {
+            "en": "According to iROZHLAS the election follows a trend of recent years, in which a representative of the Ministry of Culture has chaired the board since 2021.",
+            "cs": "Volba podle iROZHLASU vychází z trendu posledních let, kdy od roku 2021 stojí v čele rady zástupce ministerstva kultury."
+          },
+          {
+            "en": "The post was previously held by Baxa of ODS.",
+            "cs": "Předtím funkci zastával Baxa z ODS."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "board of trustees",
+            "definition": "a group of people who are legally responsible for running an organisation"
+          },
+          {
+            "term": "unanimously",
+            "definition": "with everyone agreeing"
+          },
+          {
+            "term": "chaired",
+            "definition": "led a committee or a meeting as its head"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Voxpot: Evropa si nákupem amerických zbraní koupila hlavně závislost",
+      "body": "Ukrajinské drony minulý týden ztratily satelitní spojení, protože o tom rozhodl někdo ve Washingtonu; nešlo o poruchu, ale o ukázku moci, píše Voxpot. Evropa podle analýzy desítky let kupuje americké zbraně v naději, že si tím koupí i americkou ochranu, dostala ale jen závislost. Na vlastní odpověď si dává čas do roku 2030 a Česko, které má firmy schopné hrát první ligu, se podle textu dál chystá na válku, která už skončila.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/chteli-jsme-ochranu-mame-zavislost-vypinac-vojenskych-technologii-zustava-ve-washingtonu/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot: by buying American weapons Europe has mainly bought dependence",
+        "sentences": [
+          {
+            "en": "Ukrainian drones lost their satellite connection last week because someone in Washington decided so; it was not a malfunction but a show of power, Voxpot writes.",
+            "cs": "Ukrajinské drony minulý týden ztratily satelitní spojení, protože o tom rozhodl někdo ve Washingtonu; nešlo o poruchu, ale o ukázku moci, píše Voxpot."
+          },
+          {
+            "en": "For decades, the analysis argues, Europe has been buying American weapons in the hope that it is also buying American protection, but all it has got is dependence.",
+            "cs": "Evropa podle analýzy desítky let kupuje americké zbraně v naději, že si tím koupí i americkou ochranu, dostala ale jen závislost."
+          },
+          {
+            "en": "It is giving itself until 2030 to come up with its own answer, and Czechia, which has companies capable of playing in the top league, is according to the text still preparing for a war that is already over.",
+            "cs": "Na vlastní odpověď si dává čas do roku 2030 a Česko, které má firmy schopné hrát první ligu, se podle textu dál chystá na válku, která už skončila."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "malfunction",
+            "definition": "a failure to work in the correct way"
+          },
+          {
+            "term": "dependence",
+            "definition": "the state of needing something else in order to work"
+          },
+          {
+            "term": "come up with",
+            "definition": "to think of and produce an idea or a plan"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "11:53",
+      "headline": "Deník N popisuje, kde nová úhradová vyhláška může nahrát soukromým klinikám",
+      "body": "Deník N na třech případech popisuje, kde úhradová vyhláška na příští rok může nahrát soukromým nemocnicím a klinikám, včetně těch spojených s premiérem Andrejem Babišem. Analýza se týká rozdělení zhruba 600 miliard korun pro zdravotnictví.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2222026/kdo-vydela-na-novych-platbach-tri-zmeny-hraji-do-karet-soukromym-nemocnicim/"
+        }
+      ],
+      "en": {
+        "headline": "Deník N describes where the new reimbursement decree may favour private clinics",
+        "sentences": [
+          {
+            "en": "Using three cases, Deník N describes where next year's reimbursement decree may favour private hospitals and clinics, including those linked to Prime Minister Andrej Babiš.",
+            "cs": "Deník N na třech případech popisuje, kde úhradová vyhláška na příští rok může nahrát soukromým nemocnicím a klinikám, včetně těch spojených s premiérem Andrejem Babišem."
+          },
+          {
+            "en": "The analysis concerns the distribution of roughly 600 billion crowns for health care.",
+            "cs": "Analýza se týká rozdělení zhruba 600 miliard korun pro zdravotnictví."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reimbursement",
+            "definition": "the paying back of money that someone has spent"
+          },
+          {
+            "term": "decree",
+            "definition": "an official order issued by a government body"
+          },
+          {
+            "term": "favour",
+            "definition": "to treat one side better than the others"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:37",
+      "headline": "Chorý už za Slavii nenastoupí, komise rozhodčích potvrdila jeho vyloučení",
+      "body": "Tomáš Chorý už za fotbalisty Slavie po vyloučení proti Hradci Králové nenastoupí, řekl trenér Jindřich Trpišovský; s reprezentačním útočníkem po řadě disciplinárních prohřešků a několika vyloučeních už nepočítá. Komise rozhodčích Fotbalové asociace ČR mezitím uvedla, že sudí Jan Všetečka vyloučil jednatřicetiletého hráče správně, protože i podle ní ukázal směrem k hlavnímu arbitrovi prostředníček. Chorého budoucnost se bude řešit po návratu Slavie z utkání s Fenerbahce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/chory-byl-vyloucen-spravne-i-podle-komise-rozhodcich-ukazal-prostrednicek-159531"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/trpisovsky-uzavreno-chory-za-slavii-jiz-nenastoupi-159523"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-mela-na-baniku-dostat-cervenou-soudi-komise-resila-i-choreho-vulgarni-gesto-5559134"
+        }
+      ],
+      "en": {
+        "headline": "Chorý will not play for Slavia again, and the referees' committee has confirmed his sending-off",
+        "sentences": [
+          {
+            "en": "Tomáš Chorý will not play for Slavia's footballers again after being sent off against Hradec Králové, coach Jindřich Trpišovský said; he is no longer counting on the national team striker after a string of disciplinary offences and several sendings-off.",
+            "cs": "Tomáš Chorý už za fotbalisty Slavie po vyloučení proti Hradci Králové nenastoupí, řekl trenér Jindřich Trpišovský; s reprezentačním útočníkem po řadě disciplinárních prohřešků a několika vyloučeních už nepočítá."
+          },
+          {
+            "en": "The referees' committee of the Football Association of the Czech Republic meanwhile said that referee Jan Všetečka was right to send off the thirty-one-year-old player, because in its view he too showed the middle finger towards the main official.",
+            "cs": "Komise rozhodčích Fotbalové asociace ČR mezitím uvedla, že sudí Jan Všetečka vyloučil jednatřicetiletého hráče správně, protože i podle ní ukázal směrem k hlavnímu arbitrovi prostředníček."
+          },
+          {
+            "en": "Chorý's future will be dealt with after Slavia returns from its match with Fenerbahce.",
+            "cs": "Chorého budoucnost se bude řešit po návratu Slavie z utkání s Fenerbahce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sending-off",
+            "definition": "the act of ordering a player to leave the field as a punishment"
+          },
+          {
+            "term": "striker",
+            "definition": "a player whose main job is to score goals"
+          },
+          {
+            "term": "disciplinary",
+            "definition": "connected with punishing someone for breaking rules"
+          },
+          {
+            "term": "offences",
+            "definition": "acts that break a rule or a law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:54",
+      "headline": "Bohemians dostali stavební povolení na přestavbu Ďolíčku",
+      "body": "Stavební odbor úřadu Prahy 10 vydal stavební povolení, díky kterému mohou fotbaloví Bohemians zahájit práce na zrekonstruovaném Ďolíčku. Začne se na jižní tribuně, která vyroste u Vršovické ulice.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-skvela-zprava-pro-bohemians-novy-dolicek-je-o-obrovsky-krok-bliz-stavebni-prace-zacnou-okamzite-5559128"
+        }
+      ],
+      "en": {
+        "headline": "Bohemians have received the building permit for the rebuilding of Ďolíček",
+        "sentences": [
+          {
+            "en": "The building department of the Prague 10 district office has issued a building permit that allows the footballers of Bohemians to start work on a renovated Ďolíček.",
+            "cs": "Stavební odbor úřadu Prahy 10 vydal stavební povolení, díky kterému mohou fotbaloví Bohemians zahájit práce na zrekonstruovaném Ďolíčku."
+          },
+          {
+            "en": "Work will begin on the south stand, which will go up alongside Vršovická street.",
+            "cs": "Začne se na jižní tribuně, která vyroste u Vršovické ulice."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "building permit",
+            "definition": "official permission to construct or change a building"
+          },
+          {
+            "term": "stand",
+            "definition": "a large structure at a sports ground where people sit or stand to watch"
+          },
+          {
+            "term": "renovated",
+            "definition": "repaired and brought back into good condition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:42",
+      "headline": "Ronaldo dostal za odchod z portugalské reprezentace pokutu 255 eur",
+      "body": "Cristiano Ronaldo dostal od portugalského svazu za opuštění reprezentace kvůli sporu s trenérem Jorgem Jesusem distanc na 30 dnů a pokutu 255 eur. Sportovní deník A Bola se domnívá, že portugalský fotbal a jeho pravidla jsou po takovém trestu světu k smíchu.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-svet-se-nam-smeje-pise-portugalsky-tisk-po-smesnem-trestu-pro-ronalda-5559139"
+        }
+      ],
+      "en": {
+        "headline": "Ronaldo has been fined 255 euros for walking out on the Portugal national team",
+        "sentences": [
+          {
+            "en": "Cristiano Ronaldo has been given a 30-day ban and a fine of 255 euros by the Portuguese federation for leaving the national team over a dispute with coach Jorge Jesus.",
+            "cs": "Cristiano Ronaldo dostal od portugalského svazu za opuštění reprezentace kvůli sporu s trenérem Jorgem Jesusem distanc na 30 dnů a pokutu 255 eur."
+          },
+          {
+            "en": "The sports daily A Bola believes that after such a punishment Portuguese football and its rules are a laughing stock to the world.",
+            "cs": "Sportovní deník A Bola se domnívá, že portugalský fotbal a jeho pravidla jsou po takovém trestu světu k smíchu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ban",
+            "definition": "an official order stopping someone from taking part"
+          },
+          {
+            "term": "dispute",
+            "definition": "a serious disagreement between people"
+          },
+          {
+            "term": "laughing stock",
+            "definition": "a person or thing that everyone makes fun of"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:08",
+      "headline": "Nečas se trefil popáté v sezoně, Colorado přesto v Philadelphii prohrálo",
+      "body": "Hokejisté Philadelphie zdolali doma Colorado 3:2. Poraženým nepomohla ani branka Martina Nečase, který se prosadil popáté v sezoně.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/necasuv-paty-gol-v-sezone-colorado-nespasil-body-bere-philadelphie-159527"
+        }
+      ],
+      "en": {
+        "headline": "Nečas scored for the fifth time this season, but Colorado still lost in Philadelphia",
+        "sentences": [
+          {
+            "en": "Philadelphia's hockey players beat Colorado 3:2 at home.",
+            "cs": "Hokejisté Philadelphie zdolali doma Colorado 3:2."
+          },
+          {
+            "en": "The losers were not helped even by a goal from Martin Nečas, who scored for the fifth time this season.",
+            "cs": "Poraženým nepomohla ani branka Martina Nečase, který se prosadil popáté v sezoně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "beat",
+            "definition": "to defeat someone in a game or a contest"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:47",
+      "headline": "Choupenitch vyhrál úvodní turnaj Světového poháru se zlomenou nohou",
+      "body": "Fleretista Alexander Choupenitch přiznal, že během víkendového vítězného turnaje Světového poháru v Japonsku utrpěl zranění včetně zlomeniny nohy. Mistr světa a jednička mezinárodního žebříčku teď bude muset přizpůsobit plán přípravy.",
+      "sources": [
+        {
+          "name": "iROZHLAS Sport",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/alexander-choupenitch-serm_2610201247_kri"
+        }
+      ],
+      "en": {
+        "headline": "Choupenitch won the opening World Cup tournament with a broken foot",
+        "sentences": [
+          {
+            "en": "The foil fencer Alexander Choupenitch has admitted that during the weekend's winning World Cup tournament in Japan he suffered injuries including a broken foot.",
+            "cs": "Fleretista Alexander Choupenitch přiznal, že během víkendového vítězného turnaje Světového poháru v Japonsku utrpěl zranění včetně zlomeniny nohy."
+          },
+          {
+            "en": "The world champion and world number one will now have to adjust his training plan.",
+            "cs": "Mistr světa a jednička mezinárodního žebříčku teď bude muset přizpůsobit plán přípravy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "foil",
+            "definition": "a light sword with a thin blade used in the sport of fencing"
+          },
+          {
+            "term": "fencer",
+            "definition": "a person who takes part in the sport of sword fighting"
+          },
+          {
+            "term": "adjust",
+            "definition": "to change something slightly so that it works better"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:08",
+      "day": "prev",
+      "headline": "Jalonen ukončil v 66 letech trenérskou kariéru",
+      "body": "Bývalý trenér českých hokejistů Kari Jalonen po pár měsících angažmá ve finském klubu Tappara Tampere ukončil trenérskou kariéru. Vedení překvapivé rozhodnutí oznámil s tím, že už nemá potřebnou energii. S hokejem se loučí v 66 letech.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/jalonen-prekvapive-ukoncil-trenerskou-karieru-drajv-vyprchal-rekl-159526"
+        }
+      ],
+      "en": {
+        "headline": "Jalonen has ended his coaching career at the age of 66",
+        "sentences": [
+          {
+            "en": "Kari Jalonen, the former coach of the Czech national hockey team, has ended his coaching career after a few months at the Finnish club Tappara Tampere.",
+            "cs": "Bývalý trenér českých hokejistů Kari Jalonen po pár měsících angažmá ve finském klubu Tappara Tampere ukončil trenérskou kariéru."
+          },
+          {
+            "en": "He informed the management of his surprise decision, saying that he no longer has the energy he needs.",
+            "cs": "Vedení překvapivé rozhodnutí oznámil s tím, že už nemá potřebnou energii."
+          },
+          {
+            "en": "He is saying goodbye to hockey at the age of 66.",
+            "cs": "S hokejem se loučí v 66 letech."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "management",
+            "definition": "the people who run a club or a company"
+          },
+          {
+            "term": "former",
+            "definition": "having held a position in the past but not now"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Five groupings in Brno have agreed on a coalition without the ANO movement, and KDU-ČSL politician Jakub Hruška is set to become mayor.",
+    "Petr Dlouhý, director general of the State Agricultural Intervention Fund, is stepping down, by his own account for personal reasons.",
+    "The government, trade unions and employers have agreed on new pay scales for the public sector starting in January.",
+    "Donald Trump said that Russia is behaving fine towards Ukraine."
+  ]
+}
