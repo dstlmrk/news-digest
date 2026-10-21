@@ -1,0 +1,1462 @@
+{
+  "date": "2026-10-21",
+  "covers": "2026-10-21",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Voxpot",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "Hradecký deník"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude zataženo se slabým deštěm, denní teplota vystoupí jen na 12,5 °C. Srážky jsou prakticky jisté a vítr může v nárazech dosáhnout 34 km/h.",
+    "days": [
+      {
+        "date": "2026-10-22",
+        "icon": "rain",
+        "temp_max_c": 12.5,
+        "temp_min_c": 7.3
+      },
+      {
+        "date": "2026-10-23",
+        "icon": "cloudy",
+        "temp_max_c": 14.6,
+        "temp_min_c": 4.0
+      },
+      {
+        "date": "2026-10-24",
+        "icon": "cloudy",
+        "temp_max_c": 12.6,
+        "temp_min_c": 6.2
+      },
+      {
+        "date": "2026-10-25",
+        "icon": "rain",
+        "temp_max_c": 10.5,
+        "temp_min_c": 4.1
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast with light rain and the daytime temperature will reach only 12.5 °C. Rain is all but certain and gusts of wind may reach 34 km/h."
+  },
+  "highlights": [
+    "Steve Witkoff jednal tři hodiny s Vladimirem Putinem v Petrohradu, Moskva je podle Kremlu ochotná příští měsíc obnovit trojstranná jednání s Ukrajinou a USA.",
+    "Sněmovna začala projednávat rozpočet se schodkem 386 miliard korun, Andrej Babiš v debatě slíbil jednání s bankami o sazbách hypoték.",
+    "Kritické chyby v PHP přiměly vlády po celém světě preventivně odstavovat weby, vývojáři odpoledne vydali opravnou aktualizaci.",
+    "Po dlouhodobé nemoci zemřel rektor Univerzity Hradec Králové Jan Kříž, bylo mu 51 let."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "13:39",
+      "headline": "Sněmovna začala projednávat rozpočet se schodkem 386 miliard, Babiš chce jednat s bankami o hypotékách",
+      "body": "Poslanci zahájili úvodní kolo debaty nad návrhem státního rozpočtu na příští rok, v prvním čtení schvalují jeho příjmy, výdaje a schodek. Navrhovaný deficit 386 miliard korun je proti letos schválenému o 76 miliard vyšší. Alena Schillerová rozpočet ve Sněmovně hájila, Zdeněk Hřib ho podle ČT24 označil za horor. Premiér Andrej Babiš (ANO) odmítl opoziční kritiku, vyčetl opozici její vlastní hospodaření a uvedl, že vláda bude v příštích letech snižovat schodky veřejných financí o desítky miliard ročně, od roku 2028. Slíbil také, že vláda podnikne kroky proti sazbám hypoték a bude o nich jednat s bankami. Koalice si prosadila možnost nočního jednání, do rozpravy se hlásily tři desítky poslanců.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslance-ceka-prvni-cteni-rozpoctu-na-pristi-rok-se-schodkem-386-miliard-378847"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/kdo-tady-nejvic-vydelava-kdo-je-nejvic-nenasytny-babis-chce-jednat-s-bankami-o_2610211339_med"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2226832/"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies has begun debating a budget with a deficit of 386 billion, and Babiš wants to negotiate with the banks about mortgages",
+        "sentences": [
+          {
+            "en": "Members of parliament have opened the first round of debate on next year's draft state budget; in the first reading they approve its revenues, spending and deficit.",
+            "cs": "Poslanci zahájili úvodní kolo debaty nad návrhem státního rozpočtu na příští rok, v prvním čtení schvalují jeho příjmy, výdaje a schodek."
+          },
+          {
+            "en": "The proposed deficit of 386 billion crowns is 76 billion higher than the one approved for this year.",
+            "cs": "Navrhovaný deficit 386 miliard korun je proti letos schválenému o 76 miliard vyšší."
+          },
+          {
+            "en": "Alena Schillerová defended the budget in the Chamber of Deputies, while Zdeněk Hřib called it a horror, according to ČT24.",
+            "cs": "Alena Schillerová rozpočet ve Sněmovně hájila, Zdeněk Hřib ho podle ČT24 označil za horor."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) rejected the opposition's criticism, blamed the opposition for its own handling of public finances and said the government would cut public finance deficits by tens of billions a year in the coming years, starting in 2028.",
+            "cs": "Premiér Andrej Babiš (ANO) odmítl opoziční kritiku, vyčetl opozici její vlastní hospodaření a uvedl, že vláda bude v příštích letech snižovat schodky veřejných financí o desítky miliard ročně, od roku 2028."
+          },
+          {
+            "en": "He also promised that the government would take steps against mortgage rates and would negotiate about them with the banks.",
+            "cs": "Slíbil také, že vláda podnikne kroky proti sazbám hypoték a bude o nich jednat s bankami."
+          },
+          {
+            "en": "The coalition pushed through the option of a night sitting, with three dozen MPs signed up to speak.",
+            "cs": "Koalice si prosadila možnost nočního jednání, do rozpravy se hlásily tři desítky poslanců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revenues",
+            "definition": "money that a government or a company receives"
+          },
+          {
+            "term": "mortgage",
+            "definition": "a loan from a bank used to buy a home"
+          },
+          {
+            "term": "pushed through",
+            "definition": "to get something accepted or approved, often quickly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "22:00",
+      "day": "prev",
+      "headline": "Bezpečnostní rada státu probrala posilování armády na 32 tisíc vojáků",
+      "body": "Bezpečnostní rada státu za účasti prezidenta v úterý večer hodnotila situaci doma i ve světě a možná rizika pro další vývoj. Stupeň ohrožení terorismem ponechala mírný a probrala mimo jiné opatření, jak zajistit elektronické služby během rozsáhlých výpadků proudu, nebo koncepci výstavby armády do roku 2040. „Ta nová bude říkat 32 tisíc v Armádě České republiky a patnáct tisíc v aktivní záloze,“ upřesnil ministr obrany Jaromír Zůna (za SPD). Pomoci má podle ČT24 už letošní rekordní nábor, resort chystá i kurz důstojníků v záloze pro studenty vysokých škol.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/bezpecnostni-rada-statu-probrala-vypadky-proudu-i-navysovani-poctu-vojaku-378844"
+        }
+      ],
+      "en": {
+        "headline": "The State Security Council discussed building the army up to 32,000 soldiers",
+        "sentences": [
+          {
+            "en": "The State Security Council, with the president taking part, assessed the situation at home and abroad on Tuesday evening, along with possible risks for the period ahead.",
+            "cs": "Bezpečnostní rada státu za účasti prezidenta v úterý večer hodnotila situaci doma i ve světě a možná rizika pro další vývoj."
+          },
+          {
+            "en": "It left the terrorism threat level at moderate and discussed, among other things, measures to keep electronic services running during large-scale power outages, and the plan for building up the army by 2040.",
+            "cs": "Stupeň ohrožení terorismem ponechala mírný a probrala mimo jiné opatření, jak zajistit elektronické služby během rozsáhlých výpadků proudu, nebo koncepci výstavby armády do roku 2040."
+          },
+          {
+            "en": "“The new one will say 32,000 in the Army of the Czech Republic and fifteen thousand in the active reserve,” Defence Minister Jaromír Zůna (for SPD) explained.",
+            "cs": "„Ta nová bude říkat 32 tisíc v Armádě České republiky a patnáct tisíc v aktivní záloze,“ upřesnil ministr obrany Jaromír Zůna (za SPD)."
+          },
+          {
+            "en": "According to ČT24, this year's record recruitment should help, and the ministry is also preparing a reserve officer course for university students.",
+            "cs": "Pomoci má podle ČT24 už letošní rekordní nábor, resort chystá i kurz důstojníků v záloze pro studenty vysokých škol."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outages",
+            "definition": "periods when the electricity supply stops working"
+          },
+          {
+            "term": "reserve",
+            "definition": "a group of trained people who can be called to serve in the army when needed"
+          },
+          {
+            "term": "recruitment",
+            "definition": "the process of finding new people to join an organization"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:30",
+      "headline": "Senát umožnil zrušení pravidelného zdražování dálničních známek",
+      "body": "Ceny dálničních známek se nebudou pravidelně zvyšovat a i příští rok mají zůstat na současné výši. Senát novelu o pozemních komunikacích navzdory opoziční kritice přímo neschválil, ale ani neodmítl. Senátoři také neupravili zavedení podílu krajů na výnosu spotřební daně z pohonných hmot, jak požadovala část z nich.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/senat-se-bude-zabyvat-cenami-dalnicnich-znamek-378852"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2227033/"
+        }
+      ],
+      "en": {
+        "headline": "The Senate has allowed the regular rise in motorway vignette prices to be scrapped",
+        "sentences": [
+          {
+            "en": "The price of motorway vignettes will not rise regularly and is to stay at its current level next year as well.",
+            "cs": "Ceny dálničních známek se nebudou pravidelně zvyšovat a i příští rok mají zůstat na současné výši."
+          },
+          {
+            "en": "Despite criticism from the opposition, the Senate neither approved nor rejected the amendment to the roads act outright.",
+            "cs": "Senát novelu o pozemních komunikacích navzdory opoziční kritice přímo neschválil, ale ani neodmítl."
+          },
+          {
+            "en": "Senators also did not change the introduction of a share for the regions in the revenue from fuel excise duty, which some of them had demanded.",
+            "cs": "Senátoři také neupravili zavedení podílu krajů na výnosu spotřební daně z pohonných hmot, jak požadovala část z nich."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vignettes",
+            "definition": "stickers or passes that let a driver use motorways"
+          },
+          {
+            "term": "amendment",
+            "definition": "a change made to a law"
+          },
+          {
+            "term": "excise duty",
+            "definition": "a tax on certain goods such as fuel or alcohol"
+          },
+          {
+            "term": "outright",
+            "definition": "completely and clearly, in one step"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:01",
+      "headline": "Senát schválil nový cizinecký zákon s povinnou registrací občanů EU",
+      "body": "Povolování a rušení pobytu cizinců v Česku čeká digitalizace, která má zrychlit úřední postupy i posílit bezpečnost. Přinese ji návrh nového cizineckého zákona, který Senát schválil a který teď dostane k podpisu prezident. Norma zavádí také povinnou registraci občanů zemí Evropské unie s pobytem delším než 90 dnů, dosud byla dobrovolná.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2227301/"
+        }
+      ],
+      "en": {
+        "headline": "The Senate has approved a new foreigners act with compulsory registration for EU citizens",
+        "sentences": [
+          {
+            "en": "The granting and cancelling of residence permits for foreigners in the Czech Republic is set for digitalisation that should speed up official procedures and improve security.",
+            "cs": "Povolování a rušení pobytu cizinců v Česku čeká digitalizace, která má zrychlit úřední postupy i posílit bezpečnost."
+          },
+          {
+            "en": "It will be brought in by the draft new foreigners act, which the Senate approved and which now goes to the president for signature.",
+            "cs": "Přinese ji návrh nového cizineckého zákona, který Senát schválil a který teď dostane k podpisu prezident."
+          },
+          {
+            "en": "The law also makes registration compulsory for citizens of European Union countries staying longer than 90 days; until now it was voluntary.",
+            "cs": "Norma zavádí také povinnou registraci občanů zemí Evropské unie s pobytem delším než 90 dnů, dosud byla dobrovolná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "residence permits",
+            "definition": "official documents that allow someone to live in a country"
+          },
+          {
+            "term": "compulsory",
+            "definition": "required by a law or a rule"
+          },
+          {
+            "term": "voluntary",
+            "definition": "done by choice and not because you have to"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:20",
+      "headline": "Motoristé se distancují od Turkových spekulací o smrti náměstka Endala",
+      "body": "Čestný prezident Motoristů Filip Turek podle Deníku N v médiích opakovaně naznačil, že červencové úmrtí náměstka Filipa Endala může souviset s jeho prací na „zmenšování akceleračních oblastí“ pro větrné a solární elektrárny. Od jeho výroků se distancuje ministerstvo pro místní rozvoj, kde Endal působil, i šéf poslaneckého klubu Motoristů Boris Šťastný.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2226957/nevhodne-a-hrube-necitlive-u-motoristu-to-vre-kvuli-turkovym-spekulacim-o-namestkove-smrti/"
+        }
+      ],
+      "en": {
+        "headline": "Motoristé are distancing themselves from Turek's speculation about deputy minister Endal's death",
+        "sentences": [
+          {
+            "en": "According to Deník N, the honorary president of Motoristé, Filip Turek, has repeatedly suggested in the media that the July death of deputy minister Filip Endal may be linked to his work on “shrinking the acceleration areas” for wind and solar power plants.",
+            "cs": "Čestný prezident Motoristů Filip Turek podle Deníku N v médiích opakovaně naznačil, že červencové úmrtí náměstka Filipa Endala může souviset s jeho prací na „zmenšování akceleračních oblastí“ pro větrné a solární elektrárny."
+          },
+          {
+            "en": "The Ministry for Regional Development, where Endal worked, and the head of the Motoristé parliamentary group Boris Šťastný have both distanced themselves from his remarks.",
+            "cs": "Od jeho výroků se distancuje ministerstvo pro místní rozvoj, kde Endal působil, i šéf poslaneckého klubu Motoristů Boris Šťastný."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "honorary",
+            "definition": "given as an honour, without the usual duties of the post"
+          },
+          {
+            "term": "shrinking",
+            "definition": "making something smaller in size"
+          },
+          {
+            "term": "distanced themselves",
+            "definition": "said publicly that they are not connected with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:00",
+      "day": "prev",
+      "headline": "Zakázaná kojenecká výživa se znovu objevila v obchodech",
+      "body": "Inspektoři Státní zemědělské a potravinářské inspekce našli ve třech městech v Česku kojeneckou výživu, kterou obchodníci nesmějí od února prodávat. Úřady mají podezření, že vybrané šarže mohou obsahovat toxin cereulid, jenž způsobuje zvracení a průjem a v krajních případech může vést až k selhání některých orgánů.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zakazana-kojenecka-vyziva-se-podle-inspektoru-szpi-znovu-objevila-v-obchodech-378840"
+        }
+      ],
+      "en": {
+        "headline": "Banned baby formula has turned up in shops again",
+        "sentences": [
+          {
+            "en": "Inspectors from the State Agricultural and Food Inspection Authority found baby formula in three Czech towns that retailers have been banned from selling since February.",
+            "cs": "Inspektoři Státní zemědělské a potravinářské inspekce našli ve třech městech v Česku kojeneckou výživu, kterou obchodníci nesmějí od února prodávat."
+          },
+          {
+            "en": "The authorities suspect that the batches concerned may contain the toxin cereulide, which causes vomiting and diarrhoea and in extreme cases can lead to the failure of some organs.",
+            "cs": "Úřady mají podezření, že vybrané šarže mohou obsahovat toxin cereulid, jenž způsobuje zvracení a průjem a v krajních případech může vést až k selhání některých orgánů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "baby formula",
+            "definition": "milk powder prepared for feeding babies"
+          },
+          {
+            "term": "batches",
+            "definition": "groups of products made or packed at the same time"
+          },
+          {
+            "term": "diarrhoea",
+            "definition": "an illness in which waste leaves the body in liquid form"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:10",
+      "headline": "Zemřel rektor Univerzity Hradec Králové Jan Kříž",
+      "body": "Rektor Univerzity Hradec Králové Jan Kříž zemřel ve středu 21. října po dlouhodobé nemoci, bylo mu 51 let. V čele univerzity stál od října 2024, předtím působil jako děkan Přírodovědecké fakulty UHK a podle ČT24 byl v končícím volebním období také zastupitelem Hradce Králové za ODS. Univerzitu nyní vede statutární zástupkyně rektora, prorektorka Leona Stašová. Škola zřídila pietní místo v zasedací místnosti rektorátu v Rokitanského ulici.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zemrel-rektor-univerzity-hradec-kralove-jan-kriz-bylo-mu-51-let_2610211248_mkm"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zemrel-rektor-univerzity-hradec-kralove-jan-kriz-378862"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hradecko/903626-zemrel-rektor-univerzity-hradec-kralove-jan-kriz-bylo-mu-51-let.html"
+        }
+      ],
+      "en": {
+        "headline": "Jan Kříž, the rector of the University of Hradec Králové, has died",
+        "sentences": [
+          {
+            "en": "Jan Kříž, the rector of the University of Hradec Králové, died on Wednesday 21 October after a long illness at the age of 51.",
+            "cs": "Rektor Univerzity Hradec Králové Jan Kříž zemřel ve středu 21. října po dlouhodobé nemoci, bylo mu 51 let."
+          },
+          {
+            "en": "He had led the university since October 2024; before that he served as dean of the UHK Faculty of Science and, according to ČT24, he was also a Hradec Králové city councillor for ODS in the outgoing term.",
+            "cs": "V čele univerzity stál od října 2024, předtím působil jako děkan Přírodovědecké fakulty UHK a podle ČT24 byl v končícím volebním období také zastupitelem Hradce Králové za ODS."
+          },
+          {
+            "en": "The university is now led by the rector's statutory deputy, vice-rector Leona Stašová.",
+            "cs": "Univerzitu nyní vede statutární zástupkyně rektora, prorektorka Leona Stašová."
+          },
+          {
+            "en": "The school has set up a place of remembrance in the meeting room of the rectorate in Rokitanského Street.",
+            "cs": "Škola zřídila pietní místo v zasedací místnosti rektorátu v Rokitanského ulici."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rector",
+            "definition": "the person who leads a university"
+          },
+          {
+            "term": "dean",
+            "definition": "the person who leads a faculty at a university"
+          },
+          {
+            "term": "outgoing",
+            "definition": "leaving a job or a position soon"
+          },
+          {
+            "term": "statutory",
+            "definition": "set out by law or by official rules"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:28",
+      "headline": "Hradec povede znovu Springerová, ODS míří do opozice",
+      "body": "Koalice v Hradci Králové zůstane tříčlenná a ODS v ní nebude. Dohodnutá koalice HDK a TOP 09, Pirátů a STAN a Změny, Zelených a lidovců odmítla její programové požadavky; původně vadila i nominace ODS na posty náměstka a radního, tu ale strana později změnila. Koalice bude mít 20 z 37 zastupitelů. Primátorkou má být opět Pavlína Springerová (Hradecký demokratický klub), náměstky Lukáš Řádek (TOP 09), Kamil Podroužek (HDK), Kamil Kubica (Piráti), Dominik Žilka (STAN) a Martina Erbsová (Zelení). Podle Hradecké drbny byly rozpory i kolem developerů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/komunalni-volby-2026-hradec-kralove-koalice-bez-ods-priority.A261021_044732_hradec-volby_the"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/903598-koalice-v-h-kralove-zustane-triclenna-v-cele-s-hdk-a-top-09-ods-v-ni.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec will again be led by Springerová, and ODS is heading into opposition",
+        "sentences": [
+          {
+            "en": "The coalition in Hradec Králové will remain a three-party one and ODS will not be part of it.",
+            "cs": "Koalice v Hradci Králové zůstane tříčlenná a ODS v ní nebude."
+          },
+          {
+            "en": "The agreed coalition of HDK and TOP 09, Piráti and STAN, and Změna, Zelení and KDU-ČSL rejected its programme demands; the ODS nominations for the posts of deputy mayor and councillor were an obstacle at first as well, though the party later changed them.",
+            "cs": "Dohodnutá koalice HDK a TOP 09, Pirátů a STAN a Změny, Zelených a lidovců odmítla její programové požadavky; původně vadila i nominace ODS na posty náměstka a radního, tu ale strana později změnila."
+          },
+          {
+            "en": "The coalition will have 20 of the 37 councillors.",
+            "cs": "Koalice bude mít 20 z 37 zastupitelů."
+          },
+          {
+            "en": "Pavlína Springerová (Hradecký demokratický klub) is again to be mayor, with deputies Lukáš Řádek (TOP 09), Kamil Podroužek (HDK), Kamil Kubica (Piráti), Dominik Žilka (STAN) and Martina Erbsová (Zelení).",
+            "cs": "Primátorkou má být opět Pavlína Springerová (Hradecký demokratický klub), náměstky Lukáš Řádek (TOP 09), Kamil Podroužek (HDK), Kamil Kubica (Piráti), Dominik Žilka (STAN) a Martina Erbsová (Zelení)."
+          },
+          {
+            "en": "According to Hradecká drbna, there were also disagreements over developers.",
+            "cs": "Podle Hradecké drbny byly rozpory i kolem developerů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "councillors",
+            "definition": "members elected to a local council"
+          },
+          {
+            "term": "obstacle",
+            "definition": "something that stops progress or makes it harder"
+          },
+          {
+            "term": "developers",
+            "definition": "companies that build new housing or offices"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:35",
+      "headline": "Správa KRNAP odmítla kritiku starosty Vrchlabí, muzea prý zavírat nebude",
+      "body": "Navazuje na včerejší výzvu vrchlabského starosty a senátora Jana Sobotky (nestraník za STAN) k odvolání ředitele Správy KRNAP Petra Moravce. Mluvčí parku označil kritiku za nepravdivou s tím, že vedení komunikuje se zaměstnanci i s obcemi. Správa zároveň vyvrátila, že by park plánoval omezení provozu či likvidaci krkonošských muzeí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/reakce-sprava-krnap-petr-moravec-kritika-sobotka-vrchlabi.A261021_140935_hradec-zpravy_the"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-sprava-krnap-odmitla-kritiku-sveho-reditele-ze-strany-starosty-vrchlabi-318417"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2226871/"
+        }
+      ],
+      "en": {
+        "headline": "The KRNAP administration has rejected criticism from the mayor of Vrchlabí and says it will not close museums",
+        "sentences": [
+          {
+            "en": "This follows yesterday's call by the Vrchlabí mayor and senator Jan Sobotka (independent for STAN) for the dismissal of KRNAP director Petr Moravec.",
+            "cs": "Navazuje na včerejší výzvu vrchlabského starosty a senátora Jana Sobotky (nestraník za STAN) k odvolání ředitele Správy KRNAP Petra Moravce."
+          },
+          {
+            "en": "A park spokesman called the criticism untrue, saying that the management does talk to staff and to local municipalities.",
+            "cs": "Mluvčí parku označil kritiku za nepravdivou s tím, že vedení komunikuje se zaměstnanci i s obcemi."
+          },
+          {
+            "en": "The administration also denied that the park was planning to limit operations or to shut down the Krkonoše museums.",
+            "cs": "Správa zároveň vyvrátila, že by park plánoval omezení provozu či likvidaci krkonošských muzeí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dismissal",
+            "definition": "the act of removing someone from their job"
+          },
+          {
+            "term": "municipalities",
+            "definition": "towns or villages with their own local government"
+          },
+          {
+            "term": "shut down",
+            "definition": "to close something permanently"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "08:30",
+      "headline": "Hradecký Park 360 se v zimě promění ve světelný park Světlozem",
+      "body": "Areál Park 360 v Hradci Králové se promění v zimní světelný park. Světlozem nabídne šestnáct zastávek venku i uvnitř hangárů a pětimetrového vlka Světlonoše. Součástí bude volně přístupná vánoční vesnička, kde při zahájení zdarma zahraje Kašpárek v rohlíku.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hradecko/903542-svetelna-stezka-a-vanocni-vesnicka-v-hradci-vznikne-zimni-park-svetlozem.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec's Park 360 will turn into a winter park of lights called Světlozem",
+        "sentences": [
+          {
+            "en": "The Park 360 site in Hradec Králové will turn into a winter park of lights.",
+            "cs": "Areál Park 360 v Hradci Králové se promění v zimní světelný park."
+          },
+          {
+            "en": "Světlozem will offer sixteen stops outdoors and inside the hangars, as well as a five-metre wolf called Světlonoš.",
+            "cs": "Světlozem nabídne šestnáct zastávek venku i uvnitř hangárů a pětimetrového vlka Světlonoše."
+          },
+          {
+            "en": "It will include a freely accessible Christmas village, where Kašpárek v rohlíku will play for free at the opening.",
+            "cs": "Součástí bude volně přístupná vánoční vesnička, kde při zahájení zdarma zahraje Kašpárek v rohlíku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "site",
+            "definition": "a piece of land used for a particular purpose"
+          },
+          {
+            "term": "hangars",
+            "definition": "large buildings in which aircraft are kept"
+          },
+          {
+            "term": "accessible",
+            "definition": "that can be entered or used by people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:01",
+      "headline": "Witkoff jednal s Putinem tři hodiny, Moskva je podle Kremlu ochotná obnovit trojstranná jednání",
+      "body": "Americký vyjednavač Steve Witkoff se v Petrohradu sešel s ruským prezidentem Vladimirem Putinem, jednání podle mluvčího Kremlu Dmitrije Peskova trvalo zhruba tři hodiny. Witkoff na jeho úvod prohlásil, že základ pro dosažení příměří ve válce na Ukrajině existuje, a uvedl, že přivezl návrhy na urovnání konfliktu; předtím je podle Deníku N projednal v Oslu se Zelenským a spojenci. Poradce Kremlu Jurij Ušakov podle státní agentury RIA Novosti řekl, že Witkoff Putina informoval o nových aspektech v postoji Evropanů a Kyjeva, ale že v nich není moc užitečného. Putin podle něj Witkoffovi sdělil, že Moskva je v zásadě ochotna příští měsíc obnovit trojstranná jednání s Ukrajinou a Spojenými státy. Rusko během schůzky propustilo čtyřiasedmdesátiletého amerického vězně Stephena Hubbarda, kterého zadržovalo více než čtyři roky a o němž ruští prokurátoři tvrdili, že bojoval na straně Ukrajiny.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/zaklad-pro-primeri-na-ukrajine-existuje-rekl-witkoff-po-jednani-s-putinem-378873"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-witkoff-informoval-putina-o-postoji-evropy-k-valce-na-ukrajine-moskva-je_2610211601_adn"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2226525/jste-humanista-pane-chvalil-witkoff-putina-privezl-mu-z-osla-navrhy-zelenskeho-a-spojencu/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusko-propustilo-americkeho-vezne-ktereho-zadrzelo-na-ukrajine-318392"
+        }
+      ],
+      "en": {
+        "headline": "Witkoff talked with Putin for three hours, and according to the Kremlin Moscow is willing to resume trilateral talks",
+        "sentences": [
+          {
+            "en": "US negotiator Steve Witkoff met Russian President Vladimir Putin in St Petersburg; according to Kremlin spokesman Dmitrij Peskov the talks lasted about three hours.",
+            "cs": "Americký vyjednavač Steve Witkoff se v Petrohradu sešel s ruským prezidentem Vladimirem Putinem, jednání podle mluvčího Kremlu Dmitrije Peskova trvalo zhruba tři hodiny."
+          },
+          {
+            "en": "At the start Witkoff said that a basis for reaching a ceasefire in the war in Ukraine exists and that he had brought proposals for settling the conflict; according to Deník N he had discussed them in Oslo with Zelenskyj and allies.",
+            "cs": "Witkoff na jeho úvod prohlásil, že základ pro dosažení příměří ve válce na Ukrajině existuje, a uvedl, že přivezl návrhy na urovnání konfliktu; předtím je podle Deníku N projednal v Oslu se Zelenským a spojenci."
+          },
+          {
+            "en": "Kremlin adviser Jurij Ušakov said, according to the state agency RIA Novosti, that Witkoff had briefed Putin on new aspects of the European and Ukrainian positions, but that there was not much useful in them.",
+            "cs": "Poradce Kremlu Jurij Ušakov podle státní agentury RIA Novosti řekl, že Witkoff Putina informoval o nových aspektech v postoji Evropanů a Kyjeva, ale že v nich není moc užitečného."
+          },
+          {
+            "en": "Putin told Witkoff, according to Ušakov, that Moscow is in principle willing to resume trilateral talks with Ukraine and the United States next month.",
+            "cs": "Putin podle něj Witkoffovi sdělil, že Moskva je v zásadě ochotna příští měsíc obnovit trojstranná jednání s Ukrajinou a Spojenými státy."
+          },
+          {
+            "en": "During the meeting Russia released the 74-year-old American prisoner Stephen Hubbard, whom it had held for more than four years and who Russian prosecutors claimed had fought on Ukraine's side.",
+            "cs": "Rusko během schůzky propustilo čtyřiasedmdesátiletého amerického vězně Stephena Hubbarda, kterého zadržovalo více než čtyři roky a o němž ruští prokurátoři tvrdili, že bojoval na straně Ukrajiny."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting for a time"
+          },
+          {
+            "term": "settling",
+            "definition": "ending an argument or a conflict by agreement"
+          },
+          {
+            "term": "trilateral",
+            "definition": "involving three sides or three countries"
+          },
+          {
+            "term": "prosecutors",
+            "definition": "lawyers who accuse people of crimes in court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:29",
+      "headline": "Ruské údery zasáhly univerzitu v Kremenčuku i výškovou budovu v Kyjevě",
+      "body": "Ruské drony zabily v Charkovské oblasti dva lidi a zasáhly univerzitní budovu v Kremenčuku v Poltavské oblasti, informovaly podle serveru Kyiv Independent místní úřady. V Kyjevě Rusové zasáhli výškovou budovu, začala hořet i řada aut a zemřeli dva lidé, sdělil starosta Vitalij Klyčko. Další dvě oběti hlásí Záporožská oblast. Rusko tvrdí, že sestřelilo několik dronů v okolí Petrohradu.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-zasahlo-univerzitu-v-kremencuku-mrtve-hlasi-charkovska-oblast-i-kyjev-378850"
+        }
+      ],
+      "en": {
+        "headline": "Russian strikes hit a university in Kremenchuk and a high-rise building in Kyiv",
+        "sentences": [
+          {
+            "en": "Russian drones killed two people in the Kharkiv region and hit a university building in Kremenchuk in the Poltava region, local authorities said according to the Kyiv Independent.",
+            "cs": "Ruské drony zabily v Charkovské oblasti dva lidi a zasáhly univerzitní budovu v Kremenčuku v Poltavské oblasti, informovaly podle serveru Kyiv Independent místní úřady."
+          },
+          {
+            "en": "In Kyiv the Russians hit a high-rise building, a number of cars caught fire and two people died, mayor Vitalij Klyčko said.",
+            "cs": "V Kyjevě Rusové zasáhli výškovou budovu, začala hořet i řada aut a zemřeli dva lidé, sdělil starosta Vitalij Klyčko."
+          },
+          {
+            "en": "The Zaporizhzhia region reports two more victims.",
+            "cs": "Další dvě oběti hlásí Záporožská oblast."
+          },
+          {
+            "en": "Russia claims it shot down several drones near St Petersburg.",
+            "cs": "Rusko tvrdí, že sestřelilo několik dronů v okolí Petrohradu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "high-rise",
+            "definition": "a very tall building with many floors"
+          },
+          {
+            "term": "caught fire",
+            "definition": "started to burn"
+          },
+          {
+            "term": "shot down",
+            "definition": "made an aircraft fall by hitting it with a weapon"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:55",
+      "headline": "Pellegrini odmítá jmenovat Kuffu ministrem životního prostředí",
+      "body": "Slovenský prezident Peter Pellegrini žádá premiéra Roberta Fica (Smer), aby přehodnotil návrh na jmenování Filipa Kuffy ministrem životního prostředí. Zdůvodnil to zahájeným trestním stíháním, které se týká resortu a které podle hlavy státu může souviset s Kuffovou nynější funkcí náměstka na ministerstvu. Fico v reakci oznámil, že se v nejbližších dnech sejde se šéfem nejmenší vládní strany SNS Andrejem Dankem; ten podle ČT24 na Kuffovi trvá.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensky-prezident-zada-prehodnoceni-navrhu-na-jmenovani-kuffy-ministrem-378865"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/slovensko-ma-problem-na-ministerstvu-zivotniho-prostredi-pellegrini-zada-o-jine_2610211447_ako"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovensky-prezident-zada-prehodnoceni-navrhu-na-jmenovani-ministra-318432"
+        }
+      ],
+      "en": {
+        "headline": "Pellegrini refuses to appoint Kuffa as environment minister",
+        "sentences": [
+          {
+            "en": "Slovak President Peter Pellegrini is asking Prime Minister Robert Fico (Smer) to reconsider the nomination of Filip Kuffa as environment minister.",
+            "cs": "Slovenský prezident Peter Pellegrini žádá premiéra Roberta Fica (Smer), aby přehodnotil návrh na jmenování Filipa Kuffy ministrem životního prostředí."
+          },
+          {
+            "en": "He gave as his reason a criminal prosecution that has been opened, which concerns the ministry and which, in the head of state's view, may be connected with Kuffa's current post as deputy minister there.",
+            "cs": "Zdůvodnil to zahájeným trestním stíháním, které se týká resortu a které podle hlavy státu může souviset s Kuffovou nynější funkcí náměstka na ministerstvu."
+          },
+          {
+            "en": "Fico responded by announcing that he would meet the leader of the smallest governing party, SNS chairman Andrej Danko, in the coming days; according to ČT24, Danko is sticking with Kuffa.",
+            "cs": "Fico v reakci oznámil, že se v nejbližších dnech sejde se šéfem nejmenší vládní strany SNS Andrejem Dankem; ten podle ČT24 na Kuffovi trvá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reconsider",
+            "definition": "to think about a decision again and possibly change it"
+          },
+          {
+            "term": "prosecution",
+            "definition": "the process of accusing someone of a crime in court"
+          },
+          {
+            "term": "sticking with",
+            "definition": "continuing to support or keep something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:04",
+      "headline": "Maďarsko zadrželo bývalého guvernéra centrální banky Matolcsyho",
+      "body": "Maďarské úřady zadržely bývalého guvernéra tamní centrální banky Györgye Matolcsyho spolu s několika dalšími osobami v souvislosti s vyšetřováním nadací, které banka založila během jeho působení ve funkci. Matolcsy čelí podezření z finančního podvodu a z použití padělaných dokumentů a je podle agentury Telex stejně jako ostatní zadržení ve vazbě. V čele maďarské centrální banky působil do března loňského roku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/madarske-urady-zadrzely-sefa-centralni-banky-z-orbanovy-ery-378860"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-madarske-urady-zadrzely-byvaleho-sefa-centralni-banky-318395"
+        }
+      ],
+      "en": {
+        "headline": "Hungary has detained Matolcsy, the former governor of the central bank",
+        "sentences": [
+          {
+            "en": "Hungarian authorities have detained György Matolcsy, the former governor of the country's central bank, along with several other people in connection with an investigation into foundations that the bank set up during his time in office.",
+            "cs": "Maďarské úřady zadržely bývalého guvernéra tamní centrální banky Györgye Matolcsyho spolu s několika dalšími osobami v souvislosti s vyšetřováním nadací, které banka založila během jeho působení ve funkci."
+          },
+          {
+            "en": "Matolcsy faces suspicion of financial fraud and of using forged documents and, according to the Telex agency, he is in custody along with the others detained.",
+            "cs": "Matolcsy čelí podezření z finančního podvodu a z použití padělaných dokumentů a je podle agentury Telex stejně jako ostatní zadržení ve vazbě."
+          },
+          {
+            "en": "He headed the Hungarian central bank until March last year.",
+            "cs": "V čele maďarské centrální banky působil do března loňského roku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "held by the police and not allowed to leave"
+          },
+          {
+            "term": "forged",
+            "definition": "made as a false copy in order to deceive people"
+          },
+          {
+            "term": "custody",
+            "definition": "the state of being kept in prison before a trial"
+          },
+          {
+            "term": "fraud",
+            "definition": "the crime of getting money by deceiving people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:46",
+      "headline": "Macron se ohradil proti zahraničním komentářům k francouzským nepokojům",
+      "body": "Francouzský prezident Emmanuel Macron kritizoval lídry, kteří podle něho vedou volební kampaň na úkor Francie, konkrétní politiky ale nejmenoval. Podle agentury AFP šlo o jasnou narážku na vyjádření amerického prezidenta Donalda Trumpa a izraelského premiéra Benjamina Netanjahua o násilnostech, které ve Francii propukly v sobotu během demonstrací proti vysokým životním nákladům. Reakce ze zahraničí Macron podle Seznam Zpráv označil za nepřijatelné a hloupé.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2226860/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-macron-se-zlobi-neprijatelne-hloupe-rika-o-reakcich-ze-zahranici-na-nepokoje-318415"
+        }
+      ],
+      "en": {
+        "headline": "Macron has pushed back against foreign comments on the French riots",
+        "sentences": [
+          {
+            "en": "French President Emmanuel Macron criticised leaders who, in his view, are running an election campaign at France's expense, though he did not name any particular politicians.",
+            "cs": "Francouzský prezident Emmanuel Macron kritizoval lídry, kteří podle něho vedou volební kampaň na úkor Francie, konkrétní politiky ale nejmenoval."
+          },
+          {
+            "en": "According to the AFP agency this was a clear allusion to remarks by US President Donald Trump and Israeli Prime Minister Benjamin Netanjahu about the violence that broke out in France on Saturday during demonstrations against the high cost of living.",
+            "cs": "Podle agentury AFP šlo o jasnou narážku na vyjádření amerického prezidenta Donalda Trumpa a izraelského premiéra Benjamina Netanjahua o násilnostech, které ve Francii propukly v sobotu během demonstrací proti vysokým životním nákladům."
+          },
+          {
+            "en": "Macron called the reactions from abroad unacceptable and stupid, according to Seznam Zprávy.",
+            "cs": "Reakce ze zahraničí Macron podle Seznam Zpráv označil za nepřijatelné a hloupé."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pushed back",
+            "definition": "argued against something that others said"
+          },
+          {
+            "term": "allusion",
+            "definition": "an indirect mention of someone or something"
+          },
+          {
+            "term": "broke out",
+            "definition": "started suddenly, used about something bad"
+          },
+          {
+            "term": "cost of living",
+            "definition": "the amount of money people need for food, housing and other basics"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:40",
+      "headline": "PPF zvýšila pololetní čistý zisk o 157 procent na víc než 20 miliard korun",
+      "body": "Skupina PPF Renáty Kellnerové zvýšila v prvním pololetí meziročně čistý zisk o 157 procent na 834 milionů eur, tedy zhruba 20,3 miliardy korun. Provozní výnosy skupiny vzrostly meziročně o 28 procent na 57,1 miliardy korun. K růstu podle E15 přispěly zejména telekomunikace a finanční služby a výrazně si polepšila také strojírenská Škoda Group. Skupina podle E15 pokračuje v proměně portfolia, dokončila investici do InPostu a navázala spolupráci s Live Nation.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/nejvetsi-ceske-skupiny/ppf-renaty-kellnerove-prudce-zvysila-zisk-vydelala-pres-20-miliard-vyrazne-pomohla-i-skoda-group-1436740"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-ppf-v-pololeti-prudce-zvedla-zisk-i-diky-skoda-group-318442"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2227190/"
+        }
+      ],
+      "en": {
+        "headline": "PPF raised its half-year net profit by 157 percent to more than 20 billion crowns",
+        "sentences": [
+          {
+            "en": "The PPF group of Renáta Kellnerová raised its net profit in the first half of the year by 157 percent year on year, to 834 million euros or roughly 20.3 billion crowns.",
+            "cs": "Skupina PPF Renáty Kellnerové zvýšila v prvním pololetí meziročně čistý zisk o 157 procent na 834 milionů eur, tedy zhruba 20,3 miliardy korun."
+          },
+          {
+            "en": "The group's operating revenues rose by 28 percent year on year to 57.1 billion crowns.",
+            "cs": "Provozní výnosy skupiny vzrostly meziročně o 28 procent na 57,1 miliardy korun."
+          },
+          {
+            "en": "According to E15, telecommunications and financial services contributed most to the growth, and the engineering company Škoda Group also improved markedly.",
+            "cs": "K růstu podle E15 přispěly zejména telekomunikace a finanční služby a výrazně si polepšila také strojírenská Škoda Group."
+          },
+          {
+            "en": "E15 says the group is continuing to reshape its portfolio: it completed an investment in InPost and started working with Live Nation.",
+            "cs": "Skupina podle E15 pokračuje v proměně portfolia, dokončila investici do InPostu a navázala spolupráci s Live Nation."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "net profit",
+            "definition": "the money a company keeps after all costs are paid"
+          },
+          {
+            "term": "year on year",
+            "definition": "compared with the same period one year earlier"
+          },
+          {
+            "term": "markedly",
+            "definition": "in a way that is easy to notice"
+          },
+          {
+            "term": "portfolio",
+            "definition": "the set of companies or assets an investor owns"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:41",
+      "headline": "Poptávka po hypotékách klesla poprvé po třech letech",
+      "body": "Poptávka firem po úvěrech ve třetím čtvrtletí rostla a zvýšil se i zájem domácností o spotřební úvěry. Poptávka po hypotékách naopak poprvé po třech letech klesla, vyplývá z pravidelného průzkumu ČNB.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2226791/"
+        }
+      ],
+      "en": {
+        "headline": "Demand for mortgages has fallen for the first time in three years",
+        "sentences": [
+          {
+            "en": "Demand from companies for loans grew in the third quarter and households also showed more interest in consumer loans.",
+            "cs": "Poptávka firem po úvěrech ve třetím čtvrtletí rostla a zvýšil se i zájem domácností o spotřební úvěry."
+          },
+          {
+            "en": "Demand for mortgages, by contrast, fell for the first time in three years, according to a regular survey by the Czech National Bank.",
+            "cs": "Poptávka po hypotékách naopak poprvé po třech letech klesla, vyplývá z pravidelného průzkumu ČNB."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "mortgages",
+            "definition": "loans from a bank used to buy a home"
+          },
+          {
+            "term": "consumer loans",
+            "definition": "money borrowed by people for personal spending"
+          },
+          {
+            "term": "by contrast",
+            "definition": "used to show that something is different"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:53",
+      "headline": "Odložené platby budou spadat pod zákon o spotřebitelském úvěru",
+      "body": "Odložené platby, známé jako BNPL, začnou spadat pod plnohodnotný režim zákona o spotřebitelském úvěru. Novelu schválil Senát a čeká už jen na podpis prezidenta. Poskytovatelé budou muset ověřovat, zda zákazník zvládne nákup splatit bez ohrožení rodinného rozpočtu, a výše odložené platby bude mít strop: zákazník si jejím prostřednictvím nebude moci koupit zboží dražší, než je průměrná mzda.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/finexpert/banky-a-ucty/konec-rychlych-nakupu-na-dluh-odlozene-platby-cekaji-prisna-pravidla-jako-u-beznych-pujcek-1436719"
+        }
+      ],
+      "en": {
+        "headline": "Deferred payments will fall under the consumer credit act",
+        "sentences": [
+          {
+            "en": "Deferred payments, known as BNPL, will come under the full regime of the consumer credit act.",
+            "cs": "Odložené platby, známé jako BNPL, začnou spadat pod plnohodnotný režim zákona o spotřebitelském úvěru."
+          },
+          {
+            "en": "The Senate approved the amendment and it now only awaits the president's signature.",
+            "cs": "Novelu schválil Senát a čeká už jen na podpis prezidenta."
+          },
+          {
+            "en": "Providers will have to check whether a customer can repay the purchase without putting the family budget at risk, and the deferred amount will be capped: a customer will not be able to use it to buy goods costing more than the average wage.",
+            "cs": "Poskytovatelé budou muset ověřovat, zda zákazník zvládne nákup splatit bez ohrožení rodinného rozpočtu, a výše odložené platby bude mít strop: zákazník si jejím prostřednictvím nebude moci koupit zboží dražší, než je průměrná mzda."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deferred",
+            "definition": "delayed until a later time"
+          },
+          {
+            "term": "capped",
+            "definition": "limited to a maximum amount"
+          },
+          {
+            "term": "repay",
+            "definition": "to pay back money that you borrowed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "16:25",
+      "headline": "Kritické chyby v PHP vedly vlády k odstavení webů, oprava už je venku",
+      "body": "Vlády v Evropě i dalších částech světa ve středu z preventivních důvodů pozastavovaly provoz svých webových stránek kvůli nově odhaleným bezpečnostním chybám v programovacím jazyce PHP; podle Seznam Zpráv vypnuly weby například Francie nebo Finsko. Jde o dvě kritické zranitelnosti označené CVE-2026-109618 a CVE-2026-109619, které mohou umožnit vzdálené spuštění kódu na zranitelném serveru a z nichž každá má podle Root.cz hodnocení 9,2 podle CVSS v4.0. Odpoledne vývojáři PHP oznámili, že vydali aktualizaci, která chyby opravuje, a uživatelům důrazně doporučili její okamžitou instalaci.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/vlady-odstavuji-webove-stranky-kvuli-bezpecnostnim-chybam-v-programovacim-jazyku_2610211550_cen"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-vlady-odstavuji-webovy-kvuli-bezpecnostnim-chybam-v-programovacim-jazyku-318436"
+        },
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/clanky/vazne-chyby-v-php-umoznuji-vzdalene-spusteni-kodu-aktualizace-byly-vydany/"
+        }
+      ],
+      "en": {
+        "headline": "Critical flaws in PHP led governments to take websites offline, and the fix is already out",
+        "sentences": [
+          {
+            "en": "Governments in Europe and in other parts of the world took their websites offline on Wednesday as a precaution because of newly revealed security flaws in the PHP programming language; according to Seznam Zprávy, France and Finland were among those that shut their sites down.",
+            "cs": "Vlády v Evropě i dalších částech světa ve středu z preventivních důvodů pozastavovaly provoz svých webových stránek kvůli nově odhaleným bezpečnostním chybám v programovacím jazyce PHP; podle Seznam Zpráv vypnuly weby například Francie nebo Finsko."
+          },
+          {
+            "en": "The two critical vulnerabilities, labelled CVE-2026-109618 and CVE-2026-109619, can allow remote code execution on a vulnerable server, and each of them is rated 9.2 on CVSS v4.0, Root.cz reports.",
+            "cs": "Jde o dvě kritické zranitelnosti označené CVE-2026-109618 a CVE-2026-109619, které mohou umožnit vzdálené spuštění kódu na zranitelném serveru a z nichž každá má podle Root.cz hodnocení 9,2 podle CVSS v4.0."
+          },
+          {
+            "en": "In the afternoon the PHP developers announced that they had released an update that fixes the flaws, and strongly advised users to install it immediately.",
+            "cs": "Odpoledne vývojáři PHP oznámili, že vydali aktualizaci, která chyby opravuje, a uživatelům důrazně doporučili její okamžitou instalaci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "as a precaution",
+            "definition": "as a step taken to avoid possible danger"
+          },
+          {
+            "term": "flaws",
+            "definition": "faults or weak points in something"
+          },
+          {
+            "term": "vulnerabilities",
+            "definition": "weak points that an attacker can use"
+          },
+          {
+            "term": "remote code execution",
+            "definition": "running your own commands on a computer from somewhere else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:33",
+      "headline": "Anthropic vykázal za pololetí vysokou ztrátu a v prospektu varuje před riziky AI",
+      "body": "Firma Anthropic, která stojí za chatbotem Claude, vykázala podle E15 za pololetí vysokou ztrátu, zároveň jí ale výrazně vzrostly tržby. Návrh jejího prospektu se podle serveru podrobně věnuje rizikům spojeným s umělou inteligencí včetně pudu sebezáchovy.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/anthropic-vykazal-za-pololeti-ztratu-1-7-bilionu-varuje-pred-pudem-sebezachovy-ai-1436718"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic posted a large half-year loss and warns about the risks of AI in its prospectus",
+        "sentences": [
+          {
+            "en": "Anthropic, the company behind the chatbot Claude, posted a large loss for the half year, according to E15, while its revenues also grew sharply.",
+            "cs": "Firma Anthropic, která stojí za chatbotem Claude, vykázala podle E15 za pololetí vysokou ztrátu, zároveň jí ale výrazně vzrostly tržby."
+          },
+          {
+            "en": "The server says the draft of its prospectus deals in detail with the risks linked to artificial intelligence, including a drive for self-preservation.",
+            "cs": "Návrh jejího prospektu se podle serveru podrobně věnuje rizikům spojeným s umělou inteligencí včetně pudu sebezáchovy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "posted",
+            "definition": "reported a financial result such as a profit or a loss"
+          },
+          {
+            "term": "prospectus",
+            "definition": "an official document that describes a company to investors"
+          },
+          {
+            "term": "self-preservation",
+            "definition": "the wish to keep yourself alive or safe"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:48",
+      "day": "prev",
+      "headline": "Linux Foundation odhaduje, že čtvrtina nových pull requestů do jádra je nekvalitní AI slop",
+      "body": "Linux Foundation podle Root.cz odhaduje, že čtvrtina nových pull requestů do linuxového jádra je nekvalitní obsah generovaný umělou inteligencí. Přetlak takových patchů dlouhodobě přetěžuje správce jednotlivých částí projektu.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/linux-foundation-odhaduje-ze-ctvrtina-novych-pull-requestu-je-nekvalitni-ai-slop/"
+        }
+      ],
+      "en": {
+        "headline": "The Linux Foundation estimates that a quarter of new pull requests to the kernel are low-quality AI slop",
+        "sentences": [
+          {
+            "en": "The Linux Foundation estimates that a quarter of new pull requests to the Linux kernel are low-quality content generated by artificial intelligence, Root.cz reports.",
+            "cs": "Linux Foundation podle Root.cz odhaduje, že čtvrtina nových pull requestů do linuxového jádra je nekvalitní obsah generovaný umělou inteligencí."
+          },
+          {
+            "en": "The flood of such patches has long been overloading the maintainers of individual parts of the project.",
+            "cs": "Přetlak takových patchů dlouhodobě přetěžuje správce jednotlivých částí projektu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "kernel",
+            "definition": "the core part of an operating system"
+          },
+          {
+            "term": "patches",
+            "definition": "small pieces of code that fix or change software"
+          },
+          {
+            "term": "maintainers",
+            "definition": "people who look after and update a software project"
+          },
+          {
+            "term": "flood",
+            "definition": "a very large number of things arriving at once"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:50",
+      "headline": "Česká televize dala v pořadu o covidu prostor lidem z dezinformační scény",
+      "body": "Česká televize v úterý odvysílala pořad o covidu, v němž v roli autorit vystupují lidé z dezinformační scény: vznik pandemie komentují například poslanec SPD Jindřich Rajchl nebo bioložka Soňa Peková. Vedoucí pořadu díl podle Deníku N hájí, z České televize ale zaznívá i kritika.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2226978/rajchl-jako-odbornik-na-covid-ct-odvysilala-porad-s-dezinformatory/"
+        }
+      ],
+      "en": {
+        "headline": "Czech Television gave space to people from the disinformation scene in a programme about covid",
+        "sentences": [
+          {
+            "en": "On Tuesday Czech Television broadcast a programme about covid in which people from the disinformation scene appear as authorities: the origin of the pandemic is discussed by, for example, SPD MP Jindřich Rajchl and the biologist Soňa Peková.",
+            "cs": "Česká televize v úterý odvysílala pořad o covidu, v němž v roli autorit vystupují lidé z dezinformační scény: vznik pandemie komentují například poslanec SPD Jindřich Rajchl nebo bioložka Soňa Peková."
+          },
+          {
+            "en": "The programme's editor defends the episode, according to Deník N, but criticism is also being heard inside Czech Television.",
+            "cs": "Vedoucí pořadu díl podle Deníku N hájí, z České televize ale zaznívá i kritika."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "broadcast",
+            "definition": "sent out a programme on television or radio"
+          },
+          {
+            "term": "disinformation",
+            "definition": "false information spread on purpose"
+          },
+          {
+            "term": "authorities",
+            "definition": "people whose knowledge of a subject is trusted"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "14:13",
+      "headline": "Voxpot v podcastu sleduje příběh ruských žoldáků v Africe",
+      "body": "Druhý díl podcastové série Rusko v Africe se věnuje ruským žoldákům na kontinentu. Nejprve plnila zadání Kremlu nechvalně známá Wagner Group, teď jde o ozbrojence Africa Corps; podle Voxpotu je doprovází násilí, nestabilita a koloniální vzorce chování.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/putinova-armada-v-africe-pribeh-wagner-group/"
+        }
+      ],
+      "en": {
+        "headline": "A Voxpot podcast follows the story of Russian mercenaries in Africa",
+        "sentences": [
+          {
+            "en": "The second episode of the podcast series Rusko v Africe looks at Russian mercenaries on the continent.",
+            "cs": "Druhý díl podcastové série Rusko v Africe se věnuje ruským žoldákům na kontinentu."
+          },
+          {
+            "en": "The Kremlin's orders were first carried out by the notorious Wagner Group, now it is the fighters of Africa Corps; according to Voxpot, violence, instability and colonial patterns of behaviour follow them.",
+            "cs": "Nejprve plnila zadání Kremlu nechvalně známá Wagner Group, teď jde o ozbrojence Africa Corps; podle Voxpotu je doprovází násilí, nestabilita a koloniální vzorce chování."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "mercenaries",
+            "definition": "soldiers who fight for money rather than for their own country"
+          },
+          {
+            "term": "carried out",
+            "definition": "did something that was ordered or planned"
+          },
+          {
+            "term": "notorious",
+            "definition": "well known for something bad"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:13",
+      "day": "prev",
+      "headline": "Slavia remizovala v Istanbulu 2:2, Kačor vyrovnal v 90. minutě",
+      "body": "Fotbalisté Slavie ve třetím kole Ligy mistrů remizovali na hřišti Fenerbahce 2:2, přestože domácí vedli po jedenácti minutách 2:0; snížil Lukáš Provod a v samém závěru vyrovnal střídající Pavel Kačor. V čele tabulky zůstává PSG, které doma zdolalo Barcelonu 4:2, Liverpool uspěl v přestřelce s Villarrealem 4:3 a AS Řím deklasoval Slovan Bratislava 4:0.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-se-oklepala-z-mizerneho-uvodu-a-obrala-fenerbahce-o-bod-159535"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/psg-prehral-barcelonu-a-dal-vitezi-liverpool-se-nadrel-s-villarrealem-a-slovan-schytal-debakl-159537"
+        }
+      ],
+      "en": {
+        "headline": "Slavia drew 2:2 in Istanbul, with Kačor equalising in the 90th minute",
+        "sentences": [
+          {
+            "en": "In the third round of the Champions League, Slavia's footballers drew 2:2 away at Fenerbahce even though the hosts led 2:0 after eleven minutes; Lukáš Provod pulled one back and substitute Pavel Kačor equalised right at the end.",
+            "cs": "Fotbalisté Slavie ve třetím kole Ligy mistrů remizovali na hřišti Fenerbahce 2:2, přestože domácí vedli po jedenácti minutách 2:0; snížil Lukáš Provod a v samém závěru vyrovnal střídající Pavel Kačor."
+          },
+          {
+            "en": "PSG stay top of the table after beating Barcelona 4:2 at home, Liverpool came through a shoot-out with Villarreal 4:3 and AS Roma thrashed Slovan Bratislava 4:0.",
+            "cs": "V čele tabulky zůstává PSG, které doma zdolalo Barcelonu 4:2, Liverpool uspěl v přestřelce s Villarrealem 4:3 a AS Řím deklasoval Slovan Bratislava 4:0."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pulled one back",
+            "definition": "scored a goal that reduced the opponents' lead"
+          },
+          {
+            "term": "substitute",
+            "definition": "a player who comes on to replace another during a match"
+          },
+          {
+            "term": "thrashed",
+            "definition": "beat an opponent very easily"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:59",
+      "headline": "Slavia vyřadila Chorého z kádru do konce podzimu a v zimě mu umožní přestup",
+      "body": "Fotbalová Slavia potrestala útočníka Tomáše Chorého za vyloučení v sobotním ligovém utkání s Hradcem Králové. Jednatřicetiletý reprezentant je do konce podzimní části mimo kádr A-týmu a dostal pokutu ve výši jednoho měsíčního platu, v zimě mu klub umožní přestup jinam.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-slavia-potrestala-choreho-5559779"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/slavia-vyradila-choreho-do-konce-podzimu-z-kadru-musi-zaplatit-pokutu-a-klub-mu_2610211341_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-vyradila-choreho-z-kadru-a-umozni-mu-prestup-159545"
+        }
+      ],
+      "en": {
+        "headline": "Slavia has dropped Chorý from the squad until the end of the autumn and will let him transfer in winter",
+        "sentences": [
+          {
+            "en": "The football club Slavia has punished striker Tomáš Chorý for his sending-off in Saturday's league match against Hradec Králové.",
+            "cs": "Fotbalová Slavia potrestala útočníka Tomáše Chorého za vyloučení v sobotním ligovém utkání s Hradcem Králové."
+          },
+          {
+            "en": "The 31-year-old international is out of the first-team squad until the end of the autumn part of the season and has been fined one month's salary; in winter the club will let him transfer elsewhere.",
+            "cs": "Jednatřicetiletý reprezentant je do konce podzimní části mimo kádr A-týmu a dostal pokutu ve výši jednoho měsíčního platu, v zimě mu klub umožní přestup jinam."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sending-off",
+            "definition": "being ordered off the field by the referee"
+          },
+          {
+            "term": "squad",
+            "definition": "the group of players a team can pick from"
+          },
+          {
+            "term": "fined",
+            "definition": "made to pay money as a punishment"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:35",
+      "headline": "Muchová si jako druhá Češka zajistila účast na Turnaji mistryň",
+      "body": "Karolína Muchová bude mít stejně jako Linda Nosková jistou účast na tenisovém Turnaji mistryň. Rozhodla o tom středeční skreč Ukrajinky Marty Kosťukové ve druhém kole turnaje v Ning-po proti Rusce Jekatěrině Alexandrovové za stavu 4:6. Třicetiletá Muchová tak zkompletovala osmičku singlistek pro závěrečný podnik v Indian Wells.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-hotovo-muchova-ma-jistou-ucast-na-turnaji-mistryn-5559796"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/muchova-si-zahraje-na-turnaji-mistryn-k-ucasti-ji-pomohla-skrec-ukrajinky_2610211635_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/karolina-muchova-nebude-chybet-na-turnaji-mistryn-159549"
+        }
+      ],
+      "en": {
+        "headline": "Muchová has become the second Czech to secure a place at the WTA Finals",
+        "sentences": [
+          {
+            "en": "Karolína Muchová, like Linda Nosková, has secured a place at the tennis WTA Finals.",
+            "cs": "Karolína Muchová bude mít stejně jako Linda Nosková jistou účast na tenisovém Turnaji mistryň."
+          },
+          {
+            "en": "It was decided by the Wednesday retirement of Ukraine's Marta Kosťuková in the second round in Ningbo against Russia's Jekatěrina Alexandrovová at 4:6.",
+            "cs": "Rozhodla o tom středeční skreč Ukrajinky Marty Kosťukové ve druhém kole turnaje v Ning-po proti Rusce Jekatěrině Alexandrovové za stavu 4:6."
+          },
+          {
+            "en": "The 30-year-old Muchová thus completed the field of eight singles players for the season-ending event in Indian Wells.",
+            "cs": "Třicetiletá Muchová tak zkompletovala osmičku singlistek pro závěrečný podnik v Indian Wells."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "secured",
+            "definition": "made certain to get something"
+          },
+          {
+            "term": "retirement",
+            "definition": "when a player stops a match because of injury or illness"
+          },
+          {
+            "term": "singles",
+            "definition": "matches played by one player against one other"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:44",
+      "headline": "Satoranský ukončí reprezentační kariéru 29. listopadu proti Belgii",
+      "body": "Basketbalista Tomáš Satoranský uzavře reprezentační kariéru v neděli 29. listopadu v Praze na Královce, kde národní tým nastoupí proti Belgii v předkvalifikaci mistrovství Evropy. Čtyřiatřicetiletý rozehrávač nastupoval v národním týmu osmnáct let.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/basketbal/satoransky-uzavre-v-zapase-proti-belgii-reprezentacni-karieru-159544"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/basketbal-reprezentacni-sbohem-satoransky-naposledy-pomuze-narodnimu-tymu-5559760"
+        }
+      ],
+      "en": {
+        "headline": "Satoranský will end his international career on 29 November against Belgium",
+        "sentences": [
+          {
+            "en": "The basketball player Tomáš Satoranský will end his international career on Sunday 29 November in Prague at Královka, where the national team meets Belgium in the pre-qualifying round for the European Championship.",
+            "cs": "Basketbalista Tomáš Satoranský uzavře reprezentační kariéru v neděli 29. listopadu v Praze na Královce, kde národní tým nastoupí proti Belgii v předkvalifikaci mistrovství Evropy."
+          },
+          {
+            "en": "The 34-year-old point guard played for the national team for eighteen years.",
+            "cs": "Čtyřiatřicetiletý rozehrávač nastupoval v národním týmu osmnáct let."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "point guard",
+            "definition": "the player who directs a basketball team's attack"
+          },
+          {
+            "term": "pre-qualifying",
+            "definition": "played at a stage before the main qualifying round"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:11",
+      "headline": "Maňasová po operaci oka vynechá halovou sezonu",
+      "body": "Sprinterka Karolína Maňasová musela podstoupit operaci oka a vynechá úvod příštího roku i s halovou atletickou sezonou. Česká rekordmanka na šedesátce i stovce tak přijde o halové mistrovství Evropy ve Valencii.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/atletika/karolinu-manasovou-zastavily-problemy-se-zrakem-vynecha-halovou-sezonu-159547"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/atletika-komplikace-pro-nejrychlejsi-cesku-historie-musela-na-operaci-ceka-ji-pauza-5559787"
+        }
+      ],
+      "en": {
+        "headline": "Maňasová will miss the indoor season after eye surgery",
+        "sentences": [
+          {
+            "en": "Sprinter Karolína Maňasová had to undergo eye surgery and will miss the start of next year along with the indoor athletics season.",
+            "cs": "Sprinterka Karolína Maňasová musela podstoupit operaci oka a vynechá úvod příštího roku i s halovou atletickou sezonou."
+          },
+          {
+            "en": "The Czech record holder in the 60 and the 100 metres will therefore miss the European Indoor Championships in Valencia.",
+            "cs": "Česká rekordmanka na šedesátce i stovce tak přijde o halové mistrovství Evropy ve Valencii."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "undergo",
+            "definition": "to experience something such as a medical operation"
+          },
+          {
+            "term": "record holder",
+            "definition": "the person who has the best result ever achieved"
+          },
+          {
+            "term": "indoor",
+            "definition": "happening inside a building"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:37",
+      "headline": "Hradec Králové prodloužil smlouvu s brankářem Zadražilem do roku 2031",
+      "body": "Fotbalový Hradec Králové prodloužil smlouvu s brankářem Adamem Zadražilem. Týmová jednička podepsala kontrakt do léta roku 2031.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-hradec-kralove-prodlouzil-smlouvu-s-brankarem-zadrazilem-do-roku-2031-5559795"
+        }
+      ],
+      "en": {
+        "headline": "Hradec Králové has extended goalkeeper Zadražil's contract until 2031",
+        "sentences": [
+          {
+            "en": "The football club Hradec Králové has extended the contract of goalkeeper Adam Zadražil.",
+            "cs": "Fotbalový Hradec Králové prodloužil smlouvu s brankářem Adamem Zadražilem."
+          },
+          {
+            "en": "The team's first-choice keeper has signed a deal until the summer of 2031.",
+            "cs": "Týmová jednička podepsala kontrakt do léta roku 2031."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "extended",
+            "definition": "made something last for a longer time"
+          },
+          {
+            "term": "first-choice",
+            "definition": "preferred above the others in a team"
+          },
+          {
+            "term": "keeper",
+            "definition": "a short word for the goalkeeper"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Steve Witkoff spent three hours in talks with Vladimir Putin in St Petersburg, and according to the Kremlin, Moscow is willing to resume trilateral talks with Ukraine and the United States next month.",
+    "The Chamber of Deputies began debating a budget with a deficit of 386 billion crowns, and Andrej Babiš promised in the debate to negotiate with the banks about mortgage rates.",
+    "Critical flaws in PHP led governments around the world to take their websites offline as a precaution, and the developers released a fix in the afternoon.",
+    "Jan Kříž, the rector of the University of Hradec Králové, has died after a long illness at the age of 51."
+  ]
+}
