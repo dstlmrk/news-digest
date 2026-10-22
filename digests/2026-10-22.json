@@ -1,0 +1,1402 @@
+{
+  "date": "2026-10-22",
+  "covers": "2026-10-22",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra mlhavo a prakticky beze srážek, přes den až 14 °C. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-10-23",
+        "icon": "fog",
+        "temp_max_c": 14.0,
+        "temp_min_c": 3.4
+      },
+      {
+        "date": "2026-10-24",
+        "icon": "rain",
+        "temp_max_c": 11.8,
+        "temp_min_c": 5.3
+      },
+      {
+        "date": "2026-10-25",
+        "icon": "rain",
+        "temp_max_c": 10.3,
+        "temp_min_c": 4.5
+      },
+      {
+        "date": "2026-10-26",
+        "icon": "cloudy",
+        "temp_max_c": 12.2,
+        "temp_min_c": 5.8
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy and virtually dry, reaching up to 14 °C during the day. Air quality should be acceptable."
+  },
+  "highlights": [
+    "Sněmovna po patnácti hodinách přerušila debatu o rozpočtu. Atmosféru předtím rozbouřilo pokřikování poslance Ševčíka na šéfku klubu STAN, kvůli kterému se Starostové obracejí na mandátový výbor.",
+    "Ruský noční úder balistickými raketami na Kyjev si vyžádal jednoho mrtvého a 24 zraněných, zasaženo bylo i historické centrum města.",
+    "Kritické chyby v PHP mají první potvrzenou oběť v Česku: kybernetický útok musela odrážet ČVUT a preventivně odstavila část svých systémů.",
+    "Soudní dvůr EU rozhodl, že Česko porušuje unijní právo, když umožňuje výslech podezřelých bez přítomnosti obhájce."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:53",
+      "headline": "STAN se kvůli Ševčíkovu pokřikování obrátí na mandátový výbor, Babiš ho marně vedl k omluvě",
+      "body": "Jednání Sněmovny o státním rozpočtu se ve středu večer zvrhlo do osobních urážek a hádek. Poslanec Miroslav Ševčík (za SPD) podle předsedy STAN Víta Rakušana hrubě pokřikoval na šéfku poslaneckého klubu STAN Michaelu Šebelovou a vykřikl přitom slovo „menopauza“. Když Rakušan s kolegy žádali i prostřednictvím předsedy sněmovny Tomia Okamury (SPD) o omluvu, dočkali se podle něj řevu a urážek. Ševčík napsal, že vykřiknuté slovo Šebelové určené nebylo, a uvedl, že do něj naopak poslankyně strkala a osahávala ho; podle Okamury se situace odehrála jinak, než popisuje Rakušan. Starostové se kvůli chování obou poslanců obrátí na sněmovní mandátový a imunitní výbor. Premiér Andrej Babiš (ANO) se dnes snažil Ševčíka k omluvě donutit a přivedl ho během interpelací k řečnickému pultu, místopředseda sněmovny Jan Skopeček (ODS) ji ale neumožnil, protože při ústních interpelacích může odpovídat pouze premiér.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/stan-se-obrati-na-vybor-kvuli-chovani-sevcika-a-okamury-vuci-sebelove-378899"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2228011/nocni-hadka-a-vyhruzky-ve-snemovne-menopauzu-kricel-sevcik-na-poslankyni/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228864/"
+        }
+      ],
+      "en": {
+        "headline": "STAN will take Ševčík's shouting to the mandate committee, and Babiš led him to an apology in vain",
+        "sentences": [
+          {
+            "en": "On Wednesday evening the Chamber of Deputies' debate on the state budget degenerated into personal insults and quarrels.",
+            "cs": "Jednání Sněmovny o státním rozpočtu se ve středu večer zvrhlo do osobních urážek a hádek."
+          },
+          {
+            "en": "According to STAN leader Vít Rakušan, MP Miroslav Ševčík (for SPD) shouted crudely at Michaela Šebelová, the head of the STAN caucus, yelling the word “menopause” at her.",
+            "cs": "Poslanec Miroslav Ševčík (za SPD) podle předsedy STAN Víta Rakušana hrubě pokřikoval na šéfku poslaneckého klubu STAN Michaelu Šebelovou a vykřikl přitom slovo „menopauza“."
+          },
+          {
+            "en": "When Rakušan and his colleagues asked for an apology, including through the speaker of the chamber Tomio Okamura (SPD), what they got, he says, was yelling and insults.",
+            "cs": "Když Rakušan s kolegy žádali i prostřednictvím předsedy sněmovny Tomia Okamury (SPD) o omluvu, dočkali se podle něj řevu a urážek."
+          },
+          {
+            "en": "Ševčík wrote that the word he shouted was not aimed at Šebelová and said that it was the MP who had shoved him and groped him; according to Okamura, the situation unfolded differently from Rakušan's account.",
+            "cs": "Ševčík napsal, že vykřiknuté slovo Šebelové určené nebylo, a uvedl, že do něj naopak poslankyně strkala a osahávala ho; podle Okamury se situace odehrála jinak, než popisuje Rakušan."
+          },
+          {
+            "en": "Because of the conduct of both MPs, the Mayors will turn to the chamber's mandate and immunity committee.",
+            "cs": "Starostové se kvůli chování obou poslanců obrátí na sněmovní mandátový a imunitní výbor."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) tried today to force Ševčík into an apology and brought him to the speaking lectern during interpellations, but deputy speaker Jan Skopeček (ODS) did not allow it, because during oral interpellations only the prime minister may respond.",
+            "cs": "Premiér Andrej Babiš (ANO) se dnes snažil Ševčíka k omluvě donutit a přivedl ho během interpelací k řečnickému pultu, místopředseda sněmovny Jan Skopeček (ODS) ji ale neumožnil, protože při ústních interpelacích může odpovídat pouze premiér."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "degenerated",
+            "definition": "became much worse than before"
+          },
+          {
+            "term": "caucus",
+            "definition": "a group of politicians from the same party who work together"
+          },
+          {
+            "term": "groped",
+            "definition": "touched someone sexually when they did not want it"
+          },
+          {
+            "term": "interpellations",
+            "definition": "formal questions that MPs put to ministers in parliament"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:33",
+      "headline": "Sněmovna přerušila po patnácti hodinách debatu o rozpočtu se schodkem 386 miliard",
+      "body": "Sněmovna zhruba po patnácti hodinách přerušila úvodní debatu o návrhu státního rozpočtu na příští rok a vrátit se k ní měla večer po pravidelných ústních interpelacích. Vláda navrhla rozpočet s deficitem 386 miliard korun, což opozice kritizuje; podle ČT24 se výše schodku nelíbí ani části koaličních představitelů, kteří na příští roky slibují jeho snižování v řádu desítek miliard.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228561/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-by-meli-pokracovat-v-debate-o-statnim-rozpoctu-na-pristi-rok-378892"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies adjourned the debate on the 386-billion-deficit budget after fifteen hours",
+        "sentences": [
+          {
+            "en": "After roughly fifteen hours, the Chamber of Deputies adjourned its opening debate on next year's draft state budget, and was due to return to it in the evening after the regular oral interpellations.",
+            "cs": "Sněmovna zhruba po patnácti hodinách přerušila úvodní debatu o návrhu státního rozpočtu na příští rok a vrátit se k ní měla večer po pravidelných ústních interpelacích."
+          },
+          {
+            "en": "The government has proposed a budget with a deficit of 386 billion crowns, which the opposition criticises; according to ČT24, the size of the shortfall does not sit well even with part of the coalition leadership, who are promising to cut it by tens of billions in the coming years.",
+            "cs": "Vláda navrhla rozpočet s deficitem 386 miliard korun, což opozice kritizuje; podle ČT24 se výše schodku nelíbí ani části koaličních představitelů, kteří na příští roky slibují jeho snižování v řádu desítek miliard."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "adjourned",
+            "definition": "stopped a meeting for a while, to continue later"
+          },
+          {
+            "term": "shortfall",
+            "definition": "the amount by which money is less than what is needed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "17:09",
+      "headline": "Babiš slíbil zpřesnění paragrafu o činnosti pro cizí moc, chce i vládní radu pro umělou inteligenci",
+      "body": "Ministerstvo spravedlnosti předloží příští měsíc návrh na zpřesnění sporného ustanovení trestního zákoníku o neoprávněné činnosti pro cizí moc. Při dnešních sněmovních interpelacích to řekl premiér Andrej Babiš (ANO) v reakci na dotaz předsedy STAN a bývalého ministra vnitra Víta Rakušana, zda koalice hodlá trestný čin zrušit. Zrušení paragrafu podle Babiše navrhuje jedna z koaličních stran. Premiér ve Sněmovně také oznámil, že chce iniciovat vznik nové vládní rady, která by měla na starosti záležitosti týkající se umělé inteligence.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228897/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228822/"
+        }
+      ],
+      "en": {
+        "headline": "Babiš promised to tighten the wording of the clause on activity for a foreign power, and wants a government AI council too",
+        "sentences": [
+          {
+            "en": "Next month the Ministry of Justice will put forward a proposal to tighten the wording of the disputed provision of the criminal code on unauthorised activity for a foreign power.",
+            "cs": "Ministerstvo spravedlnosti předloží příští měsíc návrh na zpřesnění sporného ustanovení trestního zákoníku o neoprávněné činnosti pro cizí moc."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) said so during today's parliamentary interpellations, replying to a question from STAN leader and former interior minister Vít Rakušan about whether the coalition intends to scrap the offence.",
+            "cs": "Při dnešních sněmovních interpelacích to řekl premiér Andrej Babiš (ANO) v reakci na dotaz předsedy STAN a bývalého ministra vnitra Víta Rakušana, zda koalice hodlá trestný čin zrušit."
+          },
+          {
+            "en": "According to Babiš, it is one of the coalition parties that is proposing to repeal the clause.",
+            "cs": "Zrušení paragrafu podle Babiše navrhuje jedna z koaličních stran."
+          },
+          {
+            "en": "The prime minister also announced in the chamber that he wants to initiate a new government council that would handle matters relating to artificial intelligence.",
+            "cs": "Premiér ve Sněmovně také oznámil, že chce iniciovat vznik nové vládní rady, která by měla na starosti záležitosti týkající se umělé inteligence."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "provision",
+            "definition": "a part of a law that deals with one particular point"
+          },
+          {
+            "term": "scrap",
+            "definition": "to get rid of something, such as a rule or a plan"
+          },
+          {
+            "term": "repeal",
+            "definition": "to officially end a law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:12",
+      "headline": "Soudní dvůr EU rozhodl, že Česko porušuje unijní právo výslechy podezřelých bez obhájce",
+      "body": "Česká republika porušuje právo Evropské unie tím, že umožňuje vyslýchat podezřelé z trestných činů bez přítomnosti obhájce, pokud se advokát nedostaví do 48 hodin od zadržení. Rozhodl o tom Soudní dvůr Evropské unie, který vyhověl žalobě Evropské komise; obdobné pochybení vytkl také Maďarsku. České ministerstvo zahraničí sdělilo, že se s verdiktem seznamuje a že z něj Česko vyvodí odpovídající závěry, a zdůraznilo, že s rozsudkem není spojeno uložení žádných sankcí.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cesko-porusilo-pravo-eu-tim-ze-umoznuje-vyslech-podezrelych-bez-obhajce-378904"
+        }
+      ],
+      "en": {
+        "headline": "The Court of Justice of the EU ruled that Czechia breaches EU law by questioning suspects without a defence lawyer",
+        "sentences": [
+          {
+            "en": "The Czech Republic is breaching European Union law by allowing people suspected of criminal offences to be questioned without a defence lawyer present if the lawyer does not turn up within 48 hours of the arrest.",
+            "cs": "Česká republika porušuje právo Evropské unie tím, že umožňuje vyslýchat podezřelé z trestných činů bez přítomnosti obhájce, pokud se advokát nedostaví do 48 hodin od zadržení."
+          },
+          {
+            "en": "That was the ruling of the Court of Justice of the European Union, which upheld a complaint brought by the European Commission; it found a similar failing in Hungary as well.",
+            "cs": "Rozhodl o tom Soudní dvůr Evropské unie, který vyhověl žalobě Evropské komise; obdobné pochybení vytkl také Maďarsku."
+          },
+          {
+            "en": "The Czech Ministry of Foreign Affairs said it is studying the verdict and that Czechia will draw the appropriate conclusions from it, stressing that the ruling carries no penalties.",
+            "cs": "České ministerstvo zahraničí sdělilo, že se s verdiktem seznamuje a že z něj Česko vyvodí odpovídající závěry, a zdůraznilo, že s rozsudkem není spojeno uložení žádných sankcí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "breaching",
+            "definition": "breaking a law, rule or agreement"
+          },
+          {
+            "term": "upheld",
+            "definition": "decided that an earlier decision or claim was right"
+          },
+          {
+            "term": "failing",
+            "definition": "a weakness or fault in the way something is done"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:01",
+      "headline": "STAN a Spolu se dohodli na vedení Prahy, koalici složí i bez třetího partnera",
+      "body": "Starostové a Spolu jsou podle Deníku N připraveni složit pražskou koalici na listopadovém ustavujícím zastupitelstvu, a pokud do té doby nenajdou třetího partnera, jsou ochotni vládnout ve dvou. V radě nechají volná místa pro případného dalšího člena a jednání budou pokračovat, dodávají Seznam Zprávy. Pražský lídr vítězného STAN Petr Hlaváček podle ČT24 oznámil, že vyjednávací tým bude rozpracovávat variantu koalice se Spolu a Prahou sobě, protože Piráti nabídku k účasti odmítli.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2228439/starostove-si-v-praze-placli-se-spolu-v-listopadu-chteji-novou-vladu-i-bez-tretiho/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-pirati-nabidku-odmitli-do-koalice-se-stan-a-spolu-ma-blize-praha-sobe-318478"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/v-hlavnim-meste-asi-vznikne-koalice-stan-spolu-a-prahy-sobe-naznacil-hlavacek-378900"
+        }
+      ],
+      "en": {
+        "headline": "STAN and Spolu have agreed on running Prague and will form a coalition even without a third partner",
+        "sentences": [
+          {
+            "en": "According to Deník N, the Mayors and Spolu are ready to form the Prague coalition at the inaugural council meeting in November, and if they have not found a third partner by then, they are willing to govern as two.",
+            "cs": "Starostové a Spolu jsou podle Deníku N připraveni složit pražskou koalici na listopadovém ustavujícím zastupitelstvu, a pokud do té doby nenajdou třetího partnera, jsou ochotni vládnout ve dvou."
+          },
+          {
+            "en": "They will leave seats on the city council open for a possible further member and the talks will go on, Seznam Zprávy adds.",
+            "cs": "V radě nechají volná místa pro případného dalšího člena a jednání budou pokračovat, dodávají Seznam Zprávy."
+          },
+          {
+            "en": "Petr Hlaváček, who led the winning STAN in Prague, announced according to ČT24 that the negotiating team will work up the option of a coalition with Spolu and Praha sobě, because the Pirates turned down the offer to take part.",
+            "cs": "Pražský lídr vítězného STAN Petr Hlaváček podle ČT24 oznámil, že vyjednávací tým bude rozpracovávat variantu koalice se Spolu a Prahou sobě, protože Piráti nabídku k účasti odmítli."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "inaugural",
+            "definition": "happening for the first time, at the start of something"
+          },
+          {
+            "term": "work up",
+            "definition": "to develop an idea into something more detailed"
+          },
+          {
+            "term": "turned down",
+            "definition": "refused an offer or a request"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "05:50",
+      "headline": "Ministerstvo životního prostředí ustoupilo od svých výhrad k výpočtům Tykačovy skupiny",
+      "body": "Ještě před pár měsíci ministerstvo životního prostředí zpochybňovalo výpočty skupiny miliardáře Pavla Tykače, které stanovují množství peněz na obnovu krajiny v severních Čechách. Nedávno však úřad podnikatelovo východisko přijal, píše Deník N. Ve hře jsou podle deníku stovky milionů pro obyvatele Mostecka.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2225353/zpatecka-ve-prospech-tykace-stat-pod-vlivem-motoristu-odpousti-uhlobaronovi-stovky-milionu/"
+        }
+      ],
+      "en": {
+        "headline": "The Environment Ministry has backed away from its objections to the calculations of Tykač's group",
+        "sentences": [
+          {
+            "en": "Only a few months ago the Ministry of the Environment was casting doubt on the calculations of billionaire Pavel Tykač's group that set the amount of money for restoring the landscape in northern Bohemia.",
+            "cs": "Ještě před pár měsíci ministerstvo životního prostředí zpochybňovalo výpočty skupiny miliardáře Pavla Tykače, které stanovují množství peněz na obnovu krajiny v severních Čechách."
+          },
+          {
+            "en": "Recently, however, the authority accepted the businessman's starting figures, Deník N writes.",
+            "cs": "Nedávno však úřad podnikatelovo východisko přijal, píše Deník N."
+          },
+          {
+            "en": "Hundreds of millions for the inhabitants of the Most area are at stake, according to the paper.",
+            "cs": "Ve hře jsou podle deníku stovky milionů pro obyvatele Mostecka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "backed away",
+            "definition": "stopped supporting something you said before"
+          },
+          {
+            "term": "casting doubt",
+            "definition": "making people less sure that something is true"
+          },
+          {
+            "term": "at stake",
+            "definition": "able to be won or lost, depending on what happens"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "17:02",
+      "headline": "Hradec Králové chystá modernizaci varovného systému za 71 milionů",
+      "body": "Hradec Králové připravuje modernizaci systému, kterým obyvatele varuje před velkou vodou, požárem a dalšími mimořádnými událostmi. Podle Hradecké drbny vyjde na 71 milionů korun a odstartovat by měla už příští rok.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/903621-kdyz-se-neco-semele-hradec-spusti-poplach-chysta-novy-system.html"
+        }
+      ],
+      "en": {
+        "headline": "Hradec Králové is preparing a 71-million upgrade of its warning system",
+        "sentences": [
+          {
+            "en": "Hradec Králové is preparing to modernise the system it uses to warn residents of floods, fire and other emergencies.",
+            "cs": "Hradec Králové připravuje modernizaci systému, kterým obyvatele varuje před velkou vodou, požárem a dalšími mimořádnými událostmi."
+          },
+          {
+            "en": "According to Hradecká drbna it will cost 71 million crowns and should get under way as early as next year.",
+            "cs": "Podle Hradecké drbny vyjde na 71 milionů korun a odstartovat by měla už příští rok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "emergencies",
+            "definition": "dangerous situations that need help right away"
+          },
+          {
+            "term": "get under way",
+            "definition": "to start happening"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:23",
+      "headline": "Jídelnu a kuchyni hradecké ZŠ Sever čeká přestavba za 38 milionů",
+      "body": "Základní školu Sever v Hradci Králové čeká rozsáhlá modernizace jídelny a kuchyně za více než 38 milionů korun. Rekonstrukce začne na začátku roku 2027 a zahrne obě podlaží pavilonu stravování. Po dobu prací se budou obědy dovážet a žáci budou jíst v provizorní výdejně přímo ve škole.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/zs-sever-hradec-kralove-rekonstrukce-jidelna-kuchyne/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The canteen and kitchen of the ZŠ Sever school in Hradec face a 38-million rebuild",
+        "sentences": [
+          {
+            "en": "The ZŠ Sever primary school in Hradec Králové faces an extensive modernisation of its canteen and kitchen costing more than 38 million crowns.",
+            "cs": "Základní školu Sever v Hradci Králové čeká rozsáhlá modernizace jídelny a kuchyně za více než 38 milionů korun."
+          },
+          {
+            "en": "The refurbishment will begin at the start of 2027 and will cover both floors of the catering wing.",
+            "cs": "Rekonstrukce začne na začátku roku 2027 a zahrne obě podlaží pavilonu stravování."
+          },
+          {
+            "en": "While the work goes on, lunches will be brought in and pupils will eat at a temporary serving point inside the school.",
+            "cs": "Po dobu prací se budou obědy dovážet a žáci budou jíst v provizorní výdejně přímo ve škole."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "canteen",
+            "definition": "a place in a school or workplace where meals are served"
+          },
+          {
+            "term": "refurbishment",
+            "definition": "the work of repairing and improving a building"
+          },
+          {
+            "term": "catering",
+            "definition": "the job of providing food for a lot of people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:00",
+      "headline": "Škola poslance Doksanského v Hradci po letech odmítání dosáhla na vyšší kapacitu",
+      "body": "Soukromá střední škola Sion High School v Hradci Králové, kterou zřizuje spolek Sion poslance Denise Doksanského (ANO), uspěla po letech odmítání s žádostí o zvýšení kapacity. Krajští úředníci navýšení v minulosti opakovaně zamítali. Podle ministerstva je náhodou, že se tak stalo zrovna v době, kdy Doksanský usedl za Babišovo hnutí ve Sněmovně, píše iDNES.cz.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/sion-high-school-zadost-kapacita-msmt-denis-doksansky.A261021_174211_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "After years of refusals, MP Doksanský's school in Hradec has secured a higher capacity",
+        "sentences": [
+          {
+            "en": "Sion High School, a private secondary school in Hradec Králové run by the Sion association of MP Denis Doksanský (ANO), has succeeded with its application to raise its capacity after years of being turned down.",
+            "cs": "Soukromá střední škola Sion High School v Hradci Králové, kterou zřizuje spolek Sion poslance Denise Doksanského (ANO), uspěla po letech odmítání s žádostí o zvýšení kapacity."
+          },
+          {
+            "en": "Regional officials had repeatedly rejected the increase in the past.",
+            "cs": "Krajští úředníci navýšení v minulosti opakovaně zamítali."
+          },
+          {
+            "en": "According to the ministry it is a coincidence that this happened just as Doksanský took a seat in the Chamber of Deputies for Babiš's movement, iDNES.cz writes.",
+            "cs": "Podle ministerstva je náhodou, že se tak stalo zrovna v době, kdy Doksanský usedl za Babišovo hnutí ve Sněmovně, píše iDNES.cz."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "association",
+            "definition": "an organisation of people who share an aim"
+          },
+          {
+            "term": "coincidence",
+            "definition": "when two things happen at the same time by chance"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:32",
+      "headline": "Ruský noční úder na Kyjev zabil jednoho člověka a zasáhl i historické centrum",
+      "body": "Rusko během noci na dnešek zaútočilo na Kyjev balistickými raketami. Jeden člověk zemřel a dalších 24 utrpělo zranění, uvedli podle ČT24 záchranáři; poškozeny byly rodinné domy a čerpací stanice a starosta Vitalij Klyčko dodal, že je poničena část infrastruktury metra na Jižním mostě přes Dněpr. Ukrajinský prezident Volodymyr Zelenskyj sdělil, že Rusové použili mimo jiné tři balistické rakety s kazetovými hlavicemi, které jsou navrženy tak, aby způsobily maximální počet obětí v hustě osídlených oblastech. Jedna z nich podle něj zasáhla historické centrum města a poškodila klášterní budovy, obytné domy, obchody i kavárny. Při ruském útoku na trh ve městě Lozova na východě Ukrajiny byli podle šéfa regionální vojenské správy Oleha Syněhubova zabiti dva lidé a 34 dalších se zranilo.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-zautocilo-na-kyjev-balistickymi-raketami-urady-hlasi-zranene-378889"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228744/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228694/"
+        }
+      ],
+      "en": {
+        "headline": "A Russian overnight strike on Kyiv killed one person and hit the historic centre as well",
+        "sentences": [
+          {
+            "en": "Russia attacked Kyiv with ballistic missiles overnight.",
+            "cs": "Rusko během noci na dnešek zaútočilo na Kyjev balistickými raketami."
+          },
+          {
+            "en": "One person died and 24 others were injured, rescuers said according to ČT24; family houses and a petrol station were damaged, and mayor Vitalij Klyčko added that part of the metro infrastructure on the Southern Bridge over the Dnieper has been wrecked.",
+            "cs": "Jeden člověk zemřel a dalších 24 utrpělo zranění, uvedli podle ČT24 záchranáři; poškozeny byly rodinné domy a čerpací stanice a starosta Vitalij Klyčko dodal, že je poničena část infrastruktury metra na Jižním mostě přes Dněpr."
+          },
+          {
+            "en": "Ukrainian president Volodymyr Zelenskyj said the Russians used, among other things, three ballistic missiles with cluster warheads, which are designed to cause the maximum number of casualties in densely populated areas.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj sdělil, že Rusové použili mimo jiné tři balistické rakety s kazetovými hlavicemi, které jsou navrženy tak, aby způsobily maximální počet obětí v hustě osídlených oblastech."
+          },
+          {
+            "en": "One of them, he said, hit the historic centre of the city and damaged monastery buildings, blocks of flats, shops and cafés.",
+            "cs": "Jedna z nich podle něj zasáhla historické centrum města a poškodila klášterní budovy, obytné domy, obchody i kavárny."
+          },
+          {
+            "en": "In a Russian attack on a market in the eastern Ukrainian town of Lozova, two people were killed and 34 others injured, according to the head of the regional military administration Oleh Syněhubov.",
+            "cs": "Při ruském útoku na trh ve městě Lozova na východě Ukrajiny byli podle šéfa regionální vojenské správy Oleha Syněhubova zabiti dva lidé a 34 dalších se zranilo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wrecked",
+            "definition": "damaged so badly that it cannot be used"
+          },
+          {
+            "term": "warheads",
+            "definition": "the parts of missiles that explode"
+          },
+          {
+            "term": "casualties",
+            "definition": "people killed or hurt in a war or an accident"
+          },
+          {
+            "term": "densely",
+            "definition": "with a lot of people or things close together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "17:10",
+      "headline": "Ukrajina nařídila povinnou evakuaci rodin s dětmi z Kramatorska a Slovjanska",
+      "body": "Ukrajinské úřady dnes nařídily povinnou evakuaci rodin s dětmi z Kramatorska a Slovjanska. Jde o dvě města, která Ukrajinci stále ovládají v průmyslovém regionu Donbas na východě země.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228923/"
+        }
+      ],
+      "en": {
+        "headline": "Ukraine has ordered the compulsory evacuation of families with children from Kramatorsk and Sloviansk",
+        "sentences": [
+          {
+            "en": "Ukrainian authorities today ordered the compulsory evacuation of families with children from Kramatorsk and Sloviansk.",
+            "cs": "Ukrajinské úřady dnes nařídily povinnou evakuaci rodin s dětmi z Kramatorska a Slovjanska."
+          },
+          {
+            "en": "These are two towns the Ukrainians still control in the industrial Donbas region in the east of the country.",
+            "cs": "Jde o dvě města, která Ukrajinci stále ovládají v průmyslovém regionu Donbas na východě země."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compulsory",
+            "definition": "something you must do because of a rule"
+          },
+          {
+            "term": "evacuation",
+            "definition": "the moving of people away from a dangerous place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:12",
+      "headline": "Ukrajina bude moci nakupovat zbraně přes centralizovanou agenturu NATO",
+      "body": "Severoatlantická aliance umožní Ukrajině nakupovat zbraně, munici a vojenské vybavení prostřednictvím své centralizované agentury, napsal list Financial Times. Kyjev tak podle něj získá obranné prostředky rychleji a levněji. Doposud Aliance řešila pomoc Ukrajině jako dvoustrannou či vícestrannou spolupráci mezi členskými zeměmi a Ukrajinou, připomněl pro Radiožurnál plukovník v záloze Zdeněk Petráš z Univerzity obrany, podle kterého může krok na politické úrovni způsobit problém.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nato-umozni-ukrajine-nakupovat-zbrane-pres-svou-agenturu-pisi-ft-378893"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/pomoc-agentury-nato-ukrajine-muze-na-politicke-urovni-zpusobit-problem-mini_2610221412_aru"
+        }
+      ],
+      "en": {
+        "headline": "Ukraine will be able to buy weapons through NATO's centralised agency",
+        "sentences": [
+          {
+            "en": "The North Atlantic Alliance will let Ukraine buy weapons, ammunition and military equipment through its centralised agency, the Financial Times wrote.",
+            "cs": "Severoatlantická aliance umožní Ukrajině nakupovat zbraně, munici a vojenské vybavení prostřednictvím své centralizované agentury, napsal list Financial Times."
+          },
+          {
+            "en": "This way, the paper says, Kyiv will obtain defence supplies faster and more cheaply.",
+            "cs": "Kyjev tak podle něj získá obranné prostředky rychleji a levněji."
+          },
+          {
+            "en": "Until now the Alliance has handled aid to Ukraine as bilateral or multilateral cooperation between member states and Ukraine, recalled reserve colonel Zdeněk Petráš of the University of Defence for Radiožurnál, who thinks the step may cause a problem at the political level.",
+            "cs": "Doposud Aliance řešila pomoc Ukrajině jako dvoustrannou či vícestrannou spolupráci mezi členskými zeměmi a Ukrajinou, připomněl pro Radiožurnál plukovník v záloze Zdeněk Petráš z Univerzity obrany, podle kterého může krok na politické úrovni způsobit problém."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ammunition",
+            "definition": "bullets and shells that are fired from weapons"
+          },
+          {
+            "term": "bilateral",
+            "definition": "involving two countries or two groups"
+          },
+          {
+            "term": "multilateral",
+            "definition": "involving several countries or groups"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:20",
+      "headline": "Německo zadrželo Ukrajince podezřelého ze špionáže pro Rusko",
+      "body": "Německé úřady zadržely v Braniborsku ukrajinského občana podezřelého ze špionáže pro Rusko. Muž podle vyšetřovatelů shromažďoval mimo jiné vojensky využitelné zpravodajské informace; podle Seznam Zpráv měl minimálně od loňského července sbírat informace o vojenské výrobě a předávat je ruské zpravodajské službě. O zadržení informovaly agentura DPA a deník Bild s odvoláním na spolkové státní zastupitelství v Karlsruhe.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecko-zadrzelo-muze-podezreleho-ze-spionaze-pro-rusko-378914"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-nemecko-zadrzelo-muze-podezreleho-z-vojenske-spionaze-pro-rusko-318507"
+        }
+      ],
+      "en": {
+        "headline": "Germany has detained a Ukrainian suspected of spying for Russia",
+        "sentences": [
+          {
+            "en": "German authorities have detained a Ukrainian citizen in Brandenburg on suspicion of spying for Russia.",
+            "cs": "Německé úřady zadržely v Braniborsku ukrajinského občana podezřelého ze špionáže pro Rusko."
+          },
+          {
+            "en": "According to investigators the man was gathering, among other things, intelligence of military use; according to Seznam Zprávy he had been collecting information on military production since at least July last year and passing it to the Russian intelligence service.",
+            "cs": "Muž podle vyšetřovatelů shromažďoval mimo jiné vojensky využitelné zpravodajské informace; podle Seznam Zpráv měl minimálně od loňského července sbírat informace o vojenské výrobě a předávat je ruské zpravodajské službě."
+          },
+          {
+            "en": "The detention was reported by the DPA agency and the Bild newspaper, citing the federal prosecutor's office in Karlsruhe.",
+            "cs": "O zadržení informovaly agentura DPA a deník Bild s odvoláním na spolkové státní zastupitelství v Karlsruhe."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "kept by the police so that a person cannot leave"
+          },
+          {
+            "term": "intelligence",
+            "definition": "secret information collected about another country"
+          },
+          {
+            "term": "citing",
+            "definition": "naming something as the source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:08",
+      "headline": "Macron označil za původce sobotních nepokojů ultralevici, Francie zakáže „nelegitimní“ protesty",
+      "body": "Francouzský prezident Emmanuel Macron po schůzce zástupců vlády a tajných služeb prohlásil, že za sobotními nepokoji stály rozvratné ultralevicové skupiny, které plánovaly svrhnout republiku. Oznámil také, že Francie v příštích dnech zakáže „nelegitimní“ protesty. Demonstracím organizovaných skupin, jako jsou odbory, mají být podle něj nabídnuty alternativní trasy průvodů, aby byly ochráněny živnosti. Studentské organizace podle Seznam Zpráv uvádějí, že budou i nadále mobilizovat.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/francie-zakaze-nelegitimni-protesty-rekl-macron-378910"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-za-nasilnymi-nepokoji-byly-ultralevicove-skupiny-rekl-macron-318509"
+        }
+      ],
+      "en": {
+        "headline": "Macron blamed the ultra-left for Saturday's riots, and France will ban “illegitimate” protests",
+        "sentences": [
+          {
+            "en": "After a meeting of government and secret service representatives, French president Emmanuel Macron declared that behind Saturday's riots stood subversive ultra-left groups planning to overthrow the republic.",
+            "cs": "Francouzský prezident Emmanuel Macron po schůzce zástupců vlády a tajných služeb prohlásil, že za sobotními nepokoji stály rozvratné ultralevicové skupiny, které plánovaly svrhnout republiku."
+          },
+          {
+            "en": "He also announced that in the coming days France will ban “illegitimate” protests.",
+            "cs": "Oznámil také, že Francie v příštích dnech zakáže „nelegitimní“ protesty."
+          },
+          {
+            "en": "Demonstrations by organised groups such as trade unions are, he said, to be offered alternative routes for their marches so that small businesses are protected.",
+            "cs": "Demonstracím organizovaných skupin, jako jsou odbory, mají být podle něj nabídnuty alternativní trasy průvodů, aby byly ochráněny živnosti."
+          },
+          {
+            "en": "Student organisations say they will go on mobilising, according to Seznam Zprávy.",
+            "cs": "Studentské organizace podle Seznam Zpráv uvádějí, že budou i nadále mobilizovat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "riots",
+            "definition": "violent public disorder by a crowd of people"
+          },
+          {
+            "term": "subversive",
+            "definition": "trying to damage or destroy a government in a secret way"
+          },
+          {
+            "term": "overthrow",
+            "definition": "to remove a government or leader by force"
+          },
+          {
+            "term": "trade unions",
+            "definition": "organisations that defend the rights of workers"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:29",
+      "headline": "Volkswagen chce podle odborů zmrazit mzdy ve Škodě Auto až do roku 2030",
+      "body": "Koncern Volkswagen požaduje podle odborů KOVO zmrazení mezd zaměstnanců Škody Auto do roku 2030. Odbory, podle nichž se požadavek týká i dalších složek odměňování včetně bonusů a prémií, jej odmítají a v případě propouštění hrozí podle E15 zastavením výroby ve všech třech českých závodech. Vedení automobilky zároveň před zaměstnanci poprvé připustilo, že situace je vážná a může do budoucna ohrozit vytížení závodů i zaměstnanost, uvedl odborový čtrnáctideník Škodovácký odborář. Škoda Auto v reakci odkázala na současnou kolektivní dohodu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/odbory-odmitaji-zmrazeni-mezd-ve-skode-auto-firma-odkazala-na-kolektivni-smlouvu-378905"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/skodovka-vydelava-volkswagen-chce-presto-zmrazit-mzdy-odbory-hrozi-zastavenim-vyroby-1436757"
+        }
+      ],
+      "en": {
+        "headline": "Volkswagen wants to freeze wages at Škoda Auto until 2030, unions say",
+        "sentences": [
+          {
+            "en": "According to the KOVO trade unions, the Volkswagen group is demanding a freeze on the wages of Škoda Auto employees until 2030.",
+            "cs": "Koncern Volkswagen požaduje podle odborů KOVO zmrazení mezd zaměstnanců Škody Auto do roku 2030."
+          },
+          {
+            "en": "The unions, who say the demand also covers other parts of pay including bonuses and premiums, reject it and, in the event of lay-offs, threaten to halt production at all three Czech plants, according to E15.",
+            "cs": "Odbory, podle nichž se požadavek týká i dalších složek odměňování včetně bonusů a prémií, jej odmítají a v případě propouštění hrozí podle E15 zastavením výroby ve všech třech českých závodech."
+          },
+          {
+            "en": "At the same time the carmaker's management admitted to employees for the first time that the situation is serious and could in future endanger the plants' workload and jobs, the union fortnightly Škodovácký odborář reported.",
+            "cs": "Vedení automobilky zároveň před zaměstnanci poprvé připustilo, že situace je vážná a může do budoucna ohrozit vytížení závodů i zaměstnanost, uvedl odborový čtrnáctideník Škodovácký odborář."
+          },
+          {
+            "en": "Škoda Auto responded by pointing to the current collective agreement.",
+            "cs": "Škoda Auto v reakci odkázala na současnou kolektivní dohodu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lay-offs",
+            "definition": "when a company ends people's jobs because of its situation"
+          },
+          {
+            "term": "halt",
+            "definition": "to stop something completely"
+          },
+          {
+            "term": "workload",
+            "definition": "the amount of work to be done"
+          },
+          {
+            "term": "fortnightly",
+            "definition": "published once every two weeks"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:09",
+      "headline": "Meta dostala rekordní pokutu za nakládání s daty, akcie přesto posílily",
+      "body": "Americké Metě bylo nařízeno zaplatit pokutu 25 miliard dolarů v novomexickém případu kolem Cambridge Analytiky, informoval server CNBC. E15 výši pokuty za nakládání s daty uvádí v přepočtu jako 540 miliard korun. Firma zároveň zvýšila čtvrtletní tržby o 26 procent na 64,6 miliardy dolarů a překonala očekávání analytiků; chystá také nový druh akcií bez hlasovacího práva, který jí má usnadnit financování investic do umělé inteligence. Akcie Mety po zveřejnění výsledků posílily o více než čtyři procenta.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/meta-dostala-pokutu-540-miliard-korun-jeji-akcie-presto-vyrazne-posilily-1436753"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html"
+        }
+      ],
+      "en": {
+        "headline": "Meta was hit by a record fine over its handling of data, yet its shares rose",
+        "sentences": [
+          {
+            "en": "The American company Meta has been ordered to pay a 25-billion-dollar penalty in the New Mexico case around Cambridge Analytica, the CNBC server reported.",
+            "cs": "Americké Metě bylo nařízeno zaplatit pokutu 25 miliard dolarů v novomexickém případu kolem Cambridge Analytiky, informoval server CNBC."
+          },
+          {
+            "en": "E15 puts the size of the fine for the handling of data at 540 billion crowns in converted terms.",
+            "cs": "E15 výši pokuty za nakládání s daty uvádí v přepočtu jako 540 miliard korun."
+          },
+          {
+            "en": "At the same time the firm raised quarterly revenue by 26 percent to 64.6 billion dollars and beat analysts' expectations; it is also preparing a new class of shares without voting rights that is meant to make it easier to finance investment in artificial intelligence.",
+            "cs": "Firma zároveň zvýšila čtvrtletní tržby o 26 procent na 64,6 miliardy dolarů a překonala očekávání analytiků; chystá také nový druh akcií bez hlasovacího práva, který jí má usnadnit financování investic do umělé inteligence."
+          },
+          {
+            "en": "Meta's shares gained more than four percent after the results were published.",
+            "cs": "Akcie Mety po zveřejnění výsledků posílily o více než čtyři procenta."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "penalty",
+            "definition": "money someone must pay for breaking a rule or law"
+          },
+          {
+            "term": "revenue",
+            "definition": "the money a company receives from its business"
+          },
+          {
+            "term": "voting rights",
+            "definition": "the right to help decide how a company is run"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:00",
+      "headline": "Tesle klesl čtvrtletní zisk o 44 procent, Musk připustil spojení se SpaceX",
+      "body": "Americké Tesle klesl ve třetím čtvrtletí čistý zisk meziročně o 44 procent na 787 milionů dolarů. Investory podle E15 naopak překvapil pozitivní peněžní tok 1,5 miliardy dolarů, především díky nižším investicím. Elon Musk připustil možnost spojení Tesly se SpaceX, automobilka dál sází na umělou inteligenci a robotiku.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/muskova-tesla-vydelava-vyrazne-mene-jedno-cislo-ale-analytiky-zaskocilo-1436758"
+        }
+      ],
+      "en": {
+        "headline": "Tesla's quarterly profit fell by 44 percent and Musk floated a merger with SpaceX",
+        "sentences": [
+          {
+            "en": "The American carmaker Tesla saw its net profit in the third quarter fall by 44 percent year on year to 787 million dollars.",
+            "cs": "Americké Tesle klesl ve třetím čtvrtletí čistý zisk meziročně o 44 procent na 787 milionů dolarů."
+          },
+          {
+            "en": "Investors were, on the contrary, surprised by positive cash flow of 1.5 billion dollars, mainly thanks to lower investment, according to E15.",
+            "cs": "Investory podle E15 naopak překvapil pozitivní peněžní tok 1,5 miliardy dolarů, především díky nižším investicím."
+          },
+          {
+            "en": "Elon Musk floated the possibility of merging Tesla with SpaceX, while the carmaker continues to bet on artificial intelligence and robotics.",
+            "cs": "Elon Musk připustil možnost spojení Tesly se SpaceX, automobilka dál sází na umělou inteligenci a robotiku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "floated",
+            "definition": "suggested an idea to see how people react to it"
+          },
+          {
+            "term": "merger",
+            "definition": "the joining of two companies into one"
+          },
+          {
+            "term": "cash flow",
+            "definition": "the money moving into and out of a business"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:17",
+      "headline": "Kritické chyby v PHP si vyžádaly první českou oběť, hackeři zaútočili na ČVUT",
+      "body": "Navazuje na včerejší zprávu o kritických chybách v PHP: České vysoké učení technické v Praze čelilo kybernetickému útoku, který podle univerzity s těmito zranitelnostmi souvisí. Aktivní útok se podařilo zastavit a do vyřešení byly preventivně odstaveny některé systémy, sdělila škola; podle Deníku N jde v Česku o první potvrzenou oběť. Kvůli stejným chybám dočasně odstavil svůj web ve středu i Úřad vlády, připomíná iROZHLAS.cz. Amazon podle Rootu tvrdí, že první pokus o zneužití zranitelností pojmenovaných PHP2Shell zachytil ve své síti honeypotů MadPot už 17. října, tedy čtyři dny před jejich veřejným zveřejněním; pokus mířil na server určený k přilákání útočníků, nikoli na běžný produkční web.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228437/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/cvut-hackersky-utok-hackeri-php-praha_2610221422_ako"
+        },
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/utok-na-php2shell-zacal-uz-ctyri-dny-pred-zverejnenim-zranitelnosti-tvrdi-amazon/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "The critical PHP flaws have claimed their first Czech victim, with hackers attacking ČVUT",
+        "sentences": [
+          {
+            "en": "This follows on from yesterday's report on the critical flaws in PHP: the Czech Technical University in Prague has faced a cyberattack which, according to the university, is connected to those vulnerabilities.",
+            "cs": "Navazuje na včerejší zprávu o kritických chybách v PHP: České vysoké učení technické v Praze čelilo kybernetickému útoku, který podle univerzity s těmito zranitelnostmi souvisí."
+          },
+          {
+            "en": "The active attack was stopped and some systems were taken offline as a precaution until the matter is resolved, the school said; according to Deník N it is the first confirmed victim in Czechia.",
+            "cs": "Aktivní útok se podařilo zastavit a do vyřešení byly preventivně odstaveny některé systémy, sdělila škola; podle Deníku N jde v Česku o první potvrzenou oběť."
+          },
+          {
+            "en": "Because of the same flaws, the Office of the Government also took its website down temporarily on Wednesday, iROZHLAS.cz recalls.",
+            "cs": "Kvůli stejným chybám dočasně odstavil svůj web ve středu i Úřad vlády, připomíná iROZHLAS.cz."
+          },
+          {
+            "en": "Amazon claims, according to Root, that it caught the first attempt to exploit the vulnerabilities named PHP2Shell in its MadPot network of honeypots as early as 17 October, four days before they were publicly disclosed; the attempt targeted a server meant to lure attackers, not an ordinary production website.",
+            "cs": "Amazon podle Rootu tvrdí, že první pokus o zneužití zranitelností pojmenovaných PHP2Shell zachytil ve své síti honeypotů MadPot už 17. října, tedy čtyři dny před jejich veřejným zveřejněním; pokus mířil na server určený k přilákání útočníků, nikoli na běžný produkční web."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vulnerabilities",
+            "definition": "weak points that an attacker can use to get in"
+          },
+          {
+            "term": "as a precaution",
+            "definition": "done to stop something bad from happening"
+          },
+          {
+            "term": "exploit",
+            "definition": "to use a weakness to your own advantage"
+          },
+          {
+            "term": "lure",
+            "definition": "to attract someone into a place or a trap"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:14",
+      "day": "prev",
+      "headline": "Anthropic představil Claude Duet, agenta, který pracuje i v nepřítomnosti uživatele",
+      "body": "Anthropic spustil ve výzkumném náhledu Claude Duet, kterého popisuje jako proaktivního agenta rozpoznávajícího, co si žádá pozornost. Podle firmy zvládá úkoly různé velikosti, pracuje dál i ve chvílích, kdy u toho uživatel není, a čeká na jeho souhlas tam, kde na tom záleží: umí poslat ranní přehled, označit položky v poště a kalendáři, připravit návrhy odpovědí ke schválení nebo sestavit podklady, prezentace a dashboardy. Využívá paměť, dovednosti a konektory uživatelova účtu a běží na modelu Opus 5.5. Zatím jde o čekací listinu pro předplatitele tarifů Claude Pro a Max ve Spojených státech, plány Team a Enterprise zahrnuté nejsou a práce na pozadí se během náhledu započítává do limitů daného tarifu. Anthropic sám upozorňuje, že jako výzkumný náhled může agent špatně přečíst konverzaci nebo chybně odhadnout, co je naléhavé.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://claude.com/product/claude-duet"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has introduced Claude Duet, an agent that keeps working while the user is away",
+        "sentences": [
+          {
+            "en": "Anthropic has launched Claude Duet as a research preview, describing it as a proactive agent that understands what needs your attention.",
+            "cs": "Anthropic spustil ve výzkumném náhledu Claude Duet, kterého popisuje jako proaktivního agenta rozpoznávajícího, co si žádá pozornost."
+          },
+          {
+            "en": "According to the company it takes on tasks of all sizes, keeps working even while the user is away, and waits for their ok when it matters: it can send a morning brief, flag items in your inbox and calendar, draft replies for approval, or build briefs, decks and dashboards.",
+            "cs": "Podle firmy zvládá úkoly různé velikosti, pracuje dál i ve chvílích, kdy u toho uživatel není, a čeká na jeho souhlas tam, kde na tom záleží: umí poslat ranní přehled, označit položky v poště a kalendáři, připravit návrhy odpovědí ke schválení nebo sestavit podklady, prezentace a dashboardy."
+          },
+          {
+            "en": "It draws on the memory, skills and connectors of the user's account and runs on the Opus 5.5 model.",
+            "cs": "Využívá paměť, dovednosti a konektory uživatelova účtu a běží na modelu Opus 5.5."
+          },
+          {
+            "en": "For now it is a waitlist for subscribers to the Claude Pro and Max plans in the United States, Team and Enterprise plans are not included, and background work counts towards the plan's limits during the preview.",
+            "cs": "Zatím jde o čekací listinu pro předplatitele tarifů Claude Pro a Max ve Spojených státech, plány Team a Enterprise zahrnuté nejsou a práce na pozadí se během náhledu započítává do limitů daného tarifu."
+          },
+          {
+            "en": "Anthropic itself warns that, as a research preview, the agent may misread a thread or miscalibrate what is urgent.",
+            "cs": "Anthropic sám upozorňuje, že jako výzkumný náhled může agent špatně přečíst konverzaci nebo chybně odhadnout, co je naléhavé."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "proactive",
+            "definition": "acting early instead of waiting to be asked"
+          },
+          {
+            "term": "flag",
+            "definition": "to mark something so that people notice it"
+          },
+          {
+            "term": "waitlist",
+            "definition": "a list of people waiting to get something"
+          },
+          {
+            "term": "miscalibrate",
+            "definition": "to judge the level of something wrongly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:31",
+      "headline": "Útočníci ovládli přes tři stovky výstupních uzlů sítě Tor a odchytávali hesla k SSH",
+      "body": "Útočníci kompromitovali více než tři stovky výstupních uzlů sítě Tor a přesměrovávali přes ně SSH spojení na servery, které mohly zachytávat přihlašovací údaje. Podle zveřejněné zprávy šlo zhruba o desetinu z celkových asi tří tisíc výstupních uzlů, které přenášejí provoz z Toru do běžného internetu.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/utocnici-ovladli-pres-300-vystupnich-uzlu-toru-a-odchytavali-hesla-k-ssh/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "Attackers took over more than three hundred Tor exit nodes and harvested SSH passwords",
+        "sentences": [
+          {
+            "en": "Attackers compromised more than three hundred exit nodes of the Tor network and redirected SSH connections through them to servers that were able to capture login credentials.",
+            "cs": "Útočníci kompromitovali více než tři stovky výstupních uzlů sítě Tor a přesměrovávali přes ně SSH spojení na servery, které mohly zachytávat přihlašovací údaje."
+          },
+          {
+            "en": "According to the published report, that was roughly a tenth of the total of about three thousand exit nodes, which carry traffic from Tor out into the ordinary internet.",
+            "cs": "Podle zveřejněné zprávy šlo zhruba o desetinu z celkových asi tří tisíc výstupních uzlů, které přenášejí provoz z Toru do běžného internetu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compromised",
+            "definition": "got secret control of a computer or a system"
+          },
+          {
+            "term": "credentials",
+            "definition": "the name and password used to log in"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "11:29",
+      "headline": "Klempíř chce snížit rozpočet fondu audiovize o miliardu, na oslavu 17. listopadu peníze nedá",
+      "body": "Ministr kultury Oto Klempíř plánuje změny ve Státním fondu audiovize včetně snížení jeho rozpočtu o miliardu korun a zdůrazňuje přitom, že nejde o politické zásahy do kultury. Asociace producentů v audiovizi, která zastupuje české filmaře, podle Deníku N současný stav brání s tím, že vše funguje a není důvod ke změnám. Ministerstvo zároveň nepodpoří pražskou připomínkovou akci Korzo Národní k výročí událostí 17. listopadu; jejím organizátorům pošle 300 tisíc korun Jihočeský kraj, uvádějí Seznam Zprávy.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2227788/klempir-chce-seskrtat-fond-audiovize-o-miliardu-vse-funguje-neni-duvod-ke-zmenam-namitaji-producenti/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-korzo-narodni-klempir-kuba-318496"
+        }
+      ],
+      "en": {
+        "headline": "Klempíř wants to cut the audiovisual fund's budget by a billion and will give no money for the 17 November commemoration",
+        "sentences": [
+          {
+            "en": "Culture minister Oto Klempíř is planning changes at the State Audiovisual Fund, including a cut of one billion crowns to its budget, while stressing that these are not political interventions in culture.",
+            "cs": "Ministr kultury Oto Klempíř plánuje změny ve Státním fondu audiovize včetně snížení jeho rozpočtu o miliardu korun a zdůrazňuje přitom, že nejde o politické zásahy do kultury."
+          },
+          {
+            "en": "The Audiovisual Producers' Association, which represents Czech filmmakers, defends the current arrangement, according to Deník N, saying that everything works and there is no reason for changes.",
+            "cs": "Asociace producentů v audiovizi, která zastupuje české filmaře, podle Deníku N současný stav brání s tím, že vše funguje a není důvod ke změnám."
+          },
+          {
+            "en": "At the same time the ministry will not support the Prague commemorative event Korzo Národní marking the anniversary of the events of 17 November; its organisers will receive 300 thousand crowns from the South Bohemian Region, Seznam Zprávy reports.",
+            "cs": "Ministerstvo zároveň nepodpoří pražskou připomínkovou akci Korzo Národní k výročí událostí 17. listopadu; jejím organizátorům pošle 300 tisíc korun Jihočeský kraj, uvádějí Seznam Zprávy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "interventions",
+            "definition": "actions taken to change what is happening"
+          },
+          {
+            "term": "commemorative",
+            "definition": "done to remember an important person or event"
+          },
+          {
+            "term": "anniversary",
+            "definition": "a date when you remember something from an earlier year"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "16:09",
+      "headline": "Judi Dench kvůli zhoršenému zraku ukončila hereckou kariéru",
+      "body": "Britské herečce Judi Dench se natolik zhoršil zrak, že nebude dál účinkovat ve filmech ani hrát v divadle. Jedenadevadesátiletá hvězda, která se objevila v osmi bondovkách, to oznámila v rozhovoru pro BBC.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-judi-dench-herectvi-konec-318540"
+        }
+      ],
+      "en": {
+        "headline": "Judi Dench has ended her acting career because of her failing eyesight",
+        "sentences": [
+          {
+            "en": "The British actress Judi Dench's eyesight has deteriorated so badly that she will no longer appear in films or act on stage.",
+            "cs": "Britské herečce Judi Dench se natolik zhoršil zrak, že nebude dál účinkovat ve filmech ani hrát v divadle."
+          },
+          {
+            "en": "The ninety-one-year-old star, who appeared in eight Bond films, announced this in an interview for the BBC.",
+            "cs": "Jedenadevadesátiletá hvězda, která se objevila v osmi bondovkách, to oznámila v rozhovoru pro BBC."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deteriorated",
+            "definition": "became worse over time"
+          },
+          {
+            "term": "on stage",
+            "definition": "performing in a theatre in front of an audience"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Voxpot popisuje, jakou cenu platí ukrajinští fixeři za reportáže západních médií",
+      "body": "Bez neviditelné práce ukrajinských fixerů by se západní reportéři ve válce nehnuli, píše Voxpot. Sami přitom podle serveru často pracují bez pojistek, bez uznání a pod obrovským tlakem. „Pro západní redakce nemá náš život cenu,“ říká v rozhovoru výzkumnice a bývalá fixerka Oleksandra Hrybenko.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/kdyz-vas-zatknou-nikdo-pro-vas-neprijde-jakou-cenu-plati-fixeri-za-zapadni-reportaze-z-ukrajiny/"
+        }
+      ],
+      "en": {
+        "headline": "Voxpot describes the price Ukrainian fixers pay for Western media reporting",
+        "sentences": [
+          {
+            "en": "Without the invisible work of Ukrainian fixers, Western reporters would get nowhere in the war, Voxpot writes.",
+            "cs": "Bez neviditelné práce ukrajinských fixerů by se západní reportéři ve válce nehnuli, píše Voxpot."
+          },
+          {
+            "en": "Yet they themselves often work without safety nets, without recognition and under enormous pressure, the outlet says.",
+            "cs": "Sami přitom podle serveru často pracují bez pojistek, bez uznání a pod obrovským tlakem."
+          },
+          {
+            "en": "“Our lives are worth nothing to Western newsrooms,” says researcher and former fixer Oleksandra Hrybenko in an interview.",
+            "cs": "„Pro západní redakce nemá náš život cenu,“ říká v rozhovoru výzkumnice a bývalá fixerka Oleksandra Hrybenko."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fixers",
+            "definition": "local people who help foreign reporters work in a country"
+          },
+          {
+            "term": "get nowhere",
+            "definition": "to make no progress at all"
+          },
+          {
+            "term": "safety nets",
+            "definition": "things that protect you if something goes wrong"
+          },
+          {
+            "term": "newsrooms",
+            "definition": "the places where journalists prepare the news"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:33",
+      "headline": "Chorý dostal za prostředníček na rozhodčího zákaz činnosti na šest zápasů",
+      "body": "Útočník Slavie Tomáš Chorý dostal za vyloučení v ligovém utkání s Hradcem Králové, v němž ukázal rozhodčímu Janu Všetečkovi prostředníček, zákaz činnosti na šest soutěžních zápasů. Disciplinární komise podle Ligové fotbalové asociace přihlédla k hráčově výrazné recidivě; podle Sport.cz se Chorý na jednání komise osobně nedostavil.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/chory-dostal-od-disciplinarky-sestizapasovy-flastr-159566"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/chory-dostal-za-vulgarni-gesto-trest-na-sest-zapasu-v-komisi-se-s-obdobnym_2610221547_mim"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-chory-nedorazil-na-disciplinarku-5559944"
+        }
+      ],
+      "en": {
+        "headline": "Chorý was banned for six matches for showing the referee his middle finger",
+        "sentences": [
+          {
+            "en": "Slavia striker Tomáš Chorý has been banned from play for six competitive matches for his sending-off in the league game against Hradec Králové, in which he showed referee Jan Všetečka his middle finger.",
+            "cs": "Útočník Slavie Tomáš Chorý dostal za vyloučení v ligovém utkání s Hradcem Králové, v němž ukázal rozhodčímu Janu Všetečkovi prostředníček, zákaz činnosti na šest soutěžních zápasů."
+          },
+          {
+            "en": "According to the Football League Association, the disciplinary committee took into account the player's marked record of repeat offences; according to Sport.cz, Chorý did not attend the committee's hearing in person.",
+            "cs": "Disciplinární komise podle Ligové fotbalové asociace přihlédla k hráčově výrazné recidivě; podle Sport.cz se Chorý na jednání komise osobně nedostavil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sending-off",
+            "definition": "when a referee orders a player to leave the game"
+          },
+          {
+            "term": "disciplinary",
+            "definition": "about punishing someone for breaking rules"
+          },
+          {
+            "term": "repeat offences",
+            "definition": "the same wrongdoing committed again and again"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:56",
+      "day": "prev",
+      "headline": "Bayernu nestačil proti Arsenalu ani Kaneův gól, Real přehrál Lipsko 4:1",
+      "body": "Ve třetím kole Ligy mistrů remizoval Bayern s Arsenalem 2:2, o bod hostů se v 82. minutě postaral Declan Rice. Real Madrid přehrál Lipsko 4:1, stejným výsledkem si Como vyšláplo na Manchester United a Kryštof Daněk rozhodl svým prvním gólem v soutěži o výhře Lince 3:2 na hřišti Sportingu Lisabon.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/kane-se-trefil-proti-arsenalu-bayernu-to-ale-nestacilo-manchester-united-narazil-proti-comu-159559"
+        }
+      ],
+      "en": {
+        "headline": "Not even Kane's goal was enough for Bayern against Arsenal, while Real beat Leipzig 4:1",
+        "sentences": [
+          {
+            "en": "In the third round of the Champions League, Bayern drew 2:2 with Arsenal, with Declan Rice earning the visitors their point in the 82nd minute.",
+            "cs": "Ve třetím kole Ligy mistrů remizoval Bayern s Arsenalem 2:2, o bod hostů se v 82. minutě postaral Declan Rice."
+          },
+          {
+            "en": "Real Madrid beat Leipzig 4:1, Como got the better of Manchester United by the same score, and Kryštof Daněk settled a 3:2 win for Linz away at Sporting Lisbon with his first goal in the competition.",
+            "cs": "Real Madrid přehrál Lipsko 4:1, stejným výsledkem si Como vyšláplo na Manchester United a Kryštof Daněk rozhodl svým prvním gólem v soutěži o výhře Lince 3:2 na hřišti Sportingu Lisabon."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drew",
+            "definition": "finished a match with the same score as the other team"
+          },
+          {
+            "term": "got the better of",
+            "definition": "defeated someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:53",
+      "headline": "Macháč neproměnil v Almaty pět mečbolů, Lehečka i Siniaková postoupili do čtvrtfinále",
+      "body": "Tomáš Macháč podlehl v osmifinále turnaje v Almaty po dvouapůlhodinovém boji Karenu Chačanovovi 2:6, 6:4, 6:7, přičemž podle Sport.cz neproměnil pět mečbolů. Jiří Lehečka prošel v Bruselu do čtvrtfinále výhrou nad Raphaëlem Collignonem 6:4 a 6:2, mezi nejlepší osmičku se v Ósace dostala i Kateřina Siniaková po výhře nad Magdou Linetteovou 6:4 a 6:1.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2228784/"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-velka-skoda-machac-proti-ruskemu-favoritovi-zahodil-pet-mecbolu-a-konci-5559955"
+        }
+      ],
+      "en": {
+        "headline": "Macháč wasted five match points in Almaty, while Lehečka and Siniaková reached the quarter-finals",
+        "sentences": [
+          {
+            "en": "Tomáš Macháč lost in the last sixteen of the Almaty tournament to Karen Chačanov 2:6, 6:4, 6:7 after a tough two-and-a-half-hour battle, and according to Sport.cz he wasted five match points.",
+            "cs": "Tomáš Macháč podlehl v osmifinále turnaje v Almaty po dvouapůlhodinovém boji Karenu Chačanovovi 2:6, 6:4, 6:7, přičemž podle Sport.cz neproměnil pět mečbolů."
+          },
+          {
+            "en": "Jiří Lehečka made the quarter-finals in Brussels with a 6:4 and 6:2 win over Raphaël Collignon, and Kateřina Siniaková also reached the last eight in Osaka after beating Magda Linette 6:4 and 6:1.",
+            "cs": "Jiří Lehečka prošel v Bruselu do čtvrtfinále výhrou nad Raphaëlem Collignonem 6:4 a 6:2, mezi nejlepší osmičku se v Ósace dostala i Kateřina Siniaková po výhře nad Magdou Linetteovou 6:4 a 6:1."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "match points",
+            "definition": "points that would win the whole match"
+          },
+          {
+            "term": "last sixteen",
+            "definition": "the round of a tournament with sixteen players left"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:54",
+      "headline": "Norská běžkařka Skistadová uvedla jako důvod rozchodu s trenérem sexuální obtěžování",
+      "body": "Norská běžkyně na lyžích Kristine Stavaas Skistadová, stříbrná medailistka z loňského mistrovství světa a vítězka třinácti závodů Světového poháru, ohlásila už v létě konec spolupráce se svým dlouholetým koučem Lage Sofienlundem. Nyní o věci poprvé veřejně promluvila s tím, že důvodem jejího kroku bylo mimo jiné sexuální obtěžování.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/zimni-sporty-lyzovani-sahal-mi-na-zadek-na-ms-chtel-trenink-v-posteli-lyzarska-hvezda-udala-sveho-kouce-5559956"
+        }
+      ],
+      "en": {
+        "headline": "Norwegian skier Skistad named sexual harassment as the reason for her split with her coach",
+        "sentences": [
+          {
+            "en": "The Norwegian cross-country skier Kristine Stavaas Skistad, silver medallist at last year's world championships and winner of thirteen World Cup races, announced back in the summer that she was ending her work with her long-time coach Lage Sofienlund.",
+            "cs": "Norská běžkyně na lyžích Kristine Stavaas Skistadová, stříbrná medailistka z loňského mistrovství světa a vítězka třinácti závodů Světového poháru, ohlásila už v létě konec spolupráce se svým dlouholetým koučem Lage Sofienlundem."
+          },
+          {
+            "en": "She has now spoken publicly about it for the first time, saying that the reason for her move was, among other things, sexual harassment.",
+            "cs": "Nyní o věci poprvé veřejně promluvila s tím, že důvodem jejího kroku bylo mimo jiné sexuální obtěžování."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "harassment",
+            "definition": "behaviour that upsets or frightens someone again and again"
+          },
+          {
+            "term": "medallist",
+            "definition": "someone who has won a medal in a competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:17",
+      "headline": "Sáblíková bude u rychlobruslařské reprezentace asistentkou trenéra Nováka",
+      "body": "Trojnásobná olympijská vítězka Martina Sáblíková, která ukončila kariéru po minulé sezoně, bude u rychlobruslařské reprezentace působit jako asistentka svého dlouholetého trenéra Petra Nováka. Nadcházející sezonu naopak vynechá Nikola Zdráhalová, která se chce vrátit a zabojovat o start na zimních olympijských hrách v roce 2030.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/rychlobrusleni-a-short-track/sablikova-bude-asistentkou-reprezentacniho-trenera-zdrahalova-sezonu-vynecha-159568"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/zimni-sporty-rychlobrusleni-sablikova-rychlobrusleni-neopousti-pomuze-novakovi-jeji-partnerka-si-dava-dalsi-pauzu-5559968"
+        }
+      ],
+      "en": {
+        "headline": "Sáblíková will be assistant to national speed skating coach Novák",
+        "sentences": [
+          {
+            "en": "Three-time Olympic champion Martina Sáblíková, who ended her career after last season, will work with the speed skating national team as assistant to her long-time coach Petr Novák.",
+            "cs": "Trojnásobná olympijská vítězka Martina Sáblíková, která ukončila kariéru po minulé sezoně, bude u rychlobruslařské reprezentace působit jako asistentka svého dlouholetého trenéra Petra Nováka."
+          },
+          {
+            "en": "Nikola Zdráhalová, on the other hand, will sit out the coming season, as she wants to come back and fight for a place at the 2030 Winter Olympics.",
+            "cs": "Nadcházející sezonu naopak vynechá Nikola Zdráhalová, která se chce vrátit a zabojovat o start na zimních olympijských hrách v roce 2030."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sit out",
+            "definition": "to not take part in something"
+          },
+          {
+            "term": "come back",
+            "definition": "to return to a sport after a break"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:33",
+      "headline": "Čínské gymnastky ukončily na mistrovství světa dvacetiletou nadvládu Američanek",
+      "body": "Čínské sportovní gymnastky získaly na mistrovství světa v Rotterdamu po dvaceti letech titul v soutěži družstev. Se ziskem 165,764 bodu zvítězily o 233 tisícin před výběrem USA, který ovládl předchozích sedm šampionátů. Bronz mají Japonky.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/gymnastika/konec-americke-nadvlady-cinske-gymnastky-po-20-letech-ziskaly-svetovy-titul-v-druzstvech-159564"
+        }
+      ],
+      "en": {
+        "headline": "Chinese gymnasts ended twenty years of American dominance at the world championships",
+        "sentences": [
+          {
+            "en": "Chinese artistic gymnasts have won the team title at the world championships in Rotterdam after twenty years.",
+            "cs": "Čínské sportovní gymnastky získaly na mistrovství světa v Rotterdamu po dvaceti letech titul v soutěži družstev."
+          },
+          {
+            "en": "With 165.764 points they won by 233 thousandths ahead of the United States, who had taken the previous seven championships.",
+            "cs": "Se ziskem 165,764 bodu zvítězily o 233 tisícin před výběrem USA, který ovládl předchozích sedm šampionátů."
+          },
+          {
+            "en": "Japan took bronze.",
+            "cs": "Bronz mají Japonky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dominance",
+            "definition": "being much stronger than everyone else"
+          },
+          {
+            "term": "thousandths",
+            "definition": "very small parts, each one divided into a thousand"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "After fifteen hours, the Chamber of Deputies adjourned its debate on the budget. The mood had been inflamed earlier by MP Ševčík shouting at the head of the STAN caucus, over which the Mayors are turning to the mandate committee.",
+    "A Russian overnight ballistic missile strike on Kyiv killed one person and wounded 24, and the city's historic centre was hit as well.",
+    "The critical flaws in PHP have claimed their first confirmed victim in Czechia: ČVUT had to fend off a cyberattack and pre-emptively shut down some of its systems.",
+    "The Court of Justice of the EU ruled that Czechia breaches EU law by allowing suspects to be questioned without a defence lawyer present."
+  ]
+}
