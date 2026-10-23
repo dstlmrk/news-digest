@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-has-en="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Digest · Friday 23 October 2026</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="News from Czech sources, retold in English. A new issue every day at 17:00, covering the last 24 hours.">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+/* Jazyk stránky: „en" (výchozí) a „cs" pro původní české znění. Volba se
+   pamatuje, ale na starší česká vydání se neaplikuje — ta angličtinu
+   nemají a přepínač na nich není. */
+(function () {
+  var root = document.documentElement;
+
+  function apply(mode) {
+    root.setAttribute('data-lang', mode);
+    root.setAttribute('lang', mode);
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem('lang'); } catch (e) {}
+  // Dřívější třetí režim „both" už neexistuje, bereme ho jako angličtinu.
+  if (stored !== 'cs') stored = 'en';
+  if (root.getAttribute('data-has-en') === '1') apply(stored);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.lang-toggle');
+    if (!btn) return;
+    function label() {
+      var czech = root.getAttribute('data-lang') === 'cs';
+      btn.textContent = czech ? 'CS' : 'EN';
+      var text = czech ? 'Switch to English' : 'Přepnout do češtiny';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var next = root.getAttribute('data-lang') === 'cs' ? 'en' : 'cs';
+      apply(next);
+      try { localStorage.setItem('lang', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+
+(function () {
+  var root = document.documentElement;
+  var stored = null;
+  try { stored = localStorage.getItem('theme'); } catch (e) {}
+  if (stored === 'dark' || stored === 'light') root.setAttribute('data-theme', stored);
+
+  var SVG_ATTRS = 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ' +
+    'fill="none" stroke="currentColor" stroke-width="2" ' +
+    'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var SUN = '<svg ' + SVG_ATTRS + '><circle cx="12" cy="12" r="4"/>' +
+    '<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41' +
+    'M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
+  var MOON = '<svg ' + SVG_ATTRS + '>' +
+    '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    function isDark() {
+      return root.getAttribute('data-theme') === 'dark' ||
+        (!root.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+    function label() {
+      var dark = isDark();
+      btn.innerHTML = dark ? SUN : MOON;
+      var text = dark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+      btn.setAttribute('aria-label', text);
+      btn.setAttribute('title', text);
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+    label();
+    btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      label();
+    });
+  });
+})();
+
+/* Přečtené zprávy: přepíná je zaškrtávací tlačítko pod zprávou, přečtená
+   se ztlumí. Stav žije v localStorage, záznamy starší 90 dnů se
+   promazávají. */
+(function () {
+  var KEY = 'readItems';
+  var MAX_AGE_MS = 90 * 24 * 60 * 60 * 1000;
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  function save(map) {
+    try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = load();
+    var now = Date.now();
+    var changed = false;
+    for (var k in map) {
+      if (now - map[k] > MAX_AGE_MS) { delete map[k]; changed = true; }
+    }
+    if (changed) save(map);
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('[data-read-id]'),
+      function (el) {
+        var id = el.getAttribute('data-read-id');
+        var btn = el.querySelector('.tool-read');
+        if (map[id]) el.classList.add('read');
+        if (!btn) return;
+
+        function sync() {
+          btn.setAttribute('aria-pressed',
+            el.classList.contains('read') ? 'true' : 'false');
+        }
+        sync();
+
+        btn.addEventListener('click', function () {
+          if (el.classList.toggle('read')) map[id] = Date.now();
+          else delete map[id];
+          save(map);
+          sync();
+        });
+      }
+    );
+  });
+})();
+
+/* Srovnání s češtinou: klik na větu ukáže její překlad. */
+(function () {
+  function selecting() {
+    return !!(window.getSelection && String(window.getSelection()));
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.s'),
+      function (s) {
+        s.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          if (selecting()) return;
+          s.classList.toggle('open');
+        });
+        s.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          s.classList.toggle('open');
+        });
+      }
+    );
+  });
+})();
+
+/* Vysvětlivky slovíček. Bublina se skládá až tady, aby v HTML nebyla
+   u každého slova schovaná kopie definice. */
+(function () {
+  var pop = null;
+  var owner = null;
+
+  function close() {
+    if (pop) { pop.parentNode.removeChild(pop); pop = null; }
+    if (owner) { owner.setAttribute('aria-expanded', 'false'); owner = null; }
+  }
+
+  function line(cls, text) {
+    var el = document.createElement('p');
+    el.className = cls;
+    el.textContent = text;
+    return el;
+  }
+
+  function place(el) {
+    var box = el.getBoundingClientRect();
+    pop.style.left = '0px';
+    pop.style.top = (box.bottom + window.scrollY + 6) + 'px';
+    var width = pop.offsetWidth;
+    var limit = document.documentElement.clientWidth - 10;
+    var left = box.left + window.scrollX;
+    if (left + width > limit) left = Math.max(10, limit - width);
+    pop.style.left = left + 'px';
+  }
+
+  function open(el) {
+    var again = owner === el;
+    close();
+    if (again) return;
+    pop = document.createElement('div');
+    pop.className = 'gloss-pop';
+    pop.setAttribute('role', 'dialog');
+    pop.appendChild(line('term', el.getAttribute('data-term')));
+    pop.appendChild(line('def', el.getAttribute('data-def')));
+    var more = document.createElement('a');
+    more.className = 'more';
+    more.href = el.getAttribute('data-url');
+    more.target = '_blank';
+    more.rel = 'noopener noreferrer';
+    more.textContent = 'Cambridge Dictionary ↗';
+    pop.appendChild(more);
+    document.body.appendChild(pop);
+    owner = el;
+    el.setAttribute('aria-expanded', 'true');
+    place(el);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.gl'),
+      function (el) {
+        el.setAttribute('aria-expanded', 'false');
+        el.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          open(el);
+        });
+        el.addEventListener('keydown', function (ev) {
+          if (ev.key !== 'Enter' && ev.key !== ' ') return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          open(el);
+        });
+      }
+    );
+
+    document.addEventListener('click', function (ev) {
+      if (!pop || ev.target.closest('.gloss-pop')) return;
+      close();
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') close();
+    });
+    window.addEventListener('resize', close);
+  });
+})();
+</script>
+</head>
+<body>
+<button class="theme-toggle" type="button" aria-label="Přepnout tmavý režim"></button>
+<button class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+<div class="wrap">
+<header class="masthead">
+<h1><a href="index.html"><span class="lang-cs">Denní přehled</span><span class="lang-en">Daily Digest</span></a></h1>
+<p class="dateline"><span class="lang-cs">pátek 23. října 2026</span><span class="lang-en">Friday 23 October 2026</span></p>
+<hr class="rule-double">
+<p class="meta"><span class="lang-cs">28 zpráv</span><span class="lang-en">28 stories</span> &nbsp;·&nbsp; <span class="lang-cs">aktualizováno <time datetime="2026-10-23T17:24+02:00">23. 10. 2026 v 17:24</time></span><span class="lang-en">updated <time datetime="2026-10-23T17:24+02:00">23 Oct 2026 at 17:24</time></span></p>
+<nav class="issues"><span class="lang-cs">Starší vydání:</span><span class="lang-en">Earlier issues:</span> <a href="2026-10-22.html"><span class="lang-cs">22. 10. 2026</span><span class="lang-en">22 Oct 2026</span></a><span class="sep">·</span><a href="archiv.html"><span class="lang-cs">archiv</span><span class="lang-en">archive</span></a></nav>
+</header>
+
+<section class="weather">
+<p class="kicker"><span class="lang-cs">Počasí · Hradec Králové</span><span class="lang-en">Weather · Hradec Králové</span></p>
+<p><span class="lang-cs">Zítra bude slabě pršet a teplota přes den vystoupí jen k 11,5 °C. Nárazy větru přesáhnou 30 kilometrů v hodině, kvalita ovzduší má být přijatelná.</span><span class="lang-en">Tomorrow will bring light rain and daytime temperatures will climb only to around 11.5 °C. Wind gusts will exceed 30 kilometres per hour and air quality should be acceptable.</span></p>
+<p class="outlook"><span class="lang-cs">V neděli přijde vydatnější déšť, spadnout má přes jedenáct milimetrů srážek.</span><span class="lang-en">Heavier rain arrives on Sunday, with more than eleven millimetres of precipitation expected.</span></p>
+<ul class="w-days">
+<li><span class="w-when"><span class="lang-cs">zítra</span><span class="lang-en">tomorrow</span></span><span class="w-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg></span><span class="w-temp">12° <span class="low">4°</span></span></li>
+<li><span class="w-when"><span class="lang-cs">pozítří</span><span class="lang-en">Sun</span></span><span class="w-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg></span><span class="w-temp">8° <span class="low">3°</span></span></li>
+<li><span class="w-when"><span class="lang-cs">pondělí</span><span class="lang-en">Mon</span></span><span class="w-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg></span><span class="w-temp">11° <span class="low">6°</span></span></li>
+<li><span class="w-when"><span class="lang-cs">úterý</span><span class="lang-en">Tue</span></span><span class="w-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg></span><span class="w-temp">11° <span class="low">5°</span></span></li>
+</ul>
+</section>
+
+<section class="lead">
+<p class="kicker"><span class="lang-cs">Ve zkratce</span><span class="lang-en">In brief</span></p>
+<ul>
+<li><span class="s" tabindex="0" role="button"><span class="t-en">The governing coalition unexpectedly pushed through an immediate parliamentary debate on abolishing the licence fees for Czech Television and Czech Radio, and voted itself the option of sitting at night and on Saturday.</span><span class="t-cs">Vládní koalice nečekaně prosadila, že Sněmovna začne hned projednávat zrušení poplatků za Českou televizi a Český rozhlas, a odhlasovala si i noční a sobotní jednání.</span></span></li>
+<li><span class="s" tabindex="0" role="button"><span class="t-en">Employees of both outlets have called a full-day strike for 3 November, and Reporters Without Borders and the European Federation of Journalists have also come out against the rushed procedure.</span><span class="t-cs">Zaměstnanci obou médií vyhlásili na 3. listopadu celodenní stávku, proti zrychlenému projednávání se postavili i Reportéři bez hranic a Evropská federace novinářů.</span></span></li>
+<li><span class="s" tabindex="0" role="button"><span class="t-en">After a morning shooting near Hebron, Israel sealed off the West Bank and Benjamin Netanjahu is talking about the largest military operation since 1967.</span><span class="t-cs">Izrael po ranní střelbě u Hebronu uzavřel Západní břeh Jordánu a Benjamin Netanjahu mluví o největší vojenské operaci od roku 1967.</span></span></li>
+</ul>
+</section>
+
+<section class="opener" data-read-id="68dfca4c6249">
+<p class="kicker"><span class="lang-cs">Domov</span><span class="lang-en">Czechia</span> · 15:23 · <span class="lang-cs">6 zdrojů</span><span class="lang-en">6 sources</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></p>
+<h2><span class="s" tabindex="0" role="button"><span class="t-en">The coalition pushed through a fast-tracked debate on abolishing the ČT and radio fees, and the Chamber will sit at night and on Saturday</span><span class="t-cs">Koalice prosadila zrychlené projednání zrušení poplatků za ČT a rozhlas, Sněmovna bude jednat i v noci a v sobotu</span></span></h2>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The ANO, SPD and Motoristé coalition pushed through priority treatment of the government bill abolishing the television and radio licence fee in the Chamber of Deputies today.</span><span class="t-cs">Koalice ANO, SPD a Motoristů dnes ve Sněmovně prosadila přednostní projednání vládního návrhu na zrušení televizního a rozhlasového poplatku.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Moving the bill up the agenda was proposed by SPD <span class="gl" role="button" tabindex="0" data-term="caucus" data-def="a group of politicians from the same party in a parliament" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=caucus" aria-label="caucus — a group of politicians from the same party in a parliament">caucus</span> leader Radim Fiala, and at his urging the lower house also voted to allow sittings not only at night but on Saturday as well.</span><span class="t-cs">Předřazení předlohy navrhl předseda klubu SPD Radim Fiala a dolní komora si na jeho popud odhlasovala i možnost nejen nočního, ale také sobotního jednání.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The governing camp&#x27;s procedure <span class="gl" role="button" tabindex="0" data-term="outraged" data-def="made someone very angry and shocked" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=outraged" aria-label="outraged — made someone very angry and shocked">outraged</span> the opposition, which is promising <span class="gl" role="button" tabindex="0" data-term="filibusters" data-def="very long speeches used to delay a decision in a parliament" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=filibusters" aria-label="filibusters — very long speeches used to delay a decision in a parliament">filibusters</span>.</span><span class="t-cs">Postup vládního tábora rozhořčil opozici, která slibuje obstrukce.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">According to Seznam Zprávy, even some coalition politicians did not know in advance about the hurried debate.</span><span class="t-cs">Podle Seznam Zpráv o chystané rychlé debatě nevěděli dopředu ani někteří koaliční politici.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">“We have to keep the promises we made to voters,” SPD leader Tomio Okamura said in explanation.</span><span class="t-cs">„Je potřeba plnit sliby, které jsme dali voličům,“ vysvětlil krok předseda SPD Tomio Okamura.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Deník N adds that because of the way the bill is being handled, the opposition will turn to the Constitutional Court and the European Commission <span class="gl" role="button" tabindex="0" data-term="in due course" data-def="at the right time later, but not immediately" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=in%20due%20course" aria-label="in due course — at the right time later, but not immediately">in due course</span>, as František Talíř (KDU-ČSL) announced.</span><span class="t-cs">Deník N doplňuje, že se opozice kvůli formě projednávání obrátí v patřičný čas na Ústavní soud a Evropskou komisi, jak avizoval František Talíř (KDU-ČSL).</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Political scientist Lukáš Jelínek told Radiožurnál that it is a reaction to the election result.</span><span class="t-cs">Politolog Lukáš Jelínek řekl Radiožurnálu, že jde o reakci na volební výsledek.</span></span></p>
+<p class="body cs-full">Koalice ANO, SPD a Motoristů dnes ve Sněmovně prosadila přednostní projednání vládního návrhu na zrušení televizního a rozhlasového poplatku. Předřazení předlohy navrhl předseda klubu SPD Radim Fiala a dolní komora si na jeho popud odhlasovala i možnost nejen nočního, ale také sobotního jednání. Postup vládního tábora rozhořčil opozici, která slibuje obstrukce. Podle Seznam Zpráv o chystané rychlé debatě nevěděli dopředu ani někteří koaliční politici. „Je potřeba plnit sliby, které jsme dali voličům,“ vysvětlil krok předseda SPD Tomio Okamura. Deník N doplňuje, že se opozice kvůli formě projednávání obrátí v patřičný čas na Ústavní soud a Evropskou komisi, jak avizoval František Talíř (KDU-ČSL). Politolog Lukáš Jelínek řekl Radiožurnálu, že jde o reakci na volební výsledek.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-koalice-zacala-nahle-projednavat-televizni-poplatky-muze-jednat-i-v-sobotu-318590" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/2229643/koalice-necekane-prosadila-jednani-o-poplatcich-za-ct-a-cro-zacal-boj-o-verejnopravni-media-kritizuje-opozice/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/konec-televiznich-a-rozhlasovych-poplatku-se-priblizil-ve-snemovne-vypukl-spor-1436793" target="_blank" rel="noopener noreferrer">E15</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/vladni-koalice-se-chova-jako-ranena-selma-rika-politolog-o-snaze-zrusit_2610231325_cen" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.seznamzpravy.cz/clanek/domaci-politika-to-bylo-prekvapeni-ze-o-rychle-debate-o-poplatcich-nevedeli-ani-v-koalici-318621" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2230096/" target="_blank" rel="noopener noreferrer">Deník N</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Domov</span><span class="lang-en">Czechia</span></h2>
+<article data-read-id="e34262bf3dd6">
+<span class="stamp">15:16 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Czech Television and Czech Radio staff have called a full-day strike for 3 November</span><span class="t-cs">Zaměstnanci České televize a Českého rozhlasu vyhlásili na 3. listopadu celodenní stávku</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Staff at both public service <span class="gl" role="button" tabindex="0" data-term="outlets" data-def="newspapers, radio or TV stations that publish news" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=outlets" aria-label="outlets — newspapers, radio or TV stations that publish news">outlets</span> will strike for a full day on Tuesday 3 November, the Veřejnoprávně initiative announced.</span><span class="t-cs">Pracovníci obou veřejnoprávních médií budou v úterý 3. listopadu stávkovat celý den, oznámila iniciativa Veřejnoprávně.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">They are protesting against a government bill that would move the funding of Czech Television and Czech Radio under the state budget.</span><span class="t-cs">Protestují proti vládnímu návrhu, který má financování České televize a Českého rozhlasu převést pod státní rozpočet.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">“The government wants to <span class="gl" role="button" tabindex="0" data-term="nationalise" data-def="to put a company or service under the control of the state" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=nationalise" aria-label="nationalise — to put a company or service under the control of the state">nationalise</span> Czech Television and Czech Radio, and it wants to do it before the public has a chance to speak,” employees of both outlets warn.</span><span class="t-cs">„Vláda chce zestátnit Českou televizi a Český rozhlas a chce to udělat dřív, než se stihne vyjádřit veřejnost,“ varují zaměstnanci obou médií.</span></span></p>
+<p class="body cs-full">Pracovníci obou veřejnoprávních médií budou v úterý 3. listopadu stávkovat celý den, oznámila iniciativa Veřejnoprávně. Protestují proti vládnímu návrhu, který má financování České televize a Českého rozhlasu převést pod státní rozpočet. „Vláda chce zestátnit Českou televizi a Český rozhlas a chce to udělat dřív, než se stihne vyjádřit veřejnost,“ varují zaměstnanci obou médií.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-prekvapeni-ve-snemovne-jak-reaguji-zamestnanci-ct-a-cro-sledujte-brifink-318614" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2230274/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-domov/pracovnici-ceskeho-rozhlasu-a-ceske-televize-vyhlasili-stavku-oznamila_2610231516_jkd" target="_blank" rel="noopener noreferrer">iROZHLAS</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="afc79a12d171">
+<span class="stamp">16:50<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Journalists&#x27; organisations <span class="gl" role="button" tabindex="0" data-term="came out against" data-def="publicly said that you are against something" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=came%20out%20against" aria-label="came out against — publicly said that you are against something">came out against</span> the fast-tracked abolition of the fees, and people demonstrated outside parliament</span><span class="t-cs">Proti zrychlenému rušení poplatků se postavily novinářské organizace, před Sněmovnou se demonstrovalo</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Reporters Without Borders called on MPs to reject the fast-tracked abolition of the media fees, considering the governing majority&#x27;s approach <span class="gl" role="button" tabindex="0" data-term="hasty" data-def="done too quickly and without enough thought" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=hasty" aria-label="hasty — done too quickly and without enough thought">hasty</span> and lacking in transparency.</span><span class="t-cs">Reportéři bez hranic vyzvali poslance, aby zrychlené rušení mediálních poplatků odmítli; přístup vládní většiny považují za zbrklý a netransparentní.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The European Federation of Journalists also came out against it, saying that moving the funding of both outlets directly under the state budget seriously threatens their independence and exposes them to political influence.</span><span class="t-cs">Proti se postavila i Evropská federace novinářů, podle které převod financování obou médií přímo pod státní rozpočet vážně ohrožuje jejich nezávislost a vystavuje je politickému vlivu.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The Syndicate of Journalists backed the employees&#x27; strike, saying it is a legitimate and extreme step in defence of the independence of journalism and the public&#x27;s right to objective information.</span><span class="t-cs">Stávku zaměstnanců podpořil Syndikát novinářů, podle nějž jde o legitimní a krajní krok na obranu nezávislosti žurnalistiky a práva veřejnosti na objektivní informace.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Dozens of people demonstrated against the abolition of the fees on Prague&#x27;s Malostranské náměstí in the afternoon; according to the organisers, MPs chose this procedure because they are afraid of how <span class="gl" role="button" tabindex="0" data-term="civil society" data-def="the groups and organisations that people form outside the state" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=civil%20society" aria-label="civil society — the groups and organisations that people form outside the state">civil society</span> would react.</span><span class="t-cs">Na pražském Malostranském náměstí odpoledne proti rušení poplatků demonstrovaly desítky lidí; podle organizátorů zvolili poslanci tento postup proto, že se bojí reakce občanské společnosti.</span></span></p>
+<p class="body cs-full">Reportéři bez hranic vyzvali poslance, aby zrychlené rušení mediálních poplatků odmítli; přístup vládní většiny považují za zbrklý a netransparentní. Proti se postavila i Evropská federace novinářů, podle které převod financování obou médií přímo pod státní rozpočet vážně ohrožuje jejich nezávislost a vystavuje je politickému vlivu. Stávku zaměstnanců podpořil Syndikát novinářů, podle nějž jde o legitimní a krajní krok na obranu nezávislosti žurnalistiky a práva veřejnosti na objektivní informace. Na pražském Malostranském náměstí odpoledne proti rušení poplatků demonstrovaly desítky lidí; podle organizátorů zvolili poslanci tento postup proto, že se bojí reakce občanské společnosti.</p>
+<p class="sources"><span class="src-list"><a href="https://denikn.cz/minuta/2230052/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2230592/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2230483/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2230126/" target="_blank" rel="noopener noreferrer">Deník N</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="ba1a5c239c95">
+<span class="stamp">14:27<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">The Olomouc court sent the poisoner Kudlička to prison for 24 years</span><span class="t-cs">Traviče Kudličku poslal olomoucký soud na 24 let do vězení</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The Regional Court in Olomouc gave Jiří Kudlička 24 years in prison and protective detention for poisoning colleagues at the Šternberk arms factory.</span><span class="t-cs">Krajský soud v Olomouci uložil Jiřímu Kudličkovi 24 let vězení a zabezpečovací detenci za otravy kolegů ve šternberské zbrojovce.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">According to the <span class="gl" role="button" tabindex="0" data-term="verdict" data-def="the official decision of a court about a case" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=verdict" aria-label="verdict — the official decision of a court about a case">verdict</span>, which is not yet final, he added the <span class="gl" role="button" tabindex="0" data-term="antifreeze" data-def="a liquid added to car engines so that water does not freeze" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=antifreeze" aria-label="antifreeze — a liquid added to car engines so that water does not freeze">antifreeze</span> Fridex to their drink and one of them died after drinking it.</span><span class="t-cs">Podle nepravomocného rozsudku jim do nápoje přidal nemrznoucí směs Fridex a jeden z nich po napití zemřel.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Kudlička also left bottles and cartons of drinks containing poisons around the streets of Olomouc, and the court punished him for preparing explosives as well.</span><span class="t-cs">Kudlička navíc rozmisťoval v ulicích Olomouce lahve a kartony s nápoji obsahujícími jedy a soud ho potrestal i za přípravu výbušnin.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">He disagrees with the verdict and will <span class="gl" role="button" tabindex="0" data-term="appeal" data-def="to ask a higher court to change a decision" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=appeal" aria-label="appeal — to ask a higher court to change a decision">appeal</span> against it.</span><span class="t-cs">S rozsudkem nesouhlasí a odvolá se proti němu.</span></span></p>
+<p class="body cs-full">Krajský soud v Olomouci uložil Jiřímu Kudličkovi 24 let vězení a zabezpečovací detenci za otravy kolegů ve šternberské zbrojovce. Podle nepravomocného rozsudku jim do nápoje přidal nemrznoucí směs Fridex a jeden z nich po napití zemřel. Kudlička navíc rozmisťoval v ulicích Olomouce lahve a kartony s nápoji obsahujícími jedy a soud ho potrestal i za přípravu výbušnin. S rozsudkem nesouhlasí a odvolá se proti němu.</p>
+<p class="sources"><span class="src-list"><a href="https://www.irozhlas.cz/zpravy-domov/vadili-mu-kolegove-i-olomoucti-bezdomovci-podal-jim-jed-travice-kudlicku-poslal_2610231427_brz" target="_blank" rel="noopener noreferrer">iROZHLAS</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="8035aad6b9ad">
+<span class="stamp">15:06<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Babiš discusses buying a defence against ballistic missiles <span class="gl" role="button" tabindex="0" data-term="in passing" data-def="while talking about something else, without focusing on it" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=in%20passing" aria-label="in passing — while talking about something else, without focusing on it">in passing</span>, while the defence ministry says nothing</span><span class="t-cs">Babiš mezi řečí probírá nákup obrany proti balistickým raketám, ministerstvo obrany mlčí</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Prime Minister Andrej Babiš has started publicly <span class="gl" role="button" tabindex="0" data-term="disclosing" data-def="making information public that was secret before" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=disclosing" aria-label="disclosing — making information public that was secret before">disclosing</span> details of a possible purchase of top military technology, a defence against ballistic missiles, Deník N writes.</span><span class="t-cs">Premiér Andrej Babiš začal podle Deníku N veřejně komunikovat detaily možného nákupu špičkové vojenské technologie, obrany proti balistickým raketám.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The form is highly unusual, according to the paper: he gives <span class="gl" role="button" tabindex="0" data-term="crucial" data-def="extremely important for the result" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=crucial" aria-label="crucial — extremely important for the result">crucial</span> details in passing, while Zůn&#x27;s defence ministry says nothing about the contract.</span><span class="t-cs">Forma je podle listu krajně neobvyklá: zásadní detaily sděluje mezi řečí, zatímco Zůnovo ministerstvo obrany k zakázce mlčí.</span></span></p>
+<p class="body cs-full">Premiér Andrej Babiš začal podle Deníku N veřejně komunikovat detaily možného nákupu špičkové vojenské technologie, obrany proti balistickým raketám. Forma je podle listu krajně neobvyklá: zásadní detaily sděluje mezi řečí, zatímco Zůnovo ministerstvo obrany k zakázce mlčí.</p>
+<p class="sources"><span class="src-list"><a href="https://denikn.cz/2228195/vsechno-jsem-to-rozklicoval-premier-mezi-reci-resi-zasadni-vojenskou-zakazku-zunuv-rezort-mlci/" target="_blank" rel="noopener noreferrer">Deník N</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Hradec Králové</span><span class="lang-en">Hradec Králové</span></h2>
+<article data-read-id="9d2e1a877dec">
+<span class="stamp">06:38<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">RegioJet will run the express trains from Trutnov via Hradec to Prague from December 2028</span><span class="t-cs">Rychlíky z Trutnova přes Hradec do Prahy bude od prosince 2028 provozovat RegioJet</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">České dráhy will not use their last option and will not <span class="gl" role="button" tabindex="0" data-term="appeal" data-def="to formally ask an authority to change a decision" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=appeal" aria-label="appeal — to formally ask an authority to change a decision">appeal</span> the transport ministry&#x27;s decision to the Office for the Protection of Competition.</span><span class="t-cs">České dráhy nevyužijí poslední možnost a proti rozhodnutí ministerstva dopravy se nebudou odvolávat k Úřadu pro ochranu hospodářské soutěže.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Nothing therefore <span class="gl" role="button" tabindex="0" data-term="stands in the way" data-def="stops something from happening" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=stands%20in%20the%20way" aria-label="stands in the way — stops something from happening">stands in the way</span> of signing the contract with RegioJet, Hradecký deník reports.</span><span class="t-cs">Podepsání smlouvy s RegioJetem tak podle Hradeckého deníku nic nebrání.</span></span></p>
+<p class="body cs-full">České dráhy nevyužijí poslední možnost a proti rozhodnutí ministerstva dopravy se nebudou odvolávat k Úřadu pro ochranu hospodářské soutěže. Podepsání smlouvy s RegioJetem tak podle Hradeckého deníku nic nebrání.</p>
+<p class="sources"><span class="src-list"><a href="https://hradecky.denik.cz/zpravy-region/regiojet-ceske-drahy-rychlik-trutnov-hradec-kralove-praha-potvrzeni-smlouva/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=zpravy-region" target="_blank" rel="noopener noreferrer">Hradecký deník</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="2cf26c05402f">
+<span class="stamp"><span class="lang-cs">22. 10. 22:07</span><span class="lang-en">22 Oct 22:07</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">The Hradec three-party coalition has divided up the portfolios, with Žilka set to be first <span class="gl" role="button" tabindex="0" data-term="deputy" data-def="a person who is second in rank and helps the leader" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=deputy" aria-label="deputy — a person who is second in rank and helps the leader">deputy</span> mayor</span><span class="t-cs">Hradecká trojkoalice si rozdělila kompetence, prvním náměstkem má být Žilka</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Dominik Žilka (STAN) is to become first deputy to Mayor Pavlína Springerová (Hradecký demokratický klub).</span><span class="t-cs">Prvním náměstkem primátorky Pavlíny Springerové (Hradecký demokratický klub) by se měl stát Dominik Žilka (STAN).</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Representatives of the agreed three-party coalition <span class="gl" role="button" tabindex="0" data-term="settled on" data-def="finally agreed on a choice" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=settled%20on" aria-label="settled on — finally agreed on a choice">settled on</span> this at Thursday&#x27;s meeting and plan to sign the coalition agreement on 2 November.</span><span class="t-cs">Zástupci dohodnuté trojkoalice se na tom shodli na čtvrtečním jednání, koaliční smlouvu plánují podepsat 2. listopadu.</span></span></p>
+<p class="body cs-full">Prvním náměstkem primátorky Pavlíny Springerové (Hradecký demokratický klub) by se měl stát Dominik Žilka (STAN). Zástupci dohodnuté trojkoalice se na tom shodli na čtvrtečním jednání, koaliční smlouvu plánují podepsat 2. listopadu.</p>
+<p class="sources"><span class="src-list"><a href="https://hradecky.denik.cz/komunalni-volby/koalice-v-hradci-kralove-si-rozdelila-kompetence-podpis-dohody-2-listopadu/?utm_source=rss&amp;utm_medium=feed-vse&amp;utm_campaign=hradecky.denik.cz&amp;utm_content=komunalni-volby" target="_blank" rel="noopener noreferrer">Hradecký deník</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="3841c3887ba7">
+<span class="stamp">08:53<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Jičín will be led by Jan Zachoval, and ANO goes into opposition after twelve years</span><span class="t-cs">Jičín povede Jan Zachoval, hnutí ANO jde po dvanácti letech do opozice</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The mayor of the district town will be fifty-one-year-old Jan Zachoval, an <span class="gl" role="button" tabindex="0" data-term="independent" data-def="a politician who does not belong to any party" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=independent" aria-label="independent — a politician who does not belong to any party">independent</span> and the leader of the winning Patrioti a JDK <span class="gl" role="button" tabindex="0" data-term="grouping" data-def="several people or parties who act together" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=grouping" aria-label="grouping — several people or parties who act together">grouping</span>.</span><span class="t-cs">Starostou okresního města se stane jednapadesátiletý Jan Zachoval, nestraník a lídr vítězného uskupení Patrioti a JDK.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">That Jan Malý (ANO) would leave the post after twelve years was clear before the October elections, but according to iDNES nobody expected the town to be run by a coalition without ANO.</span><span class="t-cs">Že Jan Malý (ANO) po dvanácti letech ve funkci skončí, bylo jasné už před říjnovými volbami, podle iDNES se ale nečekalo, že město povede koalice bez ANO.</span></span></p>
+<p class="body cs-full">Starostou okresního města se stane jednapadesátiletý Jan Zachoval, nestraník a lídr vítězného uskupení Patrioti a JDK. Že Jan Malý (ANO) po dvanácti letech ve funkci skončí, bylo jasné už před říjnovými volbami, podle iDNES se ale nečekalo, že město povede koalice bez ANO.</p>
+<p class="sources"><span class="src-list"><a href="https://www.idnes.cz/volby/hradec-kralove/jicin-komunalni-volby-2026-koalice-starosta-zachoval.A261020_978706_hradec-zpravy_tuu#utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=hradec&amp;utm_content=main" target="_blank" rel="noopener noreferrer">iDNES Hradec</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="9c64dc2d7cf6">
+<span class="stamp">11:05<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Hradec has a fish harvest, LEGO on the <span class="gl" role="button" tabindex="0" data-term="riverside" data-def="the land along the edge of a river" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=riverside" aria-label="riverside — the land along the edge of a river">riverside</span> and an ice hockey derby this weekend</span><span class="t-cs">Hradec čeká o víkendu výlov, LEGO na náplavce i hokejové derby</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">On Saturday carp will be <span class="gl" role="button" tabindex="0" data-term="netted" data-def="caught with a net" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=netted" aria-label="netted — caught with a net">netted</span> at the <span class="gl" role="button" tabindex="0" data-term="dam" data-def="a wall built to hold back water" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=dam" aria-label="dam — a wall built to hold back water">dam</span>, on Sunday there will be treasures on the riverside and in between entertainment for lovers of exercise and small builders with LEGO bricks, Hradecká drbna writes.</span><span class="t-cs">V sobotu se podle Hradecké drbny loví kapři na hrázi, v neděli jsou na programu poklady na náplavce a mezi tím zábava pro milovníky pohybu i malé stavitele z LEGO kostek.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">An ice hockey derby will not be missing either.</span><span class="t-cs">Chybět nebude ani hokejové derby.</span></span></p>
+<p class="body cs-full">V sobotu se podle Hradecké drbny loví kapři na hrázi, v neděli jsou na programu poklady na náplavce a mezi tím zábava pro milovníky pohybu i malé stavitele z LEGO kostek. Chybět nebude ani hokejové derby.</p>
+<p class="sources"><span class="src-list"><a href="https://hradecka.drbna.cz/zpravy/903712-hradec-ceka-ted-o-vikendu-vylov-lego-nablesi-i-hokejove-derby.html" target="_blank" rel="noopener noreferrer">Hradecká drbna</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Svět</span><span class="lang-en">World</span></h2>
+<article data-read-id="74f05957ee42">
+<span class="stamp">14:42 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Israel sealed off the West Bank after the shooting near Hebron, and Netanjahu is considering the largest operation since 1967</span><span class="t-cs">Izrael po střelbě u Hebronu uzavřel Západní břeh, Netanjahu zvažuje největší operaci od roku 1967</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Prime Minister Benjamin Netanjahu ordered a <span class="gl" role="button" tabindex="0" data-term="blockade" data-def="the act of closing a place so nobody can go in or out" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=blockade" aria-label="blockade — the act of closing a place so nobody can go in or out">blockade</span> of the West Bank in response to this morning&#x27;s shooting near Hebron.</span><span class="t-cs">Premiér Benjamin Netanjahu nařídil blokádu Západního břehu Jordánu v reakci na dnešní ranní střelbu u Hebronu.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The Israeli army announced that two of its wounded soldiers died in it, as did two Palestinians who according to the army had attacked the soldiers; three more soldiers were wounded but should not be in danger of death.</span><span class="t-cs">Izraelská armáda oznámila, že při ní zemřeli dva její zranění vojáci a také dva Palestinci, kteří podle armády na vojáky zaútočili; další tři vojáci byli zraněni, neměli by ale být v ohrožení života.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">According to Israeli media and the AFP agency, Netanjahu said he is considering the largest military operation in the West Bank since 1967 and that the army is ready to <span class="gl" role="button" tabindex="0" data-term="carry out" data-def="to do something that has been planned or ordered" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=carry%20out" aria-label="carry out — to do something that has been planned or ordered">carry out</span> the orders.</span><span class="t-cs">Netanjahu podle izraelských médií a agentury AFP prohlásil, že zvažuje na Západním břehu největší vojenskou operaci od roku 1967 a že armáda je připravena příkazy vykonat.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The announcement comes a few days before parliamentary elections in which the head of the Israeli <span class="gl" role="button" tabindex="0" data-term="cabinet" data-def="the group of top ministers who run a government" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=cabinet" aria-label="cabinet — the group of top ministers who run a government">cabinet</span> will seek re-election.</span><span class="t-cs">Oznámení přichází několik dní před parlamentními volbami, v nichž bude šéf izraelského kabinetu usilovat o znovuzvolení.</span></span></p>
+<p class="body cs-full">Premiér Benjamin Netanjahu nařídil blokádu Západního břehu Jordánu v reakci na dnešní ranní střelbu u Hebronu. Izraelská armáda oznámila, že při ní zemřeli dva její zranění vojáci a také dva Palestinci, kteří podle armády na vojáky zaútočili; další tři vojáci byli zraněni, neměli by ale být v ohrožení života. Netanjahu podle izraelských médií a agentury AFP prohlásil, že zvažuje na Západním břehu největší vojenskou operaci od roku 1967 a že armáda je připravena příkazy vykonat. Oznámení přichází několik dní před parlamentními volbami, v nichž bude šéf izraelského kabinetu usilovat o znovuzvolení.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-netanjahu-naridil-uzaveru-zapadniho-brehu-jordanu-po-strelbe-z-patecniho-rana-318589" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a><span class="sep">·</span><a href="https://www.irozhlas.cz/zpravy-svet/netanjahu-po-utoku-u-hebronu-zvazuje-nejvetsi-operaci-na-zapadnim-brehu-od-roku_2610231442_vsn" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://denikn.cz/minuta/2230207/" target="_blank" rel="noopener noreferrer">Deník N</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="d925d564560a">
+<span class="stamp">14:54<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">At least seven people died in a shooting in a church in western Jordan</span><span class="t-cs">Při střelbě v kostele na západě Jordánska zemřelo nejméně sedm lidí</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The attack in the Karak <span class="gl" role="button" tabindex="0" data-term="governorate" data-def="an administrative region in some countries" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=governorate" aria-label="governorate — an administrative region in some countries">governorate</span> left at least seven people dead and ten wounded, according to local media.</span><span class="t-cs">Útok v governorátu Karak si podle místních médií vyžádal nejméně sedm mrtvých a deset zraněných.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Police are searching for two attackers and the <span class="gl" role="button" tabindex="0" data-term="circumstances" data-def="the facts and conditions around an event" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=circumstances" aria-label="circumstances — the facts and conditions around an event">circumstances</span> of the shooting are so far unclear.</span><span class="t-cs">Policie pátrá po dvou útočnících, okolnosti střelby jsou zatím nejasné.</span></span></p>
+<p class="body cs-full">Útok v governorátu Karak si podle místních médií vyžádal nejméně sedm mrtvých a deset zraněných. Policie pátrá po dvou útočnících, okolnosti střelby jsou zatím nejasné.</p>
+<p class="sources"><span class="src-list"><a href="https://denikn.cz/minuta/2230220/" target="_blank" rel="noopener noreferrer">Deník N</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="e191776d4e7d">
+<span class="stamp">13:53<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">France will deploy 70,000 police officers against further protests this weekend</span><span class="t-cs">Francie nasadí o víkendu proti dalším protestům 70 tisíc policistů</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The country is preparing for further weekend protests and, according to the minister, expects violence.</span><span class="t-cs">Země se chystá na další víkendové protesty a podle ministra očekává násilnosti.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Elite police intervention units and <span class="gl" role="button" tabindex="0" data-term="armoured" data-def="covered with strong metal for protection" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=armoured" aria-label="armoured — covered with strong metal for protection">armoured</span> vehicles will also be <span class="gl" role="button" tabindex="0" data-term="deployed" data-def="sent somewhere to be used, especially by police or an army" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=deployed" aria-label="deployed — sent somewhere to be used, especially by police or an army">deployed</span>.</span><span class="t-cs">V akci budou i elitní policejní zásahové jednotky a obrněná vozidla.</span></span></p>
+<p class="body cs-full">Země se chystá na další víkendové protesty a podle ministra očekává násilnosti. V akci budou i elitní policejní zásahové jednotky a obrněná vozidla.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-francie-ceka-dalsi-nasilnosti-nasadime-70-tisic-policistu-rekl-ministr-318616" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="8d33d356b38d">
+<span class="stamp">12:42 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">A damaged <span class="gl" role="button" tabindex="0" data-term="cargo" data-def="goods carried by a ship, plane or truck" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=cargo" aria-label="cargo — goods carried by a ship, plane or truck">cargo</span> ship is sinking off the Romanian coast and the president blames Russia for the attack</span><span class="t-cs">U rumunského pobřeží se potápí zasažená nákladní loď, prezident z útoku viní Rusko</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">One member of the mostly Ukrainian crew died, three are missing and nine people were rescued, media report citing the Romanian <span class="gl" role="button" tabindex="0" data-term="maritime" data-def="connected with the sea and ships" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=maritime" aria-label="maritime — connected with the sea and ships">maritime</span> authority.</span><span class="t-cs">Jeden člen většinově ukrajinské posádky zemřel, tři se pohřešují a devět lidí se podařilo zachránit, píší média s odvoláním na rumunský námořní úřad.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Romanian President Nicušor Dan accused Russia of the attack on the ship, saying that it is <span class="gl" role="button" tabindex="0" data-term="escalating" data-def="making something become more serious or violent" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=escalating" aria-label="escalating — making something become more serious or violent">escalating</span> the war against Ukraine.</span><span class="t-cs">Rumunský prezident Nicušor Dan obvinil z útoku na loď Rusko, které podle něho eskaluje válku proti Ukrajině.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">E15 adds that the Russian defence ministry reported this morning, without details, that Russian forces had hit a cargo ship in the Black Sea.</span><span class="t-cs">E15 dodává, že ruské ministerstvo obrany dnes ráno bez podrobností informovalo, že ruské síly zasáhly nákladní loď v Černém moři.</span></span></p>
+<p class="body cs-full">Jeden člen většinově ukrajinské posádky zemřel, tři se pohřešují a devět lidí se podařilo zachránit, píší média s odvoláním na rumunský námořní úřad. Rumunský prezident Nicušor Dan obvinil z útoku na loď Rusko, které podle něho eskaluje válku proti Ukrajině. E15 dodává, že ruské ministerstvo obrany dnes ráno bez podrobností informovalo, že ruské síly zasáhly nákladní loď v Černém moři.</p>
+<p class="sources"><span class="src-list"><a href="https://www.irozhlas.cz/zpravy-svet/online-pobliz-brehu-rumunska-se-potapi-zasazena-lod-nejmene-jeden-clovek-zemrel_2610231213_vsn" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://www.e15.cz/zahranicni/geopolitika/nakladni-lod-se-potapi-jen-24-kilometru-od-rumunska-prezident-vini-rusko-1436799" target="_blank" rel="noopener noreferrer">E15</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Ekonomika</span><span class="lang-en">Economy</span></h2>
+<article data-read-id="c98b89e2f52b">
+<span class="stamp"><span class="lang-cs">22. 10. 23:05</span><span class="lang-en">22 Oct 23:05</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">The Chamber of Deputies approved the basic budget figures with a <span class="gl" role="button" tabindex="0" data-term="deficit" data-def="the amount by which spending is bigger than income" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=deficit" aria-label="deficit — the amount by which spending is bigger than income">deficit</span> of 386 billion</span><span class="t-cs">Sněmovna schválila základní údaje rozpočtu se schodkem 386 miliard</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">MPs approved the basic parameters of next year&#x27;s draft state budget yesterday evening.</span><span class="t-cs">Poslanci včera večer schválili základní parametry návrhu státního rozpočtu na příští rok.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en"><span class="gl" role="button" tabindex="0" data-term="revenues" data-def="the money that a state or company receives" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=revenues" aria-label="Revenues — the money that a state or company receives">Revenues</span> are to rise by 81 billion and <span class="gl" role="button" tabindex="0" data-term="expenditure" data-def="the money that is spent" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=expenditure" aria-label="expenditure — the money that is spent">expenditure</span> by 157 billion crowns.</span><span class="t-cs">Příjmy se mají zvýšit o 81 miliard a výdaje o 157 miliard korun.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The opposition proposed reworking the budget and cutting the deficit.</span><span class="t-cs">Opozice navrhovala rozpočet přepracovat a schodek snížit.</span></span></p>
+<p class="body cs-full">Poslanci včera večer schválili základní parametry návrhu státního rozpočtu na příští rok. Příjmy se mají zvýšit o 81 miliard a výdaje o 157 miliard korun. Opozice navrhovala rozpočet přepracovat a schodek snížit.</p>
+<p class="sources"><span class="src-list"><a href="https://www.e15.cz/domaci/politika/snemovna-schvalila-zakladni-udaje-rozpoctu-na-pristi-rok-pocita-se-schodkem-386-miliard-1436783" target="_blank" rel="noopener noreferrer">E15</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="028acdd8d433">
+<span class="stamp">12:19<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Volvo Cars will cut 2,500 jobs, two thousand of them in Sweden</span><span class="t-cs">Volvo Cars zruší 2500 pracovních míst, dva tisíce z nich ve Švédsku</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The Swedish carmaker is trying to cut costs <span class="gl" role="button" tabindex="0" data-term="substantially" data-def="by a large amount" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=substantially" aria-label="substantially — by a large amount">substantially</span> in response to strong competition from Chinese carmakers.</span><span class="t-cs">Švédská automobilka se snaží výrazně snížit náklady v reakci na silnou konkurenci čínských automobilek.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Sales in the United States are additionally being hurt by <span class="gl" role="button" tabindex="0" data-term="tariffs" data-def="taxes that a country puts on goods coming from abroad" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=tariffs" aria-label="tariffs — taxes that a country puts on goods coming from abroad">tariffs</span> and weak demand, the Reuters agency reported.</span><span class="t-cs">Prodej ve Spojených státech jí navíc negativně ovlivňují cla a slabá poptávka, uvedla agentura Reuters.</span></span></p>
+<p class="body cs-full">Švédská automobilka se snaží výrazně snížit náklady v reakci na silnou konkurenci čínských automobilek. Prodej ve Spojených státech jí navíc negativně ovlivňují cla a slabá poptávka, uvedla agentura Reuters.</p>
+<p class="sources"><span class="src-list"><a href="https://www.e15.cz/domaci/znama-evropska-automobilka-se-propadla-do-miliardove-ztraty-a-propusti-2500-lidi-1436797" target="_blank" rel="noopener noreferrer">E15</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="461cbb0367e9">
+<span class="stamp">10:56 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Prague Airport chief Lašák resigned after three months in the job</span><span class="t-cs">Šéf Letiště Praha Lašák rezignoval po třech měsících ve funkci</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Chairman of the board Radomír Lašák <span class="gl" role="button" tabindex="0" data-term="stepped down" data-def="left an important job or position" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=stepped%20down" aria-label="stepped down — left an important job or position">stepped down</span> for personal reasons, according to E15, and the finance ministry will open a <span class="gl" role="button" tabindex="0" data-term="tender" data-def="a public process in which companies or people compete for a job" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=tender" aria-label="tender — a public process in which companies or people compete for a job">tender</span> for the vacant position.</span><span class="t-cs">Předseda představenstva Radomír Lašák odstoupil podle E15 z osobních důvodů, ministerstvo financí na uvolněnou pozici vypíše výběrové řízení.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">His appointment was accompanied by criticism over his earlier time at České aerolinie, Deník N recalls, adding that after his departure the unions will end their <span class="gl" role="button" tabindex="0" data-term="strike alert" data-def="a state in which workers are ready to start a strike" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=strike%20alert" aria-label="strike alert — a state in which workers are ready to start a strike">strike alert</span>.</span><span class="t-cs">Jeho jmenování provázela kritika kvůli dřívějšímu působení v Českých aeroliniích, připomíná Deník N, podle kterého odbory po jeho odchodu ukončí stávkovou pohotovost.</span></span></p>
+<p class="body cs-full">Předseda představenstva Radomír Lašák odstoupil podle E15 z osobních důvodů, ministerstvo financí na uvolněnou pozici vypíše výběrové řízení. Jeho jmenování provázela kritika kvůli dřívějšímu působení v Českých aeroliniích, připomíná Deník N, podle kterého odbory po jeho odchodu ukončí stávkovou pohotovost.</p>
+<p class="sources"><span class="src-list"><a href="https://denikn.cz/2229581/sef-letiste-lasak-konci-ve-funkci-vydrzel-necely-tri-mesice/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.e15.cz/domaci/sef-letiste-praha-lasak-konci-uz-po-trech-mesicich-ve-funkci-1436788" target="_blank" rel="noopener noreferrer">E15</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Technologie</span><span class="lang-en">Technology</span></h2>
+<article data-read-id="d6c58ee7afd2">
+<span class="stamp">17:10 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">The Liberec Region also shut down its website over the PHP flaws, and attempts to <span class="gl" role="button" tabindex="0" data-term="exploit" data-def="to use a weakness in a system to attack it" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=exploit" aria-label="exploit — to use a weakness in a system to attack it">exploit</span> them run into the millions</span><span class="t-cs">Kvůli chybám v PHP odstavil weby i Liberecký kraj, pokusů o zneužití jsou miliony</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The Liberec Region&#x27;s website is shut down <span class="gl" role="button" tabindex="0" data-term="as a precaution" data-def="done to stop something bad from happening later" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=as%20a%20precaution" aria-label="as a precaution — done to stop something bad from happening later">as a precaution</span> because of flaws in the PHP programming language and should be running again by Sunday at the latest; other websites had taken the same step earlier.</span><span class="t-cs">Webové stránky Libereckého kraje jsou kvůli chybám v programovacím jazyce PHP preventivně odstavené a provoz mají obnovit nejpozději v neděli; stejně postupovaly dříve i další weby.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">According to data from Cloudflare, the number of attempts to exploit the PHP2Shell <span class="gl" role="button" tabindex="0" data-term="vulnerability" data-def="a weak point that an attacker can use" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=vulnerability" aria-label="vulnerability — a weak point that an attacker can use">vulnerability</span> climbed to hundreds of thousands within a few hours and millions of attempts had been recorded by 22 October, although security firms have not yet confirmed a successful <span class="gl" role="button" tabindex="0" data-term="breach" data-def="a successful attack that gets into a system" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=breach" aria-label="breach — a successful attack that gets into a system">breach</span>.</span><span class="t-cs">Podle údajů společnosti Cloudflare vyšplhal počet pokusů o zneužití zranitelnosti PHP2Shell během několika hodin na stovky tisíc a do 22. října už byly zaznamenány miliony pokusů, úspěšné napadení ale bezpečnostní firmy zatím nepotvrdily.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Root.cz also points to a newly published flaw, CVE-2026-115560, which can likewise lead to remote code execution; it affects only an unusual combination of settings and the PHP project calls exploiting it unlikely.</span><span class="t-cs">Root.cz navíc upozorňuje na nově zveřejněnou chybu CVE-2026-115560, která může rovněž vést ke vzdálenému spuštění kódu; týká se jen neobvyklé kombinace nastavení a projekt PHP její zneužití označuje za nepravděpodobné.</span></span></p>
+<p class="body cs-full">Webové stránky Libereckého kraje jsou kvůli chybám v programovacím jazyce PHP preventivně odstavené a provoz mají obnovit nejpozději v neděli; stejně postupovaly dříve i další weby. Podle údajů společnosti Cloudflare vyšplhal počet pokusů o zneužití zranitelnosti PHP2Shell během několika hodin na stovky tisíc a do 22. října už byly zaznamenány miliony pokusů, úspěšné napadení ale bezpečnostní firmy zatím nepotvrdily. Root.cz navíc upozorňuje na nově zveřejněnou chybu CVE-2026-115560, která může rovněž vést ke vzdálenému spuštění kódu; týká se jen neobvyklé kombinace nastavení a projekt PHP její zneužití označuje za nepravděpodobné.</p>
+<p class="sources"><span class="src-list"><a href="https://denikn.cz/minuta/2230618/" target="_blank" rel="noopener noreferrer">Deník N</a><span class="sep">·</span><a href="https://www.root.cz/zpravicky/miliony-pokusu-o-zneuziti-chyby-php2shell-uspesne-napadeni-zatim-nikdo-nepotvrdil/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss" target="_blank" rel="noopener noreferrer">Root.cz</a><span class="sep">·</span><a href="https://www.root.cz/zpravicky/php-ma-dalsi-bezpecnostni-chybu-utok-ale-vyzaduje-specificke-podminky/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss" target="_blank" rel="noopener noreferrer">Root.cz</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="fc8bc0e87e90">
+<span class="stamp">14:25<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">An artificial intelligence model makes a <span class="gl" role="button" tabindex="0" data-term="diagnosis" data-def="a doctor&#x27;s judgement about what illness someone has" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=diagnosis" aria-label="diagnosis — a doctor&#x27;s judgement about what illness someone has">diagnosis</span> twice as accurately as a doctor</span><span class="t-cs">Model umělé inteligence stanoví diagnózu dvakrát přesněji než lékař</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">According to Seznam Zprávy, an artificial intelligence model can gradually determine a patient&#x27;s diagnosis by coordinating its questions properly, and is twice as accurate as a doctor in doing so.</span><span class="t-cs">Podle Seznam Zpráv dokáže model umělé inteligence na základě správné koordinace otázek postupně stanovit diagnózu pacienta a je při tom dvakrát přesnější než lékař.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">It can continuously update its own <span class="gl" role="button" tabindex="0" data-term="hypotheses" data-def="ideas that are suggested as possible explanations" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=hypotheses" aria-label="hypotheses — ideas that are suggested as possible explanations">hypotheses</span> and order additional tests.</span><span class="t-cs">Umí průběžně aktualizovat vlastní hypotézy i nařídit doplňující vyšetření.</span></span></p>
+<p class="body cs-full">Podle Seznam Zpráv dokáže model umělé inteligence na základě správné koordinace otázek postupně stanovit diagnózu pacienta a je při tom dvakrát přesnější než lékař. Umí průběžně aktualizovat vlastní hypotézy i nařídit doplňující vyšetření.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/zahranicni-model-umele-inteligence-postupne-stanovi-diagnozu-je-presnejsi-nez-lekar-318572" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="53f59718c760">
+<span class="stamp"><span class="lang-cs">22. 10. 20:12</span><span class="lang-en">22 Oct 20:12</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">The certificate authority eMudhra is quitting TLS certificates after the weak key incident</span><span class="t-cs">Certifikační autorita eMudhra po incidentu se slabými klíči končí s TLS certifikáty</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The Indian company eMudhra is leaving the global TLS certificate business.</span><span class="t-cs">Indická společnost eMudhra opouští globální byznys s TLS certifikáty.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">It announced this after the <span class="gl" role="button" tabindex="0" data-term="disclosure" data-def="the act of making secret information known" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=disclosure" aria-label="disclosure — the act of making secret information known">disclosure</span> of an incident in which the private keys of eight of its intermediate certificates could be <span class="gl" role="button" tabindex="0" data-term="derived" data-def="obtained or worked out from something else" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=derived" aria-label="derived — obtained or worked out from something else">derived</span> from public certificates.</span><span class="t-cs">Oznámila to po zveřejnění incidentu, při němž bylo možné z veřejných certifikátů odvodit soukromé klíče osmi jejích mezilehlých certifikátů.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">According to the firm, the exit is the result of a board decision and the certificates made up roughly one percent of its global <span class="gl" role="button" tabindex="0" data-term="revenue" data-def="the money a company earns from its business" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=revenue" aria-label="revenue — the money a company earns from its business">revenue</span>.</span><span class="t-cs">Podle firmy je odchod výsledkem rozhodnutí představenstva a certifikáty tvořily přibližně jedno procento jejích globálních tržeb.</span></span></p>
+<p class="body cs-full">Indická společnost eMudhra opouští globální byznys s TLS certifikáty. Oznámila to po zveřejnění incidentu, při němž bylo možné z veřejných certifikátů odvodit soukromé klíče osmi jejích mezilehlých certifikátů. Podle firmy je odchod výsledkem rozhodnutí představenstva a certifikáty tvořily přibližně jedno procento jejích globálních tržeb.</p>
+<p class="sources"><span class="src-list"><a href="https://www.root.cz/zpravicky/spolecnost-emudhra-konci-po-incidentu-se-slabymi-klici-svuj-byznys-s-certifikaty/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss" target="_blank" rel="noopener noreferrer">Root.cz</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Společnost a kultura</span><span class="lang-en">Society &amp; culture</span></h2>
+<article data-read-id="66882958b297">
+<span class="stamp">15:40<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">People have already sent almost seven million crowns to the collection for Korzo Národní</span><span class="t-cs">Lidé poslali do sbírky na Korzo Národní už skoro sedm milionů korun</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The project, whose <span class="gl" role="button" tabindex="0" data-term="grant" data-def="money given by a state or organisation for a purpose" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=grant" aria-label="grant — money given by a state or organisation for a purpose">grant</span> was rejected by the culture ministry, has already collected more than 6.8 million crowns from <span class="gl" role="button" tabindex="0" data-term="donors" data-def="people who give money to support something" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=donors" aria-label="donors — people who give money to support something">donors</span> and the sum keeps rising.</span><span class="t-cs">Projekt, kterému ministerstvo kultury zamítlo dotaci, vybral od dárců už přes 6,8 milionu korun a suma dál stoupá.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Within two days people thus fully covered the planned costs of the 17 November <span class="gl" role="button" tabindex="0" data-term="commemorations" data-def="events held to remember an important past event" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=commemorations" aria-label="commemorations — events held to remember an important past event">commemorations</span> on Národní třída, and the event will go ahead in full.</span><span class="t-cs">Během dvou dnů tak lidé zcela pokryli plánované náklady na oslavy 17. listopadu na Národní třídě a akce proběhne v plném rozsahu.</span></span></p>
+<p class="body cs-full">Projekt, kterému ministerstvo kultury zamítlo dotaci, vybral od dárců už přes 6,8 milionu korun a suma dál stoupá. Během dvou dnů tak lidé zcela pokryli plánované náklady na oslavy 17. listopadu na Národní třídě a akce proběhne v plném rozsahu.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-korzo-narodni-bude-v-plnem-rozsahu-lide-do-sbirky-poslali-uz-skoro-7-milionu-318626" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="63fb930876b0">
+<span class="stamp">13:45<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">People from Czech film warn that Klempíř&#x27;s proposal will lead to total destruction</span><span class="t-cs">Lidé z českého filmu varují, že Klempířův návrh povede k totální destrukci</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The Union of the Film Industry and the professional associations of <span class="gl" role="button" tabindex="0" data-term="cinematographers" data-def="people who operate the camera and plan the lighting for films" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=cinematographers" aria-label="cinematographers — people who operate the camera and plan the lighting for films">cinematographers</span>, directors, cinema operators, editors and game developers warn in a joint statement of total destruction and a radical <span class="gl" role="button" tabindex="0" data-term="intervention" data-def="an action taken to change what is happening" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=intervention" aria-label="intervention — an action taken to change what is happening">intervention</span>.</span><span class="t-cs">Unie filmového průmyslu a oborové asociace kameramanů, režisérů, provozovatelů kin, střihačů i herních vývojářů varují ve společném prohlášení před totální destrukcí a radikálním zásahem.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">They are responding to a proposal by Culture Minister Klempíř.</span><span class="t-cs">Reagují tak na návrh ministra kultury Klempíře.</span></span></p>
+<p class="body cs-full">Unie filmového průmyslu a oborové asociace kameramanů, režisérů, provozovatelů kin, střihačů i herních vývojářů varují ve společném prohlášení před totální destrukcí a radikálním zásahem. Reagují tak na návrh ministra kultury Klempíře.</p>
+<p class="sources"><span class="src-list"><a href="https://www.seznamzpravy.cz/clanek/kultura-klempiruv-navrh-povede-k-totalni-destrukci-varuji-lide-z-ceskeho-filmu-318608" target="_blank" rel="noopener noreferrer">Seznam Zprávy</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Za pozornost</span><span class="lang-en">Worth reading</span></h2>
+<article data-read-id="54a773877654">
+<span class="stamp">12:00<span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Voxpot describes how Serbia&#x27;s Generation Z wants to bring down Vučić in the elections</span><span class="t-cs">Voxpot popisuje, jak chce srbská generace Z ve volbách svrhnout Vučiće</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">After years spent in the presidential office, Aleksandar Vučić wants to return as prime minister.</span><span class="t-cs">Aleksandar Vučić se po letech strávených v prezidentském úřadu chce vrátit jako premiér.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Standing in his way are a student movement and its <span class="gl" role="button" tabindex="0" data-term="slate" data-def="a list of candidates standing together in an election" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=slate" aria-label="slate — a list of candidates standing together in an election">slate</span> made up of professors, experts and artists.</span><span class="t-cs">V cestě mu stojí studentské hnutí a jeho kandidátka složená z profesorů, expertů i umělců.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Sunday&#x27;s <span class="gl" role="button" tabindex="0" data-term="snap" data-def="held suddenly and earlier than planned" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=snap" aria-label="snap — held suddenly and earlier than planned">snap</span> parliamentary elections are accompanied by fears of fraud and <span class="gl" role="button" tabindex="0" data-term="rigging" data-def="dishonestly arranging a result in advance" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=rigging" aria-label="rigging — dishonestly arranging a result in advance">rigging</span>, Voxpot writes.</span><span class="t-cs">Nedělní předčasné parlamentní volby podle Voxpotu doprovázejí obavy z podvodů a falšování.</span></span></p>
+<p class="body cs-full">Aleksandar Vučić se po letech strávených v prezidentském úřadu chce vrátit jako premiér. V cestě mu stojí studentské hnutí a jeho kandidátka složená z profesorů, expertů i umělců. Nedělní předčasné parlamentní volby podle Voxpotu doprovázejí obavy z podvodů a falšování.</p>
+<p class="sources"><span class="src-list"><a href="https://www.voxpot.cz/clanky/bojime-se-extremniho-nasili-generace-z-chce-v-srbskych-volbach-svrhnout-vucice/" target="_blank" rel="noopener noreferrer">Voxpot</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<section class="rubric">
+<h2><span class="lang-cs">Sport</span><span class="lang-en">Sport</span></h2>
+<article data-read-id="2f0a9d29c5a5">
+<span class="stamp"><span class="lang-cs">22. 10. 20:41</span><span class="lang-en">22 Oct 20:41</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Jablonec held Brighton to a goalless draw at home</span><span class="t-cs">Jablonec uhrál doma s Brightonem bezgólovou remízu</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Jablonec&#x27;s footballers drew 0:0 at home with Brighton on Thursday in the second round of the Conference League, a side <span class="gl" role="button" tabindex="0" data-term="bookmakers" data-def="companies that take bets on sport results" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=bookmakers" aria-label="bookmakers — companies that take bets on sport results">bookmakers</span> regard as the biggest <span class="gl" role="button" tabindex="0" data-term="contender" data-def="a team or person with a real chance of winning" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=contender" aria-label="contender — a team or person with a real chance of winning">contender</span> for the trophy.</span><span class="t-cs">Fotbalisté Jablonce ve čtvrtek ve 2. kole Konferenční ligy remizovali doma 0:0 s Brightonem, kterého sázkové kanceláře považují za největšího aspiranta na zisk trofeje.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">After an opening 2:3 defeat in Freiburg, they thus picked up their first point.</span><span class="t-cs">Po úvodní porážce 2:3 ve Freiburgu tak získali první bod.</span></span></p>
+<p class="body cs-full">Fotbalisté Jablonce ve čtvrtek ve 2. kole Konferenční ligy remizovali doma 0:0 s Brightonem, kterého sázkové kanceláře považují za největšího aspiranta na zisk trofeje. Po úvodní porážce 2:3 ve Freiburgu tak získali první bod.</p>
+<p class="sources"><span class="src-list"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/skvely-jablonec-prekvapive-vybojoval-s-brightonem-bod-159571" target="_blank" rel="noopener noreferrer">ČT Sport</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="d70dcffcb552">
+<span class="stamp"><span class="lang-cs">22. 10. 22:54</span><span class="lang-en">22 Oct 22:54</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Sparta lost to Olympiakos in Athens and Plzeň went down at home to Levski Sofia</span><span class="t-cs">Sparta prohrála v Athénách s Olympiakosem, Plzeň doma podlehla Levski Sofia</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Sparta failed to take a point for the first time in the third round of the Europa League league phase, losing 0:1 to Olympiakos, with <span class="gl" role="button" tabindex="0" data-term="substitute" data-def="a player who comes on to replace another during a match" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=substitute" aria-label="substitute — a player who comes on to replace another during a match">substitute</span> Armando González settling it in the 78th minute.</span><span class="t-cs">Sparta ve 3. kole ligové fáze Evropské ligy poprvé nebodovala, Olympiakosu podlehla 0:1 a rozhodl v 78. minutě střídající Armando González.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Plzeň unexpectedly lost 1:2 at home to Levski Sofia and its chances of <span class="gl" role="button" tabindex="0" data-term="advancing" data-def="going through to the next stage of a competition" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=advancing" aria-label="advancing — going through to the next stage of a competition">advancing</span> have shrunk again.</span><span class="t-cs">Plzeň doma nečekaně prohrála s Levski Sofia 1:2 a její šance na postup se znovu snížily.</span></span></p>
+<p class="body cs-full">Sparta ve 3. kole ligové fáze Evropské ligy poprvé nebodovala, Olympiakosu podlehla 0:1 a rozhodl v 78. minutě střídající Armando González. Plzeň doma nečekaně prohrála s Levski Sofia 1:2 a její šance na postup se znovu snížily.</p>
+<p class="sources"><span class="src-list"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/ceske-nezdary-v-el-sparta-veze-z-recka-porazku-plzen-nestacila-na-levski-159576" target="_blank" rel="noopener noreferrer">ČT Sport</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="4919adc0ef89">
+<span class="stamp"><span class="lang-cs">22. 10. 21:09</span><span class="lang-en">22 Oct 21:09</span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Hložek scored for Hoffenheim and Schick&#x27;s Leverkusen won in the Europa League for the third time</span><span class="t-cs">Hložek se trefil za Hoffenheim, Leverkusen se Schickem vyhrál v Evropské lize i potřetí</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Substitute Adam Hložek <span class="gl" role="button" tabindex="0" data-term="contributed" data-def="helped to produce a result together with others" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=contributed" aria-label="contributed — helped to produce a result together with others">contributed</span> a goal to Hoffenheim&#x27;s 3:0 win over Olympique Lyon.</span><span class="t-cs">Střídající Adam Hložek přispěl gólem k výhře Hoffenheimu nad Olympique Lyon 3:0.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Bayer Leverkusen with Patrik Schick won 2:0 on Crete and is second in the table with nine points and a <span class="gl" role="button" tabindex="0" data-term="goal difference" data-def="the gap between goals scored and goals let in" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=goal%20difference" aria-label="goal difference — the gap between goals scored and goals let in">goal difference</span> of 8:0.</span><span class="t-cs">Bayer Leverkusen s Patrikem Schickem zvítězil na Krétě 2:0 a je v tabulce druhý s devíti body a skóre 8:0.</span></span></p>
+<p class="body cs-full">Střídající Adam Hložek přispěl gólem k výhře Hoffenheimu nad Olympique Lyon 3:0. Bayer Leverkusen s Patrikem Schickem zvítězil na Krétě 2:0 a je v tabulce druhý s devíti body a skóre 8:0.</p>
+<p class="sources"><span class="src-list"><a href="https://sport.ceskatelevize.cz/clanek/fotbal/leverkusen-opet-neinkasoval-potreti-vyhral-a-vede-tabulku-el-159573" target="_blank" rel="noopener noreferrer">ČT Sport</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="c999d903ee17">
+<span class="stamp">14:54 <span class="flag">· <span class="lang-cs">3 zdroje</span><span class="lang-en">3 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">World marathon champion Jepchirchir has been <span class="gl" role="button" tabindex="0" data-term="suspended" data-def="officially stopped from competing for a period" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=suspended" aria-label="suspended — officially stopped from competing for a period">suspended</span> over doping</span><span class="t-cs">Maratonská mistryně světa Jepchirchirová má kvůli dopingu pozastavenou činnost</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The Tokyo 2021 Olympic champion and <span class="gl" role="button" tabindex="0" data-term="reigning" data-def="currently holding a title won earlier" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=reigning" aria-label="reigning — currently holding a title won earlier">reigning</span> world marathon champion tested positive for the blood doping agent EPO in an out-of-competition test, the Athletics Integrity Unit announced.</span><span class="t-cs">Olympijská vítězka z Tokia 2021 a úřadující mistryně světa v maratonu měla při mimosoutěžní kontrole pozitivní test na krevní doping EPO, oznámila Jednotka pro bezúhonnost atletiky.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">The thirty-three-year-old Kenyan has been suspended.</span><span class="t-cs">Třiatřicetiletá Keňanka má pozastavenou činnost.</span></span></p>
+<p class="body cs-full">Olympijská vítězka z Tokia 2021 a úřadující mistryně světa v maratonu měla při mimosoutěžní kontrole pozitivní test na krevní doping EPO, oznámila Jednotka pro bezúhonnost atletiky. Třiatřicetiletá Keňanka má pozastavenou činnost.</p>
+<p class="sources"><span class="src-list"><a href="https://www.sport.cz/clanek/atletika-olympijska-vitezka-a-uradujici-mistryne-sveta-v-maratonu-ma-pozastavenou-cinnost-5560739" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://www.irozhlas.cz/sport/ostatni-sporty/beh-maraton-doping-kena-jepchirchirova_2610231346_lbk" target="_blank" rel="noopener noreferrer">iROZHLAS</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/atletika/maratonska-hvezda-jepchirchirova-mela-pozitivni-dopingovy-test-159590" target="_blank" rel="noopener noreferrer">ČT Sport</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="dc47bdcac8cb">
+<span class="stamp">10:19 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Bouzková and Siniaková both reached the semi-finals at Asian tournaments</span><span class="t-cs">Bouzková i Siniaková postoupily na asijských turnajích do semifinále</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">Marie Bouzková beat Sára Bejlek 6:3, 6:4 in an all-Czech <span class="gl" role="button" tabindex="0" data-term="clash" data-def="a match between two opponents" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=clash" aria-label="clash — a match between two opponents">clash</span> in Ningbo and will play Canada&#x27;s Leylah Fernandez for a place in the final.</span><span class="t-cs">Marie Bouzková v Ning-po porazila v českém souboji Sáru Bejlek 6:3, 6:4 a o finále si zahraje s Kanaďankou Leylah Fernandezovou.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Kateřina Siniaková beat the American Mary Stoiana 6:1 and 6:2 in Osaka, and the world&#x27;s number one in <span class="gl" role="button" tabindex="0" data-term="doubles" data-def="a tennis game played by two pairs of players" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=doubles" aria-label="doubles — a tennis game played by two pairs of players">doubles</span> will appear in a singles semi-final on the WTA Tour for the first time in a year.</span><span class="t-cs">Kateřina Siniaková v Ósace zdolala Američanku Mary Stoianaovou 6:1 a 6:2 a v semifinále dvouhry se světová deblová jednička představí na okruhu WTA po roce.</span></span></p>
+<p class="body cs-full">Marie Bouzková v Ning-po porazila v českém souboji Sáru Bejlek 6:3, 6:4 a o finále si zahraje s Kanaďankou Leylah Fernandezovou. Kateřina Siniaková v Ósace zdolala Američanku Mary Stoianaovou 6:1 a 6:2 a v semifinále dvouhry se světová deblová jednička představí na okruhu WTA po roce.</p>
+<p class="sources"><span class="src-list"><a href="https://www.sport.cz/clanek/tenis-bouzkovou-ceka-ceske-derby-o-semifinale-zabojuje-i-siniakova-5559965" target="_blank" rel="noopener noreferrer">Sport.cz</a><span class="sep">·</span><a href="https://sport.ceskatelevize.cz/clanek/tenis/bouzkova-vyhrala-v-cine-cesky-souboj-siniakova-si-v-japonsku-zahraje-semifinale-159584" target="_blank" rel="noopener noreferrer">ČT Sport</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+<article data-read-id="e1158c126d50">
+<span class="stamp">06:28 <span class="flag">· <span class="lang-cs">2 zdroje</span><span class="lang-en">2 sources</span></span><span class="read-mark"> · <span class="lang-cs">přečteno ✓</span><span class="lang-en">read ✓</span></span></span>
+<h3><span class="s" tabindex="0" role="button"><span class="t-en">Pastrňák led Boston to a 6:0 win over Nashville with four points</span><span class="t-cs">Pastrňák čtyřmi body řídil výhru Bostonu nad Nashvillem 6:0</span></span></h3>
+<p class="body en"><span class="s" tabindex="0" role="button"><span class="t-en">The new Bruins captain scored two goals and added two <span class="gl" role="button" tabindex="0" data-term="assists" data-def="passes that directly help a team-mate to score" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=assists" aria-label="assists — passes that directly help a team-mate to score">assists</span>, and Pavel Zacha registered two assists.</span><span class="t-cs">Nový kapitán Bruins dal dva góly a přidal dvě asistence, Pavel Zacha zapsal dvě přihrávky.</span></span> <span class="s" tabindex="0" role="button"><span class="t-en">Czech goalkeeper Michal Postava made his NHL <span class="gl" role="button" tabindex="0" data-term="debut" data-def="a first appearance at a certain level" data-url="https://dictionary.cambridge.org/search/direct/?datasetsearch=english&amp;q=debut" aria-label="debut — a first appearance at a certain level">debut</span> in Detroit&#x27;s net in the game in Vancouver.</span><span class="t-cs">V brance Detroitu si v utkání ve Vancouveru odbyl premiéru v NHL český gólman Michal Postava.</span></span></p>
+<p class="body cs-full">Nový kapitán Bruins dal dva góly a přidal dvě asistence, Pavel Zacha zapsal dvě přihrávky. V brance Detroitu si v utkání ve Vancouveru odbyl premiéru v NHL český gólman Michal Postava.</p>
+<p class="sources"><span class="src-list"><a href="https://sport.ceskatelevize.cz/clanek/hokej/ctyrbodovy-pastrnak-ovladl-vitezny-duel-s-nashvillem-zacha-dvakrat-asistoval-159581" target="_blank" rel="noopener noreferrer">ČT Sport</a><span class="sep">·</span><a href="https://www.sport.cz/clanek/hokej-nhl-uchvatne-predstaveni-pastrnaka-vystrelilo-boston-k-suverenni-vyhre-5560444" target="_blank" rel="noopener noreferrer">Sport.cz</a></span><button class="tool-read" type="button" aria-pressed="false" aria-label="Mark as read" title="Mark as read / Označit jako přečtené"><span aria-hidden="true">✓</span></button></p>
+</article>
+</section>
+
+<nav class="pager">
+<a href="2026-10-22.html">← <span class="lang-cs">22. 10. 2026</span><span class="lang-en">22 Oct 2026</span></a>
+<a href="archiv.html"><span class="lang-cs">Archiv</span><span class="lang-en">Archive</span></a>
+<span></span>
+</nav>
+
+<footer>
+<p class="used"><span class="lang-cs">Zdroje vydání: Deník N · Seznam Zprávy · E15 · iROZHLAS · Voxpot · Root.cz · Hradecký deník · iDNES Hradec · Hradecká drbna · ČT Sport · Sport.cz</span><span class="lang-en">Sources of this issue: Deník N · Seznam Zprávy · E15 · iROZHLAS · Voxpot · Root.cz · Hradecký deník · iDNES Hradec · Hradecká drbna · ČT Sport · Sport.cz</span></p>
+<p class="warn"><span class="lang-cs">Nepodařilo se načíst: ČT24.</span><span class="lang-en">Could not be fetched: ČT24.</span></p>
+<p><span class="lang-cs">Vydání vzniká automaticky každý den v 17:00 a shrnuje uplynulých 24 hodin z RSS uvedených zdrojů. Každá zpráva odkazuje na původní článek. Počasí je předpověď na následující dny. Anglická verze je překlad českého původního znění.</span><span class="lang-en">A new issue is put together automatically every day at 17:00 and covers the last 24 hours of the RSS feeds listed above. Every story links to the original article, which is in Czech. The English text is a translation of the Czech original.</span></p>
+<p><a href="index.html"><span class="lang-cs">Nejnovější vydání</span><span class="lang-en">Latest issue</span></a></p>
+</footer>
+</div>
+</body>
+</html>
