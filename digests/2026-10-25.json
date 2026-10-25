@@ -1,0 +1,1462 @@
+{
+  "date": "2026-10-25",
+  "covers": "2026-10-25",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra slabé přehánky a chladno, přes den až 11 °C. Kvalita ovzduší bude zhoršená.",
+    "summary_en": "Tomorrow will bring light showers and cool weather, up to 11 °C during the day. Air quality will be poor.",
+    "days": [
+      {
+        "date": "2026-10-26",
+        "icon": "rain",
+        "temp_max_c": 11.2,
+        "temp_min_c": 3.5
+      },
+      {
+        "date": "2026-10-27",
+        "icon": "fog",
+        "temp_max_c": 12.7,
+        "temp_min_c": 2.9
+      },
+      {
+        "date": "2026-10-28",
+        "icon": "rain",
+        "temp_max_c": 11.7,
+        "temp_min_c": 5.7
+      },
+      {
+        "date": "2026-10-29",
+        "icon": "rain",
+        "temp_max_c": 11.2,
+        "temp_min_c": 7.5
+      }
+    ]
+  },
+  "highlights": [
+    "Koalice poslala v sobotu nad ránem zrušení koncesionářských poplatků do druhého čtení a v neděli odpoledne se na Staroměstském náměstí sešla demonstrace na podporu České televize a Českého rozhlasu.",
+    "Tomio Okamura přiznal, že se na noční hlasování připravoval tři dny, a slíbil, že 7,8 miliardy korun pro veřejnoprávní média vezme vláda z rozpočtových rezerv.",
+    "Srbové volí v předčasných parlamentních volbách a Brazilci rozhodují ve druhém kole o prezidentovi.",
+    "Fotbalistu Pavla Šulce čeká operace menisku a nejméně čtyřměsíční pauza."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:07",
+      "headline": "Na Staroměstském náměstí se sešla demonstrace na podporu České televize a Českého rozhlasu",
+      "body": "Spolek Milion chvilek pro demokracii svolal na nedělní šestnáctou hodinu na pražské Staroměstské náměstí protest proti vládnímu návrhu zrušit koncesionářské poplatky a převést financování veřejnoprávních médií na státní rozpočet. Náměstí se podle Deníku N plnilo lidmi ještě před začátkem a z některých směrů byl příchod plný. Organizátoři vyzvali k ohleduplnosti a klidnému průběhu; předseda spolku Mikuláš Minář odmítl přirovnání páteční demonstrace na Malostranském náměstí k útoku na Kapitol. Koaliční poslanci ANO, SPD a Motoristů poslali novelu do druhého čtení po bouřlivém nočním jednání z pátku na sobotu v půl páté ráno. Už v sobotu se shromáždění na podporu obou médií konala v Brně, kde podle Deníku N zaplnily náměstí Svobody tisíce lidí, a také v Liberci a Českých Budějovicích. Premiér Andrej Babiš v neděli na sociálních sítích uvedl, že „aktivisté z Milionu chvilek nestojí o normální debatu“ o financování veřejnoprávních médií.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-demonstrace-praha-milion-chvilek-poplatky-ct-rozhlas-online-318702"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232671/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/milion-chvilek-demonstrace-staromestske-namesti-ruseni-poplatku-rozhlas-televize_2610251600_tec"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/lide-v-centru-prahy-vyjadruji-podporu-verejnopravnim-mediim-378994"
+        }
+      ],
+      "en": {
+        "headline": "A demonstration in support of Czech Television and Czech Radio filled Old Town Square",
+        "sentences": [
+          {
+            "en": "The association Milion chvilek pro demokracii called a protest for four o'clock on Sunday afternoon on Prague's Old Town Square against the government's bill to abolish the licence fees and move the funding of the public service media to the state budget.",
+            "cs": "Spolek Milion chvilek pro demokracii svolal na nedělní šestnáctou hodinu na pražské Staroměstské náměstí protest proti vládnímu návrhu zrušit koncesionářské poplatky a převést financování veřejnoprávních médií na státní rozpočet."
+          },
+          {
+            "en": "According to Deník N the square was filling with people even before the start, and from some directions the approach was already packed.",
+            "cs": "Náměstí se podle Deníku N plnilo lidmi ještě před začátkem a z některých směrů byl příchod plný."
+          },
+          {
+            "en": "The organisers called for consideration and a peaceful course; the association's chairman Mikuláš Minář rejected the comparison of Friday's demonstration on Malostranské náměstí to the attack on the Capitol.",
+            "cs": "Organizátoři vyzvali k ohleduplnosti a klidnému průběhu; předseda spolku Mikuláš Minář odmítl přirovnání páteční demonstrace na Malostranském náměstí k útoku na Kapitol."
+          },
+          {
+            "en": "Coalition MPs from ANO, SPD and the Motorists sent the amendment to its second reading after a stormy night sitting that ran from Friday into Saturday and ended at half past four in the morning.",
+            "cs": "Koaliční poslanci ANO, SPD a Motoristů poslali novelu do druhého čtení po bouřlivém nočním jednání z pátku na sobotu v půl páté ráno."
+          },
+          {
+            "en": "Gatherings in support of both broadcasters were already held on Saturday in Brno, where according to Deník N thousands of people filled náměstí Svobody, and also in Liberec and České Budějovice.",
+            "cs": "Už v sobotu se shromáždění na podporu obou médií konala v Brně, kde podle Deníku N zaplnily náměstí Svobody tisíce lidí, a také v Liberci a Českých Budějovicích."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš said on social media on Sunday that “the activists from Milion chvilek are not interested in a normal debate” about the funding of the public service media.",
+            "cs": "Premiér Andrej Babiš v neděli na sociálních sítích uvedl, že „aktivisté z Milionu chvilek nestojí o normální debatu“ o financování veřejnoprávních médií."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "licence fees",
+            "definition": "money that people must pay to be allowed to watch or listen to public broadcasting"
+          },
+          {
+            "term": "stormy",
+            "definition": "full of angry argument and strong feelings"
+          },
+          {
+            "term": "gatherings",
+            "definition": "events where a group of people come together in one place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:08",
+      "headline": "Okamura přiznal, že se na noční hlasování o poplatcích připravoval tři dny",
+      "body": "Předseda Sněmovny a šéf SPD Tomio Okamura poodhalil, že se na jednání dolní komory z pátku na sobotu pečlivě připravoval, aby koalice v prvním čtení prosadila zrušení mediálních poplatků. Postup podle svých slov konzultoval s právníky, chystal varianty a věnoval přípravám tři dny. V pořadu Partie televize CNN Prima News zároveň uvedl, že financování veřejnoprávních médií ze státního rozpočtu nepůjde na úkor rozpočtového schodku: zhruba 7,8 miliardy korun chce vláda vzít z rozpočtových rezerv. Ve stejném pořadu se Okamura střetl s bývalým premiérem Petrem Fialou (ODS). Ten namítl, že mezi pevně zařazeným časem hlasování a postupy minulé vlády je rozdíl, protože koalice tentokrát rozhodla o pevném času už ve chvíli, kdy opozice s obstrukčním chováním vůbec neměla šanci začít.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2232464/tri-dny-priprav-varianty-a-konzultace-s-pravniky-okamura-priznal-jak-se-chystal-na-nocni-hlasovani-o-poplatcich/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-pripravoval-jsem-se-tri-dny-rekl-okamura-k-nocnimu-ruseni-poplatku-318696"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/penize-na-verejnopravni-media-pujdou-z-rezerv-nezvysi-schodek-rozpoctu-uvedl_2610251233_cen"
+        }
+      ],
+      "en": {
+        "headline": "Okamura admitted he had spent three days preparing for the night vote on the fees",
+        "sentences": [
+          {
+            "en": "The Speaker of the Chamber of Deputies and SPD leader Tomio Okamura revealed that he had prepared carefully for the sitting of the lower house that ran from Friday into Saturday, so that the coalition could push through the abolition of the media fees in the first reading.",
+            "cs": "Předseda Sněmovny a šéf SPD Tomio Okamura poodhalil, že se na jednání dolní komory z pátku na sobotu pečlivě připravoval, aby koalice v prvním čtení prosadila zrušení mediálních poplatků."
+          },
+          {
+            "en": "By his own account he consulted the procedure with lawyers, prepared several options and devoted three days to the preparations.",
+            "cs": "Postup podle svých slov konzultoval s právníky, chystal varianty a věnoval přípravám tři dny."
+          },
+          {
+            "en": "On the programme Partie on CNN Prima News he also said that funding the public service media from the state budget would not come at the expense of the budget deficit: the government intends to take roughly 7.8 billion crowns from budget reserves.",
+            "cs": "V pořadu Partie televize CNN Prima News zároveň uvedl, že financování veřejnoprávních médií ze státního rozpočtu nepůjde na úkor rozpočtového schodku: zhruba 7,8 miliardy korun chce vláda vzít z rozpočtových rezerv."
+          },
+          {
+            "en": "On the same programme Okamura clashed with former prime minister Petr Fiala (ODS).",
+            "cs": "Ve stejném pořadu se Okamura střetl s bývalým premiérem Petrem Fialou (ODS)."
+          },
+          {
+            "en": "Fiala objected that there is a difference between a fixed time for the vote and the practice of the previous government, because this time the coalition set the fixed time at a moment when the opposition had no chance to start obstructing at all.",
+            "cs": "Ten namítl, že mezi pevně zařazeným časem hlasování a postupy minulé vlády je rozdíl, protože koalice tentokrát rozhodla o pevném času už ve chvíli, kdy opozice s obstrukčním chováním vůbec neměla šanci začít."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "push through",
+            "definition": "to succeed in getting something officially accepted"
+          },
+          {
+            "term": "at the expense of",
+            "definition": "causing harm or loss to something else"
+          },
+          {
+            "term": "obstructing",
+            "definition": "deliberately slowing down or blocking a process"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "09:19",
+      "headline": "Na literární dotace ministerstva kultury nedosáhnou periodika, která píšou o politice",
+      "body": "Příspěvek ministerstva kultury pro literární periodika mohou příští rok získat jen ta média, která se nevěnují politice. Vyplývá to ze zjištění Deníku N; resort vede ministr Ota Klempíř (za Motoristy sobě). „Chápeme to jako záměr odstřihnout nepohodlné hlasy od státního příspěvku,“ reagoval zástupce šéfredaktora kulturního čtrnáctideníku A2. Podle Klempíře se o cenzuru nejedná.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2231003/omezeni-svobody-slova-na-literarni-dotace-ministerstva-kultury-nedosahnou-ti-kdo-pisou-o-politice/"
+        }
+      ],
+      "en": {
+        "headline": "Literary magazines that write about politics will not get culture ministry grants",
+        "sentences": [
+          {
+            "en": "Only media that do not deal with politics will be able to receive the culture ministry's grant for literary periodicals next year.",
+            "cs": "Příspěvek ministerstva kultury pro literární periodika mohou příští rok získat jen ta média, která se nevěnují politice."
+          },
+          {
+            "en": "This follows from findings by Deník N; the ministry is led by Ota Klempíř (for the Motorists).",
+            "cs": "Vyplývá to ze zjištění Deníku N; resort vede ministr Ota Klempíř (za Motoristy sobě)."
+          },
+          {
+            "en": "“We understand it as an intention to cut off inconvenient voices from state support,” responded the deputy editor-in-chief of the cultural fortnightly A2.",
+            "cs": "„Chápeme to jako záměr odstřihnout nepohodlné hlasy od státního příspěvku,“ reagoval zástupce šéfredaktora kulturního čtrnáctideníku A2."
+          },
+          {
+            "en": "According to Klempíř this is not censorship.",
+            "cs": "Podle Klempíře se o cenzuru nejedná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "periodicals",
+            "definition": "magazines or newspapers that come out regularly"
+          },
+          {
+            "term": "cut off",
+            "definition": "to stop someone from getting something they used to receive"
+          },
+          {
+            "term": "inconvenient",
+            "definition": "causing trouble or difficulty for someone"
+          },
+          {
+            "term": "fortnightly",
+            "definition": "a magazine published once every two weeks"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:02",
+      "headline": "Bradáčová podporuje snížení hranice trestní odpovědnosti na třináct let",
+      "body": "Kriminalita mládeže se podle nejvyšší státní zástupkyně Lenky Bradáčové nezvyšuje, mění se však její typ: děti se přesouvají od krádeží k násilným trestným činům, včetně vražd. Řekla to v nedělní debatě České televize. Pokud by se hranice trestní odpovědnosti snižovala, byla by Bradáčová pro změnu ze současných patnácti na třináct let. Změnu zvažuje ministerstvo spravedlnosti.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/kriminalita-deti-se-posouva-k-nasilnym-trestnym-cinum-rika-bradacova-snizeni_2610251402_tec"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232572/"
+        }
+      ],
+      "en": {
+        "headline": "Bradáčová supports lowering the age of criminal responsibility to thirteen",
+        "sentences": [
+          {
+            "en": "Youth crime is not rising, but its character is changing, says Supreme Public Prosecutor Lenka Bradáčová: children are moving from theft towards violent offences, including murder.",
+            "cs": "Kriminalita mládeže se podle nejvyšší státní zástupkyně Lenky Bradáčové nezvyšuje, mění se však její typ: děti se přesouvají od krádeží k násilným trestným činům, včetně vražd."
+          },
+          {
+            "en": "She said so in a Sunday debate on Czech Television.",
+            "cs": "Řekla to v nedělní debatě České televize."
+          },
+          {
+            "en": "If the age of criminal responsibility were to be lowered, Bradáčová would be in favour of a change from the current fifteen years to thirteen.",
+            "cs": "Pokud by se hranice trestní odpovědnosti snižovala, byla by Bradáčová pro změnu ze současných patnácti na třináct let."
+          },
+          {
+            "en": "The justice ministry is considering the change.",
+            "cs": "Změnu zvažuje ministerstvo spravedlnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "criminal responsibility",
+            "definition": "the age from which a person can be punished by a court for a crime"
+          },
+          {
+            "term": "theft",
+            "definition": "the crime of stealing something"
+          },
+          {
+            "term": "offences",
+            "definition": "actions that break the law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:20",
+      "headline": "Veterináři zlikvidují kvůli salmonele chov na Českobudějovicku, utratí přes 30 tisíc nosnic",
+      "body": "Kvůli opakovanému výskytu salmonely budou veterináři likvidovat chov slepic v Dyníně na Českobudějovicku. Utratit bude nutné přes 30 tisíc nosnic společnosti Mavela, sdělil mluvčí Státní veterinární správy Petr Majer. Likvidace chovu začne v pondělí a potrvá zřejmě dva dny. Podle veterinární správy se od zjištění nákazy žádná čerstvá vejce Mavely na trh nedostala. Bakterie z rodu Salmonella způsobují u lidí infekční průjmové onemocnění.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/veterinari-na-ceskobudejovicku-zlikviduji-chov-slepic-kvuli-salmonele-trati-pres_2610251346_mkm"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-veterinari-budou-na-ceskobudejovicku-likvidovat-chov-slepic-kvuli-salmonele-318698"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232597/"
+        }
+      ],
+      "en": {
+        "headline": "Vets will cull a flock in the České Budějovice area over salmonella and put down more than 30,000 hens",
+        "sentences": [
+          {
+            "en": "Because of a repeated occurrence of salmonella, vets will cull a flock of hens in Dynín in the České Budějovice area.",
+            "cs": "Kvůli opakovanému výskytu salmonely budou veterináři likvidovat chov slepic v Dyníně na Českobudějovicku."
+          },
+          {
+            "en": "More than 30,000 laying hens belonging to the company Mavela will have to be put down, said State Veterinary Administration spokesman Petr Majer.",
+            "cs": "Utratit bude nutné přes 30 tisíc nosnic společnosti Mavela, sdělil mluvčí Státní veterinární správy Petr Majer."
+          },
+          {
+            "en": "The culling of the flock will start on Monday and will probably take two days.",
+            "cs": "Likvidace chovu začne v pondělí a potrvá zřejmě dva dny."
+          },
+          {
+            "en": "According to the veterinary authority, no fresh Mavela eggs have reached the market since the infection was discovered.",
+            "cs": "Podle veterinární správy se od zjištění nákazy žádná čerstvá vejce Mavely na trh nedostala."
+          },
+          {
+            "en": "Bacteria of the Salmonella genus cause an infectious diarrhoeal illness in people.",
+            "cs": "Bakterie z rodu Salmonella způsobují u lidí infekční průjmové onemocnění."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cull",
+            "definition": "to kill animals, usually to stop a disease from spreading"
+          },
+          {
+            "term": "flock",
+            "definition": "a group of birds kept together"
+          },
+          {
+            "term": "laying hens",
+            "definition": "female chickens kept to produce eggs"
+          },
+          {
+            "term": "diarrhoeal",
+            "definition": "connected with an illness that makes the body pass very loose waste"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:57",
+      "headline": "Hradec doma podlehl Jablonci 1:2 a přišel o zraněného kapitána Daridu",
+      "body": "Nedělní program 12. kola první fotbalové ligy začal v Hradci Králové, kde Jablonec vyhrál 2:1. Oba góly hostů dal slovenský záložník Sebastián Nebyla, první ve 34. minutě z penalty. Domácí snížili Tomášem Čvančarou, vyrovnání jim podle iDNES vzal videorozhodčí. Pro Hradec jde o třetí domácí porážku v řadě. Zápas navíc nedohrál kapitán Vladimír Darida, který musel ze hřiště na nosítkách.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/nebyla-sestrelil-hradec-ktery-dohraval-bez-zraneneho-daridy-159627"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/fotbal-prvni-liga/dalsi-domaci-rana-pro-hradec-var-sebral-vyrovnani-daridu-odnesli-na-nositkach/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/fotbal/prvni-liga/chance-liga-12-kolo-jablonec-hradec-kralove-online-vysledek.A261023_123554_fotbal_tals#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Hradec lost 1:2 at home to Jablonec and lost its injured captain Darida",
+        "sentences": [
+          {
+            "en": "Sunday's part of the twelfth round of the top football league began in Hradec Králové, where Jablonec won 2:1.",
+            "cs": "Nedělní program 12. kola první fotbalové ligy začal v Hradci Králové, kde Jablonec vyhrál 2:1."
+          },
+          {
+            "en": "Both of the visitors' goals were scored by Slovak midfielder Sebastián Nebyla, the first in the 34th minute from a penalty.",
+            "cs": "Oba góly hostů dal slovenský záložník Sebastián Nebyla, první ve 34. minutě z penalty."
+          },
+          {
+            "en": "The home side pulled one back through Tomáš Čvančara, and according to iDNES the video referee took away their equaliser.",
+            "cs": "Domácí snížili Tomášem Čvančarou, vyrovnání jim podle iDNES vzal videorozhodčí."
+          },
+          {
+            "en": "For Hradec it is a third home defeat in a row.",
+            "cs": "Pro Hradec jde o třetí domácí porážku v řadě."
+          },
+          {
+            "en": "On top of that, captain Vladimír Darida did not finish the match and had to leave the pitch on a stretcher.",
+            "cs": "Zápas navíc nedohrál kapitán Vladimír Darida, který musel ze hřiště na nosítkách."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "midfielder",
+            "definition": "a football player who plays in the middle part of the pitch"
+          },
+          {
+            "term": "pulled one back",
+            "definition": "scored a goal when losing, making the score closer"
+          },
+          {
+            "term": "equaliser",
+            "definition": "a goal that makes the score level"
+          },
+          {
+            "term": "stretcher",
+            "definition": "a flat frame used to carry an injured person"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:26",
+      "headline": "Sněžku zasáhl orkán, horní úsek lanovky celý den nejede",
+      "body": "Nejvyšší horu Česka v neděli ráno sužoval vítr o síle orkánu, jehož nárazy přesáhly 141 kilometrů za hodinu. Horní úsek kabinové lanovky kvůli větru nepojede celý den, pěšky z Růžové hory na vrchol se ale podle Seznam Zpráv dojít dá. Na vrcholu se drží sníh a turistům hrozí nebezpečí na zledovatělých cestách. Podle iDNES naměřila stanice poštovny Anežka na vrcholu v 7:30 minus tři stupně Celsia; hranice orkánu je 117,7 kilometru za hodinu. E15 dodává, že silný vítr a déšť mají zasáhnout i další části Česka a ve vyšších horských polohách se očekává sněžení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-snezku-zasahl-orkan-horni-usek-lanovky-nejezdi-turiste-by-meli-byt-opatrni-318686"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/snezku-bicuje-orkan-na-vrcholu-je-jako-v-arktide-lanovka-kvuli-vetru-nepojede-1436818"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/snezka-orkan-trutnov-pec-pod-snezkou-krkonose-lanovka-vitr-snih-celsia.A261025_083015_hradec-zpravy_linh#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "A hurricane-force wind hit Sněžka and the upper section of the cable car is out of service all day",
+        "sentences": [
+          {
+            "en": "The highest mountain in Czechia was battered on Sunday morning by a wind of hurricane force, with gusts exceeding 141 kilometres per hour.",
+            "cs": "Nejvyšší horu Česka v neděli ráno sužoval vítr o síle orkánu, jehož nárazy přesáhly 141 kilometrů za hodinu."
+          },
+          {
+            "en": "The upper section of the cable car will not run all day because of the wind, but according to Seznam Zprávy it is still possible to walk up to the summit from Růžová hora.",
+            "cs": "Horní úsek kabinové lanovky kvůli větru nepojede celý den, pěšky z Růžové hory na vrchol se ale podle Seznam Zpráv dojít dá."
+          },
+          {
+            "en": "Snow is lying on the summit and tourists face danger on icy paths.",
+            "cs": "Na vrcholu se drží sníh a turistům hrozí nebezpečí na zledovatělých cestách."
+          },
+          {
+            "en": "According to iDNES, the weather station at the Anežka post house on the summit measured minus three degrees Celsius at 7:30; the threshold for hurricane force is 117.7 kilometres per hour.",
+            "cs": "Podle iDNES naměřila stanice poštovny Anežka na vrcholu v 7:30 minus tři stupně Celsia; hranice orkánu je 117,7 kilometru za hodinu."
+          },
+          {
+            "en": "E15 adds that strong wind and rain are due to hit other parts of Czechia as well, with snowfall expected at higher mountain altitudes.",
+            "cs": "E15 dodává, že silný vítr a déšť mají zasáhnout i další části Česka a ve vyšších horských polohách se očekává sněžení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "battered",
+            "definition": "hit hard and repeatedly"
+          },
+          {
+            "term": "gusts",
+            "definition": "sudden short rushes of strong wind"
+          },
+          {
+            "term": "summit",
+            "definition": "the highest point of a mountain"
+          },
+          {
+            "term": "threshold",
+            "definition": "the level at which something starts to count as something else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:52",
+      "headline": "Na staveništi dálnice D11 na Trutnovsku zemřel po pádu z mostu dělník",
+      "body": "Na staveništi dálnice D11 v Bernarticích na Trutnovsku zemřel v sobotu dopoledne stavební dělník, který spadl z rozestavěného mostu. Druhý pracovník, jenž byl pod mostem, skončil se zraněním v nemocnici. Na místě zasahoval záchranářský vrtulník. „Jednalo se o cizince. Příčiny a okolnosti této tragické události jsou předmětem dalšího šetření,“ řekl policejní mluvčí Martin Stránský.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/pad-delnik-staveniste-d11-most-trutnovsko-bernartice-umrti.A261025_091917_hradec-zpravy_zdo#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232394/"
+        }
+      ],
+      "en": {
+        "headline": "A worker died after falling from a bridge on the D11 motorway construction site in the Trutnov area",
+        "sentences": [
+          {
+            "en": "A construction worker who fell from an unfinished bridge died on Saturday morning at the D11 motorway construction site in Bernartice in the Trutnov area.",
+            "cs": "Na staveništi dálnice D11 v Bernarticích na Trutnovsku zemřel v sobotu dopoledne stavební dělník, který spadl z rozestavěného mostu."
+          },
+          {
+            "en": "A second worker, who was underneath the bridge, ended up in hospital with an injury.",
+            "cs": "Druhý pracovník, jenž byl pod mostem, skončil se zraněním v nemocnici."
+          },
+          {
+            "en": "A rescue helicopter was called to the scene.",
+            "cs": "Na místě zasahoval záchranářský vrtulník."
+          },
+          {
+            "en": "“It was a foreign national. The causes and circumstances of this tragic event are the subject of further investigation,” said police spokesman Martin Stránský.",
+            "cs": "„Jednalo se o cizince. Příčiny a okolnosti této tragické události jsou předmětem dalšího šetření,“ řekl policejní mluvčí Martin Stránský."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unfinished",
+            "definition": "not yet completed"
+          },
+          {
+            "term": "circumstances",
+            "definition": "the facts and conditions around an event"
+          },
+          {
+            "term": "subject of",
+            "definition": "the thing that something is about or deals with"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "21:56",
+      "day": "prev",
+      "headline": "Lídr hradeckých Pirátů nastříkal před sídlem ANO nápis na podporu České televize",
+      "body": "Lídr Pirátů a Starostů v Hradci Králové Kamil Kubica v reakci na dění ve Sněmovně nastříkal v noci na sobotu na chodník před sídlem ANO v Hradci Králové nápis „Ruce pryč od ČT“. Hnutí ANO tvrdí, že tím poničil majetek města. Kubica oponuje, že se žádná škoda nestala, protože šlo pouze o tekutou křídu.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/politika/903988-lidr-piratu-nastrikal-v-noci-na-chodnik-pred-sidlem-ano-napis-na-podporu-ct.html"
+        }
+      ],
+      "en": {
+        "headline": "The leader of the Hradec Pirates sprayed a message in support of Czech Television outside the ANO offices",
+        "sentences": [
+          {
+            "en": "Kamil Kubica, who leads the Pirates and Mayors in Hradec Králové, responded to events in the Chamber of Deputies by spraying the words “Hands off Czech Television” on the pavement outside the ANO offices in Hradec Králové during the night into Saturday.",
+            "cs": "Lídr Pirátů a Starostů v Hradci Králové Kamil Kubica v reakci na dění ve Sněmovně nastříkal v noci na sobotu na chodník před sídlem ANO v Hradci Králové nápis „Ruce pryč od ČT“."
+          },
+          {
+            "en": "The ANO movement claims that he damaged city property this way.",
+            "cs": "Hnutí ANO tvrdí, že tím poničil majetek města."
+          },
+          {
+            "en": "Kubica counters that no damage was done, because it was only liquid chalk.",
+            "cs": "Kubica oponuje, že se žádná škoda nestala, protože šlo pouze o tekutou křídu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pavement",
+            "definition": "the hard path at the side of a road where people walk"
+          },
+          {
+            "term": "counters",
+            "definition": "replies by giving an opposite argument"
+          },
+          {
+            "term": "liquid chalk",
+            "definition": "a paint-like substance that washes off easily"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:08",
+      "headline": "Srbové volí v předčasných parlamentních volbách, které média označují za referendum o Vučićovi",
+      "body": "V Srbsku v neděli ráno začaly předčasné parlamentní volby, provázené velkým zájmem veřejnosti. Hlavními soupeři jsou koalice Sjednocené Srbsko vedená Aleksandarem Vučićem a hnutí Studenti vítězí, které stálo v čele skoro dva roky trvajících protestů proti korupci a proti Vučićově vládě. Jiskrou, jež protesty spustila, bylo neštěstí na nádraží v Novém Sadu, kde na cestující čekající před vchodem do nádražní haly spadl betonový přístřešek. Srbští i mezinárodní pozorovatelé podle ČT24 poukazují na možné volební manipulace a obávají se povolebního násilí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/jiskru-zazehla-tragedie-na-nadrazi-v-novem-sadu-nyni-srbske-protestni-hnuti_2610251608_aha"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-srbsku-zacaly-predcasne-parlamentni-volby-378987"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232340/"
+        }
+      ],
+      "en": {
+        "headline": "Serbs are voting in an early parliamentary election that the media describe as a referendum on Vučić",
+        "sentences": [
+          {
+            "en": "Early parliamentary elections began in Serbia on Sunday morning, accompanied by great public interest.",
+            "cs": "V Srbsku v neděli ráno začaly předčasné parlamentní volby, provázené velkým zájmem veřejnosti."
+          },
+          {
+            "en": "The main rivals are the United Serbia coalition led by Aleksandar Vučić and the movement Students Win, which stood at the head of protests against corruption and against Vučić's government that have lasted almost two years.",
+            "cs": "Hlavními soupeři jsou koalice Sjednocené Srbsko vedená Aleksandarem Vučićem a hnutí Studenti vítězí, které stálo v čele skoro dva roky trvajících protestů proti korupci a proti Vučićově vládě."
+          },
+          {
+            "en": "The spark that set them off was the disaster at the railway station in Novi Sad, where a concrete canopy fell on passengers waiting in front of the entrance to the station hall.",
+            "cs": "Jiskrou, jež protesty spustila, bylo neštěstí na nádraží v Novém Sadu, kde na cestující čekající před vchodem do nádražní haly spadl betonový přístřešek."
+          },
+          {
+            "en": "Serbian and international observers point, according to ČT24, to possible electoral manipulation and fear violence after the vote.",
+            "cs": "Srbští i mezinárodní pozorovatelé podle ČT24 poukazují na možné volební manipulace a obávají se povolebního násilí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "spark",
+            "definition": "a small event that starts something much bigger"
+          },
+          {
+            "term": "canopy",
+            "definition": "a roof-like cover that sticks out over an entrance"
+          },
+          {
+            "term": "observers",
+            "definition": "people whose job is to watch an event and report on it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:14",
+      "headline": "V Brazílii začalo druhé kolo prezidentských voleb, Lula čelí Flávioovi Bolsonarovi",
+      "body": "V Brazílii v poledne středoevropského času začalo druhé kolo prezidentských voleb. Proti sobě stojí vítěz prvního kola, pravicový senátor Flávio Bolsonaro, a stávající levicový prezident Luiz Inácio Lula da Silva. Volební místnosti se zavírají ve 21.00 SEČ.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/brazilci-vybiraji-prezidenta-vyzyvatelem-luly-je-bolsonaro-378991"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232523/"
+        }
+      ],
+      "en": {
+        "headline": "The second round of the presidential election has begun in Brazil, with Lula facing Flávio Bolsonaro",
+        "sentences": [
+          {
+            "en": "The second round of the presidential election began in Brazil at noon Central European time.",
+            "cs": "V Brazílii v poledne středoevropského času začalo druhé kolo prezidentských voleb."
+          },
+          {
+            "en": "Facing each other are the winner of the first round, right-wing senator Flávio Bolsonaro, and the incumbent left-wing president Luiz Inácio Lula da Silva.",
+            "cs": "Proti sobě stojí vítěz prvního kola, pravicový senátor Flávio Bolsonaro, a stávající levicový prezident Luiz Inácio Lula da Silva."
+          },
+          {
+            "en": "Polling stations close at 9 p.m. Central European time.",
+            "cs": "Volební místnosti se zavírají ve 21.00 SEČ."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "incumbent",
+            "definition": "the person who currently holds an official position"
+          },
+          {
+            "term": "Polling stations",
+            "definition": "places where people go to vote"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:10",
+      "headline": "Francouzská policie zadržela při sobotních protestech 1314 lidí",
+      "body": "Při celostátních protestech proti vysokým životním nákladům a stavu školství zadržela francouzská policie 1314 lidí a zraněno bylo 53 policistů, uvedl ministr vnitra Laurent Nuñez. Podle něj pochody zpočátku probíhaly převážně poklidně, později se ale policisté střetli s „extrémně vysokou mírou násilí“. Údaje o účasti se rozcházejí: E15 mluví až o 800 tisících demonstrantů a v Paříži o 250 tisících podle odborů, Seznam Zprávy uvádějí v Paříži podle organizátorů až čtvrt milionu lidí, zatímco podle Deníku N vláda napočítala v celé zemi skoro půl milionu a odbory dvojnásobek. Demonstrace provázelo rabování obchodů a požáry, policie nasadila vodní děla a slzný plyn.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/francie-se-znovu-bouri-protestovalo-az-800-tisic-lidi-policie-hlasi-pres-1300-zadrzenych-1436824"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232486/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/obrazem-fotky-proti-drahote-v-ulicich-parize-statisice-lidi-120-vytrzniku-ve-vazbe-318687"
+        }
+      ],
+      "en": {
+        "headline": "French police detained 1,314 people during Saturday's protests",
+        "sentences": [
+          {
+            "en": "During nationwide protests against the high cost of living and the state of schooling, French police detained 1,314 people and 53 officers were injured, interior minister Laurent Nuñez said.",
+            "cs": "Při celostátních protestech proti vysokým životním nákladům a stavu školství zadržela francouzská policie 1314 lidí a zraněno bylo 53 policistů, uvedl ministr vnitra Laurent Nuñez."
+          },
+          {
+            "en": "According to him the marches were largely peaceful at first, but later officers came up against an “extremely high level of violence”.",
+            "cs": "Podle něj pochody zpočátku probíhaly převážně poklidně, později se ale policisté střetli s „extrémně vysokou mírou násilí“."
+          },
+          {
+            "en": "The figures on turnout differ: E15 speaks of up to 800,000 demonstrators and, in Paris, of 250,000 according to the trade unions, Seznam Zprávy puts the Paris figure at up to a quarter of a million according to the organisers, while according to Deník N the government counted almost half a million across the country and the unions twice as many.",
+            "cs": "Údaje o účasti se rozcházejí: E15 mluví až o 800 tisících demonstrantů a v Paříži o 250 tisících podle odborů, Seznam Zprávy uvádějí v Paříži podle organizátorů až čtvrt milionu lidí, zatímco podle Deníku N vláda napočítala v celé zemi skoro půl milionu a odbory dvojnásobek."
+          },
+          {
+            "en": "The demonstrations were accompanied by looting of shops and fires, and police used water cannon and tear gas.",
+            "cs": "Demonstrace provázelo rabování obchodů a požáry, policie nasadila vodní děla a slzný plyn."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "kept by the police and not allowed to leave"
+          },
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to an event"
+          },
+          {
+            "term": "looting",
+            "definition": "stealing goods from shops during disorder"
+          },
+          {
+            "term": "water cannon",
+            "definition": "a machine that shoots a strong jet of water to push crowds back"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:30",
+      "headline": "Na Slovensku obhájilo funkce všech osm hejtmanů",
+      "body": "Ve spojených krajských a komunálních volbách na Slovensku obhájilo své funkce všech osm hejtmanů. V Bratislavě zůstane primátorem Matúš Vallo, naopak ve druhém největším městě Košicích dosavadní primátor končí. Plyne to z předběžných výsledků Slovenského statistického úřadu. Seznam Zprávy citují slovenského experta, podle kterého stranám v regionech chyběly výrazné tváře.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232389/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovensky-expert-vitezem-jsou-krestansti-demokrate-i-extremista-mazurek-318693"
+        }
+      ],
+      "en": {
+        "headline": "All eight regional governors in Slovakia kept their posts",
+        "sentences": [
+          {
+            "en": "All eight regional governors kept their posts in Slovakia's combined regional and municipal elections.",
+            "cs": "Ve spojených krajských a komunálních volbách na Slovensku obhájilo své funkce všech osm hejtmanů."
+          },
+          {
+            "en": "Matúš Vallo remains mayor of Bratislava, while in the second largest city, Košice, the sitting mayor is on his way out.",
+            "cs": "V Bratislavě zůstane primátorem Matúš Vallo, naopak ve druhém největším městě Košicích dosavadní primátor končí."
+          },
+          {
+            "en": "This follows from preliminary results of the Slovak Statistical Office.",
+            "cs": "Plyne to z předběžných výsledků Slovenského statistického úřadu."
+          },
+          {
+            "en": "Seznam Zprávy quotes a Slovak expert who says the parties lacked strong faces in the regions.",
+            "cs": "Seznam Zprávy citují slovenského experta, podle kterého stranám v regionech chyběly výrazné tváře."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "municipal",
+            "definition": "connected with a town or city and its local government"
+          },
+          {
+            "term": "sitting",
+            "definition": "currently holding the position"
+          },
+          {
+            "term": "preliminary",
+            "definition": "early and not yet final"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:20",
+      "headline": "Zelenskyj uvedl, že Rusko za týden použilo proti Ukrajině 1600 klouzavých bomb",
+      "body": "Rusko jen za tento týden použilo proti Ukrajině na 1600 klouzavých bomb, 48 střel různých typů včetně balistických raket a téměř 2300 dronů, uvedl podle agentury DPA ukrajinský prezident Volodymyr Zelenskyj. Moskva tak podle něj reaguje na diplomacii a na ukončování své izolace. V neděli ruský útok zasáhl bytový dům ve Vinnycji, zraněno bylo šest lidí. Opačným směrem útočily v noci na neděli ukrajinské drony na ruské území: nálet na průmyslový podnik v Permském kraji zranil pět zaměstnanců, uvedl guvernér Dmitrij Machonin. Počet obětí v Bělgorodské oblasti se ve zdrojích liší — Deník N s odvoláním na guvernéra Alexandra Šuvajeva píše o dvou mrtvých a třinácti zraněných, Seznam Zprávy o třech mrtvých.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-tento-tyden-proti-ukrajine-pouzilo-1600-klouzavych-bomb-uvadi-zelenskyj-378990"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232404/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajinske-drony-zabily-v-ruske-prihranicni-oblasti-tri-lidi-dalsi-zranily-318688"
+        }
+      ],
+      "en": {
+        "headline": "Zelensky said Russia had used 1,600 glide bombs against Ukraine in a week",
+        "sentences": [
+          {
+            "en": "In this week alone Russia used some 1,600 glide bombs, 48 missiles of various types including ballistic ones and almost 2,300 drones against Ukraine, Ukrainian president Volodymyr Zelensky said according to the DPA agency.",
+            "cs": "Rusko jen za tento týden použilo proti Ukrajině na 1600 klouzavých bomb, 48 střel různých typů včetně balistických raket a téměř 2300 dronů, uvedl podle agentury DPA ukrajinský prezident Volodymyr Zelenskyj."
+          },
+          {
+            "en": "In his view Moscow is responding this way to diplomacy and to the end of its isolation.",
+            "cs": "Moskva tak podle něj reaguje na diplomacii a na ukončování své izolace."
+          },
+          {
+            "en": "On Sunday a Russian strike hit a block of flats in Vinnytsia, injuring six people.",
+            "cs": "V neděli ruský útok zasáhl bytový dům ve Vinnycji, zraněno bylo šest lidí."
+          },
+          {
+            "en": "In the other direction, Ukrainian drones attacked Russian territory during the night into Sunday: a raid on an industrial plant in the Perm region injured five employees, governor Dmitry Makhonin said.",
+            "cs": "Opačným směrem útočily v noci na neděli ukrajinské drony na ruské území: nálet na průmyslový podnik v Permském kraji zranil pět zaměstnanců, uvedl guvernér Dmitrij Machonin."
+          },
+          {
+            "en": "The number of victims in the Belgorod region differs between sources — Deník N, citing governor Alexander Shuvayev, reports two dead and thirteen injured, while Seznam Zprávy reports three dead.",
+            "cs": "Počet obětí v Bělgorodské oblasti se ve zdrojích liší — Deník N s odvoláním na guvernéra Alexandra Šuvajeva píše o dvou mrtvých a třinácti zraněných, Seznam Zprávy o třech mrtvých."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "glide bombs",
+            "definition": "bombs with wings that travel a long way through the air after being dropped"
+          },
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that flies high and then falls on its target"
+          },
+          {
+            "term": "raid",
+            "definition": "a short sudden attack"
+          },
+          {
+            "term": "citing",
+            "definition": "mentioning someone as the source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:17",
+      "headline": "Rijádské letiště znovu odbavuje mezinárodní lety, české ministerstvo varuje před cestami",
+      "body": "Mezinárodní letiště v Rijádu v neděli obnovilo provoz na dvou terminálech, a to více než dva týdny poté, co je vyřadily z provozu údery Húthíů. Ti zároveň varovali, že by na letiště mohli zacílit znovu; ještě v sobotu tvrdili, že na ně a na saúdská ropná zařízení útočili, saúdské úřady se k tomu přímo nevyjádřily. České ministerstvo zahraničí varuje před cestami do Saúdské Arábie kvůli výraznému zhoršení bezpečnostní situace a opakovaným útokům na letiště a další infrastrukturu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-saudska-arabie-znovu-otevrela-letiste-v-rijadu-pro-mezinarodni-lety-318690"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232414/"
+        }
+      ],
+      "en": {
+        "headline": "Riyadh airport is handling international flights again and the Czech ministry is warning against travel",
+        "sentences": [
+          {
+            "en": "The international airport in Riyadh resumed operations at two terminals on Sunday, more than two weeks after Houthi strikes put them out of service.",
+            "cs": "Mezinárodní letiště v Rijádu v neděli obnovilo provoz na dvou terminálech, a to více než dva týdny poté, co je vyřadily z provozu údery Húthíů."
+          },
+          {
+            "en": "The Houthis at the same time warned that they could target the airport again; as recently as Saturday they claimed they had attacked it and Saudi oil facilities, and the Saudi authorities did not comment directly.",
+            "cs": "Ti zároveň varovali, že by na letiště mohli zacílit znovu; ještě v sobotu tvrdili, že na ně a na saúdská ropná zařízení útočili, saúdské úřady se k tomu přímo nevyjádřily."
+          },
+          {
+            "en": "The Czech foreign ministry is warning against travel to Saudi Arabia because of a significant deterioration of the security situation and repeated attacks on airports and other infrastructure.",
+            "cs": "České ministerstvo zahraničí varuje před cestami do Saúdské Arábie kvůli výraznému zhoršení bezpečnostní situace a opakovaným útokům na letiště a další infrastrukturu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resumed",
+            "definition": "started again after stopping"
+          },
+          {
+            "term": "out of service",
+            "definition": "not working or not available to use"
+          },
+          {
+            "term": "deterioration",
+            "definition": "the process of becoming worse"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:22",
+      "headline": "Audi postaví v Georgii továrnu za 4,2 miliardy dolarů, mateřský Volkswagen přitom šetří",
+      "body": "Německá automobilka Audi z koncernu Volkswagen postaví v americkém státě Georgia továrnu za 4,2 miliardy dolarů, tedy zhruba 91 miliard korun. Podle E15 vytvoří přibližně 4 500 pracovních míst a Donald Trump ji označuje za úspěch své celní politiky. Zpráva přichází v době, kdy Volkswagen pracuje na rozsáhlé restrukturalizaci: do konce desetiletí chce zrušit až 100 tisíc pracovních míst a podle odborů požaduje také zmrazení mezd ve Škodě Auto, která je součástí koncernu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/volkswagen-chce-zmrazit-mzdy-ve-skodovce-jeho-audi-pritom-postavi-v-usa-tovarnu-za-91-miliard-1436817"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/audi-z-koncernu-volkswagen-postavi-v-usa-tovarnu-za-zhruba-ctyri-miliardy-dolaru-378986"
+        }
+      ],
+      "en": {
+        "headline": "Audi will build a 4.2 billion dollar plant in Georgia while its parent Volkswagen cuts costs",
+        "sentences": [
+          {
+            "en": "The German carmaker Audi, part of the Volkswagen group, will build a plant worth 4.2 billion dollars, roughly 91 billion crowns, in the American state of Georgia.",
+            "cs": "Německá automobilka Audi z koncernu Volkswagen postaví v americkém státě Georgia továrnu za 4,2 miliardy dolarů, tedy zhruba 91 miliard korun."
+          },
+          {
+            "en": "According to E15 it will create about 4,500 jobs and Donald Trump describes it as a success of his tariff policy.",
+            "cs": "Podle E15 vytvoří přibližně 4 500 pracovních míst a Donald Trump ji označuje za úspěch své celní politiky."
+          },
+          {
+            "en": "The news comes at a time when Volkswagen is working on a sweeping restructuring: by the end of the decade it wants to cut up to 100,000 jobs, and according to the unions it is also demanding a wage freeze at Škoda Auto, which belongs to the group.",
+            "cs": "Zpráva přichází v době, kdy Volkswagen pracuje na rozsáhlé restrukturalizaci: do konce desetiletí chce zrušit až 100 tisíc pracovních míst a podle odborů požaduje také zmrazení mezd ve Škodě Auto, která je součástí koncernu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tariff",
+            "definition": "a tax that a country puts on goods coming from abroad"
+          },
+          {
+            "term": "sweeping",
+            "definition": "affecting a very large part of something"
+          },
+          {
+            "term": "restructuring",
+            "definition": "changing the way a company is organised, often by cutting jobs"
+          },
+          {
+            "term": "wage freeze",
+            "definition": "a decision to keep pay at the same level for a period of time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:00",
+      "headline": "Na Wall Street roste zájem o pojištění proti krachu technologických firem",
+      "body": "Na amerických trzích prudce roste poptávka po pojištění proti bankrotu technologických firem, protože investoři se obávají rizik spojených s boomem umělé inteligence. Objem obchodů s úvěrovými swapy u vybraných technologických gigantů podle E15 vzrostl během dvou měsíců z méně než dvou na devět miliard dolarů týdně. Na finanční trhy se tak vracejí nástroje známé z krize v roce 2008.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/na-wall-street-se-vraci-nastroj-z-financni-krize-2008-investori-se-pripravuji-na-mozny-krach-1436819"
+        }
+      ],
+      "en": {
+        "headline": "Interest in insurance against the collapse of technology firms is rising on Wall Street",
+        "sentences": [
+          {
+            "en": "Demand for insurance against the bankruptcy of technology firms is rising sharply on American markets, because investors fear the risks tied to the artificial intelligence boom.",
+            "cs": "Na amerických trzích prudce roste poptávka po pojištění proti bankrotu technologických firem, protože investoři se obávají rizik spojených s boomem umělé inteligence."
+          },
+          {
+            "en": "According to E15 the volume of trade in credit swaps on selected technology giants rose within two months from less than two to nine billion dollars a week.",
+            "cs": "Objem obchodů s úvěrovými swapy u vybraných technologických gigantů podle E15 vzrostl během dvou měsíců z méně než dvou na devět miliard dolarů týdně."
+          },
+          {
+            "en": "Instruments known from the 2008 crisis are thus returning to the financial markets.",
+            "cs": "Na finanční trhy se tak vracejí nástroje známé z krize v roce 2008."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bankruptcy",
+            "definition": "the state of being unable to pay what you owe"
+          },
+          {
+            "term": "volume",
+            "definition": "the total amount of something, here of trading"
+          },
+          {
+            "term": "Instruments",
+            "definition": "financial products that are bought and sold"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:42",
+      "headline": "Google podle Guardianu nelegálně vykácel ve Finsku přes 250 tisíc stromů kvůli datovým centrům",
+      "body": "Společnost Google nezákonně pokácela ve Finsku více než 250 tisíc stromů, aby na uvolněných plochách postavila svá datová centra, napsal list The Guardian. Dřevo nemohou kvůli legislativě zpracovat ani místní závody. Ve Finsku se podle iROZHLASu vede spor o to, jaké stanovisko má stát zaujmout: vláda v tom vidí investici, ochránci přírody invazi a obyvatelé zasažených obcí vnímají jak příchod pracovních příležitostí, tak zhoršení podmínek.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/misto-lesu-datova-centra-google-nelegalne-vykacel-stovky-tisic-finskych-stromu_2610251442_brz"
+        }
+      ],
+      "en": {
+        "headline": "Google illegally felled more than 250,000 trees in Finland for data centres, according to the Guardian",
+        "sentences": [
+          {
+            "en": "Google illegally felled more than 250,000 trees in Finland in order to build its data centres on the cleared land, The Guardian wrote.",
+            "cs": "Společnost Google nezákonně pokácela ve Finsku více než 250 tisíc stromů, aby na uvolněných plochách postavila svá datová centra, napsal list The Guardian."
+          },
+          {
+            "en": "Local mills cannot process the timber either, because of legislation.",
+            "cs": "Dřevo nemohou kvůli legislativě zpracovat ani místní závody."
+          },
+          {
+            "en": "According to iROZHLAS a dispute is running in Finland over what position the state should take: the government sees an investment, conservationists an invasion, and residents of the affected municipalities see both the arrival of job opportunities and worsening conditions.",
+            "cs": "Ve Finsku se podle iROZHLASu vede spor o to, jaké stanovisko má stát zaujmout: vláda v tom vidí investici, ochránci přírody invazi a obyvatelé zasažených obcí vnímají jak příchod pracovních příležitostí, tak zhoršení podmínek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "felled",
+            "definition": "cut down trees"
+          },
+          {
+            "term": "timber",
+            "definition": "wood that is used for building or making things"
+          },
+          {
+            "term": "conservationists",
+            "definition": "people who work to protect nature"
+          },
+          {
+            "term": "municipalities",
+            "definition": "towns or villages with their own local government"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "02:33",
+      "headline": "Cerebras popsal, jak na svých čipech provozuje modely s bilionem parametrů",
+      "body": "Firma Cerebras zveřejnila text o tom, jak na svém hardwaru nasazuje špičkové modely umělé inteligence s bilionem parametrů. Příspěvek se dostal mezi nejčtenější na Hacker News, kde získal přes 250 bodů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+        }
+      ],
+      "en": {
+        "headline": "Cerebras described how it runs trillion-parameter models on its own chips",
+        "sentences": [
+          {
+            "en": "The company Cerebras has published a text on how it deploys frontier artificial intelligence models with a trillion parameters on its own hardware.",
+            "cs": "Firma Cerebras zveřejnila text o tom, jak na svém hardwaru nasazuje špičkové modely umělé inteligence s bilionem parametrů."
+          },
+          {
+            "en": "The post made it among the most read on Hacker News, where it gathered more than 250 points.",
+            "cs": "Příspěvek se dostal mezi nejčtenější na Hacker News, kde získal přes 250 bodů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deploys",
+            "definition": "puts a system into real use"
+          },
+          {
+            "term": "frontier",
+            "definition": "at the most advanced edge of a field"
+          },
+          {
+            "term": "parameters",
+            "definition": "the internal values a machine learning model learns during training"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "01:11",
+      "headline": "Analýza počítá americkému kreativnímu sektoru 200 tisíc ztracených míst a ptá se po podílu AI",
+      "body": "Text na ekonomickém blogu Apricitas tvrdí, že ve Spojených státech ubylo 200 tisíc pracovních míst v médiích, filmu a umění, a klade si otázku, jakou roli v tom hraje umělá inteligence. Na Hacker News se k němu sešlo přes 450 komentářů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+        }
+      ],
+      "en": {
+        "headline": "An analysis counts 200,000 lost jobs in the American creative sector and asks how much of it is AI",
+        "sentences": [
+          {
+            "en": "A text on the economics blog Apricitas claims that 200,000 jobs in media, film and the arts have disappeared in the United States, and poses the question of what role artificial intelligence plays in it.",
+            "cs": "Text na ekonomickém blogu Apricitas tvrdí, že ve Spojených státech ubylo 200 tisíc pracovních míst v médiích, filmu a umění, a klade si otázku, jakou roli v tom hraje umělá inteligence."
+          },
+          {
+            "en": "More than 450 comments gathered under it on Hacker News.",
+            "cs": "Na Hacker News se k němu sešlo přes 450 komentářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "claims",
+            "definition": "says something is true without proving it"
+          },
+          {
+            "term": "poses the question",
+            "definition": "asks something that needs thinking about"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:30",
+      "headline": "Evropská komise chce omezit dětem přístup na sociální sítě, její poradce varuje, že to nepomůže",
+      "body": "Evropská komise chce omezit přístup dětí k sociálním sítím. Návrh podle Seznam Zpráv vyvolává kritiku kvůli ochraně osobních údajů i snadnému obcházení zákazů a podle odborníků opomíjí důležitost digitálního vzdělávání.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-brusel-chce-deti-odstrihnout-od-siti-nepomuze-to-varuje-poradce-komise-eu-317724"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission wants to limit children's access to social networks, its own adviser warns it will not help",
+        "sentences": [
+          {
+            "en": "The European Commission wants to limit children's access to social networks.",
+            "cs": "Evropská komise chce omezit přístup dětí k sociálním sítím."
+          },
+          {
+            "en": "According to Seznam Zprávy the proposal is drawing criticism over the protection of personal data and the ease of getting around bans, and experts say it overlooks the importance of digital education.",
+            "cs": "Návrh podle Seznam Zpráv vyvolává kritiku kvůli ochraně osobních údajů i snadnému obcházení zákazů a podle odborníků opomíjí důležitost digitálního vzdělávání."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drawing criticism",
+            "definition": "causing people to say that something is wrong"
+          },
+          {
+            "term": "getting around",
+            "definition": "finding a way to avoid a rule or problem"
+          },
+          {
+            "term": "overlooks",
+            "definition": "fails to notice or consider something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "05:00",
+      "headline": "Havrlant s Komárkem přes Rockaway Arts stále víc propojují tři velké české festivaly",
+      "body": "Jakub Havrlant a Karel Komárek prostřednictvím společnosti Rockaway Arts stále víc propojují Karlovarský filmový festival, Colours of Ostrava a Designblok, píše E15. Festivaly začínají sdílet týmy, zkušenosti i kontakty — Designblok nově využívá tým karlovarského festivalu pro péči o VIP hosty. Díky silnějšímu zázemí rozšířil tým, získal nové partnery a chystá zahraniční expanzi.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/kulturni-imperium-jakuba-havrlanta-a-karla-komarka-roste-v-zakulisi-uz-probihaji-zmeny-1436816"
+        }
+      ],
+      "en": {
+        "headline": "Havrlant and Komárek are tying three big Czech festivals ever closer together through Rockaway Arts",
+        "sentences": [
+          {
+            "en": "Jakub Havrlant and Karel Komárek are increasingly connecting the Karlovy Vary film festival, Colours of Ostrava and Designblok through the company Rockaway Arts, E15 writes.",
+            "cs": "Jakub Havrlant a Karel Komárek prostřednictvím společnosti Rockaway Arts stále víc propojují Karlovarský filmový festival, Colours of Ostrava a Designblok, píše E15."
+          },
+          {
+            "en": "The festivals are starting to share teams, experience and contacts — Designblok now uses the Karlovy Vary festival's team to look after VIP guests.",
+            "cs": "Festivaly začínají sdílet týmy, zkušenosti i kontakty — Designblok nově využívá tým karlovarského festivalu pro péči o VIP hosty."
+          },
+          {
+            "en": "Thanks to stronger backing it has expanded its team, won new partners and is preparing to expand abroad.",
+            "cs": "Díky silnějšímu zázemí rozšířil tým, získal nové partnery a chystá zahraniční expanzi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "backing",
+            "definition": "support, especially money or resources"
+          },
+          {
+            "term": "look after",
+            "definition": "to take care of someone"
+          },
+          {
+            "term": "expand",
+            "definition": "to grow bigger or reach further"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:19",
+      "headline": "Šulc jde na operaci menisku a vynechá nejméně čtyři měsíce",
+      "body": "Fotbalista Lyonu Pavel Šulc si natrhl meniskus v pravém koleni a čeká ho operace. Pětadvacetiletý ofenzivní záložník bude mimo hru minimálně čtyři měsíce, uvedl francouzský klub. Jedna z opor české reprezentace tak přijde přinejmenším o listopadový reprezentační sraz.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbal-pavel-sulc-lyon-fotbalova-reprezentace_2610251355_kri"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sulc-musi-na-operaci-s-kolenem-mimo-hru-bude-minimalne-do-brezna-159624"
+        }
+      ],
+      "en": {
+        "headline": "Šulc is going for meniscus surgery and will miss at least four months",
+        "sentences": [
+          {
+            "en": "Lyon footballer Pavel Šulc has torn the meniscus in his right knee and faces surgery.",
+            "cs": "Fotbalista Lyonu Pavel Šulc si natrhl meniskus v pravém koleni a čeká ho operace."
+          },
+          {
+            "en": "The twenty-five-year-old attacking midfielder will be out of action for at least four months, the French club said.",
+            "cs": "Pětadvacetiletý ofenzivní záložník bude mimo hru minimálně čtyři měsíce, uvedl francouzský klub."
+          },
+          {
+            "en": "One of the mainstays of the Czech national team will therefore miss at least the November international window.",
+            "cs": "Jedna z opor české reprezentace tak přijde přinejmenším o listopadový reprezentační sraz."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "meniscus",
+            "definition": "a piece of soft tissue inside the knee that cushions the bones"
+          },
+          {
+            "term": "out of action",
+            "definition": "unable to play or work because of injury"
+          },
+          {
+            "term": "mainstays",
+            "definition": "the people a team depends on most"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:44",
+      "day": "prev",
+      "headline": "Sobotní zápasy fotbalové ligy skončily všechny remízou",
+      "body": "Žádný ze sobotních duelů 12. kola Chance ligy nepoznal vítěze. Vedoucí Slavii zachránil bod proti Mladé Boleslavi Mojmír Chytil, Zbrojovka Brno remizovala s Bohemians 2:2, Zlín stále čeká na první výhru po remíze 1:1 s Olomoucí a Teplice braly bod s Artisem po bezbrankovém zápase.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/sobota-ve-znameni-remiz-zlin-nadale-ceka-na-vyhru-brnensti-novacci-brali-po-bodu-159610"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/fotbal-prvni-liga/chance-liga-vysledky-zbrojovka-brno-bohemians-praha-teplice-artis-zlin-olomouc-slavia-boleslav/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga"
+        }
+      ],
+      "en": {
+        "headline": "Every Saturday match in the football league ended in a draw",
+        "sentences": [
+          {
+            "en": "Not one of Saturday's games in the twelfth round of the Chance League produced a winner.",
+            "cs": "Žádný ze sobotních duelů 12. kola Chance ligy nepoznal vítěze."
+          },
+          {
+            "en": "Mojmír Chytil rescued a point for league leaders Slavia against Mladá Boleslav, Zbrojovka Brno drew 2:2 with Bohemians, Zlín are still waiting for a first win after a 1:1 draw with Olomouc, and Teplice took a point against Artis in a goalless match.",
+            "cs": "Vedoucí Slavii zachránil bod proti Mladé Boleslavi Mojmír Chytil, Zbrojovka Brno remizovala s Bohemians 2:2, Zlín stále čeká na první výhru po remíze 1:1 s Olomoucí a Teplice braly bod s Artisem po bezbrankovém zápase."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "draw",
+            "definition": "a result in which neither team wins"
+          },
+          {
+            "term": "rescued",
+            "definition": "saved something that was close to being lost"
+          },
+          {
+            "term": "goalless",
+            "definition": "with no goals scored by either side"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:54",
+      "headline": "Siniaková ovládla turnaj v Ósace a získala první singlový titul po třech letech",
+      "body": "Kateřina Siniaková vyhrála tenisový turnaj v Ósace a připsala si šestý titul ve dvouhře na okruhu WTA. Ve finále deklasovala Američanku Ashlyn Kruegerovou za 64 minut 6:1 a 6:0.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-triumfovala-v-osace-v-singlu-ziskala-titul-po-trech-letech-159618"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232374/"
+        }
+      ],
+      "en": {
+        "headline": "Siniaková won the tournament in Osaka and took her first singles title in three years",
+        "sentences": [
+          {
+            "en": "Kateřina Siniaková won the tennis tournament in Osaka and claimed her sixth singles title on the WTA tour.",
+            "cs": "Kateřina Siniaková vyhrála tenisový turnaj v Ósace a připsala si šestý titul ve dvouhře na okruhu WTA."
+          },
+          {
+            "en": "In the final she crushed the American Ashlyn Krueger 6:1 and 6:0 in 64 minutes.",
+            "cs": "Ve finále deklasovala Američanku Ashlyn Kruegerovou za 64 minut 6:1 a 6:0."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "singles",
+            "definition": "a tennis match played by one player against one other"
+          },
+          {
+            "term": "crushed",
+            "definition": "defeated someone very easily"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:29",
+      "headline": "Pastrňák se sedmým gólem sezony srovnal s Bergeronem v historických tabulkách Bostonu",
+      "body": "David Pastrňák pomohl v sobotním zápase NHL sedmým gólem sezony Bostonu k výhře 6:4 nad San Jose. Svou 427. trefou kariéry se srovnal s bývalým spoluhráčem Patricem Bergeronem na třetím místě mezi historickými střelci Bruins.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-pastrnak-ma-na-musce-legendy-v-bostonu-jde-po-rekordu-ktery-plati-skoro-50-let-5562871"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/dostal-ctyrikrat-inkasoval-ale-anaheim-ukoncil-petizapasovou-serii-bez-bodu-159616"
+        }
+      ],
+      "en": {
+        "headline": "Pastrňák's seventh goal of the season drew him level with Bergeron in Boston's all-time charts",
+        "sentences": [
+          {
+            "en": "David Pastrňák helped Boston to a 6:4 win over San Jose in Saturday's NHL game with his seventh goal of the season.",
+            "cs": "David Pastrňák pomohl v sobotním zápase NHL sedmým gólem sezony Bostonu k výhře 6:4 nad San Jose."
+          },
+          {
+            "en": "With the 427th strike of his career he drew level with his former teammate Patrice Bergeron in third place among Bruins' all-time scorers.",
+            "cs": "Svou 427. trefou kariéry se srovnal s bývalým spoluhráčem Patricem Bergeronem na třetím místě mezi historickými střelci Bruins."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drew level with",
+            "definition": "reached the same position or score as someone"
+          },
+          {
+            "term": "all-time",
+            "definition": "counting the whole history of something"
+          },
+          {
+            "term": "strike",
+            "definition": "a goal scored in sport"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:56",
+      "headline": "Vzpěračská federace svěřila mistrovství světa 2030 Moskvě",
+      "body": "Mezinárodní vzpěračská federace udělila pořadatelství mistrovství světa v roce 2030 Moskvě. Je to první federace olympijského sportu, která Rusku svěřila světový šampionát od začátku jeho války na Ukrajině v roce 2022.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/iwf-rusko-invaze_2610251456_kri"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/ostatni/za-ctyri-roky-se-ma-ms-konat-v-rusku-rozhodlo-vedeni-svetoveho-vzpirani-159625"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-dalsi-velky-prulom-rusko-bude-hostit-mistrovstvi-sveta-5563041"
+        }
+      ],
+      "en": {
+        "headline": "The weightlifting federation awarded the 2030 World Championship to Moscow",
+        "sentences": [
+          {
+            "en": "The International Weightlifting Federation has awarded the hosting of the 2030 World Championship to Moscow.",
+            "cs": "Mezinárodní vzpěračská federace udělila pořadatelství mistrovství světa v roce 2030 Moskvě."
+          },
+          {
+            "en": "It is the first Olympic-sport federation to award Russia a world championship since the start of its war in Ukraine in 2022.",
+            "cs": "Je to první federace olympijského sportu, která Rusku svěřila světový šampionát od začátku jeho války na Ukrajině v roce 2022."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "weightlifting",
+            "definition": "the sport of lifting heavy weights in competition"
+          },
+          {
+            "term": "hosting",
+            "definition": "the right to hold an event in your country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:27",
+      "headline": "Zajíc zaběhl při maratonském debutu nejrychlejší český čas za 22 let",
+      "body": "Běžec Martin Zajíc doběhl při svém maratonském debutu ve Frankfurtu na 10. místě v čase 2.13:15. Je to nejrychlejší český výkon za posledních 22 let a čtvrtá příčka národních historických tabulek; rychleji zaběhl naposledy v roce 2004 jeho trenér Róbert Štefko časem 2.12:35.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2232656/"
+        }
+      ],
+      "en": {
+        "headline": "Zajíc ran the fastest Czech time in 22 years on his marathon debut",
+        "sentences": [
+          {
+            "en": "Runner Martin Zajíc finished tenth on his marathon debut in Frankfurt in a time of 2:13:15.",
+            "cs": "Běžec Martin Zajíc doběhl při svém maratonském debutu ve Frankfurtu na 10. místě v čase 2.13:15."
+          },
+          {
+            "en": "It is the fastest Czech performance in the past 22 years and fourth place in the national all-time list; the last man to run faster was his coach Róbert Štefko in 2004, in 2:12:35.",
+            "cs": "Je to nejrychlejší český výkon za posledních 22 let a čtvrtá příčka národních historických tabulek; rychleji zaběhl naposledy v roce 2004 jeho trenér Róbert Štefko časem 2.12:35."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "debut",
+            "definition": "the first time someone does something in public"
+          },
+          {
+            "term": "all-time list",
+            "definition": "a ranking that covers the whole history of a sport"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "On Saturday in the early hours the coalition sent the abolition of the licence fees to its second reading, and on Sunday afternoon a demonstration in support of Czech Television and Czech Radio gathered on Old Town Square.",
+    "Tomio Okamura admitted he had spent three days preparing for the night vote, and promised that the government would take the 7.8 billion crowns for the public service media from budget reserves.",
+    "Serbs are voting in an early parliamentary election and Brazilians are deciding on their president in a second round.",
+    "Footballer Pavel Šulc faces meniscus surgery and a break of at least four months."
+  ]
+}
