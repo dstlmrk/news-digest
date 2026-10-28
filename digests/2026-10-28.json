@@ -1,0 +1,1550 @@
+{
+  "date": "2026-10-28",
+  "covers": "2026-10-28",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz",
+    "Root.cz",
+    "Hacker News"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude pršet, slabě a s přestávkami, přes den až 11 °C. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-29",
+        "icon": "rain",
+        "temp_max_c": 11.0,
+        "temp_min_c": 4.8
+      },
+      {
+        "date": "2026-10-30",
+        "icon": "fog",
+        "temp_max_c": 10.9,
+        "temp_min_c": 2.1
+      },
+      {
+        "date": "2026-10-31",
+        "icon": "fog",
+        "temp_max_c": 10.1,
+        "temp_min_c": 2.9
+      },
+      {
+        "date": "2026-11-01",
+        "icon": "cloudy",
+        "temp_max_c": 8.4,
+        "temp_min_c": 4.2
+      }
+    ],
+    "summary_en": "Tomorrow will bring light, on-and-off rain and up to 11 °C during the day. Air quality is expected to be poor."
+  },
+  "highlights": [
+    "Při srážce dvou vysokorychlostních vlaků u Toleda ve středním Španělsku zemřelo podle místních úřadů 68 lidí, příčinou bylo zřejmě lidské pochybení v řídicím centru.",
+    "Studenti vyhlásili na 3. listopadu stávku proti převedení financování České televize a Českého rozhlasu pod státní rozpočet, Evropská komise podle svého mluvčího vývoj pozorně sleduje.",
+    "Česko si připomnělo 108. výročí vzniku Československa, prezident Petr Pavel při té příležitosti jmenoval náčelníka generálního štábu Miroslava Hlaváče armádním generálem."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:35",
+      "day": "covered",
+      "headline": "Studenti vyhlásili na 3. listopadu stávku proti změně financování veřejnoprávních médií",
+      "body": "Platforma Výbor solidarity studentů, která propojuje školy napříč republikou, vyhlásila na úterý 3. listopadu stávku. Oznámila to na protestu na brněnském náměstí Svobody, kde se podle mluvčího radnice Brna-středu Michala Šťastného sešly dva tisíce lidí, převážně vysokoškoláků. Na stejný den vyhlásili stávku už dříve také zaměstnanci České televize a Českého rozhlasu. Studentští zástupci vyzvali další školy a iniciativy, aby se přidaly, a pozvali na demonstraci Milionu chvilek pro demokracii na Letné 15. listopadu. Vládní koalice ANO, SPD a Motoristů poslala v noci na sobotu do druhého čtení převedení financování obou médií pod státní rozpočet. Evropská komise podle svého mluvčího vývoj kolem návrhu pozorně sleduje, podle Bruselu mají mít média udržitelné a předvídatelné finanční zdroje. Vládní politici připravované kroky hájí a odmítají argument, že by zrušením poplatků byla ohrožena nezávislost veřejnoprávních médií.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/studenti-vyhlasili-stavku-kvuli-ruseni-poplatku-pro-ct-a-cro-379086"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/protest-brno-cesky-rozhlas-ceska-televize-statni-rozpocet-zmena-financovani_2610281307_jkd"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-vyvoj-kolem-verejnopravnich-medii-v-cesku-pozorne-sledujeme-zni-z-bruselu-318984"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2236251/obrazem-nikdy-se-nedame-studenti-zaplnili-centrum-brna-na-podporu-rozhlasu-a-televize/"
+        }
+      ],
+      "en": {
+        "headline": "Students have called a strike for 3 November against the change in public media funding",
+        "sentences": [
+          {
+            "en": "The Student Solidarity Committee, a platform linking schools across the country, has called a strike for Tuesday 3 November.",
+            "cs": "Platforma Výbor solidarity studentů, která propojuje školy napříč republikou, vyhlásila na úterý 3. listopadu stávku."
+          },
+          {
+            "en": "It announced this at a protest on Brno's náměstí Svobody, where according to Brno-střed town hall spokesman Michal Šťastný two thousand people gathered, mostly university students.",
+            "cs": "Oznámila to na protestu na brněnském náměstí Svobody, kde se podle mluvčího radnice Brna-středu Michala Šťastného sešly dva tisíce lidí, převážně vysokoškoláků."
+          },
+          {
+            "en": "Staff of Czech Television and Czech Radio had already called a strike for the same day.",
+            "cs": "Na stejný den vyhlásili stávku už dříve také zaměstnanci České televize a Českého rozhlasu."
+          },
+          {
+            "en": "Student representatives urged other schools and groups to join in, and invited people to the Milion chvilek pro demokracii rally on Letná on 15 November.",
+            "cs": "Studentští zástupci vyzvali další školy a iniciativy, aby se přidaly, a pozvali na demonstraci Milionu chvilek pro demokracii na Letné 15. listopadu."
+          },
+          {
+            "en": "In the early hours of Saturday the governing coalition of ANO, SPD and the Motorists sent the transfer of both broadcasters' funding into the state budget through to a second reading.",
+            "cs": "Vládní koalice ANO, SPD a Motoristů poslala v noci na sobotu do druhého čtení převedení financování obou médií pod státní rozpočet."
+          },
+          {
+            "en": "A European Commission spokesman said it is following developments around the bill closely, and that in Brussels' view the media should have sustainable and predictable sources of funding.",
+            "cs": "Evropská komise podle svého mluvčího vývoj kolem návrhu pozorně sleduje, podle Bruselu mají mít média udržitelné a předvídatelné finanční zdroje."
+          },
+          {
+            "en": "Government politicians defend the planned steps and reject the argument that scrapping the licence fees would endanger the independence of the public broadcasters.",
+            "cs": "Vládní politici připravované kroky hájí a odmítají argument, že by zrušením poplatků byla ohrožena nezávislost veřejnoprávních médií."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "platform",
+            "definition": "a group or organisation that brings people together for a shared aim"
+          },
+          {
+            "term": "rally",
+            "definition": "a large public meeting to support a cause"
+          },
+          {
+            "term": "sustainable",
+            "definition": "able to continue over a long time without failing"
+          },
+          {
+            "term": "endanger",
+            "definition": "to put something at risk of harm"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:53",
+      "day": "covered",
+      "headline": "Pavel jmenoval náčelníka generálního štábu Hlaváče armádním generálem",
+      "body": "Prezident Petr Pavel dnes dopoledne na Pražském hradě jmenoval náčelníka generálního štábu Miroslava Hlaváče do hodnosti armádního generála, tedy nejvyšší hodnosti v české armádě. Na generálporučíka povýšil generálního ředitele Vězeňské služby Tomáše Hůlku, který tak získal nejvyšší hodnost udílenou u bezpečnostních sborů. Celkem Pavel u příležitosti výročí vzniku samostatného Československa povýšil šestnáct mužů, před rokem jich bylo osm. Dopoledne se představitelé státu včetně prezidenta a premiéra Andreje Babiše zúčastnili tradičního pietního aktu na čestném dvoře Národního památníku na Vítkově.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/pavel-jmenoval-hlavace-armadnim-generalem-celkem-povysil-16-muzu_2610281149_cen"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pietni-akt-na-vitkove-ke-108-vyroci-vzniku-ceskoslovenska-379081"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-pavel-jmenoval-hlavace-armadnim-generalem-celkem-povysil-16-muzu-318979"
+        }
+      ],
+      "en": {
+        "headline": "Pavel promoted Chief of the General Staff Hlaváč to army general",
+        "sentences": [
+          {
+            "en": "President Petr Pavel this morning at Prague Castle promoted Chief of the General Staff Miroslav Hlaváč to the rank of army general, the highest rank in the Czech armed forces.",
+            "cs": "Prezident Petr Pavel dnes dopoledne na Pražském hradě jmenoval náčelníka generálního štábu Miroslava Hlaváče do hodnosti armádního generála, tedy nejvyšší hodnosti v české armádě."
+          },
+          {
+            "en": "He promoted the director general of the Prison Service, Tomáš Hůlka, to lieutenant general, the highest rank awarded in the security forces.",
+            "cs": "Na generálporučíka povýšil generálního ředitele Vězeňské služby Tomáše Hůlku, který tak získal nejvyšší hodnost udílenou u bezpečnostních sborů."
+          },
+          {
+            "en": "In all, Pavel promoted sixteen men to mark the anniversary of the founding of independent Czechoslovakia, compared with eight a year ago.",
+            "cs": "Celkem Pavel u příležitosti výročí vzniku samostatného Československa povýšil šestnáct mužů, před rokem jich bylo osm."
+          },
+          {
+            "en": "During the morning, state representatives including the president and Prime Minister Andrej Babiš took part in the traditional wreath-laying ceremony in the court of honour of the National Memorial on Vítkov.",
+            "cs": "Dopoledne se představitelé státu včetně prezidenta a premiéra Andreje Babiše zúčastnili tradičního pietního aktu na čestném dvoře Národního památníku na Vítkově."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rank",
+            "definition": "a position in the levels of an army or police force"
+          },
+          {
+            "term": "lieutenant general",
+            "definition": "a very senior officer in an army"
+          },
+          {
+            "term": "wreath-laying",
+            "definition": "placing a ring of flowers somewhere to remember the dead"
+          },
+          {
+            "term": "court of honour",
+            "definition": "an open space in front of a grand building used for ceremonies"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:00",
+      "day": "covered",
+      "headline": "Poslanec Pražák odešel z ANO a zůstane ve Sněmovně nezařazený",
+      "body": "Poslanec David Pražák oznámil, že ukončil členství v hnutí ANO i v jeho poslaneckém klubu a ve Sněmovně zůstane nezařazeným poslancem. Uvedl, že nechce, aby byla celostátní politika spojována s lidmi v regionu, a připustil i vliv aktuální debaty o financování ČT a ČRo. Spolu s ním opouštějí ANO i zastupitelé zvolení v Semilech na kandidátce hnutí, Pražák by se měl stát po volbách semilským starostou. Šéfka poslaneckého klubu ANO Malá řekla, že ji Pražák nepříjemně překvapil a že je to nefér. Vládní koalice má ve dvousetčlenné dolní komoře 108 křesel, jeho odchodem tedy většinu neztrácí. Ředitel Institutu politologických studií Fakulty sociálních věd Univerzity Karlovy Petr Jüptner považuje odchod za zásadní a podle iROZHLAS.cz může vytvořit nebezpečný precedens.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanec-prazak-se-rozhodl-ukoncit-clenstvi-v-hnuti-ano-379077"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/odchod-poslance-prazak-z-ano-muze-vytvorit-nebezpecny-precedens-rika-politolog_2610281300_cen"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2235769/neprijemne-me-prekvapil-reaguje-sefka-klubu-ano-mala-na-odchod-poslance-prazaka/"
+        }
+      ],
+      "en": {
+        "headline": "MP Pražák has left ANO and will sit in the Chamber of Deputies as an independent",
+        "sentences": [
+          {
+            "en": "MP David Pražák has announced that he is ending his membership of ANO and of its parliamentary group, and will sit in the Chamber of Deputies as an unaffiliated member.",
+            "cs": "Poslanec David Pražák oznámil, že ukončil členství v hnutí ANO i v jeho poslaneckém klubu a ve Sněmovně zůstane nezařazeným poslancem."
+          },
+          {
+            "en": "He said he does not want national politics to be associated with certain people in his region, and he admitted that the current debate on the funding of Czech Television and Czech Radio played a part.",
+            "cs": "Uvedl, že nechce, aby byla celostátní politika spojována s lidmi v regionu, a připustil i vliv aktuální debaty o financování ČT a ČRo."
+          },
+          {
+            "en": "Councillors elected in Semily on the movement's list are leaving ANO with him, and Pražák is expected to become mayor of Semily after the election.",
+            "cs": "Spolu s ním opouštějí ANO i zastupitelé zvolení v Semilech na kandidátce hnutí, Pražák by se měl stát po volbách semilským starostou."
+          },
+          {
+            "en": "The head of the ANO parliamentary group, Malá, said Pražák had taken her unpleasantly by surprise and that it was unfair.",
+            "cs": "Šéfka poslaneckého klubu ANO Malá řekla, že ji Pražák nepříjemně překvapil a že je to nefér."
+          },
+          {
+            "en": "The governing coalition holds 108 seats in the 200-member lower house, so his departure does not cost it the majority.",
+            "cs": "Vládní koalice má ve dvousetčlenné dolní komoře 108 křesel, jeho odchodem tedy většinu neztrácí."
+          },
+          {
+            "en": "Petr Jüptner, director of the Institute of Political Studies at the Faculty of Social Sciences of Charles University, considers the departure significant, and iROZHLAS.cz reports that it may set a dangerous precedent.",
+            "cs": "Ředitel Institutu politologických studií Fakulty sociálních věd Univerzity Karlovy Petr Jüptner považuje odchod za zásadní a podle iROZHLAS.cz může vytvořit nebezpečný precedens."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unaffiliated",
+            "definition": "not belonging to any party or group"
+          },
+          {
+            "term": "parliamentary group",
+            "definition": "the MPs of one party acting together in parliament"
+          },
+          {
+            "term": "precedent",
+            "definition": "an earlier case that people later use as an example"
+          },
+          {
+            "term": "departure",
+            "definition": "the act of leaving a place or a job"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "21:53",
+      "day": "prev",
+      "headline": "Odbory činohry Národního divadla vyhlásily stávkovou pohotovost",
+      "body": "Odbory činohry Národního divadla vyhlásily včera večer stávkovou pohotovost. Nesouhlasí s kroky vlády a ministerstva kultury, které podle nich ohrožují svobodu slova a tisku i kulturu. Požadují mimo jiné odstoupení ministra kultury Oty Klempíře za Motoristy a stažení projednávaného převodu financování veřejnoprávních médií pod stát. Klempíř v reakci uvedl, že vláda postupuje hospodárně a kulturu podporuje slovy i penězi, a uznal právo herců vyjádřit nesouhlas.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/odbory-cinohry-narodniho-divadla-vyhlasily-stavkovou-pohotovost-379078"
+        }
+      ],
+      "en": {
+        "headline": "The drama union of the National Theatre has declared a strike alert",
+        "sentences": [
+          {
+            "en": "The drama union of the National Theatre declared a strike alert yesterday evening.",
+            "cs": "Odbory činohry Národního divadla vyhlásily včera večer stávkovou pohotovost."
+          },
+          {
+            "en": "It disagrees with steps taken by the government and the Ministry of Culture which it says threaten freedom of speech and of the press as well as culture itself.",
+            "cs": "Nesouhlasí s kroky vlády a ministerstva kultury, které podle nich ohrožují svobodu slova a tisku i kulturu."
+          },
+          {
+            "en": "Among other things, it is demanding the resignation of Culture Minister Ota Klempíř, nominated by the Motorists, and the withdrawal of the bill moving public media funding under the state.",
+            "cs": "Požadují mimo jiné odstoupení ministra kultury Oty Klempíře za Motoristy a stažení projednávaného převodu financování veřejnoprávních médií pod stát."
+          },
+          {
+            "en": "Klempíř replied that the government is acting prudently and supports culture both in words and in money, and he acknowledged the actors' right to express disagreement.",
+            "cs": "Klempíř v reakci uvedl, že vláda postupuje hospodárně a kulturu podporuje slovy i penězi, a uznal právo herců vyjádřit nesouhlas."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "strike alert",
+            "definition": "an official warning that workers may soon stop work"
+          },
+          {
+            "term": "union",
+            "definition": "an organisation that protects workers' rights"
+          },
+          {
+            "term": "withdrawal",
+            "definition": "the act of taking something back or removing it"
+          },
+          {
+            "term": "prudently",
+            "definition": "in a careful and sensible way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:22",
+      "day": "prev",
+      "headline": "Podle Unie státních zástupců má Tejcova novela imunizovat konkrétní osoby",
+      "body": "Unie státních zástupců napsala k novele trestního řádu z dílny ministra spravedlnosti Jeronýma Tejce za ANO, že jejím cílem je imunizovat konkrétní osoby. Vyplývá to z textu Deníku N. Tejc odmítá, že by novela souvisela s kauzou Čapí hnízdo.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2234953/cilem-je-imunizovat-konkretni-osoby-napsala-unie-statnich-zastupcu-k-tejcove-novele/"
+        }
+      ],
+      "en": {
+        "headline": "The Union of Public Prosecutors says Tejc's bill is meant to immunise specific individuals",
+        "sentences": [
+          {
+            "en": "The Union of Public Prosecutors wrote of the amendment to the code of criminal procedure drafted by Justice Minister Jeroným Tejc, nominated by ANO, that its aim is to immunise specific individuals.",
+            "cs": "Unie státních zástupců napsala k novele trestního řádu z dílny ministra spravedlnosti Jeronýma Tejce za ANO, že jejím cílem je imunizovat konkrétní osoby."
+          },
+          {
+            "en": "This follows from a report by Deník N.",
+            "cs": "Vyplývá to z textu Deníku N."
+          },
+          {
+            "en": "Tejc denies that the amendment has anything to do with the Stork Nest case.",
+            "cs": "Tejc odmítá, že by novela souvisela s kauzou Čapí hnízdo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "amendment",
+            "definition": "a change made to a law or a document"
+          },
+          {
+            "term": "code of criminal procedure",
+            "definition": "the set of rules for how criminal cases are handled in court"
+          },
+          {
+            "term": "immunise",
+            "definition": "to protect someone from being punished"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:09",
+      "day": "covered",
+      "headline": "Pavel probral se Stubbem úterní telefonát finského prezidenta s Putinem",
+      "body": "Prezident Petr Pavel si dnes telefonoval se svým finským protějškem Alexandrem Stubbem, informoval Hrad. Hlavy států probraly úterní rozhovor finského prezidenta a norského premiéra Jonase Gahra Støreho s ruským vůdcem Vladimirem Putinem. Tématem byl podle Hradu také „výhled na dosažení společného evropského postoje k případným mírovým jednáním, jejichž výsledkem musí být věrohodné bezpečnostní záruky pro Ukrajinu i Evropu“.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2236382/"
+        }
+      ],
+      "en": {
+        "headline": "Pavel discussed Tuesday's call between the Finnish president and Putin with Stubb",
+        "sentences": [
+          {
+            "en": "President Petr Pavel spoke by telephone today with his Finnish counterpart Alexander Stubb, Prague Castle said.",
+            "cs": "Prezident Petr Pavel si dnes telefonoval se svým finským protějškem Alexandrem Stubbem, informoval Hrad."
+          },
+          {
+            "en": "The two heads of state discussed Tuesday's conversation between the Finnish president and Norwegian Prime Minister Jonas Gahr Støre and Russian leader Vladimir Putin.",
+            "cs": "Hlavy států probraly úterní rozhovor finského prezidenta a norského premiéra Jonase Gahra Støreho s ruským vůdcem Vladimirem Putinem."
+          },
+          {
+            "en": "According to Prague Castle, another topic was “the prospect of reaching a common European position on possible peace talks, which must result in credible security guarantees for Ukraine and for Europe”.",
+            "cs": "Tématem byl podle Hradu také „výhled na dosažení společného evropského postoje k případným mírovým jednáním, jejichž výsledkem musí být věrohodné bezpečnostní záruky pro Ukrajinu i Evropu“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "counterpart",
+            "definition": "a person with the same job in another country or organisation"
+          },
+          {
+            "term": "prospect",
+            "definition": "the chance that something will happen in the future"
+          },
+          {
+            "term": "credible",
+            "definition": "able to be believed or trusted"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:00",
+      "day": "covered",
+      "headline": "Hradec zadal studii na družstevní parkovací domy",
+      "body": "Radnice Hradce Králové zadala studii, která prověří stavbu družstevních parkovacích domů. Podle iDNES.cz takový projekt zatím nemá v republice obdoby a výrazně by mohl zjednodušit financování parkovacích domů. Město se tím chystá řešit kritický nedostatek parkovacích míst.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/parkovaci-dum-hradec-kralove-druzstevni-stavba-financovani.A261027_980179_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Hradec has commissioned a study on cooperative parking houses",
+        "sentences": [
+          {
+            "en": "Hradec Králové town hall has commissioned a study that will examine building parking houses owned by cooperatives.",
+            "cs": "Radnice Hradce Králové zadala studii, která prověří stavbu družstevních parkovacích domů."
+          },
+          {
+            "en": "According to iDNES.cz there is as yet nothing like the project anywhere in the country, and it could make financing parking houses considerably simpler.",
+            "cs": "Podle iDNES.cz takový projekt zatím nemá v republice obdoby a výrazně by mohl zjednodušit financování parkovacích domů."
+          },
+          {
+            "en": "The city is preparing to use it to tackle a critical shortage of parking spaces.",
+            "cs": "Město se tím chystá řešit kritický nedostatek parkovacích míst."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "commissioned",
+            "definition": "officially asked someone to do a piece of work"
+          },
+          {
+            "term": "cooperatives",
+            "definition": "organisations owned and run jointly by their members"
+          },
+          {
+            "term": "shortage",
+            "definition": "a situation where there is not enough of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:55",
+      "day": "covered",
+      "headline": "První tři kilometry D11 u Královce se otevřou na konci listopadu",
+      "body": "První tři kilometry dálnice D11 u Královce mají začít sloužit řidičům na konci listopadu. Stavbaři nyní instalují svodidla a dopravní značení a upravují okolní terén. Jde o první etapu úseku mezi Trutnovem a polskou hranicí.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/904184-nova-cast-d11-u-kralovce-je-skoro-hotova-ridicum-zacne-slouzit-v-listopadu.html"
+        }
+      ],
+      "en": {
+        "headline": "The first three kilometres of the D11 near Královec will open at the end of November",
+        "sentences": [
+          {
+            "en": "The first three kilometres of the D11 motorway near Královec are due to open to drivers at the end of November.",
+            "cs": "První tři kilometry dálnice D11 u Královce mají začít sloužit řidičům na konci listopadu."
+          },
+          {
+            "en": "Workers are now installing crash barriers and road signs and reshaping the surrounding ground.",
+            "cs": "Stavbaři nyní instalují svodidla a dopravní značení a upravují okolní terén."
+          },
+          {
+            "en": "This is the first stage of the section between Trutnov and the Polish border.",
+            "cs": "Jde o první etapu úseku mezi Trutnovem a polskou hranicí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "crash barriers",
+            "definition": "strong metal fences along a road that stop cars leaving it"
+          },
+          {
+            "term": "reshaping",
+            "definition": "changing the form of something"
+          },
+          {
+            "term": "section",
+            "definition": "one part of something longer, such as a road"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:15",
+      "day": "covered",
+      "headline": "Netflix natáčí v hradeckých lesích seriál podle Dana Browna",
+      "body": "Do Hradce Králové dorazil filmový štáb Netflixu, který v Česku natáčí seriálovou adaptaci románu Dana Browna Tajemství všech tajemství. Po pražských lokacích zamířili filmaři do hradeckých lesů, večer se mají přesunout na letiště k nočním scénám. Podle informací Deníku se štáb ve městě zdrží do pátku.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/netflix-serial-nataceni-hradec-dan-brown/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Netflix is filming a series based on Dan Brown in the woods around Hradec",
+        "sentences": [
+          {
+            "en": "A Netflix film crew has arrived in Hradec Králové to shoot the television adaptation of Dan Brown's novel The Secret of Secrets, which is being made in Czechia.",
+            "cs": "Do Hradce Králové dorazil filmový štáb Netflixu, který v Česku natáčí seriálovou adaptaci románu Dana Browna Tajemství všech tajemství."
+          },
+          {
+            "en": "After locations in Prague, the crew moved to the woods around Hradec, and in the evening they are due to move to the airport for night scenes.",
+            "cs": "Po pražských lokacích zamířili filmaři do hradeckých lesů, večer se mají přesunout na letiště k nočním scénám."
+          },
+          {
+            "en": "According to Deník, the crew will stay in the city until Friday.",
+            "cs": "Podle informací Deníku se štáb ve městě zdrží do pátku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "film crew",
+            "definition": "the group of people who work together to make a film"
+          },
+          {
+            "term": "adaptation",
+            "definition": "a film or play made from a book"
+          },
+          {
+            "term": "locations",
+            "definition": "real places where a film is shot"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:05",
+      "day": "covered",
+      "headline": "Hradec postoupil v poháru přes druholigový Prostějov až po prodloužení",
+      "body": "Fotbalisté Hradce Králové vyhráli v osmifinále MOL Cupu na půdě druholigového Prostějova 3:1 po prodloužení. Vítězný gól dal v 97. minutě střídající Tom Slončík, pojistku přidal Abdullahi Umar. Votroci postoupili do čtvrtfinále domácího poháru druhý rok po sobě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/hradec-se-v-prostejove-strachoval-o-postup-v-poharu-jde-dal-az-po-prodlouzeni-159673"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/ostatni-sporty/hradec-se-v-poharu-nadrel-druholigovy-prostejov-zlomili-az-stridajici-zolici/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-sporty"
+        }
+      ],
+      "en": {
+        "headline": "Hradec got past second-division Prostějov in the cup only after extra time",
+        "sentences": [
+          {
+            "en": "The footballers of Hradec Králové won 3:1 after extra time away at second-division Prostějov in the last sixteen of the MOL Cup.",
+            "cs": "Fotbalisté Hradce Králové vyhráli v osmifinále MOL Cupu na půdě druholigového Prostějova 3:1 po prodloužení."
+          },
+          {
+            "en": "The winning goal came in the 97th minute from substitute Tom Slončík, and Abdullahi Umar added a third.",
+            "cs": "Vítězný gól dal v 97. minutě střídající Tom Slončík, pojistku přidal Abdullahi Umar."
+          },
+          {
+            "en": "Votroci have reached the quarter-finals of the domestic cup for the second year running.",
+            "cs": "Votroci postoupili do čtvrtfinále domácího poháru druhý rok po sobě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "extra time",
+            "definition": "a longer playing period added when a match is level"
+          },
+          {
+            "term": "substitute",
+            "definition": "a player who comes on to replace another one"
+          },
+          {
+            "term": "quarter-finals",
+            "definition": "the round of a competition with eight teams left"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:20",
+      "day": "covered",
+      "headline": "Při srážce rychlovlaků u Toleda zemřelo 68 lidí",
+      "body": "Ve středním Španělsku se dnes ráno u Toleda srazily dva vysokorychlostní vlaky. Počet obětí podle místních úřadů vzrostl na 68, v nemocnicích je 58 zraněných, z nichž patnáct je v kritickém stavu. Dva vagony při srážce vykolejily a spadly ze svahu. Ve vlaku AVE společnosti Renfe bylo podle Deníku N 397 cestujících, ve vlaku Iryo 147. Příčinou nehody je podle úřadů zřejmě lidské pochybení v řídicím centru. Provoz na trati spojující Madrid s jižním regionem Andalusie byl přerušen. České ministerstvo zahraničí podle ČT24 zatím nemá informace, že by mezi oběťmi byli Češi. Jde o jednu z nejtragičtějších vlakových nehod v dějinách země, soustrast vyjádřili mimo jiné španělský premiér Pedro Sánchez, český premiér Andrej Babiš i ukrajinský prezident Volodymyr Zelenskyj.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ve-spanelsku-se-srazily-vysokorychlostni-vlaky-zemrelo-nejmene-deset-lidi-379083"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-snimky-z-nehody-ve-spanelsku-vagony-rychlovlaku-se-sesunuly-ze-svahu-318985"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/ve-spanelsku-se-srazily-vysokorychlostni-vlaky-zemrelo-nejmene-deset-lidi-1436913"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2236172/po-srazce-rychlovlaku-ve-spanelsku-zemrely-desitky-lidi-patri-k-nejtragictejsim-vlakovym-nehodam-v-dejinach-zeme/"
+        }
+      ],
+      "en": {
+        "headline": "Sixty-eight people died in the high-speed train collision near Toledo",
+        "sentences": [
+          {
+            "en": "Two high-speed trains collided near Toledo in central Spain this morning.",
+            "cs": "Ve středním Španělsku se dnes ráno u Toleda srazily dva vysokorychlostní vlaky."
+          },
+          {
+            "en": "Local authorities say the death toll has risen to 68, with 58 injured in hospital, fifteen of them in a critical condition.",
+            "cs": "Počet obětí podle místních úřadů vzrostl na 68, v nemocnicích je 58 zraněných, z nichž patnáct je v kritickém stavu."
+          },
+          {
+            "en": "Two carriages derailed in the crash and fell down an embankment.",
+            "cs": "Dva vagony při srážce vykolejily a spadly ze svahu."
+          },
+          {
+            "en": "According to Deník N there were 397 passengers on the Renfe AVE train and 147 on the Iryo train.",
+            "cs": "Ve vlaku AVE společnosti Renfe bylo podle Deníku N 397 cestujících, ve vlaku Iryo 147."
+          },
+          {
+            "en": "The authorities say the cause was most likely human error at the control centre.",
+            "cs": "Příčinou nehody je podle úřadů zřejmě lidské pochybení v řídicím centru."
+          },
+          {
+            "en": "Traffic on the line linking Madrid with the southern region of Andalusia has been suspended.",
+            "cs": "Provoz na trati spojující Madrid s jižním regionem Andalusie byl přerušen."
+          },
+          {
+            "en": "The Czech Foreign Ministry told ČT24 it has no information so far that any Czechs are among the victims.",
+            "cs": "České ministerstvo zahraničí podle ČT24 zatím nemá informace, že by mezi oběťmi byli Češi."
+          },
+          {
+            "en": "It is one of the deadliest rail disasters in the country's history, and condolences have come from Spanish Prime Minister Pedro Sánchez, Czech Prime Minister Andrej Babiš and Ukrainian President Volodymyr Zelenskyj, among others.",
+            "cs": "Jde o jednu z nejtragičtějších vlakových nehod v dějinách země, soustrast vyjádřili mimo jiné španělský premiér Pedro Sánchez, český premiér Andrej Babiš i ukrajinský prezident Volodymyr Zelenskyj."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "death toll",
+            "definition": "the number of people killed in an event"
+          },
+          {
+            "term": "derailed",
+            "definition": "came off the railway tracks"
+          },
+          {
+            "term": "embankment",
+            "definition": "a bank of earth built to carry a road or railway"
+          },
+          {
+            "term": "condolences",
+            "definition": "words showing sympathy to people whose relatives have died"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:56",
+      "day": "covered",
+      "headline": "Dronový útok na tržiště v Súdánu si vyžádal přes sto mrtvých",
+      "body": "Počet obětí pondělního dronového útoku na tržiště Tangonj v Súdánu vzrostl na 102, dalších 113 lidí včetně žen a dětí utrpělo zranění. S odvoláním na lidskoprávní organizaci Emergency Lawyers o tom informovala agentura AFP. Původní informace od svědků a zdravotnického zdroje hovořily o 21 mrtvých a více než 40 zraněných.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/pocet-obeti-pondelniho-dronoveho-utoku-na-trziste-v-sudanu-vzrostl-na-102_2610281439_cen"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-na-trziste-v-sudanu-zautocil-dron-zemrelo-pres-sto-lidi-318988"
+        }
+      ],
+      "en": {
+        "headline": "A drone attack on a market in Sudan has killed more than a hundred people",
+        "sentences": [
+          {
+            "en": "The death toll from Monday's drone attack on the Tangonj market in Sudan has risen to 102, and another 113 people, among them women and children, were injured.",
+            "cs": "Počet obětí pondělního dronového útoku na tržiště Tangonj v Súdánu vzrostl na 102, dalších 113 lidí včetně žen a dětí utrpělo zranění."
+          },
+          {
+            "en": "The AFP news agency reported this citing the human rights organisation Emergency Lawyers.",
+            "cs": "S odvoláním na lidskoprávní organizaci Emergency Lawyers o tom informovala agentura AFP."
+          },
+          {
+            "en": "Initial accounts from witnesses and a medical source spoke of 21 dead and more than 40 injured.",
+            "cs": "Původní informace od svědků a zdravotnického zdroje hovořily o 21 mrtvých a více než 40 zraněných."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "citing",
+            "definition": "naming something as the source of information"
+          },
+          {
+            "term": "witnesses",
+            "definition": "people who saw something happen"
+          },
+          {
+            "term": "initial",
+            "definition": "happening at the beginning"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:57",
+      "day": "covered",
+      "headline": "Netanjahuův blok vede izraelské volby, na většinu ale nedosáhne",
+      "body": "Po sečtení více než 84 procent hlasů z úterních izraelských parlamentních voleb vede blok premiéra Benjamina Netanjahua s 54 křesly ze 120, sionistický opoziční blok vedený Gadim Eisenkotem má 49 mandátů. Strany volené převážně izraelskými Araby hlásí rekordní zisk se 17 mandáty. Žádný z hlavních bloků tak na většinu nedosáhne a k sestavení vlády by nejspíš potřeboval podporu arabských stran, kterou sionistická uskupení včetně části opozice dosud odmítala. Podle Seznam Zpráv Netanjahu ztratil méně, než se čekalo podle většiny předvolebních průzkumů a exit pollů. Deník N v analýze z Jeruzaléma píše, že odmítání arabských hlasů podkopává jak změnu, tak demokratické směřování země.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-izraeli-se-uzavrely-volebni-mistnosti-zacina-scitani-hlasu-379071"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-netanjahu-ve-volbach-ztratil-ale-mene-nez-se-cekalo-uder-na-iran-se-blizi-318975"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2235984/povolebni-izrael-postrada-viteze-zmenu-i-demokracii-podkopava-odmitani-arabskych-hlasu/"
+        }
+      ],
+      "en": {
+        "headline": "Netanyahu's bloc leads the Israeli election but will fall short of a majority",
+        "sentences": [
+          {
+            "en": "With more than 84 percent of the votes from Tuesday's Israeli parliamentary election counted, the bloc of Prime Minister Benjamin Netanyahu leads with 54 of the 120 seats, while the Zionist opposition bloc led by Gadi Eisenkot has 49.",
+            "cs": "Po sečtení více než 84 procent hlasů z úterních izraelských parlamentních voleb vede blok premiéra Benjamina Netanjahua s 54 křesly ze 120, sionistický opoziční blok vedený Gadim Eisenkotem má 49 mandátů."
+          },
+          {
+            "en": "Parties voted for mainly by Israeli Arabs report a record result of 17 seats.",
+            "cs": "Strany volené převážně izraelskými Araby hlásí rekordní zisk se 17 mandáty."
+          },
+          {
+            "en": "Neither of the main blocs will therefore reach a majority, and to form a government either would most likely need the support of the Arab parties, which Zionist groupings including part of the opposition have so far refused.",
+            "cs": "Žádný z hlavních bloků tak na většinu nedosáhne a k sestavení vlády by nejspíš potřeboval podporu arabských stran, kterou sionistická uskupení včetně části opozice dosud odmítala."
+          },
+          {
+            "en": "According to Seznam Zprávy, Netanyahu lost less ground than most pre-election polls and exit polls had suggested.",
+            "cs": "Podle Seznam Zpráv Netanjahu ztratil méně, než se čekalo podle většiny předvolebních průzkumů a exit pollů."
+          },
+          {
+            "en": "In an analysis from Jerusalem, Deník N writes that the rejection of Arab votes undermines both change and the country's democratic direction.",
+            "cs": "Deník N v analýze z Jeruzaléma píše, že odmítání arabských hlasů podkopává jak změnu, tak demokratické směřování země."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bloc",
+            "definition": "a group of parties or countries acting together"
+          },
+          {
+            "term": "exit polls",
+            "definition": "surveys of voters as they leave the polling station"
+          },
+          {
+            "term": "undermines",
+            "definition": "slowly weakens something"
+          },
+          {
+            "term": "groupings",
+            "definition": "sets of parties or people treated as one"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:20",
+      "day": "covered",
+      "headline": "Slovensko je díky novým F-16 opět schopné samo chránit svůj vzdušný prostor",
+      "body": "Slovensko je od dnešního dne opět schopné bránit svůj vzdušný prostor vlastními silami, oznámil prezident Peter Pellegrini. Země po začátku plnohodnotné ruské invaze na Ukrajinu v roce 2022 vyřadila z výzbroje zastaralé stíhačky MiG-29 ze sovětské éry a předala je Kyjevu, s ochranou slovenského vzdušného prostoru pak začali pomáhat spojenci včetně Česka. Už v roce 2018 si Slovensko objednalo čtrnáct nových amerických stíhaček F-16 Block 70, z nichž většina už je v zemi.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/slovensko-je-opet-schopne-plne-chranit-svuj-vzdusny-prostor-oznamil-pellegrini-379084"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/slovensko-je-opet-schopne-plne-chranit-sve-nebe-oznamil-prezident-pellegrini_2610281214_cen"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-slovensko-ma-nove-stihacky-jsme-schopni-plne-chranit-sve-nebe-rekl-pellegrini-318983"
+        }
+      ],
+      "en": {
+        "headline": "Thanks to new F-16s Slovakia can again protect its own airspace",
+        "sentences": [
+          {
+            "en": "As of today Slovakia is once again able to defend its airspace with its own forces, President Peter Pellegrini announced.",
+            "cs": "Slovensko je od dnešního dne opět schopné bránit svůj vzdušný prostor vlastními silami, oznámil prezident Peter Pellegrini."
+          },
+          {
+            "en": "After the start of the full-scale Russian invasion of Ukraine in 2022 the country withdrew its ageing Soviet-era MiG-29 fighters from service and handed them to Kyiv, after which allies including Czechia began helping to protect Slovak airspace.",
+            "cs": "Země po začátku plnohodnotné ruské invaze na Ukrajinu v roce 2022 vyřadila z výzbroje zastaralé stíhačky MiG-29 ze sovětské éry a předala je Kyjevu, s ochranou slovenského vzdušného prostoru pak začali pomáhat spojenci včetně Česka."
+          },
+          {
+            "en": "Back in 2018 Slovakia ordered fourteen new American F-16 Block 70 fighters, most of which are now in the country.",
+            "cs": "Už v roce 2018 si Slovensko objednalo čtrnáct nových amerických stíhaček F-16 Block 70, z nichž většina už je v zemi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "airspace",
+            "definition": "the sky above a country that it controls"
+          },
+          {
+            "term": "full-scale",
+            "definition": "complete and using all available force"
+          },
+          {
+            "term": "ageing",
+            "definition": "becoming old and less useful"
+          },
+          {
+            "term": "allies",
+            "definition": "countries that agree to help each other"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:19",
+      "day": "covered",
+      "headline": "Flávio Bolsonaro po prohraných volbách odletěl do Spojených států",
+      "body": "Neúspěšný kandidát na brazilského prezidenta Flávio Bolsonaro přicestoval i s rodinou na Floridu, kde se podle stanice BBC a serveru Financial Times setkal s bratrem Eduardem. Podle Seznam Zpráv odletěl poté, co Brazílie zrušila platnost jeho cestovních dokladů, a čelí obvinění v několika kauzách. Americký prezident Donald Trump prohlásil, že cestu Bolsonara do Spojených států schvaluje.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/bolsonaro-po-prohranych-volbach-opustil-brazilii-tvrdi-zdroje-z-jeho-okoli-379079"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-bolsonaro-po-prohre-v-prezidentskych-volbach-odjel-do-spojenych-statu-318966"
+        }
+      ],
+      "en": {
+        "headline": "Flávio Bolsonaro has flown to the United States after losing the election",
+        "sentences": [
+          {
+            "en": "The unsuccessful candidate for the Brazilian presidency, Flávio Bolsonaro, has arrived with his family in Florida, where according to the BBC and the Financial Times he met his brother Eduardo.",
+            "cs": "Neúspěšný kandidát na brazilského prezidenta Flávio Bolsonaro přicestoval i s rodinou na Floridu, kde se podle stanice BBC a serveru Financial Times setkal s bratrem Eduardem."
+          },
+          {
+            "en": "Seznam Zprávy reports that he left after Brazil cancelled the validity of his travel documents, and that he faces charges in several cases.",
+            "cs": "Podle Seznam Zpráv odletěl poté, co Brazílie zrušila platnost jeho cestovních dokladů, a čelí obvinění v několika kauzách."
+          },
+          {
+            "en": "US President Donald Trump said he approves of Bolsonaro's trip to the United States.",
+            "cs": "Americký prezident Donald Trump prohlásil, že cestu Bolsonara do Spojených států schvaluje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "validity",
+            "definition": "the state of being officially accepted"
+          },
+          {
+            "term": "charges",
+            "definition": "official accusations that someone has broken the law"
+          },
+          {
+            "term": "approves of",
+            "definition": "thinks something is good or acceptable"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "day": "covered",
+      "headline": "Tři námořní drony zasáhly loď u bulharského pobřeží",
+      "body": "Tři námořní drony zasáhly loď u pobřeží Bulharska, uvedl podle Seznam Zpráv bulharský ministr obrany. Jde o další dronový útok na námořní dopravu na východním křídle NATO. Posádka se stačila evakuovat a je v bezpečí, žádné oběti na životech hlášeny nejsou.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-tri-namorni-drony-zasahly-lod-u-bulharska-posadka-je-v-bezpeci-uvedly-urady-319018"
+        }
+      ],
+      "en": {
+        "headline": "Three sea drones hit a ship off the Bulgarian coast",
+        "sentences": [
+          {
+            "en": "Three sea drones hit a ship off the coast of Bulgaria, the Bulgarian defence minister said in a report by Seznam Zprávy.",
+            "cs": "Tři námořní drony zasáhly loď u pobřeží Bulharska, uvedl podle Seznam Zpráv bulharský ministr obrany."
+          },
+          {
+            "en": "It is another drone attack on shipping on NATO's eastern flank.",
+            "cs": "Jde o další dronový útok na námořní dopravu na východním křídle NATO."
+          },
+          {
+            "en": "The crew managed to evacuate and is safe, and no loss of life has been reported.",
+            "cs": "Posádka se stačila evakuovat a je v bezpečí, žádné oběti na životech hlášeny nejsou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shipping",
+            "definition": "ships and the goods they carry"
+          },
+          {
+            "term": "flank",
+            "definition": "the side part of a military position or area"
+          },
+          {
+            "term": "evacuate",
+            "definition": "to leave a dangerous place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "20:38",
+      "day": "prev",
+      "headline": "Sněmovní výbory začaly projednávat rozpočet, přidáno může dostat sport",
+      "body": "Rozpočtový výbor Poslanecké sněmovny projednal návrh státního rozpočtu na rok 2027. Ve druhém čtení chystají vládní strany přesuny v řádech maximálně několika miliard, víc peněz by na úkor jiné kapitoly mohla dostat třeba Národní sportovní agentura, které vláda v září schválila oproti letošku 200 milionů navíc. Schodek už poslanci měnit nemohou. O rozpočtu na obranu jednal i sněmovní výbor pro obranu. Ministr obrany Jaromír Zůna za SPD ho označil za maximum možného a za nejvyšší v historii České republiky: 191 miliard korun, z toho 145 miliard přímo pro Armádu České republiky.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/snemovni-vybory-zacaly-projednavat-navrh-rozpoctu-pridano-muze-dostat-sport-379073"
+        }
+      ],
+      "en": {
+        "headline": "Parliamentary committees have begun debating the budget and sport may get more money",
+        "sentences": [
+          {
+            "en": "The budget committee of the Chamber of Deputies has debated the draft state budget for 2027.",
+            "cs": "Rozpočtový výbor Poslanecké sněmovny projednal návrh státního rozpočtu na rok 2027."
+          },
+          {
+            "en": "In the second reading the governing parties are planning shifts of at most a few billion, and the National Sports Agency, to which the government approved an extra 200 million in September compared with this year, could get more money at the expense of another chapter.",
+            "cs": "Ve druhém čtení chystají vládní strany přesuny v řádech maximálně několika miliard, víc peněz by na úkor jiné kapitoly mohla dostat třeba Národní sportovní agentura, které vláda v září schválila oproti letošku 200 milionů navíc."
+          },
+          {
+            "en": "MPs can no longer change the deficit.",
+            "cs": "Schodek už poslanci měnit nemohou."
+          },
+          {
+            "en": "The parliamentary defence committee also discussed the defence budget.",
+            "cs": "O rozpočtu na obranu jednal i sněmovní výbor pro obranu."
+          },
+          {
+            "en": "Defence Minister Jaromír Zůna, nominated by SPD, called it the most that could be achieved and the largest in the history of the Czech Republic: 191 billion crowns, of which 145 billion goes directly to the Army of the Czech Republic.",
+            "cs": "Ministr obrany Jaromír Zůna za SPD ho označil za maximum možného a za nejvyšší v historii České republiky: 191 miliard korun, z toho 145 miliard přímo pro Armádu České republiky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "draft",
+            "definition": "an early version of a document that may still change"
+          },
+          {
+            "term": "at the expense of",
+            "definition": "causing harm or loss to something else"
+          },
+          {
+            "term": "deficit",
+            "definition": "the amount by which spending is greater than income"
+          },
+          {
+            "term": "chapter",
+            "definition": "one named part of a state budget"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "17:40",
+      "day": "prev",
+      "headline": "Nákupy na Temu a Sheinu zdraží o nový manipulační poplatek",
+      "body": "Evropská unie zavádí podle E15 nový manipulační poplatek za balíčky z Číny, který má podle dosavadních informací činit dvě eura. Levné nákupy z čínských e-shopů tak čeká už tento týden další zdražení. Novinka navazuje na červencové zavedení cla, které nakupování Čechů už výrazně změnilo. Evropská komise podle E15 připravuje další poplatek.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obchod-a-sluzby/nakupy-na-temu-a-sheinu-znovu-podrazi-k-dosavadnimu-clu-pribude-dalsi-poplatek-za-balicky-z-ciny-1436903"
+        }
+      ],
+      "en": {
+        "headline": "Shopping on Temu and Shein will cost more because of a new handling fee",
+        "sentences": [
+          {
+            "en": "According to E15 the European Union is introducing a new handling fee on parcels from China, which on current information will come to two euros.",
+            "cs": "Evropská unie zavádí podle E15 nový manipulační poplatek za balíčky z Číny, který má podle dosavadních informací činit dvě eura."
+          },
+          {
+            "en": "Cheap purchases from Chinese e-shops will therefore become more expensive again as soon as this week.",
+            "cs": "Levné nákupy z čínských e-shopů tak čeká už tento týden další zdražení."
+          },
+          {
+            "en": "The change follows the customs duty introduced in July, which has already altered Czech shopping habits considerably.",
+            "cs": "Novinka navazuje na červencové zavedení cla, které nakupování Čechů už výrazně změnilo."
+          },
+          {
+            "en": "E15 reports that the European Commission is preparing yet another fee.",
+            "cs": "Evropská komise podle E15 připravuje další poplatek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "handling fee",
+            "definition": "money charged for dealing with and moving goods"
+          },
+          {
+            "term": "parcels",
+            "definition": "goods wrapped up and sent by post"
+          },
+          {
+            "term": "customs duty",
+            "definition": "a tax paid on goods brought into a country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:00",
+      "day": "covered",
+      "headline": "Ve Velkém Březně skončí vaření Březňáku, pivovary opouštějí tradiční místa",
+      "body": "Klesající spotřeba a rostoucí náklady, hlavně za energie a obalové materiály, nutí pivovary k úsporným krokům. Ve Velkém Březně na Ústecku, kde pivovar fungoval od osmnáctého století, se přestane vařit značka Březňák a výroba se přesune do jiných podniků, dopadne to na zhruba dvacítku zaměstnanců. Nedávno s podobným oznámením přišel také Ostravar založený v roce 1897, který příští rok ukončí výrobu v Ostravě, což se dotkne zhruba 120 lidí.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/pivovary-pod-tlakem-preskupuji-sve-kapacity-a-opousti-tradicni-mista-379074"
+        }
+      ],
+      "en": {
+        "headline": "Brewing of Březňák will end in Velké Březno as breweries leave their traditional homes",
+        "sentences": [
+          {
+            "en": "Falling consumption and rising costs, chiefly for energy and packaging materials, are forcing breweries into cost-cutting measures.",
+            "cs": "Klesající spotřeba a rostoucí náklady, hlavně za energie a obalové materiály, nutí pivovary k úsporným krokům."
+          },
+          {
+            "en": "In Velké Březno in the Ústí region, where a brewery has operated since the eighteenth century, the Březňák brand will no longer be brewed and production will move to other plants, which will affect around twenty employees.",
+            "cs": "Ve Velkém Březně na Ústecku, kde pivovar fungoval od osmnáctého století, se přestane vařit značka Březňák a výroba se přesune do jiných podniků, dopadne to na zhruba dvacítku zaměstnanců."
+          },
+          {
+            "en": "Ostravar, founded in 1897, recently made a similar announcement and will end production in Ostrava next year, affecting roughly 120 people.",
+            "cs": "Nedávno s podobným oznámením přišel také Ostravar založený v roce 1897, který příští rok ukončí výrobu v Ostravě, což se dotkne zhruba 120 lidí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "consumption",
+            "definition": "the amount of something that people use or drink"
+          },
+          {
+            "term": "packaging",
+            "definition": "the materials used to wrap goods for sale"
+          },
+          {
+            "term": "cost-cutting",
+            "definition": "reducing the money a company spends"
+          },
+          {
+            "term": "brewed",
+            "definition": "made, in the case of beer"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "12:03",
+      "day": "covered",
+      "headline": "macOS stále důvěřuje kompromitovaným certifikátům eMudhra v nástrojích příkazové řádky",
+      "body": "Více než týden po skandálu kolem slabých klíčů certifikační autority eMudhra přijímá macOS podle serveru Root.cz stále napadené certifikáty v nástrojích používaných v příkazové řádce. Týká se to například curlu, gitu, python3, ruby, perlu a openssl. Problém neřeší ani nejnovější aktualizace macOS 27.2.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/v-macos-jeste-nejsou-revokovane-certifikaty-emudhra-pro-utility-v-prikazove-radce/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://emudhra.we-have-a-problem.com/apple.html"
+        }
+      ],
+      "en": {
+        "headline": "macOS still trusts the compromised eMudhra certificates in command-line tools",
+        "sentences": [
+          {
+            "en": "More than a week after the scandal over the weak keys of the certificate authority eMudhra, macOS still accepts the compromised certificates in tools used on the command line, Root.cz reports.",
+            "cs": "Více než týden po skandálu kolem slabých klíčů certifikační autority eMudhra přijímá macOS podle serveru Root.cz stále napadené certifikáty v nástrojích používaných v příkazové řádce."
+          },
+          {
+            "en": "This affects curl, git, python3, ruby, perl and openssl, for example.",
+            "cs": "Týká se to například curlu, gitu, python3, ruby, perlu a openssl."
+          },
+          {
+            "en": "Not even the latest macOS 27.2 update fixes the problem.",
+            "cs": "Problém neřeší ani nejnovější aktualizace macOS 27.2."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compromised",
+            "definition": "no longer safe because someone has got access to it"
+          },
+          {
+            "term": "certificate authority",
+            "definition": "a company that issues the digital proofs that websites are genuine"
+          },
+          {
+            "term": "command line",
+            "definition": "a way of using a computer by typing text instructions"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:50",
+      "day": "prev",
+      "headline": "Anthropic zveřejnil první výsledky nasazení Claudu ve vývoji léků",
+      "body": "Anthropic popsal první výsledky partnerství, v nichž jeho model Claude pomáhá urychlit vývoj léků. Zapojeno je šest organizací, mezi nimi Bristol Myers Squibb, Generate Biomedicines, BigHat Biosciences, Divergence Labs, Enveda a The Column Group. Ve firmě Generate Biomedicines pomohl Claude Code navrhnout součást buněčné terapie CAR-T zhruba o 70 procent kratší než standardní verze, která v laboratorních testech umožnila asi desetkrát víc receptorů a účinněji zabíjela nádorové buňky. V Divergence Labs model vygeneroval za přibližně měsíc asi 35 tisíc návrhů protilátek proti potravinovým alergiím. Ve firmě Enveda našel všech jedenáct problémů, které v 1061 stranách dokumentace odhalili lidští recenzenti, a upozornil na dalších sedm, čas lidské kontroly klesl z více než 25 hodin na méně než tři. Většina práce je zatím v preklinické fázi a Anthropic ji chce rozšířit i do klinických studií.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic has published the first results of using Claude in drug development",
+        "sentences": [
+          {
+            "en": "Anthropic has described the first results of partnerships in which its model Claude helps to speed up drug development.",
+            "cs": "Anthropic popsal první výsledky partnerství, v nichž jeho model Claude pomáhá urychlit vývoj léků."
+          },
+          {
+            "en": "Six organisations are involved, among them Bristol Myers Squibb, Generate Biomedicines, BigHat Biosciences, Divergence Labs, Enveda and The Column Group.",
+            "cs": "Zapojeno je šest organizací, mezi nimi Bristol Myers Squibb, Generate Biomedicines, BigHat Biosciences, Divergence Labs, Enveda a The Column Group."
+          },
+          {
+            "en": "At Generate Biomedicines, Claude Code helped design a component of CAR-T cell therapy roughly 70 percent shorter than the standard version, which in laboratory tests allowed about ten times as many receptors and killed tumour cells more efficiently.",
+            "cs": "Ve firmě Generate Biomedicines pomohl Claude Code navrhnout součást buněčné terapie CAR-T zhruba o 70 procent kratší než standardní verze, která v laboratorních testech umožnila asi desetkrát víc receptorů a účinněji zabíjela nádorové buňky."
+          },
+          {
+            "en": "At Divergence Labs the model generated around 35,000 antibody designs against food allergies in roughly a month.",
+            "cs": "V Divergence Labs model vygeneroval za přibližně měsíc asi 35 tisíc návrhů protilátek proti potravinovým alergiím."
+          },
+          {
+            "en": "At Enveda it found all eleven problems that human reviewers had spotted in 1,061 pages of documentation and flagged seven more, and the time spent on human review fell from over 25 hours to under three.",
+            "cs": "Ve firmě Enveda našel všech jedenáct problémů, které v 1061 stranách dokumentace odhalili lidští recenzenti, a upozornil na dalších sedm, čas lidské kontroly klesl z více než 25 hodin na méně než tři."
+          },
+          {
+            "en": "Most of the work is still at the preclinical stage and Anthropic wants to extend it into clinical trials as well.",
+            "cs": "Většina práce je zatím v preklinické fázi a Anthropic ji chce rozšířit i do klinických studií."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "component",
+            "definition": "one part of a larger thing"
+          },
+          {
+            "term": "antibody",
+            "definition": "a substance the body makes to fight illness"
+          },
+          {
+            "term": "flagged",
+            "definition": "pointed out something for attention"
+          },
+          {
+            "term": "preclinical",
+            "definition": "happening before a medicine is tested on people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "17:06",
+      "day": "prev",
+      "headline": "Google DeepMind představil Genie 4",
+      "body": "Google DeepMind na svém blogu oznámil model Genie 4, který popisuje jako novou generaci simulace světa. Oznámení se stalo jedním z nejdiskutovanějších příspěvků na Hacker News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        }
+      ],
+      "en": {
+        "headline": "Google DeepMind has unveiled Genie 4",
+        "sentences": [
+          {
+            "en": "Google DeepMind has announced the Genie 4 model on its blog, describing it as a new generation of world simulation.",
+            "cs": "Google DeepMind na svém blogu oznámil model Genie 4, který popisuje jako novou generaci simulace světa."
+          },
+          {
+            "en": "The announcement became one of the most discussed posts on Hacker News.",
+            "cs": "Oznámení se stalo jedním z nejdiskutovanějších příspěvků na Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unveiled",
+            "definition": "showed something to the public for the first time"
+          },
+          {
+            "term": "simulation",
+            "definition": "a computer model that imitates something real"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:35",
+      "day": "prev",
+      "headline": "Chyba v UEFI firmwaru podle Ars Techniky ohrožuje většinu serverů na světě",
+      "body": "Server Ars Technica popsal zranitelnost v UEFI firmwaru, která umožňuje spuštění cizího kódu a podle něj ohrožuje většinu serverů na světě.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/"
+        }
+      ],
+      "en": {
+        "headline": "A flaw in UEFI firmware threatens most servers on the planet, Ars Technica reports",
+        "sentences": [
+          {
+            "en": "Ars Technica has described a vulnerability in UEFI firmware that allows outside code to be run and which, it says, threatens most servers on the planet.",
+            "cs": "Server Ars Technica popsal zranitelnost v UEFI firmwaru, která umožňuje spuštění cizího kódu a podle něj ohrožuje většinu serverů na světě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "flaw",
+            "definition": "a fault that makes something not work properly"
+          },
+          {
+            "term": "vulnerability",
+            "definition": "a weakness that an attacker can use"
+          },
+          {
+            "term": "firmware",
+            "definition": "software built into a device to control it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "10:03",
+      "day": "covered",
+      "headline": "Plošné odběry DNA policií české právo výslovně neupravuje",
+      "body": "Plošné testování DNA, jaké policie nedávno využila v Rovensku pod Troskami, představuje podle Seznam Zpráv zásah do soukromí lidí, kteří nejsou z ničeho podezřelí. České zákony přitom výslovně neupravují, kdy a jak lze tuto metodu použít.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-policejni-hromadne-odbery-dna-jako-zasah-do-soukromi-ceske-pravo-zatim-mlci-318163"
+        }
+      ],
+      "en": {
+        "headline": "Czech law says nothing explicit about blanket DNA sampling by the police",
+        "sentences": [
+          {
+            "en": "Blanket DNA testing of the kind the police recently used in Rovensko pod Troskami amounts to an intrusion into the privacy of people who are not under any suspicion, Seznam Zprávy writes.",
+            "cs": "Plošné testování DNA, jaké policie nedávno využila v Rovensku pod Troskami, představuje podle Seznam Zpráv zásah do soukromí lidí, kteří nejsou z ničeho podezřelí."
+          },
+          {
+            "en": "Yet Czech law does not explicitly regulate when and how the method may be used.",
+            "cs": "České zákony přitom výslovně neupravují, kdy a jak lze tuto metodu použít."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "blanket",
+            "definition": "covering everyone or everything without exception"
+          },
+          {
+            "term": "intrusion",
+            "definition": "an unwanted entry into someone's private life"
+          },
+          {
+            "term": "regulate",
+            "definition": "to control something by rules"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:05",
+      "day": "covered",
+      "headline": "V poháru postoupily Plzeň, Slavia i Liberec",
+      "body": "Plzeň v dohrávce třetího kola MOL Cupu rozdrtila na stadionu druholigové Jihlavy 6:1, dvakrát skóroval navrátilec do A-týmu Prince Adu. Včera večer postoupily do čtvrtfinále Slavia, která porazila Zbrojovku Brno 4:0 a ukončila sérii čtyř soutěžních zápasů bez výhry, a Liberec po výhře 1:0 nad Teplicemi.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/hradec-se-v-prostejove-strachoval-o-postup-v-poharu-jde-dal-az-po-prodlouzeni-159673"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/liberec-vyhral-v-poharu-nad-teplicemi-10-rozhodl-masek-159663"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/sk-slavia-praha-mol-cup-zbrojovka-brno-fotbal-wiktor-nowak-cesky-fotbal_2610281108_ssi"
+        }
+      ],
+      "en": {
+        "headline": "Plzeň, Slavia and Liberec have gone through in the cup",
+        "sentences": [
+          {
+            "en": "In a postponed third-round MOL Cup match Plzeň thrashed second-division Jihlava 6:1 at their ground, with two goals from Prince Adu, who has returned to the first team.",
+            "cs": "Plzeň v dohrávce třetího kola MOL Cupu rozdrtila na stadionu druholigové Jihlavy 6:1, dvakrát skóroval navrátilec do A-týmu Prince Adu."
+          },
+          {
+            "en": "Yesterday evening Slavia went through to the quarter-finals by beating Zbrojovka Brno 4:0, ending a run of four competitive matches without a win, as did Liberec after a 1:0 victory over Teplice.",
+            "cs": "Včera večer postoupily do čtvrtfinále Slavia, která porazila Zbrojovku Brno 4:0 a ukončila sérii čtyř soutěžních zápasů bez výhry, a Liberec po výhře 1:0 nad Teplicemi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "postponed",
+            "definition": "moved to a later date"
+          },
+          {
+            "term": "thrashed",
+            "definition": "beat very easily by a large score"
+          },
+          {
+            "term": "competitive matches",
+            "definition": "games that count towards a competition, not friendlies"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "23:26",
+      "day": "prev",
+      "headline": "Arsenal vypadl z Ligového poháru se čtvrtoligovým Fleetwoodem",
+      "body": "Fotbalisté Arsenalu vypadli z anglického Ligového poháru v osmifinále po penaltách s týmem Fleetwood Town ze čtvrté ligy. V normální hrací době skončil zápas 1:1, domácí vyhráli rozstřel 5:3. Od úřadujícího vítěze Premier League je v pyramidě anglického fotbalu dělí 84 míst.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-senzace-arsenal-vypadl-z-poharu-s-tymem-ze-ctvrte-ligy-5564844"
+        }
+      ],
+      "en": {
+        "headline": "Arsenal have gone out of the League Cup against fourth-tier Fleetwood",
+        "sentences": [
+          {
+            "en": "Arsenal's footballers have gone out of the English League Cup in the last sixteen on penalties against fourth-tier Fleetwood Town.",
+            "cs": "Fotbalisté Arsenalu vypadli z anglického Ligového poháru v osmifinále po penaltách s týmem Fleetwood Town ze čtvrté ligy."
+          },
+          {
+            "en": "The match finished 1:1 in normal time and the hosts won the shoot-out 5:3.",
+            "cs": "V normální hrací době skončil zápas 1:1, domácí vyhráli rozstřel 5:3."
+          },
+          {
+            "en": "They are 84 places below the reigning Premier League champions in the English football pyramid.",
+            "cs": "Od úřadujícího vítěze Premier League je v pyramidě anglického fotbalu dělí 84 míst."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fourth-tier",
+            "definition": "belonging to the fourth level of a league system"
+          },
+          {
+            "term": "shoot-out",
+            "definition": "a series of penalty kicks that decides a drawn match"
+          },
+          {
+            "term": "reigning",
+            "definition": "currently holding a title"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:34",
+      "day": "covered",
+      "headline": "Real Madrid se Číně omluvil za Mbappého výrok o Mao Ce-tungovi",
+      "body": "Real Madrid se omluvil Číně za svou hvězdu Kyliana Mbappého, který zemi pobouřil žertem na adresu zakladatele Čínské lidové republiky Mao Ce-tunga. Francouzský útočník, jenž Maa nazval diktátorem, se omluvil už dříve slovy „Můj neuvážený komentář ublížil mnoha lidem v Číně a čínským komunitám napříč světem“. Kritice se podle Sport.cz nevyhnul ani španělský velkoklub.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-la-liga-real-madrid-se-cine-omluvil-za-mbappeho-5564879"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2234603/hvezdny-mbappe-se-musel-cine-omluvit-za-diktatora-maa-vazne-ho-k-tomu-donutili-urazeni-cinane/"
+        }
+      ],
+      "en": {
+        "headline": "Real Madrid have apologised to China for Mbappé's remark about Mao Zedong",
+        "sentences": [
+          {
+            "en": "Real Madrid have apologised to China for their star Kylian Mbappé, who outraged the country with a joke about the founder of the People's Republic of China, Mao Zedong.",
+            "cs": "Real Madrid se omluvil Číně za svou hvězdu Kyliana Mbappého, který zemi pobouřil žertem na adresu zakladatele Čínské lidové republiky Mao Ce-tunga."
+          },
+          {
+            "en": "The French striker, who called Mao a dictator, had already apologised himself with the words “My thoughtless comment hurt many people in China and Chinese communities around the world”.",
+            "cs": "Francouzský útočník, jenž Maa nazval diktátorem, se omluvil už dříve slovy „Můj neuvážený komentář ublížil mnoha lidem v Číně a čínským komunitám napříč světem“."
+          },
+          {
+            "en": "According to Sport.cz the Spanish giants did not escape criticism either.",
+            "cs": "Kritice se podle Sport.cz nevyhnul ani španělský velkoklub."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outraged",
+            "definition": "made people very angry and shocked"
+          },
+          {
+            "term": "striker",
+            "definition": "a football player whose job is to score goals"
+          },
+          {
+            "term": "thoughtless",
+            "definition": "said or done without thinking about the effect"
+          },
+          {
+            "term": "giants",
+            "definition": "very large and powerful clubs or companies"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:15",
+      "day": "covered",
+      "headline": "Lehečka ukončil v Basileji kariéru Stanu Wawrinkovi",
+      "body": "Jednačtyřicetiletý Stan Wawrinka odehrál poslední zápas mezi profesionály. Trojnásobný grandslamový šampion, který v Basileji startoval na divokou kartu, podlehl před vyprodaným hledištěm v prvním kole osmému nasazenému Jiřímu Lehečkovi 5:7 a 6:7.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/lehecka-v-basileji-ukoncil-wawrinkovi-karieru-159666"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/tenis-jiri-lehecka-wta-tour-cesky-tenis-stan-wawrinka_2610281115_ssi"
+        }
+      ],
+      "en": {
+        "headline": "Lehečka ended Stan Wawrinka's career in Basel",
+        "sentences": [
+          {
+            "en": "Stan Wawrinka, aged 41, has played his last match as a professional.",
+            "cs": "Jednačtyřicetiletý Stan Wawrinka odehrál poslední zápas mezi profesionály."
+          },
+          {
+            "en": "The three-time grand slam champion, who entered in Basel on a wild card, lost 5:7 and 6:7 in the first round to the eighth seed Jiří Lehečka in front of a sold-out crowd.",
+            "cs": "Trojnásobný grandslamový šampion, který v Basileji startoval na divokou kartu, podlehl před vyprodaným hledištěm v prvním kole osmému nasazenému Jiřímu Lehečkovi 5:7 a 6:7."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wild card",
+            "definition": "a free place in a tournament given to a player who did not qualify"
+          },
+          {
+            "term": "seed",
+            "definition": "a player ranked in advance so the best do not meet early"
+          },
+          {
+            "term": "sold-out",
+            "definition": "with every ticket already bought"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:40",
+      "day": "prev",
+      "headline": "Kladno deklasovalo Spartu 5:1, Litvínov otočil zápas v Pardubicích",
+      "body": "Hokejisté Kladna porazili v 15. kole extraligy doma Spartu 5:1, vyhráli počtvrté v řadě a posunuli se do nejlepší čtyřky. Druhé Pardubice vedly nad Litvínovem 2:0, hosté ale zápas třemi góly otočili a vyhráli 3:2. České Budějovice zdolaly Hradec Králové 3:0, Plzeň porazila Olomouc 3:2 v prodloužení a Mladá Boleslav vyhrála v Karlových Varech 2:1.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/motor-si-poradil-s-hradcem-kralove-diky-slepenym-golum-159664"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/hokej/extraliga-souhrn-vysledky-kladno-sparta-pardubice-litvinov/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej"
+        }
+      ],
+      "en": {
+        "headline": "Kladno thrashed Sparta 5:1 and Litvínov turned the match around in Pardubice",
+        "sentences": [
+          {
+            "en": "Kladno's ice hockey players beat Sparta 5:1 at home in the fifteenth round of the extraliga, winning for the fourth time in a row and moving into the top four.",
+            "cs": "Hokejisté Kladna porazili v 15. kole extraligy doma Spartu 5:1, vyhráli počtvrté v řadě a posunuli se do nejlepší čtyřky."
+          },
+          {
+            "en": "Second-placed Pardubice led Litvínov 2:0, but the visitors scored three goals to turn the game around and won 3:2.",
+            "cs": "Druhé Pardubice vedly nad Litvínovem 2:0, hosté ale zápas třemi góly otočili a vyhráli 3:2."
+          },
+          {
+            "en": "České Budějovice beat Hradec Králové 3:0, Plzeň beat Olomouc 3:2 in overtime, and Mladá Boleslav won 2:1 in Karlovy Vary.",
+            "cs": "České Budějovice zdolaly Hradec Králové 3:0, Plzeň porazila Olomouc 3:2 v prodloužení a Mladá Boleslav vyhrála v Karlových Varech 2:1."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "in a row",
+            "definition": "one after another without a break"
+          },
+          {
+            "term": "visitors",
+            "definition": "the team playing away from home"
+          },
+          {
+            "term": "overtime",
+            "definition": "an extra period played when the score is level"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Sixty-eight people died when two high-speed trains collided near Toledo in central Spain, and the cause was most likely human error at the control centre.",
+    "Students have called a strike for 3 November against moving the funding of Czech Television and Czech Radio into the state budget, and the European Commission says it is following developments closely.",
+    "Czechia marked the 108th anniversary of the founding of Czechoslovakia, and President Petr Pavel used the occasion to promote Chief of the General Staff Miroslav Hlaváč to the rank of army general."
+  ]
+}
