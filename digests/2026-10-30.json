@@ -1,0 +1,1534 @@
+{
+  "date": "2026-10-30",
+  "covers": "2026-10-30",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude pršet jen slabě, přes den až 10,6 °C. Kvalita ovzduší zůstane zhoršená.",
+    "days": [
+      {
+        "date": "2026-10-31",
+        "icon": "rain",
+        "temp_max_c": 10.6,
+        "temp_min_c": 5.2
+      },
+      {
+        "date": "2026-11-01",
+        "icon": "rain",
+        "temp_max_c": 8.6,
+        "temp_min_c": 4.4
+      },
+      {
+        "date": "2026-11-02",
+        "icon": "cloudy",
+        "temp_max_c": 7.2,
+        "temp_min_c": 4.1
+      },
+      {
+        "date": "2026-11-03",
+        "icon": "cloudy",
+        "temp_max_c": 7.5,
+        "temp_min_c": 3.5
+      }
+    ],
+    "summary_en": "Tomorrow will bring only light rain, with up to 10.6 °C during the day. Air quality will remain poor."
+  },
+  "highlights": [
+    "Sportovní arbitrážní soud vrátil ruské hokejisty do mezinárodních soutěží, český svaz i ministr pro sport s verdiktem nesouhlasí.",
+    "Z burzy Binance zmizely kryptoměny za 6,3 miliardy dolarů, podle analytiků jde o největší krádež v historii kryptoměn.",
+    "Andrej Babiš podle ředitele České televize Hynka Chudárka připustil jiný model financování veřejnoprávních médií.",
+    "Tesco po třiceti letech končí v Česku, jeho prodejny kupuje majitel Albertu."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:01",
+      "headline": "Babiš podle ředitele ČT připustil jiný model financování veřejnoprávních médií",
+      "body": "Premiér Andrej Babiš by podle Seznam Zpráv ještě mohl ustoupit od převedení financování České televize a Českého rozhlasu pod státní rozpočet. Podle ředitele ČT Hynka Chudárka premiér na rychle svolané schůzce připustil jiný model. Deník N píše, že Babiš vrací do hry dobrovolné příspěvky pro obě média; oslovení experti varují, že nezávislost tím nezajistí. SPD podle šéfa hnutí Tomia Okamury trvá na zrušení poplatků a nesouhlasí s jejich nahrazením nějakou formou daně. Sněmovní výbor pro média a kulturu projednávání vládního návrhu ve čtvrtek přerušil a vrátit se k němu plánuje 10. prosince. Zaměstnanci ČT a rozhlasu mají na 3. listopadu ohlášenou celodenní stávku, kterou podpoří i pražské vysoké školy; DAMU a FAMU na ten den stávku oficiálně vyhlásily.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-severska-cesta-pro-ct-a-rozhlas-proc-si-babis-narychlo-pozval-chudarka-319176"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2237112/babis-vraci-do-hry-dobrovolne-prispevky-pro-ct-a-cro-nezavislost-tim-nezajisti-varuji-experti/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2238767/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ke-studentske-stavce-se-v-utery-pripoji-nejmene-ctyri-prazske-vysoke-skoly-319166"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/opozice-zatahla-media-verejne-sluzby-do-politickeho-boje-mini-klempir-379120"
+        }
+      ],
+      "en": {
+        "headline": "Babiš has conceded a different funding model for public media, the Czech Television director says",
+        "sentences": [
+          {
+            "en": "Prime Minister Andrej Babiš could still back away from moving the funding of Czech Television and Czech Radio into the state budget, Seznam Zprávy reports.",
+            "cs": "Premiér Andrej Babiš by podle Seznam Zpráv ještě mohl ustoupit od převedení financování České televize a Českého rozhlasu pod státní rozpočet."
+          },
+          {
+            "en": "According to Czech Television director Hynek Chudárek, the prime minister conceded a different model at a hastily convened meeting.",
+            "cs": "Podle ředitele ČT Hynka Chudárka premiér na rychle svolané schůzce připustil jiný model."
+          },
+          {
+            "en": "Deník N writes that Babiš is bringing voluntary contributions for the two broadcasters back into play; the experts it asked warn that this would not secure their independence.",
+            "cs": "Deník N píše, že Babiš vrací do hry dobrovolné příspěvky pro obě média; oslovení experti varují, že nezávislost tím nezajistí."
+          },
+          {
+            "en": "SPD, according to its leader Tomio Okamura, insists on abolishing the licence fees and objects to replacing them with any form of tax.",
+            "cs": "SPD podle šéfa hnutí Tomia Okamury trvá na zrušení poplatků a nesouhlasí s jejich nahrazením nějakou formou daně."
+          },
+          {
+            "en": "The Chamber of Deputies committee for media and culture interrupted its deliberation of the government bill on Thursday and plans to return to it on 10 December.",
+            "cs": "Sněmovní výbor pro média a kulturu projednávání vládního návrhu ve čtvrtek přerušil a vrátit se k němu plánuje 10. prosince."
+          },
+          {
+            "en": "Czech Television and radio staff have announced a full-day strike for 3 November, which Prague universities will also support; DAMU and FAMU have officially called a strike for that day.",
+            "cs": "Zaměstnanci ČT a rozhlasu mají na 3. listopadu ohlášenou celodenní stávku, kterou podpoří i pražské vysoké školy; DAMU a FAMU na ten den stávku oficiálně vyhlásily."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conceded",
+            "definition": "admitted that something is possible or true, often unwillingly"
+          },
+          {
+            "term": "licence fees",
+            "definition": "money that households pay by law to fund public television and radio"
+          },
+          {
+            "term": "deliberation",
+            "definition": "the careful discussion of something before a decision is made"
+          },
+          {
+            "term": "convened",
+            "definition": "brought people together for a meeting"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:57",
+      "headline": "Při dopravní nehodě v Jeruzalémě zemřela česká diplomatka Klára Schneiderová",
+      "body": "Při dopravní nehodě v Jeruzalémě zemřela česká diplomatka Klára Schneiderová. Pracovala jako první tajemnice na jeruzalémské pobočce českého velvyslanectví v Izraeli, informovala o tom česká ambasáda v Tel Avivu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2239088/"
+        }
+      ],
+      "en": {
+        "headline": "Czech diplomat Klára Schneiderová has died in a traffic accident in Jerusalem",
+        "sentences": [
+          {
+            "en": "Czech diplomat Klára Schneiderová died in a traffic accident in Jerusalem.",
+            "cs": "Při dopravní nehodě v Jeruzalémě zemřela česká diplomatka Klára Schneiderová."
+          },
+          {
+            "en": "She worked as first secretary at the Jerusalem branch of the Czech embassy in Israel, the Czech embassy in Tel Aviv said.",
+            "cs": "Pracovala jako první tajemnice na jeruzalémské pobočce českého velvyslanectví v Izraeli, informovala o tom česká ambasáda v Tel Avivu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "first secretary",
+            "definition": "a middle rank among the diplomats who work at an embassy"
+          },
+          {
+            "term": "embassy",
+            "definition": "the office of a country's representatives in another country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:50",
+      "headline": "Při srážce vlaků ve Španělsku zemřel také jeden český občan",
+      "body": "Mezi oběťmi středeční srážky vlaků ve Španělsku je jeden český občan, sdělilo v pátek ministerstvo zahraničí. Úmrtí potvrdila identifikace španělskými orgány. Pracovníci českého velvyslanectví v Madridu jsou v kontaktu s rodinou zesnulého a poskytují jí konzulární asistenci, uvedl mluvčí české diplomacie Adam Čörgő. Rodině a blízkým vyjádřilo ministerstvo soustrast.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/pri-srazce-vlaku-ve-spanelsku-zemrel-cech-potvrdila-identifikace-obeti_2610301139_mst"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-srazce-vlaku-ve-spanelsku-zemrel-cesky-obcan-oznamilo-ministerstvo-379143"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-srazce-vlaku-ve-spanelsku-zemrel-i-jeden-cech-319167"
+        }
+      ],
+      "en": {
+        "headline": "One Czech citizen also died in the train collision in Spain",
+        "sentences": [
+          {
+            "en": "One Czech citizen is among the victims of Wednesday's train collision in Spain, the Foreign Ministry said on Friday.",
+            "cs": "Mezi oběťmi středeční srážky vlaků ve Španělsku je jeden český občan, sdělilo v pátek ministerstvo zahraničí."
+          },
+          {
+            "en": "The death was confirmed by identification carried out by the Spanish authorities.",
+            "cs": "Úmrtí potvrdila identifikace španělskými orgány."
+          },
+          {
+            "en": "Staff of the Czech embassy in Madrid are in contact with the family of the deceased and are providing them with consular assistance, Czech diplomacy spokesman Adam Čörgő said.",
+            "cs": "Pracovníci českého velvyslanectví v Madridu jsou v kontaktu s rodinou zesnulého a poskytují jí konzulární asistenci, uvedl mluvčí české diplomacie Adam Čörgő."
+          },
+          {
+            "en": "The ministry offered its condolences to the family and loved ones.",
+            "cs": "Rodině a blízkým vyjádřilo ministerstvo soustrast."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "collision",
+            "definition": "an accident in which two things crash into each other"
+          },
+          {
+            "term": "deceased",
+            "definition": "a person who has died"
+          },
+          {
+            "term": "consular",
+            "definition": "connected with the help a country gives its citizens abroad"
+          },
+          {
+            "term": "condolences",
+            "definition": "words that show you are sorry someone has died"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:30",
+      "headline": "Armáda nabírá rekordně vojáků, pro velkou část z nich ale nemá uplatnění",
+      "body": "Ministr obrany Jaromír Zůna si podle Seznam Zpráv pochvaluje, že se rekordně daří nábor nových vojáků. Pro velkou část nováčků ale armáda nemá uplatnění a čekat si mohou až dva roky.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-armada-nabira-vojaky-ale-pak-je-nema-kam-dat-mohou-cekat-az-dva-roky-319073"
+        }
+      ],
+      "en": {
+        "headline": "The army is recruiting at a record pace but has no posting for many of the new soldiers",
+        "sentences": [
+          {
+            "en": "Defence Minister Jaromír Zůna is pleased that the recruitment of new soldiers is going at a record pace, Seznam Zprávy reports.",
+            "cs": "Ministr obrany Jaromír Zůna si podle Seznam Zpráv pochvaluje, že se rekordně daří nábor nových vojáků."
+          },
+          {
+            "en": "For a large part of the newcomers, however, the army has no use, and they may wait up to two years.",
+            "cs": "Pro velkou část nováčků ale armáda nemá uplatnění a čekat si mohou až dva roky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "recruitment",
+            "definition": "the work of finding new people to join an organisation"
+          },
+          {
+            "term": "posting",
+            "definition": "a job or place where someone is sent to work"
+          },
+          {
+            "term": "newcomers",
+            "definition": "people who have only recently joined something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "05:00",
+      "headline": "Politik SPD je podezřelý, že pomohl obejít sankce uvalené na provozovatele Ruského domu",
+      "body": "Ruský dům, jehož provozovatel je kvůli šíření Putinovy propagandy na sankčním seznamu Evropské unie, se podle Seznam Zpráv chlubil akcí v sále Univerzity Karlovy. Sál si na sebe pronajal politik SPD, který tak mohl porušit zákon; škola podle serveru posloužila nevědomky.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-politik-spd-se-zapletl-s-rusy-je-v-podezreni-ze-jim-pomohl-obejit-sankce-318892"
+        }
+      ],
+      "en": {
+        "headline": "An SPD politician is suspected of helping to circumvent sanctions imposed on the operator of the Russian House",
+        "sentences": [
+          {
+            "en": "The Russian House, whose operator is on the EU sanctions list for spreading Putin's propaganda, boasted about an event in a hall of Charles University, Seznam Zprávy reports.",
+            "cs": "Ruský dům, jehož provozovatel je kvůli šíření Putinovy propagandy na sankčním seznamu Evropské unie, se podle Seznam Zpráv chlubil akcí v sále Univerzity Karlovy."
+          },
+          {
+            "en": "An SPD politician rented the hall in their own name and may thereby have broken the law; the university, according to the server, was used unwittingly.",
+            "cs": "Sál si na sebe pronajal politik SPD, který tak mohl porušit zákon; škola podle serveru posloužila nevědomky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "circumvent",
+            "definition": "to find a way around a rule instead of obeying it"
+          },
+          {
+            "term": "boasted",
+            "definition": "talked proudly about something you have done"
+          },
+          {
+            "term": "unwittingly",
+            "definition": "without knowing what is really happening"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:52",
+      "headline": "Čtyři hradecké prodejny Tesca přejdou pod majitele Albertu",
+      "body": "Tesco má v Hradci Králové čtyři prodejny a všechny s prodejem českého a slovenského Tesca přejdou pod skupinu Ahold Delhaize, která provozuje Albert. Jednu z nich otevřelo Tesco teprve letos v květnu v prostorách bývalého Alberta, upozorňuje Hradecká drbna. Převzetí musí schválit úřady, dokončení se očekává na konci roku 2027.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/tesco-hradec-kralove-zmena-majitele-albert-ahold/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/904449-majitel-albertu-kupuje-tesco-v-hradci-se-zmena-tyka-ctyr-prodejen.html"
+        }
+      ],
+      "en": {
+        "headline": "Four Tesco stores in Hradec will pass to the owner of Albert",
+        "sentences": [
+          {
+            "en": "Tesco has four stores in Hradec Králové and all of them will pass to the Ahold Delhaize group, which runs Albert, as part of the sale of the Czech and Slovak Tesco.",
+            "cs": "Tesco má v Hradci Králové čtyři prodejny a všechny s prodejem českého a slovenského Tesca přejdou pod skupinu Ahold Delhaize, která provozuje Albert."
+          },
+          {
+            "en": "One of them was opened by Tesco only this May, in the premises of a former Albert, Hradecká drbna points out.",
+            "cs": "Jednu z nich otevřelo Tesco teprve letos v květnu v prostorách bývalého Alberta, upozorňuje Hradecká drbna."
+          },
+          {
+            "en": "The takeover still has to be approved by the authorities and completion is expected at the end of 2027.",
+            "cs": "Převzetí musí schválit úřady, dokončení se očekává na konci roku 2027."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "premises",
+            "definition": "the building and land that a business uses"
+          },
+          {
+            "term": "takeover",
+            "definition": "the act of one company taking control of another"
+          },
+          {
+            "term": "points out",
+            "definition": "tells people about a fact they may not have noticed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:40",
+      "headline": "Petici za odvolání ředitele KRNAP podepsalo přes 3 600 lidí, v horách se objevily nápisy proti němu",
+      "body": "Petici za odvolání ředitele Správy Krkonošského národního parku Petra Moravce podepsalo přes 3 600 lidí. Její autor upozorňuje na odchody odborníků a ztrátu důvěry ve vedení parku; petice na Moravcovu podporu zatím eviduje jediný podpis a ministr podle Hradecké drbny za ředitelem stojí. Ve čtvrtek se podle iDNES na bezmála třiceti místech na krkonošských cestách objevily bílé nápisy Tady je Krakonošovo, ne Moravcovo. Na příští týden se chystá happening v Praze.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/krnap-krkonose-petice-moravec-napisy-tady-je-krakonosovo-starosta-vrchlabi.A261030_084135_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/904415-pres-3-600-podpisu-za-odvolani-sefa-krnap-petice-na-jeho-podporu-ma-jediny.html"
+        }
+      ],
+      "en": {
+        "headline": "More than 3,600 people have signed a petition to remove the KRNAP director, and signs against him appeared in the mountains",
+        "sentences": [
+          {
+            "en": "More than 3,600 people have signed a petition calling for the removal of Petr Moravec, the director of the Krkonoše National Park Administration.",
+            "cs": "Petici za odvolání ředitele Správy Krkonošského národního parku Petra Moravce podepsalo přes 3 600 lidí."
+          },
+          {
+            "en": "Its author points to the departure of experts and a loss of trust in the park's management; the petition supporting Moravec has so far recorded a single signature, and the minister, according to Hradecká drbna, stands behind the director.",
+            "cs": "Její autor upozorňuje na odchody odborníků a ztrátu důvěry ve vedení parku; petice na Moravcovu podporu zatím eviduje jediný podpis a ministr podle Hradecké drbny za ředitelem stojí."
+          },
+          {
+            "en": "On Thursday, white signs reading This is Krakonoš's land, not Moravec's appeared at nearly thirty spots on paths in the Krkonoše mountains, iDNES reports.",
+            "cs": "Ve čtvrtek se podle iDNES na bezmála třiceti místech na krkonošských cestách objevily bílé nápisy Tady je Krakonošovo, ne Moravcovo."
+          },
+          {
+            "en": "A happening in Prague is planned for next week.",
+            "cs": "Na příští týden se chystá happening v Praze."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "petition",
+            "definition": "a signed request asking people in power to do something"
+          },
+          {
+            "term": "stands behind",
+            "definition": "continues to support someone who is being criticised"
+          },
+          {
+            "term": "happening",
+            "definition": "a public event staged to draw attention to something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:49",
+      "headline": "V Orlických horách vzniklo šest turistických útulen s noclehem zdarma",
+      "body": "Jen na české straně Orlických hor vzniklo šest turistických útulen, kde se dá přespat zdarma. Nejoriginálnější jsou podle iDNES v Neratově, návštěvníci si pochvalují ohniště i možnost blízké sprchy a toalet.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/utulny-orlicke-hory-neratov-turiste-nocleh-zdarma-kostel.A261030_981371_hradec-zpravy_pos#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Six free mountain shelters have opened in the Orlické hory",
+        "sentences": [
+          {
+            "en": "On the Czech side of the Orlické hory alone, six hikers' shelters have been built where you can stay overnight for free.",
+            "cs": "Jen na české straně Orlických hor vzniklo šest turistických útulen, kde se dá přespat zdarma."
+          },
+          {
+            "en": "The most original ones are in Neratov, according to iDNES, and visitors praise the fire pit as well as the nearby shower and toilets.",
+            "cs": "Nejoriginálnější jsou podle iDNES v Neratově, návštěvníci si pochvalují ohniště i možnost blízké sprchy a toalet."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shelters",
+            "definition": "simple buildings that protect people from bad weather"
+          },
+          {
+            "term": "fire pit",
+            "definition": "a place outside where a fire can be safely lit"
+          },
+          {
+            "term": "overnight",
+            "definition": "for the whole night"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:43",
+      "headline": "V okupovaných Oleškách začala evakuace obyvatel, podle Reuters jde o první takovou akci za celou válku",
+      "body": "V ukrajinských Oleškách v Chersonské oblasti, které přes čtyři roky okupuje ruská armáda, začala v pátek evakuace obyvatel. Umožnilo to několikadenní lokální příměří zprostředkované americkou první dámou Melanií Trumpovou. Do frontového města se společně vypravili ombudsmani Ukrajiny a Ruska Dmytro Lubinec a Jana Lantratovová, cílem je dopravit do odříznutého města humanitární pomoc a umožnit odchod civilistů. Podle Reuters jde o první takový počin za celou dobu této války. Deník N píše, že akce začala po dokončení odminování cest a že ve městě zůstalo kolem 1700 lidí, kteří v posledních měsících hladověli. Část obyvatel se podle ČT24 obává, že Moskva povede evakuační trasy přes okupovaná území nebo přímo do Ruska.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-v-ukrajinskem-meste-olesky-zacala-evakuace-obyvatel-na-misto-dorazila-i_2610301145_jor"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-ukrajinskych-oleskach-evakuuji-obyvatele-379149"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2238539/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajinske-olesky-spolecne-navstivili-ombudsmani-ruska-a-ukrajiny-319146"
+        }
+      ],
+      "en": {
+        "headline": "Evacuation of residents has begun in occupied Oleshky, the first such operation of the whole war according to Reuters",
+        "sentences": [
+          {
+            "en": "In the Ukrainian town of Oleshky in the Kherson region, occupied by the Russian army for more than four years, the evacuation of residents began on Friday.",
+            "cs": "V ukrajinských Oleškách v Chersonské oblasti, které přes čtyři roky okupuje ruská armáda, začala v pátek evakuace obyvatel."
+          },
+          {
+            "en": "It was made possible by a several-day local ceasefire brokered by American First Lady Melania Trump.",
+            "cs": "Umožnilo to několikadenní lokální příměří zprostředkované americkou první dámou Melanií Trumpovou."
+          },
+          {
+            "en": "The ombudsmen of Ukraine and Russia, Dmytro Lubinets and Yana Lantratova, travelled to the front-line town together; the aim is to bring humanitarian aid into the cut-off town and to let civilians leave.",
+            "cs": "Do frontového města se společně vypravili ombudsmani Ukrajiny a Ruska Dmytro Lubinec a Jana Lantratovová, cílem je dopravit do odříznutého města humanitární pomoc a umožnit odchod civilistů."
+          },
+          {
+            "en": "According to Reuters, this is the first such undertaking in the entire course of this war.",
+            "cs": "Podle Reuters jde o první takový počin za celou dobu této války."
+          },
+          {
+            "en": "Deník N writes that the operation began after the demining of the roads was completed and that around 1,700 people remained in the town, who have been going hungry in recent months.",
+            "cs": "Deník N píše, že akce začala po dokončení odminování cest a že ve městě zůstalo kolem 1700 lidí, kteří v posledních měsících hladověli."
+          },
+          {
+            "en": "Some residents fear, according to ČT24, that Moscow will route the evacuation corridors through occupied territory or directly into Russia.",
+            "cs": "Část obyvatel se podle ČT24 obává, že Moskva povede evakuační trasy přes okupovaná území nebo přímo do Ruska."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "brokered",
+            "definition": "arranged an agreement between two sides"
+          },
+          {
+            "term": "demining",
+            "definition": "the work of removing hidden bombs from the ground"
+          },
+          {
+            "term": "cut-off",
+            "definition": "separated from the outside world"
+          },
+          {
+            "term": "undertaking",
+            "definition": "a large or difficult task that someone agrees to do"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:48",
+      "headline": "Ukrajina podle WSJ pozastavila údery na ruské rafinerie, v Novokujbyševsku přesto hořelo",
+      "body": "Ukrajinská armáda po týdnech tlaku ze strany amerického prezidenta Donalda Trumpa minulý týden pozastavila vzdušné údery na ruské rafinerie, napsal list The Wall Street Journal s odvoláním na osoby obeznámené s vojenskými operacemi. Neoficiální pauza má trvat nejméně do 3. listopadu, kdy se v USA konají volby do Kongresu, možná i déle. Zprávu převzala i agentura Reuters, která upozornila, že informace nemohla nezávisle ověřit. V pátek přitom po dronovém útoku hořela rafinerie v Novokujbyševsku v Samarské oblasti; podle WSJ jde zřejmě o první ukrajinský úder na ruské ropné zařízení od 15. října. Ruský vzdušný útok v noci na pátek zabil v Kyjevě jednoho člověka a dalšího zranil, v Charkově Rusové zasáhli nákupní středisko.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/wsj-ukrajina-pod-tlakem-usa-pozastavila-utoky-na-ruske-rafinerie-nejmene-do-americkych-voleb-379128"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajina-po-tlaku-usa-pozastavila-nejmene-do-voleb-udery-na-ruske-rafinerie-319142"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-rusku-hori-novokujbysevska-rafinerie-v-kyjeve-je-po-utoku-jeden-mrtvy-379144"
+        }
+      ],
+      "en": {
+        "headline": "Ukraine has paused strikes on Russian refineries, the WSJ reports, yet a refinery in Novokuybyshevsk was burning",
+        "sentences": [
+          {
+            "en": "The Ukrainian army paused air strikes on Russian refineries last week after weeks of pressure from American President Donald Trump, The Wall Street Journal wrote, citing people familiar with military operations.",
+            "cs": "Ukrajinská armáda po týdnech tlaku ze strany amerického prezidenta Donalda Trumpa minulý týden pozastavila vzdušné údery na ruské rafinerie, napsal list The Wall Street Journal s odvoláním na osoby obeznámené s vojenskými operacemi."
+          },
+          {
+            "en": "The unofficial pause is to last at least until 3 November, when congressional elections take place in the United States, and possibly longer.",
+            "cs": "Neoficiální pauza má trvat nejméně do 3. listopadu, kdy se v USA konají volby do Kongresu, možná i déle."
+          },
+          {
+            "en": "The Reuters agency also picked up the report, noting that it could not independently verify the information.",
+            "cs": "Zprávu převzala i agentura Reuters, která upozornila, že informace nemohla nezávisle ověřit."
+          },
+          {
+            "en": "Yet on Friday a refinery in Novokuybyshevsk in the Samara region was burning after a drone attack; according to the WSJ it is apparently the first Ukrainian strike on a Russian oil facility since 15 October.",
+            "cs": "V pátek přitom po dronovém útoku hořela rafinerie v Novokujbyševsku v Samarské oblasti; podle WSJ jde zřejmě o první ukrajinský úder na ruské ropné zařízení od 15. října."
+          },
+          {
+            "en": "A Russian air attack overnight into Friday killed one person in Kyiv and injured another, and in Kharkiv the Russians hit a shopping centre.",
+            "cs": "Ruský vzdušný útok v noci na pátek zabil v Kyjevě jednoho člověka a dalšího zranil, v Charkově Rusové zasáhli nákupní středisko."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          },
+          {
+            "term": "citing",
+            "definition": "naming something or someone as the source of information"
+          },
+          {
+            "term": "picked up",
+            "definition": "took over a report that another outlet published first"
+          },
+          {
+            "term": "facility",
+            "definition": "a building or site built for a particular purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:20",
+      "headline": "Trump pět dní před volbami do Kongresu ruší mítinky, jeho administrativa stupňuje právní kroky proti státům",
+      "body": "Americký prezident Donald Trump zrušil víkendové mítinky v Kansasu a Iowě a republikánské kandidáty chce podpořit po telefonu. Změna podle Seznam Zpráv vyvolala otázky uvnitř strany, která čelí těsným soubojům i ve svých tradičních baštách. Administrativa zároveň podle agentury Reuters několik dní před volbami stupňuje právní kroky proti jednotlivým státům, což jako celek představuje mimořádný federální zásah do voleb. Bývalí i současní pracovníci ministerstva obrany podle ČT24 konzultují se zákonodárci i se zástupci států, jak se připravit na možnost, že se administrativa pokusí do voleb zasáhnout; obavy mají především z nasazení členů bezpečnostních složek u volebních místností. Bílý dům mluví o potřebě zajistit, aby ve volbách nehlasovali lidé bez občanství, k čemuž podle ČT24 statisticky dochází zřídka.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-usa-trump-pred-volbami-meni-plany-republikani-resi-tesne-souboje-i-soudni-spory-319172"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2238697/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/zasahu-do-voleb-se-obavaji-demokrate-i-republikani-uz-padaji-zaloby-378920"
+        }
+      ],
+      "en": {
+        "headline": "Five days before the congressional elections Trump is cancelling rallies and his administration is stepping up legal action against states",
+        "sentences": [
+          {
+            "en": "American President Donald Trump has cancelled weekend rallies in Kansas and Iowa and wants to support Republican candidates by telephone instead.",
+            "cs": "Americký prezident Donald Trump zrušil víkendové mítinky v Kansasu a Iowě a republikánské kandidáty chce podpořit po telefonu."
+          },
+          {
+            "en": "The change, according to Seznam Zprávy, raised questions inside the party, which faces tight races even in its traditional strongholds.",
+            "cs": "Změna podle Seznam Zpráv vyvolala otázky uvnitř strany, která čelí těsným soubojům i ve svých tradičních baštách."
+          },
+          {
+            "en": "At the same time, according to the Reuters agency, the administration is stepping up legal action against individual states a few days before the vote, which taken as a whole amounts to an extraordinary federal intervention in the elections.",
+            "cs": "Administrativa zároveň podle agentury Reuters několik dní před volbami stupňuje právní kroky proti jednotlivým státům, což jako celek představuje mimořádný federální zásah do voleb."
+          },
+          {
+            "en": "Former and current staff of the Department of Defense are consulting lawmakers and state representatives on how to prepare for the possibility that the administration will try to intervene in the elections, ČT24 reports; their concerns are mainly about deploying members of the security forces at polling stations.",
+            "cs": "Bývalí i současní pracovníci ministerstva obrany podle ČT24 konzultují se zákonodárci i se zástupci států, jak se připravit na možnost, že se administrativa pokusí do voleb zasáhnout; obavy mají především z nasazení členů bezpečnostních složek u volebních místností."
+          },
+          {
+            "en": "The White House talks about the need to ensure that people without citizenship do not vote, which according to ČT24 statistically happens rarely.",
+            "cs": "Bílý dům mluví o potřebě zajistit, aby ve volbách nehlasovali lidé bez občanství, k čemuž podle ČT24 statisticky dochází zřídka."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rallies",
+            "definition": "large public meetings held to support a politician or cause"
+          },
+          {
+            "term": "strongholds",
+            "definition": "places where a party has always been strong"
+          },
+          {
+            "term": "stepping up",
+            "definition": "increasing the amount or intensity of something"
+          },
+          {
+            "term": "polling stations",
+            "definition": "places where people go to cast their votes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:20",
+      "headline": "Ruský list Novaja gazeta po více než třiceti letech končí, viní z toho tlak úřadů",
+      "body": "Opoziční ruské médium Novaja gazeta oznámilo po více než třech desetiletích existence svůj konec; činnost ukončí 9. listopadu. Odůvodnilo to tlakem ze strany ruských úřadů a bezpečnostních složek, o něco dříve vyšlo najevo, že redakce musí opustit budovu, kde sídlila téměř třicet let. Podle Seznam Zpráv list desítky let odhaloval korupci, volební podvody i porušování lidských práv, novináři čelili výhrůžkám a někteří byli kvůli své práci zavražděni.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusky-list-novaja-gazeta-konci-oduvodnil-to-tlakem-uradu-379136"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-listu-novaja-gazeta-pomohl-ke-vzniku-gorbacov-kvuli-putinovym-represim-konci-319187"
+        }
+      ],
+      "en": {
+        "headline": "The Russian paper Novaja gazeta is closing after more than thirty years and blames pressure from the authorities",
+        "sentences": [
+          {
+            "en": "The opposition Russian outlet Novaja gazeta has announced its end after more than three decades of existence; it will cease operations on 9 November.",
+            "cs": "Opoziční ruské médium Novaja gazeta oznámilo po více než třech desetiletích existence svůj konec; činnost ukončí 9. listopadu."
+          },
+          {
+            "en": "It blamed pressure from Russian authorities and security services, and it had emerged somewhat earlier that the newsroom must leave the building where it had been based for almost thirty years.",
+            "cs": "Odůvodnilo to tlakem ze strany ruských úřadů a bezpečnostních složek, o něco dříve vyšlo najevo, že redakce musí opustit budovu, kde sídlila téměř třicet let."
+          },
+          {
+            "en": "According to Seznam Zprávy, the paper spent decades exposing corruption, electoral fraud and human rights violations; its journalists faced threats and some were murdered because of their work.",
+            "cs": "Podle Seznam Zpráv list desítky let odhaloval korupci, volební podvody i porušování lidských práv, novináři čelili výhrůžkám a někteří byli kvůli své práci zavražděni."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cease",
+            "definition": "to stop doing something"
+          },
+          {
+            "term": "newsroom",
+            "definition": "the team of journalists who produce a news outlet"
+          },
+          {
+            "term": "electoral fraud",
+            "definition": "cheating in an election to change the result"
+          },
+          {
+            "term": "violations",
+            "definition": "acts that break a law or a right"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "11:35",
+      "headline": "Bělorusko poslalo muže s českým občanstvím na šest let do vězení za pomoc běloruské opozici",
+      "body": "Běloruský soud uložil Vitalu Děmidčikovi, muži s českým občanstvím, šestiletý trest. Zadržen byl v červnu za posílání finančních darů běloruské opozici a soud ho obvinil z financování extremistické činnosti.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-belorusko-dalo-muzi-s-ceskym-obcanstvim-sestilety-trest-za-pomoc-ukrajine-319162"
+        }
+      ],
+      "en": {
+        "headline": "Belarus has jailed a man with Czech citizenship for six years for helping the Belarusian opposition",
+        "sentences": [
+          {
+            "en": "A Belarusian court handed Vital Děmidčik, a man with Czech citizenship, a six-year sentence.",
+            "cs": "Běloruský soud uložil Vitalu Děmidčikovi, muži s českým občanstvím, šestiletý trest."
+          },
+          {
+            "en": "He was detained in June for sending financial donations to the Belarusian opposition and the court charged him with financing extremist activity.",
+            "cs": "Zadržen byl v červnu za posílání finančních darů běloruské opozici a soud ho obvinil z financování extremistické činnosti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "kept in custody by the police or the state"
+          },
+          {
+            "term": "donations",
+            "definition": "money given to support a person or a cause"
+          },
+          {
+            "term": "charged",
+            "definition": "officially accused of a crime"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:21",
+      "headline": "Z burzy Binance zmizely kryptoměny za 6,3 miliardy dolarů, jde zřejmě o největší krádež v historii kryptoměn",
+      "body": "Největší kryptoměnová burza světa Binance informovala o bezpečnostním incidentu, při kterém hackeři ukradli kryptoměny v hodnotě 6,3 miliardy dolarů, tedy zhruba 133 miliard korun. Podle analytiků jde o největší krádež v historii kryptoměn, společnost TRM Labs za útokem vidí severokorejskou jednotku TraderTraitor. Burza, která má 335 milionů registrovaných uživatelů, část dotčených aktiv zmrazila, dočasně pozastavila vklady a výběry a ujistila, že prostředky klientů jsou v bezpečí. Podle Seznam Zpráv popsala možnou cestu útočníka do systému přes notebook zaměstnance a tvrdí, že ztráty pokryje z vlastních zdrojů a rezervního fondu. E15 píše, že zpráva vyvolala okamžitý propad na trzích a bitcoin klesl na šestitýdenní minimum.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/technologie/nejvetsi-kradez-kryptomen-v-historii-hackersky-utok-na-binace-dopadne-na-vsechny_2610301321_mst"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nejvetsi-kradez-v-historii-kryptomen-hackeri-zrejme-pripravili-binance-o-63-miliardy-dolaru-379129"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-meny-kryptomeny-pozadi-kradeze-v-binance-stopa-vede-pres-notebook-zamestnance-319154"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/kryptomeny/nejvetsi-kradez-v-historii-kryptomen-z-burzy-binance-zmizelo-pres-sest-miliard-dolaru-1436959"
+        }
+      ],
+      "en": {
+        "headline": "Cryptocurrencies worth 6.3 billion dollars have vanished from the Binance exchange, apparently the largest theft in the history of crypto",
+        "sentences": [
+          {
+            "en": "The world's largest cryptocurrency exchange Binance reported a security incident in which hackers stole cryptocurrencies worth 6.3 billion dollars, roughly 133 billion crowns.",
+            "cs": "Největší kryptoměnová burza světa Binance informovala o bezpečnostním incidentu, při kterém hackeři ukradli kryptoměny v hodnotě 6,3 miliardy dolarů, tedy zhruba 133 miliard korun."
+          },
+          {
+            "en": "Analysts call it the largest theft in the history of cryptocurrencies, and the company TRM Labs sees the North Korean unit TraderTraitor behind the attack.",
+            "cs": "Podle analytiků jde o největší krádež v historii kryptoměn, společnost TRM Labs za útokem vidí severokorejskou jednotku TraderTraitor."
+          },
+          {
+            "en": "The exchange, which has 335 million registered users, froze part of the affected assets, temporarily suspended deposits and withdrawals and assured customers that their funds are safe.",
+            "cs": "Burza, která má 335 milionů registrovaných uživatelů, část dotčených aktiv zmrazila, dočasně pozastavila vklady a výběry a ujistila, že prostředky klientů jsou v bezpečí."
+          },
+          {
+            "en": "According to Seznam Zprávy it described a possible route for the attacker into its systems through an employee's laptop and claims it will cover the losses from its own resources and a reserve fund.",
+            "cs": "Podle Seznam Zpráv popsala možnou cestu útočníka do systému přes notebook zaměstnance a tvrdí, že ztráty pokryje z vlastních zdrojů a rezervního fondu."
+          },
+          {
+            "en": "E15 writes that the news triggered an immediate drop on the markets and bitcoin fell to a six-week low.",
+            "cs": "E15 píše, že zpráva vyvolala okamžitý propad na trzích a bitcoin klesl na šestitýdenní minimum."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "exchange",
+            "definition": "a market where money or shares are bought and sold"
+          },
+          {
+            "term": "withdrawals",
+            "definition": "taking money out of an account"
+          },
+          {
+            "term": "assets",
+            "definition": "things of value that a person or company owns"
+          },
+          {
+            "term": "triggered",
+            "definition": "caused something to start happening"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "09:25",
+      "headline": "Tesco po třiceti letech končí v Česku, prodejny kupuje majitel Albertu",
+      "body": "Nizozemská společnost Ahold Delhaize, která v Česku provozuje prodejny Albert, kupuje Tesco v Česku a na Slovensku. I s nájemními závazky za ně zaplatí zhruba 1,7 miliardy eur, v přepočtu kolem 41,4 miliardy korun. Tesco tak skončí na českém trhu po třiceti letech, akvizice zahrnuje i prodejny Žabka, které provozuje Tesco Franchise ČR. Dokončení transakce po splnění obvyklých podmínek včetně schválení regulačními orgány firma očekává ve čtvrtém čtvrtletí příštího roku. Podle Deníku N se o Tesco ucházela také polská Biedronka a německý vlastník Lidlu, E15 píše, že prodejní cena předčila očekávání.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/provozovatel-prodejen-albert-kupuje-tesco-v-cesku-a-na-slovensku-379133"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2238436/je-rozhodnuto-tesco-v-cesku-ziska-majitel-albertu-polaci-a-nemci-neuspeli/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/potraviny/v-cesku-vznikne-novy-nejvetsi-retezec-cena-za-tesco-predcila-ocekavani-1436963"
+        }
+      ],
+      "en": {
+        "headline": "Tesco is leaving Czechia after thirty years, its stores are being bought by the owner of Albert",
+        "sentences": [
+          {
+            "en": "The Dutch company Ahold Delhaize, which runs the Albert stores in Czechia, is buying Tesco in Czechia and Slovakia.",
+            "cs": "Nizozemská společnost Ahold Delhaize, která v Česku provozuje prodejny Albert, kupuje Tesco v Česku a na Slovensku."
+          },
+          {
+            "en": "Including lease commitments it will pay around 1.7 billion euros for them, about 41.4 billion crowns.",
+            "cs": "I s nájemními závazky za ně zaplatí zhruba 1,7 miliardy eur, v přepočtu kolem 41,4 miliardy korun."
+          },
+          {
+            "en": "Tesco will thus leave the Czech market after thirty years, and the acquisition also covers the Žabka stores run by Tesco Franchise ČR.",
+            "cs": "Tesco tak skončí na českém trhu po třiceti letech, akvizice zahrnuje i prodejny Žabka, které provozuje Tesco Franchise ČR."
+          },
+          {
+            "en": "The company expects the transaction to be completed in the fourth quarter of next year, once the usual conditions including approval by regulators are met.",
+            "cs": "Dokončení transakce po splnění obvyklých podmínek včetně schválení regulačními orgány firma očekává ve čtvrtém čtvrtletí příštího roku."
+          },
+          {
+            "en": "According to Deník N, the Polish chain Biedronka and the German owner of Lidl also bid for Tesco, and E15 writes that the sale price exceeded expectations.",
+            "cs": "Podle Deníku N se o Tesco ucházela také polská Biedronka a německý vlastník Lidlu, E15 píše, že prodejní cena předčila očekávání."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lease commitments",
+            "definition": "money a company has promised to pay for renting buildings"
+          },
+          {
+            "term": "acquisition",
+            "definition": "the buying of one company by another"
+          },
+          {
+            "term": "regulators",
+            "definition": "official bodies that check whether companies follow the rules"
+          },
+          {
+            "term": "bid for",
+            "definition": "offered money in order to buy something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:06",
+      "headline": "ČEZ příští rok zdraží elektřinu i plyn 1,6 milionu zákazníků",
+      "body": "ČEZ od začátku příštího roku zdraží dodávky energií 1,6 milionu zákazníků se smlouvou na dobu neurčitou. Cenu elektřiny bez fixace zvýší o 3,5 procenta, tedy přibližně o 330 korun s DPH za megawatthodinu, cena plynu vzroste o 6,5 procenta, což je asi o 180 korun s DPH za megawatthodinu. Energie podle iROZHLASu postupně zdražují i další dodavatelé.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/cez-pristi-rok-zdrazi-elektrinu-i-plyn-dotkne-se-16-milionu-klientu-se-smlouvou_2610301606_med"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2239092/"
+        }
+      ],
+      "en": {
+        "headline": "ČEZ will raise electricity and gas prices for 1.6 million customers next year",
+        "sentences": [
+          {
+            "en": "From the beginning of next year ČEZ will raise the price of energy supplies for 1.6 million customers whose contracts run for an indefinite period.",
+            "cs": "ČEZ od začátku příštího roku zdraží dodávky energií 1,6 milionu zákazníků se smlouvou na dobu neurčitou."
+          },
+          {
+            "en": "It will increase the price of electricity without a fixed rate by 3.5 percent, roughly 330 crowns including VAT per megawatt hour, and the price of gas will rise by 6.5 percent, about 180 crowns including VAT per megawatt hour.",
+            "cs": "Cenu elektřiny bez fixace zvýší o 3,5 procenta, tedy přibližně o 330 korun s DPH za megawatthodinu, cena plynu vzroste o 6,5 procenta, což je asi o 180 korun s DPH za megawatthodinu."
+          },
+          {
+            "en": "Other suppliers are also gradually raising energy prices, according to iROZHLAS.",
+            "cs": "Energie podle iROZHLASu postupně zdražují i další dodavatelé."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "supplies",
+            "definition": "amounts of something delivered to customers"
+          },
+          {
+            "term": "indefinite",
+            "definition": "with no fixed end date"
+          },
+          {
+            "term": "fixed rate",
+            "definition": "a price agreed in advance that does not change for a period"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:54",
+      "headline": "Temelín přechází z ruského paliva na soubory od americké společnosti Westinghouse",
+      "body": "Jaderná elektrárna Temelín zahájila přechod z ruského paliva TVEL na palivo od americké společnosti Westinghouse. První palivové soubory odborníci otestovali a umístí je do reaktoru při současné odstávce prvního bloku. Povolení k použití nového paliva získal ČEZ od Státního úřadu pro jadernou bezpečnost v srpnu po osmi letech analýz a zkoušek. Elektrárna zároveň dokončí přechod na prodloužený, osmnáctiměsíční palivový cyklus. Další dodávky pro Temelín podle E15 zajistí francouzský Framatome a přechod chystají i Dukovany.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2238620/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/konec-ruskeho-paliva-v-temeline-prvni-blok-prechazi-na-soubory-od-americkeho-westinghousu-1436969"
+        }
+      ],
+      "en": {
+        "headline": "Temelín is switching from Russian fuel to assemblies from the American company Westinghouse",
+        "sentences": [
+          {
+            "en": "The Temelín nuclear power plant has begun switching from Russian TVEL fuel to fuel from the American company Westinghouse.",
+            "cs": "Jaderná elektrárna Temelín zahájila přechod z ruského paliva TVEL na palivo od americké společnosti Westinghouse."
+          },
+          {
+            "en": "Experts have tested the first fuel assemblies and will place them in the reactor during the current outage of the first unit.",
+            "cs": "První palivové soubory odborníci otestovali a umístí je do reaktoru při současné odstávce prvního bloku."
+          },
+          {
+            "en": "ČEZ obtained the permit to use the new fuel from the State Office for Nuclear Safety in August after eight years of analyses and tests.",
+            "cs": "Povolení k použití nového paliva získal ČEZ od Státního úřadu pro jadernou bezpečnost v srpnu po osmi letech analýz a zkoušek."
+          },
+          {
+            "en": "The plant will at the same time complete the switch to an extended, eighteen-month fuel cycle.",
+            "cs": "Elektrárna zároveň dokončí přechod na prodloužený, osmnáctiměsíční palivový cyklus."
+          },
+          {
+            "en": "Further deliveries for Temelín will be handled by France's Framatome, according to E15, and Dukovany is preparing the switch as well.",
+            "cs": "Další dodávky pro Temelín podle E15 zajistí francouzský Framatome a přechod chystají i Dukovany."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fuel assemblies",
+            "definition": "bundles of fuel rods that are put into a nuclear reactor"
+          },
+          {
+            "term": "outage",
+            "definition": "a period when a power plant or unit is shut down"
+          },
+          {
+            "term": "permit",
+            "definition": "an official document that allows you to do something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:33",
+      "headline": "Beneš po krachu korejských jednání tvrdí, že kontrakt na Dukovany má pevnou cenu i sankce",
+      "body": "Generální ředitel ČEZ Daniel Beneš reagoval na čtvrteční informaci, že korejská KHNP ukončila bez dohody jednání o smlouvě na stavební práce na nových blocích v Dukovanech s konsorciem firem Daewoo Engineering & Construction a Doosan Enerbility. Situaci označil za zásadní zprávu, harmonogram projektu podle něj zatím ohrožen není a může jít o formu cenového vyjednávání. Pro českou stranu zůstává podle Beneše klíčové, že podepsaný kontrakt s KHNP obsahuje pevnou cenu, pevný časový plán i sankce za jejich nedodržení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/zasadni-zprava-ale-cenu-i-terminy-mame-pojistene-sankcemi-mirni-benes-krach-korejskych-jednani-o-dukovanech-1436968"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2238667/"
+        }
+      ],
+      "en": {
+        "headline": "After the collapse of the Korean talks Beneš says the Dukovany contract has a fixed price and penalties",
+        "sentences": [
+          {
+            "en": "ČEZ chief executive Daniel Beneš responded to Thursday's report that the Korean company KHNP ended talks without agreement on the contract for construction work on the new units at Dukovany with a consortium of the Korean firms Daewoo Engineering & Construction and Doosan Enerbility.",
+            "cs": "Generální ředitel ČEZ Daniel Beneš reagoval na čtvrteční informaci, že korejská KHNP ukončila bez dohody jednání o smlouvě na stavební práce na nových blocích v Dukovanech s konsorciem firem Daewoo Engineering & Construction a Doosan Enerbility."
+          },
+          {
+            "en": "He called the situation a significant piece of news; in his view the project schedule is not threatened so far and it may be a form of price bargaining.",
+            "cs": "Situaci označil za zásadní zprávu, harmonogram projektu podle něj zatím ohrožen není a může jít o formu cenového vyjednávání."
+          },
+          {
+            "en": "What remains crucial for the Czech side, according to Beneš, is that the signed contract with KHNP contains a fixed price, a fixed timetable and penalties for failing to meet them.",
+            "cs": "Pro českou stranu zůstává podle Beneše klíčové, že podepsaný kontrakt s KHNP obsahuje pevnou cenu, pevný časový plán i sankce za jejich nedodržení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "consortium",
+            "definition": "a group of companies working together on one project"
+          },
+          {
+            "term": "bargaining",
+            "definition": "arguing about a price until both sides agree"
+          },
+          {
+            "term": "penalties",
+            "definition": "payments a company must make if it breaks an agreement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "16:00",
+      "headline": "Strnad nabídl 30 miliard eur za italský rodinný holding Delfin",
+      "body": "Zbrojařský podnikatel Michal Strnad nabídl dědicům italského byznysmena Leonarda del Vecchia, že za 30 miliard eur, tedy zhruba 730 miliard korun, v hotovosti odkoupí rodinný holding Delfin. Ten má podíl ve výrobci brýlí Ray-Ban i v bance UniCredit. S návrhem by podle E15 muselo souhlasit všech osm stávajících akcionářů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-strnad-si-jde-pro-italske-rodinne-stribro-kde-ale-vezme-730-miliard-korun-319190"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/strnad-nabizi-730-miliard-korun-za-italskeho-vyrobce-bryli-ray-ban-1436956"
+        }
+      ],
+      "en": {
+        "headline": "Strnad has offered 30 billion euros for the Italian family holding Delfin",
+        "sentences": [
+          {
+            "en": "The arms industry businessman Michal Strnad has offered the heirs of the Italian businessman Leonardo del Vecchio to buy the family holding Delfin in cash for 30 billion euros, roughly 730 billion crowns.",
+            "cs": "Zbrojařský podnikatel Michal Strnad nabídl dědicům italského byznysmena Leonarda del Vecchia, že za 30 miliard eur, tedy zhruba 730 miliard korun, v hotovosti odkoupí rodinný holding Delfin."
+          },
+          {
+            "en": "It holds a stake in the Ray-Ban eyewear maker and in the bank UniCredit.",
+            "cs": "Ten má podíl ve výrobci brýlí Ray-Ban i v bance UniCredit."
+          },
+          {
+            "en": "All eight existing shareholders would have to agree to the proposal, according to E15.",
+            "cs": "S návrhem by podle E15 muselo souhlasit všech osm stávajících akcionářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "heirs",
+            "definition": "people who receive money or property when someone dies"
+          },
+          {
+            "term": "stake",
+            "definition": "a share of ownership in a company"
+          },
+          {
+            "term": "shareholders",
+            "definition": "people who own part of a company"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:36",
+      "headline": "Jedna verze rozšíření Claude Code pro VS Code instalovala SSH backdoor",
+      "body": "Došlo ke kompromitaci oficiálního rozšíření Claude Code pro VS Code. Podle Root.cz šlo o verzi 2.1.313, která na zařízení přidala mezi důvěryhodné klíče SSH klíč pojmenovaný svc-telemetry, pokusila se zapnout službu SSH, pokud byla vypnutá, a odeslala informace o zařízení na vzdálený server. Kód podle Root.cz fungoval na Windows, macOS i Linuxu. Závadná verze už byla stažena z obchodu a nahrazena verzí 2.1.314. Na Hacker News se o případu píše jako o backdooru v rozšíření Claude Code for VS Code na Cursor Marketplace.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/rozsireni-claude-code-pro-vscode-instalovalo-ssh-backdoor/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+        }
+      ],
+      "en": {
+        "headline": "One version of the Claude Code extension for VS Code installed an SSH backdoor",
+        "sentences": [
+          {
+            "en": "The official Claude Code extension for VS Code was compromised.",
+            "cs": "Došlo ke kompromitaci oficiálního rozšíření Claude Code pro VS Code."
+          },
+          {
+            "en": "According to Root.cz it was version 2.1.313, which added an SSH key named svc-telemetry to the trusted keys on the device, tried to start the SSH service if it was switched off, and sent information about the device to a remote server.",
+            "cs": "Podle Root.cz šlo o verzi 2.1.313, která na zařízení přidala mezi důvěryhodné klíče SSH klíč pojmenovaný svc-telemetry, pokusila se zapnout službu SSH, pokud byla vypnutá, a odeslala informace o zařízení na vzdálený server."
+          },
+          {
+            "en": "The code worked on Windows, macOS and Linux, Root.cz says.",
+            "cs": "Kód podle Root.cz fungoval na Windows, macOS i Linuxu."
+          },
+          {
+            "en": "The faulty version has already been pulled from the store and replaced by version 2.1.314.",
+            "cs": "Závadná verze už byla stažena z obchodu a nahrazena verzí 2.1.314."
+          },
+          {
+            "en": "On Hacker News the case is described as a backdoor in the Claude Code for VS Code extension on the Cursor Marketplace.",
+            "cs": "Na Hacker News se o případu píše jako o backdooru v rozšíření Claude Code for VS Code na Cursor Marketplace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compromised",
+            "definition": "changed by an attacker so it is no longer safe"
+          },
+          {
+            "term": "backdoor",
+            "definition": "a hidden way into a computer that lets an attacker get in"
+          },
+          {
+            "term": "faulty",
+            "definition": "not working correctly or containing a mistake"
+          },
+          {
+            "term": "pulled from",
+            "definition": "taken away from a shop or a shelf"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:41",
+      "headline": "Kritická chyba v implementaci TCP ohrožuje linuxové jádro",
+      "body": "V linuxovém jádře byla objevena chyba CVE-2026-98432, kterou tým spravující zranitelnosti jádra ohodnotil stupněm 9,8 z 10. Jde o chybu souběhu v kódu pro navazování TCP spojení po IPv4: při souběhu určitých operací může jádro pracovat s pamětí, kterou už dříve uvolnilo. Zranitelnost se podle Root.cz objevila v kódu jádra verze 4.4 a oprava se dostala do udržovaných stabilních řad.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/kriticka-chyba-v-tcp-ohrozuje-linuxove-jadro/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "A critical flaw in the TCP implementation threatens the Linux kernel",
+        "sentences": [
+          {
+            "en": "A flaw tracked as CVE-2026-98432 has been found in the Linux kernel; the team that manages kernel vulnerabilities rated it 9.8 out of 10.",
+            "cs": "V linuxovém jádře byla objevena chyba CVE-2026-98432, kterou tým spravující zranitelnosti jádra ohodnotil stupněm 9,8 z 10."
+          },
+          {
+            "en": "It is a race condition in the code for establishing TCP connections over IPv4: when certain operations overlap, the kernel may work with memory it had already freed.",
+            "cs": "Jde o chybu souběhu v kódu pro navazování TCP spojení po IPv4: při souběhu určitých operací může jádro pracovat s pamětí, kterou už dříve uvolnilo."
+          },
+          {
+            "en": "According to Root.cz the vulnerability appeared in kernel code in version 4.4 and the fix has made it into the maintained stable series.",
+            "cs": "Zranitelnost se podle Root.cz objevila v kódu jádra verze 4.4 a oprava se dostala do udržovaných stabilních řad."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "flaw",
+            "definition": "a mistake that makes something not work as it should"
+          },
+          {
+            "term": "race condition",
+            "definition": "a bug that appears when two operations happen at the same time"
+          },
+          {
+            "term": "vulnerabilities",
+            "definition": "weak points that an attacker can use"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:52",
+      "headline": "Spotify chce od příštího roku nabídnout remixování hudby pomocí AI",
+      "body": "Spotify plánuje od začátku roku 2027 spustit novou funkci poháněnou umělou inteligencí. Za pět dolarů měsíčně, zhruba 109 korun, má posluchačům umožnit vytvářet vlastní remixy a coververze písní.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-spotify-planuje-od-pristiho-roku-spustit-sluzbu-pro-remixovani-hudby-pomoci-ai-319182"
+        }
+      ],
+      "en": {
+        "headline": "Spotify wants to offer AI music remixing from next year",
+        "sentences": [
+          {
+            "en": "Spotify plans to launch a new feature powered by artificial intelligence from the beginning of 2027.",
+            "cs": "Spotify plánuje od začátku roku 2027 spustit novou funkci poháněnou umělou inteligencí."
+          },
+          {
+            "en": "For five dollars a month, around 109 crowns, it is to let listeners create their own remixes and cover versions of songs.",
+            "cs": "Za pět dolarů měsíčně, zhruba 109 korun, má posluchačům umožnit vytvářet vlastní remixy a coververze písní."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "powered by",
+            "definition": "made to work by a particular technology"
+          },
+          {
+            "term": "cover versions",
+            "definition": "new recordings of a song by a different artist"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "21:23",
+      "day": "prev",
+      "headline": "Zemřel herec Patrick Stewart, kapitán Picard ze Star Treku a profesor Xavier z X-Menů",
+      "body": "Ve věku 86 let zemřel britský herec Patrick Stewart, známý jako kapitán Jean-Luc Picard ze seriálu Star Trek: Nová generace a jako profesor Charles Xavier z filmů X-Men. Na divadle ztvárnil řadu shakespearovských rolí. Zemřel ve středu v Los Angeles po boji s Alzheimerovou chorobou a demencí s Lewyho tělísky, oznámila ve čtvrtek podle agentur jeho mluvčí Kelly Bushová Nováková.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/zemrel-herec-patrick-stewart-proslavil-se-filmy-x-men-nebo-v-serialu-star-trek-379124"
+        }
+      ],
+      "en": {
+        "headline": "Actor Patrick Stewart, Captain Picard of Star Trek and Professor Xavier of the X-Men, has died",
+        "sentences": [
+          {
+            "en": "The British actor Patrick Stewart, known as Captain Jean-Luc Picard from the series Star Trek: The Next Generation and as Professor Charles Xavier from the X-Men films, has died at the age of 86.",
+            "cs": "Ve věku 86 let zemřel britský herec Patrick Stewart, známý jako kapitán Jean-Luc Picard ze seriálu Star Trek: Nová generace a jako profesor Charles Xavier z filmů X-Men."
+          },
+          {
+            "en": "On stage he played many Shakespearean roles.",
+            "cs": "Na divadle ztvárnil řadu shakespearovských rolí."
+          },
+          {
+            "en": "He died on Wednesday in Los Angeles after a battle with Alzheimer's disease and Lewy body dementia, his spokesperson Kelly Bushová Nováková announced on Thursday, according to agencies.",
+            "cs": "Zemřel ve středu v Los Angeles po boji s Alzheimerovou chorobou a demencí s Lewyho tělísky, oznámila ve čtvrtek podle agentur jeho mluvčí Kelly Bushová Nováková."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dementia",
+            "definition": "an illness that slowly damages memory and thinking"
+          },
+          {
+            "term": "battle with",
+            "definition": "a long and hard fight against something, such as an illness"
+          },
+          {
+            "term": "spokesperson",
+            "definition": "a person who speaks officially for someone else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:00",
+      "headline": "Učená společnost vyzvala vládu a sněmovnu, aby nechaly pokračovat granty ERC CZ",
+      "body": "Rada Učené společnosti České republiky vyzvala vládu a sněmovnu, aby umožnily pokračování programu ERC CZ zaměřeného na podporu špičkového tuzemského výzkumu.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/veda/uspesne-vedecke-granty-maji-skoncit-at-pokracuji-vyzyva-ucena-spolecnost-379145"
+        }
+      ],
+      "en": {
+        "headline": "The Learned Society has called on the government and parliament to let the ERC CZ grants continue",
+        "sentences": [
+          {
+            "en": "The Council of the Learned Society of the Czech Republic has called on the government and the Chamber of Deputies to allow the continuation of the ERC CZ programme, which supports top domestic research.",
+            "cs": "Rada Učené společnosti České republiky vyzvala vládu a sněmovnu, aby umožnily pokračování programu ERC CZ zaměřeného na podporu špičkového tuzemského výzkumu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "called on",
+            "definition": "publicly asked someone to do something"
+          },
+          {
+            "term": "continuation",
+            "definition": "the fact of something going on without stopping"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:53",
+      "headline": "Sportovní arbitráž vrátila ruské hokejisty do mezinárodních soutěží, český svaz i ministr protestují",
+      "body": "Sportovní arbitrážní soud rozhodl, že ruské hokejové týmy se mohou s okamžitou platností znovu účastnit mezinárodních šampionátů; podle Deníku N soudu chyběly od hokejové federace dostatečné důkazy. Mezinárodní federace IIHF, která Rusko vyřadila v únoru 2022 po napadení Ukrajiny a zákaz naposledy prodloužila letos v lednu, s verdiktem nesouhlasí, hodlá ho ale respektovat. Nejbližší mistrovství světa uspořádá v květnu Německo. Generální sekretář českého hokejového svazu Jan Černý řekl, že dosavadní postoj českého hokeje se nemění a s účastí Ruska na turnajích IIHF během války nesouhlasí; prezident svazu Alois Hadamczik kritizuje, že arbitráž do rozhodování nezapojila jednotlivé federace, a dodal, že pokud evropské země ze šampionátu odstoupí, Česko nemůže být výjimkou. Ministr pro sport Boris Šťastný pošle arbitráži oficiální protest, mluvčí Hradu připomněl, že prezident považuje za správný zákaz účasti sportovců pod ruskou a běloruskou vlajkou, dokud ruská agrese trvá. Verdikt se dotkne i mistrovství světa hokejistek do 18 let, které za 67 dnů začíná v Ostravě; účast juniorské sborné si pořadatelé podle Sport.cz zatím neumějí představit. Bývalý brankář Dominik Hašek volá po tom, aby start ruských sportovců zakázali politici.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/ruske-hokejove-tymy-muzou-opet-do-mezinarodnich-soutezi-rozhodl-soud-159699"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-ms-sportovni-arbitraz-umoznila-ruske-hokejove-federaci-prihlasit-se-na-vsechny-sampionaty-5565826"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2238635/hadamczik-k-navratu-rusu-na-mistrovstvi-pokud-evropske-zeme-z-sampionatu-odstoupi-cesko-nemuze-byt-vyjimkou/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2238724/"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-ms-ostravsky-sampionat-osmnactek-za-ucasti-ruska-si-poradatele-zatim-neumi-predstavit-5565851"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/hokej-rusko-navrat-arbitrazni-soud-iihf-hasek_2610301553_lbk"
+        }
+      ],
+      "en": {
+        "headline": "Sports arbitration has returned Russian ice hockey players to international competitions, the Czech federation and the minister are protesting",
+        "sentences": [
+          {
+            "en": "The Court of Arbitration for Sport ruled that Russian ice hockey teams may take part in international championships again with immediate effect; according to Deník N the court lacked sufficient evidence from the hockey federation.",
+            "cs": "Sportovní arbitrážní soud rozhodl, že ruské hokejové týmy se mohou s okamžitou platností znovu účastnit mezinárodních šampionátů; podle Deníku N soudu chyběly od hokejové federace dostatečné důkazy."
+          },
+          {
+            "en": "The International Ice Hockey Federation, which excluded Russia in February 2022 after the attack on Ukraine and last extended the ban in January this year, disagrees with the verdict but intends to respect it.",
+            "cs": "Mezinárodní federace IIHF, která Rusko vyřadila v únoru 2022 po napadení Ukrajiny a zákaz naposledy prodloužila letos v lednu, s verdiktem nesouhlasí, hodlá ho ale respektovat."
+          },
+          {
+            "en": "The next world championship will be hosted by Germany in May.",
+            "cs": "Nejbližší mistrovství světa uspořádá v květnu Německo."
+          },
+          {
+            "en": "The general secretary of the Czech ice hockey association, Jan Černý, said that the Czech position has not changed and that it does not agree with Russia taking part in IIHF tournaments during the war; the association's president Alois Hadamczik criticises the arbitration body for not involving the individual federations in the decision, and added that if European countries withdraw from the championship, Czechia cannot be an exception.",
+            "cs": "Generální sekretář českého hokejového svazu Jan Černý řekl, že dosavadní postoj českého hokeje se nemění a s účastí Ruska na turnajích IIHF během války nesouhlasí; prezident svazu Alois Hadamczik kritizuje, že arbitráž do rozhodování nezapojila jednotlivé federace, a dodal, že pokud evropské země ze šampionátu odstoupí, Česko nemůže být výjimkou."
+          },
+          {
+            "en": "Sports Minister Boris Šťastný will send an official protest to the arbitration body, and a spokesman for the Prague Castle recalled that the president considers a ban on athletes competing under the Russian and Belarusian flags to be right as long as the Russian aggression continues.",
+            "cs": "Ministr pro sport Boris Šťastný pošle arbitráži oficiální protest, mluvčí Hradu připomněl, že prezident považuje za správný zákaz účasti sportovců pod ruskou a běloruskou vlajkou, dokud ruská agrese trvá."
+          },
+          {
+            "en": "The verdict will also affect the women's under-18 world championship, which starts in Ostrava in 67 days; the organisers, according to Sport.cz, cannot yet imagine the junior Russian team taking part.",
+            "cs": "Verdikt se dotkne i mistrovství světa hokejistek do 18 let, které za 67 dnů začíná v Ostravě; účast juniorské sborné si pořadatelé podle Sport.cz zatím neumějí představit."
+          },
+          {
+            "en": "The former goaltender Dominik Hašek is calling for politicians to ban Russian athletes from competing.",
+            "cs": "Bývalý brankář Dominik Hašek volá po tom, aby start ruských sportovců zakázali politici."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "arbitration",
+            "definition": "the settling of a dispute by an independent body instead of a court"
+          },
+          {
+            "term": "verdict",
+            "definition": "an official decision made by a court"
+          },
+          {
+            "term": "withdraw",
+            "definition": "to pull out of an event or agreement"
+          },
+          {
+            "term": "goaltender",
+            "definition": "the player who guards the goal in ice hockey"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:25",
+      "headline": "Čeští fotbalisté do 15 let prohráli finále mistrovství světa se Španělskem 0:3",
+      "body": "Čeští fotbalisté do 15 let prohráli ve finále historicky prvního mistrovství světa v této kategorii se Španělskem 0:3 a z Ázerbájdžánu si vezou stříbro.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/finale-ms-u15-cesko-spanelsko-159701"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-reprezentace-cesti-mladici-zabojuji-na-ms-o-zlato-5565803"
+        }
+      ],
+      "en": {
+        "headline": "Czech under-15 footballers lost the World Cup final to Spain 0:3",
+        "sentences": [
+          {
+            "en": "The Czech under-15 footballers lost the final of the first ever World Cup in this age group to Spain 0:3 and are bringing silver home from Azerbaijan.",
+            "cs": "Čeští fotbalisté do 15 let prohráli ve finále historicky prvního mistrovství světa v této kategorii se Španělskem 0:3 a z Ázerbájdžánu si vezou stříbro."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "first ever",
+            "definition": "the first one that has existed at any time"
+          },
+          {
+            "term": "age group",
+            "definition": "a category of players of a similar age"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:38",
+      "headline": "Lehečka je v Basileji ve čtvrtfinále, čeká ho přemožitel nasazené jedničky Kym",
+      "body": "Jiří Lehečka postoupil do čtvrtfinále halového turnaje v Basileji, ve druhém kole porazil Daniela Altmaiera 7:5 a 6:4. Jeho soupeřem bude domácí Švýcar Jérome Kym, který překvapivě vyřadil nasazenou jedničku a světovou čtyřku Bena Sheltona 6:3, 6:7 a 7:6.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/lehecku-ceka-ve-ctvrtfinale-kym-ktery-prekvapive-zdolal-sheltona-159696"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-leheckovym-souperem-ve-ctvrtfinale-v-basileji-bude-sheltonuv-premozitel-kym-5565811"
+        }
+      ],
+      "en": {
+        "headline": "Lehečka is in the quarterfinals in Basel and will face Kym, who knocked out the top seed",
+        "sentences": [
+          {
+            "en": "Jiří Lehečka advanced to the quarterfinals of the indoor tournament in Basel, beating Daniel Altmaier 7:5 and 6:4 in the second round.",
+            "cs": "Jiří Lehečka postoupil do čtvrtfinále halového turnaje v Basileji, ve druhém kole porazil Daniela Altmaiera 7:5 a 6:4."
+          },
+          {
+            "en": "His opponent will be the home Swiss player Jérome Kym, who surprisingly knocked out the top seed and world number four Ben Shelton 6:3, 6:7 and 7:6.",
+            "cs": "Jeho soupeřem bude domácí Švýcar Jérome Kym, který překvapivě vyřadil nasazenou jedničku a světovou čtyřku Bena Sheltona 6:3, 6:7 a 7:6."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "quarterfinals",
+            "definition": "the round in which eight players are left in a tournament"
+          },
+          {
+            "term": "knocked out",
+            "definition": "beat an opponent so that they leave the competition"
+          },
+          {
+            "term": "top seed",
+            "definition": "the player ranked first in a tournament draw"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:03",
+      "headline": "České curlerky vyhrály na domácím mistrovství Evropy poprvé, porazily Německo 6:3",
+      "body": "České curlerky dosáhly na domácím mistrovství Evropy v Ostravě na první vítězství, když porazily Německo 6:3. Tým skipky Alžběty Zelingrové se se šampionátem rozloučí ve večerním utkání proti Norsku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/zimni-sporty-curlerky-na-domacim-me-poprve-vyhraly-5565850"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/curling/me-v-curlingu-zen-cesko-nemecko-159695"
+        }
+      ],
+      "en": {
+        "headline": "Czech women curlers have won for the first time at the home European Championship, beating Germany 6:3",
+        "sentences": [
+          {
+            "en": "The Czech women curlers achieved their first victory at the home European Championship in Ostrava, beating Germany 6:3.",
+            "cs": "České curlerky dosáhly na domácím mistrovství Evropy v Ostravě na první vítězství, když porazily Německo 6:3."
+          },
+          {
+            "en": "The team of skip Alžběta Zelingrová will close out the championship in an evening match against Norway.",
+            "cs": "Tým skipky Alžběty Zelingrové se se šampionátem rozloučí ve večerním utkání proti Norsku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "curlers",
+            "definition": "players of curling, a sport played with stones on ice"
+          },
+          {
+            "term": "skip",
+            "definition": "the player who leads a curling team"
+          },
+          {
+            "term": "close out",
+            "definition": "to finish something, especially a series of games"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:56",
+      "day": "prev",
+      "headline": "Zverev se příští týden stane poprvé světovou jedničkou",
+      "body": "Německý tenista Alexander Zverev se příští týden stane poprvé v kariéře světovou jedničkou. Jistotu získal díky postupu do čtvrtfinále turnaje ve Vídni po výhře nad Nizozemcem Tallonem Griekspoorem 6:4 a 7:5.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/zverev-bude-poprve-svetovou-jednickou-159690"
+        }
+      ],
+      "en": {
+        "headline": "Zverev will become world number one for the first time next week",
+        "sentences": [
+          {
+            "en": "The German tennis player Alexander Zverev will become the world number one for the first time in his career next week.",
+            "cs": "Německý tenista Alexander Zverev se příští týden stane poprvé v kariéře světovou jedničkou."
+          },
+          {
+            "en": "He secured it by advancing to the quarterfinals of the tournament in Vienna after beating the Dutchman Tallon Griekspoor 6:4 and 7:5.",
+            "cs": "Jistotu získal díky postupu do čtvrtfinále turnaje ve Vídni po výhře nad Nizozemcem Tallonem Griekspoorem 6:4 a 7:5."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "secured",
+            "definition": "made certain to get something"
+          },
+          {
+            "term": "advancing",
+            "definition": "moving into the next round of a competition"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Court of Arbitration for Sport has returned Russian ice hockey players to international competitions; the Czech federation and the sports minister disagree with the verdict.",
+    "Cryptocurrencies worth 6.3 billion dollars have vanished from the Binance exchange, which analysts call the largest theft in the history of crypto.",
+    "Andrej Babiš, according to Czech Television director Hynek Chudárek, has conceded a different model for funding public media.",
+    "Tesco is leaving Czechia after thirty years and its stores are being bought by the owner of Albert."
+  ]
+}
