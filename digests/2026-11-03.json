@@ -1,0 +1,1427 @@
+{
+  "date": "2026-11-03",
+  "covers": "2026-11-03",
+  "window_hours": 24,
+  "sources_used": [
+    "Deník N",
+    "Seznam Zprávy",
+    "iROZHLAS",
+    "ČT24",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a sucho, přes den až 9 °C. Kvalita ovzduší má být přijatelná.",
+    "days": [
+      {
+        "date": "2026-11-04",
+        "icon": "cloudy",
+        "temp_max_c": 9.3,
+        "temp_min_c": 3.1
+      },
+      {
+        "date": "2026-11-05",
+        "icon": "fog",
+        "temp_max_c": 8.4,
+        "temp_min_c": -1.6
+      },
+      {
+        "date": "2026-11-06",
+        "icon": "clear",
+        "temp_max_c": 9.0,
+        "temp_min_c": 0.9
+      },
+      {
+        "date": "2026-11-07",
+        "icon": "clear",
+        "temp_max_c": 9.1,
+        "temp_min_c": 1.0
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast and dry, with up to 9 °C during the day. Air quality should be acceptable."
+  },
+  "highlights": [
+    "Česká televize a Český rozhlas celý den stávkovaly proti převedení financování pod státní rozpočet a do centra Prahy dorazily tisíce demonstrantů.",
+    "Američané volí nový Kongres, v předčasném hlasování odevzdalo hlas rekordních 56 milionů lidí.",
+    "Donald Trump oznámil, že Spojené státy na konci roku ukončí vojenskou pomoc Izraeli ve výši 3,8 miliardy dolarů."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:06",
+      "headline": "Česká televize a Český rozhlas celý den stávkovaly, do centra Prahy dorazily tisíce lidí",
+      "body": "Pracovníci České televize a Českého rozhlasu vstoupili o půlnoci do celodenní stávky proti vládnímu plánu zrušit koncesionářské poplatky a převést financování obou médií pod státní rozpočet. Obě média vysílala v provizorním režimu: moderátoři četli krátké zprávy z papíru, hlavní publicistické a diskusní relace se zrušily a na obrazovkách i v éteru převažovaly reprízy. Podle Deníku N se ke stávce připojilo 1340 pracovníků Českého rozhlasu. Odpoledne vyšly průvody z Kavčích hor i od budovy rozhlasu na Vinohradech, cestou se spojily a zamířily na Václavské náměstí, kde se měla v 16.36 konat společná demonstrace; kvůli pochodům se v širším centru Prahy zastavily tramvaje. Do spodní části Václavského náměstí stávkující dorazili odpoledne a přivítali je studenti Univerzity Karlovy, Akademie múzických umění, Akademie výtvarných umění a UMPRUM. Za zachování poplatků se podle Seznam Zpráv vyslovili také rektoři, biskupové, divadla i charita. Podle bleskového výzkumu agentury STEM/MARK pro Českou televizi souhlasí 68 procent lidí s tím, že by média veřejné služby měla zůstat mimo kontrolu státu nebo soukromého vlastníka. Protesty se chystaly i v dalších městech, v Brně zaplnily Zelný trh stovky studentů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2242072/zacal-den-ktery-nema-obdoby-pracovnici-ct-a-cro-o-pulnoci-vstoupili-do-stavky/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-stavka-ct-rozhlas-2026-online-319281"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/den-bez-ziveho-vysilani-ct-i-cesky-rozhlas-vstoupily-do-celodenni-stavky-proti-zruseni-poplatku-1437033"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/dve-tretiny-lidi-nechteji-ct-a-cro-pod-kontrolou-statu-uvadi-pruzkum-379247"
+        }
+      ],
+      "en": {
+        "headline": "Czech Television and Czech Radio went on strike all day, and thousands of people came to the centre of Prague",
+        "sentences": [
+          {
+            "en": "Staff at Czech Television and Czech Radio began a full-day strike at midnight against the government's plan to abolish the licence fees and move the funding of both outlets into the state budget.",
+            "cs": "Pracovníci České televize a Českého rozhlasu vstoupili o půlnoci do celodenní stávky proti vládnímu plánu zrušit koncesionářské poplatky a převést financování obou médií pod státní rozpočet."
+          },
+          {
+            "en": "Both broadcasters stayed on air in a makeshift mode: presenters read short bulletins off paper, the main current affairs and discussion programmes were cancelled, and repeats dominated the screens and the airwaves.",
+            "cs": "Obě média vysílala v provizorním režimu: moderátoři četli krátké zprávy z papíru, hlavní publicistické a diskusní relace se zrušily a na obrazovkách i v éteru převažovaly reprízy."
+          },
+          {
+            "en": "According to Deník N, 1,340 Czech Radio employees joined the strike.",
+            "cs": "Podle Deníku N se ke stávce připojilo 1340 pracovníků Českého rozhlasu."
+          },
+          {
+            "en": "In the afternoon, marches set out from Kavčí hory and from the radio building in Vinohrady, merged along the way and headed for Wenceslas Square, where a joint demonstration was due to begin at 16.36; because of the marches, trams came to a halt across the wider centre of Prague.",
+            "cs": "Odpoledne vyšly průvody z Kavčích hor i od budovy rozhlasu na Vinohradech, cestou se spojily a zamířily na Václavské náměstí, kde se měla v 16.36 konat společná demonstrace; kvůli pochodům se v širším centru Prahy zastavily tramvaje."
+          },
+          {
+            "en": "The strikers reached the lower end of Wenceslas Square in the afternoon and were welcomed by students from Charles University, the Academy of Performing Arts, the Academy of Fine Arts and UMPRUM.",
+            "cs": "Do spodní části Václavského náměstí stávkující dorazili odpoledne a přivítali je studenti Univerzity Karlovy, Akademie múzických umění, Akademie výtvarných umění a UMPRUM."
+          },
+          {
+            "en": "According to Seznam Zprávy, rectors, bishops, theatres and a charity also spoke out in favour of keeping the fees.",
+            "cs": "Za zachování poplatků se podle Seznam Zpráv vyslovili také rektoři, biskupové, divadla i charita."
+          },
+          {
+            "en": "In a snap survey by the STEM/MARK agency for Czech Television, 68 percent of people agreed that public service media should stay outside the control of the state or of a private owner.",
+            "cs": "Podle bleskového výzkumu agentury STEM/MARK pro Českou televizi souhlasí 68 procent lidí s tím, že by média veřejné služby měla zůstat mimo kontrolu státu nebo soukromého vlastníka."
+          },
+          {
+            "en": "Protests were being prepared in other cities as well, and in Brno hundreds of students filled the Zelný trh square.",
+            "cs": "Protesty se chystaly i v dalších městech, v Brně zaplnily Zelný trh stovky studentů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "makeshift",
+            "definition": "put together quickly from whatever is available, as a temporary solution"
+          },
+          {
+            "term": "repeats",
+            "definition": "programmes that are broadcast again after they have already been shown"
+          },
+          {
+            "term": "airwaves",
+            "definition": "radio and television broadcasting"
+          },
+          {
+            "term": "rectors",
+            "definition": "the people who lead universities"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:49",
+      "headline": "Opozice vyzvala Babiše k jednání o veřejnoprávních médiích, Piráti chtějí odvolat Okamuru",
+      "body": "Předsedové opozičních stran vyzvali v dopise premiéra Andreje Babiše ke společnému jednání o budoucnosti veřejnoprávních médií. Zúčastnit se ho mají předsedové všech sněmovních stran, generální ředitelé České televize a Českého rozhlasu a nezávislí odborníci; cílem je podle opozice najít širokou politickou a odbornou shodu na stabilním financování a na účinných pojistkách nezávislosti obou institucí. Předseda Pirátů Zdeněk Hřib zároveň navrhne na dnešní schůzi Sněmovny odvolání jejího předsedy Tomia Okamury kvůli způsobu, jakým koalice před dvěma týdny v prvním čtení protlačila mediální novelu. Návrh podpoří i hnutí STAN, řekla šéfka jeho poslaneckého klubu Michaela Šebelová.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2242775/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2242762/"
+        }
+      ],
+      "en": {
+        "headline": "The opposition has called on Babiš to hold talks on public service media, and the Pirates want to remove Okamura",
+        "sentences": [
+          {
+            "en": "The leaders of the opposition parties wrote to Prime Minister Andrej Babiš to call for joint talks on the future of public service media.",
+            "cs": "Předsedové opozičních stran vyzvali v dopise premiéra Andreje Babiše ke společnému jednání o budoucnosti veřejnoprávních médií."
+          },
+          {
+            "en": "The leaders of all parliamentary parties, the directors general of Czech Television and Czech Radio and independent experts are meant to take part; according to the opposition, the aim is to find a broad political and expert agreement on stable funding and on effective safeguards of the independence of both institutions.",
+            "cs": "Zúčastnit se ho mají předsedové všech sněmovních stran, generální ředitelé České televize a Českého rozhlasu a nezávislí odborníci; cílem je podle opozice najít širokou politickou a odbornou shodu na stabilním financování a na účinných pojistkách nezávislosti obou institucí."
+          },
+          {
+            "en": "At the same time, Pirate leader Zdeněk Hřib will propose at today's session of the Chamber of Deputies that its speaker Tomio Okamura be removed, because of the way the coalition pushed the media bill through its first reading two weeks ago.",
+            "cs": "Předseda Pirátů Zdeněk Hřib zároveň navrhne na dnešní schůzi Sněmovny odvolání jejího předsedy Tomia Okamury kvůli způsobu, jakým koalice před dvěma týdny v prvním čtení protlačila mediální novelu."
+          },
+          {
+            "en": "STAN will back the motion too, said the head of its parliamentary group Michaela Šebelová.",
+            "cs": "Návrh podpoří i hnutí STAN, řekla šéfka jeho poslaneckého klubu Michaela Šebelová."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "safeguards",
+            "definition": "rules or measures that protect something from harm"
+          },
+          {
+            "term": "speaker",
+            "definition": "the person who leads and controls the debates in a parliament"
+          },
+          {
+            "term": "motion",
+            "definition": "a formal proposal that people at a meeting vote on"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:58",
+      "headline": "Primátorem Brna se stal lidovec Jakub Hruška, zastupitelstvo podpořilo veřejnoprávní média",
+      "body": "Brněnští zastupitelé na své první schůzi zvolili primátorem lidovce Jakuba Hrušku a schválili také jeho náměstkyně a radní. Nová koalice pak obratem vyjádřila podporu regionálním studiím veřejnoprávních médií: v usnesení označila Český rozhlas a Českou televizi za „nezastupitelné pro nezávislé regionální zpravodajství, informování při mimořádných událostech a celostátní tvorbu“. Usnesení nepodpořilo pouze opoziční ANO, jehož klub přišel s protinávrhem.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2242287/brno-ma-noveho-primatora-koalice-obratem-podporila-rozhlas-a-televizi-vankova-se-rozloucila/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2242878/"
+        }
+      ],
+      "en": {
+        "headline": "Brno elected the Christian Democrat Jakub Hruška as mayor, and the council backed public service media",
+        "sentences": [
+          {
+            "en": "At their first session, Brno councillors elected the Christian Democrat Jakub Hruška as mayor and also approved his deputies and the city board.",
+            "cs": "Brněnští zastupitelé na své první schůzi zvolili primátorem lidovce Jakuba Hrušku a schválili také jeho náměstkyně a radní."
+          },
+          {
+            "en": "The new coalition then immediately expressed support for the regional studios of the public service media: in a resolution it called Czech Radio and Czech Television “irreplaceable for independent regional reporting, for informing people during emergencies and for nationwide production”.",
+            "cs": "Nová koalice pak obratem vyjádřila podporu regionálním studiím veřejnoprávních médií: v usnesení označila Český rozhlas a Českou televizi za „nezastupitelné pro nezávislé regionální zpravodajství, informování při mimořádných událostech a celostátní tvorbu“."
+          },
+          {
+            "en": "Only the opposition ANO failed to back the resolution, and its group put forward a counter-proposal.",
+            "cs": "Usnesení nepodpořilo pouze opoziční ANO, jehož klub přišel s protinávrhem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "councillors",
+            "definition": "elected members of a town or city council"
+          },
+          {
+            "term": "resolution",
+            "definition": "a formal decision that is agreed on by a vote"
+          },
+          {
+            "term": "irreplaceable",
+            "definition": "so valuable that nothing else could take its place"
+          },
+          {
+            "term": "counter-proposal",
+            "definition": "a different plan offered in answer to one that has already been suggested"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:01",
+      "day": "prev",
+      "headline": "Spokojenost Čechů s Babišovou vládou klesla podle průzkumu na 37 procent",
+      "body": "Koaliční vládu ANO, SPD a Motoristů hodnotí pozitivně 37 procent lidí, což je oproti březnu o čtyři procentní body méně. Negativně hodnotí výkon kabinetu Andreje Babiše po deseti a půl měsících od jeho vzniku 53 procent dotázaných. Vyplývá to z průzkumu agentury NMS pro Právo a Novinky.cz.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/cesi-jsou-mene-spokojeni-s-koalicni-vladou-ano-spd-a-motoristu-vyplyva-z_2611022001_aln"
+        }
+      ],
+      "en": {
+        "headline": "Satisfaction with Babiš's government has dropped to 37 percent, a survey suggests",
+        "sentences": [
+          {
+            "en": "The coalition government of ANO, SPD and the Motorists is rated positively by 37 percent of people, four percentage points fewer than in March.",
+            "cs": "Koaliční vládu ANO, SPD a Motoristů hodnotí pozitivně 37 procent lidí, což je oproti březnu o čtyři procentní body méně."
+          },
+          {
+            "en": "After ten and a half months in office, 53 percent of respondents rate the performance of Andrej Babiš's cabinet negatively.",
+            "cs": "Negativně hodnotí výkon kabinetu Andreje Babiše po deseti a půl měsících od jeho vzniku 53 procent dotázaných."
+          },
+          {
+            "en": "That follows from a survey by the NMS agency for Právo and Novinky.cz.",
+            "cs": "Vyplývá to z průzkumu agentury NMS pro Právo a Novinky.cz."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "respondents",
+            "definition": "the people who answer the questions in a survey"
+          },
+          {
+            "term": "cabinet",
+            "definition": "the group of senior ministers who run a government"
+          },
+          {
+            "term": "percentage points",
+            "definition": "the simple difference between two percentages"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "21:51",
+      "day": "prev",
+      "headline": "Ministr zemědělství Šebestyán zřejmě ustupuje od předkupního práva pro nájemce půdy",
+      "body": "Ministr zemědělství Martin Šebestyán (za SPD) zřejmě ustupuje od záměru zavést takzvané předkupní právo, které mělo zvýhodnit zemědělce hospodařící na pronajaté půdě a podle kritiků by nahrávalo velkým agropodnikům. „Muselo to tak dopadnout, protože šlo o tak výrazný zásah do svobody vlastnictví, že to nemohlo přes Ústavní soud projít,“ míní v pořadu Interview Plus místopředseda Asociace soukromých zemědělců.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zemedelec-predkupni-pravo-najemcu-pudy-bylo-protiustavni-oznamovaci-povinnost_2611022151_aln"
+        }
+      ],
+      "en": {
+        "headline": "Agriculture Minister Šebestyán appears to be backing away from a pre-emption right for tenant farmers",
+        "sentences": [
+          {
+            "en": "Agriculture Minister Martin Šebestyán (for SPD) appears to be backing away from the plan to introduce a so-called pre-emption right, which was meant to favour farmers working on rented land and which critics said would play into the hands of large agricultural businesses.",
+            "cs": "Ministr zemědělství Martin Šebestyán (za SPD) zřejmě ustupuje od záměru zavést takzvané předkupní právo, které mělo zvýhodnit zemědělce hospodařící na pronajaté půdě a podle kritiků by nahrávalo velkým agropodnikům."
+          },
+          {
+            "en": "“It had to end this way, because it was such a serious interference with the freedom of ownership that it could never have got past the Constitutional Court,” the deputy chair of the Association of Private Farmers said on the Interview Plus programme.",
+            "cs": "„Muselo to tak dopadnout, protože šlo o tak výrazný zásah do svobody vlastnictví, že to nemohlo přes Ústavní soud projít,“ míní v pořadu Interview Plus místopředseda Asociace soukromých zemědělců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "backing away",
+            "definition": "slowly giving up a plan or an opinion"
+          },
+          {
+            "term": "pre-emption right",
+            "definition": "the right to buy something before anyone else is allowed to"
+          },
+          {
+            "term": "play into the hands of",
+            "definition": "to do something that unintentionally helps an opponent"
+          },
+          {
+            "term": "interference",
+            "definition": "the act of getting involved in something and changing it without being asked"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:02",
+      "headline": "Ředitel Správy KRNAP odvolal oba své náměstky, důvody jim podle nich nesdělil",
+      "body": "Ředitel Správy Krkonošského národního parku Petr Moravec odvolal náměstka ředitele a vedoucího odboru vnějších vztahů Jakuba Kašpara a ekonomického náměstka Luďka Khola. Oba uvedli, že jim ředitel důvody odvolání nesdělil; Moravec se k věci zatím nevyjádřil. Ministerstvo životního prostředí svolalo na odpoledne brífink k hospodaření parku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-reditel-spravy-krnap-odvolal-sve-dva-namestky-podle-nich-bez-udani-duvodu-319488"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2243024/"
+        },
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/krkonose-krnap-reditel-moravec-odvolal-namestky-khola-a-kaspara.A261103_141006_hradec-zpravy_epkbn#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The director of the KRNAP administration has dismissed both of his deputies, who say he gave them no reason",
+        "sentences": [
+          {
+            "en": "Petr Moravec, the director of the Krkonoše National Park administration, has dismissed Jakub Kašpar, deputy director and head of the external relations department, and the economic deputy Luděk Khol.",
+            "cs": "Ředitel Správy Krkonošského národního parku Petr Moravec odvolal náměstka ředitele a vedoucího odboru vnějších vztahů Jakuba Kašpara a ekonomického náměstka Luďka Khola."
+          },
+          {
+            "en": "Both said the director had not told them the reasons for their dismissal; Moravec has not yet commented on the matter.",
+            "cs": "Oba uvedli, že jim ředitel důvody odvolání nesdělil; Moravec se k věci zatím nevyjádřil."
+          },
+          {
+            "en": "The Ministry of the Environment has called a briefing on the park's finances for the afternoon.",
+            "cs": "Ministerstvo životního prostředí svolalo na odpoledne brífink k hospodaření parku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dismissed",
+            "definition": "removed from a job or a position"
+          },
+          {
+            "term": "deputies",
+            "definition": "people who are second in rank to a leader"
+          },
+          {
+            "term": "briefing",
+            "definition": "a short meeting where people are given information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:13",
+      "headline": "Na Trutnovsku začala ražba tunelu Kamenný vrch, nejdelšího na dálnici D11",
+      "body": "U Výšinky na Trutnovsku začali stavbaři razit tunel Kamenný vrch, který bude nejdelší na dálnici D11. Ražba má trvat zhruba rok. Stavba úseku z Jaroměře do Trutnova začala letos v dubnu; 19,6 kilometru dlouhá silnice za 9,09 miliardy korun bez DPH by měla být hotová na podzim 2029.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/stavba-dalnice-d11-jaromer-trutnov-tunel-kamenny-vrch-razba.A261103_104609_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Work has begun on the Kamenný vrch tunnel near Trutnov, the longest on the D11 motorway",
+        "sentences": [
+          {
+            "en": "At Výšinka near Trutnov, construction workers have started boring the Kamenný vrch tunnel, which will be the longest on the D11 motorway.",
+            "cs": "U Výšinky na Trutnovsku začali stavbaři razit tunel Kamenný vrch, který bude nejdelší na dálnici D11."
+          },
+          {
+            "en": "The boring is expected to take about a year.",
+            "cs": "Ražba má trvat zhruba rok."
+          },
+          {
+            "en": "Work on the stretch from Jaroměř to Trutnov began this April; the 19.6-kilometre road, costing 9.09 billion crowns before VAT, should be finished in the autumn of 2029.",
+            "cs": "Stavba úseku z Jaroměře do Trutnova začala letos v dubnu; 19,6 kilometru dlouhá silnice za 9,09 miliardy korun bez DPH by měla být hotová na podzim 2029."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "boring",
+            "definition": "the work of drilling a long hole or tunnel through rock or soil"
+          },
+          {
+            "term": "stretch",
+            "definition": "a section of a road, river or railway"
+          },
+          {
+            "term": "motorway",
+            "definition": "a wide road built for fast long-distance traffic"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:48",
+      "headline": "Univerzita Hradec Králové omluví studentům absenci kvůli podpoře televize a rozhlasu",
+      "body": "Univerzita Hradec Králové omluví absenci studentů, kteří se dnes a 10. listopadu nezúčastní výuky kvůli aktivitám na podporu Českého rozhlasu a České televize. Rozhodnutí se týká i vyučujících, ti by ale měli výuku nahradit, sdělil ČTK mluvčí školy Jakub Novák. Pochod studentů měl podle Hradecké drbny vyrazit v 15.30 z kampusu k budově rozhlasu, kde se od 16.36 mělo konat shromáždění se stávkujícími pracovníky médií a s herci.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/uhk-omluvi-studenty-protesty-stavka-cesky-rozhlas-televize/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/904761-uhk-omluvi-studenty-z-vyuky-pochodem-podpori-stavkujici-ct-a-rozhlas.html"
+        }
+      ],
+      "en": {
+        "headline": "The University of Hradec Králové will excuse students who miss classes to support the public broadcasters",
+        "sentences": [
+          {
+            "en": "The University of Hradec Králové will excuse the absence of students who miss classes today and on 10 November because of activities in support of Czech Radio and Czech Television.",
+            "cs": "Univerzita Hradec Králové omluví absenci studentů, kteří se dnes a 10. listopadu nezúčastní výuky kvůli aktivitám na podporu Českého rozhlasu a České televize."
+          },
+          {
+            "en": "The decision also covers teaching staff who take part, although they should make up for the missed classes, university spokesman Jakub Novák told the ČTK agency.",
+            "cs": "Rozhodnutí se týká i vyučujících, ti by ale měli výuku nahradit, sdělil ČTK mluvčí školy Jakub Novák."
+          },
+          {
+            "en": "According to Hradecká drbna, the students' march was due to set off at 15.30 from the campus towards the radio building, where a gathering with striking media workers and actors was to be held from 16.36.",
+            "cs": "Pochod studentů měl podle Hradecké drbny vyrazit v 15.30 z kampusu k budově rozhlasu, kde se od 16.36 mělo konat shromáždění se stávkujícími pracovníky médií a s herci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "excuse",
+            "definition": "to officially allow someone not to do something they normally have to do"
+          },
+          {
+            "term": "absence",
+            "definition": "the fact of not being somewhere you are expected to be"
+          },
+          {
+            "term": "make up for",
+            "definition": "to do something later to replace what was missed"
+          },
+          {
+            "term": "gathering",
+            "definition": "a group of people who come together in one place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:54",
+      "headline": "Rock for People odhalil přes čtyřicet dalších jmen, přijedou Parkway Drive i Kreator",
+      "body": "Pořadatelé královéhradeckého festivalu Rock for People oznámili více než čtyři desítky dalších účinkujících příštího ročníku. Mezi nimi je australská metalcorová kapela Parkway Drive, thrashmetaloví Kreator i pop punkoví Simple Plan. Parkway Drive podle Seznam Zpráv vystoupí v areálu Park 360 4. června.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/rock-for-people-2027-program-jmena-headliner-parkway-drive-simple-plan-kreator/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-rock-for-people-2026-parkway-drive-evanescence-319503"
+        }
+      ],
+      "en": {
+        "headline": "Rock for People has revealed more than forty more names, with Parkway Drive and Kreator coming",
+        "sentences": [
+          {
+            "en": "The organisers of the Rock for People festival in Hradec Králové have announced more than four dozen further acts for next year's edition.",
+            "cs": "Pořadatelé královéhradeckého festivalu Rock for People oznámili více než čtyři desítky dalších účinkujících příštího ročníku."
+          },
+          {
+            "en": "They include the Australian metalcore band Parkway Drive, the thrash metal group Kreator and the pop punk band Simple Plan.",
+            "cs": "Mezi nimi je australská metalcorová kapela Parkway Drive, thrashmetaloví Kreator i pop punkoví Simple Plan."
+          },
+          {
+            "en": "According to Seznam Zprávy, Parkway Drive will play at the Park 360 site on 4 June.",
+            "cs": "Parkway Drive podle Seznam Zpráv vystoupí v areálu Park 360 4. června."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "acts",
+            "definition": "performers who appear at a concert or festival"
+          },
+          {
+            "term": "edition",
+            "definition": "one particular time that a regular event is held"
+          },
+          {
+            "term": "site",
+            "definition": "a piece of ground used for a particular purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:20",
+      "headline": "Američané volí nový Kongres, průzkumy slibují demokratům výrazné vítězství",
+      "body": "Ve Spojených státech začaly volby do Kongresu, v nichž se rozhoduje o celé Sněmovně reprezentantů, o třetině Senátu a také o guvernérech. Hlasování je podle médií především referendem o Donaldu Trumpovi, jehož popularitu sráží zdražování potravin a paliv v důsledku celní politiky i americko-izraelská válka s Íránem. Demokraté podle průzkumů sahají po Sněmovně reprezentantů a mají reálnou šanci získat i Senát; Deník N píše, že poslední čísla naznačují volební katastrofu republikánů. V předčasném hlasování odevzdalo hlas rekordních 56 milionů lidí a celkem se čeká kolem sta milionů voličů. Americké ministerstvo spravedlnosti v pondělí požádalo Nejvyšší soud, aby v Kalifornii pozastavil sčítání lístků, které poštou odevzdalo přes 20 tisíc registrovaných voličů; tvrdí, že pravděpodobně nejsou americkými občany. Okresní soud ve Washingtonu žádost později zamítl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-usa-midterms-2026-o-co-se-hraje-v-klicovych-volbach-318842"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/rozhodujici-bitva-o-washington-v-usa-zacaly-volby-do-kongresu-trumpovi-hrozi-ztrata-moci-i-impeachment-1437045"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/amerika-voli-do-kongresu-predbezne-hlas-odevzdalo-rekordnich-56-milionu-lidi_2611022359_jho"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/trumpova-vlada-zada-soud-aby-zabranil-kalifornii-ve-scitani-hlasu-tvrdi-ze_2611022049_jho"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2242217/posledni-pruzkumy-naznacuji-ze-republikany-dnes-ceka-volebni-katastrofa-trumpuv-svet-652-den/"
+        }
+      ],
+      "en": {
+        "headline": "Americans are electing a new Congress, and polls promise the Democrats a clear win",
+        "sentences": [
+          {
+            "en": "Elections to Congress have begun in the United States, deciding the whole House of Representatives, a third of the Senate and also governorships.",
+            "cs": "Ve Spojených státech začaly volby do Kongresu, v nichž se rozhoduje o celé Sněmovně reprezentantů, o třetině Senátu a také o guvernérech."
+          },
+          {
+            "en": "The vote is above all a referendum on Donald Trump, whose popularity is being dragged down by rising food and fuel prices caused by his tariff policy and by the American-Israeli war with Iran, media say.",
+            "cs": "Hlasování je podle médií především referendem o Donaldu Trumpovi, jehož popularitu sráží zdražování potravin a paliv v důsledku celní politiky i americko-izraelská válka s Íránem."
+          },
+          {
+            "en": "Polls suggest the Democrats are within reach of the House of Representatives and have a realistic chance of taking the Senate as well; Deník N writes that the latest numbers point to an electoral disaster for the Republicans.",
+            "cs": "Demokraté podle průzkumů sahají po Sněmovně reprezentantů a mají reálnou šanci získat i Senát; Deník N píše, že poslední čísla naznačují volební katastrofu republikánů."
+          },
+          {
+            "en": "A record 56 million people cast their vote in early voting, and around a hundred million voters are expected in total.",
+            "cs": "V předčasném hlasování odevzdalo hlas rekordních 56 milionů lidí a celkem se čeká kolem sta milionů voličů."
+          },
+          {
+            "en": "On Monday the US Department of Justice asked the Supreme Court to suspend the counting of ballots in California sent by post by more than 20,000 registered voters, claiming that they are probably not American citizens.",
+            "cs": "Americké ministerstvo spravedlnosti v pondělí požádalo Nejvyšší soud, aby v Kalifornii pozastavil sčítání lístků, které poštou odevzdalo přes 20 tisíc registrovaných voličů; tvrdí, že pravděpodobně nejsou americkými občany."
+          },
+          {
+            "en": "A district court in Washington later rejected the request.",
+            "cs": "Okresní soud ve Washingtonu žádost později zamítl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "governorships",
+            "definition": "the positions of governor, the elected head of a US state"
+          },
+          {
+            "term": "tariff",
+            "definition": "a tax that a country charges on goods coming in from abroad"
+          },
+          {
+            "term": "within reach of",
+            "definition": "close enough to something to be able to get it"
+          },
+          {
+            "term": "ballots",
+            "definition": "the papers on which people mark their vote"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:37",
+      "headline": "Ruské letecké pumy zabily v ukrajinské obci Komyšuvacha nejméně 24 lidí",
+      "body": "Ruské letecké pumy zabily v pondělí v obci Komyšuvacha v Záporožské oblasti nejméně 24 lidí a další zranily, uvedly ukrajinské úřady. Podle prezidenta Volodymyra Zelenského ruská armáda zasáhla školu, která se používala k rozdávání humanitární pomoci, a kryt; šéf oblastní správy Mychajlo Semikin uvedl, že dalších 27 lidí se pohřešuje. Podle Seznam Zpráv Rusové svrhli na vesnici devět těžkých bomb, ze školy zbyl kráter a záchranáři na místě hledali přeživší. Moskva se k útoku zatím nevyjádřila. Lotyšsko kvůli němu vyzvalo k mimořádnému zasedání Rady bezpečnosti OSN, oznámila ministryně zahraničí Baiba Braže.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-ruske-pumy-zasahly-ukrajinskou-obec-komysuvacha-zemrelo-nejmene-24-lidi_2611022044_aln"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusove-svrhli-na-vesnici-devet-tezkych-bomb-ze-skoly-zbyl-jen-krater-319415"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2243002/"
+        }
+      ],
+      "en": {
+        "headline": "Russian air bombs killed at least 24 people in the Ukrainian village of Komyshuvakha",
+        "sentences": [
+          {
+            "en": "Russian air bombs killed at least 24 people and wounded others on Monday in the village of Komyshuvakha in the Zaporizhzhia region, Ukrainian authorities said.",
+            "cs": "Ruské letecké pumy zabily v pondělí v obci Komyšuvacha v Záporožské oblasti nejméně 24 lidí a další zranily, uvedly ukrajinské úřady."
+          },
+          {
+            "en": "According to President Volodymyr Zelensky, the Russian army hit a school that was being used to hand out humanitarian aid, and a shelter; the head of the regional administration Mychajlo Semikin said another 27 people were missing.",
+            "cs": "Podle prezidenta Volodymyra Zelenského ruská armáda zasáhla školu, která se používala k rozdávání humanitární pomoci, a kryt; šéf oblastní správy Mychajlo Semikin uvedl, že dalších 27 lidí se pohřešuje."
+          },
+          {
+            "en": "According to Seznam Zprávy, the Russians dropped nine heavy bombs on the village, the school was reduced to a crater, and rescuers were searching the site for survivors.",
+            "cs": "Podle Seznam Zpráv Rusové svrhli na vesnici devět těžkých bomb, ze školy zbyl kráter a záchranáři na místě hledali přeživší."
+          },
+          {
+            "en": "Moscow has not yet commented on the attack.",
+            "cs": "Moskva se k útoku zatím nevyjádřila."
+          },
+          {
+            "en": "Latvia has called for an emergency session of the UN Security Council over it, foreign minister Baiba Braže announced.",
+            "cs": "Lotyšsko kvůli němu vyzvalo k mimořádnému zasedání Rady bezpečnosti OSN, oznámila ministryně zahraničí Baiba Braže."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shelter",
+            "definition": "a structure that protects people from danger such as bombs"
+          },
+          {
+            "term": "crater",
+            "definition": "a large hole in the ground made by an explosion"
+          },
+          {
+            "term": "survivors",
+            "definition": "people who stay alive after an accident or an attack"
+          },
+          {
+            "term": "emergency session",
+            "definition": "a meeting called at short notice because of an urgent problem"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:40",
+      "headline": "Trump oznámil, že USA na konci roku ukončí vojenskou pomoc Izraeli",
+      "body": "Americký prezident Donald Trump oznámil konec vojenské pomoci Izraeli ve výši 3,8 miliardy dolarů. Ve Fox News řekl, že se tak dohodl s izraelským premiérem Benjaminem Netanjahuem a že Izrael už tuto pomoc nepotřebuje; podle Deníku N měla skončit až v roce 2028. „Samozřejmě Izraeli pomůžeme, když to bude potřebovat,“ dodal Trump s tím, že opozice věc využívá ke kritice republikánů.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-usa-podle-trumpa-na-konci-roku-prestanou-poskytovat-vojenskou-pomoc-izraeli-319522"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2243117/"
+        }
+      ],
+      "en": {
+        "headline": "Trump announced that the United States will end military aid to Israel at the end of the year",
+        "sentences": [
+          {
+            "en": "US President Donald Trump has announced the end of military aid to Israel worth 3.8 billion dollars.",
+            "cs": "Americký prezident Donald Trump oznámil konec vojenské pomoci Izraeli ve výši 3,8 miliardy dolarů."
+          },
+          {
+            "en": "He said on Fox News that he had agreed this with Israeli Prime Minister Benjamin Netanyahu and that Israel no longer needs the aid; according to Deník N it was due to run until 2028.",
+            "cs": "Ve Fox News řekl, že se tak dohodl s izraelským premiérem Benjaminem Netanjahuem a že Izrael už tuto pomoc nepotřebuje; podle Deníku N měla skončit až v roce 2028."
+          },
+          {
+            "en": "“Of course we will help Israel if it needs it,” Trump added, saying that the opposition is using the matter to attack the Republicans.",
+            "cs": "„Samozřejmě Izraeli pomůžeme, když to bude potřebovat,“ dodal Trump s tím, že opozice věc využívá ke kritice republikánů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "aid",
+            "definition": "money, equipment or help given by one country to another"
+          },
+          {
+            "term": "run until",
+            "definition": "to continue up to a particular time"
+          },
+          {
+            "term": "the matter",
+            "definition": "the subject or situation being discussed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:21",
+      "headline": "V Bílém domě se ve čtvrtek z iniciativy Melanie Trumpové sejdou zástupci Ruska a Ukrajiny",
+      "body": "Americká první dáma Melanie Trumpová pozvala na čtvrtek do Bílého domu zástupce Ruska a Ukrajiny. Má na setkání mluvit o příměří v ukrajinských Oleškách, které sama iniciovala. „Tento úspěch představuje bezprecedentní diplomatickou iniciativu americké první dámy,“ zdůraznil Bílý dům. Kdo se schůzky zúčastní, podle Seznam Zpráv zatím není jasné.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-v-bilem-dome-se-z-popudu-trumpove-setkaji-zastupci-ruska-a-ukrajiny-319483"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2242863/"
+        }
+      ],
+      "en": {
+        "headline": "Representatives of Russia and Ukraine will meet at the White House on Thursday at Melania Trump's initiative",
+        "sentences": [
+          {
+            "en": "US First Lady Melania Trump has invited representatives of Russia and Ukraine to the White House on Thursday.",
+            "cs": "Americká první dáma Melanie Trumpová pozvala na čtvrtek do Bílého domu zástupce Ruska a Ukrajiny."
+          },
+          {
+            "en": "She is to speak at the meeting about the ceasefire in Oleshky in Ukraine, which she initiated herself.",
+            "cs": "Má na setkání mluvit o příměří v ukrajinských Oleškách, které sama iniciovala."
+          },
+          {
+            "en": "“This success represents an unprecedented diplomatic initiative by the American First Lady,” the White House stressed.",
+            "cs": "„Tento úspěch představuje bezprecedentní diplomatickou iniciativu americké první dámy,“ zdůraznil Bílý dům."
+          },
+          {
+            "en": "According to Seznam Zprávy, it is not yet clear who will take part in the meeting.",
+            "cs": "Kdo se schůzky zúčastní, podle Seznam Zpráv zatím není jasné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting for a period of time"
+          },
+          {
+            "term": "initiated",
+            "definition": "started something or made it happen"
+          },
+          {
+            "term": "unprecedented",
+            "definition": "never having happened before"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:26",
+      "headline": "Americké síly zaútočily na íránský ostrov Kešm v Hormuzském průlivu",
+      "body": "Americké síly provedly sérii omezených úderů na strategický íránský ostrov Kešm v Hormuzském průlivu, píše E15. Teherán podle serveru reagoval hrozbou tvrdé globální odvety a tvrzením, že sestřelil tři americké drony. K útoku došlo v době protichůdných signálů Donalda Trumpa před volbami do Kongresu a cena ropy po explozích v klíčovém průlivu opět roste.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/dohoda-v-nedohlednu-usa-tajne-zautocily-na-iran-ropa-po-explozich-v-klicovem-prulivu-opet-roste-1437036"
+        }
+      ],
+      "en": {
+        "headline": "American forces have struck the Iranian island of Qeshm in the Strait of Hormuz",
+        "sentences": [
+          {
+            "en": "American forces have carried out a series of limited strikes on the strategic Iranian island of Qeshm in the Strait of Hormuz, E15 writes.",
+            "cs": "Americké síly provedly sérii omezených úderů na strategický íránský ostrov Kešm v Hormuzském průlivu, píše E15."
+          },
+          {
+            "en": "Tehran responded, according to the paper, by threatening harsh global retaliation and by claiming that it had shot down three American drones.",
+            "cs": "Teherán podle serveru reagoval hrozbou tvrdé globální odvety a tvrzením, že sestřelil tři americké drony."
+          },
+          {
+            "en": "The attack came at a time of contradictory signals from Donald Trump before the elections to Congress, and the price of oil is rising again after the explosions in the key strait.",
+            "cs": "K útoku došlo v době protichůdných signálů Donalda Trumpa před volbami do Kongresu a cena ropy po explozích v klíčovém průlivu opět roste."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "strikes",
+            "definition": "military attacks, usually from the air"
+          },
+          {
+            "term": "retaliation",
+            "definition": "harm done to someone because they harmed you first"
+          },
+          {
+            "term": "shot down",
+            "definition": "destroyed an aircraft by firing at it"
+          },
+          {
+            "term": "strait",
+            "definition": "a narrow passage of sea between two areas of land"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "06:31",
+      "headline": "Apple zvýšil čtvrtletní zisk o 12 procent a překonal odhady Wall Street",
+      "body": "Apple ve čtvrtém finančním čtvrtletí zvýšil čistý zisk o 12 procent na 30,7 miliardy dolarů, tedy zhruba 665 miliard korun, a díky silnému prodeji iPhonů překonal očekávání Wall Street. Růst tržeb podpořil zájem o novou řadu iPhone 18 Pro i zvýšení prodejních cen, jímž firma podle E15 vykompenzovala dražší paměti.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/vynikajici-ctvrtleti-pro-apple-diky-novym-iphonum-prekonal-odhady-a-vymazal-dopad-drahych-cipu-1437032"
+        }
+      ],
+      "en": {
+        "headline": "Apple raised its quarterly profit by 12 percent and beat Wall Street forecasts",
+        "sentences": [
+          {
+            "en": "In its fourth financial quarter, Apple raised its net profit by 12 percent to 30.7 billion dollars, roughly 665 billion crowns, and beat Wall Street expectations thanks to strong iPhone sales.",
+            "cs": "Apple ve čtvrtém finančním čtvrtletí zvýšil čistý zisk o 12 procent na 30,7 miliardy dolarů, tedy zhruba 665 miliard korun, a díky silnému prodeji iPhonů překonal očekávání Wall Street."
+          },
+          {
+            "en": "Revenue growth was helped by interest in the new iPhone 18 Pro line and by higher retail prices, with which the company offset more expensive memory chips, according to E15.",
+            "cs": "Růst tržeb podpořil zájem o novou řadu iPhone 18 Pro i zvýšení prodejních cen, jímž firma podle E15 vykompenzovala dražší paměti."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "net profit",
+            "definition": "the money a company keeps after all costs and taxes are paid"
+          },
+          {
+            "term": "revenue",
+            "definition": "the total money a company takes in from its sales"
+          },
+          {
+            "term": "offset",
+            "definition": "to balance out the effect of something, often a cost"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:15",
+      "headline": "Schaeffler zavře pět závodů a propustí v Evropě skoro 3500 lidí",
+      "body": "Německý výrobce autodílů Schaeffler chce kvůli slábnoucí poptávce po dílech pro auta se spalovacími motory zavřít pět závodů a v Evropě propustit skoro tři a půl tisíce zaměstnanců. Nejrozsáhlejší propouštění se dotkne Německa, českých provozů se podle Seznam Zpráv zatím týkat nemá.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-vyrobce-autodilu-schaeffler-planuje-propousteni-cech-se-to-zatim-nedotkne-319398"
+        }
+      ],
+      "en": {
+        "headline": "Schaeffler will close five plants and cut almost 3,500 jobs in Europe",
+        "sentences": [
+          {
+            "en": "The German car parts maker Schaeffler wants to close five plants and cut almost three and a half thousand jobs in Europe because of weakening demand for parts for cars with combustion engines.",
+            "cs": "Německý výrobce autodílů Schaeffler chce kvůli slábnoucí poptávce po dílech pro auta se spalovacími motory zavřít pět závodů a v Evropě propustit skoro tři a půl tisíce zaměstnanců."
+          },
+          {
+            "en": "The largest round of job cuts will hit Germany, and according to Seznam Zprávy the Czech plants should not be affected for now.",
+            "cs": "Nejrozsáhlejší propouštění se dotkne Německa, českých provozů se podle Seznam Zpráv zatím týkat nemá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "plants",
+            "definition": "factories where goods are made"
+          },
+          {
+            "term": "demand",
+            "definition": "how much of a product people want to buy"
+          },
+          {
+            "term": "combustion engines",
+            "definition": "engines that work by burning fuel such as petrol or diesel"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:54",
+      "headline": "Policie vyšetřuje dluhopisy firmy Štěpánek Auto, škoda přesahuje 270 milionů korun",
+      "body": "Kriminalisté se zabývají podezřením z podvodu kolem dluhopisů firmy Štěpánek Auto. Dosud se přihlásilo 257 poškozených se škodou necelých 277 milionů korun. Bývalý jednatel Petr Štěpánek je hledaný, obviněn zatím nebyl nikdo.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-policie-vysetruje-kauzu-stepanek-auto-skoda-je-ve-stovkach-milionu-319500"
+        }
+      ],
+      "en": {
+        "headline": "Police are investigating the bonds of the Štěpánek Auto company, with damage of more than 270 million crowns",
+        "sentences": [
+          {
+            "en": "Detectives are looking into a suspected fraud around the bonds of the Štěpánek Auto company.",
+            "cs": "Kriminalisté se zabývají podezřením z podvodu kolem dluhopisů firmy Štěpánek Auto."
+          },
+          {
+            "en": "So far 257 injured parties have come forward, with damage of just under 277 million crowns.",
+            "cs": "Dosud se přihlásilo 257 poškozených se škodou necelých 277 milionů korun."
+          },
+          {
+            "en": "Former managing director Petr Štěpánek is wanted by police, and nobody has been charged yet.",
+            "cs": "Bývalý jednatel Petr Štěpánek je hledaný, obviněn zatím nebyl nikdo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bonds",
+            "definition": "documents sold by a company promising to pay money back with interest"
+          },
+          {
+            "term": "fraud",
+            "definition": "the crime of cheating people to get money"
+          },
+          {
+            "term": "injured parties",
+            "definition": "the people who were harmed in a legal case"
+          },
+          {
+            "term": "charged",
+            "definition": "officially accused of a crime"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:39",
+      "headline": "Podle poradce Soudního dvora EU může využívání mediálních textů chatboty porušovat práva vydavatelů",
+      "body": "Využívání mediálních textů jazykovými modely může v určitých případech porušovat práva vydavatelů, uvedl poradce Soudního dvora Evropské unie. Typicky by podle něj šlo o případ, kdy chatbot lidem zprostředkuje originální text, a ne jen obecně dostupnou informaci.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-vyuzivani-textu-chatboty-muze-byt-protipravni-uvedl-poradce-soudu-eu-319459"
+        }
+      ],
+      "en": {
+        "headline": "An adviser to the EU Court of Justice says chatbots using media texts may breach publishers' rights",
+        "sentences": [
+          {
+            "en": "The use of media texts by language models may in certain cases breach the rights of publishers, an adviser to the Court of Justice of the European Union has said.",
+            "cs": "Využívání mediálních textů jazykovými modely může v určitých případech porušovat práva vydavatelů, uvedl poradce Soudního dvora Evropské unie."
+          },
+          {
+            "en": "That would typically be the case when a chatbot passes on the original text to people, and not just generally available information.",
+            "cs": "Typicky by podle něj šlo o případ, kdy chatbot lidem zprostředkuje originální text, a ne jen obecně dostupnou informaci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "breach",
+            "definition": "to break a rule, a law or an agreement"
+          },
+          {
+            "term": "publishers",
+            "definition": "companies that produce and sell books, newspapers or websites"
+          },
+          {
+            "term": "passes on",
+            "definition": "gives something it received to someone else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:21",
+      "headline": "Hacker News se přel o text, podle kterého systém Astra přepisuje váhy modelu Qwen",
+      "body": "Jedním z nejdiskutovanějších příspěvků na Hacker News je text o takzvaném weight-space programmingu, podle kterého systém Astra umí číst a zapisovat váhy jazykového modelu Qwen, a tím ho vylepšovat; nasbíral přes 2800 bodů a bezmála 900 komentářů. Během úterý se ale na přední místa dostal i text, který původní příspěvek označuje za zavádějící. Ten má přes 400 bodů a kolem 80 komentářů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+        }
+      ],
+      "en": {
+        "headline": "Hacker News argued over a post claiming that the Astra system rewrites the weights of the Qwen model",
+        "sentences": [
+          {
+            "en": "One of the most discussed posts on Hacker News is a text about so-called weight-space programming, according to which the Astra system can read and write the weights of the Qwen language model and improve it that way; it collected more than 2,800 points and almost 900 comments.",
+            "cs": "Jedním z nejdiskutovanějších příspěvků na Hacker News je text o takzvaném weight-space programmingu, podle kterého systém Astra umí číst a zapisovat váhy jazykového modelu Qwen, a tím ho vylepšovat; nasbíral přes 2800 bodů a bezmála 900 komentářů."
+          },
+          {
+            "en": "During Tuesday, however, a text calling the original post misleading also made it to the top.",
+            "cs": "Během úterý se ale na přední místa dostal i text, který původní příspěvek označuje za zavádějící."
+          },
+          {
+            "en": "It has more than 400 points and around 80 comments.",
+            "cs": "Ten má přes 400 bodů a kolem 80 komentářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "weights",
+            "definition": "the numbers inside a neural network that decide how it behaves"
+          },
+          {
+            "term": "misleading",
+            "definition": "giving a wrong idea of what is true"
+          },
+          {
+            "term": "made it to the top",
+            "definition": "reached the highest or most visible position"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:39",
+      "headline": "SUSE propustí desetinu zaměstnanců, důvodem má být nástup AI a automatizace",
+      "body": "Společnost SUSE propustí deset procent svých zaměstnanců, tedy necelé dvě stovky lidí. Důvodem je podle interního memoranda šéfa společnosti, které cituje server Phoronix, zejména nástup využívání AI a z toho plynoucí automatizace činností.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/suse-propusti-10-zamestnancu-v-dusledku-ai-a-automatizace/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "SUSE will cut a tenth of its staff, blaming the rise of AI and automation",
+        "sentences": [
+          {
+            "en": "The company SUSE will cut ten percent of its staff, just under two hundred people.",
+            "cs": "Společnost SUSE propustí deset procent svých zaměstnanců, tedy necelé dvě stovky lidí."
+          },
+          {
+            "en": "The reason, according to an internal memo from the company's chief executive quoted by the Phoronix website, is mainly the rise of AI and the automation of tasks that follows from it.",
+            "cs": "Důvodem je podle interního memoranda šéfa společnosti, které cituje server Phoronix, zejména nástup využívání AI a z toho plynoucí automatizace činností."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "memo",
+            "definition": "a short written message inside a company"
+          },
+          {
+            "term": "automation",
+            "definition": "the use of machines or software to do work people used to do"
+          },
+          {
+            "term": "a tenth",
+            "definition": "one part out of ten of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "15:30",
+      "headline": "Geopark Český ráj přijde o prestižní značku UNESCO",
+      "body": "Geopark Český ráj přijde o prestižní značku UNESCO. Radu globálních geoparků nepřesvědčil, že vyřešil problém s prodejem kamenů nejasného původu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2243147/"
+        }
+      ],
+      "en": {
+        "headline": "The Bohemian Paradise Geopark will lose its prestigious UNESCO label",
+        "sentences": [
+          {
+            "en": "The Bohemian Paradise Geopark will lose its prestigious UNESCO label.",
+            "cs": "Geopark Český ráj přijde o prestižní značku UNESCO."
+          },
+          {
+            "en": "It failed to convince the Global Geoparks Council that it had solved the problem of selling stones of unclear origin.",
+            "cs": "Radu globálních geoparků nepřesvědčil, že vyřešil problém s prodejem kamenů nejasného původu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prestigious",
+            "definition": "admired and respected as something of high quality"
+          },
+          {
+            "term": "label",
+            "definition": "a name or mark given to something to show what it is"
+          },
+          {
+            "term": "origin",
+            "definition": "the place or source that something comes from"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "20:11",
+      "day": "prev",
+      "headline": "Zemřel novinář a komentátor Patrik Eichler, bylo mu 42 let",
+      "body": "Zemřel novinář a politický komentátor Patrik Eichler, redaktor dvouměsíčníku Listy a ředitel Masarykovy demokratické akademie. Bylo mu 42 let. Informaci potvrdil Českému rozhlasu místopředseda představenstva sociálnědemokratického think-tanku Pavel Šaradín.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/jeden-z-nejpoctivejsich-intelektualu-zemrel-komentator-patrik-eichler-bylo-mu-42_2611022011_jho"
+        }
+      ],
+      "en": {
+        "headline": "The journalist and commentator Patrik Eichler has died at the age of 42",
+        "sentences": [
+          {
+            "en": "The journalist and political commentator Patrik Eichler, an editor of the bimonthly Listy and director of the Masaryk Democratic Academy, has died.",
+            "cs": "Zemřel novinář a politický komentátor Patrik Eichler, redaktor dvouměsíčníku Listy a ředitel Masarykovy demokratické akademie."
+          },
+          {
+            "en": "He was 42.",
+            "cs": "Bylo mu 42 let."
+          },
+          {
+            "en": "The news was confirmed to Czech Radio by Pavel Šaradín, deputy chair of the board of the social democratic think tank.",
+            "cs": "Informaci potvrdil Českému rozhlasu místopředseda představenstva sociálnědemokratického think-tanku Pavel Šaradín."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bimonthly",
+            "definition": "a magazine that comes out every two months"
+          },
+          {
+            "term": "think tank",
+            "definition": "a group of experts who study problems and suggest ideas for policy"
+          },
+          {
+            "term": "board",
+            "definition": "the group of people who officially manage an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Netanjahu může z izraelského povolebního patu vyjít jako vítěz, píše Voxpot",
+      "body": "Izraelské volby skončily patem a vyjednávání se teprve rozjíždějí, píše v komentáři pro Voxpot Marek Čejka. Přestože premiér Benjamin Netanjahu ztratil většinu, může se podle něj nakonec stát vítězem. Opozice se mezitím musí smířit s politickou realitou a spolupracovat s arabskými stranami, pokud chce Netanjahua vystřídat; podle agentury AFP to prohlásil Júsif Džabarín, jeden z předních opozičních představitelů izraelských Arabů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/vyhral-protoze-neprohral-zachrani-netanjahua-izraelsky-povolebni-pat/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/izraelskou-opozici-ceka-prvni-povolebni-jednani-zvazuje-spolupraci-s-arabskymi_2611022231_aln"
+        }
+      ],
+      "en": {
+        "headline": "Netanyahu could come out of the Israeli post-election deadlock as the winner, Voxpot writes",
+        "sentences": [
+          {
+            "en": "The Israeli elections ended in deadlock and the negotiations are only just getting going, Marek Čejka writes in a commentary for Voxpot.",
+            "cs": "Izraelské volby skončily patem a vyjednávání se teprve rozjíždějí, píše v komentáři pro Voxpot Marek Čejka."
+          },
+          {
+            "en": "Although Prime Minister Benjamin Netanyahu lost his majority, in Čejka's view he may end up the winner after all.",
+            "cs": "Přestože premiér Benjamin Netanjahu ztratil většinu, může se podle něj nakonec stát vítězem."
+          },
+          {
+            "en": "The opposition, meanwhile, has to come to terms with political reality and work with the Arab parties if it wants to replace Netanyahu; according to the AFP agency, this was said by Yousef Jabareen, one of the leading opposition figures among Israeli Arabs.",
+            "cs": "Opozice se mezitím musí smířit s politickou realitou a spolupracovat s arabskými stranami, pokud chce Netanjahua vystřídat; podle agentury AFP to prohlásil Júsif Džabarín, jeden z předních opozičních představitelů izraelských Arabů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deadlock",
+            "definition": "a situation where no side can move forward and nothing is decided"
+          },
+          {
+            "term": "getting going",
+            "definition": "starting to happen or to move"
+          },
+          {
+            "term": "come to terms with",
+            "definition": "to accept a difficult situation"
+          },
+          {
+            "term": "majority",
+            "definition": "more than half of the votes or seats"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:22",
+      "headline": "Bojkot zápasů s Ruskem na hokejovém mistrovství světa se rozšiřuje, odchází další sponzor",
+      "body": "Po finském svazu oznámily i Švédsko, Norsko a Dánsko, že jejich reprezentace na mistrovství světa v roce 2027 proti Rusku nenastoupí. Finové v pondělí večer uvedli, že s ruskými týmy hrát nebudou, dokud neskončí válka na Ukrajině; reagovali tak na páteční verdikt Sportovního arbitrážního soudu, podle něhož se ruské týmy mohou s okamžitou platností vrátit na mezinárodní scénu. Švédská hokejová asociace podle Deníku N nemluví o bojkotu celého šampionátu, odmítnutí se týká jen zápasů proti Rusku. Financování šampionátu ukončí také finská firma Nokian Tyres, pokud na něm bude Rusko hrát; přidala se tak k české sázkové kanceláři Tipsport a švédské společnosti AJ Produkter. Český svaz už v pátek oznámil, že s účastí Ruska nesouhlasí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-ms-seznam-zemi-ktere-odmitaji-hrat-s-ruskem-roste-kdy-se-pridaji-cesi-5569628"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/nebudeme-hrat-proti-rusku-zni-od-hokejovych-mistru-sveta-z-finska-hledaji_2611022223_mim"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2242917/"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-ms-s-ruskem-ale-bez-penez-ms-opousti-dalsi-sponzor-5569618"
+        }
+      ],
+      "en": {
+        "headline": "The boycott of matches against Russia at the ice hockey World Championship is spreading, and another sponsor is leaving",
+        "sentences": [
+          {
+            "en": "After the Finnish federation, Sweden, Norway and Denmark have also announced that their national teams will not line up against Russia at the 2027 World Championship.",
+            "cs": "Po finském svazu oznámily i Švédsko, Norsko a Dánsko, že jejich reprezentace na mistrovství světa v roce 2027 proti Rusku nenastoupí."
+          },
+          {
+            "en": "The Finns said on Monday evening that they will not play Russian teams until the war in Ukraine is over; they were reacting to Friday's ruling by the Court of Arbitration for Sport, under which Russian teams may return to the international scene with immediate effect.",
+            "cs": "Finové v pondělí večer uvedli, že s ruskými týmy hrát nebudou, dokud neskončí válka na Ukrajině; reagovali tak na páteční verdikt Sportovního arbitrážního soudu, podle něhož se ruské týmy mohou s okamžitou platností vrátit na mezinárodní scénu."
+          },
+          {
+            "en": "According to Deník N, the Swedish ice hockey association is not talking about boycotting the whole tournament, and the refusal applies only to matches against Russia.",
+            "cs": "Švédská hokejová asociace podle Deníku N nemluví o bojkotu celého šampionátu, odmítnutí se týká jen zápasů proti Rusku."
+          },
+          {
+            "en": "The Finnish company Nokian Tyres will also stop funding the championship if Russia plays in it, joining the Czech betting company Tipsport and the Swedish firm AJ Produkter.",
+            "cs": "Financování šampionátu ukončí také finská firma Nokian Tyres, pokud na něm bude Rusko hrát; přidala se tak k české sázkové kanceláři Tipsport a švédské společnosti AJ Produkter."
+          },
+          {
+            "en": "The Czech federation announced on Friday that it disagrees with Russia taking part.",
+            "cs": "Český svaz už v pátek oznámil, že s účastí Ruska nesouhlasí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "boycott",
+            "definition": "a refusal to take part in something as a protest"
+          },
+          {
+            "term": "line up",
+            "definition": "to take the field as a team for a match"
+          },
+          {
+            "term": "ruling",
+            "definition": "an official decision made by a court"
+          },
+          {
+            "term": "with immediate effect",
+            "definition": "starting right now, without any delay"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:06",
+      "headline": "Zemřel útočník Tenerife Jesús de Miguel po střetu s brankářem soupeře",
+      "body": "Třicetiletý útočník druholigového Tenerife Jesús de Miguel Alameda zemřel poté, co po pondělním utkání proti Andoře bojoval o život v nemocnici. Převezli ho tam po děsivém střetu s brankářem soupeře.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-spanelsky-fotbal-truchli-zemrel-utocnik-tenerife-ktereho-srazil-brankar-soupere-5569588"
+        }
+      ],
+      "en": {
+        "headline": "Tenerife striker Jesús de Miguel has died after a collision with the opposing goalkeeper",
+        "sentences": [
+          {
+            "en": "The 30-year-old striker of second-division Tenerife, Jesús de Miguel Alameda, has died after fighting for his life in hospital following Monday's match against Andorra.",
+            "cs": "Třicetiletý útočník druholigového Tenerife Jesús de Miguel Alameda zemřel poté, co po pondělním utkání proti Andoře bojoval o život v nemocnici."
+          },
+          {
+            "en": "He was taken there after a horrific collision with the opposing goalkeeper.",
+            "cs": "Převezli ho tam po děsivém střetu s brankářem soupeře."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "striker",
+            "definition": "a football player whose main job is to score goals"
+          },
+          {
+            "term": "collision",
+            "definition": "an accident in which two people or things crash into each other"
+          },
+          {
+            "term": "horrific",
+            "definition": "extremely shocking and frightening"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:29",
+      "headline": "West Ham odvolal trenéra Nuna Espírita Santa, Souček je bez kouče",
+      "body": "Vedení druholigového West Hamu odvolalo v úterý dopoledne trenéra Nuna Espírita Santa kvůli sérii nepřesvědčivých výsledků. Naposledy Kladiváři o víkendu doma prohráli s West Bromwichem 1:3. Kdo povede tým, v němž působí záložník Tomáš Souček, zatím není jasné.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-soucek-je-bez-trenera-west-ham-odvolal-espirita-santa-5569589"
+        }
+      ],
+      "en": {
+        "headline": "West Ham have sacked manager Nuno Espírito Santo, leaving Souček without a coach",
+        "sentences": [
+          {
+            "en": "The management of second-division West Ham sacked manager Nuno Espírito Santo on Tuesday morning after a run of unconvincing results.",
+            "cs": "Vedení druholigového West Hamu odvolalo v úterý dopoledne trenéra Nuna Espírita Santa kvůli sérii nepřesvědčivých výsledků."
+          },
+          {
+            "en": "Most recently the Hammers lost 1:3 at home to West Bromwich at the weekend.",
+            "cs": "Naposledy Kladiváři o víkendu doma prohráli s West Bromwichem 1:3."
+          },
+          {
+            "en": "It is not yet clear who will lead the team, which includes midfielder Tomáš Souček.",
+            "cs": "Kdo povede tým, v němž působí záložník Tomáš Souček, zatím není jasné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sacked",
+            "definition": "removed someone from their job"
+          },
+          {
+            "term": "a run of",
+            "definition": "a series of similar events happening one after another"
+          },
+          {
+            "term": "unconvincing",
+            "definition": "not good enough to make people believe in it"
+          },
+          {
+            "term": "midfielder",
+            "definition": "a football player who plays in the middle of the pitch"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:41",
+      "headline": "Horníček chyboval, Newcastle doma prohrál s Evertonem 0:1",
+      "body": "Newcastle doma podlehl Evertonu 0:1 a český reprezentační brankář Lukáš Horníček měl na vítězném gólu soupeře značný podíl. Britská média mu za chybu podle Sport.cz řádně nakládají.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-priserna-chyba-sokujici-zakrok-hornicek-to-v-anglii-schytava-za-kiks-s-evertonem-5569581"
+        }
+      ],
+      "en": {
+        "headline": "Horníček made a mistake and Newcastle lost 0:1 at home to Everton",
+        "sentences": [
+          {
+            "en": "Newcastle went down 0:1 at home to Everton, and Czech international goalkeeper Lukáš Horníček played a large part in the opponents' winning goal.",
+            "cs": "Newcastle doma podlehl Evertonu 0:1 a český reprezentační brankář Lukáš Horníček měl na vítězném gólu soupeře značný podíl."
+          },
+          {
+            "en": "According to Sport.cz, the British media are giving him a hard time over the error.",
+            "cs": "Britská média mu za chybu podle Sport.cz řádně nakládají."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "went down",
+            "definition": "lost a match"
+          },
+          {
+            "term": "international",
+            "definition": "a player who plays for their national team"
+          },
+          {
+            "term": "giving him a hard time",
+            "definition": "criticising someone strongly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:40",
+      "headline": "České fotbalistky se v Lize národů utkají s Řeckem, Litvou a Ukrajinou",
+      "body": "České fotbalistky se příští rok v Lize národů ve skupině B2 utkají s Řeckem, Litvou a znovu s Ukrajinou. Rozhodl o tom los třetího ročníku soutěže ve švýcarském Nyonu.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-ceske-fotbalistky-znaji-souperky-pro-ligu-narodu-5569619"
+        }
+      ],
+      "en": {
+        "headline": "The Czech women footballers will face Greece, Lithuania and Ukraine in the Nations League",
+        "sentences": [
+          {
+            "en": "Next year the Czech women footballers will face Greece, Lithuania and once again Ukraine in group B2 of the Nations League.",
+            "cs": "České fotbalistky se příští rok v Lize národů ve skupině B2 utkají s Řeckem, Litvou a znovu s Ukrajinou."
+          },
+          {
+            "en": "That was decided by the draw for the third edition of the competition in Nyon, Switzerland.",
+            "cs": "Rozhodl o tom los třetího ročníku soutěže ve švýcarském Nyonu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "face",
+            "definition": "to play against someone in a match"
+          },
+          {
+            "term": "draw",
+            "definition": "the event where it is decided at random which teams play each other"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Czech Television and Czech Radio went on strike all day against moving their funding into the state budget, and thousands of demonstrators came to the centre of Prague.",
+    "Americans are electing a new Congress, and a record 56 million people cast their vote in early voting.",
+    "Donald Trump announced that the United States will end military aid to Israel worth 3.8 billion dollars at the end of the year."
+  ]
+}
