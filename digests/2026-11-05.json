@@ -1,0 +1,1591 @@
+{
+  "date": "2026-11-05",
+  "covers": "2026-11-05",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "fog",
+    "summary": "Zítra mlhavo a beze srážek, přes den až 9 °C, s minimem kolem nuly. Kvalita ovzduší bude zhoršená.",
+    "outlook": "V sobotu se čeká mlha s námrazou.",
+    "days": [
+      {
+        "date": "2026-11-06",
+        "icon": "fog",
+        "temp_max_c": 9.1,
+        "temp_min_c": -0.9
+      },
+      {
+        "date": "2026-11-07",
+        "icon": "fog",
+        "temp_max_c": 8.7,
+        "temp_min_c": -2.5
+      },
+      {
+        "date": "2026-11-08",
+        "icon": "cloudy",
+        "temp_max_c": 6.9,
+        "temp_min_c": 0.4
+      },
+      {
+        "date": "2026-11-09",
+        "icon": "cloudy",
+        "temp_max_c": 6.8,
+        "temp_min_c": 0.7
+      }
+    ],
+    "summary_en": "Tomorrow will be foggy with no rain, up to 9 °C during the day and a minimum around freezing. Air quality will be poor.",
+    "outlook_en": "Freezing fog is expected on Saturday."
+  },
+  "highlights": [
+    "Česká národní banka zvýšila základní úrokovou sazbu na čtyři procenta a zhoršila výhled české ekonomiky.",
+    "Demokraté po volbách ovládli obě komory amerického Kongresu a republikáni hledají viníka porážky.",
+    "Čtyři letadla mířící do Prahy čelila bombovým hrozbám, pyrotechnici žádnou nástrahu nenašli.",
+    "Cristiano Ronaldo po 234 zápasech ukončil kariéru v portugalské reprezentaci."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "12:04",
+      "headline": "Čtyři letadla mířící do Prahy čelila bombovým hrozbám, pyrotechnici nic nenašli",
+      "body": "Čtyři letadla z Británie, Irska a Řecka mířící dnes dopoledne do Prahy čelila výhrůžce uložením nástražného výbušného systému. Policie hodnotila relevanci výhrůžek jako nízkou, přesto společně s pražským letištěm aktivovala bezpečnostní opatření a po přistání provedla u všech strojů pyrotechnické prohlídky. Hrozba se nepotvrdila, řekl Radiožurnálu mluvčí cizinecké policie Josef Urban. Podle policie výhrůžné e-maily souvisejí s dalšími případy na evropských letištích. Deník N dodává, že jen v Bulharsku šlo o tři letouny, další stroje přistály ve Vídni či Bruselu a letadlo mířící z Dublinu do Říma bylo kvůli bombové hrozbě přesměrováno do Francie s doprovodem vojenských letounů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ctyri-letadla-mirici-do-prahy-celila-bombove-hrozbe-319774"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/ctyri-letadla-mirici-do-prahy-celila-bombove-hrozbe-policie-se-chysta-na_2611051123_ako"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2246763/v-praze-pristala-ctyri-letadla-kvuli-bombovym-hrozbam-stejne-incidenty-se-deji-po-cele-evrope/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246696/"
+        }
+      ],
+      "en": {
+        "headline": "Four planes heading to Prague faced bomb threats, but bomb squads found nothing",
+        "sentences": [
+          {
+            "en": "Four planes from Britain, Ireland and Greece heading to Prague this morning faced a threat that an improvised explosive device had been placed on board.",
+            "cs": "Čtyři letadla z Británie, Irska a Řecka mířící dnes dopoledne do Prahy čelila výhrůžce uložením nástražného výbušného systému."
+          },
+          {
+            "en": "The police rated the credibility of the threats as low, but together with Prague Airport they activated security measures and, after landing, carried out bomb-disposal searches of all the aircraft.",
+            "cs": "Policie hodnotila relevanci výhrůžek jako nízkou, přesto společně s pražským letištěm aktivovala bezpečnostní opatření a po přistání provedla u všech strojů pyrotechnické prohlídky."
+          },
+          {
+            "en": "The threat was not confirmed, the spokesman for the foreigners' police, Josef Urban, told Radiožurnál.",
+            "cs": "Hrozba se nepotvrdila, řekl Radiožurnálu mluvčí cizinecké policie Josef Urban."
+          },
+          {
+            "en": "According to the police, the threatening e-mails are linked to other cases at European airports.",
+            "cs": "Podle policie výhrůžné e-maily souvisejí s dalšími případy na evropských letištích."
+          },
+          {
+            "en": "Deník N adds that in Bulgaria alone three aircraft were involved, further planes landed in Vienna and Brussels, and a plane flying from Dublin to Rome was diverted to France because of a bomb threat, escorted by military jets.",
+            "cs": "Deník N dodává, že jen v Bulharsku šlo o tři letouny, další stroje přistály ve Vídni či Bruselu a letadlo mířící z Dublinu do Říma bylo kvůli bombové hrozbě přesměrováno do Francie s doprovodem vojenských letounů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "improvised",
+            "definition": "made quickly from whatever is available, not planned in advance"
+          },
+          {
+            "term": "credibility",
+            "definition": "how much something can be believed or trusted"
+          },
+          {
+            "term": "diverted",
+            "definition": "sent somewhere different from the original plan"
+          },
+          {
+            "term": "escorted",
+            "definition": "travelling with someone or something to protect or guide it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:59",
+      "headline": "Babiš ve Sněmovně odmítl, že urážel protestující proti rušení koncesionářských poplatků",
+      "body": "Premiér Andrej Babiš (ANO) ve Sněmovně odmítl tvrzení, že urážel protestující proti zrušení poplatků pro Českou televizi a Český rozhlas. Opozici, o níž dříve prohlásil, že rozeštvává společnost a že se protestující studenti nechali zneužít a obelhat, obvinil z manipulace s fakty. Zopakoval také, že koaliční kabinet ANO, SPD a Motoristů od rušení poplatků neustoupí, protože plní programové prohlášení.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247259/"
+        }
+      ],
+      "en": {
+        "headline": "Babiš denied in the Chamber of Deputies that he had insulted protesters against scrapping the broadcasting fees",
+        "sentences": [
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) denied in the Chamber of Deputies the claim that he had insulted people protesting against the abolition of the fees for Czech Television and Czech Radio.",
+            "cs": "Premiér Andrej Babiš (ANO) ve Sněmovně odmítl tvrzení, že urážel protestující proti zrušení poplatků pro Českou televizi a Český rozhlas."
+          },
+          {
+            "en": "He accused the opposition — which he had earlier said was stirring up division in society, and whose protesting students he said had let themselves be exploited and deceived — of manipulating the facts.",
+            "cs": "Opozici, o níž dříve prohlásil, že rozeštvává společnost a že se protestující studenti nechali zneužít a obelhat, obvinil z manipulace s fakty."
+          },
+          {
+            "en": "He also repeated that the coalition cabinet of ANO, SPD and the Motorists will not back down from scrapping the fees, because it is fulfilling its policy statement.",
+            "cs": "Zopakoval také, že koaliční kabinet ANO, SPD a Motoristů od rušení poplatků neustoupí, protože plní programové prohlášení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "abolition",
+            "definition": "the act of officially ending something"
+          },
+          {
+            "term": "stirring up",
+            "definition": "causing strong feelings or trouble among people"
+          },
+          {
+            "term": "deceived",
+            "definition": "made to believe something that is not true"
+          },
+          {
+            "term": "back down",
+            "definition": "to stop demanding something or stop arguing for it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:10",
+      "headline": "Soudy po přepočítání hlasů mění výsledky komunálních voleb v Havířově i na Praze 15",
+      "body": "Krajský soud v Ostravě vyhověl stížnosti Hnutí pro Havířov: zjistil, že čtyřem jeho kandidátům nebylo započítáno po 32 hlasech, a po přepočítání prohlásil za neplatné zvolení kandidáta ANO Martina Čecha; zastupitelem se stává Martin Svoboda z Hnutí pro Havířov. Městský soud v Praze přiznal uskupení Patnáctka náš domov 17 namísto 16 míst v zastupitelstvu Prahy 15, ANO bude mít tři mandáty místo čtyř. Důvodem je pochybení volební komise při sčítání hlasů v jednom z okrsků. Podle ČT24 se krajské soudy vypořádaly už s téměř polovinou stížností a většinu z nich zamítly — v Karviné se po přepočtení dostalo do zastupitelstva hnutí SPD, kterému původně chyběly dva hlasy, na Moldavě na Teplicku se bude volit znovu. Krajský soud v Liberci rozhodl zatím o šesti z jedenácti stížností a vyhověl jedné z nich v Pulečném na Jablonecku, kde se kvůli matematické chybě změnily mandáty.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/soudy-kvuli-chybam-pri-scitani-zmenily-vysledky-voleb-v-havirove-i-praze-15-379317"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/volby/krajske-soudy-rozhoduji-o-stiznostech-na-komunalni-volby-v-pulecnem-na_2611051610_raf"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/soudy-resi-volebni-stiznosti-v-karvine-se-dostalo-spd-na-moldave-se-bude-volit-znovu-379283"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246982/"
+        }
+      ],
+      "en": {
+        "headline": "After recounts, courts are changing the municipal election results in Havířov and Prague 15",
+        "sentences": [
+          {
+            "en": "The Regional Court in Ostrava upheld a complaint by the Hnutí pro Havířov movement: it found that four of its candidates had each not been credited with 32 votes and, after a recount, declared the election of the ANO candidate Martin Čech invalid; Martin Svoboda of Hnutí pro Havířov takes the seat instead.",
+            "cs": "Krajský soud v Ostravě vyhověl stížnosti Hnutí pro Havířov: zjistil, že čtyřem jeho kandidátům nebylo započítáno po 32 hlasech, a po přepočítání prohlásil za neplatné zvolení kandidáta ANO Martina Čecha; zastupitelem se stává Martin Svoboda z Hnutí pro Havířov."
+          },
+          {
+            "en": "The Municipal Court in Prague granted the Patnáctka náš domov group 17 seats on the Prague 15 council instead of 16, so ANO will have three seats rather than four.",
+            "cs": "Městský soud v Praze přiznal uskupení Patnáctka náš domov 17 namísto 16 míst v zastupitelstvu Prahy 15, ANO bude mít tři mandáty místo čtyř."
+          },
+          {
+            "en": "The reason is an error by the electoral committee when counting votes in one of the districts.",
+            "cs": "Důvodem je pochybení volební komise při sčítání hlasů v jednom z okrsků."
+          },
+          {
+            "en": "According to ČT24, the regional courts have already dealt with almost half of the complaints and dismissed most of them — in Karviná a recount got SPD onto the council after it had originally fallen two votes short, and in Moldava in the Teplice area the vote will be held again.",
+            "cs": "Podle ČT24 se krajské soudy vypořádaly už s téměř polovinou stížností a většinu z nich zamítly — v Karviné se po přepočtení dostalo do zastupitelstva hnutí SPD, kterému původně chyběly dva hlasy, na Moldavě na Teplicku se bude volit znovu."
+          },
+          {
+            "en": "The Regional Court in Liberec has so far ruled on six of eleven complaints and upheld one of them in Pulečný in the Jablonec area, where a mathematical error changed the allocation of seats.",
+            "cs": "Krajský soud v Liberci rozhodl zatím o šesti z jedenácti stížností a vyhověl jedné z nich v Pulečném na Jablonecku, kde se kvůli matematické chybě změnily mandáty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "upheld",
+            "definition": "officially agreed that a decision or complaint was right"
+          },
+          {
+            "term": "recount",
+            "definition": "a second count of the votes in an election"
+          },
+          {
+            "term": "dismissed",
+            "definition": "officially refused to accept or consider something"
+          },
+          {
+            "term": "allocation",
+            "definition": "the way something is divided and given out"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:03",
+      "headline": "Ministr životního prostředí hájí výpočet Tykačovy firmy slovy, která báňský úřad popírá",
+      "body": "Ministr životního prostředí Igor Červený podle Deníku N tvrdí, že báňský úřad jeho resortu potvrdil nižší základ, ze kterého těžařská firma Pavla Tykače počítá peníze na obnovu krajiny pro obce na Mostecku. V příslušném dopise ale takové potvrzení není a báňský úřad ministrova slova navíc popírá. Nový postoj ministerstva vychází vstříc skupině Severní energetická, aby si nechala stovky milionů korun, které od ní stát dříve pro obce požadoval.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2245844/ministr-haji-tykacuv-vypocet-ktery-znamena-mene-penez-pro-obce-uradu-vsak-podsouva-co-nerekl/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246879/"
+        }
+      ],
+      "en": {
+        "headline": "The environment minister defends the calculation by Tykač's company with words the mining authority denies",
+        "sentences": [
+          {
+            "en": "Environment Minister Igor Červený claims, according to Deník N, that the mining authority under his ministry confirmed the lower base from which Pavel Tykač's mining company calculates the money for landscape restoration for municipalities in the Most area.",
+            "cs": "Ministr životního prostředí Igor Červený podle Deníku N tvrdí, že báňský úřad jeho resortu potvrdil nižší základ, ze kterého těžařská firma Pavla Tykače počítá peníze na obnovu krajiny pro obce na Mostecku."
+          },
+          {
+            "en": "But no such confirmation appears in the letter in question, and the mining authority moreover denies the minister's words.",
+            "cs": "V příslušném dopise ale takové potvrzení není a báňský úřad ministrova slova navíc popírá."
+          },
+          {
+            "en": "The ministry's new position accommodates the Severní energetická group, letting it keep hundreds of millions of crowns that the state had previously demanded from it for the municipalities.",
+            "cs": "Nový postoj ministerstva vychází vstříc skupině Severní energetická, aby si nechala stovky milionů korun, které od ní stát dříve pro obce požadoval."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "restoration",
+            "definition": "the work of returning something to its earlier good condition"
+          },
+          {
+            "term": "municipalities",
+            "definition": "towns or villages with their own local government"
+          },
+          {
+            "term": "in question",
+            "definition": "the particular one being talked about"
+          },
+          {
+            "term": "accommodates",
+            "definition": "does what someone wants in order to please them"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:55",
+      "headline": "Nejdéle vězněný Čech zůstane za mřížemi, podle soudu neprokázal polepšení",
+      "body": "Soud v Mostě zamítl návrh na podmíněné propuštění Zdeňka Navrátila, nejdéle vězněného Čecha odsouzeného na doživotí za dvě vraždy. Podle soudu neprokázal polepšení; ve vězení strávil téměř 40 let. Soud zároveň odmítl přijmout záruku, kterou za odsouzeného nabídla Společnost pro právní stát. Obhájce podal proti rozhodnutí stížnost, věcí se tak bude zabývat krajský soud.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/vrah-navratil-zustane-za-mrizemi-podle-soudu-neprokazal-polepseni-ve-vezeni-je_2611051255_aru"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nejdele-vezneny-cech-zustane-za-mrizemi-podle-soudu-neprokazal-polepseni-319788"
+        }
+      ],
+      "en": {
+        "headline": "The longest-imprisoned Czech will stay behind bars; the court found he had not shown reform",
+        "sentences": [
+          {
+            "en": "A court in Most rejected a request for the conditional release of Zdeněk Navrátil, the longest-imprisoned Czech, who is serving a life sentence for two murders.",
+            "cs": "Soud v Mostě zamítl návrh na podmíněné propuštění Zdeňka Navrátila, nejdéle vězněného Čecha odsouzeného na doživotí za dvě vraždy."
+          },
+          {
+            "en": "According to the court he has not demonstrated any reform; he has spent almost 40 years in prison.",
+            "cs": "Podle soudu neprokázal polepšení; ve vězení strávil téměř 40 let."
+          },
+          {
+            "en": "The court also refused to accept a guarantee offered on the convict's behalf by the Society for the Rule of Law.",
+            "cs": "Soud zároveň odmítl přijmout záruku, kterou za odsouzeného nabídla Společnost pro právní stát."
+          },
+          {
+            "en": "His defence lawyer has filed a complaint against the decision, so the regional court will now take up the case.",
+            "cs": "Obhájce podal proti rozhodnutí stížnost, věcí se tak bude zabývat krajský soud."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conditional release",
+            "definition": "letting a prisoner out early if they follow certain rules"
+          },
+          {
+            "term": "life sentence",
+            "definition": "a punishment of staying in prison for a very long time"
+          },
+          {
+            "term": "convict",
+            "definition": "a person who has been found guilty of a crime"
+          },
+          {
+            "term": "take up",
+            "definition": "to start dealing with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:44",
+      "headline": "O metro D a zakázky v dopravním podniku se podle odposlechů zajímal i podnikatel Pitr",
+      "body": "Dříve odsouzený podnikatel Tomáš Pitr se podle soudních odposlechů snažil ovlivňovat dění v pražském dopravním podniku a scházel se s jeho manažery. Podle Seznam Zpráv to vyplývá z dnešního soudního řízení v kauze Dozimetr; Pitr se zajímal o metro D a o zakázky v DPP.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-kauza-dozimetr-u-soudu-o-metro-d-a-zakazky-v-dpp-se-zajimal-i-podnikatel-pitr-319796"
+        }
+      ],
+      "en": {
+        "headline": "Wiretaps suggest businessman Pitr also took an interest in Metro D and contracts at the transport company",
+        "sentences": [
+          {
+            "en": "The previously convicted businessman Tomáš Pitr tried, according to court wiretaps, to influence what went on at the Prague public transport company and met its managers.",
+            "cs": "Dříve odsouzený podnikatel Tomáš Pitr se podle soudních odposlechů snažil ovlivňovat dění v pražském dopravním podniku a scházel se s jeho manažery."
+          },
+          {
+            "en": "According to Seznam Zprávy this emerged at today's court hearing in the Dozimetr case; Pitr took an interest in Metro D and in contracts at the DPP.",
+            "cs": "Podle Seznam Zpráv to vyplývá z dnešního soudního řízení v kauze Dozimetr; Pitr se zajímal o metro D a o zakázky v DPP."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wiretaps",
+            "definition": "secret recordings of phone calls made by the police"
+          },
+          {
+            "term": "convicted",
+            "definition": "found guilty of a crime by a court"
+          },
+          {
+            "term": "hearing",
+            "definition": "a meeting in court where a case is examined"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:47",
+      "headline": "Hradec a správci festivalového areálu Park 360 čelí anonymním výhrůžkám",
+      "body": "Hradec Králové a tým, který spravuje Park 360 na bývalém vojenském letišti, čelí od středy anonymním výhrůžkám. Podle iDNES jde o udání na stavební úřad a hygienu, blokování klíčových investičních záměrů města, referendum o využití letiště nebo milionové žaloby. V areálu se koná festival Rock for People.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/anonym-vyhrozuje-hradci-i-parku-360-kvuli-hluku-z-koncertu-na-letisti.A261105_111515_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Hradec Králové and the managers of the Park 360 festival grounds are facing anonymous threats",
+        "sentences": [
+          {
+            "en": "Hradec Králové and the team that runs Park 360 at the former military airfield have been facing anonymous threats since Wednesday.",
+            "cs": "Hradec Králové a tým, který spravuje Park 360 na bývalém vojenském letišti, čelí od středy anonymním výhrůžkám."
+          },
+          {
+            "en": "According to iDNES these involve complaints to the building authority and the public health office, the blocking of key investment plans of the city, a referendum on the use of the airfield, or lawsuits worth millions.",
+            "cs": "Podle iDNES jde o udání na stavební úřad a hygienu, blokování klíčových investičních záměrů města, referendum o využití letiště nebo milionové žaloby."
+          },
+          {
+            "en": "The Rock for People festival is held at the grounds.",
+            "cs": "V areálu se koná festival Rock for People."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "airfield",
+            "definition": "an area of ground where aircraft take off and land"
+          },
+          {
+            "term": "lawsuits",
+            "definition": "legal cases brought against someone in court"
+          },
+          {
+            "term": "grounds",
+            "definition": "a large open area used for a particular purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:50",
+      "headline": "Nejdelší most nového úseku D35 u Hradce prošel zatěžkávací zkouškou",
+      "body": "Čtyři vozidla o celkové hmotnosti 48 tun prověřila ve Všestarech nejdelší most na novém úseku dálnice D35 mezi Sadovou a Plotišti. Zkoušky podle Ředitelství silnic a dálnic dopadly dobře. Úsek, který u Hradce naváže na D11, se má otevřít v prosinci.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/904930-most-na-d35-u-hradce-prosel-zkouskou-ridici-se-po-nem-projedou-v-prosinci.html"
+        }
+      ],
+      "en": {
+        "headline": "The longest bridge on the new D35 section near Hradec has passed its load test",
+        "sentences": [
+          {
+            "en": "Four vehicles with a combined weight of 48 tonnes tested the longest bridge on the new section of the D35 motorway between Sadová and Plotiště, at Všestary.",
+            "cs": "Čtyři vozidla o celkové hmotnosti 48 tun prověřila ve Všestarech nejdelší most na novém úseku dálnice D35 mezi Sadovou a Plotišti."
+          },
+          {
+            "en": "According to the Road and Motorway Directorate the tests went well.",
+            "cs": "Zkoušky podle Ředitelství silnic a dálnic dopadly dobře."
+          },
+          {
+            "en": "The section, which will link up with the D11 near Hradec, is due to open in December.",
+            "cs": "Úsek, který u Hradce naváže na D11, se má otevřít v prosinci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "combined",
+            "definition": "added together as one total"
+          },
+          {
+            "term": "link up",
+            "definition": "to join or connect with something"
+          },
+          {
+            "term": "due",
+            "definition": "expected to happen at a particular time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:05",
+      "headline": "Hradečané vybrali v participativním rozpočtu deset projektů za deset milionů",
+      "body": "V hlasování o participativním rozpočtu vybrali obyvatelé Hradce Králové deset projektů, na které město vyčlenilo deset milionů korun. Uspěla tři dětská hřiště, piano do podchodu Karla IV. nebo ponton pro plavce na Biřičce. S prvními úpravami chce radnice začít příští rok.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hradecko/904944-lide-v-hradci-kralove-vybrali-v-participativnim-rozpoctu-predevsim-detska.html"
+        }
+      ],
+      "en": {
+        "headline": "Residents of Hradec picked ten projects worth ten million in the participatory budget",
+        "sentences": [
+          {
+            "en": "In the vote on the participatory budget, the residents of Hradec Králové chose ten projects for which the city set aside ten million crowns.",
+            "cs": "V hlasování o participativním rozpočtu vybrali obyvatelé Hradce Králové deset projektů, na které město vyčlenilo deset milionů korun."
+          },
+          {
+            "en": "Three children's playgrounds, a piano for the Karel IV. underpass and a pontoon for swimmers at Biřička were among the winners.",
+            "cs": "Uspěla tři dětská hřiště, piano do podchodu Karla IV. nebo ponton pro plavce na Biřičce."
+          },
+          {
+            "en": "The city hall wants to start the first works next year.",
+            "cs": "S prvními úpravami chce radnice začít příští rok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "participatory",
+            "definition": "involving ordinary people in making decisions"
+          },
+          {
+            "term": "set aside",
+            "definition": "to keep something for a particular purpose"
+          },
+          {
+            "term": "underpass",
+            "definition": "a path or road that goes under another road"
+          },
+          {
+            "term": "pontoon",
+            "definition": "a floating platform on water"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:32",
+      "headline": "Třebechovice pod Orebem vede poprvé žena, nové vedení mají i Smiřice a Chlumec",
+      "body": "Třebechovice pod Orebem povede poprvé žena — Klára Drašnerová z vítězného uskupení Společně pro Třebechovice. Dosavadní starosta a lídr Nestraníků Roman Drašnar přešel na post místostarosty. Ve Smiřicích zvítězila s převahou Nová vlna a novým starostou se stal David Bureš. V Chlumci nad Cidlinou zůstává starostou Vladan Kárník z vítězných Nezávislých, kteří získali přes třetinu hlasů a osm mandátů; místostarostou byl zvolen Luboš Suchánek.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/nove-vedeni-trebechovice-smirice-ustavujici-zasedani-zastupitele/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/chlumec-starosta-vladan-karnik-ustavujici-zastupitelstvo/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Třebechovice pod Orebem is led by a woman for the first time, and Smiřice and Chlumec also have new leaderships",
+        "sentences": [
+          {
+            "en": "Třebechovice pod Orebem will be led by a woman for the first time — Klára Drašnerová of the winning Společně pro Třebechovice group.",
+            "cs": "Třebechovice pod Orebem povede poprvé žena — Klára Drašnerová z vítězného uskupení Společně pro Třebechovice."
+          },
+          {
+            "en": "The outgoing mayor and leader of the Nestraníci, Roman Drašnar, has moved to the post of deputy mayor.",
+            "cs": "Dosavadní starosta a lídr Nestraníků Roman Drašnar přešel na post místostarosty."
+          },
+          {
+            "en": "In Smiřice, Nová vlna won comfortably and David Bureš became the new mayor.",
+            "cs": "Ve Smiřicích zvítězila s převahou Nová vlna a novým starostou se stal David Bureš."
+          },
+          {
+            "en": "In Chlumec nad Cidlinou, Vladan Kárník of the winning Nezávislí remains mayor after the group took more than a third of the vote and eight seats; Luboš Suchánek was elected deputy mayor.",
+            "cs": "V Chlumci nad Cidlinou zůstává starostou Vladan Kárník z vítězných Nezávislých, kteří získali přes třetinu hlasů a osm mandátů; místostarostou byl zvolen Luboš Suchánek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outgoing",
+            "definition": "leaving a job or position soon"
+          },
+          {
+            "term": "deputy",
+            "definition": "a person who is second in rank and can act for the leader"
+          },
+          {
+            "term": "comfortably",
+            "definition": "easily and without difficulty"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:05",
+      "headline": "Demokraté ovládli obě komory Kongresu, republikáni hledají viníka porážky",
+      "body": "Demokraté po úterních volbách v polovině Trumpova mandátu ovládli obě komory amerického Kongresu. Podle Deníku N ztratili republikáni v Senátu nejméně sedm křesel a očekává se, že demokraté získají největší většinu ve Sněmovně reprezentantů od roku 1991. Uspěli i v tradičních republikánských baštách: v Texasu porazil demokrat James Talarico Trumpova spojence Kena Paxtona a strana tam podle Hradeckého deníku získala senátorské křeslo poprvé od roku 1988 a post guvernéra poprvé od roku 1990. Do Senátu míří první muslim i první indiánská žena, Georgii povede první černošská guvernérka. E15 hledá příčinu v drahotě — nafta podle listu za dva roky zdražila téměř o 80 procent a Američané si to spojují s válkou s Íránem. Donald Trump podle expertky na strategickou komunikaci Denisy Hejlové nabídl na své poměry velkou sebereflexi, vinu za porážku ale hodil na jiné. Mluvčí Kremlu Dmitrij Peskov tvrdí, že prezident bude navzdory výsledku voleb dál prosazovat svou dosavadní zahraniční politiku vůči válce na Ukrajině.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2246461/otreseny-trump-vance-i-cela-republikanska-strana-zacalo-hledani-vinika-i-zachrana-prezidentskych-voleb-trumpuv-svet-654-den/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/trump-nabidl-na-sve-pomery-velkou-sebereflexi-vinu-za-prohru-ale-hodil-na-jine_2611051605_ako"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/nazory-a-analyzy/trumpa-porazila-trumpova-drahota-proti-vysokym-cenam-nafty-a-hypotek-se-vyhrat-neda-1437109"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/svet/volby-usa-vysledky-kongres-top-zpravy/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=svet"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246939/"
+        }
+      ],
+      "en": {
+        "headline": "The Democrats have taken both chambers of Congress and the Republicans are looking for someone to blame",
+        "sentences": [
+          {
+            "en": "After Tuesday's elections halfway through Trump's term, the Democrats have taken both chambers of the US Congress.",
+            "cs": "Demokraté po úterních volbách v polovině Trumpova mandátu ovládli obě komory amerického Kongresu."
+          },
+          {
+            "en": "According to Deník N, the Republicans lost at least seven seats in the Senate, and the Democrats are expected to win their largest majority in the House of Representatives since 1991.",
+            "cs": "Podle Deníku N ztratili republikáni v Senátu nejméně sedm křesel a očekává se, že demokraté získají největší většinu ve Sněmovně reprezentantů od roku 1991."
+          },
+          {
+            "en": "They also succeeded in traditional Republican strongholds: in Texas the Democrat James Talarico beat Trump's ally Ken Paxton, and according to Hradecký deník the party won a Senate seat there for the first time since 1988 and the governorship for the first time since 1990.",
+            "cs": "Uspěli i v tradičních republikánských baštách: v Texasu porazil demokrat James Talarico Trumpova spojence Kena Paxtona a strana tam podle Hradeckého deníku získala senátorské křeslo poprvé od roku 1988 a post guvernéra poprvé od roku 1990."
+          },
+          {
+            "en": "The first Muslim and the first Native American woman are heading to the Senate, and Georgia will be led by its first Black woman governor.",
+            "cs": "Do Senátu míří první muslim i první indiánská žena, Georgii povede první černošská guvernérka."
+          },
+          {
+            "en": "E15 looks for the cause in the cost of living — diesel has become almost 80 percent more expensive over two years, the paper says, and Americans connect that with the war with Iran.",
+            "cs": "E15 hledá příčinu v drahotě — nafta podle listu za dva roky zdražila téměř o 80 procent a Američané si to spojují s válkou s Íránem."
+          },
+          {
+            "en": "Donald Trump offered what is for him a great deal of self-reflection, but pinned the blame for the defeat on others, says Denisa Hejlová, an expert on strategic communication.",
+            "cs": "Donald Trump podle expertky na strategickou komunikaci Denisy Hejlové nabídl na své poměry velkou sebereflexi, vinu za porážku ale hodil na jiné."
+          },
+          {
+            "en": "Kremlin spokesman Dmitry Peskov claims that despite the election result the president will go on pursuing his existing foreign policy towards the war in Ukraine.",
+            "cs": "Mluvčí Kremlu Dmitrij Peskov tvrdí, že prezident bude navzdory výsledku voleb dál prosazovat svou dosavadní zahraniční politiku vůči válce na Ukrajině."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "strongholds",
+            "definition": "places where a group has very strong support"
+          },
+          {
+            "term": "ally",
+            "definition": "a person or country that supports another"
+          },
+          {
+            "term": "pinned the blame",
+            "definition": "said that someone else was responsible for something bad"
+          },
+          {
+            "term": "pursuing",
+            "definition": "continuing to follow a plan or activity"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:54",
+      "headline": "Do francouzských protestů se zapojily statisíce lidí, uzavřena je tisícovka škol",
+      "body": "Do protestů svolaných francouzskými odbory se dnes zapojilo na 270 tisíc lidí, informovalo hodinu po poledni ministerstvo vnitra; údaje podle něj zatím nezahrnují později začínající demonstrace v Paříži. Uzavřena je tisícovka škol i památky. Úřady v obavách z opakování říjnových násilností vyslaly do terénu sedmdesát tisíc policistů a četníků, zasahovat musely pořádkové síly v Lyonu a Nantes. Deník N s odvoláním na BBC uvedl, že úřady očekávaly 500 000 až 700 000 demonstrantů, jen v Paříži desítky tisíc.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ve-francii-zacaly-dalsi-velke-protesty-uzavrena-je-tisicovka-skol-379310"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ve-francii-bude-ve-ctvrtek-kvuli-stavkam-nasazeno-70-tisic-policistu-a-cetniku-319755"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246704/"
+        }
+      ],
+      "en": {
+        "headline": "Hundreds of thousands joined the French protests and a thousand schools are closed",
+        "sentences": [
+          {
+            "en": "Up to 270 thousand people joined the protests called by French trade unions today, the interior ministry said an hour after midday; the figures do not yet include the demonstrations in Paris, which start later.",
+            "cs": "Do protestů svolaných francouzskými odbory se dnes zapojilo na 270 tisíc lidí, informovalo hodinu po poledni ministerstvo vnitra; údaje podle něj zatím nezahrnují později začínající demonstrace v Paříži."
+          },
+          {
+            "en": "A thousand schools are closed, as are historic monuments.",
+            "cs": "Uzavřena je tisícovka škol i památky."
+          },
+          {
+            "en": "Fearing a repeat of October's violence, the authorities deployed seventy thousand police and gendarmes, and riot units had to intervene in Lyon and Nantes.",
+            "cs": "Úřady v obavách z opakování říjnových násilností vyslaly do terénu sedmdesát tisíc policistů a četníků, zasahovat musely pořádkové síly v Lyonu a Nantes."
+          },
+          {
+            "en": "Deník N, citing the BBC, reported that the authorities had expected 500,000 to 700,000 demonstrators, with tens of thousands in Paris alone.",
+            "cs": "Deník N s odvoláním na BBC uvedl, že úřady očekávaly 500 000 až 700 000 demonstrantů, jen v Paříži desítky tisíc."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trade unions",
+            "definition": "organisations that protect the rights of workers"
+          },
+          {
+            "term": "deployed",
+            "definition": "sent somewhere to be used"
+          },
+          {
+            "term": "gendarmes",
+            "definition": "members of a military police force in France"
+          },
+          {
+            "term": "riot",
+            "definition": "violent behaviour by a crowd of people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:14",
+      "headline": "Prezidenti zemí V4 podpořili v Trenčíně rozšiřování Evropské unie",
+      "body": "Prezidenti zemí visegrádské čtyřky na dvoudenním summitu v Trenčíně podpořili další rozšiřování Evropské unie a vyslovili se pro zajištění cenově dostupných a bezpečných dodávek energií. Slovenský prezident Peter Pellegrini řekl, že válka na Ukrajině začíná vyčerpávat Evropu a že by unie měla být součástí jednání o ukončení konfliktu; podle ČTK dodal, že nelze každý rok dávat až 100 miliard eur na opotřebovávací válku a nedělat nic pro ukončení bojů. Český prezident Petr Pavel po summitu vyzval k jednotnějšímu evropskému postupu při jednáních o míru na Ukrajině s tím, že mezi prezidenty panovala téměř úplná shoda. Na jednání dorazila také předsedkyně Evropské komise Ursula von der Leyen.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/prezidenti-zemi-v4-podporili-rozsirovani-eu-kandidati-museji-splnit-vsechny_2611051456_jkd"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246603/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247065/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247138/"
+        }
+      ],
+      "en": {
+        "headline": "The presidents of the V4 countries backed enlargement of the European Union in Trenčín",
+        "sentences": [
+          {
+            "en": "At a two-day summit in Trenčín, the presidents of the Visegrád Four countries backed further enlargement of the European Union and spoke in favour of securing affordable and safe energy supplies.",
+            "cs": "Prezidenti zemí visegrádské čtyřky na dvoudenním summitu v Trenčíně podpořili další rozšiřování Evropské unie a vyslovili se pro zajištění cenově dostupných a bezpečných dodávek energií."
+          },
+          {
+            "en": "Slovak President Peter Pellegrini said that the war in Ukraine is beginning to exhaust Europe and that the union should be part of the talks on ending the conflict; according to ČTK he added that it is not possible to give up to 100 billion euros a year to a war of attrition and do nothing to end the fighting.",
+            "cs": "Slovenský prezident Peter Pellegrini řekl, že válka na Ukrajině začíná vyčerpávat Evropu a že by unie měla být součástí jednání o ukončení konfliktu; podle ČTK dodal, že nelze každý rok dávat až 100 miliard eur na opotřebovávací válku a nedělat nic pro ukončení bojů."
+          },
+          {
+            "en": "Czech President Petr Pavel called after the summit for a more unified European approach in the negotiations on peace in Ukraine, saying that there had been almost complete agreement among the presidents.",
+            "cs": "Český prezident Petr Pavel po summitu vyzval k jednotnějšímu evropskému postupu při jednáních o míru na Ukrajině s tím, že mezi prezidenty panovala téměř úplná shoda."
+          },
+          {
+            "en": "European Commission President Ursula von der Leyen also came to the talks.",
+            "cs": "Na jednání dorazila také předsedkyně Evropské komise Ursula von der Leyen."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "enlargement",
+            "definition": "the process of making something bigger, here by adding new member states"
+          },
+          {
+            "term": "affordable",
+            "definition": "cheap enough that people are able to pay for it"
+          },
+          {
+            "term": "exhaust",
+            "definition": "to use up all the strength or resources of something"
+          },
+          {
+            "term": "war of attrition",
+            "definition": "a long war in which each side tries to wear the other down"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:08",
+      "headline": "Eisenkota na premiéra Izraele podpořila i arabská Sjednocená kandidátka, má většinu Knesetu",
+      "body": "Opoziční arabská Sjednocená kandidátka, která v izraelských volbách získala 11 křesel, oznámila, že prezidentu Jicchaku Herzogovi doporučí na post příštího premiéra předsedu strany Jašar Gadiho Eisenkota. Ten už dříve získal podporu většího počtu poslanců Knesetu než premiér Benjamin Netanjahu, nyní se může spolehnout na 67 poslanců, což v zákonodárném sboru představuje většinu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247097/"
+        }
+      ],
+      "en": {
+        "headline": "The Arab United List has also backed Eisenkot for Israeli prime minister, giving him a Knesset majority",
+        "sentences": [
+          {
+            "en": "The opposition Arab United List, which won 11 seats in the Israeli elections, announced that it will recommend to President Jicchak Herzog the leader of the Jašar party, Gadi Eisenkot, for the post of next prime minister.",
+            "cs": "Opoziční arabská Sjednocená kandidátka, která v izraelských volbách získala 11 křesel, oznámila, že prezidentu Jicchaku Herzogovi doporučí na post příštího premiéra předsedu strany Jašar Gadiho Eisenkota."
+          },
+          {
+            "en": "He had already won the support of more members of the Knesset than Prime Minister Benjamin Netanyahu, and can now count on 67 deputies, which is a majority in the legislature.",
+            "cs": "Ten už dříve získal podporu většího počtu poslanců Knesetu než premiér Benjamin Netanjahu, nyní se může spolehnout na 67 poslanců, což v zákonodárném sboru představuje většinu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "legislature",
+            "definition": "the part of a government that makes laws"
+          },
+          {
+            "term": "deputies",
+            "definition": "elected members of a parliament"
+          },
+          {
+            "term": "count on",
+            "definition": "to rely on something or someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:29",
+      "headline": "Maďarsko zpřístupnilo svazky spolupracovníků komunistických tajných služeb",
+      "body": "Maďarská vláda ve středu 4. listopadu zpřístupnila databázi spolupracovníků komunistických tajných služeb. Vláda premiéra Magyara, který to dlouhodobě sliboval, si pro tento krok vybrala 70. výročí potlačení protisovětské revoluce z roku 1956. Magyar jej označil za „zpožděné zadostiučinění“ a vyzval, aby se minulost posuzovala důstojně a lidsky. Bývalý premiér Viktor Orbán tvrdí, že spolupráci odmítl. Česká veřejnost má přístup k archivům komunistické tajné policie už dvacet až třicet let.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2246613/madarska-vlada-zpristupnila-svazky-komunistickych-agentu-orban-tvrdi-ze-spolupraci-odmitl/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246887/"
+        }
+      ],
+      "en": {
+        "headline": "Hungary has opened the files of collaborators with the communist secret services",
+        "sentences": [
+          {
+            "en": "The Hungarian government opened the database of collaborators with the communist secret services on Wednesday 4 November.",
+            "cs": "Maďarská vláda ve středu 4. listopadu zpřístupnila databázi spolupracovníků komunistických tajných služeb."
+          },
+          {
+            "en": "The government of Prime Minister Magyar, who had long promised this, chose for the step the 70th anniversary of the suppression of the 1956 anti-Soviet revolution.",
+            "cs": "Vláda premiéra Magyara, který to dlouhodobě sliboval, si pro tento krok vybrala 70. výročí potlačení protisovětské revoluce z roku 1956."
+          },
+          {
+            "en": "Magyar called it “belated redress” and urged that the past be judged with dignity and humanity.",
+            "cs": "Magyar jej označil za „zpožděné zadostiučinění“ a vyzval, aby se minulost posuzovala důstojně a lidsky."
+          },
+          {
+            "en": "Former Prime Minister Viktor Orbán claims that he refused to collaborate.",
+            "cs": "Bývalý premiér Viktor Orbán tvrdí, že spolupráci odmítl."
+          },
+          {
+            "en": "The Czech public has had access to the archives of the communist secret police for twenty to thirty years already.",
+            "cs": "Česká veřejnost má přístup k archivům komunistické tajné policie už dvacet až třicet let."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "collaborators",
+            "definition": "people who help an enemy or an unfair government"
+          },
+          {
+            "term": "suppression",
+            "definition": "the act of stopping something by force"
+          },
+          {
+            "term": "belated",
+            "definition": "coming later than it should have"
+          },
+          {
+            "term": "redress",
+            "definition": "something done to correct a wrong"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:27",
+      "headline": "ČNB zvýšila základní sazbu na čtyři procenta a zhoršila výhled ekonomiky",
+      "body": "Bankovní rada České národní banky dnes zvýšila základní úrokovou sazbu o čtvrt procentního bodu na čtyři procenta. Sazba je nejvýše od počátku roku 2025, naposledy na této úrovni byla v lednu 2025. Rozhodnutí bylo těsné — pro zvýšení hlasovali čtyři členové rady, tři byli pro ponechání beze změny. Guvernér Aleš Michl po jednání upozornil, že v české ekonomice převažují tlaky ve směru vyšší inflace. Finanční trh zpřísnění očekával s ohledem na předpokládané zrychlení inflace v příštím roce a koruna podle E15 výrazněji nereagovala. Centrální banka zároveň zhoršila výhled ekonomiky: letos čeká růst hrubého domácího produktu o 1,7 procenta místo srpnových 2,2 procenta a průměrnou inflaci 2,1 procenta, horší je i výhled na příští rok, kdy by HDP měl stoupnout o 2,5 procenta. Podle Seznam Zpráv může rozhodnutí postupně zdražit hypotéky, prospět naopak může lidem se spořicími účty. Premiér Andrej Babiš ČNB setrvale kritizuje za to, že sazby údajně drží „nepochopitelně vysoko“.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/ceska-narodni-banka-zvysila-zakladni-urokovou-sazbu-na-4-procenta-je-nejvyssi-od_2611051436_jkd"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/cnb-zvysila-zakladni-urokovou-sazbu-na-4-procenta-je-nejvyssi-za-temer-dva-roky-1437131"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247171/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247115/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247028/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/investice-trhy-a-finance-hypoteky-mohou-zdrazit-sporeni-vynaset-vic-cnb-zvysila-sazby-319782"
+        }
+      ],
+      "en": {
+        "headline": "The Czech National Bank raised its key rate to four percent and worsened its outlook for the economy",
+        "sentences": [
+          {
+            "en": "The board of the Czech National Bank today raised the key interest rate by a quarter of a percentage point to four percent.",
+            "cs": "Bankovní rada České národní banky dnes zvýšila základní úrokovou sazbu o čtvrt procentního bodu na čtyři procenta."
+          },
+          {
+            "en": "The rate is at its highest since the start of 2025; it was last at this level in January 2025.",
+            "cs": "Sazba je nejvýše od počátku roku 2025, naposledy na této úrovni byla v lednu 2025."
+          },
+          {
+            "en": "The decision was close — four board members voted to raise it, three were for leaving it unchanged.",
+            "cs": "Rozhodnutí bylo těsné — pro zvýšení hlasovali čtyři členové rady, tři byli pro ponechání beze změny."
+          },
+          {
+            "en": "Governor Aleš Michl pointed out after the meeting that pressures towards higher inflation prevail in the Czech economy.",
+            "cs": "Guvernér Aleš Michl po jednání upozornil, že v české ekonomice převažují tlaky ve směru vyšší inflace."
+          },
+          {
+            "en": "The financial market had expected the tightening, given the anticipated acceleration of inflation next year, and the koruna did not react significantly, E15 reports.",
+            "cs": "Finanční trh zpřísnění očekával s ohledem na předpokládané zrychlení inflace v příštím roce a koruna podle E15 výrazněji nereagovala."
+          },
+          {
+            "en": "The central bank also worsened its outlook for the economy: this year it expects gross domestic product to grow by 1.7 percent instead of the 2.2 percent forecast in August, and average inflation of 2.1 percent, while the outlook for next year is worse too, with GDP expected to rise by 2.5 percent.",
+            "cs": "Centrální banka zároveň zhoršila výhled ekonomiky: letos čeká růst hrubého domácího produktu o 1,7 procenta místo srpnových 2,2 procenta a průměrnou inflaci 2,1 procenta, horší je i výhled na příští rok, kdy by HDP měl stoupnout o 2,5 procenta."
+          },
+          {
+            "en": "According to Seznam Zprávy the decision may gradually make mortgages more expensive, while people with savings accounts may benefit.",
+            "cs": "Podle Seznam Zpráv může rozhodnutí postupně zdražit hypotéky, prospět naopak může lidem se spořicími účty."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš persistently criticises the central bank for allegedly keeping rates “inexplicably high”.",
+            "cs": "Premiér Andrej Babiš ČNB setrvale kritizuje za to, že sazby údajně drží „nepochopitelně vysoko“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prevail",
+            "definition": "to be the strongest or most common thing"
+          },
+          {
+            "term": "tightening",
+            "definition": "making money policy stricter, usually by raising interest rates"
+          },
+          {
+            "term": "mortgages",
+            "definition": "loans of money used to buy a home"
+          },
+          {
+            "term": "allegedly",
+            "definition": "according to what people say, although it is not proven"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:48",
+      "headline": "Britská centrální banka poprvé za více než tři roky zvýšila sazbu, na čtyři procenta",
+      "body": "Britská centrální banka dnes podle očekávání zvýšila základní úrokovou sazbu o 0,25 procentního bodu na čtyři procenta. Učinila tak poprvé od srpna 2023, a to ve snaze zkrotit příliš vysokou inflaci. Tu podle Deníku N způsobil především energetický šok spojený s válkou proti Íránu a zablokovaným Hormuzským průlivem. Banka o tom informovala ve zprávě o měnové politice.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246855/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-britska-centralni-banka-poprve-za-vice-nez-tri-roky-zvysila-urokove-sazby-319792"
+        }
+      ],
+      "en": {
+        "headline": "The Bank of England has raised its rate to four percent for the first time in more than three years",
+        "sentences": [
+          {
+            "en": "The British central bank today raised its key interest rate by 0.25 of a percentage point to four percent, as expected.",
+            "cs": "Britská centrální banka dnes podle očekávání zvýšila základní úrokovou sazbu o 0,25 procentního bodu na čtyři procenta."
+          },
+          {
+            "en": "It did so for the first time since August 2023, in an effort to curb excessively high inflation.",
+            "cs": "Učinila tak poprvé od srpna 2023, a to ve snaze zkrotit příliš vysokou inflaci."
+          },
+          {
+            "en": "That inflation was caused above all by the energy shock linked to the war against Iran and the blocked Strait of Hormuz, Deník N reports.",
+            "cs": "Tu podle Deníku N způsobil především energetický šok spojený s válkou proti Íránu a zablokovaným Hormuzským průlivem."
+          },
+          {
+            "en": "The bank announced the decision in its monetary policy report.",
+            "cs": "Banka o tom informovala ve zprávě o měnové politice."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "curb",
+            "definition": "to control or limit something"
+          },
+          {
+            "term": "excessively",
+            "definition": "more than is normal or acceptable"
+          },
+          {
+            "term": "Strait",
+            "definition": "a narrow passage of water between two areas of land"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:49",
+      "headline": "Vláda hledá další odvětví ke zdanění, ke dani na rafinerie se Sněmovna sejde mimořádně",
+      "body": "Vláda podle Seznam Zpráv hledá další odvětví, kterým by mohla sáhnout na zisky a pomoci tak státnímu rozpočtu. V úvahu připadají banky, zbrojaři, energetické a digitální firmy a premiér Andrej Babiš o podobě sektorové daně jednal s bankami. Poslanci se mimořádně sejdou příští týden v pátek ke druhému čtení vládního návrhu na zavedení mimořádné daně na rafinerie, oznámil předseda Sněmovny Tomio Okamura (SPD).",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-babis-chce-zdanit-dalsi-odvetvi-prave-jedna-s-bankami-319768"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2247069/"
+        }
+      ],
+      "en": {
+        "headline": "The government is looking for further sectors to tax, and the Chamber will meet in a special session on the refinery levy",
+        "sentences": [
+          {
+            "en": "The government is looking for further sectors whose profits it could tap in order to help the state budget, Seznam Zprávy reports.",
+            "cs": "Vláda podle Seznam Zpráv hledá další odvětví, kterým by mohla sáhnout na zisky a pomoci tak státnímu rozpočtu."
+          },
+          {
+            "en": "Banks, arms makers, energy companies and digital firms are among the candidates, and Prime Minister Andrej Babiš has discussed the shape of the sector tax with the banks.",
+            "cs": "V úvahu připadají banky, zbrojaři, energetické a digitální firmy a premiér Andrej Babiš o podobě sektorové daně jednal s bankami."
+          },
+          {
+            "en": "Deputies will meet in a special session next week on Friday for the second reading of the government bill introducing an extraordinary tax on refineries, announced the Speaker of the Chamber of Deputies, Tomio Okamura (SPD).",
+            "cs": "Poslanci se mimořádně sejdou příští týden v pátek ke druhému čtení vládního návrhu na zavedení mimořádné daně na rafinerie, oznámil předseda Sněmovny Tomio Okamura (SPD)."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tap",
+            "definition": "to make use of a supply of something"
+          },
+          {
+            "term": "refineries",
+            "definition": "factories where oil is cleaned and turned into fuel"
+          },
+          {
+            "term": "bill",
+            "definition": "a written plan for a new law"
+          },
+          {
+            "term": "Speaker",
+            "definition": "the person in charge of the debates in a parliament"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:02",
+      "headline": "Chyba v APT umožňuje podstrčit Debianu a Ubuntu škodlivý balíček s právy roota",
+      "body": "Chyba s označením CVE-2026-109518 v balíčkovacím systému APT umožňuje útočníkovi ovládajícímu síťové spojení podstrčit při instalaci vlastní balíček, který se následně v cílovém systému spustí s právy roota. Útok vyžaduje možnost měnit HTTP komunikaci mezi počítačem a repozitářem, například prostřednictvím napadeného zrcadla či proxy serveru. Zranitelnost se týká Debianu, Ubuntu a dalších odvozených distribucí.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/chyba-v-apt-umoznuje-vymenit-v-debianu-a-ubuntu-overeny-balicek-za-skodlivy/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "A flaw in APT allows a malicious package with root rights to be slipped into Debian and Ubuntu",
+        "sentences": [
+          {
+            "en": "A flaw tracked as CVE-2026-109518 in the APT package system lets an attacker who controls the network connection slip in their own package during installation, which then runs on the target system with root rights.",
+            "cs": "Chyba s označením CVE-2026-109518 v balíčkovacím systému APT umožňuje útočníkovi ovládajícímu síťové spojení podstrčit při instalaci vlastní balíček, který se následně v cílovém systému spustí s právy roota."
+          },
+          {
+            "en": "The attack requires the ability to alter the HTTP communication between the computer and the repository, for example through a compromised mirror or proxy server.",
+            "cs": "Útok vyžaduje možnost měnit HTTP komunikaci mezi počítačem a repozitářem, například prostřednictvím napadeného zrcadla či proxy serveru."
+          },
+          {
+            "en": "The vulnerability affects Debian, Ubuntu and other derived distributions.",
+            "cs": "Zranitelnost se týká Debianu, Ubuntu a dalších odvozených distribucí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "flaw",
+            "definition": "a fault or weakness in something"
+          },
+          {
+            "term": "slip in",
+            "definition": "to put something in quietly so that it is not noticed"
+          },
+          {
+            "term": "compromised",
+            "definition": "made unsafe because someone has taken control of it"
+          },
+          {
+            "term": "derived",
+            "definition": "developed from something else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "19:30",
+      "day": "prev",
+      "headline": "Američané ve volbách hlasovali proti výstavbě datových center",
+      "body": "Američtí voliči vyjádřili ve volbách odpor vůči datovým centrům napříč celými Spojenými státy, píší podle ČT24 média. V sérii referend na místní úrovni odhlasovali omezení jejich výstavby a ve státech jako Texas, Georgia a Ohio zvolili demokratické guvernéry, kteří slíbili přísnější regulaci.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/americane-vyjadrili-ve-volbach-odpor-proti-vystavbe-datovych-center-379286"
+        }
+      ],
+      "en": {
+        "headline": "Americans voted against the construction of data centres",
+        "sentences": [
+          {
+            "en": "American voters expressed opposition to data centres right across the United States, media report according to ČT24.",
+            "cs": "Američtí voliči vyjádřili ve volbách odpor vůči datovým centrům napříč celými Spojenými státy, píší podle ČT24 média."
+          },
+          {
+            "en": "In a series of local referendums they voted to restrict their construction, and in states such as Texas, Georgia and Ohio they elected Democratic governors who had promised stricter regulation.",
+            "cs": "V sérii referend na místní úrovni odhlasovali omezení jejich výstavby a ve státech jako Texas, Georgia a Ohio zvolili demokratické guvernéry, kteří slíbili přísnější regulaci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "opposition",
+            "definition": "strong disagreement with a plan or idea"
+          },
+          {
+            "term": "referendums",
+            "definition": "votes in which all the people decide a single question"
+          },
+          {
+            "term": "restrict",
+            "definition": "to limit something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "13:41",
+      "headline": "Evropská komise chce dostat do škol gramotnost v oblasti umělé inteligence",
+      "body": "Evropská komise chce podpořit začlenění gramotnosti v oblasti umělé inteligence do škol a zároveň zatraktivnit odborné vzdělávání. Vyplývá to z nového balíčku, o kterém informoval Deník N.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246949/"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission wants to bring literacy in artificial intelligence into schools",
+        "sentences": [
+          {
+            "en": "The European Commission wants to support bringing literacy in artificial intelligence into schools and at the same time make vocational education more attractive.",
+            "cs": "Evropská komise chce podpořit začlenění gramotnosti v oblasti umělé inteligence do škol a zároveň zatraktivnit odborné vzdělávání."
+          },
+          {
+            "en": "This emerges from a new package reported by Deník N.",
+            "cs": "Vyplývá to z nového balíčku, o kterém informoval Deník N."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "literacy",
+            "definition": "the knowledge and skills needed to understand a subject"
+          },
+          {
+            "term": "vocational",
+            "definition": "connected with training for a particular job or trade"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "11:30",
+      "headline": "Metrologové odhlasovali, že se světový čas odřízne od rotace Země",
+      "body": "Do francouzského Versailles se sjeli metrologové z celého světa a odhlasovali, že se světový čas zcela odřízne od nevyzpytatelné rotace naší planety. Podle Seznam Zpráv si toho skoro nikdo nejspíš nevšimne.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-na-planete-uz-nam-nezalezi-shodli-se-experti-na-mereni-casu-319734"
+        }
+      ],
+      "en": {
+        "headline": "Metrologists have voted to cut world time loose from the rotation of the Earth",
+        "sentences": [
+          {
+            "en": "Metrologists from all over the world gathered in Versailles, France, and voted that world time will be cut loose entirely from the unpredictable rotation of our planet.",
+            "cs": "Do francouzského Versailles se sjeli metrologové z celého světa a odhlasovali, že se světový čas zcela odřízne od nevyzpytatelné rotace naší planety."
+          },
+          {
+            "en": "According to Seznam Zprávy, almost nobody will probably notice.",
+            "cs": "Podle Seznam Zpráv si toho skoro nikdo nejspíš nevšimne."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "Metrologists",
+            "definition": "scientists who study how things are measured"
+          },
+          {
+            "term": "cut loose",
+            "definition": "to separate something from what it was attached to"
+          },
+          {
+            "term": "unpredictable",
+            "definition": "changing in a way that cannot be known in advance"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Afrika přestává věřit Putinovým slibům, píše Voxpot po summitu Rusko-Afrika",
+      "body": "Minulý týden proběhl v Moskvě třetí ročník summitu Rusko-Afrika, na který přijely delegace ze 48 států a dorazilo 22 nejvyšších představitelů zemí. Ruský prezident Vladimir Putin se je snažil přesvědčit, že právě Moskva je pro ně nejlepší partner. Voxpot v analýze píše, že kontinent přestává Putinovým slibům věřit.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/ruska-zmrzlina-pro-afriku-kontinent-prestava-verit-putinovym-slibum/"
+        }
+      ],
+      "en": {
+        "headline": "Africa is losing faith in Putin's promises, Voxpot writes after the Russia–Africa summit",
+        "sentences": [
+          {
+            "en": "The third Russia–Africa summit took place in Moscow last week; delegations from 48 states came and 22 of the countries' top leaders arrived.",
+            "cs": "Minulý týden proběhl v Moskvě třetí ročník summitu Rusko-Afrika, na který přijely delegace ze 48 států a dorazilo 22 nejvyšších představitelů zemí."
+          },
+          {
+            "en": "Russian President Vladimir Putin tried to persuade them that Moscow is the best partner for them.",
+            "cs": "Ruský prezident Vladimir Putin se je snažil přesvědčit, že právě Moskva je pro ně nejlepší partner."
+          },
+          {
+            "en": "Voxpot writes in its analysis that the continent is ceasing to believe Putin's promises.",
+            "cs": "Voxpot v analýze píše, že kontinent přestává Putinovým slibům věřit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "delegations",
+            "definition": "groups of people sent to represent others"
+          },
+          {
+            "term": "persuade",
+            "definition": "to make someone agree to do or believe something"
+          },
+          {
+            "term": "ceasing",
+            "definition": "stopping"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:16",
+      "headline": "Cristiano Ronaldo ukončil po 234 zápasech kariéru v portugalské reprezentaci",
+      "body": "Cristiano Ronaldo dnes ve videu na sociálních sítích oznámil, že po listopadové reprezentační přestávce „vrací dres s číslem 7“ a končí v portugalském národním týmu. Odehrál za něj 234 zápasů a vstřelil 146 gólů, v obou statistikách je historicky první. Jednačtyřicetiletý útočník debutoval před třiadvaceti lety, s reprezentací vyhrál Euro 2016 a dvakrát Ligu národů. „Nastal den předat štafetu budoucnosti,“ uvedl. Podle ČT sport končí i kvůli sporům s trenérem Jorgem Jesusem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-ronaldo-oznamil-konec-v-reprezentaci-5570096"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/ronaldo-konci-v-narodnim-tymu-portugalsky-rekordman-fanouskum-oznamil-na_2611051156_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/234-zapasu-a-dost-ronaldo-konci-v-reprezentaci-159785"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2246753/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/sport-hvezdny-utocnik-ronaldo-oznamil-konec-reprezentacni-kariery-319791"
+        }
+      ],
+      "en": {
+        "headline": "Cristiano Ronaldo has ended his Portugal career after 234 matches",
+        "sentences": [
+          {
+            "en": "Cristiano Ronaldo announced today in a video on social media that after the November international break he is “returning the number 7 shirt” and ending his career with the Portuguese national team.",
+            "cs": "Cristiano Ronaldo dnes ve videu na sociálních sítích oznámil, že po listopadové reprezentační přestávce „vrací dres s číslem 7“ a končí v portugalském národním týmu."
+          },
+          {
+            "en": "He played 234 matches for them and scored 146 goals, which puts him first in history in both statistics.",
+            "cs": "Odehrál za něj 234 zápasů a vstřelil 146 gólů, v obou statistikách je historicky první."
+          },
+          {
+            "en": "The forty-one-year-old striker made his debut twenty-three years ago and won Euro 2016 and the Nations League twice with the national team.",
+            "cs": "Jednačtyřicetiletý útočník debutoval před třiadvaceti lety, s reprezentací vyhrál Euro 2016 a dvakrát Ligu národů."
+          },
+          {
+            "en": "“The day has come to pass the baton to the future,” he said.",
+            "cs": "„Nastal den předat štafetu budoucnosti,“ uvedl."
+          },
+          {
+            "en": "According to ČT sport he is also leaving because of disputes with coach Jorge Jesus.",
+            "cs": "Podle ČT sport končí i kvůli sporům s trenérem Jorgem Jesusem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "international break",
+            "definition": "a period when club football stops and national teams play"
+          },
+          {
+            "term": "striker",
+            "definition": "a football player whose job is to score goals"
+          },
+          {
+            "term": "made his debut",
+            "definition": "played or appeared for the very first time"
+          },
+          {
+            "term": "pass the baton",
+            "definition": "to hand your responsibility over to someone else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:57",
+      "day": "prev",
+      "headline": "Slavia podlehla Arsenalu 1:2, Como vyhrálo v Lens 9:1 a zapsalo rekord Ligy mistrů",
+      "body": "Slavia včera večer doma podlehla v Lize mistrů Arsenalu 1:2; za hosty se v první půli prosadili Madueke a Gyökeres, v samém závěru korigoval Wiktor Nowak. Středeční program přinesl i nový střelecký rekord soutěže, když italské Como vyhrálo v Lens 9:1 — o osm gólů na hřišti soupeře ještě žádný tým v hlavní fázi nevyhrál. Real Madrid dvakrát dotahoval a nakonec porazil AEK Atény 3:2, Liverpool naopak dvakrát promarnil náskok a na půdě Fenerbahce prohrál 2:3.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slaviste-v-zaveru-snizili-tri-body-si-ale-z-prahy-veze-arsenal-159776"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/real-mel-s-aek-velke-problemy-ale-nakonec-slavi-opacny-pribeh-zazil-liverpool-159774"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-historicke-ponizeni-soupere-slavie-v-lize-mistru-po-ostudnem-debaklu-cupuji-media-5570083"
+        }
+      ],
+      "en": {
+        "headline": "Slavia lost 1:2 to Arsenal, and Como won 9:1 at Lens to set a Champions League record",
+        "sentences": [
+          {
+            "en": "Slavia lost 1:2 at home to Arsenal in the Champions League yesterday evening; Madueke and Gyökeres scored for the visitors in the first half, and Wiktor Nowak pulled one back right at the end.",
+            "cs": "Slavia včera večer doma podlehla v Lize mistrů Arsenalu 1:2; za hosty se v první půli prosadili Madueke a Gyökeres, v samém závěru korigoval Wiktor Nowak."
+          },
+          {
+            "en": "Wednesday's programme also brought a new scoring record for the competition, when Italy's Como won 9:1 at Lens — no team had ever won by eight goals away from home in the main phase.",
+            "cs": "Středeční program přinesl i nový střelecký rekord soutěže, když italské Como vyhrálo v Lens 9:1 — o osm gólů na hřišti soupeře ještě žádný tým v hlavní fázi nevyhrál."
+          },
+          {
+            "en": "Real Madrid came from behind twice and finally beat AEK Athens 3:2, while Liverpool squandered a lead twice and lost 2:3 away at Fenerbahce.",
+            "cs": "Real Madrid dvakrát dotahoval a nakonec porazil AEK Atény 3:2, Liverpool naopak dvakrát promarnil náskok a na půdě Fenerbahce prohrál 2:3."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pulled one back",
+            "definition": "scored a goal while your team is still losing"
+          },
+          {
+            "term": "came from behind",
+            "definition": "won after being in a losing position"
+          },
+          {
+            "term": "squandered",
+            "definition": "wasted something valuable"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:57",
+      "headline": "Stoper Uhrinčať podepsal v Hradci Králové novou smlouvu až do roku 2030",
+      "body": "Slovenský obránce Jakub Uhrinčať podepsal s fotbalovým Hradcem Králové novou čtyřletou smlouvu do konce sezony 2029/30. Pětadvacetiletý stoper přišel do východočeského klubu v roce 2025 z pražské Sparty a v posledních měsících si vybojoval pevné místo v sestavě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-stoper-uhrincat-bude-hracem-hradce-kralove-az-do-roku-2030-5570110"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/fotbal-prvni-liga/votroci-si-pojistili-slovenskeho-obrance-prakticky-jsem-ani-nevahal-rika/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=fotbal-prvni-liga"
+        }
+      ],
+      "en": {
+        "headline": "Centre-back Uhrinčať has signed a new contract with Hradec Králové until 2030",
+        "sentences": [
+          {
+            "en": "Slovak defender Jakub Uhrinčať has signed a new four-year contract with the football club Hradec Králové until the end of the 2029/30 season.",
+            "cs": "Slovenský obránce Jakub Uhrinčať podepsal s fotbalovým Hradcem Králové novou čtyřletou smlouvu do konce sezony 2029/30."
+          },
+          {
+            "en": "The twenty-five-year-old centre-back joined the East Bohemian club in 2025 from Sparta Prague and in recent months has won himself a regular place in the line-up.",
+            "cs": "Pětadvacetiletý stoper přišel do východočeského klubu v roce 2025 z pražské Sparty a v posledních měsících si vybojoval pevné místo v sestavě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "centre-back",
+            "definition": "a defender who plays in the middle of the defence"
+          },
+          {
+            "term": "line-up",
+            "definition": "the group of players chosen to play a match"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:37",
+      "headline": "Infantino má poprvé vážného protikandidáta ve volbách předsedy FIFA",
+      "body": "Gianniho Infantina vyzve příští rok ve volbách předsedy mezinárodní federace FIFA Kózó Tašima; Sport.cz ho označuje za bývalého šéfa japonského fotbalového svazu, ČT sport za současného. Člen Rady FIFA je prvním vážným protikandidátem dlouholetého prezidenta světového fotbalu, který čelí od léta ostré kritice mimo jiné kvůli plánu prodat soukromým investorům část práv z mistrovství světa. Ten Infantino pod tlakem odvolal.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-infantino-zna-soupere-ve-volbach-predsedy-fifa-5570097"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/do-hry-o-prezidenta-fifa-se-hlasi-silny-kandidat-infantinovi-se-postavi-sef-japonskeho-fotbalu-159784"
+        }
+      ],
+      "en": {
+        "headline": "Infantino faces a serious challenger in the FIFA presidential election for the first time",
+        "sentences": [
+          {
+            "en": "Kózó Tašima will challenge Gianni Infantino in next year's election for president of the international federation FIFA; Sport.cz describes him as the former head of the Japanese football association, ČT sport as the current one.",
+            "cs": "Gianniho Infantina vyzve příští rok ve volbách předsedy mezinárodní federace FIFA Kózó Tašima; Sport.cz ho označuje za bývalého šéfa japonského fotbalového svazu, ČT sport za současného."
+          },
+          {
+            "en": "The member of the FIFA Council is the first serious rival to the long-serving president of world football, who has faced sharp criticism since the summer, among other things over a plan to sell part of the World Cup rights to private investors.",
+            "cs": "Člen Rady FIFA je prvním vážným protikandidátem dlouholetého prezidenta světového fotbalu, který čelí od léta ostré kritice mimo jiné kvůli plánu prodat soukromým investorům část práv z mistrovství světa."
+          },
+          {
+            "en": "Infantino withdrew that plan under pressure.",
+            "cs": "Ten Infantino pod tlakem odvolal."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rival",
+            "definition": "a person who competes with another for the same thing"
+          },
+          {
+            "term": "long-serving",
+            "definition": "having held a position for many years"
+          },
+          {
+            "term": "withdrew",
+            "definition": "took something back or cancelled it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:16",
+      "headline": "Hokejová reprezentace začíná proti Švédsku éru trenéra Zdeňka Motáka",
+      "body": "Hokejová reprezentace dnes večer v pražské O2 areně rozehraje Finské hry, první akci Euro Hockey Tour v sezoně, a zároveň jde o premiéru nového realizačního týmu v čele se Zdeňkem Motákem a Pavlem Grossem. Soupeřem je Švédsko, v brance nastoupí Dominik Frodl. Útočník Roman Červenka hrát nebude a turnaj pro něj skončil.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/proti-svedum-se-do-branky-postavi-frodl-cervenka-hrat-nebude-159783"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-euro-hockey-tour-2026-2027-finske-hokejove-hry-cesko-svedsko-online-5570064"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/narodni-tym-vstoupi-do-nove-ery-pod-motakem-a-grossem-duelem-proti-svedsku-159771"
+        }
+      ],
+      "en": {
+        "headline": "The ice hockey national team begins the era of coach Zdeněk Moták against Sweden",
+        "sentences": [
+          {
+            "en": "The ice hockey national team will tonight open the Finnish Games, the first Euro Hockey Tour event of the season, at the O2 arena in Prague, and it is also the debut of the new coaching staff led by Zdeněk Moták and Pavel Gross.",
+            "cs": "Hokejová reprezentace dnes večer v pražské O2 areně rozehraje Finské hry, první akci Euro Hockey Tour v sezoně, a zároveň jde o premiéru nového realizačního týmu v čele se Zdeňkem Motákem a Pavlem Grossem."
+          },
+          {
+            "en": "The opponent is Sweden, and Dominik Frodl will start in goal.",
+            "cs": "Soupeřem je Švédsko, v brance nastoupí Dominik Frodl."
+          },
+          {
+            "en": "Forward Roman Červenka will not play and the tournament is over for him.",
+            "cs": "Útočník Roman Červenka hrát nebude a turnaj pro něj skončil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "coaching staff",
+            "definition": "the group of people who train and manage a team"
+          },
+          {
+            "term": "debut",
+            "definition": "a first appearance in a role"
+          },
+          {
+            "term": "Forward",
+            "definition": "an attacking player in a team sport"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:35",
+      "headline": "Český tenisový svaz sčítá dluhy z éry obviněného Iva Kaderky",
+      "body": "Český tenisový svaz sčítá škody vzniklé hospodařením z éry bývalého prezidenta Iva Kaderky, který byl obviněn v dotační kauze. Sportovně je přitom svaz podle Seznam Zpráv ve famózní éře, finančně se ale ocitl v těžké krizi. Nový předseda Petr Pála uvedl, že svaz bude jednat na nejvyšších úrovních, a podle Sport.cz chce iniciovat schůzku s ministrem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/sport-tenis-muze-to-byt-sto-milionu-korun-cesky-tenis-vycislil-dluhy-po-kaderkovi-319793"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-dotacni-kauza-muze-stat-tenisovy-svaz-az-100-milionu-prodej-stvanice-ale-pala-odmita-5570108"
+        }
+      ],
+      "en": {
+        "headline": "The Czech Tennis Association is counting up the debts from the era of the charged Ivo Kaderka",
+        "sentences": [
+          {
+            "en": "The Czech Tennis Association is counting up the damage caused by the financial management of the era of its former president Ivo Kaderka, who has been charged in a subsidy case.",
+            "cs": "Český tenisový svaz sčítá škody vzniklé hospodařením z éry bývalého prezidenta Iva Kaderky, který byl obviněn v dotační kauze."
+          },
+          {
+            "en": "In sporting terms the association is in a fabulous era, according to Seznam Zprávy, but financially it has found itself in a serious crisis.",
+            "cs": "Sportovně je přitom svaz podle Seznam Zpráv ve famózní éře, finančně se ale ocitl v těžké krizi."
+          },
+          {
+            "en": "The new chairman Petr Pála said that the association will negotiate at the highest levels and, according to Sport.cz, wants to initiate a meeting with the minister.",
+            "cs": "Nový předseda Petr Pála uvedl, že svaz bude jednat na nejvyšších úrovních, a podle Sport.cz chce iniciovat schůzku s ministrem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "charged",
+            "definition": "officially accused of a crime"
+          },
+          {
+            "term": "subsidy",
+            "definition": "money given by a government to help an organisation"
+          },
+          {
+            "term": "initiate",
+            "definition": "to start something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Czech National Bank raised its key interest rate to four percent and worsened its outlook for the Czech economy.",
+    "After the elections the Democrats took both chambers of the US Congress, and the Republicans are looking for someone to blame for the defeat.",
+    "Four planes heading to Prague faced bomb threats, and bomb-disposal teams found no device.",
+    "Cristiano Ronaldo ended his career with the Portuguese national team after 234 matches."
+  ]
+}
