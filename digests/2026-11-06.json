@@ -1,0 +1,1595 @@
+{
+  "date": "2026-11-06",
+  "covers": "2026-11-06",
+  "window_hours": 24,
+  "sources_used": [
+    "Deník N",
+    "Seznam Zprávy",
+    "ČT24",
+    "iROZHLAS",
+    "E15",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "Root.cz",
+    "Hacker News",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "partly",
+    "summary": "Zítra polojasno a beze srážek, přes den až 9 °C. Ráno bude mrznout, teplota klesne k minus jednomu stupni, kvalita ovzduší zůstane zhoršená.",
+    "days": [
+      {
+        "date": "2026-11-07",
+        "icon": "partly",
+        "temp_max_c": 9.3,
+        "temp_min_c": -1.2
+      },
+      {
+        "date": "2026-11-08",
+        "icon": "partly",
+        "temp_max_c": 8.2,
+        "temp_min_c": -0.7
+      },
+      {
+        "date": "2026-11-09",
+        "icon": "cloudy",
+        "temp_max_c": 7.0,
+        "temp_min_c": -0.4
+      },
+      {
+        "date": "2026-11-10",
+        "icon": "rain",
+        "temp_max_c": 6.0,
+        "temp_min_c": 2.1
+      }
+    ],
+    "summary_en": "Tomorrow will be partly cloudy and dry, up to 9 °C during the day. The morning will be frosty, with the temperature dropping to around minus one, and air quality will stay worse than usual."
+  },
+  "highlights": [
+    "Rozsáhlý výpadek proudu na levém břehu Vltavy přerušil na více než hodinu jednání Poslanecké sněmovny a zasáhl i tři velké pražské nemocnice.",
+    "Evropská komise zařadila Česko mezi země ohrožené migračním tlakem, ministr vnitra proto požádá o úplné snížení příspěvku do solidárního mechanismu EU.",
+    "Počet obětí pondělního ruského úderu na humanitární středisko v Komyšuvaše stoupl na 53, jde o nejsmrtelnější ruský útok za letošek.",
+    "Výprodej technologických akcií se z Wall Street přelil do Asie, japonský index Nikkei spadl o šest procent."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:24",
+      "headline": "Výpadek proudu v Praze přerušil jednání Sněmovny a zasáhl velké nemocnice",
+      "body": "Část Prahy na levém břehu Vltavy zasáhl dopoledne rozsáhlý výpadek elektřiny. Podle mluvčího Pražské energetiky Karla Hanzelky byl příčinou zkrat v rozvodně Západ, bez proudu bylo asi 45 minut zhruba 70 tisíc odběrných míst. Výpadek se dotkl také tří velkých pražských nemocnic a Malé Strany, kde sídlí Poslanecká sněmovna. Poslanci museli jednání přerušit na více než hodinu, v budově fungovalo jen nouzové osvětlení a poslanecké systémy byly zcela mimo provoz, takže nešlo pokračovat v rozpravě ani hlasovat. Dodávky se ve Sněmovně částečně obnovily po desáté hodině. Podle E15 incident otevřel debatu o energetické bezpečnosti dolní komory poté, co předseda Sněmovny Tomio Okamura přiznal, že záložní zdroje zvládnou napájet pouze nouzová světla.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/svetla-zhasla-vypnuly-se-mikrofony-vypadek-proudu-ve-snemovne-vyvolal-otazky-o_2611061524_ako"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/tma-ve-snemovne-vypadek-proudu-v-praze-ochromil-poslance-fungovalo-jen-nouzove-svetlo-1437154"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/prahu-zasahl-vypadek-elektriny-postihl-take-velke-prazske-nemocnice-co-v-takove_2611061233_aln"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248141/"
+        }
+      ],
+      "en": {
+        "headline": "A power cut in Prague interrupted the Chamber of Deputies and hit major hospitals",
+        "sentences": [
+          {
+            "en": "A large power outage hit part of Prague on the left bank of the Vltava this morning.",
+            "cs": "Část Prahy na levém břehu Vltavy zasáhl dopoledne rozsáhlý výpadek elektřiny."
+          },
+          {
+            "en": "According to Karel Hanzelka, a spokesman for Pražská energetika, the cause was a short circuit at the Západ substation; about 70,000 supply points were without power for roughly 45 minutes.",
+            "cs": "Podle mluvčího Pražské energetiky Karla Hanzelky byl příčinou zkrat v rozvodně Západ, bez proudu bylo asi 45 minut zhruba 70 tisíc odběrných míst."
+          },
+          {
+            "en": "The outage also affected three major Prague hospitals and Malá Strana, where the Chamber of Deputies sits.",
+            "cs": "Výpadek se dotkl také tří velkých pražských nemocnic a Malé Strany, kde sídlí Poslanecká sněmovna."
+          },
+          {
+            "en": "MPs had to suspend the session for more than an hour; only emergency lighting worked in the building and the parliamentary systems were completely out of service, so the debate could not continue and no votes could be held.",
+            "cs": "Poslanci museli jednání přerušit na více než hodinu, v budově fungovalo jen nouzové osvětlení a poslanecké systémy byly zcela mimo provoz, takže nešlo pokračovat v rozpravě ani hlasovat."
+          },
+          {
+            "en": "Supplies at the Chamber were partly restored after ten o'clock.",
+            "cs": "Dodávky se ve Sněmovně částečně obnovily po desáté hodině."
+          },
+          {
+            "en": "According to E15 the incident opened a debate about the energy security of the lower house after the Speaker of the Chamber, Tomio Okamura, admitted that the backup sources can power only the emergency lights.",
+            "cs": "Podle E15 incident otevřel debatu o energetické bezpečnosti dolní komory poté, co předseda Sněmovny Tomio Okamura přiznal, že záložní zdroje zvládnou napájet pouze nouzová světla."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "substation",
+            "definition": "an electrical facility where voltage is changed before power goes on to homes and businesses"
+          },
+          {
+            "term": "outage",
+            "definition": "a period when electricity or another service stops working"
+          },
+          {
+            "term": "suspend",
+            "definition": "to stop something for a short time"
+          },
+          {
+            "term": "lower house",
+            "definition": "the larger of the two parts of a parliament"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "18:17",
+      "day": "prev",
+      "headline": "Babiš po jednání s Českou televizí připustil změny v návrhu financování veřejnoprávních médií",
+      "body": "Premiér Andrej Babiš zvažuje, že Česká televize a Český rozhlas po zrušení mediálních poplatků dostanou více peněz; změnit by se podle Deníku N mohl i model jejich financování. V rozhovoru pro Českou televizi Babiš připustil, že valorizační vzorec, který má po přesunu financování pod státní rozpočet zvyšovat rozpočet obou médií při desetiprocentní kumulativní inflaci, by se mohl snížit na šest procent. Změny v návrhu podmínil souhlasem koaličních partnerů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/babis-pripustil-moznost-upravy-valorizacniho-vzorce-v-navrhu-financovani-ct-a-cro-379328"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2247510/babis-po-jednani-s-ct-ustupuje-media-by-mohla-dostat-vic-penez/"
+        }
+      ],
+      "en": {
+        "headline": "After talks with Czech Television, Babiš has admitted changes to the plan for funding public media",
+        "sentences": [
+          {
+            "en": "Prime Minister Andrej Babiš is considering giving Czech Television and Czech Radio more money once the media licence fees are abolished; according to Deník N, the model of their funding could change as well.",
+            "cs": "Premiér Andrej Babiš zvažuje, že Česká televize a Český rozhlas po zrušení mediálních poplatků dostanou více peněz; změnit by se podle Deníku N mohl i model jejich financování."
+          },
+          {
+            "en": "In an interview for Czech Television, Babiš admitted that the indexation formula, which after the shift of funding to the state budget is meant to raise the budget of both broadcasters when cumulative inflation reaches ten percent, could be lowered to six percent.",
+            "cs": "V rozhovoru pro Českou televizi Babiš připustil, že valorizační vzorec, který má po přesunu financování pod státní rozpočet zvyšovat rozpočet obou médií při desetiprocentní kumulativní inflaci, by se mohl snížit na šest procent."
+          },
+          {
+            "en": "He made the changes conditional on the agreement of his coalition partners.",
+            "cs": "Změny v návrhu podmínil souhlasem koaličních partnerů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "abolished",
+            "definition": "officially ended or stopped, such as a law or a fee"
+          },
+          {
+            "term": "indexation",
+            "definition": "the linking of an amount of money to the rise in prices"
+          },
+          {
+            "term": "cumulative",
+            "definition": "including all the amounts that have been added together so far"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:27",
+      "headline": "Sněmovna ukončila třítýdenní schůzi, novelu o kontrole veřejnoprávních médií odložila",
+      "body": "Poslanecká sněmovna ukončila schůzi, která trvala tři týdny a začala v polovině října. Odložila mimo jiné schvalování novely, jež má umožnit Nejvyššímu kontrolnímu úřadu prověrku České televize a Českého rozhlasu. Opozice během schůze ani počtvrté neprosadila zařazení návrhu na odvolání Tomia Okamury z čela Sněmovny; vyčítá mu postup při jednání o koncesionářských poplatcích.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248436/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248149/"
+        }
+      ],
+      "en": {
+        "headline": "The Chamber of Deputies ended a three-week sitting and postponed the bill on auditing public media",
+        "sentences": [
+          {
+            "en": "The Chamber of Deputies ended a sitting that lasted three weeks and began in mid-October.",
+            "cs": "Poslanecká sněmovna ukončila schůzi, která trvala tři týdny a začala v polovině října."
+          },
+          {
+            "en": "Among other things, it postponed approval of a bill that would allow the Supreme Audit Office to inspect Czech Television and Czech Radio.",
+            "cs": "Odložila mimo jiné schvalování novely, jež má umožnit Nejvyššímu kontrolnímu úřadu prověrku České televize a Českého rozhlasu."
+          },
+          {
+            "en": "For the fourth time, the opposition failed to get a motion to remove Tomio Okamura as Speaker onto the agenda; it blames him for the way the debate on licence fees was handled.",
+            "cs": "Opozice během schůze ani počtvrté neprosadila zařazení návrhu na odvolání Tomia Okamury z čela Sněmovny; vyčítá mu postup při jednání o koncesionářských poplatcích."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sitting",
+            "definition": "a period when a parliament or a court meets and works"
+          },
+          {
+            "term": "bill",
+            "definition": "a written plan for a new law before it is approved"
+          },
+          {
+            "term": "motion",
+            "definition": "a formal proposal that a group votes on"
+          },
+          {
+            "term": "agenda",
+            "definition": "the list of items to be dealt with at a meeting"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:01",
+      "headline": "Evropská komise zařadila Česko mezi země ohrožené migračním tlakem, Praha požádá o výjimku z příspěvků",
+      "body": "Evropská komise ve své výroční zprávě zařadila Česko mezi státy čelící významné migrační situaci a nově také mezi země ohrožené migračním tlakem. Takové státy se nemusejí podílet na evropském systému solidarity, Česko tedy může požádat o úplné nebo částečné vynětí z povinného mechanismu v rámci nového unijního migračního paktu. Ministr vnitra Lubomír Metnar za ANO proto zašle Komisi žádost o úplné snížení českého příspěvku do mechanismu solidarity pro příští rok. V Česku je podle ministerstva nyní téměř 400 tisíc uprchlíků z Ukrajiny s dočasnou ochranou a kvůli jejich vysokému počtu získalo Česko výjimku z příspěvků i pro letošek. Podle E15 status Praze zajistí nejen úlevu od povinných finančních či relokačních příspěvků, ale také přednostní přístup k evropským podpůrným nástrojům pro zvládání migrace.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248578/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-evropska-komise-zaradila-cesko-mezi-zeme-ohrozene-migracnim-tlakem-319874"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/cesko-se-vyhne-migracnim-poplatkum-evropska-komise-ho-zaradila-mezi-zeme-pod-silnym-tlakem-1437153"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission has placed Czechia among countries at risk of migratory pressure and Prague will ask to be exempted from contributions",
+        "sentences": [
+          {
+            "en": "In its annual report the European Commission placed Czechia among states facing a significant migratory situation and, newly, among countries at risk of migratory pressure.",
+            "cs": "Evropská komise ve své výroční zprávě zařadila Česko mezi státy čelící významné migrační situaci a nově také mezi země ohrožené migračním tlakem."
+          },
+          {
+            "en": "Such states do not have to take part in the European solidarity system, so Czechia can ask for a full or partial exemption from the compulsory mechanism under the new EU migration pact.",
+            "cs": "Takové státy se nemusejí podílet na evropském systému solidarity, Česko tedy může požádat o úplné nebo částečné vynětí z povinného mechanismu v rámci nového unijního migračního paktu."
+          },
+          {
+            "en": "Interior Minister Lubomír Metnar of ANO will therefore send the Commission a request for a full reduction of the Czech contribution to the solidarity mechanism for next year.",
+            "cs": "Ministr vnitra Lubomír Metnar za ANO proto zašle Komisi žádost o úplné snížení českého příspěvku do mechanismu solidarity pro příští rok."
+          },
+          {
+            "en": "According to the ministry there are now almost 400,000 refugees from Ukraine with temporary protection in Czechia, and because of their high number the country was exempted from contributions for this year as well.",
+            "cs": "V Česku je podle ministerstva nyní téměř 400 tisíc uprchlíků z Ukrajiny s dočasnou ochranou a kvůli jejich vysokému počtu získalo Česko výjimku z příspěvků i pro letošek."
+          },
+          {
+            "en": "According to E15 the status will give Prague not only relief from compulsory financial or relocation contributions, but also priority access to European support instruments for managing migration.",
+            "cs": "Podle E15 status Praze zajistí nejen úlevu od povinných finančních či relokačních příspěvků, ale také přednostní přístup k evropským podpůrným nástrojům pro zvládání migrace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "exemption",
+            "definition": "official permission not to do something that others must do"
+          },
+          {
+            "term": "compulsory",
+            "definition": "that must be done because of a rule or a law"
+          },
+          {
+            "term": "relocation",
+            "definition": "the moving of people or things to a different place"
+          },
+          {
+            "term": "relief",
+            "definition": "a reduction of something unpleasant, such as a duty or a payment"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:23",
+      "headline": "Daňový posudek, kterým ministerstvo kritizuje KRNAP, dodala firma propojená s manželkou jeho úředníka",
+      "body": "Ministerstvo životního prostředí se při kritice Krkonošského národního parku kvůli odpočtu daní odvolávalo na „nezávislý“ posudek. Podle Seznam Zpráv ho vypracovala firma ze skupiny, v níž působí i manželka vlivného úředníka tohoto ministerstva. Deník N zjišťoval, kdo zakázku na daňové posouzení získal. Park může kvůli údajným chybám v DPH přijít až o sto milionů korun.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-kontroly-v-krnap-cerveny-vyuzil-posudek-od-firmy-propojene-s-jeho-urednikem-319868"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2248092/danovy-posudek-pro-krnap-dodala-firma-propojena-s-manzelkou-ministerskeho-urednika/"
+        }
+      ],
+      "en": {
+        "headline": "The tax assessment the ministry uses to criticise KRNAP came from a firm linked to the wife of one of its officials",
+        "sentences": [
+          {
+            "en": "When criticising the Krkonoše National Park over its tax deductions, the Ministry of the Environment referred to an “independent” assessment.",
+            "cs": "Ministerstvo životního prostředí se při kritice Krkonošského národního parku kvůli odpočtu daní odvolávalo na „nezávislý“ posudek."
+          },
+          {
+            "en": "According to Seznam Zprávy it was drawn up by a company belonging to a group in which the wife of an influential official of that ministry also works.",
+            "cs": "Podle Seznam Zpráv ho vypracovala firma ze skupiny, v níž působí i manželka vlivného úředníka tohoto ministerstva."
+          },
+          {
+            "en": "Deník N looked into who won the contract for the tax assessment.",
+            "cs": "Deník N zjišťoval, kdo zakázku na daňové posouzení získal."
+          },
+          {
+            "en": "Because of alleged errors in value added tax the park could lose up to a hundred million crowns.",
+            "cs": "Park může kvůli údajným chybám v DPH přijít až o sto milionů korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deductions",
+            "definition": "amounts taken away from a total, for example from the tax you must pay"
+          },
+          {
+            "term": "drawn up",
+            "definition": "prepared or written, usually a formal document"
+          },
+          {
+            "term": "alleged",
+            "definition": "said to be true, but not proved"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:32",
+      "headline": "Poplatek za odběr podzemní vody má vzrůst více než trojnásobně",
+      "body": "Vláda chce kvůli dlouhotrvajícímu suchu výrazně zdražit odběr podzemní vody: poplatek může vzrůst ze současných dvou na sedm korun za kubický metr. Proti změně protestuje opozice i zástupci krajů a měst, odborníci ji naopak podle Deníku vítají. Koalice si navíc podle Národní rozpočtové rady své plány špatně spočítala. Malých obcí se zdražení dotknout nemá.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/ekonomika/podzemni-voda-zdrazi-opozice-se-bouri-odbornici-zmenu-vitaji/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2247073/podzemni-voda-zdrazi-vice-nez-trojnasobne-ktere-domacnosti-si-kvuli-tomu-priplati/"
+        }
+      ],
+      "en": {
+        "headline": "The charge for taking groundwater is to rise more than threefold",
+        "sentences": [
+          {
+            "en": "Because of the long-lasting drought the government wants to make the extraction of groundwater much more expensive: the charge could rise from the current two to seven crowns per cubic metre.",
+            "cs": "Vláda chce kvůli dlouhotrvajícímu suchu výrazně zdražit odběr podzemní vody: poplatek může vzrůst ze současných dvou na sedm korun za kubický metr."
+          },
+          {
+            "en": "The opposition and representatives of regions and towns are protesting against the change, while experts, according to Deník, welcome it.",
+            "cs": "Proti změně protestuje opozice i zástupci krajů a měst, odborníci ji naopak podle Deníku vítají."
+          },
+          {
+            "en": "On top of that, the National Budget Council says the coalition has miscalculated its plans.",
+            "cs": "Koalice si navíc podle Národní rozpočtové rady své plány špatně spočítala."
+          },
+          {
+            "en": "Small municipalities are not supposed to be affected by the increase.",
+            "cs": "Malých obcí se zdražení dotknout nemá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "drought",
+            "definition": "a long period with little or no rain"
+          },
+          {
+            "term": "extraction",
+            "definition": "the act of taking something out of the ground"
+          },
+          {
+            "term": "miscalculated",
+            "definition": "worked out an amount or a result wrongly"
+          },
+          {
+            "term": "municipalities",
+            "definition": "towns or villages with their own local government"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:42",
+      "headline": "Opatovická elektrárna podepsala smlouvu na stavbu spalovny odpadu za 6,6 miliardy",
+      "body": "Kontroverzní spalovna odpadu v Čeperce u Opatovic nad Labem míří do stavby. Vyjde na 6,6 miliardy korun, z toho čtyři miliardy dofinancuje stát z Modernizačního fondu. Projekt nezastavil odpor místních obyvatel, dvě referenda ani odvolání měst a obcí; má nahradit končící uhelné zdroje a vyřešit problém s odpadem v regionu před rokem 2030, kdy skončí možnost skládkování. Podle E15 spalovna ročně spálí 150 tisíc tun odpadu, které přemění na teplo pro blízké obce. Elektrárna patří do skupiny EPH Daniela Křetínského.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/opatovice-konec-uhli-ceperka-spalovna-stavba/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/kretinskeho-spalovna-odpadu-vyjde-na-6-6-miliardy-vetsinu-ma-pokryt-dotace-1437138"
+        }
+      ],
+      "en": {
+        "headline": "The Opatovice power plant has signed a contract to build a waste incinerator for 6.6 billion",
+        "sentences": [
+          {
+            "en": "The controversial waste incinerator in Čeperka near Opatovice nad Labem is heading for construction.",
+            "cs": "Kontroverzní spalovna odpadu v Čeperce u Opatovic nad Labem míří do stavby."
+          },
+          {
+            "en": "It will cost 6.6 billion crowns, four billion of which will be covered by the state from the Modernisation Fund.",
+            "cs": "Vyjde na 6,6 miliardy korun, z toho čtyři miliardy dofinancuje stát z Modernizačního fondu."
+          },
+          {
+            "en": "The project was not stopped by the resistance of local residents, two referendums or appeals from towns and villages; it is meant to replace the coal sources that are coming to an end and to solve the region's waste problem before 2030, when landfilling will no longer be possible.",
+            "cs": "Projekt nezastavil odpor místních obyvatel, dvě referenda ani odvolání měst a obcí; má nahradit končící uhelné zdroje a vyřešit problém s odpadem v regionu před rokem 2030, kdy skončí možnost skládkování."
+          },
+          {
+            "en": "According to E15 the incinerator will burn 150,000 tonnes of waste a year and turn it into heat for nearby villages.",
+            "cs": "Podle E15 spalovna ročně spálí 150 tisíc tun odpadu, které přemění na teplo pro blízké obce."
+          },
+          {
+            "en": "The power plant belongs to Daniel Křetínský's EPH group.",
+            "cs": "Elektrárna patří do skupiny EPH Daniela Křetínského."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "incinerator",
+            "definition": "a plant that destroys waste by burning it"
+          },
+          {
+            "term": "landfilling",
+            "definition": "burying waste in a large hole in the ground"
+          },
+          {
+            "term": "appeals",
+            "definition": "formal requests to a higher authority to change a decision"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:16",
+      "headline": "Rychnov nad Kněžnou povede po šestnácti letech Jana Drejslová",
+      "body": "Starostkou Rychnova nad Kněžnou se stala dosavadní místostarostka a jednička kandidátky uskupení Rychnov Plus Jana Drejslová. Získala dvacet hlasů z jednadvaceti možných. Ve funkci po šestnácti letech střídá Jana Skořepu z uskupení Nezávislí za Rychnov, který se o post starosty znovu neucházel.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/rychnovsko/905056-rychnov-nad-kneznou-povede-dosavadni-mistostarostka-jana-drejslova.html"
+        }
+      ],
+      "en": {
+        "headline": "Jana Drejslová will lead Rychnov nad Kněžnou after sixteen years",
+        "sentences": [
+          {
+            "en": "Jana Drejslová, until now deputy mayor and the lead candidate of the Rychnov Plus grouping, has become mayor of Rychnov nad Kněžnou.",
+            "cs": "Starostkou Rychnova nad Kněžnou se stala dosavadní místostarostka a jednička kandidátky uskupení Rychnov Plus Jana Drejslová."
+          },
+          {
+            "en": "She received twenty votes out of a possible twenty-one.",
+            "cs": "Získala dvacet hlasů z jednadvaceti možných."
+          },
+          {
+            "en": "After sixteen years she replaces Jan Skořepa of the Nezávislí za Rychnov grouping, who did not run for mayor again.",
+            "cs": "Ve funkci po šestnácti letech střídá Jana Skořepu z uskupení Nezávislí za Rychnov, který se o post starosty znovu neucházel."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deputy",
+            "definition": "a person who is second in rank and can act for their superior"
+          },
+          {
+            "term": "grouping",
+            "definition": "a set of people or parties joined together for a common purpose"
+          },
+          {
+            "term": "run for",
+            "definition": "to try to be elected to a position"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "06:10",
+      "headline": "Hradecká fakultní nemocnice nasadila umělou inteligenci při vyšetření prsou i operacích srdce",
+      "body": "Ve Fakultní nemocnici Hradec Králové už umělá inteligence pomáhá hledat drobné změny na snímcích prsou, hodnotit srdeční činnost i vybírat velikost chlopenní náhrady. Podle nemocnice šetří čas a podporuje přesnější hodnocení. Její výstupy dál kontrolují lékaři.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zdravi/905030-vysetreni-prsou-i-operace-srdce-hradeckym-lekarum-pomaha-umela-inteligence.html"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec Králové university hospital has deployed artificial intelligence for breast scans and heart surgery",
+        "sentences": [
+          {
+            "en": "At the University Hospital Hradec Králové, artificial intelligence already helps to find small changes on breast scans, to assess heart activity and to choose the size of a valve replacement.",
+            "cs": "Ve Fakultní nemocnici Hradec Králové už umělá inteligence pomáhá hledat drobné změny na snímcích prsou, hodnotit srdeční činnost i vybírat velikost chlopenní náhrady."
+          },
+          {
+            "en": "According to the hospital it saves time and supports more accurate assessment.",
+            "cs": "Podle nemocnice šetří čas a podporuje přesnější hodnocení."
+          },
+          {
+            "en": "Its outputs are still checked by doctors.",
+            "cs": "Její výstupy dál kontrolují lékaři."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deployed",
+            "definition": "put into use for a particular purpose"
+          },
+          {
+            "term": "valve",
+            "definition": "a part that keeps blood or liquid flowing in one direction"
+          },
+          {
+            "term": "assess",
+            "definition": "to judge the quality, amount or condition of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:14",
+      "headline": "Špindlerův Mlýn začne letos v zimě propojovat své dvě hlavní lyžařské oblasti",
+      "body": "Po téměř třiceti letech čekání se ve Špindlerově Mlýně začnou propojovat dvě hlavní lyžařské oblasti. Další krkonošská střediska mezitím podle Hradecké drbny investují desítky milionů do techniky a lákají i na zážitky mimo sjezdovky.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/904998-ve-spindlu-pada-tricetileta-bariera-lyzare-ceka-velka-zmena.html"
+        }
+      ],
+      "en": {
+        "headline": "Špindlerův Mlýn will start connecting its two main ski areas this winter",
+        "sentences": [
+          {
+            "en": "After almost thirty years of waiting, the two main ski areas in Špindlerův Mlýn will start to be connected.",
+            "cs": "Po téměř třiceti letech čekání se ve Špindlerově Mlýně začnou propojovat dvě hlavní lyžařské oblasti."
+          },
+          {
+            "en": "Other Krkonoše resorts are meanwhile investing tens of millions in equipment and, according to Hradecká drbna, are also attracting visitors with experiences away from the slopes.",
+            "cs": "Další krkonošská střediska mezitím podle Hradecké drbny investují desítky milionů do techniky a lákají i na zážitky mimo sjezdovky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resorts",
+            "definition": "places where people go for holidays, often for a particular sport"
+          },
+          {
+            "term": "slopes",
+            "definition": "hillsides prepared for skiing"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:01",
+      "headline": "Ruský úder na humanitární středisko v Komyšuvaše má 53 obětí",
+      "body": "Počet obětí pondělního ruského útoku leteckými pumami na středisko humanitární pomoci v obci Komyšuvacha v Záporožské oblasti stoupl na 53. Oznámil to velitel regionální vojenské správy Mychajlo Semikin, Státní služba pro mimořádné situace o něco dříve hlásila padesát mrtvých. Jde o ruský útok s nejvyšším počtem obětí za letošní rok. Záchranné práce na místě stále pokračují a počet pohřešovaných zveřejněn nebyl. Ve středu po útoku hlásily úřady nejméně 24 mrtvých.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/online-rusky-pondelni-utok-na-komysuvachu-ma-53-obeti-na-miste-stale-pokracuji_2611061501_vsn"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-rusky-pondelni-utok-na-ukrajinskou-komysuvachu-ma-53-obeti-hlasi-urady-319895"
+        }
+      ],
+      "en": {
+        "headline": "The Russian strike on a humanitarian centre in Komyšuvacha has killed 53 people",
+        "sentences": [
+          {
+            "en": "The number of victims of Monday's Russian attack with aerial bombs on a humanitarian aid centre in the village of Komyšuvacha in the Zaporizhzhia region has risen to 53.",
+            "cs": "Počet obětí pondělního ruského útoku leteckými pumami na středisko humanitární pomoci v obci Komyšuvacha v Záporožské oblasti stoupl na 53."
+          },
+          {
+            "en": "This was announced by the commander of the regional military administration, Mychajlo Semikin; the State Emergency Service had reported fifty dead somewhat earlier.",
+            "cs": "Oznámil to velitel regionální vojenské správy Mychajlo Semikin, Státní služba pro mimořádné situace o něco dříve hlásila padesát mrtvých."
+          },
+          {
+            "en": "It is the Russian attack with the highest number of victims this year.",
+            "cs": "Jde o ruský útok s nejvyšším počtem obětí za letošní rok."
+          },
+          {
+            "en": "Rescue work is still going on at the site and the number of people still missing has not been released.",
+            "cs": "Záchranné práce na místě stále pokračují a počet pohřešovaných zveřejněn nebyl."
+          },
+          {
+            "en": "On Wednesday, after the attack, the authorities reported at least 24 dead.",
+            "cs": "Ve středu po útoku hlásily úřady nejméně 24 mrtvých."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "aerial",
+            "definition": "happening in or coming from the air"
+          },
+          {
+            "term": "humanitarian",
+            "definition": "concerned with helping people who are suffering"
+          },
+          {
+            "term": "authorities",
+            "definition": "the people or organisations with official power"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:43",
+      "headline": "Trump se za zavřenými dveřmi sešel s Putinovým emisarem, Kushner ohlásil novou vlnu mírových jednání",
+      "body": "Americký prezident Donald Trump se za zavřenými dveřmi setkal s emisarem Kremlu Kirillem Dmitrijevem. Ukrajinští zástupci k jednání přizváni nebyli. Trumpův vyjednavač Jared Kushner zároveň oznámil novou vlnu mírových rozhovorů už na příští týden. Podle Deníku N proběhla zásadní jednání o budoucnosti rusko-ukrajinské války ve čtvrtek v Bruselu a Washingtonu a zúčastnění mluví o „velké, nádherné dohodě“ pro celou Evropu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248439/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2248002/i-love-melania-u-trumpa-byl-jen-putinuv-muz-usa-vzapeti-oznamily-nova-mirova-jednani/"
+        }
+      ],
+      "en": {
+        "headline": "Trump met Putin's envoy behind closed doors and Kushner announced a new round of peace talks",
+        "sentences": [
+          {
+            "en": "US President Donald Trump met the Kremlin's envoy Kirill Dmitrijev behind closed doors.",
+            "cs": "Americký prezident Donald Trump se za zavřenými dveřmi setkal s emisarem Kremlu Kirillem Dmitrijevem."
+          },
+          {
+            "en": "Ukrainian representatives were not invited to the meeting.",
+            "cs": "Ukrajinští zástupci k jednání přizváni nebyli."
+          },
+          {
+            "en": "Trump's negotiator Jared Kushner at the same time announced a new round of peace talks as early as next week.",
+            "cs": "Trumpův vyjednavač Jared Kushner zároveň oznámil novou vlnu mírových rozhovorů už na příští týden."
+          },
+          {
+            "en": "According to Deník N, crucial negotiations on the future of the Russian-Ukrainian war took place on Thursday in Brussels and Washington, and those involved speak of a “big, beautiful deal” for the whole of Europe.",
+            "cs": "Podle Deníku N proběhla zásadní jednání o budoucnosti rusko-ukrajinské války ve čtvrtek v Bruselu a Washingtonu a zúčastnění mluví o „velké, nádherné dohodě“ pro celou Evropu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "envoy",
+            "definition": "a person sent to represent a government in talks"
+          },
+          {
+            "term": "behind closed doors",
+            "definition": "in private, with the public and the press kept out"
+          },
+          {
+            "term": "negotiator",
+            "definition": "a person whose job is to reach an agreement by discussion"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:39",
+      "headline": "Vlna bombových výhrůžek zasáhla další lety do Prahy i britská a irská média",
+      "body": "Anonymní bombové výhrůžky, které od pondělí donutily nouzově přistát desítky letů napříč Evropou, pokračovaly i dnes. V Praze se podle Seznam Zpráv týkaly čtyř příletů a pěti odletů, policie na síti X informovala, že bezpečnostní opatření na ruzyňském letišti skončila a prohlídky letadel žádné podezřelé předměty nepotvrdily. Podle E15 se výhrůžky dotkly celkem devíti linek směřujících do Prahy či z ní a spoj Wizz Airu z Prahy do Říma musel nouzově přistát v Benátkách; hrozby zasáhly také Francii, Dánsko, Portugalsko a Itálii. Bombové hrozby dnes obdržel i britský vysílatel Sky a irská média včetně veřejnoprávní RTÉ, prostory irských mediálních skupin byly podle agentury Reuters evakuovány. E-maily údajně pocházely od stejného odesílatele, který stojí za falešnými hrozbami po celé Evropě. Žádný z dosavadních poplachů se nepotvrdil.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-lety-v-evrope-celi-od-zacatku-tydne-bombovym-vyhruzkam-319886"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/doprava-a-logistika/letecka-doprava-v-evrope-se-potyka-s-dalsimi-bombovymi-hrozbami-1437157"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248375/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248334/"
+        }
+      ],
+      "en": {
+        "headline": "A wave of bomb threats hit more flights to Prague and British and Irish media",
+        "sentences": [
+          {
+            "en": "The anonymous bomb threats that have forced dozens of flights across Europe to make emergency landings since Monday continued today.",
+            "cs": "Anonymní bombové výhrůžky, které od pondělí donutily nouzově přistát desítky letů napříč Evropou, pokračovaly i dnes."
+          },
+          {
+            "en": "In Prague they concerned four arrivals and five departures, according to Seznam Zprávy, and the police said on X that the security measures at Ruzyně airport had ended and that searches of the aircraft had turned up no suspicious objects.",
+            "cs": "V Praze se podle Seznam Zpráv týkaly čtyř příletů a pěti odletů, policie na síti X informovala, že bezpečnostní opatření na ruzyňském letišti skončila a prohlídky letadel žádné podezřelé předměty nepotvrdily."
+          },
+          {
+            "en": "According to E15 the threats affected nine routes to and from Prague in total, and a Wizz Air flight from Prague to Rome had to make an emergency landing in Venice; the threats also hit France, Denmark, Portugal and Italy.",
+            "cs": "Podle E15 se výhrůžky dotkly celkem devíti linek směřujících do Prahy či z ní a spoj Wizz Airu z Prahy do Říma musel nouzově přistát v Benátkách; hrozby zasáhly také Francii, Dánsko, Portugalsko a Itálii."
+          },
+          {
+            "en": "Bomb threats were also received today by the British broadcaster Sky and by Irish media including the public service company RTÉ, and the premises of the Irish media groups were evacuated, according to the Reuters agency.",
+            "cs": "Bombové hrozby dnes obdržel i britský vysílatel Sky a irská média včetně veřejnoprávní RTÉ, prostory irských mediálních skupin byly podle agentury Reuters evakuovány."
+          },
+          {
+            "en": "The emails are said to have come from the same sender who is behind the false threats across Europe.",
+            "cs": "E-maily údajně pocházely od stejného odesílatele, který stojí za falešnými hrozbami po celé Evropě."
+          },
+          {
+            "en": "None of the alerts so far has turned out to be genuine.",
+            "cs": "Žádný z dosavadních poplachů se nepotvrdil."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turned up",
+            "definition": "found or discovered something, often by searching"
+          },
+          {
+            "term": "premises",
+            "definition": "the buildings and land that a business or an organisation uses"
+          },
+          {
+            "term": "evacuated",
+            "definition": "moved people out of a place because it is dangerous"
+          },
+          {
+            "term": "alerts",
+            "definition": "warnings that something dangerous may happen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:01",
+      "headline": "TikTok podle předběžných závěrů Evropské komise porušuje unijní nařízení o digitálních službách",
+      "body": "Evropská komise předběžně shledala, že čínská sociální síť TikTok porušuje unijní nařízení o digitálních službách. Stránka nazvaná Pro tebe podle Komise zobrazuje uživatelům nepřetržitý proud personalizovaných videí, a to i v případě, že se týkají problémů s duševním zdravím a vnímáním vlastního těla. Podle ČT24 Komise argumentuje tím, že algoritmus vede uživatele do „králičích nor“.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-tiktok-podle-komise-porusuje-kvuli-doporucovacimu-algoritmu-unijni-narizeni-319884"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/tiktok-porusuje-narizeni-a-vede-uzivatele-do-kralicich-nor-mini-ek-379352"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248218/"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission has preliminarily found that TikTok breaches the EU digital services regulation",
+        "sentences": [
+          {
+            "en": "The European Commission has preliminarily found that the Chinese social network TikTok breaches the EU regulation on digital services.",
+            "cs": "Evropská komise předběžně shledala, že čínská sociální síť TikTok porušuje unijní nařízení o digitálních službách."
+          },
+          {
+            "en": "According to the Commission, the page called For You shows users an endless stream of personalised videos, even when they deal with problems of mental health and body image.",
+            "cs": "Stránka nazvaná Pro tebe podle Komise zobrazuje uživatelům nepřetržitý proud personalizovaných videí, a to i v případě, že se týkají problémů s duševním zdravím a vnímáním vlastního těla."
+          },
+          {
+            "en": "According to ČT24 the Commission argues that the algorithm leads users into “rabbit holes”.",
+            "cs": "Podle ČT24 Komise argumentuje tím, že algoritmus vede uživatele do „králičích nor“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "preliminarily",
+            "definition": "in a first way, before a final decision is made"
+          },
+          {
+            "term": "breaches",
+            "definition": "breaks a rule, a law or an agreement"
+          },
+          {
+            "term": "rabbit holes",
+            "definition": "long chains of content that are hard to stop following"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:37",
+      "headline": "Čtvrtečních protestů ve Francii se podle odborů zúčastnilo 1,6 milionu lidí, obchody sčítají ztráty",
+      "body": "Francie sčítá škody po čtvrtečních stávkách a demonstracích, do kterých se podle odborů zapojilo až 1,6 milionu lidí; ministerstvo vnitra uvádí necelých 600 tisíc demonstrantů. Účast byla podle E15 vyšší než na předchozích demonstracích a protesty pokračovaly i na školách. Lidem vadí rostoucí náklady i krajní pravice, premiér kvůli mzdám svolal schůzku mezi odbory a zaměstnavateli. „V tuto dobu se všichni většinou připravují na Vánoce, začíná se nakupovat. Tentokrát mají lidé strach vydat se do ulic. Firmy mají ztráty a musí investovat do zabezpečení svých obchodů,“ řekla Českému rozhlasu Plus Lenka Girard, která žije v Paříži a vede dvě rodinné firmy.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/ekonomika/obchody-ve-francii-scitaji-ztraty-misto-vanocnich-trzeb-plati-za-bezpecnost_2611061237_ako"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/ve-francii-protestovalo-podle-odboru-1-6-milionu-lidi-vadi-jim-rostouci-naklady-i-krajni-pravice-1437141"
+        }
+      ],
+      "en": {
+        "headline": "According to the unions, 1.6 million people took part in Thursday's protests in France, and shops are counting their losses",
+        "sentences": [
+          {
+            "en": "France is counting the damage after Thursday's strikes and demonstrations, which according to the unions drew up to 1.6 million people; the Interior Ministry puts the figure at just under 600,000 demonstrators.",
+            "cs": "Francie sčítá škody po čtvrtečních stávkách a demonstracích, do kterých se podle odborů zapojilo až 1,6 milionu lidí; ministerstvo vnitra uvádí necelých 600 tisíc demonstrantů."
+          },
+          {
+            "en": "Turnout was higher than at previous demonstrations, according to E15, and the protests continued at schools as well.",
+            "cs": "Účast byla podle E15 vyšší než na předchozích demonstracích a protesty pokračovaly i na školách."
+          },
+          {
+            "en": "People object to rising costs and to the far right, and the prime minister has called a meeting between the unions and employers over wages.",
+            "cs": "Lidem vadí rostoucí náklady i krajní pravice, premiér kvůli mzdám svolal schůzku mezi odbory a zaměstnavateli."
+          },
+          {
+            "en": "“At this time of year everyone is usually getting ready for Christmas, people start shopping. This time they are afraid to go out into the streets. Companies are making losses and have to invest in securing their shops,” Lenka Girard, who lives in Paris and runs two family firms, told Czech Radio Plus.",
+            "cs": "„V tuto dobu se všichni většinou připravují na Vánoce, začíná se nakupovat. Tentokrát mají lidé strach vydat se do ulic. Firmy mají ztráty a musí investovat do zabezpečení svých obchodů,“ řekla Českému rozhlasu Plus Lenka Girard, která žije v Paříži a vede dvě rodinné firmy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to an event or who vote"
+          },
+          {
+            "term": "far right",
+            "definition": "political groups with extreme conservative and nationalist views"
+          },
+          {
+            "term": "object to",
+            "definition": "to say that you disagree with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "06:00",
+      "headline": "Čistky v Číně zasáhly i armádní špičky, strana vyloučila 33 vysokých funkcionářů",
+      "body": "Čínská komunistická strana potvrdila vyloučení 33 vysoce postavených funkcionářů včetně bývalých členů politbyra a špiček armády. Na plenárním zasedání ústředního výboru chyběla více než čtvrtina jeho původního složení. Čtrnáct let trvající protikorupční kampaň Si Ťin-pchinga tak podle ČT24 stále výrazněji prosazuje i stranickou disciplínu a politickou loajalitu. Čistky zároveň vyvolávají otázky o dopadu na fungování státního aparátu i armády.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/si-upevnuje-moc-cistky-v-cine-zasahuji-i-armadni-spicky-379244"
+        }
+      ],
+      "en": {
+        "headline": "Purges in China have reached the top of the army, with the party expelling 33 senior officials",
+        "sentences": [
+          {
+            "en": "The Chinese Communist Party has confirmed the expulsion of 33 senior officials, including former members of the Politburo and the top ranks of the army.",
+            "cs": "Čínská komunistická strana potvrdila vyloučení 33 vysoce postavených funkcionářů včetně bývalých členů politbyra a špiček armády."
+          },
+          {
+            "en": "More than a quarter of the original membership of the Central Committee was missing from its plenary session.",
+            "cs": "Na plenárním zasedání ústředního výboru chyběla více než čtvrtina jeho původního složení."
+          },
+          {
+            "en": "Xi Jinping's anti-corruption campaign, which has lasted fourteen years, is thus according to ČT24 increasingly enforcing party discipline and political loyalty as well.",
+            "cs": "Čtrnáct let trvající protikorupční kampaň Si Ťin-pchinga tak podle ČT24 stále výrazněji prosazuje i stranickou disciplínu a politickou loajalitu."
+          },
+          {
+            "en": "The purges also raise questions about their impact on the functioning of the state apparatus and the army.",
+            "cs": "Čistky zároveň vyvolávají otázky o dopadu na fungování státního aparátu i armády."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "purges",
+            "definition": "the removal of unwanted people from an organisation, often by force"
+          },
+          {
+            "term": "expulsion",
+            "definition": "the act of forcing someone to leave a group or a place"
+          },
+          {
+            "term": "plenary",
+            "definition": "attended by all the members of a body"
+          },
+          {
+            "term": "enforcing",
+            "definition": "making sure that a rule is obeyed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:02",
+      "headline": "Ministerstvo financí zhoršilo letošní výhled růstu ekonomiky na 1,7 procenta",
+      "body": "Ministerstvo financí v nové ekonomické predikci zhoršilo letošní výhled vývoje ekonomiky: hrubý domácí produkt podle něj vzroste o 1,7 procenta místo srpnových 1,9 procenta. Důvodem jsou podle ministerstva zejména ceny paliv a energií, které vzrostly v reakci na válku na Blízkém východě. Pro příští rok naopak ministerstvo čeká zrychlení růstu na 2,5 procenta, srpnová predikce počítala s 2,4 procenta. Průměrná inflace by letos měla být 2,1 procenta. V novém fiskálním výhledu ministerstvo očekává letošní schodek veřejných financí 2,8 procenta HDP, příští rok se má zvýšit na 3,5 procenta a následně klesnout ke třem procentům.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248480/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248221/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2248274/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2248294/trumpova-valka-srazila-vyhlidky-na-rust-ceske-ekonomiky-ministerstvo-doufa-ze-ho-rozhybe-s-rekordnim-schodkem/"
+        }
+      ],
+      "en": {
+        "headline": "The Finance Ministry has cut this year's growth forecast for the economy to 1.7 percent",
+        "sentences": [
+          {
+            "en": "In its new economic forecast the Finance Ministry has worsened the outlook for the economy this year: gross domestic product will grow by 1.7 percent instead of the 1.9 percent expected in August.",
+            "cs": "Ministerstvo financí v nové ekonomické predikci zhoršilo letošní výhled vývoje ekonomiky: hrubý domácí produkt podle něj vzroste o 1,7 procenta místo srpnových 1,9 procenta."
+          },
+          {
+            "en": "The reason, the ministry says, is mainly fuel and energy prices, which rose in response to the war in the Middle East.",
+            "cs": "Důvodem jsou podle ministerstva zejména ceny paliv a energií, které vzrostly v reakci na válku na Blízkém východě."
+          },
+          {
+            "en": "For next year, by contrast, the ministry expects growth to speed up to 2.5 percent; the August forecast assumed 2.4 percent.",
+            "cs": "Pro příští rok naopak ministerstvo čeká zrychlení růstu na 2,5 procenta, srpnová predikce počítala s 2,4 procenta."
+          },
+          {
+            "en": "Average inflation should be 2.1 percent this year.",
+            "cs": "Průměrná inflace by letos měla být 2,1 procenta."
+          },
+          {
+            "en": "In its new fiscal outlook the ministry expects a public finance deficit of 2.8 percent of GDP this year, rising to 3.5 percent next year and then falling towards three percent.",
+            "cs": "V novém fiskálním výhledu ministerstvo očekává letošní schodek veřejných financí 2,8 procenta HDP, příští rok se má zvýšit na 3,5 procenta a následně klesnout ke třem procentům."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forecast",
+            "definition": "a statement about what is expected to happen"
+          },
+          {
+            "term": "outlook",
+            "definition": "the way something is expected to develop in the future"
+          },
+          {
+            "term": "fiscal",
+            "definition": "relating to government money, taxes and spending"
+          },
+          {
+            "term": "deficit",
+            "definition": "the amount by which spending is greater than income"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:20",
+      "headline": "Výprodej technologických akcií se přelil z Wall Street do Asie, Nikkei spadl o šest procent",
+      "body": "Americké akcie ve čtvrtek prudce oslabily v čele s technologickými podniky a zaznamenaly největší denní ztrátu od loňského dubna, podle ČT24 jde o nejprudší pokles za půl druhého roku. Index Nasdaq Composite spadl do korekce. Trhy reagují na vítězství demokratů v kongresových volbách, protože někteří zvolení politici volají po zpomalení rozvoje infrastruktury pro AI a po volbách sílí i odpor k datovým centrům. V pátek se výprodej přelil do Asie, japonský index Nikkei spadl o šest procent a zasáhl i Jižní Koreu. Podle E15 výprodej oživuje srovnání s prasknutím dot-com bubliny z roku 2000 i pochybnosti o udržitelnosti boomu. Odborníci se podle Seznam Zpráv přou o to, zda je čas utíkat, nebo už slevy využít k nákupům.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-akcie-fondy-burzovni-vyplach-experti-popisuji-co-ceka-akcie-dal-319847"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/burzy-a-trhy/vyprodej-ai-se-prelil-do-asie-japonsky-nikkei-spadl-o-sest-procent-cipovi-giganti-odepisuji-miliardy-1437145"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/akcie-v-usa-utrpely-nejprudsi-pokles-za-pul-druheho-roku-379332"
+        }
+      ],
+      "en": {
+        "headline": "The sell-off of technology shares spread from Wall Street to Asia and the Nikkei fell by six percent",
+        "sentences": [
+          {
+            "en": "US shares weakened sharply on Thursday, led by technology companies, and recorded their biggest daily loss since last April; according to ČT24 it is the sharpest fall in a year and a half.",
+            "cs": "Americké akcie ve čtvrtek prudce oslabily v čele s technologickými podniky a zaznamenaly největší denní ztrátu od loňského dubna, podle ČT24 jde o nejprudší pokles za půl druhého roku."
+          },
+          {
+            "en": "The Nasdaq Composite index fell into correction.",
+            "cs": "Index Nasdaq Composite spadl do korekce."
+          },
+          {
+            "en": "Markets are reacting to the Democrats' win in the congressional elections, because some of the politicians elected are calling for a slowdown in the build-out of AI infrastructure, and resistance to data centres has grown stronger since the vote.",
+            "cs": "Trhy reagují na vítězství demokratů v kongresových volbách, protože někteří zvolení politici volají po zpomalení rozvoje infrastruktury pro AI a po volbách sílí i odpor k datovým centrům."
+          },
+          {
+            "en": "On Friday the sell-off spread to Asia, where the Japanese Nikkei index fell by six percent and South Korea was hit as well.",
+            "cs": "V pátek se výprodej přelil do Asie, japonský index Nikkei spadl o šest procent a zasáhl i Jižní Koreu."
+          },
+          {
+            "en": "According to E15 the sell-off is reviving comparisons with the bursting of the dot-com bubble of 2000 and doubts about whether the boom can last.",
+            "cs": "Podle E15 výprodej oživuje srovnání s prasknutím dot-com bubliny z roku 2000 i pochybnosti o udržitelnosti boomu."
+          },
+          {
+            "en": "Experts are arguing about whether it is time to run or whether the discounts should already be used for buying, Seznam Zprávy reports.",
+            "cs": "Odborníci se podle Seznam Zpráv přou o to, zda je čas utíkat, nebo už slevy využít k nákupům."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sell-off",
+            "definition": "a period when many investors sell shares quickly"
+          },
+          {
+            "term": "correction",
+            "definition": "a fall of about ten percent in share prices after a rise"
+          },
+          {
+            "term": "build-out",
+            "definition": "the work of building a network or infrastructure on a large scale"
+          },
+          {
+            "term": "bursting",
+            "definition": "breaking open suddenly, as a bubble in prices does"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "10:52",
+      "headline": "Strnadova CSG se dostala do užšího výběru amerického programu za 91 miliard korun",
+      "body": "Zbrojařská skupina Czechoslovak Group Michala Strnada byla vybrána do pětiletého programu americké armády MATOC v hodnotě až 4,2 miliardy dolarů, tedy přes 91 miliard korun, na modernizaci sedmi strategických muničních továren v USA. O zakázky se bude ucházet prostřednictvím dceřiné společnosti MSM North America, celkem o kontrakt podle Seznam Zpráv usiluje sedm firem. Zařazení navazuje na loňský kontrakt CSG za 635 milionů dolarů na vybudování nového závodu na dělostřeleckou munici v Iowě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-csg-bude-v-usa-usilovat-o-miliardovy-kontrakt-dostala-se-do-uzsiho-vyberu-319853"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obri-prilezitost-v-usa-strnadova-csg-muze-modernizovat-americke-municky-v-programu-za-91-miliard-1437146"
+        }
+      ],
+      "en": {
+        "headline": "Strnad's CSG has reached the shortlist for a US programme worth 91 billion crowns",
+        "sentences": [
+          {
+            "en": "The arms group Czechoslovak Group, owned by Michal Strnad, has been selected for a five-year US Army programme called MATOC worth up to 4.2 billion dollars, more than 91 billion crowns, to modernise seven strategic ammunition plants in the United States.",
+            "cs": "Zbrojařská skupina Czechoslovak Group Michala Strnada byla vybrána do pětiletého programu americké armády MATOC v hodnotě až 4,2 miliardy dolarů, tedy přes 91 miliard korun, na modernizaci sedmi strategických muničních továren v USA."
+          },
+          {
+            "en": "It will compete for the individual contracts through its subsidiary MSM North America; seven companies in all are bidding for the contract, according to Seznam Zprávy.",
+            "cs": "O zakázky se bude ucházet prostřednictvím dceřiné společnosti MSM North America, celkem o kontrakt podle Seznam Zpráv usiluje sedm firem."
+          },
+          {
+            "en": "The selection follows last year's CSG contract worth 635 million dollars to build a new artillery ammunition plant in Iowa.",
+            "cs": "Zařazení navazuje na loňský kontrakt CSG za 635 milionů dolarů na vybudování nového závodu na dělostřeleckou munici v Iowě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "shortlist",
+            "definition": "a small list of the best candidates chosen from a larger group"
+          },
+          {
+            "term": "subsidiary",
+            "definition": "a company owned or controlled by a larger company"
+          },
+          {
+            "term": "bidding",
+            "definition": "making a formal offer to do work for a price"
+          },
+          {
+            "term": "ammunition",
+            "definition": "bullets and shells that are fired from weapons"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:00",
+      "headline": "Babiš kritizuje zisky bank, množí se spekulace o zvláštní dani",
+      "body": "Vláda hledá dodatečné zdroje příjmů, jimiž by snížila rostoucí schodek státního rozpočtu, a podle E15 se množí spekulace o zvláštní dani pro banky. Kritika premiéra Andreje Babiše a ministryně Aleny Schillerové na adresu bank zaznívá už řadu měsíců. Finanční ústavy odmítají nařčení, že se ceny hypoték vyvíjejí podle jejich libovůle.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/banky-stale-vice-drazdi-babise-kritizuje-jejich-zisky-mnozi-se-spekulace-o-zvlastni-dani-1437147"
+        }
+      ],
+      "en": {
+        "headline": "Babiš is criticising bank profits and speculation about a special tax is growing",
+        "sentences": [
+          {
+            "en": "The government is looking for extra sources of revenue to reduce the growing state budget deficit, and according to E15 speculation about a special tax on banks is growing.",
+            "cs": "Vláda hledá dodatečné zdroje příjmů, jimiž by snížila rostoucí schodek státního rozpočtu, a podle E15 se množí spekulace o zvláštní dani pro banky."
+          },
+          {
+            "en": "Criticism of the banks from Prime Minister Andrej Babiš and Minister Alena Schillerová has been heard for many months.",
+            "cs": "Kritika premiéra Andreje Babiše a ministryně Aleny Schillerové na adresu bank zaznívá už řadu měsíců."
+          },
+          {
+            "en": "The financial institutions reject the accusation that mortgage prices move at their whim.",
+            "cs": "Finanční ústavy odmítají nařčení, že se ceny hypoték vyvíjejí podle jejich libovůle."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revenue",
+            "definition": "money that a government or a company receives"
+          },
+          {
+            "term": "accusation",
+            "definition": "a statement that someone has done something wrong"
+          },
+          {
+            "term": "at their whim",
+            "definition": "according to a sudden wish, with no good reason"
+          },
+          {
+            "term": "mortgage",
+            "definition": "a loan taken out to buy a house or a flat"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "23:17",
+      "day": "prev",
+      "headline": "Claude Code posílal e-mailovou adresu uživatele webům v hlavičce User-Agent",
+      "body": "Nejdiskutovanějším tématem Hacker News se stalo hlášení chyby v repozitáři nástroje Claude Code, podle kterého nástroj při webových požadavcích odesílá e-mailovou adresu uživatele v hlavičce User-Agent. Autor hlášení uvádí, že se jeho adresa takto dostala ke třetím stranám a začaly mu chodit desítky podvodných e-mailů denně. Hlavička je zřejmě modelovaná podle webů, které kontakt v User-Agentu samy vyžadují, uživatel k tomu ale nedal souhlas. Správce repozitáře v diskusi odpověděl, že ve verzi 2.1.317 přibyl zabudovaný modul cc-plugin-privacy, který toto chování blokuje a je ve výchozím stavu zapnutý. Diskutující mu vytýkají, že oprava není součástí jádra nástroje a že e-mail může unikat i jinými cestami, třeba přes konfiguraci gitu.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/anthropics/claude-code/issues/107757"
+        }
+      ],
+      "en": {
+        "headline": "Claude Code was sending users' email addresses to websites in the User-Agent header",
+        "sentences": [
+          {
+            "en": "The most discussed topic on Hacker News was a bug report in the repository of the Claude Code tool, according to which the tool sends the user's email address in the User-Agent header with web requests.",
+            "cs": "Nejdiskutovanějším tématem Hacker News se stalo hlášení chyby v repozitáři nástroje Claude Code, podle kterého nástroj při webových požadavcích odesílá e-mailovou adresu uživatele v hlavičce User-Agent."
+          },
+          {
+            "en": "The author of the report says that his address reached third parties this way and that he began receiving dozens of scam emails a day.",
+            "cs": "Autor hlášení uvádí, že se jeho adresa takto dostala ke třetím stranám a začaly mu chodit desítky podvodných e-mailů denně."
+          },
+          {
+            "en": "The header is apparently modelled on websites that themselves ask for a contact in the User-Agent, but the user never consented to it.",
+            "cs": "Hlavička je zřejmě modelovaná podle webů, které kontakt v User-Agentu samy vyžadují, uživatel k tomu ale nedal souhlas."
+          },
+          {
+            "en": "A maintainer of the repository replied in the discussion that version 2.1.317 added a built-in module called cc-plugin-privacy which blocks this behaviour and is switched on by default.",
+            "cs": "Správce repozitáře v diskusi odpověděl, že ve verzi 2.1.317 přibyl zabudovaný modul cc-plugin-privacy, který toto chování blokuje a je ve výchozím stavu zapnutý."
+          },
+          {
+            "en": "Commenters criticise him for the fix not being part of the core of the tool and for the email still being able to leak by other routes, for example through the git configuration.",
+            "cs": "Diskutující mu vytýkají, že oprava není součástí jádra nástroje a že e-mail může unikat i jinými cestami, třeba přes konfiguraci gitu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "repository",
+            "definition": "a store of computer code that people work on together"
+          },
+          {
+            "term": "scam",
+            "definition": "a dishonest plan to take money from people"
+          },
+          {
+            "term": "consented",
+            "definition": "gave permission for something"
+          },
+          {
+            "term": "maintainer",
+            "definition": "a person who looks after and updates a software project"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:40",
+      "headline": "OpenAI našlo svým modelem v linuxovém jádře 948 lokálních eskalací práv",
+      "body": "OpenAI v říjnu spustilo rozsáhlý audit linuxového jádra zaměřený na hledání chyb, prováděl ho nový model GPT-5.6 Cyber. Našel 948 lokálních eskalací práv a 219 úniků informací, u úniků informací podle Rootu existuje funkční demonstrační exploit. Model našel asi pětkrát více eskalací práv než model GPT-5.6 Sol z července, a to i přes průběžné záplatování jádra. Spotřeba tokenů stála zhruba 1,2 milionu dolarů. Ke každé zranitelnosti umělá inteligence vygenerovala i záplatu, teď je na správcích jádra, aby je prohlédli a případně začlenili.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/openai-naslo-948-lokalnich-eskalaci-prav-v-linuxovem-jadre/"
+        }
+      ],
+      "en": {
+        "headline": "Using its own model, OpenAI found 948 local privilege escalations in the Linux kernel",
+        "sentences": [
+          {
+            "en": "In October OpenAI launched a large audit of the Linux kernel aimed at finding bugs, carried out by the new GPT-5.6 Cyber model.",
+            "cs": "OpenAI v říjnu spustilo rozsáhlý audit linuxového jádra zaměřený na hledání chyb, prováděl ho nový model GPT-5.6 Cyber."
+          },
+          {
+            "en": "It found 948 local privilege escalations and 219 information leaks; for the information leaks, according to Root, a working proof-of-concept exploit exists.",
+            "cs": "Našel 948 lokálních eskalací práv a 219 úniků informací, u úniků informací podle Rootu existuje funkční demonstrační exploit."
+          },
+          {
+            "en": "The model found about five times more privilege escalations than the GPT-5.6 Sol model from July, despite the kernel being patched continuously.",
+            "cs": "Model našel asi pětkrát více eskalací práv než model GPT-5.6 Sol z července, a to i přes průběžné záplatování jádra."
+          },
+          {
+            "en": "Token consumption cost roughly 1.2 million dollars.",
+            "cs": "Spotřeba tokenů stála zhruba 1,2 milionu dolarů."
+          },
+          {
+            "en": "The artificial intelligence also generated a patch for every vulnerability; it is now up to the kernel maintainers to review them and possibly merge them.",
+            "cs": "Ke každé zranitelnosti umělá inteligence vygenerovala i záplatu, teď je na správcích jádra, aby je prohlédli a případně začlenili."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "audit",
+            "definition": "an official examination of something to check that it is correct"
+          },
+          {
+            "term": "exploit",
+            "definition": "a piece of code that takes advantage of a weakness in software"
+          },
+          {
+            "term": "patched",
+            "definition": "updated so that a weakness is fixed"
+          },
+          {
+            "term": "vulnerability",
+            "definition": "a weakness that an attacker can use"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:59",
+      "headline": "Discord přepíše desktopové klienty z Electronu do Rustu",
+      "body": "Komunikátor Discord běží na desktopu v JavaScriptovém frameworku Electron, který je známý velkou náročností. Hlavní vývojář Stanislav Višněvskij napsal, že desktopoví klienti přejdou z Electronu na Rust. U mobilních klientů bude v Rustu také část sdíleného kódu.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/discord-meni-electron-na-rust/"
+        }
+      ],
+      "en": {
+        "headline": "Discord will rewrite its desktop clients from Electron to Rust",
+        "sentences": [
+          {
+            "en": "The Discord messaging app runs on the desktop in the JavaScript framework Electron, which is known for being very demanding.",
+            "cs": "Komunikátor Discord běží na desktopu v JavaScriptovém frameworku Electron, který je známý velkou náročností."
+          },
+          {
+            "en": "Lead developer Stanislav Višněvskij wrote that the desktop clients will move from Electron to Rust.",
+            "cs": "Hlavní vývojář Stanislav Višněvskij napsal, že desktopoví klienti přejdou z Electronu na Rust."
+          },
+          {
+            "en": "Part of the shared code for the mobile clients will be in Rust as well.",
+            "cs": "U mobilních klientů bude v Rustu také část sdíleného kódu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "framework",
+            "definition": "a set of ready-made tools and rules used to build software"
+          },
+          {
+            "term": "demanding",
+            "definition": "needing a lot of resources, effort or attention"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:47",
+      "headline": "Denia povolal do reprezentace nováčky Hopiho a Kozla, vrací se Souček",
+      "body": "Trenér české fotbalové reprezentace Santi Denia povolal na listopadové zápasy Ligy národů se Španělskem a v Chorvatsku dva nováčky, teplického křídelníka Idrise Hopiho a mladoboleslavského záložníka Davida Kozla. Do národního týmu se poprvé po letním mistrovství světa vrací bývalý kapitán Tomáš Souček, kvůli zranění naopak chybí Pavel Šulc či Robin Hranáč. Ve španělské nominaci na utkání v Praze nechybí kromě zraněného kapitána Rodriho žádná opora, na Letné by se tak měl 12. listopadu představit i křídelník Barcelony Lamine Yamal.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/nominacni-tk-ceske-fotbalove-reprezentace-159806"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-sokujici-jmeno-denia-v-dalsi-nominaci-opet-prekvapil-vraci-se-soucek-5570676"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-spanele-dorazi-do-prahy-i-s-yamalem-chybi-jen-zraneny-rodri-5570690"
+        }
+      ],
+      "en": {
+        "headline": "Denia has called up newcomers Hopi and Kozel to the national team and Souček is back",
+        "sentences": [
+          {
+            "en": "The coach of the Czech football national team, Santi Denia, has called up two newcomers for the November Nations League matches against Spain and away in Croatia: the Teplice winger Idris Hopi and the Mladá Boleslav midfielder David Kozel.",
+            "cs": "Trenér české fotbalové reprezentace Santi Denia povolal na listopadové zápasy Ligy národů se Španělskem a v Chorvatsku dva nováčky, teplického křídelníka Idrise Hopiho a mladoboleslavského záložníka Davida Kozla."
+          },
+          {
+            "en": "Former captain Tomáš Souček returns to the national team for the first time since the summer World Cup, while Pavel Šulc and Robin Hranáč are missing through injury.",
+            "cs": "Do národního týmu se poprvé po letním mistrovství světa vrací bývalý kapitán Tomáš Souček, kvůli zranění naopak chybí Pavel Šulc či Robin Hranáč."
+          },
+          {
+            "en": "Spain's squad for the match in Prague is missing none of its key players apart from the injured captain Rodri, so Barcelona winger Lamine Yamal should also appear at Letná on 12 November.",
+            "cs": "Ve španělské nominaci na utkání v Praze nechybí kromě zraněného kapitána Rodriho žádná opora, na Letné by se tak měl 12. listopadu představit i křídelník Barcelony Lamine Yamal."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "called up",
+            "definition": "chosen to play for a national team"
+          },
+          {
+            "term": "winger",
+            "definition": "a player who plays near the side of the pitch"
+          },
+          {
+            "term": "squad",
+            "definition": "the full group of players a team can pick from"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "22:59",
+      "day": "prev",
+      "headline": "Plzeň vyhrála v Norsku, Sparta doma padla s Bournemouthem a Jablonec remizoval v Rize",
+      "body": "Fotbalisté Plzně ve čtvrtém kole Evropské ligy vyhráli v Lilleströmu 1:0 gólem Prince Adua z 10. minuty a získali první body. Sparta doma neudržela vedení a po vyloučení Tobiase Guddala prohrála s Bournemouthem 1:3. Jablonec v Konferenční lize remizoval na hřišti FC Riga 1:1 a na první výhru čeká i po třetím kole.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/plzen-veze-vyhru-z-norska-sparta-v-oslabeni-padla-s-bournemouthem-159796"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/jablonec-stale-ceka-v-kl-na-vyhru-z-rigy-si-odvazi-bod-159797"
+        }
+      ],
+      "en": {
+        "headline": "Plzeň won in Norway, Sparta lost at home to Bournemouth and Jablonec drew in Riga",
+        "sentences": [
+          {
+            "en": "In the fourth round of the Europa League Plzeň won 1:0 in Lillestrøm thanks to a 10th-minute goal by Prince Adu and picked up their first points.",
+            "cs": "Fotbalisté Plzně ve čtvrtém kole Evropské ligy vyhráli v Lilleströmu 1:0 gólem Prince Adua z 10. minuty a získali první body."
+          },
+          {
+            "en": "Sparta failed to hold their lead at home and lost 1:3 to Bournemouth after Tobias Guddal was sent off.",
+            "cs": "Sparta doma neudržela vedení a po vyloučení Tobiase Guddala prohrála s Bournemouthem 1:3."
+          },
+          {
+            "en": "In the Conference League Jablonec drew 1:1 away at FC Riga and are still waiting for a first win after three rounds.",
+            "cs": "Jablonec v Konferenční lize remizoval na hřišti FC Riga 1:1 a na první výhru čeká i po třetím kole."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "picked up",
+            "definition": "gained or obtained something"
+          },
+          {
+            "term": "sent off",
+            "definition": "ordered to leave the pitch for breaking the rules"
+          },
+          {
+            "term": "drew",
+            "definition": "finished a match with an equal score"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:05",
+      "headline": "Českým klubům se vzdaluje desátá příčka koeficientů UEFA, a tím i přímý postup do Ligy mistrů",
+      "body": "Po polovině ligové fáze evropských pohárů prohloubily české kluby manko na desáté Řecko, které svůj náskok navýšilo o dalších 0,6 bodu. Ztráta je už přes bod. Desátá pozice jako poslední znamená, že se tuzemský šampion kvalifikuje přímo do hlavní fáze Ligy mistrů. Statistické odhady podle ČT Sport dávají Česku už jen jedenapůlprocentní šanci na umístění v desítce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/ceske-kluby-dal-ztraceji-v-zebricku-koeficientu-klicova-desata-pozice-se-jim-vzdaluje-159808"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-mistru-se-ceskym-klubum-opet-vzdalila-desate-recko-navysilo-naskok-5570658"
+        }
+      ],
+      "en": {
+        "headline": "Czech clubs are slipping further from tenth place in the UEFA coefficients and from direct entry to the Champions League",
+        "sentences": [
+          {
+            "en": "After half of the league phase of the European competitions, Czech clubs have fallen further behind tenth-placed Greece, which increased its lead by another 0.6 of a point.",
+            "cs": "Po polovině ligové fáze evropských pohárů prohloubily české kluby manko na desáté Řecko, které svůj náskok navýšilo o dalších 0,6 bodu."
+          },
+          {
+            "en": "The gap is now more than a point.",
+            "cs": "Ztráta je už přes bod."
+          },
+          {
+            "en": "Tenth place is the last one that lets the domestic champion qualify directly for the main phase of the Champions League.",
+            "cs": "Desátá pozice jako poslední znamená, že se tuzemský šampion kvalifikuje přímo do hlavní fáze Ligy mistrů."
+          },
+          {
+            "en": "Statistical estimates, according to ČT Sport, now give Czechia only a one-and-a-half percent chance of finishing in the top ten.",
+            "cs": "Statistické odhady podle ČT Sport dávají Česku už jen jedenapůlprocentní šanci na umístění v desítce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "coefficients",
+            "definition": "numbers used to rank countries or clubs by their results"
+          },
+          {
+            "term": "domestic",
+            "definition": "relating to one's own country rather than to other countries"
+          },
+          {
+            "term": "estimates",
+            "definition": "calculations of an approximate value"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:11",
+      "headline": "Čeští skeetaři vyhráli na mistrovství světa soutěž družstev po čtyřiadvaceti letech",
+      "body": "Tomáš Nýdrle, Daniel Korčák a Jakub Tomeček vyhráli na mistrovství světa ve střelbě v Dauhá soutěž družstev ve skeetu. Čeští reprezentanti ovládli disciplínu počtvrté v historii a poprvé po čtyřiadvaceti letech. Nýdrle ve finále jednotlivců skončil pátý. Medaili získali také puškaři Jiří Přívratský, Filip Nepejchal a Petr Nymburský, kteří byli druzí v malorážce vleže.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/cesti-skeetari-vyhrali-ms-sveta-nydrleho-navic-ceka-finale-jednotlivcu-159807"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-fantazie-v-kataru-cesti-skeetari-vybojovali-po-24-letech-svetove-zlato-ze-souteze-druzstev-5570687"
+        }
+      ],
+      "en": {
+        "headline": "Czech skeet shooters won the team event at the world championships after twenty-four years",
+        "sentences": [
+          {
+            "en": "Tomáš Nýdrle, Daniel Korčák and Jakub Tomeček won the skeet team event at the shooting world championships in Doha.",
+            "cs": "Tomáš Nýdrle, Daniel Korčák a Jakub Tomeček vyhráli na mistrovství světa ve střelbě v Dauhá soutěž družstev ve skeetu."
+          },
+          {
+            "en": "The Czech team took the discipline for the fourth time in history and for the first time in twenty-four years.",
+            "cs": "Čeští reprezentanti ovládli disciplínu počtvrté v historii a poprvé po čtyřiadvaceti letech."
+          },
+          {
+            "en": "Nýdrle finished fifth in the individual final.",
+            "cs": "Nýdrle ve finále jednotlivců skončil pátý."
+          },
+          {
+            "en": "Riflemen Jiří Přívratský, Filip Nepejchal and Petr Nymburský also won a medal, finishing second in the prone small-bore event.",
+            "cs": "Medaili získali také puškaři Jiří Přívratský, Filip Nepejchal a Petr Nymburský, kteří byli druzí v malorážce vleže."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "skeet",
+            "definition": "a shooting sport in which clay targets are thrown into the air"
+          },
+          {
+            "term": "discipline",
+            "definition": "a particular event or branch of a sport"
+          },
+          {
+            "term": "prone",
+            "definition": "lying flat with the face down"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:57",
+      "headline": "Hokejisté prohráli premiéru pod Motákem se Švédskem 2:3 po nájezdech",
+      "body": "Čeští hokejisté v úvodním duelu sezony Euro Hockey Tour podlehli ve vyprodané O2 areně Švédsku 2:3 po samostatných nájezdech. Šlo o první zápas národního týmu pod novým trenérem Zdeňkem Motákem. „S ohledem na výkon zase tak hrozná nebyla,“ hodnotil Moták svou premiéru na lavičce.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/s-ohledem-na-vykon-zase-tak-hrozna-nebyla-hodnotil-motak-svoji-premieru-na_2611061357_mim"
+        }
+      ],
+      "en": {
+        "headline": "The hockey team lost 2:3 on penalty shots to Sweden in Moták's first match in charge",
+        "sentences": [
+          {
+            "en": "The Czech hockey players lost 2:3 on penalty shots to Sweden in the opening match of the Euro Hockey Tour season at a sold-out O2 arena.",
+            "cs": "Čeští hokejisté v úvodním duelu sezony Euro Hockey Tour podlehli ve vyprodané O2 areně Švédsku 2:3 po samostatných nájezdech."
+          },
+          {
+            "en": "It was the national team's first game under their new coach Zdeněk Moták.",
+            "cs": "Šlo o první zápas národního týmu pod novým trenérem Zdeňkem Motákem."
+          },
+          {
+            "en": "“Given the performance, it was not that bad after all,” Moták said of his debut behind the bench.",
+            "cs": "„S ohledem na výkon zase tak hrozná nebyla,“ hodnotil Moták svou premiéru na lavičce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sold-out",
+            "definition": "with all the tickets already sold"
+          },
+          {
+            "term": "debut",
+            "definition": "someone's first appearance in a new role"
+          },
+          {
+            "term": "behind the bench",
+            "definition": "in charge of a team during a game, as its coach"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:10",
+      "headline": "Zacha dvěma góly a Pastrňák dvěma asistencemi řídili výhru Bostonu v Pittsburghu",
+      "body": "České duo řídilo výhru Bostonu nad Pittsburghem 6:2, Pavel Zacha vstřelil dva góly a byl vyhlášen první hvězdou utkání, na obě branky mu přihrál David Pastrňák. Podle Sport.cz se Zachovo jméno zároveň objevilo v přestupových spekulacích, Boston se údajně snaží zapojit do boje o bývalého detroitského kapitána Dylana Larkina.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/zacha-s-pastrnakem-ridili-vyhru-bostonu-nad-pittsburghem-159803"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-boston-by-rad-ulovil-trucujici-americkou-hvezdu-obeti-vymeny-muze-byt-pastrnakuv-cesky-centr-5570689"
+        }
+      ],
+      "en": {
+        "headline": "Zacha with two goals and Pastrňák with two assists drove Boston's win in Pittsburgh",
+        "sentences": [
+          {
+            "en": "The Czech pair drove Boston's 6:2 win over Pittsburgh: Pavel Zacha scored two goals and was named the first star of the game, with David Pastrňák assisting on both.",
+            "cs": "České duo řídilo výhru Bostonu nad Pittsburghem 6:2, Pavel Zacha vstřelil dva góly a byl vyhlášen první hvězdou utkání, na obě branky mu přihrál David Pastrňák."
+          },
+          {
+            "en": "According to Sport.cz, Zacha's name has at the same time come up in transfer speculation, with Boston reportedly trying to join the race for former Detroit captain Dylan Larkin.",
+            "cs": "Podle Sport.cz se Zachovo jméno zároveň objevilo v přestupových spekulacích, Boston se údajně snaží zapojit do boje o bývalého detroitského kapitána Dylana Larkina."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assists",
+            "definition": "passes that lead directly to a goal"
+          },
+          {
+            "term": "come up",
+            "definition": "to be mentioned in a discussion"
+          },
+          {
+            "term": "reportedly",
+            "definition": "according to what people say, though not confirmed"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "A large power cut on the left bank of the Vltava interrupted the session of the Chamber of Deputies for more than an hour and also hit three major Prague hospitals.",
+    "The European Commission has placed Czechia among countries at risk of migratory pressure, so the interior minister will ask for a full reduction of the country's contribution to the EU solidarity mechanism.",
+    "The number of victims of Monday's Russian strike on a humanitarian centre in Komyšuvacha has risen to 53, making it the deadliest Russian attack this year.",
+    "The sell-off of technology shares spread from Wall Street to Asia and the Japanese Nikkei index fell by six percent."
+  ]
+}
