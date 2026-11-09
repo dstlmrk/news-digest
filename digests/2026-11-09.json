@@ -1,0 +1,1528 @@
+{
+  "date": "2026-11-09",
+  "covers": "2026-11-09",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "iROZHLAS",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "Root.cz",
+    "Hacker News",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude zataženo se slabými přeháňkami a přes den jen kolem 6 °C. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-11-10",
+        "icon": "rain",
+        "temp_max_c": 6.2,
+        "temp_min_c": 1.2
+      },
+      {
+        "date": "2026-11-11",
+        "icon": "rain",
+        "temp_max_c": 6.2,
+        "temp_min_c": 0.4
+      },
+      {
+        "date": "2026-11-12",
+        "icon": "rain",
+        "temp_max_c": 12.8,
+        "temp_min_c": 6.2
+      },
+      {
+        "date": "2026-11-13",
+        "icon": "rain",
+        "temp_max_c": 6.3,
+        "temp_min_c": 1.3
+      }
+    ],
+    "summary_en": "Tomorrow will be overcast with light showers and only around 6 °C during the day. Air quality is expected to be poor."
+  },
+  "highlights": [
+    "Vláda schválila návrh ústavního zákona o celostátním referendu, na jeho prosazení ale nemá ve Sněmovně dost hlasů.",
+    "Nejvyšší státní zástupkyně Bradáčová se dovolala v kauze předvolebních plakátů SPD, rozhodovat bude Nejvyšší soud.",
+    "Střelec, který v sobotu zabil v Krakově šest lidí, zemřel v nemocnici; prokuratura zatím odmítá spojovat útok s konkrétní ideologií."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:04",
+      "headline": "Vláda schválila návrh ústavního zákona o celostátním referendu",
+      "body": "Vláda v pondělí schválila návrh ústavního zákona o zavedení celostátního referenda a pošle ho Sněmovně. Oznámil to po jednání kabinetu ministr spravedlnosti Jeroným Tejc (za ANO). V referendu podle něj nebude možné rozhodovat o ústavním pořádku, daňových věcech ani o členství v Evropské unii a NATO; podle ČT24 předpis výslovně vylučuje také hlasování o otázkách obrany a bezpečnosti státu. Pokud by změna prošla celým legislativním procesem beze změny, konání celostátního referenda budou moci navrhnout čeští občané. Premiér Andrej Babiš (ANO) potvrdil, že vláda návrh posílá Sněmovně. Tam ale koalice ANO, SPD a Motoristů nemá na prosazení ústavního zákona dost poslanců.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/celostatni-referendum-ustavni-zakon-vlada-navrh_2611091604_ako"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250844/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-projedna-ustavni-zakon-o-celostatnim-referendu-379409"
+        }
+      ],
+      "en": {
+        "headline": "The government approved a draft constitutional act on a nationwide referendum",
+        "sentences": [
+          {
+            "en": "On Monday the government approved a draft constitutional act introducing a nationwide referendum and will send it to the Chamber of Deputies.",
+            "cs": "Vláda v pondělí schválila návrh ústavního zákona o zavedení celostátního referenda a pošle ho Sněmovně."
+          },
+          {
+            "en": "Justice Minister Jeroným Tejc (for ANO) announced this after the cabinet meeting.",
+            "cs": "Oznámil to po jednání kabinetu ministr spravedlnosti Jeroným Tejc (za ANO)."
+          },
+          {
+            "en": "According to him, a referendum will not be able to decide on the constitutional order, tax matters or membership in the European Union and NATO; according to ČT24, the bill explicitly rules out voting on questions of the defence and security of the state as well.",
+            "cs": "V referendu podle něj nebude možné rozhodovat o ústavním pořádku, daňových věcech ani o členství v Evropské unii a NATO; podle ČT24 předpis výslovně vylučuje také hlasování o otázkách obrany a bezpečnosti státu."
+          },
+          {
+            "en": "If the change passed through the entire legislative process unchanged, Czech citizens would be able to propose that a nationwide referendum be held.",
+            "cs": "Pokud by změna prošla celým legislativním procesem beze změny, konání celostátního referenda budou moci navrhnout čeští občané."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš (ANO) confirmed that the government is sending the draft to the Chamber of Deputies.",
+            "cs": "Premiér Andrej Babiš (ANO) potvrdil, že vláda návrh posílá Sněmovně."
+          },
+          {
+            "en": "There, however, the coalition of ANO, SPD and the Motorists does not have enough MPs to push the constitutional act through.",
+            "cs": "Tam ale koalice ANO, SPD a Motoristů nemá na prosazení ústavního zákona dost poslanců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cabinet",
+            "definition": "the group of top ministers who run a government"
+          },
+          {
+            "term": "rules out",
+            "definition": "says that something is not allowed or not possible"
+          },
+          {
+            "term": "unchanged",
+            "definition": "still exactly the same as before"
+          },
+          {
+            "term": "legislative",
+            "definition": "connected with making laws"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:15",
+      "headline": "Bradáčová se dovolala v kauze předvolebních plakátů SPD, rozhodovat bude Nejvyšší soud",
+      "body": "Nejvyšší státní zástupkyně Lenka Bradáčová podala dovolání v trestní kauze kontroverzních předvolebních plakátů vládního hnutí SPD. V pondělí to sdělil mluvčí Nejvyššího státního zastupitelství Petr Malý. Soudy dosud rozhodly, že hnutí plakáty nespáchalo podněcování k nenávisti ani jiný trestný čin. Podle Bradáčové by se rozdílnými právními názory v této věci měl zabývat Nejvyšší soud a vyjádřit se k limitům politického projevu v předvolební kampani; Deník N píše, že chce, aby soud vyjasnil, kde končí svoboda politického projevu a jak chránit zranitelné menšiny před nenávistí. Obžalovaný je v kauze také předseda hnutí a šéf Poslanecké sněmovny Tomio Okamura, jeho stíhání je ale přerušené, protože ho poslanci odmítli vydat.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/bradacova-se-dovolala-v-kauze-plakatu-spd-rozhodovat-bude-nejvyssi-soud_2611091515_raf"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nejvyssi-statni-zastupitelstvi-se-dovolalo-v-kauze-predvolebnich-plakatu-spd-379420"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2250341/kde-lezi-limity-politickeho-projevu-kauza-spd-miri-k-nejvyssimu-soudu/"
+        }
+      ],
+      "en": {
+        "headline": "Bradáčová has filed an appeal in the case of SPD's election posters, and the Supreme Court will decide",
+        "sentences": [
+          {
+            "en": "Supreme Public Prosecutor Lenka Bradáčová has filed an appeal in the criminal case over the controversial election posters of the governing SPD movement.",
+            "cs": "Nejvyšší státní zástupkyně Lenka Bradáčová podala dovolání v trestní kauze kontroverzních předvolebních plakátů vládního hnutí SPD."
+          },
+          {
+            "en": "This was announced on Monday by the spokesman of the Supreme Public Prosecutor's Office, Petr Malý.",
+            "cs": "V pondělí to sdělil mluvčí Nejvyššího státního zastupitelství Petr Malý."
+          },
+          {
+            "en": "The courts have so far ruled that with the posters the movement committed neither incitement to hatred nor any other crime.",
+            "cs": "Soudy dosud rozhodly, že hnutí plakáty nespáchalo podněcování k nenávisti ani jiný trestný čin."
+          },
+          {
+            "en": "According to Bradáčová, the Supreme Court should deal with the conflicting legal opinions in this matter and comment on the limits of political speech in an election campaign; Deník N writes that she wants the court to clarify where freedom of political speech ends and how to protect vulnerable minorities from hatred.",
+            "cs": "Podle Bradáčové by se rozdílnými právními názory v této věci měl zabývat Nejvyšší soud a vyjádřit se k limitům politického projevu v předvolební kampani; Deník N píše, že chce, aby soud vyjasnil, kde končí svoboda politického projevu a jak chránit zranitelné menšiny před nenávistí."
+          },
+          {
+            "en": "Tomio Okamura, the chairman of the movement and Speaker of the Chamber of Deputies, is also charged in the case, but his prosecution is suspended because MPs refused to hand him over.",
+            "cs": "Obžalovaný je v kauze také předseda hnutí a šéf Poslanecké sněmovny Tomio Okamura, jeho stíhání je ale přerušené, protože ho poslanci odmítli vydat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "filed an appeal",
+            "definition": "formally asked a higher court to look at a decision again"
+          },
+          {
+            "term": "incitement",
+            "definition": "the act of encouraging people to do something bad"
+          },
+          {
+            "term": "conflicting",
+            "definition": "not matching, pointing in opposite directions"
+          },
+          {
+            "term": "vulnerable",
+            "definition": "easy to hurt or attack"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:08",
+      "headline": "Vláda schválila povinné elektronické žádanky pro lékaře i plán investic do zdravotnictví",
+      "body": "Vláda v pondělí schválila novelu zákona o elektronizaci zdravotnictví, která má pro lékaře zavést povinné používání elektronických žádanek. U první části z nich má povinnost platit od července příštího roku, od roku 2029 by lékaři měli povinně vést elektronicky i pacientovu dokumentaci. Novela má podle ministerstva zdravotnictví také vytvořit jednotná pravidla pro bezpečné sdílení zdravotních informací mezi poskytovateli. Seznam Zprávy upozorňují, že zástupci soukromých lékařů návrh kritizují kvůli vysokým nákladům. Vláda zároveň schválila záměr strategických investic do zdravotnictví: do roku 2034 počítá s 68,6 miliardami korun, z toho 6,2 miliardy má jít do psychiatrie, řekl po jednání ministr zdravotnictví Adam Vojtěch.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/pouzivani-e-zadanek-na-vysetreni-ma-byt-pro-lekare-povinne-odsouhlasila-vlada_2611091536_lbl"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-souhlasila-aby-pouzivani-e-zadanek-na-vysetreni-bylo-pro-lekare-povinne-379434"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-pouzivani-e-zadanek-na-vysetreni-by-melo-byt-pro-lekare-povinne-rozhodla-vlada-320075"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250877/"
+        }
+      ],
+      "en": {
+        "headline": "The government approved compulsory electronic referrals for doctors and a healthcare investment plan",
+        "sentences": [
+          {
+            "en": "On Monday the government approved an amendment to the act on the digitisation of healthcare, which is to make the use of electronic referrals compulsory for doctors.",
+            "cs": "Vláda v pondělí schválila novelu zákona o elektronizaci zdravotnictví, která má pro lékaře zavést povinné používání elektronických žádanek."
+          },
+          {
+            "en": "For the first group of them the duty is to apply from July next year, and from 2029 doctors should also be required to keep patient records electronically.",
+            "cs": "U první části z nich má povinnost platit od července příštího roku, od roku 2029 by lékaři měli povinně vést elektronicky i pacientovu dokumentaci."
+          },
+          {
+            "en": "According to the Health Ministry, the amendment is also meant to create uniform rules for the secure sharing of health information between providers.",
+            "cs": "Novela má podle ministerstva zdravotnictví také vytvořit jednotná pravidla pro bezpečné sdílení zdravotních informací mezi poskytovateli."
+          },
+          {
+            "en": "Seznam Zprávy points out that representatives of private doctors criticise the proposal because of the high costs.",
+            "cs": "Seznam Zprávy upozorňují, že zástupci soukromých lékařů návrh kritizují kvůli vysokým nákladům."
+          },
+          {
+            "en": "At the same time the government approved a plan of strategic investment in healthcare: by 2034 it envisages 68.6 billion crowns, of which 6.2 billion is to go to psychiatry, Health Minister Adam Vojtěch said after the meeting.",
+            "cs": "Vláda zároveň schválila záměr strategických investic do zdravotnictví: do roku 2034 počítá s 68,6 miliardami korun, z toho 6,2 miliardy má jít do psychiatrie, řekl po jednání ministr zdravotnictví Adam Vojtěch."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "referrals",
+            "definition": "papers from a doctor that send a patient for a test or to another doctor"
+          },
+          {
+            "term": "compulsory",
+            "definition": "something you must do because of a rule"
+          },
+          {
+            "term": "uniform",
+            "definition": "the same everywhere, without differences"
+          },
+          {
+            "term": "envisages",
+            "definition": "expects or plans something for the future"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:38",
+      "headline": "Nové primátory zvolily Ostrava, Olomouc, Opava i Karviná",
+      "body": "Měsíc po komunálních volbách zasedla ustavující zastupitelstva ve velkých městech. Ostravským primátorem se stal jednatřicetiletý Richard Vereš z vítězného ANO, historicky nejmladší primátor města; hlasovalo pro něj 41 z 54 přítomných zastupitelů a krajskou metropoli povede koalice ANO se Starosty pro Ostravu a hnutím Ostravak. V Olomouci zvolili zastupitelé primátorem lídra STAN Marka Zelenku, vítězné ANO po osmi letech odchází do opozice a nová koalice má v pětačtyřicetičlenném zastupitelstvu 25 mandátů. Primátorem Karviné se znovu stal Jan Wolf z vítězného uskupení Žijeme pro Karvinou, které bude město vést dál s hnutím ANO. Novým primátorem Opavy je bývalý basketbalista a trenér Czudek z uskupení OK Změna pro Opavu, zatímco vítězné ANO je tam v opozici. Prostějovskou primátorkou se stala Jana Jílková, lídryně vítězného uskupení Na rovinu!",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-v-olomouci-maji-noveho-primatora-ve-meste-vladne-koalice-v-cele-se-stan-320076"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/olomouc-ma-noveho-primatora-marka-zelenku-ze-stan-vitezne-ano-po-osmi-letech_2611091315_zfr"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250572/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/ostrava-a-olomouc-maji-nove-primatory-379421"
+        }
+      ],
+      "en": {
+        "headline": "Ostrava, Olomouc, Opava and Karviná have elected new mayors",
+        "sentences": [
+          {
+            "en": "A month after the municipal elections, constituent council meetings were held in the big cities.",
+            "cs": "Měsíc po komunálních volbách zasedla ustavující zastupitelstva ve velkých městech."
+          },
+          {
+            "en": "The mayor of Ostrava is now thirty-one-year-old Richard Vereš of the winning ANO, the youngest mayor in the city's history; 41 of the 54 councillors present voted for him, and the regional capital will be run by a coalition of ANO, Starostové pro Ostravu and the Ostravak movement.",
+            "cs": "Ostravským primátorem se stal jednatřicetiletý Richard Vereš z vítězného ANO, historicky nejmladší primátor města; hlasovalo pro něj 41 z 54 přítomných zastupitelů a krajskou metropoli povede koalice ANO se Starosty pro Ostravu a hnutím Ostravak."
+          },
+          {
+            "en": "In Olomouc, councillors elected STAN leader Marek Zelenka as mayor, the winning ANO is going into opposition after eight years, and the new coalition holds 25 seats in the forty-five-member council.",
+            "cs": "V Olomouci zvolili zastupitelé primátorem lídra STAN Marka Zelenku, vítězné ANO po osmi letech odchází do opozice a nová koalice má v pětačtyřicetičlenném zastupitelstvu 25 mandátů."
+          },
+          {
+            "en": "Jan Wolf of the winning Žijeme pro Karvinou grouping became mayor of Karviná again, and the grouping will go on running the town with ANO.",
+            "cs": "Primátorem Karviné se znovu stal Jan Wolf z vítězného uskupení Žijeme pro Karvinou, které bude město vést dál s hnutím ANO."
+          },
+          {
+            "en": "The new mayor of Opava is the former basketball player and coach Czudek of the OK Změna pro Opavu grouping, while the winning ANO is in opposition there.",
+            "cs": "Novým primátorem Opavy je bývalý basketbalista a trenér Czudek z uskupení OK Změna pro Opavu, zatímco vítězné ANO je tam v opozici."
+          },
+          {
+            "en": "Jana Jílková, the leader of the winning Na rovinu! grouping, became mayor of Prostějov.",
+            "cs": "Prostějovskou primátorkou se stala Jana Jílková, lídryně vítězného uskupení Na rovinu!"
+          }
+        ],
+        "glossary": [
+          {
+            "term": "municipal",
+            "definition": "connected with a town or city and its government"
+          },
+          {
+            "term": "constituent",
+            "definition": "describing the first meeting at which a body is set up"
+          },
+          {
+            "term": "councillors",
+            "definition": "people elected to the council of a town or city"
+          },
+          {
+            "term": "grouping",
+            "definition": "a group of people or parties acting together in politics"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:00",
+      "headline": "Soud zrušil komunální volby v Želechovicích, stížnosti jinde zamítl",
+      "body": "Krajský soud v Olomouci prohlásil komunální volby v Želechovicích na Olomoucku za neplatné a hlasování se tam bude opakovat. Podle rozsudku někdo v noci mezi volebními dny, tedy z 9. na 10. října, vnikl do volební místnosti; soudce Michal Jantoš podle ČT24 uvedl, že o tom svědčí otevřené dveře i porušená zapečetěná páska s chybějícími podpisy členů volební komise na volební urně. Pachatel tak mohl manipulovat s obsahem schránky, kdo to byl ale soud neposuzoval a měla by se tím zabývat policie. Jinde stížnosti neuspěly: soudy zamítly návrhy na neplatnost voleb v Hodoníně, Liberci i Ústí nad Labem, takže tam nic nebrání svolání ustavujících zastupitelstev. V Kladně soud po přepočítání hlasů označil za neplatnou volbu kandidáta ODS Jana Kruliše a mandát navíc připadl uskupení Kladeňáci; na složení koalice to nebude mít vliv.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/volby-v-zelechovicich-podle-krajskeho-soudu-v-olomouci-neplati-do-volebni_2611091420_dci"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/olomoucky-kraj/volby-v-zelechovicich-jsou-neplatne-do-volebni-mistnosti-nekdo-vnikl-379432"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250751/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/uskupeni-kladenaci-ziskalo-v-zastupitelstvu-mesta-jeden-mandat-navic-rozhodl_2611091538_elv"
+        }
+      ],
+      "en": {
+        "headline": "A court annulled the municipal elections in Želechovice and rejected complaints elsewhere",
+        "sentences": [
+          {
+            "en": "The regional court in Olomouc declared the municipal elections in Želechovice in the Olomouc region invalid, and the vote there will be repeated.",
+            "cs": "Krajský soud v Olomouci prohlásil komunální volby v Želechovicích na Olomoucku za neplatné a hlasování se tam bude opakovat."
+          },
+          {
+            "en": "According to the ruling, someone entered the polling station on the night between the two election days, that is from 9 to 10 October; judge Michal Jantoš said, according to ČT24, that this is shown by the open door and by the broken sealing tape on the ballot box, which was missing the signatures of the members of the electoral commission.",
+            "cs": "Podle rozsudku někdo v noci mezi volebními dny, tedy z 9. na 10. října, vnikl do volební místnosti; soudce Michal Jantoš podle ČT24 uvedl, že o tom svědčí otevřené dveře i porušená zapečetěná páska s chybějícími podpisy členů volební komise na volební urně."
+          },
+          {
+            "en": "The perpetrator could therefore have tampered with the contents of the box, but the court did not assess who it was and the police should look into it.",
+            "cs": "Pachatel tak mohl manipulovat s obsahem schránky, kdo to byl ale soud neposuzoval a měla by se tím zabývat policie."
+          },
+          {
+            "en": "Elsewhere the complaints failed: courts rejected motions to declare the elections invalid in Hodonín, Liberec and Ústí nad Labem, so nothing there prevents the constituent councils from being convened.",
+            "cs": "Jinde stížnosti neuspěly: soudy zamítly návrhy na neplatnost voleb v Hodoníně, Liberci i Ústí nad Labem, takže tam nic nebrání svolání ustavujících zastupitelstev."
+          },
+          {
+            "en": "In Kladno, after a recount, the court declared the election of ODS candidate Jan Kruliš invalid and an extra seat went to the Kladeňáci grouping; this will have no effect on the make-up of the coalition.",
+            "cs": "V Kladně soud po přepočítání hlasů označil za neplatnou volbu kandidáta ODS Jana Kruliše a mandát navíc připadl uskupení Kladeňáci; na složení koalice to nebude mít vliv."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "polling station",
+            "definition": "the place where people go to vote"
+          },
+          {
+            "term": "perpetrator",
+            "definition": "the person who did something wrong or illegal"
+          },
+          {
+            "term": "tampered with",
+            "definition": "touched or changed something without permission, to damage it"
+          },
+          {
+            "term": "recount",
+            "definition": "a second counting of votes"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:25",
+      "headline": "Soud začal projednávat kauzu stamilionové dotace pro pekárnu z Agrofertu",
+      "body": "Krajský soud v Praze začal projednávat kauzu stamilionové dotace pro pekárnu z holdingu Agrofert. Podle obžaloby firma Pekárna Zelená louka a dva její bývalí manažeři v roce 2015 účelově vykázali jako inovativní technologii výroby toastového chleba, která už byla využívána v německé pekárně patřící do Agrofertu, a na projekt získali dotaci sto milionů korun; podle vyšetřovatelů jde o dotační podvod a poškozování finančních zájmů Evropské unie. Firma obžalobu prostřednictvím svého právního zástupce popřela, vinu odmítli i oba bývalí členové představenstva Michal Miksche a Václav Šrámek. Žalobce navrhuje, aby firma vrátila celou částku.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pekarna-zelena-louka-odmitla-obzalobu-v-kauze-dotace-na-linku-na-toustovy-chleb-379431"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250528/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-soud-zacal-resit-stamilionovou-dotaci-pro-pekarnu-agrofertu-320022"
+        }
+      ],
+      "en": {
+        "headline": "A court has started hearing the case of a hundred-million-crown subsidy for an Agrofert bakery",
+        "sentences": [
+          {
+            "en": "The regional court in Prague has started hearing the case of a hundred-million-crown subsidy for a bakery from the Agrofert holding.",
+            "cs": "Krajský soud v Praze začal projednávat kauzu stamilionové dotace pro pekárnu z holdingu Agrofert."
+          },
+          {
+            "en": "According to the indictment, the company Pekárna Zelená louka and two of its former managers deliberately presented in 2015 as innovative a technology for making toast bread that was already in use in a German bakery belonging to Agrofert, and obtained a subsidy of one hundred million crowns for the project; investigators say this is subsidy fraud and damage to the financial interests of the European Union.",
+            "cs": "Podle obžaloby firma Pekárna Zelená louka a dva její bývalí manažeři v roce 2015 účelově vykázali jako inovativní technologii výroby toastového chleba, která už byla využívána v německé pekárně patřící do Agrofertu, a na projekt získali dotaci sto milionů korun; podle vyšetřovatelů jde o dotační podvod a poškozování finančních zájmů Evropské unie."
+          },
+          {
+            "en": "The company denied the charges through its legal representative, and both former board members Michal Miksche and Václav Šrámek rejected their guilt as well.",
+            "cs": "Firma obžalobu prostřednictvím svého právního zástupce popřela, vinu odmítli i oba bývalí členové představenstva Michal Miksche a Václav Šrámek."
+          },
+          {
+            "en": "The prosecutor is asking that the company return the entire amount.",
+            "cs": "Žalobce navrhuje, aby firma vrátila celou částku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subsidy",
+            "definition": "money given by the state to help a company or a project"
+          },
+          {
+            "term": "indictment",
+            "definition": "a formal written accusation that starts a trial"
+          },
+          {
+            "term": "deliberately",
+            "definition": "done on purpose, not by accident"
+          },
+          {
+            "term": "fraud",
+            "definition": "the crime of getting money by lying"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:02",
+      "headline": "Krajský soud v Hradci Králové řeší spor o vjezd aut k Luční a Labské boudě",
+      "body": "Krajský soud v Hradci Králové projednává spor majitelů krkonošské Luční a Labské boudy se Správou Krkonošského národního parku o přístup vozidel údržby a zásobování k objektům a o monitorování přístupových cest. Boudaři se domáhají zrušení části opatření obecné povahy, které Správa KRNAP vydala v roce 2025 a kterým reguluje vjezd a setrvání aut v parku; podle nich trvá vyřízení výjimky pro vjezd příliš dlouho. U soudu napadají také používání kamer na příjezdových cestách, Správa KRNAP pravidla hájí ochranou přírody. Podle Hradecké drbny má soud rozhodnout ve středu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/sprava-krnap-krkonose-sovova-vjezd-auta-narodni-park-soud-spor.A261109_111129_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/905342-krajsky-soud-v-h-kralove-resi-spor-o-vjezd-dodavatelu-k-lucni-a-labske.html"
+        }
+      ],
+      "en": {
+        "headline": "The regional court in Hradec Králové is hearing a dispute over car access to the Luční and Labská lodges",
+        "sentences": [
+          {
+            "en": "The regional court in Hradec Králové is hearing a dispute between the owners of the Luční and Labská mountain lodges in the Krkonoše and the Krkonoše National Park Administration over access for maintenance and supply vehicles and over the monitoring of access roads.",
+            "cs": "Krajský soud v Hradci Králové projednává spor majitelů krkonošské Luční a Labské boudy se Správou Krkonošského národního parku o přístup vozidel údržby a zásobování k objektům a o monitorování přístupových cest."
+          },
+          {
+            "en": "The lodge owners are seeking the annulment of part of a general measure that the KRNAP Administration issued in 2025 and that regulates the entry and parking of cars in the park; they say that getting an exemption for entry takes too long.",
+            "cs": "Boudaři se domáhají zrušení části opatření obecné povahy, které Správa KRNAP vydala v roce 2025 a kterým reguluje vjezd a setrvání aut v parku; podle nich trvá vyřízení výjimky pro vjezd příliš dlouho."
+          },
+          {
+            "en": "In court they are also challenging the use of cameras on the access roads, while the KRNAP Administration defends the rules on the grounds of nature protection.",
+            "cs": "U soudu napadají také používání kamer na příjezdových cestách, Správa KRNAP pravidla hájí ochranou přírody."
+          },
+          {
+            "en": "According to Hradecká drbna, the court is to rule on Wednesday.",
+            "cs": "Podle Hradecké drbny má soud rozhodnout ve středu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dispute",
+            "definition": "a serious disagreement between two sides"
+          },
+          {
+            "term": "annulment",
+            "definition": "an official act that makes a decision no longer valid"
+          },
+          {
+            "term": "exemption",
+            "definition": "permission not to follow a rule that applies to others"
+          },
+          {
+            "term": "challenging",
+            "definition": "arguing that something is wrong and should be changed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:41",
+      "headline": "Nezaměstnanost v Královéhradeckém kraji vzrostla v říjnu na 4,2 procenta",
+      "body": "Nezaměstnanost v Královéhradeckém kraji v říjnu vzrostla na 4,2 procenta ze zářijových 4,1 procenta. Vyšší říjnovou nezaměstnanost měl kraj naposledy v roce 2015, kdy činila 4,6 procenta. Loni v říjnu to byla čtyři procenta.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/nezamestnanost-kralovehradecky-kraj-rijen-2026/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Unemployment in the Hradec Králové Region rose to 4.2 percent in October",
+        "sentences": [
+          {
+            "en": "Unemployment in the Hradec Králové Region edged up in October to 4.2 percent from 4.1 percent in September.",
+            "cs": "Nezaměstnanost v Královéhradeckém kraji v říjnu vzrostla na 4,2 procenta ze zářijových 4,1 procenta."
+          },
+          {
+            "en": "The region last had higher October unemployment in 2015, when it stood at 4.6 percent.",
+            "cs": "Vyšší říjnovou nezaměstnanost měl kraj naposledy v roce 2015, kdy činila 4,6 procenta."
+          },
+          {
+            "en": "Last October it was four percent.",
+            "cs": "Loni v říjnu to byla čtyři procenta."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "edged up",
+            "definition": "went up by a small amount"
+          },
+          {
+            "term": "stood at",
+            "definition": "was at a certain level or number"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:08",
+      "headline": "V Hradci Králové vyroste nová mateřská škola Podzámčí pro stovku dětí",
+      "body": "V Hradci Králové má vzniknout nová mateřská škola Podzámčí se čtyřmi třídami a stovkou dětí. Každá třída ponese název podle přírodního motivu a celý koncept směřuje k tomu, aby se děti učily skrze hru venku i uvnitř; k dispozici budou mít podzemní skluzavku i zahradu s permakulturou a biotopem. Hotovo má být v roce 2028.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/nova-materska-skola-podzamci-hradec-kralove/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "A new nursery school called Podzámčí for a hundred children will be built in Hradec Králové",
+        "sentences": [
+          {
+            "en": "A new nursery school called Podzámčí, with four classes and a hundred children, is to be built in Hradec Králové.",
+            "cs": "V Hradci Králové má vzniknout nová mateřská škola Podzámčí se čtyřmi třídami a stovkou dětí."
+          },
+          {
+            "en": "Each class will be named after a natural motif and the whole concept aims at letting children learn through play outdoors and indoors; they will have an underground slide and a garden with permaculture and a biotope at their disposal.",
+            "cs": "Každá třída ponese název podle přírodního motivu a celý koncept směřuje k tomu, aby se děti učily skrze hru venku i uvnitř; k dispozici budou mít podzemní skluzavku i zahradu s permakulturou a biotopem."
+          },
+          {
+            "en": "It is due to be finished in 2028.",
+            "cs": "Hotovo má být v roce 2028."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "nursery school",
+            "definition": "a school for children who are too young for primary school"
+          },
+          {
+            "term": "at their disposal",
+            "definition": "available for them to use"
+          },
+          {
+            "term": "due",
+            "definition": "expected to happen at a certain time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:22",
+      "headline": "Svatý Martin dorazí ve středu na Velké náměstí i do Trutnova",
+      "body": "Svatomartinské odpoledne na Velkém náměstí v Hradci Králové začíná 11. listopadu ve 14 hodin a potrvá až do večera. Náměstí zaplní stánky s dobrotami, chystají se hudební vystoupení a pro děti projížďky na koni. Podle Hradecké drbny dorazí svatý Martin na bílém koni týž den také do Trutnova, kde ho přivítají průvody a koncerty.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/905077-martin-vyrazi-na-turne-bileho-kone-provetra-v-hradci-i-trutnove.html"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/volny-cas/svaty-martin-bily-kun-hradec-kralove-akce-stanky-predpoved/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=volny-cas"
+        }
+      ],
+      "en": {
+        "headline": "St Martin will arrive on Velké náměstí and in Trutnov on Wednesday",
+        "sentences": [
+          {
+            "en": "The St Martin's afternoon on Velké náměstí in Hradec Králové starts on 11 November at 2 p.m. and will go on into the evening.",
+            "cs": "Svatomartinské odpoledne na Velkém náměstí v Hradci Králové začíná 11. listopadu ve 14 hodin a potrvá až do večera."
+          },
+          {
+            "en": "The square will fill with stalls selling treats, musical performances are planned, and there will be pony rides for children.",
+            "cs": "Náměstí zaplní stánky s dobrotami, chystají se hudební vystoupení a pro děti projížďky na koni."
+          },
+          {
+            "en": "According to Hradecká drbna, St Martin on his white horse will arrive the same day in Trutnov as well, where he will be welcomed by parades and concerts.",
+            "cs": "Podle Hradecké drbny dorazí svatý Martin na bílém koni týž den také do Trutnova, kde ho přivítají průvody a koncerty."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stalls",
+            "definition": "small open shops in a street or market"
+          },
+          {
+            "term": "treats",
+            "definition": "nice things to eat, usually sweet"
+          },
+          {
+            "term": "parades",
+            "definition": "lines of people walking through a town for a celebration"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:44",
+      "headline": "Střelec z Krakova zemřel v nemocnici, policie zadržela pět lidí",
+      "body": "Útočník, který v sobotu v centru Krakova zabil šest lidí a dalších patnáct zranil, zemřel v pondělí ráno v nemocnici; policisté ho po činu postřelili. Podle prokuratury zřejmě zastřelil také své rodiče a sestru, jejichž těla byla nalezena v jeho bytě. Prokuratura v pondělí odmítla sobotní slova ministra vnitra Marcina Kierwińskiho, který hovořil o možných krajně pravicových názorech střelce. „Je příliš brzy na to, abychom kategoricky mluvili o motivech a inspiraci, nebo o jakékoli ideologii,“ řekl státní zástupce Przemysław Nowak. Polská policie po útoku zadržela pět lidí, jejichž aktivita na internetu podle ní mohla být nebezpečná a mohli by střelce následovat.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/strelec-z-krakova-zemrel-v-nemocnici-379413"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/utocnik-z-krakova-zemrel-pred-smrti-mel-zavrazdit-devet-lidi-vcetne-vlastni-rodiny-1437183"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-stredni-evropa-polsky-ministr-vnitra-pod-tlakem-mirni-sve-vyroky-o-strelci-z-krakova-320031"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250822/"
+        }
+      ],
+      "en": {
+        "headline": "The Kraków gunman died in hospital and police detained five people",
+        "sentences": [
+          {
+            "en": "The attacker who killed six people and injured fifteen others in the centre of Kraków on Saturday died in hospital on Monday morning; police had shot him after the attack.",
+            "cs": "Útočník, který v sobotu v centru Krakova zabil šest lidí a dalších patnáct zranil, zemřel v pondělí ráno v nemocnici; policisté ho po činu postřelili."
+          },
+          {
+            "en": "According to the prosecution, he apparently also shot his parents and his sister, whose bodies were found in his flat.",
+            "cs": "Podle prokuratury zřejmě zastřelil také své rodiče a sestru, jejichž těla byla nalezena v jeho bytě."
+          },
+          {
+            "en": "On Monday the prosecution rejected Saturday's remarks by Interior Minister Marcin Kierwiński, who had spoken of the shooter's possible far-right views.",
+            "cs": "Prokuratura v pondělí odmítla sobotní slova ministra vnitra Marcina Kierwińskiho, který hovořil o možných krajně pravicových názorech střelce."
+          },
+          {
+            "en": "“It is too early to speak categorically about motives and inspiration, or about any ideology,” said prosecutor Przemysław Nowak.",
+            "cs": "„Je příliš brzy na to, abychom kategoricky mluvili o motivech a inspiraci, nebo o jakékoli ideologii,“ řekl státní zástupce Przemysław Nowak."
+          },
+          {
+            "en": "After the attack, Polish police detained five people whose online activity could, in its view, be dangerous and who might follow the shooter.",
+            "cs": "Polská policie po útoku zadržela pět lidí, jejichž aktivita na internetu podle ní mohla být nebezpečná a mohli by střelce následovat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prosecution",
+            "definition": "the state lawyers who bring a criminal case to court"
+          },
+          {
+            "term": "remarks",
+            "definition": "short things that someone says"
+          },
+          {
+            "term": "far-right",
+            "definition": "holding extreme political views on the right"
+          },
+          {
+            "term": "detained",
+            "definition": "kept by the police so that a person cannot leave"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:14",
+      "headline": "Jednání o Ukrajině v Abú Dhabí budou podle Kremlu bez přímé účasti Evropy",
+      "body": "Jednání Ruska se Spojenými státy a Ukrajinou v Abú Dhabí budou třístranná a evropští zástupci se jich přímo účastnit nebudou, řekl mluvčí Kremlu Dmitrij Peskov. Zástupci tří zemí se mají sejít v úterý a ve středu. Kreml to podle Seznam Zpráv oznámil navzdory prohlášení Francie, podle kterého se Evropa jednání účastnit měla.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-jednani-s-ukrajinou-a-usa-budou-bez-prime-ucasti-evropy-oznamil-kreml-320045"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250389/"
+        }
+      ],
+      "en": {
+        "headline": "Talks on Ukraine in Abu Dhabi will be without Europe taking part directly, the Kremlin says",
+        "sentences": [
+          {
+            "en": "The talks between Russia, the United States and Ukraine in Abu Dhabi will be trilateral and European representatives will not take part in them directly, Kremlin spokesman Dmitry Peskov said.",
+            "cs": "Jednání Ruska se Spojenými státy a Ukrajinou v Abú Dhabí budou třístranná a evropští zástupci se jich přímo účastnit nebudou, řekl mluvčí Kremlu Dmitrij Peskov."
+          },
+          {
+            "en": "Representatives of the three countries are to meet on Tuesday and Wednesday.",
+            "cs": "Zástupci tří zemí se mají sejít v úterý a ve středu."
+          },
+          {
+            "en": "According to Seznam Zprávy, the Kremlin announced this despite a statement by France saying that Europe was to take part in the talks.",
+            "cs": "Kreml to podle Seznam Zpráv oznámil navzdory prohlášení Francie, podle kterého se Evropa jednání účastnit měla."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trilateral",
+            "definition": "involving three sides or three countries"
+          },
+          {
+            "term": "spokesman",
+            "definition": "a man who speaks officially for a group"
+          },
+          {
+            "term": "despite",
+            "definition": "although something else is true"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:21",
+      "headline": "Maďarské úřady zadržely bratra Viktora Orbána kvůli podezření z pašování lidí",
+      "body": "Maďarské úřady zadržely Árona Orbána, bratra někdejšího dlouholetého premiéra Viktora Orbána, kvůli podezření z pašování lidí. V pondělí o tom informovala maďarská média. Expremiér Orbán, který je lídrem nyní opoziční strany Fidesz, prohlásil, že skutečným cílem této operace je on sám, napsala agentura MTI; podle Seznam Zpráv dodal, že jde o snahu zbavit se ho a vybudovat systém vlády jedné strany.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/madarske-urady-zadrzely-orbanova-bratra-je-podezrely-z-pasovani-lidi-379429"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-madarske-urady-zadrzely-bratra-orbana-podezrivaji-jej-z-pasovani-lidi-320052"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/v-madarsku-byl-zatcen-expremieruv-bratr-viktor-orban-oznacil-za-utok-na-sebe_2611091318_cen"
+        }
+      ],
+      "en": {
+        "headline": "Hungarian authorities detained Viktor Orbán's brother on suspicion of people smuggling",
+        "sentences": [
+          {
+            "en": "The Hungarian authorities detained Áron Orbán, the brother of the long-serving former prime minister Viktor Orbán, on suspicion of people smuggling.",
+            "cs": "Maďarské úřady zadržely Árona Orbána, bratra někdejšího dlouholetého premiéra Viktora Orbána, kvůli podezření z pašování lidí."
+          },
+          {
+            "en": "Hungarian media reported this on Monday.",
+            "cs": "V pondělí o tom informovala maďarská média."
+          },
+          {
+            "en": "Former prime minister Orbán, who is the leader of the now opposition Fidesz party, declared that the real target of this operation is himself, the MTI agency wrote; according to Seznam Zprávy he added that the point is to get rid of him and build a one-party system of government.",
+            "cs": "Expremiér Orbán, který je lídrem nyní opoziční strany Fidesz, prohlásil, že skutečným cílem této operace je on sám, napsala agentura MTI; podle Seznam Zpráv dodal, že jde o snahu zbavit se ho a vybudovat systém vlády jedné strany."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "kept by the police so that a person cannot leave"
+          },
+          {
+            "term": "smuggling",
+            "definition": "taking people or goods across a border illegally"
+          },
+          {
+            "term": "get rid of",
+            "definition": "remove someone or something you do not want"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:41",
+      "headline": "Noční ruské údery na Ukrajině zabily tři lidi, drony zapálily rafinerii v Leningradské oblasti",
+      "body": "Ukrajina po nočních ruských úderech ohlásila v pondělí tři mrtvé a na tři desítky zraněných civilistů včetně dětí. Rusko podle portálu Ukrajinska pravda útočilo v Oděské, Poltavské, Charkovské či Záporožské oblasti. V Kiriši v Leningradské oblasti na severozápadě Ruska naopak zasáhly drony průmyslovou oblast a způsobily požár rafinerie. Tamní gubernátor Alexandr Drozděnko uvedl, že ve městě Vsevoložsk u Petrohradu zahynula po dopadu trosek dronu na bytový dům žena, a informoval o sestřelení 113 ukrajinských dronů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-po-ruskych-uderech-ohlasila-tri-mrtve-a-desitky-zranenych-379426"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250446/"
+        }
+      ],
+      "en": {
+        "headline": "Overnight Russian strikes in Ukraine killed three people and drones set a refinery in the Leningrad region on fire",
+        "sentences": [
+          {
+            "en": "After overnight Russian strikes, Ukraine reported three dead and around thirty wounded civilians, including children, on Monday.",
+            "cs": "Ukrajina po nočních ruských úderech ohlásila v pondělí tři mrtvé a na tři desítky zraněných civilistů včetně dětí."
+          },
+          {
+            "en": "According to the Ukrainska Pravda website, Russia attacked in the Odesa, Poltava, Kharkiv and Zaporizhzhia regions.",
+            "cs": "Rusko podle portálu Ukrajinska pravda útočilo v Oděské, Poltavské, Charkovské či Záporožské oblasti."
+          },
+          {
+            "en": "In Kirishi in the Leningrad region of north-western Russia, by contrast, drones hit an industrial area and started a fire at a refinery.",
+            "cs": "V Kiriši v Leningradské oblasti na severozápadě Ruska naopak zasáhly drony průmyslovou oblast a způsobily požár rafinerie."
+          },
+          {
+            "en": "The local governor Alexander Drozdenko said that in the town of Vsevolozhsk near St Petersburg a woman was killed when drone debris fell on a block of flats, and reported that 113 Ukrainian drones had been shot down.",
+            "cs": "Tamní gubernátor Alexandr Drozděnko uvedl, že ve městě Vsevoložsk u Petrohradu zahynula po dopadu trosek dronu na bytový dům žena, a informoval o sestřelení 113 ukrajinských dronů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overnight",
+            "definition": "happening during the night"
+          },
+          {
+            "term": "by contrast",
+            "definition": "used to show a clear difference with what was just said"
+          },
+          {
+            "term": "refinery",
+            "definition": "a factory where oil is made into fuel"
+          },
+          {
+            "term": "debris",
+            "definition": "broken pieces left after something is destroyed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:46",
+      "headline": "Koalice ochotných zahájila cvičení v Polsku, nad Rumunskem a v Černém moři",
+      "body": "V Polsku, ve vzdušném prostoru nad Rumunskem a v západní části Černého moře začalo vojenské cvičení koalice ochotných. Účastní se ho přibližně 2800 vojáků z jedenácti zemí a jeho cílem je otestovat, jak lze zajistit trvalý mír po vyjednání příměří, které ukončí ruskou válku na Ukrajině. Cvičení vedou Francie a Británie a má trvat do 22. listopadu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2250677/"
+        }
+      ],
+      "en": {
+        "headline": "The coalition of the willing has begun an exercise in Poland, over Romania and in the Black Sea",
+        "sentences": [
+          {
+            "en": "A military exercise of the coalition of the willing has begun in Poland, in the airspace over Romania and in the western part of the Black Sea.",
+            "cs": "V Polsku, ve vzdušném prostoru nad Rumunskem a v západní části Černého moře začalo vojenské cvičení koalice ochotných."
+          },
+          {
+            "en": "About 2,800 soldiers from eleven countries are taking part and its aim is to test how a lasting peace can be secured after a ceasefire is negotiated that would end the Russian war in Ukraine.",
+            "cs": "Účastní se ho přibližně 2800 vojáků z jedenácti zemí a jeho cílem je otestovat, jak lze zajistit trvalý mír po vyjednání příměří, které ukončí ruskou válku na Ukrajině."
+          },
+          {
+            "en": "The exercise is led by France and Britain and is to last until 22 November.",
+            "cs": "Cvičení vedou Francie a Británie a má trvat do 22. listopadu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "airspace",
+            "definition": "the sky above a country, which that country controls"
+          },
+          {
+            "term": "lasting",
+            "definition": "continuing for a long time"
+          },
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:20",
+      "headline": "Havlíček připustil, že zdanění bank je ve hře",
+      "body": "Vicepremiér Havlíček připustil, že zdanění bank je ve hře. Vláda podle něj připravila rafinérskou daň, má řadu dalších nástrojů a řešení a bude o nich jednat. Druhý muž SPD Fiala řekl, že pokud by se našla daň, která by nezasáhla poplatky a hypotéky, je možné o ní diskutovat. Šéf ODS Kupka naopak varuje, že sektorová daň zásadně poškodí české podnikatelské prostředí, a dřívější windfall tax označil za chybu. Opozice podle E15 varuje před rychlým schválením změn.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/zdaneni-bank-je-ve-hre-pripustil-havlicek-opozice-varuje-pred-rychlym-schvalenim-zmen-1437199"
+        }
+      ],
+      "en": {
+        "headline": "Havlíček admitted that a tax on banks is on the table",
+        "sentences": [
+          {
+            "en": "Deputy Prime Minister Havlíček admitted that a tax on banks is on the table.",
+            "cs": "Vicepremiér Havlíček připustil, že zdanění bank je ve hře."
+          },
+          {
+            "en": "The government has prepared a refinery tax, he said, and has a range of other tools and solutions that it will discuss.",
+            "cs": "Vláda podle něj připravila rafinérskou daň, má řadu dalších nástrojů a řešení a bude o nich jednat."
+          },
+          {
+            "en": "SPD's number two, Fiala, said that if a tax could be found that would not hit fees and mortgages, it would be possible to discuss it.",
+            "cs": "Druhý muž SPD Fiala řekl, že pokud by se našla daň, která by nezasáhla poplatky a hypotéky, je možné o ní diskutovat."
+          },
+          {
+            "en": "ODS leader Kupka, by contrast, warns that a sectoral tax would seriously damage the Czech business environment, and he called the earlier windfall tax a mistake.",
+            "cs": "Šéf ODS Kupka naopak varuje, že sektorová daň zásadně poškodí české podnikatelské prostředí, a dřívější windfall tax označil za chybu."
+          },
+          {
+            "en": "According to E15, the opposition warns against approving the changes quickly.",
+            "cs": "Opozice podle E15 varuje před rychlým schválením změn."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "on the table",
+            "definition": "being seriously considered as a possible option"
+          },
+          {
+            "term": "mortgages",
+            "definition": "loans from a bank used to buy a home"
+          },
+          {
+            "term": "sectoral",
+            "definition": "affecting only one part of the economy"
+          },
+          {
+            "term": "windfall tax",
+            "definition": "a special tax on unusually large profits"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:00",
+      "headline": "Nvidia zahájila vyšetřování svého šéfa kvůli vztahu se ženou podezřelou ze špionáže",
+      "body": "Nvidia zahájila vyšetřování, které má ověřit zprávy, že její generální ředitel Jensen Huang měl vztah se ženou podezřelou ze špionáže ve prospěch Číny. Podle firmy se Huang stal terčem zpravodajské operace, Čína to popírá. Sám Huang podle Seznam Zpráv prohlásil, že byl nevěrný, ale svou zemi miluje; kauzu popisuje server BBC. Akcie Nvidie podle E15 reagovaly dalším poklesem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-byl-jsem-neverny-ale-svou-zemi-miluji-rekl-sef-nvidie-zapleteny-do-spionaze-320028"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/sef-nvidie-priznal-vztah-s-cinankou-podezrelou-ze-spionaze-firma-spustila-vysetrovani-1437187"
+        }
+      ],
+      "en": {
+        "headline": "Nvidia has launched an investigation of its chief over a relationship with a woman suspected of spying",
+        "sentences": [
+          {
+            "en": "Nvidia has launched an investigation to verify reports that its chief executive Jensen Huang had a relationship with a woman suspected of spying for China.",
+            "cs": "Nvidia zahájila vyšetřování, které má ověřit zprávy, že její generální ředitel Jensen Huang měl vztah se ženou podezřelou ze špionáže ve prospěch Číny."
+          },
+          {
+            "en": "According to the company, Huang became the target of an intelligence operation, which China denies.",
+            "cs": "Podle firmy se Huang stal terčem zpravodajské operace, Čína to popírá."
+          },
+          {
+            "en": "Huang himself, according to Seznam Zprávy, said that he had been unfaithful but that he loves his country; the case is described by the BBC.",
+            "cs": "Sám Huang podle Seznam Zpráv prohlásil, že byl nevěrný, ale svou zemi miluje; kauzu popisuje server BBC."
+          },
+          {
+            "en": "According to E15, Nvidia shares reacted with a further fall.",
+            "cs": "Akcie Nvidie podle E15 reagovaly dalším poklesem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "intelligence",
+            "definition": "secret information collected about another country"
+          },
+          {
+            "term": "unfaithful",
+            "definition": "having a secret romantic relationship outside a marriage"
+          },
+          {
+            "term": "shares",
+            "definition": "small parts of a company that people can buy"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "06:00",
+      "headline": "Obchodníci i potravináři čekají konec období levných potravin",
+      "body": "Česko zřejmě čeká brzký konec období levných potravin, ceny jídla podle obchodníků i potravinářů pravděpodobně začnou růst. Důvodem jsou vyšší náklady na energie, paliva i zaměstnance. Zatím ale potraviny stále táhnou inflaci dolů, nízké jsou třeba ceny mléka, vajec nebo vepřového.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zatim-tahnou-inflaci-dolu-brzy-ale-potraviny-zrejme-podrazi-379403"
+        }
+      ],
+      "en": {
+        "headline": "Retailers and food producers expect the period of cheap food to end",
+        "sentences": [
+          {
+            "en": "The Czech Republic is apparently facing an early end to the period of cheap food, and according to retailers and food producers prices are likely to start rising.",
+            "cs": "Česko zřejmě čeká brzký konec období levných potravin, ceny jídla podle obchodníků i potravinářů pravděpodobně začnou růst."
+          },
+          {
+            "en": "The reason is higher costs for energy, fuel and staff.",
+            "cs": "Důvodem jsou vyšší náklady na energie, paliva i zaměstnance."
+          },
+          {
+            "en": "For now, however, food is still pulling inflation down; the prices of milk, eggs or pork, for example, are low.",
+            "cs": "Zatím ale potraviny stále táhnou inflaci dolů, nízké jsou třeba ceny mléka, vajec nebo vepřového."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "retailers",
+            "definition": "shops and companies that sell goods to people"
+          },
+          {
+            "term": "apparently",
+            "definition": "as it seems, from what people say"
+          },
+          {
+            "term": "For now",
+            "definition": "at this moment, but maybe not later"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:27",
+      "headline": "Důkaz významné domněnky o kvantových počítačích se podařilo najít s pomocí AI",
+      "body": "Společnost Physical Superintelligence oznámila 6. listopadu důkaz Aaronsonovy-Ambainisovy domněnky, která patřila mezi významné otevřené problémy teorie kvantových výpočtů. Domněnku formulovali v roce 2008 informatici Scott Aaronson a Andris Ambainis a zabývá se otázkou, za jakých podmínek mohou být kvantové počítače exponenciálně rychlejší než klasické. Podle Rootu byl důkaz nalezen s pomocí umělé inteligence.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/dukaz-vyznamne-matematicke-domnenky-o-kvantovych-pocitacich-nalezen-s-pomoci-ai/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "A proof of an important conjecture about quantum computers was found with the help of AI",
+        "sentences": [
+          {
+            "en": "The company Physical Superintelligence announced on 6 November a proof of the Aaronson-Ambainis conjecture, which was among the important open problems of the theory of quantum computation.",
+            "cs": "Společnost Physical Superintelligence oznámila 6. listopadu důkaz Aaronsonovy-Ambainisovy domněnky, která patřila mezi významné otevřené problémy teorie kvantových výpočtů."
+          },
+          {
+            "en": "The conjecture was formulated in 2008 by the computer scientists Scott Aaronson and Andris Ambainis and deals with the question of the conditions under which quantum computers can be exponentially faster than classical ones.",
+            "cs": "Domněnku formulovali v roce 2008 informatici Scott Aaronson a Andris Ambainis a zabývá se otázkou, za jakých podmínek mohou být kvantové počítače exponenciálně rychlejší než klasické."
+          },
+          {
+            "en": "According to Root, the proof was found with the help of artificial intelligence.",
+            "cs": "Podle Rootu byl důkaz nalezen s pomocí umělé inteligence."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "conjecture",
+            "definition": "an idea that is believed to be true but is not proved yet"
+          },
+          {
+            "term": "proof",
+            "definition": "an argument that shows something is certainly true"
+          },
+          {
+            "term": "exponentially",
+            "definition": "growing faster and faster, not by equal steps"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:56",
+      "headline": "Brněnští vědci učí umělou inteligenci poznat z hlasu přetíženého pilota",
+      "body": "Výzkumníci z brněnského VUT pracují na technologii, která má z hlasu rozpoznat, kdy je vojenský pilot unavený nebo pod příliš velkým tlakem. Spolupracují na ní s americkým výrobcem leteckých systémů Lockheed Martin. Řeč podle vědců může včas upozornit na přetížení pilotů a technologie by v budoucnu mohla pomoci předcházet krizovým situacím i nehodám.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/veda/hlas-muze-prozradit-vic-nez-slova-brnensti-vedci-uci-ai-poznat-kdy-je-pilot-na_2611091056_elev"
+        }
+      ],
+      "en": {
+        "headline": "Scientists in Brno are teaching artificial intelligence to hear from a voice that a pilot is overloaded",
+        "sentences": [
+          {
+            "en": "Researchers from the Brno University of Technology are working on a technology that is to recognise from the voice when a military pilot is tired or under too much pressure.",
+            "cs": "Výzkumníci z brněnského VUT pracují na technologii, která má z hlasu rozpoznat, kdy je vojenský pilot unavený nebo pod příliš velkým tlakem."
+          },
+          {
+            "en": "They are working on it with the American manufacturer of aviation systems Lockheed Martin.",
+            "cs": "Spolupracují na ní s americkým výrobcem leteckých systémů Lockheed Martin."
+          },
+          {
+            "en": "According to the scientists, speech can give early warning that pilots are overloaded, and in the future the technology could help prevent critical situations and accidents.",
+            "cs": "Řeč podle vědců může včas upozornit na přetížení pilotů a technologie by v budoucnu mohla pomoci předcházet krizovým situacím i nehodám."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "aviation",
+            "definition": "the designing and flying of aircraft"
+          },
+          {
+            "term": "early warning",
+            "definition": "a sign that tells you about a problem before it is serious"
+          },
+          {
+            "term": "overloaded",
+            "definition": "given more work or pressure than one can handle"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:17",
+      "headline": "Desktopová aplikace ChatGPT přeposílá SSH agenta uživatele na vzdálené stroje",
+      "body": "Podle příspěvku na Hacker News přeposílá desktopová aplikace ChatGPT uživatelův SSH agent na vzdálené stroje. Agent běžící na vzdáleném stroji se pak může autentizovat místními přihlašovacími údaji uživatele, takže může například pushnout do jeho soukromých repozitářů na GitHubu. Autor příspěvku odkazuje jako důkaz na diskusi v pull requestu projektu Codex.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50422628"
+        }
+      ],
+      "en": {
+        "headline": "The ChatGPT desktop application forwards the user's SSH agent to remote machines",
+        "sentences": [
+          {
+            "en": "According to a post on Hacker News, the ChatGPT desktop application forwards the user's SSH agent to remote machines.",
+            "cs": "Podle příspěvku na Hacker News přeposílá desktopová aplikace ChatGPT uživatelův SSH agent na vzdálené stroje."
+          },
+          {
+            "en": "The agent running on the remote machine can then authenticate with the user's local credentials, so it can, for example, push to their private repositories on GitHub.",
+            "cs": "Agent běžící na vzdáleném stroji se pak může autentizovat místními přihlašovacími údaji uživatele, takže může například pushnout do jeho soukromých repozitářů na GitHubu."
+          },
+          {
+            "en": "The author of the post links as proof to a discussion in a pull request of the Codex project.",
+            "cs": "Autor příspěvku odkazuje jako důkaz na diskusi v pull requestu projektu Codex."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forwards",
+            "definition": "sends something on to another place"
+          },
+          {
+            "term": "authenticate",
+            "definition": "prove who you are to a computer system"
+          },
+          {
+            "term": "credentials",
+            "definition": "the details, such as keys or passwords, that prove who you are"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "20:08",
+      "day": "prev",
+      "headline": "Pojišťovny zamítají žádosti o nový lék pro děti s Duchennovou svalovou dystrofií",
+      "body": "Třicet rodin žádá o úhradu nového léku pro děti s Duchennovou svalovou dystrofií. Toto závažné a nevyléčitelné genetické onemocnění pacienty postupně připravuje o možnost chůze; nový přípravek by podle lékařů mohl vývoj nemoci zpomalit a schopnost samostatné chůze prodloužit v řádu let. Pojišťovny ale velké množství žádostí zamítly a některé rodiny kvůli tomu uvažují i o žalobách.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/novy-lek-muze-pomoct-detem-se-svalovou-dystrofii-pojistovny-radu-zadosti-zamitly-379405"
+        }
+      ],
+      "en": {
+        "headline": "Insurers are rejecting applications for a new drug for children with Duchenne muscular dystrophy",
+        "sentences": [
+          {
+            "en": "Thirty families are applying for coverage of a new drug for children with Duchenne muscular dystrophy.",
+            "cs": "Třicet rodin žádá o úhradu nového léku pro děti s Duchennovou svalovou dystrofií."
+          },
+          {
+            "en": "This serious and incurable genetic disease gradually deprives patients of the ability to walk; according to doctors the new drug could slow the course of the disease and extend the ability to walk unaided by years.",
+            "cs": "Toto závažné a nevyléčitelné genetické onemocnění pacienty postupně připravuje o možnost chůze; nový přípravek by podle lékařů mohl vývoj nemoci zpomalit a schopnost samostatné chůze prodloužit v řádu let."
+          },
+          {
+            "en": "Insurers, however, have rejected a large number of the applications, and some families are therefore considering lawsuits.",
+            "cs": "Pojišťovny ale velké množství žádostí zamítly a některé rodiny kvůli tomu uvažují i o žalobách."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "incurable",
+            "definition": "impossible to cure"
+          },
+          {
+            "term": "deprives",
+            "definition": "takes something important away from someone"
+          },
+          {
+            "term": "unaided",
+            "definition": "without help from anyone or anything"
+          },
+          {
+            "term": "lawsuits",
+            "definition": "legal cases brought against someone in court"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:51",
+      "headline": "Španělé přijedou na čtvrteční zápas s Českem bez Yamala i Oyarzabala",
+      "body": "Španělští fotbalisté nastoupí ke čtvrtečnímu zápasu Ligy národů v Praze proti českému týmu bez největší hvězdy Lamina Yamala. Devatenáctiletý křídelník Barcelony má problémy s kolenem a k dispozici by měl být až na víkendové utkání proti Anglii. Kvůli chřipce chybí i nejlepší střelec Mikel Oyarzabal, podle Sport.cz vypadl z nominace také Ander Barrenetxea.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/spanele-nastoupi-v-cesku-bez-nejvetsi-hvezdy-yamala-nepusti-k-zapasu-ligy-narodu_2611091451_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/spanelum-budou-v-lize-narodu-proti-cesku-chybet-yamal-i-oyarzabal-159871"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-spanele-hlasi-pred-zapasem-s-ceskem-zmenu-kvuli-zraneni-museli-sahnout-do-nominace-5572748"
+        }
+      ],
+      "en": {
+        "headline": "Spain will come to Thursday's match against the Czechs without Yamal and Oyarzabal",
+        "sentences": [
+          {
+            "en": "The Spanish footballers will take the field for Thursday's Nations League match in Prague against the Czech team without their biggest star, Lamine Yamal.",
+            "cs": "Španělští fotbalisté nastoupí ke čtvrtečnímu zápasu Ligy národů v Praze proti českému týmu bez největší hvězdy Lamina Yamala."
+          },
+          {
+            "en": "The nineteen-year-old Barcelona winger has knee trouble and should be available only for the weekend match against England.",
+            "cs": "Devatenáctiletý křídelník Barcelony má problémy s kolenem a k dispozici by měl být až na víkendové utkání proti Anglii."
+          },
+          {
+            "en": "Top scorer Mikel Oyarzabal is also missing because of flu, and according to Sport.cz Ander Barrenetxea has dropped out of the squad as well.",
+            "cs": "Kvůli chřipce chybí i nejlepší střelec Mikel Oyarzabal, podle Sport.cz vypadl z nominace také Ander Barrenetxea."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "take the field",
+            "definition": "come onto the pitch to play a match"
+          },
+          {
+            "term": "winger",
+            "definition": "a player who attacks along the side of the pitch"
+          },
+          {
+            "term": "squad",
+            "definition": "the group of players chosen for a team"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:47",
+      "headline": "Fotbalové Opavě hrozí vyloučení z druhé ligy kvůli podezření z uplácení rozhodčího",
+      "body": "Policie stíhá fotbalovou Opavu i předsedu jejího představenstva Martina Latku kvůli podezření z uplácení rozhodčího. Ve hře je podle Sport.cz vyloučení klubu ze druhé ligy, anulování jeho dosavadních výsledků a dohrání soutěže s pouhými patnácti účastníky.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-opave-hrozi-vyhazov-ze-druhe-ligy-policie-stiha-klub-i-jeho-sefa-kvuli-uplatkum-5572773"
+        }
+      ],
+      "en": {
+        "headline": "Opava faces expulsion from the second division over suspected bribery of a referee",
+        "sentences": [
+          {
+            "en": "Police are prosecuting the football club Opava and the chairman of its board, Martin Latka, on suspicion of bribing a referee.",
+            "cs": "Policie stíhá fotbalovou Opavu i předsedu jejího představenstva Martina Latku kvůli podezření z uplácení rozhodčího."
+          },
+          {
+            "en": "According to Sport.cz, what is at stake is the club's expulsion from the second division, the annulment of its results so far and finishing the league with only fifteen teams.",
+            "cs": "Ve hře je podle Sport.cz vyloučení klubu ze druhé ligy, anulování jeho dosavadních výsledků a dohrání soutěže s pouhými patnácti účastníky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bribing",
+            "definition": "giving money to someone so that they act dishonestly"
+          },
+          {
+            "term": "at stake",
+            "definition": "able to be won or lost, depending on what happens"
+          },
+          {
+            "term": "expulsion",
+            "definition": "being forced to leave a group or competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "17:10",
+      "day": "prev",
+      "headline": "Plzeň remizovala se Spartou 1:1, Slavia nasázela Artisu čtyři branky",
+      "body": "Šlágr 14. kola ligy mezi Plzní a Spartou skončil remízou 1:1, obě branky padly do přestávky. Trenér Plzně Radoslav Kováč po zápase uvedl, že jeho tým cítil křivdu, protože podle něj vedoucímu gólu Jonatana Brunese předcházel faul na Sampsona Dweha; sparťanský kouč Brian Priske považoval situaci za nejednoznačnou. Slavia zvítězila nad Artisem Brno 4:1, hosté hráli od 11. minuty bez vyloučeného Michala Jeřábka a obhájci titulu jako jediní dosud v soutěži neprohráli. Jablonec remizoval s Mladou Boleslaví 0:0.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/slavia-nasazela-artisu-ctyri-branky-ouattara-byl-hrdinou-pardubic-159850"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/kovac-samozrejme-jsme-citili-hodne-velkou-krivdu-protoze-jsme-byli-presvedceni-ze-to-byl-jasny-159863"
+        }
+      ],
+      "en": {
+        "headline": "Plzeň drew 1:1 with Sparta and Slavia put four goals past Artis",
+        "sentences": [
+          {
+            "en": "The big match of the 14th league round between Plzeň and Sparta ended in a 1:1 draw, with both goals scored before the break.",
+            "cs": "Šlágr 14. kola ligy mezi Plzní a Spartou skončil remízou 1:1, obě branky padly do přestávky."
+          },
+          {
+            "en": "Plzeň coach Radoslav Kováč said after the match that his team felt wronged, because in his view Jonatan Bruneš's opening goal had been preceded by a foul on Sampson Dweh; Sparta coach Brian Priske considered the situation unclear.",
+            "cs": "Trenér Plzně Radoslav Kováč po zápase uvedl, že jeho tým cítil křivdu, protože podle něj vedoucímu gólu Jonatana Brunese předcházel faul na Sampsona Dweha; sparťanský kouč Brian Priske považoval situaci za nejednoznačnou."
+          },
+          {
+            "en": "Slavia beat Artis Brno 4:1, the visitors played from the 11th minute without the sent-off Michal Jeřábek, and the defending champions are the only team in the competition not to have lost so far.",
+            "cs": "Slavia zvítězila nad Artisem Brno 4:1, hosté hráli od 11. minuty bez vyloučeného Michala Jeřábka a obhájci titulu jako jediní dosud v soutěži neprohráli."
+          },
+          {
+            "en": "Jablonec drew 0:0 with Mladá Boleslav.",
+            "cs": "Jablonec remizoval s Mladou Boleslaví 0:0."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "draw",
+            "definition": "a result in which neither team wins"
+          },
+          {
+            "term": "felt wronged",
+            "definition": "felt that they had been treated unfairly"
+          },
+          {
+            "term": "sent-off",
+            "definition": "ordered by the referee to leave the pitch"
+          },
+          {
+            "term": "defending champions",
+            "definition": "the team that won the competition last time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:04",
+      "headline": "České lakrosistky získaly na mistrovství Evropy bronz",
+      "body": "České reprezentantky v šestkovém lakrosu získaly na mistrovství Evropy ve španělském Salou bronzové medaile, v zápase o třetí místo porazily Německo 10:7. Bronzu se dočkaly počtvrté po letech 1997, 1999 a 2003.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/ostatni/cesky-dosahly-na-lakrosovy-bronz-medaili-maji-po-23-letech-159872"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-cesky-ziskaly-na-mistrovstvi-evropy-v-lakrosu-poctvrte-bronzovou-medaili-5572776"
+        }
+      ],
+      "en": {
+        "headline": "Czech lacrosse players won bronze at the European Championship",
+        "sentences": [
+          {
+            "en": "The Czech women's sixes lacrosse team won bronze medals at the European Championship in Salou, Spain, beating Germany 10:7 in the match for third place.",
+            "cs": "České reprezentantky v šestkovém lakrosu získaly na mistrovství Evropy ve španělském Salou bronzové medaile, v zápase o třetí místo porazily Německo 10:7."
+          },
+          {
+            "en": "It is their fourth bronze, after 1997, 1999 and 2003.",
+            "cs": "Bronzu se dočkaly počtvrté po letech 1997, 1999 a 2003."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "lacrosse",
+            "definition": "a team sport played with a ball and sticks with small nets"
+          },
+          {
+            "term": "bronze",
+            "definition": "the prize for finishing third"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:00",
+      "day": "prev",
+      "headline": "Hokejistky podlehly na mistrovství světa Švýcarkám 1:2 v prodloužení",
+      "body": "České hokejistky na mistrovství světa v Dánsku podlehly Švýcarkám 1:2 v prodloužení, v čase 61:49 rozhodla Alina Müllerová. Navzdory výrazné střelecké převaze, kdy vyslaly na soupeřku 34 střel, se prosadily jen jednou. V úterý je ve skupině A čeká Německo.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/ms-v-hokeji-zen-cesko-svycarsko-159855"
+        }
+      ],
+      "en": {
+        "headline": "The women's ice hockey team lost 1:2 in overtime to Switzerland at the World Championship",
+        "sentences": [
+          {
+            "en": "The Czech women's ice hockey team lost 1:2 in overtime to Switzerland at the World Championship in Denmark, with Alina Müller settling it at 61:49.",
+            "cs": "České hokejistky na mistrovství světa v Dánsku podlehly Švýcarkám 1:2 v prodloužení, v čase 61:49 rozhodla Alina Müllerová."
+          },
+          {
+            "en": "Despite a clear advantage in shots, firing 34 at their opponent, they scored only once.",
+            "cs": "Navzdory výrazné střelecké převaze, kdy vyslaly na soupeřku 34 střel, se prosadily jen jednou."
+          },
+          {
+            "en": "On Tuesday they face Germany in Group A.",
+            "cs": "V úterý je ve skupině A čeká Německo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overtime",
+            "definition": "extra playing time after a tied game"
+          },
+          {
+            "term": "Despite",
+            "definition": "although something else is true"
+          },
+          {
+            "term": "firing",
+            "definition": "shooting at goal"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:07",
+      "headline": "Nosková vyhrála na úvod Turnaje mistryň, Muchová dnes čeká premiéru",
+      "body": "Linda Nosková vstoupila do Turnaje mistryň výhrou nad Ukrajinkou Martou Kosťukovou 6:2 a 6:4. Kateřina Siniaková s Taylor Townsendovou naopak prohrály úvodní zápas se Sarou Erraniovou a Jasmine Paoliniovou 6:4, 1:6, 8:10. Karolína Muchová, která se na Turnaj mistryň probojovala poprvé v kariéře jako poslední hráčka elitní osmičky, dnes v Indian Wells poprvé nastoupí proti Aryně Sabalenkové.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/noskova-na-uvod-turnaje-mistryn-porazila-kostukovou-159866"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/siniakova-s-townsendovou-prohraly-v-super-tie-breaku-uvodni-duel-turnaje-mistryn-159868"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-turnaj-mistryn-2026-karolina-muchova-aryna-sabalenkova-online-5572723"
+        }
+      ],
+      "en": {
+        "headline": "Nosková won her opening match at the WTA Finals and Muchová makes her debut today",
+        "sentences": [
+          {
+            "en": "Linda Nosková opened the WTA Finals with a win over Ukraine's Marta Kostyuk 6:2 and 6:4.",
+            "cs": "Linda Nosková vstoupila do Turnaje mistryň výhrou nad Ukrajinkou Martou Kosťukovou 6:2 a 6:4."
+          },
+          {
+            "en": "Kateřina Siniaková and Taylor Townsend, by contrast, lost their opening match to Sara Errani and Jasmine Paolini 6:4, 1:6, 8:10.",
+            "cs": "Kateřina Siniaková s Taylor Townsendovou naopak prohrály úvodní zápas se Sarou Erraniovou a Jasmine Paoliniovou 6:4, 1:6, 8:10."
+          },
+          {
+            "en": "Karolína Muchová, who has reached the WTA Finals for the first time in her career as the last player in the elite eight, will play her first match in Indian Wells today against Aryna Sabalenka.",
+            "cs": "Karolína Muchová, která se na Turnaj mistryň probojovala poprvé v kariéře jako poslední hráčka elitní osmičky, dnes v Indian Wells poprvé nastoupí proti Aryně Sabalenkové."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "by contrast",
+            "definition": "used to show a clear difference with what was just said"
+          },
+          {
+            "term": "elite",
+            "definition": "the small group of the very best"
+          },
+          {
+            "term": "debut",
+            "definition": "a first appearance in something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The government approved a draft constitutional act on a nationwide referendum, but it does not have enough votes in the Chamber of Deputies to push it through.",
+    "Supreme Public Prosecutor Bradáčová has filed an appeal in the case of SPD's election posters, and the Supreme Court will decide.",
+    "The gunman who killed six people in Kraków on Saturday died in hospital; the prosecution is so far refusing to link the attack to any particular ideology."
+  ]
+}
