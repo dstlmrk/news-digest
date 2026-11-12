@@ -1,0 +1,1446 @@
+{
+  "date": "2026-11-12",
+  "covers": "2026-11-12",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "iROZHLAS",
+    "E15",
+    "Voxpot",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "iDNES Hradec",
+    "Sport.cz",
+    "ČT Sport"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude převážně pršet a denní teplota vystoupí jen k 7 °C. Ráno bude kolem 1 °C.",
+    "days": [
+      {
+        "date": "2026-11-13",
+        "icon": "rain",
+        "temp_max_c": 7.1,
+        "temp_min_c": 1.2
+      },
+      {
+        "date": "2026-11-14",
+        "icon": "cloudy",
+        "temp_max_c": 6.3,
+        "temp_min_c": 0.2
+      },
+      {
+        "date": "2026-11-15",
+        "icon": "partly",
+        "temp_max_c": 6.3,
+        "temp_min_c": 0.6
+      },
+      {
+        "date": "2026-11-16",
+        "icon": "rain",
+        "temp_max_c": 6.4,
+        "temp_min_c": 2.1
+      }
+    ],
+    "summary_en": "Tomorrow will be mostly rainy and the daytime temperature will reach only about 7 °C. The morning will be around 1 °C."
+  },
+  "highlights": [
+    "Šéf Nvidie Jensen Huang rezignoval kvůli skandálu se vztahem k čínské podnikatelce podezřelé ze špionáže, firmu dočasně povede finanční ředitelka Colette Kress.",
+    "Vláda chce uvolnit pravidla školního stravování, výživové normy mají být podle ministra školství Roberta Plagy jen doporučením.",
+    "Putin přijal v Kremlu americké vyjednavače Witkoffa a Kushnera, kteří odtud míří na summit v Dublinu za Zelenským."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:21",
+      "headline": "Vláda chce uvolnit pravidla školního stravování, výživové normy mají být jen doporučením",
+      "body": "Ministr školství Robert Plaga (za ANO) dnes novinářům řekl, že návrh vyhlášky o školním stravování bude vycházet z toho, co bude chtít ministerstvo zdravotnictví, a že výživové normy by měly být pouze doporučením. Vyhlášku vydává ministerstvo školství v dohodě s ministerstvem zdravotnictví. Deník N, který návrh získal, uvádí, že z vyhlášky má zmizet i pasáž, podle níž se kuchaři musí při vaření pro děti se speciálními dietami řídit doporučeními lékařů a dalších expertů. Nutriční terapeut Martin Krobot z Masarykovy univerzity pro Deník N odhadl, že v kvalitních jídelnách se situace nezhorší, v těch ostatních ale mohou od snahy vařit zdravě upustit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zmena-pro-skolni-jidelny-navrh-vyhlasky-o-skolnim-stravovani-je-na-ministerstvu_2611121521_tez"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2254087/varte-si-jak-chcete-co-vse-vlada-hodla-zmenit-ve-skolnich-jidelnach/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2253754/naprosto-me-to-vydesilo-rika-expert-k-tomu-jak-vlada-meni-pravidla-pro-skolni-jidelny/"
+        }
+      ],
+      "en": {
+        "headline": "The government wants to loosen the rules for school meals, with nutritional standards becoming mere recommendations",
+        "sentences": [
+          {
+            "en": "Education Minister Robert Plaga (for ANO) told reporters today that the draft decree on school meals will be based on what the Ministry of Health wants, and that nutritional standards should be only recommendations.",
+            "cs": "Ministr školství Robert Plaga (za ANO) dnes novinářům řekl, že návrh vyhlášky o školním stravování bude vycházet z toho, co bude chtít ministerstvo zdravotnictví, a že výživové normy by měly být pouze doporučením."
+          },
+          {
+            "en": "The decree is issued by the Ministry of Education in agreement with the Ministry of Health.",
+            "cs": "Vyhlášku vydává ministerstvo školství v dohodě s ministerstvem zdravotnictví."
+          },
+          {
+            "en": "Deník N, which obtained the draft, reports that a passage requiring cooks to follow the advice of doctors and other experts when cooking for children on special diets is also set to disappear from the decree.",
+            "cs": "Deník N, který návrh získal, uvádí, že z vyhlášky má zmizet i pasáž, podle níž se kuchaři musí při vaření pro děti se speciálními dietami řídit doporučeními lékařů a dalších expertů."
+          },
+          {
+            "en": "Nutritional therapist Martin Krobot of Masaryk University estimated for Deník N that the situation will not get worse in good canteens, but that the others may give up trying to cook healthily.",
+            "cs": "Nutriční terapeut Martin Krobot z Masarykovy univerzity pro Deník N odhadl, že v kvalitních jídelnách se situace nezhorší, v těch ostatních ale mohou od snahy vařit zdravě upustit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "decree",
+            "definition": "an official order or decision made by a government"
+          },
+          {
+            "term": "nutritional",
+            "definition": "relating to the food a person needs to stay healthy"
+          },
+          {
+            "term": "canteens",
+            "definition": "places in a school or workplace where meals are served"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:15",
+      "headline": "Přijímací zkoušky na střední školy se mají od jara 2029 změnit",
+      "body": "Ministr školství Robert Plaga (za ANO) uvedl, že žáci devátých tříd by si nově mohli podat až pět přihlášek a že by nejprve psali jednotné testy a teprve potom se hlásili na konkrétní školy. Dosavadní omezení počtu přihlášek by odpadlo. Podle ČT24 si dnes žáci mohou podat nejvýše tři přihlášky na obory s talentovou zkouškou a dvě na obory bez ní, Deník N s odvoláním na Novinky uvádí jako dosavadní limit u netalentových oborů tři přihlášky. Návrh chce ministerstvo předložit do konce roku, nový systém by mohl fungovat od roku 2029.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/plaga-testy-by-mohly-predchazet-podavani-prihlasek-na-stredni-skoly-od-jara-2029-379553"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255314/"
+        }
+      ],
+      "en": {
+        "headline": "Secondary school entrance exams are set to change from the spring of 2029",
+        "sentences": [
+          {
+            "en": "Education Minister Robert Plaga (for ANO) said that ninth-graders could newly submit up to five applications, and that they would first sit the unified tests and only then apply to specific schools.",
+            "cs": "Ministr školství Robert Plaga (za ANO) uvedl, že žáci devátých tříd by si nově mohli podat až pět přihlášek a že by nejprve psali jednotné testy a teprve potom se hlásili na konkrétní školy."
+          },
+          {
+            "en": "The existing cap on the number of applications would be dropped.",
+            "cs": "Dosavadní omezení počtu přihlášek by odpadlo."
+          },
+          {
+            "en": "According to ČT24, pupils can currently submit at most three applications to fields with an aptitude test and two to fields without one, while Deník N, citing Novinky, gives three applications as the current limit for non-aptitude fields.",
+            "cs": "Podle ČT24 si dnes žáci mohou podat nejvýše tři přihlášky na obory s talentovou zkouškou a dvě na obory bez ní, Deník N s odvoláním na Novinky uvádí jako dosavadní limit u netalentových oborů tři přihlášky."
+          },
+          {
+            "en": "The ministry wants to put the proposal forward by the end of the year, and the new system could be in place from 2029.",
+            "cs": "Návrh chce ministerstvo předložit do konce roku, nový systém by mohl fungovat od roku 2029."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cap",
+            "definition": "the highest limit allowed for something"
+          },
+          {
+            "term": "aptitude",
+            "definition": "a natural ability to do something well"
+          },
+          {
+            "term": "pupils",
+            "definition": "children who are being taught at school"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:51",
+      "headline": "Na Letné se v neděli chystá demonstrace, očekává se až půl milionu lidí",
+      "body": "Spolek Milion chvilek chce na nedělní demonstraci na pražské Letné představit další postup, jak protesty rozšířit do zbytku země, oznámil jeho předseda. Vláda je podle Seznam Zpráv dál pod tlakem veřejnosti kvůli tomu, jak se snaží prosadit změnu financování veřejnoprávních médií, a po sérii protestů napříč republikou se očekává účast až půl milionu lidí. Policie nechystá plošné uzavírky, apeluje ale na řidiče, aby se okolí Letné vyhnuli; v davu budou stovky pořadatelů, záchranáři i antikonfliktní tým.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255265/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ocekava-se-az-pul-milionu-lidi-jak-bude-zajistena-bezpecnost-na-letne-320364"
+        }
+      ],
+      "en": {
+        "headline": "A demonstration is planned on Letná on Sunday, with up to half a million people expected",
+        "sentences": [
+          {
+            "en": "The Milion chvilek association wants to present at Sunday's demonstration on Prague's Letná its next steps for spreading the protests to the rest of the country, its chair announced.",
+            "cs": "Spolek Milion chvilek chce na nedělní demonstraci na pražské Letné představit další postup, jak protesty rozšířit do zbytku země, oznámil jeho předseda."
+          },
+          {
+            "en": "According to Seznam Zprávy, the government remains under public pressure over the way it is trying to push through a change in the funding of public service media, and after a series of protests across the country a turnout of up to half a million people is expected.",
+            "cs": "Vláda je podle Seznam Zpráv dál pod tlakem veřejnosti kvůli tomu, jak se snaží prosadit změnu financování veřejnoprávních médií, a po sérii protestů napříč republikou se očekává účast až půl milionu lidí."
+          },
+          {
+            "en": "The police are not planning blanket road closures, but are urging drivers to avoid the area around Letná; there will be hundreds of stewards in the crowd, along with paramedics and an anti-conflict team.",
+            "cs": "Policie nechystá plošné uzavírky, apeluje ale na řidiče, aby se okolí Letné vyhnuli; v davu budou stovky pořadatelů, záchranáři i antikonfliktní tým."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "push through",
+            "definition": "to make something be accepted or approved, often with effort"
+          },
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to an event"
+          },
+          {
+            "term": "blanket",
+            "definition": "affecting everyone or everything in the same way"
+          },
+          {
+            "term": "stewards",
+            "definition": "people who help organise and keep order at a large event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "11:47",
+      "headline": "Žáci základních škol nasbírali za pololetí téměř 440 tisíc neomluvených hodin",
+      "body": "Stát poprvé získal souhrnná data o absencích dětí na základních školách. Za první pololetí minulého školního roku žáci nasbírali téměř 440 tisíc neomluvených hodin a mezi regiony jsou poměrně výrazné rozdíly: nejhůře dopadl Ústecký kraj, hned za ním Moravskoslezský, nejlépe Zlínský. Ministerstvo školství upozorňuje, že data sbírá teprve od loňského roku, a zatím tak neumí říct, jestli absencí přibývá, nebo ubývá.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zaci-loni-nasbirali-na-440-000-neomluvenych-hodin-za-pololeti-nejhure-dopadl_2611121138_dns"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2254985/"
+        }
+      ],
+      "en": {
+        "headline": "Primary school pupils racked up almost 440,000 unexcused hours in a single term",
+        "sentences": [
+          {
+            "en": "The state has obtained aggregate data on primary school pupils' absences for the first time.",
+            "cs": "Stát poprvé získal souhrnná data o absencích dětí na základních školách."
+          },
+          {
+            "en": "In the first term of the last school year, pupils racked up almost 440,000 unexcused hours, and the differences between regions are fairly stark: the Ústecký region fared worst, followed closely by the Moravskoslezský region, while the Zlínský region did best.",
+            "cs": "Za první pololetí minulého školního roku žáci nasbírali téměř 440 tisíc neomluvených hodin a mezi regiony jsou poměrně výrazné rozdíly: nejhůře dopadl Ústecký kraj, hned za ním Moravskoslezský, nejlépe Zlínský."
+          },
+          {
+            "en": "The Ministry of Education points out that it has only been collecting the data since last year, and so cannot yet say whether absences are rising or falling.",
+            "cs": "Ministerstvo školství upozorňuje, že data sbírá teprve od loňského roku, a zatím tak neumí říct, jestli absencí přibývá, nebo ubývá."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "racked up",
+            "definition": "collected a large amount of something over time"
+          },
+          {
+            "term": "aggregate",
+            "definition": "made up of many separate figures added together"
+          },
+          {
+            "term": "stark",
+            "definition": "very clear and often surprising"
+          },
+          {
+            "term": "fared",
+            "definition": "did or managed in a particular way"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:46",
+      "headline": "Šéf cizinecké policie hájil výjezdní příkaz pro Číňana obviněného ze špionáže",
+      "body": "Ředitel cizinecké policie Luděk Procházka na dnešním jednání sněmovního bezpečnostního výboru řekl, že úřad nemohl postupovat jinak než vydat výjezdní příkaz čínskému občanovi obviněnému ze špionáže pro čínskou zpravodajskou službu, a že soud informovat nemusel. Pražský městský soud muže 2. listopadu nepravomocně zprostil obžaloby a propustil z vazby; Česko podle informací z výboru opustil o čtyři dny později.",
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/informovat-soud-jsme-nemuseli-sef-cizinecke-policie-hajil-rozhodnuti-ohledne_2611121446_bva"
+        }
+      ],
+      "en": {
+        "headline": "The head of the foreign police defended the exit order for a Chinese man charged with espionage",
+        "sentences": [
+          {
+            "en": "Luděk Procházka, the director of the foreign police, told today's session of the parliamentary security committee that his office could not have acted otherwise than to issue an exit order to a Chinese citizen charged with spying for the Chinese intelligence service, and that it did not have to inform the court.",
+            "cs": "Ředitel cizinecké policie Luděk Procházka na dnešním jednání sněmovního bezpečnostního výboru řekl, že úřad nemohl postupovat jinak než vydat výjezdní příkaz čínskému občanovi obviněnému ze špionáže pro čínskou zpravodajskou službu, a že soud informovat nemusel."
+          },
+          {
+            "en": "The Prague Municipal Court acquitted the man in a non-final ruling on 2 November and released him from custody; according to information from the committee, he left the Czech Republic four days later.",
+            "cs": "Pražský městský soud muže 2. listopadu nepravomocně zprostil obžaloby a propustil z vazby; Česko podle informací z výboru opustil o čtyři dny později."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "espionage",
+            "definition": "the activity of secretly finding out another country's secrets"
+          },
+          {
+            "term": "acquitted",
+            "definition": "officially declared not guilty of a crime"
+          },
+          {
+            "term": "custody",
+            "definition": "the state of being kept in prison before a trial ends"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:08",
+      "headline": "Královéhradecký kraj jako první v Česku nasadil na hledání výtluků umělou inteligenci",
+      "body": "Kraj začal jako první v zemi využívat umělou inteligenci k odhalování výtluků na silnicích. Systém má poškození vozovky rozpoznat už v počátečním stadiu, dokud oprava není tolik nákladná. Hradecký deník doplňuje, že data o stavu vozovek sbírají kamery ve služebních autech a že kraj nasadil také mikrovlny, které umí opravit výtluk i v mrazu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/prvni-v-republice-vytluky-silnice-kralovehradecky-kraj-ai-kamery/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/905615-diry-v-silnicich-hlida-ai-kralovehradecky-kraj-ji-nasadil-jako-prvni.html"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec Králové Region is the first in the country to use artificial intelligence to find potholes",
+        "sentences": [
+          {
+            "en": "The region has become the first in the country to use artificial intelligence to detect potholes on its roads.",
+            "cs": "Kraj začal jako první v zemi využívat umělou inteligenci k odhalování výtluků na silnicích."
+          },
+          {
+            "en": "The system is meant to recognise damage to the road surface at an early stage, while repairs are still less costly.",
+            "cs": "Systém má poškození vozovky rozpoznat už v počátečním stadiu, dokud oprava není tolik nákladná."
+          },
+          {
+            "en": "Hradecký deník adds that data on the state of the roads is gathered by cameras in official vehicles and that the region has also deployed microwaves that can repair a pothole even in freezing weather.",
+            "cs": "Hradecký deník doplňuje, že data o stavu vozovek sbírají kamery ve služebních autech a že kraj nasadil také mikrovlny, které umí opravit výtluk i v mrazu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "potholes",
+            "definition": "holes in the surface of a road"
+          },
+          {
+            "term": "costly",
+            "definition": "expensive to do or to buy"
+          },
+          {
+            "term": "deployed",
+            "definition": "put into use for a particular purpose"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:50",
+      "headline": "Kraj zbourá areál bývalé školy v Opočně a chce tam postavit přes sto bytů",
+      "body": "Roky opuštěné budovy, garáže, domek správce i kotelna v bývalé zemědělské škole v Opočně na Rychnovsku půjdou k zemi. Královéhradecký kraj, kterému areál patří, tam chce postavit víc než stovku bytů. Část zaplatí sám a nabídne je zaměstnancům svých organizací, další objekty by mohlo stavět město, družstvo nebo soukromníci. První práce mají začít ještě letos.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/areal-byvale-skoly-ceka-demolice-kraj-v-opocne-planuje-pres-sto-bytu.A261105_979767_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The region will demolish the grounds of a former school in Opočno and plans more than a hundred flats there",
+        "sentences": [
+          {
+            "en": "Buildings abandoned for years, garages, the caretaker's house and a boiler room at the former agricultural school in Opočno in the Rychnov area will be torn down.",
+            "cs": "Roky opuštěné budovy, garáže, domek správce i kotelna v bývalé zemědělské škole v Opočně na Rychnovsku půjdou k zemi."
+          },
+          {
+            "en": "The Hradec Králové Region, which owns the grounds, wants to build more than a hundred flats there.",
+            "cs": "Královéhradecký kraj, kterému areál patří, tam chce postavit víc než stovku bytů."
+          },
+          {
+            "en": "It will pay for part of them itself and offer them to employees of its organisations, while the town, a housing cooperative or private investors could build the other structures.",
+            "cs": "Část zaplatí sám a nabídne je zaměstnancům svých organizací, další objekty by mohlo stavět město, družstvo nebo soukromníci."
+          },
+          {
+            "en": "The first work is due to start this year.",
+            "cs": "První práce mají začít ještě letos."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "torn down",
+            "definition": "destroyed on purpose, usually a building"
+          },
+          {
+            "term": "caretaker",
+            "definition": "a person employed to look after a building"
+          },
+          {
+            "term": "boiler room",
+            "definition": "a room with equipment that heats water for a building"
+          },
+          {
+            "term": "cooperative",
+            "definition": "a business owned and run jointly by its members"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "13:31",
+      "headline": "Mountfield HK pustí ženy na páteční zápas s Plzní za padesát korun",
+      "body": "Hokejisté Mountfieldu HK věnují první extraligový zápas po reprezentační přestávce ženám a dívkám, které se do ČPP Arény dostanou za padesát korun. Páteční souboj s Plzní má nabídnout i bohatší doprovodný program.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/hokej/mountfield-hk-plzen-vstupenky-pro-zeny-50-korun/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej"
+        }
+      ],
+      "en": {
+        "headline": "Mountfield HK will let women into Friday's game against Plzeň for fifty crowns",
+        "sentences": [
+          {
+            "en": "The Mountfield HK hockey team is dedicating its first league game after the international break to women and girls, who will get into the ČPP Aréna for fifty crowns.",
+            "cs": "Hokejisté Mountfieldu HK věnují první extraligový zápas po reprezentační přestávce ženám a dívkám, které se do ČPP Arény dostanou za padesát korun."
+          },
+          {
+            "en": "Friday's clash with Plzeň is also set to offer a richer supporting programme.",
+            "cs": "Páteční souboj s Plzní má nabídnout i bohatší doprovodný program."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dedicating",
+            "definition": "giving something specially to a person or group"
+          },
+          {
+            "term": "clash",
+            "definition": "a sports match between two teams"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:11",
+      "headline": "Šéf Nvidie Jensen Huang rezignoval kvůli vztahu s podnikatelkou podezřelou ze špionáže",
+      "body": "Generální ředitel americké Nvidie Jensen Huang rezignoval na všechny funkce ve společnosti a odstupuje okamžitě, oznámila firma. Vedení dočasně převezme finanční ředitelka Colette Kress, která ve funkci finanční ředitelky zůstává. Huang čelil skandálu poté, co přiznal vztah s čínskou podnikatelkou, kterou americké tajné služby podezřívají ze špionáže pro Čínu. Odvětví umělé inteligence tak podle agentury Reuters, na niž se odvolává ČT24, přichází o svého největšího zastánce; Nvidia je klíčovým globálním hráčem v budování infrastruktury pro AI. Deník N upozorňuje, že o věci měl vědět i Donald Trump, čínskou špionáž ale zlehčoval slovy „Dělají to všichni“.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/sef-nvidie-ktery-navazal-vztah-s-cinskou-podnikatelkou-podezrelou-ze-spionaze_2611121511_jkd"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/sef-nvidie-jensen-huang-rezignoval-379557"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-sef-nvidie-jensen-huang-rezignoval-320392"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255268/"
+        }
+      ],
+      "en": {
+        "headline": "Nvidia chief Jensen Huang has resigned over a relationship with a businesswoman suspected of espionage",
+        "sentences": [
+          {
+            "en": "Jensen Huang, the chief executive of the American company Nvidia, has resigned from all positions in the company and is stepping down immediately, the firm announced.",
+            "cs": "Generální ředitel americké Nvidie Jensen Huang rezignoval na všechny funkce ve společnosti a odstupuje okamžitě, oznámila firma."
+          },
+          {
+            "en": "Chief financial officer Colette Kress will temporarily take over the leadership while remaining in that role.",
+            "cs": "Vedení dočasně převezme finanční ředitelka Colette Kress, která ve funkci finanční ředitelky zůstává."
+          },
+          {
+            "en": "Huang faced a scandal after admitting a relationship with a Chinese businesswoman whom American intelligence services suspect of spying for China.",
+            "cs": "Huang čelil skandálu poté, co přiznal vztah s čínskou podnikatelkou, kterou americké tajné služby podezřívají ze špionáže pro Čínu."
+          },
+          {
+            "en": "According to the Reuters news agency, cited by ČT24, the artificial intelligence industry is thus losing its biggest advocate; Nvidia is a key global player in building AI infrastructure.",
+            "cs": "Odvětví umělé inteligence tak podle agentury Reuters, na niž se odvolává ČT24, přichází o svého největšího zastánce; Nvidia je klíčovým globálním hráčem v budování infrastruktury pro AI."
+          },
+          {
+            "en": "Deník N points out that Donald Trump was said to have known about the matter, yet still played down Chinese espionage with the words “Everybody does it”.",
+            "cs": "Deník N upozorňuje, že o věci měl vědět i Donald Trump, čínskou špionáž ale zlehčoval slovy „Dělají to všichni“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stepping down",
+            "definition": "leaving an important job or position"
+          },
+          {
+            "term": "advocate",
+            "definition": "a person who publicly supports an idea or group"
+          },
+          {
+            "term": "played down",
+            "definition": "made something seem less important than it is"
+          },
+          {
+            "term": "espionage",
+            "definition": "the activity of secretly finding out another country's secrets"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:19",
+      "headline": "Putin přijal v Kremlu Witkoffa a Kushnera a navrhl humanitární misi v Kosťantynivce",
+      "body": "Ruský prezident Vladimir Putin se v Kremlu sešel s americkými zmocněnci Stevem Witkoffem a Jaredem Kushnerem. Podle Deníku N jim navrhl zorganizovat humanitární misi týkající se ukrajinské Kosťantynivky po vzoru nedávné operace v Oleškách, kde lokální příměří v Chersonské oblasti umožnilo evakuovat část obyvatel a dopravit do města humanitární pomoc. Seznam Zprávy dodávají, že Putin tvrdí, že Kosťantynivku ovládá a případné misi zajistí bezpečnost. Americké vyjednavače Putin také požádal, aby „pomohli Evropanům rozhodnout se, co chtějí – mír nebo válku“. Witkoff je od začátku velké války na Ukrajině v Moskvě podesáté, Kushner potřetí. Z Kremlu mají Američané zamířit do Dublinu, kde se ještě dnes večer mají setkat s ukrajinským prezidentem Volodymyrem Zelenským.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255197/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-putin-navrhnul-humanitarni-misi-v-ukrajinske-kostantynivce-320389"
+        }
+      ],
+      "en": {
+        "headline": "Putin received Witkoff and Kushner in the Kremlin and proposed a humanitarian mission in Kostiantynivka",
+        "sentences": [
+          {
+            "en": "Russian President Vladimir Putin met American envoys Steve Witkoff and Jared Kushner in the Kremlin.",
+            "cs": "Ruský prezident Vladimir Putin se v Kremlu sešel s americkými zmocněnci Stevem Witkoffem a Jaredem Kushnerem."
+          },
+          {
+            "en": "According to Deník N, he proposed to them organising a humanitarian mission concerning the Ukrainian town of Kostiantynivka, modelled on the recent operation in Oleshky, where a local ceasefire in the Kherson region made it possible to evacuate some residents and deliver humanitarian aid to the town.",
+            "cs": "Podle Deníku N jim navrhl zorganizovat humanitární misi týkající se ukrajinské Kosťantynivky po vzoru nedávné operace v Oleškách, kde lokální příměří v Chersonské oblasti umožnilo evakuovat část obyvatel a dopravit do města humanitární pomoc."
+          },
+          {
+            "en": "Seznam Zprávy adds that Putin claims he controls Kostiantynivka and would guarantee the safety of any such mission.",
+            "cs": "Seznam Zprávy dodávají, že Putin tvrdí, že Kosťantynivku ovládá a případné misi zajistí bezpečnost."
+          },
+          {
+            "en": "Putin also asked the American negotiators to “help the Europeans decide what they want – peace or war”.",
+            "cs": "Americké vyjednavače Putin také požádal, aby „pomohli Evropanům rozhodnout se, co chtějí – mír nebo válku“."
+          },
+          {
+            "en": "Witkoff is in Moscow for the tenth time since the start of the full-scale war in Ukraine, Kushner for the third.",
+            "cs": "Witkoff je od začátku velké války na Ukrajině v Moskvě podesáté, Kushner potřetí."
+          },
+          {
+            "en": "From the Kremlin the Americans are due to head to Dublin, where they are to meet Ukrainian President Volodymyr Zelenskyj this evening.",
+            "cs": "Z Kremlu mají Američané zamířit do Dublinu, kde se ještě dnes večer mají setkat s ukrajinským prezidentem Volodymyrem Zelenským."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "envoys",
+            "definition": "officials sent to represent a country in talks"
+          },
+          {
+            "term": "ceasefire",
+            "definition": "an agreement to stop fighting for a time"
+          },
+          {
+            "term": "negotiators",
+            "definition": "people who take part in official talks to reach an agreement"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:27",
+      "headline": "V Dublinu začal summit Evropského politického společenství, dominuje mu ruská válka",
+      "body": "V Dublinu začal summit Evropského politického společenství, jehož tématem je bezpečnost. Mezi zhruba pěti desítkami účastníků je i premiér Andrej Babiš, ukrajinský prezident Volodymyr Zelenskyj, německý kancléř Friedrich Merz nebo kanadský premiér Mark Carney. Podle Deníku N mají lídři jednat o nové „bezpečnostní architektuře“ v Evropě a o zřízení vyslance EU pro mírový proces s Ruskem; téma umělé inteligence kvůli válce ustoupilo v programu do pozadí. Merz v Dublinu označil podporu napadené Ukrajiny za společnou odpovědnost Evropy a chce jí zajistit chybějící finance. Babiš si jako evropské představitele pro mírová jednání s Ruskem dokáže představit italskou premiérku Giorgiu Meloni, premiéry Polska a Británie Donalda Tuska a Andyho Burnhama nebo dánskou premiérku Mette Frederiksen a za důležitou považuje i účast předsedy Evropské rady Antónia Costy.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2254923/prvni-jednani-o-vyjednavacich-s-putinem-ovladne-evropske-summity-v-dublinu/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255046/"
+        }
+      ],
+      "en": {
+        "headline": "A summit of the European Political Community has opened in Dublin, dominated by the Russian war",
+        "sentences": [
+          {
+            "en": "A summit of the European Political Community, devoted to security, has opened in Dublin.",
+            "cs": "V Dublinu začal summit Evropského politického společenství, jehož tématem je bezpečnost."
+          },
+          {
+            "en": "Among the roughly fifty participants are Czech Prime Minister Andrej Babiš, Ukrainian President Volodymyr Zelenskyj, German Chancellor Friedrich Merz and Canadian Prime Minister Mark Carney.",
+            "cs": "Mezi zhruba pěti desítkami účastníků je i premiér Andrej Babiš, ukrajinský prezident Volodymyr Zelenskyj, německý kancléř Friedrich Merz nebo kanadský premiér Mark Carney."
+          },
+          {
+            "en": "According to Deník N, the leaders are to discuss a new “security architecture” in Europe and the creation of an EU envoy for the peace process with Russia; because of the war, the topic of artificial intelligence has slipped down the agenda.",
+            "cs": "Podle Deníku N mají lídři jednat o nové „bezpečnostní architektuře“ v Evropě a o zřízení vyslance EU pro mírový proces s Ruskem; téma umělé inteligence kvůli válce ustoupilo v programu do pozadí."
+          },
+          {
+            "en": "In Dublin, Merz called support for the invaded Ukraine a shared European responsibility and wants to secure the funding it lacks.",
+            "cs": "Merz v Dublinu označil podporu napadené Ukrajiny za společnou odpovědnost Evropy a chce jí zajistit chybějící finance."
+          },
+          {
+            "en": "As European representatives for peace talks with Russia, Babiš can imagine Italian Prime Minister Giorgia Meloni, the prime ministers of Poland and Britain Donald Tusk and Andy Burnham, or Danish Prime Minister Mette Frederiksen, and he also considers the participation of European Council President António Costa important.",
+            "cs": "Babiš si jako evropské představitele pro mírová jednání s Ruskem dokáže představit italskou premiérku Giorgiu Meloni, premiéry Polska a Británie Donalda Tuska a Andyho Burnhama nebo dánskou premiérku Mette Frederiksen a za důležitou považuje i účast předsedy Evropské rady Antónia Costy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "summit",
+            "definition": "a meeting between the leaders of different countries"
+          },
+          {
+            "term": "agenda",
+            "definition": "a list of things to be discussed at a meeting"
+          },
+          {
+            "term": "invaded",
+            "definition": "entered by a foreign army by force"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:07",
+      "headline": "Při zřícení třípatrové budovy v newyorském Brooklynu zemřelo osm lidí",
+      "body": "Při zřícení třípatrové budovy v newyorském Brooklynu zemřelo osm lidí, oznámil podle BBC starosta New Yorku Zohran Mamdani; předchozí bilance byla pět obětí. Zraněných je podle ČT24 a Seznam Zpráv devatenáct, poslední aktualizace Deníku N mluví o sedmnácti; čtyři z nich jsou podle hasičů ve vážném stavu. Na místě zasahovalo na 250 hasičů a příslušníků záchranných složek a pátrání po dalších lidech pod sutinami pokračuje. Příčina zřícení zatím zůstává nejasná.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255300/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-zriceni-budovy-v-brooklynu-zemrel-jeden-clovek-dalsi-jsou-zraneni-379535"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-pri-zriceni-budovy-v-brooklynu-zemreli-dva-lide-17-dalsich-utrpelo-zraneni-320334"
+        }
+      ],
+      "en": {
+        "headline": "Eight people died when a three-storey building collapsed in Brooklyn, New York",
+        "sentences": [
+          {
+            "en": "Eight people died when a three-storey building collapsed in Brooklyn, New York, the city's mayor Zohran Mamdani announced according to the BBC; the previous toll was five dead.",
+            "cs": "Při zřícení třípatrové budovy v newyorském Brooklynu zemřelo osm lidí, oznámil podle BBC starosta New Yorku Zohran Mamdani; předchozí bilance byla pět obětí."
+          },
+          {
+            "en": "According to ČT24 and Seznam Zprávy nineteen people were injured, while the latest update from Deník N speaks of seventeen; four of them are in a serious condition according to firefighters.",
+            "cs": "Zraněných je podle ČT24 a Seznam Zpráv devatenáct, poslední aktualizace Deníku N mluví o sedmnácti; čtyři z nich jsou podle hasičů ve vážném stavu."
+          },
+          {
+            "en": "Around 250 firefighters and rescue workers were at the scene and the search for other people under the rubble continues.",
+            "cs": "Na místě zasahovalo na 250 hasičů a příslušníků záchranných složek a pátrání po dalších lidech pod sutinami pokračuje."
+          },
+          {
+            "en": "The cause of the collapse remains unclear.",
+            "cs": "Příčina zřícení zatím zůstává nejasná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "toll",
+            "definition": "the number of people killed or hurt in an event"
+          },
+          {
+            "term": "rubble",
+            "definition": "broken pieces of stone and brick from a destroyed building"
+          },
+          {
+            "term": "collapsed",
+            "definition": "fell down suddenly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:29",
+      "headline": "Varšavou prošel podle polských médií největší Pochod nezávislosti v novodobé historii",
+      "body": "Varšavou ve středu prošel Pochod nezávislosti, podle odhadů polských médií největší v novodobé historii; Deník N mluví o až čtvrtmilionovém pochodu nacionalistů, v jehož čele kráčel prezident. Poláci slavili 108. výročí nezávislosti v atmosféře ostrých politických sporů a hlubokého rozdělení společnosti. Organizátoři letos pochod svolali pod heslem „Polák v Polsku hospodářem“. Podle úřadů byl průvod poklidný až na desítky případů použití zakázané pyrotechniky — hlučné dělobuchy magistrát letos zakázal kvůli sobotní masové střelbě v Krakově.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/hrdi-patrioti-i-priznivci-krajni-pravice-varsavou-prosel-nejvetsi-pochod_2611121229_bva"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2254414/buh-cest-a-vlast-varsavou-prosel-pochod-nacionalistu-v-cele-kracel-prezident/"
+        }
+      ],
+      "en": {
+        "headline": "Warsaw saw what Polish media call the largest Independence March in modern history",
+        "sentences": [
+          {
+            "en": "The Independence March passed through Warsaw on Wednesday, the largest in modern history according to estimates by Polish media; Deník N speaks of a nationalist march of up to a quarter of a million people, led by the president.",
+            "cs": "Varšavou ve středu prošel Pochod nezávislosti, podle odhadů polských médií největší v novodobé historii; Deník N mluví o až čtvrtmilionovém pochodu nacionalistů, v jehož čele kráčel prezident."
+          },
+          {
+            "en": "Poles were marking the 108th anniversary of independence in an atmosphere of bitter political disputes and deep social division.",
+            "cs": "Poláci slavili 108. výročí nezávislosti v atmosféře ostrých politických sporů a hlubokého rozdělení společnosti."
+          },
+          {
+            "en": "This year the organisers called the march under the slogan “A Pole as master in Poland”.",
+            "cs": "Organizátoři letos pochod svolali pod heslem „Polák v Polsku hospodářem“."
+          },
+          {
+            "en": "According to the authorities the procession was peaceful apart from dozens of cases of banned pyrotechnics — the city hall banned loud firecrackers this year because of Saturday's mass shooting in Kraków.",
+            "cs": "Podle úřadů byl průvod poklidný až na desítky případů použití zakázané pyrotechniky — hlučné dělobuchy magistrát letos zakázal kvůli sobotní masové střelbě v Krakově."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "slogan",
+            "definition": "a short phrase that is easy to remember"
+          },
+          {
+            "term": "procession",
+            "definition": "a line of people moving forward in an organised way"
+          },
+          {
+            "term": "firecrackers",
+            "definition": "small devices that make a loud bang when lit"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:29",
+      "headline": "Ruské údery zabíjely v Kyjevě i Chersonu, Ukrajina oznámila zásah největší ruské rafinerie",
+      "body": "Ruský dronový útok na Kyjev zabil ženu a několik dalších lidí zranil, informovaly tamní úřady; Moskva na ukrajinskou metropoli udeřila také balistickými raketami. Na zranění z ruského dronového útoku zemřela žena i v Chersonu, v Záporožské oblasti zabily letecké pumy KAB ženu a zranily dítě. Rusko tvrdí, že sestřelilo několik dronů mířících na Moskvu. Ukrajinská armáda oznámila, že zasáhla největší ruskou rafinerii v sibiřském Omsku.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ruske-utoky-maji-obeti-v-kyjeve-a-chersonu-379543"
+        }
+      ],
+      "en": {
+        "headline": "Russian strikes killed people in Kyiv and Kherson, Ukraine reported hitting Russia's largest refinery",
+        "sentences": [
+          {
+            "en": "A Russian drone attack on Kyiv killed a woman and injured several other people, local authorities reported; Moscow also struck the Ukrainian capital with ballistic missiles.",
+            "cs": "Ruský dronový útok na Kyjev zabil ženu a několik dalších lidí zranil, informovaly tamní úřady; Moskva na ukrajinskou metropoli udeřila také balistickými raketami."
+          },
+          {
+            "en": "A woman also died in Kherson of injuries from a Russian drone attack, and in the Zaporizhzhia region KAB aerial bombs killed a woman and injured a child.",
+            "cs": "Na zranění z ruského dronového útoku zemřela žena i v Chersonu, v Záporožské oblasti zabily letecké pumy KAB ženu a zranily dítě."
+          },
+          {
+            "en": "Russia claims it shot down several drones heading for Moscow.",
+            "cs": "Rusko tvrdí, že sestřelilo několik dronů mířících na Moskvu."
+          },
+          {
+            "en": "The Ukrainian army announced that it had hit Russia's largest refinery in Omsk, Siberia.",
+            "cs": "Ukrajinská armáda oznámila, že zasáhla největší ruskou rafinerii v sibiřském Omsku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refinery",
+            "definition": "a factory where oil is turned into fuel and other products"
+          },
+          {
+            "term": "aerial",
+            "definition": "happening in or coming from the air"
+          },
+          {
+            "term": "shot down",
+            "definition": "destroyed an aircraft or missile while it was flying"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:00",
+      "headline": "Ukrajina má zájem o šestnáct českých letounů Skyfox",
+      "body": "Ministr průmyslu a obchodu Karel Havlíček (ANO) na podnikatelské misi na Ukrajině oznámil možnost dodání šestnácti letounů Skyfox; podle Seznam Zpráv s ukrajinským premiérem jednal o dalších dvanácti strojích. Výrobce Aero zájem Ukrajiny potvrdil s tím, že by mohla využít cvičnou i bojovou verzi. E15 dodává, že Aero prodalo už přes čtyřicet skyfoxů, objednaly si je USA i Angola a Česko koupilo osm strojů pro výcvik vojenských pilotů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-ukrajina-ma-zajem-o-ceske-skyfoxy-mohla-by-dostat-16-letounu-rekl-havlicek-320373"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/aero-potvrdilo-zajem-ukrajiny-o-skyfoxy-vyuzit-by-mohla-cvicnou-i-bojovou-verzi-1437275"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2254945/"
+        }
+      ],
+      "en": {
+        "headline": "Ukraine is interested in sixteen Czech Skyfox aircraft",
+        "sentences": [
+          {
+            "en": "Minister of Industry and Trade Karel Havlíček (ANO) announced on a business mission to Ukraine that sixteen Skyfox aircraft could be supplied; according to Seznam Zprávy he discussed another twelve machines with the Ukrainian prime minister.",
+            "cs": "Ministr průmyslu a obchodu Karel Havlíček (ANO) na podnikatelské misi na Ukrajině oznámil možnost dodání šestnácti letounů Skyfox; podle Seznam Zpráv s ukrajinským premiérem jednal o dalších dvanácti strojích."
+          },
+          {
+            "en": "The manufacturer Aero confirmed Ukraine's interest, saying it could use both the training and the combat version.",
+            "cs": "Výrobce Aero zájem Ukrajiny potvrdil s tím, že by mohla využít cvičnou i bojovou verzi."
+          },
+          {
+            "en": "E15 adds that Aero has already sold more than forty Skyfoxes, that the United States and Angola have ordered them, and that the Czech Republic bought eight machines to train military pilots.",
+            "cs": "E15 dodává, že Aero prodalo už přes čtyřicet skyfoxů, objednaly si je USA i Angola a Česko koupilo osm strojů pro výcvik vojenských pilotů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "supplied",
+            "definition": "provided with something that is needed"
+          },
+          {
+            "term": "manufacturer",
+            "definition": "a company that makes goods in large numbers"
+          },
+          {
+            "term": "combat",
+            "definition": "fighting during a war"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:19",
+      "headline": "Šesti největším bankám v Česku stoupl zisk na 74,4 miliardy korun",
+      "body": "Šestici největších tuzemských bank stoupl v prvních třech čtvrtletích letošního roku čistý zisk o osm procent na 74,4 miliardy korun. Loni ve stejném období to bylo 68,8 miliardy, předloni 63,3 miliardy. Samotné skupině ČSOB zisk vzrostl na šestnáct miliard korun, přibylo jí vkladů, úvěrů i klientů, jejichž počet se zvýšil na 4,3 milionu. Podle E15 rostou zisky všem velkým bankám v Česku a vláda proto zvažuje zvláštní daň.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-sesti-nejvetsim-bankam-v-cr-stoupl-cisty-zisk-o-osm-procent-na-744-miliard-320370"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/finance-a-bankovnictvi/csob-za-tri-ctvrtleti-vydelala-16-miliard-pribylo-vkladu-uveru-i-klientu-1437272"
+        }
+      ],
+      "en": {
+        "headline": "The six largest banks in the Czech Republic saw their profit rise to 74.4 billion crowns",
+        "sentences": [
+          {
+            "en": "The net profit of the six largest domestic banks rose by eight per cent to 74.4 billion crowns in the first three quarters of this year.",
+            "cs": "Šestici největších tuzemských bank stoupl v prvních třech čtvrtletích letošního roku čistý zisk o osm procent na 74,4 miliardy korun."
+          },
+          {
+            "en": "In the same period last year it was 68.8 billion, and 63.3 billion the year before.",
+            "cs": "Loni ve stejném období to bylo 68,8 miliardy, předloni 63,3 miliardy."
+          },
+          {
+            "en": "The ČSOB group alone saw its profit climb to sixteen billion crowns, and it gained deposits, loans and clients, whose number rose to 4.3 million.",
+            "cs": "Samotné skupině ČSOB zisk vzrostl na šestnáct miliard korun, přibylo jí vkladů, úvěrů i klientů, jejichž počet se zvýšil na 4,3 milionu."
+          },
+          {
+            "en": "According to E15, profits are rising at all the large banks in the Czech Republic and the government is therefore considering a special tax.",
+            "cs": "Podle E15 rostou zisky všem velkým bankám v Česku a vláda proto zvažuje zvláštní daň."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "net profit",
+            "definition": "the money a company keeps after all costs are paid"
+          },
+          {
+            "term": "quarters",
+            "definition": "three-month periods of a company's financial year"
+          },
+          {
+            "term": "deposits",
+            "definition": "money that customers put into a bank"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:02",
+      "headline": "Dotování cen energií by stát mohlo vyjít na desítky miliard, které nemá zajištěné",
+      "body": "Vláda přišla s návrhem dotovat ceny elektřiny a plynu pro případ cenového šoku. Opatření má zaplatit odvod mimořádných příjmů elektráren, podle Deníku N by ale stát k pokrytí těchto výdajů pravděpodobně musel vyplatit další nižší desítky miliard navíc, protože ministr průmyslu Karel Havlíček nemá financování zaručené.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2255093/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2253363/dotovani-cen-energii-by-mohlo-stat-vyjit-na-desitky-miliard-havlicek-totiz-nema-zarucene-financovani/"
+        }
+      ],
+      "en": {
+        "headline": "Subsidising energy prices could cost the state tens of billions it has not secured",
+        "sentences": [
+          {
+            "en": "The government has come up with a proposal to subsidise electricity and gas prices in the event of a price shock.",
+            "cs": "Vláda přišla s návrhem dotovat ceny elektřiny a plynu pro případ cenového šoku."
+          },
+          {
+            "en": "The measure is to be paid for by a levy on power plants' windfall revenues, but according to Deník N the state would probably have to pay out a further few tens of billions to cover these costs, because Industry Minister Karel Havlíček has no guaranteed financing.",
+            "cs": "Opatření má zaplatit odvod mimořádných příjmů elektráren, podle Deníku N by ale stát k pokrytí těchto výdajů pravděpodobně musel vyplatit další nižší desítky miliard navíc, protože ministr průmyslu Karel Havlíček nemá financování zaručené."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subsidise",
+            "definition": "to pay part of the cost of something so that it is cheaper"
+          },
+          {
+            "term": "levy",
+            "definition": "an amount of money collected by a government"
+          },
+          {
+            "term": "windfall",
+            "definition": "money received unexpectedly and without being earned"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:00",
+      "headline": "Francie zablokovala skupině CSG nákup výrobce muničních zapalovačů",
+      "body": "Skupina CSG má zájem o koupi francouzského výrobce muničních zapalovačů Dixi Microtechniques, který patří ke klíčovým dodavatelům evropských zbrojovek. Francouzská vláda ale podle tamních médií s prodejem nesouhlasila.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-strnad-chtel-koupit-francouzskou-zbrojovku-pariz-ale-rekla-ne-320374"
+        }
+      ],
+      "en": {
+        "headline": "France has blocked the CSG group from buying a maker of ammunition fuses",
+        "sentences": [
+          {
+            "en": "The CSG group is interested in buying the French maker of ammunition fuses Dixi Microtechniques, which is one of the key suppliers to European arms manufacturers.",
+            "cs": "Skupina CSG má zájem o koupi francouzského výrobce muničních zapalovačů Dixi Microtechniques, který patří ke klíčovým dodavatelům evropských zbrojovek."
+          },
+          {
+            "en": "The French government, however, did not agree to the sale, according to media there.",
+            "cs": "Francouzská vláda ale podle tamních médií s prodejem nesouhlasila."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fuses",
+            "definition": "parts that set off an explosion at the right moment"
+          },
+          {
+            "term": "suppliers",
+            "definition": "companies that provide goods to other companies"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "11:09",
+      "headline": "Kritická chyba v Apache umožňuje vzdálené spuštění kódu",
+      "body": "V modulu mod_http2 webového serveru Apache byla nalezena kritická zranitelnost CVE-2026-119618. Chyba v synchronizaci vláken při zpracování hlaviček protokolu HTTP/2 může způsobit poškození paměti na haldě a za určitých okolností umožňuje vzdálené spuštění kódu; k útoku podle dostupných informací není potřeba přihlášení. Zranitelnost nezávisle objevili výzkumníci z firem Anthropic a Google Cloud.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/apache-kriticka-chyba-v-http-2-umoznuje-vzdalene-spusteni-kodu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
+        }
+      ],
+      "en": {
+        "headline": "A critical flaw in Apache allows remote code execution",
+        "sentences": [
+          {
+            "en": "A critical vulnerability, CVE-2026-119618, has been found in the mod_http2 module of the Apache web server.",
+            "cs": "V modulu mod_http2 webového serveru Apache byla nalezena kritická zranitelnost CVE-2026-119618."
+          },
+          {
+            "en": "A thread synchronisation error in the processing of HTTP/2 headers can cause heap memory corruption and under certain circumstances allows remote code execution; according to available information, no login is needed for an attack.",
+            "cs": "Chyba v synchronizaci vláken při zpracování hlaviček protokolu HTTP/2 může způsobit poškození paměti na haldě a za určitých okolností umožňuje vzdálené spuštění kódu; k útoku podle dostupných informací není potřeba přihlášení."
+          },
+          {
+            "en": "The vulnerability was discovered independently by researchers from Anthropic and Google Cloud.",
+            "cs": "Zranitelnost nezávisle objevili výzkumníci z firem Anthropic a Google Cloud."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vulnerability",
+            "definition": "a weakness that an attacker can use to break in"
+          },
+          {
+            "term": "heap",
+            "definition": "an area of computer memory used while a program runs"
+          },
+          {
+            "term": "corruption",
+            "definition": "damage that makes data wrong or unusable"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:02",
+      "day": "prev",
+      "headline": "OpenAI zrychlilo růst tržeb, provozní ztráta ale dál roste",
+      "body": "Tržby OpenAI za třetí čtvrtletí výrazně vzrostly, firma ale nadále vykazuje vysokou provozní ztrátu. Za ChatGPT podle E15 platí už sto milionů lidí. E15 zároveň uvádí, že OpenAI zaostává za konkurenčním Anthropikem a jeho modelem Claude.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/burzy-a-trhy/rust-trzeb-openai-zrychluje-provozni-ztrata-ale-dal-roste-za-chatgpt-plati-uz-100-milionu-lidi-1437268"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI's revenue growth has accelerated, but its operating loss keeps growing",
+        "sentences": [
+          {
+            "en": "OpenAI's third-quarter revenue rose sharply, but the company still reports a high operating loss.",
+            "cs": "Tržby OpenAI za třetí čtvrtletí výrazně vzrostly, firma ale nadále vykazuje vysokou provozní ztrátu."
+          },
+          {
+            "en": "According to E15, a hundred million people already pay for ChatGPT.",
+            "cs": "Za ChatGPT podle E15 platí už sto milionů lidí."
+          },
+          {
+            "en": "E15 also writes that OpenAI is lagging behind its rival Anthropic and its Claude model.",
+            "cs": "E15 zároveň uvádí, že OpenAI zaostává za konkurenčním Anthropikem a jeho modelem Claude."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revenue",
+            "definition": "the money a company receives from its sales"
+          },
+          {
+            "term": "operating loss",
+            "definition": "the money a company loses from its normal business"
+          },
+          {
+            "term": "lagging behind",
+            "definition": "failing to keep up with someone else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "22:24",
+      "day": "prev",
+      "headline": "United Airlines zakázal AI agentům rezervovat lety za cestující",
+      "body": "Americká letecká společnost United Airlines zakázala, aby za cestující rezervovali lety agenti s umělou inteligencí. Informovala o tom televize CBS News.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        }
+      ],
+      "en": {
+        "headline": "United Airlines has banned AI agents from booking flights for travellers",
+        "sentences": [
+          {
+            "en": "The American airline United Airlines has banned artificial intelligence agents from booking flights on behalf of travellers.",
+            "cs": "Americká letecká společnost United Airlines zakázala, aby za cestující rezervovali lety agenti s umělou inteligencí."
+          },
+          {
+            "en": "CBS News reported this.",
+            "cs": "Informovala o tom televize CBS News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "airline",
+            "definition": "a company that carries people by plane"
+          },
+          {
+            "term": "on behalf of",
+            "definition": "instead of someone, acting as their representative"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:45",
+      "headline": "Návrat komunistického režimu by podle průzkumu uvítala pětina Čechů",
+      "body": "Mezi lidmi panují výrazné rozdíly v postoji k možnému návratu komunistického režimu. Mezi voliči současné opozice ho chtějí jen výjimky, zatímco téměř polovina voličů SPD se domnívá, že by se měli lépe, kdyby režim nepadl.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-navrat-ke-komunismu-by-uvitala-petina-cechu-vyplyva-z-pruzkumu-320381"
+        }
+      ],
+      "en": {
+        "headline": "A fifth of Czechs would welcome the return of the communist regime, a survey suggests",
+        "sentences": [
+          {
+            "en": "People's attitudes to a possible return of the communist regime differ sharply.",
+            "cs": "Mezi lidmi panují výrazné rozdíly v postoji k možnému návratu komunistického režimu."
+          },
+          {
+            "en": "Among voters of the current opposition only a few want it, while almost half of SPD voters believe they would be better off if the regime had not fallen.",
+            "cs": "Mezi voliči současné opozice ho chtějí jen výjimky, zatímco téměř polovina voličů SPD se domnívá, že by se měli lépe, kdyby režim nepadl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "regime",
+            "definition": "a government, especially one that controls people strictly"
+          },
+          {
+            "term": "better off",
+            "definition": "in a better situation, especially with more money"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "07:00",
+      "headline": "Web europoslance SPD Ivana Davida patří podle Voxpotu k nejvýraznějším šiřitelům ruské propagandy",
+      "body": "SPD vede tažení proti nezávislosti České televize a Českého rozhlasu s tím, že nejsou objektivní. Voxpot se podíval na to, jaké zpravodajství hnutí samo považuje za důvěryhodné: web Nová republika, který založil a dodnes plní europoslanec SPD Ivan David, podle něj patří k nejvýraznějším šiřitelům ruské propagandy v Česku. Útok na veřejnoprávní média podle Voxpotu zapadá do scénáře, který už byl k vidění v Rusku, Maďarsku i na Slovensku.",
+      "sources": [
+        {
+          "name": "Voxpot",
+          "url": "https://www.voxpot.cz/clanky/spd-chce-objektivni-media-web-jejiho-europoslance-ale-siri-ruskou-propagandu/"
+        }
+      ],
+      "en": {
+        "headline": "The website of SPD MEP Ivan David is among the most prominent spreaders of Russian propaganda, Voxpot says",
+        "sentences": [
+          {
+            "en": "SPD is waging a campaign against the independence of Czech Television and Czech Radio on the grounds that they are not objective.",
+            "cs": "SPD vede tažení proti nezávislosti České televize a Českého rozhlasu s tím, že nejsou objektivní."
+          },
+          {
+            "en": "Voxpot looked at what news the movement itself considers trustworthy: the website Nová republika, founded and still filled by SPD MEP Ivan David, is in its view among the most prominent spreaders of Russian propaganda in the Czech Republic.",
+            "cs": "Voxpot se podíval na to, jaké zpravodajství hnutí samo považuje za důvěryhodné: web Nová republika, který založil a dodnes plní europoslanec SPD Ivan David, podle něj patří k nejvýraznějším šiřitelům ruské propagandy v Česku."
+          },
+          {
+            "en": "According to Voxpot, the attack on public service media fits a script already seen in Russia, Hungary and Slovakia.",
+            "cs": "Útok na veřejnoprávní média podle Voxpotu zapadá do scénáře, který už byl k vidění v Rusku, Maďarsku i na Slovensku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "waging",
+            "definition": "carrying on a war or a long campaign"
+          },
+          {
+            "term": "prominent",
+            "definition": "well known and easy to notice"
+          },
+          {
+            "term": "propaganda",
+            "definition": "information spread to make people support a particular view"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:36",
+      "headline": "Manchester United odvolal trenéra Michaela Carricka",
+      "body": "Vedení Manchesteru United odvolalo pětačtyřicetiletého trenéra Michaela Carricka kvůli špatným výsledkům, po nichž se klub ocitl v sestupovém pásmu na 18. místě. Carrick tým převzal v lednu a vybojoval s ním postup do Ligy mistrů. Podle anglických médií, na která se odvolává Sport.cz, by měl mužstvo převzít argentinský kouč Mauricio Pochettino.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/fotbaliste-manchesteru-united-jsou-bez-trenera-vedeni-kvuli-spatnym-vysledkum_2611121236_mim"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-hotovo-manchester-united-vyhodil-trenera-5574384"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/carrick-nechtel-nikdy-odstoupit-nakonec-ho-z-manchesteru-united-vyhodili-159922"
+        }
+      ],
+      "en": {
+        "headline": "Manchester United have sacked manager Michael Carrick",
+        "sentences": [
+          {
+            "en": "Manchester United's management has sacked the forty-five-year-old manager Michael Carrick over poor results that left the club in the relegation zone in 18th place.",
+            "cs": "Vedení Manchesteru United odvolalo pětačtyřicetiletého trenéra Michaela Carricka kvůli špatným výsledkům, po nichž se klub ocitl v sestupovém pásmu na 18. místě."
+          },
+          {
+            "en": "Carrick took over the team in January and earned a place in the Champions League with it.",
+            "cs": "Carrick tým převzal v lednu a vybojoval s ním postup do Ligy mistrů."
+          },
+          {
+            "en": "According to the English media cited by Sport.cz, the team should be taken over by the Argentine coach Mauricio Pochettino.",
+            "cs": "Podle anglických médií, na která se odvolává Sport.cz, by měl mužstvo převzít argentinský kouč Mauricio Pochettino."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sacked",
+            "definition": "removed from a job"
+          },
+          {
+            "term": "relegation zone",
+            "definition": "the bottom places in a league from which teams move down a division"
+          },
+          {
+            "term": "cited",
+            "definition": "mentioned as the source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:19",
+      "headline": "Česko vyzve dnes večer na Letné mistry světa ze Španělska",
+      "body": "Česká fotbalová reprezentace nastoupí dnes od 20:45 na pražské Letné proti úřadujícím mistrům světa i Evropy ze Španělska v předposledním utkání elitní skupiny Ligy národů. Hostům bude scházet dvojice Lamine Yamal a Rodri. Svěřenci trenéra Santiho Denii se pokusí získat ve skupině první body; v říjnu v Oviedu prohráli po boji 1:3.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/cesko-proti-mistrum-sveta-neskutecna-vyzva-burcuje-pred-zapasem-proti-spanelsku_2611121319_mim"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/mistri-sveta-v-praze-cesi-se-pokusi-zaskocit-spanely-bez-yamala-a-rodriho-159905"
+        }
+      ],
+      "en": {
+        "headline": "The Czech Republic hosts world champions Spain on Letná tonight",
+        "sentences": [
+          {
+            "en": "The Czech football team will take the field at 20:45 tonight at Prague's Letná against the reigning world and European champions from Spain in the penultimate match of the top Nations League group.",
+            "cs": "Česká fotbalová reprezentace nastoupí dnes od 20:45 na pražské Letné proti úřadujícím mistrům světa i Evropy ze Španělska v předposledním utkání elitní skupiny Ligy národů."
+          },
+          {
+            "en": "The visitors will be missing the pair of Lamine Yamal and Rodri.",
+            "cs": "Hostům bude scházet dvojice Lamine Yamal a Rodri."
+          },
+          {
+            "en": "Santi Denia's side will try to pick up their first points in the group; in October they lost 1:3 after a fight in Oviedo.",
+            "cs": "Svěřenci trenéra Santiho Denii se pokusí získat ve skupině první body; v říjnu v Oviedu prohráli po boji 1:3."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reigning",
+            "definition": "currently holding a title"
+          },
+          {
+            "term": "penultimate",
+            "definition": "second to last"
+          },
+          {
+            "term": "side",
+            "definition": "a sports team"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:54",
+      "headline": "Čeští střelci přidali na mistrovství světa v Dauhá tři medaile",
+      "body": "Zina Hrdličková, Martina Matějková a Tereza Závišková získaly na mistrovství světa v Dauhá týmové stříbro v trapu, bronz přidalo družstvo mužů ve složení Jiří Lipták, David Kostelecký a Pavel Vaněk. Jindřich Dubový obsadil třetí místo v neolympijské velkorážné pistoli a má z šampionátu už druhou bronzovou medaili.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2254991/"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-ceske-strelkyne-vybojovaly-na-ms-stribro-v-trapu-dubovy-ma-bronz-5574366"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/sportovni-strelba/zensky-tym-ziskal-v-dauha-stribro-v-trapu-dubovy-ma-z-ms-druhy-bronz-159918"
+        }
+      ],
+      "en": {
+        "headline": "Czech shooters added three medals at the world championships in Doha",
+        "sentences": [
+          {
+            "en": "Zina Hrdličková, Martina Matějková and Tereza Závišková won team silver in trap at the world championships in Doha, and the men's team of Jiří Lipták, David Kostelecký and Pavel Vaněk added bronze.",
+            "cs": "Zina Hrdličková, Martina Matějková a Tereza Závišková získaly na mistrovství světa v Dauhá týmové stříbro v trapu, bronz přidalo družstvo mužů ve složení Jiří Lipták, David Kostelecký a Pavel Vaněk."
+          },
+          {
+            "en": "Jindřich Dubový took third place in the non-Olympic large-calibre pistol event and now has his second bronze medal of the championships.",
+            "cs": "Jindřich Dubový obsadil třetí místo v neolympijské velkorážné pistoli a má z šampionátu už druhou bronzovou medaili."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trap",
+            "definition": "a shooting event in which targets are thrown into the air"
+          },
+          {
+            "term": "large-calibre",
+            "definition": "using bullets of a wide diameter"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:59",
+      "headline": "Muchová přišla o šanci na semifinále Turnaje mistryň, Nosková má postup jistý",
+      "body": "Karolína Muchová prohrála na Turnaji mistryň v Indian Wells i druhý zápas, se Svitolinovou 6:3, 2:6, 2:6, a o postup do semifinále definitivně přišla po výhře Mirry Andrejevové nad Arynou Sabalenkovou. Sama mluvila o únavě z náročného programu sezony. Linda Nosková naopak jde do závěrečného zápasu skupiny s Jessicou Pegulaovou s jistotou postupu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/muchova-prisla-definitivne-o-sanci-na-postup-do-semifinale-turnaje-mistryn-159915"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-turnaj-mistryn-2026-linda-noskova-jessica-pegulaova-online-5574363"
+        }
+      ],
+      "en": {
+        "headline": "Muchová has lost her chance of the WTA Finals semi-finals, while Nosková is certain to go through",
+        "sentences": [
+          {
+            "en": "Karolína Muchová lost her second match at the WTA Finals in Indian Wells too, 6:3, 2:6, 2:6 to Svitolina, and finally lost her chance of reaching the semi-finals after Mirra Andreeva beat Aryna Sabalenka.",
+            "cs": "Karolína Muchová prohrála na Turnaji mistryň v Indian Wells i druhý zápas, se Svitolinovou 6:3, 2:6, 2:6, a o postup do semifinále definitivně přišla po výhře Mirry Andrejevové nad Arynou Sabalenkovou."
+          },
+          {
+            "en": "She herself spoke of fatigue from a demanding season schedule.",
+            "cs": "Sama mluvila o únavě z náročného programu sezony."
+          },
+          {
+            "en": "Linda Nosková, by contrast, goes into the final group match against Jessica Pegula already sure of going through.",
+            "cs": "Linda Nosková naopak jde do závěrečného zápasu skupiny s Jessicou Pegulaovou s jistotou postupu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fatigue",
+            "definition": "a feeling of being very tired"
+          },
+          {
+            "term": "by contrast",
+            "definition": "used to show a clear difference"
+          },
+          {
+            "term": "going through",
+            "definition": "moving on to the next round of a competition"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:41",
+      "headline": "Vrchní soud nechal v platnosti trest pro fotbalistu Hladíka za ovlivňování zápasů",
+      "body": "Pražský vrchní soud změnil rozhodnutí prvoinstančního soudu v případu bývalého fotbalisty Michala Hladíka a uvedl, že soudy nemají přezkoumávat rozhodnutí orgánů Fotbalové asociace ČR. Disciplinární trest tak zůstává v platnosti. Asociace Hladíkovi původně uložila patnáctiletý zákaz působení ve fotbale a milionovou pokutu, odvolací komise mu trest později zmírnila na čtyři roky a 250 tisíc korun.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-trest-za-ovlivnovani-zapasu-zustava-v-platnosti-rozhodl-vrchni-soud-v-pripadu-byvaleho-zaloznika-hladika-5574381"
+        }
+      ],
+      "en": {
+        "headline": "The High Court has kept in force the ban on footballer Hladík for match-fixing",
+        "sentences": [
+          {
+            "en": "The Prague High Court overturned the first-instance court's decision in the case of former footballer Michal Hladík and stated that the courts should not review decisions by the bodies of the Football Association of the Czech Republic.",
+            "cs": "Pražský vrchní soud změnil rozhodnutí prvoinstančního soudu v případu bývalého fotbalisty Michala Hladíka a uvedl, že soudy nemají přezkoumávat rozhodnutí orgánů Fotbalové asociace ČR."
+          },
+          {
+            "en": "The disciplinary punishment therefore remains in force.",
+            "cs": "Disciplinární trest tak zůstává v platnosti."
+          },
+          {
+            "en": "The association originally imposed a fifteen-year ban from football and a one-million-crown fine on Hladík, and the appeals committee later reduced the punishment to four years and 250,000 crowns.",
+            "cs": "Asociace Hladíkovi původně uložila patnáctiletý zákaz působení ve fotbale a milionovou pokutu, odvolací komise mu trest později zmírnila na čtyři roky a 250 tisíc korun."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overturned",
+            "definition": "officially changed a previous decision"
+          },
+          {
+            "term": "first-instance",
+            "definition": "relating to the court that hears a case first"
+          },
+          {
+            "term": "imposed",
+            "definition": "officially ordered a punishment to be given"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:20",
+      "headline": "České hokejistky vyzvou v pátek ve čtvrtfinále mistrovství světa Kanadu",
+      "body": "Po utrápeném vystoupení v základní skupině mistrovství světa v Dánsku čeká české hokejistky v pátek čtvrtfinále proti Kanadě. Všech šest předchozích vzájemných zápasů skončilo porážkou při celkovém skóre 3:29, naposledy tým podlehl Kanaďankám 1:5 na únorové olympiádě v Miláně.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/podcasty-za-mantinelem-ceskemu-tymu-nezbyva-nez-doufat-v-zazrak-na-lede-5574385"
+        }
+      ],
+      "en": {
+        "headline": "The Czech women's hockey team face Canada in the world championship quarter-final on Friday",
+        "sentences": [
+          {
+            "en": "After a dismal showing in the group stage of the world championship in Denmark, the Czech women's hockey team face a quarter-final against Canada on Friday.",
+            "cs": "Po utrápeném vystoupení v základní skupině mistrovství světa v Dánsku čeká české hokejistky v pátek čtvrtfinále proti Kanadě."
+          },
+          {
+            "en": "All six previous meetings have ended in defeat, with an overall score of 3:29; the team last lost 1:5 to Canada at the Milan Olympics in February.",
+            "cs": "Všech šest předchozích vzájemných zápasů skončilo porážkou při celkovém skóre 3:29, naposledy tým podlehl Kanaďankám 1:5 na únorové olympiádě v Miláně."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dismal",
+            "definition": "very bad and disappointing"
+          },
+          {
+            "term": "quarter-final",
+            "definition": "a match in the round before the semi-finals"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Nvidia chief Jensen Huang has resigned over a scandal involving a relationship with a Chinese businesswoman suspected of espionage; chief financial officer Colette Kress will lead the company temporarily.",
+    "The government wants to loosen the rules for school meals, with nutritional standards to be only recommendations according to Education Minister Robert Plaga.",
+    "Putin received American negotiators Witkoff and Kushner in the Kremlin, and from there they head to the Dublin summit to meet Zelenskyj."
+  ]
+}
