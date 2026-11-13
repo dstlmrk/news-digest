@@ -1,0 +1,1501 @@
+{
+  "date": "2026-11-13",
+  "covers": "2026-11-13",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [
+    "Hacker News"
+  ],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "partly",
+    "summary": "Zítra bude polojasno a beze srážek, denní teplota se vyšplhá jen k 6 °C a ráno bude kolem nuly. Kvalita ovzduší má být zhoršená.",
+    "outlook": "V úterý se podle předpovědi čeká vydatný déšť.",
+    "days": [
+      {
+        "date": "2026-11-14",
+        "icon": "partly",
+        "temp_max_c": 5.9,
+        "temp_min_c": 0.3
+      },
+      {
+        "date": "2026-11-15",
+        "icon": "cloudy",
+        "temp_max_c": 5.5,
+        "temp_min_c": 0.6
+      },
+      {
+        "date": "2026-11-16",
+        "icon": "rain",
+        "temp_max_c": 9.9,
+        "temp_min_c": 2.9
+      },
+      {
+        "date": "2026-11-17",
+        "icon": "rain",
+        "temp_max_c": 8.4,
+        "temp_min_c": 1.1
+      }
+    ],
+    "summary_en": "Tomorrow will be partly cloudy and dry, the daytime temperature will only reach about 6 °C and the morning will be around freezing. Air quality is expected to be poor.",
+    "outlook_en": "Heavy rain is forecast for Tuesday."
+  },
+  "highlights": [
+    "Globální výpadek služeb Microsoftu od čtvrtečního večera vyřadil Outlook, Teams i Copilot ve více než sedmdesáti zemích, v Česku zasáhl ministerstva i pražské letiště.",
+    "Rusko podle deníku Bild žádá na jednáních v Abú Zabí odchod Finska z NATO a stažení aliančních základen z Pobaltí.",
+    "Ministr zemědělství Martin Šebestyán odvolal kvůli zjištění Nejvyššího kontrolního úřadu všech jedenáct členů Rady Vinařského fondu.",
+    "Innogy od ledna zdraží elektřinu i plyn zákazníkům bez fixace, zdražují i další velcí dodavatelé."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "12:03",
+      "headline": "Nacher připustil, že noční hlasování o zrušení koncesionářských poplatků bylo chybou",
+      "body": "Místopředseda Poslanecké sněmovny Patrik Nacher (ANO) v pořadu FLOW přiznal, že schvalování vládního návrhu na zrušení koncesionářských poplatků ve 4.36 ráno byla taktická chyba. Umí si podle svých slov představit kombinaci automatického příspěvku ze státní kasy a dobrovolné platby od občanů a odmítá, že by změna financování ohrozila nezávislost veřejnoprávních médií; zároveň tvrdí, že mu lidé na chodbách České televize říkají, že se v ní šíleně plýtvá. Vedení ČT v čele s ředitelem Hynkem Chudárkem dnes jednalo s odborovými organizacemi a iniciativou Veřejnoprávně. „ČT nyní připravuje zásadní připomínky k návrhu zákona, který byl v prvním čtení projednán ve Sněmovně,“ řekl Chudárek. Televize na síti X uvedla, že vedení bude i nadále hájit nezávislost instituce a její stabilitu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/v-ceske-televizi-se-silene-plytva-rikaji-mi-lide-na-chodbach-hlasovani-ve-4-36-rano-ale-bylo-nestastne-pripousti-nacher-1437261"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256446/"
+        }
+      ],
+      "en": {
+        "headline": "Nacher admitted that the night-time vote on abolishing the television licence fee was a mistake",
+        "sentences": [
+          {
+            "en": "Patrik Nacher (ANO), deputy speaker of the Chamber of Deputies, admitted on the FLOW programme that passing the government bill to abolish the television licence fee at 4.36 in the morning had been a tactical mistake.",
+            "cs": "Místopředseda Poslanecké sněmovny Patrik Nacher (ANO) v pořadu FLOW přiznal, že schvalování vládního návrhu na zrušení koncesionářských poplatků ve 4.36 ráno byla taktická chyba."
+          },
+          {
+            "en": "He says he can imagine a combination of an automatic contribution from the state budget and a voluntary payment by citizens, and he rejects the idea that the change in funding would threaten the independence of public service media; at the same time he claims that people in the corridors of Czech Television tell him the broadcaster wastes money terribly.",
+            "cs": "Umí si podle svých slov představit kombinaci automatického příspěvku ze státní kasy a dobrovolné platby od občanů a odmítá, že by změna financování ohrozila nezávislost veřejnoprávních médií; zároveň tvrdí, že mu lidé na chodbách České televize říkají, že se v ní šíleně plýtvá."
+          },
+          {
+            "en": "The management of Czech Television, led by director Hynek Chudárek, met today with trade union organisations and the Veřejnoprávně initiative.",
+            "cs": "Vedení ČT v čele s ředitelem Hynkem Chudárkem dnes jednalo s odborovými organizacemi a iniciativou Veřejnoprávně."
+          },
+          {
+            "en": "“Czech Television is now preparing fundamental comments on the bill, which has passed its first reading in the Chamber of Deputies,” Chudárek said.",
+            "cs": "„ČT nyní připravuje zásadní připomínky k návrhu zákona, který byl v prvním čtení projednán ve Sněmovně,“ řekl Chudárek."
+          },
+          {
+            "en": "The broadcaster said on X that its management would continue to defend the institution's independence and its stability.",
+            "cs": "Televize na síti X uvedla, že vedení bude i nadále hájit nezávislost instituce a její stabilitu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "abolish",
+            "definition": "to officially end a law, system or payment"
+          },
+          {
+            "term": "broadcaster",
+            "definition": "a company that makes and sends out television or radio programmes"
+          },
+          {
+            "term": "corridors",
+            "definition": "the long passages that connect rooms inside a building"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:05",
+      "headline": "Z České televize po patnácti letech odchází moderátorka Jana Peroutková",
+      "body": "Moderátorka Událostí a Nedělní debaty Jana Peroutková oznámila na sociálních sítích, že na konci roku odchází z České televize. Důvody blíže neupřesnila, uvedla jen, že odchází v dobrém a z vlastního rozhodnutí, které v ní zrálo několik měsíců. „Po necelých 15 letech odcházím z ČT. Na stávce 3. listopadu jsem tak už stála jako budoucí bývalá zaměstnankyně,“ napsala.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256358/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-jana-peroutkova-konci-po-15-letech-v-ceske-televizi-320492"
+        }
+      ],
+      "en": {
+        "headline": "Presenter Jana Peroutková is leaving Czech Television after fifteen years",
+        "sentences": [
+          {
+            "en": "Jana Peroutková, the presenter of the news programme Události and of Nedělní debata, announced on social media that she is leaving Czech Television at the end of the year.",
+            "cs": "Moderátorka Událostí a Nedělní debaty Jana Peroutková oznámila na sociálních sítích, že na konci roku odchází z České televize."
+          },
+          {
+            "en": "She did not give detailed reasons, saying only that she is leaving on good terms and by her own decision, which had been maturing in her for several months.",
+            "cs": "Důvody blíže neupřesnila, uvedla jen, že odchází v dobrém a z vlastního rozhodnutí, které v ní zrálo několik měsíců."
+          },
+          {
+            "en": "“After almost 15 years I am leaving Czech Television.",
+            "cs": "„Po necelých 15 letech odcházím z ČT."
+          },
+          {
+            "en": "So at the strike on 3 November I was already standing there as a future former employee,” she wrote.",
+            "cs": "Na stávce 3. listopadu jsem tak už stála jako budoucí bývalá zaměstnankyně,“ napsala."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "presenter",
+            "definition": "a person who introduces a television or radio programme"
+          },
+          {
+            "term": "maturing",
+            "definition": "slowly developing until it is ready"
+          },
+          {
+            "term": "former",
+            "definition": "describing what someone or something was in the past"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:04",
+      "headline": "Ministr zemědělství Šebestyán odvolal kvůli zjištění NKÚ celou Radu Vinařského fondu",
+      "body": "Ministr zemědělství Martin Šebestyán (za SPD) odvolal všech jedenáct členů Rady Vinařského fondu. Podle Nejvyššího kontrolního úřadu fond opakovaně porušoval předpisy a pravidla poskytování podpor a úřad zjistil i střet zájmů; podle Seznam Zpráv fond neoprávněně vyplatil přes dvanáct milionů korun. Zjištění úřadu podle Šebestyána nejsou přijatelná a bylo potřeba vyvodit důsledky. Ředitel fondu Zbyněk Vičar řekl, že fond s většinou zjištění nesouhlasí a podal námitku. Dosavadní předseda rady, jihomoravský hejtman a senátor Jan Grolich (KDU-ČSL), považuje odvolání za přísný a neadekvátní krok s tím, že rada nápravná opatření připravovala.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/sebestyan-odvolal-vsechny-cleny-rady-vinarskeho-fondu-kvuli-zjisteni-nku-379585"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-sebestyan-odvolal-vsech-11-clenu-rady-vinarskeho-fondu-320480"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256831/"
+        }
+      ],
+      "en": {
+        "headline": "Agriculture Minister Šebestyán dismissed the whole Board of the Wine Fund over the audit office's findings",
+        "sentences": [
+          {
+            "en": "Agriculture Minister Martin Šebestyán (for SPD) has dismissed all eleven members of the Board of the Wine Fund.",
+            "cs": "Ministr zemědělství Martin Šebestyán (za SPD) odvolal všech jedenáct členů Rady Vinařského fondu."
+          },
+          {
+            "en": "According to the Supreme Audit Office the fund repeatedly breached regulations and the rules for granting subsidies, and the office also found a conflict of interest; according to Seznam Zprávy the fund paid out more than twelve million crowns without entitlement.",
+            "cs": "Podle Nejvyššího kontrolního úřadu fond opakovaně porušoval předpisy a pravidla poskytování podpor a úřad zjistil i střet zájmů; podle Seznam Zpráv fond neoprávněně vyplatil přes dvanáct milionů korun."
+          },
+          {
+            "en": "The office's findings are unacceptable in Šebestyán's view and consequences had to be drawn.",
+            "cs": "Zjištění úřadu podle Šebestyána nejsou přijatelná a bylo potřeba vyvodit důsledky."
+          },
+          {
+            "en": "The fund's director Zbyněk Vičar said the fund disagrees with most of the findings and has filed an objection.",
+            "cs": "Ředitel fondu Zbyněk Vičar řekl, že fond s většinou zjištění nesouhlasí a podal námitku."
+          },
+          {
+            "en": "The board's outgoing chairman, South Moravian governor and senator Jan Grolich (KDU-ČSL), considers the dismissal a harsh and inadequate step, saying the board had been preparing corrective measures.",
+            "cs": "Dosavadní předseda rady, jihomoravský hejtman a senátor Jan Grolich (KDU-ČSL), považuje odvolání za přísný a neadekvátní krok s tím, že rada nápravná opatření připravovala."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "breached",
+            "definition": "broke a rule, a law or an agreement"
+          },
+          {
+            "term": "subsidies",
+            "definition": "money given by a government to help pay for something"
+          },
+          {
+            "term": "objection",
+            "definition": "a formal reason given for disagreeing with a decision"
+          },
+          {
+            "term": "outgoing",
+            "definition": "leaving a job or position soon"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:24",
+      "headline": "Jihočeskému kraji hrozí na jaře nedostatek pitné vody, zima má být srážkově nadprůměrná",
+      "body": "Jihočeský hejtman Martin Kuba (Naše Česko) po pátečním zasedání krajské komise pro sucho uvedl, že při nepříznivém vývoji počasí hrozí na jaře ve velké části kraje problém se zásobováním pitnou vodou. Nádrž Římov, z jejíž vody se pitná voda vyrábí, se ani po snížení odtoku neplní; podle Seznam Zpráv se musí přes zimu naplnit na sto procent a hejtman vyzval obyvatele, aby s vodou neplýtvali. Model Evropského centra pro střednědobou předpověď počasí přitom ukazuje, že zimní měsíce v Česku a střední Evropě budou srážkově nadprůměrné oproti průměru let 1993 až 2015. Tvůrci projektu InterSucho z ústavu CzechGlobe uvedli na síti X, že srážek by mohlo být více až o 50 milimetrů, což podle nich není málo. Řada hlásných profilů na českých řekách a potocích je stále pod hranicí sucha.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/kuba-varuje-pred-moznosti-nedostatku-vody-pres-zimu-budou-srazky-predpovida-model-379588"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-hrozi-ze-na-jare-bude-na-jihu-cech-problem-s-pitnou-vodou-varuje-hejtman-320486"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/cesko-v-zime-ceka-vice-srazek-s-vyssimi-teplotami-prijde-dest-hlasi-projekt_2611131324_bod"
+        }
+      ],
+      "en": {
+        "headline": "South Bohemia may run short of drinking water in the spring, while the winter should bring above-average rainfall",
+        "sentences": [
+          {
+            "en": "South Bohemian governor Martin Kuba (Naše Česko) said after Friday's meeting of the regional drought commission that if the weather turns out badly, a large part of the region could face a problem with drinking water supplies in the spring.",
+            "cs": "Jihočeský hejtman Martin Kuba (Naše Česko) po pátečním zasedání krajské komise pro sucho uvedl, že při nepříznivém vývoji počasí hrozí na jaře ve velké části kraje problém se zásobováním pitnou vodou."
+          },
+          {
+            "en": "The Římov reservoir, whose water is used to produce drinking water, is not filling up even after the outflow was reduced; according to Seznam Zprávy it has to reach one hundred percent over the winter, and the governor has urged residents not to waste water.",
+            "cs": "Nádrž Římov, z jejíž vody se pitná voda vyrábí, se ani po snížení odtoku neplní; podle Seznam Zpráv se musí přes zimu naplnit na sto procent a hejtman vyzval obyvatele, aby s vodou neplýtvali."
+          },
+          {
+            "en": "A model from the European Centre for Medium-Range Weather Forecasts meanwhile shows that the winter months in the Czech Republic and in central Europe will bring above-average precipitation compared with the average of the years 1993 to 2015.",
+            "cs": "Model Evropského centra pro střednědobou předpověď počasí přitom ukazuje, že zimní měsíce v Česku a střední Evropě budou srážkově nadprůměrné oproti průměru let 1993 až 2015."
+          },
+          {
+            "en": "The authors of the InterSucho project from the CzechGlobe institute said on X that there could be up to 50 millimetres more precipitation, which in their view is not little.",
+            "cs": "Tvůrci projektu InterSucho z ústavu CzechGlobe uvedli na síti X, že srážek by mohlo být více až o 50 milimetrů, což podle nich není málo."
+          },
+          {
+            "en": "Many gauging stations on Czech rivers and streams are still below the drought threshold.",
+            "cs": "Řada hlásných profilů na českých řekách a potocích je stále pod hranicí sucha."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reservoir",
+            "definition": "a large artificial lake used for storing water"
+          },
+          {
+            "term": "outflow",
+            "definition": "the water that flows out of a place"
+          },
+          {
+            "term": "precipitation",
+            "definition": "rain, snow or other water that falls from the sky"
+          },
+          {
+            "term": "threshold",
+            "definition": "the level at which something starts to happen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:53",
+      "headline": "Útočník se naboural do studijního systému Univerzity Karlovy a stáhl část dat studentů",
+      "body": "Neznámý útočník získal neoprávněný přístup do studijního systému Univerzity Karlovy a stáhl z něj část dat studentů. Univerzita podle Seznam Zpráv chystá trestní oznámení.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nekdo-se-naboural-do-systemu-univerzity-karlovy-stahl-cast-udaju-studentu-320479"
+        }
+      ],
+      "en": {
+        "headline": "An attacker broke into Charles University's study system and downloaded part of the students' data",
+        "sentences": [
+          {
+            "en": "An unknown attacker gained unauthorised access to the study information system of Charles University and downloaded part of the students' data.",
+            "cs": "Neznámý útočník získal neoprávněný přístup do studijního systému Univerzity Karlovy a stáhl z něj část dat studentů."
+          },
+          {
+            "en": "According to Seznam Zprávy the university is preparing a criminal complaint.",
+            "cs": "Univerzita podle Seznam Zpráv chystá trestní oznámení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "unauthorised",
+            "definition": "done without official permission"
+          },
+          {
+            "term": "complaint",
+            "definition": "a formal statement that someone has done something wrong"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:41",
+      "headline": "Propagandistické weby pro české komunisty pomáhal budovat agent řízený ruskými službami",
+      "body": "Pavučinu českých webů šířících ruskou a čínskou propagandu podle Seznam Zpráv pomohl vytvořit uprchlík John Mark Dougan, kterého v Rusku přímo řídily tajné služby FSB a GRU. Češi tím podle serveru mohli porušit sankce, které na Dougana uvalila Evropská unie.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-agent-ruske-rozvedky-vybudoval-propagandisticke-weby-pro-ceske-komunisty-320409"
+        }
+      ],
+      "en": {
+        "headline": "Propaganda websites for Czech communists were built with the help of an agent run by Russian services",
+        "sentences": [
+          {
+            "en": "A web of Czech sites spreading Russian and Chinese propaganda was created with the help of the fugitive John Mark Dougan, who was directly run in Russia by the FSB and GRU secret services, according to Seznam Zprávy.",
+            "cs": "Pavučinu českých webů šířících ruskou a čínskou propagandu podle Seznam Zpráv pomohl vytvořit uprchlík John Mark Dougan, kterého v Rusku přímo řídily tajné služby FSB a GRU."
+          },
+          {
+            "en": "By doing so the Czechs may have broken the sanctions that the European Union imposed on Dougan, the server writes.",
+            "cs": "Češi tím podle serveru mohli porušit sankce, které na Dougana uvalila Evropská unie."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "fugitive",
+            "definition": "a person who has run away to escape the police or a court"
+          },
+          {
+            "term": "run",
+            "definition": "controlled and directed, as a secret agent is by a spy service"
+          },
+          {
+            "term": "imposed",
+            "definition": "officially forced a rule or a punishment on someone"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:31",
+      "headline": "V hradeckém Parku 360 se otevřela světelná stezka Světlozem",
+      "body": "V Parku 360 na bývalém vojenském letišti v Hradci Králové se otevřela Světlozem, zimní areál se světelnou stezkou a vánoční vesničkou s lunaparkem. Na stezce dlouhé 1,5 kilometru je šestnáct zastávek a v instalacích převážně českých autorů ožívají pohádkové bytosti; podle Hradecké drbny je mezi nimi pětimetrový vlk i svítící prasátka, k vidění je také videomapping a výprava do vesmíru pod kopulí planetária. Vstup na stezku je zpoplatněný, vánoční vesničku si lze prohlédnout zdarma. Areál má díky akci přilákat návštěvníky i mimo letní festivalovou sezonu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/park-360-zimni-svetlozem-hradec-kralove-svetelne-instalace.A261113_092309_hradec-zpravy_pos/foto#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/svetlozem-otevreni-park-360-letiste-stezka-svetel-vanocni-vesnicka/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/kultura/905647-svitici-prasatka-i-obri-vlk-v-hradeckem-parku-360-otevrela-svetlozem.html"
+        }
+      ],
+      "en": {
+        "headline": "The Světlozem light trail has opened in Park 360 in Hradec Králové",
+        "sentences": [
+          {
+            "en": "Světlozem, a winter site with a light trail and a Christmas village with a funfair, has opened in Park 360 at the former military airfield in Hradec Králové.",
+            "cs": "V Parku 360 na bývalém vojenském letišti v Hradci Králové se otevřela Světlozem, zimní areál se světelnou stezkou a vánoční vesničkou s lunaparkem."
+          },
+          {
+            "en": "The 1.5-kilometre trail has sixteen stops and fairy-tale creatures come to life in installations by mostly Czech artists; according to Hradecká drbna they include a five-metre wolf and glowing piglets, and there is also video mapping and a journey into space under the planetarium dome.",
+            "cs": "Na stezce dlouhé 1,5 kilometru je šestnáct zastávek a v instalacích převážně českých autorů ožívají pohádkové bytosti; podle Hradecké drbny je mezi nimi pětimetrový vlk i svítící prasátka, k vidění je také videomapping a výprava do vesmíru pod kopulí planetária."
+          },
+          {
+            "en": "Entry to the light trail is charged, while the Christmas village can be seen free of charge.",
+            "cs": "Vstup na stezku je zpoplatněný, vánoční vesničku si lze prohlédnout zdarma."
+          },
+          {
+            "en": "Thanks to the event the grounds should attract visitors outside the summer festival season as well.",
+            "cs": "Areál má díky akci přilákat návštěvníky i mimo letní festivalovou sezonu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "funfair",
+            "definition": "an outdoor event with rides, games and stalls"
+          },
+          {
+            "term": "trail",
+            "definition": "a marked path for walking"
+          },
+          {
+            "term": "glowing",
+            "definition": "giving off a soft, steady light"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:42",
+      "headline": "Přestavba domu pro seniory Harmonie I bude do konce roku hotová z pětiny",
+      "body": "Více než půlmiliardová přestavba domu Harmonie I pro seniory a zdravotně postižené v Hradci Králové bude ke konci letošního roku zhruba z pětiny hotová. Část lidí v domě už bydlí.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/rekonstrukce-dum-harmonie-i-hradec-seniori/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The rebuilding of the Harmonie I home for seniors will be one fifth complete by the end of the year",
+        "sentences": [
+          {
+            "en": "The rebuilding of the Harmonie I home for seniors and people with disabilities in Hradec Králové, which costs more than half a billion crowns, will be roughly one fifth complete by the end of this year.",
+            "cs": "Více než půlmiliardová přestavba domu Harmonie I pro seniory a zdravotně postižené v Hradci Králové bude ke konci letošního roku zhruba z pětiny hotová."
+          },
+          {
+            "en": "Some of the residents already live there.",
+            "cs": "Část lidí v domě už bydlí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "seniors",
+            "definition": "older people, usually those who have retired"
+          },
+          {
+            "term": "disabilities",
+            "definition": "conditions that make it hard for someone to do certain things"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "05:06",
+      "headline": "Na zimní údržbu silnic má kraj 120 sypačů a 255 milionů korun",
+      "body": "První námraza už poslala silničáře v Královéhradeckém kraji do terénu. Na zimní sezonu mají připraveno 120 sypačů, plné sklady soli a 255 milionů korun, tedy o patnáct milionů více než loni. Řidiči si mohou na internetu zjistit, kdy silničáři jejich trasu naposledy ošetřili.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/doprava/905621-prvni-namraza-uz-poslala-sypace-do-terenu-jak-je-kraj-pripraveny-na-zimu.html"
+        }
+      ],
+      "en": {
+        "headline": "The region has 120 gritters and 255 million crowns for winter road maintenance",
+        "sentences": [
+          {
+            "en": "The first frost has already sent road crews out into the field in the Hradec Králové Region.",
+            "cs": "První námraza už poslala silničáře v Královéhradeckém kraji do terénu."
+          },
+          {
+            "en": "For the winter season they have 120 gritters ready, full salt stores and 255 million crowns, fifteen million more than last year.",
+            "cs": "Na zimní sezonu mají připraveno 120 sypačů, plné sklady soli a 255 milionů korun, tedy o patnáct milionů více než loni."
+          },
+          {
+            "en": "Drivers can find out online when the crews last treated their route.",
+            "cs": "Řidiči si mohou na internetu zjistit, kdy silničáři jejich trasu naposledy ošetřili."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "frost",
+            "definition": "a thin white layer of ice that forms when it is very cold"
+          },
+          {
+            "term": "gritters",
+            "definition": "trucks that spread salt or sand on icy roads"
+          },
+          {
+            "term": "treated",
+            "definition": "put salt or chemicals on a road to stop ice forming"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:00",
+      "headline": "Rychnov nad Kněžnou musel na opraveném náměstí zapáskovat herní prvky",
+      "body": "Jen pár dní po kompletní přestavbě musela radnice v Rychnově nad Kněžnou uzavřít páskami část prvků na Lidickém náměstí, protože se ukázalo, že mohou být nebezpečné. Jde o houpací lavičku a dětskou prolézačku s lanovými prvky. Přestavba trvala od začátku roku a s cenou kolem 24 milionů korun patří k největším letošním investicím radnice.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/opravene-namesti-hned-zase-zapaskovali-prvky-pro-deti-byly-nebezpecne.A261113_984834_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Rychnov nad Kněžnou had to tape off play features on its newly rebuilt square",
+        "sentences": [
+          {
+            "en": "Only a few days after the complete rebuilding was finished, the town hall in Rychnov nad Kněžnou had to close off part of the features on Lidické náměstí with tape, because they turned out to be dangerous.",
+            "cs": "Jen pár dní po kompletní přestavbě musela radnice v Rychnově nad Kněžnou uzavřít páskami část prvků na Lidickém náměstí, protože se ukázalo, že mohou být nebezpečné."
+          },
+          {
+            "en": "These are a swing bench and a children's climbing frame with rope elements.",
+            "cs": "Jde o houpací lavičku a dětskou prolézačku s lanovými prvky."
+          },
+          {
+            "en": "The rebuilding lasted from the beginning of the year and, at a cost of around 24 million crowns, ranks among the town hall's largest investments this year.",
+            "cs": "Přestavba trvala od začátku roku a s cenou kolem 24 milionů korun patří k největším letošním investicím radnice."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "swing",
+            "definition": "a seat hanging on ropes or chains that moves back and forth"
+          },
+          {
+            "term": "ranks",
+            "definition": "has a particular position in a list or order"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:14",
+      "headline": "Rusko podle Bildu žádá odchod Finska z NATO a stažení aliančních základen z Pobaltí",
+      "body": "Rusko předložilo podle informací německého deníku Bild na jednáních o ukončení války v Abú Zabí rozsáhlé požadavky, které se netýkají jen budoucnosti Ukrajiny, ale bezpečnostního uspořádání celé Evropy. Moskva mimo jiné požaduje, aby Finsko vystoupilo z NATO a aby Aliance nesměla umisťovat vojenské základny v pobaltských státech. Návrh dále počítá se získáním celého Donbasu, demilitarizací ukrajinských přístavů Oděsa a Mykolajiv a federalizací Moldavska. Součástí ruského plánu je podle E15 i trvalé vyloučení Ukrajiny z vojenských aliancí, vstup do Evropské unie by jí ale umožněn byl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/rusky-mirovy-plan-z-abu-zabi-moskva-zada-odchod-finska-z-nato-a-stazeni-aliancnich-zakladen-z-pobalti-1437322"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256777/"
+        }
+      ],
+      "en": {
+        "headline": "Russia is demanding Finland's exit from NATO and the withdrawal of Alliance bases from the Baltic states, Bild says",
+        "sentences": [
+          {
+            "en": "At the talks on ending the war in Abu Dhabi Russia has put forward sweeping demands which concern not only Ukraine's future but the security arrangements of the whole of Europe, according to information from the German daily Bild.",
+            "cs": "Rusko předložilo podle informací německého deníku Bild na jednáních o ukončení války v Abú Zabí rozsáhlé požadavky, které se netýkají jen budoucnosti Ukrajiny, ale bezpečnostního uspořádání celé Evropy."
+          },
+          {
+            "en": "Moscow is demanding, among other things, that Finland leave NATO and that the Alliance be barred from placing military bases in the Baltic states.",
+            "cs": "Moskva mimo jiné požaduje, aby Finsko vystoupilo z NATO a aby Aliance nesměla umisťovat vojenské základny v pobaltských státech."
+          },
+          {
+            "en": "The proposal further counts on gaining the whole of Donbas, on the demilitarisation of the Ukrainian ports of Odesa and Mykolaiv and on the federalisation of Moldova.",
+            "cs": "Návrh dále počítá se získáním celého Donbasu, demilitarizací ukrajinských přístavů Oděsa a Mykolajiv a federalizací Moldavska."
+          },
+          {
+            "en": "According to E15 the Russian plan also includes Ukraine's permanent exclusion from military alliances, although it would be allowed to join the European Union.",
+            "cs": "Součástí ruského plánu je podle E15 i trvalé vyloučení Ukrajiny z vojenských aliancí, vstup do Evropské unie by jí ale umožněn byl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sweeping",
+            "definition": "very wide in effect and covering a lot"
+          },
+          {
+            "term": "barred",
+            "definition": "officially not allowed to do something"
+          },
+          {
+            "term": "demilitarisation",
+            "definition": "the removal of soldiers and weapons from an area"
+          },
+          {
+            "term": "exclusion",
+            "definition": "being kept out of a group or an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:36",
+      "headline": "Evropská unie se neshodla, kdo ji bude u jednacího stolu o Ukrajině zastupovat",
+      "body": "Lídři Evropské unie pokračovali v irském Dublinu v jednáních a hlavním bodem dne se stala vleklá diskuze o tom, kdo za unii usedne k jednacímu stolu s Ukrajinci, Rusy a Spojenými státy. Shodnout se má 27 zemí společně s Británií, Nory a dalšími a na stole jsou podle Deníku N tři hlavní možnosti. Podle Seznam Zpráv jedni vidí vhodného kandidáta v neutrálním Antóniu Costovi, jiní považují za nejpovolanější vůči Rusku neúprosnou Kaju Kallasovou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256753/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-evropa-ziskala-vytouzene-misto-v-jednani-o-miru-ale-nevi-kym-ho-obsadit-320456"
+        }
+      ],
+      "en": {
+        "headline": "The European Union has not agreed on who will represent it at the negotiating table on Ukraine",
+        "sentences": [
+          {
+            "en": "European Union leaders continued their talks in Dublin, Ireland, and the main item of the day became a drawn out discussion about who will sit at the negotiating table with the Ukrainians, the Russians and the United States on the Union's behalf.",
+            "cs": "Lídři Evropské unie pokračovali v irském Dublinu v jednáních a hlavním bodem dne se stala vleklá diskuze o tom, kdo za unii usedne k jednacímu stolu s Ukrajinci, Rusy a Spojenými státy."
+          },
+          {
+            "en": "Twenty-seven countries are to agree together with Britain, Norway and others, and according to Deník N there are three main options on the table.",
+            "cs": "Shodnout se má 27 zemí společně s Británií, Nory a dalšími a na stole jsou podle Deníku N tři hlavní možnosti."
+          },
+          {
+            "en": "According to Seznam Zprávy some see a suitable candidate in the neutral António Costa, while others consider Kaja Kallas, who is unrelenting towards Russia, the best qualified.",
+            "cs": "Podle Seznam Zpráv jedni vidí vhodného kandidáta v neutrálním Antóniu Costovi, jiní považují za nejpovolanější vůči Rusku neúprosnou Kaju Kallasovou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "behalf",
+            "definition": "in the place of someone else, or for them"
+          },
+          {
+            "term": "unrelenting",
+            "definition": "never becoming weaker or gentler"
+          },
+          {
+            "term": "qualified",
+            "definition": "having the right knowledge or experience for a task"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:00",
+      "headline": "Írán tvrdí, že zaútočil na americké vojenské zařízení v Bahrajnu",
+      "body": "Írán uvedl, že zaútočil na americké vojenské zařízení v Bahrajnu; podle Teheránu šlo o odvetu za americký úder na jeho území a bylo by to poprvé za dva měsíce. Americké velitelství podle stanice CNN oznámilo, že sestřelilo dva íránské drony mířící na Bahrajn, hlášena nejsou žádná zranění ani škody. Írán zároveň rychle obnovuje svůj raketový arzenál: tento týden představil nové podzemní „raketové město“ a zrušil vlastní limity doletu střel. Vysoké náklady na bunkry část Íránců kritizuje v době, kdy vláda není schopná řešit zdražování, nedostatek energií ani krytů.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256927/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/raketove-mesto-cast-irancu-pobourilo-teheran-rusi-limity-u-strel-379587"
+        }
+      ],
+      "en": {
+        "headline": "Iran says it has attacked an American military facility in Bahrain",
+        "sentences": [
+          {
+            "en": "Iran said it had attacked an American military facility in Bahrain; according to Tehran it was retaliation for an American strike on its territory and it would be the first such attack in two months.",
+            "cs": "Írán uvedl, že zaútočil na americké vojenské zařízení v Bahrajnu; podle Teheránu šlo o odvetu za americký úder na jeho území a bylo by to poprvé za dva měsíce."
+          },
+          {
+            "en": "The American command announced, according to CNN, that it had shot down two Iranian drones heading for Bahrain, and no injuries or damage have been reported.",
+            "cs": "Americké velitelství podle stanice CNN oznámilo, že sestřelilo dva íránské drony mířící na Bahrajn, hlášena nejsou žádná zranění ani škody."
+          },
+          {
+            "en": "At the same time Iran is rapidly rebuilding its missile arsenal: this week it presented a new underground “missile city” and scrapped its own limits on the range of its missiles.",
+            "cs": "Írán zároveň rychle obnovuje svůj raketový arzenál: tento týden představil nové podzemní „raketové město“ a zrušil vlastní limity doletu střel."
+          },
+          {
+            "en": "Some Iranians criticise the high cost of the bunkers at a time when the government is unable to deal with rising prices, a shortage of energy or a lack of shelters.",
+            "cs": "Vysoké náklady na bunkry část Íránců kritizuje v době, kdy vláda není schopná řešit zdražování, nedostatek energií ani krytů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "retaliation",
+            "definition": "an attack made to punish someone for attacking you"
+          },
+          {
+            "term": "arsenal",
+            "definition": "a large collection of weapons"
+          },
+          {
+            "term": "scrapped",
+            "definition": "got rid of a plan, a rule or a limit"
+          },
+          {
+            "term": "shelters",
+            "definition": "places where people can hide and be safe from danger"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:07",
+      "headline": "Němečtí poslanci rozšířili pravomoci tajných služeb kvůli hybridním hrozbám",
+      "body": "Němečtí poslanci schválili reformu zpravodajských služeb, která v reakci na nové hybridní hrozby posiluje jejich pravomoci doma i v zahraničí. Spolková zpravodajská služba (BND) bude nově moci zasáhnout už v době kybernetického útoku ze zahraničí proti jeho původci v jiné zemi, Spolkový úřad pro ochranu ústavy (BfV) dostane nové pravomoci při odposlouchávání či vstupech do obydlí podezřelých.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecko-kvuli-hybridnim-hrozbam-rozsiri-kompetence-tajnych-sluzeb-379595"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256508/"
+        }
+      ],
+      "en": {
+        "headline": "German members of parliament have widened the powers of the intelligence services because of hybrid threats",
+        "sentences": [
+          {
+            "en": "German members of parliament have approved a reform of the intelligence services which, in response to new hybrid threats, strengthens their powers both at home and abroad.",
+            "cs": "Němečtí poslanci schválili reformu zpravodajských služeb, která v reakci na nové hybridní hrozby posiluje jejich pravomoci doma i v zahraničí."
+          },
+          {
+            "en": "The Federal Intelligence Service (BND) will newly be able to intervene while a cyberattack from abroad is under way, acting against its originator in another country, and the Federal Office for the Protection of the Constitution (BfV) will receive new powers for wiretapping and for entering suspects' homes.",
+            "cs": "Spolková zpravodajská služba (BND) bude nově moci zasáhnout už v době kybernetického útoku ze zahraničí proti jeho původci v jiné zemi, Spolkový úřad pro ochranu ústavy (BfV) dostane nové pravomoci při odposlouchávání či vstupech do obydlí podezřelých."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "intervene",
+            "definition": "to become involved in a situation in order to change it"
+          },
+          {
+            "term": "originator",
+            "definition": "the person or thing that started something"
+          },
+          {
+            "term": "wiretapping",
+            "definition": "secretly listening to someone's phone calls or messages"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:22",
+      "headline": "Innogy od ledna zdraží elektřinu i plyn zákazníkům bez fixace",
+      "body": "Energetická společnost innogy od začátku příštího roku zdraží elektřinu i plyn zákazníkům se smlouvou na dobu neurčitou. Cena silové elektřiny bez fixace vzroste o 150 korun na 3650 korun za megawatthodinu bez DPH, plyn podraží o 334 korun s DPH za megawatthodinu. Podle firmy se zdražení týká menší části z jejích 1,7 milionu klientů. Důvodem je podle E15 prudký růst velkoobchodních cen, ke zdražení už přistoupili i další velcí dodavatelé včetně ČEZu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-dodavatel-innogy-od-pristiho-roku-zdrazi-elektrinu-a-plyn-bez-fixace-320513"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/innogy-od-ledna-zdrazi-elektrinu-i-plyn-zakaznikum-bez-fixace-ceny-rostou-o-stovky-korun-za-megawatthodinu-1437323"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256800/"
+        }
+      ],
+      "en": {
+        "headline": "Innogy will raise electricity and gas prices for customers without a fixed rate from January",
+        "sentences": [
+          {
+            "en": "From the beginning of next year the energy company innogy will raise the price of electricity and gas for customers whose contract has no end date.",
+            "cs": "Energetická společnost innogy od začátku příštího roku zdraží elektřinu i plyn zákazníkům se smlouvou na dobu neurčitou."
+          },
+          {
+            "en": "The price of the electricity itself without a fixed rate will rise by 150 crowns to 3,650 crowns per megawatt-hour excluding VAT, while gas will go up by 334 crowns including VAT per megawatt-hour.",
+            "cs": "Cena silové elektřiny bez fixace vzroste o 150 korun na 3650 korun za megawatthodinu bez DPH, plyn podraží o 334 korun s DPH za megawatthodinu."
+          },
+          {
+            "en": "According to the company the increase affects a smaller part of its 1.7 million customers.",
+            "cs": "Podle firmy se zdražení týká menší části z jejích 1,7 milionu klientů."
+          },
+          {
+            "en": "The reason, E15 writes, is a steep rise in wholesale prices; other large suppliers including ČEZ have already raised their prices as well.",
+            "cs": "Důvodem je podle E15 prudký růst velkoobchodních cen, ke zdražení už přistoupili i další velcí dodavatelé včetně ČEZu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wholesale",
+            "definition": "connected with selling goods in large amounts to businesses"
+          },
+          {
+            "term": "steep",
+            "definition": "changing by a very large amount in a short time"
+          },
+          {
+            "term": "suppliers",
+            "definition": "companies that provide a product or service to customers"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:00",
+      "headline": "Vláda chystá sektorové daně pro banky, energetiky a zbrojaře, rafinerie se brání",
+      "body": "Babišova vláda zvažuje mimořádné daně pro banky, energetické firmy a zbrojaře a slibuje si od nich desítky miliard korun. Ekonomové a průmyslníci podle E15 varují, že sektorové daně mohou odradit investory, oslabit české firmy a nakonec snížit příjmy státu; u zbrojařů navíc není jasné, koho by nová daň měla postihnout, dotknout by se mohla i firem vyrábějících civilní zboží. Zbrojaři podle Seznam Zpráv varují před odlivem investic i přesunem výroby do zahraničí. Návrh na zavedení mimořádné daně pro rafinerie míří ve Sněmovně ke schvalování, ke kterému může dojít na konci listopadu, a opozice k němu předložila tři desítky úprav. Orlen Unipetrol, jediný vlastník rafinerií v Kralupech nad Vltavou a v Litvínově, se proti dani znovu ohradil s tím, že vybrané peníze budou v budoucnu chybět na investice.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-babis-se-diva-i-na-zisky-zbrojaru-vyrobu-presuneme-jinam-varuji-320502"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obrana-a-zbrojni-prumysl/babisuv-plan-zdanit-zbrojare-ma-zasadni-trhlinu-problem-se-tyka-i-strnadovy-csg-1437307"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256683/"
+        }
+      ],
+      "en": {
+        "headline": "The government is preparing sector taxes on banks, energy firms and arms makers, and the refineries are fighting back",
+        "sentences": [
+          {
+            "en": "Andrej Babiš's government is considering extraordinary taxes on banks, energy companies and arms makers and expects tens of billions of crowns from them.",
+            "cs": "Babišova vláda zvažuje mimořádné daně pro banky, energetické firmy a zbrojaře a slibuje si od nich desítky miliard korun."
+          },
+          {
+            "en": "Economists and industrialists warn, according to E15, that sector taxes may drive investors away, weaken Czech companies and in the end reduce the state's income; with arms makers it is moreover unclear who the new tax should hit, as it could also affect companies making civilian goods.",
+            "cs": "Ekonomové a průmyslníci podle E15 varují, že sektorové daně mohou odradit investory, oslabit české firmy a nakonec snížit příjmy státu; u zbrojařů navíc není jasné, koho by nová daň měla postihnout, dotknout by se mohla i firem vyrábějících civilní zboží."
+          },
+          {
+            "en": "Arms makers warn, Seznam Zprávy reports, of an outflow of investment and of production moving abroad.",
+            "cs": "Zbrojaři podle Seznam Zpráv varují před odlivem investic i přesunem výroby do zahraničí."
+          },
+          {
+            "en": "The bill introducing an extraordinary tax on refineries is heading for a vote in the Chamber of Deputies, which may come at the end of November, and the opposition has tabled three dozen amendments.",
+            "cs": "Návrh na zavedení mimořádné daně pro rafinerie míří ve Sněmovně ke schvalování, ke kterému může dojít na konci listopadu, a opozice k němu předložila tři desítky úprav."
+          },
+          {
+            "en": "Orlen Unipetrol, the sole owner of the refineries in Kralupy nad Vltavou and Litvínov, has again objected to the tax, saying the money collected will be missing for investment in the future.",
+            "cs": "Orlen Unipetrol, jediný vlastník rafinerií v Kralupech nad Vltavou a v Litvínově, se proti dani znovu ohradil s tím, že vybrané peníze budou v budoucnu chybět na investice."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refineries",
+            "definition": "factories where crude oil is turned into fuel"
+          },
+          {
+            "term": "tabled",
+            "definition": "formally put forward for discussion or a vote"
+          },
+          {
+            "term": "amendments",
+            "definition": "small changes proposed to a law or a text"
+          },
+          {
+            "term": "sole",
+            "definition": "being the only one, with no others"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:52",
+      "headline": "Ruský diskont Mere končí v Česku, prodejny může převzít jiný provozovatel",
+      "body": "Síť Mere rodiny ruských miliardářů Šnajderových oznámila uzavření svých dvanácti prodejen v Česku. Kvůli sankcím řetězec skončil už v celé Evropské unii a Česko bylo poslední zemí, kde působil. E15 upozorňuje, že může jít o pokus sankce obejít a že se spekuluje o převodu poboček na novou společnost; podle Seznam Zpráv by prodejny mohly pokračovat pod jiným názvem a změna by se neměla dotknout zaměstnanců.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/obchod-a-sluzby/rusky-diskont-ohlasil-konec-v-cesku-zavre-vsech-12-pobocek-1437301"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-rusky-diskont-mere-v-cesku-konci-prodejny-by-mohly-pokracovat-pod-jinym-nazvem-320508"
+        }
+      ],
+      "en": {
+        "headline": "The Russian discount chain Mere is leaving the Czech Republic and its stores may be taken over by someone else",
+        "sentences": [
+          {
+            "en": "The Mere chain, owned by the Šnajder family of Russian billionaires, has announced the closure of its twelve stores in the Czech Republic.",
+            "cs": "Síť Mere rodiny ruských miliardářů Šnajderových oznámila uzavření svých dvanácti prodejen v Česku."
+          },
+          {
+            "en": "Because of sanctions the chain has already ended its business across the European Union and the Czech Republic was the last country where it still operated.",
+            "cs": "Kvůli sankcím řetězec skončil už v celé Evropské unii a Česko bylo poslední zemí, kde působil."
+          },
+          {
+            "en": "E15 points out that this may be an attempt to get around the sanctions and that there is speculation about transferring the branches to a new company; according to Seznam Zprávy the stores could continue under a different name and the change should not affect the employees.",
+            "cs": "E15 upozorňuje, že může jít o pokus sankce obejít a že se spekuluje o převodu poboček na novou společnost; podle Seznam Zpráv by prodejny mohly pokračovat pod jiným názvem a změna by se neměla dotknout zaměstnanců."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "closure",
+            "definition": "the permanent ending of a shop, factory or service"
+          },
+          {
+            "term": "branches",
+            "definition": "shops or offices that are part of a larger company"
+          },
+          {
+            "term": "speculation",
+            "definition": "guessing about something without knowing the facts"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "19:04",
+      "day": "prev",
+      "headline": "Elektronická evidence tržeb bude znovu povinná od ledna 2027",
+      "body": "Finanční správa rozeslala všem podnikatelům do datové schránky informaci, že si už mohou nainstalovat počítačový soubor pro elektronickou evidenci tržeb. Ta bude znovu povinná od 1. ledna 2027. Na rozdíl od první vlny budou muset evidovat i samoobslužné provozy typu čerpacích stanic, prádelen nebo mycích linek. Pro podnikatele, kteří pokladní systém nemají nebo si ho nechtějí pořizovat, připravuje finanční správa webovou aplikaci.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/financni-sprava-vyzyva-podnikatele-k-aktivaci-eet-379566"
+        }
+      ],
+      "en": {
+        "headline": "Electronic registration of sales will be compulsory again from January 2027",
+        "sentences": [
+          {
+            "en": "The tax administration has sent all businesses a message to their data boxes saying that they can already install the computer file for the electronic registration of sales.",
+            "cs": "Finanční správa rozeslala všem podnikatelům do datové schránky informaci, že si už mohou nainstalovat počítačový soubor pro elektronickou evidenci tržeb."
+          },
+          {
+            "en": "It will be compulsory again from 1 January 2027.",
+            "cs": "Ta bude znovu povinná od 1. ledna 2027."
+          },
+          {
+            "en": "Unlike in the first wave, self-service operations such as petrol stations, laundrettes or car washes will have to register their sales too.",
+            "cs": "Na rozdíl od první vlny budou muset evidovat i samoobslužné provozy typu čerpacích stanic, prádelen nebo mycích linek."
+          },
+          {
+            "en": "For businesses that do not have a till system, or do not want to buy one, the tax administration is preparing a web application.",
+            "cs": "Pro podnikatele, kteří pokladní systém nemají nebo si ho nechtějí pořizovat, připravuje finanční správa webovou aplikaci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "compulsory",
+            "definition": "required by a law or by rules"
+          },
+          {
+            "term": "laundrettes",
+            "definition": "shops where people pay to use washing machines"
+          },
+          {
+            "term": "till",
+            "definition": "the machine or drawer in a shop that holds the money"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:48",
+      "headline": "Globální výpadek služeb Microsoftu zasáhl i česká ministerstva a pražské letiště",
+      "body": "Od čtvrtečního večera, kdy incident podle Root.cz začal zhruba v 19:30 našeho času, nefungovaly uživatelům po celém světě služby Microsoftu — internetová pošta Outlook, komunikační služba Teams a asistent Copilot, podle Root.cz také Azure, OneDrive a Microsoft Store. Problémy zaznamenalo více než sedmdesát zemí, v Česku je hlásily i úřady a Letiště Václava Havla Praha a podle iROZHLAS byla narušena e-mailová komunikace ministerstva financí. Firma uvedla, že nic nenasvědčuje kybernetickému útoku ani úmyslnému poškození, příčinu přičítá přetížení infrastruktury a připustila, že náprava nejde tak, jak očekávala. V pátek odpoledne Microsoft na síti X oznámil, že se situace zlepšuje a že se snaží stabilizovat obnovenou infrastrukturu a zmenšit fronty zpožděných e-mailů, problémy ale částečně přetrvávají. Podle Daniela Dočekala ze serveru 365typů.cz jsou dva výpadky za rok celkem dobré skóre a ve hře může být i odškodnění uživatelů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/technologie/microsoft-hlasi-zlepseni-po-globalnim-vypadku-sluzeb-problemy-ale-castecne_2611131648_jkd"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-vypadek-microsoft-otazky-a-odpovedi-320463"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/microsoft-vypadak-outlook-teams-copilot-1437300"
+        },
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/velky-vypadek-serveru-microsoftu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "A global outage of Microsoft services hit Czech ministries and Prague airport as well",
+        "sentences": [
+          {
+            "en": "From Thursday evening, when the incident began at around 19:30 Czech time according to Root.cz, Microsoft services were down for users all over the world — the Outlook email service, the Teams communication tool and the Copilot assistant, and according to Root.cz also Azure, OneDrive and the Microsoft Store.",
+            "cs": "Od čtvrtečního večera, kdy incident podle Root.cz začal zhruba v 19:30 našeho času, nefungovaly uživatelům po celém světě služby Microsoftu — internetová pošta Outlook, komunikační služba Teams a asistent Copilot, podle Root.cz také Azure, OneDrive a Microsoft Store."
+          },
+          {
+            "en": "More than seventy countries recorded problems; in the Czech Republic they were reported by government offices and by Václav Havel Airport Prague, and according to iROZHLAS the email communication of the Ministry of Finance was disrupted.",
+            "cs": "Problémy zaznamenalo více než sedmdesát zemí, v Česku je hlásily i úřady a Letiště Václava Havla Praha a podle iROZHLAS byla narušena e-mailová komunikace ministerstva financí."
+          },
+          {
+            "en": "The company said that nothing suggests a cyberattack or deliberate damage, attributes the cause to overloaded infrastructure and admitted that the repair is not going as it had expected.",
+            "cs": "Firma uvedla, že nic nenasvědčuje kybernetickému útoku ani úmyslnému poškození, příčinu přičítá přetížení infrastruktury a připustila, že náprava nejde tak, jak očekávala."
+          },
+          {
+            "en": "On Friday afternoon Microsoft announced on X that the situation is improving and that it is trying to stabilise the restored infrastructure and reduce the queues of delayed emails, although problems partly persist.",
+            "cs": "V pátek odpoledne Microsoft na síti X oznámil, že se situace zlepšuje a že se snaží stabilizovat obnovenou infrastrukturu a zmenšit fronty zpožděných e-mailů, problémy ale částečně přetrvávají."
+          },
+          {
+            "en": "According to Daniel Dočekal of the 365typů.cz website, two outages a year is quite a good score and compensation for users may also be on the table.",
+            "cs": "Podle Daniela Dočekala ze serveru 365typů.cz jsou dva výpadky za rok celkem dobré skóre a ve hře může být i odškodnění uživatelů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outages",
+            "definition": "periods when a service or power stops working"
+          },
+          {
+            "term": "disrupted",
+            "definition": "interrupted so that it could not work normally"
+          },
+          {
+            "term": "attributes",
+            "definition": "says that something was caused by a particular thing"
+          },
+          {
+            "term": "persist",
+            "definition": "continue to exist or happen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:20",
+      "headline": "Pád šéfa Nvidie otřásl odvětvím AI, podle zaměstnanců ve firmě panoval Huangův kult",
+      "body": "Navazuje na včerejší rezignaci Jensena Huanga. Náhlá změna ve vedení Nvidie a vyšetřování odkrývají zákulisí interní politiky a řízení firmy; jeden ze zdrojů deníku Financial Times řekl, že třiašedesátiletý Huang vedl firmu jako „feudální systém“ s vlastní nepřehlednou dynastickou politikou. Zaměstnanci podle Deníku N popisují, že ve firmě panoval Huangův kult, a jeho pád může být příležitostí k restartu. Podle businessového newsletteru 11am, ze kterého cituje E15, náhlý pád topmanažera znepokojil aktéry v odvětví umělé inteligence a kvůli aféře hrozí konec i americkému ministrovi obchodu, který měl Huangovi pomáhat odstraňovat překážky pro vývoz nejpokročilejších čipů.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256667/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2256177/pad-sefa-nvidie-muze-byt-prilezitosti-k-restartu-ve-firme-panoval-huanguv-kult-popisuji-zamestnanci/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/pad-sefa-nvidie-otrasl-svetem-ai-a-znervoznil-investory-kauza-muze-smest-i-trumpova-ministra-1437310"
+        }
+      ],
+      "en": {
+        "headline": "The fall of the Nvidia boss has shaken the AI industry, and employees describe a cult of Huang inside the firm",
+        "sentences": [
+          {
+            "en": "This follows on from yesterday's resignation of Jensen Huang.",
+            "cs": "Navazuje na včerejší rezignaci Jensena Huanga."
+          },
+          {
+            "en": "The sudden change at the top of Nvidia and the investigations are revealing the background of the company's internal politics and management; one source of the Financial Times said that the sixty-three-year-old Huang ran the firm as a “feudal system” with its own opaque dynastic politics.",
+            "cs": "Náhlá změna ve vedení Nvidie a vyšetřování odkrývají zákulisí interní politiky a řízení firmy; jeden ze zdrojů deníku Financial Times řekl, že třiašedesátiletý Huang vedl firmu jako „feudální systém“ s vlastní nepřehlednou dynastickou politikou."
+          },
+          {
+            "en": "Employees describe, according to Deník N, that a cult of Huang reigned in the company and that his fall may be an opportunity for a restart.",
+            "cs": "Zaměstnanci podle Deníku N popisují, že ve firmě panoval Huangův kult, a jeho pád může být příležitostí k restartu."
+          },
+          {
+            "en": "According to the business newsletter 11am, quoted by E15, the sudden fall of the top manager has unsettled players in the artificial intelligence industry, and because of the affair the American commerce secretary, who was supposed to help Huang remove obstacles to exporting the most advanced chips, may also lose his job.",
+            "cs": "Podle businessového newsletteru 11am, ze kterého cituje E15, náhlý pád topmanažera znepokojil aktéry v odvětví umělé inteligence a kvůli aféře hrozí konec i americkému ministrovi obchodu, který měl Huangovi pomáhat odstraňovat překážky pro vývoz nejpokročilejších čipů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "feudal",
+            "definition": "like an old system in which a powerful lord ruled everyone below him"
+          },
+          {
+            "term": "opaque",
+            "definition": "hard to see through or hard to understand"
+          },
+          {
+            "term": "unsettled",
+            "definition": "made people feel worried or uncertain"
+          },
+          {
+            "term": "obstacles",
+            "definition": "things that make it difficult to move forward or succeed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "06:35",
+      "headline": "FBI tvrdí, že severokorejští hackeři ukradli kryptoměny za devět miliard dolarů",
+      "body": "Severokorejští hackeři podle FBI ukradli kryptoměny za devět miliard dolarů. Vytvářeli falešná videa se známými lidmi a využívali záznamy z webkamer, terčem podobných útoků se podle úřadu může stát kterýkoli vlastník kryptoměny. Severní Korea používá ukradené prostředky na zbrojení a k obvinění se zatím nevyjádřila.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/kryptomeny/fbi-severokorejsti-hackeri-ukradli-kryptomeny-za-devet-miliard-vyuzili-ai-a-webkamery-1437298"
+        }
+      ],
+      "en": {
+        "headline": "The FBI says North Korean hackers have stolen nine billion dollars in cryptocurrencies",
+        "sentences": [
+          {
+            "en": "North Korean hackers have stolen cryptocurrencies worth nine billion dollars, according to the FBI.",
+            "cs": "Severokorejští hackeři podle FBI ukradli kryptoměny za devět miliard dolarů."
+          },
+          {
+            "en": "They created fake videos featuring well-known people and used webcam recordings, and according to the bureau any owner of cryptocurrency could become the target of such attacks.",
+            "cs": "Vytvářeli falešná videa se známými lidmi a využívali záznamy z webkamer, terčem podobných útoků se podle úřadu může stát kterýkoli vlastník kryptoměny."
+          },
+          {
+            "en": "North Korea uses the stolen funds for weapons and has not yet commented on the accusation.",
+            "cs": "Severní Korea používá ukradené prostředky na zbrojení a k obvinění se zatím nevyjádřila."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bureau",
+            "definition": "a government department or office"
+          },
+          {
+            "term": "funds",
+            "definition": "money that is available to be used"
+          },
+          {
+            "term": "accusation",
+            "definition": "a statement that someone has done something wrong"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "18:30",
+      "day": "prev",
+      "headline": "Fotbalisté podlehli na Letné Španělsku 0:2 a v Lize národů nemají ani bod",
+      "body": "Čeští fotbalisté prohráli ve čtvrtek večer na Letné s mistry světa ze Španělska 0:2 a v elitní skupině A3 Ligy národů nemají po pěti zápasech ani bod. Favorit, který přijel bez Yamala a Rodriho, šel do vedení v první půli po penaltě Álexe Baeny, kterou smolně způsobil rukou ve vápně Lukáš Ambros, pojistku přidal v poslední minutě nastavení Marc Pubill. Tým kouče Santiho Denii dohrával v deseti po červené kartě kapitána Ladislava Krejčího a podle statistik ČT sport si za celý zápas nevypracoval ani jednu střelu na branku. Nadějný debut v áčku prožil teprve osmnáctiletý Idris Hopi, kterého chválili spoluhráči David Zima i Lukáš Ambros a také trenér. V nedělním závěrečném utkání skupiny v Chorvatsku může Česko při výhře poskočit na třetí místo a odvrátit přímý sestup; chorvatský kouč Slaven Bilič podle Sport.cz právě kvůli tomuto zápasu šetřil ve čtvrtek proti Anglii Luku Modriče.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/zive-cesko-spanelsko-159925"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/idris-hopi_2611131456_kri"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-kvuli-cechum-setrili-nejvetsi-hvezdu-dame-do-zapasu-vsechno-burcuje-chorvatsky-kouc-5574979"
+        }
+      ],
+      "en": {
+        "headline": "The footballers lost 0:2 to Spain at Letná and still have no points in the Nations League",
+        "sentences": [
+          {
+            "en": "The Czech footballers lost 0:2 to the world champions from Spain at Letná on Thursday evening and after five matches have not taken a single point in the elite group A3 of the Nations League.",
+            "cs": "Čeští fotbalisté prohráli ve čtvrtek večer na Letné s mistry světa ze Španělska 0:2 a v elitní skupině A3 Ligy národů nemají po pěti zápasech ani bod."
+          },
+          {
+            "en": "The favourites, who came without Yamal and Rodri, went ahead in the first half from a penalty by Álex Baena, unluckily caused by a handball from Lukáš Ambros in the box, and Marc Pubill added a second in the last minute of added time.",
+            "cs": "Favorit, který přijel bez Yamala a Rodriho, šel do vedení v první půli po penaltě Álexe Baeny, kterou smolně způsobil rukou ve vápně Lukáš Ambros, pojistku přidal v poslední minutě nastavení Marc Pubill."
+          },
+          {
+            "en": "Santi Denia's team finished the match with ten men after a red card for captain Ladislav Krejčí and, according to ČT sport statistics, did not manage a single shot on target in the whole game.",
+            "cs": "Tým kouče Santiho Denii dohrával v deseti po červené kartě kapitána Ladislava Krejčího a podle statistik ČT sport si za celý zápas nevypracoval ani jednu střelu na branku."
+          },
+          {
+            "en": "A promising debut in the senior side was made by the eighteen-year-old Idris Hopi, who was praised by his team-mates David Zima and Lukáš Ambros as well as by the coach.",
+            "cs": "Nadějný debut v áčku prožil teprve osmnáctiletý Idris Hopi, kterého chválili spoluhráči David Zima i Lukáš Ambros a také trenér."
+          },
+          {
+            "en": "A win in Sunday's final group match in Croatia could lift the Czechs to third place and avert direct relegation; the Croatian coach Slaven Bilič, according to Sport.cz, rested Luka Modrić against England on Thursday precisely because of this match.",
+            "cs": "V nedělním závěrečném utkání skupiny v Chorvatsku může Česko při výhře poskočit na třetí místo a odvrátit přímý sestup; chorvatský kouč Slaven Bilič podle Sport.cz právě kvůli tomuto zápasu šetřil ve čtvrtek proti Anglii Luku Modriče."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "handball",
+            "definition": "touching the ball with the hand or arm, which is a foul in football"
+          },
+          {
+            "term": "promising",
+            "definition": "showing signs of being very good in the future"
+          },
+          {
+            "term": "avert",
+            "definition": "to stop something bad from happening"
+          },
+          {
+            "term": "relegation",
+            "definition": "being moved down into a lower division or group"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:50",
+      "headline": "Jednadvacítka rozehrála v Turecku baráž o Euro, odveta je v úterý v Hradci Králové",
+      "body": "Česká fotbalová reprezentace do 21 let rozehrála v tureckém Rize play-off kvalifikace o mistrovství Evropy 2027. Svěřenci trenéra Michala Bílka usilují o čtvrtou účast na závěrečném turnaji v řadě a šestou z posledních sedmi. Odveta je na programu v úterý v Hradci Králové.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/baraz-o-euro-21-turecko-cesko-159941"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-me-21-let-2027-baraz-cesko-turecko-online-5574959"
+        }
+      ],
+      "en": {
+        "headline": "The under-21 side has begun its Euro play-off in Turkey, with the return leg on Tuesday in Hradec Králové",
+        "sentences": [
+          {
+            "en": "The Czech under-21 football team has begun the play-off of the qualification for the 2027 European Championship in Rize, Turkey.",
+            "cs": "Česká fotbalová reprezentace do 21 let rozehrála v tureckém Rize play-off kvalifikace o mistrovství Evropy 2027."
+          },
+          {
+            "en": "Michal Bílek's players are aiming for a fourth appearance in a row at the final tournament and a sixth from the last seven.",
+            "cs": "Svěřenci trenéra Michala Bílka usilují o čtvrtou účast na závěrečném turnaji v řadě a šestou z posledních sedmi."
+          },
+          {
+            "en": "The return leg is scheduled for Tuesday in Hradec Králové.",
+            "cs": "Odveta je na programu v úterý v Hradci Králové."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "appearance",
+            "definition": "taking part in an event or a competition"
+          },
+          {
+            "term": "leg",
+            "definition": "one of two matches between the same teams in a knockout round"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:04",
+      "headline": "Manchester United povede Mauricio Pochettino",
+      "body": "Novým trenérem fotbalistů Manchesteru United se stane Argentinec Mauricio Pochettino, klub jeho příchod potvrdil na svém webu. Podle médií by měl podepsat smlouvu na dva a půl roku. Čtyřiapadesátiletý kouč kvůli angažmá na Old Trafford opustí reprezentaci Spojených států.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/fotbal/manchester-united-trener-pochettino_2611131404_kri"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/manchester-united-vsadil-na-pochettina-kvuli-angazma-na-old-trafford-opusti-reprezentaci-usa-159938"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-premier-league-manchester-united-povede-slavne-jmeno-5574984"
+        }
+      ],
+      "en": {
+        "headline": "Manchester United will be led by Mauricio Pochettino",
+        "sentences": [
+          {
+            "en": "The Argentine Mauricio Pochettino will become the new manager of the Manchester United footballers; the club confirmed his arrival on its website.",
+            "cs": "Novým trenérem fotbalistů Manchesteru United se stane Argentinec Mauricio Pochettino, klub jeho příchod potvrdil na svém webu."
+          },
+          {
+            "en": "According to the media he should sign a contract for two and a half years.",
+            "cs": "Podle médií by měl podepsat smlouvu na dva a půl roku."
+          },
+          {
+            "en": "The fifty-four-year-old coach will leave the United States national team because of the job at Old Trafford.",
+            "cs": "Čtyřiapadesátiletý kouč kvůli angažmá na Old Trafford opustí reprezentaci Spojených států."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "manager",
+            "definition": "the person who runs a football team and picks the players"
+          },
+          {
+            "term": "arrival",
+            "definition": "the act of coming to a place or starting a new job"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:13",
+      "headline": "Rychlobruslař Jílek vyhrál úvodní závod Světového poháru a překonal rekord pekingské dráhy",
+      "body": "Olympijský vítěz Metoděj Jílek ovládl úvodní závod Světového poháru v Pekingu na 5000 metrů. Časem 6:04,77 překonal dosavadní rekord místní dráhy o více než čtyři sekundy a druhého Nora Sandera Eitrema porazil o rovné čtyři vteřiny. Třetí skončil Ital Davide Ghiotto.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/rychlobrusleni-a-short-track/jilek-vletl-do-nove-sezony-v-pekingu-rozdrtil-soupere-i-rekord-drahy-159936"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/zimni-sporty-rychlobrusleni-skvostny-start-sezony-jilek-ovladl-svetovy-pohar-prekonal-i-rekord-drahy-5574976"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256855/"
+        }
+      ],
+      "en": {
+        "headline": "Speed skater Jílek won the opening World Cup race and broke the Beijing track record",
+        "sentences": [
+          {
+            "en": "The Olympic champion Metoděj Jílek won the opening World Cup race in Beijing over 5,000 metres.",
+            "cs": "Olympijský vítěz Metoděj Jílek ovládl úvodní závod Světového poháru v Pekingu na 5000 metrů."
+          },
+          {
+            "en": "With a time of 6:04.77 he beat the previous track record by more than four seconds and defeated the runner up, Norway's Sander Eitrem, by exactly four seconds.",
+            "cs": "Časem 6:04,77 překonal dosavadní rekord místní dráhy o více než čtyři sekundy a druhého Nora Sandera Eitrema porazil o rovné čtyři vteřiny."
+          },
+          {
+            "en": "The Italian Davide Ghiotto finished third.",
+            "cs": "Třetí skončil Ital Davide Ghiotto."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "track",
+            "definition": "the oval surface on which a race is run or skated"
+          },
+          {
+            "term": "defeated",
+            "definition": "beat someone in a game or a competition"
+          },
+          {
+            "term": "opening",
+            "definition": "first in a series of events"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:29",
+      "headline": "Vláda nezakáže sportovcům hrát proti Rusku, unie chystá zákaz ruských startů v EU",
+      "body": "Ministr pro sport Boris Šťastný (Motoristé) řekl, že vláda nepočítá se schválením zákona ani jiného opatření, kterým by zakázala českým reprezentantům nastupovat proti Rusku. „Nechceme a nebudeme zasahovat svazům, klubům, asociacím, olympijskému výboru, do jejich rozhodování. Musí se sami rozhodnout, jak k tomu chtějí přistupovat,“ uvedl s tím, že by šlo o zásah do samosprávy sportovních svazů. Šéf hokejového svazu Alois Hadamczik minulý týden řekl, že rozhodnutí státu by představovalo zásah vyšší moci. Součástí nového sankčního balíčku Evropské unie vůči Rusku má být podle agentury Reuters i zákaz účasti ruských sportovců na mezinárodních soutěžích konaných na území unie; Mezinárodní hokejová federace IIHF podle Sport.cz zahájila vyšetřování Ruska.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/vlada-nezakaze-hokejistum-hrat-proti-rusum-rekl-stastny-159939"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/hokej/iihf-rusove-hokejisti-mistrovstvi-sveta_2611131409_kri"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/ostatni-evropska-unie-chysta-tvrdy-uder-vuci-ruskym-sportovcum-5574983"
+        }
+      ],
+      "en": {
+        "headline": "The government will not ban athletes from playing against Russia, while the EU is preparing a ban on Russian starts",
+        "sentences": [
+          {
+            "en": "Sports Minister Boris Šťastný (Motoristé) said that the government is not planning to pass a law or any other measure that would stop Czech national team players from competing against Russia.",
+            "cs": "Ministr pro sport Boris Šťastný (Motoristé) řekl, že vláda nepočítá se schválením zákona ani jiného opatření, kterým by zakázala českým reprezentantům nastupovat proti Rusku."
+          },
+          {
+            "en": "“We do not want to interfere, and will not interfere, in the decision-making of federations, clubs, associations or the Olympic committee.",
+            "cs": "„Nechceme a nebudeme zasahovat svazům, klubům, asociacím, olympijskému výboru, do jejich rozhodování."
+          },
+          {
+            "en": "They have to decide for themselves how they want to approach it,” he said, adding that it would be an intrusion into the self-government of sports federations.",
+            "cs": "Musí se sami rozhodnout, jak k tomu chtějí přistupovat,“ uvedl s tím, že by šlo o zásah do samosprávy sportovních svazů."
+          },
+          {
+            "en": "The head of the ice hockey federation Alois Hadamczik said last week that a decision by the state would be an act of higher power.",
+            "cs": "Šéf hokejového svazu Alois Hadamczik minulý týden řekl, že rozhodnutí státu by představovalo zásah vyšší moci."
+          },
+          {
+            "en": "According to the Reuters agency the European Union's new sanctions package against Russia is to include a ban on Russian athletes taking part in international competitions held on the Union's territory; the International Ice Hockey Federation IIHF has opened an investigation into Russia, Sport.cz reports.",
+            "cs": "Součástí nového sankčního balíčku Evropské unie vůči Rusku má být podle agentury Reuters i zákaz účasti ruských sportovců na mezinárodních soutěžích konaných na území unie; Mezinárodní hokejová federace IIHF podle Sport.cz zahájila vyšetřování Ruska."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "interfere",
+            "definition": "to get involved in something that is not your business"
+          },
+          {
+            "term": "intrusion",
+            "definition": "going into a place or a matter where you are not wanted"
+          },
+          {
+            "term": "ban",
+            "definition": "an official order that stops something from being done"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:50",
+      "headline": "Hokejistky nastoupily ve čtvrtfinále mistrovství světa proti Kanadě",
+      "body": "České hokejistky nastoupily v dánském Herningu do čtvrtfinále mistrovství světa proti suverénním vítězkám své skupiny z Kanady; podle Sport.cz s ní Češky dosud hrály šestkrát a všechny zápasy prohrály. Utkání začalo v 15.00 a ve třetí třetině vedly podle ČT sport Kanaďanky 3:2.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/ms-hokejistek-kanada-cesko-159937"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-ms-zeny-2026-ctvrtfinale-cesko-kanada-online-5574429"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2256591/"
+        }
+      ],
+      "en": {
+        "headline": "The women's hockey team took to the ice against Canada in the World Championship quarter-final",
+        "sentences": [
+          {
+            "en": "The Czech women's ice hockey team took to the ice in Herning, Denmark, in the quarter-final of the World Championship against Canada, the dominant winners of their group; according to Sport.cz the Czechs have played Canada six times so far and lost every game.",
+            "cs": "České hokejistky nastoupily v dánském Herningu do čtvrtfinále mistrovství světa proti suverénním vítězkám své skupiny z Kanady; podle Sport.cz s ní Češky dosud hrály šestkrát a všechny zápasy prohrály."
+          },
+          {
+            "en": "The match started at 15.00 and in the third period Canada were leading 3:2, according to ČT sport.",
+            "cs": "Utkání začalo v 15.00 a ve třetí třetině vedly podle ČT sport Kanaďanky 3:2."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "dominant",
+            "definition": "much stronger or more successful than everyone else"
+          },
+          {
+            "term": "period",
+            "definition": "one of the three parts into which an ice hockey game is divided"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:44",
+      "headline": "Nosková je v semifinále Turnaje mistryň, ve čtyřhře postoupila i Siniaková",
+      "body": "Linda Nosková prohrála závěrečné utkání základní části Turnaje mistryň s Američankou Jessicou Pegulaovou 6:7, 6:4 a 5:7, přestože měla mečbol, do semifinále ale postoupila z prvního místa skupiny. V boji o finále ji v sobotu čeká Běloruska Aryna Sabalenková, nebo Ukrajinka Elina Svitolinová. Mezi nejlepší čtyři ve čtyřhře prošla i Kateřina Siniaková s Taylor Townsendovou, jejich zápas ale skončil předčasně poté, co si soupeřka ve skluzu poranila koleno za stavu 6:2 a 4:2 pro česko-americký pár.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/guaffova-ceka-jestli-ji-noskova-pomuze-do-semifinale-turnaje-mistryn-159931"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/tenis-turnaj-mistryn-ctyrhra_2611131344_kri"
+        }
+      ],
+      "en": {
+        "headline": "Nosková is in the semi-finals of the WTA Finals and Siniaková has gone through in the doubles",
+        "sentences": [
+          {
+            "en": "Linda Nosková lost the final match of the group stage at the WTA Finals to the American Jessica Pegula 6:7, 6:4 and 5:7 even though she held a match point, but she advanced to the semi-finals as the winner of her group.",
+            "cs": "Linda Nosková prohrála závěrečné utkání základní části Turnaje mistryň s Američankou Jessicou Pegulaovou 6:7, 6:4 a 5:7, přestože měla mečbol, do semifinále ale postoupila z prvního místa skupiny."
+          },
+          {
+            "en": "In the fight for a place in the final she will face Belarus's Aryna Sabalenka or Ukraine's Elina Svitolina on Saturday.",
+            "cs": "V boji o finále ji v sobotu čeká Běloruska Aryna Sabalenková, nebo Ukrajinka Elina Svitolinová."
+          },
+          {
+            "en": "Kateřina Siniaková and Taylor Townsend also reached the last four in the doubles, although their match ended early after their opponent injured her knee in a slide at 6:2 and 4:2 for the Czech-American pair.",
+            "cs": "Mezi nejlepší čtyři ve čtyřhře prošla i Kateřina Siniaková s Taylor Townsendovou, jejich zápas ale skončil předčasně poté, co si soupeřka ve skluzu poranila koleno za stavu 6:2 a 4:2 pro česko-americký pár."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "advanced",
+            "definition": "moved forward into the next round of a competition"
+          },
+          {
+            "term": "opponent",
+            "definition": "the person or team you play against"
+          },
+          {
+            "term": "slide",
+            "definition": "a quick movement along the ground, often to reach a ball"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "A global outage of Microsoft services knocked out Outlook, Teams and Copilot in more than seventy countries from Thursday evening, and in the Czech Republic it hit government ministries and Prague's airport.",
+    "According to the German daily Bild, Russia is demanding at the talks in Abu Dhabi that Finland leave NATO and that Alliance bases be withdrawn from the Baltic states.",
+    "Agriculture Minister Martin Šebestyán has dismissed all eleven members of the Board of the Wine Fund over findings by the Supreme Audit Office.",
+    "Innogy will raise electricity and gas prices for customers without a fixed rate from January, and other large suppliers are raising prices too."
+  ]
+}
