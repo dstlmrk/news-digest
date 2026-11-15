@@ -1,0 +1,1376 @@
+{
+  "date": "2026-11-15",
+  "covers": "2026-11-15",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz",
+    "Hacker News"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude přeháňkově, přes den až 11 °C a srážky jsou dost pravděpodobné. Kvalita ovzduší má být zhoršená.",
+    "outlook": "V úterý se čeká vydatný déšť a ve středu můžou nárazy větru dosáhnout 59 kilometrů v hodině.",
+    "days": [
+      {
+        "date": "2026-11-16",
+        "icon": "rain",
+        "temp_max_c": 11.0,
+        "temp_min_c": 2.0
+      },
+      {
+        "date": "2026-11-17",
+        "icon": "rain",
+        "temp_max_c": 12.8,
+        "temp_min_c": 4.6
+      },
+      {
+        "date": "2026-11-18",
+        "icon": "rain",
+        "temp_max_c": 12.5,
+        "temp_min_c": 7.5
+      },
+      {
+        "date": "2026-11-19",
+        "icon": "rain",
+        "temp_max_c": 11.2,
+        "temp_min_c": 6.6
+      }
+    ],
+    "summary_en": "Tomorrow will bring showers, up to 11 °C during the day, and rain is fairly likely. Air quality is expected to be poor.",
+    "outlook_en": "Heavy rain is expected on Tuesday, and on Wednesday wind gusts could reach 59 kilometres per hour."
+  },
+  "highlights": [
+    "Na pražské Letné demonstrovalo podle organizátorů 350 až 450 tisíc lidí za nezávislost veřejnoprávních médií.",
+    "Milion chvilek žádá stažení Klempířova zákona o médiích a odvolání Tomia Okamury z čela Sněmovny.",
+    "Íránské revoluční gardy hlásí, že v Hormuzském průlivu narazily na miny další dva tankery a jeden z nich se potopil.",
+    "Vesmírná loď Starship se v sobotu večer poprvé vrátila na základnu v Texasu a přistála do záchytných ramen."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:18",
+      "headline": "Na Letné demonstrovaly za veřejnoprávní média statisíce lidí",
+      "body": "Spolek Milion chvilek pro demokracii svolal na pražskou Letnou demonstraci nazvanou „Letná proti 4:36“ na obranu nezávislosti České televize a Českého rozhlasu. Protest začal ve 14 hodin a namířený je proti novele, která ruší koncesionářské poplatky a zavádí financování veřejnoprávních médií ze státního rozpočtu. Organizátoři odhadli účast na 350 až 450 tisíc lidí a tvrdí, že je vyšší než při březnové demonstraci; Seznam Zprávy uvádějí, že podle pořadatelů přišlo nejvíc lidí od roku 1989. Letenská pláň byla zcela zaplněná už v úvodu a lidé stáli i v přilehlých Letenských sadech až k výjezdu z tunelu Blanka. Předseda spolku Mikuláš Minář přednesl čtyři požadavky na vládu Andreje Babiše: stažení Klempířova zákona o veřejnoprávních médiích, zahájení dialogu s veřejností, omluvu za hlasování ve 4.36 a odvolání Tomia Okamury (SPD) z čela Sněmovny spolu s odebráním ministerstva obrany SPD. Celou vládu pozval na debatu se šestnácti odborníky do Švandova divadla 2. prosince. Z regionů podle Deníku N mířilo do Prahy až šedesát autobusů, které organizovali dobrovolníci spolku, a E15 dodává, že další vypravili soukromě místní obyvatelé a starostové. Pražský dopravní podnik musel kvůli přeplněným stanicím regulovat provoz metra — linka C nabrala zpoždění a stanicí Hradčanská některé vlaky jen projížděly.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zive-na-prazske-letne-se-lide-schazeji-k-protestu-za-nezavislost-verejnopravnich_2611151349_vdv"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/protivladni-demonstrace-na-letne-379631"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/na-prazske-letne-protestuje-az-450-tisic-lidi-na-podporu-verejnopravnich-medii-1437332"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258182/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-demonstrace-letna-2026-praha-milion-chvilek-online-320349"
+        }
+      ],
+      "en": {
+        "headline": "Hundreds of thousands demonstrated at Letná in support of public service media",
+        "sentences": [
+          {
+            "en": "The Million Moments for Democracy association called a rally at Prague's Letná plain, named “Letná against 4:36”, in defence of the independence of Czech Television and Czech Radio.",
+            "cs": "Spolek Milion chvilek pro demokracii svolal na pražskou Letnou demonstraci nazvanou „Letná proti 4:36“ na obranu nezávislosti České televize a Českého rozhlasu."
+          },
+          {
+            "en": "The protest began at 2 p.m. and is aimed at an amendment that abolishes licence fees and funds public service media from the state budget.",
+            "cs": "Protest začal ve 14 hodin a namířený je proti novele, která ruší koncesionářské poplatky a zavádí financování veřejnoprávních médií ze státního rozpočtu."
+          },
+          {
+            "en": "The organisers put the turnout at 350,000 to 450,000 people and say it is higher than at the March demonstration; Seznam Zprávy reports that according to the organisers it was the largest crowd since 1989.",
+            "cs": "Organizátoři odhadli účast na 350 až 450 tisíc lidí a tvrdí, že je vyšší než při březnové demonstraci; Seznam Zprávy uvádějí, že podle pořadatelů přišlo nejvíc lidí od roku 1989."
+          },
+          {
+            "en": "The Letná plain was completely full from the very start and people also stood in the adjacent Letná park, all the way to the exit from the Blanka tunnel.",
+            "cs": "Letenská pláň byla zcela zaplněná už v úvodu a lidé stáli i v přilehlých Letenských sadech až k výjezdu z tunelu Blanka."
+          },
+          {
+            "en": "The association's chair Mikuláš Minář put forward four demands on Andrej Babiš's government: withdrawal of the Klempíř bill on public service media, the opening of a dialogue with the public, an apology for the vote at 4:36, and the removal of Tomio Okamura (SPD) from the post of Speaker of the Chamber of Deputies, together with taking the defence ministry away from SPD.",
+            "cs": "Předseda spolku Mikuláš Minář přednesl čtyři požadavky na vládu Andreje Babiše: stažení Klempířova zákona o veřejnoprávních médiích, zahájení dialogu s veřejností, omluvu za hlasování ve 4.36 a odvolání Tomia Okamury (SPD) z čela Sněmovny spolu s odebráním ministerstva obrany SPD."
+          },
+          {
+            "en": "He invited the entire government to a debate with sixteen experts at the Švanda Theatre on 2 December.",
+            "cs": "Celou vládu pozval na debatu se šestnácti odborníky do Švandova divadla 2. prosince."
+          },
+          {
+            "en": "According to Deník N, up to sixty buses headed to Prague from the regions, organised by the association's volunteers, and E15 adds that others were laid on privately by local residents and mayors.",
+            "cs": "Z regionů podle Deníku N mířilo do Prahy až šedesát autobusů, které organizovali dobrovolníci spolku, a E15 dodává, že další vypravili soukromě místní obyvatelé a starostové."
+          },
+          {
+            "en": "Prague's transport company had to regulate metro traffic because of overcrowded stations — line C ran late and some trains passed through Hradčanská without stopping.",
+            "cs": "Pražský dopravní podnik musel kvůli přeplněným stanicím regulovat provoz metra — linka C nabrala zpoždění a stanicí Hradčanská některé vlaky jen projížděly."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rally",
+            "definition": "a large public meeting to support an idea"
+          },
+          {
+            "term": "amendment",
+            "definition": "a change made to a law"
+          },
+          {
+            "term": "turnout",
+            "definition": "the number of people who come to an event"
+          },
+          {
+            "term": "laid on",
+            "definition": "provided or arranged something for other people"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:02",
+      "headline": "Na Letné promluvili Halík se Svěrákem i hosté ze Slovenska a Srbska",
+      "body": "Katolický kněz Tomáš Halík na pódiu řekl, že „jde o mnohem víc než jen o svobodu veřejnoprávních médií“ a shromáždění ukazuje „odolnost vůči útokům na samotné základy svobodné společnosti“. Herec Zdeněk Svěrák připomněl, že rozhlas vydržel německé i ruské obléhání, a vyzval: „Držte se zuby nehty!“ Zpěvák David Koller zazpíval Krylova Anděla a pozval lidi na generální stávku, podnikatel Václav Muchna varoval, že kdo dnes utne debatu u médií, zítra ji utne u daní a dotací. Slovenská herečka a režisérka Tereza Nvotová mluvila o zkušenostech ze Slovenska a členka srbského studentského hnutí Natalija Petrovič řekla, že „Srbsko je živoucím příkladem toho, že změna je možná“. Na pódium přišli také signatářky Charty 77 a zástupci zhruba šesti set sportovců, za které promluvil kajakář Vavřinec Hradilek.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258237/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258214/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258091/"
+        }
+      ],
+      "en": {
+        "headline": "Halík and Svěrák spoke at Letná, along with guests from Slovakia and Serbia",
+        "sentences": [
+          {
+            "en": "The Catholic priest Tomáš Halík said from the stage that “this is about much more than just the freedom of public service media” and that the gathering shows “resilience against attacks on the very foundations of a free society”.",
+            "cs": "Katolický kněz Tomáš Halík na pódiu řekl, že „jde o mnohem víc než jen o svobodu veřejnoprávních médií“ a shromáždění ukazuje „odolnost vůči útokům na samotné základy svobodné společnosti“."
+          },
+          {
+            "en": "The actor Zdeněk Svěrák recalled that radio had survived both the German and the Russian siege, and urged: “Hold on tooth and nail!”",
+            "cs": "Herec Zdeněk Svěrák připomněl, že rozhlas vydržel německé i ruské obléhání, a vyzval: „Držte se zuby nehty!“"
+          },
+          {
+            "en": "The singer David Koller sang Karel Kryl's Anděl and invited people to a general strike, while the businessman Václav Muchna warned that whoever cuts off debate on the media today will cut it off on taxes and subsidies tomorrow.",
+            "cs": "Zpěvák David Koller zazpíval Krylova Anděla a pozval lidi na generální stávku, podnikatel Václav Muchna varoval, že kdo dnes utne debatu u médií, zítra ji utne u daní a dotací."
+          },
+          {
+            "en": "The Slovak actor and director Tereza Nvotová talked about her experience from Slovakia, and Natalija Petrovič, a member of the Serbian student movement, said that “Serbia is a living example that change is possible”.",
+            "cs": "Slovenská herečka a režisérka Tereza Nvotová mluvila o zkušenostech ze Slovenska a členka srbského studentského hnutí Natalija Petrovič řekla, že „Srbsko je živoucím příkladem toho, že změna je možná“."
+          },
+          {
+            "en": "Signatories of Charter 77 also came on stage, as did representatives of some six hundred athletes, on whose behalf the kayaker Vavřinec Hradilek spoke.",
+            "cs": "Na pódium přišli také signatářky Charty 77 a zástupci zhruba šesti set sportovců, za které promluvil kajakář Vavřinec Hradilek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resilience",
+            "definition": "the ability to stay strong when something bad happens"
+          },
+          {
+            "term": "siege",
+            "definition": "when an army surrounds a place to take control of it"
+          },
+          {
+            "term": "subsidies",
+            "definition": "money a government gives to help an industry or group"
+          },
+          {
+            "term": "signatories",
+            "definition": "people who have signed an official document"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:57",
+      "headline": "Politici se o smysl demonstrace přeli v nedělních debatách",
+      "body": "Místopředseda ANO Radek Vondráček v pořadu Partie na CNN Prima News řekl, že demonstraci chybí reálný obsah a pořadatelé z Milionu chvilek jsou podle něj štváči a profesionální svolávači demonstrací. Předseda STAN Vít Rakušan jeho slova odmítl s tím, že jde o lidi, kteří čekají na nějakou odezvu, a vyčetl mu, že pohrdá reakcí společnosti. V Nedělní debatě ČT zpochybnil přínos protestů pro občany i ministr zahraničí Petr Macinka (Motoristé), zatímco expremiér Petr Fiala (ODS) ocenil aktivitu občanské společnosti a hájil její právo pokojně protestovat; na Letnou pak sám dorazil. Vicepremiér Karel Havlíček (ANO) napsal na síti X, že právo na demonstrace plně respektuje, stejně tak je ale podle něj třeba respektovat, že většina Sněmovny zvolená ve svobodných volbách má právo plnit svůj volební program.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/demonstrace-na-letne-nema-obsah-rekl-vondracek-pohrdate-reakci-spolecnosti_2611151310_vdv"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nedelni-debata-o-odolnosti-ceske-demokracie-379630"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258144/"
+        }
+      ],
+      "en": {
+        "headline": "Politicians argued about the point of the demonstration in Sunday debates",
+        "sentences": [
+          {
+            "en": "ANO deputy chair Radek Vondráček said on the programme Partie on CNN Prima News that the demonstration lacks any real content and that the organisers from Million Moments are, in his words, rabble-rousers and professional rally-callers.",
+            "cs": "Místopředseda ANO Radek Vondráček v pořadu Partie na CNN Prima News řekl, že demonstraci chybí reálný obsah a pořadatelé z Milionu chvilek jsou podle něj štváči a profesionální svolávači demonstrací."
+          },
+          {
+            "en": "STAN leader Vít Rakušan rejected his words, saying that these are people waiting for some kind of response, and reproached him for showing contempt for society's reaction.",
+            "cs": "Předseda STAN Vít Rakušan jeho slova odmítl s tím, že jde o lidi, kteří čekají na nějakou odezvu, a vyčetl mu, že pohrdá reakcí společnosti."
+          },
+          {
+            "en": "In Czech Television's Sunday Debate, Foreign Minister Petr Macinka (Motorists) also questioned what the protests bring to citizens, while former prime minister Petr Fiala (ODS) praised the activity of civil society and defended its right to protest peacefully; he then turned up at Letná himself.",
+            "cs": "V Nedělní debatě ČT zpochybnil přínos protestů pro občany i ministr zahraničí Petr Macinka (Motoristé), zatímco expremiér Petr Fiala (ODS) ocenil aktivitu občanské společnosti a hájil její právo pokojně protestovat; na Letnou pak sám dorazil."
+          },
+          {
+            "en": "Deputy Prime Minister Karel Havlíček (ANO) wrote on X that he fully respects the right to demonstrate, but that it is equally necessary to respect that the majority of the Chamber of Deputies, elected in free elections, has the right to carry out its election programme.",
+            "cs": "Vicepremiér Karel Havlíček (ANO) napsal na síti X, že právo na demonstrace plně respektuje, stejně tak je ale podle něj třeba respektovat, že většina Sněmovny zvolená ve svobodných volbách má právo plnit svůj volební program."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rabble-rousers",
+            "definition": "people who stir up anger in a crowd"
+          },
+          {
+            "term": "reproached",
+            "definition": "told someone they had done something wrong"
+          },
+          {
+            "term": "contempt",
+            "definition": "a feeling that someone or something has no value"
+          },
+          {
+            "term": "turned up",
+            "definition": "arrived somewhere"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "20:01",
+      "day": "prev",
+      "headline": "Konsolidační balíček má podle Schillerové dosáhnout až sta miliard",
+      "body": "Vládní konsolidační balíček pro rok 2028 bude zřejmě větší, než vláda plánovala. Ministryně financí Alena Schillerová (ANO) řekla České televizi, že kroky zvyšující příjmy a snižující výdaje by v součtu mohly dosáhnout až sta miliard korun; premiér Andrej Babiš (ANO) dosud mluvil o poklesu schodku zhruba o šedesát miliard. Podle Schillerové budou přitom důchody, platy i investice i v dalších letech růst. Opoziční strany plánům kabinetu snižovat deficit nevěří.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/konsolidacni-balicek-dosahne-az-sto-miliard-rekla-schillerova-379625"
+        }
+      ],
+      "en": {
+        "headline": "Schillerová says the consolidation package will reach up to a hundred billion",
+        "sentences": [
+          {
+            "en": "The government's consolidation package for 2028 will probably be bigger than the government had planned.",
+            "cs": "Vládní konsolidační balíček pro rok 2028 bude zřejmě větší, než vláda plánovala."
+          },
+          {
+            "en": "Finance Minister Alena Schillerová (ANO) told Czech Television that steps raising revenue and cutting spending could add up to as much as a hundred billion crowns; Prime Minister Andrej Babiš (ANO) has so far spoken of cutting the deficit by roughly sixty billion.",
+            "cs": "Ministryně financí Alena Schillerová (ANO) řekla České televizi, že kroky zvyšující příjmy a snižující výdaje by v součtu mohly dosáhnout až sta miliard korun; premiér Andrej Babiš (ANO) dosud mluvil o poklesu schodku zhruba o šedesát miliard."
+          },
+          {
+            "en": "According to Schillerová, pensions, wages and investment will nevertheless keep growing in the coming years.",
+            "cs": "Podle Schillerové budou přitom důchody, platy i investice i v dalších letech růst."
+          },
+          {
+            "en": "Opposition parties do not believe the cabinet's plans to reduce the deficit.",
+            "cs": "Opoziční strany plánům kabinetu snižovat deficit nevěří."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revenue",
+            "definition": "money that a government or a company receives"
+          },
+          {
+            "term": "deficit",
+            "definition": "the amount by which spending is greater than income"
+          },
+          {
+            "term": "cabinet",
+            "definition": "the group of senior ministers who run a government"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "19:00",
+      "day": "prev",
+      "headline": "Vláda zrušila závazné výživové normy pro školní jídelny",
+      "body": "Rozhodnutí vlády zrušit závazné výživové normy ve vyhlášce o školním stravování a nechat je na dobrovolnosti jídelen vyvolalo kritiku. Odborníci na výživu a zdraví dětí podle Deníku namítají, že vyhláška měla udávat zdravý standard a být nástrojem tlaku na jídelny, které se změnám brání. Některé jídelny naopak změnu vítají a poukazují na to, že pravidla byla natolik přísná, že by nová jídla strávníky odradila.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/cesko/vlada-vyhlaska-skolni-stravovani-skolni-jidelna-kritika/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=cesko"
+        }
+      ],
+      "en": {
+        "headline": "The government scrapped binding nutrition standards for school canteens",
+        "sentences": [
+          {
+            "en": "The government's decision to scrap binding nutrition standards in the decree on school meals and leave them to the canteens' own discretion has drawn criticism.",
+            "cs": "Rozhodnutí vlády zrušit závazné výživové normy ve vyhlášce o školním stravování a nechat je na dobrovolnosti jídelen vyvolalo kritiku."
+          },
+          {
+            "en": "Experts on nutrition and children's health object, according to Deník, that the decree was meant to set a healthy standard and serve as a lever on canteens, which resist the changes.",
+            "cs": "Odborníci na výživu a zdraví dětí podle Deníku namítají, že vyhláška měla udávat zdravý standard a být nástrojem tlaku na jídelny, které se změnám brání."
+          },
+          {
+            "en": "Some canteens, by contrast, welcome the change and point out that the rules were so strict that the new dishes would have put diners off.",
+            "cs": "Některé jídelny naopak změnu vítají a poukazují na to, že pravidla byla natolik přísná, že by nová jídla strávníky odradila."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "binding",
+            "definition": "that must be obeyed by law"
+          },
+          {
+            "term": "decree",
+            "definition": "an official order that has the force of law"
+          },
+          {
+            "term": "discretion",
+            "definition": "the freedom to decide something yourself"
+          },
+          {
+            "term": "diners",
+            "definition": "people who are eating a meal somewhere"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:53",
+      "headline": "Mladistvý se přiznal k vraždě seniorky ve Dvoře Králové, motivem byly peníze",
+      "body": "Královéhradečtí kriminalisté obvinili mladistvého z vraždy třiasedmdesátileté ženy ve Dvoře Králové nad Labem. Seniorka zemřela v nemocnici na následky sečných poranění, která utrpěla při pátečním napadení. Podle iDNES se mladistvý k činu přiznal a motivem byly peníze.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/dvur-kralove-penize-majetek-vrazda-vazba-mladistvy.A261115_114124_hradec-zpravy_votr#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "A juvenile has confessed to murdering an elderly woman in Dvůr Králové, money was the motive",
+        "sentences": [
+          {
+            "en": "Detectives from Hradec Králové have charged a juvenile with the murder of a seventy-three-year-old woman in Dvůr Králové nad Labem.",
+            "cs": "Královéhradečtí kriminalisté obvinili mladistvého z vraždy třiasedmdesátileté ženy ve Dvoře Králové nad Labem."
+          },
+          {
+            "en": "The woman died in hospital from the incised wounds she suffered in Friday's attack.",
+            "cs": "Seniorka zemřela v nemocnici na následky sečných poranění, která utrpěla při pátečním napadení."
+          },
+          {
+            "en": "According to iDNES, the juvenile has confessed to the act and the motive was money.",
+            "cs": "Podle iDNES se mladistvý k činu přiznal a motivem byly peníze."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "juvenile",
+            "definition": "a young person who is not yet legally an adult"
+          },
+          {
+            "term": "incised",
+            "definition": "made by cutting with something sharp"
+          },
+          {
+            "term": "motive",
+            "definition": "the reason why someone does something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:00",
+      "headline": "Do opravených bytů v hradecké Harmonii I se stěhují další nájemníci",
+      "body": "Rekonstrukce čtrnáctipodlažního domu Harmonie I na třídě Edvarda Beneše v Hradci Králové pokračuje za provozu a do zmodernizovaných bytů míří další nájemníci. Do konce roku by jich mělo být přestěhováno celkem sedmdesát.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hradecko/905791-harmonie-i-se-meni-za-provozu-do-novych-bytu-miri-dalsi-najemnici.html"
+        }
+      ],
+      "en": {
+        "headline": "More tenants are moving into the refurbished flats in Hradec's Harmonie I",
+        "sentences": [
+          {
+            "en": "The refurbishment of the fourteen-storey Harmonie I building on Edvarda Beneše Avenue in Hradec Králové is continuing while the house stays occupied, and more tenants are moving into the modernised flats.",
+            "cs": "Rekonstrukce čtrnáctipodlažního domu Harmonie I na třídě Edvarda Beneše v Hradci Králové pokračuje za provozu a do zmodernizovaných bytů míří další nájemníci."
+          },
+          {
+            "en": "By the end of the year a total of seventy of them should have been relocated.",
+            "cs": "Do konce roku by jich mělo být přestěhováno celkem sedmdesát."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "refurbishment",
+            "definition": "the work of repairing and improving a building"
+          },
+          {
+            "term": "tenants",
+            "definition": "people who rent a home from someone"
+          },
+          {
+            "term": "relocated",
+            "definition": "moved to a different place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:30",
+      "headline": "Hradecká kapela Piráti 44 vydala po třiceti letech novou desku",
+      "body": "Alternativní skupina Piráti 44 z Hradce Králové vydala album nazvané stroze 101. Od jejího třetího alba Střemhlav do vesmíru uplynulo celých třicet let. Kapelu s kořeny v 80. letech, v rapu i noise rocku založili Slávek Hamaďák a Petr Vyšohlíd a desku vyslali do světa s poznámkou „Orwell žije, kruh se neuzavírá…“.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/kapela-pirati-44-hradec-kralove-nova-deska-101-slavek-hamadak.A261105_967986_hradec-zpravy_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "Hradec band Piráti 44 have released a new record after thirty years",
+        "sentences": [
+          {
+            "en": "The alternative group Piráti 44 from Hradec Králové have released an album curtly titled 101.",
+            "cs": "Alternativní skupina Piráti 44 z Hradce Králové vydala album nazvané stroze 101."
+          },
+          {
+            "en": "A full thirty years have passed since their third album Střemhlav do vesmíru.",
+            "cs": "Od jejího třetího alba Střemhlav do vesmíru uplynulo celých třicet let."
+          },
+          {
+            "en": "The band, with roots in the 1980s, in rap and in noise rock, was founded by Slávek Hamaďák and Petr Vyšohlíd, and they sent the record out into the world with the note “Orwell lives, the circle does not close…”.",
+            "cs": "Kapelu s kořeny v 80. letech, v rapu i noise rocku založili Slávek Hamaďák a Petr Vyšohlíd a desku vyslali do světa s poznámkou „Orwell žije, kruh se neuzavírá…“."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "curtly",
+            "definition": "in a short way, using very few words"
+          },
+          {
+            "term": "roots",
+            "definition": "where something began or came from"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "16:02",
+      "headline": "V Hormuzském průlivu narazily na miny další dva tankery, jeden se potopil",
+      "body": "Navazuje na včerejší zprávu o hořících tankerech v Hormuzském průlivu. Íránské revoluční gardy uvedly, že na námořní miny tam narazily další dva ropné tankery a jedna z lodí se kvůli rozsahu poškození potopila. Teherán od vypuknutí války se Spojenými státy na konci února trvá na tom, aby plavidla pro průjezd úžinou získala jeho povolení, a útočí na ta, která tuto podmínku nesplňují.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258228/"
+        }
+      ],
+      "en": {
+        "headline": "Two more tankers hit mines in the Strait of Hormuz and one of them sank",
+        "sentences": [
+          {
+            "en": "This follows on from yesterday's report of burning tankers in the Strait of Hormuz.",
+            "cs": "Navazuje na včerejší zprávu o hořících tankerech v Hormuzském průlivu."
+          },
+          {
+            "en": "The Iranian Revolutionary Guards said that two more oil tankers had struck naval mines there and that one of the ships sank because of the extent of the damage.",
+            "cs": "Íránské revoluční gardy uvedly, že na námořní miny tam narazily další dva ropné tankery a jedna z lodí se kvůli rozsahu poškození potopila."
+          },
+          {
+            "en": "Since the war with the United States broke out at the end of February, Tehran has insisted that vessels obtain its permission to pass through the strait, and it attacks those that do not meet this condition.",
+            "cs": "Teherán od vypuknutí války se Spojenými státy na konci února trvá na tom, aby plavidla pro průjezd úžinou získala jeho povolení, a útočí na ta, která tuto podmínku nesplňují."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "strait",
+            "definition": "a narrow area of sea between two pieces of land"
+          },
+          {
+            "term": "naval mines",
+            "definition": "bombs placed in the sea to destroy ships"
+          },
+          {
+            "term": "vessels",
+            "definition": "ships or large boats"
+          },
+          {
+            "term": "broke out",
+            "definition": "started suddenly, used about a war or a fire"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "09:16",
+      "headline": "Rusové útočili na Záporoží, Ukrajina udeřila v Rostovské oblasti a v Tatarstánu",
+      "body": "Při útocích na ukrajinské město Záporoží bylo podle tamních úřadů zraněno šest lidí včetně dvou dětí, uvedla ČT24 s odvoláním na BBC. Prezident Volodymyr Zelenskyj řekl, že při nočních a ranních úderech napříč Ukrajinou bylo zraněno šestnáct lidí. Útoky na své území hlásí i Rusko: gubernátor Rostovské oblasti Jurij Sljusar tvrdí, že při nočním ukrajinském dronovém útoku přišel nejméně jeden člověk o život a dalších pět utrpělo zranění, tři lidé byli podle úřadů zraněni v tatarstánském Nižněkamsku.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-utocili-na-zaporozi-ukrajina-uderila-v-rostovske-oblasti-a-v-tatarstanu-379632"
+        }
+      ],
+      "en": {
+        "headline": "Russia attacked Zaporizhzhia, Ukraine struck in the Rostov region and in Tatarstan",
+        "sentences": [
+          {
+            "en": "Six people, among them two children, were injured in the attacks on the Ukrainian city of Zaporizhzhia, local authorities said, as reported by ČT24 with reference to the BBC.",
+            "cs": "Při útocích na ukrajinské město Záporoží bylo podle tamních úřadů zraněno šest lidí včetně dvou dětí, uvedla ČT24 s odvoláním na BBC."
+          },
+          {
+            "en": "President Volodymyr Zelensky said that sixteen people were injured in the overnight and morning strikes across Ukraine.",
+            "cs": "Prezident Volodymyr Zelenskyj řekl, že při nočních a ranních úderech napříč Ukrajinou bylo zraněno šestnáct lidí."
+          },
+          {
+            "en": "Russia is reporting attacks on its own territory as well: the governor of the Rostov region, Yuri Slyusar, claims that at least one person lost their life and five more were injured in an overnight Ukrainian drone attack, and three people were injured in Nizhnekamsk in Tatarstan, according to the authorities.",
+            "cs": "Útoky na své území hlásí i Rusko: gubernátor Rostovské oblasti Jurij Sljusar tvrdí, že při nočním ukrajinském dronovém útoku přišel nejméně jeden člověk o život a dalších pět utrpělo zranění, tři lidé byli podle úřadů zraněni v tatarstánském Nižněkamsku."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "strikes",
+            "definition": "military attacks, especially from the air"
+          },
+          {
+            "term": "governor",
+            "definition": "the person in charge of a region or a state"
+          },
+          {
+            "term": "overnight",
+            "definition": "during the night"
+          },
+          {
+            "term": "territory",
+            "definition": "land that belongs to a country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:08",
+      "headline": "Zelenskyj si stěžuje, že omezení Starshieldu bere Ukrajině spojení s drony",
+      "body": "Podle prezidenta Volodymyra Zelenského se Ukrajina nemůže účinně bránit, protože kvůli omezením komunikační služby Starshield americké společnosti SpaceX ztrácí spojení se svými drony a nedokáže tak včas reagovat na ruské útoky.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-zelenskyj-uvedl-ze-ruskym-utokum-pomaha-omezeni-provozu-starshieldu-320568"
+        }
+      ],
+      "en": {
+        "headline": "Zelensky complains that limits on Starshield are cutting Ukraine off from its drones",
+        "sentences": [
+          {
+            "en": "According to President Volodymyr Zelensky, Ukraine cannot mount an effective defence because restrictions on the Starshield communication service run by the American company SpaceX make it lose contact with its drones, leaving it unable to react to Russian attacks in time.",
+            "cs": "Podle prezidenta Volodymyra Zelenského se Ukrajina nemůže účinně bránit, protože kvůli omezením komunikační služby Starshield americké společnosti SpaceX ztrácí spojení se svými drony a nedokáže tak včas reagovat na ruské útoky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "mount",
+            "definition": "to organise and start an activity such as a defence"
+          },
+          {
+            "term": "restrictions",
+            "definition": "rules that limit what someone can do"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:16",
+      "headline": "Drony zasáhly tři obchodní lodě u rumunského pobřeží, Rumunsko vyslalo stíhačky",
+      "body": "Drony zasáhly tři obchodní lodě v Černém moři poblíž rumunského Sulinského kanálu, sdělil premiér Luca Niculescu. Rumunské ozbrojené síly podle něj dvakrát vyslaly stíhací letouny. Ministr obrany Oprea uvedl, že nedošlo k žádným obětem a posádkám lodí se podařilo po sobotních útocích uhasit požáry na palubě.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258065/"
+        }
+      ],
+      "en": {
+        "headline": "Drones hit three merchant ships off the Romanian coast and Romania scrambled fighter jets",
+        "sentences": [
+          {
+            "en": "Drones hit three merchant ships in the Black Sea near Romania's Sulina Canal, Prime Minister Luca Niculescu said.",
+            "cs": "Drony zasáhly tři obchodní lodě v Černém moři poblíž rumunského Sulinského kanálu, sdělil premiér Luca Niculescu."
+          },
+          {
+            "en": "Romania's armed forces scrambled fighter jets twice, according to him.",
+            "cs": "Rumunské ozbrojené síly podle něj dvakrát vyslaly stíhací letouny."
+          },
+          {
+            "en": "Defence Minister Oprea said there were no casualties and that the crews managed to put out the fires on board after Saturday's attacks.",
+            "cs": "Ministr obrany Oprea uvedl, že nedošlo k žádným obětem a posádkám lodí se podařilo po sobotních útocích uhasit požáry na palubě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "merchant ships",
+            "definition": "ships that carry goods for trade"
+          },
+          {
+            "term": "scrambled",
+            "definition": "sent military aircraft into the air very quickly"
+          },
+          {
+            "term": "casualties",
+            "definition": "people killed or injured in an accident or a war"
+          },
+          {
+            "term": "put out",
+            "definition": "to stop a fire from burning"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "04:16",
+      "headline": "Izraelská armáda zasáhla v Chán Júnisu velitele brigády Hamásu",
+      "body": "Izraelská armáda oznámila, že podnikla úder na jednoho z velitelů vojenského křídla hnutí Hamás. Agentura Reuters s odvoláním na zdroje z Hamásu píše, že při útoku v Chán Júnisu v Pásmu Gazy byl zabit Sámir abú Júnis, velitel brigády Rafah. Podle Brigád Kasám se tento muž podílel na plánování a řízení útoku na Izrael ze 7. října 2023.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/izraelska-armada-zasahla-jednoho-z-velitelu-vojenskeho-kridla-hamasu-379627"
+        }
+      ],
+      "en": {
+        "headline": "The Israeli army struck a Hamas brigade commander in Khan Younis",
+        "sentences": [
+          {
+            "en": "The Israeli army announced that it had carried out a strike on one of the commanders of the military wing of the Hamas movement.",
+            "cs": "Izraelská armáda oznámila, že podnikla úder na jednoho z velitelů vojenského křídla hnutí Hamás."
+          },
+          {
+            "en": "The Reuters agency, citing sources from Hamas, writes that Samir Abu Younis, commander of the Rafah brigade, was killed in the attack in Khan Younis in the Gaza Strip.",
+            "cs": "Agentura Reuters s odvoláním na zdroje z Hamásu píše, že při útoku v Chán Júnisu v Pásmu Gazy byl zabit Sámir abú Júnis, velitel brigády Rafah."
+          },
+          {
+            "en": "According to the Qassam Brigades, this man took part in planning and directing the attack on Israel of 7 October 2023.",
+            "cs": "Podle Brigád Kasám se tento muž podílel na plánování a řízení útoku na Izrael ze 7. října 2023."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "carried out",
+            "definition": "did or performed something that was planned"
+          },
+          {
+            "term": "wing",
+            "definition": "a group that forms one part of a larger organisation"
+          },
+          {
+            "term": "citing",
+            "definition": "naming something as the source of information"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "07:22",
+      "headline": "Írán tvrdí, že zaútočil drony na americký radar v Bahrajnu",
+      "body": "Terčem útoku šesti dronů se podle Íránských revolučních gard stal americký radar protivzdušné obrany na základně v Bahrajnu. Zemí v noci zněly sirény a obyvatelé se museli ukrýt. Ani jedna ze zemí se podle Seznam Zpráv k incidentu zatím nevyjádřila.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-iran-tvrdi-ze-podnikl-dronovy-utok-na-americky-radarovy-system-v-bahrajnu-320551"
+        }
+      ],
+      "en": {
+        "headline": "Iran claims it attacked an American radar in Bahrain with drones",
+        "sentences": [
+          {
+            "en": "According to the Iranian Revolutionary Guards, an American air defence radar at a base in Bahrain was the target of an attack by six drones.",
+            "cs": "Terčem útoku šesti dronů se podle Íránských revolučních gard stal americký radar protivzdušné obrany na základně v Bahrajnu."
+          },
+          {
+            "en": "Sirens sounded across the country during the night and residents had to take shelter.",
+            "cs": "Zemí v noci zněly sirény a obyvatelé se museli ukrýt."
+          },
+          {
+            "en": "Neither of the two countries has commented on the incident so far, according to Seznam Zprávy.",
+            "cs": "Ani jedna ze zemí se podle Seznam Zpráv k incidentu zatím nevyjádřila."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "air defence",
+            "definition": "weapons and systems used to shoot down attacking aircraft"
+          },
+          {
+            "term": "take shelter",
+            "definition": "to go somewhere safe to avoid danger"
+          },
+          {
+            "term": "incident",
+            "definition": "an event, especially an unpleasant one"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:50",
+      "headline": "Húthíové propustili 600 zajatců, je to největší výměna jemenské občanské války",
+      "body": "Jemenští povstalci Húthíové propustili 600 lidí zajatých během konfliktu, informoval Červený kříž, který na operaci spolupracoval. Jde o největší propuštění vězňů v občanské válce v zemi. Nedaleko Adenu, dočasného sídla mezinárodně uznávané jemenské vlády, přitom podle agentury AFP zemřelo při útoku húthíjských povstalců pět lidí a osm dalších se zranilo.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258225/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2258106/"
+        }
+      ],
+      "en": {
+        "headline": "The Houthis released 600 captives in the largest exchange of Yemen's civil war",
+        "sentences": [
+          {
+            "en": "The Yemeni Houthi rebels released 600 people captured during the conflict, said the Red Cross, which helped with the operation.",
+            "cs": "Jemenští povstalci Húthíové propustili 600 lidí zajatých během konfliktu, informoval Červený kříž, který na operaci spolupracoval."
+          },
+          {
+            "en": "It is the largest release of prisoners in the country's civil war.",
+            "cs": "Jde o největší propuštění vězňů v občanské válce v zemi."
+          },
+          {
+            "en": "Meanwhile, five people were killed and eight more injured in an attack by Houthi rebels near Aden, the temporary seat of the internationally recognised Yemeni government, according to the AFP agency.",
+            "cs": "Nedaleko Adenu, dočasného sídla mezinárodně uznávané jemenské vlády, přitom podle agentury AFP zemřelo při útoku húthíjských povstalců pět lidí a osm dalších se zranilo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rebels",
+            "definition": "people who fight against their own government"
+          },
+          {
+            "term": "captured",
+            "definition": "taken as a prisoner"
+          },
+          {
+            "term": "seat",
+            "definition": "the place where a government or an organisation is based"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:10",
+      "headline": "Ke Kanárským ostrovům dorazilo za den skoro 1500 migrantů",
+      "body": "Španělská pobřežní stráž zachránila v sobotu na moři u Kanárských ostrovů 1488 migrantů. Je to nejvyšší jednodenní bilance za posledních šest let, tedy nejvíc od roku 2020. Situace podle Seznam Zpráv zvyšuje tlak na krizové služby menších ostrovů.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-na-kanarske-ostrovy-dorazilo-za-den-skoro-1500-migrantu-nejvice-od-roku-2020-320561"
+        }
+      ],
+      "en": {
+        "headline": "Almost 1,500 migrants reached the Canary Islands in a single day",
+        "sentences": [
+          {
+            "en": "The Spanish coastguard rescued 1,488 migrants at sea off the Canary Islands on Saturday.",
+            "cs": "Španělská pobřežní stráž zachránila v sobotu na moři u Kanárských ostrovů 1488 migrantů."
+          },
+          {
+            "en": "It is the highest one-day figure in the past six years, the most since 2020.",
+            "cs": "Je to nejvyšší jednodenní bilance za posledních šest let, tedy nejvíc od roku 2020."
+          },
+          {
+            "en": "The situation is increasing pressure on the emergency services of the smaller islands, according to Seznam Zprávy.",
+            "cs": "Situace podle Seznam Zpráv zvyšuje tlak na krizové služby menších ostrovů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "coastguard",
+            "definition": "an organisation that watches the sea near a coast and helps people in danger"
+          },
+          {
+            "term": "emergency services",
+            "definition": "the police, fire and ambulance services"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "23:01",
+      "day": "prev",
+      "headline": "Starship se poprvé vrátila na základnu a přistála do záchytných ramen",
+      "body": "Vesmírná loď Starship se po dvaadvaceti hodinách letu na oběžné dráze, kde vypustila desítky družic, poprvé úspěšně vrátila na základnu Starbase v Texasu. Speciální ramena na přistávací rampě zachytila druhý stupeň rakety vysoko nad zemí, ukázala v přímém přenosu firma SpaceX. Patnáctá mise Starship se podle tiskových agentur stala „historickým milníkem v úsilí o opakované využívání raket“ při plánovaných letech na oběžnou dráhu Země, na Měsíc i na Mars. Stoprocentně úspěšná ale nebyla — nosný stupeň Super Heavy se po startu zachytit nepodařilo.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/vesmirna-lod-starship-se-vratila-na-zemi-pristala-do-zachytnych-ramen-379626"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-vesmirna-lod-starship-se-vratila-na-zemi-a-uspesne-pristala-do-zachytnych-ramen-320549"
+        }
+      ],
+      "en": {
+        "headline": "Starship returned to its base for the first time and landed into the catching arms",
+        "sentences": [
+          {
+            "en": "The Starship spacecraft returned successfully to the Starbase site in Texas for the first time, after twenty-two hours in orbit, where it released dozens of satellites.",
+            "cs": "Vesmírná loď Starship se po dvaadvaceti hodinách letu na oběžné dráze, kde vypustila desítky družic, poprvé úspěšně vrátila na základnu Starbase v Texasu."
+          },
+          {
+            "en": "Special arms on the landing tower caught the rocket's second stage high above the ground, SpaceX showed in a live broadcast.",
+            "cs": "Speciální ramena na přistávací rampě zachytila druhý stupeň rakety vysoko nad zemí, ukázala v přímém přenosu firma SpaceX."
+          },
+          {
+            "en": "According to news agencies, the fifteenth Starship mission became “a historic milestone in the effort to reuse rockets” on planned flights to Earth orbit, to the Moon and to Mars.",
+            "cs": "Patnáctá mise Starship se podle tiskových agentur stala „historickým milníkem v úsilí o opakované využívání raket“ při plánovaných letech na oběžnou dráhu Země, na Měsíc i na Mars."
+          },
+          {
+            "en": "It was not a complete success, though — the Super Heavy booster could not be caught after launch.",
+            "cs": "Stoprocentně úspěšná ale nebyla — nosný stupeň Super Heavy se po startu zachytit nepodařilo."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "orbit",
+            "definition": "the curved path of an object going around a planet"
+          },
+          {
+            "term": "milestone",
+            "definition": "an important event in the development of something"
+          },
+          {
+            "term": "booster",
+            "definition": "the part of a rocket that gives extra power at the start"
+          },
+          {
+            "term": "live broadcast",
+            "definition": "a programme sent out at the same moment it happens"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "07:19",
+      "headline": "Zbrojaři už tvoří šestinu hodnoty firem v žebříčku Česká elita",
+      "body": "Hodnota zbrojařských firem v žebříčku Česká elita dosáhla 629 miliard korun, což je šestina hodnoty všech firem v přehledu. Prvenství mezi podniky obranného průmyslu obhájila skupina CSG, která skončila na celkovém třetím místě.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-zbrojari-uz-tvori-sestinu-nejhodnotnejsich-firem-v-ceske-elite-320510"
+        }
+      ],
+      "en": {
+        "headline": "Arms makers already account for a sixth of the value of companies in the Czech Elite ranking",
+        "sentences": [
+          {
+            "en": "The value of arms companies in the Czech Elite ranking reached 629 billion crowns, which is a sixth of the value of all the companies in the survey.",
+            "cs": "Hodnota zbrojařských firem v žebříčku Česká elita dosáhla 629 miliard korun, což je šestina hodnoty všech firem v přehledu."
+          },
+          {
+            "en": "The top place among defence industry firms was retained by the CSG group, which came third overall.",
+            "cs": "Prvenství mezi podniky obranného průmyslu obhájila skupina CSG, která skončila na celkovém třetím místě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ranking",
+            "definition": "a list that puts people or things in order of success"
+          },
+          {
+            "term": "retained",
+            "definition": "kept something that it already had"
+          },
+          {
+            "term": "overall",
+            "definition": "considering everything together"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "18:43",
+      "day": "prev",
+      "headline": "Aplikace Lovable podle výzkumu vystavily údaje z pasů i soukromé zprávy",
+      "body": "Podle výzkumu zveřejněného na webu crissyfield.de vystavily aplikace Lovable údaje z pasů a více než 200 tisíc soukromých zpráv. Text patřil k nejdiskutovanějším příspěvkům víkendu na Hacker News, kde získal přes devět set bodů a téměř 350 komentářů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.crissyfield.de/research/lovable-en/"
+        }
+      ],
+      "en": {
+        "headline": "Lovable apps exposed passport details and private messages, research says",
+        "sentences": [
+          {
+            "en": "According to research published on the crissyfield.de website, Lovable apps exposed passport details and more than 200,000 private messages.",
+            "cs": "Podle výzkumu zveřejněného na webu crissyfield.de vystavily aplikace Lovable údaje z pasů a více než 200 tisíc soukromých zpráv."
+          },
+          {
+            "en": "The piece was among the most discussed posts of the weekend on Hacker News, where it gathered over nine hundred points and almost 350 comments.",
+            "cs": "Text patřil k nejdiskutovanějším příspěvkům víkendu na Hacker News, kde získal přes devět set bodů a téměř 350 komentářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "exposed",
+            "definition": "left something uncovered so that anyone can see it"
+          },
+          {
+            "term": "piece",
+            "definition": "an article or another written text"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "08:56",
+      "headline": "Před sídlem OpenAI v San Francisku se demonstrovalo proti závodům v AI",
+      "body": "Demonstranti před sídlem firmy OpenAI v San Francisku požadovali zákaz vývoje superinteligence, která by podle nich mohla ohrozit budoucnost lidstva. Hnutí Stop The AI Race vyzývá k dohodě prezidenty USA a Číny před jejich nadcházejícím setkáním.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-demonstranti-v-san-francisku-zadali-dohodu-o-zastaveni-zavodu-ve-vyvoji-ai-320552"
+        }
+      ],
+      "en": {
+        "headline": "There was a protest against the AI race outside OpenAI's headquarters in San Francisco",
+        "sentences": [
+          {
+            "en": "Protesters outside the headquarters of the firm OpenAI in San Francisco demanded a ban on developing superintelligence, which they say could threaten the future of humanity.",
+            "cs": "Demonstranti před sídlem firmy OpenAI v San Francisku požadovali zákaz vývoje superinteligence, která by podle nich mohla ohrozit budoucnost lidstva."
+          },
+          {
+            "en": "The Stop The AI Race movement is calling on the presidents of the USA and China to reach a deal before their upcoming meeting.",
+            "cs": "Hnutí Stop The AI Race vyzývá k dohodě prezidenty USA a Číny před jejich nadcházejícím setkáním."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "headquarters",
+            "definition": "the main office of an organisation"
+          },
+          {
+            "term": "ban",
+            "definition": "an official rule saying that something is not allowed"
+          },
+          {
+            "term": "upcoming",
+            "definition": "happening soon"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "18:50",
+      "day": "prev",
+      "headline": "Pravlast Keltů podle nové studie ležela na území dnešního Česka",
+      "body": "Nová studie umisťuje podle ČT24 pravlast Keltů na území dnešního Česka. Dosud se vědělo, že se Keltové rozšířili po většině Evropy a že bojovali proti Římanům, nebylo ale jasné, odkud se vzali.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/veda/cechy-byly-zrejme-kolebkou-keltskeho-sveta-naznacuje-nova-studie-379589"
+        }
+      ],
+      "en": {
+        "headline": "The original homeland of the Celts lay in today's Czech lands, a new study says",
+        "sentences": [
+          {
+            "en": "A new study places the original homeland of the Celts in the territory of today's Czechia, according to ČT24.",
+            "cs": "Nová studie umisťuje podle ČT24 pravlast Keltů na území dnešního Česka."
+          },
+          {
+            "en": "It was already known that the Celts spread across most of Europe and that they fought against the Romans, but it was not clear where they came from.",
+            "cs": "Dosud se vědělo, že se Keltové rozšířili po většině Evropy a že bojovali proti Římanům, nebylo ale jasné, odkud se vzali."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "homeland",
+            "definition": "the country that a people originally comes from"
+          },
+          {
+            "term": "territory",
+            "definition": "an area of land"
+          },
+          {
+            "term": "spread",
+            "definition": "moved so as to cover a larger area"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "07:00",
+      "headline": "Bob Dylan po 45 letech vydal klip od českého výtvarníka Petra Síse",
+      "body": "Bob Dylan po téměř pětačtyřiceti letech zveřejnil videoklip, který pro něj vytvořil český výtvarník Petr Sís. „Byl jsem v euforii, že jsem v Americe, dělám klip pro Dylana a budu nominovaný na Oscara. Jenže to celé zkolabovalo,“ vzpomíná Sís pro Seznam Zprávy.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/kultura-petr-sis-bob-dylan-gotta-serve-somebody-320550"
+        }
+      ],
+      "en": {
+        "headline": "Bob Dylan has released a video by the Czech artist Petr Sís after 45 years",
+        "sentences": [
+          {
+            "en": "After almost forty-five years, Bob Dylan has released a music video made for him by the Czech artist Petr Sís.",
+            "cs": "Bob Dylan po téměř pětačtyřiceti letech zveřejnil videoklip, který pro něj vytvořil český výtvarník Petr Sís."
+          },
+          {
+            "en": "“I was euphoric that I was in America, making a video for Dylan and that I would be nominated for an Oscar. But the whole thing collapsed,” Sís recalls for Seznam Zprávy.",
+            "cs": "„Byl jsem v euforii, že jsem v Americe, dělám klip pro Dylana a budu nominovaný na Oscara. Jenže to celé zkolabovalo,“ vzpomíná Sís pro Seznam Zprávy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "euphoric",
+            "definition": "feeling extremely happy and excited"
+          },
+          {
+            "term": "collapsed",
+            "definition": "suddenly failed completely"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:52",
+      "headline": "Čeští fotbalisté hrají v Chorvatsku o udržení v elitní skupině Ligy národů",
+      "body": "Česká reprezentace uzavírá dnes večer v Osijeku Ligu národů zápasem proti Chorvatsku, se kterým ještě nikdy nevyhrála. Výhra by ji posunula na třetí místo skupiny a odvrátila přímý sestup z elitní divize, při remíze může mít naději na baráž i z posledního místa. Pokud neuspěje, poprvé v historii zakončí kalendářní rok bez vítězství v základní hrací době soutěžního zápasu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-alespon-jednou-v-roce-vyhrat-cesko-odvraci-historicky-nezdar-o-co-vse-hraje-5576290"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/zapas-o-cest-fotbaliste-v-chorvatsku-zabojuji-o-prvni-vyhru-v-letosni-lize-narodu-159959"
+        }
+      ],
+      "en": {
+        "headline": "The Czech footballers play in Croatia to stay in the top division of the Nations League",
+        "sentences": [
+          {
+            "en": "The Czech national team wraps up the Nations League tonight in Osijek against Croatia, a side it has never beaten.",
+            "cs": "Česká reprezentace uzavírá dnes večer v Osijeku Ligu národů zápasem proti Chorvatsku, se kterým ještě nikdy nevyhrála."
+          },
+          {
+            "en": "A win would move it up to third in the group and avert direct relegation from the top division, while a draw could still give it a chance of the play-off even from last place.",
+            "cs": "Výhra by ji posunula na třetí místo skupiny a odvrátila přímý sestup z elitní divize, při remíze může mít naději na baráž i z posledního místa."
+          },
+          {
+            "en": "If it fails, it will end a calendar year without a win in regulation time in a competitive match for the first time in its history.",
+            "cs": "Pokud neuspěje, poprvé v historii zakončí kalendářní rok bez vítězství v základní hrací době soutěžního zápasu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "wraps up",
+            "definition": "finishes something"
+          },
+          {
+            "term": "avert",
+            "definition": "to stop something bad from happening"
+          },
+          {
+            "term": "relegation",
+            "definition": "being moved down into a lower league"
+          },
+          {
+            "term": "regulation time",
+            "definition": "the normal playing time of a match, without extra time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "12:46",
+      "headline": "Portugalsko začalo éru bez Ronalda nejtěžší domácí porážkou v historii",
+      "body": "Portugalští fotbalisté podlehli v sobotu v Braze v Lize národů Dánsku 1:4, což je jejich nejtěžší domácí porážka v soutěžním zápase v historii. Fanoušci během debaklu vyvolávali jméno jednačtyřicetiletého Cristiana Ronalda, který začátkem měsíce oznámil konec reprezentační kariéry, trenér Jorge Jesus ale po utkání prohlásil, že mu Ronaldo v sestavě nechyběl.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/ronalda-nepostradam-rekl-portugalsky-kouc-po-vyprasku-od-danu-159972"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-liga-narodu-ronaldo-vrat-se-fanousci-vyvolavali-pri-debaklu-byvaleho-kapitana-kouc-poslal-ironicky-vzkaz-5576747"
+        }
+      ],
+      "en": {
+        "headline": "Portugal began the era without Ronaldo with its heaviest home defeat in history",
+        "sentences": [
+          {
+            "en": "Portugal's footballers lost 1:4 to Denmark in the Nations League in Braga on Saturday, their heaviest home defeat in a competitive match in history.",
+            "cs": "Portugalští fotbalisté podlehli v sobotu v Braze v Lize národů Dánsku 1:4, což je jejich nejtěžší domácí porážka v soutěžním zápase v historii."
+          },
+          {
+            "en": "Fans chanted the name of the forty-one-year-old Cristiano Ronaldo during the rout — he announced the end of his international career at the start of the month — but coach Jorge Jesus said after the match that he did not miss Ronaldo in the line-up.",
+            "cs": "Fanoušci během debaklu vyvolávali jméno jednačtyřicetiletého Cristiana Ronalda, který začátkem měsíce oznámil konec reprezentační kariéry, trenér Jorge Jesus ale po utkání prohlásil, že mu Ronaldo v sestavě nechyběl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "rout",
+            "definition": "a very heavy defeat"
+          },
+          {
+            "term": "chanted",
+            "definition": "shouted the same words again and again"
+          },
+          {
+            "term": "line-up",
+            "definition": "the group of players chosen to play a match"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "13:13",
+      "headline": "Siniaková s Townsendovou jdou na Turnaji mistryň do finále, Nosková vypadla",
+      "body": "Kateřina Siniaková s Američankou Taylor Townsendovou postoupily do finále čtyřhry na Turnaji mistryň, když v semifinále porazily nejvýše nasazené Gabrielu Dabrowskou se Stefaniovou 7:6 a 6:3. O titul se v Indian Wells utkají s Italkami Sarou Erraniovou a Jasmine Paoliniovou. Linda Nosková se do finále dvouhry neprobojovala, Ukrajince Elině Svitolinové podlehla 2:6 a 1:6.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/tenis/turnaj-mistryn-katerina-sinikova-townsendova_2611151313_kri"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/andrejevova-si-zahraje-finale-turnaje-mistryn-159964"
+        }
+      ],
+      "en": {
+        "headline": "Siniaková and Townsend are into the WTA Finals doubles final, Nosková is out",
+        "sentences": [
+          {
+            "en": "Kateřina Siniaková and her American partner Taylor Townsend have reached the doubles final at the WTA Finals, beating the top seeds Gabriela Dabrowski and Stefani 7:6 and 6:3 in the semi-final.",
+            "cs": "Kateřina Siniaková s Američankou Taylor Townsendovou postoupily do finále čtyřhry na Turnaji mistryň, když v semifinále porazily nejvýše nasazené Gabrielu Dabrowskou se Stefaniovou 7:6 a 6:3."
+          },
+          {
+            "en": "They will face the Italians Sara Errani and Jasmine Paolini for the title in Indian Wells.",
+            "cs": "O titul se v Indian Wells utkají s Italkami Sarou Erraniovou a Jasmine Paoliniovou."
+          },
+          {
+            "en": "Linda Nosková did not make the singles final, losing 2:6 and 1:6 to the Ukrainian Elina Svitolina.",
+            "cs": "Linda Nosková se do finále dvouhry neprobojovala, Ukrajince Elině Svitolinové podlehla 2:6 a 1:6."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "doubles",
+            "definition": "a tennis match with two players on each side"
+          },
+          {
+            "term": "top seeds",
+            "definition": "the players ranked highest in a tournament"
+          },
+          {
+            "term": "singles",
+            "definition": "a tennis match with one player on each side"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:10",
+      "headline": "Pastrňák bodoval dvakrát, Boston přesto doma podlehl Minnesotě",
+      "body": "David Pastrňák skóroval v NHL po asistenci Pavla Zachy a na jeden gól přihrál, hokejisté Bostonu ale doma prohráli s Minnesotou 2:6. Colorado zdolalo Montreal 4:1 a Radko Gudas odehrál své 900. utkání v NHL.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/pastrnak-ani-pres-gol-a-asistenci-neodvratil-porazku-bostonu-proti-minnesote-159967"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-body-pastrnaka-bostonu-k-vyhre-nestacily-5576737"
+        }
+      ],
+      "en": {
+        "headline": "Pastrňák scored two points but Boston still lost at home to Minnesota",
+        "sentences": [
+          {
+            "en": "David Pastrňák scored in the NHL after an assist from Pavel Zacha and set up one goal, but Boston's hockey players lost 2:6 at home to Minnesota.",
+            "cs": "David Pastrňák skóroval v NHL po asistenci Pavla Zachy a na jeden gól přihrál, hokejisté Bostonu ale doma prohráli s Minnesotou 2:6."
+          },
+          {
+            "en": "Colorado beat Montreal 4:1 and Radko Gudas played his 900th NHL game.",
+            "cs": "Colorado zdolalo Montreal 4:1 a Radko Gudas odehrál své 900. utkání v NHL."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assist",
+            "definition": "a pass that helps a teammate to score"
+          },
+          {
+            "term": "set up",
+            "definition": "to create a chance for someone to score"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:55",
+      "headline": "Basketbalistky doma podlehly Chorvatkám a jsou v kvalifikaci bez výhry",
+      "body": "České basketbalistky prohrály v kvalifikaci mistrovství Evropy doma s Chorvatskem 69:82 a ve skupině J jsou bez vítězství na posledním místě. Po úterní těsné porážce se Španělskem 71:73 výkon kritizovaly i samy hráčky a dočasný kouč Martin Bašta mluvil o hodně nepříjemném překvapení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/sport/ostatni-sporty/basketbal-vorackova-stoupalova-holesinska_2611151128_kri"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/basketbal/basta-hodne-neprijemne-prekvapeni-po-spanelsku-jsme-si-mysleli-ze-to-pujde-samo-159963"
+        }
+      ],
+      "en": {
+        "headline": "The basketball women lost at home to Croatia and are still without a win in qualifying",
+        "sentences": [
+          {
+            "en": "The Czech women's basketball team lost 69:82 at home to Croatia in European Championship qualifying and are bottom of group J without a win.",
+            "cs": "České basketbalistky prohrály v kvalifikaci mistrovství Evropy doma s Chorvatskem 69:82 a ve skupině J jsou bez vítězství na posledním místě."
+          },
+          {
+            "en": "After Tuesday's narrow 71:73 defeat to Spain, the players themselves criticised the performance and interim coach Martin Bašta spoke of a very unpleasant surprise.",
+            "cs": "Po úterní těsné porážce se Španělskem 71:73 výkon kritizovaly i samy hráčky a dočasný kouč Martin Bašta mluvil o hodně nepříjemném překvapení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "qualifying",
+            "definition": "the matches that decide who gets into a tournament"
+          },
+          {
+            "term": "narrow",
+            "definition": "won or lost by a very small amount"
+          },
+          {
+            "term": "interim",
+            "definition": "temporary, until someone permanent is chosen"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:54",
+      "day": "prev",
+      "headline": "Ragbisté do 18 let získali na domácím mistrovství Evropy bronz",
+      "body": "Čeští ragbisté do 18 let získali na evropském šampionátu v Praze bronzové medaile, když v utkání o třetí místo přehráli Nizozemsko 45:24.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/ragby/ceska-ragbyova-osmnactka-zdolala-nizozemsko-a-na-domacim-me-slavi-bronz-159958"
+        }
+      ],
+      "en": {
+        "headline": "The under-18 rugby players won bronze at the home European Championship",
+        "sentences": [
+          {
+            "en": "The Czech under-18 rugby players claimed bronze medals at the European championship in Prague, outplaying the Netherlands 45:24 in the third-place match.",
+            "cs": "Čeští ragbisté do 18 let získali na evropském šampionátu v Praze bronzové medaile, když v utkání o třetí místo přehráli Nizozemsko 45:24."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "claimed",
+            "definition": "won or gained something"
+          },
+          {
+            "term": "outplaying",
+            "definition": "playing better than the other team"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "14:18",
+      "headline": "McIlroy ovládl poosmé Race to Dubai a vyrovnal rekord Montgomerieho",
+      "body": "Severoirský golfista Rory McIlroy vyhrál poosmé pořadí Race to Dubai o nejlepšího hráče European Tour a vyrovnal tím rekord někdejší skotské hvězdy Colina Montgomerieho. Na závěrečném turnaji v Dubaji mu k tomu stačilo druhé místo za Angličanem Tyrrellem Hattonem.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/golf-mcilroy-je-poosme-vladcem-european-tour-a-vyrovnal-rekord-montgomerieho-5576760"
+        }
+      ],
+      "en": {
+        "headline": "McIlroy won the Race to Dubai for the eighth time and matched Montgomerie's record",
+        "sentences": [
+          {
+            "en": "The Northern Irish golfer Rory McIlroy won the Race to Dubai standings for the best player on the European Tour for the eighth time, matching the record of the former Scottish star Colin Montgomerie.",
+            "cs": "Severoirský golfista Rory McIlroy vyhrál poosmé pořadí Race to Dubai o nejlepšího hráče European Tour a vyrovnal tím rekord někdejší skotské hvězdy Colina Montgomerieho."
+          },
+          {
+            "en": "Second place behind the Englishman Tyrrell Hatton at the closing tournament in Dubai was enough for him.",
+            "cs": "Na závěrečném turnaji v Dubaji mu k tomu stačilo druhé místo za Angličanem Tyrrellem Hattonem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "standings",
+            "definition": "a list showing the positions of players or teams"
+          },
+          {
+            "term": "matching",
+            "definition": "reaching the same level as something else"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Some 350,000 to 450,000 people demonstrated at Prague's Letná plain in support of the independence of public service media, according to the organisers.",
+    "Million Moments is demanding the withdrawal of the Klempíř media bill and the removal of Tomio Okamura from the post of Speaker of the Chamber of Deputies.",
+    "The Iranian Revolutionary Guards report that two more tankers hit mines in the Strait of Hormuz and that one of them sank.",
+    "The Starship spacecraft returned to its base in Texas for the first time on Saturday evening and landed into the catching arms."
+  ]
+}
