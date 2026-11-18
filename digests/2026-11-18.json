@@ -1,0 +1,1507 @@
+{
+  "date": "2026-11-18",
+  "covers": "2026-11-18",
+  "window_hours": 24,
+  "sources_used": [
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "iROZHLAS",
+    "E15",
+    "Hradecký deník",
+    "Hradecká drbna",
+    "Root.cz",
+    "Hacker News",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra bude slabě pršet, pravděpodobnost srážek je osmdesátiprocentní. Denní teplota vystoupá jen k 11 °C.",
+    "days": [
+      {
+        "date": "2026-11-19",
+        "icon": "rain",
+        "temp_max_c": 10.9,
+        "temp_min_c": 6.9
+      },
+      {
+        "date": "2026-11-20",
+        "icon": "rain",
+        "temp_max_c": 10.2,
+        "temp_min_c": 7.0
+      },
+      {
+        "date": "2026-11-21",
+        "icon": "rain",
+        "temp_max_c": 7.8,
+        "temp_min_c": 1.1
+      },
+      {
+        "date": "2026-11-22",
+        "icon": "snow",
+        "temp_max_c": 3.7,
+        "temp_min_c": -0.1
+      }
+    ],
+    "summary_en": "Tomorrow will bring light rain, with an eighty percent chance of precipitation. Daytime temperatures will climb only to around 11 °C."
+  },
+  "highlights": [
+    "Nejvyšší správní soud zrušil senátní volby na Žďársku, hlasování se zopakuje od prvního kola.",
+    "Šéf Motoristů Petr Macinka odmítl úvahy o ústavních pojistkách pro Českou televizi a Český rozhlas.",
+    "Evropská komise navrhla Ukrajině na rok 2027 půjčku 45 miliard eur, Česko ji podle E15 odmítá a Německo kvůli tomu hrozí blokací rozpočtu EU.",
+    "Fotbalisté do 21 let remizovali v Hradci Králové s Tureckem a postoupili na mistrovství Evropy 2027."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:46",
+      "headline": "Soud zrušil senátní volby na Žďársku, hlasování se zopakuje od prvního kola",
+      "body": "Nejvyšší správní soud označil výsledky senátních voleb na Žďársku za neplatné. Rozhodl na základě stížnosti, kterou podal Radek Černý (ODS), jenž tam o jediný hlas nepostoupil do druhého kola. Soud si vyžádal volební dokumentaci z 26 okrsků, aby mohl přepočítat hlasy, a podle E15 zjistil chyby při sčítání. Hlasování se na Žďársku bude muset zopakovat od prvního kola. Kandidovat budou stejní lidé jako v říjnu, nikdo nový se nemůže přihlásit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/soud-oznami-rozhodnuti-o-stiznosti-na-senatni-volby-na-zdarsku-rozdil-tam-byl-jeden-hlas-379710"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/soud-zrusil-senatni-volby-na-zdarsku-vyhovel-cernemu-ktery-se-nedostal-do_2611181511_mst"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/senatni-volby-na-zdarsku-se-cele-zopakuji-soud-zjistil-chyby-pri-scitani-hlasu-1437409"
+        }
+      ],
+      "en": {
+        "headline": "A court has annulled the Senate election in the Žďár district and the vote will be repeated from the first round",
+        "sentences": [
+          {
+            "en": "The Supreme Administrative Court has declared the results of the Senate election in the Žďár district invalid.",
+            "cs": "Nejvyšší správní soud označil výsledky senátních voleb na Žďársku za neplatné."
+          },
+          {
+            "en": "It ruled on a complaint filed by Radek Černý (ODS), who missed the second round there by a single vote.",
+            "cs": "Rozhodl na základě stížnosti, kterou podal Radek Černý (ODS), jenž tam o jediný hlas nepostoupil do druhého kola."
+          },
+          {
+            "en": "The court requested the electoral records from 26 polling districts so that it could recount the votes, and according to E15 it found errors in the count.",
+            "cs": "Soud si vyžádal volební dokumentaci z 26 okrsků, aby mohl přepočítat hlasy, a podle E15 zjistil chyby při sčítání."
+          },
+          {
+            "en": "The vote in the Žďár district will now have to be repeated from the first round.",
+            "cs": "Hlasování se na Žďársku bude muset zopakovat od prvního kola."
+          },
+          {
+            "en": "The same people will stand as in October, and no new candidate may enter.",
+            "cs": "Kandidovat budou stejní lidé jako v říjnu, nikdo nový se nemůže přihlásit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "invalid",
+            "definition": "not legally accepted any more"
+          },
+          {
+            "term": "recount",
+            "definition": "to count votes again to check the result"
+          },
+          {
+            "term": "polling",
+            "definition": "connected with the places where people vote"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "15:53",
+      "headline": "Macinka odmítá ústavní pojistky pro Českou televizi a rozhlas",
+      "body": "Lídři menších vládních stran odmítají zavádění pojistek, které by posílily nezávislost veřejnoprávních médií, ačkoli je začal připouštět vicepremiér Karel Havlíček. „Pokud ta debata bude, bude velmi krátká a jejím výsledkem bude, že žádné ústavní pojistky nebudou,“ řekl Deníku N šéf Motoristů Petr Macinka. Německý svaz novinářů mezitím vyzval kancléře Merze, aby se ve čtvrtek v Berlíně při jednání takzvané koalice ochotných, kde se setká s premiérem Andrejem Babišem, vyjádřil k protestům proti změně financování ČT a Českého rozhlasu. Svaz zároveň vyzval Babišovu vládu, aby zachovala redakční nezávislost veřejnoprávních médií a zajistila jejich dostatečné a spolehlivé financování.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2261699/zadne-ustavni-pojistky-nebudou-macinka-odmita-havlickovy-uvahy-o-garancich-pro-ct-a-rozhlas/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/nemecky-svaz-novinaru-zada-aby-se-merz-pri-setkani-s-babisem-vyjadril-k-situaci-kolem-ct-a-cro-379719"
+        }
+      ],
+      "en": {
+        "headline": "Macinka rejects constitutional safeguards for Czech Television and Czech Radio",
+        "sentences": [
+          {
+            "en": "The leaders of the smaller governing parties reject the introduction of safeguards that would strengthen the independence of public service media, even though Deputy Prime Minister Karel Havlíček had begun to entertain them.",
+            "cs": "Lídři menších vládních stran odmítají zavádění pojistek, které by posílily nezávislost veřejnoprávních médií, ačkoli je začal připouštět vicepremiér Karel Havlíček."
+          },
+          {
+            "en": "“If there is a debate, it will be very short and its outcome will be that there will be no constitutional safeguards,” Motoristé leader Petr Macinka told Deník N.",
+            "cs": "„Pokud ta debata bude, bude velmi krátká a jejím výsledkem bude, že žádné ústavní pojistky nebudou,“ řekl Deníku N šéf Motoristů Petr Macinka."
+          },
+          {
+            "en": "Meanwhile the German Journalists' Association has called on Chancellor Merz to comment on the protests against the change in the funding of Czech Television and Czech Radio on Thursday in Berlin, at a meeting of the so-called coalition of the willing where Prime Minister Andrej Babiš will also be present.",
+            "cs": "Německý svaz novinářů mezitím vyzval kancléře Merze, aby se ve čtvrtek v Berlíně při jednání takzvané koalice ochotných, kde se setká s premiérem Andrejem Babišem, vyjádřil k protestům proti změně financování ČT a Českého rozhlasu."
+          },
+          {
+            "en": "The association also urged Babiš's government to preserve the editorial independence of public service media and to secure adequate and reliable funding for them.",
+            "cs": "Svaz zároveň vyzval Babišovu vládu, aby zachovala redakční nezávislost veřejnoprávních médií a zajistila jejich dostatečné a spolehlivé financování."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "safeguards",
+            "definition": "rules that protect something from harm or misuse"
+          },
+          {
+            "term": "entertain",
+            "definition": "to think seriously about an idea"
+          },
+          {
+            "term": "urged",
+            "definition": "strongly advised someone to do something"
+          },
+          {
+            "term": "adequate",
+            "definition": "enough for what is needed"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:12",
+      "headline": "Odbory Státního zdravotního ústavu vyhlásily stávkovou pohotovost kvůli škrtům",
+      "body": "Ministerstvo zdravotnictví požaduje, aby Státní zdravotní ústav zrušil deset procent pracovních míst. Odbory kvůli tomu vyhlásily stávkovou pohotovost. Ústav měl loni přes pět set zaměstnanců. Deník N upozorňuje, že rezort ještě nedávno mluvil o potřebě SZÚ posílit. „Absolutně tomuto kroku nerozumíme. Už nyní padáme na pusu,“ reagovali podle Deníku N zaměstnanci.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/odbory-statniho-zdravotniho-ustavu-vyhlasily-stavkovou-pohotovost-379713"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2261766/vojtechuv-rezort-chce-ve-zdravotnim-ustavu-seskrtat-desetinu-uvazku-uz-ted-padame-na-pusu-nechapou-zamestnanci/"
+        }
+      ],
+      "en": {
+        "headline": "Unions at the State Health Institute have declared a strike alert over cuts",
+        "sentences": [
+          {
+            "en": "The Ministry of Health is demanding that the State Health Institute scrap ten percent of its jobs.",
+            "cs": "Ministerstvo zdravotnictví požaduje, aby Státní zdravotní ústav zrušil deset procent pracovních míst."
+          },
+          {
+            "en": "The unions have declared a strike alert in response.",
+            "cs": "Odbory kvůli tomu vyhlásily stávkovou pohotovost."
+          },
+          {
+            "en": "The institute had more than five hundred employees last year.",
+            "cs": "Ústav měl loni přes pět set zaměstnanců."
+          },
+          {
+            "en": "Deník N points out that the ministry was talking only recently about the need to strengthen the institute.",
+            "cs": "Deník N upozorňuje, že rezort ještě nedávno mluvil o potřebě SZÚ posílit."
+          },
+          {
+            "en": "“We absolutely do not understand this step. We are already falling flat on our faces,” employees said, according to Deník N.",
+            "cs": "„Absolutně tomuto kroku nerozumíme. Už nyní padáme na pusu,“ reagovali podle Deníku N zaměstnanci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "scrap",
+            "definition": "to get rid of something that is no longer wanted"
+          },
+          {
+            "term": "points out",
+            "definition": "says something so that people notice it"
+          },
+          {
+            "term": "falling flat on our faces",
+            "definition": "failing completely at something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:40",
+      "headline": "Srážku vlaků v Praze policie prověřuje jako obecné ohrožení z nedbalosti",
+      "body": "Úterní nehodu vlaků u pražského hlavního nádraží, při které se zranilo 46 lidí, prověřuje policie pro podezření ze spáchání trestného činu obecného ohrožení z nedbalosti. V případě prokázání viny za něj může hrozit až osm let vězení. Ministr dopravy Ivan Bednárik (za SPD) už v úterý řekl, že jeden z vlaků zřejmě projel návěstidlo zakazující jízdu. Podle experta, kterého citoval iROZHLAS, video jasně ukazuje, že se strojvedoucí rozjel proti návěsti „Stůj“; jako nepravděpodobnou možnost ale odborník připustil, že mohl dostat písemný rozkaz od dispečera.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nehodu-vlaku-v-praze-policie-resi-jako-obecne-ohrozeni-hrozi-za-nej-az-osm-let-379705"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/expert-ke-srazce-vlaku-vystraha-zafungovala-ale-lokomotiva-neni-auto-chvili-trva_2611181340_mst"
+        }
+      ],
+      "en": {
+        "headline": "Police are investigating the Prague train collision as public endangerment through negligence",
+        "sentences": [
+          {
+            "en": "Police are investigating Tuesday's train accident near Prague's main station, in which 46 people were injured, on suspicion of the criminal offence of public endangerment through negligence.",
+            "cs": "Úterní nehodu vlaků u pražského hlavního nádraží, při které se zranilo 46 lidí, prověřuje policie pro podezření ze spáchání trestného činu obecného ohrožení z nedbalosti."
+          },
+          {
+            "en": "If guilt is proven, it carries a sentence of up to eight years.",
+            "cs": "V případě prokázání viny za něj může hrozit až osm let vězení."
+          },
+          {
+            "en": "Transport Minister Ivan Bednárik (for SPD) said on Tuesday that one of the trains had apparently passed a signal ordering it to stop.",
+            "cs": "Ministr dopravy Ivan Bednárik (za SPD) už v úterý řekl, že jeden z vlaků zřejmě projel návěstidlo zakazující jízdu."
+          },
+          {
+            "en": "According to an expert quoted by iROZHLAS, the video clearly shows that the driver set off against a “Stop” signal; the expert did admit, as an unlikely possibility, that the driver may have received a written order from the dispatcher.",
+            "cs": "Podle experta, kterého citoval iROZHLAS, video jasně ukazuje, že se strojvedoucí rozjel proti návěsti „Stůj“; jako nepravděpodobnou možnost ale odborník připustil, že mohl dostat písemný rozkaz od dispečera."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "negligence",
+            "definition": "failing to give something enough care or attention"
+          },
+          {
+            "term": "endangerment",
+            "definition": "the act of putting people in danger"
+          },
+          {
+            "term": "set off",
+            "definition": "to start moving or start a journey"
+          },
+          {
+            "term": "dispatcher",
+            "definition": "a person who controls the movement of trains or vehicles"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "13:19",
+      "headline": "Česko má od Izraele nabídku na protibalistickou obranu, na nákup ale nemusí být peníze",
+      "body": "Česká republika by mohla už příští rok vypsat veřejnou zakázku na nové systémy protivzdušné obrany schopné zasahovat taktické balistické střely, řekl při návštěvě Izraele ministr obrany Jaromír Zůna (za SPD). Česká delegace podle něj získala nabídky, které by mohly umožnit rychlejší pořízení, než se původně předpokládalo. „Máme nyní od izraelské strany kompletní nabídku na čtyři mobilní systémy protibalistické obrany Spyder All-in-One,“ řekl před odletem z Tel Avivu premiér Andrej Babiš. Podle E15 armáda zvažuje izraelské i evropské technologie. Nákup však může zkomplikovat nedostatek peněz v obranném rozpočtu: šéf armády Hlaváč v Izraeli řekl, že aby Česko mohlo začít s budováním protibalistické obrany dříve, bude potřeba obranný rozpočet zvýšit.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cesko-by-mohlo-vypsat-zakazku-na-protivzdusnou-obranu-pristi-rok-uvedl-zuna-379704"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/babis-resi-v-izraeli-obranu-ceska-armada-chce-novy-protiraketovy-stit-chybet-ale-mohou-penize-1437382"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2261864/"
+        }
+      ],
+      "en": {
+        "headline": "Czechia has an Israeli offer for anti-ballistic defence, but the money for the purchase may not be there",
+        "sentences": [
+          {
+            "en": "The Czech Republic could put out a public tender as early as next year for new air defence systems capable of intercepting tactical ballistic missiles, Defence Minister Jaromír Zůna (for SPD) said during a visit to Israel.",
+            "cs": "Česká republika by mohla už příští rok vypsat veřejnou zakázku na nové systémy protivzdušné obrany schopné zasahovat taktické balistické střely, řekl při návštěvě Izraele ministr obrany Jaromír Zůna (za SPD)."
+          },
+          {
+            "en": "The Czech delegation has, he said, obtained offers that could make a faster purchase possible than originally expected.",
+            "cs": "Česká delegace podle něj získala nabídky, které by mohly umožnit rychlejší pořízení, než se původně předpokládalo."
+          },
+          {
+            "en": "“We now have a complete offer from the Israeli side for four mobile Spyder All-in-One anti-ballistic defence systems,” Prime Minister Andrej Babiš said before flying out of Tel Aviv.",
+            "cs": "„Máme nyní od izraelské strany kompletní nabídku na čtyři mobilní systémy protibalistické obrany Spyder All-in-One,“ řekl před odletem z Tel Avivu premiér Andrej Babiš."
+          },
+          {
+            "en": "According to E15, the army is weighing both Israeli and European technologies.",
+            "cs": "Podle E15 armáda zvažuje izraelské i evropské technologie."
+          },
+          {
+            "en": "The purchase may, however, be complicated by a shortage of money in the defence budget: the head of the army, Hlaváč, said in Israel that if Czechia is to start building anti-ballistic defence sooner, the defence budget will have to be increased.",
+            "cs": "Nákup však může zkomplikovat nedostatek peněz v obranném rozpočtu: šéf armády Hlaváč v Izraeli řekl, že aby Česko mohlo začít s budováním protibalistické obrany dříve, bude potřeba obranný rozpočet zvýšit."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tender",
+            "definition": "a formal process in which companies offer to supply something for a price"
+          },
+          {
+            "term": "intercepting",
+            "definition": "stopping something while it is on its way to a target"
+          },
+          {
+            "term": "weighing",
+            "definition": "carefully comparing different options"
+          },
+          {
+            "term": "shortage",
+            "definition": "a situation in which there is not enough of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:55",
+      "headline": "Podezřelého z bombových výhrůžek českým školám zadrželi na Ukrajině",
+      "body": "Člověka podezřelého z bombových výhrůžek školám v Česku, na Slovensku a v Lotyšsku zadrželi podle Eurojustu už v září na Ukrajině tamní kriminalisté. Muž byl dopaden i v minulosti, vyšetřovatelé ho ale propustili a později uprchl do Běloruska. Nyní byl na Ukrajině obviněn. Jako uprchlého ho stíhá i česká policie, a to z vyhrožování teroristickým trestným činem.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-zadrzela-podezreleho-z-bombovych-vyhruzek-skolam-informoval-eurojust-379720"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ukrajina-zadrzela-podezreleho-z-bombovych-vyhruzek-ceskym-skolam-320897"
+        }
+      ],
+      "en": {
+        "headline": "A suspect in the bomb threats against Czech schools has been detained in Ukraine",
+        "sentences": [
+          {
+            "en": "A person suspected of making bomb threats against schools in Czechia, Slovakia and Latvia was detained back in September in Ukraine by local detectives, Eurojust said.",
+            "cs": "Člověka podezřelého z bombových výhrůžek školám v Česku, na Slovensku a v Lotyšsku zadrželi podle Eurojustu už v září na Ukrajině tamní kriminalisté."
+          },
+          {
+            "en": "The man had been caught before, but investigators released him and he later fled to Belarus.",
+            "cs": "Muž byl dopaden i v minulosti, vyšetřovatelé ho ale propustili a později uprchl do Běloruska."
+          },
+          {
+            "en": "He has now been charged in Ukraine.",
+            "cs": "Nyní byl na Ukrajině obviněn."
+          },
+          {
+            "en": "Czech police are also prosecuting him as a fugitive, for threatening to commit a terrorist offence.",
+            "cs": "Jako uprchlého ho stíhá i česká policie, a to z vyhrožování teroristickým trestným činem."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "detained",
+            "definition": "held by the police so that a person cannot leave"
+          },
+          {
+            "term": "charged",
+            "definition": "officially accused of a crime"
+          },
+          {
+            "term": "prosecuting",
+            "definition": "taking legal action against someone in court"
+          },
+          {
+            "term": "fugitive",
+            "definition": "a person who is running away from the police"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:58",
+      "headline": "Pražským primátorem se stane Petr Hlaváček, koalice podepsala smlouvu",
+      "body": "Novým pražským primátorem bude Petr Hlaváček ze STAN, jeho prvním náměstkem Tomáš Portlík z ODS. Koaliční smlouvu podepsaly STAN, Spolu a Praha sobě. Radu zvolí zastupitelé ve čtvrtek dopoledne.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-novym-prazskym-primatorem-se-stane-hlavacek-stan-bude-mit-pet-namestku-320847"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/stan-spolu-a-praha-sobe-podepsaly-koalicni-smlouvu-v-praze-379711"
+        }
+      ],
+      "en": {
+        "headline": "Petr Hlaváček will become mayor of Prague as the coalition signs its agreement",
+        "sentences": [
+          {
+            "en": "Petr Hlaváček of STAN will be the new mayor of Prague, and Tomáš Portlík of ODS will be first deputy mayor.",
+            "cs": "Novým pražským primátorem bude Petr Hlaváček ze STAN, jeho prvním náměstkem Tomáš Portlík z ODS."
+          },
+          {
+            "en": "The coalition agreement was signed by STAN, Spolu and Praha sobě.",
+            "cs": "Koaliční smlouvu podepsaly STAN, Spolu a Praha sobě."
+          },
+          {
+            "en": "Councillors will elect the city council on Thursday morning.",
+            "cs": "Radu zvolí zastupitelé ve čtvrtek dopoledne."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deputy",
+            "definition": "a person who is second in rank and can act for the leader"
+          },
+          {
+            "term": "councillors",
+            "definition": "elected members of a city or town government"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:04",
+      "headline": "Stavba jižní spojky v Hradci se odkládá o další rok",
+      "body": "Jižní spojka v Hradci Králové má podle Hradeckého deníku vzniknout zatím v roce 2030. Termín se ovšem už několikrát posunul a ani tentokrát nemusí být definitivní. Nová komunikace bude mít rozváděcí funkci pro auta přijíždějící od Prahy a zároveň má přinést dopravní úlevu Kuklenám.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/stavba-jizni-spojka-zacatek-kukleny-d11/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Construction of the southern link road in Hradec is being put off by another year",
+        "sentences": [
+          {
+            "en": "The southern link road in Hradec Králové is, according to Hradecký deník, now expected to be built in 2030.",
+            "cs": "Jižní spojka v Hradci Králové má podle Hradeckého deníku vzniknout zatím v roce 2030."
+          },
+          {
+            "en": "The deadline has already been pushed back several times, however, and even this one may not be final.",
+            "cs": "Termín se ovšem už několikrát posunul a ani tentokrát nemusí být definitivní."
+          },
+          {
+            "en": "The new road will distribute traffic arriving from Prague and is also meant to relieve congestion in Kukleny.",
+            "cs": "Nová komunikace bude mít rozváděcí funkci pro auta přijíždějící od Prahy a zároveň má přinést dopravní úlevu Kuklenám."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pushed back",
+            "definition": "moved to a later date"
+          },
+          {
+            "term": "relieve",
+            "definition": "to make a problem less severe"
+          },
+          {
+            "term": "congestion",
+            "definition": "too much traffic in one place, so that it moves slowly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "14:06",
+      "headline": "Podchod na třídě Karla IV. je po osmi měsících oprav celý otevřený",
+      "body": "Podchod na třídě Karla IV. v Hradci Králové je po osmi měsících oprav znovu celý otevřený. Vedle nových rozvodů a vyhřívaných ramp získal také tři prostory k pronájmu, ve kterých město počítá s kavárnou, cukrárnou i výstavami. Nájemce začne radnice hledat příští rok.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hradecko/906088-podchod-na-tride-karla-iv-je-hotovy-ma-nabidnout-i-kavarnu-a-vystavy.html"
+        }
+      ],
+      "en": {
+        "headline": "The underpass on třída Karla IV. is fully open again after eight months of repairs",
+        "sentences": [
+          {
+            "en": "The underpass on třída Karla IV. in Hradec Králové is fully open again after eight months of repairs.",
+            "cs": "Podchod na třídě Karla IV. v Hradci Králové je po osmi měsících oprav znovu celý otevřený."
+          },
+          {
+            "en": "Alongside new wiring and heated ramps, it has also gained three units for rent, in which the city expects a café, a patisserie and exhibitions.",
+            "cs": "Vedle nových rozvodů a vyhřívaných ramp získal také tři prostory k pronájmu, ve kterých město počítá s kavárnou, cukrárnou i výstavami."
+          },
+          {
+            "en": "The town hall will start looking for tenants next year.",
+            "cs": "Nájemce začne radnice hledat příští rok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "underpass",
+            "definition": "a passage that goes under a road or railway"
+          },
+          {
+            "term": "wiring",
+            "definition": "the system of wires that carries electricity in a building"
+          },
+          {
+            "term": "tenants",
+            "definition": "people who pay rent to use a building or space"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:00",
+      "headline": "Stavebních povolení v Královéhradeckém kraji přibylo o 17 procent",
+      "body": "Stavební úřady v Královéhradeckém kraji vydaly v prvních třech čtvrtletích letošního roku 2653 stavebních povolení, meziročně o 17 procent více. Tempo růstu bylo proti celé republice více než trojnásobné. Zvýšil se počet povolení na budovy i na inženýrské stavby, tedy například silnice, železnice či energetické sítě. Vyplývá to z údajů Českého statistického úřadu.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/stavba-stavebni-povoleni-narust-kralovehradecky-kraj/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "Building permits in the Hradec Králové Region rose by 17 percent",
+        "sentences": [
+          {
+            "en": "Building authorities in the Hradec Králové Region issued 2,653 building permits in the first three quarters of this year, 17 percent more than a year earlier.",
+            "cs": "Stavební úřady v Královéhradeckém kraji vydaly v prvních třech čtvrtletích letošního roku 2653 stavebních povolení, meziročně o 17 procent více."
+          },
+          {
+            "en": "The rate of growth was more than three times that of the country as a whole.",
+            "cs": "Tempo růstu bylo proti celé republice více než trojnásobné."
+          },
+          {
+            "en": "The number of permits rose both for buildings and for civil engineering works, that is, for roads, railways or energy networks, for example.",
+            "cs": "Zvýšil se počet povolení na budovy i na inženýrské stavby, tedy například silnice, železnice či energetické sítě."
+          },
+          {
+            "en": "This follows from figures published by the Czech Statistical Office.",
+            "cs": "Vyplývá to z údajů Českého statistického úřadu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "permits",
+            "definition": "official documents that allow something to be done"
+          },
+          {
+            "term": "quarters",
+            "definition": "periods of three months used in statistics"
+          },
+          {
+            "term": "civil engineering",
+            "definition": "the design and building of roads, bridges and similar structures"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "10:08",
+      "headline": "Hradecká galerie uzavře rok výstavou o černé díře ve výtvarném umění",
+      "body": "Galerie moderního umění v Hradci Králové letošní rok uzavře výstavou Černá díra ve výtvarném umění. Potrvá od 27. listopadu do 11. dubna. Slavnostní vernisáž se uskuteční ve čtvrtek 26. listopadu, kdy bude představena také doprovodná publikace.",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/galerie-moderniho-umeni-cerna-dira-vystava/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The Hradec gallery will close the year with an exhibition on the black hole in visual art",
+        "sentences": [
+          {
+            "en": "The Gallery of Modern Art in Hradec Králové will close this year with the exhibition Black Hole in Visual Art.",
+            "cs": "Galerie moderního umění v Hradci Králové letošní rok uzavře výstavou Černá díra ve výtvarném umění."
+          },
+          {
+            "en": "It will run from 27 November to 11 April.",
+            "cs": "Potrvá od 27. listopadu do 11. dubna."
+          },
+          {
+            "en": "The opening will take place on Thursday 26 November, when an accompanying publication will also be presented.",
+            "cs": "Slavnostní vernisáž se uskuteční ve čtvrtek 26. listopadu, kdy bude představena také doprovodná publikace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "run",
+            "definition": "here: to continue over a period of time"
+          },
+          {
+            "term": "accompanying",
+            "definition": "going together with something else"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:20",
+      "headline": "Evropská komise navrhla Ukrajině na rok 2027 půjčku 45 miliard eur",
+      "body": "Šéfka Evropské komise Ursula von der Leyenová uvedla, že komise navrhla novou půjčku pro Ukrajinu na rok 2027 ve výši 45 miliard eur, tedy zhruba 1,1 bilionu korun. Ukrajina má půjčku v budoucnu splatit z ruských válečných reparací. Podle E15 Česko a další tři státy financování odmítají a Německo kvůli tomu hrozí blokací rozpočtu Evropské unie.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/evropska-komise-navrhla-novou-pujcku-pro-ukrajinu-ve-vysi-45-miliard-eur-379716"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/cesko-odmita-dalsi-penize-pro-ukrajinu-nemecko-kvuli-tomu-hrozi-blokaci-rozpoctu-eu-1437396"
+        }
+      ],
+      "en": {
+        "headline": "The European Commission has proposed a loan of 45 billion euros to Ukraine for 2027",
+        "sentences": [
+          {
+            "en": "European Commission President Ursula von der Leyen said the Commission had proposed a new loan for Ukraine for 2027 worth 45 billion euros, roughly 1.1 trillion crowns.",
+            "cs": "Šéfka Evropské komise Ursula von der Leyenová uvedla, že komise navrhla novou půjčku pro Ukrajinu na rok 2027 ve výši 45 miliard eur, tedy zhruba 1,1 bilionu korun."
+          },
+          {
+            "en": "Ukraine is to repay the loan in future out of Russian war reparations.",
+            "cs": "Ukrajina má půjčku v budoucnu splatit z ruských válečných reparací."
+          },
+          {
+            "en": "According to E15, Czechia and three other states reject the financing, and Germany is threatening to block the European Union budget over it.",
+            "cs": "Podle E15 Česko a další tři státy financování odmítají a Německo kvůli tomu hrozí blokací rozpočtu Evropské unie."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "repay",
+            "definition": "to pay back money that was borrowed"
+          },
+          {
+            "term": "reparations",
+            "definition": "money paid by a country for the damage it caused in a war"
+          },
+          {
+            "term": "reject",
+            "definition": "to refuse to accept something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:38",
+      "headline": "Putin jednal v Číně se Si Ťin-pchingem, ve čtvrtek se sejde s Trumpem",
+      "body": "Vladimir Putin ve středu na bilaterální schůzce jednal se svým čínským protějškem Si Ťin-pchingem a oba uvedli, že chtějí spolupracovat na vytvoření multipolárního světa. Si téhož dne zahájil dvoudenní summit Asijsko-pacifického hospodářského společenství, který Čína hostí v Šen-čenu. Do města dorazil i americký prezident Donald Trump a s Putinem se krátce viděl už ve středu. Ve čtvrtek s ním bude podle agentury AP jednat samostatně; půjde o jejich první osobní setkání od loňského summitu na Aljašce. Deník N píše, že Putinova návštěva začala diplomatickým ponížením, ruský prezident neuspěl ani s tlakem na výstavbu plynovodu Síla Sibiře 2 a v projevu podle listu bájil o ruských ekonomických úspěších v rozporu s údaji jeho vlastních úřadů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusko-a-cina-chteji-spolupracovat-na-vytvoreni-multipolarniho-sveta-rekli-putin-a-si-379703"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-fotky-vrele-privitani-si-se-snazil-dat-trumpovi-pocit-dulezitosti-320870"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2262179/"
+        }
+      ],
+      "en": {
+        "headline": "Putin held talks with Xi Jinping in China and will meet Trump on Thursday",
+        "sentences": [
+          {
+            "en": "Vladimir Putin held bilateral talks on Wednesday with Chinese counterpart Xi Jinping, and both said they wanted to work together on creating a multipolar world.",
+            "cs": "Vladimir Putin ve středu na bilaterální schůzce jednal se svým čínským protějškem Si Ťin-pchingem a oba uvedli, že chtějí spolupracovat na vytvoření multipolárního světa."
+          },
+          {
+            "en": "The same day, Xi opened the two-day summit of the Asia-Pacific Economic Cooperation forum, which China is hosting in Shenzhen.",
+            "cs": "Si téhož dne zahájil dvoudenní summit Asijsko-pacifického hospodářského společenství, který Čína hostí v Šen-čenu."
+          },
+          {
+            "en": "US President Donald Trump also arrived in the city and saw Putin briefly as early as Wednesday.",
+            "cs": "Do města dorazil i americký prezident Donald Trump a s Putinem se krátce viděl už ve středu."
+          },
+          {
+            "en": "On Thursday, according to the AP news agency, Trump will hold separate talks with Putin; it will be their first face-to-face meeting since last year's summit in Alaska.",
+            "cs": "Ve čtvrtek s ním bude podle agentury AP jednat samostatně; půjde o jejich první osobní setkání od loňského summitu na Aljašce."
+          },
+          {
+            "en": "Deník N writes that Putin's visit began with a diplomatic humiliation, that the Russian president also failed in the push for construction of the Power of Siberia 2 pipeline, and that in the speech Putin boasted, according to the paper, of Russian economic successes at odds with the figures of Russia's own authorities.",
+            "cs": "Deník N píše, že Putinova návštěva začala diplomatickým ponížením, ruský prezident neuspěl ani s tlakem na výstavbu plynovodu Síla Sibiře 2 a v projevu podle listu bájil o ruských ekonomických úspěších v rozporu s údaji jeho vlastních úřadů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "counterpart",
+            "definition": "a person who holds the same position in another country or organisation"
+          },
+          {
+            "term": "humiliation",
+            "definition": "being made to look weak or foolish in front of others"
+          },
+          {
+            "term": "boasted",
+            "definition": "spoke with too much pride about something"
+          },
+          {
+            "term": "at odds with",
+            "definition": "not matching or agreeing with something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:58",
+      "headline": "Zelenskyj potvrdil, že za úderem na Krymský most stojí ukrajinské síly",
+      "body": "Prezident Volodymyr Zelenskyj potvrdil, že za útokem na Krymský most stojí ukrajinské ozbrojené síly, a uvedl, že šlo o několikatýdenní operaci. Po mostě už projel vlak a záběry z něj zblízka ukazují následky úderu. Při útoku se Ukrajina obešla bez satelitního komunikačního systému Starlink i jeho vojenské verze Starshield, řekl listu Times nejmenovaný ukrajinský důstojník zapojený do operace.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-cast-silnicniho-useku-chybi-zabery-z-vlaku-ukazuji-poniceny-krymsky-most-320843"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2261924/"
+        }
+      ],
+      "en": {
+        "headline": "Zelensky has confirmed that Ukrainian forces were behind the strike on the Crimean Bridge",
+        "sentences": [
+          {
+            "en": "President Volodymyr Zelensky confirmed that Ukraine's armed forces were behind the attack on the Crimean Bridge, and said it had been an operation lasting several weeks.",
+            "cs": "Prezident Volodymyr Zelenskyj potvrdil, že za útokem na Krymský most stojí ukrajinské ozbrojené síly, a uvedl, že šlo o několikatýdenní operaci."
+          },
+          {
+            "en": "A train has already passed over the bridge, and close-up footage from it shows the aftermath of the strike.",
+            "cs": "Po mostě už projel vlak a záběry z něj zblízka ukazují následky úderu."
+          },
+          {
+            "en": "In the attack, Ukraine managed without the Starlink satellite communications system or its military version Starshield, an unnamed Ukrainian officer involved in the operation told the Times.",
+            "cs": "Při útoku se Ukrajina obešla bez satelitního komunikačního systému Starlink i jeho vojenské verze Starshield, řekl listu Times nejmenovaný ukrajinský důstojník zapojený do operace."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "footage",
+            "definition": "film or video recorded of an event"
+          },
+          {
+            "term": "aftermath",
+            "definition": "the situation that remains after something bad has happened"
+          },
+          {
+            "term": "managed without",
+            "definition": "succeeded in doing something although it was not available"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "12:53",
+      "headline": "Deutsche Bank zrušila studentský účet syna slovenského premiéra Fica",
+      "body": "Největší německá banka zrušila studentský účet syna slovenského premiéra Roberta Fica a zároveň podala hlášení o podezření z praní špinavých peněz. Podle dokumentů Deutsche Bank, o kterých píše Deník N, z účtu jeho majitel téměř nic neplatil, přicházely mu na něj ale platby od dvou lidí propojených s politikou jeho otce.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2261475/banka-zrusila-studentsky-ucet-michala-fica-kvuli-podezreni-z-prani-penez/"
+        }
+      ],
+      "en": {
+        "headline": "Deutsche Bank has closed the student account of the Slovak prime minister's son",
+        "sentences": [
+          {
+            "en": "Germany's largest bank closed the student account of Slovak Prime Minister Robert Fico's son and at the same time filed a report of suspected money laundering.",
+            "cs": "Největší německá banka zrušila studentský účet syna slovenského premiéra Roberta Fica a zároveň podala hlášení o podezření z praní špinavých peněz."
+          },
+          {
+            "en": "According to Deutsche Bank documents described by Deník N, the account holder paid almost nothing out of the account but received payments into it from two people connected to the father's politics.",
+            "cs": "Podle dokumentů Deutsche Bank, o kterých píše Deník N, z účtu jeho majitel téměř nic neplatil, přicházely mu na něj ale platby od dvou lidí propojených s politikou jeho otce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "filed",
+            "definition": "officially sent in a report or document"
+          },
+          {
+            "term": "money laundering",
+            "definition": "hiding where illegally obtained money came from"
+          },
+          {
+            "term": "account holder",
+            "definition": "the person who owns a bank account"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "05:59",
+      "headline": "Demokraté budou mít v Senátu USA 56 mandátů, získali i Aljašku",
+      "body": "Demokratka Mary Peltolaová získala podle odhadů agentury AP a stanice CNN senátorský mandát na Aljašce. Demokraté tak budou po volbách disponovat v horní komoře většinou 56 mandátů, republikáni budou mít 44 křesel. Aljaška byla posledním senátorským obvodem, kde se čekalo na výsledek.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/demokratka-peltolaova-podle-odhadu-zvitezila-v-senatnich-volbach-na-aljasce-379701"
+        }
+      ],
+      "en": {
+        "headline": "Democrats will hold 56 seats in the US Senate after also taking Alaska",
+        "sentences": [
+          {
+            "en": "Democrat Mary Peltola has won a Senate seat in Alaska, according to projections by the AP news agency and CNN.",
+            "cs": "Demokratka Mary Peltolaová získala podle odhadů agentury AP a stanice CNN senátorský mandát na Aljašce."
+          },
+          {
+            "en": "After the elections the Democrats will therefore command a majority of 56 seats in the upper chamber, while the Republicans will hold 44.",
+            "cs": "Demokraté tak budou po volbách disponovat v horní komoře většinou 56 mandátů, republikáni budou mít 44 křesel."
+          },
+          {
+            "en": "Alaska was the last Senate district where the result was still awaited.",
+            "cs": "Aljaška byla posledním senátorským obvodem, kde se čekalo na výsledek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "projections",
+            "definition": "calculations that predict a result before it is final"
+          },
+          {
+            "term": "command",
+            "definition": "here: to have control of something"
+          },
+          {
+            "term": "upper chamber",
+            "definition": "the senior of the two parts of a parliament"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:15",
+      "headline": "Vláda chystá sektorové daně, konsolidace rozpočtu má být za sto miliard",
+      "body": "Ministryně financí Schillerová podle E15 chystá konsolidaci rozpočtu za 100 miliard korun, která se má projevit v roce 2028. Ve hře jsou především sektorové daně pro banky, energetické firmy a zbrojovky; ty by podle oslovených odborníků mohly zajistit desítky miliard, opatření by ale muselo být tvrdé. Nové zdanění by podle E15 mohlo Čechům prodražit hypotéky, úvěry i další služby a zkušenosti ze zahraničí ukazují, že sektorové daně mohou brzdit ekonomiku a vyhánět kapitál. Organizace PAQ Research místo toho navrhuje zdanit kapitálové příjmy a majetek na úroveň srovnatelnou s Evropskou unií.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/ekonomika/babis-chysta-novou-dan-cechum-muze-zdrazit-hypoteky-i-uvery-1437380"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/vyssi-dane-krome-bank-ci-zbrojaru-muze-vlada-sahnout-na-kapitalove-prijmy-mini-odbornici-1437359"
+        }
+      ],
+      "en": {
+        "headline": "The government is preparing sector taxes, with a budget consolidation of a hundred billion",
+        "sentences": [
+          {
+            "en": "Finance Minister Schillerová is, according to E15, preparing a budget consolidation worth 100 billion crowns that is to take effect in 2028.",
+            "cs": "Ministryně financí Schillerová podle E15 chystá konsolidaci rozpočtu za 100 miliard korun, která se má projevit v roce 2028."
+          },
+          {
+            "en": "Sector taxes on banks, energy companies and arms manufacturers are chiefly in play; according to the experts consulted, these could bring in tens of billions, but the measure would have to be tough.",
+            "cs": "Ve hře jsou především sektorové daně pro banky, energetické firmy a zbrojovky; ty by podle oslovených odborníků mohly zajistit desítky miliard, opatření by ale muselo být tvrdé."
+          },
+          {
+            "en": "The new taxation could, according to E15, make mortgages, loans and other services more expensive for Czechs, and experience abroad shows that sector taxes can slow the economy and drive capital away.",
+            "cs": "Nové zdanění by podle E15 mohlo Čechům prodražit hypotéky, úvěry i další služby a zkušenosti ze zahraničí ukazují, že sektorové daně mohou brzdit ekonomiku a vyhánět kapitál."
+          },
+          {
+            "en": "The PAQ Research organisation proposes instead taxing capital income and property at a level comparable with the European Union.",
+            "cs": "Organizace PAQ Research místo toho navrhuje zdanit kapitálové příjmy a majetek na úroveň srovnatelnou s Evropskou unií."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "consolidation",
+            "definition": "here: cutting a budget deficit by spending less or taxing more"
+          },
+          {
+            "term": "in play",
+            "definition": "being seriously considered as an option"
+          },
+          {
+            "term": "measure",
+            "definition": "an official action taken to deal with a problem"
+          },
+          {
+            "term": "mortgages",
+            "definition": "long-term loans used to buy a home"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "11:56",
+      "headline": "Inflace v Evropské unii vzrostla na 4,0 procenta, nejvýš od září 2023",
+      "body": "Míra inflace v zemích Evropské unie v říjnu vzrostla o dvě desetiny procentního bodu na 4,0 procenta a je nejvyšší od září 2023. Vyplývá to z dat, která zveřejnil unijní statistický úřad Eurostat.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-inflace-v-eu-vzrostla-na-40-procenta-je-nejvyssi-od-zari-2023-320868"
+        }
+      ],
+      "en": {
+        "headline": "Inflation in the European Union rose to 4.0 percent, the highest since September 2023",
+        "sentences": [
+          {
+            "en": "The inflation rate in European Union countries rose in October by two tenths of a percentage point to 4.0 percent and is the highest since September 2023.",
+            "cs": "Míra inflace v zemích Evropské unie v říjnu vzrostla o dvě desetiny procentního bodu na 4,0 procenta a je nejvyšší od září 2023."
+          },
+          {
+            "en": "This follows from data published by the EU statistical office Eurostat.",
+            "cs": "Vyplývá to z dat, která zveřejnil unijní statistický úřad Eurostat."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "tenths",
+            "definition": "parts of something that has been divided into ten"
+          },
+          {
+            "term": "percentage point",
+            "definition": "the unit used to measure the difference between two percentages"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "14:41",
+      "headline": "Košík dostal pokutu 9,3 milionu korun za nelegální zaměstnávání",
+      "body": "Inspekce práce uložila online supermarketu Košík pokutu 9,3 milionu korun za nelegální zaměstnávání; podle Deníku N jde o rekordní sankci. Firma prohlašuje, že nemá vlastní kurýry a rozvoz zajišťují externí společnosti. Pokuta přichází týden před jednáním Poslanecké sněmovny o zákonu, který by horní výši pokuty snížil na třetinu.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2261363/rekordni-pokuta-pro-kosik-inspekce-prace-mu-vymerila-skoro-desetimilionovou-sankci-za-nelegalni-zamestnavani/"
+        }
+      ],
+      "en": {
+        "headline": "Košík has been fined 9.3 million crowns for illegal employment",
+        "sentences": [
+          {
+            "en": "The Labour Inspectorate has fined the online supermarket Košík 9.3 million crowns for illegal employment; according to Deník N it is a record penalty.",
+            "cs": "Inspekce práce uložila online supermarketu Košík pokutu 9,3 milionu korun za nelegální zaměstnávání; podle Deníku N jde o rekordní sankci."
+          },
+          {
+            "en": "The company says it has no couriers of its own and that delivery is handled by outside firms.",
+            "cs": "Firma prohlašuje, že nemá vlastní kurýry a rozvoz zajišťují externí společnosti."
+          },
+          {
+            "en": "The fine comes a week before the Chamber of Deputies debates a bill that would cut the upper limit of such penalties to a third.",
+            "cs": "Pokuta přichází týden před jednáním Poslanecké sněmovny o zákonu, který by horní výši pokuty snížil na třetinu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "Inspectorate",
+            "definition": "an official body that checks whether rules are being followed"
+          },
+          {
+            "term": "penalty",
+            "definition": "a punishment, often a payment of money"
+          },
+          {
+            "term": "bill",
+            "definition": "a proposed law that has not yet been approved"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:32",
+      "headline": "Výroba osobních aut v Česku za deset měsíců klesla o 2,6 procenta",
+      "body": "Výroba osobních aut v Česku za prvních deset měsíců letošního roku meziročně klesla o 2,6 procenta na 1,183 milionu vozů. Podíl elektromobilů a hybridů na celkové produkci se přitom zdvojnásobil na 42 procent: tuzemské automobilky vyrobily bezmála 200 tisíc bateriových a skoro 300 tisíc hybridních aut.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2261849/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-vyroba-aut-do-konce-rijna-klesla-o-26-procenta-na-1183-milionu-vozu-320887"
+        }
+      ],
+      "en": {
+        "headline": "Car production in Czechia fell by 2.6 percent over ten months",
+        "sentences": [
+          {
+            "en": "Production of passenger cars in Czechia fell year on year by 2.6 percent to 1.183 million vehicles over the first ten months of this year.",
+            "cs": "Výroba osobních aut v Česku za prvních deset měsíců letošního roku meziročně klesla o 2,6 procenta na 1,183 milionu vozů."
+          },
+          {
+            "en": "The share of electric cars and hybrids in total output has meanwhile doubled to 42 percent: domestic carmakers produced almost 200,000 battery vehicles and nearly 300,000 hybrids.",
+            "cs": "Podíl elektromobilů a hybridů na celkové produkci se přitom zdvojnásobil na 42 procent: tuzemské automobilky vyrobily bezmála 200 tisíc bateriových a skoro 300 tisíc hybridních aut."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "year on year",
+            "definition": "compared with the same period one year earlier"
+          },
+          {
+            "term": "share",
+            "definition": "here: the part of a total that something makes up"
+          },
+          {
+            "term": "output",
+            "definition": "the amount that is produced"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "18:46",
+      "day": "prev",
+      "headline": "OpenAI představil modely GPT-6.2 Astra a Sol",
+      "body": "OpenAI oznámil na svém webu nové modely GPT-6.2 Astra a Sol. Odkaz na oznámení získal na Hacker News 1321 bodů a vyvolal přes osm set komentářů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+        }
+      ],
+      "en": {
+        "headline": "OpenAI has introduced the GPT-6.2 Astra and Sol models",
+        "sentences": [
+          {
+            "en": "OpenAI has announced new models, GPT-6.2 Astra and Sol, on its website.",
+            "cs": "OpenAI oznámil na svém webu nové modely GPT-6.2 Astra a Sol."
+          },
+          {
+            "en": "The link to the announcement collected 1,321 points on Hacker News and drew more than eight hundred comments.",
+            "cs": "Odkaz na oznámení získal na Hacker News 1321 bodů a vyvolal přes osm set komentářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "announcement",
+            "definition": "a public statement giving news about something"
+          },
+          {
+            "term": "drew",
+            "definition": "here: attracted or produced a reaction"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "22:11",
+      "day": "prev",
+      "headline": "Chyba Java4Shell umožňuje spustit cizí kód v OpenJDK při zpracování Base64",
+      "body": "Bezpečnostní výzkumníci zveřejnili zranitelnost nazvanou Java4Shell. Podle jejich textu jde o vzdálené spuštění kódu v OpenJDK při zpracování dat zakódovaných v Base64.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://calif.io/java4shell/"
+        }
+      ],
+      "en": {
+        "headline": "The Java4Shell flaw allows code to be run in OpenJDK while Base64 is processed",
+        "sentences": [
+          {
+            "en": "Security researchers have published a vulnerability named Java4Shell.",
+            "cs": "Bezpečnostní výzkumníci zveřejnili zranitelnost nazvanou Java4Shell."
+          },
+          {
+            "en": "According to their write-up, it amounts to remote code execution in OpenJDK when data encoded in Base64 is processed.",
+            "cs": "Podle jejich textu jde o vzdálené spuštění kódu v OpenJDK při zpracování dat zakódovaných v Base64."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vulnerability",
+            "definition": "a weakness that an attacker can use"
+          },
+          {
+            "term": "write-up",
+            "definition": "a written report describing something"
+          },
+          {
+            "term": "encoded",
+            "definition": "changed into another form for storing or sending"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "14:18",
+      "headline": "DNS resolver Quad9 odchází z Francie",
+      "body": "Veřejný DNS resolver Quad9 opouští Francii. Blog Cloudflare to označuje za kanárka v uhelném dole. Server techstackups k tomu píše, že DNS resolvery jsou špatné místo pro boj s pirátstvím.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/"
+        }
+      ],
+      "en": {
+        "headline": "The Quad9 DNS resolver is leaving France",
+        "sentences": [
+          {
+            "en": "The public DNS resolver Quad9 is leaving France.",
+            "cs": "Veřejný DNS resolver Quad9 opouští Francii."
+          },
+          {
+            "en": "Cloudflare's blog calls it a canary in the coal mine.",
+            "cs": "Blog Cloudflare to označuje za kanárka v uhelném dole."
+          },
+          {
+            "en": "The techstackups site adds that DNS resolvers are the wrong place to fight piracy.",
+            "cs": "Server techstackups k tomu píše, že DNS resolvery jsou špatné místo pro boj s pirátstvím."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resolver",
+            "definition": "a service that turns website names into network addresses"
+          },
+          {
+            "term": "canary in the coal mine",
+            "definition": "an early warning that something is going badly wrong"
+          },
+          {
+            "term": "piracy",
+            "definition": "copying and sharing films, music or software illegally"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "09:31",
+      "headline": "Doména codeberg.org zmizela z DNS",
+      "body": "Doména codeberg.org, která hostuje mnoho open source projektů, zmizela podle Rootu ve středu v 5:52 UTC z DNS. Její status je client hold.",
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/domena-codeberg-org-zmizela-z-dns/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "The codeberg.org domain has disappeared from DNS",
+        "sentences": [
+          {
+            "en": "The codeberg.org domain, which hosts many open source projects, disappeared from DNS on Wednesday at 5:52 UTC, Root reported.",
+            "cs": "Doména codeberg.org, která hostuje mnoho open source projektů, zmizela podle Rootu ve středu v 5:52 UTC z DNS."
+          },
+          {
+            "en": "Its status is client hold.",
+            "cs": "Její status je client hold."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hosts",
+            "definition": "here: stores and runs a website or service on a server"
+          },
+          {
+            "term": "open source",
+            "definition": "software whose code anyone may read and change"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "12:05",
+      "headline": "Voyager 1 je jako první lidský výtvor světelný den od Země",
+      "body": "Americká sonda Voyager 1 dosáhla ve středu v 11:16 jako první lidský výtvor vzdálenosti 25,9 miliardy kilometrů od Země a překročila tím hranici jednoho světelného dne. Sonda vypuštěná v roce 1977 stále komunikuje a pokračuje na cestě ke hvězdám. Deník N píše, že rekord je symbolický, věcně vzato jde jen o další den jejího putování.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/veda/voyager-1-je-nyni-svetelny-den-od-zeme-379709"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2261476/voyager-1-prekonal-vzdalenost-jednoho-svetelneho-dne-zadny-objekt-vytvoreny-clovekem-nedoletel-dal/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/vesmir/nasa-voyager-1-svetelny-rok-vesmir-rekord_2611181203_elev"
+        }
+      ],
+      "en": {
+        "headline": "Voyager 1 is the first human-made object a light day from Earth",
+        "sentences": [
+          {
+            "en": "The American probe Voyager 1 on Wednesday at 11:16 became the first human-made object to reach a distance of 25.9 billion kilometres from Earth, crossing the threshold of one light day.",
+            "cs": "Americká sonda Voyager 1 dosáhla ve středu v 11:16 jako první lidský výtvor vzdálenosti 25,9 miliardy kilometrů od Země a překročila tím hranici jednoho světelného dne."
+          },
+          {
+            "en": "The probe, launched in 1977, is still communicating and continues on its journey towards the stars.",
+            "cs": "Sonda vypuštěná v roce 1977 stále komunikuje a pokračuje na cestě ke hvězdám."
+          },
+          {
+            "en": "Deník N writes that the record is symbolic and that, strictly speaking, it is just another day of its travels.",
+            "cs": "Deník N píše, že rekord je symbolický, věcně vzato jde jen o další den jejího putování."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "probe",
+            "definition": "an unmanned spacecraft sent to explore space"
+          },
+          {
+            "term": "threshold",
+            "definition": "the point at which something begins or changes"
+          },
+          {
+            "term": "strictly speaking",
+            "definition": "used when being exact about the facts"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:49",
+      "day": "prev",
+      "headline": "Fotbalisté do 21 let remizovali s Tureckem a postoupili na Euro 2027",
+      "body": "Čeští fotbalisté do 21 let remizovali včera večer v Hradci Králové s Tureckem v barážové odvetě 1:1 a v součtu s páteční venkovní výhrou 1:0 postoupili na mistrovství Evropy 2027. Lvíčata se na závěrečném turnaji představí počtvrté za sebou a pošesté za posledních sedm šampionátů. Při losu skupinové fáze budou v posledním, čtvrtém výkonnostním koši, takže v základní části nenarazí na Belgii ani na pořadatelskou dvojici Albánii a Srbsko. Losuje se příští čtvrtek.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/cesko-turecko-160000"
+        },
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/ostatni-fotbal/po-suchoparkovi-slavi-v-hradci-i-bilek-lvicata-jsou-znovu-na-euru/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=ostatni-fotbal"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/ceska-jednadvacitka-se-na-euru-vyhne-domacim-tymum-cihaji-na-ni-ale-tezke-vahy-160017"
+        }
+      ],
+      "en": {
+        "headline": "The under-21 footballers drew with Turkey and qualified for Euro 2027",
+        "sentences": [
+          {
+            "en": "The Czech under-21 footballers drew 1:1 with Turkey in the play-off second leg in Hradec Králové yesterday evening and, together with Friday's 1:0 away win, qualified for the 2027 European Championship.",
+            "cs": "Čeští fotbalisté do 21 let remizovali včera večer v Hradci Králové s Tureckem v barážové odvetě 1:1 a v součtu s páteční venkovní výhrou 1:0 postoupili na mistrovství Evropy 2027."
+          },
+          {
+            "en": "The young team will appear at the finals for the fourth time in a row and for the sixth time in the last seven tournaments.",
+            "cs": "Lvíčata se na závěrečném turnaji představí počtvrté za sebou a pošesté za posledních sedm šampionátů."
+          },
+          {
+            "en": "In the group-stage draw they will be in the last, fourth seeding pot, so in the group phase they will not meet Belgium or the host pair of Albania and Serbia.",
+            "cs": "Při losu skupinové fáze budou v posledním, čtvrtém výkonnostním koši, takže v základní části nenarazí na Belgii ani na pořadatelskou dvojici Albánii a Srbsko."
+          },
+          {
+            "en": "The draw takes place next Thursday.",
+            "cs": "Losuje se příští čtvrtek."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "second leg",
+            "definition": "the second of two matches between the same teams"
+          },
+          {
+            "term": "in a row",
+            "definition": "one after another, without a break"
+          },
+          {
+            "term": "seeding pot",
+            "definition": "a group of teams of similar strength used when a draw is made"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:16",
+      "headline": "Ruští sportovci nedostanou víza do Česka, oznámil ministr vnitra Metnar",
+      "body": "Ruským sportovcům nebude umožněn vstup na české území, řekl ministr vnitra Lubomír Metnar (ANO) po jednání s vedením hokejového svazu o účasti ruských hokejistů a hokejistek na světových šampionátech. „Existuje tady nařízení vlády, které de facto zakazuje vydání víz k účasti ruských sportovců na našem mistrovství,“ uvedl. Podle Sport.cz je tak čím dál jasnější, že mistrovství světa hráček do 18 let, které v lednu hostí Ostrava, se uskuteční bez Ruska, a to přesto, že Mezinárodní sportovní arbitráž na konci října rozhodla, že se sborná má okamžitě vrátit na světovou scénu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/rusti-sportovci-do-ceska-vpusteni-nebudou-rekl-metnar-160015"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2262041/"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-ms-ruske-sportovce-do-ceska-nepustime-oznamil-ministr-vnitra-5578474"
+        }
+      ],
+      "en": {
+        "headline": "Russian athletes will not get visas to Czechia, Interior Minister Metnar announced",
+        "sentences": [
+          {
+            "en": "Russian athletes will not be allowed to enter Czech territory, Interior Minister Lubomír Metnar (ANO) said after talks with the leadership of the ice hockey association about the participation of Russian men's and women's players at world championships.",
+            "cs": "Ruským sportovcům nebude umožněn vstup na české území, řekl ministr vnitra Lubomír Metnar (ANO) po jednání s vedením hokejového svazu o účasti ruských hokejistů a hokejistek na světových šampionátech."
+          },
+          {
+            "en": "“There is a government regulation here that effectively bans the issuing of visas for Russian athletes to take part in our championship,” Metnar said.",
+            "cs": "„Existuje tady nařízení vlády, které de facto zakazuje vydání víz k účasti ruských sportovců na našem mistrovství,“ uvedl."
+          },
+          {
+            "en": "According to Sport.cz it is therefore increasingly clear that the under-18 women's world championship, which Ostrava is hosting in January, will go ahead without Russia, even though the Court of Arbitration for Sport ruled at the end of October that the national team should return to the world stage immediately.",
+            "cs": "Podle Sport.cz je tak čím dál jasnější, že mistrovství světa hráček do 18 let, které v lednu hostí Ostrava, se uskuteční bez Ruska, a to přesto, že Mezinárodní sportovní arbitráž na konci října rozhodla, že se sborná má okamžitě vrátit na světovou scénu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "regulation",
+            "definition": "an official rule made by a government"
+          },
+          {
+            "term": "effectively",
+            "definition": "here: in practice, in its real result"
+          },
+          {
+            "term": "go ahead",
+            "definition": "to happen as planned"
+          },
+          {
+            "term": "Arbitration",
+            "definition": "the settling of a dispute by an independent body outside the courts"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:57",
+      "headline": "Čeští fotbalisté klesli v žebříčku FIFA na 53. místo",
+      "body": "Čeští fotbalisté se po dvou listopadových porážkách propadli v žebříčku reprezentací FIFA o dvě pozice na 53. místo. Národní tým je nejníže od září 2017, kdy mu patřila 58. příčka. Pořadí nadále vedou mistři světa ze Španělska.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/pad-zebrickem-pokracuje-cesti-fotbaliste-jsou-na-53-miste-160013"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-reprezentace-cesi-se-v-zebricku-fifa-propadli-5578445"
+        }
+      ],
+      "en": {
+        "headline": "Czech footballers have dropped to 53rd in the FIFA rankings",
+        "sentences": [
+          {
+            "en": "After two defeats in November the Czech footballers have dropped two places to 53rd in the FIFA national team rankings.",
+            "cs": "Čeští fotbalisté se po dvou listopadových porážkách propadli v žebříčku reprezentací FIFA o dvě pozice na 53. místo."
+          },
+          {
+            "en": "The national team is at its lowest since September 2017, when it stood 58th.",
+            "cs": "Národní tým je nejníže od září 2017, kdy mu patřila 58. příčka."
+          },
+          {
+            "en": "World champions Spain continue to lead the standings.",
+            "cs": "Pořadí nadále vedou mistři světa ze Španělska."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "defeats",
+            "definition": "matches that a team has lost"
+          },
+          {
+            "term": "rankings",
+            "definition": "a list that puts teams in order of strength"
+          },
+          {
+            "term": "standings",
+            "definition": "the current positions of teams in such a list"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "10:57",
+      "headline": "Pochettino se rozloučil s reprezentací USA výhrou a míří do Manchesteru United",
+      "body": "Fotbalisté USA pod vedením Mauricia Pochettina vyhráli úterní odvetu v Lize národů zóny CONCACAF nad Haiti 2:0, navázali na úvodní výhru 6:0 a postoupili do semifinále. Čtyřiapadesátiletý Argentinec se nyní přesune na lavičku Manchesteru United, kde ho už v neděli čeká debut na hřišti Liverpoolu.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-pochettino-se-pred-angazma-v-manchesteru-united-vitezne-rozloucil-s-vyberem-usa-5578441"
+        }
+      ],
+      "en": {
+        "headline": "Pochettino bowed out of the US team with a win and is heading to Manchester United",
+        "sentences": [
+          {
+            "en": "The United States, under Mauricio Pochettino, won Tuesday's CONCACAF Nations League second leg against Haiti 2:0, following up an opening 6:0 win, and reached the semi-finals.",
+            "cs": "Fotbalisté USA pod vedením Mauricia Pochettina vyhráli úterní odvetu v Lize národů zóny CONCACAF nad Haiti 2:0, navázali na úvodní výhru 6:0 a postoupili do semifinále."
+          },
+          {
+            "en": "The 54-year-old Argentine now moves to the bench at Manchester United, where a debut awaits on Sunday at Liverpool.",
+            "cs": "Čtyřiapadesátiletý Argentinec se nyní přesune na lavičku Manchesteru United, kde ho už v neděli čeká debut na hřišti Liverpoolu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "following up",
+            "definition": "doing something more after an earlier action"
+          },
+          {
+            "term": "bench",
+            "definition": "here: the coaching job at a club"
+          },
+          {
+            "term": "debut",
+            "definition": "a first appearance in a new role"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "16:39",
+      "day": "prev",
+      "headline": "Zverev a Alcaraz si zajistili semifinále Turnaje mistrů",
+      "body": "Alexander Zverev i Carlos Alcaraz vyhráli na Turnaji mistrů i druhý zápas ve skupině a s předstihem si zajistili postup do semifinále. Zverev zdolal Bena Sheltona 6:2 a 7:6. Naději na účast ve vyřazovacích bojích si vedle Sheltona udržel ve skupině Johna McEnroea i Francouz Arthur Fils, který porazil Španěla Rafaela Jódara.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/tenis-alcaraz-vyhral-i-druhy-zapas-na-turnaji-mistru-a-je-v-semifinale-5578476"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/tenis/fils-ma-na-turnaji-mistru-prvni-vyhru-dal-zivi-nadeji-na-postup-160006"
+        }
+      ],
+      "en": {
+        "headline": "Zverev and Alcaraz have secured semi-final places at the ATP Finals",
+        "sentences": [
+          {
+            "en": "Alexander Zverev and Carlos Alcaraz both won their second group match at the ATP Finals and secured a place in the semi-finals ahead of schedule.",
+            "cs": "Alexander Zverev i Carlos Alcaraz vyhráli na Turnaji mistrů i druhý zápas ve skupině a s předstihem si zajistili postup do semifinále."
+          },
+          {
+            "en": "Zverev beat Ben Shelton 6:2 and 7:6.",
+            "cs": "Zverev zdolal Bena Sheltona 6:2 a 7:6."
+          },
+          {
+            "en": "Alongside Shelton, Frenchman Arthur Fils also kept hopes of reaching the knockout stage in the John McEnroe group alive after beating Spain's Rafael Jódar.",
+            "cs": "Naději na účast ve vyřazovacích bojích si vedle Sheltona udržel ve skupině Johna McEnroea i Francouz Arthur Fils, který porazil Španěla Rafaela Jódara."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ahead of schedule",
+            "definition": "earlier than planned or needed"
+          },
+          {
+            "term": "knockout stage",
+            "definition": "the part of a tournament where the loser is eliminated"
+          },
+          {
+            "term": "Alongside",
+            "definition": "together with someone or something"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The Supreme Administrative Court has annulled the Senate election in the Žďár district, and the vote will be repeated from the first round.",
+    "Motoristé leader Petr Macinka has rejected the idea of constitutional safeguards for Czech Television and Czech Radio.",
+    "The European Commission has proposed a loan of 45 billion euros to Ukraine for 2027; according to E15, Czechia rejects it and Germany is threatening to block the EU budget over it.",
+    "The under-21 footballers drew with Turkey in Hradec Králové and qualified for the 2027 European Championship."
+  ]
+}
