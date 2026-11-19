@@ -1,0 +1,1556 @@
+{
+  "date": "2026-11-19",
+  "covers": "2026-11-19",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Root.cz",
+    "Hacker News",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "rain",
+    "summary": "Zítra přijdou slabé přeháňky a denní teplota vystoupí jen k 9 °C.",
+    "days": [
+      {
+        "date": "2026-11-20",
+        "icon": "rain",
+        "temp_max_c": 9.4,
+        "temp_min_c": 5.7
+      },
+      {
+        "date": "2026-11-21",
+        "icon": "cloudy",
+        "temp_max_c": 5.7,
+        "temp_min_c": 1.0
+      },
+      {
+        "date": "2026-11-22",
+        "icon": "cloudy",
+        "temp_max_c": 4.6,
+        "temp_min_c": 0.1
+      },
+      {
+        "date": "2026-11-23",
+        "icon": "snow",
+        "temp_max_c": 2.0,
+        "temp_min_c": -0.0
+      }
+    ],
+    "summary_en": "Tomorrow will bring light showers and the daytime temperature will climb only to 9 °C."
+  },
+  "highlights": [
+    "Trump, Putin a Si Ťin-pching se poprvé sešli ve třech a v čínském Šen-čenu vydali společnou Mírovou deklaraci.",
+    "Praha má nového primátora, stal se jím Petr Hlaváček ze STAN.",
+    "Mezinárodní soudní dvůr poprvé v historii shledal stát odpovědným za genocidu, odpovědnost nese Barma za násilí na Rohinzích.",
+    "Anthropic vstoupil na burzu s největším úpisem akcií v dějinách."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "15:10",
+      "headline": "Pražským primátorem je Petr Hlaváček, zastupitelé zvolili i celou radu",
+      "body": "Pražští zastupitelé ve čtvrtek zvolili primátorem dosavadního náměstka Petra Hlaváčka ze STAN. Nahradil Bohuslava Svobodu z ODS, který v pražském zastupitelstvu skončil. Lídr Starostů dostal podle Deníku N jasnou většinu 47 hlasů; koalici utvořily STAN, Spolu (ODS, TOP 09) a Praha sobě a v pětašedesátičlenném zastupitelstvu mají stejný počet mandátů. Hlaváček bude mít v radě na starosti územní a strategický rozvoj, bydlení a zahraniční vztahy. Po primátorovi a pěti náměstcích zastupitelé doplnili i zbylých pět členů jedenáctičlenné rady: Alexandru Udženiju (ODS), Tomáše Slabihoudka (TOP 09), Pavla Dobeše a Michala Biskupa (oba STAN) a Davida Bouze (Praha sobě). Náměstky primátora jsou mimo jiné lídr Spolu Tomáš Portlík a lídr Prahy sobě Adam Scheinherr. Rozpočet chce nové vedení schválit v prosinci v podobě, jakou připravila předchozí koalice, případné úpravy udělá až příští rok.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/prazskym-primatorem-je-hlavacek-nahradil-svobodu-v-koalici-bude-stan-se-spolu-a_2611191155_med"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/praha-ma-noveho-primatora-hlavacek-ze-stan-vystridal-svobodu-metropoli-povede-nova-koalice-1437430"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/volby-komunalni-novym-prazskym-primatorem-se-stal-petr-hlavacek-321024"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263722/"
+        }
+      ],
+      "en": {
+        "headline": "Petr Hlaváček is Prague's new mayor and the assembly elected the whole city council",
+        "sentences": [
+          {
+            "en": "Prague's city assembly on Thursday elected the outgoing deputy mayor Petr Hlaváček of STAN as mayor.",
+            "cs": "Pražští zastupitelé ve čtvrtek zvolili primátorem dosavadního náměstka Petra Hlaváčka ze STAN."
+          },
+          {
+            "en": "He replaced Bohuslav Svoboda of ODS, who has left the Prague assembly.",
+            "cs": "Nahradil Bohuslava Svobodu z ODS, který v pražském zastupitelstvu skončil."
+          },
+          {
+            "en": "The STAN leader received a clear majority of 47 votes, according to Deník N; the coalition was formed by STAN, Spolu (ODS, TOP 09) and Praha sobě, which hold the same number of seats in the 65-member assembly.",
+            "cs": "Lídr Starostů dostal podle Deníku N jasnou většinu 47 hlasů; koalici utvořily STAN, Spolu (ODS, TOP 09) a Praha sobě a v pětašedesátičlenném zastupitelstvu mají stejný počet mandátů."
+          },
+          {
+            "en": "On the council Hlaváček will be responsible for spatial and strategic development, housing and foreign relations.",
+            "cs": "Hlaváček bude mít v radě na starosti územní a strategický rozvoj, bydlení a zahraniční vztahy."
+          },
+          {
+            "en": "After the mayor and five deputies, the assembly also filled the remaining five seats on the 11-member council: Alexandra Udženija (ODS), Tomáš Slabihoudek (TOP 09), Pavel Dobeš and Michal Biskup (both STAN) and David Bouz (Praha sobě).",
+            "cs": "Po primátorovi a pěti náměstcích zastupitelé doplnili i zbylých pět členů jedenáctičlenné rady: Alexandru Udženiju (ODS), Tomáše Slabihoudka (TOP 09), Pavla Dobeše a Michala Biskupa (oba STAN) a Davida Bouze (Praha sobě)."
+          },
+          {
+            "en": "The deputy mayors include the Spolu leader Tomáš Portlík and the Praha sobě leader Adam Scheinherr.",
+            "cs": "Náměstky primátora jsou mimo jiné lídr Spolu Tomáš Portlík a lídr Prahy sobě Adam Scheinherr."
+          },
+          {
+            "en": "The new leadership wants to approve the budget in December in the form prepared by the previous coalition, and will make any adjustments only next year.",
+            "cs": "Rozpočet chce nové vedení schválit v prosinci v podobě, jakou připravila předchozí koalice, případné úpravy udělá až příští rok."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "outgoing",
+            "definition": "leaving a job or position soon"
+          },
+          {
+            "term": "spatial",
+            "definition": "connected with space and how things are arranged in it"
+          },
+          {
+            "term": "deputies",
+            "definition": "people whose rank is just below the leader of an organisation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "14:56",
+      "headline": "Vystrčil byl popáté zvolen předsedou Senátu, získal i hlasy z ANO",
+      "body": "Senát se poprvé sešel v povolebním složení a popáté zvolil předsedou Miloše Vystrčila z ODS. Protikandidáta neměl a získal 69 ze 77 odevzdaných hlasů, tedy o sedm více než při volbě před dvěma lety; s ohledem na rozložení sil v horní komoře to znamená, že ho podpořili i senátoři z klubu vládního hnutí ANO. Před volbou řekl, že Senát by měl zůstat vzpřímený a zachovat si svou identitu, charakter a sebevědomí. Místopředsedy zůstávají Jiří Drahoš (klub STAN), Jiří Oberfalzer (ODS a TOP 09) a Ladislav Václavec (ANO), nově se jím stal také Jan Grolich (KDU-ČSL). Senát si zřídil dvě nové komise, pro důstojnost, rovné příležitosti a boj se závislostmi a pro odolný a připravený stát, a celkem jich má devět. Poprvé byl Vystrčil do čela komory zvolen v únoru 2020 po náhle zemřelém Jaroslavu Kuberovi.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/senatori-na-ustavujici-schuzi-zvoli-nove-vedeni-horni-komory-379749"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-vystrcil-byl-popate-zvolen-predsedou-senatu-opet-nemel-protikandidata-321017"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/domaci/politika/vystrcil-popate-obhajil-post-predsedy-senatu-nemel-protikandidata-ziskal-vice-hlasu-nez-minule-1437429"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263316/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263671/"
+        }
+      ],
+      "en": {
+        "headline": "Vystrčil was elected Senate speaker for the fifth time and won votes from ANO as well",
+        "sentences": [
+          {
+            "en": "The Senate met for the first time in its post-election composition and elected Miloš Vystrčil of ODS as its speaker for the fifth time.",
+            "cs": "Senát se poprvé sešel v povolebním složení a popáté zvolil předsedou Miloše Vystrčila z ODS."
+          },
+          {
+            "en": "He had no rival candidate and received 69 of the 77 votes cast, seven more than in the election two years ago; given the balance of power in the upper chamber, this means he was also backed by senators from the governing movement ANO.",
+            "cs": "Protikandidáta neměl a získal 69 ze 77 odevzdaných hlasů, tedy o sedm více než při volbě před dvěma lety; s ohledem na rozložení sil v horní komoře to znamená, že ho podpořili i senátoři z klubu vládního hnutí ANO."
+          },
+          {
+            "en": "Before the vote he said the Senate should remain upright and keep its identity, its character and its self-confidence.",
+            "cs": "Před volbou řekl, že Senát by měl zůstat vzpřímený a zachovat si svou identitu, charakter a sebevědomí."
+          },
+          {
+            "en": "Jiří Drahoš (STAN group), Jiří Oberfalzer (ODS and TOP 09) and Ladislav Václavec (ANO) remain deputy speakers, and Jan Grolich (KDU-ČSL) has newly joined them.",
+            "cs": "Místopředsedy zůstávají Jiří Drahoš (klub STAN), Jiří Oberfalzer (ODS a TOP 09) a Ladislav Václavec (ANO), nově se jím stal také Jan Grolich (KDU-ČSL)."
+          },
+          {
+            "en": "The Senate set up two new commissions, one for dignity, equal opportunities and the fight against addiction and one for a resilient and prepared state, bringing the total to nine.",
+            "cs": "Senát si zřídil dvě nové komise, pro důstojnost, rovné příležitosti a boj se závislostmi a pro odolný a připravený stát, a celkem jich má devět."
+          },
+          {
+            "en": "Vystrčil was first elected to head the chamber in February 2020, after the sudden death of Jaroslav Kubera.",
+            "cs": "Poprvé byl Vystrčil do čela komory zvolen v únoru 2020 po náhle zemřelém Jaroslavu Kuberovi."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "cast",
+            "definition": "to cast a vote means to formally choose someone in an election"
+          },
+          {
+            "term": "backed",
+            "definition": "supported"
+          },
+          {
+            "term": "resilient",
+            "definition": "able to recover quickly after something difficult"
+          },
+          {
+            "term": "dignity",
+            "definition": "the quality of deserving respect"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "16:00",
+      "headline": "Dotace na rozvoj venkova míří hlavně k velkým podnikům, mezi doporučenými je i Agrofert",
+      "body": "Ministerstvo zemědělství letos z dotací na rozvoj venkova podpoří velké podniky, které mají dostat 1,7 miliardy korun z celkových tří miliard. Mezi doporučenými projekty je i Agrofert. Ministerstvo v tiskové zprávě dodalo, že doporučení neznamená, že projekty budou schváleny, a že zaměřit dotace na velké podniky se rozhodlo kvůli předchozím kolům.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263837/"
+        }
+      ],
+      "en": {
+        "headline": "Rural development subsidies go mainly to large companies, and Agrofert is among those recommended",
+        "sentences": [
+          {
+            "en": "This year the Ministry of Agriculture will give its rural development subsidies to large companies, which are to receive 1.7 billion crowns out of a total of three billion.",
+            "cs": "Ministerstvo zemědělství letos z dotací na rozvoj venkova podpoří velké podniky, které mají dostat 1,7 miliardy korun z celkových tří miliard."
+          },
+          {
+            "en": "Agrofert is among the recommended projects.",
+            "cs": "Mezi doporučenými projekty je i Agrofert."
+          },
+          {
+            "en": "In a press release the ministry added that a recommendation does not mean the projects will be approved, and that it decided to target the subsidies at large companies because of previous rounds.",
+            "cs": "Ministerstvo v tiskové zprávě dodalo, že doporučení neznamená, že projekty budou schváleny, a že zaměřit dotace na velké podniky se rozhodlo kvůli předchozím kolům."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "subsidies",
+            "definition": "money given by a government to help a business or industry"
+          },
+          {
+            "term": "rural",
+            "definition": "connected with the countryside"
+          },
+          {
+            "term": "press release",
+            "definition": "an official statement that an organisation gives to journalists"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:40",
+      "headline": "Vedoucí severočeských úřadů jezdili na zájezdy placené ČEZem",
+      "body": "Vedoucí úředníci severočeských úřadů jezdili na zájezdy hrazené společností ČEZ, přestože jim zákon zakazuje přijímat dary a výhody, zjistily Seznam Zprávy. Podle předních českých právníků, které server oslovil, praxe zavání systémovou korupcí. Ministerstvo vnitra podle Seznam Zpráv odkazuje na policii.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-urednici-na-vyletech-za-penize-cez-blizi-se-to-systemove-korupci-320376"
+        }
+      ],
+      "en": {
+        "headline": "Senior officials in north Bohemia went on trips paid for by ČEZ",
+        "sentences": [
+          {
+            "en": "Senior officials at north Bohemian authorities went on trips paid for by the company ČEZ, even though the law forbids them from accepting gifts and benefits, Seznam Zprávy has found.",
+            "cs": "Vedoucí úředníci severočeských úřadů jezdili na zájezdy hrazené společností ČEZ, přestože jim zákon zakazuje přijímat dary a výhody, zjistily Seznam Zprávy."
+          },
+          {
+            "en": "According to leading Czech lawyers approached by the website, the practice smacks of systemic corruption.",
+            "cs": "Podle předních českých právníků, které server oslovil, praxe zavání systémovou korupcí."
+          },
+          {
+            "en": "The Interior Ministry, Seznam Zprávy reports, points to the police.",
+            "cs": "Ministerstvo vnitra podle Seznam Zpráv odkazuje na policii."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "forbids",
+            "definition": "orders someone not to do something"
+          },
+          {
+            "term": "smacks of",
+            "definition": "seems to have an unpleasant quality"
+          },
+          {
+            "term": "systemic",
+            "definition": "affecting a whole system rather than one part of it"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "09:13",
+      "headline": "Obvodní soud v kauze Feri špatně vyhodnotil důkazy, vysvětlil městský soud",
+      "body": "Městský soud v Praze vysvětlil, proč v září zrušil osvobozující rozsudek nad bývalým poslancem Dominikem Ferim, který je obžalovaný ze znásilnění tehdy sedmnáctileté dívky. Podle mluvčí soudu Kateřiny Eliášové obvodní soud špatně vyhodnotil důkazy a věc chybně posoudil po právní stránce. Jeho závěr, že nejde o trestný čin, označil odvolací soud přinejmenším za předčasný.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/obvodni-soud-v-pripadu-feri-spatne-vyhodnotil-dukazy-uvedl-mestsky-soud-379748"
+        }
+      ],
+      "en": {
+        "headline": "The district court assessed the evidence wrongly in the Feri case, the municipal court explained",
+        "sentences": [
+          {
+            "en": "The Municipal Court in Prague has explained why it overturned in September the acquittal of former MP Dominik Feri, who is charged with raping a girl who was 17 at the time.",
+            "cs": "Městský soud v Praze vysvětlil, proč v září zrušil osvobozující rozsudek nad bývalým poslancem Dominikem Ferim, který je obžalovaný ze znásilnění tehdy sedmnáctileté dívky."
+          },
+          {
+            "en": "According to court spokesperson Kateřina Eliášová, the district court assessed the evidence wrongly and judged the matter incorrectly in legal terms.",
+            "cs": "Podle mluvčí soudu Kateřiny Eliášové obvodní soud špatně vyhodnotil důkazy a věc chybně posoudil po právní stránce."
+          },
+          {
+            "en": "The appeal court called its conclusion that no criminal offence had taken place premature at the very least.",
+            "cs": "Jeho závěr, že nejde o trestný čin, označil odvolací soud přinejmenším za předčasný."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "overturned",
+            "definition": "officially changed an earlier decision"
+          },
+          {
+            "term": "acquittal",
+            "definition": "a court decision that someone is not guilty"
+          },
+          {
+            "term": "premature",
+            "definition": "happening too early"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "12:45",
+      "headline": "Nový úsek D35 mezi Sadovou a Plotištěmi se otevře 16. prosince",
+      "body": "Ředitelství silnic a dálnic upřesnilo termín otevření nového úseku dálnice D35 mezi Sadovou a Plotištěmi. Dosud mluvilo vágně o prosinci, na dotaz Hradeckého deníku teď mluvčí Petra Drkulová uvedla: „Úsek D35 z Plotišť do Sadové bude zprovozněn 16. prosince.“",
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/zpravy-region/d35-sadova-plotiste-termin-otevteni/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=zpravy-region"
+        }
+      ],
+      "en": {
+        "headline": "The new D35 stretch between Sadová and Plotiště will open on 16 December",
+        "sentences": [
+          {
+            "en": "The Road and Motorway Directorate has specified when the new stretch of the D35 motorway between Sadová and Plotiště will open.",
+            "cs": "Ředitelství silnic a dálnic upřesnilo termín otevření nového úseku dálnice D35 mezi Sadovou a Plotištěmi."
+          },
+          {
+            "en": "Until now it had spoken vaguely about December; asked by Hradecký deník, its spokesperson Petra Drkulová now said: “The D35 section from Plotiště to Sadová will be put into operation on 16 December.”",
+            "cs": "Dosud mluvilo vágně o prosinci, na dotaz Hradeckého deníku teď mluvčí Petra Drkulová uvedla: „Úsek D35 z Plotišť do Sadové bude zprovozněn 16. prosince.“"
+          }
+        ],
+        "glossary": [
+          {
+            "term": "stretch",
+            "definition": "a continuous length of road or land"
+          },
+          {
+            "term": "vaguely",
+            "definition": "in a way that is not clear or exact"
+          },
+          {
+            "term": "put into operation",
+            "definition": "to start being used"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "11:28",
+      "headline": "Špindlerův Mlýn nemá nového starostu, Jandurovi chyběl jediný hlas",
+      "body": "Zastupitelé Špindlerova Mlýna se na ustavující schůzi nedokázali shodnout na novém starostovi. Dosavadnímu starostovi Martinu Jandurovi chyběl k obhajobě jediný hlas a k volbě místostarosty a rady se jednání vůbec nedostalo. Patové situaci předcházela žaloba na neplatnost voleb, jejímž cílem bylo podle iDNES.cz získat čas na povolební vyjednávání. Deník N popisuje, že lidé ze sálu odcházeli rozladění a mluvili o frašce; celé jednání sledovali i zástupci skupiny Penta, která chce ve městě stavět a potřebuje k tomu souhlas zastupitelů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/spindleruv-mlyn-komunalni-volby-starosta-jandura-zaloba-soud.A261119_085854_hradec-volby_tuu#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2262523/jste-sluhove-a-lokajove-lobbistu-zastupitele-spindlerova-mlyna-nedokazali-vybrat-starostu/"
+        }
+      ],
+      "en": {
+        "headline": "Špindlerův Mlýn has no new mayor, Jandura fell one vote short",
+        "sentences": [
+          {
+            "en": "Councillors in Špindlerův Mlýn failed to agree on a new mayor at their inaugural session.",
+            "cs": "Zastupitelé Špindlerova Mlýna se na ustavující schůzi nedokázali shodnout na novém starostovi."
+          },
+          {
+            "en": "The incumbent mayor Martin Jandura was one vote short of keeping the post, and the session never even got to electing a deputy mayor and the council.",
+            "cs": "Dosavadnímu starostovi Martinu Jandurovi chyběl k obhajobě jediný hlas a k volbě místostarosty a rady se jednání vůbec nedostalo."
+          },
+          {
+            "en": "The deadlock was preceded by a lawsuit seeking to have the election declared invalid, which according to iDNES.cz was meant to buy time for post-election bargaining.",
+            "cs": "Patové situaci předcházela žaloba na neplatnost voleb, jejímž cílem bylo podle iDNES.cz získat čas na povolební vyjednávání."
+          },
+          {
+            "en": "Deník N describes people leaving the hall disgruntled and calling the whole thing a farce; the session was also watched by representatives of the Penta group, which wants to build in the town and needs the councillors' consent for that.",
+            "cs": "Deník N popisuje, že lidé ze sálu odcházeli rozladění a mluvili o frašce; celé jednání sledovali i zástupci skupiny Penta, která chce ve městě stavět a potřebuje k tomu souhlas zastupitelů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "incumbent",
+            "definition": "currently holding a position or office"
+          },
+          {
+            "term": "deadlock",
+            "definition": "a situation in which no progress can be made"
+          },
+          {
+            "term": "disgruntled",
+            "definition": "annoyed and disappointed"
+          },
+          {
+            "term": "farce",
+            "definition": "a situation that is badly organised and impossible to take seriously"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "09:11",
+      "headline": "Správa KRNAP neuspěla s odvoláním a má doplatit 25 milionů na DPH",
+      "body": "Odvolací finanční ředitelství v Brně nevyhoví Správě Krkonošského národního parku, která se bránila doplatku 25 milionů korun za chybné účtování DPH. Potvrdily to iDNES.cz dva zdroje obeznámené s případem. Podle ministerstva životního prostředí by doplatky za další období mohly narůst až na 100 milionů.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/odvolani-financni-urad-sprava-krnap-uctovani-dph-25-milionu.A261118_163759_hradec-zpravy_the#utm_source=rss&utm_medium=feed&utm_campaign=hradec&utm_content=main"
+        }
+      ],
+      "en": {
+        "headline": "The KRNAP administration lost its appeal and must pay 25 million in back VAT",
+        "sentences": [
+          {
+            "en": "The Appellate Financial Directorate in Brno will not grant the appeal of the Krkonoše National Park administration, which had challenged an additional payment of 25 million crowns for incorrectly accounted VAT.",
+            "cs": "Odvolací finanční ředitelství v Brně nevyhoví Správě Krkonošského národního parku, která se bránila doplatku 25 milionů korun za chybné účtování DPH."
+          },
+          {
+            "en": "Two sources familiar with the case confirmed this to iDNES.cz.",
+            "cs": "Potvrdily to iDNES.cz dva zdroje obeznámené s případem."
+          },
+          {
+            "en": "According to the Ministry of the Environment, additional payments for further periods could grow to as much as 100 million.",
+            "cs": "Podle ministerstva životního prostředí by doplatky za další období mohly narůst až na 100 milionů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "appeal",
+            "definition": "a formal request for a higher authority to change a decision"
+          },
+          {
+            "term": "grant",
+            "definition": "to agree to give or allow something"
+          },
+          {
+            "term": "challenged",
+            "definition": "questioned whether something is right or lawful"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "22:28",
+      "day": "prev",
+      "headline": "Mountfield rozstřílel Kometu 6:0 a vyhrál podruhé za sebou",
+      "body": "Hokejisté Hradce Králové v dohrávce 16. kola extraligy rozstříleli Kometu Brno 6:0. Dvěma góly se blýskl Radovan Pavlík, první extraligovou trefu oslavil dvacetiletý Lukáš Král a brankář Stanislav Škorvánek vychytal druhé čisté konto v sezoně. Mountfield navázal na výhru na Spartě.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://hradecky.denik.cz/hokej/hradec-po-vyhre-nad-spartou-znicil-kometu-vala-dvakrat-asistoval-mladik-slavil/?utm_source=rss&utm_medium=feed-vse&utm_campaign=hradecky.denik.cz&utm_content=hokej"
+        },
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/906123-hokejiste-hradce-kralove-rozdrtili-kometu-6-0-dvakrat-skoroval-pavlik.html"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/olomouc-kousala-ale-z-trince-neveze-ani-bod-v-zaveru-rozhodl-dano-160019"
+        }
+      ],
+      "en": {
+        "headline": "Mountfield thrashed Kometa 6:0 and won for the second time in a row",
+        "sentences": [
+          {
+            "en": "The Hradec Králové hockey team thrashed Kometa Brno 6:0 in a rescheduled game of the 16th round of the extraliga.",
+            "cs": "Hokejisté Hradce Králové v dohrávce 16. kola extraligy rozstříleli Kometu Brno 6:0."
+          },
+          {
+            "en": "Radovan Pavlík shone with two goals, twenty-year-old Lukáš Král celebrated his first extraliga goal and goalkeeper Stanislav Škorvánek kept his second clean sheet of the season.",
+            "cs": "Dvěma góly se blýskl Radovan Pavlík, první extraligovou trefu oslavil dvacetiletý Lukáš Král a brankář Stanislav Škorvánek vychytal druhé čisté konto v sezoně."
+          },
+          {
+            "en": "Mountfield followed up on its win at Sparta.",
+            "cs": "Mountfield navázal na výhru na Spartě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "thrashed",
+            "definition": "defeated very easily"
+          },
+          {
+            "term": "rescheduled",
+            "definition": "moved to a different date or time"
+          },
+          {
+            "term": "clean sheet",
+            "definition": "a game in which a team lets in no goals"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:28",
+      "headline": "Trump, Putin a Si se sešli v Šen-čenu a vydali společnou Mírovou deklaraci",
+      "body": "Donald Trump, Vladimir Putin a Si Ťin-pching se v čínském Šen-čenu sešli v tomto složení poprvé v historii; podle čínských státních médií trvalo jednání na okraji summitu APEC zhruba 90 minut. Čína, Rusko a Spojené státy po něm vydaly společné prohlášení nazvané Mírová deklarace, v němž chtějí vést dialog o snížení jaderného nebezpečí a plánují zvýšit produkci a dodávky ropných produktů; dokument mimo jiné kritizuje Mezinárodní trestní soud. Putin na následné tiskové konferenci prohlásil, že Ukrajina ani Evropa nejsou připraveny ke kompromisům, obvinil Kyjev z odmítání mírové dohody a odmítl jednat o energetickém příměří po ukrajinském útoku na Krymský most. Evropanům podle svých slov předal pozvání do Moskvy diplomatickými kanály: „Jednat o bezpečnosti Evropy bez Evropy – to by asi taky bylo divné, že? Nejsme proti, ale musíme pochopit, s čím Evropa na rozhovory půjde.“ Si označil jednání za konstruktivní, pozitivní a produktivní, Putin chce, aby podobné schůzky pokračovaly. Oba hosté opustili místo konání hned po jednání. Deník N a iROZHLAS upozorňují, že zatímco Trumpa čínský prezident přivítal osobně, Putin okázalé přivítání nedostal; podle analytiků oslovených iROZHLAS mohly Trumpovu účast ovlivnit prohrané volby do Kongresu a Si jeho oslabené pozice využívá. Podle Seznam Zpráv přinesl summit spoustu vzletných slov, ale minimum konkrétních řešení.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/dialog-o-jadernych-zbranich-a-vetsi-produkce-ropy-pozaduji-trump-si-a-putin-379751"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/trump-putin-a-si-tin-pching-vydali-spolecnou-mirovou-deklaraci-chteji-omezit-jaderna-rizika-1437432"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/cinsky-prezident-chce-vyuzit-oslabene-pozice-trumpa-putinovi-ukazal-kde-je-jeho_2611191139_jor"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-co-prinesl-summit-trump-si-putin-fotografii-a-vyroky-bez-sebereflexe-321058"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263562/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263445/"
+        }
+      ],
+      "en": {
+        "headline": "Trump, Putin and Xi met in Shenzhen and issued a joint Peace Declaration",
+        "sentences": [
+          {
+            "en": "Donald Trump, Vladimir Putin and Xi Jinping met in this configuration for the first time in history in the Chinese city of Shenzhen; according to Chinese state media the talks on the sidelines of the APEC summit lasted about 90 minutes.",
+            "cs": "Donald Trump, Vladimir Putin a Si Ťin-pching se v čínském Šen-čenu sešli v tomto složení poprvé v historii; podle čínských státních médií trvalo jednání na okraji summitu APEC zhruba 90 minut."
+          },
+          {
+            "en": "China, Russia and the United States afterwards issued a joint statement called the Peace Declaration, in which they want to hold a dialogue on reducing nuclear danger and plan to increase the production and supply of oil products; the document criticises the International Criminal Court, among other things.",
+            "cs": "Čína, Rusko a Spojené státy po něm vydaly společné prohlášení nazvané Mírová deklarace, v němž chtějí vést dialog o snížení jaderného nebezpečí a plánují zvýšit produkci a dodávky ropných produktů; dokument mimo jiné kritizuje Mezinárodní trestní soud."
+          },
+          {
+            "en": "At the following press conference Putin declared that neither Ukraine nor Europe is ready to compromise, accused Kyiv of refusing a peace deal and ruled out talks on an energy truce after the Ukrainian strike on the Crimean Bridge.",
+            "cs": "Putin na následné tiskové konferenci prohlásil, že Ukrajina ani Evropa nejsou připraveny ke kompromisům, obvinil Kyjev z odmítání mírové dohody a odmítl jednat o energetickém příměří po ukrajinském útoku na Krymský most."
+          },
+          {
+            "en": "He said he had passed an invitation to Moscow to the Europeans through diplomatic channels: “Negotiating about Europe's security without Europe – that would probably be odd too, wouldn't it? We are not against it, but we have to understand what Europe will bring to the talks.”",
+            "cs": "Evropanům podle svých slov předal pozvání do Moskvy diplomatickými kanály: „Jednat o bezpečnosti Evropy bez Evropy – to by asi taky bylo divné, že? Nejsme proti, ale musíme pochopit, s čím Evropa na rozhovory půjde.“"
+          },
+          {
+            "en": "Xi called the talks constructive, positive and productive, and Putin wants such meetings to continue.",
+            "cs": "Si označil jednání za konstruktivní, pozitivní a produktivní, Putin chce, aby podobné schůzky pokračovaly."
+          },
+          {
+            "en": "Both guests left the venue immediately after the talks.",
+            "cs": "Oba hosté opustili místo konání hned po jednání."
+          },
+          {
+            "en": "Deník N and iROZHLAS point out that while the Chinese president welcomed Trump in person, Putin got no lavish welcome; according to analysts approached by iROZHLAS, Trump's attendance may have been shaped by the lost Congressional elections, and Xi is exploiting his weakened position.",
+            "cs": "Deník N a iROZHLAS upozorňují, že zatímco Trumpa čínský prezident přivítal osobně, Putin okázalé přivítání nedostal; podle analytiků oslovených iROZHLAS mohly Trumpovu účast ovlivnit prohrané volby do Kongresu a Si jeho oslabené pozice využívá."
+          },
+          {
+            "en": "According to Seznam Zprávy the summit produced plenty of lofty words but hardly any concrete solutions.",
+            "cs": "Podle Seznam Zpráv přinesl summit spoustu vzletných slov, ale minimum konkrétních řešení."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sidelines",
+            "definition": "on the sidelines means during an event but not as part of its main programme"
+          },
+          {
+            "term": "truce",
+            "definition": "an agreement to stop fighting for a period of time"
+          },
+          {
+            "term": "lavish",
+            "definition": "very generous or impressive"
+          },
+          {
+            "term": "lofty",
+            "definition": "sounding grand and important, perhaps without real meaning"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:56",
+      "headline": "Mezinárodní soudní dvůr poprvé shledal stát odpovědným za genocidu, jde o Barmu",
+      "body": "Mezinárodní soudní dvůr rozhodl, že Barma je odpovědná za genocidu muslimské menšiny Rohingů. Podle soudu bylo záměrem Barmy v roce 2017 zničit významnou část příslušníků této menšiny; tisíce vražd a rozsáhlé sexuální násilí, kterých se tehdy dopustily barmské bezpečnostní složky, označil za genocidu podporovanou státem. Podle agentury DPA je to poprvé, kdy nejvyšší soud OSN shledal nějaký stát odpovědným za genocidu, a rozhodnutí je konečné, odvolat se proti němu nelze. Seznam Zprávy dodávají, že statisíce přeživších ani devět let po útěku před násilím nemají vyhlídku na bezpečný návrat domů.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/myanmar-je-zodpovedny-za-genocidu-rohingu-rozhodl-icj-379753"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-svet/barma-je-odpovedna-za-genocidu-rohingu-rozhodl-mezinarodni-soudni-dvur_2611191356_jor"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-poprve-v-historii-soud-osn-uznal-myanmar-vinnym-z-genocidy-rohingu-321034"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263290/"
+        }
+      ],
+      "en": {
+        "headline": "For the first time the International Court of Justice has found a state responsible for genocide, and it is Myanmar",
+        "sentences": [
+          {
+            "en": "The International Court of Justice has ruled that Myanmar is responsible for the genocide of the Muslim Rohingya minority.",
+            "cs": "Mezinárodní soudní dvůr rozhodl, že Barma je odpovědná za genocidu muslimské menšiny Rohingů."
+          },
+          {
+            "en": "According to the court, Myanmar's intention in 2017 was to destroy a substantial part of the members of this minority; it described the thousands of killings and the widespread sexual violence committed at the time by Myanmar's security forces as a state-backed genocide.",
+            "cs": "Podle soudu bylo záměrem Barmy v roce 2017 zničit významnou část příslušníků této menšiny; tisíce vražd a rozsáhlé sexuální násilí, kterých se tehdy dopustily barmské bezpečnostní složky, označil za genocidu podporovanou státem."
+          },
+          {
+            "en": "According to the DPA news agency this is the first time the UN's highest court has found a state responsible for genocide, and the ruling is final, with no possibility of appeal.",
+            "cs": "Podle agentury DPA je to poprvé, kdy nejvyšší soud OSN shledal nějaký stát odpovědným za genocidu, a rozhodnutí je konečné, odvolat se proti němu nelze."
+          },
+          {
+            "en": "Seznam Zprávy adds that hundreds of thousands of survivors still have no prospect of a safe return home, nine years after fleeing the violence.",
+            "cs": "Seznam Zprávy dodávají, že statisíce přeživších ani devět let po útěku před násilím nemají vyhlídku na bezpečný návrat domů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "substantial",
+            "definition": "large in size, amount or importance"
+          },
+          {
+            "term": "widespread",
+            "definition": "happening in many places or among many people"
+          },
+          {
+            "term": "prospect",
+            "definition": "the possibility that something will happen"
+          },
+          {
+            "term": "fleeing",
+            "definition": "running away from danger"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:47",
+      "headline": "Kushner a Witkoff jednali v Berlíně s Merzem před zasedáním koalice ochotných",
+      "body": "Američtí vyjednavači Jared Kushner a Steve Witkoff jednali v Berlíně s německým kancléřem Friedrichem Merzem o Ukrajině; setkání předcházelo zasedání takzvané koalice ochotných. Kushner pak na síti X napsal, že Spojené státy dál koordinují své pozice s Německem, Ukrajinou a dalšími evropskými partnery a připravují se na další kolo jednání o ukončení války. Generální tajemník NATO Mark Rutte řekl, že hlavními tématy jednání bude, jak dosáhnout míru na Ukrajině a jak Ukrajinu do té doby udržet silnou. Financování České televize a Českého rozhlasu na programu není, sdělil mluvčí německé vlády v reakci na středeční výzvu Německého svazu novinářů, aby Merz téma otevřel u příležitosti Babišovy účasti na schůzce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263826/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263715/"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-koalice-ochotnych-ma-jina-temata-nez-financovani-ct-a-cro-uvedl-berlin-321051"
+        }
+      ],
+      "en": {
+        "headline": "Kushner and Witkoff met Merz in Berlin ahead of the coalition of the willing session",
+        "sentences": [
+          {
+            "en": "The American negotiators Jared Kushner and Steve Witkoff held talks in Berlin with German Chancellor Friedrich Merz about Ukraine; the meeting came before a session of the so-called coalition of the willing.",
+            "cs": "Američtí vyjednavači Jared Kushner a Steve Witkoff jednali v Berlíně s německým kancléřem Friedrichem Merzem o Ukrajině; setkání předcházelo zasedání takzvané koalice ochotných."
+          },
+          {
+            "en": "Kushner then wrote on X that the United States continues to coordinate its positions with Germany, Ukraine and other European partners and is preparing for another round of talks on ending the war.",
+            "cs": "Kushner pak na síti X napsal, že Spojené státy dál koordinují své pozice s Německem, Ukrajinou a dalšími evropskými partnery a připravují se na další kolo jednání o ukončení války."
+          },
+          {
+            "en": "NATO Secretary General Mark Rutte said the main topics of the meeting would be how to achieve peace in Ukraine and how to keep Ukraine strong until then.",
+            "cs": "Generální tajemník NATO Mark Rutte řekl, že hlavními tématy jednání bude, jak dosáhnout míru na Ukrajině a jak Ukrajinu do té doby udržet silnou."
+          },
+          {
+            "en": "The funding of Czech Television and Czech Radio is not on the agenda, a spokesperson for the German government said in response to Wednesday's call by the German Journalists' Association for Merz to raise the topic during Babiš's attendance at the meeting.",
+            "cs": "Financování České televize a Českého rozhlasu na programu není, sdělil mluvčí německé vlády v reakci na středeční výzvu Německého svazu novinářů, aby Merz téma otevřel u příležitosti Babišovy účasti na schůzce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "negotiators",
+            "definition": "people who try to reach an agreement through discussion"
+          },
+          {
+            "term": "agenda",
+            "definition": "the list of things to be discussed at a meeting"
+          },
+          {
+            "term": "attendance",
+            "definition": "the fact of being present at an event"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "04:08",
+      "headline": "Po dalším úderu na Krymský most stojí i vlaky",
+      "body": "Po dalším ukrajinském útoku byl na Krymském mostě přerušen i provoz vlaků, Kyjev úder potvrdil. Jak velké jsou škody, zatím není jasné. Ukrajina na spojnici ruské pevniny s okupovaným Krymem zaútočila už v pondělí a v úterý; tyto údery zcela zničily silniční část hlavního pole mostu pod oblouky a poškodily i železniční část. Podle expertů, které citovala ČT24, můžou opravy trvat i roky.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/na-krymskem-moste-byla-po-dalsim-utoku-prerusena-doprava-379743"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/castecne-zniceni-krymskeho-mostu-ma-symbolicky-i-logisticky-vyznam-379730"
+        }
+      ],
+      "en": {
+        "headline": "After another strike on the Crimean Bridge the trains have stopped too",
+        "sentences": [
+          {
+            "en": "After another Ukrainian attack, rail traffic on the Crimean Bridge has been halted as well, and Kyiv has confirmed the strike.",
+            "cs": "Po dalším ukrajinském útoku byl na Krymském mostě přerušen i provoz vlaků, Kyjev úder potvrdil."
+          },
+          {
+            "en": "How big the damage is remains unclear.",
+            "cs": "Jak velké jsou škody, zatím není jasné."
+          },
+          {
+            "en": "Ukraine had already attacked the link between the Russian mainland and occupied Crimea on Monday and Tuesday; those strikes completely destroyed the road section of the bridge's main span under the arches and also damaged the rail section.",
+            "cs": "Ukrajina na spojnici ruské pevniny s okupovaným Krymem zaútočila už v pondělí a v úterý; tyto údery zcela zničily silniční část hlavního pole mostu pod oblouky a poškodily i železniční část."
+          },
+          {
+            "en": "According to experts quoted by ČT24, repairs could take years.",
+            "cs": "Podle expertů, které citovala ČT24, můžou opravy trvat i roky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "halted",
+            "definition": "stopped"
+          },
+          {
+            "term": "mainland",
+            "definition": "the main area of land of a country, not its islands"
+          },
+          {
+            "term": "span",
+            "definition": "the part of a bridge between two supports"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:02",
+      "headline": "Evropskou komisi zasáhl rozsáhlý kybernetický útok",
+      "body": "Evropskou komisi zasáhl rozsáhlý kybernetický útok, který mohl ohrozit osobní údaje jejích zaměstnanců. Hackeři podle serveru Politico využili nástroj umělé inteligence k odhalování zranitelností v počítačových systémech. Útok narušil fungování některých interních služeb Komise a jeho plným rozsahem se úřady stále zabývají.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/evropskou-komisi-zasahl-rozsahly-kyberneticky-utok-379750"
+        }
+      ],
+      "en": {
+        "headline": "A large-scale cyberattack has hit the European Commission",
+        "sentences": [
+          {
+            "en": "A large-scale cyberattack has hit the European Commission and may have put the personal data of its staff at risk.",
+            "cs": "Evropskou komisi zasáhl rozsáhlý kybernetický útok, který mohl ohrozit osobní údaje jejích zaměstnanců."
+          },
+          {
+            "en": "According to the Politico website, the hackers used an artificial intelligence tool to find vulnerabilities in computer systems.",
+            "cs": "Hackeři podle serveru Politico využili nástroj umělé inteligence k odhalování zranitelností v počítačových systémech."
+          },
+          {
+            "en": "The attack disrupted some of the Commission's internal services and the authorities are still working out its full extent.",
+            "cs": "Útok narušil fungování některých interních služeb Komise a jeho plným rozsahem se úřady stále zabývají."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "vulnerabilities",
+            "definition": "weak points that can be used to attack a system"
+          },
+          {
+            "term": "disrupted",
+            "definition": "interrupted the normal working of something"
+          },
+          {
+            "term": "extent",
+            "definition": "how large or serious something is"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:48",
+      "headline": "Anthropic vstoupil na burzu s největším úpisem akcií v historii",
+      "body": "Primární veřejná nabídka akcií americké firmy Anthropic vynesla 81,3 miliardy dolarů, tedy zhruba 1,8 bilionu korun, a stala se tak největší v historii. Dosavadní rekord držela SpaceX Elona Muska, jejíž červnový vstup na burzu vynesl 75 miliard dolarů. Šéf Anthropicu Dario Amodei podle E15 přiznává velkou nejistotu kolem budoucnosti firmy i jejích nákladných investic, zájem investorů je přesto obrovský navzdory rostoucím obavám z prasknutí AI bubliny. Analytik společnosti Patria Jakub Blaha v komentáři pro Seznam Zprávy píše, že vstup není jen testem důvěry investorů v umělou inteligenci, ale také zkouškou ekonomiky celého AI ekosystému. Komentátor Deníku N Petr Koubský upozorňuje, že vedoucí světová firma z oblasti umělé inteligence vstupuje na burzu jen několik dnů po sérii výpadků velkých počítačových služeb.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/burzy-a-trhy/nejvetsi-vstup-na-burzu-vsech-dob-ai-gigant-anthropic-prekonal-muskovu-spacex-1437420"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/sef-ai-giganta-priznal-obrovskou-nejistotu-investori-mu-presto-chteji-sverit-biliony-1437389"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-akcie-fondy-anthropic-ma-cile-jako-hrom-pokud-je-nesplni-prijde-poradna-bourka-320974"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2263587/chlor-cloud-a-anthropic-zavislost-na-ai-nas-zacina-dohanet/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        }
+      ],
+      "en": {
+        "headline": "Anthropic went public with the largest share offering in history",
+        "sentences": [
+          {
+            "en": "The initial public offering of shares in the American firm Anthropic raised 81.3 billion dollars, roughly 1.8 trillion crowns, making it the largest in history.",
+            "cs": "Primární veřejná nabídka akcií americké firmy Anthropic vynesla 81,3 miliardy dolarů, tedy zhruba 1,8 bilionu korun, a stala se tak největší v historii."
+          },
+          {
+            "en": "The previous record was held by Elon Musk's SpaceX, whose June listing raised 75 billion dollars.",
+            "cs": "Dosavadní rekord držela SpaceX Elona Muska, jejíž červnový vstup na burzu vynesl 75 miliard dolarů."
+          },
+          {
+            "en": "Anthropic's chief Dario Amodei admits, according to E15, great uncertainty about the firm's future and its costly investments, yet investor interest is enormous despite growing fears that the AI bubble will burst.",
+            "cs": "Šéf Anthropicu Dario Amodei podle E15 přiznává velkou nejistotu kolem budoucnosti firmy i jejích nákladných investic, zájem investorů je přesto obrovský navzdory rostoucím obavám z prasknutí AI bubliny."
+          },
+          {
+            "en": "Patria analyst Jakub Blaha writes in a commentary for Seznam Zprávy that the flotation is not only a test of investor confidence in artificial intelligence but also a test of the economics of the whole AI ecosystem.",
+            "cs": "Analytik společnosti Patria Jakub Blaha v komentáři pro Seznam Zprávy píše, že vstup není jen testem důvěry investorů v umělou inteligenci, ale také zkouškou ekonomiky celého AI ekosystému."
+          },
+          {
+            "en": "Deník N commentator Petr Koubský points out that the world's leading artificial intelligence firm is going public only days after a series of outages at major computing services.",
+            "cs": "Komentátor Deníku N Petr Koubský upozorňuje, že vedoucí světová firma z oblasti umělé inteligence vstupuje na burzu jen několik dnů po sérii výpadků velkých počítačových služeb."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "initial public offering",
+            "definition": "the first sale of a company's shares to the general public"
+          },
+          {
+            "term": "listing",
+            "definition": "the act of making a company's shares available for trading on a stock exchange"
+          },
+          {
+            "term": "flotation",
+            "definition": "the sale of a company's shares to the public for the first time"
+          },
+          {
+            "term": "outages",
+            "definition": "periods when a service stops working"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "12:38",
+      "headline": "Nvidia překonala očekávání, její akcie přesto dál padají",
+      "body": "Výrobce čipů Nvidia ohlásil hospodářské výsledky, které předčily očekávání analytiků, jeho akcie přesto nadále ztrácejí. Podle investičního newsletteru E15 odepsaly za měsíc téměř 30 procent kvůli odchodu Jensena Huanga. Bývalý ředitel by se podle Deníku N chtěl vrátit, ale vedení firmy to odmítá. Evropská centrální banka zároveň varuje před bublinou, která připomíná období před globální finanční krizí.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2263014/ani-vyborne-vysledky-nvidie-po-huangove-skandalu-investory-neuklidnily/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2263380/"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/investicni-newsletter/anthropic-miri-na-burzu-s-valuaci-pres-bilion-dolaru-nvidia-se-vzpamatovava-z-padu-sefa-a-bitcoin-se-propada-1437387"
+        }
+      ],
+      "en": {
+        "headline": "Nvidia beat expectations but its shares keep falling",
+        "sentences": [
+          {
+            "en": "The chipmaker Nvidia reported results that beat analysts' expectations, yet its shares continue to lose value.",
+            "cs": "Výrobce čipů Nvidia ohlásil hospodářské výsledky, které předčily očekávání analytiků, jeho akcie přesto nadále ztrácejí."
+          },
+          {
+            "en": "According to the E15 investment newsletter they have shed almost 30 percent in a month because of Jensen Huang's departure.",
+            "cs": "Podle investičního newsletteru E15 odepsaly za měsíc téměř 30 procent kvůli odchodu Jensena Huanga."
+          },
+          {
+            "en": "The former chief would like to return, Deník N reports, but the company's leadership refuses.",
+            "cs": "Bývalý ředitel by se podle Deníku N chtěl vrátit, ale vedení firmy to odmítá."
+          },
+          {
+            "en": "The European Central Bank is at the same time warning of a bubble reminiscent of the period before the global financial crisis.",
+            "cs": "Evropská centrální banka zároveň varuje před bublinou, která připomíná období před globální finanční krizí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "chipmaker",
+            "definition": "a company that makes computer chips"
+          },
+          {
+            "term": "shed",
+            "definition": "lost or got rid of"
+          },
+          {
+            "term": "reminiscent",
+            "definition": "making you think of something similar"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "13:29",
+      "headline": "Wienerberger ukončí po více než 150 letech výrobu ve Stodu, práci ztratí sto lidí",
+      "body": "Wienerberger, největší výrobce cihel a pálených tašek v Česku, ukončí k 30. červnu 2027 výrobu v závodě ve Stodu na jihu Plzeňska. Reaguje tím na dlouhodobě nižší poptávku, zejména na zahraničních trzích; krok se dotkne stovky zaměstnanců. Areál ve Stodu zůstane v provozu jako distribuční a logistické centrum pro pálené střešní tašky Tondach, až do června 2027 přitom výroba poběží v běžném provozu.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/prumysl-a-energetika/konec-vyroby-po-vice-nez-150-letech-tradicni-podnik-na-plzensku-zavira-zavod-o-praci-prijde-sto-lidi-1437437"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-wienerberger-ukonci-v-cervnu-2027-vyrobu-ve-stode-u-plzne-zavod-opusti-100-lidi-321041"
+        }
+      ],
+      "en": {
+        "headline": "Wienerberger will end more than 150 years of production in Stod and a hundred people will lose their jobs",
+        "sentences": [
+          {
+            "en": "Wienerberger, the largest maker of bricks and clay roof tiles in the Czech Republic, will end production at its plant in Stod in the south of the Plzeň region on 30 June 2027.",
+            "cs": "Wienerberger, největší výrobce cihel a pálených tašek v Česku, ukončí k 30. červnu 2027 výrobu v závodě ve Stodu na jihu Plzeňska."
+          },
+          {
+            "en": "It is responding to long-term weaker demand, especially in foreign markets; the move will affect a hundred employees.",
+            "cs": "Reaguje tím na dlouhodobě nižší poptávku, zejména na zahraničních trzích; krok se dotkne stovky zaměstnanců."
+          },
+          {
+            "en": "The site in Stod will stay in operation as a distribution and logistics centre for Tondach clay roof tiles, and until June 2027 production will run as usual.",
+            "cs": "Areál ve Stodu zůstane v provozu jako distribuční a logistické centrum pro pálené střešní tašky Tondach, až do června 2027 přitom výroba poběží v běžném provozu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "clay",
+            "definition": "heavy, sticky soil used to make bricks and pottery"
+          },
+          {
+            "term": "plant",
+            "definition": "a factory or works where goods are produced"
+          },
+          {
+            "term": "site",
+            "definition": "the place where something is located or built"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "07:43",
+      "headline": "Nginx má dvě kritické díry v HTTP/2, útočník může spustit kód bez přihlášení",
+      "body": "Webový server Nginx má dvě kritické zranitelnosti v modulu HTTP/2, které umožňují vzdáleně spustit libovolný kód bez nutnosti autentizace. Chyby označené CVE-2026-123633 a CVE-2026-123007 mají shodné hodnocení CVSS 4.0 9,2 a podmínkou jejich zneužití je zapnutý protokol HTTP/2. Odhalili je bezpečnostní výzkumníci ze společností Wiz, Rapid7 a dalších týmů; jejich rozbor patřil s více než 1400 body k nejsledovanějším příspěvkům na Hacker News.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/nginx-ma-dve-kriticke-zranitelnosti-v-modulu-http-2-umoznujici-vzdalene-spusteni-kodu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+        }
+      ],
+      "en": {
+        "headline": "Nginx has two critical HTTP/2 holes letting an attacker run code without logging in",
+        "sentences": [
+          {
+            "en": "The Nginx web server has two critical vulnerabilities in its HTTP/2 module that make it possible to run arbitrary code remotely without any authentication.",
+            "cs": "Webový server Nginx má dvě kritické zranitelnosti v modulu HTTP/2, které umožňují vzdáleně spustit libovolný kód bez nutnosti autentizace."
+          },
+          {
+            "en": "The flaws, labelled CVE-2026-123633 and CVE-2026-123007, both score 9.2 on CVSS 4.0, and exploiting them requires the HTTP/2 protocol to be switched on.",
+            "cs": "Chyby označené CVE-2026-123633 a CVE-2026-123007 mají shodné hodnocení CVSS 4.0 9,2 a podmínkou jejich zneužití je zapnutý protokol HTTP/2."
+          },
+          {
+            "en": "They were found by security researchers from Wiz, Rapid7 and other teams; their write-up was one of the most watched posts on Hacker News, with more than 1,400 points.",
+            "cs": "Odhalili je bezpečnostní výzkumníci ze společností Wiz, Rapid7 a dalších týmů; jejich rozbor patřil s více než 1400 body k nejsledovanějším příspěvkům na Hacker News."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "arbitrary",
+            "definition": "chosen freely, with no limits on what it can be"
+          },
+          {
+            "term": "flaws",
+            "definition": "faults or weaknesses"
+          },
+          {
+            "term": "exploiting",
+            "definition": "using a weakness in order to attack a system"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "22:34",
+      "day": "prev",
+      "headline": "Google představil model Gemini 4 Neon",
+      "body": "Google na svém blogu oznámil nový model Gemini 4 Neon. Oznámení se stalo jedním z nejdiskutovanějších příspěvků na Hacker News, nasbíralo přes 900 bodů a 700 komentářů.",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        }
+      ],
+      "en": {
+        "headline": "Google has introduced the Gemini 4 Neon model",
+        "sentences": [
+          {
+            "en": "Google announced a new model, Gemini 4 Neon, on its blog.",
+            "cs": "Google na svém blogu oznámil nový model Gemini 4 Neon."
+          },
+          {
+            "en": "The announcement became one of the most discussed posts on Hacker News, racking up more than 900 points and 700 comments.",
+            "cs": "Oznámení se stalo jedním z nejdiskutovanějších příspěvků na Hacker News, nasbíralo přes 900 bodů a 700 komentářů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "racking up",
+            "definition": "gradually gaining a large number or amount of something"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "10:27",
+      "headline": "Ruby opravuje sedm bezpečnostních chyb, některé vedou ke spuštění cizího kódu",
+      "body": "Vývojáři Ruby vydali verze 4.0.10, 3.4.13 a 3.3.14, které opravují sedm bezpečnostních chyb v regulárních výrazech a v převodu velikosti písmen. Podle autorů existují funkční ukázky, že některé z nich vedou ke vzdálenému spuštění kódu. Identifikátory CVE zatím přiděleny nejsou, chyby proto mají jen označení GHSA; čtyři z nich nahlásil Stephan Lipp z Ada Logics.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/ruby-opravuje-sedm-chyb-kvuli-pismenu-ss-hrozi-vzdalene-spusteni-kodu/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/"
+        }
+      ],
+      "en": {
+        "headline": "Ruby fixes seven security bugs, some of which allow foreign code to be run",
+        "sentences": [
+          {
+            "en": "The Ruby developers have released versions 4.0.10, 3.4.13 and 3.3.14, which fix seven security flaws in regular expressions and in case conversion.",
+            "cs": "Vývojáři Ruby vydali verze 4.0.10, 3.4.13 a 3.3.14, které opravují sedm bezpečnostních chyb v regulárních výrazech a v převodu velikosti písmen."
+          },
+          {
+            "en": "According to the authors there are working demonstrations that some of them lead to remote code execution.",
+            "cs": "Podle autorů existují funkční ukázky, že některé z nich vedou ke vzdálenému spuštění kódu."
+          },
+          {
+            "en": "No CVE identifiers have been assigned yet, so the bugs carry only GHSA labels; four of them were reported by Stephan Lipp of Ada Logics.",
+            "cs": "Identifikátory CVE zatím přiděleny nejsou, chyby proto mají jen označení GHSA; čtyři z nich nahlásil Stephan Lipp z Ada Logics."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "case conversion",
+            "definition": "changing letters between capital and small forms"
+          },
+          {
+            "term": "assigned",
+            "definition": "officially given to someone or something"
+          },
+          {
+            "term": "flaws",
+            "definition": "faults or weaknesses"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "12:18",
+      "headline": "Vyšlo GTA VI a stahování hry poslalo český peeringový uzel na rekordní čtyři terabity",
+      "body": "Po třinácti letech práce studia Rockstar vyšla hra Grand Theft Auto VI, podle prvních recenzí je téměř dokonalá. ČT24 píše, že zisk hry by měl překonat všechny filmy v dějinách, Deník N ji označuje za největší událost zábavního průmyslu této dekády. Nápor stahování se projevil i na české infrastruktuře: provoz peeringovým uzlem NIX.CZ, kde si poskytovatelé připojení vzájemně předávají data, večer poprvé překonal hranici čtyř terabitů za sekundu. Podle článku RIPE Labs, který cituje Root.cz, si hru předobjednalo přes 12 milionů lidí a její soubory mají dohromady přes 200 GB.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2263007/nova-gta-je-podle-recenzi-nejlepsi-videohrou-v-dejinach-vysvetlujeme-proc-je-kolem-ni-takove-silenstvi/"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/kultura/je-tu-gta-6-ocekavaji-se-stamiliardove-trzby-unavene-palce-i-kritika-379721"
+        },
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/nix-cz-zaznamenal-rekordni-tok-4-tbps-diky-stahovani-hry-gta-6/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        },
+        {
+          "name": "Root.cz",
+          "url": "https://www.root.cz/zpravicky/ripe-atlas-zmeril-jak-se-hracum-dorucuji-stovky-gigabajtu-gta-6/?utm_source=rss&utm_medium=text&utm_campaign=rss"
+        }
+      ],
+      "en": {
+        "headline": "GTA VI is out and downloads pushed the Czech peering node to a record four terabits",
+        "sentences": [
+          {
+            "en": "After thirteen years of work by the Rockstar studio, the game Grand Theft Auto VI has been released, and the first reviews call it almost perfect.",
+            "cs": "Po třinácti letech práce studia Rockstar vyšla hra Grand Theft Auto VI, podle prvních recenzí je téměř dokonalá."
+          },
+          {
+            "en": "ČT24 writes that the game's profit should surpass every film in history, and Deník N calls it the biggest event in the entertainment industry of this decade.",
+            "cs": "ČT24 píše, že zisk hry by měl překonat všechny filmy v dějinách, Deník N ji označuje za největší událost zábavního průmyslu této dekády."
+          },
+          {
+            "en": "The download surge showed on Czech infrastructure as well: traffic through the NIX.CZ peering node, where connection providers hand data over to each other, passed four terabits per second in the evening for the first time.",
+            "cs": "Nápor stahování se projevil i na české infrastruktuře: provoz peeringovým uzlem NIX.CZ, kde si poskytovatelé připojení vzájemně předávají data, večer poprvé překonal hranici čtyř terabitů za sekundu."
+          },
+          {
+            "en": "According to a RIPE Labs article quoted by Root.cz, more than 12 million people pre-ordered the game and its files total over 200 GB.",
+            "cs": "Podle článku RIPE Labs, který cituje Root.cz, si hru předobjednalo přes 12 milionů lidí a její soubory mají dohromady přes 200 GB."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "surpass",
+            "definition": "to be greater or better than"
+          },
+          {
+            "term": "surge",
+            "definition": "a sudden large increase"
+          },
+          {
+            "term": "peering",
+            "definition": "an arrangement in which networks exchange traffic with each other directly"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "14:53",
+      "headline": "Vláda schválila antibiotickou strategii, stát bude lékařům posílat porovnání předpisů",
+      "body": "Vláda schválila novou strategii národního antibiotického programu do roku 2032. Cílem je omezit užívání antibiotik nejméně o devět procent a zabránit šíření bakterií, které jsou vůči nim odolné; spotřeba v Česku přitom roste, přestože Evropská unie usiluje o její snížení. Podle ministerstva zdravotnictví se u nás antibiotika stále často nepředepisují správně, stát proto bude lékařům posílat porovnání. Smejkal v rozhovoru pro iROZHLAS varuje, že pokud to bude pokračovat, můžeme se dostat do situace, kdy budeme mít jen hrozně drahá antibiotika, nebo žádná.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-lekari-predepisuji-cim-dal-vice-antibiotik-stat-jim-bude-posilat-porovnani-321065"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zivotni-styl/zdravi/smejkal-antibiotika-jen-draha-nebo-zadna-i-tam-se-muzeme-dostat-musime-zmenit_2611191453_cen"
+        },
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/brifink-po-jednani-vlady-379747"
+        }
+      ],
+      "en": {
+        "headline": "The government approved an antibiotics strategy and the state will send doctors comparisons",
+        "sentences": [
+          {
+            "en": "The government has approved a new national antibiotic programme strategy running to 2032.",
+            "cs": "Vláda schválila novou strategii národního antibiotického programu do roku 2032."
+          },
+          {
+            "en": "The aim is to cut antibiotic use by at least nine percent and to stop the spread of bacteria that are resistant to them; consumption in the Czech Republic is in fact rising, even though the European Union is pushing for it to fall.",
+            "cs": "Cílem je omezit užívání antibiotik nejméně o devět procent a zabránit šíření bakterií, které jsou vůči nim odolné; spotřeba v Česku přitom roste, přestože Evropská unie usiluje o její snížení."
+          },
+          {
+            "en": "According to the Ministry of Health antibiotics are still often prescribed incorrectly here, so the state will send doctors comparisons.",
+            "cs": "Podle ministerstva zdravotnictví se u nás antibiotika stále často nepředepisují správně, stát proto bude lékařům posílat porovnání."
+          },
+          {
+            "en": "Smejkal warns in an interview for iROZHLAS that if this continues, we may end up in a situation where we have only terribly expensive antibiotics, or none at all.",
+            "cs": "Smejkal v rozhovoru pro iROZHLAS varuje, že pokud to bude pokračovat, můžeme se dostat do situace, kdy budeme mít jen hrozně drahá antibiotika, nebo žádná."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resistant",
+            "definition": "not harmed or affected by something"
+          },
+          {
+            "term": "prescribed",
+            "definition": "officially ordered as a medicine for a patient"
+          },
+          {
+            "term": "consumption",
+            "definition": "the amount of something that is used"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Za pozornost",
+      "time": "06:00",
+      "headline": "Reportéři ČT všili do darovaného oblečení lokátory a sledovali, kam doputuje",
+      "body": "Reportéři ČT před půl rokem odnesli do kontejnerů na textil oblečení, do kterého všili sledovací zařízení, a sledovali jeho cestu. Projelo Slovensko, Polsko, Belgii, Togo, Benin, Nigérii a Niger. Kontejnery bývají označené nápisem ekologicko-charitativní sběr, podle zjištění reportérů ale jde spíše o výhodný byznys než o charitu.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/reporteri-ct-stopovali-trideny-textil-odhalili-spis-byznys-nez-charitu-379712"
+        }
+      ],
+      "en": {
+        "headline": "ČT reporters sewed trackers into donated clothes and followed where they ended up",
+        "sentences": [
+          {
+            "en": "Six months ago ČT reporters dropped clothing with tracking devices sewn into it into textile collection containers and followed its journey.",
+            "cs": "Reportéři ČT před půl rokem odnesli do kontejnerů na textil oblečení, do kterého všili sledovací zařízení, a sledovali jeho cestu."
+          },
+          {
+            "en": "It travelled through Slovakia, Poland, Belgium, Togo, Benin, Nigeria and Niger.",
+            "cs": "Projelo Slovensko, Polsko, Belgii, Togo, Benin, Nigérii a Niger."
+          },
+          {
+            "en": "The containers are usually marked as an eco-charity collection, but according to the reporters' findings it is a profitable business rather than charity.",
+            "cs": "Kontejnery bývají označené nápisem ekologicko-charitativní sběr, podle zjištění reportérů ale jde spíše o výhodný byznys než o charitu."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sewn",
+            "definition": "joined or attached using a needle and thread"
+          },
+          {
+            "term": "findings",
+            "definition": "the information discovered by an investigation"
+          },
+          {
+            "term": "profitable",
+            "definition": "making money"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "11:17",
+      "headline": "O vedení FIFA se v březnu utkají Infantino, Tašima a Diallo",
+      "body": "O post předsedy FIFA se v březnových volbách budou ucházet dosavadní šéf Gianni Infantino a dva vyzyvatelé, Kózó Tašima a Philippe Diallo; uzávěrka přihlášek byla o půlnoci. Nejpozději do 18. února komise formálně rozhodne o připuštění kandidátů k volbám. Infantino stojí v čele federace od roku 2016.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/seznam-kandidatu-uzavren-infantina-v-boji-o-post-sefa-fifa-vyzvou-diallo-a-tasima-160027"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-o-kandidatech-na-sefa-svetoveho-fotbalu-je-jasno-5578873"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/sport-fotbal-o-pozici-predsedy-fifa-se-budou-uchazet-infantino-diallo-a-tasima-321015"
+        }
+      ],
+      "en": {
+        "headline": "Infantino, Tashima and Diallo will compete for the FIFA leadership in March",
+        "sentences": [
+          {
+            "en": "The incumbent chief Gianni Infantino and two challengers, Kozo Tashima and Philippe Diallo, will run for the post of FIFA president in March's election; the deadline for entries was midnight.",
+            "cs": "O post předsedy FIFA se v březnových volbách budou ucházet dosavadní šéf Gianni Infantino a dva vyzyvatelé, Kózó Tašima a Philippe Diallo; uzávěrka přihlášek byla o půlnoci."
+          },
+          {
+            "en": "A commission will formally decide by 18 February at the latest whether to admit the candidates to the vote.",
+            "cs": "Nejpozději do 18. února komise formálně rozhodne o připuštění kandidátů k volbám."
+          },
+          {
+            "en": "Infantino has headed the federation since 2016.",
+            "cs": "Infantino stojí v čele federace od roku 2016."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "incumbent",
+            "definition": "currently holding a position or office"
+          },
+          {
+            "term": "challengers",
+            "definition": "people who compete against the one already in a position"
+          },
+          {
+            "term": "deadline",
+            "definition": "the latest time by which something must be done"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "09:22",
+      "headline": "Mudryk tvrdí, že meldonium mohl dostat při reprezentačním srazu",
+      "body": "Ukrajinský záložník Mychajlo Mudryk, který od září hostuje z Chelsea v Tottenhamu, rozpoutal skandál tvrzením, že se mu zakázané meldonium mohlo dostat do těla během reprezentačního srazu. Pětadvacetiletý fotbalista kvůli dopingové kauze stál téměř dva roky.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-spoluhrac-kinskeho-rozpoutal-skandal-ze-sveho-dopingu-vini-reprezentaci-5578869"
+        }
+      ],
+      "en": {
+        "headline": "Mudryk claims he may have got meldonium at a national team camp",
+        "sentences": [
+          {
+            "en": "The Ukrainian midfielder Mykhailo Mudryk, who has been on loan from Chelsea at Tottenham since September, has set off a scandal by claiming that the banned meldonium may have got into his body during a national team camp.",
+            "cs": "Ukrajinský záložník Mychajlo Mudryk, který od září hostuje z Chelsea v Tottenhamu, rozpoutal skandál tvrzením, že se mu zakázané meldonium mohlo dostat do těla během reprezentačního srazu."
+          },
+          {
+            "en": "The 25-year-old footballer was sidelined for almost two years because of the doping case.",
+            "cs": "Pětadvacetiletý fotbalista kvůli dopingové kauze stál téměř dva roky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "on loan",
+            "definition": "temporarily playing for another club"
+          },
+          {
+            "term": "set off",
+            "definition": "caused something to start"
+          },
+          {
+            "term": "sidelined",
+            "definition": "kept out of the game or activity"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:53",
+      "headline": "Sparta hospodařila v minulé sezoně se ztrátou 127 milionů korun",
+      "body": "Fotbalová Sparta skončila sezonu 2025/26 se ztrátou 127 milionů korun, a to po dvou plusových letech. Výsledky hospodaření předloží vedení klubu ke schválení prosincové valné hromadě.",
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-1-liga-sparta-zakoncila-minulou-sezonu-s-vice-nez-stomilionovou-ztratou-5578909"
+        }
+      ],
+      "en": {
+        "headline": "Sparta made a loss of 127 million crowns last season",
+        "sentences": [
+          {
+            "en": "The football club Sparta ended the 2025/26 season with a loss of 127 million crowns, after two years in the black.",
+            "cs": "Fotbalová Sparta skončila sezonu 2025/26 se ztrátou 127 milionů korun, a to po dvou plusových letech."
+          },
+          {
+            "en": "The club's management will submit the financial results for approval to the general meeting in December.",
+            "cs": "Výsledky hospodaření předloží vedení klubu ke schválení prosincové valné hromadě."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "in the black",
+            "definition": "making a profit rather than a loss"
+          },
+          {
+            "term": "submit",
+            "definition": "to give something officially so that it can be decided on"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:06",
+      "headline": "Mistryně světa v maratonu Jepchirchirová dostala za doping tříletý distanc",
+      "body": "Keňská běžkyně Peres Jepchirchirová, úřadující mistryně světa v maratonu a olympijská vítězka z Tokia, dostala tříletý distanc za užití krevního dopingu erytropoetinu. Pozitivní test měla při mimosoutěžní kontrole před srpnovým vítězstvím na maratonu v Sydney.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/atletika/maratonska-sampionka-jepchirchirova-se-priznala-k-dopingu-a-dostala-trilety-distanc-160026"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/atletika-uradujici-mistryne-sveta-v-maratonu-a-olympijska-vitezka-z-tokia-dostala-trilety-distanc-za-doping-5578867"
+        }
+      ],
+      "en": {
+        "headline": "Marathon world champion Jepchirchir got a three-year ban for doping",
+        "sentences": [
+          {
+            "en": "The Kenyan runner Peres Jepchirchir, the reigning marathon world champion and Olympic winner from Tokyo, has been given a three-year ban for using the blood-doping agent erythropoietin.",
+            "cs": "Keňská běžkyně Peres Jepchirchirová, úřadující mistryně světa v maratonu a olympijská vítězka z Tokia, dostala tříletý distanc za užití krevního dopingu erytropoetinu."
+          },
+          {
+            "en": "She tested positive in an out-of-competition check before her win at the Sydney marathon in August.",
+            "cs": "Pozitivní test měla při mimosoutěžní kontrole před srpnovým vítězstvím na maratonu v Sydney."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reigning",
+            "definition": "currently holding a title won in the last competition"
+          },
+          {
+            "term": "out-of-competition",
+            "definition": "done outside an official race or match"
+          },
+          {
+            "term": "agent",
+            "definition": "a substance that produces a particular effect"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "07:20",
+      "headline": "Pastrňák se Zachou řídili výhru Bostonu v Detroitu",
+      "body": "David Pastrňák a Pavel Zacha přispěli shodně gólem a asistencí k výhře Bostonu 4:1 na ledě Detroitu, který si připomínal sté výročí svého prvního utkání v NHL. Pastrňák byl vyhlášen nejlepším hráčem zápasu, Zacha vstřelil vítěznou branku a byl zvolen třetí hvězdou.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-nhl-detroit-po-sto-letech-znovu-padl-s-bostonem-radili-pastrnak-se-zachou-5578865"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/pastrnak-se-zachou-rezirovali-vyhru-bostonu-nad-detroitem-160025"
+        }
+      ],
+      "en": {
+        "headline": "Pastrňák and Zacha steered Boston to a win in Detroit",
+        "sentences": [
+          {
+            "en": "David Pastrňák and Pavel Zacha each contributed a goal and an assist to Boston's 4:1 win on the ice in Detroit, which was marking the hundredth anniversary of its first NHL game.",
+            "cs": "David Pastrňák a Pavel Zacha přispěli shodně gólem a asistencí k výhře Bostonu 4:1 na ledě Detroitu, který si připomínal sté výročí svého prvního utkání v NHL."
+          },
+          {
+            "en": "Pastrňák was named the best player of the game, Zacha scored the winning goal and was voted the third star.",
+            "cs": "Pastrňák byl vyhlášen nejlepším hráčem zápasu, Zacha vstřelil vítěznou branku a byl zvolen třetí hvězdou."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assist",
+            "definition": "in hockey, a pass that leads directly to a goal"
+          },
+          {
+            "term": "marking",
+            "definition": "celebrating or remembering an important date"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "20:13",
+      "day": "prev",
+      "headline": "Pardubice postoupily do čtvrtfinále hokejové Ligy mistrů",
+      "body": "Hokejové Pardubice zvládly odvetu osmifinále Ligy mistrů, finskou SaiPu přehrály 5:2 a po výhře 3:2 v prvním utkání postoupily dál. Ve čtvrtfinále narazí na německé Eisbären Berlín. Z českých zástupců zůstaly ve hře jako jediné, Plzeň i Liberec vypadly.",
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/pardubice-nasazely-pet-golu-za-tretinu-a-vyprovodily-saipu-z-ligy-mistru-160022"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/podcasty-za-mantinelem-hokejove-pardubice-si-pocinaly-jako-deti-na-podzim-5578883"
+        }
+      ],
+      "en": {
+        "headline": "Pardubice advanced to the quarterfinals of the hockey Champions League",
+        "sentences": [
+          {
+            "en": "The Pardubice hockey team handled the return leg of the Champions League last 16, beating Finland's SaiPa 5:2 and going through after a 3:2 win in the first game.",
+            "cs": "Hokejové Pardubice zvládly odvetu osmifinále Ligy mistrů, finskou SaiPu přehrály 5:2 a po výhře 3:2 v prvním utkání postoupily dál."
+          },
+          {
+            "en": "In the quarterfinals they will face Germany's Eisbären Berlin.",
+            "cs": "Ve čtvrtfinále narazí na německé Eisbären Berlín."
+          },
+          {
+            "en": "They are the only Czech side left in the competition, as both Plzeň and Liberec went out.",
+            "cs": "Z českých zástupců zůstaly ve hře jako jediné, Plzeň i Liberec vypadly."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "return leg",
+            "definition": "the second of two games played between the same two teams"
+          },
+          {
+            "term": "going through",
+            "definition": "advancing to the next round"
+          },
+          {
+            "term": "side",
+            "definition": "a sports team"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "Trump, Putin and Xi Jinping met in a three-way format for the first time and issued a joint Peace Declaration in the Chinese city of Shenzhen.",
+    "Prague has a new mayor: Petr Hlaváček of STAN.",
+    "For the first time in history the International Court of Justice has found a state responsible for genocide, holding Myanmar responsible for the violence against the Rohingya.",
+    "Anthropic went public with the largest share offering in history."
+  ]
+}
