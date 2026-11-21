@@ -1,0 +1,1490 @@
+{
+  "date": "2026-11-21",
+  "covers": "2026-11-21",
+  "window_hours": 24,
+  "sources_used": [
+    "iROZHLAS",
+    "ČT24",
+    "Deník N",
+    "Seznam Zprávy",
+    "E15",
+    "Hradecký deník",
+    "iDNES Hradec",
+    "Hradecká drbna",
+    "ČT Sport",
+    "Sport.cz"
+  ],
+  "failed_feeds": [],
+  "weather": {
+    "place": "Hradec Králové",
+    "icon": "cloudy",
+    "summary": "Zítra bude zataženo a chladno, přes den jen 4 °C a beze srážek. Kvalita ovzduší má být zhoršená.",
+    "days": [
+      {
+        "date": "2026-11-22",
+        "icon": "cloudy",
+        "temp_max_c": 4.1,
+        "temp_min_c": -0.1
+      },
+      {
+        "date": "2026-11-23",
+        "icon": "cloudy",
+        "temp_max_c": 1.9,
+        "temp_min_c": -0.1
+      },
+      {
+        "date": "2026-11-24",
+        "icon": "cloudy",
+        "temp_max_c": 0.9,
+        "temp_min_c": -1.5
+      },
+      {
+        "date": "2026-11-25",
+        "icon": "cloudy",
+        "temp_max_c": 2.7,
+        "temp_min_c": -2.0
+      }
+    ],
+    "summary_en": "Tomorrow will be cloudy and cold, only 4 °C during the day and with no rain. Air quality is expected to be poor."
+  },
+  "highlights": [
+    "Nová sociální demokracie si na svém prvním sjezdu v Jihlavě zvolila předsedou jednatřicetiletého právníka Martina Matase.",
+    "Generální tajemník NATO Mark Rutte přijel do Varšavy po pádu ruských střel a dronu v Polsku a ujistil, že Aliance je připravena své členy chránit.",
+    "Nejvyšší kontrolní úřad spočítal, že státní rozpočet vykázal za první pololetí nejhorší schodek od roku 2023.",
+    "Cena bitcoinu klesla na dvouleté minimum a výprodej technologických akcií smazal Nasdaqu letošní zisky."
+  ],
+  "items": [
+    {
+      "rubric": "Domov",
+      "time": "16:04",
+      "headline": "Novou sociální demokracii povede jednatřicetiletý právník Martin Matas",
+      "body": "Nová sociální demokracie si na ustavujícím sjezdu v Jihlavě zvolila předsedou jednatřicetiletého právníka Martina Matase, který získal 58 z 84 hlasů. Strana se formuje kolem bývalého premiéra Vladimíra Špidly a bývalých členů ČSSD a podle Deníku N má zatím 128 registrovaných členů a 56 příznivců. Na sjezdu ji podpořil předseda Českomoravské konfederace odborových svazů Josef Středula a kandidát na senátora a bývalý předseda SOCDEM Michal Šmarda. Podle iROZHLASU se NSD chce zasazovat o sociálně spravedlivou společnost, klade důraz na ekologii i prosperitu a hlásí se k evropské integraci i ke kolektivní obraně, kterou nyní reprezentuje NATO.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-predsedou-spidlovy-nove-socialni-demokracie-byl-zvolen-martin-matas-321210"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265754/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265697/"
+        },
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/politolog-babisova-koalice-je-se-socialnim-citenim-na-stiru-temat-se-muze-chytit_2611211605_bva"
+        }
+      ],
+      "en": {
+        "headline": "The New Social Democracy will be led by Martin Matas, a thirty-one-year-old lawyer",
+        "sentences": [
+          {
+            "en": "At its founding congress in Jihlava, the New Social Democracy elected Martin Matas, a thirty-one-year-old lawyer, as its chair; he received 58 of the 84 votes.",
+            "cs": "Nová sociální demokracie si na ustavujícím sjezdu v Jihlavě zvolila předsedou jednatřicetiletého právníka Martina Matase, který získal 58 z 84 hlasů."
+          },
+          {
+            "en": "The party is taking shape around former prime minister Vladimír Špidla and former members of ČSSD, and according to Deník N it has 128 registered members and 56 supporters so far.",
+            "cs": "Strana se formuje kolem bývalého premiéra Vladimíra Špidly a bývalých členů ČSSD a podle Deníku N má zatím 128 registrovaných členů a 56 příznivců."
+          },
+          {
+            "en": "At the congress it was backed by Josef Středula, head of the Czech-Moravian Confederation of Trade Unions, and by Michal Šmarda, a Senate candidate and former SOCDEM leader.",
+            "cs": "Na sjezdu ji podpořil předseda Českomoravské konfederace odborových svazů Josef Středula a kandidát na senátora a bývalý předseda SOCDEM Michal Šmarda."
+          },
+          {
+            "en": "According to iROZHLAS, the NSD wants to campaign for a socially just society, puts an emphasis on ecology as well as prosperity, and commits itself to European integration and to the collective defence now represented by NATO.",
+            "cs": "Podle iROZHLASU se NSD chce zasazovat o sociálně spravedlivou společnost, klade důraz na ekologii i prosperitu a hlásí se k evropské integraci i ke kolektivní obraně, kterou nyní reprezentuje NATO."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "congress",
+            "definition": "a large formal meeting where an organization makes decisions"
+          },
+          {
+            "term": "backed",
+            "definition": "supported a person or an idea"
+          },
+          {
+            "term": "collective defence",
+            "definition": "an agreement that an attack on one member country counts as an attack on all of them"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:15",
+      "headline": "Babiš chce mít změnu financování veřejnoprávních médií v platnosti nejpozději od července",
+      "body": "Premiér Andrej Babiš řekl serveru iDnes, že doufá, že změna financování veřejnoprávních médií začne platit nejpozději 1. července příštího roku. Nové podmínky podle něj vstoupí v platnost hned, jak zákon o médiích veřejné služby vyjde ve Sbírce zákonů. Dodal, že je pro něj důležité jednat o rozpočtu pro Českou televizi. Ředitel ČT Hynek Chudárek mezitím reagoval na kritiku svého přístupu ke schůzce s premiérem, o níž nevěděl Český rozhlas: na síti X napsal, že o jednání předem informoval média, zaměstnance ČT i iniciativu Veřejnoprávně a že ČT je „ctihodná kultivovaná instituce“, podle čehož se její management musí chovat. Jako ředitel prý musí počítat se všemi variantami dalšího vývoje.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265657/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265655/"
+        }
+      ],
+      "en": {
+        "headline": "Babiš wants the change in public media funding to take effect by July at the latest",
+        "sentences": [
+          {
+            "en": "Prime Minister Andrej Babiš told the iDnes website that he hopes the change in the funding of public service media will take effect on 1 July next year at the latest.",
+            "cs": "Premiér Andrej Babiš řekl serveru iDnes, že doufá, že změna financování veřejnoprávních médií začne platit nejpozději 1. července příštího roku."
+          },
+          {
+            "en": "The new terms will come into force, he said, as soon as the law on public service media is published in the Collection of Laws.",
+            "cs": "Nové podmínky podle něj vstoupí v platnost hned, jak zákon o médiích veřejné služby vyjde ve Sbírce zákonů."
+          },
+          {
+            "en": "He added that negotiating the budget for Czech Television matters to him.",
+            "cs": "Dodal, že je pro něj důležité jednat o rozpočtu pro Českou televizi."
+          },
+          {
+            "en": "Czech Television's director Hynek Chudárek meanwhile responded to criticism of how he had handled his meeting with the prime minister, which Czech Radio knew nothing about: he wrote on X that he had informed the media, Czech Television staff and the Veřejnoprávně initiative about the talks in advance, and that Czech Television is “a venerable, cultivated institution” whose management must behave accordingly.",
+            "cs": "Ředitel ČT Hynek Chudárek mezitím reagoval na kritiku svého přístupu ke schůzce s premiérem, o níž nevěděl Český rozhlas: na síti X napsal, že o jednání předem informoval média, zaměstnance ČT i iniciativu Veřejnoprávně a že ČT je „ctihodná kultivovaná instituce“, podle čehož se její management musí chovat."
+          },
+          {
+            "en": "As director, he said, he has to allow for every possible turn of events.",
+            "cs": "Jako ředitel prý musí počítat se všemi variantami dalšího vývoje."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "come into force",
+            "definition": "to officially start being a law or a rule"
+          },
+          {
+            "term": "venerable",
+            "definition": "respected because of age, importance or a long history"
+          },
+          {
+            "term": "accordingly",
+            "definition": "in a way that fits the situation"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "10:36",
+      "headline": "Státní rozpočet měl v pololetí nejhorší schodek od roku 2023, upozornil NKÚ",
+      "body": "Státní rozpočet vykázal v letošním prvním pololetí nejhorší pololetní schodek od roku 2023, téměř 184 miliard korun. Uvedl to ve stanovisku ke zprávě o pololetním hospodaření státního rozpočtu Nejvyšší kontrolní úřad. Česká ekonomika přitom rostla rychleji než průměr Evropské unie a nízká nezaměstnanost podporovala růst mezd i spotřeby, výdaje rozpočtu ale rostly rychleji. NKÚ zároveň upozorňuje na růst povinných výdajů, který omezuje prostor pro budoucí priority.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-nku-ceska-ekonomika-v-pololeti-rostla-ale-hospodareni-statu-se-zhorsilo-321202"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265653/"
+        }
+      ],
+      "en": {
+        "headline": "The state budget ran its worst half-year deficit since 2023, the Supreme Audit Office warned",
+        "sentences": [
+          {
+            "en": "In the first half of this year the state budget ran the worst half-year deficit since 2023, almost 184 billion crowns.",
+            "cs": "Státní rozpočet vykázal v letošním prvním pololetí nejhorší pololetní schodek od roku 2023, téměř 184 miliard korun."
+          },
+          {
+            "en": "The Supreme Audit Office said so in its opinion on the report on the state budget's half-year performance.",
+            "cs": "Uvedl to ve stanovisku ke zprávě o pololetním hospodaření státního rozpočtu Nejvyšší kontrolní úřad."
+          },
+          {
+            "en": "The Czech economy was meanwhile growing faster than the European Union average and low unemployment supported the growth of wages and consumption, but budget spending grew faster still.",
+            "cs": "Česká ekonomika přitom rostla rychleji než průměr Evropské unie a nízká nezaměstnanost podporovala růst mezd i spotřeby, výdaje rozpočtu ale rostly rychleji."
+          },
+          {
+            "en": "The NKÚ also points to a rise in mandatory spending that limits the room for future priorities.",
+            "cs": "NKÚ zároveň upozorňuje na růst povinných výdajů, který omezuje prostor pro budoucí priority."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deficit",
+            "definition": "the amount by which the money spent is more than the money received"
+          },
+          {
+            "term": "mandatory",
+            "definition": "required by a law or a rule"
+          },
+          {
+            "term": "consumption",
+            "definition": "the amount of goods and services that people buy and use"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "12:46",
+      "headline": "Lékařskou komoru zahlcují stížnosti psané umělou inteligencí",
+      "body": "Stížnosti na lékaře psané pomocí umělé inteligence tvoří podle předsedkyně revizní komise České lékařské komory Jany Vedralové zhruba polovinu všech podnětů, které komora ročně dostane. Dokumenty generované AI jsou podle ní zbytečně rozsáhlé, plné opakujících se právních odkazů a zaniká v nich samotná podstata problému. Seznam Zprávy dodávají, že nejčastěji míří na etická pochybení. Vedralová na sjezdu komory v Brně zároveň řekla, že ČLK eviduje desítky případů, kdy v českých zdravotnických zařízeních pracují jako lékaři lidé, kteří nejsou jejími členy, a nemají proto oprávnění v Česku léčit. Jde podle ní o obrovský problém, který se týká celé země včetně Prahy.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/zpravy-domov/ani-poradne-nevime-na-co-si-pacient-stezuje-lekarska-komora-resi-stovky_2611211226_mst"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-lekarskou-komoru-zaplavuji-stovky-stiznosti-psanych-ai-321206"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265703/"
+        }
+      ],
+      "en": {
+        "headline": "The Czech Medical Chamber is being swamped with complaints written by artificial intelligence",
+        "sentences": [
+          {
+            "en": "Complaints against doctors written with the help of artificial intelligence make up about half of all submissions the chamber receives each year, according to Jana Vedralová, who chairs its review commission.",
+            "cs": "Stížnosti na lékaře psané pomocí umělé inteligence tvoří podle předsedkyně revizní komise České lékařské komory Jany Vedralové zhruba polovinu všech podnětů, které komora ročně dostane."
+          },
+          {
+            "en": "Documents generated by AI are, she says, needlessly long, full of repeated legal references, and the substance of the problem gets lost in them.",
+            "cs": "Dokumenty generované AI jsou podle ní zbytečně rozsáhlé, plné opakujících se právních odkazů a zaniká v nich samotná podstata problému."
+          },
+          {
+            "en": "Seznam Zprávy adds that they most often concern ethical failings.",
+            "cs": "Seznam Zprávy dodávají, že nejčastěji míří na etická pochybení."
+          },
+          {
+            "en": "At the chamber's congress in Brno, Vedralová also said that the ČLK has recorded dozens of cases in which people who are not its members, and therefore have no licence to practise in the Czech Republic, work as doctors in Czech medical facilities.",
+            "cs": "Vedralová na sjezdu komory v Brně zároveň řekla, že ČLK eviduje desítky případů, kdy v českých zdravotnických zařízeních pracují jako lékaři lidé, kteří nejsou jejími členy, a nemají proto oprávnění v Česku léčit."
+          },
+          {
+            "en": "This is, in her words, an enormous problem that affects the whole country, including Prague.",
+            "cs": "Jde podle ní o obrovský problém, který se týká celé země včetně Prahy."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "swamped",
+            "definition": "given far more of something than can be dealt with"
+          },
+          {
+            "term": "submissions",
+            "definition": "documents or statements sent to an official body"
+          },
+          {
+            "term": "failings",
+            "definition": "faults or weak points in the way someone behaves"
+          },
+          {
+            "term": "practise",
+            "definition": "to work in a profession such as medicine or law"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "05:30",
+      "headline": "Cesty politiků placené ČEZem začala prověřovat policie",
+      "body": "Bezplatné cesty ministryně Mrázové, které hradil holding ČEZ, už začala prověřovat policie, píší Seznam Zprávy. Podle serveru jde o dvacetiletou praxi „dobrých vztahů“, při níž energetický gigant vozí politiky a úředníky po Evropě. Členové vlády se podle Seznamu dotazům na tyto výlety vyhýbají.",
+      "sources": [
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-premiera-ani-ministry-vylety-na-ucet-cezu-nezajimaji-na-rozdil-od-policie-321098"
+        }
+      ],
+      "en": {
+        "headline": "Police have begun looking into politicians' trips paid for by ČEZ",
+        "sentences": [
+          {
+            "en": "Police have already begun looking into free trips taken by Minister Mrázová that were paid for by the ČEZ holding, Seznam Zprávy writes.",
+            "cs": "Bezplatné cesty ministryně Mrázové, které hradil holding ČEZ, už začala prověřovat policie, píší Seznam Zprávy."
+          },
+          {
+            "en": "According to the outlet this is a twenty-year practice of “good relations” in which the energy giant drives politicians and officials around Europe.",
+            "cs": "Podle serveru jde o dvacetiletou praxi „dobrých vztahů“, při níž energetický gigant vozí politiky a úředníky po Evropě."
+          },
+          {
+            "en": "Members of the government are avoiding questions about these trips, Seznam says.",
+            "cs": "Členové vlády se podle Seznamu dotazům na tyto výlety vyhýbají."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "looking into",
+            "definition": "examining something to find out the truth about it"
+          },
+          {
+            "term": "outlet",
+            "definition": "a newspaper, website or broadcaster that publishes news"
+          },
+          {
+            "term": "giant",
+            "definition": "a very large and powerful company"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Domov",
+      "time": "05:01",
+      "headline": "Na Vysočině vyhlásili mimořádná opatření kvůli nedostatku vody v přehradě Vír",
+      "body": "Komise pro sucho na Vysočině vyhlásila mimořádná opatření kvůli nedostatku vody v přehradě Vír, která zásobuje i Brno a ztratila šedesát procent vody. Nízkou hladinu má také Římovská přehrada v jižních Čechách, kraj proto připravuje záložní řešení pro případ, že by zásoby nedoplnily ani zimní srážky. Nedávné deště hladiny nádrží výrazně nezvýšily. Podle ministerstva zemědělství, které situaci sleduje, zatím stačí snižovat odtok z přehrad.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/regiony/srazky-zatim-prehradam-vyrazne-nepomohly-na-vysocine-vyhlasili-mimoradna-opatreni-379799"
+        }
+      ],
+      "en": {
+        "headline": "Vysočina has declared emergency measures over the lack of water in the Vír reservoir",
+        "sentences": [
+          {
+            "en": "The drought commission in the Vysočina region has declared emergency measures over the lack of water in the Vír reservoir, which also supplies Brno and has lost sixty percent of its water.",
+            "cs": "Komise pro sucho na Vysočině vyhlásila mimořádná opatření kvůli nedostatku vody v přehradě Vír, která zásobuje i Brno a ztratila šedesát procent vody."
+          },
+          {
+            "en": "The Římov reservoir in south Bohemia is low as well, so the region is preparing a backup solution in case winter rainfall fails to replenish supplies.",
+            "cs": "Nízkou hladinu má také Římovská přehrada v jižních Čechách, kraj proto připravuje záložní řešení pro případ, že by zásoby nedoplnily ani zimní srážky."
+          },
+          {
+            "en": "Recent rain did not raise the reservoirs' levels significantly.",
+            "cs": "Nedávné deště hladiny nádrží výrazně nezvýšily."
+          },
+          {
+            "en": "According to the Ministry of Agriculture, which is monitoring the situation, reducing the outflow from the reservoirs is enough for now.",
+            "cs": "Podle ministerstva zemědělství, které situaci sleduje, zatím stačí snižovat odtok z přehrad."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reservoir",
+            "definition": "a lake, often man-made, where water is stored"
+          },
+          {
+            "term": "drought",
+            "definition": "a long period with little or no rain"
+          },
+          {
+            "term": "replenish",
+            "definition": "to fill something up again"
+          },
+          {
+            "term": "outflow",
+            "definition": "the amount of liquid that flows out of a place"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "16:50",
+      "day": "prev",
+      "headline": "Rokytnici v Orlických horách povede podnikatel Štefek, náměstek hejtmana Štěpán končí",
+      "body": "Náměstek hejtmana Jiří Štěpán (My) už nepokračuje jako starosta Rokytnice v Orlických horách na Rychnovsku. Jeho kandidátka Rokytnice PRO sice volby vyhrála a on sám získal nejvíce preferenčních hlasů, většinu v zastupitelstvu ale nesložil. Starostou se na čtvrtečním ustavujícím zasedání stal podnikatel Michal Štefek (Sdružení pro Rokytnici), zvolilo ho osm z patnácti zastupitelů.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/volby/hradec-kralove/rokytnice-v-orlickych-horach-starosta-volba-stefek-stepan.A261120_153852_hradec-volby_tuu"
+        }
+      ],
+      "en": {
+        "headline": "Rokytnice v Orlických horách will be led by the businessman Štefek; the deputy governor Štěpán is out",
+        "sentences": [
+          {
+            "en": "Deputy regional governor Jiří Štěpán (My) is no longer mayor of Rokytnice v Orlických horách in the Rychnov area.",
+            "cs": "Náměstek hejtmana Jiří Štěpán (My) už nepokračuje jako starosta Rokytnice v Orlických horách na Rychnovsku."
+          },
+          {
+            "en": "His slate, Rokytnice PRO, won the election and he himself received the most preference votes, but he failed to put together a majority on the council.",
+            "cs": "Jeho kandidátka Rokytnice PRO sice volby vyhrála a on sám získal nejvíce preferenčních hlasů, většinu v zastupitelstvu ale nesložil."
+          },
+          {
+            "en": "At Thursday's inaugural session the businessman Michal Štefek (Sdružení pro Rokytnici) became mayor, elected by eight of the fifteen councillors.",
+            "cs": "Starostou se na čtvrtečním ustavujícím zasedání stal podnikatel Michal Štefek (Sdružení pro Rokytnici), zvolilo ho osm z patnácti zastupitelů."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "slate",
+            "definition": "a list of candidates who stand together in an election"
+          },
+          {
+            "term": "inaugural",
+            "definition": "happening for the first time, at the start of something"
+          },
+          {
+            "term": "councillors",
+            "definition": "elected members of a local council"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "21:06",
+      "day": "prev",
+      "headline": "Mountfield doma podlehl Kladnu 2:4 a zůstal sedmý",
+      "body": "Hokejisté Mountfieldu Hradec Králové včera doma podlehli Kladnu 2:4. Ve druhé polovině utkání dvakrát snížili, vyrovnat už ale nedokázali. Rytíři tak proti Hradci uspěli po čtyřech porážkách v řadě a upevnili si třetí místo v tabulce, Hradec je sedmý.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/hokej/906336-hokejiste-kladna-ukoncili-v-hradci-kralove-serii-nezdaru-proti.html"
+        }
+      ],
+      "en": {
+        "headline": "Mountfield lost 4:2 at home to Kladno and stayed seventh",
+        "sentences": [
+          {
+            "en": "The Mountfield Hradec Králové ice hockey players lost 4:2 at home to Kladno yesterday.",
+            "cs": "Hokejisté Mountfieldu Hradec Králové včera doma podlehli Kladnu 2:4."
+          },
+          {
+            "en": "In the second half of the game they twice pulled a goal back, but could not equalise.",
+            "cs": "Ve druhé polovině utkání dvakrát snížili, vyrovnat už ale nedokázali."
+          },
+          {
+            "en": "Rytíři thus beat Hradec after four straight defeats and strengthened their hold on third place in the table, while Hradec are seventh.",
+            "cs": "Rytíři tak proti Hradci uspěli po čtyřech porážkách v řadě a upevnili si třetí místo v tabulce, Hradec je sedmý."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "pulled a goal back",
+            "definition": "scored a goal that made the other team's lead smaller"
+          },
+          {
+            "term": "equalise",
+            "definition": "to score so that both teams have the same number of goals"
+          },
+          {
+            "term": "straight",
+            "definition": "happening one after another without a break"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "07:54",
+      "headline": "Lyžařská sezona v Krkonoších začne na Černé hoře 27. listopadu",
+      "body": "V Krkonoších se začne lyžovat už na konci příštího týdne. SkiResort Černá hora–Pec plánuje zahájit sezonu v pátek 27. listopadu na Černé hoře a před sezonou investoval 70 milionů korun. O dva týdny později se bude poprvé lyžovat v nové části skiareálu ve Špindlerově Mlýně, jejímž středobodem je terminál u Labské přehrady a kde investice dosáhly 600 milionů korun. Skipasy letos zdraží.",
+      "sources": [
+        {
+          "name": "iDNES Hradec",
+          "url": "https://www.idnes.cz/hradec-kralove/zpravy/sjezdovky-lyzovani-zima-cerna-hora-spindleruv-mlyn-destne-ceny.A261118_986300_hradec-zpravy_tuu"
+        }
+      ],
+      "en": {
+        "headline": "The Krkonoše ski season will open at Černá hora on 27 November",
+        "sentences": [
+          {
+            "en": "Skiing in the Krkonoše mountains will start as early as the end of next week.",
+            "cs": "V Krkonoších se začne lyžovat už na konci příštího týdne."
+          },
+          {
+            "en": "SkiResort Černá hora–Pec plans to open the season on Friday 27 November at Černá hora, having invested 70 million crowns ahead of it.",
+            "cs": "SkiResort Černá hora–Pec plánuje zahájit sezonu v pátek 27. listopadu na Černé hoře a před sezonou investoval 70 milionů korun."
+          },
+          {
+            "en": "Two weeks later skiing will begin for the first time in the new part of the Špindlerův Mlýn resort, built around a terminal by the Labská dam, where investment reached 600 million crowns.",
+            "cs": "O dva týdny později se bude poprvé lyžovat v nové části skiareálu ve Špindlerově Mlýně, jejímž středobodem je terminál u Labské přehrady a kde investice dosáhly 600 milionů korun."
+          },
+          {
+            "en": "Ski passes will be more expensive this year.",
+            "cs": "Skipasy letos zdraží."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "resort",
+            "definition": "a place where people go for holidays, here for skiing"
+          },
+          {
+            "term": "dam",
+            "definition": "a wall built across a river to hold water back"
+          },
+          {
+            "term": "ahead of",
+            "definition": "before something happens"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "20:20",
+      "day": "prev",
+      "headline": "Kemp Stříbrný rybník se proměnil ve světelný Winter World",
+      "body": "Kemp Stříbrný rybník v Hradci Králové se včera večer proměnil ve světelnou atrakci Winter World plnou zářících instalací, zvířat a barev. Slavnostní otevření si i přes déšť nenechaly ujít stovky lidí.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/zpravy/906328-dest-absolonova-a-tisice-svetel-winter-world-v-hradci-otevrel-brany.html"
+        }
+      ],
+      "en": {
+        "headline": "The Stříbrný rybník campsite has turned into the illuminated Winter World",
+        "sentences": [
+          {
+            "en": "The Stříbrný rybník campsite in Hradec Králové turned yesterday evening into Winter World, a light attraction full of glowing installations, animals and colours.",
+            "cs": "Kemp Stříbrný rybník v Hradci Králové se včera večer proměnil ve světelnou atrakci Winter World plnou zářících instalací, zvířat a barev."
+          },
+          {
+            "en": "Hundreds of people came to the opening ceremony despite the rain.",
+            "cs": "Slavnostní otevření si i přes déšť nenechaly ujít stovky lidí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "illuminated",
+            "definition": "lit up with bright lights"
+          },
+          {
+            "term": "campsite",
+            "definition": "a place where people stay in tents or caravans"
+          },
+          {
+            "term": "glowing",
+            "definition": "giving out a soft, steady light"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Hradec Králové",
+      "time": "15:00",
+      "headline": "Muzeum východních Čech otevřelo výstavu o příběhu paneláků",
+      "body": "Muzeum východních Čech v Hradci Králové představuje výstavu věnovanou tomu, jak vznikala československá sídliště a jak se v nich žilo. Zaměřuje se na panelový systém HK, který podle muzea předběhl svou dobu. Návštěvníci si prohlédnou i původní výtah nebo bytové jádro.",
+      "sources": [
+        {
+          "name": "Hradecká drbna",
+          "url": "https://hradecka.drbna.cz/spolecnost/906363-jak-se-stavela-sidliste-muzeum-predstavuje-pribeh-panelaku.html"
+        }
+      ],
+      "en": {
+        "headline": "The Museum of East Bohemia has opened an exhibition on the story of prefab housing blocks",
+        "sentences": [
+          {
+            "en": "The Museum of East Bohemia in Hradec Králové is presenting an exhibition devoted to how Czechoslovak housing estates came about and what living in them was like.",
+            "cs": "Muzeum východních Čech v Hradci Králové představuje výstavu věnovanou tomu, jak vznikala československá sídliště a jak se v nich žilo."
+          },
+          {
+            "en": "It focuses on the HK panel system, which according to the museum was ahead of its time.",
+            "cs": "Zaměřuje se na panelový systém HK, který podle muzea předběhl svou dobu."
+          },
+          {
+            "en": "Visitors will also see an original lift and a prefabricated bathroom core.",
+            "cs": "Návštěvníci si prohlédnou i původní výtah nebo bytové jádro."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "prefab",
+            "definition": "made in a factory in parts and then put together on the site"
+          },
+          {
+            "term": "housing estates",
+            "definition": "large groups of houses or flats built together as one project"
+          },
+          {
+            "term": "ahead of its time",
+            "definition": "more modern or advanced than other things from the same period"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:40",
+      "headline": "Rutte v Polsku ujistil, že NATO je připraveno chránit své členy",
+      "body": "Generální tajemník NATO Mark Rutte přiletěl do Varšavy poté, co se v pátek na jihovýchodě Polska zřítily tři ruské vzdušné objekty. Podle polského premiéra Donalda Tuska šlo o úmyslnou provokaci. Rutte v Polsku zdůraznil, že Aliance je vždy připravena zakročit na ochranu svých členů. Premiér Andrej Babiš označil narušení polského vzdušného prostoru za nepřijatelné a na síti X napsal, že Česko je připraveno Polsku v případě potřeby pomoci; prezident Petr Pavel podle E15 varoval, že podobný incident může zasáhnout i Českou republiku. Hnutí STAN chce o střelách a dronu jednat v úterý ve Sněmovně a navrhuje označit incident za provokaci a Rusko za jejího původce.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/sef-nato-rutte-dorazil-po-incidentu-s-ruskymi-raketami-do-varsavy-379815"
+        },
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/geopolitika/babis-odsoudil-rusky-incident-v-polsku-cesko-je-pripraveno-sousedum-pomoci-1437481"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265684/"
+        }
+      ],
+      "en": {
+        "headline": "Rutte assured Poland that NATO is ready to protect its members",
+        "sentences": [
+          {
+            "en": "NATO Secretary General Mark Rutte flew to Warsaw after three Russian aerial objects crashed in south-eastern Poland on Friday.",
+            "cs": "Generální tajemník NATO Mark Rutte přiletěl do Varšavy poté, co se v pátek na jihovýchodě Polska zřítily tři ruské vzdušné objekty."
+          },
+          {
+            "en": "Polish Prime Minister Donald Tusk said it was a deliberate provocation.",
+            "cs": "Podle polského premiéra Donalda Tuska šlo o úmyslnou provokaci."
+          },
+          {
+            "en": "In Poland, Rutte stressed that the Alliance is always ready to step in to protect its members.",
+            "cs": "Rutte v Polsku zdůraznil, že Aliance je vždy připravena zakročit na ochranu svých členů."
+          },
+          {
+            "en": "Prime Minister Andrej Babiš called the violation of Polish airspace unacceptable and wrote on X that the Czech Republic is ready to help Poland if needed; President Petr Pavel warned, according to E15, that a similar incident could also hit the Czech Republic.",
+            "cs": "Premiér Andrej Babiš označil narušení polského vzdušného prostoru za nepřijatelné a na síti X napsal, že Česko je připraveno Polsku v případě potřeby pomoci; prezident Petr Pavel podle E15 varoval, že podobný incident může zasáhnout i Českou republiku."
+          },
+          {
+            "en": "The STAN movement wants the Chamber of Deputies to debate the missiles and the drone on Tuesday and proposes declaring the incident a provocation and Russia its author.",
+            "cs": "Hnutí STAN chce o střelách a dronu jednat v úterý ve Sněmovně a navrhuje označit incident za provokaci a Rusko za jejího původce."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "deliberate",
+            "definition": "done on purpose, not by accident"
+          },
+          {
+            "term": "step in",
+            "definition": "to get involved in a situation in order to help"
+          },
+          {
+            "term": "violation",
+            "definition": "an action that breaks a law, a rule or an agreement"
+          },
+          {
+            "term": "airspace",
+            "definition": "the sky above a country, which that country controls"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "08:38",
+      "headline": "Ruský útok na Kryvyj Rih zabil dítě a zdravotnickou záchranářku",
+      "body": "Ruská armáda podnikla v pátek večer raketový a dronový útok na Kryvyj Rih na jihovýchodě Ukrajiny. Zemřela dvacetiletá zdravotnická záchranářka a sedmileté dítě, zraněno bylo 58 lidí včetně šesti dětí, oznámil šéf městské správy Dnipropetrovské oblasti Oleksandr Vilkul. Velitel vojenské správy oblasti Oleksandr Hanža na Telegramu napsal, že nepřítel s nasazením balistických raket a dronů zaútočil skoro desetkrát na pět čtvrtí. Seznam Zprávy uvádějí, že úder poničil více než dvě desítky panelových domů, nemocnice i infrastrukturu. Rusové v noci udeřili také na Kyjev, Charkov a Záporoží; v kyjevském Podilském rajonu vzplanuly dva domy a dva lidé utrpěli zranění. Moskva následně informovala o ukrajinských dronových útocích v několika ruských regionech, které si vyžádaly zraněné.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusky-utok-na-kryvyj-rih-zabil-dite-a-zdravotnici-zranenych-jsou-desitky-379810"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/zahranicni-ruske-rakety-a-drony-zasahly-kryvyj-rih-zemreli-dva-lide-vcetne-ditete-321200"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265597/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265647/"
+        }
+      ],
+      "en": {
+        "headline": "A Russian strike on Kryvyi Rih killed a child and a paramedic",
+        "sentences": [
+          {
+            "en": "The Russian army carried out a missile and drone strike on Kryvyi Rih in south-eastern Ukraine on Friday evening.",
+            "cs": "Ruská armáda podnikla v pátek večer raketový a dronový útok na Kryvyj Rih na jihovýchodě Ukrajiny."
+          },
+          {
+            "en": "A twenty-year-old paramedic and a seven-year-old child died and 58 people were injured, including six children, said Oleksandr Vilkul, head of the city administration of the Dnipropetrovsk region.",
+            "cs": "Zemřela dvacetiletá zdravotnická záchranářka a sedmileté dítě, zraněno bylo 58 lidí včetně šesti dětí, oznámil šéf městské správy Dnipropetrovské oblasti Oleksandr Vilkul."
+          },
+          {
+            "en": "The commander of the region's military administration, Oleksandr Hanzha, wrote on Telegram that the enemy had struck five districts almost ten times using ballistic missiles and drones.",
+            "cs": "Velitel vojenské správy oblasti Oleksandr Hanža na Telegramu napsal, že nepřítel s nasazením balistických raket a dronů zaútočil skoro desetkrát na pět čtvrtí."
+          },
+          {
+            "en": "Seznam Zprávy reports that the strike damaged more than two dozen panel blocks, hospitals and infrastructure.",
+            "cs": "Seznam Zprávy uvádějí, že úder poničil více než dvě desítky panelových domů, nemocnice i infrastrukturu."
+          },
+          {
+            "en": "Russian forces also hit Kyiv, Kharkiv and Zaporizhzhia overnight; two houses caught fire in Kyiv's Podilskyi district and two people were injured.",
+            "cs": "Rusové v noci udeřili také na Kyjev, Charkov a Záporoží; v kyjevském Podilském rajonu vzplanuly dva domy a dva lidé utrpěli zranění."
+          },
+          {
+            "en": "Moscow then reported Ukrainian drone attacks in several Russian regions that left people injured.",
+            "cs": "Moskva následně informovala o ukrajinských dronových útocích v několika ruských regionech, které si vyžádaly zraněné."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "paramedic",
+            "definition": "a person trained to give medical help in an emergency, often in an ambulance"
+          },
+          {
+            "term": "ballistic",
+            "definition": "describing a missile that is fired high into the air and then falls onto its target"
+          },
+          {
+            "term": "infrastructure",
+            "definition": "the basic systems of a place, such as roads, power and water"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "15:52",
+      "headline": "Drony zaútočily na ruskou loď ve Finském zálivu, Finsko hlásí možné narušení vzdušného prostoru",
+      "body": "Na nákladní loď plující do Kaliningradu dnes podle ruských úřadů zaútočily v neutrálních vodách Finského zálivu dva drony. Incident se měl odehrát tři námořní míle od ruské hranice, posádka byla evakuována a rozsah škod se zjišťuje, uvedl gubernátor Leningradské oblasti Alexandr Drozděnko. Podle estonských médií jde o ruské plavidlo Sparta II, které je na americkém sankčním seznamu. Finsko má zároveň podezření, že jeho vzdušný prostor narušil ruský vrtulník; podle finského ministerstva obrany mohlo narušení souviset se zásahem po útoku dronů na loď.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/po-utoku-na-lod-ve-finskem-zalivu-hlasi-helsinky-mozne-naruseni-vzdusneho-prostoru-379818"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265707/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265741/"
+        }
+      ],
+      "en": {
+        "headline": "Drones attacked a Russian ship in the Gulf of Finland and Finland reports a possible airspace violation",
+        "sentences": [
+          {
+            "en": "Two drones attacked a cargo ship bound for Kaliningrad in neutral waters of the Gulf of Finland today, Russian authorities say.",
+            "cs": "Na nákladní loď plující do Kaliningradu dnes podle ruských úřadů zaútočily v neutrálních vodách Finského zálivu dva drony."
+          },
+          {
+            "en": "The incident is said to have taken place three nautical miles from the Russian border; the crew was evacuated and the extent of the damage is being established, said Leningrad region governor Alexandr Drozdenko.",
+            "cs": "Incident se měl odehrát tři námořní míle od ruské hranice, posádka byla evakuována a rozsah škod se zjišťuje, uvedl gubernátor Leningradské oblasti Alexandr Drozděnko."
+          },
+          {
+            "en": "According to Estonian media it is the Russian vessel Sparta II, which is on the American sanctions list.",
+            "cs": "Podle estonských médií jde o ruské plavidlo Sparta II, které je na americkém sankčním seznamu."
+          },
+          {
+            "en": "Finland at the same time suspects that a Russian helicopter violated its airspace; according to the Finnish defence ministry the violation may have been connected with the response to the drone attack on the ship.",
+            "cs": "Finsko má zároveň podezření, že jeho vzdušný prostor narušil ruský vrtulník; podle finského ministerstva obrany mohlo narušení souviset se zásahem po útoku dronů na loď."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "bound for",
+            "definition": "travelling towards a particular place"
+          },
+          {
+            "term": "nautical miles",
+            "definition": "a unit of distance used at sea, about 1.85 kilometres"
+          },
+          {
+            "term": "vessel",
+            "definition": "a ship or a large boat"
+          },
+          {
+            "term": "extent",
+            "definition": "how large or how serious something is"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "10:44",
+      "headline": "Ruské hybridní hrozby přestávají být hybridní, varovala von der Leyenová",
+      "body": "Ruské hybridní hrozby v Evropské unii přestávají být hybridní a jsou čím dál reálnější, uvedla šéfka Evropské komise Ursula von der Leyenová. Reagovala tak na oznámení Dánska, že Moskva před časem plánovala atentát na rappera americko-ukrajinského původu na předměstí Kodaně. „Byl to útok na půdě EU. A je to nepřijatelné,“ napsala na síti X a vyjádřila Dánsku plnou solidaritu. Dodala, že Komise brzy představí novou bezpečnostní strategii.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/ruske-hybridni-hrozby-jsou-stale-realnejsi-varovala-sefka-komise-379812"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265663/"
+        }
+      ],
+      "en": {
+        "headline": "Russian hybrid threats are ceasing to be hybrid, von der Leyen warned",
+        "sentences": [
+          {
+            "en": "Russian hybrid threats in the European Union are ceasing to be hybrid and are becoming more and more real, said European Commission head Ursula von der Leyen.",
+            "cs": "Ruské hybridní hrozby v Evropské unii přestávají být hybridní a jsou čím dál reálnější, uvedla šéfka Evropské komise Ursula von der Leyenová."
+          },
+          {
+            "en": "She was responding to Denmark's announcement that Moscow had some time ago planned the assassination of a rapper of American-Ukrainian origin in a suburb of Copenhagen.",
+            "cs": " Reagovala tak na oznámení Dánska, že Moskva před časem plánovala atentát na rappera americko-ukrajinského původu na předměstí Kodaně."
+          },
+          {
+            "en": "“It was an attack on EU soil. And it is unacceptable,” she wrote on X, expressing full solidarity with Denmark.",
+            "cs": " „Byl to útok na půdě EU. A je to nepřijatelné,“ napsala na síti X a vyjádřila Dánsku plnou solidaritu."
+          },
+          {
+            "en": "She added that the Commission will soon present a new security strategy.",
+            "cs": " Dodala, že Komise brzy představí novou bezpečnostní strategii."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ceasing",
+            "definition": "stopping doing something"
+          },
+          {
+            "term": "assassination",
+            "definition": "the murder of an important person"
+          },
+          {
+            "term": "soil",
+            "definition": "the land of a particular country"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "13:41",
+      "headline": "Costa navrhuje zdanit velké technologické firmy a škrtnout v rozpočtu EU 204 miliard eur",
+      "body": "Předseda Evropské rady António Costa představil přepracovaný vyjednávací rámec sedmiletého rozpočtu Evropské unie na roky 2028 až 2034. Navrhuje zdanit velké technologické společnosti a těmito penězi rozpočet podpořit, zároveň počítá se škrty ve výši 204 miliard eur, tedy asi pěti bilionů korun, oproti plánu, který původně představila Evropská komise. Podle německého kancléře Friedricha Merze kompromisní návrh nadále není realistický a je třeba jeho objem snížit. Merz zároveň v prohlášení uvedl, že příští rozpočet EU musí zajistit robustní a udržitelnou víceletou podporu Ukrajiny, na které se bude podílet všech 27 členských zemí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/skrty-ci-zdaneni-velkych-technologickych-firem-costa-predstavil-upraveny-plan-rozpoctu-379814"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265705/"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265743/"
+        }
+      ],
+      "en": {
+        "headline": "Costa proposes taxing big technology firms and cutting 204 billion euros from the EU budget",
+        "sentences": [
+          {
+            "en": "European Council President António Costa has presented a reworked negotiating framework for the European Union's seven-year budget for 2028 to 2034.",
+            "cs": "Předseda Evropské rady António Costa představil přepracovaný vyjednávací rámec sedmiletého rozpočtu Evropské unie na roky 2028 až 2034."
+          },
+          {
+            "en": "He proposes taxing large technology companies and using that money to support the budget, while also counting on cuts of 204 billion euros, roughly five trillion crowns, compared with the plan originally presented by the European Commission.",
+            "cs": "Navrhuje zdanit velké technologické společnosti a těmito penězi rozpočet podpořit, zároveň počítá se škrty ve výši 204 miliard eur, tedy asi pěti bilionů korun, oproti plánu, který původně představila Evropská komise."
+          },
+          {
+            "en": "German Chancellor Friedrich Merz says the compromise proposal is still not realistic and its size needs to be reduced.",
+            "cs": "Podle německého kancléře Friedricha Merze kompromisní návrh nadále není realistický a je třeba jeho objem snížit."
+          },
+          {
+            "en": "Merz also said in a statement that the next EU budget must secure robust and sustainable multi-year support for Ukraine, shared by all 27 member states.",
+            "cs": "Merz zároveň v prohlášení uvedl, že příští rozpočet EU musí zajistit robustní a udržitelnou víceletou podporu Ukrajiny, na které se bude podílet všech 27 členských zemí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "reworked",
+            "definition": "changed and improved from an earlier version"
+          },
+          {
+            "term": "framework",
+            "definition": "a basic structure of rules or ideas"
+          },
+          {
+            "term": "robust",
+            "definition": "strong and not likely to fail"
+          },
+          {
+            "term": "sustainable",
+            "definition": "able to continue over a long period of time"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Svět",
+      "time": "14:49",
+      "headline": "Zelenskyj je otevřený jednání s Trumpem a Putinem na okraji summitu G20",
+      "body": "Ukrajinský prezident Volodymyr Zelenskyj je otevřený možnému třístrannému jednání se svými protějšky z USA a Ruska Donaldem Trumpem a Vladimirem Putinem na okraji summitu zemí G20, pokud budou zástupci Ukrajiny na událost pozváni. „Mnozí lídři navrhli, aby americká strana oficiálně pozvala Ukrajinu na summit G20. Zatím jsme pozvánku neobdrželi; pokud ji dostaneme, určitě se zúčastníme,“ uvedl.",
+      "sources": [
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265736/"
+        }
+      ],
+      "en": {
+        "headline": "Zelenskyj is open to talks with Trump and Putin on the sidelines of the G20 summit",
+        "sentences": [
+          {
+            "en": "Ukrainian President Volodymyr Zelenskyj is open to possible three-way talks with his American and Russian counterparts Donald Trump and Vladimir Putin on the sidelines of the G20 summit, provided that Ukrainian representatives are invited to the event.",
+            "cs": "Ukrajinský prezident Volodymyr Zelenskyj je otevřený možnému třístrannému jednání se svými protějšky z USA a Ruska Donaldem Trumpem a Vladimirem Putinem na okraji summitu zemí G20, pokud budou zástupci Ukrajiny na událost pozváni."
+          },
+          {
+            "en": "“Many leaders have suggested that the American side officially invite Ukraine to the G20 summit. We have not received an invitation so far; if we get one, we will certainly take part,” he said.",
+            "cs": " „Mnozí lídři navrhli, aby americká strana oficiálně pozvala Ukrajinu na summit G20. Zatím jsme pozvánku neobdrželi; pokud ji dostaneme, určitě se zúčastníme,“ uvedl."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "counterparts",
+            "definition": "people who hold the same position in another country or organization"
+          },
+          {
+            "term": "on the sidelines",
+            "definition": "happening next to a big event but not as part of its official programme"
+          },
+          {
+            "term": "provided that",
+            "definition": "only if"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:03",
+      "headline": "Cena bitcoinu klesla na nejnižší úroveň za dva roky",
+      "body": "Cena bitcoinu sestoupila pod 56 tisíc dolarů, tedy zhruba 1,25 milionu korun, a dostala se na nejnižší úroveň za dva roky. Za poklesem stojí podle agentury Reuters odklon investorů od rizikovějších aktiv v důsledku nejistoty ohledně dalšího vývoje v oblasti umělé inteligence.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/cena-bitcoinu-klesla-na-dvoulete-minimum-379809"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-meny-kryptomeny-cena-bitcoinu-klesla-na-dvoulete-minimum-321199"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265587/"
+        }
+      ],
+      "en": {
+        "headline": "The price of bitcoin has fallen to its lowest level in two years",
+        "sentences": [
+          {
+            "en": "The price of bitcoin has dropped below 56 thousand dollars, roughly 1.25 million crowns, reaching its lowest level in two years.",
+            "cs": "Cena bitcoinu sestoupila pod 56 tisíc dolarů, tedy zhruba 1,25 milionu korun, a dostala se na nejnižší úroveň za dva roky."
+          },
+          {
+            "en": "Reuters says the fall is driven by investors turning away from riskier assets because of uncertainty about where artificial intelligence goes next.",
+            "cs": "Za poklesem stojí podle agentury Reuters odklon investorů od rizikovějších aktiv v důsledku nejistoty ohledně dalšího vývoje v oblasti umělé inteligence."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assets",
+            "definition": "things of value that a person or a company owns, such as shares or property"
+          },
+          {
+            "term": "uncertainty",
+            "definition": "a situation in which something is not known or not sure"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "08:03",
+      "headline": "Nasdaq za týden smazal letošní zisky, akcie Nvidie spadly o 14 procent",
+      "body": "Navazuje na čtvrteční propad trhů: výprodej na Wall Street podle E15 nabírá na síle a Nasdaq za týden odepsal přes deset procent, čímž smazal letošní zisky. Akcie Nvidie se v pátek propadly o 14 procent. Podle Seznam Zpráv investoři pochybují o návratnosti miliardových investic do umělé inteligence, obávají se vyšších úrokových sazeb a reagují na zprávy o vyšetřování Nvidie. Optimismus nepřinesl ani burzovní debut Anthropicu — Deník N píše, že počáteční kurz přesahoval 110 dolarů a o den později byl pod 90.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/burzy-a-trhy/krvavy-tyden-na-wall-street-akcie-technologickych-gigantu-se-hrouti-nasdaq-smazal-letosni-zisky-1437486"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-akcie-fondy-patecni-zemetreseni-na-wall-street-nvidia-se-propadla-o-14-procent-321194"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/2265164/anthropic-po-rekordnim-startu-klesa-spolu-s-nim-padaji-i-dalsi-technologicke-akcie/"
+        }
+      ],
+      "en": {
+        "headline": "The Nasdaq has wiped out this year's gains in a week and Nvidia shares fell 14 percent",
+        "sentences": [
+          {
+            "en": "Following on from Thursday's market slump: the sell-off on Wall Street is gathering pace, according to E15, and the Nasdaq has lost more than ten percent in a week, wiping out this year's gains.",
+            "cs": "Navazuje na čtvrteční propad trhů: výprodej na Wall Street podle E15 nabírá na síle a Nasdaq za týden odepsal přes deset procent, čímž smazal letošní zisky."
+          },
+          {
+            "en": "Nvidia shares fell 14 percent on Friday.",
+            "cs": "Akcie Nvidie se v pátek propadly o 14 procent."
+          },
+          {
+            "en": "According to Seznam Zprávy, investors doubt the returns on the billions invested in artificial intelligence, fear higher interest rates and are reacting to reports of an investigation into Nvidia.",
+            "cs": "Podle Seznam Zpráv investoři pochybují o návratnosti miliardových investic do umělé inteligence, obávají se vyšších úrokových sazeb a reagují na zprávy o vyšetřování Nvidie."
+          },
+          {
+            "en": "Anthropic's stock market debut brought no optimism either — Deník N writes that the opening price was above 110 dollars and a day later it was below 90.",
+            "cs": "Optimismus nepřinesl ani burzovní debut Anthropicu — Deník N píše, že počáteční kurz přesahoval 110 dolarů a o den později byl pod 90."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "sell-off",
+            "definition": "a period when many people sell shares quickly and prices drop"
+          },
+          {
+            "term": "wiped out",
+            "definition": "completely removed or destroyed"
+          },
+          {
+            "term": "slump",
+            "definition": "a sudden large fall in prices or value"
+          },
+          {
+            "term": "returns",
+            "definition": "the profit made on money that has been invested"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Ekonomika",
+      "time": "15:00",
+      "headline": "Útoky na tankery v Hormuzském průlivu ohrožují světové dodávky ropy",
+      "body": "Dva tankery v Hormuzském průlivu zasáhly neznámé projektily, píše E15. Jeden z nich podle britské námořní agentury UKMTO dostal zásah do zádi severně od ománského města Chasab, hlášena nejsou žádná zranění. Írán podle E15 stupňuje tlak na lodní dopravu a hlásí sestřelení amerického dronu. Vývoz ropy z Blízkého východu prudce klesá a napětí ohrožuje světové dodávky.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/zahranicni/hormuzsky-pruliv-znovu-v-plamenech-utoky-na-tankery-ohrozuji-svetove-dodavky-ropy-1437488"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265645/"
+        }
+      ],
+      "en": {
+        "headline": "Attacks on tankers in the Strait of Hormuz threaten world oil supplies",
+        "sentences": [
+          {
+            "en": "Two tankers in the Strait of Hormuz were hit by unidentified projectiles, E15 writes.",
+            "cs": "Dva tankery v Hormuzském průlivu zasáhly neznámé projektily, píše E15."
+          },
+          {
+            "en": "One of them, according to the British maritime agency UKMTO, was hit in the stern north of the Omani town of Khasab, with no injuries reported.",
+            "cs": "Jeden z nich podle britské námořní agentury UKMTO dostal zásah do zádi severně od ománského města Chasab, hlášena nejsou žádná zranění."
+          },
+          {
+            "en": "Iran is stepping up pressure on shipping and reports shooting down an American drone, E15 says.",
+            "cs": "Írán podle E15 stupňuje tlak na lodní dopravu a hlásí sestřelení amerického dronu."
+          },
+          {
+            "en": "Oil exports from the Middle East are falling sharply and the tension threatens world supplies.",
+            "cs": "Vývoz ropy z Blízkého východu prudce klesá a napětí ohrožuje světové dodávky."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "projectiles",
+            "definition": "objects that are fired or thrown as weapons"
+          },
+          {
+            "term": "maritime",
+            "definition": "connected with the sea and with ships"
+          },
+          {
+            "term": "stern",
+            "definition": "the back part of a ship"
+          },
+          {
+            "term": "stepping up",
+            "definition": "increasing something or making it stronger"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "15:11",
+      "headline": "Matematik z Anthropicu tvrdí, že s pomocí AI dokázal Riemannovu hypotézu",
+      "body": "Matematik Levent Alpöge, který pracuje pro americkou společnost Anthropic, tvrdí, že s pomocí jejího jazykového modelu Claude našel důkaz Riemannovy hypotézy. Ta patří k nejslavnějším problémům matematiky a matematici ji nedokázali vyřešit přes 160 let, uvedla agentura AP. Alpöge v pátečním čtyřstránkovém oznámení na svém webu napsal, že na problému s Claudem v posledních měsících pracoval. Seznam Zprávy dodávají, že důkaz má 17 milionů řádků a zatím mu nikdo nerozumí.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "iROZHLAS",
+          "url": "https://www.irozhlas.cz/veda-technologie/technologie/zamestnanec-anthropicu-tvrdi-ze-pomoci-ai-vyresil-slavny-matematicky-problem_2611211511_jor"
+        },
+        {
+          "name": "Seznam Zprávy",
+          "url": "https://www.seznamzpravy.cz/clanek/tech-technologie-veda-dukaz-na-17-milionu-radku-matematik-s-ai-pry-pokoril-nejslavnejsi-zahadu-321196"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265733/"
+        }
+      ],
+      "en": {
+        "headline": "A mathematician from Anthropic claims he proved the Riemann hypothesis with the help of AI",
+        "sentences": [
+          {
+            "en": "Levent Alpöge, a mathematician who works for the American company Anthropic, claims that with the help of its language model Claude he has found a proof of the Riemann hypothesis.",
+            "cs": "Matematik Levent Alpöge, který pracuje pro americkou společnost Anthropic, tvrdí, že s pomocí jejího jazykového modelu Claude našel důkaz Riemannovy hypotézy."
+          },
+          {
+            "en": "It is one of the most famous problems in mathematics and mathematicians failed to solve it for more than 160 years, the AP agency reported.",
+            "cs": "Ta patří k nejslavnějším problémům matematiky a matematici ji nedokázali vyřešit přes 160 let, uvedla agentura AP."
+          },
+          {
+            "en": "In a four-page announcement on his website on Friday, Alpöge wrote that he had been working on the problem with Claude in recent months.",
+            "cs": "Alpöge v pátečním čtyřstránkovém oznámení na svém webu napsal, že na problému s Claudem v posledních měsících pracoval."
+          },
+          {
+            "en": "Seznam Zprávy adds that the proof runs to 17 million lines and that nobody understands it yet.",
+            "cs": "Seznam Zprávy dodávají, že důkaz má 17 milionů řádků a zatím mu nikdo nerozumí."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "hypothesis",
+            "definition": "an idea that is suggested as an explanation but has not been proved"
+          },
+          {
+            "term": "proof",
+            "definition": "an argument that shows that something is definitely true"
+          },
+          {
+            "term": "runs to",
+            "definition": "reaches a particular length or amount"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Technologie",
+      "time": "21:40",
+      "day": "prev",
+      "headline": "GTA 6 utržila za první den 85 miliard korun",
+      "body": "Videohra GTA 6 dosáhla za první den na trhu rekordních tržeb 3,79 miliardy dolarů, tedy 85,5 miliardy korun. Uvedlo to v tiskové zprávě studio Rockstar Games; číslo vychází z jeho odhadů ke konci čtvrtka, kdy hra po třinácti letech vyšla.",
+      "sources": [
+        {
+          "name": "E15",
+          "url": "https://www.e15.cz/byznys/technologie-a-media/gta-6-trha-vsechny-rekordy-za-pouhych-24-hodin-vydelala-85-miliard-korun-1437485"
+        }
+      ],
+      "en": {
+        "headline": "GTA 6 took 85 billion crowns on its first day",
+        "sentences": [
+          {
+            "en": "The video game GTA 6 reached record revenues of 3.79 billion dollars, or 85.5 billion crowns, on its first day on the market.",
+            "cs": "Videohra GTA 6 dosáhla za první den na trhu rekordních tržeb 3,79 miliardy dolarů, tedy 85,5 miliardy korun."
+          },
+          {
+            "en": "Rockstar Games said so in a press release; the figure is based on the studio's estimates as of the end of Thursday, when the game came out after thirteen years.",
+            "cs": "Uvedlo to v tiskové zprávě studio Rockstar Games; číslo vychází z jeho odhadů ke konci čtvrtka, kdy hra po třinácti letech vyšla."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "revenues",
+            "definition": "the money a company receives from selling its products"
+          },
+          {
+            "term": "estimates",
+            "definition": "calculations of an amount that are close but not exact"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Společnost a kultura",
+      "time": "13:54",
+      "headline": "Elektronické cigarety užívá pravidelně každé desáté dítě mezi jedenácti a patnácti lety",
+      "body": "Elektronické cigarety pravidelně užívá přibližně každý desátý školák ve věku mezi jedenácti a patnácti lety. Oproti roku 2022 téměř dvojnásobně vzrostl také počet mladých, kteří každý den konzumují energetické nápoje; některé školy proto tyto drinky s vysokým obsahem kofeinu a cukru zakazují ve školním řádu. Ukázala to rozsáhlá studie životního stylu, na níž spolupracovali vědci z Univerzity Palackého v Olomouci.",
+      "sources": [
+        {
+          "name": "ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vapuje-uz-kazde-desate-dite-roste-i-obliba-energetickych-napoju-379813"
+        }
+      ],
+      "en": {
+        "headline": "One child in ten aged between eleven and fifteen uses e-cigarettes regularly",
+        "sentences": [
+          {
+            "en": "Roughly one in ten schoolchildren aged between eleven and fifteen uses electronic cigarettes regularly.",
+            "cs": "Elektronické cigarety pravidelně užívá přibližně každý desátý školák ve věku mezi jedenácti a patnácti lety."
+          },
+          {
+            "en": "The number of young people who drink energy drinks every day has also almost doubled compared with 2022; some schools therefore ban these drinks, which are high in caffeine and sugar, in their school rules.",
+            "cs": "Oproti roku 2022 téměř dvojnásobně vzrostl také počet mladých, kteří každý den konzumují energetické nápoje; některé školy proto tyto drinky s vysokým obsahem kofeinu a cukru zakazují ve školním řádu."
+          },
+          {
+            "en": "This was shown by a large lifestyle study that researchers from Palacký University in Olomouc worked on.",
+            "cs": "Ukázala to rozsáhlá studie životního stylu, na níž spolupracovali vědci z Univerzity Palackého v Olomouci."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "doubled",
+            "definition": "become twice as large"
+          },
+          {
+            "term": "ban",
+            "definition": "to officially say that something is not allowed"
+          },
+          {
+            "term": "lifestyle",
+            "definition": "the way a person lives, including habits and daily choices"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:27",
+      "headline": "Harry Kane si přetrhl vaz v kotníku a nenastoupí ani proti Slavii",
+      "body": "Útočník Bayernu Mnichov a držitel Zlatého míče Harry Kane si v pátečním ligovém zápase s Kolínem nad Rýnem přetrhl vaz v kotníku a ještě v noci byl operován. Chybět bude zřejmě několik měsíců, takže se nepředstaví ani 8. prosince v Lize mistrů proti pražské Slavii. Bayern v zápase přišel kvůli zranění také o křídelníka Michaela Olise a doma jen remizoval 1:1.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/kane-si-pretrhl-vaz-v-kotniku-a-ceka-ho-nekolikamesicni-pauza-160053"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-bundesliga-bayern-prisel-o-kanea-i-dalsi-oporu-v-bundeslize-ztratil-body-5579930"
+        }
+      ],
+      "en": {
+        "headline": "Harry Kane has torn a ligament in his ankle and will miss the match against Slavia",
+        "sentences": [
+          {
+            "en": "Bayern Munich striker and Ballon d'Or winner Harry Kane tore a ligament in his ankle in Friday's league game against Köln and was operated on the same night.",
+            "cs": "Útočník Bayernu Mnichov a držitel Zlatého míče Harry Kane si v pátečním ligovém zápase s Kolínem nad Rýnem přetrhl vaz v kotníku a ještě v noci byl operován."
+          },
+          {
+            "en": "He will probably be out for several months, so he will not appear in the Champions League match against Slavia Prague on 8 December either.",
+            "cs": "Chybět bude zřejmě několik měsíců, takže se nepředstaví ani 8. prosince v Lize mistrů proti pražské Slavii."
+          },
+          {
+            "en": "Bayern also lost winger Michael Olise to injury in the game and only drew 1:1 at home.",
+            "cs": "Bayern v zápase přišel kvůli zranění také o křídelníka Michaela Olise a doma jen remizoval 1:1."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "ligament",
+            "definition": "a strong band of tissue in the body that holds bones together"
+          },
+          {
+            "term": "striker",
+            "definition": "a football player whose main job is to score goals"
+          },
+          {
+            "term": "winger",
+            "definition": "a football player who plays near the side of the pitch"
+          },
+          {
+            "term": "be out",
+            "definition": "to be unable to play because of an injury"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:56",
+      "headline": "Dukla vyhrála v Třinci a na vedoucí Karvinou ztrácí v druhé lize jediný bod",
+      "body": "Fotbalisté Dukly zvítězili v 15. kole druhé ligy na hřišti třineckého nováčka 2:1 a po třetí výhře za sebou ztrácejí na vedoucí Karvinou už jen bod. Lídr tabulky předtím doma ve dvojnásobném oslabení prohrál s rezervou Baníku Ostrava 1:3, slezské derby rozhodl dvěma góly Šimon Drozd.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/fotbal-ceska-2-liga-dukla-vyhrala-v-trinci-a-na-lidra-druhe-ligy-karvinou-ztraci-uz-jen-bod-5580247"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/fotbal/becko-baniku-pripravilo-karvinou-o-naskok-160049"
+        }
+      ],
+      "en": {
+        "headline": "Dukla won in Třinec and trails second-division leaders Karviná by a single point",
+        "sentences": [
+          {
+            "en": "Dukla's footballers won 2:1 away to newly promoted Třinec in the 15th round of the second division and, after a third win in a row, now trail leaders Karviná by just one point.",
+            "cs": "Fotbalisté Dukly zvítězili v 15. kole druhé ligy na hřišti třineckého nováčka 2:1 a po třetí výhře za sebou ztrácejí na vedoucí Karvinou už jen bod."
+          },
+          {
+            "en": "The table leaders had earlier lost 3:1 at home to Baník Ostrava's reserve team while two men down, with Šimon Drozd settling the Silesian derby with two goals.",
+            "cs": "Lídr tabulky předtím doma ve dvojnásobném oslabení prohrál s rezervou Baníku Ostrava 1:3, slezské derby rozhodl dvěma góly Šimon Drozd."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "trail",
+            "definition": "to be behind someone else in a competition"
+          },
+          {
+            "term": "newly promoted",
+            "definition": "having just moved up from a lower division"
+          },
+          {
+            "term": "reserve team",
+            "definition": "a club's second team, below the first team"
+          },
+          {
+            "term": "two men down",
+            "definition": "playing with two fewer players than the other team"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "19:51",
+      "day": "prev",
+      "headline": "Hokejový lídr Třinec prohrál v Litvínově 2:5",
+      "body": "Hokejisté Třince sice dál vedou extraligovou tabulku, ve 20. kole ale prohráli v Litvínově 2:5; čtyřmi body za dvě branky a dvě asistence se na výhře podílel David Kaše. Pardubice otočily zápas v Plzni a zvítězily 4:3 po dvou gólech Jakuba Lauka, Olomouc doma zdolala Liberec 4:2.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "Hradecký deník",
+          "url": "https://www.denik.cz/hokej/tipsport-extraliga-vysledky-20-kolo-trinec-litvinov-plzen-pardubice-karlovy-vary-vitkovice-kometa-kladno/"
+        },
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/hokej/zaslouzili-jsme-si-vyhrat-tou-bojovnosti-rekl-kase-po-cennem-triumfu-nad-trincem-160051"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/hokej-extraliga-skoro-rok-bez-golu-pardubicky-dric-stylove-prolomil-mlceni-5579923"
+        }
+      ],
+      "en": {
+        "headline": "League leaders Třinec lost 5:2 in Litvínov",
+        "sentences": [
+          {
+            "en": "Třinec's ice hockey players still lead the Extraliga table, but in the 20th round they lost 5:2 in Litvínov; David Kaše contributed four points, two goals and two assists, to the win.",
+            "cs": "Hokejisté Třince sice dál vedou extraligovou tabulku, ve 20. kole ale prohráli v Litvínově 2:5; čtyřmi body za dvě branky a dvě asistence se na výhře podílel David Kaše."
+          },
+          {
+            "en": "Pardubice turned the game around in Plzeň and won 4:3 thanks to two goals from Jakub Lauko, and Olomouc beat Liberec 4:2 at home.",
+            "cs": "Pardubice otočily zápas v Plzni a zvítězily 4:3 po dvou gólech Jakuba Lauka, Olomouc doma zdolala Liberec 4:2."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "assists",
+            "definition": "passes that directly help a teammate to score"
+          },
+          {
+            "term": "turned the game around",
+            "definition": "changed a losing position into a winning one"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "08:21",
+      "headline": "Kvalifikaci v Las Vegas vyhrál Antonelli, z pole position ale vyjede Verstappen",
+      "body": "Kvalifikaci na Velkou cenu Las Vegas vyhrál již jistý mistr světa Kimi Antonelli z Mercedesu, kvůli penalizaci za výměnu pohonné jednotky ale odstartuje až ze šestého místa. Z pole position tak vyjede Max Verstappen z Red Bullu, který za Antonellim zaostal o 258 tisícin sekundy, v první řadě ho doplní George Russell. Zklamáním kvalifikace bylo podle Sport.cz Ferrari.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/motorsport/nejrychlejsi-byl-v-kvalifikaci-v-las-vegas-antonelli-z-pole-position-vyjede-verstappen-160052"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/moto-formule-1-kvalifikaci-v-las-vegas-vyhral-antonelli-na-startu-se-ale-propadne-ferrari-vyhorelo-5580020"
+        },
+        {
+          "name": "Deník N",
+          "url": "https://denikn.cz/minuta/2265582/"
+        }
+      ],
+      "en": {
+        "headline": "Antonelli won qualifying in Las Vegas, but Verstappen will start from pole position",
+        "sentences": [
+          {
+            "en": "Qualifying for the Las Vegas Grand Prix was won by Kimi Antonelli of Mercedes, already the confirmed world champion, but a penalty for changing his power unit means he will start only sixth.",
+            "cs": "Kvalifikaci na Velkou cenu Las Vegas vyhrál již jistý mistr světa Kimi Antonelli z Mercedesu, kvůli penalizaci za výměnu pohonné jednotky ale odstartuje až ze šestého místa."
+          },
+          {
+            "en": "Max Verstappen of Red Bull will therefore line up on pole position, having finished 258 thousandths of a second behind Antonelli, with George Russell alongside him on the front row.",
+            "cs": "Z pole position tak vyjede Max Verstappen z Red Bullu, který za Antonellim zaostal o 258 tisícin sekundy, v první řadě ho doplní George Russell."
+          },
+          {
+            "en": "Ferrari were the disappointment of qualifying, according to Sport.cz.",
+            "cs": "Zklamáním kvalifikace bylo podle Sport.cz Ferrari."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "qualifying",
+            "definition": "the session before a race that decides the starting order"
+          },
+          {
+            "term": "penalty",
+            "definition": "a punishment given for breaking a rule"
+          },
+          {
+            "term": "line up",
+            "definition": "to take a position ready for the start"
+          },
+          {
+            "term": "front row",
+            "definition": "the first line of cars on the starting grid"
+          }
+        ]
+      }
+    },
+    {
+      "rubric": "Sport",
+      "time": "15:03",
+      "headline": "Dubovská dojela ve slalomu v Gurglu dvacátá a poprvé v sezoně bodovala",
+      "body": "Slalom Světového poháru v Gurglu vyhrála italská rodačka Lara Colturiová reprezentující Albánii a šest dní po dvacátých narozeninách se radovala z prvního triumfu v elitním seriálu. Česká lyžařka Martina Dubovská obsadila po zlepšení ve druhém kole 20. místo a poprvé v sezoně bodovala.",
+      "cross_source": true,
+      "sources": [
+        {
+          "name": "ČT Sport",
+          "url": "https://sport.ceskatelevize.cz/clanek/lyzovani-a-snowboarding/slalom-v-gurglu-vyhrala-colturiova-dubovska-dojela-dvacata-160056"
+        },
+        {
+          "name": "Sport.cz",
+          "url": "https://www.sport.cz/clanek/zimni-sporty-lyzovani-slalomarka-dubovska-postoupila-na-sp-v-gurglu-do-2-kola-5580035"
+        }
+      ],
+      "en": {
+        "headline": "Dubovská finished twentieth in the Gurgl slalom and scored her first points of the season",
+        "sentences": [
+          {
+            "en": "The World Cup slalom in Gurgl was won by Lara Colturi, born in Italy but representing Albania, who celebrated a first win in the elite series six days after a twentieth birthday.",
+            "cs": "Slalom Světového poháru v Gurglu vyhrála italská rodačka Lara Colturiová reprezentující Albánii a šest dní po dvacátých narozeninách se radovala z prvního triumfu v elitním seriálu."
+          },
+          {
+            "en": "The Czech skier Martina Dubovská improved in the second run to take 20th place and scored points for the first time this season.",
+            "cs": "Česká lyžařka Martina Dubovská obsadila po zlepšení ve druhém kole 20. místo a poprvé v sezoně bodovala."
+          }
+        ],
+        "glossary": [
+          {
+            "term": "slalom",
+            "definition": "a skiing race down a course marked by poles"
+          },
+          {
+            "term": "run",
+            "definition": "one of the two timed descents in a slalom race"
+          },
+          {
+            "term": "elite",
+            "definition": "the best or most important group"
+          }
+        ]
+      }
+    }
+  ],
+  "highlights_en": [
+    "The New Social Democracy elected Martin Matas, a thirty-one-year-old lawyer, as its chair at its first congress in Jihlava.",
+    "NATO Secretary General Mark Rutte came to Warsaw after Russian missiles and a drone fell in Poland, and assured that the Alliance is ready to protect its members.",
+    "The Supreme Audit Office calculated that the state budget ran its worst half-year deficit since 2023.",
+    "The price of bitcoin fell to a two-year low and a sell-off in technology shares wiped out the Nasdaq's gains for this year."
+  ]
+}
